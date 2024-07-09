@@ -1,0 +1,24 @@
+- type: entity
+  id: VehicleSecway
+  name: Secway
+  description: A simple personal transportation device.
+  components:
+    - type: Sprite
+      sprite: Objects/Vehicles/secway.rsi
+      state: vehicle
+    - type: Physics
+      bodyType: Dynamic
+    - type: RiddenVehicle
+      speed: 2.0
+    - type: Buckle
+      range: 1.0
+      delay: 0.5
+    - type: Strap
+      position: Stand
+      buckleOffset: "0,0"
+      size: 100
+    - type: Pullable
+    - type: UseDelay
+      delay: 0.5
+    - type: Item
+      size: Large
