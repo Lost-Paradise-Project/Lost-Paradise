@@ -113,6 +113,8 @@
     sprite: Nyanotrasen/Clothing/Head/Helmets/insulative_skullcap.rsi
   - type: Clothing
     sprite: Nyanotrasen/Clothing/Head/Helmets/insulative_skullcap.rsi
+  - type: TinfoilHat
+    destroyOnFry: false
   - type: Armor
     modifiers:
       coefficients:
@@ -120,6 +122,9 @@
         Slash: 0.85
         Piercing: 0.95
         Radiation: 0.95
+  - type: GuideHelp
+    guides:
+    - Psionics
 
 - type: entity
   parent: ClothingHeadBase
