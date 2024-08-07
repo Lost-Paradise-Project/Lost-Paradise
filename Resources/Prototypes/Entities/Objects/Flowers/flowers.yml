@@ -1,0 +1,66 @@
+# For flowers, whether edible or not. TODO: Tea Brewing System that uses flowers
+
+- type: entity
+  parent: BaseItem
+  id: FlowerBase
+  abstract: true
+  components:
+    - type: Appearance
+    - type: PotencyVisuals
+    - type: Produce
+    - type: SolutionContainerManager
+    - type: Sprite
+      state: flower
+
+# Azaleas
+
+- type: entity
+  name: azalea
+  parent: FlowerBase
+  id: FlowerAzalea
+  description: A pretty pink Azalea.
+  components:
+  - type: Clothing
+    slots:
+    - HEAD
+    quickEquip: false
+  - type: Sprite
+    sprite: Objects/Specific/Hydroponics/Flowers/azalea.rsi
+  - type: Produce
+    seedId: azalea
+  - type: Tag
+    tags:
+    - Flower
+
+- type: entity
+  name: blue azalea
+  parent: FlowerAzalea
+  id: FlowerAzaleaBlue
+  description: A pretty blue Azalea.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Hydroponics/Flowers/azaleablue.rsi
+  - type: Produce
+    seedId: azaleaBlue
+
+- type: entity
+  name: red azalea
+  parent: FlowerAzalea
+  id: FlowerAzaleaRed
+  description: A pretty red Azalea.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Hydroponics/Flowers/azaleared.rsi
+  - type: Produce
+    seedId: azaleaRed
+
+- type: entity
+  name: white azalea
+  parent: FlowerAzalea
+  id: FlowerAzaleaWhite
+  description: A pretty white Azalea.
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Hydroponics/Flowers/azaleawhite.rsi
+  - type: Produce
+    seedId: azaleaWhite

@@ -1,0 +1,53 @@
+- type: entity
+  parent: ClothingHandsGlovesSyntheticBase
+  id: ClothingHandsArmWarmers
+  name: coder warmers
+  description: The socks of the arms. Keeps things nice and cozy.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/coderwarmer.rsi
+    layers:
+    - state: icon
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/coderwarmer.rsi
+    clothingVisuals:
+      gloves:
+      - state: equipped-HAND
+  - type: Fiber
+    fiberColor: fibers-pink
+
+- type: entity
+  parent: ClothingHandsArmWarmers
+  id: ClothingHandsArmWarmersValid
+  name: blood-red coder warmers
+  description: "It's time to code maliciously while petting a syndicat!!! :3 :3"
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/codervalidwarmer.rsi
+    layers:
+    - state: icon
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/codervalidwarmer.rsi
+    clothingVisuals:
+      gloves:
+      - state: equipped-HAND
+  - type: Fiber
+    fiberColor: fibers-red
+
+- type: entity
+  parent: ClothingHandsArmWarmers
+  id: ClothingHandsArmWarmersBee
+  name: bee warmers
+  description: Make them biceps buzz!
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/beewarmer.rsi
+    layers:
+    - state: icon
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/beewarmer.rsi
+    clothingVisuals:
+      gloves:
+      - state: equipped-HAND
+  - type: Fiber
+    fiberColor: fibers-yellow

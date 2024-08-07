@@ -1501,3 +1501,86 @@
       Max: 10
       PotencyDivisor: 20
 
+- type: seed
+  id: azalea
+  name: seeds-azalea-name
+  noun: seeds-noun-seeds
+  displayName: seeds-azalea-display-name
+  plantRsi: Objects/Specific/Hydroponics/Flowers/azalea.rsi
+  packetPrototype: AzaleaSeeds
+  productPrototypes:
+    - FlowerAzalea
+  mutationPrototypes:
+    - azaleaBlue
+    - azaleaRed
+    - azaleaWhite
+  lifespan: 25
+  maturation: 10
+  production: 3
+  yield: 3
+  potency: 10
+  growthStages: 3
+  waterConsumption: 0.60
+
+- type: seed
+  id: azaleaBlue #parenting doesn't work here, I tried.
+  name: seeds-azaleablue-name
+  noun: seeds-noun-seeds
+  displayName: seeds-azaleablue-display-name
+  plantRsi: Objects/Specific/Hydroponics/Flowers/azaleablue.rsi
+  packetPrototype: AzaleaBlueSeeds
+  productPrototypes:
+    - FlowerAzaleaBlue
+  mutationPrototypes:
+    - azalea
+    - azaleaRed
+    - azaleaWhite
+  lifespan: 25
+  maturation: 10
+  production: 3
+  yield: 3
+  potency: 10
+  growthStages: 3
+  waterConsumption: 0.60
+
+- type: seed
+  id: azaleaRed
+  name: seeds-azaleared-name
+  noun: seeds-noun-seeds
+  displayName: seeds-azaleared-display-name
+  plantRsi: Objects/Specific/Hydroponics/Flowers/azaleared.rsi
+  packetPrototype: AzaleaRedSeeds
+  productPrototypes:
+    - FlowerAzaleaRed
+  mutationPrototypes:
+    - azalea
+    - azaleaBlue
+    - azaleaWhite
+  lifespan: 25
+  maturation: 10
+  production: 3
+  yield: 3
+  potency: 10
+  growthStages: 3
+  waterConsumption: 0.60
+
+- type: seed
+  id: azaleaWhite
+  name: seeds-azaleawhite-name
+  noun: seeds-noun-seeds
+  displayName: seeds-azaleawhite-display-name
+  plantRsi: Objects/Specific/Hydroponics/Flowers/azaleawhite.rsi
+  packetPrototype: AzaleaWhiteSeeds
+  productPrototypes:
+    - FlowerAzaleaWhite
+  mutationPrototypes:
+    - azalea
+    - azaleaBlue
+    - azaleaRed
+  lifespan: 25
+  maturation: 10
+  production: 3
+  yield: 3
+  potency: 10
+  growthStages: 3
+  waterConsumption: 0.60
