@@ -9,6 +9,16 @@
   group: market
 
 - type: cargoProduct
+  id: HydroponicsSeedsFlowers
+  icon:
+    sprite: Objects/Specific/Hydroponics/Flowers/azalea.rsi
+    state: seed
+  product: CrateHydroponicsSeedsFlowers
+  cost: 150
+  category: cargoproduct-category-name-hydroponics
+  group: market
+
+- type: cargoProduct
   id: HydroponicsSeedsMedicinal
   icon:
     sprite: Objects/Specific/Hydroponics/galaxythistle.rsi

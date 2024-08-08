@@ -45,6 +45,25 @@
         amount: 3
 
 - type: entity
+  id: CrateHydroponicsSeedsFlowers
+  parent: CrateHydroponics
+  name: flower seeds crate
+  description: Flower seeds, for all your beautifying uses.
+  components:
+  - type: StorageFill
+    contents:
+      - id: AzaleaSeeds
+        amount: 3
+      - id: AzaleaBlueSeeds
+        amount: 3
+      - id: AzaleaRedSeeds
+        amount: 3
+      - id: AzaleaWhiteSeeds
+        amount: 3
+      - id: PoppySeeds
+        amount: 3
+
+- type: entity
   id: CrateHydroponicsTools
   parent: CrateHydroponics
   name: hydroponics equipment crate
