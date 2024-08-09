@@ -12,7 +12,7 @@
     },
     {
       "name": "electrickettleboiling",
-      "delays": [0.3, 0.3, 0.3, 0.3, 0.3]
+      "delays": [[0.3, 0.3, 0.3, 0.3, 0.3]]
     },
     {
       "name": "inhand-left",
