@@ -134,9 +134,9 @@ namespace Content.Server.Kitchen.EntitySystems
                 }
             }
 
-            foreach (var recipeLeaf in recipe.Leaves)
+            foreach (var recipeSolid in recipe.Solids)
             {
-                for (var i = 0; i < recipeLeaf.Value; i++)
+                for (var i = 0; i < recipeSolid.Value; i++)
                 {
                     foreach (var item in component.Storage.ContainedEntities)
                     {
@@ -146,7 +146,7 @@ namespace Content.Server.Kitchen.EntitySystems
                             continue;
                         }
 
-                        if (metaData.EntityPrototype.ID == recipeLeaf.Key)
+                        if (metaData.EntityPrototype.ID == recipeSolid.Key)
                         {
                             _container.Remove(item, component.Storage);
                             EntityManager.DeleteEntity(item);

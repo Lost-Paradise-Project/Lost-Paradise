@@ -28,8 +28,8 @@ namespace Content.Shared.Kitchen
         [DataField("reagents")]
         public Dictionary<string, FixedPoint2> Reagents { get; private set; } = new();
 
-        [DataField("leaves")]
-        public IReadOnlyDictionary<string, FixedPoint2> Leaves => Leaves;
+        [DataField("solids")]
+        public IReadOnlyDictionary<string, FixedPoint2> Solids => Solids;
 
         [DataField("products")]
         public Dictionary<string, FixedPoint2> Products { get; private set; } = new();
@@ -48,7 +48,7 @@ namespace Content.Shared.Kitchen
         {
             FixedPoint2 n = 0;
             n += Reagents.Count; // number of distinct reagents
-            foreach (FixedPoint2 i in Leaves.Values) // sum the number of solid ingredients
+            foreach (FixedPoint2 i in Solids.Values) // sum the number of solid ingredients
             {
                 n += i;
             }
