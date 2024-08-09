@@ -1,6 +1,6 @@
 - type: kettleDrinkRecipe
   id: RecipeAzaleaTea
-  leaves:
+  solids:
     FlowerAzalea: 3
   minTemp: 373.15
   name: azalea tea recipe

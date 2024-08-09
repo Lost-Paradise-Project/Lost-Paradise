@@ -99,7 +99,7 @@ namespace Content.Server.Kitchen.EntitySystems
         private void SubtractContents(KettleComponent component, DrinkRecipePrototype recipe)
         {
 
-            var totalReagentsToRemove = new Dictionary<string, FixedPoint2>(recipe.Reagents);
+            var totalReagentsToRemove = new Dictionary<string, FixedPoint2>(recipe.IngredientsReagents);
 
             // yoinked this spaghetti from microwaves :p
             foreach (var item in component.Storage.ContainedEntities)
@@ -111,7 +111,7 @@ namespace Content.Server.Kitchen.EntitySystems
                 foreach (var (_, soln) in _solutionContainer.EnumerateSolutions((item, solMan)))
                 {
                     var solution = soln.Comp.Solution;
-                    foreach (var (reagent, _) in recipe.Reagents)
+                    foreach (var (reagent, _) in recipe.IngredientsReagents)
                     {
                         // removed everything
                         if (!totalReagentsToRemove.ContainsKey(reagent))
@@ -134,7 +134,7 @@ namespace Content.Server.Kitchen.EntitySystems
                 }
             }
 
-            foreach (var recipeSolid in recipe.Solids)
+            foreach (var recipeSolid in recipe.IngredientsSolids)
             {
                 for (var i = 0; i < recipeSolid.Value; i++)
                 {

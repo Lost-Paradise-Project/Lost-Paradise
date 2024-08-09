@@ -25,30 +25,23 @@ namespace Content.Shared.Kitchen
         [DataField("name")]
         private string _name = string.Empty;
 
-        [DataField("reagents")]
-        public Dictionary<string, FixedPoint2> Reagents { get; private set; } = new();
+        [DataField("reagents", customTypeSerializer: typeof(PrototypeIdDictionarySerializer<FixedPoint2, ReagentPrototype>))]
+        private Dictionary<string, FixedPoint2> _ingsReagents = new();
 
-        [DataField("solids")]
-        public IReadOnlyDictionary<string, FixedPoint2> Solids => Solids;
+        [DataField("solids", customTypeSerializer: typeof(PrototypeIdDictionarySerializer<FixedPoint2, EntityPrototype>))]
+        private Dictionary<string, FixedPoint2> _ingsSolids = new ();
 
-        [DataField("products")]
-        public Dictionary<string, FixedPoint2> Products { get; private set; } = new();
-
+        [DataField("product", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
+        public string Product { get; private set; } = string.Empty;
         public string Name => Loc.GetString(_name);
 
-        [DataDefinition]
-        public sealed partial class ReactantPrototype
-        {
-            [DataField("amount")]
-            private FixedPoint2 _amount = FixedPoint2.New(1);
-
-            public FixedPoint2 Amount => _amount;
-        }
+        public IReadOnlyDictionary<string, FixedPoint2> IngredientsReagents => _ingsReagents;
+        public IReadOnlyDictionary<string, FixedPoint2> IngredientsSolids => _ingsSolids;
         public FixedPoint2 IngredientCount()
         {
             FixedPoint2 n = 0;
-            n += Reagents.Count; // number of distinct reagents
-            foreach (FixedPoint2 i in Solids.Values) // sum the number of solid ingredients
+            n += _ingsReagents.Count; // number of distinct reagents
+            foreach (FixedPoint2 i in _ingsSolids.Values) // sum the number of solid ingredients
             {
                 n += i;
             }
