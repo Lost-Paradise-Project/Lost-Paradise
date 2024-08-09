@@ -1,0 +1,13 @@
+- type: reagent
+  id: AzaleaTea
+  name: reagent-name-azaleatea
+  group: Tea
+  desc: reagent-desc-azaleatea
+  physicalDesc: reagent-physical-desc-bright
+  flavor: flavor-complex-azalea-tea
+  color: "#ffb3c6"
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 3

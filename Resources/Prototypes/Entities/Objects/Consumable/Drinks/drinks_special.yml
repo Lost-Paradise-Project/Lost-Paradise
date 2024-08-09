@@ -107,3 +107,82 @@
   - type: Drink
   - type: Sprite
     sprite: Objects/Consumable/Drinks/jar_what.rsi
+
+- type: entity
+  parent: BaseItem
+  id: Kettle
+  name: Kettle
+  description: A plain, stainless-steel kettle. You can use it to brew teas.
+  components:
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+  - type: DrainableSolution
+    solution: drink
+  - type: DrawableSolution
+    solution: drink
+  - type: Drink
+  - type: EmitSoundOnDrop
+    sound: /Audio/SimpleStation14/Items/Handling/drinkglass_drop.ogg
+  - type: EmitSoundOnLand
+    sound: /Audio/SimpleStation14/Items/Handling/drinkglass_drop.ogg
+  - type: EmitSoundOnPickup
+    sound: /Audio/SimpleStation14/Items/Handling/drinkglass_pickup.ogg
+  - type: FitsInDispenser
+    solution: drink
+  - type: Item
+    size: Normal
+    sprite: Objects/Consumable/Drinks/kettle.rsi
+  - type: Kettle
+  - type: RefillableSolution
+    solution: drink
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 200
+        canMix: true
+  - type: SolutionContainerVisuals
+    maxFillLevels: 3
+    fillBaseName: kettle
+  - type: SolutionTransfer
+    canChangeTransferAmount: true
+  - type: Spillable
+    solution: drink
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/kettle.rsi
+    layers:
+      - state: kettle
+      - state: kettle1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+  - type: Storage
+    whitelist:
+      tags:
+      - Flower
+    maxItemSize: Small
+    grid:
+    - 0,0,3,2
+
+- type: entity
+  parent: Kettle
+  id: ElectricKettle
+  name: ElectricKettle
+  description: A fancy, self heating kettle. Runs off a power cell.
+  components:
+  - type: GenericVisualizer
+    visuals:
+      enum.PowerDeviceVisuals.VisualState:
+        enum.KettleVisualizerLayers.Base:
+          Idle: { state: "electrickettle" }
+          boiling: { state: "electrickettleboiling" }
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/electrickettle.rsi
+    layers:
+      - state: electrickettle
+      - state: electrickettle1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+  - type: SolutionContainerVisuals
+    maxFillLevels: 6
+    fillBaseName: electrickettle

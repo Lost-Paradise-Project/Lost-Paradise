@@ -55,7 +55,7 @@ namespace Content.Server.Chat
             if (suicideEvent.AttemptBlocked)
                 return false;
 
-            DefaultSuicideHandler(victim, suicideEvent);
+            DefaultSuicideHandler(victim, Event);
 
             ApplyDeath(victim, suicideEvent.Kind!.Value);
             _adminLogger.Add(LogType.Mind, $"{EntityManager.ToPrettyString(victim):player} suicided{(environmentSuicide ? " (environment)" : "")}");

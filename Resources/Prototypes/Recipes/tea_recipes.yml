@@ -1,0 +1,10 @@
+- type: kettleDrinkRecipe
+  id: RecipeAzaleaTea
+  leaves:
+    FlowerAzalea: 3
+  minTemp: 373.15
+  name: azalea tea recipe
+  reagents:
+    water: 200
+  products:
+    AzaleaTea: 200
