@@ -77,6 +77,7 @@ namespace Content.Shared.Damage
 
         [DataField]
         public ProtoId<StatusIconPrototype> RottingIcon = "HealthIconRotting";
+
     }
 
     [Serializable, NetSerializable]
