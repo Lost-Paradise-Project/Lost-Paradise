@@ -55,6 +55,7 @@ namespace Content.Server.Chat
             if (suicideEvent.AttemptBlocked)
                 return false;
 
+            DefaultSuicideHandler(victim, suicideEvent);
             DefaultSuicideHandler(victim, Event);
 
             ApplyDeath(victim, suicideEvent.Kind!.Value);

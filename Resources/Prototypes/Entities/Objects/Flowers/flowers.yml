@@ -15,9 +15,9 @@
 # Azaleas
 
 - type: entity
-  name: azalea
   parent: FlowerBase
   id: FlowerAzalea
+  name: azalea
   description: A pretty pink Azalea.
   components:
   - type: Clothing
@@ -33,9 +33,9 @@
     - Flower
 
 - type: entity
-  name: blue azalea
   parent: FlowerAzalea
   id: FlowerAzaleaBlue
+  name: blue azalea
   description: A pretty blue Azalea.
   components:
   - type: Sprite
@@ -44,9 +44,9 @@
     seedId: azaleaBlue
 
 - type: entity
-  name: red azalea
   parent: FlowerAzalea
   id: FlowerAzaleaRed
+  name: red azalea
   description: A pretty red Azalea.
   components:
   - type: Sprite
@@ -55,9 +55,9 @@
     seedId: azaleaRed
 
 - type: entity
-  name: white azalea
   parent: FlowerAzalea
   id: FlowerAzaleaWhite
+  name: white azalea
   description: A pretty white Azalea.
   components:
   - type: Sprite

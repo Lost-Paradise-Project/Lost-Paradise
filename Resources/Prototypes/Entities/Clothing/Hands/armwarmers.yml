@@ -20,7 +20,7 @@
   parent: ClothingHandsArmWarmers
   id: ClothingHandsArmWarmersValid
   name: blood-red coder warmers
-  description: "It's time to code maliciously while petting a syndicat!!! :3 :3"
+  description: It's time to code, but like, with evil intent.
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/codervalidwarmer.rsi

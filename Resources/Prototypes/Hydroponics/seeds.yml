@@ -1523,7 +1523,7 @@
   waterConsumption: 0.60
 
 - type: seed
-  id: azaleaBlue #parenting doesn't work here, I tried.
+  id: azaleaBlue
   name: seeds-azaleablue-name
   noun: seeds-noun-seeds
   displayName: seeds-azaleablue-display-name

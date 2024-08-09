@@ -574,8 +574,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of azalea seeds
   id: AzaleaSeeds
+  name: packet of azalea seeds
   components:
     - type: Seed
       seedId: azalea
@@ -594,8 +594,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of red azalea seeds
   id: AzaleaRedSeeds
+  name: packet of red azalea seeds
   components:
     - type: Seed
       seedId: azaleaRed
@@ -604,8 +604,8 @@
 
 - type: entity
   parent: SeedBase
-  name: packet of white azalea seeds
   id: AzaleaWhiteSeeds
+  name: packet of white azalea seeds
   components:
     - type: Seed
       seedId: azaleaWhite
