@@ -249,6 +249,9 @@ flavor-complex-antifreeze = warm
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 flavor-complex-pilk = like sweet milk
 
+## Tastes
+flavor-complex-azalea-tea = like sweet flowers
+
 # Medicine/chemical-specific flavors.
 
 ## Generic flavors.

@@ -19,7 +19,7 @@ namespace Content.Shared.Kitchen
         [DataField("name")]
         private string _name = string.Empty;
 
-        [DataField("reagents", customTypeSerializer:typeof(PrototypeIdDictionarySerializer<FixedPoint2, ReagentPrototype>))]
+        [DataField("reagents", customTypeSerializer: typeof(PrototypeIdDictionarySerializer<FixedPoint2, ReagentPrototype>))]
         private Dictionary<string, FixedPoint2> _ingsReagents = new();
 
         [DataField("solids", customTypeSerializer: typeof(PrototypeIdDictionarySerializer<FixedPoint2, EntityPrototype>))]

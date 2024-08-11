@@ -16,7 +16,7 @@
   parent: ClothingShoesBase
   id: ClothingUnderSocksCoder
   name: coder socks
-  description: It's time to code sisters!!11!
+  description: It's time to code.
   components:
   - type: Sprite
     sprite: Clothing/Under/Socks/coder.rsi

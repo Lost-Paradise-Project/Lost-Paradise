@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "DakoDragon, DiscordID: 56038550335922176",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "kettle"
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "kettle1"
+    },
+    {
+      "name": "kettle2"
+    },
+    {
+      "name": "kettle3"
+    }
+  ]
+}

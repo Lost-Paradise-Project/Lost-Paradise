@@ -12,6 +12,7 @@
           state: seed
     - type: RandomSpawner
       prototypes:
+        - AzaleaSeeds
         - WheatSeeds
         - OatSeeds
         - BananaSeeds

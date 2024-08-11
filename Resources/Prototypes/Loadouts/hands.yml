@@ -121,3 +121,15 @@
   exclusive: true
   items:
     - ClothingHandsGlovesFingerless
+
+- type: loadout
+  id: LoadoutHandsArmWarmersBee
+  category: Hands
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Botanist
+  items:
+    - ClothingHandsArmWarmersBee

@@ -1,0 +1,43 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformDressAzalea
+  name: azalea dress
+  description: An evening gown seemingly made of flower petals, the exact manufacturing method is unknown.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Costume/azaleadress.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Costume/azaleadress.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformDressAzaleaBlue
+  name: blue azalea dress
+  description: An evening gown seemingly made of flower petals, the exact manufacturing method is unknown.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Costume/azaleadressblue.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Costume/azaleadressblue.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformDressAzaleaRed
+  name: red azalea dress
+  description: An evening gown seemingly made of flower petals, the exact manufacturing method is unknown.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Costume/azaleadressred.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Costume/azaleadressred.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformDressAzaleaWhite
+  name: white azalea dress
+  description: An evening gown seemingly made of flower petals, the exact manufacturing method is unknown.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Costume/azaleadresswhite.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Costume/azaleadresswhite.rsi

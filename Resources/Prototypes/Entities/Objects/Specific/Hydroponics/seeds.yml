@@ -571,3 +571,43 @@
       seedId: cotton
     - type: Sprite
       sprite: Objects/Specific/Hydroponics/cotton.rsi
+
+- type: entity
+  parent: SeedBase
+  id: AzaleaSeeds
+  name: packet of azalea seeds
+  components:
+    - type: Seed
+      seedId: azalea
+    - type: Sprite
+      sprite: Objects/Specific/Hydroponics/Flowers/azalea.rsi
+
+- type: entity
+  parent: SeedBase
+  name: packet of blue azalea seeds
+  id: AzaleaBlueSeeds
+  components:
+    - type: Seed
+      seedId: azaleaBlue
+    - type: Sprite
+      sprite: Objects/Specific/Hydroponics/Flowers/azaleablue.rsi
+
+- type: entity
+  parent: SeedBase
+  id: AzaleaRedSeeds
+  name: packet of red azalea seeds
+  components:
+    - type: Seed
+      seedId: azaleaRed
+    - type: Sprite
+      sprite: Objects/Specific/Hydroponics/Flowers/azaleared.rsi
+
+- type: entity
+  parent: SeedBase
+  id: AzaleaWhiteSeeds
+  name: packet of white azalea seeds
+  components:
+    - type: Seed
+      seedId: azaleaWhite
+    - type: Sprite
+      sprite: Objects/Specific/Hydroponics/Flowers/azaleawhite.rsi
