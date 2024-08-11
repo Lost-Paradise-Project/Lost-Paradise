@@ -103,6 +103,16 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
             _guidebook.ToggleGuidebook();
         };
 
+        _escapeWindow.OpenDiscordButton.OnPressed += _ =>
+        {
+            _uri.OpenUri("https://discord.gg/v5mGmMzAdB");
+        };
+
+        _escapeWindow.OpenBoostyButton.OnPressed += _ =>
+        {
+            _uri.OpenUri("https://boosty.to/lost-paradise");
+        };
+
         // Hide wiki button if we don't have a link for it.
         _escapeWindow.WikiButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWiki) != "";
 
