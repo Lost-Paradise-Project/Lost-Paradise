@@ -14,6 +14,8 @@
   name: Zero Days Since Last Idiot
   description: Must be an Engineering joke.
   components:
+  - type: Transform
+    noRot: true
   - type: Sprite
     sprite: Nyanotrasen/Structures/Wallmounts/last_idiot.rsi
     state: icon
@@ -25,6 +27,8 @@
   name: conspiracy board
   description: Perfect for tracking the multiple layers of criminal activities.
   components:
+  - type: Transform
+    noRot: true
   - type: Sprite
     sprite: Nyanotrasen/Structures/Wallmounts/conspiracy_board.rsi
     state: icon
