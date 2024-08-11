@@ -2382,6 +2382,12 @@ namespace Content.Shared.CCVar
             CVarDef.Create("contests.do_mind_contests", true, CVar.REPLICATED | CVar.SERVER);
 
         /// <summary>
+        ///     Toggles all MoodContest functions. All mood contests output 1f when false.
+        /// </summary>
+        public static readonly CVarDef<bool> DoMoodContests =
+            CVarDef.Create("contests.do_mood_contests", true, CVar.REPLICATED | CVar.SERVER);
+
+        /// <summary>
         ///     The maximum amount that Mass Contests can modify a physics multiplier, given as a +/- percentage
         ///     Default of 0.25f outputs between * 0.75f and 1.25f
         /// </summary>
@@ -2437,6 +2443,19 @@ namespace Content.Shared.CCVar
         public static readonly CVarDef<float> SupermatterRadsModifier =
             CVarDef.Create("supermatter.rads_modifier", 1f, CVar.SERVER);
 
+        #endregion
+
+        #region Mood System
+
+
+        public static readonly CVarDef<bool> DoMoodSystem =
+            CVarDef.Create("mood.do_mood_system", true, CVar.SERVER);
+
+        public static readonly CVarDef<bool> MoodIncreasesSpeed =
+            CVarDef.Create("mood.increases_speed", true, CVar.SERVER);
+
+        public static readonly CVarDef<bool> MoodDecreasesSpeed =
+            CVarDef.Create("mood.decreases_speed", true, CVar.SERVER);
         #endregion
     }
 }
