@@ -20,6 +20,7 @@ wires-board-name-ape = М.А.К.А.К.
 wires-board-name-anomalygenerator = Генератор аномалий
 wires-board-name-cloningpod = Капсула клонирования
 wires-board-name-cryopod = Криокапсула
+wires-board-name-chemdispenser = Раздатчик химикатов
 #wires-board-name-chemdispenser = Раздатчик химикатов
 wires-board-name-chemmaster = Мастер химикатов
 wires-board-name-generator = Генератор

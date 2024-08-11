@@ -15,6 +15,7 @@ research-technology-industrial-engineering = Промышленная инжен
 research-technology-power-generation = Генерация электроэнергии
 research-technology-atmospheric-tech = Атмосферные технологии
 research-technology-shuttlecraft = Шаттлостроение
+research-technology-mechanized-salvaging = Механизированная утилизация
 research-technology-ripley-aplu = Рипли АВП
 research-technology-advanced-atmospherics = Продвинутые атмос-технологии
 research-technology-advanced-tools = Продвинутые инструменты

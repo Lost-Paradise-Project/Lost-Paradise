@@ -4,6 +4,9 @@ particle-accelerator-control-menu-service-manual-reference = См. стр. 132 �
 particle-accelerator-control-menu-device-version-label = Ускоритель частиц Mark 2
 particle-accelerator-control-menu-power-label = [bold]Питание:[/bold]
 particle-accelerator-control-menu-strength-label = [bold]Сила:[/bold]
+particle-accelerator-control-menu-alarm-control =
+    ПРОЧНОСТЬ ЧАСТИЦ
+    ОТКАЗ ОГРАНИЧИТЕЛЯ
 particle-accelerator-control-menu-alarm-control-1 = [bold][color=red]МОЩНОСТЬ ЧАСТИЦ[/bold][/color]
 particle-accelerator-control-menu-alarm-control-2 = [bold][color=red]СБОЙ ОГРАНИЧИТЕЛЯ[/bold][/color]
 particle-accelerator-control-menu-scan-parts-button = Сканировать части

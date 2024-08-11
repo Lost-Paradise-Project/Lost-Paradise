@@ -65,6 +65,8 @@ petting-success-janitor-cyborg = Вы гладите { $target } по { POSS-ADJ
 petting-success-medical-cyborg = Вы гладите { $target } по { POSS-ADJ($target) } стерильной металлической голове.
 petting-success-service-cyborg = Вы гладите { $target } по { POSS-ADJ($target) } нарядной металлической голове.
 petting-success-syndicate-cyborg = Вы гладите { $target } по { POSS-ADJ($target) } угрожающего вида металлической голове.
+# Shown when knocking on a window
+comp-window-knock = *тук тук*
 petting-failure-honkbot = Вы тянетесь погладить { $target }, но { $target } хонкает и уворачивается!
 petting-success-recycler = Вы гладите { $target } по { POSS-ADJ($target) } слегка пугающему стальному покрытию.
 petting-failure-cleanbot = Вы тянетесь погладить { $target }, но { $target } занимается уборкой!
