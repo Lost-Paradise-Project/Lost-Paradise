@@ -130,6 +130,8 @@
     tags:
     - CannotSuicide
     - DoorBumpOpener
+  - type: TTS # Corvax-TTS
+    voice: Astral
 
 - type: entity
   parent: BaseMobDragon

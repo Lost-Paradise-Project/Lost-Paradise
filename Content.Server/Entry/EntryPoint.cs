@@ -4,6 +4,7 @@ using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
 using Content.Server.Afk;
 using Content.Server.Chat.Managers;
+using Content.Server.Corvax.TTS;
 using Content.Server.Connection;
 using Content.Server.DiscordAuth;
 using Content.Server.JoinQueue;
@@ -103,6 +104,7 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<INodeGroupFactory>().Initialize();
                 IoCManager.Resolve<ContentNetworkResourceManager>().Initialize();
                 IoCManager.Resolve<GhostKickManager>().Initialize();
+                IoCManager.Resolve<TTSManager>().Initialize(); // LPP-TTS
                 IoCManager.Resolve<ServerInfoManager>().Initialize();
                 IoCManager.Resolve<JoinQueueManager>().Initialize();
                 IoCManager.Resolve<DiscordAuthManager>().Initialize();

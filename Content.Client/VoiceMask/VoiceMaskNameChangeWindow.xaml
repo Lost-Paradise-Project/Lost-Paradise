@@ -13,4 +13,10 @@
             <OptionButton Name="SpeechVerbSelector" /> <!-- Populated in LoadVerbs -->
         </BoxContainer>
     </BoxContainer>
+    <!-- LPP-TTS-Start -->
+    <BoxContainer Orientation="Horizontal" Margin="5">
+        <Label Text="{Loc 'voice-mask-voice-change-info'}" />
+        <OptionButton Name="VoiceSelector" /> <!-- Populated in LoadVerbs -->
+    </BoxContainer>
+    <!-- LPP-TTS-End -->
 </controls:FancyWindow>

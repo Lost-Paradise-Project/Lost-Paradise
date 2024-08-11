@@ -80,6 +80,8 @@
       interactFailureString: petting-failure-carp
       interactFailureSound:
         path: /Audio/Effects/bite.ogg
+    - type: TTS # Corvax-TTS
+      voice: Astral
 
 - type: entity
   parent: BaseMobCarp

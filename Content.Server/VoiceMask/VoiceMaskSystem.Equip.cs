@@ -23,6 +23,11 @@ public sealed partial class VoiceMaskSystem
         comp.VoiceName = component.LastSetName;
         comp.SpeechVerb = component.LastSpeechVerb;
 
+        // LPP-TTS-Start
+        if (component.LastSetVoice != null)
+            comp.VoiceId = component.LastSetVoice;
+        // LPP-TTS-End
+
         _actions.AddAction(user, ref component.ActionEntity, component.Action, uid);
     }
 

@@ -1,0 +1,262 @@
+﻿- type: ttsVoice
+  id: Aidar
+  name: tts-voice-name-aidar
+  sex: Male
+  speaker: aidar
+
+- type: ttsVoice
+  id: Baya
+  name: tts-voice-name-baya
+  sex: Unsexed
+  speaker: baya
+
+- type: ttsVoice
+  id: Kseniya
+  name: tts-voice-name-kseniya
+  sex: Female
+  speaker: kseniya
+
+- type: ttsVoice
+  id: Xenia
+  name: tts-voice-name-xenia
+  sex: Female
+  speaker: xenia
+
+- type: ttsVoice
+  id: Eugene
+  name: tts-voice-name-eugene
+  sex: Male
+  speaker: eugene
+
+- type: ttsVoice
+  id: Garithos
+  name: tts-voice-name-garithos
+  sex: Male
+  speaker: garithos
+  roundStart: false
+
+- type: ttsVoice
+  id: Maiev
+  name: tts-voice-name-maiev
+  sex: Female
+  speaker: maiev
+  roundStart: false
+
+- type: ttsVoice
+  id: Myron
+  name: tts-voice-name-myron
+  sex: Unsexed
+  speaker: myron
+  roundStart: false
+
+- type: ttsVoice
+  id: Oleg
+  name: tts-voice-name-oleg
+  sex: Male
+  speaker: oleg
+
+- type: ttsVoice
+  id: Zina
+  name: tts-voice-name-zina
+  sex: Female
+  speaker: zina
+
+- type: ttsVoice
+  id: Albina
+  name: tts-voice-name-albina
+  sex: Female
+  speaker: albina
+
+- type: ttsVoice
+  id: Alena
+  name: tts-voice-name-alena
+  sex: Female
+  speaker: alena
+
+- type: ttsVoice
+  id: Alexsey
+  name: tts-voice-name-alexsey
+  sex: Male
+  speaker: alexsey
+
+- type: ttsVoice
+  id: Andelina
+  name: tts-voice-name-andelina
+  sex: Female
+  speaker: andelina
+
+- type: ttsVoice
+  id: Anna
+  name: tts-voice-name-anna
+  sex: Female
+  speaker: anna
+
+- type: ttsVoice
+  id: Astral
+  name: tts-voice-name-astral
+  sex: Unsexed
+  speaker: astral
+  roundStart: false
+
+- type: ttsVoice
+  id: Atbaz
+  name: tts-voice-name-atbaz
+  sex: Unsexed
+  speaker: atbaz
+  roundStart: false
+
+- type: ttsVoice
+  id: Jarvis
+  name: tts-voice-name-jarvis
+  sex: Unsexed
+  speaker: jarvis
+  roundStart: false
+
+- type: ttsVoice
+  id: Jenia
+  name: tts-voice-name-jenia
+  sex: Unsexed
+  speaker: jenia
+
+- type: ttsVoice
+  id: Karina
+  name: tts-voice-name-karina
+  sex: Female
+  speaker: karina
+
+- type: ttsVoice
+  id: Katia
+  name: tts-voice-name-katia
+  sex: Female
+  speaker: katia
+
+- type: ttsVoice
+  id: Lena
+  name: tts-voice-name-lena
+  sex: Female
+  speaker: lena
+
+- type: ttsVoice
+  id: Maria
+  name: tts-voice-name-maria
+  sex: Female
+  speaker: maria
+
+- type: ttsVoice
+  id: Mira
+  name: tts-voice-name-mira
+  sex: Female
+  speaker: mira
+
+- type: ttsVoice
+  id: Olga
+  name: tts-voice-name-olga
+  sex: Female
+  speaker: olga
+
+- type: ttsVoice
+  id: Polina
+  name: tts-voice-name-polina
+  sex: Female
+  speaker: polina
+
+- type: ttsVoice
+  id: Revenant
+  name: tts-voice-name-revenant
+  sex: Unsexed
+  speaker: revenant
+  roundStart: false
+
+- type: ttsVoice
+  id: Rita
+  name: tts-voice-name-rita
+  sex: Female
+  speaker: rita
+
+- type: ttsVoice
+  id: Robo1
+  name: tts-voice-name-robo1
+  sex: Unsexed
+  speaker: robo1
+  roundStart: false
+
+- type: ttsVoice
+  id: Robo2
+  name: tts-voice-name-robo2
+  sex: Unsexed
+  speaker: robo2
+  roundStart: false
+
+- type: ttsVoice
+  id: Sasha
+  name: tts-voice-name-sasha
+  sex: Unsexed
+  speaker: sasha
+
+- type: ttsVoice
+  id: Sveta
+  name: tts-voice-name-sveta
+  sex: Female
+  speaker: sveta
+
+- type: ttsVoice
+  id: Taras
+  name: tts-voice-name-taras
+  sex: Male
+  speaker: taras
+
+- type: ttsVoice
+  id: Tikva
+  name: tts-voice-name-tikva
+  sex: Unsexed
+  speaker: tikva
+  roundStart: false
+
+- type: ttsVoice
+  id: Vally
+  name: tts-voice-name-vally
+  sex: Unsexed
+  speaker: vally
+  roundStart: false
+
+- type: ttsVoice
+  id: Viktoria
+  name: tts-voice-name-viktoria
+  sex: Female
+  speaker: viktoria
+
+- type: ttsVoice
+  id: Jacov
+  name: tts-voice-name-jacov
+  sex: Male
+  speaker: jacov
+
+- type: ttsVoice
+  id: Vladimir
+  name: tts-voice-name-vladimir
+  sex: Male
+  speaker: vladimir
+
+- type: ttsVoice
+  id: Dmitrii
+  name: tts-voice-name-dmitrii
+  sex: Male
+  speaker: dmitrii
+
+- type: ttsVoice
+  id: Julia
+  name: tts-voice-name-julia
+  sex: Female
+  speaker: julia
+
+- type: ttsVoice
+  id: Roman
+  name: tts-voice-name-roman
+  sex: Male
+  speaker: roman
+
+- type: ttsVoice
+  id: Veniamin
+  name: tts-voice-name-veniamin
+  sex: Male
+  speaker: veniamin

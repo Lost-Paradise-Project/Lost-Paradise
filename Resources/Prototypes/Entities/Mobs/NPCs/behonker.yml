@@ -112,6 +112,8 @@
           Radiation: 10
     - type: Input
       context: "human"
+    - type: TTS # Corvax-TTS
+      voice: Astral
     - type: Bloodstream
       bloodMaxVolume: 300
       bloodReagent: Laughter

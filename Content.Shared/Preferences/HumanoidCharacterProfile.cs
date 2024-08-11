@@ -2,6 +2,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using Content.Shared.CCVar;
 using Content.Shared.Clothing.Loadouts.Prototypes;
+using Content.Shared.Corvax.TTS;
 using Content.Shared.GameTicking;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Prototypes;
@@ -36,6 +37,7 @@ namespace Content.Shared.Preferences
             string name,
             string flavortext,
             string species,
+            string voice, // LPP-TTS
             float height,
             float width,
             int age,
@@ -54,6 +56,7 @@ namespace Content.Shared.Preferences
             Name = name;
             FlavorText = flavortext;
             Species = species;
+            Voice = voice; // LPP-TTS
             Height = height;
             Width = width;
             Age = age;
@@ -77,7 +80,7 @@ namespace Content.Shared.Preferences
             List<string> antagPreferences,
             List<string> traitPreferences,
             List<string> loadoutPreferences)
-            : this(other.Name, other.FlavorText, other.Species, other.Height, other.Width, other.Age, other.Sex, other.Gender, other.Appearance,
+            : this(other.Name, other.FlavorText, other.Species, other.Voice, other.Height, other.Width, other.Age, other.Sex, other.Gender, other.Appearance,
                 other.Clothing, other.Backpack, other.SpawnPriority, jobPriorities, other.PreferenceUnavailable,
                 antagPreferences, traitPreferences, loadoutPreferences)
         {
@@ -95,6 +98,7 @@ namespace Content.Shared.Preferences
             string name,
             string flavortext,
             string species,
+            string voice, // LPP-TTS
             float height,
             float width,
             int age,
@@ -109,7 +113,7 @@ namespace Content.Shared.Preferences
             IReadOnlyList<string> antagPreferences,
             IReadOnlyList<string> traitPreferences,
             IReadOnlyList<string> loadoutPreferences)
-            : this(name, flavortext, species, height, width, age, sex, gender, appearance, clothing, backpack, spawnPriority,
+            : this(name, flavortext, species, voice, height, width, age, sex, gender, appearance, clothing, backpack, spawnPriority,
                 new Dictionary<string, JobPriority>(jobPriorities), preferenceUnavailable,
                 new List<string>(antagPreferences), new List<string>(traitPreferences),
                 new List<string>(loadoutPreferences))
@@ -125,6 +129,7 @@ namespace Content.Shared.Preferences
             "John Doe",
             "",
             SharedHumanoidAppearanceSystem.DefaultSpecies,
+            SharedHumanoidAppearanceSystem.DefaultVoice, // LPP-TTS
             1f,
             1f,
             18,
@@ -156,6 +161,7 @@ namespace Content.Shared.Preferences
                 "John Doe",
                 "",
                 species,
+                SharedHumanoidAppearanceSystem.DefaultVoice, // LPP-TTS
                 1f,
                 1f,
                 18,
@@ -207,6 +213,13 @@ namespace Content.Shared.Preferences
                 width = random.NextFloat(speciesPrototype.MinWidth, speciesPrototype.MaxWidth);
             }
 
+            // LPP-TTS-Start
+            var voiceId = random.Pick(prototypeManager
+                .EnumeratePrototypes<TTSVoicePrototype>()
+                .Where(o => CanHaveVoice(o, sex)).ToArray()
+            ).ID;
+            // LPP-TTS-End
+
             var gender = Gender.Epicene;
 
             switch (sex)
@@ -221,7 +234,7 @@ namespace Content.Shared.Preferences
 
             var name = GetName(species, gender);
 
-            return new HumanoidCharacterProfile(name, "", species, height, width, age, sex, gender,
+            return new HumanoidCharacterProfile(name, "", species, voiceId, height, width, age, sex, gender,
                 HumanoidCharacterAppearance.Random(species, sex), ClothingPreference.Jumpsuit,
                 BackpackPreference.Backpack, SpawnPriorityPreference.None,
                 new Dictionary<string, JobPriority>
@@ -234,6 +247,7 @@ namespace Content.Shared.Preferences
         public string FlavorText { get; private set; }
         [DataField("species")]
         public string Species { get; private set; }
+        public string Voice { get; private set; } // LPP-TTS
 
         [DataField("height")]
         public float Height { get; private set; }
@@ -292,6 +306,13 @@ namespace Content.Shared.Preferences
         {
             return new(this) { Species = species };
         }
+
+        // LPP-TTS-Start
+        public HumanoidCharacterProfile WithVoice(string voice)
+        {
+            return new(this) { Voice = voice };
+        }
+        // LPP-TTS-End
 
         public HumanoidCharacterProfile WithHeight(float height)
         {
@@ -651,9 +672,22 @@ namespace Content.Shared.Preferences
             _traitPreferences.Clear();
             _traitPreferences.AddRange(traits);
 
+            // LPP-TTS-Start
+            prototypeManager.TryIndex<TTSVoicePrototype>(Voice, out var voice);
+            if (voice is null || !CanHaveVoice(voice, Sex))
+                Voice = SharedHumanoidAppearanceSystem.DefaultSexVoice[sex];
+            // LPP-TTS-End
+
             _loadoutPreferences.Clear();
             _loadoutPreferences.AddRange(loadouts);
         }
+
+        // LPP-TTS-Start
+        public static bool CanHaveVoice(TTSVoicePrototype voice, Sex sex)
+        {
+            return voice.RoundStart && sex == Sex.Unsexed || (voice.Sex == sex || voice.Sex == Sex.Unsexed);
+        }
+        // LPP-TTS-End
 
         public ICharacterProfile Validated(ICommonSession session, IDependencyCollection collection)
         {

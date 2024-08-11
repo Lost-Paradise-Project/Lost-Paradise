@@ -106,6 +106,8 @@
   - type: TypingIndicator
     proto: robot
   - type: ZombieImmune
+  - type: TTS
+    voice: Jarvis
   - type: LanguageKnowledge
     speaks:
     - GalacticCommon

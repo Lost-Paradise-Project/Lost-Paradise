@@ -576,6 +576,8 @@
     - VimPilot
   - type: StealTarget
     stealGroup: AnimalRenault
+  - type: TTS # Corvax-TTS
+    voice: Baya
   - type: LanguageKnowledge
     speaks:
     - Fox
@@ -807,6 +809,8 @@
     attributes:
       proper: true
       gender: female
+  - type: TTS # Corvax-TTS
+    voice: Sasha
   - type: LanguageKnowledge
     speaks:
     - Bubblish

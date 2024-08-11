@@ -124,6 +124,14 @@
                             <BoxContainer HorizontalExpand="True">
                                 <Label Name="CWeightLabel" />
                             </BoxContainer>
+                            <!-- LPP-TTS-Start -->
+                            <BoxContainer HorizontalExpand="True">
+                                <Label Text="{Loc 'humanoid-profile-editor-voice-label'}" />
+                                <Control HorizontalExpand="True"/>
+                                <OptionButton Name="CVoiceButton" HorizontalAlignment="Right" />
+                                <Button Name="CVoicePlayButton" Text="{Loc 'humanoid-profile-editor-voice-play'}" MaxWidth="80" />
+                            </BoxContainer>
+                            <!-- LPP-TTS-End -->
                         </BoxContainer>
                         <!-- Skin -->
                         <BoxContainer Margin="10" HorizontalExpand="True" Orientation="Vertical">

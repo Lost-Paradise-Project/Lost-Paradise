@@ -238,6 +238,8 @@
     - AllAccessBorg
   - type: AccessReader
     access: [["Command"], ["Research"]]
+  - type: TTS # Corvax-TTS
+    voice: Vally
   - type: ShowSecurityIcons
 
 - type: entity
@@ -256,6 +258,8 @@
       access: [["SyndicateAgent"], ["NuclearOperative"]]
     - type: SiliconLawProvider
       laws: SyndicateStatic
+    - type: TTS # Corvax-TTS
+      voice: Vally
     - type: IntrinsicRadioTransmitter
       channels:
         - Binary

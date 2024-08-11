@@ -4,6 +4,7 @@ using Content.Shared.Preferences; // DeltaV
 using Robust.Shared.Enums;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
+using Content.Shared.Corvax.TTS;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
 using Content.Shared.Preferences; //DeltaV, used for Metempsychosis, Fugitive, and Paradox Anomaly
@@ -47,6 +48,14 @@ public sealed partial class HumanoidAppearanceComponent : Component
     /// </summary>
     [DataField(required: true), AutoNetworkedField]
     public ProtoId<SpeciesPrototype> Species { get; set; }
+
+    // LPP-TTS-Start
+    /// <summary>
+    ///     Current voice. Used for correct cloning.
+    /// </summary>
+    [DataField("voice")]
+    public ProtoId<TTSVoicePrototype> Voice { get; set; } = SharedHumanoidAppearanceSystem.DefaultVoice;
+    // LPP-TTS-End
 
     /// <summary>
     ///     The initial profile and base layers to apply to this humanoid.

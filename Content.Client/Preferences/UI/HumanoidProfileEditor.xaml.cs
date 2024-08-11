@@ -57,6 +57,8 @@ namespace Content.Client.Preferences.UI
         private Button _saveButton => CSaveButton;
         private OptionButton _sexButton => CSexButton;
         private OptionButton _genderButton => CPronounsButton;
+        private OptionButton _voiceButton => CVoiceButton; // LPP-TTS
+        private Button _voicePlayButton => CVoicePlayButton; // LPP-TTS
         private Slider _skinColor => CSkin;
         private OptionButton _clothingButton => CClothingButton;
         private OptionButton _backpackButton => CBackpackButton;
@@ -175,6 +177,14 @@ namespace Content.Client.Preferences.UI
             };
 
             #endregion Gender
+
+            // LPP-TTS-Start
+            #region Voice
+
+            InitializeVoice();
+
+            #endregion
+            // LPP-TTS-End
 
             #region Species
 
@@ -932,6 +942,7 @@ namespace Content.Client.Preferences.UI
                     break;
             }
             UpdateGenderControls();
+            UpdateTTSVoicesControls(); // LPP-TTS
             CMarkings.SetSex(newSex);
             IsDirty = true;
             UpdatePreview();
@@ -942,6 +953,14 @@ namespace Content.Client.Preferences.UI
             Profile = Profile?.WithGender(newGender);
             IsDirty = true;
         }
+
+        // LPP-TTS-Start
+        private void SetVoice(string newVoice)
+        {
+            Profile = Profile?.WithVoice(newVoice);
+            IsDirty = true;
+        }
+        // LPP-TTS-End
 
         private void SetSpecies(string newSpecies)
         {
@@ -1341,6 +1360,7 @@ namespace Content.Client.Preferences.UI
             UpdateLoadouts(_loadoutsShowUnusableButton.Pressed);
             UpdateLoadoutPreferences();
             UpdateMarkings();
+            UpdateTTSVoicesControls(); // LPP-TTS
             UpdateHairPickers();
             UpdateCMarkingsHair();
             UpdateCMarkingsFacialHair();
