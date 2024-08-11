@@ -3,7 +3,7 @@ name: No submodule update checker
 on:
   pull_request:
     paths:
-      - 'RobustToolbox'
+    - 'RobustToolbox'
 
 jobs:
   this_aint_right:

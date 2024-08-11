@@ -1,0 +1,12 @@
+﻿marking-HumanHairShortBedhead = Короткое изголовье
+marking-HumanHairBobClassic = Классические Волосы Боба
+marking-HumanHairMessyClassic = Грязная классика
+marking-HumanHairClassicGentle = Нежная классика
+marking-HumanHairClassicNoFade = Переливание (Нет, Классический)
+marking-HumanHairClassicLowFade = Переливание (Низкое, Классический)
+marking-HumanHairClassicMedFade = Переливание (Среднее, Классический)
+marking-HumanHairClassicOmbre = Омбре Классик
+marking-HumanHairClassicCrewcut = Классический Крюкат
+marking-HumanHairClassicLong = Длинные 1 (Классический)
+marking-HumanHairClassicLong2 = Длинные 2 (Классический)
+marking-HumanHairClassicLong3 = Длинные 3 (Классический)
