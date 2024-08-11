@@ -1,62 +1,25 @@
-<!--
-This is a semi-strict format, you can add/remove sections as needed but the order/format should be kept the same
-Remove these comments before submitting
--->
+# VIVA LA LOST PARADISE!
 
-# Description
+![image](https://i.imgur.com/3ALofgA.png)
 
-<!--
-Explain this PR in as much detail as applicable
+**Описание обновления:**
+<!--                         Например.
+ Я изменил все текстуры дверей на новые кроме, дверей ЦК и Адвоката.
+ Добавил возможность развести костёр кликая заженной спичкой по бревну.-->
 
-Some example prompts to consider:
-How might this affect the game? The codebase?
-What might be some alternatives to this?
-How/Who does this benefit/hurt [the game/codebase]?
--->
 
-Description.
+**Причина/Для чего**
+<!-- Описывайте здесь зачем и по какой причине сделано данное обновление -->
 
----
-
-# TODO
+**Изменения**
 
 <!--
-A list of everything you have to do before this PR is "complete"
-You probably won't have to complete everything before merging but it's good to leave future references
+:cl: *Ваше имя. Можно и на русском*
+- add: Добавлено *Что конкретно*.
+- remove: Убрано *Что конкретно*.
+- tweak: Изменено *Что конкретно*.
+- fix: Исправлено *Что конкретно*.
 -->
 
-- [ ] Task
-- [x] Completed Task
-
----
-
-<!--
-This is default collapsed, readers click to expand it and see all your media
-The PR media section can get very large at times, so this is a good way to keep it clean
-The title is written using HTML tags
-The title must be within the <summary> tags or you won't see it
--->
-
-<details><summary><h1>Media</h1></summary>
-<p>
-
-![Example Media Embed](https://example.com/thisimageisntreal.png)
-
-</p>
-</details>
-
----
-
-# Changelog
-
-<!--
-You can add an author after the `:cl:` to change the name that appears in the changelog (ex: `:cl: Death`)
-Leaving it blank will default to your GitHub display name
-This includes all available types for the changelog
--->
-
-:cl:
-- add: Added fun :D
-- tweak: Tweaked fun
-- fix: Fixed fun!
-- remove: Removed fun :(
+**Медиа**
+<!-- Скрины или видео после этого пункта. Под ними ничего не дополнять!-->
