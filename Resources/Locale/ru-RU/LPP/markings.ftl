@@ -1,0 +1,32 @@
+﻿#Унатхи и где они обитают
+
+marking-ReptilianlongFeathersHair = Волосы рептилий с длинными перьями
+marking-ReptilianlongFeathersHair2 = Волосы рептилий с длинными перьями 2
+marking-ReptilianlongFeathersHair3 = Волосы рептилий с длинными перьями 3
+marking-ReptilianlongFeathersHair4 = Волосы рептилий с длинными перьями 4
+marking-ReptilianlongFeathersHair5 = Волосы рептилий с длинными перьями 5
+marking-ReptilianMediumFeathersHair = Волосы рептилий с средними перьями
+marking-ReptilianMediumFeathersHair2 = Волосы рептилий с средними перьями 2
+marking-ReptilianMediumFeathersHair3 = Волосы рептилий с средними перьями 3
+marking-ReptilianMediumFeathersHair4 = Волосы рептилий с средними перьями 4
+marking-ReptilianMediumFeathersHair5 = Волосы рептилий с средними перьями 5
+marking-ReptilianMediumFeathersHair6 = Волосы рептилий с средними перьями 6
+marking-ReptilianPigtailFeathersHair = Волосы рептилоидной косички
+marking-ReptilianPigtailFeathersHair2 = Волосы рептилоидной косички 2
+marking-ReptilianPigtailFeathersHair3 = Волосы рептилоидной косички 3
+marking-ReptilianPigtailFeathersHair4 = Волосы рептилоидной косички 4
+marking-ReptilianShortFeathersHair = Волосы рептилий с короткими перьями
+marking-ReptilianShortFeathersHair2 = Волосы рептилий с короткими перьями 2
+marking-ReptilianShortFeathersHair3 = Волосы рептилий с короткими перьями 3
+marking-ReptilianShortFeathersHair4 = Волосы рептилий с короткими перьями 4
+marking-ReptilianShortFeathersHair5 = Волосы рептилий с короткими перьями 5
+marking-ReptilianShortFeathersHair6 = Волосы рептилий с короткими перьями 6
+marking-ReptilianShortFeathersHair7 = Волосы рептилий с короткими перьями 7
+marking-ReptilianShortFeathersHair8 = Волосы рептилий с короткими перьями 8
+marking-ReptilianShortFeathersHair9 = Волосы рептилий с короткими перьями 9
+marking-ReptilianBeard1 = Борода рептилии 1
+marking-ReptilianBeard2 = Борода рептилии 2
+marking-ReptilianBeard3 = Борода рептилии 3
+marking-ReptilianBeard4 = Борода рептилии 4
+marking-ReptilianBeard5 = Борода рептилии 5
+marking-ReptilianBeard6 = Борода рептилии 6
