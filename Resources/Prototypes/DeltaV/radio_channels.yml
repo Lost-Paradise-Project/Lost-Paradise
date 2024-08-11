@@ -1,15 +1,13 @@
 - type: radioChannel
   id: Justice
   name: chat-radio-justice
-  keycode: "j"
+  keycode: "ю"
   frequency: 1420
   color: "#701442"
 
 - type: radioChannel
   id: Prison
   name: chat-radio-prison
-  keycode: 'p'
+  keycode: 'б'
   frequency: 1601
   color: "#FFA500"
-
-

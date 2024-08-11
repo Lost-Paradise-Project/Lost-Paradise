@@ -22,11 +22,11 @@
       - type: ReplacementAccent
         accent: dwarf
 
-- type: trait
-  id: Southern
-  category: Speech
-  components:
-    - type: SouthernAccent
+#- type: trait
+#  id: Southern
+#  category: Speech
+#  components:
+#    - type: SouthernAccent
 
 - type: trait
   id: NormalVision

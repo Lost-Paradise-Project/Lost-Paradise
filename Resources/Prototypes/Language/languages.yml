@@ -5,7 +5,7 @@
   obfuscation:
     !type:ReplacementObfuscation
     replacement:
-    - "*incomprehensible*" # Never actually used
+    - "*непонятно*" # Never actually used
 
 # The common galactic tongue.
 - type: language
@@ -15,194 +15,191 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - blah
-    - blah
-    - blah
-    - dingle-doingle
-    - dingle
-    - dangle
-    - jibber-jabber
-    - jubber
-    - bleh
-    - zippity
-    - zoop
-    - wibble
-    - wobble
-    - wiggle
-    - yada
-    - meh
-    - neh
-    - nah
-    - wah
+    - Бла
+    - Бла
+    - Бла
+    - динг-донг
+    - динг
+    - донг
+    - жиббер-жаббер
+    - жуббр
+    - бле
+    - зиппти
+    - зуп
+    - виббл
+    - воббл
+    - виггл
+    - яда
+    - мех
+    - нех
+    - брэ
+    - буэ
+    - бам
 
 # Spoken by slimes.
 - type: language
   id: Bubblish
-  speech:
-    color: "#00a3e2dd"
-    fontId: RubikBubbles
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - blob
-    - plop
-    - pop
-    - bop
-    - boop
+    - блоб
+    - плоп
+    - поп
+    - боп
+    - бооп
+    - блюм
+    - бабл-бламп
+    - блаааамп
+    - блаби
+    - блюмс
+    - блип
+    - бульк
+    - буль
+    - були
 
 # Spoken by moths.
 - type: language
   id: Moffic
-  speech:
-    color: "#c7df2edd"
-    fontId: Copperplate
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 2 # Replacements are really short
     maxSyllables: 4
     replacement:
-    - år
-    - i
-    - går
-    - sek
-    - mo
-    - ff
-    - ok
-    - gj
-    - ø
-    - gå
-    - la
-    - le
-    - lit
-    - ygg
-    - van
-    - dår
-    - næ
-    - møt
-    - idd
-    - hvo
-    - ja
-    - på
-    - han
-    - så
-    - ån
-    - det
-    - att
-    - nå
-    - gö
-    - bra
-    - int
-    - tyc
-    - om
-    - när
-    - två
-    - må
-    - dag
-    - sjä
-    - vii
-    - vuo
-    - eil
-    - tun
-    - käyt
-    - teh
-    - vä
-    - hei
-    - huo
-    - suo
-    - ää
-    - ten
-    - ja
-    - heu
-    - stu
-    - uhr
-    - kön
-    - we
-    - hön
+    - ар
+    - и
+    - гар
+    - сек
+    - мо
+    - фф
+    - ок
+    - гж
+    - оё
+    - га
+    - ла
+    - ле
+    - лит
+    - югг
+    - ван
+    - дарр
+    - наэ
+    - мёт
+    - идд
+    - хво
+    - йа
+    - па
+    - хэн
+    - за
+    - ан
+    - дет
+    - атт
+    - на
+    - гё
+    - бпа
+    - инт
+    - тук
+    - ом
+    - нар
+    - тва
+    - ма
+    - даг
+    - сйа
+    - вии
+    - вуо
+    - эил
+    - тун
+    - кайт
+    - тэх
+    - ва
+    - хэи
+    - хуо
+    - суо
+    - АААААААА
+    - тен
+    - йа
+    - хеу
+    - сту
+    - ухр
+    - укр
+    - ви
+    - хён
 
 # Spoken by dionas.
 - type: language
   id: RootSpeak
-  speech:
-    color: "#ce5e14dd"
-    fontId: Noganas
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
     maxSyllables: 5
     replacement:
-    - hs
-    - zt
-    - kr
-    - st
-    - sh
+    - хс
+    - зт
+    - кр
+    - ст
+    - ш
+    - шш
 
 # A mess of broken Japanese, spoken by Felinds and Oni
 - type: language
   id: Nekomimetic
-  speech:
-    color: "#df57aaee"
-    fontId: Manga
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
     maxSyllables: 3 # May be too long even, we'll see.
     replacement:
-    - neko
-    - nyan
-    - mimi
-    - moe
-    - mofu
-    - fuwa
-    - kyaa
-    - kawaii
-    - poka
-    - munya
-    - puni
-    - munyu
-    - ufufu
-    - icha
-    - doki
-    - kyun
-    - kusu
-    - nya
-    - nyaa
-    - desu
-    - kis
-    - ama
-    - chuu
-    - baka
-    - hewo
-    - boop
-    - gato
-    - kit
-    - sune
-    - yori
-    - sou
-    - baka
-    - chan
-    - san
-    - kun
-    - mahou
-    - yatta
-    - suki
-    - usagi
-    - domo
-    - ori
-    - uwa
-    - zaazaa
-    - shiku
-    - puru
-    - ira
-    - heto
-    - etto
+    - неко
+    - нян
+    - мими
+    - ми
+    - мофу
+    - фува
+    - кьяя
+    - кавай
+    - пока
+    - муня
+    - пуни
+    - мунью
+    - уфуфу
+    - ича
+    - доки
+    - кьюн
+    - кусу
+    - ня
+    - няя
+    - десу
+    - кис
+    - ама
+    - чуу
+    - бака
+    - хево
+    - буп
+    - гато
+    - кит
+    - сюн
+    - йори
+    - соу
+    - бака
+    - чан
+    - сан
+    - кун
+    - махо
+    - йатта
+    - сукки
+    - усаги
+    - домо
+    - ори
+    - ува
+    - заазаа
+    - шику
+    - пуру
+    - ира
+    - хето
+    - етто
 
 # Spoken by the Lizard race.
 - type: language
   id: Draconic
-  speech:
-    color: "#2aca2add"
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 2
@@ -296,103 +293,76 @@
 # Spoken by the Vulpkanin race.
 - type: language
   id: Canilunzt
-  speech:
-    color: "#d69b3dcc"
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
     maxSyllables: 4
     replacement:
-    - rur
-    - ya
-    - cen
-    - rawr
-    - bar
-    - kuk
-    - tek
-    - qat
-    - uk
-    - wu
-    - vuh
-    - tah
-    - tch
-    - schz
-    - auch
-    - ist
-    - ein
-    - entch
-    - zwichs
-    - tut
-    - mir
-    - wo
-    - bis
-    - es
-    - vor
-    - nic
-    - gro
-    - enem
-    - zandt
-    - tzch
-    - noch
-    - hel
-    - ischt
-    - far
-    - wa
-    - baram
-    - iereng
-    - tech
-    - lach
-    - sam
-    - mak
-    - lich
-    - gen
-    - or
-    - ag
-    - eck
-    - gec
-    - stag
-    - onn
-    - bin
-    - ket
-    - jarl
-    - vulf
-    - einech
-    - cresthz
-    - azunein
-    - ghzth
+    - рур
+    - йа
+    - цен
+    - равр
+    - ваф
+    - кьюк
+    - тек
+    - кват
+    - ук
+    - ву
+    - вух
+    - тах
+    - тч
+    - щз
+    - ауч
+    - ист
+    - еин
+    - енчт
+    - звисшч
+    - тут
+    - мир
+    - во
+    - бис
+    - ес
+    - вор
+    - ник
+    - гро
+    - енем
+    - зандт
+    - джс
+    - ПОРНО
+    - йифф
+    - ищт
+    - фа
+    - ва
+    - вульф
 
 # The common language of the Sol system.
 - type: language
   id: SolCommon
-  speech:
-    color: "#8282fbaa"
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
     maxSyllables: 4
     replacement:
-    - tao
-    - shi
-    - tzu
-    - yi
-    - com
-    - be
-    - is
-    - i
-    - op
-    - vi
-    - ed
-    - lec
-    - mo
-    - cle
-    - te
-    - dis
-    - e
+    - тао
+    - ши
+    - тзу
+    - йи
+    - ком
+    - би
+    - ис
+    - я
+    - оп
+    - ви
+    - эд
+    - лек
+    - мо
+    - кле
+    - те
+    - дис
+    - ее
 
 - type: language
   id: RobotTalk
-  speech:
-    fontId: Monospace
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -409,10 +379,10 @@
     minSyllables: 1
     maxSyllables: 2
     replacement:
-    - murr
-    - meow
-    - purr
-    - mrow
+    - мурр
+    - мяу
+    - пурр
+    - мррмяу
 
 - type: language
   id: Dog
@@ -421,12 +391,12 @@
     minSyllables: 1
     maxSyllables: 2
     replacement:
-    - woof
-    - bark
-    - ruff
-    - bork
-    - raff
-    - garr
+    - вуф
+    - гаф
+    - рруф
+    - рраф
+    - ррар
+    - гррар
 
 - type: language
   id: Fox
@@ -435,12 +405,12 @@
     minSyllables: 1
     maxSyllables: 2
     replacement:
-    - ruff
-    - raff
-    - garr
-    - yip
-    - yap
-    - myah
+    - руфф
+    - рафф
+    - гарр
+    - йип
+    - йап
+    - мьяах
 
 - type: language
   id: Xeno
@@ -449,8 +419,8 @@
     minSyllables: 1
     maxSyllables: 8 # I was crazy once
     replacement:
-    - s
-    - S
+    - С
+    - Р
 
 - type: language
   id: Monkey
@@ -459,8 +429,8 @@
     minSyllables: 1
     maxSyllables: 8 # They locked me in a room...
     replacement:
-    - o
-    - k
+    - у
+    - а
 
 - type: language
   id: Mouse
@@ -469,14 +439,14 @@
     minSyllables: 2
     maxSyllables: 3
     replacement:
-    - squ
-    - eak
-    - pi
-    - ep
-    - chuu
-    - ee
-    - fwi
-    - he
+    - ску
+    - иик
+    - пи
+    - еп
+    - чуу
+    - ии
+    - фии
+    - хи
 
 - type: language
   id: Chicken
@@ -485,9 +455,9 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - co
-    - coo
-    - ot
+    - ку
+    - кудах
+    - тах
 
 - type: language
   id: Duck
@@ -496,9 +466,9 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - qu
-    - ack
-    - quack
+    - кр
+    - як
+    - кряк
 
 - type: language
   id: Cow
@@ -507,8 +477,8 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - moo
-    - mooo
+    - му
+    - мууу
 
 - type: language
   id: Sheep
@@ -517,9 +487,9 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - ba
-    - baa
-    - aa
+    - беее
+    - бее
+    - ее
 
 - type: language
   id: Kangaroo
@@ -528,10 +498,10 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - shre
-    - ack
-    - chuu
-    - choo
+    - шре
+    - ак
+    - чууу
+    - чооо
 
 - type: language
   id: Pig
@@ -540,7 +510,8 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - oink # Please someone come up with something better
+    - хрю # Please someone come up with something better
+    - перемога будэ
 
 - type: language
   id: Crab
@@ -549,13 +520,13 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - click
-    - clack
-    - ti
-    - pi
-    - tap
-    - cli
-    - ick
+    - клик
+    - клак
+    - ти
+    - пи
+    - тык
+    - кл
+    - ик
 
 - type: language
   id: Kobold
@@ -564,17 +535,17 @@
     minSyllables: 2
     maxSyllables: 4
     replacement:
-    - yip
-    - yap
-    - gar
-    - grr
-    - ar
-    - scre
-    - et
-    - gronk
-    - hiss
-    - ss
-    - ee
+    - йифф
+    - ски
+    - гар
+    - грр
+    - ар
+    - скрик
+    - эт
+    - горнк
+    - хисс
+    - сс
+    - ии
 
 - type: language
   id: Hissing
@@ -583,10 +554,10 @@
     minSyllables: 2
     maxSyllables: 4
     replacement:
-    - hss
-    - iss
-    - ss
-    - is
+    - хсс
+    - хисс
+    - сс
+    - исс
 
 # Example of a sign language. Not currently used anyhow.
 - type: language
@@ -594,7 +565,6 @@
   speech:
     allowRadio: false
     requireSpeech: false
-    color: "#dddddd"
     messageWrapOverrides:
       Speak: chat-sign-language-message-wrap
       Whisper: chat-sign-language-whisper-wrap
@@ -605,10 +575,10 @@
   obfuscation:
     !type:ReplacementObfuscation
     replacement:
-    - something
-    - a cryptic message to you
-    - a signal to you
-    - a message
-    - a rude expression to you
-    - a sad expression to you
-    - a happy expression to you
+    - что-то
+    - зашифрованное сообщение для вас
+    - сигнал для вас
+    - сообщение
+    - грубое выражение по отношению к тебе
+    - печальное выражение по отношению к тебе
+    - счастливое выражение по отношению к тебе
