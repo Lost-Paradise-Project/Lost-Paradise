@@ -1,0 +1,11 @@
+The files below are licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International by the author, @Flybik.
+
+paradise-icon/icon-16x16.png
+paradise-icon/icon-24x24.png
+paradise-icon/icon-32x32.png
+paradise-icon/icon-48x48.png
+paradise-icon/icon-64x64.png
+paradise-icon/icon-128x128.png
+paradise-icon/icon-256x256.png
+paradise-logo.png
+slashlogoparadise.png
