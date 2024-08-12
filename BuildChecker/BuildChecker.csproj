@@ -36,8 +36,13 @@ https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugOpt|AnyCPU' ">
     <OutputPath>bin\DebugOpt\</OutputPath>
   </PropertyGroup>
+  <ItemGroup>
+    <Content Include="git_helper.py" />
+    <Content Include="hooks\post-checkout" />
+    <Content Include="hooks\post-merge" />
+  </ItemGroup>
   <Target Name="Build">
-    <Exec Command="git submodule update --init --recursive"/>
+    <Exec Command="git submodule update --init --recursive" />
   </Target>
   <Target Name="Rebuild" DependsOnTargets="Build" />
   <Target Name="Clean">
