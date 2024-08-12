@@ -1,0 +1,12 @@
+﻿ent-LPPBlueshieldlaser = лазерный револьвер офицера "Синий Щит"
+    .desc = Скорострельный лазерный револьвер, стоящий на вооружении всего отряда представителей "Синий щит".
+    .suffix = { "Синий Щит" }
+ent-LPPBlueShieldOfficerPDA = кпк офицера "Синий Щит"
+    .desc = Пахнет защитой.
+    .suffix = { "Синий Щит" }
+ent-LPPBlueShieldOfficerIDCard = ID карта офицера "Синий Щит"
+    .desc = Края острые.
+    .suffix = { "Синий Щит" }
+ent-SpawnLPPBlueShieldOfficer = спавн офицера "Синий Щит"
+    .desc = спавн офицера "Синий Щит"
+    .suffix = { "job Spawn" }
