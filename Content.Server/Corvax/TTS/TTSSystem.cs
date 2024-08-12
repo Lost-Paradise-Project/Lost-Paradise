@@ -1,11 +1,13 @@
-﻿using System.Threading.Tasks;
+using System.Threading.Tasks;
 using Content.Server.Chat.Systems;
 using Content.Shared.Corvax.CCCVars;
 using Content.Shared.Corvax.TTS;
 using Content.Shared.GameTicking;
+using Content.Shared.Language;
 using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
+using Content.Server.Language;
 
 namespace Content.Server.Corvax.TTS;
 
@@ -16,6 +18,7 @@ public sealed partial class TTSSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly TTSManager _ttsManager = default!;
     [Dependency] private readonly SharedTransformSystem _xforms = default!;
+    [Dependency] private readonly LanguageSystem _language = default!;
 
     private const int MaxMessageChars = 100 * 2; // same as SingleBubbleCharLimit * 2
     private bool _isEnabled = false;
@@ -47,7 +50,7 @@ public sealed partial class TTSSystem : EntitySystem
         if (soundData is null)
             return;
 
-        RaiseNetworkEvent(new PlayTTSEvent(soundData), Filter.SinglePlayer(args.SenderSession));
+        RaiseNetworkEvent(new PlayTTSEvent(soundData, soundData, _prototypeManager.Index<LanguagePrototype>("Universal")), Filter.SinglePlayer(args.SenderSession));
     }
 
     private async void OnEntitySpoke(EntityUid uid, TTSComponent component, EntitySpokeEvent args)
@@ -67,21 +70,25 @@ public sealed partial class TTSSystem : EntitySystem
 
         if (args.IsWhisper)
         {
-            HandleWhisper(uid, args.OriginalMessage, args.Message, protoVoice.Speaker);
+            HandleWhisper(uid, args.OriginalMessage, args.Message, protoVoice.Speaker, args.Language);
             return;
         }
 
-        HandleSay(uid, args.Message, protoVoice.Speaker);
+        HandleSay(uid, args.Message, protoVoice.Speaker, args.Language);
     }
 
-    private async void HandleSay(EntityUid uid, string message, string speaker)
+    private async void HandleSay(EntityUid uid, string message, string speaker, LanguagePrototype language)
     {
         var soundData = await GenerateTTS(message, speaker);
         if (soundData is null) return;
-        RaiseNetworkEvent(new PlayTTSEvent(soundData, GetNetEntity(uid)), Filter.Pvs(uid));
+
+        var languageSoundData = await GenerateTTS(_language.ObfuscateSpeech(message, language), speaker);     // Languages TTS support
+        if (languageSoundData is null) return;                                                                      // Languages TTS support
+
+        RaiseNetworkEvent(new PlayTTSEvent(soundData,languageSoundData, language, GetNetEntity(uid)), Filter.Pvs(uid));
     }
 
-    private async void HandleWhisper(EntityUid uid, string message, string obfMessage, string speaker)
+    private async void HandleWhisper(EntityUid uid, string message, string obfMessage, string speaker, LanguagePrototype language)
     {
         var fullSoundData = await GenerateTTS(message, speaker, true);
         if (fullSoundData is null) return;
@@ -89,8 +96,16 @@ public sealed partial class TTSSystem : EntitySystem
         var obfSoundData = await GenerateTTS(obfMessage, speaker, true);
         if (obfSoundData is null) return;
 
-        var fullTtsEvent = new PlayTTSEvent(fullSoundData, GetNetEntity(uid), true);
-        var obfTtsEvent = new PlayTTSEvent(obfSoundData, GetNetEntity(uid), true);
+        // Languages TTS support start
+        var fullLangSoundData = await GenerateTTS(_language.ObfuscateSpeech(message, language), speaker, true);
+        if (fullLangSoundData is null) return;
+
+        var obfLangSoundData = await GenerateTTS(_language.ObfuscateSpeech(obfMessage, language), speaker, true);
+        if (obfLangSoundData is null) return;
+        // Languages TTS support end
+
+        var fullTtsEvent = new PlayTTSEvent(fullSoundData, fullLangSoundData, language, GetNetEntity(uid), true);
+        var obfTtsEvent = new PlayTTSEvent(obfSoundData, obfLangSoundData, language, GetNetEntity(uid), true);
 
         // TODO: Check obstacles
         var xformQuery = GetEntityQuery<TransformComponent>();

@@ -1,4 +1,4 @@
-﻿using Content.Shared.Chat;
+using Content.Shared.Chat;
 using Content.Shared.Corvax.CCCVars;
 using Content.Shared.Corvax.TTS;
 using Robust.Client.Audio;
@@ -9,6 +9,7 @@ using Robust.Shared.Configuration;
 using Robust.Shared.ContentPack;
 using Robust.Shared.Player;
 using Robust.Shared.Utility;
+using Content.Client.Language.Systems;
 
 namespace Content.Client.Corvax.TTS;
 
@@ -21,6 +22,8 @@ public sealed class TTSSystem : EntitySystem
     [Dependency] private readonly IConfigurationManager _cfg = default!;
     [Dependency] private readonly IResourceCache _resourceCache = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
+    [Dependency] private readonly ISharedPlayerManager _playerManager = default!;
+    [Dependency] private readonly LanguageSystem _language = default!;
 
     private ISawmill _sawmill = default!;
     private readonly MemoryContentRoot _contentRoot = new();
@@ -71,7 +74,19 @@ public sealed class TTSSystem : EntitySystem
         var volume = AdjustVolume(ev.IsWhisper);
 
         var filePath = new ResPath($"{_fileIdx++}.ogg");
-        _contentRoot.AddOrUpdateFile(filePath, ev.Data);
+        //_contentRoot.AddOrUpdateFile(filePath, ev.Data);
+        // Languages TTS support start
+        var player = _playerManager.LocalSession?.AttachedEntity;
+        if (player != null)
+        {
+            if (_language.UnderstoodLanguages.Contains(ev.LanguageProtoId))
+                _contentRoot.AddOrUpdateFile(filePath, ev.Data);
+            else
+                _contentRoot.AddOrUpdateFile(filePath, ev.LanguageData);
+        }
+        else
+            _contentRoot.AddOrUpdateFile(filePath, ev.Data);
+        // Languages TTS support end
 
         var audioParams = AudioParams.Default.WithVolume(volume);
         var soundPath = new SoundPathSpecifier(Prefix / filePath, audioParams);
