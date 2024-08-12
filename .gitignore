@@ -311,7 +311,4 @@ Resources/MapImages
 package-lock.json
 
 #Secrets
-Resources/_PrivateResources/*
-Content.Client/_PrivateClient/*
-Content.Server/_PrivateServer/*
-Content.Shared/_PrivateShared/*
+Secrets/

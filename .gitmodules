@@ -2,19 +2,3 @@
 	path = RobustToolbox
 	url = https://github.com/space-wizards/RobustToolbox.git
 	branch = master
-[submodule "Content.Shared/PrivateShared"]
-	path = Content.Shared/_PrivateShared
-	url = https://github.com/Lost-Paradise-Project/PrivateShared
-	branch = main
-[submodule "Content.Server/PrivateServer"]
-	path = Content.Server/_PrivateServer
-	url = https://github.com/Lost-Paradise-Project/PrivateServer
-	branch = main
-[submodule "Resources/PrivateResources"]
-	path = Resources/_PrivateResources
-	url = https://github.com/Lost-Paradise-Project/PrivateResources
-	branch = main
-[submodule "Content.Client/PrivateClient"]
-	path = Content.Client/_PrivateClient
-	url = https://github.com/Lost-Paradise-Project/PrivateClient
-	branch = main
