@@ -125,6 +125,8 @@
     chance: -2
   - type: Psionic #Nyano - Summary: makes psionic by default.
     removable: false
+  - type: TTS # Corvax-TTS
+    voice: Astral
   - type: LanguageKnowledge
     speaks:
     - Xeno

@@ -44,6 +44,8 @@
   - type: Examiner
   - type: NoSlip
   - type: Actions
+  - type: TTS # Corvax-TTS
+    voice: Revenant
   - type: Eye
     drawFov: false
     visMask:

@@ -439,7 +439,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         SendInVoiceRange(ChatChannel.Local, name, message, wrappedMessage, obfuscated, wrappedObfuscated, source, range, languageOverride: language);
 
-        var ev = new EntitySpokeEvent(source, message, null, false, language);
+        var ev = new EntitySpokeEvent(source, message, originalMessage, null, false, language); // LPP-TTS: Spec symbol sanitize
         RaiseLocalEvent(source, ev, true);
 
         // To avoid logging any messages sent by entities that are not players, like vendors, cloning, etc.
@@ -545,7 +545,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         var replayWrap = WrapWhisperMessage(source, "chat-manager-entity-whisper-wrap-message", name, FormattedMessage.EscapeText(message), language);
         _replay.RecordServerMessage(new ChatMessage(ChatChannel.Whisper, message, replayWrap, GetNetEntity(source), null, MessageRangeHideChatForReplay(range)));
 
-        var ev = new EntitySpokeEvent(source, message, channel, true, language);
+        var ev = new EntitySpokeEvent(source, message, originalMessage, channel, true, language); // LPP-TTS: Spec symbol sanitize
         RaiseLocalEvent(source, ev, true);
         if (!hideLog)
             if (originalMessage == message)
@@ -1038,6 +1038,7 @@ public sealed class EntitySpokeEvent : EntityEventArgs
 {
     public readonly EntityUid Source;
     public readonly string Message;
+    public readonly string OriginalMessage; // LPP-TTS: Spec symbol sanitize
     public readonly bool IsWhisper;
     public readonly LanguagePrototype Language;
 
@@ -1047,10 +1048,11 @@ public sealed class EntitySpokeEvent : EntityEventArgs
     /// </summary>
     public RadioChannelPrototype? Channel;
 
-    public EntitySpokeEvent(EntityUid source, string message, RadioChannelPrototype? channel, bool isWhisper, LanguagePrototype language)
+    public EntitySpokeEvent(EntityUid source, string message, string originalMessage, RadioChannelPrototype? channel, bool isWhisper, LanguagePrototype language) // LPP-TTS: Spec symbol sanitize
     {
         Source = source;
         Message = message;
+        OriginalMessage = originalMessage; // LPP-TTS: Spec symbol sanitize
         Channel = channel;
         IsWhisper = isWhisper;
         Language = language;

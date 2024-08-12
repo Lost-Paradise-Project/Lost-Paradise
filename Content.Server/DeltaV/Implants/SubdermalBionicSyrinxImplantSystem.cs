@@ -1,5 +1,6 @@
 ﻿using Content.Server.Administration.Logs;
 using Content.Server.Chat.Systems;
+using Content.Shared.Humanoid;
 using Content.Server.Popups;
 using Content.Server.VoiceMask;
 using Content.Shared.Database;
@@ -99,7 +100,7 @@ public sealed class SubdermalBionicSyrinxImplantSystem : EntitySystem
             return;
 
         if (_uiSystem.TryGetUi(owner, VoiceMaskUIKey.Key, out var bui))
-            _uiSystem.SetUiState(bui, new VoiceMaskBuiState(component.VoiceName, null));
+            _uiSystem.SetUiState(bui, new VoiceMaskBuiState(component.VoiceName, SharedHumanoidAppearanceSystem.DefaultVoice, null));
     }
 
     /// <summary>
