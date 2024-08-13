@@ -1,1 +1,1 @@
-﻿job-supervisors-cj = главный судья
+﻿job-supervisors-cj = верховный судья

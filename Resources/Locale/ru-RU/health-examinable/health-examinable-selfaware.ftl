@@ -1,12 +1,12 @@
 ﻿health-examinable-selfaware-none = Вы чувствуете себя здоровым и хорошо себя чувствуете.
 health-examinable-selfaware-type-text = У вас { $damageType }, около [bold]{ $amount }[/bold].
-health-examinable-selfaware-type-Blunt = [color=red]Тупая[/color] травма
-health-examinable-selfaware-type-Slash = [color=red]Резанные[/color] раны
-health-examinable-selfaware-type-Piercing = [color=red]Пулевые[/color] раны
-health-examinable-selfaware-type-Heat = [color=orange]Термические[/color] ожоги
-health-examinable-selfaware-type-Shock = [color=lightgoldenrodyellow]Шоковые[/color] ожоги
-health-examinable-selfaware-type-Cold = [color=lightblue]Холодные[/color] ожоги
-health-examinable-selfaware-type-Caustic = [color=yellowgreen]Едкие[/color] ожоги
+health-examinable-selfaware-type-Blunt = [color=red]Ушибы[/color]
+health-examinable-selfaware-type-Slash = [color=red]Порезы[/color]
+health-examinable-selfaware-type-Piercing = [color=red]Уколы[/color]
+health-examinable-selfaware-type-Heat = [color=orange]Термические[/color]
+health-examinable-selfaware-type-Shock = [color=lightgoldenrodyellow]Электрические[/color]
+health-examinable-selfaware-type-Cold = [color=lightblue]Обморожение[/color]
+health-examinable-selfaware-type-Caustic = [color=yellowgreen]Кислотные[/color]
 health-examinable-selfaware-group-Toxin-10 = [color=green]Вы чувствуете себя больным[/color].
 health-examinable-selfaware-group-Toxin-25 = [color=green]Вас тошнит[/color].
 health-examinable-selfaware-group-Toxin-40 = [color=green]Вы чувствуете себя очень плохо![/color]
