@@ -311,6 +311,26 @@ reagent-effect-guidebook-reduce-rotting =
         [1] Регенерирует
        *[other] регенерируют
     } { NATURALFIXED($time, 3) } { MANY("second", $time) } гниения
+reagent-effect-guidebook-missing =
+    { $chance ->
+        [1] Даёт
+       *[other] Даёт
+    } неизвестный эффект, так как об этом эффекте еще никто не писал
+reagent-effect-guidebook-change-glimmer-reaction-effect =
+    { $chance ->
+        [1] Изменяет
+       *[other] Изменяет
+    } количество глиммера на { $count } пунктов
+reagent-effect-guidebook-chem-remove-psionic =
+    { $chance ->
+        [1] Убирает
+       *[other] Убирает
+    } псионические силы
+reagent-effect-guidebook-chem-reroll-psionic =
+    { $chance ->
+        [1] Даёт
+       *[other] Даёт
+    } шанс получить другую псионическую силу
 reagent-effect-guidebook-innoculate-zombie-infection =
     { $chance ->
         [1] Лечит
