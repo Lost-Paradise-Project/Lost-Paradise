@@ -27,6 +27,7 @@ using Robust.Shared.Configuration;
 using Content.Server.Announcements.Systems;
 using Robust.Shared.Player;
 using Content.Server.Station.Components;
+using Content.Shared._Backmen.StationAI;
 
 namespace Content.Server.Communications
 {
@@ -261,6 +262,11 @@ namespace Content.Server.Communications
                 if (_idCardSystem.TryFindIdCard(mob, out var id))
                 {
                     author = $"{id.Comp.FullName} ({CultureInfo.CurrentCulture.TextInfo.ToTitleCase(id.Comp.JobTitle ?? string.Empty)})".Trim();
+                }
+
+                if (HasComp<StationAIComponent>(mob))
+                {
+                    author = MetaData(mob).EntityName;
                 }
             }
 
