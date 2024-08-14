@@ -1,5 +1,5 @@
 ﻿ent-SpawnPointPlayerCharacter = ghost role spawn point
-    .suffix = player character, DO NOT MAP
+    .suffix = player character, НЕ МАППИТЬ
     .desc = { ent-MarkerBase.desc }
 ent-SpawnPointGhostSyndicateListener = ghost role spawn point
     .suffix = syndicate listener

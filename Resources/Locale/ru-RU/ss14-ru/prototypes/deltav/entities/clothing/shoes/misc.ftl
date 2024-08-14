@@ -1,2 +1,2 @@
-﻿ent-ClothingShoesMiscWhite = white leather shoes
-    .desc = Impeccably shined white leather shoes. Don't tread on these tootsies.
+﻿ent-ClothingShoesMiscWhite = белые кожаные сапоги
+    .desc = Безупречно начищенные белые кожаные сапоги. Попробуй только наступить!

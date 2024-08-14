@@ -1,8 +1,8 @@
 ﻿ent-RubberStampPsychologist = psychologist's rubber stamp
-    .suffix = DO NOT MAP
+    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
 ent-RubberStampLawyer = lawyer's rubber stamp
-    .suffix = DO NOT MAP
+    .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
 ent-RubberStampNotary = notary stamp
     .desc = An old-fashioned seal for marking important documents, made of polished bronze.

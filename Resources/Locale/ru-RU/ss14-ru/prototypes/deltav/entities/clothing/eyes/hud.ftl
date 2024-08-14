@@ -1,6 +1,6 @@
-﻿ent-ClothingEyesPrescriptionMedHud = prescription medical hud
-    .desc = A poorly done and rushed mix between half of a pair of prescription glasses and a medical HUD allowing you to see clearly out of one eye and view the health of people out of the other!
-ent-ClothingEyesPrescriptionHudSecurity = prescription security hud
-    .desc = A poorly done and rushed mix between half of a pair of prescription glasses and a security HUD allowing you to see clearly out of one eye and inspect the employee's ID and warning status in the other!
-ent-ClothingEyesHudSyndicateMed = syndicate medical visor
-    .desc = An upgraded syndicate visor with automatic health readings, designed for better detection of humanoids and their subsequent elimination.
+﻿ent-ClothingEyesPrescriptionMedHud = медицинский визор на очках
+    .desc = Плохо сделанное и поспешное сочетание половины пары очков, отпускаемых по рецепту, и медицинского дисплея, позволяющего вам четко видеть одним глазом и следить за состоянием здоровья людей другим!
+ent-ClothingEyesPrescriptionHudSecurity = охранный визор на очках
+    .desc = Некачественно сделанное и поспешное сочетание половины пары очков, выданных по рецепту, и защитного экрана, позволяющего вам четко видеть одним глазом и проверять удостоверение личности сотрудника и статус другим!
+ent-ClothingEyesHudSyndicateMed = медицинский визор синдиката
+    .desc = Усовершенствованный визор синдиката с автоматическими показателями состояния здоровья, предназначенный для лучшего обнаружения гуманоидов и их последующего уничтожения.

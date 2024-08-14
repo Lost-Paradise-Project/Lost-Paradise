@@ -1,9 +1,9 @@
-﻿ent-PaperWrittenNoteFromMumGeneric = note from mom
-    .suffix = Lunchbox, Generic
+﻿ent-PaperWrittenNoteFromMumGeneric = записка от мамы
+    .suffix = Ланчбокс, Обычная еда
     .desc = { ent-Paper.desc }
-ent-PaperWrittenNoteFromMumHealthy = note from mom
-    .suffix = Lunchbox, Healthy
+ent-PaperWrittenNoteFromMumHealthy = записка от мамы
+    .suffix = Ланчбокс, Здоровая еда
     .desc = { ent-PaperWrittenNoteFromMumGeneric.desc }
-ent-PaperWrittenNoteFromMumUnhealthy = note from mom
-    .suffix = Lunchbox, Unhealthy
+ent-PaperWrittenNoteFromMumUnhealthy = записка от мамы
+    .suffix = Ланчбокс, Нездаровая еда
     .desc = { ent-PaperWrittenNoteFromMumGeneric.desc }

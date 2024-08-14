@@ -1,3 +1,3 @@
 ﻿ent-LockerClerkFilled = { ent-LockerClerk }
-    .suffix = Filled
+    .suffix = Заполнено
     .desc = { ent-LockerClerk.desc }

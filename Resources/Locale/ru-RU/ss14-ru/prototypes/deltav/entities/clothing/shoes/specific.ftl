@@ -1,2 +1,2 @@
-﻿ent-ClothingShoesEnclosedChem = enclosed shoes
-    .desc = Those shoes will protect you from melting your feet while working.
+﻿ent-ClothingShoesEnclosedChem = закрытые сапоги
+    .desc = Эта обувь защитит вас от химических ожогов ног во время работы.

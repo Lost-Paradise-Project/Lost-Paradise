@@ -1,4 +1,4 @@
-﻿ent-EncryptionKeyJustice = justice encryption key
-    .desc = An encryption key used by the justice department.
-ent-EncryptionKeyPrison = Prison encryption key
-    .desc = An encryption key used by anybody who needs to speak with the prisoners
+﻿ent-EncryptionKeyJustice = Судебный ключ шифрования
+    .desc = Ключ шифрования, используемый министерством юстиции
+ent-EncryptionKeyPrison = Тюремные ключи шифрования
+    .desc = Ключ шифрования, используемый любым, кому нужно поговорить с заключенными

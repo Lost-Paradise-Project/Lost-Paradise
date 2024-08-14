@@ -1,4 +1,4 @@
-﻿ent-BoxEncryptionKeyPrisoner = Prisoner encryption key box
-    .desc = A box of spare encryption keys.
-ent-BoxEncryptionKeyJustice = justice encryption key box
-    .desc = A box of spare encryption keys.
+﻿ent-BoxEncryptionKeyPrisoner = Тюремная коробка ключей шифрования
+    .desc = Коробка с запасными ключами шифрования.
+ent-BoxEncryptionKeyJustice = Судебная коробка ключей шифрования
+    .desc = Коробка с запасными ключами шифрования.

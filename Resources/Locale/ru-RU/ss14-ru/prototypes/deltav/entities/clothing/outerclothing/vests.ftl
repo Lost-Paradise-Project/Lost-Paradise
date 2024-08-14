@@ -1,6 +1,6 @@
-﻿ent-ClothingOuterVestFlak = flak jacket
-    .desc = A dusty and weathered flak jacket.
-ent-ClothingOuterVestFlakPress = flak jacket (press)
-    .desc = A flak jacket for reporters in wartorn zones.
-ent-ClothingOuterClerkVest = clerk's vest
-    .desc = a silken magenta vest with a pocket to put your notary stamp.
+﻿ent-ClothingOuterVestFlak = жилетка
+    .desc = Обычная пыльная жилетка.
+ent-ClothingOuterVestFlakPress = жилетка прессы
+    .desc = Жилетка, которую надевают репортёры в горячих точках.
+ent-ClothingOuterClerkVest = жилет клерка
+    .desc = Шёлковая жилетка с пурпурной окантовкой. Имеет пару карманов для всех нужд клерка.

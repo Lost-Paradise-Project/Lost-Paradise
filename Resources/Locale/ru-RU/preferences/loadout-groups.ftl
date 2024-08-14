@@ -168,11 +168,11 @@ loadout-group-medical-intern-jumpsuit = Униформа интерна
 loadout-group-chemist-jumpsuit = Униформа химика
 loadout-group-chemist-outerclothing = Верхняя одежда химика
 loadout-group-chemist-backpack = Багаж химика
-loadout-group-paramedic-head = Головной убор парамедика
-loadout-group-paramedic-jumpsuit = Униформа парамедика
-loadout-group-paramedic-outerclothing = Верхняя одежда парамедика
-loadout-group-paramedic-shoes = Обувь парамедика
-loadout-group-paramedic-backpack = Багаж парамедика
+loadout-group-paramedic-head = Головной убор медицинского офицера
+loadout-group-paramedic-jumpsuit = Униформа медицинского офицера
+loadout-group-paramedic-outerclothing = Верхняя одежда медицинского офицера
+loadout-group-paramedic-shoes = Обувь медицинского офицера
+loadout-group-paramedic-backpack = Багаж медицинского офицера
 loadout-group-virologist = Униформа вирусолога
 loadout-group-virologist-backpack = Багаж вирусолога
 # Wildcards

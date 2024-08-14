@@ -1,6 +1,6 @@
-﻿ent-ClothingBeltCeremonial = ceremonial belt
-    .desc = A blue-and-white belt with assorted pockets and pouches.
-ent-ClothingBeltSuspendersBlack = suspenders
-    .desc = For holding your pants up.
-ent-ClothingBeltCorpsmanWebbing = corpsman webbing
-    .desc = A set of security webbing with blue corpsman highlights.
+﻿ent-ClothingBeltCeremonial = церемониальный пояс
+    .desc = Бело-голубой пояс с множеством карманов и подсумков.
+ent-ClothingBeltSuspendersBlack = черные подтяжки
+    .desc = Чтобы ты поддерживал свои штаны.
+ent-ClothingBeltCorpsmanWebbing = РПС медицинского офицера
+    .desc = Комплект защитных лент с синими вставками.

@@ -1,2 +1,2 @@
-﻿ent-ClothingNeckBlackStar = black star medal
-    .desc = Given to crewmates that make the greatest of sacrifices in the performance of their duties.
+﻿ent-ClothingNeckBlackStar = медаль чёрной звезды
+    .desc = Присуждается члену экипажа за проявленную честь и отвагу в несении службы.

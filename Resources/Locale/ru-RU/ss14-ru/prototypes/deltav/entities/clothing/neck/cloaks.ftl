@@ -1,9 +1,8 @@
-﻿ent-ClothingNeckCloakMystagogue = mystagogue's cloak
-    .desc = A comfy white and purple cloak, perfect for those sleepless nights when you're haunted by the yet unsolved mysteries of the universe.
-    .suffix = Delta-V
-ent-ClothingNeckCloakBoat = NanoTrasen boat cloak
-    .desc = A regal blue durathread boat cloak with a red felt lining and gold trim. Somehow, it's even more expensive than it looks.
-ent-ClothingNeckSalvager = salvager's cloak
-    .desc = Worn by dangerous people who've deconstructed stations with ease.
-ent-ClothingNeckCloakCJ = chief justice's cloak
-    .desc = A hefty cloak adorned with a modest insignia and grand fur trim.
+﻿ent-ClothingNeckCloakMystagogue = плащ мистагога
+    .desc = Удобный бело-фиолетовый плащ, идеально подходящий для тех бессонных ночей, когда вас преследуют еще не разгаданные тайны Вселенной.
+ent-ClothingNeckCloakBoat = плащ флотиста НТ
+    .desc = Королевский синий плащ из дюроткани с красной фетровой подкладкой и золотой отделкой. Так или иначе, он даже дороже, чем кажется. Моряк с печьки бряк
+ent-ClothingNeckSalvager = плащ утилизатора
+    .desc = Их носят опасные люди, которые с легкостью разбирают станции.
+ent-ClothingNeckCloakCJ = плащ верховного судьи
+    .desc = Просторный плащ, украшенный скромной эмблемой и роскошной меховой оторочкой.
