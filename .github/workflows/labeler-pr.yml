@@ -1,7 +1,7 @@
 ﻿name: "Labels: PR"
 
 on:
-  workflow_dispatch:
+- pull_request_target
 
 jobs:
   labeler:
@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: actions/labeler@v3
       with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+        repo-token: "${{ secrets.BOT_TOKEN }}"
