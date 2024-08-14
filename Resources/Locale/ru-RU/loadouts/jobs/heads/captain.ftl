@@ -1,0 +1,12 @@
+﻿loadout-description-LoadoutCommandCapNeckMantle = Вы - король этой станции. Носите с честью.
+loadout-description-LoadoutCommandCapNeckCloak = Покажите им, что такое настоящий капитан.
+loadout-description-LoadoutCommandCapNeckCloakFormal = Золотая окантовка выглядит приятно и богато.
+loadout-description-LoadoutCommandCapJumpsuitFormal = Уютный и роскошный костюм для самых успешных.
+loadout-description-LoadoutCommandCapJumpskirtFormal = Уютный и роскошный костюм для самых успешных.
+loadout-description-LoadoutCommandCapOuterWinter = Тёплая куртка, которая согреет любого.
+loadout-description-LoadoutCommandCapGloves = Это перчатки капитана. Выглядит роскошно.
+loadout-description-LoadoutCommandCapHat = Каждый уважающий себя капитан носит такую.
+loadout-description-LoadoutCommandCapHatCapcap = На ощупь приятно, как и на взгляд.
+loadout-description-LoadoutCommandCapHat = Править станцией в таком - одно удовольствие.
+loadout-description-LoadoutCommandCapMaskGas = А зачем капитану противогаз? В любом случае, оно выглядит роскошно.
+loadout-description-LoadoutCommandCapItemDrinkFlask = В неё наливают лишь элитнейший алкоголь.. Ну или колу.

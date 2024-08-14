@@ -1,0 +1,10 @@
+﻿loadout-description-LoadoutCommandHOSNeckMantle = Покажите им кто тут главный.
+loadout-description-LoadoutCommandHOSNeckCloak = Приятный на ощупь плащ сделанный специально под заказ.
+loadout-description-LoadoutCommandHOSJumpsuitParade = Стройный парадный костюм. Наденьте его на парад.
+loadout-description-LoadoutCommandHOSJumpsuitFormal = Выглядит модно. А вам точно нужно судить кого-то в нём?
+loadout-description-LoadoutCommandHOSJumpskirtParade = Парадная униформа для любых важных дел.
+loadout-description-LoadoutCommandHOSJumpskirtFormal = Выглядит модно. А вам точно нужно судить кого-то в нём?
+loadout-description-LoadoutCommandHOSOuterWinter = Тёплая куртка, согреет и защитит.
+loadout-description-LoadoutCommandHOSOuterTrench = Модный тренч главы службы безопасности.
+loadout-description-LoadoutCommandHOSHatBeret = Это берет главы службы безопасности.
+loadout-description-LoadoutCommandHOSHatHoshat = Шляпа главы службы безопасности... Вспоминается один дворф.

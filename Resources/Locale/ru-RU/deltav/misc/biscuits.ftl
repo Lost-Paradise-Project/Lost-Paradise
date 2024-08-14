@@ -1,1 +1,1 @@
-﻿biscuit-verb-crack = Хрум
+﻿biscuit-verb-crack = Порвать

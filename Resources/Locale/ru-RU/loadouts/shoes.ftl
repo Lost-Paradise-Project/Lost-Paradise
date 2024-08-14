@@ -1,0 +1,10 @@
+﻿loadout-description-LoadoutShoesBlack = Стильные чёрные кеды.
+loadout-description-LoadoutShoesBlue = Стильные кеды синего цвета, похожие на цвет самого лазурного моря.
+loadout-description-LoadoutShoesBrown = Стильные, а главное надёжные кеды коричневого цвета.
+loadout-description-LoadoutShoesGreen = Вы точно не наступили в траву?
+loadout-description-LoadoutShoesOrange = Заряжены силой цитруса и топлива!
+loadout-description-LoadoutShoesPurple = Эти кеды заряжены самой энергией глубокого космоса.
+loadout-description-LoadoutShoesRed = Красные кеды, что отчасти напоминают кровь.
+loadout-description-LoadoutShoesWhite = Белые кеды. Просто белые.
+loadout-description-LoadoutShoesYellow = Удивите всех своим выбором желтизны!
+loadout-description-LoadoutShoesSlippersDuck = Кря-кря-кря.
