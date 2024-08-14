@@ -66,6 +66,7 @@
   - type: Weldable
     time: 3
   - type: Airlock
+    openUnlitVisible: true # Corvax-Resprite-Airlocks
   - type: NavMapDoor
   - type: DoorBolt
   - type: Appearance
@@ -116,7 +117,7 @@
   - type: RCDDeconstructable
     cost: 6
     delay: 8
-    fx: EffectRCDDeconstruct8    
+    fx: EffectRCDDeconstruct8
   - type: Destructible
     thresholds:
     - trigger:
@@ -151,7 +152,7 @@
   - type: BlockWeather
   placement:
     mode: SnapgridCenter
- 
+
 - type: entity
   id: AirlockRCDResistant
   parent: Airlock
