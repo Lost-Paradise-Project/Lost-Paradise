@@ -398,7 +398,7 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         var severity = "" + banDef.Severity;
         var serverName = _serverName[..Math.Min(_serverName.Length, 1500)];
         var timeNow = TimeZoneInfo.ConvertTimeFromUtc(
-    DateTime.UtcNow,
+    DateTimeOffset.Now.UtcDateTime,
     TimeZoneInfo.FindSystemTimeZoneById("Russian Standard Time"));
         var rolesString = "";
         foreach (var role in roles)
@@ -496,7 +496,7 @@ public sealed class BanManager : IBanManager, IPostInjectInit
         var severity = "" + banDef.Severity;
         var serverName = _serverName[..Math.Min(_serverName.Length, 1500)];
         var timeNow = TimeZoneInfo.ConvertTimeFromUtc(
-    DateTime.UtcNow,
+    DateTimeOffset.Now.UtcDateTime,
     TimeZoneInfo.FindSystemTimeZoneById("Russian Standard Time"));
 
         var mentions = new List<User> { };
