@@ -1,0 +1,12 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPCASglasses
+  name: Очки CAS
+  description: Чёрно-белые очки.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/Glasses/_LostParadiseCASglasses.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/Glasses/_LostParadiseCASglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection

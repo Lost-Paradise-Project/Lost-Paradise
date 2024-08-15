@@ -1,0 +1,198 @@
+- type: reagent
+  id: LPPPenteticAcid
+  name: reagent-name-penteticacid
+  group: Medicine
+  desc: reagent-desc-penteticacid
+  physicalDesc: reagent-physical-desc-penteticacid
+  flavor: medicine
+  color: "#ffaa00"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Toxin: 6
+      - !type:ChemCleanBloodstream
+        cleanseRate: 3
+
+- type: reagent
+  id: LPPRezadone
+  name: reagent-name-rezadone
+  group: Medicine
+  desc: reagent-desc-rezadone
+  physicalDesc: reagent-physical-desc-rezadone
+  flavor: medicine
+  color: "#c8ff75"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Brute: -1
+          types:
+            Cellular: -5
+            Heat: -1
+            Poison: 2
+        conditions:
+        - !type:ReagentThreshold
+          min: 20
+
+- type: reagent
+  id: LPPStypticPowder
+  name: reagent-name-stypticpowder
+  group: Medicine
+  desc: reagent-desc-stypticpowder
+  physicalDesc: reagent-physical-desc-stypticpowder
+  flavor: medicine
+  color: "#ffaa00"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Brute: -1
+
+- type: reagent
+  id: LPPLibital
+  name: reagent-name-libital
+  group: Medicine
+  desc: reagent-desc-libital
+  physicalDesc: reagent-physical-desc-libital
+  flavor: medicine
+  color: "#efff87"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Burn: -10
+
+- type: reagent
+  id: LPPSynthflesh
+  name: reagent-name-synthflesh
+  group: Medicine
+  desc: reagent-desc-synthflesh
+  physicalDesc: reagent-physical-desc-synthflesh
+  flavor: medicine
+  color: "#ffaa00"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Brute: -3.5
+            Burn: -3.5
+
+- type: reagent
+  id: LPPSelfBreathingStimulant
+  name: reagent-name-selfbreathingstimulant
+  group: Medicine
+  desc: reagent-desc-selfbreathingstimulant
+  physicalDesc: reagent-physical-desc-selfbreathingstimulant
+  flavor: medicine
+  color: "#daebea"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Asphyxiation: -30
+            Bloodloss: -20
+
+- type: reagent
+  id: LPPAntiburnStimulant
+  name: reagent-name-antiburnstimulant
+  group: Medicine
+  desc: reagent-desc-antiburnstimulant
+  physicalDesc: reagent-physical-desc-antiburnstimulant
+  flavor: medicine
+  color: "#ebeada"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Burn: -25
+
+- type: reagent
+  id: LPPAntibruteStimulant
+  name: reagent-name-antibrutestimulant
+  group: Medicine
+  desc: reagent-desc-antibrutestimulant
+  physicalDesc: reagent-physical-desc-antibrutestimulant
+  flavor: medicine
+  color: "#ebdada"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Brute: -45
+
+- type: reagent
+  id: LPPAntitoxinStimulant
+  name: reagent-name-antitoxinstimulant
+  group: Medicine
+  desc: reagent-desc-antitoxinstimulant
+  physicalDesc: reagent-physical-desc-antitoxinstimulant
+  flavor: medicine
+  color: "#daebdc"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Toxin: -45
+      - !type:SatiateHunger
+        factor: -1
+
+- type: reagent
+  id: LPPCellX
+  name: reagent-name-cellx
+  group: Medicine
+  desc: reagent-desc-cellx
+  physicalDesc: reagent-physical-desc-cellx
+  flavor: medicine
+  color: "#daebdc"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Toxin: -50
+            Brute: -50
+            Burn: -40
+          types:
+            Asphyxiation: -30
+            Bloodloss: -20
+
+- type: reagent
+  id: LPPMenthol
+  name: reagent-name-menthol
+  group: Medicine
+  desc: reagent-desc-menthol
+  physicalDesc: reagent-physical-desc-menthol
+  flavor: medicine
+  color: "#ebeada"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Heat: -1
+      - !type:AdjustTemperature
+        conditions:
+        - !type:Temperature
+          min: 293.15
+          amount: -5000

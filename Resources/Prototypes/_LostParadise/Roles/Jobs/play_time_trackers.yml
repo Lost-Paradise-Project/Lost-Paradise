@@ -1,0 +1,81 @@
+- type: playTimeTracker
+  id: JobMagistrate
+
+- type: playTimeTracker
+  id: JobLPPBlueShieldOfficer
+
+# - type: playTimeTracker
+#   id: JobLPPParamedic
+
+- type: playTimeTracker
+  id: JobLPPАdjutant
+
+- type: playTimeTracker
+  id: LPPCentralCommandRepresentative
+
+- type: playTimeTracker
+  id: JobLPPBrigmedic
+
+- type: playTimeTracker
+  id: JobRoboticist
+
+- type: playTimeTracker
+  id: JobCentralCommandRepresentative
+
+- type: playTimeTracker
+  id: JobSecPilot
+
+# - type: playTimeTracker
+  # id: JobBorgSecurity
+
+# - type: playTimeTracker
+  # id: JobDroneSecurity
+
+- type: playTimeTracker
+  id: JobLPPVirologist
+
+- type: playTimeTracker
+  id: JobLPPPrisoner
+
+- type: playTimeTracker
+  id: JobSeniorService
+
+#-------------------#
+#-----Syndicate-----#
+#-------------------#
+- type: playTimeTracker # КЕП
+  id: JobCapSyndicate
+
+- type: playTimeTracker #ГП
+  id: JobHeadOfPersonnelSyndicate
+
+- type: playTimeTracker #ГСБ
+  id: JobHeadOfSecuritySyndicate
+
+- type: playTimeTracker # СБ
+  id: JobSecuritySyndicate
+
+- type: playTimeTracker # Медик или же доктор
+  id: JobMedicalDoctorSyndicate
+
+- type: playTimeTracker # СЕРВИС
+  id: JobChefSyndicate
+
+- type: playTimeTracker # РНД
+  id: JobScientistSyndicate
+
+- type: playTimeTracker # УТИЛИЗАТОР ((ИЛИ ЖЕ ШАХТЁР)НО НЕ ТОЧНО ТАК КАК БУДЕТ ОТДЕЛЬНО)
+  id: JobShaftMinerSyndicate
+
+- type: playTimeTracker # Элетрик
+  id: JobStationEngineerSyndicate
+
+
+- type: playTimeTracker # Заключёный
+  id: JobPrisonerSyndicate
+
+
+# Silicons
+
+- type: playTimeTracker # ИИ СТАНЦИИ
+  id: JobSAI

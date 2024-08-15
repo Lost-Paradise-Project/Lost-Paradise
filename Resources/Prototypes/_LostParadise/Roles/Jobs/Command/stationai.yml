@@ -1,0 +1,35 @@
+- type: job
+  id: SAI
+  name: job-name-sai
+  description: job-description-sai
+  playTimeTracker: JobSAI
+  # requirements:
+  #   - !type:DepartmentTimeRequirement
+  #     department: Medical
+  #     time: 14400
+  #   - !type:DepartmentTimeRequirement
+  #     department: Science
+  #     time: 14400
+  #   - !type:DepartmentTimeRequirement
+  #     department: Security
+  #     time: 14400
+  #   - !type:DepartmentTimeRequirement
+  #     department: Civilian
+  #     time: 14400
+  #   - !type:DepartmentTimeRequirement
+  #     department: Engineering
+  #     time: 14400
+  #   - !type:RoleTimeRequirement
+  #     role: JobBorg
+  #     time: 21600
+  #   - !type:OverallPlaytimeRequirement
+  #     time: 86400
+  icon: JobIconBorg
+  supervisors: "весь экипаж"
+  accessGroups:
+    - AllAccess
+  canBeAntag: false
+  jobEntity: AICore
+  alwaysUseSpawner: true
+  joinNotifyCrew: true
+  whitelisted: true

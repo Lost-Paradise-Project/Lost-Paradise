@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "tvoiotchim",
+    "size": {
+      "x": 128,
+      "y": 160
+    },
+    "states": [
+      {
+        "name": "spruce01"
+      },
+      {
+        "name": "spruce02"                             
+      }
+    ]
+  }

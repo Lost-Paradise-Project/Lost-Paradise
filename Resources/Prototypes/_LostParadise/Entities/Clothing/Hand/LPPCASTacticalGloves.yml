@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHandsGlovesCombat
+  id: LPPCASTacticalGloves
+  name: Тактические перчатки CAS
+  description: Черно-белые тактические перчатки(не изолированы).
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Hands/Gloves/_LostParadiseCASTacticalGloves.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Hands/Gloves/_LostParadiseCASTacticalGloves.rsi

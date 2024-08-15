@@ -1,0 +1,65 @@
+- type: construction
+  name: плазтитановый окно
+  id: PlastitaniumWindow
+  graph: PlastitaniumWindow
+  startNode: start
+  targetNode: PlastitaniumWindow
+  category: construction-category-structures
+  description: Главное - не ударится!
+  conditions:
+    - !type:TileNotBlocked
+      failIfSpace: false
+    - !type:TileType
+      targets:
+        - Lattice
+        - Plating
+  icon:
+    sprite: _LostParadise/Structures/Windows/plastitanium-window.rsi
+    state: full
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+
+- type: construction
+  name: угловое пластитановое окно
+  id: PlastitaniumWindowDiagonal
+  graph: PlastitaniumWindow
+  startNode: start
+  targetNode: PlastitaniumWindowDiagonal
+  category: construction-category-structures
+  description: Главное - не ударится!
+  conditions:
+    - !type:TileNotBlocked
+      failIfSpace: false
+    - !type:TileType
+      targets:
+        - Lattice
+        - Plating
+  icon:
+    sprite: _LostParadise/Structures/Windows/plastitanium-window-diagonal.rsi
+    state: state1
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+
+- type: construction
+  name: направленное пластитановое окно
+  id: PlastitaniumPwindow
+  graph: PlastitaniumWindow
+  startNode: start
+  targetNode: PlastitaniumPwindow
+  category: construction-category-structures
+  description: Главное - не ударится!
+  conditions:
+    - !type:TileNotBlocked
+      failIfSpace: false
+    - !type:TileType
+      targets:
+        - Lattice
+        - Plating
+  icon:
+    sprite: _LostParadise/Structures/Windows/CornerGlass/corner-window.rsi
+    state: state1
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false

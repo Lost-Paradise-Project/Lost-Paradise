@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "painted by Someone",
+    "size": {
+        "x": 96,
+        "y": 96
+    },
+    "states": [
+        {
+            "name": "palm01"
+        },
+        {
+            "name": "palm02"
+        },
+        {
+            "name": "palm03"
+        },
+        {
+            "name": "palm04"
+        },
+        {
+            "name": "palm05"
+        },
+        {
+            "name": "palm06"
+        }
+    ]
+}

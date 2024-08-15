@@ -1,0 +1,26 @@
+ - type: entity
+   id: LPPCratehunter
+   parent: CrateSecgear
+   name: набор охотника
+   description: Содержит набор оружия, а так же скафандр, самое то для охотны на космическу фауну. Требует доступ службы безопасности для открытия.
+   components:
+   - type: Destructible
+     thresholds:
+     - trigger:
+        !type:DamageTrigger
+        damage: 3000
+       behaviors:
+       - !type:DoActsBehavior
+         acts: ["Destruction"]
+       - !type:PlaySoundBehavior
+         sound:
+           collection: MetalBreak
+   - type: StorageFill
+     contents:
+       - id: LPPWeaponMarsRifle
+       - id: LPPMagazineRifleMars
+       - id: LPPweaponPibodi
+       - id: LPPMagazineBoxHunting
+       - id: LPPClothingOuterHardsuitHunter
+       - id: LPPWeaponBattleCutter
+       - id: LPPWeaponCutterMagazine

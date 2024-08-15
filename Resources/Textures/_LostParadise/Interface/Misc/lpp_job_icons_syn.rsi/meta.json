@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Draw by Skilets",
+  "size": {
+    "x": 8,
+    "y": 8
+  },
+  "states": [
+    {
+      "name": "Captain_Syn"
+    },
+    {
+      "name": "Chef_Syn"
+    },
+    {
+      "name": "HeadOfPersonnel_Syn"
+    },
+    {
+      "name": "HeadOfSecurity_Syn"
+    },
+    {
+      "name": "MedicalDoctor_Syn"
+    },
+    {
+      "name": "Prisoner_Syn"
+    },
+    {
+      "name": "Scientist_Syn"
+    },
+    {
+      "name": "SecurityOfficer_Syn"
+    },
+    {
+      "name": "ShaftMiner_Syn"
+    },
+    {
+      "name": "StationEngineer_Syn"
+    }
+  ]
+}

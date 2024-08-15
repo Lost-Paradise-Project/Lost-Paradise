@@ -1,0 +1,186 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPBDayCap
+  name: birthday cap
+  description: Happy birthday!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/birthday_cap.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/birthday_cap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadClownPomni
+  name: Clown Pomni Head
+  description: It's a pomni head
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/clownPomni.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/clownPomni.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatIICoficercap
+  name: IIC officer cap
+  description: Cap worn by officers of the Interstellar Intelligence Center.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/iic-cap-officer.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/iic-cap-officer.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatPGPanama
+  name: PG panama
+  description: Protects the head from falling snakes.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/pg-hat.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/pg-hat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatPGCap
+  name: PG cap
+  description: Protects from the sun. It won't protect you from snakes.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/pg-cap.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/pg-cap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadSecHat
+  name: security service's hat
+  description: black hat, to show who's the sherif.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/sec-hat.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/sec-hat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatBeretBlueshield
+  name: blueshield's beret
+  description: Dark blue beret with the emblem of the commander's rank. For officers who think more about other people's safety than their own.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/blueshield_beret.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/blueshield_beret.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatBeretNPZ
+  name: берет НПЗ
+  description: Помни, за что ты воюешь. (За человечество, если вы вдруг забыли)
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/upgberet.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/upgberet.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatCapNPZ
+  name: фуражка НПЗ
+  description: Фуражка представителей вооружённых сил НПЗ, всиляет страх в сердца ксенофилов, больше сказать нечего.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/upgofficerhat.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/upgofficerhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatMaid
+  name: ободок горничной
+  description: Элемент одежды, который является неотъемлимой частью любой элитной горничной.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/maidencap.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/maidencap.rsi
+
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingAnonMask
+  name: Маска Анонимуса
+  description: Анон!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/anon.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/anon.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatAlex
+  name: Алекс
+  description: Кто пригласил всех этих идиотов?
+  components:
+   - type: Sprite
+     sprite: _LostParadise/Clothing/Head/Hats/alex.rsi
+   - type: Clothing
+     sprite: _LostParadise/Clothing/Head/Hats/alex.rsi
+   - type: IngestionBlocker
+   - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatJake
+  name: Джейк
+  description: Алло?! Кто это? Дай мне поговорить с твоим начальником!
+  components:
+   - type: Sprite
+     sprite: _LostParadise/Clothing/Head/Hats/jake.rsi
+   - type: Clothing
+     sprite: _LostParadise/Clothing/Head/Hats/jake.rsi
+   - type: IngestionBlocker
+   - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatRasmus
+  name: Расмус
+  description: Я не знаю тебя! Зачем ты здесь? Я тебя не приглашал.
+  components:
+   - type: Sprite
+     sprite: _LostParadise/Clothing/Head/Hats/rasmus.rsi
+   - type: Clothing
+     sprite: _LostParadise/Clothing/Head/Hats/rasmus.rsi
+   - type: IngestionBlocker
+   - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatRichter
+  name: Рихтер
+  description: Ааа, вот ты где! А я всё думал, когда ты вернёшься?
+  components:
+   - type: Sprite
+     sprite: _LostParadise/Clothing/Head/Hats/richter.rsi
+   - type: Clothing
+     sprite: _LostParadise/Clothing/Head/Hats/richter.rsi
+   - type: IngestionBlocker
+   - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatTony
+  name: Тони
+  description: Чувак, эта вечеринка отстой. Я ненавижу этих людей.
+  components:
+   - type: Sprite
+     sprite: _LostParadise/Clothing/Head/Hats/tony.rsi
+   - type: Clothing
+     sprite: _LostParadise/Clothing/Head/Hats/tony.rsi
+   - type: IngestionBlocker
+   - type: IdentityBlocker

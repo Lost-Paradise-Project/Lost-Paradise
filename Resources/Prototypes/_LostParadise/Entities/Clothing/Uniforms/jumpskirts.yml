@@ -1,0 +1,365 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtAdjutant
+  name: adjutant's jumpskirt
+  description: #Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/adjutant_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/adjutant_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPCargoBlackSkirt
+  name: BlackSkirt
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/cargo_black_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/cargo_black_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckCargo
+  name: Skirtleneck
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/skirtleneck.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/skirtleneck.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckQMCargo
+  name: SkirtleneckQM
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/skirtleneckQM.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/skirtleneckQM.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefSkirtCargo
+  name: supply chief skirt
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/supply_chief_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/supply_chief_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPAtmosBlackSkirt
+  name: Black skirt atmos
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/atmos_black_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/atmos_black_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckAtmos
+  name: Skirtleneck atmos
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/skirtleneck.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/skirtleneck.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckQMAtmos
+  name: SkirtleneckQM atmos
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/skirtleneckQM.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/skirtleneckQM.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefSkirtAtmos
+  name: supply chief skirt atmos
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/supply_chief_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/supply_chief_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPEngiBlackSkirt
+  name: BlackSkirt engi
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/engineers_black_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/engineers_black_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckEngi
+  name: Skirtleneck engi
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/skirtleneck.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/skirtleneck.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckQMEngi
+  name: SkirtleneckQM engi
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/skirtleneckQM.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/skirtleneckQM.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefSkirtEngi
+  name: supply chief skirt engi
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/supply_chief_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/supply_chief_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpSkirtSecEngineer
+  name: security engineer jumpsuit
+  description: A jumpsuit made of strong material, providing robust protection.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/Engineer/securityEngineerJumpSkirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/Engineer/securityEngineerJumpSkirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPMedicBlackSkirt
+  name: BlackSkirt
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/medic_black_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/medic_black_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckMedic
+  name: Skirtleneck
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/skirtleneck.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/skirtleneck.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckQMMedic
+  name: SkirtleneckQM
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/skirtleneckQM.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/skirtleneckQM.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefSkirtMedic
+  name: supply chief skirt
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/supply_chief_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/supply_chief_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckVirology
+  name: Skirtleneck Virology
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/skirtleneck.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/skirtleneck.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckVirologyQM
+  name: Skirtleneck Virology QM
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/skirtleneckQM.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/skirtleneckQM.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefSkirtVirology
+  name: Supply Chief Skirt
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/supply_chief_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/supply_chief_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPVirologyBlackSkirt
+  name: Virology Black Skirt
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/virology_black_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/virology_black_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPMedicBlackSkirt2
+  name: MedicBlackSkirt V2
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/medic_black_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/medic_black_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPRndBlackSkirt
+  name: BlackSkirt
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/rnd/rnd_black_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/rnd/rnd_black_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckRnd
+  name: Skirtleneck
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/rnd/skirtleneck.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/rnd/skirtleneck.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckQMRnd
+  name: SkirtleneckQM
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/rnd/skirtleneckQM.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/rnd/skirtleneckQM.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefSkirtRnd
+  name: supply chief skirt
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/rnd/supply_chief_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/rnd/supply_chief_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSecBlackSkirt
+  name: BlackSkirt
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/sec_black_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/sec_black_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckSec
+  name: Skirtleneck
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/skirtleneck.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/skirtleneck.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSkirtleneckQMSec
+  name: SkirtleneckQM
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/skirtleneckQM.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/skirtleneckQM.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefSkirtSec
+  name: supply chief skirt
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/supply_chief_skirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/supply_chief_skirt.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: LPPClothingUniformJumpskirtAltWhiteTopic
+  name: alt white topic
+  suffix: Sponsor
+  description: Pretty clothes exposing the body.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Topics/altwhitetopic.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Topics/altwhitetopic.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: LPPClothingUniformJumpskirtWhiteTopic
+  name: white topic
+  suffix: Sponsor
+  description: Pretty clothes exposing the body.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Topics/whitetopic.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Topics/whitetopic.rsi
+

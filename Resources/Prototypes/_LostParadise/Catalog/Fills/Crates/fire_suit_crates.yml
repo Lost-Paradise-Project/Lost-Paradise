@@ -1,0 +1,16 @@
+- type: entity
+  id: LPPCrateFireSuit
+  name: Ящик пожарной экипировки
+  description: Содержит 2 набор огнеупорной защиты и экипировки
+  parent: CrateRCDAmmo
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterSuitFire
+        amount: 2
+      - id: ClothingHeadHelmetFire
+        amount: 2
+      - id: FireExtinguisher
+        amount: 2
+      - id: GasAnalyzer
+        amount: 2

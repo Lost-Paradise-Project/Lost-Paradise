@@ -1,0 +1,67 @@
+- type: entity
+  name: PF20
+  parent: BaseItem
+  id: LPPWeaponPistolPF20
+  description: Пистолет Фишера под патрон .20, предаствляющий компактность пистолета и мощь винтовочного патрона. Используется спец подразделениями по всей галактике.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/PF20.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,2,0
+    - 0,1,0,1
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/PF20.rsi
+    quickEquip: false
+    slots:
+    - suitStorage
+    - Belt
+  - type: Gun
+    fireRate: 5
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+      - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/pistol_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: LPPMagazinePistolPF20lethal
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistol
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 500

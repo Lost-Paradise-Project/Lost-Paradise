@@ -142,8 +142,8 @@
 - type: playTimeTracker
   id: JobSeniorPhysician
 
-- type: playTimeTracker
-  id: JobSeniorResearcher
+# - type: playTimeTracker
+#   id: JobSeniorResearcher
 
 - type: playTimeTracker
   id: JobServiceWorker
@@ -165,3 +165,6 @@
 
 - type: playTimeTracker
   id: JobZookeeper
+
+- type: playTimeTracker
+  id: JobExpeditor

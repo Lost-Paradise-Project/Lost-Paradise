@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Draw by JayJacobs + Pe4henika + BL02DL",
+  "size": {
+    "x": 8,
+    "y": 8
+  },
+  "states": [
+    {
+      "name": "Brigmedic"
+    },
+    {
+      "name": "IAA"
+    },
+    {
+      "name": "Blueshield"
+    },
+    {
+      "name": "Magistrate"
+    },
+    {
+      "name": "LPPParamedic"
+    },
+    {
+      "name": "Adjutant"
+    },
+    {
+      "name": "SecPilot"
+    },
+    {
+      "name": "BorgSec"
+    },
+    {
+      "name": "DroneSec"
+    },
+    {
+      "name": "Expeditor"
+    },
+    {
+      "name": "LPPSecurityEnginer"
+    }
+  ]
+}

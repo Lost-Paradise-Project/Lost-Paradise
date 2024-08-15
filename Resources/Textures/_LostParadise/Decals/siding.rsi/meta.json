@@ -1,0 +1,47 @@
+{
+    "version": 2,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Draw by Skilets: https://github.com/Skilets",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "siding1"
+        },
+        {
+            "name": "siding2"
+        },
+        {
+            "name": "siding3"
+        },
+        {
+            "name": "siding4"
+        },
+        {
+            "name": "siding5"
+        },
+        {
+            "name": "siding6"
+        },
+        {
+            "name": "siding7"
+        },
+        {
+            "name": "siding8"
+        },
+        {
+            "name": "siding9"
+        },
+        {
+            "name": "siding10"
+        },
+        {
+            "name": "siding11"
+        },
+        {
+            "name": "siding12"
+        }
+    ]
+}

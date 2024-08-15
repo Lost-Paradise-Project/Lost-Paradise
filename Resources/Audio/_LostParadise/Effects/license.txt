@@ -1,0 +1,3 @@
+All sounds in directory are taken from BlueMoon github (licensed under CC-BY-SA by 3.0) at commit https://github.com/BlueMoon-Labs/SERP-BlueMoon-Station-13
+
+cube_close.ogg taken from: https://zvukipro.com/

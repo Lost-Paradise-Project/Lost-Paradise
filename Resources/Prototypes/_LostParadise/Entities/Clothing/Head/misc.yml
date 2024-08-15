@@ -1,0 +1,132 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadEmberWig
+  name: ember wig
+  description: a wig.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/ember.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/ember.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadEmeraldWig
+  name: emerald wig
+  description: a wig.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/emerald.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/emerald.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadGoldWig
+  name: gold wig
+  description: a wig.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/gold.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/gold.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadOnyxWig
+  name: onyx wig
+  description: a wig.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/onyx.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/onyx.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeaRubydWig
+  name: ruby wig
+  description: a wig.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/ruby.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/ruby.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeaSaphiredWig
+  name: saphire wig
+  description: a wig.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/saphire.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/saphire.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadSilverWig
+  name: silver wig
+  description: a wig.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/silver.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/Wigs/silver.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatBlackBeanie
+  name: black beanie
+  description: It's a black beanie.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/black-beanie.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/black-beanie.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatBlueBeanie
+  name: blue beanie
+  description: It's a blue beanie.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/blue-beanie.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/blue-beanie.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatGreenBeanie
+  name: green beanie
+  description: It's a green beanie.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/green-beanie.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/green-beanie.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatPGBeanie
+  name: PG beanie
+  description: It's a PG beanie.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/pg-beanie.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/pg-beanie.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatRedBeanie
+  name: red beanie
+  description: It's a red beanie.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/red-beanie.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/red-beanie.rsi
+

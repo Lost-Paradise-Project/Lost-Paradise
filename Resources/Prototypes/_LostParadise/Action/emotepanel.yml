@@ -1,0 +1,12 @@
+# - type: entity
+#   id: LPPActionEmotePanelToggle
+#   name: Toggle Emote Panel
+#   categories: [ HideSpawnMenu ]
+#   components:
+#   - type: InstantAction
+#     useDelay: 0.1
+#     icon:
+#       sprite: _LostParadise/Interface/emotion_face.rsi
+#       state: icon
+#       scale: 0.65, 0.65
+#     event: !type:ToggleEmotePanelActionEvent

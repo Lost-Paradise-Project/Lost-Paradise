@@ -1,0 +1,73 @@
+- type: entity
+  save: false
+  name: Shark McHands
+  parent: BaseMobSpeciesOrganic
+  id: LPPBaseMobShark
+  abstract: true
+  components:
+    - type: HumanoidAppearance
+      species: SharkSpecies
+    - type: Body
+      prototype: ADTSharkBody
+      requiredLegs: 2
+    - type: Hunger
+      starvationDamage:
+        types:
+          Cold: 0.5
+          Bloodloss: 0.5
+    - type: Thirst
+    - type: Icon
+      sprite: _LostParadise/Mobs/Species/Shark/parts.rsi
+      state: shark_m
+    - type: Damageable
+      damageContainer: Biological
+      damageModifierSet: Scale
+    - type: MeleeWeapon
+      hidden: true
+      soundHit:
+        path: /Audio/Weapons/pierce.ogg
+      angle: 30
+      animation: WeaponArcPunch
+      damage:
+        types:
+          Piercing: 5
+    - type: Temperature
+      heatDamageThreshold: 400
+      coldDamageThreshold: 200
+      currentTemperature: 310.15
+      specificHeat: 42
+      coldDamage:
+        types:
+          Cold : 0.1 #per second, scales with temperature & other constants
+      heatDamage:
+        types:
+          Heat : 0.1 #per second, scales with temperature & other constants
+    - type: MovementSpeedModifier
+      baseWalkSpeed : 3.0
+      baseSprintSpeed : 4.9
+    - type: Perishable
+    - type: Vocal
+      sounds:
+        Male: MaleHuman
+        Female: FemaleHuman
+        Unsexed: FemaleHuman
+    - type: Inventory
+      speciesId: shark
+    - type: LanguageSpeaker
+      speaks:
+      - GalacticCommon
+      understands:
+      - GalacticCommon
+    # - type: EmotePanel
+      race: Shark
+
+- type: entity
+  save: false
+  name: Shark McHands
+  parent: MobHumanDummy
+  id: MobSharkDummy
+  categories: [ HideSpawnMenu ]
+  description: A dummy shark meant to be used in character setup.
+  components:
+    - type: HumanoidAppearance
+      species: SharkSpecies

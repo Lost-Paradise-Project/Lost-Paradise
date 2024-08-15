@@ -1,0 +1,57 @@
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: LPPClothingHeadHelmetHardsuitReflectivepatrolsec
+  name: Шлем модифицированного скафандра
+  description: Хороший шлем...самое то чтобы устроить битву красных против синих!.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/bluehelmsvet.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/bluehelmsvet.rsi
+  - type: PointLight
+    color: "#ffeead"
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: FlashImmunity
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitReflectivepatrolsec
+  name: Отражающий модифицированный скафандр
+  description: Скафандр, но в составе его брони были использованы отражающие лазеры материалы.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/bluesechard.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/bluesechard.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.4
+        Radiation: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.80
+    sprintModifier: 0.80
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitReflectivepatrolsec
+  - type: Reflect
+    reflectProb: 1
+    reflects:
+      - Energy

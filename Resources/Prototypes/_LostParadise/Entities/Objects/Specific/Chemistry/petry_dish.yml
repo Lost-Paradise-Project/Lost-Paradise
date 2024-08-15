@@ -1,0 +1,73 @@
+# - type: entity
+#   parent: BaseItem
+#   id: LPPPetry_dish
+#   name: petry dish
+#   description: I wonder if something is looking at you?
+#   components:
+#   - type: Tag
+#     tags:
+#     - GlassBeaker
+#   - type: Sprite
+#     sprite: _LostParadise/Objects/Specific/Chemistry/petry_dish.rsi
+#     layers:
+#       - state: petrydish
+#       - state: petrydish1
+#         map: ["enum.SolutionContainerLayers.Fill"]
+#         visible: false
+#   - type: Item
+#     size: Small
+#     sprite: _LostParadise/Objects/Specific/Chemistry/petry_dish.rsi
+#   - type: MeleeWeapon
+#     soundNoDamage:
+#       path: "/Audio/Effects/Fluids/splat.ogg"
+#     damage:
+#       types:
+#         Blunt: 0
+#   - type: SolutionContainerManager
+#     solutions:
+#       beaker:
+#         maxVol: 25
+#         canMix: true
+#   - type: FitsInDispenser
+#     solution: beaker
+#   - type: RefillableSolution
+#     solution: beaker
+#   - type: DrainableSolution
+#     solution: beaker
+#   - type: ExaminableSolution
+#     solution: beaker
+#   - type: DrawableSolution
+#     solution: beaker
+#   - type: InjectableSolution
+#     solution: beaker
+#   - type: SolutionTransfer
+#     canChangeTransferAmount: true
+#   - type: UserInterface
+#     interfaces:
+#       enum.TransferAmountUiKey.Key:
+#         type: TransferAmountBoundUserInterface
+#   - type: Drink
+#     isOpen: true
+#     solution: beaker
+#   - type: Appearance
+#   - type: SolutionContainerVisuals
+#     maxFillLevels: 1
+#     fillBaseName: petrydish
+#   - type: Damageable
+#     damageContainer: Inorganic
+#     damageModifierSet: Glass
+#   - type: DamageOnLand
+#     damage:
+#       types:
+#         Blunt: 10 # glass resistance set reduces damage. Need to land twice (w/o hitting wall)
+#   - type: DamageOtherOnHit
+#     damage:
+#       types:
+#         Blunt: 5
+#   - type: DamageOnHighSpeedImpact
+#     minimumSpeed: 2
+#     damage:
+#       types:
+#         Blunt: 5
+#   - type: StaticPrice
+#     price: 300

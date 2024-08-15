@@ -1,0 +1,72 @@
+- type: reagent
+  id: LPPChlorophrate
+  name: reagent-name-chlorophrate
+  group: Toxins
+  desc: reagent-desc-chlorophrate
+  physicalDesc: reagent-physical-desc-chlorophrate
+  flavor: medicine
+  color: "#c4aa00"
+  metabolisms:
+    Poison:
+      effects:
+      - !type:MovespeedModifier
+        walkSpeedModifier: 0.65
+        sprintSpeedModifier: 0.65
+      - !type:GenericStatusEffect
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Chlorophrate
+          min: 5
+        key: ForcedSleep
+        component: ForcedSleeping
+        refresh: false
+        type: Add
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Chlorophrate
+          min: 20
+        damage:
+          types:
+            Poison: 1.5
+
+- type: reagent
+  id: LPPCryostylane
+  name: reagent-name-cryostylane
+  group: Fun
+  desc: reagent-desc-cryostylane
+  physicalDesc: reagent-physical-desc-cryostylane
+  flavor: medicine
+  color: "#ebdada"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:AdjustTemperature
+        conditions:
+        - !type:Temperature
+        amount: -270
+
+- type: reagent
+  id: LPPBluespacedust
+  name: reagent-name-bluespacedust
+  group: Fun
+  desc: reagent-desc-bluespacedust
+  physicalDesc: reagent-physical-desc-bluespacedust
+  flavor: bitter
+  color: "#304cff"
+  metabolisms:
+    Poison:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Radiation: 3
+
+- type: reagent
+  id: LPPHyperPlasmaoxide
+  name: reagent-name-hyperplasmaoxide
+  group: Fun
+  desc: reagent-desc-hyperplasmaoxide
+  physicalDesc: reagent-physical-desc-hyperplasmaoxide
+  flavor: bitter
+  color: "#b300a1"

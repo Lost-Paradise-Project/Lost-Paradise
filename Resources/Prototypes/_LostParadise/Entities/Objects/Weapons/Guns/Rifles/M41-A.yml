@@ -1,0 +1,47 @@
+- type: entity
+  name: M41-A
+  parent: BaseWeaponRifle
+  id: LPPWeaponRifleM41
+  description: An old rifle used during the colonial expansion. Uses .20 rifle ammo.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/M41-A.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    fireRate: 7
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/M41-A.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: LPPBaseMagazineRifleM41AFull
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineRifleM41A
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance

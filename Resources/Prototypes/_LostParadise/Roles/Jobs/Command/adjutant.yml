@@ -1,0 +1,49 @@
+- type: job
+  id: LPPAdjutant
+  name: job-name-adjutant
+  description: job-description-adjutant
+  playTimeTracker: JobLPPАdjutant
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      time: 36000
+    - !type:CharacterDepartmentTimeRequirement
+      department: Medical
+      time: 36000
+    - !type:CharacterOverallTimeRequirement
+      time: 72000
+  startingGear: AdjutantGear
+  icon: "JobIconAdjutant"
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  supervisors: job-supervisors-hop
+  canBeAntag: false
+  access:
+  - Command
+  - Bar
+  - Service
+  - Maintenance
+  - Janitor
+  - Theatre
+  - Kitchen
+  - Chapel
+  - Hydroponics
+  - External
+  - Engineering
+  - Research
+  - Salvage
+  - Security
+  - Brig
+  - Cargo
+  - Medical
+  extendedAccess:
+  - HeadOfPersonnel
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: AdjutantGear
+  equipment:
+    id: LPPAdjutantPDA
+    ears: ClothingHeadsetCommand

@@ -1,0 +1,1 @@
+All sounds in directory are taken from BlueMoon github (licensed under CC-BY-SA by 3.0) at commit fallout 4

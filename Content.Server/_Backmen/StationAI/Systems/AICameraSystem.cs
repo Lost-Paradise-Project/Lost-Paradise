@@ -74,7 +74,7 @@ public sealed class AICameraSystem : EntitySystem
 
         var ammo = Spawn(LPPBulletDisablerBorg, camPos);
         _gun.ShootProjectile(ammo, targetPos.Position - camMapPos.Position, Vector2.One, ent.Comp.Camera.Value, args.Performer);
-        _audio.PlayPvs("/Audio/LPP/Weapons/AILaser.ogg", ent.Comp.Camera.Value);
+        _audio.PlayPvs("/Audio/_LostParadise/Weapons/AILaser.ogg", ent.Comp.Camera.Value);
     }
 
     private void OnMoveToCam(Entity<AIEyeComponent> ent, ref EyeMoveToCam args)

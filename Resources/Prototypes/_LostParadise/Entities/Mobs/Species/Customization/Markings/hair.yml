@@ -1,0 +1,103 @@
+﻿- type: marking
+  id: LPPAllbasarab
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: basarab
+
+- type: marking
+  id: LPPAllcrayfish
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: crayfish
+
+- type: marking
+  id: LPPAllhank
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: hank
+
+- type: marking
+  id: LPPAllhonor
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: honor
+
+- type: marking
+  id: LPPAllmadscientist
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: madscientist
+
+- type: marking
+  id: LPPAllmonday
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: monday
+
+- type: marking
+  id: LPPAllnemesida
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: nemesida
+
+- type: marking
+  id: LPPAllpunk
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: punk
+
+- type: marking
+  id: LPPAllturanga
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: turanga
+
+- type: marking
+  id: LPPAllAyanami
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: ayanami
+
+- type: marking
+  id: LPPAllBubleGum
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: buble_gum
+
+- type: marking
+  id: LPPAllMavis
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: mavis
+
+- type: marking
+  id: LPPAllCloud
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/hair.rsi
+      state: cloud

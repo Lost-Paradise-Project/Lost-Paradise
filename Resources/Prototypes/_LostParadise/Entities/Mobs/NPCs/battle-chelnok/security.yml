@@ -1,0 +1,40 @@
+- type: entity
+  id: LPPBorgSecurityGeneric
+  parent: BaseBorgChassisNT
+  name: security chellnock
+  components:
+  - type: AmbientSound
+    enabled: False
+    range: 4
+    volume: -4
+    sound:
+      path: /Audio/Effects/shuttle_thruster.ogg
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 5
+    baseSprintSpeed : 9
+  - type: MovementIgnoreGravity
+  - type: Sprite
+    sprite: _LostParadise/Mobs/Silicon/security.rsi
+    layers:
+    - state: robot
+    - state: robot_e_r
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: robot_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: BorgChassis
+    maxModules: 2
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - BorgModuleSecurity
+    hasMindState: robot_e
+    noMindState: robot_e_r
+    name: security chellnock
+  - type: Construction
+    node: security
+  - type: Speech
+    speechVerb: Robotic

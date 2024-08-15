@@ -1,0 +1,41 @@
+- type: entity
+  name: боевой резак
+  parent: BaseWeaponPowerCellSmall
+  id: LPPWeaponBattleCutter
+  description: Старая модель резаков, что, вроде как, предназначались для горной добычи, теперь же для рубки ксеносов.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/battlecutter.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/battlecutter.rsi
+    soundForce: true
+    slots:
+    - Belt
+    - suitStorage
+  - type: Gun
+    soundGunshot:
+      path: "/Audio/_LostParadise/Weapons/Guns/Gunshots/BattleCutterFire.ogg"
+      params:
+          volume: 100
+    soundForce: true
+  - type: AmmoCounter
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: LPPWeaponCutterMagazine
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true

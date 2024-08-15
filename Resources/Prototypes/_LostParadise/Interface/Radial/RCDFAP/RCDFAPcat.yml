@@ -1,0 +1,611 @@
+- type: LPPRCDFAP
+  id: Invalid   # Hidden prototype - do not add to LPPRCDFAPDevice
+  mode: Invalid
+
+- type: LPPRCDFAP
+  id: LPPDeconstruct
+  name: rcdfap-component-deconstruct
+  category: Main
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/deconstruct.png
+  mode: Deconstruct
+  prototype: EffectRCDDeconstructPreview
+  rotation: Camera
+
+- type: LPPRCDFAP
+  id: LPPFireAlarm
+  name: rcdfap-component-FireAlarm
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/FireAlarm.png
+  mode: ConstructObject
+  prototype: FireAlarm
+  cost: 1
+  delay: 0
+  collisionMask: InteractImpassable
+  rules:
+    - IsWall
+  rotation: User
+  fx: EffectRCDConstruct0
+
+- type: LPPRCDFAP
+  id: LPPGasPipeBend
+  name: rcdfap-component-GasPipeBend
+  category: Gaspipes
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasPipeBend.png
+  mode: ConstructObject
+  prototype: GasPipeBend
+  cost: 2
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasPipeStraight
+  name: rcdfap-component-GasPipeStraight
+  category: Gaspipes
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasPipeStraight.png
+  mode: ConstructObject
+  prototype: GasPipeStraight
+  cost: 2
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasPipeHalf
+  name: rcdfap-component-GasPipeHalf
+  category: Gaspipes
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasPipeHalf.png
+  mode: ConstructObject
+  prototype: GasPipeHalf
+  cost: 2
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasPipeFourway
+  name: rcdfap-component-GasPipeFourway
+  category: Gaspipes
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasPipeFourway.png
+  mode: ConstructObject
+  prototype: GasPipeFourway
+  cost: 4
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasPipeTJunction
+  name: rcdfap-component-GasPipeTJunction
+  category: Gaspipes
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasPipeTJunction.png
+  mode: ConstructObject
+  prototype: GasPipeTJunction
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasPressurePump
+  name: rcdfap-component-GasPressurePump
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasPressurePump.png
+  mode: ConstructObject
+  prototype: GasPressurePump
+  cost: 2
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasMixer
+  name: rcdfap-component-GasMixer
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasMixer.png
+  mode: ConstructObject
+  prototype: GasMixer
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasMixerFlipped
+  name: rcdfap-component-GasMixerFlipped
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasMixerFlipped.png
+  mode: ConstructObject
+  prototype: GasMixerFlipped
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasFilter
+  name: rcdfap-component-GasFilter
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasFilter.png
+  mode: ConstructObject
+  prototype: GasFilter
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasFilterFlipped
+  name: rcdfap-component-GasFilterFlipped
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasFilterFlipped.png
+  mode: ConstructObject
+  prototype: GasFilterFlipped
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasVolumePump
+  name: rcdfap-component-GasVolumePump
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasVolumePump.png
+  mode: ConstructObject
+  prototype: GasVolumePump
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasPassiveVent
+  name: rcdfap-component-GasPassiveVent
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasPassiveVent.png
+  mode: ConstructObject
+  prototype: GasPassiveVent
+  cost: 4
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasOutletInjector
+  name: rcdfap-component-GasOutletInjector
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasOutletInjector.png
+  mode: ConstructObject
+  prototype: GasOutletInjector
+  cost: 4
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasVentPump
+  name: rcdfap-component-GasVentPump
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasVentPump.png
+  mode: ConstructObject
+  prototype: GasVentPump
+  cost: 4
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasValve
+  name: rcdfap-component-GasValve
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasValve.png
+  mode: ConstructObject
+  prototype: GasValve
+  cost: 4
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasVentScrubber
+  name: rcdfap-component-GasVentScrubber
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasVentScrubber.png
+  mode: ConstructObject
+  prototype: GasVentScrubber
+  cost: 4
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPAtmosDeviceFanTiny
+  name: rcdfap-component-AtmosDeviceFanTiny
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/AtmosDeviceFanTiny.png
+  mode: ConstructObject
+  prototype: AtmosDeviceFanTiny
+  cost: 6
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasPassiveGate
+  name: rcdfap-component-GasPassiveGate
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasPassiveGate.png
+  mode: ConstructObject
+  prototype: GasPassiveGate
+  cost: 4
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPGasDualPortVentPump
+  name: rcdfap-component-GasDualPortVentPump
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasDualPortVentPump.png
+  mode: ConstructObject
+  prototype: GasDualPortVentPump
+  cost: 4
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPPressureControlledValve
+  name: rcdfap-component-PressureControlledValve
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/PressureControlledValve.png
+  mode: ConstructObject
+  prototype: PressureControlledValve
+  cost: 4
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPDisposalUnit
+  name: rcdfap-component-DisposalUnit
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalUnit.png
+  mode: ConstructObject
+  prototype: DisposalUnit
+  cost: 10
+  delay: 4
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct4
+
+- type: LPPRCDFAP
+  id: LPPMailingUnit
+  name: rcdfap-component-MailingUnit
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/MailingUnit.png
+  mode: ConstructObject
+  prototype: MailingUnit
+  cost: 10
+  delay: 4
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct4
+
+- type: LPPRCDFAP
+  id: LPPGasPort
+  name: rcdfap-component-GasPort
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/GasPort.png
+  mode: ConstructObject
+  prototype: GasPort
+  cost: 5
+  delay: 3
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct3
+
+- type: LPPRCDFAP
+  id: LPPDisposalJunctionFlipped
+  name: rcdfap-component-DisposalJunctionFlipped
+  category: DisposalPipe
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalJunctionFlipped.png
+  mode: ConstructObject
+  prototype: DisposalJunctionFlipped
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPDisposalJunction
+  name: rcdfap-component-DisposalJunction
+  category: DisposalPipe
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalJunction.png
+  mode: ConstructObject
+  prototype: DisposalJunction
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPDisposalRouterFlipped
+  name: rcdfap-component-DisposalRouterFlipped
+  category: DisposalPipe
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalRouterFlipped.png
+  mode: ConstructObject
+  prototype: DisposalRouterFlipped
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPDisposalRouter
+  name: rcdfap-component-DisposalRouter
+  category: DisposalPipe
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalRouter.png
+  mode: ConstructObject
+  prototype: DisposalRouter
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPDisposalTagger
+  name: rcdfap-component-DisposalTagger
+  category: DisposalPipe
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalTagger.png
+  mode: ConstructObject
+  prototype: DisposalTagger
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPDisposalBend
+  name: rcdfap-component-DisposalBend
+  category: DisposalPipe
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalBend.png
+  mode: ConstructObject
+  prototype: DisposalBend
+  cost: 2
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPDisposalYJunction
+  name: rcdfap-component-DisposalYJunction
+  category: DisposalPipe
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalYJunction.png
+  mode: ConstructObject
+  prototype: DisposalYJunction
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPDisposalSignalRouter
+  name: rcdfap-component-DisposalSignalRouter
+  category: DisposalPipe
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalSignalRouter.png
+  mode: ConstructObject
+  prototype: DisposalSignalRouter
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPDisposalSignalRouterFlipped
+  name: rcdfap-component-DisposalSignalRouterFlipped
+  category: DisposalPipe
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalSignalRouterFlipped.png
+  mode: ConstructObject
+  prototype: DisposalSignalRouterFlipped
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPDisposalTrunk
+  name: rcdfap-component-DisposalTrunk
+  category: DisposalPipe
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalTrunk.png
+  mode: ConstructObject
+  prototype: DisposalTrunk
+  cost: 2
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPDisposalPipe
+  name: rcdfap-component-DisposalPipe
+  category: DisposalPipe
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalPipe.png
+  mode: ConstructObject
+  prototype: DisposalPipe
+  cost: 2
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWindow
+    - MustBuildOnSubfloor
+  rotation: User
+  fx: EffectRCDConstruct2
+
+- type: LPPRCDFAP
+  id: LPPAirSensor
+  name: rcdfap-component-AirSensor
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/AirSensor.png
+  mode: ConstructObject
+  prototype: AirSensor
+  cost: 4
+  delay: 3
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct3
+
+- type: LPPRCDFAP
+  id: LPPFloorDrain
+  name: rcdfap-component-FloorDrain
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/FloorDrain.png
+  mode: ConstructObject
+  prototype: FloorDrain
+  cost: 10
+  delay: 4
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct4
+
+- type: LPPRCDFAP
+  id: LPPAirAlarm
+  name: rcdfap-component-AirAlarm
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/AirAlarm.png
+  mode: ConstructObject
+  prototype: AirAlarm
+  cost: 6
+  delay: 4
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rules:
+    - IsWall
+  rotation: User
+  fx: EffectRCDConstruct4
+
+- type: LPPRCDFAP
+  id: LPPSignalControlledValve
+  name: rcdfap-component-SignalControlledValve
+  category: Devices
+  sprite: /Textures/_LostParadise/Interface/Radial/RCDFAP/SignalControlledValve.png
+  mode: ConstructObject
+  prototype: SignalControlledValve
+  cost: 3
+  delay: 2
+  collisionMask: FullTileMask
+  collisionBounds: "-0.23,-0.49,0.23,-0.36"
+  rotation: User
+  fx: EffectRCDConstruct2

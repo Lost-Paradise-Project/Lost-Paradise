@@ -1,0 +1,190 @@
+- type: hitscan
+  id: ChronoLaser
+  damage:
+    types:
+      Heat: 30
+      Radiation: 30
+      Genetic: 50
+  muzzleFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: muzzle_laser
+  travelFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: beam
+  impactFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: impact_laser
+
+- type: entity
+  id: LPPBulletCharge
+  name: syndie charge bolt
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  description: Marks a target for additional damage.
+  components:
+  - type: Reflective
+    reflective:
+    - NonEnergy
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    layers:
+      - state: chronobolt
+        shader: unshaded
+  - type: GatheringProjectile
+  - type: DamageMarkerOnCollide
+    whitelist:
+      components:
+        - MobState
+    damage:
+      types:
+        Blunt: 20
+        Slash: 10
+  - type: Projectile
+    impactEffect: BulletImpactEffectKinetic
+    damage:
+      types:
+        Radiation: 10
+        Structural: 30
+  # Short lifespan
+  - type: TimedDespawn
+    lifetime: 0.35
+
+- type: entity
+  id: LPPBulletPibodi
+  name: Pibodi Bullet
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  description: Not too bad, but you still don't want to get hit by it.
+  components:
+  - type: Reflective
+    reflective:
+      - NonEnergy
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: grapeshot
+      shader: unshaded
+  - type: Projectile
+    impactEffect: BulletImpactEffect
+    damage:
+      types:
+        Blunt: 15
+        Structural: 50
+        Piercing: 20
+  # Short lifespan
+  - type: TimedDespawn
+    lifetime: 1
+
+# - type: entity
+#   name: Bullet or AI Turrets
+#   id: LPPBulletAITurrets
+#   parent: BaseBullet
+#   categories: [ HideSpawnMenu ]
+#   components:
+#   - type: Reflective
+#     reflective:
+#     - Energy
+#   - type: FlyBySound
+#     sound:
+#       collection: EnergyMiss
+#       params:
+#         volume: 5
+#   - type: Sprite
+#     sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/AIBullet.rsi
+#     layers:
+#     - state: AIBullets
+#       shader: unshaded
+#   - type: Physics
+#   - type: Fixtures
+#     fixtures:
+#       projectile:
+#         shape:
+#           !type:PhysShapeAabb
+#           bounds: "-0.15,-0.3,0.15,0.3"
+#         hard: false
+#         mask:
+#         - Impassable
+#         - BulletImpassable
+#       fly-by: *flybyfixture
+#   - type: Ammo
+#   - type: Projectile
+#     impactEffect: LPPAIBulletsImpact
+#     damage:
+#       types:
+#         Heat: 9
+#     soundHit:
+#       collection: WeakHit
+#     forceSound: true
+
+- type: entity
+  id: LPPBulletAITurrets
+  parent: BaseBullet
+  name: Bullet AI
+  description: If you can see this you're probably dead!
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/AIBullet.rsi
+    layers:
+    - state: AIBullets
+      shader: unshaded
+  - type: Projectile
+    impactEffect: LPPAIBulletsImpact
+    damage:
+      types:
+        Heat: 7
+    soundHit:
+      path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
+  - type: TimedDespawn
+    lifetime: 10
+  - type: PointLight
+    enabled: true
+    color: "#ff4300"
+    radius: 1.0
+    energy: 2.0
+
+# IMPACTS
+- type: entity
+  id: LPPAIBulletsImpact
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: TimedDespawn
+      lifetime: 0.2
+    - type: Sprite
+      drawdepth: Effects
+      layers:
+        - shader: unshaded
+          map: ["enum.EffectLayers.Unshaded"]
+          sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/battlecutter.rsi
+          state: impact_laser_blue
+    - type: EffectVisuals
+    - type: Tag
+      tags:
+        - HideContextMenu
+
+- type: entity
+  id: LPPBecbowarrow
+  name: ecbowshot
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  description: Not too bad, but you still don't want to get hit by it.
+  components:
+  - type: Reflective
+    reflective:
+      - NonEnergy
+  - type: Sprite
+    noRot: false
+    sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/ecbow.rsi
+    layers:
+    - state: cbowshot
+  - type: Projectile
+    impactEffect: BulletImpactEffect
+    damage:
+      types:
+        Blunt: 3
+        Poison: 5
+  - type: StunOnCollide
+    stunAmount: 3
+    knockdownAmount: 4

@@ -1,0 +1,157 @@
+- type: entity
+  abstract: true
+  parent: BaseItem
+  id: LPPBaseMagazineBoxRifle
+  components:
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeM4A1
+    proto: LPPCartridgeM4A1Lethal
+    capacity: 60
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+# Boxes
+- type: entity
+  parent: LPPBaseMagazineBoxRifle
+  id: LPPMagazineBoxM4A1BigLethal
+  name: коробка патрон (калибра 5.56х45)
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 200
+    proto: LPPCartridgeM4A1Lethal
+  - type: Sprite
+    layers:
+    - state: base-b
+      map: ["enum.GunVisualLayers.Base"]
+    - state: magb-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: magb
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  parent: LPPBaseMagazineBoxRifle
+  id: LPPMagazineBoxM4A1BigPractice
+  name: коробка патрон (калибра 5.56х45 учебные)
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 200
+    proto: LPPCartridgePracticeM4A1
+  - type: Sprite
+    layers:
+    - state: base-b
+      map: ["enum.GunVisualLayers.Base"]
+    - state: magb-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: practice-b
+  - type: MagazineVisuals
+    magState: magb
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  parent: LPPBaseMagazineBoxRifle
+  id: LPPMagazineBoxM4A1Lethal
+  name: коробка патрон (калибра 5.56х45)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeM4A1Lethal
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: LPPBaseMagazineBoxRifle
+  id: LPPMagazineBoxM4A1Practice
+  name: коробка патрон (калибра 5.56х45 учебные)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgePracticeM4A1
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: practice
+
+- type: entity
+  parent: LPPBaseMagazineBoxRifle
+  id: LPPMagazineBoxM4A1Rubber
+  name: коробка патрон (калибра 5.56х45 резиновые)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeRubberM4A1
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: rubber
+
+- type: entity
+  id: LPPMagazineBoxM4A1Incendiary
+  parent: LPPBaseMagazineBoxRifle
+  name: коробка патрон (калибра 5.56х45 зажигательные)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeIncendiaryM4A1
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: incendiary
+
+- type: entity
+  id: LPPMagazineBoxM4A1Uranium
+  parent: LPPBaseMagazineBoxRifle
+  name: коробка патрон (калибра 5.56х45 урановые)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeUraniumM4A1
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: uranium
+
+- type: entity
+  parent: LPPBaseMagazineBoxRifle
+  id: LPPMagazineBoxHunting
+  name: коробка патрон (.30 охотничие)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeLightRifleHunting
+    whitelist:
+      tags:
+        - CartridgeHunting
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

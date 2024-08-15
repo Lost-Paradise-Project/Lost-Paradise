@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPAdjuWhiteSkirt
+  name: Белый- костюм адъютанта
+  description: Белый вариант костюма адъютанта что-то между школьником и офисным планктоном.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/_LostParadiseAdjuWhiteSkirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/_LostParadiseAdjuWhiteSkirt.rsi

@@ -1,0 +1,819 @@
+#weapon
+- type: listing
+  id: LPPERTCatalogWeaponMk58
+  name: ert-catalog-weapon-mk58-name
+  description: ert-catalog-weapon-mk58-desc
+  productEntity: WeaponPistolMk58
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTWeapon
+
+- type: listing
+  id: LPPERTCatalogWeaponWt550
+  name: ert-catalog-weapon-wt550-name
+  description: ert-catalog-weapon-wt550-desc
+  productEntity: WeaponSubMachineGunWt550
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTWeapon
+
+- type: listing
+  id: LPPERTCatalogWeaponDrozd
+  name: ert-catalog-weapon-drozd-name
+  description: ert-catalog-weapon-drozd-desc
+  productEntity: WeaponSubMachineGunDrozd
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTWeapon
+
+- type: listing
+  id: LPPERTCatalogWeaponLecter
+  name: ert-catalog-weapon-lecter-name
+  description: ert-catalog-weapon-lecter-desc
+  productEntity: WeaponRifleLecter
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPERTWeapon
+
+- type: listing
+  id: LPPERTCatalogWeaponKammerer
+  name: ert-catalog-weapon-kammerer-name
+  description: ert-catalog-weapon-kammerer-desc
+  productEntity: WeaponShotgunKammerer
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTWeapon
+
+- type: listing
+  id: LPPERTCatalogWeaponEnforcer
+  name: ert-catalog-weapon-enforcer-name
+  description: ert-catalog-weapon-enforcer-desc
+  productEntity: WeaponShotgunEnforcer
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPERTWeapon
+
+- type: listing
+  id: LPPERTCatalogWeaponLaserGun
+  name: ert-catalog-weapon-lasergun-name
+  description: ert-catalog-weapon-lasergun-desc
+  productEntity: WeaponLaserGun
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTWeapon
+
+- type: listing
+  id: LPPERTCatalogWeaponAdvancedLaser
+  name: ert-catalog-weapon-advancedlaser-name
+  description: ert-catalog-weapon-advancedlaser-desc
+  productEntity: WeaponAdvancedLaser
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPERTWeapon
+
+- type: listing
+  id: LPPERTCatalogWeaponPulsePistol
+  name: ert-catalog-weapon-pulsepistol-name
+  description: ert-catalog-weapon-pulsepistol-desc
+  productEntity: WeaponPulsePistol
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPERTWeapon
+
+- type: listing
+  id: LPPERTCatalogWeaponPulseCarbine
+  name: ert-catalog-weapon-pulsecarbine-name
+  description: ert-catalog-weapon-pulsecarbine-desc
+  productEntity: WeaponPulseCarbine
+  cost:
+    Telecrystal: 8
+  categories:
+  - LPPERTWeapon
+
+#armor
+- type: listing
+  id: LPPERTCatalogArmorReflective
+  name: ert-catalog-armor-reflective-name
+  description: ert-catalog-armor-reflective-desc
+  productEntity: ClothingOuterArmorReflective
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorBulletproof
+  name: ert-catalog-armor-bulletproof-name
+  description: ert-catalog-armor-bulletproof-desc
+  productEntity: ClothingOuterArmorBulletproof
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorHeavy
+  name: ert-catalog-armor-heavy-name
+  description: ert-catalog-armor-heavy-desc
+  productEntity: ClothingOuterArmorHeavy
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTArmor
+
+#- type: listing
+#  id: LPPERTCatalogArmorSWAT
+#  name: ert-catalog-armor-swat-name
+#  description: ert-catalog-armor-swat-desc
+#  productEntity: LPPClothingOuterHardsuitSWAT
+#  cost:
+#    Telecrystal: 3
+#  categories:
+#  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorOfficerHardsuit
+  name: ert-catalog-armor-officer-hardsuit-name
+  description: ert-catalog-armor-officer-hardsuit-desc
+  productEntity: ClothingOuterHardsuitERTSecurity
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorMedicalHardsuit
+  name: ert-catalog-armor-medical-hardsuit-name
+  description: ert-catalog-armor-medical-hardsuit-desc
+  productEntity: ClothingOuterHardsuitERTMedical
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorEngineerHardsuit
+  name: ert-catalog-armor-engineer-hardsuit-name
+  description: ert-catalog-armor-engineer-hardsuit-desc
+  productEntity: ClothingOuterHardsuitERTEngineer
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorJanitorHardsuit
+  name: ert-catalog-armor-janitor-hardsuit-name
+  description: ert-catalog-armor-janitor-hardsuit-desc
+  productEntity: ClothingOuterHardsuitERTJanitor
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorLeaderHardsuit
+  name: ert-catalog-armor-leader-hardsuit-name
+  description: ert-catalog-armor-leader-hardsuit-desc
+  productEntity: ClothingOuterHardsuitERTLeader
+  cost:
+    Telecrystal: 8
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorOfficerHelmet
+  name: ert-catalog-armor-officer-helmet-name
+  description: ert-catalog-armor-officer-helmet-desc
+  productEntity: ClothingHeadHelmetERTSecurity
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorMedicalHelmet
+  name: ert-catalog-armor-medical-helmet-name
+  description: ert-catalog-armor-medical-helmet-desc
+  productEntity: ClothingHeadHelmetERTMedic
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorEngineerHelmet
+  name: ert-catalog-armor-engineer-helmet-name
+  description: ert-catalog-armor-engineer-helmet-desc
+  productEntity: ClothingHeadHelmetERTEngineer
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorJanitorHelmet
+  name: ert-catalog-armor-janitor-helmet-name
+  description: ert-catalog-armor-janitor-helmet-desc
+  productEntity: ClothingHeadHelmetERTJanitor
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorLeaderHelmet
+  name: ert-catalog-armor-leader-helmet-name
+  description: ert-catalog-armor-leader-helmet-desc
+  productEntity: ClothingHeadHelmetERTLeader
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorGasMask
+  name: ert-catalog-armor-gas-mask-name
+  description: ert-catalog-armor-gas-mask-desc
+  productEntity: ClothingMaskGasERT
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorAirTank
+  name: ert-catalog-armor-airtank-name
+  description: ert-catalog-armor-airtank-desc
+  productEntity: AirTankFilled
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorOxygenTank
+  name: ert-catalog-armor-oxytank-double-name
+  description: ert-catalog-armor-oxytank-double-desc
+  productEntity: DoubleEmergencyOxygenTankFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorNitrogenTankFilled
+  name: ert-catalog-armor-nitrotank-double-name
+  description: ert-catalog-armor-nitrotank-double-desc
+  productEntity: DoubleEmergencyNitrogenTankFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorJetpack
+  name: ert-catalog-armor-jetpack-name
+  description: ert-catalog-armor-jetpack-desc
+  productEntity: JetpackVoidFilled
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorMagboots
+  name: ert-catalog-armor-magboots-name
+  description: ert-catalog-armor-magboots-desc
+  productEntity: ClothingShoesBootsMagSci
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorMagbootsAdv
+  name: ert-catalog-armor-magboots-adv-name
+  description: ert-catalog-armor-magboots-adv-desc
+  productEntity: ClothingShoesBootsMagAdv
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPERTArmor
+
+#- type: listing
+#  id: LPPERTCatalogArmorHudSec
+#  name: ert-catalog-armor-hud-sec-name
+#  description: ert-catalog-armor-hud-sec-desc
+#  productEntity: LPPRedHudGlasses
+#  cost:
+#    Telecrystal: 3
+#  categories:
+#  - LPPERTArmor
+
+#- type: listing
+#  id: LPPERTCatalogArmorHudEngSec
+#  name: ert-catalog-armor-hud-seceng-name
+#  description: ert-catalog-armor-hud-seceng-desc
+#  productEntity: LPPClothingEyesHudSecEng
+#  cost:
+#    Telecrystal: 3
+#  categories:
+#  - LPPERTArmor
+
+- type: listing
+  id: LPPERTCatalogArmorHudMedSec
+  name: ert-catalog-armor-hud-secmed-name
+  description: ert-catalog-armor-hud-secmed-desc
+  productEntity: ClothingEyesHudMedSec
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTArmor
+
+#ammo
+- type: listing
+  id: LPPERTCatalogAmmoBoxMagazineShotgunBeanbag
+  name: ert-catalog-ammo-box-magazine-shotgun-beanbag-name
+  description: ert-catalog-ammo-box-magazine-shotgun-beanbag-desc
+  productEntity: BoxMagazineShotgunBeanbag
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTAmmo
+
+- type: listing
+  id: LPPERTCatalogAmmoBoxMagazineShotgunSlug
+  name: ert-catalog-ammo-box-magazine-shotgun-slug-name
+  description: ert-catalog-ammo-box-magazine-shotgun-slug-desc
+  productEntity: BoxMagazineShotgunSlug
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTAmmo
+
+- type: listing
+  id: LPPERTCatalogAmmoBoxMagazineShotgun
+  name: ert-catalog-ammo-box-magazine-shotgun-name
+  description: ert-catalog-ammo-box-magazine-shotgun-desc
+  productEntity: BoxMagazineShotgun
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTAmmo
+
+#- type: listing
+#  id: LPPERTCatalogAmmoBoxMagazinePistolSubMachineGunRubber
+#  name: ert-catalog-ammo-box-magazine-submachine-rubber-name
+#  description: ert-catalog-ammo-box-magazine-submachine-rubber-desc
+#  productEntity: BoxMagazinePistolSubMachineGunRubber
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - LPPERTAmmo
+
+- type: listing
+  id: LPPERTCatalogAmmoBoxMagazinePistolSubMachineGun
+  name: ert-catalog-ammo-box-magazine-submachine-name
+  description: ert-catalog-ammo-box-magazine-submachine-desc
+  productEntity: BoxMagazinePistolSubMachineGun
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTAmmo
+
+- type: listing
+  id: LPPERTCatalogAmmoBoxMagazinePistolSubMachineGunTopMounted
+  name: ert-catalog-ammo-box-magazine-submachine-top-mounted-name
+  description: ert-catalog-ammo-box-magazine-submachine-top-mounted-desc
+  productEntity: BoxMagazinePistolSubMachineGunTopMounted
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTAmmo
+
+#- type: listing
+#  id: LPPERTCatalogAmmoBoxMagazineRifleRubber
+#  name: ert-catalog-ammo-box-magazine-rifle-rubber-name
+#  description: ert-catalog-ammo-box-magazine-rifle-rubber-desc
+#  productEntity: BoxMagazineRifleRubber
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - LPPERTAmmo
+
+- type: listing
+  id: LPPERTCatalogAmmoBoxMagazineRifle
+  name: ert-catalog-ammo-box-magazine-rifle-name
+  description: ert-catalog-ammo-box-magazine-rifle-desc
+  productEntity: BoxMagazineRifle
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTAmmo
+
+#- type: listing
+#  id: LPPERTCatalogAmmoBoxMagazinePistolRubber
+#  name: ert-catalog-ammo-box-magazine-pistol-rubber-name
+#  description: ert-catalog-ammo-box-magazine-pistol-rubber-desc
+#  productEntity: BoxMagazinePistolRubber
+#  cost:
+#    Telecrystal: 1
+#  categories:
+#  - LPPERTAmmo
+
+- type: listing
+  id: LPPERTCatalogAmmoBoxMagazinePistol
+  name: ert-catalog-ammo-box-magazine-pistol-name
+  description: ert-catalog-ammo-box-magazine-pistol-desc
+  productEntity: BoxMagazinePistol
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTAmmo
+
+- type: listing
+  id: LPPERTCatalogAmmoBelt
+  name: ert-catalog-ammo-belt-name
+  description: ert-catalog-ammo-belt-desc
+  productEntity: ClothingBeltAssault
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTAmmo
+
+- type: listing
+  id: LPPERTCatalogAmmoBandolier
+  name: ert-catalog-ammo-bandolier-name
+  description: ert-catalog-ammo-bandolier-desc
+  productEntity: ClothingBeltBandolier
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTAmmo
+
+#medicine
+- type: listing
+  id: LPPERTCatalogMedicineMedkit
+  name: ert-catalog-medicine-medkit-name
+  description: ert-catalog-medicine-medkit-desc
+  productEntity: MedkitFilled
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineMedkitBrute
+  name: ert-catalog-medicine-medkit-brute-name
+  description: ert-catalog-medicine-medkit-brute-desc
+  productEntity: MedkitBruteFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineMedkitBurn
+  name: ert-catalog-medicine-medkit-burn-name
+  description: ert-catalog-medicine-medkit-burn-desc
+  productEntity: MedkitBurnFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineMedkitOxygen
+  name: ert-catalog-medicine-medkit-oxygen-name
+  description: ert-catalog-medicine-medkit-oxygen-desc
+  productEntity: MedkitOxygenFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineMedkitToxin
+  name: ert-catalog-medicine-medkit-toxin-name
+  description: ert-catalog-medicine-medkit-toxin-desc
+  productEntity: MedkitToxinFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineMedkitRadiation
+  name: ert-catalog-medicine-medkit-radiation-name
+  description: ert-catalog-medicine-medkit-radiation-desc
+  productEntity: MedkitRadiationFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineMedkitAdvanced
+  name: ert-catalog-medicine-medkit-advanced-name
+  description: ert-catalog-medicine-medkit-advanced-desc
+  productEntity: MedkitAdvancedFilled
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineMedkitCombat
+  name: ert-catalog-medicine-medkit-combat-name
+  description: ert-catalog-medicine-medkit-combat-desc
+  productEntity: MedkitCombatFilled
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineBelt
+  name: ert-catalog-medicine-belt-name
+  description: ert-catalog-medicine-belt-desc
+  productEntity: ClothingBeltMedicalEMTFilled
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineHypospray
+  name: ert-catalog-medicine-hypospray-name
+  description: ert-catalog-medicine-hypospray-desc
+  productEntity: Hypospray
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineBottleStimulants
+  name: ert-catalog-medicine-bottle-stimulants-name
+  description: ert-catalog-medicine-bottle-stimulants-desc
+  productEntity: LPPChemistryBottleStimulant
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineBottleEpinephrine
+  name: ert-catalog-medicine-bottle-epinephrine-name
+  description: ert-catalog-medicine-bottle-epinephrine-desc
+  productEntity: EpinephrineChemistryBottle
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineBottleOmnizine
+  name: ert-catalog-medicine-bottle-omnizine-name
+  description: ert-catalog-medicine-bottle-omnizine-desc
+  productEntity: OmnizineChemistryBottle
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTMedicine
+
+- type: listing
+  id: LPPERTCatalogMedicineBottleEphedrine
+  name: ert-catalog-medicine-bottle-ephedrine-name
+  description: ert-catalog-medicine-bottle-ephedrine-desc
+  productEntity: EphedrineChemistryBottle
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTMedicine
+
+#engineering
+- type: listing
+  id: LPPERTCatalogEngineeringCrateSteel
+  name: ert-catalog-engineering-crate-steel-name
+  description: ert-catalog-engineering-crate-steel-desc
+  productEntity: CrateMaterialSteel
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTEngineering
+
+- type: listing
+  id: LPPERTCatalogEngineeringCrateGlass
+  name: ert-catalog-engineering-crate-glass-name
+  description: ert-catalog-engineering-crate-glass-desc
+  productEntity: CrateMaterialGlass
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTEngineering
+
+- type: listing
+  id: LPPERTCatalogEngineeringCratePlasteel
+  name: ert-catalog-engineering-crate-plasteel-name
+  description: ert-catalog-engineering-crate-plasteel-desc
+  productEntity: CrateMaterialPlasteel
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTEngineering
+
+- type: listing
+  id: LPPERTCatalogEngineeringBelt
+  name: ert-catalog-engineering-belt-name
+  description: ert-catalog-engineering-belt-desc
+  productEntity: ClothingBeltChiefEngineerFilled
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTEngineering
+
+- type: listing
+  id: LPPERTCatalogEngineeringRCD
+  name: ert-catalog-engineering-rcd-name
+  description: ert-catalog-engineering-rcd-desc
+  productEntity: RCD
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTEngineering
+
+- type: listing
+  id: LPPERTCatalogEngineeringRCDAmmo
+  name: ert-catalog-engineering-rcdammo-name
+  description: ert-catalog-engineering-rcdammo-desc
+  productEntity: RCDAmmo
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPERTEngineering
+
+#- type: listing
+#  id: LPPERTCatalogEngineeringHammer
+#  name: ert-catalog-engineering-hammer-name
+#  description: ert-catalog-engineering-hammer-desc
+#  productEntity: LPPHammer
+#  cost:
+#    Telecrystal: 5
+#  categories:
+#  - LPPERTEngineering
+
+- type: listing
+  id: LPPERTCatalogEngineeringCrowbar
+  name: ert-catalog-engineering-crowbar-name
+  description: ert-catalog-engineering-crowbar-desc
+  productEntity: CrowbarRed
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTEngineering
+
+#Unlethal
+- type: listing
+  id: LPPERTCatalogUnlethalBoxZiptie
+  name: ert-catalog-unlethal-boxziptie-name
+  description: ert-catalog-unlethal-boxziptie-desc
+  productEntity: BoxZiptie
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPERTUnlethal
+
+- type: listing
+  id: LPPERTCatalogUnlethalGrenadeFlash
+  name: ert-catalog-unlethal-grenade-flash-name
+  description: ert-catalog-unlethal-grenade-flash-desc
+  productEntity: GrenadeFlashBang
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTUnlethal
+
+- type: listing
+  id: LPPERTCatalogUnlethalGrenadeStinger
+  name: ert-catalog-unlethal-grenade-stinger-name
+  description: ert-catalog-unlethal-grenade-stinger-desc
+  productEntity: GrenadeStinger
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTUnlethal
+
+- type: listing
+  id: LPPERTCatalogUnlethalGrenadeTeargas
+  name: ert-catalog-unlethal-grenade-teargas-name
+  description: ert-catalog-unlethal-grenade-teargas-desc
+  productEntity: TearGasGrenade
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTUnlethal
+
+- type: listing
+  id: LPPERTCatalogUnlethalWeaponDisabler
+  name: ert-catalog-unlethal-disabler-name
+  description: ert-catalog-unlethal-disabler-desc
+  productEntity: WeaponDisabler
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPERTUnlethal
+
+- type: listing
+  id: LPPERTCatalogUnlethalWeaponDisablerSMG
+  name: ert-catalog-unlethal-disablersmg-name
+  description: ert-catalog-unlethal-disablersmg-desc
+  productEntity: WeaponDisablerSMG
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTUnlethal
+
+- type: listing
+  id: LPPERTCatalogUnlethalWeaponMindshields
+  name: ert-catalog-unlethal-mindshields-name
+  description: ert-catalog-unlethal-mindshields-desc
+  productEntity: CrateMindShieldImplants
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPERTUnlethal
+
+#Implants
+- type: listing
+  id: LPPERTCatalogImplantsTracker
+  name: ert-catalog-implants-tracker-name
+  description: ert-catalog-implants-tracker-desc
+  productEntity: CrateTrackingImplants
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPERTImplants
+
+- type: listing
+  id: LPPERTCatalogImplantsFreedom
+  name: ert-catalog-implants-freedom-name
+  description: ert-catalog-implants-freedom-desc
+  productEntity: LPPCrateFreedomImplants
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPERTImplants
+
+#- type: listing
+#  id: LPPERTCatalogImplantsLanguage
+#  name: ert-catalog-implants-language-name
+#  description: ert-catalog-implants-language-desc
+#  productEntity: LPPCrateLanguageImplants
+#  cost:
+#    Telecrystal: 4
+#  categories:
+#  - LPPERTImplants
+
+# !!!НЕ ДЕКОММЕНТИТЬ ТО ЧТО СНИЗУ!!!
+
+#Allies
+#- type: listing
+#  id: LPPERTCatalogAlliesBorgEng
+#  name: ert-catalog-allies-borg-eng-name
+#  description: ert-catalog-allies-borg-eng-desc
+#  productEntity: LPPBorgChassisEngineeringERT
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - ERTAllies
+
+#- type: listing
+#  id: LPPERTCatalogAlliesBorgMed
+#  name: ert-catalog-allies-borg-med-name
+#  description: ert-catalog-allies-borg-med-desc
+#  productEntity: LPPBorgChassisMedicalERT
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - ERTAllies
+
+#- type: listing
+#  id: LPPERTCatalogAlliesBorgSec
+#  name: ert-catalog-allies-borg-sec-name
+#  description: ert-catalog-allies-borg-sec-desc
+#  productEntity: LPPDSOBorgSecurity
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - ERTAllies

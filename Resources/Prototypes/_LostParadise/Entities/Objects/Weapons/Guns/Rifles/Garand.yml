@@ -1,0 +1,44 @@
+- type: entity
+  id: LPPWeaponM1Garand
+  parent: BaseWeaponRifle
+  name: винтовка М1 Гаранд
+  description: Реплика классической винтовки Второй Мировой Войны от компании XenoHuntingArmoury, использующая патроны .30 охотничие. Пинг!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/garand.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/garand.rsi
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: LPPMagazineRifleGarand
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/_LostParadise/Weapons/Guns/MagOut/garandping.ogg
+        priority: 1
+        whitelist:
+          tags:
+            - LPPMagazineGarand
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: ChamberMagazineAmmoProvider
+    autoEject: true

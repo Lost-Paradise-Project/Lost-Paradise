@@ -1,0 +1,73 @@
+- type: species
+  id: ElfSpecies
+  name: species-name-elf
+  roundStart: true
+  prototype: MobElf
+  sprites: MobElfSprites
+  markingLimits: MobElfMarkingLimits
+  dollPrototype: MobElfDummy
+  skinColoration: HumanToned
+  minAge: 50
+  youngAge: 100
+  oldAge: 200
+  maxAge: 300
+
+- type: speciesBaseSprites
+  id: MobElfSprites
+  sprites:
+    Head: MobElfHead
+    Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Chest: MobHumanTorso
+    HeadTop: MobHumanoidAnyMarking # Corvax-Sponsors
+    Tail: MobHumanoidAnyMarking # Corvax-Sponsors
+    Eyes: MobHumanoidEyes
+    LArm: MobHumanLArm
+    RArm: MobHumanRArm
+    LHand: MobHumanLHand
+    RHand: MobHumanRHand
+    LLeg: MobHumanLLeg
+    RLeg: MobHumanRLeg
+    LFoot: MobHumanLFoot
+    RFoot: MobHumanRFoot
+
+- type: markingPoints
+  id: MobElfMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Hair:
+      points: 1
+      required: false
+    Tail: # the cat tail joke
+      points: 1 # Corvax-Sponsors
+      required: false
+    HeadTop: # the cat ear joke
+      points: 1 # Corvax-Sponsors
+      required: false
+    Chest:
+      points: 1
+      required: false
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobElfHead
+  baseSprite:
+    sprite: _LostParadise/Mobs/Species/Elf/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobElfHeadMale
+  baseSprite:
+    sprite: _LostParadise/Mobs/Species/Elf/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobElfHeadFemale
+  baseSprite:
+    sprite: _LostParadise/Mobs/Species/Elf/parts.rsi
+    state: head_f

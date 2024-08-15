@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Made by brainfood1183 (github) for ss14",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+        "name": "cover-half1"
+    },
+    {
+        "name": "cover-half2"
+    },
+    {
+        "name": "cover-half3"
+    },
+    {
+        "name": "cover-half4"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckPGBandage
+  name: PG bandage
+  description: A bandage that gives an understanding of what political position the wearer of this bandage has.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Bandage/pg-hand-bandage.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Bandage/pg-hand-bandage.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckMantlePGGhillie
+  name: PG ghillie
+  description: A bandage that gives an understanding of what political position the wearer of this bandage has.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Mantles/pg-camo-mantle.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Mantles/pg-camo-mantle.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatGreenBandana
+  name: green bandana
+  description: It's a green bandana.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Bandanas/green-bandana.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Bandanas/green-bandana.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatRedBandana
+  name: red bandana
+  description: It's a red bandana.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Bandanas/red-bandana.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Bandanas/red-bandana.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatRedMedBandana
+  name: med bandana
+  description: It's a med bandana.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Bandanas/med-bandana.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Bandanas/med-bandana.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckMedBandage
+  name: med bandage
+  description: A bandage. Med bandage.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Bandage/med-hand-bandage.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Bandage/med-hand-bandage.rsi

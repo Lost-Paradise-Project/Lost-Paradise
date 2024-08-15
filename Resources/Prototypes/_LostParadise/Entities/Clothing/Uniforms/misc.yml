@@ -1,0 +1,489 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPDeckerJumpsuit
+  name: decker jumpsuit
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Costume/decker_jumpsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Costume/decker_jumpsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPDraculass
+  name: draculass
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Costume/draculass.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Costume/draculass.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPDrfreeze
+  name: drfreeze
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Costume/drfreeze.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Costume/drfreeze.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPKilt
+  name: kilt
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Costume/kilt.rsi
+    scale: 0.7, 0.7
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Costume/kilt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPMaid
+  name: maid
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Costume/maid.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Costume/maid.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSchoolgirl
+  name: schoolgirl
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Costume/schoolgirl.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Costume/schoolgirl.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSchoolgirlgreen
+  name: schoolgirlgreen
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Costume/schoolgirlgreen.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Costume/schoolgirlgreen.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSchoolgirlorange
+  name: schoolgirlorange
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Costume/schoolgirlorange.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Costume/schoolgirlorange.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSchoolgirlred
+  name: schoolgirlred
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Costume/schoolgirlred.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Costume/schoolgirlred.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSwagOutfit
+  name: swag outfit
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Costume/swag_outfit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Costume/swag_outfit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPPomniJumpskirt
+  name: Pomni Jumpskir
+  description: it's a Pomni uniform
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Costume/clownPomni.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Costume/clownPomni.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformMaika
+  name: PG maika
+  description: Maika for all PG army's needs
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/WTF/pg-maika.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/WTF/pg-maika.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9 # Those overalls ARE sturdy.
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitFleece
+  name: стильная флисовая рубашка
+  description: Одежда для тех, кто предпочитает сочитания клеточек и тактикула.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Costume/fleece.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Costume/fleece.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPReallyBlackSuit
+  name: Black suit
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Wedding/really_black_suit_s.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Wedding/really_black_suit_s.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPRedEveningGown
+  name: Red evening gown
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Wedding/red_evening_gown_s.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Wedding/red_evening_gown_s.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPCamogreen
+  name: camogreen
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sundicate/camogreen.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sundicate/camogreen.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPRusUnder
+  name: rus under
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sundicate/rus_under.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sundicate/rus_under.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPJanimaid
+  name: Janimaid
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/ERP/janimaid.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/ERP/janimaid.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPLatexCatsuitMale
+  name: Latex catsuit male
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/ERP/latex_catsuit_male.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/ERP/latex_catsuit_male.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPLewdmaid
+  name: Lewdmaid
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/ERP/lewdmaid.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/ERP/lewdmaid.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPBikinisBlack
+  name: Bikinis black
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_black.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_black.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPBikinisCyan
+  name: Bikinis cyan
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_cyan.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_cyan.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPBikinisGreen
+  name: Bikinis green
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_green.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_green.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPBikinisLatex
+  name: Bikinis latex
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_latex.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_latex.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPBikinisOrange
+  name: Bikinis orange
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_orange.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_orange.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPBikinisPurple
+  name: Bikinis purple
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_purple.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_purple.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPBikinisRed
+  name: Bikinis red
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_red.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_red.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPBikinisTealblack
+  name: Bikinis tealblack
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_tealblack.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_tealblack.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPBikinisWhite
+  name: Bikinis white
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_white.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_white.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPBikinisYellow
+  name: Bikinis yellow
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_yellow.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Bikinis/bikinis_yellow.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPSwimmingTrunksBlack
+  name: Swimming trunks black
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_black.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_black.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPSwimmingTrunksCyan
+  name: Swimming trunks cyan
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_cyan.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_cyan.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPSwimmingTrunksGreen
+  name: Swimming trunks green
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_green.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_green.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPSwimmingTrunksRed
+  name: Swimming trunks red
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_red.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_red.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPSwimmingTrunksOrange
+  name: Swimming trunks orange
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_orange.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_orange.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPSwimmingTrunksWhite
+  name: Swimming trunks white
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_white.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_white.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPSwimmingTrunksTurquoise
+  name: Swimming trunks Turquoise
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_tealblack.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_tealblack.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearBase
+  id: LPPSwimmingTrunksYellow
+  name: Swimming trunks yellow
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_yellow.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Summer/Swimming-trunks/swimming_trunks_yellow.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: LPPClothingUniformDressWedding
+  name: wedding dress
+  description: For wedding.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Dresses/wedding.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Dresses/wedding.rsi
+
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: LPPClothingUniformDressTango
+  name: tango dress
+  description: For tango.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Dresses/tango.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Dresses/tango.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+
+  id: LPPClothingUniformLaceRobe
+  name: lace robe
+  description: a light dress with embroidered patterns, which is secured with a belt.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/lacerobe.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/lacerobe.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformWhiteBeachSkirt
+  name: white beach skirt
+  description: white thin skirt.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/whitebeachshirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/whitebeachshirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformBlackBeachSkirt
+  name: black beach skirt
+  description: black thin skirt.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/blackbeachshirt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/blackbeachshirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformboobasuit
+  name: топик биг БУБА
+  description: Топик и шорты, с принтом смущающегося эмодзи, которого сильно растянуло из-за больших бубисов. Помянем.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/BOOBAsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/BOOBAsuit.rsi

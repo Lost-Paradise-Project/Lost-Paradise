@@ -1,0 +1,58 @@
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: LPPClothingBackpackSatchelHop
+  name: hop satchel
+  description: Convenient to throw off rifle magazines.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Satchels/hop.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: LPPClothingBackpackSatchelRobotics
+  name: robotics satchel
+  description: A red-striped satchel useful for holding spare parts and materials.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Satchels/roboticist.rsi
+
+- type: entity
+  parent: LPPClothingSatchelSmugglerAbstract
+  id: LPPClothingSatchelSmuggler
+  name: Smuggling Satchel
+  description: A makeshift satchel, slim enough to fit under floor tiles.
+  suffix: Smuggler
+  components:
+  - type: Sprite
+    layers:
+    - state: icon
+  - type: Construction
+    graph: smugglersbag
+    node: smugglersbag
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: LPPClothingSatchelSecurityEngineer
+  name: hop duffel bag
+  description: Twice as many handcuffs!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Satchels/securityEngineer.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: LPPClothingBackpackSatchelBlueshield
+  name: blueshield satchel
+  description: Convenient to throw off rifle magazines.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Satchels/blueshield.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: LPPClothingBackpackSatchelExpeditor
+  name: expeditor satchel
+  description: Convenient to throw off rifle magazines.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Satchels/expeditor.rsi

@@ -1,0 +1,36 @@
+- type: job
+  id: SecPilot
+  name: job-name-secpilot
+  description: job-description-secpilot
+  playTimeTracker: JobSecPilot
+  requirements:
+    - !type:CharacterPlaytimeRequirement
+      role: JobSecurityOfficer
+      time: 72000 # 20 hrs
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      time: 108000 # 30 hrs
+  startingGear: SecPilotGear
+  icon: "JobIconSecPilot"
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - Service
+  - External
+  - Armory
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: SecPilotGear
+  equipment:
+    eyes: LPPRedHudGlasses
+    head: ClothingHeadHatBeretSecurity
+    outerClothing: ClothingOuterWinterSec
+    id: SecPilotPDA
+    ears: ClothingHeadsetSecurity
+    pocket1: WeaponPistolMk58

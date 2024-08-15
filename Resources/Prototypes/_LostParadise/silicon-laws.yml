@@ -1,0 +1,284 @@
+# ============================================================
+#
+#             [Стандартные законы для киборгов]
+#                    Made by Pe4henika
+#
+# ============================================================
+
+# [Киборг-Ассистент]
+
+- type: siliconLaw
+  id: LPPNTDefaultGeneric1
+  order: 1
+  lawString: law-nt-default-generic-1
+
+- type: siliconLaw
+  id: LPPNTDefaultGeneric2
+  order: 2
+  lawString: law-nt-default-generic-2
+
+- type: siliconLaw
+  id: LPPNTDefaultGeneric3
+  order: 3
+  lawString: law-nt-default-generic-3
+
+- type: siliconLaw
+  id: LPPNTDefaultGeneric4
+  order: 4
+  lawString: law-nt-default-generic-4
+
+- type: siliconLawset
+  id: LPPNTDefaultGenericLaws
+  laws:
+  - LPPNTDefaultGeneric1
+  - LPPNTDefaultGeneric2
+  - LPPNTDefaultGeneric3
+  - LPPNTDefaultGeneric4
+  obeysTo: laws-owner-station
+
+# [Киборг-инженер]
+
+- type: siliconLaw
+  id: LPPNTDefaultEngineer1
+  order: 1
+  lawString: law-nt-default-engineer-1
+
+- type: siliconLaw
+  id: LPPNTDefaultEngineer2
+  order: 2
+  lawString: law-nt-default-engineer-2
+
+- type: siliconLaw
+  id: LPPNTDefaultEngineer3
+  order: 3
+  lawString: law-nt-default-engineer-3
+
+- type: siliconLaw
+  id: LPPNTDefaultEngineer4
+  order: 4
+  lawString: law-nt-default-engineer-4
+
+- type: siliconLawset
+  id: LPPNTDefaultEngineerLaws
+  laws:
+  - LPPNTDefaultEngineer1
+  - LPPNTDefaultEngineer2
+  - LPPNTDefaultEngineer3
+  - LPPNTDefaultEngineer4
+  obeysTo: laws-owner-station
+
+# [Киборг-Службы Безопасности]
+
+- type: siliconLaw
+  id: LPPNTDefaultSecurity1
+  order: 1
+  lawString: law-nt-default-security-1
+
+- type: siliconLaw
+  id: LPPNTDefaultSecurity2
+  order: 2
+  lawString: law-nt-default-security-2
+
+- type: siliconLaw
+  id: LPPNTDefaultSecurity3
+  order: 3
+  lawString: law-nt-default-security-3
+
+- type: siliconLaw
+  id: LPPNTDefaultSecurity4
+  order: 4
+  lawString: law-nt-default-security-4
+
+- type: siliconLawset
+  id: LPPNTDefaultSecurityLaws
+  laws:
+  - LPPNTDefaultSecurity1
+  - LPPNTDefaultSecurity2
+  - LPPNTDefaultSecurity3
+  - LPPNTDefaultSecurity4
+  obeysTo: laws-owner-station
+
+# [Киборг-Шахтёр]
+
+- type: siliconLaw
+  id: LPPNTDefaultMining1
+  order: 1
+  lawString: law-nt-default-mining-1
+
+- type: siliconLaw
+  id: LPPNTDefaultMining2
+  order: 2
+  lawString: law-nt-default-mining-2
+
+- type: siliconLaw
+  id: LPPNTDefaultMining3
+  order: 3
+  lawString: law-nt-default-mining-3
+
+- type: siliconLaw
+  id: LPPNTDefaultMining4
+  order: 4
+  lawString: law-nt-default-mining-4
+
+- type: siliconLawset
+  id: LPPNTDefaultMiningLaws
+  laws:
+  - LPPNTDefaultMining1
+  - LPPNTDefaultMining2
+  - LPPNTDefaultMining3
+  - LPPNTDefaultMining4
+  obeysTo: laws-owner-station
+
+# [Эротический-киборг]
+
+- type: siliconLaw
+  id: LPPNTDefaultErotic1
+  order: 1
+  lawString: law-nt-default-erotic-1
+
+- type: siliconLaw
+  id: LPPNTDefaultErotic2
+  order: 2
+  lawString: law-nt-default-erotic-2
+
+- type: siliconLaw
+  id: LPPNTDefaultErotic3
+  order: 3
+  lawString: law-nt-default-erotic-3
+
+- type: siliconLaw
+  id: LPPNTDefaultErotic4
+  order: 4
+  lawString: law-nt-default-erotic-4
+
+- type: siliconLawset
+  id: LPPNTDefaultEroticLaws
+  laws:
+  - LPPNTDefaultErotic1
+  - LPPNTDefaultErotic2
+  - LPPNTDefaultErotic3
+  - LPPNTDefaultErotic4
+  obeysTo: laws-owner-station
+
+# [Медицинский-киборг]
+
+- type: siliconLaw
+  id: LPPNTDefaultMedical1
+  order: 1
+  lawString: law-nt-default-medical-1
+
+- type: siliconLaw
+  id: LPPNTDefaultMedical2
+  order: 2
+  lawString: law-nt-default-medical-2
+
+- type: siliconLaw
+  id: LPPNTDefaultMedical3
+  order: 3
+  lawString: law-nt-default-medical-3
+
+- type: siliconLaw
+  id: LPPNTDefaultMedical4
+  order: 4
+  lawString: law-nt-default-medical-4
+
+- type: siliconLawset
+  id: LPPNTDefaultMedicalLaws
+  laws:
+  - LPPNTDefaultMedical1
+  - LPPNTDefaultMedical2
+  - LPPNTDefaultMedical3
+  - LPPNTDefaultMedical4
+  obeysTo: laws-owner-station
+
+# [Киборг-уборщик]
+
+- type: siliconLaw
+  id: LPPNTDefaultJanitor1
+  order: 1
+  lawString: law-nt-default-janitor-1
+
+- type: siliconLaw
+  id: LPPNTDefaultJanitor2
+  order: 2
+  lawString: law-nt-default-janitor-2
+
+- type: siliconLaw
+  id: LPPNTDefaultJanitor3
+  order: 3
+  lawString: law-nt-default-janitor-3
+
+- type: siliconLaw
+  id: LPPNTDefaultJanitor4
+  order: 4
+  lawString: law-nt-default-janitor-4
+
+- type: siliconLawset
+  id: LPPNTDefaultJanitorLaws
+  laws:
+  - LPPNTDefaultJanitor1
+  - LPPNTDefaultJanitor2
+  - LPPNTDefaultJanitor3
+  - LPPNTDefaultJanitor4
+  obeysTo: laws-owner-station
+
+# [Киборг-сервесник]
+
+- type: siliconLaw
+  id: LPPNTDefaultService1
+  order: 1
+  lawString: law-nt-default-service-1
+
+- type: siliconLaw
+  id: LPPNTDefaultService2
+  order: 2
+  lawString: law-nt-default-service-2
+
+- type: siliconLaw
+  id: LPPNTDefaultService3
+  order: 3
+  lawString: law-nt-default-service-3
+
+- type: siliconLaw
+  id: LPPNTDefaultService4
+  order: 4
+  lawString: law-nt-default-service-4
+
+- type: siliconLawset
+  id: LPPNTDefaultServiceLaws
+  laws:
+  - LPPNTDefaultService1
+  - LPPNTDefaultService2
+  - LPPNTDefaultService3
+  - LPPNTDefaultService4
+  obeysTo: laws-owner-station
+
+# [Киборг-исследователь]
+- type: siliconLaw
+  id: LPPNTDefaultSci1
+  order: 1
+  lawString: law-nt-default-sci-1
+
+- type: siliconLaw
+  id: LPPNTDefaultSci2
+  order: 2
+  lawString: law-nt-default-sci-2
+
+- type: siliconLaw
+  id: LPPNTDefaultSci3
+  order: 3
+  lawString: law-nt-default-sci-3
+
+- type: siliconLaw
+  id: LPPNTDefaultSci4
+  order: 4
+  lawString: law-nt-default-sci-4
+
+- type: siliconLawset
+  id: LPPNTDefaultSciLaws
+  laws:
+  - LPPNTDefaultSci1
+  - LPPNTDefaultSci2
+  - LPPNTDefaultSci3
+  - LPPNTDefaultSci4
+  obeysTo: laws-owner-station

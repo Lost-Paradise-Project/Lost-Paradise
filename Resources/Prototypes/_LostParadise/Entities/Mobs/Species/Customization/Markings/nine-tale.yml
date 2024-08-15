@@ -1,0 +1,9 @@
+- type: marking
+  id: LPPNineTale
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/nine-tale.rsi
+      state: nine

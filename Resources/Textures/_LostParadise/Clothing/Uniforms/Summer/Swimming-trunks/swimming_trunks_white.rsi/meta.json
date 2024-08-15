@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "My contacts github https://github.com/Skilets?tab=repositories and Discord Skilets#5770",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "equipped-INNERCLOTHING",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+- type: vendingMachineInventory
+  id: MedalMachineServitorInventory
+  startingInventory:
+    startingInventory: 5
+    ClothingNeckBronzeheart: 5
+    ClothingNeckGoldmedal: 5
+    ClothingNeckCargomedal: 5
+    ClothingNeckEngineermedal: 5
+    ClothingNeckMedicalmedal: 5
+    ClothingNeckSciencemedal: 5
+    ClothingNeckSecuritymedal: 5
+    ClothingNeckClownmedal: 5

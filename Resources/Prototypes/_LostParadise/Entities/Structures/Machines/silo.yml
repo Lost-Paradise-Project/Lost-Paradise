@@ -1,0 +1,59 @@
+- type: entity
+  id: LPPSilo
+  # parent: [ BaseMachinePowered, ConstructibleMachine ]
+  abstract: true
+  name: Silo
+  components:
+  - type: Sprite
+    sprite: Structures/Machines/silo.rsi
+  - type: Appearance
+  - type: WiresVisuals
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.4,0.4,0.4"
+        density: 190
+        mask:
+        - MachineMask
+        layer:
+          - MachineLayer
+  - type: Machine
+    board: #указать свое
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - RawMaterial
+        - Ingot
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:ChangeConstructionNodeBehavior
+        node: machineFrame
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: WiresPanel
+  - type: Wires
+    boardName: wires-board-name-autolathe
+    layoutId: Autolathe
+  - type: ActivatableUI
+    key: enum.#свое.Key
+  - type: ActivatableUIRequiresPower
+  - type: UserInterface
+    interfaces:
+    - key: enum.LatheUiKey.Key
+      type: LatheBoundUserInterface
+    - key: enum.ResearchClientUiKey.Key
+      type: ResearchClientBoundUserInterface
+  - type: Transform
+    anchored: true
+  - type: StaticPrice
+    price: 800

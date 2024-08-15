@@ -1,0 +1,83 @@
+- type: entity
+  name: HOS Pen
+  parent: Pen
+  id: LPPHosPen
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: pen_hos
+  - type: Item
+    sprite: Objects/Misc/bureaucracy.rsi
+    heldPrefix: pen_hos
+
+- type: entity
+  name: CE Pen
+  parent: Pen
+  id: LPPCEPen
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: pen_ce
+  - type: Item
+    sprite: Objects/Misc/bureaucracy.rsi
+    heldPrefix: pen_ce
+
+- type: entity
+  name: QM Pen
+  parent: Pen
+  id: LPPQMPen
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: pen_qm
+  - type: Item
+    sprite: Objects/Misc/bureaucracy.rsi
+    heldPrefix: pen_qm
+
+- type: entity
+  name: CMO Pen
+  parent: Pen
+  id: LPPCMOPen
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: pen_cmo
+  - type: Item
+    sprite: Objects/Misc/bureaucracy.rsi
+    heldPrefix: pen_cmo
+
+- type: entity
+  name: RD Pen
+  parent: Pen
+  id: LPPRDPen
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: pen_rd
+  - type: Item
+    sprite: Objects/Misc/bureaucracy.rsi
+    heldPrefix: pen_rd
+
+- type: entity
+  name: another deny stamp
+  parent: RubberStampMime
+  id: LPPStampDeny
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-lppdeny
+    stampState: "paper_stamp-deny"
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/stampppd.rsi
+    state: stamp-deny-lpp
+
+- type: entity
+  name: magistrate rubber stamp
+  parent: RubberStampMime
+  id: RubberStampMagistrate
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-magistrate
+    stampState: "paper_stamp-mag"
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/magistrate.rsi
+    state: stamp-magistrate

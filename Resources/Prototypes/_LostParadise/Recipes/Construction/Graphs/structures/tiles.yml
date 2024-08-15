@@ -1,0 +1,58 @@
+- type: constructionGraph
+  id: LPPFloorGreenCircuitTile
+  start: start
+  graph:
+    - node: start
+      actions:
+        - !type:DestroyEntity {}
+      edges:
+        - to: icon
+          steps:
+            - material: LPPFloorGreenCircuitBase
+              amount: 1
+              doAfter: 1
+    - node: icon
+      entity: LPPFloorGreenCircuit
+
+
+    - node: icon
+      entity: LPPFloorGreenCircuit
+      edges:
+        - to: start
+          completed:
+          - !type:SpawnPrototype
+              prototype: LPPFloorGreenCircuitBase
+              amount: 1
+          steps:
+            - tool: Prying
+              doAfter: 1
+
+#-----------------------------------------------
+
+- type: constructionGraph
+  id: LPPFloorBlueCircuitTile
+  start: start
+  graph:
+    - node: start
+      actions:
+        - !type:DestroyEntity {}
+      edges:
+        - to: icon
+          steps:
+            - material: LPPFloorBlueCircuitBase
+              amount: 1
+              doAfter: 1
+    - node: icon
+      entity: LPPFloorBlueCircuit
+
+    - node: icon
+      entity: LPPFloorBlueCircuit
+      edges:
+        - to: start
+          completed:
+          - !type:SpawnPrototype
+              prototype: LPPFloorBlueCircuitBase
+              amount: 1
+          steps:
+            - tool: Prying
+              doAfter: 1

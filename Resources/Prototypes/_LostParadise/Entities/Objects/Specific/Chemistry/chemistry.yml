@@ -1,0 +1,51 @@
+- type: entity
+  id: LPPChemistryBottleStimulant
+  name: бутылочка стимулятора
+  parent: BaseChemistryBottleFilled
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink: # This solution name and target volume is hard-coded in ChemMasterComponent
+        maxVol: 30
+        reagents:
+        - ReagentId: Stimulants
+          Quantity: 30
+
+- type: entity
+  id: PillSpaceacillin
+  name: таблетка космоциллина
+  parent: Pill
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      food: # This solution name and target volume is hard-coded in ChemMasterComponent
+        maxVol: 20
+        reagents:
+        - ReagentId: Spaceacillin
+          Quantity: 20
+
+- type: entity
+  id: LPPSyringeAmbuzolPlus
+  name: шприц амбузола плюс
+  parent: PrefilledSyringe
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      injector: # This solution name and target volume is hard-coded in ChemMasterComponent
+        maxVol: 15
+        reagents:
+        - ReagentId: AmbuzolPlus
+          Quantity: 15
+
+- type: entity
+  id: LPPSyringeSpaceacillin
+  name: шприц космоцилинна
+  parent: PrefilledSyringe
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      injector: # This solution name and target volume is hard-coded in ChemMasterComponent
+        maxVol: 15
+        reagents:
+        - ReagentId: Spaceacillin
+          Quantity: 15

@@ -1,0 +1,32 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckMantlePG
+  name: pg mantle
+  description: mantle for best mercenaries.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Mantles/pg-mantle.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Mantles/pg-mantle.rsi
+
+# - type: entity
+#   parent: ClothingNeckBase
+#   id: LPPClothingNeckMantleAidan
+#   name: aidan's mantle
+#   description: Aidan's legendary mantle. Gives respect to the backstory.
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/Clothing/Neck/Mantles/aidan-mantle.rsi
+#   - type: Clothing
+#     sprite: _LostParadise/Clothing/Neck/Mantles/aidan-mantle.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckMantleAV
+  name: artemon's mantle
+  description: Black mantle. Absolutelly not HoS's mantle. Stop mixing them up.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Mantles/av-mantle.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Mantles/av-mantle.rsi

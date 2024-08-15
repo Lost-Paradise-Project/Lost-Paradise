@@ -1,0 +1,126 @@
+- type: entity
+  parent: LPPClothingBackpackDuffelLoneMercenary
+  id: LPPClothingBackpackDuffelLoneMercenaryFull
+  name: Mercenary duffelbag
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalSyndicate
+      - id: LPPWeaponRevolverOC-38
+      - id: PinpointerNuclear
+      - id: DeathAcidifierImplanter
+      - id: EmagUnlimited
+      - id: MagazineBoxMagnum
+      - id: SpeedLoaderMagnum
+        amount: 2
+      - id: Brutepack
+      - id: Ointment
+      - id: StimpackMini
+        amount: 4
+      - id: SyndicateJawsOfLife
+      - id: MagazinePistolHighCapacity
+        amount: 3
+
+- type: entity
+  id: LPPClothingBackpackDuffelVirologyCBURNAmbuzolSyringe
+  name: Вирусологический вещмешок
+  parent: ClothingBackpackDuffelVirology
+  components:
+  - type: StorageFill
+    contents:
+      - id: SyringeAmbuzol
+        amount: 20
+
+- type: entity
+  id: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPill
+  name: Вирусологический вещмешок
+  parent: ClothingBackpackDuffelVirology
+  components:
+  - type: StorageFill
+    contents:
+      - id: PillAmbuzol
+        amount: 15
+
+- type: entity
+  id: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPlusSyringe
+  name: Вирусологический вещмешок
+  parent: ClothingBackpackDuffelVirology
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPSyringeAmbuzolPlus
+        amount: 3
+
+- type: entity
+  id: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPlusPill
+  name: Вирусологический вещмешок
+  parent: ClothingBackpackDuffelVirology
+  components:
+  - type: StorageFill
+    contents:
+      - id: PillAmbuzolPlus
+        amount: 5
+
+- type: entity
+  id: LPPClothingBackpackDuffelVirologyCBURNSpaceacillinSyringe
+  name: Вирусологический вещмешок
+  parent: ClothingBackpackDuffelVirology
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPSyringeSpaceacillin
+        amount: 10
+
+- type: entity
+  id: LPPClothingBackpackDuffelVirologyCBURNSpaceacillinPill
+  name: Вирусологический вещмешок
+  parent: ClothingBackpackDuffelVirology
+  components:
+  - type: StorageFill
+    contents:
+      - id: PillSpaceacillin
+        amount: 5
+
+- type: entity
+  id: LPPBackpackDuffelC4Delta
+  name: Вещмешок с С4
+  description: Содержит 9 единиц взрывчатки типа С4
+  parent: ClothingBackpackDuffelSecurity
+  components:
+  - type: StorageFill
+    contents:
+      - id: C4
+        amount: 9
+
+- type: entity
+  id: LPPBackpackDuffelExGrenadeDelta
+  name: Вещвещмешок с осколочными гранами
+  description: Содержит 5 осколочных гранат
+  parent: ClothingBackpackDuffelSecurity
+  components:
+  - type: StorageFill
+    contents:
+      - id: ExGrenade
+        amount: 5
+
+- type: entity
+  id: LPPBackpackDuffelEmpGrenadeDelta
+  name: Вещвещмешок с гранатами ЭМИ
+  description: Содержит 5 гранат ЭМИ
+  parent: ClothingBackpackDuffelSecurity
+  components:
+  - type: StorageFill
+    contents:
+      - id: EmpGrenade
+        amount: 5
+
+- type: entity
+  id: LPPBackpackDuffelIncendiaryGrenadeDelta
+  name: Вещвещмешок с зажигательными гранатами
+  description: Содержит 5 зажигательных гранат
+  parent: ClothingBackpackDuffelSecurity
+  components:
+  - type: StorageFill
+    contents:
+      - id: GrenadeIncendiary
+        amount: 5

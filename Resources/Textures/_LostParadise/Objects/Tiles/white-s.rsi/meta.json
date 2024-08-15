@@ -1,0 +1,47 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Made by Skilets (github) for ss14",
+    "size":
+    {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+    {
+        "name": "white-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "white-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "white"
+    },
+    {
+        "name": "white1"
+    },
+    {
+        "name": "white2"
+    },
+    {
+        "name": "white3"
+    },
+    {
+        "name": "white4"
+    },
+    {
+        "name": "white5"
+    },
+    {
+        "name": "white6"
+    },
+    {
+        "name": "white7"
+    },
+    {
+        "name": "white8"
+    }
+]
+}

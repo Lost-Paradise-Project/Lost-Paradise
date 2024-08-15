@@ -1,0 +1,206 @@
+- type: marking
+  id: ReptilianlongFeathersHair
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: long_feathers
+
+- type: marking
+  id: ReptilianlongFeathersHair2
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: long_feathers2
+
+- type: marking
+  id: ReptilianlongFeathersHair3
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: long_feathers3
+
+- type: marking
+  id: ReptilianlongFeathersHair4
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: long_feathers4
+
+- type: marking
+  id: ReptilianlongFeathersHair5
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: long_feathers5
+
+- type: marking
+  id: ReptilianMediumFeathersHair
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: medium_feathers
+
+- type: marking
+  id: ReptilianMediumFeathersHair2
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: medium_feathers2
+
+- type: marking
+  id: ReptilianMediumFeathersHair3
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: medium_feathers3
+
+- type: marking
+  id: ReptilianMediumFeathersHair5
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: medium_feathers5
+
+- type: marking
+  id: ReptilianMediumFeathersHair6
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: medium_feathers6
+
+- type: marking
+  id: ReptilianPigtailFeathersHair
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: pigtail_feathers
+
+- type: marking
+  id: ReptilianPigtailFeathersHair2
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: pigtail_feathers2
+
+- type: marking
+  id: ReptilianPigtailFeathersHair3
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: pigtail_feathers3
+
+- type: marking
+  id: ReptilianPigtailFeathersHair4
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: pigtail_feathers4
+
+- type: marking
+  id: ReptilianShortFeathersHair
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: short_feathers
+
+- type: marking
+  id: ReptilianShortFeathersHair2
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: short_feathers2
+
+- type: marking
+  id: ReptilianShortFeathersHair3
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: short_feathers3
+
+- type: marking
+  id: ReptilianShortFeathersHair4
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: short_feathers4
+
+- type: marking
+  id: ReptilianShortFeathersHair5
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: short_feathers5
+
+- type: marking
+  id: ReptilianShortFeathersHair6
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: short_feathers6
+
+- type: marking
+  id: ReptilianShortFeathersHair7
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: short_feathers7
+
+- type: marking
+  id: ReptilianShortFeathersHair8
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: short_feathers8
+
+- type: marking
+  id: ReptilianShortFeathersHair9
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_hair.rsi
+      state: short_feathers9

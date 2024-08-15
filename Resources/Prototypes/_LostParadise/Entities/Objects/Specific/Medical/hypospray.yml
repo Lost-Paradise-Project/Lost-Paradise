@@ -1,0 +1,25 @@
+- type: entity
+  parent: BaseItem
+  id: LPPhypospray
+  name: гипоспрей 0.5
+  description: Урезанная версия стерильного инъектора для быстрого введения лекарств пациентам. Слишком урезанная версия, но явно лучше шприцов. НЕ ДАВАТЬ В РУКИ ИНТЕРНАМ.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Medical/hyposprayzero.rsi
+    state: hypo
+  - type: Item
+    sprite: _LostParadise/Objects/Specific/Medical/hyposprayzero.rsi
+  - type: SolutionContainerManager
+    solutions:
+      hypospray:
+        maxVol: 5
+  - type: RefillableSolution
+    solution: hypospray
+  - type: ExaminableSolution
+    solution: hypospray
+  - type: Hypospray
+    onlyAffectsMobs: false
+  - type: UseDelay
+    delay: 2
+  - type: StaticPrice
+    price: 750

@@ -1,0 +1,17 @@
+
+# - type: entity # странная вещь, ну её нахер. Серьёзно.
+#   id: ChargingPadCircuitboard
+#   parent: BaseMachineCircuitboard
+#   name: charging pad machine board
+#   description: A machine printed circuit board for a charging pad
+#   components:
+#     - type: Sprite
+#       state: engineering
+#     - type: MachineBoard
+#       prototype: SiliconChargerChargePad
+#       requirements:
+#         Capacitor: 3
+#         Manipulator: 5
+#       materialRequirements:
+#         CableHV: 2
+#         CableMV: 2

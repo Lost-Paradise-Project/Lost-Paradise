@@ -1,0 +1,1005 @@
+# ============================================================
+#
+#            Личные вещи игрока - TheWhiteFox
+#
+# ============================================================
+
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: LPPClothingBeltMedicalSponsorWebbingVuviki
+  name: Durat fabric vest. # Дюратканевый жилет.
+  suffix: Personal items, TheWhiteFox # [Личные вещи, TheWhiteFox]
+  description: Protects the chief physician not only from the scapel, but also from the bullet. # Защищает главного врача не только от скапеля, но и от пули.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/TheWhiteFox_webbing.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/TheWhiteFox_webbing.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+
+- type: entity
+  id: LPPHyposprayTheWhiteFoxPERSONAL
+  name: personal hypospary TheWhiteFox # Гипоспрей DeForest Medical
+  parent: Hypospray
+  description: The latest development in the field of drug administration, quickly and practically, as if bitten by a mosquito # Новейшая разработка в области введения лекарств, быстро и практично, словно укусил комарик
+  suffix: Personal items, TheWhiteFox # [Личные вещи, TheWhiteFox]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/TheWhiteFox_hypospray.rsi
+    state: icon
+  - type: Item
+    sprite: _LostParadise/PERSONAL/TheWhiteFox_hypospray.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelTheWhiteFoxPERSONAL
+  name: personal duffel bag TheWhiteFox # Сумка главного врача
+  description: A duffel bag made of durot fabric and dense material inside, in order to exclude the possibility of medications leaking from it. # Вещьмешок из дюроткани и плотного материала внутри , дабы исключить возможность протекания лекарств из него.
+  suffix: Personal items, TheWhiteFox # [Личные вещи, TheWhiteFox]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/TheWhiteFox_duffels.rsi
+
+# ============================================================
+#
+#            Личные вещи игрока - Mamyko
+#
+# ============================================================
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: LPPClothingHeadHelmetMamykoPERSONAL
+  name: Dark Guard Helm # Красно-чёрный  шлем охраны
+  description: "A modified protective helmet, on the back of the helmet you can see a label: with love from mom." # Модифицированный шлем охраны, сзади на шлеме виднеется этикетка: с любовью от мамы.
+  suffix: Personal items, Mamyko # [Личные вещи, Mamyko]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Mamyko_helmet.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Mamyko_helmet.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckMamykoBandagePERSONAL
+  name: Master's Headband # Повязка Мастера
+  description: A bandage symbolizing the skill of its Owner # Повязка символизирующая мастерство её Владельца
+  suffix: Personal items, Mamyko # [Личные вещи, Mamyko]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Mamyko_bandage.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Mamyko_bandage.rsi
+
+# ============================================================
+#
+#            Личные вещи игрока - LOLBIT14
+#
+# ============================================================
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatLOLBIT14PERSONAL
+  name: Atternoss family hat. # Семейная шляпа Аттерносс.
+  description: The hat is made of very durable, but at the same time light metal, cold emanates from it, for some reason an ice crystal hovers above it. # Шляпа выполненная из очень прочного, но при этом лёгкого металла, от неё исходит холод, по какой-то причине над ней парит ледяной кристал.
+  suffix: Personal items, LOLBIT14 # [Личные вещи, LOLBIT14]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/LOLBIT14_hat.rsi
+  - type: Clothing
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET
+        offset: "0, 0.20"
+    sprite: _LostParadise/PERSONAL/LOLBIT14_hat.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckCloakLOLBIT14PERSONAL
+  name: Atternoss family cloak. # Семейный плащ Аттерносс.
+  description: It can be seen that the cloak is made of metal threads, it glitters in the light of the station lamps, on its edges you can see strange purple lines, as well as a purple sword, which glitters with incredible fury and suddenly gives off a cold feeling, covering almost the entire body of the cloak carrier. He smells like sakura # Видно что плащ сделан из металлических нитей, он поблёскивает в свете ламп станции, на его краях вы можете видеть странные фиолетовые линии, а так-же фиолетовый меч, который с невероятной яростью блестит и от него, неожиданно отдаёт холодом, покрывает плащ почти всё тело носителя. Он пахнет сакурой
+  suffix: Personal items, LOLBIT14 # [Личные вещи, LOLBIT14]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/LOLBIT14_cloak.rsi
+
+
+# ============================================================
+#
+#            Личные вещи игрока - Terrebat
+#
+# ============================================================
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakRoboticsTerrebatPERSONAL
+  name: Cloak robotics # Плащ робототехника
+  description: A cloak symbolizing the great cyborg revolution! # Плащ символизирующий великую революцию киборгов!
+  suffix: Personal items, Terrebat # [Личные вещи, Terrebat]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Terrebat_cloak.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHatHoodRoboticsTerrebatPERSONAL
+    requiredSlot:
+    - neck
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatHoodRoboticsTerrebatPERSONAL
+  name: Roboticist's Cloak Hood # Капюшен плаща роботехника
+  description: The same hood that hides the roboticist's face in shadow # Тот самый капюшен, который скрывает лицо роботехника в тень
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Terrebat_cloak_hood.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Terrebat_cloak_hood.rsi
+
+
+# ============================================================
+#
+#            Личные вещи игрока - Swonder
+#
+# ============================================================
+
+- type: entity
+  name: Blue Shield Officer's Elegant Laser Revolver # Элегантный лазерный револьвер Офицера "Синего Щита
+  parent: LPPBlueshieldlaser
+  id: LPPBlueshieldlaserSwonderPERSONAL
+  description: It is the pinnacle of innovative design and technology in the world of fashion and safety. Constructed from exclusive materials of the highest quality, this jacket has been specifically designed to meet the highest standards of Blue Shield Officer requirements. # Это вершина инновационного дизайна и технологий в мире моды и безопасности. Скроенный из эксклюзивных материалов высочайшего качества, этот пиджак был специально разработан для удовлетворения самых высоких стандартов требований к Офицеру "Синего Щита".
+  suffix: Personal items, Swonder # [Личные вещи, Swonder]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Swonder_blueshield_laser.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Swonder_blueshield_laser.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckCloakBlueshieldSwonderPERSONAL
+  name: Cape of the Azure Blade # Плащ "Лазурного Клинка"
+  description: This is a work of art and craftsmanship, created especially for the Blue Shield Officer as a symbol of his outstanding service and courage. The image of a sword on a cloak symbolizes not only combat power and strength, but also nobility, honor and determination to protect significant persons. # Это произведение искусства и мастерства, созданное специально для Офицера "Синего Щита" в знак его выдающихся заслуг и отваги. Изображение меча на плаще символизирует не только боевую мощь и силу, но и благородство, честь и решимость защищать значимых лиц.
+  suffix: Personal items, Swonder # [Личные вещи, Swonder]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Swonder_blueshield_neck.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: LPPClothingBeltBlueshieldWebbingSwonderPERSONAL
+  name: Officer of the Blue Shield RPS #  РПС офицера "Синего Щита"
+  description: Every detail of this RPS was thought out to the smallest nuances. High-quality fabrics provide comfort and freedom of movement, and a special cut emphasizes the slenderness and strength of the Blue Shield officer. Many pockets and loops provide the ability to comfortably place all the necessary gear and equipment.
+  # Каждая деталь данного РПС была продумана до мельчайших нюансов. Высококачественные ткани обеспечивают комфорт и свободу движений, а специальный крой подчеркивает стройность и силу офицера "Синего Щита". Множество карманов и петель предоставляют возможность комфортно разместить все необходимое снаряжение и оборудование.
+  suffix: Personal items, Swonder # [Личные вещи, Swonder]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Swonder_blueshield_webbing.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Swonder_blueshield_webbing.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: LPPClothingUniformJumpsuitBlueshieldSwonderPERSONAL
+  name: Blue Shield Officer's RK800 Jacket # Пиджак RK800 Офицера "Синего Щита"
+  description: It is the pinnacle of innovative design and technology in the world of fashion and safety. Constructed from exclusive materials of the highest quality, this jacket has been specifically designed to meet the highest standards of Blue Shield Officer requirements. # Это вершина инновационного дизайна и технологий в мире моды и безопасности. Скроенный из эксклюзивных материалов высочайшего качества, этот пиджак был специально разработан для удовлетворения самых высоких стандартов требований к Офицеру "Синего Щита".
+  suffix: Personal items, Swonder # [Личные вещи, Swonder]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Swonder_blueshield_suit.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Swonder_blueshield_suit.rsi
+
+- type: entity
+  parent: ClothingMaskGasSecurity
+  id: LPPClothingMaskGasBlueShieldSwonderPERSONAL
+  name: Blue Shield Officer Combat Breathing Mask #  Боевая дыхательная маска Офицера "Синего Щита"
+  description: The breathing mask is made in a deep blue color, reflecting the spirit of dedication and strength of the Blue Shield Officer. Its sleek design and ergonomic shape ensure a perfect fit on the face, while adjustable straps ensure comfort and a secure fit in all conditions. # Дыхательная маска выполнена в глубоком синем цвете, отражающем дух преданности и силы Офицера "Синего Щита". Ее утонченный дизайн и эргономичная форма обеспечивают идеальную посадку на лице, а регулируемые ремни гарантируют комфорт и надежную фиксацию в любых условиях.
+  suffix: Personal items, Swonder # [Личные вещи, Swonder]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Swonder_gas_blueshield.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Swonder_gas_blueshield.rsi
+
+- type: entity
+  parent: ClothingHandsGlovesCombat
+  id: LPPClothingHandsGlovesCombatSwonderPERSONAL
+  name: Blue Shield Officer's Combat Gloves # Боевые перчатки Офицера "Синего Щита"
+  description: The gloves are an elegant black with deep blue accents, symbolizing the strength and loyalty of a Blue Shield Officer. The unique design with patterns and embroidery emphasizes the wearer's individuality and status, while elastic inserts provide freedom of movement and an excellent fit. # Перчатки выполнены в элегантном черном цвете с акцентами глубокого синего оттенка, символизирующего силу и преданность Офицера "Синего Щита". Уникальный дизайн с узорами и вышивкой подчеркивает индивидуальность и статус владельца, а эластичные вставки обеспечивают свободу движений и отличную посадку.
+  suffix: Personal items, Swonder # [Личные вещи, Swonder]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Swonder_gloves_blueshield.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Swonder_gloves_blueshield.rsi
+
+
+# ============================================================
+#
+#            Личные вещи игрока - wawewa221
+#
+# ============================================================
+
+- type: entity
+  parent: BaseItem
+  id: LPPKnifeWawewa221PERSONAL
+  name: Scarlet butterfly knife # Алая нож-бабочка
+  description: An elegant butterfly knife with a scarlet gradient; on the dangerous handle you can see an engraving in the form of a beautiful letter “S” # Изящная нож-бабочка с алым градиентом, на опасной рукоятке виднеется гравировка ввиде красивой буквы "S"
+  suffix: Personal items, wawewa221 # [Личные вещи, wawewa221]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Wawewa221_knife.rsi
+    layers:
+    - state: knife_off
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: SwitchableWeapon
+    openSound: "/Audio/_LostParadise/Weapons/PERSONAL/open.ogg"
+    closeSound: "/Audio/_LostParadise/Weapons/PERSONAL/close.ogg"
+    damageOpen:
+      types:
+        Slash: 12
+    damageFolded:
+      types:
+        Slash: 0
+    staminaDamageFolded: 0
+    staminaDamageOpen: 0
+    sizeClosed: Small
+    sizeOpened: Normal
+  - type: StaminaDamageOnHit
+    damage: 0
+  - type: MeleeWeapon
+    damage:
+      types:
+        Slash: 2
+  - type: Item
+    size: Small
+    sprite: _LostParadise/PERSONAL/Wawewa221_knife.rsi
+  - type: UseDelay
+    delay: 1.0
+  - type: DisarmMalus
+    malus: 0
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+     enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: knife_on}
+          False: {state: knife_off}
+
+# ============================================================
+#
+#            Личные вещи игрока - Pandi4
+#
+# ============================================================
+
+- type: entity
+  parent: ClothingHandsGlovesCombat
+  id: LPPClothingHandsGlovesCombatPandi4PERSONAL
+  name: Roman's Gloves # Перчатки Романа
+  description: They looked like ordinary gloves, but they smelled very strongly of alcohol and cigarettes. In many places you can notice ashy holes, which affects their condition. The outside of the gloves shows that they are very worn. "Perhaps their owner liked to fight a lot?" # На вид обычные перчатки, но они пропахли очень сильно спиртом и сигаретами. Во многих местах можно заметить пепельные дырки, что сказывается на их состоянии. На внешней части перчаток видно, что они очень износились. "Возможно, их владелец много любил драться?"
+  suffix: Personal items, Pandi4 # [Личные вещи, Pandi4]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Pandi4_gloves.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Pandi4_gloves.rsi
+
+# ============================================================
+#
+#            Личные вещи игрока - lolik514
+#
+# ============================================================
+
+- type: entity
+  parent: LPPSoftToysToys
+  id: LPPPlushlolik514PERSONAL
+  name: plush Ecle-Rin # плюшевый Экле-Рин
+  description: Toy a little of the famous red unatha! Smells like the very eclairs with which unath is associated # Игрушка немного знаменитого красного унатха! Пахнет теми самыми эклерами с которыми ассоциируется унатх
+  suffix: Personal items, lolik514 # [Личные вещи, lolik514]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/lolik514_toys.rsi
+    state: lolik
+  - type: Item
+    sprite: _LostParadise/PERSONAL/lolik514_toys.rsi
+    heldPrefix: lolik
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voice/Moth/moth_scream.ogg
+
+
+# ============================================================
+#
+#            Личные вещи игрока - shkila123
+#
+# ============================================================
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitShkila123PERSONAL
+  name: Scarlet Blood Uniform # Униформа алой крови
+  description: Dark blue sailor suit with red stripes and a slit at the waist. # Темно-синяя матроска с красными полосами и разрезом в области талии.
+  suffix: Personal items, shkila123 # [Личные вещи, shkila123]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Shkila123_jumpsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Shkila123_jumpsuit.rsi
+
+# ============================================================
+#
+#            Личные вещи игрока - Vayred
+#
+# ============================================================
+
+- type: entity
+  name: Vayred disabler # Станнер Вайреда
+  parent: WeaponDisabler
+  id: LPPWeaponDisablerVayredPERSONAL
+  description: A beautiful blood red stunner with visible wear. Seems...it's been used a lot. # Красивый кроваво-красный станнер, на нём видны потёртости. Кажется.. им очень много пользовались.
+  suffix: Personal items, Vayred # [Личные вещи, Vayred]
+  components:
+    - type: Sprite
+      sprite: _LostParadise/PERSONAL/Vayred_disabler.rsi
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-unshaded-0
+          map: ["enum.GunVisualLayers.MagUnshaded"]
+          shader: unshaded
+    - type: Clothing
+      sprite: _LostParadise/PERSONAL/Vayred_disabler.rsi
+      quickEquip: false
+      slots:
+        - Belt
+
+# ============================================================
+#
+#            Личные вещи игрока - cyberkotleta
+#
+# ============================================================
+
+- type: entity
+  name: "S.O.L.E.I.L"
+  parent: WeaponDisabler
+  id: LPPWeaponDisablerСyberkotletaPERSONAL
+  description: Кажется, что оно сейчас взорвётся
+  suffix: Личные вещи, cyberkotleta
+  components:
+    - type: Sprite
+      sprite: _LostParadise/PERSONAL/cyberkotleta_disabler.rsi
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-unshaded-0
+          map: ["enum.GunVisualLayers.MagUnshaded"]
+          shader: unshaded
+    - type: Clothing
+      sprite: _LostParadise/PERSONAL/cyberkotleta_disabler.rsi
+      quickEquip: false
+      slots:
+        - Belt
+
+# ============================================================
+#
+#            Личные вещи игрока - Alexey_Novatorov
+#
+# ============================================================
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitAlexeyNovatorovPersonal
+  name: Dark red sweater with long hem # Тёмно-красный свитер с длинным подолом
+  description: This attire seems old-fashioned to you. # Cие одеяние  кажется вам старомодной.
+  suffix: Personal items, Alexey_Novatorov # [Личные вещи, Alexey_Novatorov]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Alexey_Novatorov_suit.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Alexey_Novatorov_suit.rsi
+
+# ============================================================
+#
+#            Личные вещи игрока - Abubachir
+#
+# ============================================================
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitIonsuitAbubachirPERSONAL
+  name: Ionsuit # Ионный костюм
+  description:
+  suffix: Personal items, Abubachir # [Личные вещи, Abubachir]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/abubachir_ionsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/abubachir_ionsuit.rsi
+  - type: UnpoweredFlashlight
+  - type: PointLight
+    enabled: false
+    radius: 1.5
+    softness: 5
+    autoRot: true
+    color: "#ADD8E6FF"
+
+- type: entity
+  parent: ClothingOuterBase
+  id: LPPClothingUniformJacketIonAbubachirPERSONAL
+  name: Ion Jacket # Ионная жилетка
+  description:
+  suffix: Personal items, Abubachir # [Личные вещи, Abubachir]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/abubachir_ionjacket.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/abubachir_ionjacket.rsi
+  - type: ToggleableClothing
+    slot: neck
+    clothingPrototype: LPPClothingUniformJacketIonAbubachirAnimationPERSONAL
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingUniformJacketIonAbubachirAnimationPERSONAL
+  name: Power of Ionjacket
+  description:
+  suffix: Personal items, Abubachir # [Личные вещи, Abubachir]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Abubachir_ionjacketpowerneck.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Abubachir_ionjacketpowerneck.rsi
+
+
+- type: entity
+  parent: ClothingHandsBase
+  id: LPPClothingHandsCryoliteRingAbubachirPERSONAL
+  name: ring with cryolite # Кольцо с криолитом
+  description:
+  suffix: Personal items, Abubachir # [Личные вещи, Abubachir]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Abubachir_ringcryolite.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Abubachir_ringcryolite.rsi
+
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingGoldenHornsAbubachirPERSONAL
+  name: Golden Horns
+  description:
+  suffix: Personal items, Abubachir # [Личные вещи, Abubachir]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Abubachir_goldenhorns.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Abubachir_goldenhorns.rsi
+
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingGreenUniformJumpsuitAbubachirPERSONAL
+  name: Green Uniform # Зелёный пиджак
+  description:
+  suffix: Personal items, Abubachir # [Личные вещи, Abubachir]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Abubachir_goldenuniform.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Abubachir_goldenuniform.rsi
+
+
+# ============================================================
+#
+#            Личные вещи игрока - BobeePrum
+#
+# ============================================================
+
+
+- type: entity
+  parent: BaseItem
+  id: LPPAviPlushieBobeePrumPERSONAL
+  suffix: Pesonal items, BobeePrum
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/BobeePrum_toy.rsi
+    state: avi
+  - type: Item
+    sprite: _LostParadise/PERSONAL/BobeePrum_toy.rsi
+    heldPrefix: avi
+  - type: EmitSoundOnUse
+    sound:
+      collection: ToySqueak
+  - type: EmitSoundOnLand
+    sound:
+      collection: ToySqueak
+  - type: EmitSoundOnActivate
+    sound:
+      collection: ToySqueak
+  - type: UseDelay
+    delay: 1.0
+  - type: MeleeWeapon
+    soundHit:
+      collection: ToySqueak
+    damage:
+      types:
+        Blunt: 0
+
+
+# ============================================================
+#
+#            Личные вещи игрока - Kyburka
+#
+# ============================================================
+
+
+- type: entity
+  parent: ClothingMaskGas
+  id: LPPFoxMaskPERSONALKyburka
+  name: Fox Mask
+  suffix: Personal items, Kyburka # Личное, Кубурка
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Custom/kyburkafacemask.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Custom/kyburkafacemask.rsi
+  - type: Tag
+    tags: []
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckCloakPERSONALKyburka
+  name: cloak of abyss
+  description: A black cloak with purple light.
+  suffix: Personal items, Kyburka # Личные, Кубурка
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Custom/KyburkaCloak.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Custom/KyburkaCloak.rsi
+  - type: Tag
+    tags: []
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckCloak1PERSONALKyburka
+  name: cloak of truce
+  description: A literally white cloak with purple light.
+  suffix: Personal items, Kyburka # Личное, Кубурка
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Custom/KyburkaCloak1.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Custom/KyburkaCloak1.rsi
+  - type: Tag
+    tags: []
+
+
+# ============================================================
+#
+#            Личные вещи игрока - Aki0371
+#
+# ============================================================
+
+
+- type: entity
+  id: LPPTheMostLampPlayer
+  parent: ClothingUniformSkirtBase
+  name: Алый Наряд
+  description: Говорят что она сделана из крови и кожи дракона. Имеет скрытый вырез под хвост.
+  suffix: личное Aki0371
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Themostlampplayer.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Themostlampplayer.rsi
+
+
+# ============================================================
+#
+#            Личные вещи игрока - Pe4henika
+#
+# ============================================================
+
+- type: entity
+  parent: ClothingHeadEVAHelmetBase
+  id: LPPClothingHeadHelmetCookie
+  suffix: Личная вещь, Pe4henika
+  name: Шлем Архотеха
+  description: Военный шлем, напоминает шлем пилота.. Выглядит крайне красиво!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Cookie_Helmet.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Cookie_Helmet.rsi
+
+# Я не буду это подписывать.
+- type: entity
+  parent: ClothingHandsGlovesNorthStar
+  id: SPNOneHundredPunch
+  name: 100 punches
+  description: ent-onehundredpunches
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Hands/Gloves/OneHundredPunch.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Hands/Gloves/OneHundredPunch.rsi
+  - type: MeleeWeapon
+    attackRate: 4
+    damage:
+      types:
+       Blunt: 1
+  - type: GloveHeatResistance
+    heatResistance: 1400
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+    fiberColor: fibers-black
+
+# Я не буду это подписывать.
+- type: entity
+  parent: BaseItem
+  id: LPPFakeBluespaceBeaker
+  name: блюспейс мензурка
+  suffix: sponsor
+  description: Встречается химическая мензурка, которую так неловко покрасили в черный цвет, что она сказала - "Я в черный цвет превращаюсь, чтобы вы не забыли ценить мою прозрачность, когда все лабораторные переживания закончатся"
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Chemistry/fake_beaker.rsi
+    layers:
+      - state: beakerlarge
+  - type: Item
+    sprite: _LostParadise/Objects/Specific/Chemistry/fake_beaker.rsi
+
+# ============================================================
+#
+#            Личные вещи игрока - JayJacobs
+#
+# ============================================================
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitFoxHolePERSONAL
+  name: поношеный рыжий комбинезон
+  description: Сильно поношеный комбинезон рыжего цвета с нашивкой пренадлежайшей какой-то организации.
+  suffix: Personal items, JayJacobs # [Личные вещи, JayJacobs]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/personal_JayJacobs_jumpsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/personal_JayJacobs_jumpsuit.rsi
+
+- type: entity
+  parent: ClothingOuterStorageFoldableBase
+  id: LPPClothingOuterCoatJayJacobsPERSONAL
+  name: поношеный тренчкот
+  description: Странный тренчкот из кожи космического зверя с мехом и стальными пуговицами, на вид довольно изношен.
+  suffix: Personal items, JayJacobs # [Личные вещи, JayJacobs]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/personal_JayJacobs_coat.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/personal_JayJacobs_coat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.90
+        Heat: 0.75
+    priceMultiplier: 0
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, LPPClothingOuterCoatJayJacobsPERSONAL]
+  id: LPPClothingOuterCoatJayJacobsOpenedPERSONAL
+  name: поношеный тренч
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: ClothingBeltChiefEngineer
+  id: LPPClothingBeltOldArmyPERSONAL
+  name: старый армейский пояс
+  description: Пояс какой-то старой армии.
+  suffix: Personal items, JayJacobs # [Личные вещи, JayJacobs]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/personal_JayJacobs_belt.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/personal_JayJacobs_belt.rsi
+  - type: Storage
+    whitelist:
+      tags:
+        - CigPack
+        - Taser
+        - SecBeltEquip
+        - Radio
+        - Sidearm
+        - MagazinePistol
+        - MagazineMagnum
+        - CombatKnife
+        - Truncheon
+        - Wirecutter
+        - Crowbar
+        - Screwdriver
+        - Flashlight
+        - Wrench
+        - GeigerCounter
+        - Flare
+        - CableCoil
+        - Powerdrill
+        - JawsOfLife
+        - HolofanProjector
+        - Multitool
+        - AppraisalTool
+      components:
+        - Stunbaton
+        - FlashOnTrigger
+        - SmokeOnTrigger
+        - Flash
+        - Handcuff
+        - BallisticAmmoProvider
+        - CartridgeAmmo
+        - DoorRemote
+        - Whistle
+        - HolosignProjector
+        - BalloonPopper
+        - SwitchableWeapon
+        - SprayPainter
+        - NetworkConfigurator
+        - RCD
+        - RCDAmmo
+        - Welder
+        - PowerCell
+        - Geiger
+        - TrayScanner
+        - GasAnalyzer
+  - type: ItemMapper
+    mapLayers:
+      flashbang:
+        whitelist:
+          components:
+          - FlashOnTrigger
+      stunbaton:
+        whitelist:
+          components:
+          - Stunbaton
+      tear_gas_grenade:
+        whitelist:
+          components:
+          - SmokeOnTrigger
+      drill:
+        whitelist:
+          tags:
+          - Powerdrill
+      cutters_red:
+        whitelist:
+          tags:
+          - Wirecutter
+      crowbar:
+        whitelist:
+          tags:
+          - Crowbar
+      crowbar_red:
+        whitelist:
+          tags:
+          - CrowbarRed
+      jaws:
+        whitelist:
+          tags:
+          - JawsOfLife
+      screwdriver_nuke:
+        whitelist:
+          tags:
+          - Screwdriver
+      multitool:
+        whitelist:
+          tags:
+            - Multitool
+      wrench:
+        whitelist:
+          tags:
+          - Wrench
+    sprite: Clothing/Belt/belt_overlay.rsi
+
+- type: entity
+  name: Naa-Ley stunbaton
+  parent: BaseItem
+  id: NaaLeyStunbaton
+  description: A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Melee/jaystunbaton.rsi
+    layers:
+    - state: stunbaton_off
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: Stunbaton
+    energyPerUse: 50
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 9
+    angle: 60
+    animation: WeaponArcThrust
+  - type: StaminaDamageOnHit
+    damage: 20
+  - type: Battery
+    maxCharge: 1000
+    startingCharge: 1000
+  - type: UseDelay
+  - type: Item
+    heldPrefix: off
+    size: Normal
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Melee/jaystunbaton.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: DisarmMalus
+    malus: 0.225
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+     enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: stunbaton_on}
+          False: {state: stunbaton_off}
+  - type: StaticPrice
+    price: 100
+  - type: Construction
+    graph: makeshiftstunprod
+    node: msstunprod
+
+# ============================================================
+#
+#            Личные вещи неопознаных игроков
+#
+# ============================================================
+
+- type: entity
+  parent: BaseItem
+  id: LPPLPPTelebatonSpac
+  name: Telebaton Spac
+  description: A standard baton for self-defense. Equipped with a folding function to save space and hide your intentions.
+  suffix: Личное, Шпак
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Melee/telebatonSpac.rsi
+    layers:
+    - state: telescope_off
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: SwitchableWeapon
+    openSound: "/Audio/_LostParadise/Weapons/open.ogg"
+    closeSound: "/Audio/_LostParadise/Weapons/clone.ogg"
+    damageOpen:
+      types:
+        Blunt: 7
+    damageFolded:
+      types:
+        Blunt: 0
+    staminaDamageFolded: 0
+    staminaDamageOpen: 25
+    sizeClosed: Small
+    sizeOpened: Normal
+  - type: StaminaDamageOnHit
+    damage: 0
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 0
+  - type: Item
+    size: Small
+    sprite: _LostParadise/Objects/Weapons/Melee/telebatonSpac.rsi
+  - type: UseDelay
+    delay: 1.0
+  - type: DisarmMalus
+    malus: 0
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+     enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: telescope_on}
+          False: {state: telescope_off}
+
+- type: entity
+  parent: BaseHandheldInstrument
+  id: LPPSpacMP3Player
+  name: MP3Player
+  suffix: Личное, Шпак
+  description: Blasting the ghetto with Touhou MIDIs since 2020.
+  components:
+  - type: Instrument
+    allowPercussion: true
+    allowProgramChange: true
+    respectMidiLimits: false
+  - type: ActivatableUI
+    allowSpectator: false # otherwise they can play client-side music
+    inHandsOnly: false
+    singleUser: true
+    requireHands: true
+    verbText: verb-instrument-openui
+    key: enum.InstrumentUiKey.Key
+  - type: Sprite
+    sprite: _LostParadise/Objects/Fun/MP3PlayerSpac.rsi
+    state: icon
+  - type: Item
+    size: Tiny
+    sprite: _LostParadise/Objects/Fun/MP3PlayerSpac.rsi
+
+- type: entity
+  parent: BaseHandheldInstrument
+  id: LPPRockGuitarInstrumentSponsor
+  name: succubus ax [Sponsor]
+  description: In the first age, in the first battle When the shadows first lengthened, one stood He chose the path of perpetual torment In his ravenous hatred he found no peace And with boiling blood he scoured the Umbral Plains Seeking vengeance against the dark lords who had wronged him And those that tasted the bite of his sword named him The Doom Slayer
+  components:
+  - type: Instrument
+    program: 29
+  - type: SwappableInstrument
+    instrumentList:
+      "Overdrive": {29: 0}
+      "Distortion": {30: 0}
+      "Harmonics": {31: 0}
+  - type: Sprite
+    sprite: _LostParadise/Objects/Fun/Instruments/hell-guitar.rsi
+    state: icon
+  - type: Item
+    size: Large
+    sprite: _LostParadise/Objects/Fun/Instruments/hell-guitar.rsi
+  - type: Tag
+    tags:
+    - StringInstrument
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 4
+        Slash: 8
+  - type: Wieldable
+  - type: IncreaseDamageOnWield #they don't call it an axe for nothing
+    damage:
+      types:
+        Blunt: 2
+        Slash: 6
+
+# ============================================================
+#
+#            Личные вещи игрока - realix
+#
+# ============================================================
+
+- type: entity
+  parent: LPPSoftToysToys
+  id: LPPTomCrane
+  name: TomCranePlushie
+  description: "A plush toy resembles a sec guy. Also you can see small paper with lot of writings pinned to its leg."
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Objects/Fun/TomCrane.rsi
+      state: icon

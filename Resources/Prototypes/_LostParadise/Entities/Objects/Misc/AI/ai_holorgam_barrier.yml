@@ -1,0 +1,235 @@
+# - type: entity
+#   name: "item"
+#   id: LPPBaseItemAIHolo
+#   abstract: true
+#   components:
+#   - type: Clickable
+#   - type: InteractionOutline
+#   - type: MovedByPressure
+#   - type: EmitSoundOnCollide
+#     sound:
+#       path: /Audio/Effects/wall_bonk.ogg
+#   - type: EmitSoundOnLand
+#     sound:
+#       path: /Audio/Effects/drop.ogg
+#       params:
+#         volume: 2
+#   - type: DamageOnHighSpeedImpact
+#     damage:
+#       types:
+#         Blunt: 5
+#     soundHit:
+#       path: /Audio/Effects/hit_kick.ogg
+#   - type: CollisionWake
+#   - type: TileFrictionModifier
+#     modifier: 0.5
+#   - type: Physics
+#     bodyType: Dynamic
+#     fixedRotation: false
+#   - type: Fixtures
+#     fixtures:
+#       fix1:
+#         shape:
+#           !type:PhysShapeAabb
+#           bounds: "-0.25,-0.25,0.25,0.25"
+#         density: 20
+#         mask:
+#         - ItemMask
+#         restitution: 0.3  # fite me
+#         friction: 0.2
+#   - type: Pullable
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 1
+#       behaviors:
+#       - !type:DoActsBehavior
+#         acts: [ "Destruction" ]
+
+# - type: entity
+#   parent: LPPBaseItemAIHolo
+#   id: LPPCapsuleBaseHolo
+#   description: These could work as a pretty decent throwing weapon.
+#   abstract: true
+#   components:
+#   - type: Sprite
+#     sprite: Objects/Tiles/tile.rsi
+#   - type: DamageOtherOnHit
+#     damage:
+#       types:
+#         Blunt: 5
+#   - type: Damageable
+#     damageContainer: Inorganic
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 30
+#       behaviors:
+#         - !type:DoActsBehavior
+#           acts: [ "Destruction" ]
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 20
+#       behaviors:
+#       - !type:PlaySoundBehavior
+#         sound:
+#           collection: MetalBreak
+#           params:
+#             volume: -8
+#       - !type:DoActsBehavior
+#         acts: [ "Destruction" ]
+#   - type: DamageOnLand
+#     damage:
+#       types:
+#         Blunt: 5
+
+# - type: entity
+#   name: Капсула с голобарьером
+#   description: Очень гладкий и удивительно прочный.
+#   parent: LPPCapsuleBaseHolo
+#   id: LPPCapsuleHoloAI
+#   categories: [ HideSpawnMenu ]
+#   components:
+#   - type: Sprite
+#     sprite: Objects/Tiles/web.rsi
+#     state: icon
+#   - type: Construction
+#     graph: WebObjects
+#     node: tile
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 1
+#       behaviors:
+#       - !type:DoActsBehavior
+#         acts: [ "Destruction" ]
+#   - type: TimedDespawn
+#     lifetime: 5
+#   - type: SpawnOnDespawn
+#     prototype: LPPLoadingHoloAI
+
+# - type: entity
+#   id: LPPLoadingHoloAI
+#   parent: TableBase
+#   name: Загружающийся барьер
+#   description: Очень гладкий и удивительно прочный.
+#   categories: [ HideSpawnMenu ]
+#   components:
+#   - type: Damageable
+#     damageModifierSet: Web
+#   - type: Sprite
+#     sprite: Structures/Furniture/Tables/web.rsi
+#   - type: Icon
+#     sprite: Structures/Furniture/Tables/web.rsi
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 10
+#       behaviors:
+#       - !type:DoActsBehavior
+#         acts: [ "Destruction" ]
+#   - type: MeleeSound
+#     soundGroups:
+#       Brute:
+#         path:
+#           "/Audio/Weapons/slash.ogg"
+#   - type: Construction
+#     graph: WebStructures
+#     node: table
+#   - type: FootstepModifier
+#     footstepSoundCollection:
+#       collection: FootstepCarpet
+#   - type: TimedDespawn
+#     lifetime: 5
+#   - type: SpawnOnDespawn
+#     prototype: LPPHoloAI
+
+# - type: entity
+#   id: LPPHoloAI
+#   parent: HolosignWetFloor
+#   name: holographic barrier
+#   description: A barrier of hard light that blocks movement, but pretty weak.
+#   components:
+#     - type: Physics
+#       bodyType: Static
+#       canCollide: true
+#     - type: Sprite
+#       sprite: Structures/Holo/security.rsi
+#       state: icon
+#     - type: Fixtures
+#       fixtures:
+#         fix1:
+#           shape:
+#             !type:PhysShapeAabb
+#             bounds: "-0.3,-0.3,0.3,0.3"
+#           mask:
+#             - TableMask
+#           layer:
+#             - TableLayer
+#     - type: TimedDespawn
+#       lifetime: 600
+#     - type: PointLight
+#       enabled: true
+#       radius: 3
+#       color: red
+#     - type: Climbable
+#     - type: Clickable
+#     - type: Destructible
+#       thresholds:
+#         - trigger:
+#             !type:DamageTrigger
+#             damage: 50
+#           behaviors:
+#             - !type:DoActsBehavior
+#               acts: [ "Destruction" ]
+
+# - type: entity
+#   id: LPPActionSpawnHoloAI
+#   name: Защитный барьер
+#   description: Создайте защитный барьер
+#   categories: [ HideSpawnMenu ]
+#   components:
+#   - type: WorldTargetAction
+#     useDelay: 8
+#     range: 1.5
+#     hungerCost: 15
+#     itemIconStyle: BigAction
+#     icon:
+#       sprite: Structures/Walls/web.rsi
+#       state: full
+#       useDelay: 30
+#     event: !type:WorldSpawnSpellEvent
+#       useDelay: 25
+#       prototypes:
+#       - id: LPPCapsuleHoloAI
+#         doAfter: 5
+#         amount: 1
+#         useDelay: 30
+#       offset: 0, 1
+#       doAfter: 5
+#       speech: Запущена генерация барьера...
+
+# - type: entity
+#   parent: BaseSubdermalImplant
+#   id: LPPSystemSpawnHoloAI
+#   name: Holorgam AI
+#   categories: [ HideSpawnMenu ]
+#   components:
+#     - type: SubdermalImplant
+#       implantAction: LPPActionSpawnHoloAI
+#     - type: PointLight
+#       enabled: false
+#       radius: 2.5
+#       softness: 5
+#       mask: /Textures/Effects/LightMasks/cone.png
+#       autoRot: true
+#     - type: Tag
+#       tags:
+#         - SubdermalImplant
+#         - HideContextMenu
+#         - Flashlight
+#     - type: UnpoweredFlashlight

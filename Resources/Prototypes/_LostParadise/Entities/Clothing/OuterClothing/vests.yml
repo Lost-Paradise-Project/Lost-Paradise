@@ -1,0 +1,39 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterVestPG
+  name: PG west
+  description: A synthetic armor vest. This one has added webbing and ballistic plates. For all PG army needs.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/pg-vest.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/pg-vest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.3
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterVestUrbanPG
+  name: urban PG west
+  description: A synthetic armor vest. This one has added webbing and ballistic plates. For all PG army needs.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/pg-urban-vest.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/pg-urban-vest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.3
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.9

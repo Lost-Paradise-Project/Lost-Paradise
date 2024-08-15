@@ -1,0 +1,51 @@
+- type: entity
+  name: Модуль управления ядром ИИ
+  parent: BaseItem
+  id: LPPAIRebutModule
+  suffix: SAI
+  description: Установив данный модуль в ядро ИИ, вы можете отдавать любые приказы для ИИ.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/ai_rebut_module.rsi
+    state: icon
+  - type: StaticPrice
+    price: 20250
+  - type: Tag
+    tags:
+      - AIModule
+      - AIRebutModule
+
+- type: entity
+  name: Кейс для хранения Модулей
+  parent: BaseStorageItem
+  id: LPPCaseAIRebutModule
+  Suffix: SAI
+  description: Кейс для хранения модуля управления ядром ИИ
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/diskcases.rsi
+    state: icon_base
+  - type: Storage
+    grid:
+    - 0,0,0,1
+    maxItemSize: Normal
+    whitelist:
+      tags:
+        - Document
+        - AIModule
+        - AIRebutModule
+    storageOpenSound: /Audio/Machines/screwdriveropen.ogg
+    storageCloseSound: /Audio/Machines/screwdriverclose.ogg
+    storageInsertSound: /Audio/Items/crowbar.ogg
+    storageRemoveSound: /Audio/Items/crowbar.ogg
+
+- type: entity
+  name: Кейс для хранения Модулей
+  parent: LPPCaseAIRebutModule
+  id: LPPCaseAIRebutModuleFilled
+  Suffix: SAI
+  description: Кейс для хранения модуля управления ядром ИИ
+  components:
+    - type: StorageFill
+      contents:
+      - id: LPPAIRebutModule

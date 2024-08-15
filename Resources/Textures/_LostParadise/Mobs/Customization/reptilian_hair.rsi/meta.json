@@ -1,0 +1,102 @@
+﻿{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+ 		"name": "long_feathers",
+		"directions": 4
+	  }, 
+        {
+ 		"name": "long_feathers2",
+		"directions": 4 
+	  },
+        {
+ 		"name": "long_feathers3", 
+		"directions": 4 
+	  },
+        {
+	 	"name": "long_feathers4",
+	 	"directions": 4 
+	  },
+        {
+ 		"name": "long_feathers5",
+		"directions": 4 
+	  },
+        {
+		"name": "medium_feathers", 
+		"directions": 4 
+	  },
+        {
+ 		"name": "medium_feathers2", 
+		"directions": 4 
+	  },
+        {
+	 	"name": "medium_feathers3", 
+		"directions": 4 
+	  },
+        {
+	 	"name": "medium_feathers5", 
+		"directions": 4 
+	  },
+        {
+	 	"name": "medium_feathers6", 
+		"directions": 4 
+	  },
+        {
+		"name": "pigtail_feathers",
+		"directions": 4 },
+        {
+ 		"name": "pigtail_feathers2", 
+		"directions": 4 
+	  },
+        {
+ 		"name": "pigtail_feathers3",
+		"directions": 4 
+	  },
+        {
+ 		"name": "pigtail_feathers4", 
+		"directions": 4 
+        },
+        {
+ 		"name": "short_feathers", 
+		"directions": 4 
+	  },
+        {
+ 		"name": "short_feathers2",
+		"directions": 4 
+	  },
+	  {
+ 		"name": "short_feathers3",
+		"directions": 4 
+        },
+	  {
+ 		"name": "short_feathers4",
+ 		"directions": 4 
+	  },
+	  {
+ 		"name": "short_feathers5", 
+		"directions": 4 
+	  },
+	  {
+ 		"name": "short_feathers6", 
+		"directions": 4 
+	  },
+	  {
+ 		"name": "short_feathers7", 
+		"directions": 4 
+	  },
+	  {
+ 		"name": "short_feathers8", 
+		"directions": 4 
+	  },
+	  {
+ 		"name": "short_feathers9", 
+		"directions": 4 
+        }
+    ]
+}

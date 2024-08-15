@@ -1,0 +1,108 @@
+- type: entity
+  id: ShowSecurityIcons
+  abstract: true
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShowSecurityIcons
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: LPPBlackHudGlasses
+  name: солнцезащитные очки с визором
+  description: Полезно как для безопасности, так и для каргонии.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/Glasses/blackhudglasses.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/Glasses/blackhudglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: LPPRedHudGlasses
+  name: красные солнцезащитные очки с визором
+  description: Полезно как для безопасности, так и для каргонии.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/Glasses/redhudglasses.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/Glasses/redhudglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: LPPBlueHudGlasses
+  name: синие солнцезащитные очки с визором
+  description: Полезно как для безопасности, так и для каргонии.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/Glasses/bluehudglasses.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/Glasses/bluehudglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPChemistHudGlasses
+  name: chemistry goggles
+  description: A pair of snazzy goggles used to protect against chemical spills. Fitted with an analyzer for scanning reagents.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/HUD/chemical.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/HUD/chemical.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.9
+  - type: SolutionScanner
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: LPPAVDEyeshud
+  name: визор АВД
+  description: Это визор АВД
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/HUD/avd.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/HUD/avd.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: LPPMagistrateEyeshud
+  name: визор Магистрата
+  description: Это визор Магистрата
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/HUD/magistrate.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/HUD/magistrate.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPMercenaryEyehud
+  name: Lone Syndicate Mercenary eyes hud
+  description: It`s cool
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/Glasses/LoneMercenaryhudglasses.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/Glasses/LoneMercenaryhudglasses.rsi
+  - type: ShowSecurityIcons
+  - type: ShowSyndicateIcons
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5

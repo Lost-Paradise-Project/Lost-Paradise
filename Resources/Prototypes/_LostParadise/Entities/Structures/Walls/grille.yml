@@ -1,0 +1,95 @@
+#- type: entity
+#  id: LLPGrille
+#  parent: BaseStructure
+#  name: grille survival
+#  description: A flimsy framework of iron rods.
+#  components:
+#    - type: MeleeSound
+#      soundGroups:
+#        Brute:
+#          path:
+#            "/Audio/Weapons/grille_hit.ogg"
+#    - type: Tag
+#      tags:
+#        - RCDDeconstructWhitelist
+#    - type: CanBuildWindowOnTop
+#    - type: Sprite
+#      drawdepth: Walls
+#      sprite: _LostParadise/Structures/Walls/survival_grille.rsi
+#      layers:
+#        - state: grille
+#        - state: electrified
+#          sprite: _LostParadise/Effects/electricity.rsi
+#          map: ["enum.ElectrifiedLayers.Powered"]
+#          shader: unshaded
+#          visible: false
+#    - type: Icon
+#      sprite: _LostParadise/Structures/Walls/survival_grille.rsi
+#      state: grille
+#    - type: Construction
+#      graph: Grille
+#      node: grille
+#      deconstructionTarget: start
+#    - type: Damageable
+#      damageContainer: Inorganic
+#      damageModifierSet: PerforatedMetallic
+#    - type: PowerConsumer
+#      showInMonitor: false
+#    - type: Electrified
+#      requirePower: true
+#      noWindowInTile: true
+#      highVoltageNode: high
+#      mediumVoltageNode: medium
+#      lowVoltageNode: low
+#    - type: NodeContainer
+#      nodes:
+#        high:
+#          !type:CableDeviceNode
+#          nodeGroupID: HVPower
+#        medium:
+#          !type:CableDeviceNode
+#          nodeGroupID: MVPower
+#        low:
+#          !type:CableDeviceNode
+#          nodeGroupID: Apc
+#    - type: Physics
+#      bodyType: Static
+#    - type: Fixtures
+#      fixtures:
+#        fix1:
+#          shape:
+#            !type:PolygonShape
+#            vertices:
+#            - "-0.5,-0.5"
+#            - "0.5,0.5"
+#            - "0.5,-0.5"
+#          layer:
+#          - GlassLayer
+#    - type: Destructible
+#      thresholds:
+#        - trigger:
+#            !type:DamageTrigger
+#            damage: 130 #excess damage (nuke?). avoid computational cost of spawning entities.
+#          behaviors:
+#            - !type:DoActsBehavior
+#              acts: ["Destruction"]
+#        - trigger:
+#            !type:DamageTrigger
+#            damage: 100
+#          behaviors:
+#            - !type:ChangeConstructionNodeBehavior
+#              node: grilleBroken
+#            - !type:DoActsBehavior
+#              acts: ["Breakage"]
+#    - type: Appearance
+#    - type: GenericVisualizer
+#      visuals:
+#        enum.ElectrifiedVisuals.IsPowered:
+#          enum.ElectrifiedLayers.Powered:
+#            True: { visible: True }
+#            False: { visible: False }
+#    - type: AnimationPlayer
+#
+#
+#
+#

@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "made by Hqlle (Github)",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "bottle-10"
+    },
+    {
+      "name": "bottle-11"
+    },
+    {
+      "name": "bottle-12"
+    },
+    {
+      "name": "bottle-13"
+    },
+    {
+      "name": "bottle-14"
+    },
+    {
+      "name": "bottle-15"
+    },
+    {
+      "name": "bottle-16"
+    },
+    {
+      "name": "base"
+    },
+    {
+      "name": "base-metal"
+    },
+    {
+      "name": "bottle-0"
+    },
+    {
+      "name": "bottle-1"
+    },
+    {
+      "name": "bottle-2"
+    },
+    {
+      "name": "bottle-3"
+    },
+    {
+      "name": "bottle-4"
+    },
+    {
+      "name": "bottle-5"
+    },
+    {
+      "name": "bottle-6"
+    },
+    {
+      "name": "bottle-7"
+    },
+    {
+      "name": "bottle-8"
+    },
+	{
+      "name": "bottle"
+    },
+    {
+      "name": "bottle-9"
+    }
+  ]
+}

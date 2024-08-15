@@ -1,0 +1,23 @@
+- type: reaction
+  id: LPPAdrenaline
+  abstract: true
+  reactants:
+    Sugar:
+      amount: 1
+    LPPEcotropin:
+      amount: 1
+  products:
+    LPPAdrenaline: 3
+
+- type: reaction
+  id: LPPAdvStim
+  abstract: true
+  reactants:
+    LPPAdrenaline:
+      amount: 1
+    LPPExoticCatalyst:
+      amount: 1
+    LPPSynthflesh:
+      amount: 1
+  products:
+    LPPAdvStim: 3

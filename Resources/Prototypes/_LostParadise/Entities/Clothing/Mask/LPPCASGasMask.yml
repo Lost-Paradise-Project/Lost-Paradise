@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingMaskGasExplorer
+  id: LPPCASGasMask
+  name: Противогаз CAS
+  description: Чёрно белый противогаз.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/_LostParadiseCASGasMask.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/_LostParadiseCASGasMask.rsi

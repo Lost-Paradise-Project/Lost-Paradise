@@ -1,0 +1,342 @@
+- type: entity
+  name: hos laser pistol
+  parent: BaseWeaponBatterySmall
+  id: LPPWeaponHoSlaserPistol
+  description: A state of the art energy pistol favoured as a sidearm by the HoS.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/hos-laser.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/hos-laser.rsi
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: Pulse
+    fireCost: 200
+  - type: Battery
+    maxCharge: 2000
+    startingCharge: 2000
+
+- type: entity
+  name: Cutter
+  parent: BaseWeaponBatterySmall
+  id: WeaponCutter
+  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Objects/Weapons/Guns/Battery/cutter.rsi
+      state: icon
+    - type: Item
+      size: Normal
+    - type: Gun
+      fireRate: 6
+      soundGunshot:
+        path: /Audio/_LostParadise/Weapons/Guns/Gunshots/plasma_cutter.ogg
+    - type: ProjectileBatteryAmmoProvider
+      proto: BulletCutter
+      fireCost: 15
+    - type: Appearance
+
+- type: entity
+  name: Advanced Cutter
+  parent: BaseWeaponBatterySmall
+  id: WeaponCutterAdv
+  description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Objects/Weapons/Guns/Battery/cutteradv.rsi
+      state: icon
+    - type: Item
+      size: Normal
+    - type: Gun
+      fireRate: 8
+      soundGunshot:
+        path: /Audio/_LostParadise/Weapons/Guns/Gunshots/plasma_cutter.ogg
+    - type: ProjectileBatteryAmmoProvider
+      proto: BulletCutter
+      fireCost: 10
+    - type: Appearance
+
+# Ion Pistol IS-17
+- type: entity
+  name: Ion Pistol IS-17
+  parent: BaseWeaponBattery
+  id: LPPIonPistolIS17
+  description: Ion Pistols IS-17
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/combat_ion_pistols.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-0
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/combat_ion_pistols.rsi
+  - type: Gun
+    fireRate: 4
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/ion_gunshot_1.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletIon_1
+    fireCost: 100
+  - type: Battery
+    maxCharge: 5000
+    startingCharge: 5000
+
+# Ion Gun LV-12
+- type: entity
+  name: Ion Gun LV-12
+  parent: BaseWeaponBattery
+  id: LPPIonGunLV12
+  description: Ion Gun LV-12
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/combat_ion_gun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-1
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/combat_ion_gun.rsi
+  - type: Gun
+    fireRate: 2
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/ion_gunshot_2.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletIon_2
+    fireCost: 100
+  - type: Battery
+    maxCharge: 3000
+    startingCharge: 3000
+
+# Ion Gun Auto UI-80
+- type: entity
+  name: Ion Gun Auto UI-80
+  parent: BaseWeaponBattery
+  id: LPPIonGunAutoUI80
+  description: Ion combat Gun AUTO UI-80
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/combat_ion_gun_auto.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/combat_ion_gun_auto.rsi
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 4
+    availableModes:
+      - SemiAuto
+      - FullAuto
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/ion_gunshot_2.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletIon_3
+    fireCost: 100
+  - type: Battery
+    maxCharge: 5000
+    startingCharge: 5000
+
+# Ion Gun Auto UI-80 BORG MECH
+- type: entity
+  name: Ion Gun Auto UI-80 BORG MECH
+  parent: BaseWeaponBattery
+  id: LPPIonGunAutoBORGMECH
+  description: Ion combat Gun AUTO UI-80
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/ion_gun_borg_security.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 4
+    availableModes:
+      - SemiAuto
+      - FullAuto
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/ion_gunshot_2.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletIon_3
+    fireCost: 100
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 7
+  - type: Battery
+    maxCharge: 1000
+    startingCharge: 1000
+
+- type: entity
+  name: Borg-Disbaler
+  parent: BaseWeaponBatterySmall
+  id: LPPDisbalerBorg
+  categories: [ HideSpawnMenu ]
+  description:
+  components:
+    - type: Tag
+      tags:
+        - Taser
+        - Sidearm
+    - type: Sprite
+      sprite: _LostParadise/Objects/Weapons/Guns/Battery/borg_disbaler.rsi
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-unshaded-4
+          map: ["enum.GunVisualLayers.MagUnshaded"]
+          shader: unshaded
+    - type: Gun
+      fireRate: 1.8
+      soundGunshot:
+        path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
+    - type: ProjectileBatteryAmmoProvider
+      proto: LPPBulletDisablerBorg
+      fireCost: 100
+    - type: Battery
+      maxCharge: 1500
+      startingCharge: 1500
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 10
+    - type: Appearance
+
+- type: entity
+  name: Robotics-laser
+  parent: BaseWeaponBattery
+  id: LPPBorgLaser
+  categories: [ HideSpawnMenu ]
+  description:
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Objects/Weapons/Guns/Battery/Cyborg/robotics_laser.rsi
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-unshaded-4
+          map: ["enum.GunVisualLayers.MagUnshaded"]
+          shader: unshaded
+    - type: Gun
+      selectedMode: SemiAuto
+      availableModes:
+      - SemiAuto
+      fireRate: 1.8
+    - type: HitscanBatteryAmmoProvider
+      proto: RedLaser
+      fireCost: 100
+    - type: Battery
+      maxCharge: 1000
+      startingCharge: 1000
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 5
+    - type: Appearance
+
+- type: entity
+  name: Robotics-laser-advanced
+  parent: WeaponLaserCannon
+  id: LPPBorgLaserAdvanced
+  categories: [ HideSpawnMenu ]
+  description:
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Objects/Weapons/Guns/Battery/Cyborg/robotics_laser_advanced.rsi
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-unshaded-4
+          map: ["enum.GunVisualLayers.MagUnshaded"]
+          shader: unshaded
+    - type: Gun
+      fireRate: 1.5
+    - type: HitscanBatteryAmmoProvider
+      proto: RedHeavyLaser
+      fireCost: 100
+    - type: Battery
+      maxCharge: 900
+      startingCharge: 900
+    - type: BatterySelfRecharger
+      autoRecharge: true
+      autoRechargeRate: 5
+    - type: Appearance
+
+- type: entity
+  name: chrono laser gun
+  parent: BaseWeaponBattery
+  id: WeaponLaserChrono
+  description: Favoured by Nanotrasen Security for being cheap and easy to use.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/Chrono-pistol.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/Chrono-pistol.rsi
+  - type: Battery
+    maxCharge: 600
+    startingCharge: 600
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+  - type: HitscanBatteryAmmoProvider
+    proto: ChronoLaser
+    fireCost: 50
+
+- type: entity
+  name: gateway gun
+  parent: BaseWeaponBattery
+  id: LPPGatewayGun
+  description: A weapon that is almost as infamous as its users.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/gatewaygun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/gatewaygun.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: Gun
+    fireRate: 1.6
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: PurplePulse
+    fireCost: 200
+  - type: Battery
+    maxCharge: 4000
+    startingCharge: 4000
+  - type: Item
+    size: Large

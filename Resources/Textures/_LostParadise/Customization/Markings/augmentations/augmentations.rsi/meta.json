@@ -1,0 +1,65 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Draw by Artemionzer A/V#3367",
+    "states": [
+        {
+            "name": "agent",
+            "directions": 4
+        },
+        {
+            "name": "ironheart",
+            "directions": 4
+        },
+        {
+            "name": "jaw",
+            "directions": 4
+        },
+        {
+            "name": "lhand",
+            "directions": 4
+        },
+        {
+            "name": "lleg",
+            "directions": 4
+        },
+        {   "name": "mothrobo_1",
+            "directions": 4
+        },
+        {   "name": "Advanced_robo_arm_r",
+            "directions": 4 
+        },
+        {
+            "name": "lwrist",
+            "directions": 4
+        },
+        {
+            "name": "rhand",
+            "directions": 4
+        },
+        {
+            "name": "rleg",
+            "directions": 4
+        },
+        {
+            "name": "robohead",
+            "directions": 4
+        },
+        {
+            "name": "rwrist",
+            "directions": 4
+        },
+        {
+            "name": "tear",
+            "directions": 4
+        },
+        {
+            "name": "visor",
+            "directions": 4
+        }
+    ]
+}

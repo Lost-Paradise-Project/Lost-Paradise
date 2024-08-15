@@ -1,0 +1,18 @@
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelHell
+  name: hellish duffel bag [Sponsor]
+  description: A large duffel bag for holding extra tools and supplies.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Duffels/hell-bag.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackSatchelCAS
+  name: cas satchel
+  suffix: Sponsor
+  description: Black and white satchel.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Satchels/satchel_cas.rsi

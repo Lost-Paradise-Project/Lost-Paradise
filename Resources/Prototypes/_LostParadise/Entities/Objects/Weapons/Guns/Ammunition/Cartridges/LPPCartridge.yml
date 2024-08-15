@@ -1,0 +1,87 @@
+- type: entity
+  id: LPPBaseCartridgeRifle
+  name: патрон (калибр 5,56х45)
+  parent: BaseCartridge
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeM4A1
+  - type: CartridgeAmmo
+    proto: LPPBulletM4A1
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: LPPCartridgeM4A1Lethal
+  name: патрон (калибр 5,56х45)
+  parent: LPPBaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletM4A1
+
+- type: entity
+  id: LPPCartridgeRubberM4A1
+  name: патрон (калибр 5,56х45 резиновый)
+  parent: LPPBaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletRubberM4A1
+
+- type: entity
+  id: LPPCartridgePracticeM4A1
+  name: патрон (калибр 5,56х45 учебный)
+  parent: LPPBaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletPracticeM4A1
+
+- type: entity
+  id: LPPCartridgeUraniumM4A1
+  name: патрон (калибр 5,56х45 урановый)
+  parent: LPPBaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletUraniumM4A1
+
+- type: entity
+  id: LPPCartridgeIncendiaryM4A1
+  name: патрон (калибр 5,56х45 зажигательный)
+  parent: LPPBaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletIncendiaryM4A1
+
+- type: entity
+  id: LPPBaseCartridgeLightRifleHunting
+  name: патрон (.30 охотничий)
+  parent: BaseCartridge
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeHunting
+  - type: CartridgeAmmo
+    proto: LPPBulletLightRifleHunting
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: LPPCartridgeLightRifleHunting
+  name: патрон (.30 охотничий)
+  parent: LPPBaseCartridgeLightRifleHunting
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletLightRifleHunting

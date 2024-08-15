@@ -1,0 +1,763 @@
+- type: latheRecipe
+  id: LPPClothingHeadHatBandage
+  result: LPPClothingHeadHatBandage
+  completetime: 5
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingEyesEyepatchBandage
+  result: LPPClothingEyesEyepatchBandage
+  completetime: 5
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPBandana
+  result: LPPBandana
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingHeadHatCapBlack
+  result: LPPClothingHeadHatCapBlack
+  completetime: 4
+  materials:
+    Cloth: 300
+    Durathread: 100
+
+- type: latheRecipe
+  id: LPPClothingUniformBlackBeachSkirt
+  result: LPPClothingUniformBlackBeachSkirt
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingUniformBlackTracksuit
+  result: LPPClothingUniformBlackTracksuit
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingUniformGreenTracksuit
+  result: LPPClothingUniformGreenTracksuit
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpskirtAdjutant
+  result: ClothingUniformJumpskirtAdjutant
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPCargoBlackSkirt
+  result: LPPCargoBlackSkirt
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckCargo
+  result: LPPSkirtleneckCargo
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckQMCargo
+  result: LPPSkirtleneckQMCargo
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPAtmosBlackSkirt
+  result: LPPAtmosBlackSkirt
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckAtmos
+  result: LPPSkirtleneckAtmos
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckQMAtmos
+  result: LPPSkirtleneckQMAtmos
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefSkirtAtmos
+  result: LPPSupplyChiefSkirtAtmos
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPEngiBlackSkirt
+  result: LPPEngiBlackSkirt
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckEngi
+  result: LPPSkirtleneckEngi
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckQMEngi
+  result: LPPSkirtleneckQMEngi
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefSkirtEngi
+  result: LPPSupplyChiefSkirtEngi
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingUniformJumpSkirtSecEngineer
+  result: LPPClothingUniformJumpSkirtSecEngineer
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPMedicBlackSkirt
+  result: LPPMedicBlackSkirt
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckMedic
+  result: LPPSkirtleneckMedic
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckQMMedic
+  result: LPPSkirtleneckQMMedic
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefSkirtMedic
+  result: LPPSupplyChiefSkirtMedic
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckVirology
+  result: LPPSkirtleneckVirology
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckVirologyQM
+  result: LPPSkirtleneckVirologyQM
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefSkirtVirology
+  result: LPPSupplyChiefSkirtVirology
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPVirologyBlackSkirt
+  result: LPPVirologyBlackSkirt
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPMedicBlackSkirt2
+  result: LPPMedicBlackSkirt2
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPRndBlackSkirt
+  result: LPPRndBlackSkirt
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckRnd
+  result: LPPSkirtleneckRnd
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckQMRnd
+  result: LPPSkirtleneckQMRnd
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefSkirtRnd
+  result: LPPSupplyChiefSkirtRnd
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSecBlackSkirt
+  result: LPPSecBlackSkirt
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSkirtleneckQMSec
+  result: LPPSkirtleneckQMSec
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefSkirtSec
+  result: LPPSupplyChiefSkirtSec
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpsuitAdjutant
+  result: ClothingUniformJumpsuitAdjutant
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPCargotechjean
+  result: LPPCargotechjean
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaCargo
+  result: LPPGorkaCargo
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaCargoVarg
+  result: LPPGorkaCargoVarg
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmcCargo
+  result: LPPQmcCargo
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmsyndCargo
+  result: LPPQmsyndCargo
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefCargo
+  result: LPPSupplyChiefCargo
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPTurtleneckQmCargo
+  result: LPPTurtleneckQmCargo
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPUtilCargo
+  result: LPPUtilCargo
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingUniformJumpsuitBlueClown
+  result: LPPClothingUniformJumpsuitBlueClown
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingUniformJumpsuitGreenClown
+  result: LPPClothingUniformJumpsuitGreenClown
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingUniformJumpsuitOrangeClown
+  result: LPPClothingUniformJumpsuitOrangeClown
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingUniformJumpsuitPurpleClown
+  result: LPPClothingUniformJumpsuitPurpleClown
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingUniformJumpsuitRainbowClown
+  result: LPPClothingUniformJumpsuitRainbowClown
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingUniformJumpsuitYellowClown
+  result: LPPClothingUniformJumpsuitYellowClown
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPAtmostechjean
+  result: LPPAtmostechjean
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaAtmos
+  result: LPPGorkaAtmos
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaWithReflectorsAtmos
+  result: LPPGorkaWithReflectorsAtmos
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmcAtmos
+  result: LPPQmcAtmos
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmsyndAtmos
+  result: LPPQmsyndAtmos
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefAtmos
+  result: LPPSupplyChiefAtmos
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPTurtleneckQmAtmos
+  result: LPPTurtleneckQmAtmos
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPUtilAtmos
+  result: LPPUtilAtmos
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPEngiTechjean
+  result: LPPEngiTechjean
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaEngi
+  result: LPPGorkaEngi
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaWithReflectorsEngi
+  result: LPPGorkaWithReflectorsEngi
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmcEngi
+  result: LPPQmcEngi
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmsyndEngi
+  result: LPPQmsyndEngi
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefEngi
+  result: LPPSupplyChiefEngi
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPTurtleneckQmEngi
+  result: LPPTurtleneckQmEngi
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPUtilEngi
+  result: LPPUtilEngi
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPBlackFlannelJumpsuit
+  result: LPPBlackFlannelJumpsuit
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGreenFlannelJumpsuit
+  result: LPPGreenFlannelJumpsuit
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPOrangeFlannelJumpsuit
+  result: LPPOrangeFlannelJumpsuit
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: ClothingUniformJumpsuitFluppi
+  result: ClothingUniformJumpsuitFluppi
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingUniformJumpsuitSecEngineer
+  result: LPPClothingUniformJumpsuitSecEngineer
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPMedictechjean
+  result: LPPMedictechjean
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaMedic
+  result: LPPGorkaMedic
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaMedicVarg
+  result: LPPGorkaMedicVarg
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmcMedic
+  result: LPPQmcMedic
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmsyndMedic
+  result: LPPQmsyndMedic
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefMedic
+  result: LPPSupplyChiefMedic
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPTurtleneckQmMedic
+  result: LPPTurtleneckQmMedic
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPUtilMedic
+  result: LPPUtilMedic
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaVirology
+  result: LPPGorkaVirology
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaVirologyVarg
+  result: LPPGorkaVirologyVarg
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmcVirology
+  result: LPPQmcVirology
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmcSyndVirology
+  result: LPPQmcSyndVirology
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefVirology
+  result: LPPSupplyChiefVirology
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPTurtleneckQM
+  result: LPPTurtleneckQM
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPUtilVirology
+  result: LPPUtilVirology
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPVirologyTechjean
+  result: LPPVirologyTechjean
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPRndtechjean
+  result: LPPRndtechjean
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaRnd
+  result: LPPGorkaRnd
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaRndVarg
+  result: LPPGorkaRndVarg
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmcRnd
+  result: LPPQmcRnd
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmsyndRnd
+  result: LPPQmsyndRnd
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefRnd
+  result: LPPSupplyChiefRnd
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPTurtleneckQmRnd
+  result: LPPTurtleneckQmRnd
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPUtilRnd
+  result: LPPUtilRnd
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSectechjean
+  result: LPPSectechjean
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaSec
+  result: LPPGorkaSec
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPGorkaSecVarg
+  result: LPPGorkaSecVarg
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmcSec
+  result: LPPQmcSec
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPQmsyndSec
+  result: LPPQmsyndSec
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSupplyChiefSec
+  result: LPPSupplyChiefSec
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPTurtleneckQmSec
+  result: LPPTurtleneckQmSec
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPUtilSec
+  result: LPPUtilSec
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPTacticoolSec
+  result: LPPTacticoolSec
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingUniformWhiteBeachSkirt
+  result: LPPClothingUniformWhiteBeachSkirt
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPClothingUniformRedTracksuit
+  result: LPPClothingUniformRedTracksuit
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPMaid
+  result: LPPMaid
+  completetime: 4
+  materials:
+    Cloth: 300
+
+- type: latheRecipe
+  id: LPPSchoolgirl
+  result: LPPSchoolgirl
+  completetime: 4
+  materials:
+    Cloth: 300

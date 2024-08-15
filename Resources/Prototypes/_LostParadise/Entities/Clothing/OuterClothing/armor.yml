@@ -1,0 +1,26 @@
+- type: entity
+  parent: ClothingOuterBaseLarge
+  id: LPPClothingOuterArmorBlueshield
+  name: blueshield's carapace
+  description: An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/blueshield_armor.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/blueshield_armor.rsi
+  - type: Item
+    size: Huge
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.6
+        Heat: 0.5
+        Caustic: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.65
+  - type: GroupExamine
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1

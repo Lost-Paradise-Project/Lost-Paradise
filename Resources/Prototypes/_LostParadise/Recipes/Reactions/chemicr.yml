@@ -1,0 +1,39 @@
+- type: reaction
+  id: LPPEcotropin
+  reactants:
+    Oxygen:
+      amount: 1
+    Plasma:
+      amount: 1
+    Epinephrine:
+      amount: 1
+  products:
+    LPPEcotropin: 3
+
+- type: reaction
+  id: LPPFormaldehyde
+  reactants:
+    Oxygen:
+      amount: 1
+    Silver:
+      amount: 1
+    Ethanol:
+      amount: 1
+  products:
+    LPPFormaldehyde: 3
+
+- type: reaction
+  id: LPPCyanide
+  minTemp: 370
+  reactants:
+    Oxygen:
+      amount: 1
+    Oil:
+      amount: 1
+    Ammonia:
+      amount: 1
+  effects:
+  - !type:CreateGas
+    gas: CarbonDioxide
+  products:
+    LPPCyanide: 3

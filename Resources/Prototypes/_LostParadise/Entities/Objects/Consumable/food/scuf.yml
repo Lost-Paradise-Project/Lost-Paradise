@@ -1,0 +1,43 @@
+- type: entity # банка
+  parent: DrinkCanBaseFull
+  id: LPPCondensedMilkCan
+  name: condensed milk can
+  description: Condensed dairy product, perfect for middle-aged people. It seems that he was brought illegally...
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: LPPCondensedMilk
+          Quantity: 30
+  - type: Tag
+    tags:
+    - DrinkCan
+    - Recyclable
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/condensedMilk.rsi
+    layers:
+      - state: trash
+      - map: ["enum.SolutionContainerLayers.Fill"]
+        state: icon_open
+        visible: true
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/condensedMilk.rsi
+  - type: Food
+    trash: LPPCondensedMilkCanTrash
+
+- type: entity
+  parent: BaseItem
+  id: LPPCondensedMilkCanTrash
+  name: empty can of condensed milk
+  description: It is sucked out.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/condensedMilk.rsi
+    state: trash
+  - type: Item
+  - type: Tag
+    tags:
+    - Trash
+    - Recyclable

@@ -1,0 +1,34 @@
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitHunter
+  name: охотничий скафандр
+  description: Скафандр компании GreyTide co., недавно появившиеся на рынке скафандров для нужд гражданских, а так же военных. Серые тона- стиль!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/winterhunter.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/winterhunter.rsi
+  - type: Item
+    size: Huge
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.40
+        Piercing: 0.65
+        Heat: 0.85
+        Radiation: 0.5
+        Caustic: 0.2
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingMaskHunter
+    requiredSlot:
+    - outerclothing
+    slot: mask

@@ -1,0 +1,217 @@
+
+- type: entity
+  id: LPPCigAstra ##!
+  parent: CigPackBase
+  name: astra packet ##!
+  description: cigarettes are high in tar. Popular with space pirates, security forces and working people throughout space. ##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/astra.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/astra.rsi ##!
+
+
+
+
+- type: entity
+  id: LPPCigBaltic ##!
+  parent: CigPackBase
+  name: baltic channel packet ##!
+  description: truly legendary cigarettes that have gone through a lot for you. By no means the highest grade ... But the tobacco in them is 70% Natural! ##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/baltic-channel.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/baltic-channel.rsi ##!
+
+
+
+
+- type: entity
+  id: LPPCigBlueLady ##!
+  parent: CigPackBase
+  name: blue Lady Slim packet ##!
+  description: on the back of the pack it says "You've come a long way, baby" It smells of ideas of emancipation and female self-realization.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/blue-lady-slim.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/blue-lady-slim.rsi ##!
+
+
+
+- type: entity
+  id: LPPCigBlueSky ##!
+  parent: CigPackBase
+  name: blue sky packet ##!
+  description: Selected tobacco cigarettes. Products please smokers with a bright taste and rich aromatics. Cigarette smoke does not have a pungent and pungent odor, but has a unique classic, mild taste with a light tobacco-sweet aroma, leaves an accepted aftertaste with a small amount of bitterness. ##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/blue-sky.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/blue-sky.rsi ##!
+
+
+
+- type: entity
+  id: LPPCigCosmos ##!
+  parent: CigPackBase
+  name: cosmos packet ##!
+  description: the classic taste and smell of Cosmos cigarettes is the predominance of Virginia tobacco with a slight sourness. ##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/cosmos.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/cosmos.rsi ##!
+
+
+
+- type: entity
+  id: LPPCigCriticalLuck ##!
+  parent: CigPackBase
+  name: critical luck packet ##!
+  description: at one time, cigarettes were very popular with soldiers. Roasting with a battle flame gives tobacco an improved taste and lowers acidity, facilitates the effect of cigarettes on the throat... ##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/critical-luck.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/critical-luck.rsi ##!
+
+- type: entity
+  id: LPPCigDromedarCrush ##!
+  parent: CigPackBase
+  name: dromedar crush packet ##!
+  description: light cigarettes with a filter, in which a capsule with menthol is located, of a standard size. Adds a touch of freshness to your fumes. ##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/dromedar-crush.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/dromedar-crush.rsi ##!
+
+- type: entity
+  id: LPPCigDromedar ##!
+  parent: CigPackBase
+  name: dromedar packet ##!
+  description: cigarettes with a simple brand name - "dromedar" This brand of cigarettes has been produced since 2113. The recipe is a mixture of dark and tart tobaccos that were then in vogue and light, soft ones. "Pangalactic Blend" ##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/dromedar.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/dromedar.rsi ##!
+
+- type: entity
+  id: LPPCigrllPackBase
+  parent: CigPackBase
+  name: cigarills pack
+  abstract: true
+  components:
+  - type: Sprite
+    layers:
+    - state: closed
+    - state: open
+      map: ["openLayer"]
+      visible: false
+    - state: cig1
+      map: ["cig1"]
+      sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/cigrl-visualiser.rsi
+      visible: false
+    - state: cig2
+      map: ["cig2"]
+      sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/cigrl-visualiser.rsi
+      visible: false
+    - state: cig3
+      map: ["cig3"]
+      sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/cigrl-visualiser.rsi
+      visible: false
+    - state: cig4
+      map: ["cig4"]
+      sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/cigrl-visualiser.rsi
+      visible: false
+    - state: cig5
+      map: ["cig5"]
+      sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/cigrl-visualiser.rsi
+      visible: false
+    - state: cig6
+      map: ["cig6"]
+      sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/cigrl-visualiser.rsi
+      visible: false
+  - type: StorageFill
+    contents:
+    - id: LPPCigarill
+      amount: 10
+
+- type: entity
+  id: LPPCigGentlemanofluck ##!
+  parent: LPPCigrllPackBase
+  name: gentleman of luck packet ##!
+  description: produced from selected tobacco leaves, they have a bright taste of ripe cherries. ##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/gentleman-of-luck.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/gentleman-of-luck.rsi ##!
+
+
+
+- type: entity
+  id: LPPCigLandtag ##!
+  parent: CigPackBase
+  name: landtag packet ##!
+  description: cigarettes with a filter mouthpiece that cools the smoke. Premium brand. ##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/landtag.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/landtag.rsi ##!
+
+
+
+- type: entity
+  id: LPPCigLibertyspirit ##!
+  parent: CigPackBase
+  name: liberty spirit packet ##!
+  description: cigarettes with a taste of democracy and a subtle hint of oil. ##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/liberty-spirit.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/liberty-spirit.rsi ##!
+
+
+
+- type: entity
+  id: LPPCigMarbrolo ##!
+  parent: CigPackBase
+  name: marbrolo packet ##!
+  description: classic cigarettes. Reveal the traditional taste, dominated by tart, slightly bitter accents. They have an impressive level of strength. Equipped with a reliable acetate filter that retains its shape under the influence of moisture and elevated temperatures. ##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/marbrolo.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/marbrolo.rsi ##!
+
+
+
+- type: entity
+  id: LPPCigMaximus ##!
+  parent: CigPackBase
+  name: maximus packet ##!
+  description: relatively inexpensive, not the nastiest cigarettes. ##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/maximus.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/maximus.rsi ##!
+
+
+
+- type: entity
+  id: LPPCigWinchester ##!
+  parent: CigPackBase
+  name: winchester packet ##!
+  description: branded cigarettes. For centuries, the brand's products have retained their status as the most popular among smokers. Consumers choose the company's products, focusing on the optimal price-quality ratio.##!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/winchester.rsi ##!
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/winchester.rsi ##!

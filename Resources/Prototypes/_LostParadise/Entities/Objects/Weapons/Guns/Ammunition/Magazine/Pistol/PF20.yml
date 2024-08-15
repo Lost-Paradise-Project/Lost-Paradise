@@ -1,0 +1,104 @@
+- type: entity
+  id: LPPBaseMagazinePistolPF20
+  name: "пистолетный магазин (.20)"
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - MagazinePistol
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeRifle
+    capacity: 15
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Ammunition/Magazine/PF20mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: LPPMagazinePistolPF20lethal
+  name: пистолетный магазин (.20 винтовочные)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifle
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPMagazinePistolPF20Practice
+  name: пистолетный магазин (.20 тренировочные)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRiflePractice
+  - type: Sprite
+    layers:
+    - state: practice
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+      color: "#dbdbdb"
+
+- type: entity
+  id: LPPMagazinePistolPF20Rubber
+  name: пистолетный магазин (.20 резиновые)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleRubber
+  - type: Sprite
+    layers:
+    - state: rubber
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPMagazinePistolPF20Uranium
+  name: пистолетный магазин (.20 урановые)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleUranium
+  - type: Sprite
+    layers:
+    - state: uranium
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+      color: "#65fe08"
+
+- type: entity
+  id: LPPMagazinePistolPF20Incendiary
+  name: пистолетный магазин (.20 зажигательные)
+  parent: LPPBaseMagazinePistolPF20
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleIncendiary
+  - type: Sprite
+    layers:
+    - state: piercing
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

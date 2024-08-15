@@ -1,0 +1,20 @@
+- type: entity
+  parent: BookBase
+  id: LPPBookUnderwearGuide
+  name: "Guide's for young librarian: how to get underwear?"
+  description: There is no escape.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/books.rsi
+      layers:
+      - state: paper
+      - state: cover_base
+        color: "#0a2a6b"
+      - state: decor_vertical_middle
+        color: "#082561"
+      - state: icon_text
+        color: gold
+      - state: icon_letter_N
+        color: "#42b6f5"
+    - type: Paper
+      content: book-text-librarian-guide

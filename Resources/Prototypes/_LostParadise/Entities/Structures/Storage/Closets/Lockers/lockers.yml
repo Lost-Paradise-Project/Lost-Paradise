@@ -1,0 +1,183 @@
+- type: entity
+  id: LPPLockerBlueShield
+  name: blue shield locker
+  parent: LockerBaseSecure
+  components:
+  - type: Appearance
+  - type: AccessReader
+    access: [["Captain"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: hop
+    stateDoorOpen: hop_open
+    stateDoorClosed: representative_door
+
+# Security Enginer
+
+- type: entity
+  id: LockerSecEng
+  parent: LockerBaseSecure
+  name: шкаф полевого инженера
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: sec_engi
+    stateDoorOpen: armory_open
+    stateDoorClosed: sec_eng_door
+  - type: AccessReader
+    access: [["Engineering"]]
+
+# Expeditor
+
+- type: entity
+  id: LockerExpeditor
+  parent: LockerBaseSecure
+  name: Expeditor Locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: expeditor
+    stateDoorOpen:  expeditor_open
+    stateDoorClosed: expeditor_door
+  - type: AccessReader
+    access: [["Gateway"]]
+
+#----syndicate----#
+#главы
+- type: entity
+  id: LockerCaptainSyndicate
+  parent: LPPLockerBaseSyn
+  name: Captain locker
+  description: To store bags of bullet casings and detainee belongings.
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: cap
+    stateDoorOpen: cap_open
+    stateDoorClosed: cap_door
+  - type: AccessReader
+    access: [["CaptainSyn"]]
+
+- type: entity
+  id: LockerWoCSyndicate
+  parent: LPPLockerBaseSyn
+  name: Woc locker
+  description: To store bags of bullet casings and detainee belongings.
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: hop
+    stateDoorOpen: hop_open
+    stateDoorClosed: hop_door
+  - type: AccessReader
+    access: [["HeadOfPersonnelSyn"]]
+
+- type: entity
+  id: LockerHeadOfSecuritySyndicate
+  parent: LPPLockerBaseSyn
+  name: Hos locker
+  description: To store bags of bullet casings and detainee belongings.
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: hos
+    stateDoorOpen: hos_open
+    stateDoorClosed: hos_door
+  - type: AccessReader
+    access: [["HeadOfSecuritySyn"]]
+
+#инженерные
+- type: entity
+  id: LPPLockerAtmosphericsSyn
+  parent: LPPLockerBaseSyn
+  name: atmospheric technician's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: atmos
+    stateDoorOpen: atmos_open
+    stateDoorClosed: atmos_door
+  - type: AccessReader
+    access: [ [ "EngineeringSyn" ] ]
+
+- type: entity
+  id: LPPLockerEngineerSyn
+  parent: LPPLockerBaseSyn
+  name: engineer's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: eng_secure
+    stateDoorOpen: eng_secure_open
+    stateDoorClosed: eng_secure_door
+  - type: AccessReader
+    access: [ [ "EngineeringSyn" ] ]
+
+- type: entity
+  id: LPPLockerElectricalSuppliesSyn
+  parent: LockerBase
+  name: electrical supplies locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: eng
+    stateDoorOpen: eng_open
+    stateDoorClosed: eng_elec_door
+  - type: AccessReader
+    access: [ [ "EngineeringSyn" ] ]
+
+#Medical
+- type: entity
+  id: LPPLockerMedicalSyn
+  parent: LPPLockerBaseSyn
+  name: medical doctor's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: med_secure
+    stateDoorOpen: med_secure_open
+    stateDoorClosed: med_secure_door
+  - type: AccessReader
+    access: [ [ "MedicalSyn" ] ]
+
+#утиль
+- type: entity
+  id: LPPLockerSalvageSpecialistSyn
+  parent: LPPLockerBaseSyn
+  name: salvage specialist's equipment
+  description: Nevermind the pickaxe.
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: mining
+    stateDoorOpen: mining_open
+    stateDoorClosed: mining_door
+  - type: AccessReader
+    access: [["SalvageSyn"]]
+
+#Ученые
+- type: entity
+  id: LPPLockerScientistSyn
+  parent: LPPLockerBaseSyn
+  name: scientist's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: science
+    stateDoorOpen: science_open
+    stateDoorClosed: science_door
+  - type: AccessReader
+    access: [ [ "ResearchSyn" ] ]
+
+#CS
+- type: entity
+  id: LPPLockerSecuritySyn
+  parent: LPPLockerBaseSyn
+  name: security officer's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: security
+    stateDoorOpen: security_open
+    stateDoorClosed: security_door
+  - type: AccessReader
+    access: [["SecuritySyn"]]

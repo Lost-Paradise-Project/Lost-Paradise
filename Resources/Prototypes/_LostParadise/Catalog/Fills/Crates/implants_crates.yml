@@ -1,0 +1,99 @@
+- type: entity
+  id: LPPCrateFreedomImplants
+  name: ящик имплантов свободы
+  description: Содержит 5 имплантов "Свободы", позволяющие сбросить с себя наручники
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: FreedomImplanter
+        amount: 5
+
+
+- type: entity
+  id: LPPCrateLanguageImplants
+  name: ящик имплантов языкового анализа
+  description: Содержит 5 имплантов языкового анализа, позволяющие понимать неизвестные языки.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: SyndUniversalTranslatorImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateAcidifierImplants
+  name: ящик имплантов "Растворитель"
+  description: Содержит 5 имплантов "Растворитель", которые уничтожают тело вместе с экипировкой и инфекцией.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: DeathAcidifierImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateEMPImplants
+  name: ящик имплантов ЭМИ
+  description: Содержит 5 имплантов электро-магнитного импульса, которые способны временно обесточить шлюзы, нейтрализовать энергетическое оружие и заглушить гарнитуры.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: EmpImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateScramImplants
+  name: ящик имплантов "Побег"
+  description: Содержит 5 имплантов "Побег", телепортирующие вас в случайное.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: ScramImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateMicroBombImplants
+  name: ящик имплантов микро-бомб
+  description: Содержит 5 имплантов микро-бомб
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: MicroBombImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateStorageImplants
+  name: ящик имплантов "Хранилище"
+  description: Содержит 5 имплантов "Хранилище". Может быть применено как рагрузка или как потайной карман при работе в тылу.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: StorageImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateDnaScramblerImplants
+  name: ящик имплантов "Миксер ДНК"
+  description: Содержит 5 имплантов "Миксер ДНК", применяющиеся при долгой работе в тылу врага или под прикрытием.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: DnaScramblerImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateMacroBombImplants
+  name: ящик имплантов макро-бомб
+  description: Содержит 5 имплантов макро-бомб
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: MacroBombImplanter
+        amount: 5

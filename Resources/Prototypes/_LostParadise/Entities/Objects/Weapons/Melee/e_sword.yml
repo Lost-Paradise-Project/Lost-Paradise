@@ -1,0 +1,56 @@
+# - type: entity
+#   name: Energy double sword
+#   parent: BaseItem
+#   id: LPPEnergyDoubleSword
+#   description: Very loud and very energy double sword that can reflect shots. Can be stored in pockets when turned off.
+#   components:
+#   - type: EnergySword
+#     litDamageBonus:
+#         types:
+#             Slash: 20
+#             Heat: 20
+#             Structural: 4
+#             Blunt: -4.5
+#     litDisarmMalus: 0.6
+#   - type: Sprite
+#     sprite: _LostParadise/Objects/Weapons/Melee/e-double-sword.rsi
+#     layers:
+#       - state: e_sword
+#       - state: e_sword_blade
+#         color: "#FFFFFF"
+#         visible: false
+#         shader: unshaded
+#         map: [ "blade" ]
+#   - type: MeleeWeapon
+#     attackRate: 1.5
+#     soundHit:
+#       path: /Audio/Weapons/eblade1.ogg
+#     damage:
+#       types:
+#         Blunt: 4.5
+#   - type: Item
+#     size: 10
+#     sprite: _LostParadise/Objects/Weapons/Melee/e-double-sword.rsi
+#   - type: UseDelay
+#     delay: 1.0
+#   - type: PointLight
+#     enabled: false
+#     radius: 2
+#     energy: 2
+#     color: white
+#   - type: Appearance
+#   - type: ToggleableLightVisuals
+#     spriteLayer: blade
+#     inhandVisuals:
+#       left:
+#       - state: inhand-left-blade
+#         shader: unshaded
+#       right:
+#       - state: inhand-right-blade
+#         shader: unshaded
+#   - type: DisarmMalus
+#     malus: 0
+#   - type: Reflect
+#     enabled: false
+#     reflectProb: 0.25
+#     spread: 45

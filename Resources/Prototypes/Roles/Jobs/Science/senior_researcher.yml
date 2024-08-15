@@ -13,6 +13,7 @@
   supervisors: job-supervisors-rd
   access:
   - Research
+  - Robotics
   - Maintenance
 
 - type: startingGear

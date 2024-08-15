@@ -1,0 +1,33 @@
+- type: entity
+  id: LPPCrateDEMOCRACY
+  parent: CrateSecgear
+  name: набор списанной экипировки
+  description: Содержит набор списанной экипировки, ящик явно усилен парочкой пластов пластали. Требует доступ службы безопасности для открытия.
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+  - type: StorageFill
+    contents:
+      - id: LPPMagazineBoxM4A1Lethal
+        amount: 2
+      - id: LPPClothingBackpackPG
+      - id: LPPClothingBeltPGWebbing
+      - id: LPPClothingOuterVestPGWrittenOff
+      - id: LPPClothingUniformDesertJumpsuitPG
+      - id: LPPM4A1
+      - id: LPPClothingEyesGlassesSunglassesPG
+      - id: ClothingHandsMercGlovesCombat
+      - id: LPPClothingHeadHatTacticalHelmetWrittenOff
+      - id: LPPClothingHeadHatPGCap
+      - id: LPPClothingShoesBootsCombatPG
+      - id: LPPClothingMaskPGWrittenOff
+      - id: LPPMagazineRifleM4A1Lethal

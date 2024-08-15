@@ -1,0 +1,795 @@
+- type: tile
+  id: LPPWoodLarge
+  name: wood-large
+  sprite: /Textures/_LostParadise/Tiles/wood_large.png
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: LPPFloorTileItemWoodLarge
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorShuttleBlak
+  name: tiles-blak-shuttle-floor
+  sprite: /Textures/_LostParadise/Tiles/plastitanium.png
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemShuttleBlak
+  heatCapacity: 10000
+
+#-------------------------kitchen-----------------------------
+
+- type: tile
+  id: LPPKitchenDiagonal
+  name: kitchen-diagonal
+  sprite: /Textures/_LostParadise/Tiles/kitchen.rsi/kitchen_diagonal.png
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPKitchenHerringbone
+  name: kitchen-herringbone
+  sprite: /Textures/_LostParadise/Tiles/kitchen.rsi/kitchen_herringbone.png
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPKitchenSmall
+  name: kitchen-small
+  sprite: /Textures/_LostParadise/Tiles/kitchen.rsi/kitchen_small.png
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+#----S----#
+- type: tile
+  id: LPPKitchenDiagonalS
+  name: kitchen-diagonal
+  sprite: /Textures/_LostParadise/Tiles/kitchen.rsi/kitchen_diagonal_s.png
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPKitchenHerringboneS
+  name: kitchen-herringbone
+  sprite: /Textures/_LostParadise/Tiles/kitchen.rsi/kitchen_herringbone_s.png
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPKitchenSmallS
+  name: kitchen-small
+  sprite: /Textures/_LostParadise/Tiles/kitchen.rsi/kitchen_small_s.png
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+
+
+#------------------------------------------------#
+#------terracotta---terracotta---terracotta------#
+#------------------------------------------------#
+
+- type: tile
+  id: LPPTerracotta
+  name: terracotta
+  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPTerracottaDiagonal
+  name: terracotta_diagonal
+  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_diagonal.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPTerracottaHerringbone
+  name: terracotta_herringbone
+  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_herringbone.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPTerracottaSmall
+  name: terracotta_small
+  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_small.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+#-------------------#
+#---------S---------#
+#-------------------#
+- type: tile
+  id: LPPTerracottaS
+  name: terracotta
+  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_s.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPTerracottaDiagonalS
+  name: terracotta_diagonal
+  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_diagonal_s.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPTerracottaHerringboneS
+  name: terracotta_herringbone
+  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_herringbone_s.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPTerracottaSmallS
+  name: terracotta_small
+  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_small_s.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemBar
+  heatCapacity: 10000
+
+
+#--------------------------------------------#
+#----------dark-s---dark-s---dark-s----------#
+#--------------------------------------------#
+- type: tile
+  id: LPPFloorDarkS
+  name: tiles-dark-floor
+  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDarkS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorDarkDiagonalS
+  name: tiles-dark-floor-diagonal
+  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_diagonal.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDarkDiagonalS
+  heatCapacity: 10000
+
+
+- type: tile
+  id: LPPFloorDarkHerringboneS
+  name: tiles-dark-floor-herringbone
+  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_herringbone.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDarkHerringboneS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorDarkDiagonalMiniS
+  name: tiles-dark-floor-diagonal-mini
+  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_diagonal_mini.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDarkDiagonalMiniS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorDarkMiniS
+  name: tiles-dark-floor-mini
+  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_mini.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDarkMiniS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorDarkMonoS
+  name: tiles-dark-floor-mono
+  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_mono.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDarkMonoS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorDarkOffsetS
+  name: tiles-dark-floor-offset
+  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_offset.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDarkOffsetS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorDarkPavementS
+  name: tiles-dark-floor-pavement
+  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_pavement.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDarkPavementS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorDarkPavementVerticalS
+  name: tiles-dark-floor-pavement-vertical
+  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_pavement_vertical.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemDarkPavementVerticalS
+  heatCapacity: 10000
+
+#-----------------------------------------------#
+#----------steel-s---steel-s---steel-s----------#
+#-----------------------------------------------#
+- type: tile
+  id: LPPFloorSteelS
+  name: tiles-steel-floor
+  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteelS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorSteelDiagonalS
+  name: tiles-steel-floor-diagonal
+  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_diagonal.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteelDiagonalS
+  heatCapacity: 10000
+
+
+- type: tile
+  id: LPPFloorSteelHerringboneS
+  name: tiles-steel-floor-herringbone
+  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_herringbone.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteelHerringboneS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorSteelDiagonalMiniS
+  name: tiles-steel-floor-diagonal-mini
+  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_diagonal_mini.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteelDiagonalMiniS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorSteelMiniS
+  name: tiles-steel-floor-mini
+  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_mini.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteelMiniS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorSteelMonoS
+  name: tiles-steel-floor-mono
+  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_mono.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteelMonoS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorSteelOffsetS
+  name: tiles-steel-floor-offset
+  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_offset.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteelOffsetS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorSteelPavementS
+  name: tiles-steel-floor-pavement
+  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_pavement.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteelPavementS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorSteelPavementVerticalS
+  name: tiles-steel-floor-pavement-vertical
+  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_pavement_vertical.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteelPavementVerticalS
+  heatCapacity: 10000
+
+#-----------------------------------------------#
+#----------white-s---white-s---white-s----------#
+#-----------------------------------------------#
+- type: tile
+  id: LPPFloorWhiteS
+  name: tiles-white-floor
+  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemWhiteS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorWhiteDiagonalS
+  name: tiles-white-floor-diagonal
+  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_diagonal.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemWhiteDiagonalS
+  heatCapacity: 10000
+
+
+- type: tile
+  id: LPPFloorWhiteHerringboneS
+  name: tiles-white-floor-herringbone
+  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_herringbone.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemWhiteHerringboneS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorWhiteDiagonalMiniS
+  name: tiles-white-floor-diagonal-mini
+  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_diagonal_mini.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemWhiteDiagonalMiniS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorWhiteMiniS
+  name: tiles-white-floor-mini
+  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_mini.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemWhiteMiniS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorWhiteMonoS
+  name: tiles-white-floor-mono
+  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_mono.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemWhiteMonoS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorWhiteOffsetS
+  name: tiles-white-floor-offset
+  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_offset.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemWhiteOffsetS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorWhitePavementS
+  name: tiles-white-floor-pavement
+  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_pavement.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemWhitePavementS
+  heatCapacity: 10000
+
+- type: tile
+  id: LPPFloorWhitePavementVerticalS
+  name: tiles-white-floor-pavement-vertical
+  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_pavement_vertical.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemWhitePavementVerticalS
+  heatCapacity: 10000

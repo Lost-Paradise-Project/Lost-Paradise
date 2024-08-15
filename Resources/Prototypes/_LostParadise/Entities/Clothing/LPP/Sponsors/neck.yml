@@ -1,0 +1,9 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckCloakHosCAS
+  name: cas cloak
+  suffix: Sponsor
+  description: Black and white cloak
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Cloaks/hos_cas.rsi

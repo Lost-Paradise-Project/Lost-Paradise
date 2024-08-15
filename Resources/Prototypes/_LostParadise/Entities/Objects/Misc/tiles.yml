@@ -1,0 +1,970 @@
+- type: entity
+  parent: BaseItem
+  id: LPPFloorTileItemBase
+  description: These could work as a pretty decent throwing weapon.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Objects/Tiles/tile.rsi
+  - type: Item
+    sprite: Objects/Tiles/tile.rsi
+    size: Normal
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 5
+  - type: Stack
+    count: 1
+  - type: Tag
+    tags:
+      - DroneUsable
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 30
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 20
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/metalbreak.ogg
+          params:
+            volume: -8
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageOnLand
+    damage:
+      types:
+        Blunt: 5
+
+
+#---------Circuits плитки--------
+- type: entity
+  name: green circuit floor
+  parent: LPPFloorTileItemBase
+  id: LPPFloorGreenCircuitBase
+  components:
+  - type: Sprite
+    state: gcircuit
+  - type: Item
+    heldPrefix: gcircuit
+  - type: Tag
+    tags:
+      - FloorGreenCircuitBase
+      - FloorGreenCircuit
+  - type: Stack
+    stackType: LPPFloorGreenCircuitBase
+  - type: Construction #крафт
+    graph: LPPFloorGreenCircuitOjects
+    node: icon
+
+
+- type: entity
+  name: blue circuit floor
+  parent: LPPFloorTileItemBase
+  id: LPPFloorBlueCircuitBase
+  components:
+  - type: Sprite
+    state: bcircuit
+  - type: Item
+    heldPrefix: bcircuit
+  - type: Tag
+    tags:
+      - FloorGreenCircuitBase
+      - FloorBlueCircuit
+  - type: Stack
+    stackType: LPPFloorBlueCircuitBase
+  - type: Construction #крафт
+    graph: LPPFloorBlueCircuitOjects
+    node: icon
+
+
+#---------Диско-пол плитки--------
+
+- type: entity
+  parent: BaseItem
+  id: LPPLEDDiscoFloorBase
+  description: These could work as a pretty decent throwing weapon.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/tiles.rsi
+  - type: Item
+    sprite: _LostParadise/Objects/Tiles/tiles.rsi
+    size: Normal
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 5
+  - type: Stack
+    count: 1
+  - type: Tag
+    tags:
+      - DroneUsable
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 30
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 20
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/metalbreak.ogg
+          params:
+            volume: -8
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageOnLand
+    damage:
+      types:
+        Blunt: 5
+
+#----------------код
+
+- type: entity
+  name: green circuit floor
+  parent: LPPLEDDiscoFloorBase
+  id: LPPLEDDiscoFloorOjects
+  components:
+  - type: Sprite
+    state: LED-disco-floor-Item-1
+  - type: Item
+    heldPrefix: LED-disco-floor-Item-1
+  - type: Tag
+    tags:
+      - LPPLEDDiscoFloorOjects
+      - LPPLEDDiscoFloor
+  - type: Stack
+    stackType: LPPLEDDiscoFloorOjects
+  - type: Construction #крафт
+    graph: LPPLEDDiscoFloorOjects
+    node: icon
+
+- type: entity
+  name: blue circuit floor
+  parent: LPPLEDDiscoFloorBase
+  id: LPPLEDDiscoFloorRotatesOjects
+  components:
+  - type: Sprite
+    state: LED-disco-floor-Item-2
+  - type: Item
+    heldPrefix: LED-disco-floor-Item-2
+  - type: Tag
+    tags:
+      - LPPLEDDiscoFloorRotatesOjects
+      - LPPLEDDiscoFloorRotates
+  - type: Stack
+    stackType: LPPLEDDiscoFloorRotatesOjects
+  - type: Construction #крафт
+    graph: LPPLEDDiscoFloorRotatesOjects
+    node: icon
+
+- type: entity
+  name: LED disco floor rotates halfway
+  parent: LPPLEDDiscoFloorBase
+  id: LPPLEDDiscoFloorRotatesHalfwayOjects
+  components:
+  - type: Sprite
+    state: LED-disco-floor-Item-3
+  - type: Item
+    heldPrefix: LED-disco-floor-Item-3
+  - type: Tag
+    tags:
+      - LPPLEDDiscoFloorRotatesHalfwayOjects
+      - LLPPLEDDiscoFloorRotatesHalfway
+  - type: Stack
+    stackType: LPPLEDDiscoFloorRotatesHalfwayOjects
+  - type: Construction #крафт
+    graph: LPPLEDDiscoFloorRotatesHalfwayOjects
+    node: icon
+
+#----------------------------#
+#----------матрица-----------#
+#----------------------------#
+
+- type: entity
+  name: LED disco floor rotates halfway
+  parent: LPPLEDDiscoFloorBase
+  id: LPPLEDDiscoFloorMatrix4Ojects
+  components:
+  - type: Sprite
+    state: rgb_circuit-4-mix
+  - type: Item
+    heldPrefix: rgb_circuit-4-mix
+  - type: Tag
+    tags:
+      - LPPLEDDiscoFloorMatrix4Ojects
+      - LPPLEDDiscoFloorMatrix4
+  - type: Stack
+    stackType: LPPLEDDiscoFloorMatrix4Ojects
+  - type: Construction #крафт
+    graph: LPPLEDDiscoFloorMatrix4Ojects
+    node: icon
+
+
+- type: entity
+  name: LED disco floor matri
+  parent: LPPLEDDiscoFloorBase
+  id: LPPLEDDiscoFloorMatrix1Ojects
+  components:
+  - type: Sprite
+    state: rgb_circuit-5-mix
+  - type: Item
+    heldPrefix: rgb_circuit-5-mix
+  - type: Tag
+    tags:
+      - LPPLEDDiscoFloorMatrix1Ojects
+      - LPPLEDDiscoFloorMatrix1
+  - type: Stack
+    stackType: LPPLEDDiscoFloorMatrix1Ojects
+  - type: Construction #крафт
+    graph: LPPLEDDiscoFloorMatrix1Ojects
+    node: icon
+#-----------------------------------------------------#
+#---------остольное----остольное----остольное---------#
+#-----------------------------------------------------#
+
+#- type: entity
+#  id: LPPFloorTileItemWoodLarge
+#  parent: FloorTileItemSteel
+#  name: steel dark checker tile
+#  components:
+#  - type: Sprite
+#    sprite: _LostParadise/Objects/Tiles/tiles.rsi
+#    state: wood
+#  - type: FloorTile
+#    outputs:
+#      - Plating
+#      - LPPWoodLarge
+
+#- type: entity
+#  id: LPPFloorTileItemShuttleBlak
+#  parent: FloorTileItemSteel
+#  name: steel dark checker tile
+#  components:
+#  - type: Sprite
+#    sprite: _LostParadise/Objects/Tiles/tiles.rsi
+#    state: wood
+#  - type: FloorTile
+#    outputs:
+#      - Plating
+#      - LPPFloorShuttleBlak
+#
+#- type: entity
+#  id: FloorTileItemShuttleBlak
+#  parent: FloorTileItemSteel
+#  name: steel dark checker tile
+#  components:
+#  - type: Sprite
+#    sprite: _LostParadise/Objects/Tiles/tiles.rsi
+#    state: shuttlered
+#  - type: FloorTile
+#    outputs:
+#      - Plating
+#      - LPPFloorShuttleBlak
+
+
+
+
+#------------------------------------------------------#
+#---------dark----dark----dark----dark----dark---------#
+#------------------------------------------------------#
+
+- type: entity
+  id: FloorTileItemDarkDiagonal
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark.rsi
+    state: dark8
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkDiagonal
+
+- type: entity
+  id: FloorTileItemDarkDiagonalMini
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark.rsi
+    state: dark7
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkDiagonalMini
+
+- type: entity
+  id: FloorTileItemDarkHerringbone
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark.rsi
+    state: dark6
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkHerringbone
+
+- type: entity
+  id: FloorTileItemDarkMini
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark.rsi
+    state: dark5
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkMini
+
+- type: entity
+  id: FloorTileItemDarkMono
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark.rsi
+    state: dark4
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkMono
+
+- type: entity
+  id: FloorTileItemDarkOffset
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark.rsi
+    state: dark3
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkOffset
+
+- type: entity
+  id: FloorTileItemDarkPavement
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark.rsi
+    state: dark2
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkPavement
+
+- type: entity
+  id: FloorTileItemDarkPavementVertical
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark.rsi
+    state: dark1
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorDarkPavementVertical
+
+#-------------------#
+#---------S---------#
+#-------------------#
+- type: entity
+  id: FloorTileItemDarkS
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark-s.rsi
+    state: dark
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorDarkS
+
+- type: entity
+  id: FloorTileItemDarkDiagonalS
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark-s.rsi
+    state: dark8
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorDarkDiagonalS
+
+- type: entity
+  id: FloorTileItemDarkHerringboneS
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark-s.rsi
+    state: dark6
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorDarkHerringboneS
+
+- type: entity
+  id: FloorTileItemDarkDiagonalMiniS
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark-s.rsi
+    state: dark7
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorDarkDiagonalMiniS
+
+- type: entity
+  id: FloorTileItemDarkMiniS
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark-s.rsi
+    state: dark5
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorDarkMiniS
+
+- type: entity
+  id: FloorTileItemDarkMonoS
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark-s.rsi
+    state: dark4
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorDarkMonoS
+
+- type: entity
+  id: FloorTileItemDarkOffsetS
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark-s.rsi
+    state: dark3
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorDarkOffsetS
+
+- type: entity
+  id: FloorTileItemDarkPavementS
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark-s.rsi
+    state: dark2
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorDarkPavementS
+
+- type: entity
+  id: FloorTileItemDarkPavementVerticalS
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/dark-s.rsi
+    state: dark1
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorDarkPavementVerticalS
+
+
+
+#-------------------------------------------------------#
+#-------steel----steel----steel----steel----steel-------#
+#-------------------------------------------------------#
+
+- type: entity
+  id: FloorTileItemSteelDiagonal
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel.rsi
+    state: steel8
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelDiagonal
+
+- type: entity
+  id: FloorTileItemSteelDiagonalMini
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel.rsi
+    state: steel7
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelDiagonalMini
+
+- type: entity
+  id: FloorTileItemSteelHerringbone
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel.rsi
+    state: steel6
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelHerringbone
+
+- type: entity
+  id: FloorTileItemSteelMini
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel.rsi
+    state: steel5
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelMini
+
+- type: entity
+  id: FloorTileItemSteelMono
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel.rsi
+    state: steel4
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelMono
+
+- type: entity
+  id: FloorTileItemSteelOffset
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel.rsi
+    state: steel3
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelOffset
+
+- type: entity
+  id: FloorTileItemSteelPavement
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel.rsi
+    state: steel2
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelPavement
+
+- type: entity
+  id: FloorTileItemSteelPavementVertical
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel.rsi
+    state: steel1
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSteelPavementVertical
+
+#-------------------#
+#---------S---------#
+#-------------------#
+- type: entity
+  id: FloorTileItemSteelS
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel-s.rsi
+    state: steel
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorSteelS
+
+- type: entity
+  id: FloorTileItemSteelDiagonalS
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel-s.rsi
+    state: steel8
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorSteelDiagonalS
+
+- type: entity
+  id: FloorTileItemSteelDiagonalMiniS
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel-s.rsi
+    state: steel7
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorSteelDiagonalMiniS
+
+- type: entity
+  id: FloorTileItemSteelHerringboneS
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel-s.rsi
+    state: steel6
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorSteelHerringboneS
+
+- type: entity
+  id: FloorTileItemSteelMiniS
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel-s.rsi
+    state: steel5
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorSteelMiniS
+
+- type: entity
+  id: FloorTileItemSteelMonoS
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel-s.rsi
+    state: steel4
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorSteelMonoS
+
+- type: entity
+  id: FloorTileItemSteelOffsetS
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel-s.rsi
+    state: steel3
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorSteelOffsetS
+
+- type: entity
+  id: FloorTileItemSteelPavementS
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel-s.rsi
+    state: steel2
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorSteelPavementS
+
+- type: entity
+  id: FloorTileItemSteelPavementVerticalS
+  parent: FloorTileItemSteel
+  name: steel checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/steel-s.rsi
+    state: steel1
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorSteelPavementVerticalS
+
+
+
+#-------------------------------------------------------#
+#-------white----white----white----white----white-------#
+#-------------------------------------------------------#
+
+- type: entity
+  id: FloorTileItemWhiteDiagonal
+  parent: FloorTileItemWhite
+  name: white white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white.rsi
+    state: white8
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhiteDiagonal
+
+- type: entity
+  id: FloorTileItemWhiteDiagonalMini
+  parent: FloorTileItemWhite
+  name: white white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white.rsi
+    state: white7
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhiteDiagonalMini
+
+- type: entity
+  id: FloorTileItemWhiteHerringbone
+  parent: FloorTileItemWhite
+  name: white white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white.rsi
+    state: white6
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhiteHerringbone
+
+- type: entity
+  id: FloorTileItemWhiteMini
+  parent: FloorTileItemWhite
+  name: white white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white.rsi
+    state: white5
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhiteMini
+
+- type: entity
+  id: FloorTileItemWhiteMono
+  parent: FloorTileItemWhite
+  name: white white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white.rsi
+    state: white4
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhiteMono
+
+- type: entity
+  id: FloorTileItemWhiteOffset
+  parent: FloorTileItemWhite
+  name: white white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white.rsi
+    state: white3
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhiteOffset
+
+- type: entity
+  id: FloorTileItemWhitePavement
+  parent: FloorTileItemWhite
+  name: white white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white.rsi
+    state: white2
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhitePavement
+
+- type: entity
+  id: FloorTileItemPavementVertical
+  parent: FloorTileItemWhite
+  name: white white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white.rsi
+    state: white1
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorWhitePavementVertical
+
+#-------------------#
+#---------S---------#
+#-------------------#
+- type: entity
+  id: FloorTileItemWhiteS
+  parent: FloorTileItemSteel
+  name: steel white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white-s.rsi
+    state: white
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorWhiteS
+
+- type: entity
+  id: FloorTileItemWhiteDiagonalS
+  parent: FloorTileItemWhite
+  name: white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white-s.rsi
+    state: white8
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorWhiteDiagonalS
+
+- type: entity
+  id: FloorTileItemWhiteDiagonalMiniS
+  parent: FloorTileItemWhite
+  name: white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white-s.rsi
+    state: white7
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorWhiteDiagonalMiniS
+
+- type: entity
+  id: FloorTileItemWhiteHerringboneS
+  parent: FloorTileItemWhite
+  name: white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white-s.rsi
+    state: white6
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorWhiteHerringboneS
+
+- type: entity
+  id: FloorTileItemWhiteMiniS
+  parent: FloorTileItemWhite
+  name: white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white-s.rsi
+    state: white5
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorWhiteMiniS
+
+- type: entity
+  id: FloorTileItemWhiteMonoS
+  parent: FloorTileItemWhite
+  name: white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white-s.rsi
+    state: white4
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorWhiteMonoS
+
+- type: entity
+  id: FloorTileItemWhiteOffsetS
+  parent: FloorTileItemWhite
+  name: white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white-s.rsi
+    state: white3
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorWhiteOffsetS
+
+- type: entity
+  id: FloorTileItemWhitePavementS
+  parent: FloorTileItemWhite
+  name: white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white-s.rsi
+    state: white2
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorWhitePavementS
+
+- type: entity
+  id: FloorTileItemWhitePavementVerticalS
+  parent: FloorTileItemWhite
+  name: white checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/white-s.rsi
+    state: white1
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPFloorWhitePavementVerticalS

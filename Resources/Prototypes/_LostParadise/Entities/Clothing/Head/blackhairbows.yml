@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatBlackHairbows
+  name: black hairbows
+  suffix: Sponsor
+  description: A stylish black hairbows.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/HairBows/blackhairbows.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/HairBows/blackhairbows.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon

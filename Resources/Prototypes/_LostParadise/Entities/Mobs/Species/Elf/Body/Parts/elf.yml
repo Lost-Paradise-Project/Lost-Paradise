@@ -1,0 +1,38 @@
+- type: entity
+  id: PartElf
+  parent: BaseItem
+  name: PartElf
+  abstract: true
+  components:
+    - type: Damageable
+      damageContainer: Biological
+    - type: BodyPart
+    - type: ContainerContainer
+      containers:
+        bodypart: !type:Container
+          ents: []
+
+- type: entity
+  id: HeadElf
+  name: HeadElf
+  parent: PartElf
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Mobs/Species/Elf/parts.rsi
+      state: "head_m"
+    - type: Icon
+      sprite: _LostParadise/Mobs/Species/Elf/parts.rsi
+      state: "head_m"
+    - type: BodyPart
+      partType: Head
+      vital: true
+    - type: Extractable
+      juiceSolution:
+        reagents:
+        - ReagentId: Fat
+          Quantity: 5
+        - ReagentId: Blood
+          Quantity: 10
+    - type: Tag
+      tags:
+        - Head

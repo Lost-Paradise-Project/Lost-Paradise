@@ -1,0 +1,19 @@
+- type: entity
+  abstract: true
+  parent: ClothingOuterBase
+  id: LPPClothingOuterStorageBaseStealthSuit
+  components:
+  - type: Item
+    size: Huge
+  - type: Storage
+    capacity: 16
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: StaticPrice
+    price: 2500

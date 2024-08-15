@@ -1,0 +1,27 @@
+- type: startingGear
+  id: ChronoLegionnaire
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNanotrasen
+    back: LPPClothingBackpackHoldingChrono
+    shoes: ClothingShoesBootsMagAdv
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterHardsuitChrono
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetCentCom
+    pocket1: ChronoKnife
+    pocket2: BlinkBook
+  innerclothingskirt: ClothingUniformJumpsuitNanotrasen
+  satchel: LPPClothingBackpackHoldingChrono
+  duffelbag: LPPClothingBackpackHoldingChrono
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: ClothingBackpackHolding
+  id: LPPClothingBackpackHoldingChrono
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingMaskBreathMedical
+      - id: OxygenTankFilled
+      - id: WeaponLaserChrono

@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: LPPCASArmorsec
+  name: Бронежилет CAS
+  description: Чёрно-белый бронежилет практически ничем не отличается от бронежилета штатного офицера сб.
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Clothing/OuterClothing/Vests/_LostParadiseCASarmorsec.rsi
+    - type: Clothing
+      sprite: _LostParadise/Clothing/OuterClothing/Vests/_LostParadiseCASarmorsec.rsi

@@ -1,0 +1,300 @@
+- type: marking
+  id: LPPTajaranBelly1
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_chest.rsi
+      state: belly1
+
+- type: marking
+  id: LPPTajaranBelly2
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_chest.rsi
+      state: belly2
+
+- type: marking
+  id: LPPTajaranBelly3
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_chest.rsi
+      state: belly3
+
+- type: marking
+  id: LPPTajaranBelly4
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_chest.rsi
+      state: chest
+
+#- type: marking
+#  id: LPPTajaranpatch2
+#  bodyPart: Chest
+#  markingCategory: Chest
+#  speciesRestriction: [TajaranSpecies]
+#  sprites:
+#    - sprite: _LostParadise/Mobs/Customization/tajaran_chest.rsi
+#      state: patch
+
+#- type: marking
+#  id: LPPTajaranarm1
+#  bodyPart: RArm
+#  markingCategory: Arms
+#  speciesRestriction: [TajaranSpecies]
+#  sprites:
+#    - sprite: _LostParadise/Mobs/Customization/tajaran_chest.rsi
+#      state: points
+
+- type: marking
+  id: LPPTajaranTail1
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_tail.rsi
+      state: wingler
+
+- type: marking
+  id: LPPTajaranHead1
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_head.rsi
+      state: inears
+
+- type: marking
+  id: LPPTajaranHead2
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_head.rsi
+      state: muzzle
+
+#- type: marking
+#  id: LPPTajaranHead3
+#  bodyPart: Head
+#  markingCategory: Head
+#  speciesRestriction: [TajaranSpecies]
+#  sprites:
+#    - sprite: _LostParadise/Mobs/Customization/tajaran_head.rsi
+#      state: inears
+
+- type: marking
+  id: LPPTajaranHead4
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_head.rsi
+      state: muzzleinears
+
+- type: marking
+  id: LPPTajaranHead5
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_head.rsi
+      state: nose
+
+- type: marking
+  id: LPPTajaranHead6
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_head.rsi
+      state: outears
+
+- type: marking
+  id: LPPTajaranHead7
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [TajaranSpecies]
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_head.rsi
+      state: patch_SPONSOR_ONLY
+
+- type: marking
+  id: LPPTajaranHead8
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_head.rsi
+      state: tiger_face
+
+- type: marking
+  id: LPPTajaranHead9
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_head.rsi
+      state: tiger_head
+
+- type: marking
+  id: LPPTajaranHair1
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: bangs
+
+- type: marking
+  id: LPPTajaranHair2
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: bedhead
+
+- type: marking
+  id: LPPTajaranHair3
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: bob
+
+- type: marking
+  id: LPPTajaranHair4
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: braid
+
+- type: marking
+  id: LPPTajaranHair5
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: clean
+
+- type: marking
+  id: LPPTajaranHair6
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: curly
+
+- type: marking
+  id: LPPTajaranHair7
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: fingerwave
+
+- type: marking
+  id: LPPTajaranHair8
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: ladiesretro
+
+- type: marking
+  id: LPPTajaranHair9
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: long
+
+- type: marking
+  id: LPPTajaranHair10
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: messy
+
+- type: marking
+  id: LPPTajaranHair11
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: mohawk
+
+- type: marking
+  id: LPPTajaranHair12
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: plait
+
+- type: marking
+  id: LPPTajaranHair13
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: rattail
+
+- type: marking
+  id: LPPTajaranHair14
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: shaggy
+
+- type: marking
+  id: LPPTajaranHair15
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: spikey
+
+- type: marking
+  id: LPPTajaranHair16
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: straight
+
+- type: marking
+  id: LPPTajaranHair17
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [TajaranSpecies]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/tajaran_hairs.rsi
+      state: victory
+
+
+

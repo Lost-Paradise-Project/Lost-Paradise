@@ -1,0 +1,72 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Made by Skielts (Github) for SS14",
+    "size":
+    {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+    {
+        "name": "circuit-1"
+    },
+    {
+        "name": "circuit-4"
+    },
+    {
+        "name": "circuit-6"
+    },
+    {
+        "name": "circuit-2",
+        "delays":
+        [
+            [0.1, 0.1, 0.1, 0.1, 0.1,
+			 0.1, 0.1, 0.1]
+        ]
+    },
+    {
+        "name": "circuit-3",
+        "delays":
+        [
+            [0.1, 0.1, 0.1, 0.1, 0.1,
+			 0.1, 0.1, 0.1]
+        ]
+    },
+    {
+        "name": "circuit-5",
+        "delays":
+        [
+            [0.05, 0.05, 0.05, 0.05, 0.05,
+			 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]
+        ]
+    },
+    {
+        "name": "circuit-7",
+        "delays":
+        [
+            [0.05, 0.05, 0.05, 0.05, 0.05,
+			 0.05, 0.05, 0.05, 0.05, 0.05,
+			 0.05, 0.05, 0.05, 0.05, 0.05,
+			 0.05, 0.05, 0.05, 0.05, 0.05,
+			 0.05, 0.05, 0.05, 0.05, 0.05,
+			 0.05, 0.05]
+        ]
+    },
+    {
+        "name": "rgb_circuit-1"
+    },
+    {
+        "name": "rgb_circuit-2"
+    },
+    {
+        "name": "rgb_circuit-3"
+    },
+    {
+        "name": "rgb_circuit-6-mix"
+    },
+    {
+        "name": "rgb_circuit-4-mix"
+    }
+]
+}

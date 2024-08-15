@@ -1,0 +1,109 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpskirtPurpleSponsor
+  name: magenta jumpskirt
+  suffix: Sponsor
+  description: It's a purple jumpskirt with some gold markings denoting the rank.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-uniform.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-uniform.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: LPPClothingShoesBootsPurpleSponsor
+  name: magenta jackboots
+  suffix: Sponsor
+  description: Magenta boots, showing the rank.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-boots.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-boots.rsi
+  - type: FootstepModifier # Corvax-Sounds
+    footstepSoundCollection:
+      collection: FootstepBoots
+
+- type: entity
+  parent: ClothingHandsBase
+  id: LPPClothingHandsGlovesPurpleSponsor
+  name: magenta gloves
+  suffix: Sponsor
+  description: Regal magenta gloves, with a nice gold trim. Swanky.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-gloves.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-gloves.rsi
+  - type: GloveHeatResistance
+    heatResistance: 1400
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-durathread
+    fiberColor: fibers-regal-purple
+  - type: FingerprintMask
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatPurpleSponsor
+  name: magenta hardhat
+  suffix: Sponsor
+  description: It's good being the king.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-hat.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-hat.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPClothingEyesGlassesSunglassesPurpleSponsor
+  name: purple sun glasses
+  suffix: Sponsor
+  description: Nice magenta sunglasses. Premium class.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-sunglasses.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-sunglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+- type: entity
+  parent: ClothingOuterBase
+  id: LPPClothingOuterVestPurpleSponsor
+  name: magenta vest
+  suffix: Sponsor
+  description: A thick vest with a rubbery, water-resistant shell. Premium brand.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-vest.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-vest.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: LPPClothingBeltSheathPurpleSponsor
+  name: magenta sabre sheath
+  suffix: Sponsor
+  description: An ornate sheath designed to hold an officer's blade.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-sheath.rsi
+    state: sheath
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Sponosor-purple/purple-sheath.rsi
+  - type: Storage
+    capacity: 15
+    whitelist:
+      tags:
+        - CaptainSabre
+  - type: ItemMapper
+    mapLayers:
+      sheath-sabre:
+        whitelist:
+          tags:
+          - CaptainSabre
+  - type: Appearance

@@ -1,0 +1,307 @@
+- type: entity
+  parent: BasePDA
+  id: RoboticsPDA
+  name: robotics PDA
+  description: It's covered with scratches all over it.
+  components:
+  - type: Pda
+    id: RoboticsIDCard
+    state: pda-roboticist
+  - type: PdaBorderColor
+    borderColor: "#484848"
+    accentVColor: "#d33725"
+  - type: Icon
+    state: pda-roboticist
+
+- type: entity
+  parent: BasePDA
+  id: LPPVirologistPDA
+  name: virologist PDA
+  description: Shiny and sterile. Has a built-in rapid health analyzer.
+  components:
+  - type: Pda
+    id: LPPVirologistIDCard
+    state: pda-virology
+  - type: PdaBorderColor
+    borderColor: "#B1B5BF"
+    accentVColor: "#4E6B50"
+  - type: Icon
+    state: pda-virology
+  - type: HealthAnalyzer
+    scanDelay: 1
+    scanningEndSound:
+      path: "/Audio/Items/Medical/healthscanner.ogg"
+
+- type: entity
+  parent: BasePDA
+  id: LPPSecurityEnginerPDA
+  name: security PDA
+  description: Red to hide the stains of passenger blood.
+  components:
+  - type: Pda
+    id: LPPSecurityEnginerIDCard
+    state: pda-security-enginer
+  - type: PdaBorderColor
+    borderColor: "#9b2b2a"
+  - type: Icon
+    state: pda-security
+
+- type: entity
+  parent: BasePDA
+  id: LPPBlueShieldOfficerPDA
+  name: BlueShield PDA
+  description: Smells like protection.
+  components:
+    - type: Pda
+      id: LPPBlueShieldOfficerIDCard
+      state: pda-ert
+    - type: PdaBorderColor
+      borderColor: "#2b92ad"
+      accentVColor: "#447987"
+    - type: Icon
+      state: pda-ert
+    - type: HealthAnalyzer
+      scanDelay: 1.2
+
+- type: entity
+  parent: BasePDA
+  id: LPPAdjutantPDA
+  name: adjutant PDA
+  description: Adjutant PDA.
+  components:
+  - type: Pda
+    id: LPPAdjutantIDCard
+    state: pda-clear
+  - type: Icon
+    state: pda-clear
+
+- type: entity
+  parent: BasePDA
+  id: MagistratePDA
+  name: magistrate PDA
+  description: magistrate PDA
+  components:
+  - type: Pda
+    id: MagistrateIDCard
+    state: pda-lawyer
+  - type: Icon
+    state: pda-lawyer
+
+- type: entity
+  parent: BasePDA
+  id: LPPExpeditorPDA
+  name: expeditor PDA
+  description: lol
+  components:
+  - type: Pda
+    id: ExpeditorIDCard
+    state: pda-expeditor
+  - type: PdaBorderColor
+    borderColor: "#655f56"
+    accentVColor: "#8f559c"
+  - type: Icon
+    state: pda-expeditor
+
+
+#---------------------#
+#------Syndicate------#
+#---------------------#
+
+- type: entity
+  parent: BasePDA
+  id: SyndiPDACap
+  name: syndicate hop PDA
+  suffix: Leader
+  description: Red for firepower.
+  components:
+  - type: Pda
+    id: LPPCaptainIDCardSyn
+    state: pda-syndi-cap
+  - type: PdaBorderColor
+    borderColor: "#7d1316"
+    accentHColor: "#d98f39"
+  - type: Icon
+    state: pda-syndi-cap
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - NotekeeperCartridge
+
+- type: entity
+  parent: BasePDA
+  id: SyndiPDAHop
+  name: syndicate hop PDA
+  suffix: Leader
+  description: Red for firepower.
+  components:
+  - type: Pda
+    id: LPPHoPIDCardSyn
+    state: pda-syndi-hop
+  - type: PdaBorderColor
+    borderColor: "#7d1316"
+    accentHColor: "#d98f39"
+    accentVColor: "#3f6d39"
+  - type: Icon
+    state: pda-syndi-hop
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - NotekeeperCartridge
+
+- type: entity
+  parent: BasePDA
+  id: SyndiPDAHos
+  name: syndicate hos PDA
+  suffix: Leader
+  description: Red for firepower.
+  components:
+  - type: Pda
+    id: LPPHoSIDCardSyn
+    state: pda-syndi-hos
+  - type: PdaBorderColor
+    borderColor: "#7d1316"
+    accentHColor: "#d98f39"
+    accentVColor: "#a52f29"
+  - type: Icon
+    state: pda-syndi-hos
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - NotekeeperCartridge
+
+- type: entity
+  parent: BasePDA
+  id: SyndiPDAMed
+  name: syndicate med PDA
+  suffix: Leader
+  description: Red for firepower.
+  components:
+  - type: Pda
+    id: LPPMedicalIDCardSyn
+    state: pda-syndi-medical
+  - type: PdaBorderColor
+    borderColor: "#7d1316"
+    accentHColor: "#2f85b6"
+  - type: Icon
+    state: pda-syndi-medical
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - NotekeeperCartridge
+
+- type: entity
+  parent: BasePDA
+  id: SyndiPDAService
+  name: syndicate service PDA
+  suffix: Leader
+  description: Red for firepower.
+  components:
+  - type: Pda
+    id: LPPServiceWorkerIDCardSyn
+    state: pda-syndi-service
+  - type: PdaBorderColor
+    borderColor: "#7d1316"
+    accentHColor: "#3f6d39"
+  - type: Icon
+    state: pda-syndi-service
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - NotekeeperCartridge
+
+- type: entity
+  parent: BasePDA
+  id: SyndiPDASecurity
+  name: syndicate security PDA
+  suffix: Leader
+  description: Red for firepower.
+  components:
+  - type: Pda
+    id: LPPSecurityIDCardSyn
+    state: pda-syndi-security
+  - type: PdaBorderColor
+    borderColor: "#7d1316"
+    accentHColor: "#681d2b"
+  - type: Icon
+    state: pda-syndi-security
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - NotekeeperCartridge
+
+- type: entity
+  parent: BasePDA
+  id: SyndiPDAScience
+  name: syndicate science PDA
+  suffix: Leader
+  description: Red for firepower.
+  components:
+  - type: Pda
+    id: LPPResearchIDCardSyn
+    state: pda-syndi-science
+  - type: PdaBorderColor
+    borderColor: "#7d1316"
+    accentHColor: "#681d2b"
+  - type: Icon
+    state: pda-syndi-science
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - NotekeeperCartridge
+
+- type: entity
+  parent: BasePDA
+  id: SyndiPDASalvage
+  name: syndicate salvage PDA
+  suffix: Leader
+  description: Red for firepower.
+  components:
+  - type: Pda
+    id: LPPSalvageIDCardSyn
+    state: pda-syndi-miner
+  - type: PdaBorderColor
+    borderColor: "#7d1316"
+    accentHColor: "#3f6d39"
+    accentVColor: "#d98f39"
+  - type: Icon
+    state: pda-syndi-miner
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - NotekeeperCartridge
+
+- type: entity
+  parent: BasePDA
+  id: SyndiPDAEngineering
+  name: syndicate engineering PDA
+  suffix: Leader
+  description: Red for firepower.
+  components:
+  - type: Pda
+    id: LPPEngineeringIDCardSyn
+    state: pda-syndi-seniorengineer
+  - type: PdaBorderColor
+    borderColor: "#7d1316"
+    accentHColor: "#94911f"
+    accentVColor: "#ab5500"
+  - type: Icon
+    state: pda-syndi-seniorengineer
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - NotekeeperCartridge
+
+- type: entity
+  parent: BasePDA
+  id: SecPilotPDA
+  name: security pilot PDA
+  description: Beaten, battered and broken, but just barely useable.
+  components:
+  - type: Pda
+    id: SecPilotIDCard
+    state: pda-seniorofficer
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentVColor: "#DFDFDF"
+  - type: Icon
+    state: pda-seniorofficer

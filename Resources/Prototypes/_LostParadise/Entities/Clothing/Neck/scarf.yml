@@ -1,0 +1,27 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingWindyScarf
+  name: windy scarf
+  description: Cool scarf for cool people
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Scarfs/windy-scarf.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Scarfs/windy-scarf.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckScarfPG
+  name: pg scarf
+  description: pg scarf
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Scarfs/pg-scarf.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHatHoodPGShemag
+    requiredSlot:
+    - neck
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+

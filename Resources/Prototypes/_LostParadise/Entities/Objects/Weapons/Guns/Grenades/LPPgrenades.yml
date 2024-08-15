@@ -1,0 +1,36 @@
+- type: explosion
+  id: LPPSmoke
+  damagePerIntensity:
+    types:
+      Heat: 6
+      Blunt: 6
+      Piercing: 6
+  tileBreakChance: [0, 0.1, 100]
+  tileBreakIntensity: [0, 10, 100]
+  tileBreakRerollReduction: 100
+  fireColor: Black
+  texturePath: /Textures/Effects/fire_greyscale.rsi
+  fireStates: 3
+
+- type: entity
+  name: night guard smoke grenade
+  description: Grenade that creates a small but devastating explosion.
+  parent: GrenadeBase
+  id: LPPSmokeGrenade
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Grenades/night-guard-grenade.rsi
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: LPPSmoke
+    maxIntensity: 10
+    intensitySlope: 3
+    totalIntensity: 120 # about a ~4 tile radius
+    canCreateVacuum: false
+  - type: OnUseTimerTrigger
+    beepSound:
+      path: "/Audio/Effects/beep1.ogg"
+      params:
+        volume: 5
+    initialBeepDelay: 0
+    beepInterval: 2 # 2 beeps total (at 0 and 2)

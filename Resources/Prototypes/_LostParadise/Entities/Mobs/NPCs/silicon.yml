@@ -1,0 +1,102 @@
+- type: entity
+  parent: MobSiliconBase
+  id: MobMediKitibot
+  name: medikitibot
+  description: No substitute for a doctor, but better than nothing.
+  components:
+  - type: Medibot
+    treatments:
+      Alive:
+        reagent: Tricordrazine
+        quantity: 30
+        minDamage: 0
+        maxDamage: 50
+      Critical:
+        reagent: Inaprovaline
+        quantity: 15
+  - type: EmaggableMedibot
+    replacements:
+      # when you are fine, medibot will help you go sleep
+      Alive:
+        reagent: ChloralHydrate
+        quantity: 15
+      # when you are crit, medibot will help you have fun
+      Critical:
+        reagent: SpaceDrugs
+        quantity: 25
+  - type: Sprite
+    sprite: _LostParadise/Mobs/Silicon/medibot_syndicat.rsi
+    state: medibot1
+  - type: HTN
+    rootTask:
+      task: MedibotCompound
+#  - type: Construction //пока без крафта
+#    graph: MediBot
+#    node: bot
+  - type: NoSlip
+  - type: Anchorable
+  - type: InteractionPopup
+    interactSuccessString: petting-success-medibot
+    interactFailureString: petting-failure-medibot
+    interactSuccessSound:
+      path: /Audio/Ambience/Objects/periodic_beep.ogg
+  - type: TTS # Corvax-TTS
+    voice: Baya
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+  - type: ShowHealthIcons
+    damageContainers:
+    - Biological
+
+
+- type: entity
+  parent: MobSiliconBase
+  id: MobMediKitibotSyn
+  name: medikitibot
+  description: No substitute for a doctor, but better than nothing.
+  components:
+  - type: Medibot
+    treatments:
+      Alive:
+        reagent: Tricordrazine
+        quantity: 30
+        minDamage: 0
+        maxDamage: 50
+      Critical:
+        reagent: Inaprovaline
+        quantity: 15
+  - type: EmaggableMedibot
+    replacements:
+      # when you are fine, medibot will help you go sleep
+      Alive:
+        reagent: ChloralHydrate
+        quantity: 15
+      # when you are crit, medibot will help you have fun
+      Critical:
+        reagent: SpaceDrugs
+        quantity: 25
+  - type: Sprite
+    sprite: _LostParadise/Mobs/Silicon/medibot_syndicat.rsi
+    state: medibot2
+  - type: HTN
+    rootTask:
+      task: MedibotCompound
+#  - type: Construction //пока без крафта
+#    graph: MediBot
+#    node: bot
+  - type: NoSlip
+  - type: Anchorable
+  - type: InteractionPopup
+    interactSuccessString: petting-success-medibot
+    interactFailureString: petting-failure-medibot
+    interactSuccessSound:
+      path: /Audio/Ambience/Objects/periodic_beep.ogg
+  - type: TTS # Corvax-TTS
+    voice: Baya
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+  - type: ShowHealthIcons
+    damageContainers:
+    - Biological

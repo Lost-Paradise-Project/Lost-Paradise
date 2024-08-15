@@ -1,0 +1,5 @@
+- type: damageContainer
+  id: ADTSilicon
+  supportedGroups:
+    - Brute
+    - Burn

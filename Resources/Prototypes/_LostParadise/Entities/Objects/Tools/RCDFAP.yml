@@ -1,0 +1,144 @@
+- type: entity
+  id: LPPRCDFAPDevice
+  parent: BaseItem
+  name: РСУАП
+  description: Ручное Строительное Устройство Атмосферного Предназначения которое используется для создания газовых труб, утилизационных труб и прочих атмосферных девайсов. Новейшая технология BL CORP.
+  components:
+  - type: RCDFAP
+    availablePrototypes:
+    - LPPFireAlarm
+    - LPPGasPipeBend
+    - LPPGasPipeStraight
+    - LPPGasPipeHalf
+    - LPPGasPipeFourway
+    - LPPGasPipeTJunction
+    - LPPGasPressurePump
+    - LPPGasMixer
+    - LPPGasMixerFlipped
+    - LPPGasFilter
+    - LPPGasFilterFlipped
+    - LPPGasVolumePump
+    - LPPGasPassiveVent
+    - LPPGasOutletInjector
+    - LPPGasVentPump
+    - LPPGasValve
+    - LPPGasVentScrubber
+    - LPPAtmosDeviceFanTiny
+    - LPPGasPassiveGate
+    - LPPGasDualPortVentPump
+    - LPPSignalControlledValve
+    - LPPPressureControlledValve
+    - LPPDisposalUnit
+    - LPPMailingUnit
+    - LPPGasPort
+    - LPPDisposalJunctionFlipped
+    - LPPDisposalJunction
+    - LPPDisposalRouterFlipped
+    - LPPDisposalRouter
+    - LPPDisposalTagger
+    - LPPDisposalBend
+    - LPPDisposalYJunction
+    - LPPDisposalSignalRouter
+    - LPPDisposalSignalRouterFlipped
+    - LPPDisposalTrunk
+    - LPPDisposalPipe
+    - LPPAirSensor
+    - LPPFloorDrain
+    - LPPAirAlarm
+    - LPPDeconstruct
+  - type: LimitedCharges
+    maxCharges: 130
+    charges: 130
+  - type: UseDelay
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tools/rcdfap.rsi
+    state: icon
+  - type: Item
+    size: Normal
+  - type: Clothing
+    sprite: _LostParadise/Objects/Tools/rcdfap.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 600
+      Plastic: 100
+  - type: StaticPrice
+    price: 100
+  - type: UserInterface
+    interfaces:
+      enum.RcdfapUiKey.Key:
+        type: RCDFAPMenuBoundUserInterface
+  - type: ActivatableUI
+    key: enum.RcdfapUiKey.Key
+
+- type: entity
+  id: LPPRCDFAPAmmo
+  parent: BaseItem
+  name: спрессованная материя
+  description: Спресованная материя используемая РСУАП для возведения конструкций атмосферного назначения, предоставлено BL CORP.
+  components:
+  - type: RCDFAPAmmo
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tools/rcdfap.rsi
+    state: ammo
+  - type: Item
+    sprite: _LostParadise/Objects/Tools/rcdfap.rsi
+    heldPrefix: ammo
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 100
+      Plastic: 100
+  - type: StaticPrice
+    price: 60
+
+- type: entity
+  id: LPPRCDFAPDeviceEmpty
+  parent: LPPRCDFAPDevice
+  suffix: Empty
+  components:
+  - type: LimitedCharges
+    charges: 0
+  - type: RCDFAP
+    availablePrototypes:
+    - LPPFireAlarm
+    - LPPGasPipeBend
+    - LPPGasPipeStraight
+    - LPPGasPipeHalf
+    - LPPGasPipeFourway
+    - LPPGasPipeTJunction
+    - LPPGasPressurePump
+    - LPPGasMixer
+    - LPPGasMixerFlipped
+    - LPPGasFilter
+    - LPPGasFilterFlipped
+    - LPPGasVolumePump
+    - LPPGasPassiveVent
+    - LPPGasOutletInjector
+    - LPPGasVentPump
+    - LPPGasValve
+    - LPPGasVentScrubber
+    - LPPAtmosDeviceFanTiny
+    - LPPGasPassiveGate
+    - LPPGasDualPortVentPump
+    - LPPSignalControlledValve
+    - LPPPressureControlledValve
+    - LPPDisposalUnit
+    - LPPMailingUnit
+    - LPPGasPort
+    - LPPDisposalJunctionFlipped
+    - LPPDisposalJunction
+    - LPPDisposalRouterFlipped
+    - LPPDisposalRouter
+    - LPPDisposalTagger
+    - LPPDisposalBend
+    - LPPDisposalYJunction
+    - LPPDisposalSignalRouter
+    - LPPDisposalSignalRouterFlipped
+    - LPPDisposalTrunk
+    - LPPDisposalPipe
+    - LPPAirSensor
+    - LPPFloorDrain
+    - LPPAirAlarm
+    - LPPDeconstruct

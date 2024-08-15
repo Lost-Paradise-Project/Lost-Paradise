@@ -1,0 +1,35 @@
+#______________________________________|
+#              кровать
+- type: construction
+  name: верхнаяя сторона кровати
+  id: LPPBedDoubleUp
+  graph: LPPBedDouble
+  startNode: start
+  targetNode: LPPBedDoubleUp
+  category: construction-category-structures
+  description: Что бы было удобно!
+  conditions:
+    - !type:TileNotBlocked
+  icon:
+    sprite: _LostParadise/Structures/Furniture/furniture.rsi
+    state: bed_double_up
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+
+- type: construction
+  name: нижняя сторона кровати
+  id: LPPBedDoubleDown
+  graph: LPPBedDouble
+  startNode: start
+  targetNode: LPPBedDoubleDown
+  category: construction-category-structures
+  description: Что бы было удобно!
+  conditions:
+    - !type:TileNotBlocked
+  icon:
+    sprite: _LostParadise/Structures/Furniture/furniture.rsi
+    state: bed_double_down
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false

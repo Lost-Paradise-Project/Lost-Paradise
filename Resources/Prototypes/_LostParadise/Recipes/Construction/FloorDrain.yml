@@ -1,0 +1,17 @@
+- type: construction
+  name: дренаж
+  id: FloorDrain
+  graph: FloorDrain
+  startNode: start
+  targetNode: FloorDrain
+  category: construction-category-structures
+  description: Сливает лужи вокруг в себя. Пригодится для опорожнения ведер или поддержания чистоты в определенных помещениях
+  icon:
+    sprite: /Textures/Objects/Specific/Janitorial/drain.rsi
+    state: icon
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

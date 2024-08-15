@@ -1,0 +1,101 @@
+{
+    "version": 2,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Draw by Skilets: https://github.com/Skilets",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "dark_corner_ne_s"
+        },
+        {
+            "name": "dark_corner_nw_s"
+        },
+        {
+            "name": "dark_corner_se_s"
+        },
+        {
+            "name": "dark_corner_sw_s"
+        },
+        {
+            "name": "dark_line_e_s"
+        },
+        {
+            "name": "dark_line_w_s"
+        },
+        {
+            "name": "dark_line_we_s"
+        },
+        {
+            "name": "dark_line_n_s"
+        },
+        {
+            "name": "dark_line_s_s"
+        },
+        {
+            "name": "dark_line_sn_s"
+        },
+        {
+            "name": "steel_corner_ne_s"
+        },
+        {
+            "name": "steel_corner_nw_s"
+        },
+        {
+            "name": "steel_corner_se_s"
+        },
+        {
+            "name": "steel_corner_sw_s"
+        },
+        {
+            "name": "steel_line_e_s"
+        },
+        {
+            "name": "steel_line_w_s"
+        },
+        {
+            "name": "steel_line_we_s"
+        },
+        {
+            "name": "steel_line_n_s"
+        },
+        {
+            "name": "steel_line_s_s"
+        },
+        {
+            "name": "steel_line_sn_s"
+        },
+        {
+            "name": "white_corner_ne_s"
+        },
+        {
+            "name": "white_corner_nw_s"
+        },
+        {
+            "name": "white_corner_se_s"
+        },
+        {
+            "name": "white_corner_sw_s"
+        },
+        {
+            "name": "white_line_e_s"
+        },
+        {
+            "name": "white_line_w_s"
+        },
+        {
+            "name": "white_line_we_s"
+        },
+        {
+            "name": "white_line_n_s"
+        },
+        {
+            "name": "white_line_s_s"
+        },
+        {
+            "name": "white_line_sn_s"
+        }
+    ]
+}

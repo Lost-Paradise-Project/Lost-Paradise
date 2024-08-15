@@ -1,0 +1,23 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatHoSTrenchCAS
+  name: cas trenchcoat
+  suffix: Sponsor
+  description: Black and white trench.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/hos_trenchcoat_cas.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/hos_trenchcoat_cas.rsi
+
+- type: entity
+  parent: ClothingOuterCoatWarden
+  id: LPPClothingOuterRealixPERSONAL
+  name: Чёрная бронированная куртка смотрителя
+  description: Лучшая куртка Службы Безопасности
+  suffix: Личные вещи, Realix
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/WTF/Realix_suit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/WTF/Realix_suit.rsi

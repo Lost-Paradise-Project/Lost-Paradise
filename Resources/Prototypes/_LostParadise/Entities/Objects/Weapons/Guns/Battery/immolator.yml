@@ -1,0 +1,28 @@
+- type: entity
+  parent: BaseWeaponBatterySmall
+  id: LPPWeaponImmolator
+  name: immolator
+  description: A modified laser cannon that fires highly concentrated, higher intensity beams that ignite the target at the cost of losing most of the power per shot.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/immolator.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/immolator.rsi
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: Pulse
+    fireCost: 200
+  - type: Battery
+    maxCharge: 20000
+    startingCharge: 20000

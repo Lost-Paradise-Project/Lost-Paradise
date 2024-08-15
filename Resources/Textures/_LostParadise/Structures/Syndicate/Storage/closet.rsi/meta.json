@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "copyright": "Taken from tgstation, brigmedic locker is a resprited CMO locker by PuroSlavKing (Github), n2_door state modified by Flareguy from fire_door, using sprites from /vg/station at https://github.com/vgstation-coders/vgstation13/commit/02b9f6894af4419c9f7e699a22c402b086d8067e",
+  "license": "CC-BY-SA-3.0",
+  "states": [
+    {
+      "name": "atmos"
+    },
+    {
+      "name": "atmos_door"
+    },
+    {
+      "name": "atmos_open"
+    },
+    {
+      "name": "cap"
+    },
+    {
+      "name": "cap_door"
+    },
+    {
+      "name": "cap_open"
+    },
+    {
+      "name": "eng_secure"
+    },
+    {
+      "name": "eng_secure_door"
+    },
+    {
+      "name": "eng_secure_open"
+    },
+    {
+      "name": "hop"
+    },
+    {
+      "name": "hop_door"
+    },
+    {
+      "name": "hop_open"
+    },
+    {
+      "name": "hos"
+    },
+    {
+      "name": "hos_door"
+    },
+    {
+      "name": "hos_open"
+    },
+    {
+      "name": "med_secure"
+    },
+    {
+      "name": "med_secure_door"
+    },
+    {
+      "name": "med_secure_open"
+    },
+    {
+      "name": "mining"
+    },
+    {
+      "name": "mining_door"
+    },
+    {
+      "name": "mining_open"
+    },
+    {
+      "name": "science"
+    },
+    {
+      "name": "science_door"
+    },
+    {
+      "name": "science_open"
+    },
+    {
+      "name": "security"
+    },
+    {
+      "name": "security_door"
+    },
+    {
+      "name": "security_open"
+    },
+    {
+      "name": "locked"
+    },
+    {
+      "name": "unlocked"
+    },
+    {
+      "name": "welded"
+    },
+    {
+      "name": "sparking",
+      "delays": [
+                [0.1, 0.1, 0.1, 0.1]     
+				]
+    },
+    {
+      "name": "generic"
+    },
+    {
+      "name": "generic_door"
+    },
+    {
+      "name": "generic_icon"
+    },
+    {
+      "name": "generic_open"
+    }
+  ]
+}

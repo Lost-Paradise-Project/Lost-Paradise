@@ -1,0 +1,14 @@
+- type: entity
+  id: LPPLockerBlueShieldFilled
+  suffix: Filled
+  parent: LPPLockerBlueShield
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitBlueshield
+      - id: ClothingHandsGlovesCombat
+      - id: LPPBlueshieldlaser
+      - id: MedkitCombatFilled
+      - id: MedkitAdvancedFilled
+      - id: PinpointerUniversal
+      - id: LPPBlueShieldClothingMaskGas

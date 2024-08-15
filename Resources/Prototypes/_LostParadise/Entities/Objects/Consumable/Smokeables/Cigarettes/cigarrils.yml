@@ -1,0 +1,35 @@
+- type: entity
+  id: LPPCigarill
+  parent: Cigarette
+  name: cigarill
+  description: A roll of tobacco and nicotine.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Smokeables/Cigarettes/cigarills.rsi
+    state: unlit-icon
+  - type: Tag
+    tags:
+      - Cigarette
+      - Trash
+  - type: SpaceGarbage
+  - type: Clothing
+    sprite:  _LostParadise/Objects/Consumable/Smokeables/Cigarettes/cigarills.rsi
+    slots: [ mask ]
+    equippedPrefix: unlit
+  - type: Construction
+    graph: smokeableCigarette
+    node: cigarette
+
+- type: entity
+  id: LPPCigarillSpent
+  parent: LPPCigarill
+  suffix: spent
+  components:
+  - type: Sprite
+    state: burnt-icon
+  - type: Smokable
+    state: Burnt
+  - type: SolutionContainerManager
+    solutions:
+      smokable:
+        maxVol: 20

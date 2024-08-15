@@ -1,0 +1,11 @@
+- type: entity
+  parent: GunSafe
+  id: LPPGunSafeRifleM4A1
+  name: Сейф М4А1
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPM4A1
+      amount: 2
+    - id: LPPMagazineRifleM4A1Lethal
+      amount: 4

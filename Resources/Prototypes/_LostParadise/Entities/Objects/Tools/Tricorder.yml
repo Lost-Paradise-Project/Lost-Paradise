@@ -1,0 +1,44 @@
+# - type: entity
+#   parent: BaseItem
+#   id: LPPTricorder
+#   name: Трикодер
+#   description: Многофункциональное устройство, которое может выполнять огромный спектр задач. Новейшая технология технологической корпорации "BL CORP".
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/Objects/Tools/tricorder.rsi
+#     layers:
+#     - state: icon
+#     - state: on
+#       map: [ "tricorder_power" ]
+#   - type: Tricorder
+#   - type: TrayScanner
+#   - type: StaticPrice
+#     price: 300
+#   - type: Tool
+#     qualities:
+#     - Pulsing
+#   - type: ActivatableUI
+#     key: enum.NetworkConfiguratorUiKey.List
+#     inHandsOnly: true
+#   - type: UserInterface
+#     interfaces:
+#       enum.NetworkConfiguratorUiKey.List:
+#         type: NetworkConfiguratorBoundUserInterface
+#       enum.NetworkConfiguratorUiKey.Configure:
+#         type: NetworkConfiguratorBoundUserInterface
+#       enum.NetworkConfiguratorUiKey.Link:
+#         type: NetworkConfiguratorBoundUserInterface
+#       enum.GasAnalyzerUiKey.Key:
+#         type: GasAnalyzerBoundUserInterface
+#       enum.HealthAnalyzerUiKey.Key:
+#         type: HealthAnalyzerBoundUserInterface
+#   - type: NetworkConfigurator
+#   - type: Tag
+#     tags:
+#     - Multitool
+#     - DiscreteHealthAnalyzer
+#   - type: Clothing
+#     sprite: Objects/Tools/multitool.rsi
+#     quickEquip: false
+#     slots:
+#     - Belt

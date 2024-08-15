@@ -1,0 +1,9 @@
+- type: entity
+  id: LPPCASbanner
+  parent: BannerBase
+  name: баннер C.A.S
+  description: Баннер веющий какой-то безопасность, и... инженерией?.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Decoration/_LostParadise/CASbanner.rsi
+    state: banner-red

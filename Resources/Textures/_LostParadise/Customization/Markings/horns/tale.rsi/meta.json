@@ -1,0 +1,34 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Draw by Tongandroch#1735, update for Pe4henika",
+    "states": [
+        {
+            "name": "succubus",
+            "directions": 4
+        },
+        {   "name": "vulptail_s2_lisichka_bolsh",
+            "directions": 4
+        },
+        {   "name": "vulptail_s2_lisichka",
+            "directions": 4
+        },
+        {   "name": "vulptail_s2_pushok",
+            "directions": 4
+        },
+        {   "name": "vulptail_s2_pyatna",
+            "directions": 4
+        },
+        {   "name": "vulptail_s2",
+            "directions": 4
+        },
+        {   "name": "seventail",
+            "directions": 4
+        }
+
+    ]
+}

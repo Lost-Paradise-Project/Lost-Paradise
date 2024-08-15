@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Content created by LostFor for Frontier Server #skilets",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "shelf"
+    },
+    {
+      "name": "loot-0"
+    },
+    {
+      "name": "loot-1"
+    },
+    {
+      "name": "loot-2"
+    },
+    {
+      "name": "loot-3"
+    },
+    {
+      "name": "loot-4"
+    },
+    {
+      "name": "loot-5"
+    },
+    {
+      "name": "loot-6"
+    },
+    {
+      "name": "loot-7"
+    },
+    {
+      "name": "loot-8"
+    },
+    {
+      "name": "loot-9"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+- type: entity
+  name: ARG rifle
+  parent: BaseWeaponRifle
+  id: LPPWeaponRifleARG
+  description: Cheap rifle, went through many coflicts. Uses .30 caliber rifle cartridges.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/arg-rifle.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/arg-rifle.rsi
+  - type: Gun
+    fireRate: 3
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+
+- type: entity
+  name: braton rifle
+  parent: BaseWeaponRifle
+  id: LPPWeaponRifleBraton
+  description: An automaton created using forgotten technologies from alternate realities. Uses .30 caliber rifle cartridges.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/braton-rifle.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/braton-rifle.rsi
+  - type: Gun
+    fireRate: 10
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+
+- type: entity
+  name: HM-10
+  parent: BaseWeaponRifle
+  id: LPPWeaponRifleHM10
+  description: The old-style special forces assault rifle is not so relevant now, but it is still better than standard modern analogues. Uses .30 caliber rifle cartridges.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/old-rifle.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    fireRate: 6
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+  - type: ChamberMagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineLightRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  name: STG-144
+  parent: BaseWeaponRifle
+  id: LPPWeaponRifleSTG144
+  description: The most common modification of the assault rifle for the troops of Elysium. Uses .30 caliber
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/stg.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    fireRate: 6
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+  - type: ChamberMagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineLightRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance

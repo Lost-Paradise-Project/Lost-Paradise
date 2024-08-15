@@ -1,0 +1,10 @@
+- type: entity
+  id: LPPNTBriefcaseBrownFilled
+  name: NT brown briefcase
+  parent: LPPNTBriefcaseBrown
+  suffix: Filled, Paper
+  components:
+  - type: StorageFill
+    contents:
+      - id: Paper
+        amount: 3

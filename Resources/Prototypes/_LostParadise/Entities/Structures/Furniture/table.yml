@@ -1,0 +1,26 @@
+
+- type: entity
+  id: LPPFancyTableBlackred
+  parent: TableFancyBase
+  name: fancy table blackred
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Furniture/Tables/Fancy/fancy_table_blackred.rsi
+  - type: Icon
+    sprite: _LostParadise/Structures/Furniture/Tables/Fancy/fancy_table_blackred.rsi
+  - type: Construction
+    graph: Table
+    node: TableCarpet
+
+- type: entity
+  id: LPPFancyTableMnochrome
+  parent: TableFancyBase
+  name: fancy table monochrome
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Furniture/Tables/Fancy/fancy_table_monochrome.rsi
+  - type: Icon
+    sprite: _LostParadise/Structures/Furniture/Tables/Fancy/fancy_table_monochrome.rsi
+  - type: Construction
+    graph: Table
+    node: TableCarpet

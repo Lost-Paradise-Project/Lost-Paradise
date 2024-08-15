@@ -1,0 +1,342 @@
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: LPParbitermask
+  name: A trophy mask of Black Silence.
+  description: The trophy mask of the famous hunter. Radiates despair.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/WTF/Arbiterhel.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/WTF/Arbiterhel.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
+  - type: BreathMask
+
+- type: entity
+  parent: ClothingMaskGas
+  id: LPPclownPomni
+  name: Clown Pomni
+  description: It's a Pomni?
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/clownPomni.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/clownPomni.rsi
+
+- type: entity
+  parent: ClothingMaskGas
+  id: LPPClothingMaskGasIIC
+  name: Delta gasmask
+  description: Tactical gas mask for attack aircraft IICs, fireproof.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/iic-gasmask.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/iic-gasmask.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.80
+
+- type: entity
+  parent: ClothingMaskGas
+  id: LPPMaskCyan
+  name: Mask cyan
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/mask_cyan.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/mask_cyan.rsi
+
+- type: entity
+  parent: ClothingMaskGas
+  id: LPPMaskPink
+  name: Mask pink
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/mask_pink.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/mask_pink.rsi
+
+- type: entity
+  parent: ClothingMaskGas
+  id: LPPClothingMaskGasOfficerIIC
+  name: Officer gas mask "Delta"
+  description: Tactical gas mask for officers of the IIC, fireproof.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/iic-gasmask-officer.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/iic-gasmask-officer.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.80
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingBugMaskMime
+  name: bug mime mask
+  description: The traditional bug mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-bug.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-bug.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingBullseyeMaskMime
+  name: bullseye mime mask
+  description: The traditional bullseye mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-bullseye.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-bullseye.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingCoreMaskMime
+  name: core mime mask
+  description: The traditional core mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-core.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-core.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingDoubleMaskMime
+  name: double mime mask
+  description: The traditional double mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-double.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-double.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingEyeMaskMime
+  name: eye mime mask
+  description: The traditional eye mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-eye.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-eye.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingHeartMaskMime
+  name: heart mime mask
+  description: The traditional heart mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-heart.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-heart.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingHorizontalMaskMime
+  name: horizontal mime mask
+  description: The traditional horizontal mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-horizontal.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-horizontal.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMarkMaskMime
+  name: mark mime mask
+  description: The traditional mark mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-mark.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-mark.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingNeutralMaskMime
+  name: neutral mime mask
+  description: The traditional neutral mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-neutral.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-neutral.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingPlusMaskMime
+  name: plus mime mask
+  description: The traditional plus mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-plus.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-plus.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingSleepMaskMime
+  name: sleep mime mask
+  description: The traditional sleep mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-sleep.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-sleep.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingSquareMaskMime
+  name: square mime mask
+  description: The traditional square mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-square.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-square.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingVerticalMaskMime
+  name: vertical mime mask
+  description: The traditional vertical mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-vertical.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-vertical.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingXMaskMime
+  name: x mime mask
+  description: The traditional x mime's mask. It has an eerie facial posture.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-x.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Mimemask/mask-x.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskGas
+  id: LPPClothingMaskPG
+  name: PG balaclava
+  description: Balaclava utilized by PG Soldiers. It's flameproof!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/pg-balaclava.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/pg-balaclava.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.80
+
+- type: entity
+  parent: ClothingMaskGas
+  id: LPPClothingBlackMaskPG
+  name: black PG balaclava
+  description: Black Balaclava utilized by elite PG Soldiers. It's flameproof!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/black-pg-balaclava.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/black-pg-balaclava.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.80
+
+- type: entity
+  parent: ClothingMaskGas
+  id: LPPClothingMaskSkiletsScientist
+  name: scientist gasmask
+  description: Tactical gas mask for attack aircraft IICs, fireproof.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Skilets/skilets_mask.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Skilets/skilets_mask.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.80
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskBlindSpot
+  name: The blind spot
+  description: Keep the silverware away from your eyes. Especially forks.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/blindspot.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/blindspot.rsi
+  - type: BreathMask
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - HidesNose
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskKinkyMuzzle
+  name: БДСМ маска
+  description: Мпфх!
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/kinkymuzzle.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/kinkymuzzle.rsi
+  - type: IngestionBlocker
+  - type: AddAccentClothing
+    accent: ReplacementAccent
+    replacement: mumble
+  - type: Construction
+    graph: Muzzle
+    node: muzzle

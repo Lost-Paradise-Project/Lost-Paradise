@@ -1,0 +1,34 @@
+- type: reaction
+  id: Rubrine
+  reactants:
+    Aluminium:
+      amount: 1
+    Sodium:
+      amount: 1
+    Ethanol:
+      amount: 1
+  products:
+    Rubrine: 3
+
+- type: reaction
+  id: Neclanox
+  reactants:
+    Rubrine:
+      amount: 1
+    Heamotoxic:
+      amount: 1
+    Plasma:
+      amount: 1
+      catalyst: true
+  products:
+    Neclanox: 3
+
+- type: reaction
+  id: Spaceacillin
+  reactants:
+    Cryptobiolin:
+      amount: 1
+    Inaprovaline:
+      amount: 1
+  products:
+    Spaceacillin: 2

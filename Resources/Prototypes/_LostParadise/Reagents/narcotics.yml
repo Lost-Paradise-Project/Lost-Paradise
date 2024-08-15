@@ -1,0 +1,119 @@
+- type: reagent
+  id: Lucipherium
+  name: Люцифериум
+  desc: Зловещий препарат, наполненный частичкой Ада.
+  physicalDesc: концентрированное зло
+  group: Narcotics
+  color: "#000000"
+  hideFromGuide: true
+  metabolisms:
+    Narcotic:
+      effects:
+      - !type:MovespeedModifier
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          min: 30
+          max: 60
+        walkSpeedModifier: 1.08
+        sprintSpeedModifier: 1.08
+      - !type:MovespeedModifier
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          min: 60
+        walkSpeedModifier: 1.2
+        sprintSpeedModifier: 1.2
+      - !type:GenericStatusEffect
+        key: Stutter
+        component: StutteringAccent
+      - !type:Jitter
+      - !type:GenericStatusEffect
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          min: 60
+        key: Stun
+        time: 4
+        type: Remove
+      - !type:GenericStatusEffect
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          min: 60
+        key: KnockedDown
+        time: 3
+        type: Remove
+    Poison:
+      effects:
+      - !type:AdjustReagent
+        reagent: Lucipherium
+        amount: 0.45
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          max: 0.5
+        reagent: Lucipherium
+        amount: -1
+      - !type:PopupMessage
+        type: Local
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          max: 30
+        visualType: Medium
+        messages: ["Вы почти не чувствуете боли...", "Ваши руки не дрогнут...", "Ваш страх приглушен", "Вы стали безразличны к страданию других..."]
+        probability: 0.25
+      - !type:PopupMessage
+        type: Local
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          min: 30
+          max: 60
+        visualType: Medium
+        messages: ["Вы не чувствуете страха", "Ваши руки чешутся от недомогания", "Вы не чувствуете страха", "Вы хотите что бы другие страдали..."]
+        probability: 0.25
+      - !type:PopupMessage
+        type: Local
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          min: 60
+          max: 80
+        visualType: Large
+        messages: ["Вы хотите слышать крики страдания!", "Ваши руки желают насилия!", "Вы хотите что бы вас боялись!", "Вы очень хотите сделать кому-нибудь больно!"]
+        probability: 0.25
+      - !type:PopupMessage
+        type: Local
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          min: 80
+        visualType: Large
+        messages: ["Вы не можете себя контролировать", "Вы жаждите крови!", "Вы хотите убивать!"]
+        probability: 0.25
+      - !type:PopupMessage
+        type: Pvs
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          min: 80
+        visualType: Medium
+        messages: ["Его(Её) вены вздуты", "Трясётся от ненависти", "идёт пена изо рта"]
+        probability: 0.3
+      - !type:Jitter
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          min: 80
+      - !type:GenericStatusEffect
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          min: 80
+        key: Forceddead
+        component: ForcedSleeping
+        refresh: false
+        type: Add

@@ -1,0 +1,24 @@
+- type: entity
+  name: large pill canister
+  id: LPPlargePillCanister
+  parent: BaseStorageItem
+  description: Holds up to 18 pills.
+  components:
+  - type: Item
+    size: Small
+    sprite: _LostParadise/Objects/Consumable/large_pills_canister.rsi
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/large_pills_canister.rsi
+    state: pill_canister
+  - type: Tag
+    tags:
+      - PillCanister
+  - type: Storage
+    grid:
+    - 0,0,5,2
+    quickInsert: true
+    areaInsert: true
+    areaInsertRadius: 1
+    storageInsertSound: /Audio/Effects/pill_insert.ogg
+    storageRemoveSound: /Audio/Effects/pill_remove.ogg
+  - type: Dumpable

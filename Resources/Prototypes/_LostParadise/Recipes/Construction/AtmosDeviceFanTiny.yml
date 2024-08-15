@@ -1,0 +1,17 @@
+- type: construction
+  name: маленький вентелятор
+  id: AtmosDeviceFanTiny
+  graph: AtmosDeviceFanTiny
+  startNode: start
+  targetNode: AtmosDeviceFanTiny
+  category: construction-category-structures
+  description: маленький вентелятор, создающий поток воздуха
+  icon:
+    sprite: /Textures/Structures/Piping/Atmospherics/tinyfan.rsi
+    state: icon
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

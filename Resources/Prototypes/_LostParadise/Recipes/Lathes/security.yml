@@ -1,0 +1,145 @@
+- type: latheRecipe
+  id: LPPIonPistolIS17
+  result: LPPIonPistolIS17
+  completetime: 20
+  materials:
+    Steel: 2000
+    Plastic: 2000
+    Glass: 3000
+    Gold: 1000
+    Uranium: 500
+
+- type: latheRecipe
+  id: LPPIonGunLV12
+  result: LPPIonGunLV12
+  completetime: 20
+  materials:
+    Steel: 3500
+    Plastic: 2000
+    Glass: 3000
+    Gold: 2000
+    Uranium: 1000
+
+- type: latheRecipe
+  id: LPPIonGunAutoUI80
+  result: LPPIonGunAutoUI80
+  completetime: 20
+  materials:
+    Steel: 3500
+    Plastic: 2000
+    Glass: 3000
+    Gold: 3000
+    Uranium: 1000
+
+- type: latheRecipe
+  id: LPPTelebaton
+  result: LPPTelebaton
+  completetime: 15
+  materials:
+    Plastic: 150
+
+- type: latheRecipe
+  id: LPPCartridgeIncendiaryM4A1
+  result: LPPCartridgeIncendiaryM4A1
+  category: Ammo
+  completetime: 2
+  materials:
+    Plastic: 20
+
+- type: latheRecipe
+  id: LPPCartridgeUraniumM4A1
+  result: LPPCartridgeUraniumM4A1
+  category: Ammo
+  completetime: 2
+  materials:
+    Plastic: 20
+    Uranium: 10
+
+- type: latheRecipe
+  id: LPPCartridgePracticeM4A1
+  result: LPPCartridgePracticeM4A1
+  category: Ammo
+  completetime: 2
+  materials:
+    Steel: 20
+
+- type: latheRecipe
+  id: LPPCartridgeM4A1Lethal
+  result: LPPCartridgeM4A1Lethal
+  category: Ammo
+  completetime: 2
+  materials:
+    Steel: 20
+
+- type: latheRecipe
+  id: LPPMagazineRifleM4A1Lethal
+  result: LPPMagazineRifleM4A1Lethal
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 375
+
+- type: latheRecipe
+  id: LPPMagazineBoxM4A1Lethal
+  result: LPPMagazineBoxM4A1Lethal
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 1150
+
+- type: latheRecipe
+  id: LPPMagazineBoxM4A1BigPractice
+  result: LPPMagazineBoxM4A1BigPractice
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 1150
+
+- type: latheRecipe
+  id: LPPMagazineBoxM4A1Incendiary
+  result: LPPMagazineBoxM4A1Incendiary
+  category: Ammo
+  completetime: 5
+  materials:
+    Plastic: 950
+
+- type: latheRecipe
+  id: LPPMagazineBoxM4A1Practice
+  result: LPPMagazineBoxM4A1Practice
+  category: Ammo
+  completetime: 5
+  materials:
+    Plastic: 900
+
+- type: latheRecipe
+  id: LPPMagazineBoxM4A1Uranium
+  result: LPPMagazineBoxM4A1Uranium
+  category: Ammo
+  completetime: 5
+  materials:
+    Plastic: 950
+    Uranium: 95
+
+- type: latheRecipe
+  id: LPPMagazineBoxM4A1Rubber
+  result: LPPMagazineBoxM4A1Rubber
+  category: Ammo
+  completetime: 5
+  materials:
+    Plastic: 950
+
+- type: latheRecipe
+  id: LPPMagazineBoxM4A1BigLethal
+  result: LPPMagazineBoxM4A1BigLethal
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 1150
+
+- type: latheRecipe
+  id: LPPC4Low
+  result: LPPC4Low
+  completetime: 10
+  materials:
+    Plastic: 375
+    Plasma: 375

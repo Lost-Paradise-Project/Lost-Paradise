@@ -1,0 +1,222 @@
+#----------------------------------------------------------------#
+#-----rectangle-tile-s---rectangle-tile-s---rectangle-tile-s-----#
+#----------------------------------------------------------------#
+
+#------------------#
+#--dark-dark-dark--#
+#------------------#
+- type: decal
+  id: LPPRectangleTileDarkCornerNES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: dark_corner_ne_s
+
+- type: decal
+  id: LPPRectangleTileDarkCornerNWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: dark_corner_nw_s
+
+- type: decal
+  id: LPPRectangleTileDarkCornerSES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: dark_corner_se_s
+
+- type: decal
+  id: LPPRectangleTileDarkCornerSWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: dark_corner_sw_s
+
+- type: decal
+  id: LPPRectangleTileDarkLineES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: dark_line_e_s
+
+- type: decal
+  id: LPPRectangleTileDarkLineWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: dark_line_w_s
+
+- type: decal
+  id: LPPRectangleTileDarkLineWES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: dark_line_we_s
+
+- type: decal
+  id: LPPRectangleTileDarkLineNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: dark_line_n_s
+
+- type: decal
+  id: LPPRectangleTileDarkLineSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: dark_line_s_s
+
+- type: decal
+  id: LPPRectangleTileDarkLineSNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: dark_line_sn_s
+
+#---------------------#
+#--steel-steel-steel--#
+#---------------------#
+- type: decal
+  id: LPPRectangleTileSteelCornerNES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: steel_corner_ne_s
+
+- type: decal
+  id: LPPRectangleTileSteelCornerNWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: steel_corner_nw_s
+
+- type: decal
+  id: LPPRectangleTileSteelCornerSES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: steel_corner_se_s
+
+- type: decal
+  id: LPPRectangleTileSteelCornerSWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: steel_corner_sw_s
+
+- type: decal
+  id: LPPRectangleTileSteelLineES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: steel_line_e_s
+
+- type: decal
+  id: LPPRectangleTileSteelLineWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: steel_line_w_s
+
+- type: decal
+  id: LPPRectangleTileSteelLineWES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: steel_line_we_s
+
+- type: decal
+  id: LPPRectangleTileSteelLineNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: steel_line_n_s
+
+- type: decal
+  id: LPPRectangleTileSteelLineSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: steel_line_s_s
+
+- type: decal
+  id: LPPRectangleTileSteelLineSNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: steel_line_sn_s
+
+#---------------------#
+#--white-white-white--#
+#---------------------#
+- type: decal
+  id: LPPRectangleTileWhiteCornerNES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: white_corner_ne_s
+
+- type: decal
+  id: LPPRectangleTileWhiteCornerNWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: white_corner_nw_s
+
+- type: decal
+  id: LPPRectangleTileWhiteCornerSES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: white_corner_se_s
+
+- type: decal
+  id: LPPRectangleTileWhiteCornerSWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: white_corner_sw_s
+
+- type: decal
+  id: LPPRectangleTileWhiteLineES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: white_line_e_s
+
+- type: decal
+  id: LPPRectangleTileWhiteLineWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: white_line_w_s
+
+- type: decal
+  id: LPPRectangleTileWhiteLineWES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: white_line_we_s
+
+- type: decal
+  id: LPPRectangleTileWhiteLineNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: white_line_n_s
+
+- type: decal
+  id: LPPRectangleTileWhiteLineSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: white_line_s_s
+
+- type: decal
+  id: LPPRectangleTileWhiteLineSNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/rectangle-tile-s.rsi
+    state: white_line_sn_s

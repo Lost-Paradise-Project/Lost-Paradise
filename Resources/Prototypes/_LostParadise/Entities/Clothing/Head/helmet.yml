@@ -1,0 +1,111 @@
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: LPPJudjeDreddHelmet
+  name: judje dredd helmet
+  description: Yes.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/judje-dredd.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/judje-dredd.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHelmetPG
+  name: PG helmet
+  description: Helmet for PG needs
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/pg-helmet.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/pg-helmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatPGBeret
+  name: PG beret
+  description: It's a black beret.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/pg-beret.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/pg-beret.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckPGPin
+  name: PG pin
+  description: Mortuis gloria! viventibus fortuna!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/pg-pin.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/pg-pin.rsi
+
+- type: entity
+  parent: ClothingHeadHatHardhatBase
+  id: LPPClothingHeadHatTacticalHelmet
+  name: PG tactical helmet
+  description: Tactical helmet, for special operations. got a flashlight.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/pg-helmet-tacticool.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/pg-helmet-tacticool.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadTSFHelmet
+  name: TSF helmet
+  description: Helmet for TSF needs
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/tsf-helmet.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/tsf-helmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.6
+        Piercing: 0.7
+        Heat: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadUrbanHelmetPG
+  name: urban PG helmet
+  description: Helmet for PG needs
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/tan-helmet.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/tan-helmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.8

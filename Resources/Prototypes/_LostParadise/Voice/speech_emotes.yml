@@ -1,0 +1,76 @@
+- type: emote
+  id: LPPSynthYes
+  name: chat-emote-name-synth-yes
+  category: Vocal
+  chatMessages: [утвердительно пищит]
+  chatTriggers:
+    - утвердительно пищит
+    - утвердительно пищит.
+    - соглашается
+    - соглашается.
+    - согласен
+    - согласен.
+    - подтверждает
+    - подтверждает.
+
+- type: emote
+  id: LPPSynthNo
+  category: Vocal
+  chatMessages: [отрицательно пищит]
+  chatTriggers:
+    - отрицательно пищит
+    - отрицательно пищит.
+    - отрицает
+    - отрицает.
+    - не соглашается
+    - не соглашается.
+    - не согласен
+    - не согласен.
+
+- type: emote
+  id: LPPPing
+  name: chat-emote-name-ping
+  category: Vocal
+  chatMessages: [звенит]
+  chatTriggers:
+    - звенит
+    - звенит.
+
+- type: emote
+  id: LPPSighBuzz
+  category: Vocal
+  chatMessages: [раздражённо жужжит]
+  chatTriggers:
+    - раздражённо жужжит
+    - раздражённо жужжит.
+    - раздраженно жужжит
+    - раздраженно жужжит.
+    - пикает
+    - пикает.
+    - пикнул.
+    - пикнула.
+    - бип.
+    - бип
+
+# - type: emote
+#   id: Beep
+#   name: chat-emote-name-beep
+#   category: Vocal
+#   icon: Interface/Emotes/beep.png
+#   whitelist:
+#     requireAll: true
+#     components:
+#     - BorgChassis
+#     - Vocal
+#   chatMessages: ["chat-emote-msg-beep"]
+#   chatTriggers:
+#     - звуковой сигнал
+#     - звуковой сигнал.
+#     - гудит
+#     - гудит.
+#     - пискнул
+#     - пискнул.
+#     - бипкает
+#     - бипкает.
+#     - бипкнул
+#     - бипкнул.

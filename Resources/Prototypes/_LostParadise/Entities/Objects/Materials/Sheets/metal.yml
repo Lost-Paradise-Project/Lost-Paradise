@@ -1,0 +1,128 @@
+#LPP
+- type: entity
+  parent: SheetMetalBase
+  id: SheetTitanium
+  name: titanium
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Titanium: 100
+  - type: Stack
+    stackType: Titanium
+    baseLayer: base
+    layerStates:
+    - titanium
+    - titanium_2
+    - titanium_3
+  - type: Sprite
+    state: titanium_3
+    layers:
+    - state: titanium_3
+      map: ["base"]
+  - type: Item
+    heldPrefix: titanium
+  - type: Appearance
+  - type: FloorTile
+    outputs:
+    - Plating
+  - type: Extractable
+    grindableSolutionName: titanium
+  - type: SolutionContainerManager
+    solutions:
+      titanium:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 9
+        - ReagentId: Carbon
+          Quantity: 1
+
+- type: entity
+  parent: SheetTitanium
+  id: SheetTitanium10
+  name: titanium
+  suffix: 10
+  components:
+  - type: Sprite
+    state: titanium
+  - type: Stack
+    stackType: Titanium
+    count: 10
+
+- type: entity
+  parent: SheetTitanium
+  id: SheetTitanium1
+  name: titanium
+  suffix: Single
+  components:
+  - type: Sprite
+    state: titanium
+  - type: Stack
+    stackType: Titanium
+    count: 1
+
+#--Plastitanium--#
+
+- type: entity
+  parent: SheetMetalBase
+  id: SheetPlastitanium
+  name: plastitanium
+  suffix: Full
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Plastitanium: 100
+  - type: Stack
+    stackType: Plastitanium
+    baseLayer: base
+    layerStates:
+    - plastitanium
+    - plastitanium_2
+    - plastitanium_3
+  - type: Sprite
+    state: plastitanium_3
+    layers:
+    - state: plastitanium_3
+      map: ["base"]
+  - type: Item
+    heldPrefix: plastitanium
+  - type: Appearance
+  - type: FloorTile
+    outputs:
+    - Plating
+  - type: Extractable
+    grindableSolutionName: plastitanium
+  - type: SolutionContainerManager
+    solutions:
+      plastitanium:
+        reagents:
+        - ReagentId: Iron
+          Quantity: 9
+        - ReagentId: Carbon
+          Quantity: 1
+
+- type: entity
+  parent: SheetPlastitanium
+  id: SheetPlastitanium10
+  name: plastitanium
+  suffix: 10
+  components:
+  - type: Sprite
+    state: plastitanium
+  - type: Stack
+    stackType: Plastitanium
+    count: 10
+
+- type: entity
+  parent: SheetPlastitanium
+  id: SheetPlastitanium1
+  name: plastitanium
+  suffix: Single
+  components:
+  - type: Sprite
+    state: plastitanium
+  - type: Stack
+    stackType: Plastitanium
+    count: 1

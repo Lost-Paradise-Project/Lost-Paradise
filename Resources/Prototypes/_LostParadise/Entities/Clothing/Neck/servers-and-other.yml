@@ -1,0 +1,96 @@
+- type: entity
+  parent: ClothingNeckPinBase
+  id: MSSAPinAndromeda
+  name: значок "Андромеда"
+  description: Будь как дома, путник.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    layers:
+    - state: andromeda
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    clothingVisuals:
+      neck:
+      - state: andromeda-equipped
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: MSSAPinLostParadise
+  name: значок "Lost Paradise"
+  description: Стараемся для вас!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    layers:
+    - state: lostparadise
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    clothingVisuals:
+      neck:
+      - state: lostparadise-equipped
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: MSSAPinFoxHole
+  name: значок "Лисей Норы"
+  description: Лисья нора, там где тихо и спокойно.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    layers:
+    - state: foxhole
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    clothingVisuals:
+      neck:
+      - state: foxhole-equipped
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: MSSAPinMSSA
+  name: значок "МССА"
+  description: Вместе мы сильны!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    layers:
+    - state: mssa
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    clothingVisuals:
+      neck:
+      - state: mssa-equipped
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: MSSAPinSirena
+  name: значок "Сирена"
+  description: Клуб интеллигентных людей.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    layers:
+    - state: sirena
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    clothingVisuals:
+      neck:
+      - state: sirena-equipped
+
+# - type: entity
+  # parent: ClothingNeckPinBase
+  # id: MSSAPin
+  # name: значок
+  # description: Стараемся для вас!
+  # components:
+  # - type: Sprite
+    # sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    # layers:
+    # - state: lgbt
+  # - type: Clothing
+    # sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    # clothingVisuals:
+      # neck:
+      # - state: lgbt-equipped
+

@@ -1,0 +1,12 @@
+- type: entity
+  name: Poppy Spawner
+  id: LPPSpawnMobPossumPoppy
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobPossumPoppy

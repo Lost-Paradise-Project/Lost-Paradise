@@ -1,0 +1,20 @@
+- type: entity
+  id: LPPCrateRCDFAPAmmo
+  parent: CrateEngineering
+  name: ящик спрессованной материи
+  description: Содержит пару спрессованной материи для РСУАП.
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPRCDFAPAmmo
+      amount: 2
+
+- type: entity
+  id: LPPCrateRCDFAP
+  parent: CrateEngineeringSecure
+  name: РСУАП
+  description: Ящик содержащий одно ручное строительное устройство атмосферного предназначения.
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPRCDFAPDevice

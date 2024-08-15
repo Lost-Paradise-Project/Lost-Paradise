@@ -1,0 +1,111 @@
+- type: entity
+  id: LPPBaseBullet
+  name: BaseBullet
+  description: If you can see this you're probably dead!
+  abstract: true
+  components:
+  - type: Reflective
+  - type: FlyBySound
+  - type: Clickable
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: bullet
+      shader: unshaded
+  - type: Physics
+    bodyType: Dynamic
+    linearDamping: 0
+    angularDamping: 0
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.1,-0.1,0.1,0.1"
+        hard: false
+        mask:
+        - Impassable
+        - BulletImpassable
+      fly-by: &flybyfixture
+        shape: !type:PhysShapeCircle
+          radius: 1.5
+        layer:
+        - Impassable
+        - MidImpassable
+        - HighImpassable
+        - LowImpassable
+        hard: False
+  - type: Projectile
+    impactEffect: BulletImpactEffect
+    damage:
+      types:
+        Piercing: 14
+    soundHit:
+      path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
+  - type: TimedDespawn
+    lifetime: 10
+
+- type: entity
+  id: LPPBulletM4A1
+  parent: LPPBaseBullet
+  name: пуля (5,56х45)
+  categories: [ HideSpawnMenu ]
+  description: America! FUCK YEA!
+  components:
+  - type: Projectile
+    impactEffect: BulletImpactEffect
+    damage:
+      types:
+        Piercing: 19
+
+- type: entity
+  id: LPPBulletRubberM4A1
+  parent: LPPBaseBullet
+  name: пуля (5,56х45 резиновая)
+  categories: [ HideSpawnMenu ]
+  description: America! FUCK YEA!
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
+    soundHit:
+      path: /Audio/Weapons/Guns/Hits/snap.ogg
+  - type: StaminaDamageOnCollide
+    damage: 24
+
+- type: entity
+  id: LPPBulletPracticeM4A1
+  name: пуля (5,56х45 учебная)
+  parent: BaseBulletPractice
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 1
+
+- type: entity
+  id: LPPBulletUraniumM4A1
+  parent: BaseBulletUranium
+  name: пуля (5,56х45 урановая)
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Radiation: 10
+        Piercing: 8
+
+- type: entity
+  id: LPPBulletIncendiaryM4A1
+  parent: BaseBulletIncendiary
+  name: пуля (5,56х45 зажигательная)
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
+        Heat: 15

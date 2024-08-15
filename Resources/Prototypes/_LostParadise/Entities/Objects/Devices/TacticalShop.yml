@@ -1,0 +1,68 @@
+- type: entity
+  parent: BaseItem
+  id: LPPERTUplinkShop
+  name: Планшет планирования операций
+  description: Планшет офицеров ДСО с доступом в блюспейс хранилища сектора
+  suffix: ERT
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Devices/TacticalShop.rsi
+    state: icon
+  - type: Item
+    size: Tiny
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    preset: LPPStorePresetERT
+    balance:
+      Telecrystal: 100
+
+- type: entity
+  parent: BaseItem
+  id: LPPCBURNUplinkShop
+  name: Планшет планирования операций
+  description: Планшет офицеров ДСО с доступом в блюспейс хранилища сектора
+  suffix: CBURN
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Devices/TacticalShop.rsi
+    state: icon
+  - type: Item
+    size: Tiny
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    preset: LPPStorePresetCBURN
+    balance:
+      Telecrystal: 100
+
+- type: entity
+  parent: BaseItem
+  id: LPPDeltaUplinkShop
+  name: Планшет планирования операций
+  description: Планшет офицеров ДСО с доступом в блюспейс хранилища сектора
+  suffix: Delta
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Devices/TacticalShop.rsi
+    state: icon
+  - type: Item
+    size: Tiny
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    preset: LPPStorePresetDelta
+    balance:
+      Telecrystal: 100

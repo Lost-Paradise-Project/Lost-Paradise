@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "license": "CC-BY-SA-3.0",
+    "copyright": "It was taken from tg station.",
+    "states": [
+        {
+            "name": "icon"
+        },
+        {
+            "name": "screen",
+            "delays": [ 
+				[
+					0.1, 
+					0.1, 
+					0.1, 
+					0.1, 
+					0.1, 
+					0.1
+				] 
+			]
+        }
+    ]
+}

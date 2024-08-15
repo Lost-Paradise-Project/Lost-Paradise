@@ -1,0 +1,12 @@
+- type: construction
+  name: сумка контрабандиста
+  id: smugglersbag
+  graph: SmugglersBag
+  startNode: start
+  targetNode: smugglersbag
+  category: construction-category-clothing
+  description: "A modified satchel, holds less - but can be hidden under floor tiles"
+  icon:
+    sprite: Clothing/Back/Satchels/satchel.rsi
+    state: icon
+  objectType: Item

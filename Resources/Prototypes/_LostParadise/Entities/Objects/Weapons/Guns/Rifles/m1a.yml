@@ -1,0 +1,57 @@
+- type: entity
+  name: М1A
+  parent: BaseWeaponRifle
+  id: LPPWeaponRifleM1A
+  description: Модифицированная версия старой винтовки, показатель смешения старого оружия и новых материалов, использует .30
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/m1a.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/m1a.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: Gun
+    fireRate: 1.9
+    selectedMode: SemiAuto
+    availableModes:
+      - FullAuto
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/lmg.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineLightRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance

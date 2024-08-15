@@ -1,0 +1,119 @@
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskBandageBlack
+  name: black face bandage
+  description: Black bandage, for your pretty face.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Bandage/black.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Bandage/black.rsi
+  - type: BreathMask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskBandageBlue
+  name: blue face bandage
+  description: Blue bandage, for your pretty face.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Bandage/blue.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Bandage/blue.rsi
+  - type: BreathMask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskBandageBotany
+  name: botany face bandage
+  description: Botany bandage, for your pretty face.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Bandage/botany.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Bandage/botany.rsi
+  - type: BreathMask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskBandageBrown
+  name: brown face bandage
+  description: Brown bandage, for your pretty face.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Bandage/brown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Bandage/brown.rsi
+  - type: BreathMask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskBandageGold
+  name: gold face bandage
+  description: Gold bandage, for your pretty face.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Bandage/gold.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Bandage/gold.rsi
+  - type: BreathMask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskBandageGreen
+  name: green face bandage
+  description: Green bandage, for your pretty face.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Bandage/green.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Bandage/green.rsi
+  - type: BreathMask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskBandageGrey
+  name: grey face bandage
+  description: Grey bandage, for your pretty face.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Bandage/grey.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Bandage/grey.rsi
+  - type: BreathMask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskBandageMercenary
+  name: mercenary face bandage
+  description: Mercenary bandage, for your pretty face.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Bandage/merc.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Bandage/merc.rsi
+  - type: BreathMask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskBandageRed
+  name: red face bandage
+  description: Red bandage, for your pretty face.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Bandage/red.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Bandage/red.rsi
+  - type: BreathMask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskBandageSkull
+  name: skull face bandage
+  description: Skull bandage, for your pretty face.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/Bandage/skull.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/Bandage/skull.rsi
+  - type: BreathMask

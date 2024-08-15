@@ -1,0 +1,11 @@
+- type: entity
+  name: NT brown briefcase
+  parent: BriefcaseBase
+  id: LPPNTBriefcaseBrown
+  description: A handy briefcase.
+  components:
+  - type: Sprite
+    sprite: Objects/Storage/Briefcases/briefcase_brown.rsi
+    state: nt-icon
+  - type: Item
+    sprite: Objects/Storage/Briefcases/briefcase_brown.rsi

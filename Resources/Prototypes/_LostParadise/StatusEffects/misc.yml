@@ -1,0 +1,7 @@
+- type: statusIcon
+  id: AiIconEnemyTarget
+  priority: 5
+  icon:
+    sprite: /Textures/_LostParadise/Interface/Misc/status_ai.rsi
+    state: ai_target
+  locationPreference: right

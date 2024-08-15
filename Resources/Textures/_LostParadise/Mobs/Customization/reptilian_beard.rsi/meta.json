@@ -1,0 +1,39 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "borman34+Spac__",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        { 
+		"name": "beard_1",
+		"directions": 4 
+	  },
+        {
+		"name": "beard_2", 
+		"directions": 4 
+	  },
+        {
+		"name": "beard_3", 
+		"directions": 4 
+	  },
+        {
+	 	"name": "beard_4", 
+		"directions": 4 
+	  },
+        {
+	 	"name": "beard_5", 
+		"directions": 4 
+	  },
+        {
+ 		"name": "beard_6", 
+		"directions": 4 
+	  },
+	  { 
+		"name": "shaved", 
+		"directions": 4 
+	  }
+    ]
+}
