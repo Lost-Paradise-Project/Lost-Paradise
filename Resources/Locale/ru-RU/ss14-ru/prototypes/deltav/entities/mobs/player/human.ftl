@@ -1,2 +1,2 @@
-﻿ent-MobHumanSyndicateListener = Syndicate Listener
+﻿ent-MobHumanSyndicateListener = Слушатель синдиката
     .desc = { ent-MobHumanSyndicateAgent.desc }

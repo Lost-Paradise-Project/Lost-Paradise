@@ -1,2 +1,2 @@
-﻿ent-MobRadioGuard = Syndicate Guard
-    .desc = Mindwiped and hypno-indoctrinated into perfect loyalty by the Syndicate. They will throw their life away to defend their objective.
+﻿ent-MobRadioGuard = Стража синдиката
+    .desc = Синдикат очистил их разум и с помощью гипноза внушил им абсолютную лояльность. Они отдадут свои жизни, чтобы защитить свою цель.

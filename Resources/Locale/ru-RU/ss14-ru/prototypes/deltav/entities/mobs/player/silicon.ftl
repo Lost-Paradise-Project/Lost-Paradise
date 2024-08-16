@@ -1,3 +1,3 @@
 ﻿ent-PlayerBorgMedical = { ent-BorgChassisMedical }
-    .suffix = Diagnosis, Treatment
+    .suffix = Диагностика, Лечение
     .desc = { ent-BorgChassisMedical.desc }

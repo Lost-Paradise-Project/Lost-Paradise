@@ -1,10 +1,10 @@
-﻿ent-SpawnPointMedicalBorg = medical cyborg
+﻿ent-SpawnPointMedicalBorg = Спавнер медицинского киборга
     .desc = { ent-SpawnPointJobBase.desc }
-ent-SpawnPointChiefJustice = chiefjustice
+ent-SpawnPointChiefJustice = Спавнер верховного судьи
     .desc = { ent-SpawnPointJobBase.desc }
-ent-SpawnPointClerk = clerk
+ent-SpawnPointClerk = Спавнер судьи
     .desc = { ent-SpawnPointJobBase.desc }
-ent-SpawnPointProsecutor = prosecutor
+ent-SpawnPointProsecutor = Спавнер прокурора
     .desc = { ent-SpawnPointJobBase.desc }
-ent-SpawnPointCourier = courier
+ent-SpawnPointCourier = Спавнер курьера
     .desc = { ent-SpawnPointJobBase.desc }

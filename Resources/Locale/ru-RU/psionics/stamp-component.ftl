@@ -1,1 +1,1 @@
-﻿stamp-component-stamped-name-mantis = Псионический богомол
+﻿stamp-component-stamped-name-mantis = Мантис

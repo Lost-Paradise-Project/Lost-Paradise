@@ -1,7 +1,7 @@
-﻿ent-RandomHumanoidSpawnerListener = Syndicate Listener
+﻿ent-RandomHumanoidSpawnerListener = Спавнер слушателя синдиката
     .desc = { "" }
-ent-RandomHumanoidSpawnerMobster = mobster
+ent-RandomHumanoidSpawnerMobster = Спавнер мобстера
     .desc = { "" }
-ent-RandomHumanoidSpawnerMobsterAlt = mobster
-    .suffix = alt
+ent-RandomHumanoidSpawnerMobsterAlt = Спавнер мобстера
+    .suffix = другой
     .desc = { "" }
