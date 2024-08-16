@@ -3,13 +3,13 @@
   name: job-name-centcom-representative
   description: job-description-representative
   playTimeTracker: JobCentralCommandRepresentative
-#  requirements:
-#    - !type:CharacterDepartmentTimeRequirement
-#      department: Command
-#      time: 108000
-#    - !type:RoleTimeRequirement
-#      role: JobCaptain
-#      time: 54000
+  requirements:
+   - !type:CharacterDepartmentTimeRequirement
+     department: Command
+     time: 108000
+   - !type:CharacterPlaytimeRequirement
+     tracker: JobCaptain
+     time: 54000
   setPreference: false
   startingGear: CentcomRepresentativeGear
   icon: "JobIconNanotrasen"

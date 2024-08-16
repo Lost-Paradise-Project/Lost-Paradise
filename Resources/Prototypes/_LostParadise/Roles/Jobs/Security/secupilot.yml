@@ -5,7 +5,7 @@
   playTimeTracker: JobSecPilot
   requirements:
     - !type:CharacterPlaytimeRequirement
-      role: JobSecurityOfficer
+      tracker: JobSecurityOfficer
       min: 72000 # 20 hrs
     - !type:CharacterDepartmentTimeRequirement
       department: Security

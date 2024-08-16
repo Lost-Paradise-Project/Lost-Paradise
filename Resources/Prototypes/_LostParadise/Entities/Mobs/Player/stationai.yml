@@ -279,21 +279,21 @@
     - type: Visibility
     - type: UserInterface
       interfaces:
-        enum.CommunicationsConsoleUiKey.Key:
+        - key: enum.CommunicationsConsoleUiKey.Key
           type: CommunicationsConsoleBoundUserInterface
-        enum.AICameraListUiKey.Key:
+        - key: enum.AICameraListUiKey.Key
           type: AICameraListBoundUserInterface
-        enum.SiliconLawsUiKey.Key:
+        - key: enum.SiliconLawsUiKey.Key
           type: SiliconLawBoundUserInterface
-        enum.StrippingUiKey.Key:
+        - key: enum.StrippingUiKey.Key
           type: StrippableBoundUserInterface
-        enum.CriminalRecordsConsoleKey.Key:
+        - key: enum.CriminalRecordsConsoleKey.Key
           type: CriminalRecordsConsoleBoundUserInterface
     - type: IntrinsicUI
       uis:
-        enum.CommunicationsConsoleUiKey.Key:
+        - key: enum.CommunicationsConsoleUiKey.Key
           toggleAction: ActionAIShowCommunications
-        enum.CriminalRecordsConsoleKey.Key:
+        - key: enum.CriminalRecordsConsoleKey.Key
           toggleAction: ActionAiShowCriminalRecords
     - type: ContainerContainer
       containers:

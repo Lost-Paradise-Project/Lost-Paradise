@@ -8,7 +8,7 @@
       department: Epistemics
       min: 36000 #10 hrs
     - !type:CharacterPlaytimeRequirement
-      role: JobSalvageSpecialist
+      tracker: JobSalvageSpecialist
       min: 36000 # 10 hrs
   startingGear: ExpeditorGear
   icon: "JobIconExpeditor"

@@ -68,7 +68,7 @@
     price: 100
   - type: UserInterface
     interfaces:
-      enum.RcdfapUiKey.Key:
+      - key: enum.RcdfapUiKey.Key
         type: RCDFAPMenuBoundUserInterface
   - type: ActivatableUI
     key: enum.RcdfapUiKey.Key
@@ -99,46 +99,5 @@
   suffix: Empty
   components:
   - type: LimitedCharges
+    maxCharges: 130
     charges: 0
-  - type: RCDFAP
-    availablePrototypes:
-    - LPPFireAlarm
-    - LPPGasPipeBend
-    - LPPGasPipeStraight
-    - LPPGasPipeHalf
-    - LPPGasPipeFourway
-    - LPPGasPipeTJunction
-    - LPPGasPressurePump
-    - LPPGasMixer
-    - LPPGasMixerFlipped
-    - LPPGasFilter
-    - LPPGasFilterFlipped
-    - LPPGasVolumePump
-    - LPPGasPassiveVent
-    - LPPGasOutletInjector
-    - LPPGasVentPump
-    - LPPGasValve
-    - LPPGasVentScrubber
-    - LPPAtmosDeviceFanTiny
-    - LPPGasPassiveGate
-    - LPPGasDualPortVentPump
-    - LPPSignalControlledValve
-    - LPPPressureControlledValve
-    - LPPDisposalUnit
-    - LPPMailingUnit
-    - LPPGasPort
-    - LPPDisposalJunctionFlipped
-    - LPPDisposalJunction
-    - LPPDisposalRouterFlipped
-    - LPPDisposalRouter
-    - LPPDisposalTagger
-    - LPPDisposalBend
-    - LPPDisposalYJunction
-    - LPPDisposalSignalRouter
-    - LPPDisposalSignalRouterFlipped
-    - LPPDisposalTrunk
-    - LPPDisposalPipe
-    - LPPAirSensor
-    - LPPFloorDrain
-    - LPPAirAlarm
-    - LPPDeconstruct
