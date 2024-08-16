@@ -6,10 +6,10 @@
   requirements:
     - !type:CharacterPlaytimeRequirement
       role: JobSecurityOfficer
-      time: 72000 # 20 hrs
+      min: 72000 # 20 hrs
     - !type:CharacterDepartmentTimeRequirement
       department: Security
-      time: 108000 # 30 hrs
+      min: 108000 # 30 hrs
   startingGear: SecPilotGear
   icon: "JobIconSecPilot"
   supervisors: job-supervisors-hos

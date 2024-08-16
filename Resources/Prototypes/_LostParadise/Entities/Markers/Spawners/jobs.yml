@@ -46,17 +46,17 @@
     - state: green
     - state: hop
 
-- type: entity
-  id: SpawnMagistrate
-  parent: SpawnPointJobBase
-  name: magistrate spawn
-  components:
-    - type: SpawnPoint
-      job_id: Magistrate
-    - type: Sprite
-      layers:
-        - state: green
-        - state: reporter
+#- type: entity
+#  id: SpawnMagistrate
+#  parent: SpawnPointJobBase
+#  name: magistrate spawn
+#  components:
+#    - type: SpawnPoint
+#      job_id: Magistrate
+#    - type: Sprite
+#      layers:
+#        - state: green
+#        - state: reporter
 
 - type: entity
   id: SpawnSecPilot

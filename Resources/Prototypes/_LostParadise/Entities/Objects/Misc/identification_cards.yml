@@ -157,18 +157,18 @@
   - type: PresetIdCard
     job: LPPBrigmedic
 
-- type: entity
-  parent: IDCardStandard
-  id: MagistrateIDCard
-  name: magistrate ID card
-  description: magistrate ID card
-  components:
-    - type: Sprite
-      layers:
-        - state: default
-        - state: idlawyer
-    - type: PresetIdCard
-      job: Magistrate
+#- type: entity
+#  parent: IDCardStandard
+#  id: MagistrateIDCard
+#  name: magistrate ID card
+#  description: magistrate ID card
+#  components:
+#    - type: Sprite
+#      layers:
+#        - state: default
+#        - state: idlawyer
+#    - type: PresetIdCard
+#      job: Magistrate
 
 - type: entity
   parent: IDCardStandard

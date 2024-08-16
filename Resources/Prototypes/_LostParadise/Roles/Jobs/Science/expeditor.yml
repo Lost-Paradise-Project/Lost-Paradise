@@ -5,11 +5,11 @@
   playTimeTracker: JobExpeditor
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Science
-      time: 36000 #10 hrs
+      department: Epistemics
+      min: 36000 #10 hrs
     - !type:CharacterPlaytimeRequirement
       role: JobSalvageSpecialist
-      time: 36000 # 10 hrs
+      min: 36000 # 10 hrs
   startingGear: ExpeditorGear
   icon: "JobIconExpeditor"
   overrideConsoleVisibility: true
