@@ -1,0 +1,42 @@
+- type: entity
+  id: LPPWeaponMarsRifle
+  parent: BaseWeaponRifle
+  name: винтовка XHA "Марс"
+  description: Охотничья винтовка компании XenoHuntingArmoury, использующая патроны .30 охотничье. Крайне популярная модель среди планетных и космических охотников на фауну.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/marsrifle.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/marsrifle.rsi
+  - type: Gun
+    fireRate: 0.75
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: LPPMagazineRifleMars
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 1
+        whitelist:
+          tags:
+            - LPPMagazineMars
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance

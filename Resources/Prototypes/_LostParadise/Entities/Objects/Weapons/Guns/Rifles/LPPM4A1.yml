@@ -1,0 +1,49 @@
+- type: entity
+  id: LPPM4A1
+  parent: BaseWeaponRifle
+  name: М4А1
+  description: Знаменитый представитель классических винтовок. Великая и не сравнимая М4А1 или же как её называют некоторые индивиды.. Эмка. Магазины разной расцветки не предусмотрены. Использует патроны 5.56x45 калибра.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/M4A1.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/M4A1.rsi
+  - type: Gun
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/M4A1_Shot.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: LPPMagazineRifleM4A1Lethal
+        insertSound: /Audio/_LostParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
+        ejectSound: /Audio/_LostParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - LPPMagazineM4A1
+      gun_chamber:
+        name: Chamber
+        startingItem: LPPCartridgeM4A1Lethal
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeM4A1
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance

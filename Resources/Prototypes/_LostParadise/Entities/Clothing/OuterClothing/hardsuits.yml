@@ -1,0 +1,520 @@
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPArmorMovement
+  name: Pilot Suit Security
+  description: For keepers of order among the stars.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/power_armor.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/power_armor.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 10000
+  - type: TemperatureProtection
+    coefficient: 0.8
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.8
+        Piercing: 0.75
+        Heat: 0.7
+        Radiation: 0.10
+  - type: ToggleableClothing
+    clothingPrototype: LPPArmorMovementHead
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitIIC
+  name: Hardsuit IIC 'Delta'
+  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/iic-armor.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/iic-armor.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.40
+        Piercing: 0.35
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+        Shock: 0.1
+        Cold: 0.1
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitIIC
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitNightGuard
+  name: Night Guard Hardsuit
+  description: He usually comes at night. Usually.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/night-guard.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/night-guard.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.30
+        Slash: 0.40
+        Piercing: 0.20
+        Heat: 0.25
+        Radiation: 0.05
+        Caustic: 0.3
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitNightGuard
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitSWAT
+  name: скафандр для подавления массовых беспорядков
+  description: Специальный защитный комплект, защищающий от опасного воздействия окружающей среды с низким давлением. Он имеет инновационный дополнительный слой брони, используемый сотрудниками службы безопасности.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/swat-armor.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/swat-armor.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 10000
+  - type: ClothingSpeedModifier
+    walkModifier: 0.6
+    sprintModifier: 0.55
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.45
+        Piercing: 0.6
+        Heat: 0.8
+        Radiation: 0.25
+        Caustic: 0.75
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitSWAT
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPHardsuitAssaultParamedic
+  name: Assault paramedic suit
+  description: Protective suit used by assault paramedics in rescue operations. Manufactured by Paradise Inc. in association with Nanotrasen as part of a contract to improve healthcare for NT employees.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/assault_paramedic.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/assault_paramedic.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 10000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.
+    sprintModifier: 1.
+  - type: Armor
+    modifiers:
+      coefficients:
+        Radiation: 0.5
+        Caustic: 0.25
+  - type: ExplosionResistance
+    damageCoefficient: 0.95
+  - type: ToggleableClothing
+    clothingPrototype: LPPHardsuitHelmetAssaultParamedic
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitLoneMercenary
+  name: LoneMercenary hardsuit
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/loneMercenary-syndicate.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/loneMercenary-syndicate.rsi
+  # - type: ComponentToggler
+  #   parent: true
+  #   components:
+  #   - type: Stealth
+  #     minVisibility: 0.1
+  #     lastVisibility: 0.1
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 1.1
+    sprintModifier: 1.1
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitLoneMercenary
+  - type: BiocodedClothing
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitPilotSecurity
+  name: pilot security hardsuit
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/pilot_sec_hardsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/pilot_sec_hardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitSecurityPilot
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitSecurityEng
+  name: security hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/SecEng.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/SecEng.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.70
+        Caustic: 0.8
+        Heat: 0.35
+  - type: ClothingSpeedModifier
+    walkModifier: 0.65
+    sprintModifier: 0.65
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSecurity
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPHardsuitSuppressor
+  name: Improved Power Armor
+  description: Improved power armor created by the Red Metal Machine Corporation in conjunction with NanoTrasen for the new generation of TSF Space Marines. Very expensive, very heavy, very robust.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/suppressor_hardsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/suppressor_hardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 10000
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.05
+        Slash: 0.05
+        Piercing: 0.1
+        Heat: 0.8
+        Radiation: 0.1
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: ToggleableClothing
+    clothingPrototype: LPPHardsuitHelmetSuppressor
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitMiksuit
+  name: Обесцвеченный Скафандр
+  description: Отреставрированный скафандр агентов синдиката, слегка видоизменённый под хотелки нынешнего владельца.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/miksuit.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/miksuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.65
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Heat: 0.65
+        Radiation: 0.65
+        Caustic: 0.65
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetMikhelm
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitChrono
+  name: chrono hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/Chrono-Armor.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/Chrono-Armor.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 10000
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.35
+        Piercing: 0.15
+        Heat: 0.35
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitChrono
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitBlueshield
+  name: blueshield's hardsuit
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/blueshield_hardsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/blueshield_hardsuit.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingOuterHardsuitBlueshieldHelm
+  - type: Item
+    size: Huge
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: HeldSpeedModifier
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitIICPyrotech
+  name: Pyrotech Hardsuit IIC 'Delta'
+  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/iic-armor-pyrotech.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/iic-armor-pyrotech.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.40
+        Piercing: 0.35
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+        Shock: 0.1
+        Cold: 0.1
+  - type: ExplosionResistance
+    damageCoefficient: 0.15
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitIICPyrotech
+  - type: BiocodedClothing
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitIICMedic
+  name: Medic Hardsuit IIC 'Delta'
+  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/iic-armor-medic.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/iic-armor-medic.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.40
+        Piercing: 0.35
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+        Shock: 0.1
+        Cold: 0.1
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitIICMedic
+  - type: BiocodedClothing
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitIICCommand
+  name: Commander Hardsuit IIC 'Delta'
+  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/iic-armor-command.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/iic-armor-command.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.35
+        Slash: 0.30
+        Piercing: 0.25
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+        Shock: 0.1
+        Cold: 0.1
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitIICCommand
+  - type: BiocodedClothing
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitIICEngineer
+  name: Engineer Hardsuit IIC 'Delta'
+  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/iic-armor-engineer.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/iic-armor-engineer.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.40
+        Piercing: 0.35
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+        Shock: 0.1
+        Cold: 0.1
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitIICEngineer
+  - type: BiocodedClothing
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitRND
+  name: Научно Исследовательский Скафандр "НИС"
+  description: Защитный скафандр, разработанный головастиками из отдела НИО, лёгкий для производства, а так же предоставляющий, в целом, хорошую защиту от разных внешних факторов, что можно встретить при работе в НИО.
+  components:
+  - type: Sprite
+    sprite: Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/rnd.rsi
+  - type: Clothing
+    sprite: Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/rnd.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Caustic: 0.3
+        Heat: 0.7
+        Radiation: 0.25
+        Shock: 0.5
+        Cold: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetRND

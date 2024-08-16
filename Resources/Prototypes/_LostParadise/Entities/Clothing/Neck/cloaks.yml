@@ -1,0 +1,207 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPsecuritycloak
+  name: security cloak
+  description: Police brutality!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Cloak/securitycloak.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPScientificcloak
+  name: Scientific cloak
+  description: Traces of all the scientific stories of the station are visible on this cloak, you will not be an exception.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Cloak/scientificcloak.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHatHoodScientificCloak
+    requiredSlot:
+    - neck
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatHoodScientificCloak
+  name: Scientific cloak hood
+  description: A hood of a Scientific cloak.ы
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Cloak/scientificcloakhel.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Cloak/scientificcloakhel.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPmedicalcloak
+  name: medical cloak
+  description: Only the best doctors deserve to wear this raincoat, you are clearly an exception.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Cloak/medicalcloak.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPengineerscloak
+  name: engineer's cloak
+  description: A magnificent engineering cloak, rumor has it that it protects against fire, go and test it.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Cloak/engineeringcloak.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCargocloak
+  name: Cargo cloak
+  description: You've made more expeditions for this cloak than you can count.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Cloak/Cargocloak.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPParbitercloak
+  name: Arbiter cloak
+  description: An expensive raincoat of an unknown company with a fur collar. Soft fur and silk of the highest quality. Gold is visible between the threads. Luxury.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Cloak/arbitercloak.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPParbitermask
+    requiredSlot:
+    - neck
+    slot: mask
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPPBLCORPcloak
+  name: BL CORP cloak
+  description: A cloak made of very durable materials for special forces.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Cloak/blcorpcloak.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPKirasCloakn
+  name: Kiras cloakn
+  description: beautiful kapeshon u Kirava.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Cloaks/kiras_cloakn.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Cloaks/kiras_cloakn.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 1.05
+    sprintModifier: 1.05
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 10000
+  - type: TemperatureProtection
+    coefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.94
+        Slash: 0.92
+        Piercing: 0.93
+        Heat: 0.91
+        Radiation: 0.5
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitKiravaHoodsec
+    requiredSlot:
+    - neck
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckCloakBlueshield
+  name: blueshield's cloak
+  description: They can hide those who really need protection.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Cloaks/blueshield_neck.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPBestMedic
+  name: best medic
+  description:
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Clothing/Neck/Cloaks/best_medic.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPBestMedicGif
+  name: best medic+
+  description:
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Clothing/Neck/Cloaks/best_medic_gif.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPZulieParamedic
+  name: zulie paramedic
+  description:
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Clothing/Neck/Cloaks/zulie_paramedic.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPZulieParamedicGif
+  name: zulie paramedic+
+  description:
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Clothing/Neck/Cloaks/zulie_paramedic_gif.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPZulieSyndicate
+  name: zulie syndicate
+  description:
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Clothing/Neck/Cloaks/zulie_syndicate.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakLeaderNPZ
+  name: плащ лидера НПЗ
+  description: И пусть ваш плащ не замарается в крови ксеносов, стирка дорого обходится между прочем.
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Clothing/Neck/NPZ/upgneckleader.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakNPZ
+  name: плащ НПЗ
+  description: Плащ для стильного развивания на ветру, пока вы будете унижать жалких ксеносов.
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Clothing/Neck/NPZ/upgneck.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakAdmiralNPZ
+  name: плащ адмирала НПЗ
+  description: Плащ для пафосного скидывания, чтобы показать всем ваши медали и ордена!
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Clothing/Neck/NPZ/upgneckadmiral.rsi

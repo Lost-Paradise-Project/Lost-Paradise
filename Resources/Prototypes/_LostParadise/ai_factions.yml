@@ -1,0 +1,35 @@
+- type: npcFaction
+  id: LPPNTCentCom
+  hostile:
+  - Zombie
+  - SimpleHostile
+  - Dragon
+  - Revolutionary
+  - Syndicate
+  - Xeno
+
+- type: npcFaction
+  id: LPPNTCentComDeathSquad
+  hostile:
+  - Zombie
+  - SimpleHostile
+  - Xeno
+  - Dragon
+  - Revolutionary
+  - Syndicate
+  - NanoTrasen
+  - SimpleHostile
+  - Passive
+  - PetsNT
+
+- type: npcFaction
+  id: LPPNinja
+  hostile:
+  - Zombie
+  - SimpleHostile
+  - Dragon
+  - Revolutionary
+  - Syndicate
+  - Xeno
+  - PetsNT
+  - NanoTrasen

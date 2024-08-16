@@ -1,0 +1,98 @@
+- type: constructionGraph
+  id: LPPFloorGreenCircuitOjects
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: icon
+          steps:
+            - material: Glass
+              amount: 1
+              doAfter: 1
+            - material: Uranium
+              amount: 2
+              doAfter: 1
+            - material: Steel
+              amount: 2
+              doAfter: 1
+            - material: Cable
+              amount: 2
+              doAfter: 1
+    - node: icon
+      entity: LPPFloorGreenCircuitBase
+
+- type: constructionGraph
+  id: LPPFloorBlueCircuitOjects
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: icon
+          steps:
+            - material: Glass
+              amount: 1
+              doAfter: 1
+            - material: Uranium
+              amount: 2
+              doAfter: 1
+            - material: Steel
+              amount: 2
+              doAfter: 1
+            - material: Cable
+              amount: 2
+              doAfter: 1
+    - node: icon
+      entity: LPPFloorBlueCircuitBase
+
+###- type: constructionGraph                    ###
+###  id: LPPFloorGreenCircuitOjects             ###
+###  start: start                               ###
+###  graph:                                     ###
+###    - node: start                            ###
+###      edges:                                 ###
+###        - to: LPPFloorGreenCircuitOjectsBase ###
+###          completed:                         ###
+###            - !type:SnapToGrid               ###
+###              southRotation: true            ###
+###          steps:                             ###
+###            - material: Glass                ###
+###              amount: 1                      ###
+###              doAfter: 1                     ###
+###            - material: Uranium              ###
+###              amount: 2                      ###
+###              doAfter: 1                     ###
+###            - material: Steel                ###
+###              amount: 2                      ###
+###              doAfter: 1                     ###
+###            - material: Cable                ###
+###              amount: 2                      ###
+###              doAfter: 1                     ###
+
+########################################################################
+#####        - to: LPPFloorBlueCircuitOjects                       #####
+#####          completed:                                          #####
+#####            - !type:SnapToGrid                                #####
+#####              southRotation: true                             #####
+#####          steps:                                              #####
+#####            - material: Glass                                 #####
+#####              amount: 1                                       #####
+#####              doAfter: 1                                      #####
+#####            - material: Uranium                               #####
+#####              amount: 2                                       #####
+#####              doAfter: 1                                      #####
+#####            - material: Steel                                 #####
+#####              amount: 2                                       #####
+#####              doAfter: 1                                      #####
+#####            - material: Cable                                 #####
+#####              amount: 2                                       #####
+#####              doAfter: 1                                      #####
+#####            - tag: EggSpider                                  #####
+#####              name: egg spider                                #####
+#####              icon:                                           #####
+#####                sprite: Objects/Misc/eggspider.rsi            #####
+#####                state: icon                                   #####
+#####              amount: 1                                       #####
+#####              doAfter: 1                                      #####
+########################################################################
+
+

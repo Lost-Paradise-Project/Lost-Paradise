@@ -1,0 +1,36 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: LPPClothingBeltNightGuardWebbing
+  name: night guard chest rig
+  description: he usually comes at night. Usually.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/night-guard-rps.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/night-guard-rps.rsi
+  - type: Item
+    size: Large
+  - type: Storage
+    capacity: 120
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: LPPClothingBeltPGWebbing
+  name: PG webbing
+  description: Predator Grosperox Webbing for all the soldier's needs
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/pg-rps.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/pg-rps.rsi
+
+- type: entity
+  parent: ClothingBeltBase
+  id: LPPClothingBeltFlamingo
+  name: надувной фламинго
+  description: Хаппи хаппи хаппи. ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/flamingo.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/flamingo.rsi

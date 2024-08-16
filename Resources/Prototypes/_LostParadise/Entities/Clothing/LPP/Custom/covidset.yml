@@ -1,0 +1,33 @@
+#VEST
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: LPPClothingOuterVestCovid
+  name: Бронежилет криминалиста
+  description: Бронежилет службы безопасности с пометкой CIU, которой обозначают себя детективы и криминалисты
+  suffix: Личное, Covid
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Covid_Vest_CIV.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Covid_Vest_CIV.rsi
+
+#HEAD
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHelmetCovid
+  name: Шлем РЗЗ
+  description: Шлем Расширения и Защиты Зрения это прототип шлема службы безопасности нового поколения, который способен улучшить оптическую сенсорную систему человека и защитить ее от опасностей.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Covid_PNV.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Covid_PNV.rsi
+  - type: Armor #Values seem to let the user survive one extra hit if attacked consistently.
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9

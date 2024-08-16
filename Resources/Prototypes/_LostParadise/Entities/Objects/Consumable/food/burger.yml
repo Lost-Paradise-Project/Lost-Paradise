@@ -1,0 +1,31 @@
+- type: entity
+  name: cumburger
+  parent: FoodBurgerBase
+  id: LPPFoodCumburger
+  description: This is my kingdom come, this is my kingdom come...
+  components:
+  - type: FlavorProfile
+    flavors:
+      - bun
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/burger.rsi
+    state: cumburger
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+        - ReagentId: Vitamin
+          Quantity: 5
+    metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Piercing: -2
+  - type: Tag
+    tags:
+      - Meat

@@ -1,0 +1,95 @@
+- type: entity
+  id: LPPSpawnPointPrisoner
+  parent: SpawnPointJobBase
+  name: prisoner
+  components:
+  - type: SpawnPoint
+    job_id: LPPPrisoner
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger
+
+- type: entity
+  id: LPPSpawnPointLawyer
+  parent: SpawnPointJobBase
+  name: lawyer
+  components:
+  - type: SpawnPoint
+    job_id: Lawyer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: lawyer
+
+- type: entity
+  id: LPPSpawnPointVirologist
+  parent: SpawnPointJobBase
+  name: virologist
+  components:
+  - type: SpawnPoint
+    job_id: LPPVirologist
+  - type: Sprite
+    layers:
+      - state: green
+      - state: virologist
+
+- type: entity
+  id: LPPAdjutantSpawn
+  parent: SpawnPointJobBase
+  name: adjutant spawn
+  components:
+  - type: SpawnPoint
+    job_id: LPPAdjutant
+  - type: Sprite
+    layers:
+    - state: green
+    - state: hop
+
+- type: entity
+  id: SpawnMagistrate
+  parent: SpawnPointJobBase
+  name: magistrate spawn
+  components:
+    - type: SpawnPoint
+      job_id: Magistrate
+    - type: Sprite
+      layers:
+        - state: green
+        - state: reporter
+
+- type: entity
+  id: SpawnSecPilot
+  parent: SpawnPointJobBase
+  name: sec pilot spawn
+  components:
+    - type: SpawnPoint
+      job_id: SecPilot
+    - type: Sprite
+      layers:
+        - state: green
+        - state: cluwne
+
+- type: entity
+  id: SpawnExpeditor
+  parent: SpawnPointJobBase
+  name: Expeditor
+  components:
+    - type: SpawnPoint
+      job_id: Expeditor
+    - type: Sprite
+      layers:
+        - state: green
+        - state: expeditor
+
+- type: entity
+  id: SpawnRoboticist
+  parent: SpawnPointJobBase
+  name: Roboticist
+  components:
+    - type: SpawnPoint
+      job_id: Roboticist
+    - type: Sprite
+      layers:
+        - state: green
+        - state: roboticist

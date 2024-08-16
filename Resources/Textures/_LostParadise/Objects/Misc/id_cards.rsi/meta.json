@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Draw by Skilets",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "idcaptain_syn"
+    },
+    {
+      "name": "idheadofpersonnel_syn"
+    },
+    {
+      "name": "idheadofsecurity_syn"
+    },
+    {
+      "name": "idintern_service_syn"
+    },
+    {
+      "name": "idmedicaldoctor_syn"
+    },
+    {
+      "name": "idscientist_syn"
+    },
+    {
+      "name": "idsecurityofficer_syn"
+    },
+    {
+      "name": "idshaftminer_syn"
+    },
+    {
+      "name": "idstationengineer_syn"
+    },
+    {
+      "name": "prisoner_syn"
+    },
+    {
+      "name": "syn-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "syn-inhand-right",
+      "directions": 4
+    }
+  ]
+}

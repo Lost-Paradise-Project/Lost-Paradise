@@ -1,0 +1,107 @@
+- type: marking
+  id: LPPTattooAgent
+  bodyPart: Head
+  markingCategory: Head
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
+      state: agent
+
+- type: marking
+  id: LPPTattooTear
+  bodyPart: Head
+  markingCategory: Head
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
+      state: tear
+
+- type: marking
+  id: LPPJaw
+  bodyPart: Head
+  markingCategory: Head
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
+      state: jaw
+
+- type: marking
+  id: LPPVisor
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
+      state: visor
+
+- type: marking
+  id: LPPRobohead
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
+      state: robohead
+
+- type: marking
+  id: LPPIronheart
+  bodyPart: Chest
+  markingCategory: Chest
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
+      state: ironheart
+
+- type: marking
+  id: LPPProsthesisLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
+      state: lleg
+
+- type: marking
+  id: LPPProsthesisRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
+      state: rleg
+
+- type: marking
+  id: LPPProsthesisLHand
+  bodyPart: LArm
+  markingCategory: Arms
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
+      state: lhand
+
+- type: marking
+  id: LPPProsthesisRHand
+  bodyPart: RArm
+  markingCategory: Arms
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
+      state: rhand
+
+- type: marking
+  id: LPPProsthesisLWrist
+  bodyPart: LHand
+  markingCategory: Arms
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
+      state: lwrist
+
+- type: marking
+  id: LPPProsthesisRWrist
+  bodyPart: RHand
+  markingCategory: Arms
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
+      state: rwrist

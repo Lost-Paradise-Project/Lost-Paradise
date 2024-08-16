@@ -1,0 +1,369 @@
+#----------------------------------------------------------------#
+#-----rectangle-tile-s---rectangle-tile-s---rectangle-tile-s-----#
+#----------------------------------------------------------------#
+
+#------------------#
+#--dark-dark-dark--#
+#------------------#
+- type: decal
+  id: LPPMiniTileDarkBoxS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_box
+
+- type: decal
+  id: LPPMiniTileDarkCornerNeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_corner_ne
+
+- type: decal
+  id: LPPMiniTileDarkCornerSeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_corner_se
+
+- type: decal
+  id: LPPMiniTileDarkCornerNwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_corner_nw
+
+- type: decal
+  id: LPPMiniTileDarkCornerSwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_corner_sw
+
+- type: decal
+  id: LPPMiniTileDarkInnerNeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_inner_ne
+
+- type: decal
+  id: LPPMiniTileDarkInnerSeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_inner_se
+
+- type: decal
+  id: LPPMiniTileDarkInnerNwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_inner_nw
+
+- type: decal
+  id: LPPMiniTileDarkInnerSwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_inner_sw
+
+- type: decal
+  id: LPPMiniTileDarkEndNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_end_n
+
+- type: decal
+  id: LPPMiniTileDarkEndES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_end_e
+
+- type: decal
+  id: LPPMiniTileDarkEndSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_end_s
+
+- type: decal
+  id: LPPMiniTileDarkEndWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_end_w
+
+- type: decal
+  id: LPPMiniTileDarkLineNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_line_n
+
+- type: decal
+  id: LPPMiniTileDarkLineES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_line_e
+
+- type: decal
+  id: LPPMiniTileDarkLineSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_line_s
+
+- type: decal
+  id: LPPMiniTileDarkLineWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: dark_line_w
+
+#---------------------#
+#--steel-steel-steel--#
+#---------------------#
+- type: decal
+  id: LPPMiniTileSteelBoxS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_box
+
+- type: decal
+  id: LPPMiniTileSteelCornerNeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_corner_ne
+
+- type: decal
+  id: LPPMiniTileSteelCornerSeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_corner_se
+
+- type: decal
+  id: LPPMiniTileSteelCornerNwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_corner_nw
+
+- type: decal
+  id: LPPMiniTileSteelCornerSwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_corner_sw
+
+- type: decal
+  id: LPPMiniTileSteelInnerNeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_inner_ne
+
+- type: decal
+  id: LPPMiniTileSteelInnerSeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_inner_se
+
+- type: decal
+  id: LPPMiniTileSteelInnerNwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_inner_nw
+
+- type: decal
+  id: LPPMiniTileSteelInnerSwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_inner_sw
+
+- type: decal
+  id: LPPMiniTileSteelEndNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_end_n
+
+- type: decal
+  id: LPPMiniTileSteelEndES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_end_e
+
+- type: decal
+  id: LPPMiniTileSteelEndSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_end_s
+
+- type: decal
+  id: LPPMiniTileSteelEndWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_end_w
+
+- type: decal
+  id: LPPMiniTileSteelLineNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_line_n
+
+- type: decal
+  id: LPPMiniTileSteelLineES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_line_e
+
+- type: decal
+  id: LPPMiniTileSteelLineSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_line_s
+
+- type: decal
+  id: LPPMiniTileSteelLineWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: steel_line_w
+
+#---------------------#
+#--white-white-white--#
+#---------------------#
+- type: decal
+  id: LPPMiniTileWhiteBoxS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_box
+
+- type: decal
+  id: LPPMiniTileWhiteCornerNeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_corner_ne
+
+- type: decal
+  id: LPPMiniTileWhiteCornerSeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_corner_se
+
+- type: decal
+  id: LPPMiniTileWhiteCornerNwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_corner_nw
+
+- type: decal
+  id: LPPMiniTileWhiteCornerSwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_corner_sw
+
+- type: decal
+  id: LPPMiniTileWhiteInnerNeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_inner_ne
+
+- type: decal
+  id: LPPMiniTileWhiteInnerSeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_inner_se
+
+- type: decal
+  id: LPPMiniTileWhiteInnerNwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_inner_nw
+
+- type: decal
+  id: LPPMiniTileWhiteInnerSwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_inner_sw
+
+- type: decal
+  id: LPPMiniTileWhiteEndNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_end_n
+
+- type: decal
+  id: LPPMiniTileWhiteEndES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_end_e
+
+- type: decal
+  id: LPPMiniTileWhiteEndSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_end_s
+
+- type: decal
+  id: LPPMiniTileWhiteEndWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_end_w
+
+- type: decal
+  id: LPPMiniTileWhiteLineNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_line_n
+
+- type: decal
+  id: LPPMiniTileWhiteLineES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_line_e
+
+- type: decal
+  id: LPPMiniTileWhiteLineSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_line_s
+
+- type: decal
+  id: LPPMiniTileWhiteLineWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/minitile-s.rsi
+    state: white_line_w

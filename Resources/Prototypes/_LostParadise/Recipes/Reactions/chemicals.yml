@@ -1,0 +1,41 @@
+- type: reaction
+  id: Heamotoxic
+  reactants:
+    Iron:
+      amount: 1
+    Aluminium:
+      amount: 1
+    Plasma:
+      amount: 1
+  products:
+    Heamotoxic: 3
+
+- type: reaction
+  id: Lucipherium
+  impact: medium
+  reactants:
+    Heamotoxic:
+      amount: 1
+    Sulfur:
+      amount: 1
+    Plasma:
+      amount: 1
+      catalyst: false
+  products:
+    Lucipherium: 3
+
+- type: reaction
+  id: Necrotoxins
+  hideFromGuide: true
+  reactants:
+    Heamotoxic:
+      amount: 1
+    Lucipherium:
+      amount: 1
+    Radium:
+      amount: 1
+    Plasma:
+      amount: 1
+      catalyst: true
+  products:
+    Necrotoxins: 3

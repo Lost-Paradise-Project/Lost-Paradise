@@ -1,0 +1,300 @@
+- type: entity
+  id: LPPBasePalm
+  description: Yep, it's a palm.
+  abstract: true
+  components:
+  - type: SpriteFade
+  - type: Clickable
+  - type: Sprite
+    sprite: _LostParadise/Objects/Decoration/Flora/palms.rsi
+    drawdepth: Overdoors
+    offset: 0,0.9
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.35,-0.4,0.35,0.4"
+        density: 1000
+        layer:
+        - WallLayer
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Wood
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        path: /Audio/Effects/chop.ogg
+        params:
+          variation: 0.05
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/tree_fell.ogg
+          params:
+            volume: 5
+            variation: 0.05
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          Log:
+            min: 2
+            max: 8
+
+- type: entity
+  parent: LPPBasePalm
+  id: LPPpalm01
+  name: palm
+  components:
+  - type: Sprite
+    state: palm01
+
+- type: entity
+  parent: LPPBasePalm
+  id: LPPpalm02
+  name: palm
+  components:
+  - type: Sprite
+    state: palm02
+
+- type: entity
+  parent: LPPBasePalm
+  id: LPPpalm03
+  name: palm
+  components:
+  - type: Sprite
+    state: palm03
+
+- type: entity
+  parent: LPPBasePalm
+  id: LPPpalm04
+  name: palm
+  components:
+  - type: Sprite
+    state: palm04
+
+- type: entity
+  parent: LPPBasePalm
+  id: LPPpalm05
+  name: palm
+  components:
+  - type: Sprite
+    state: palm05
+
+- type: entity
+  parent: LPPBasePalm
+  id: LPPpalm06
+  name: palm
+  components:
+  - type: Sprite
+    state: palm06
+
+
+- type: entity
+  id: LPPBaseCactusBig
+  description: Yep, it's a cactus.
+  abstract: true
+  components:
+  - type: SpriteFade
+  - type: Clickable
+  - type: Sprite
+    sprite: _LostParadise/Objects/Decoration/Flora/cactus_big.rsi
+    drawdepth: Overdoors
+    offset: 0,0.9
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.35,-0.4,0.35,0.4"
+        density: 1000
+        layer:
+        - WallLayer
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Wood
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        path: /Audio/Effects/chop.ogg
+        params:
+          variation: 0.05
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/tree_fell.ogg
+          params:
+            volume: 5
+            variation: 0.05
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          Log:
+            min: 2
+            max: 8
+
+- type: entity
+  parent: LPPBaseCactusBig
+  id: LPPcactus01
+  name: cactus
+  components:
+  - type: Sprite
+    state: tree01
+
+- type: entity
+  parent: LPPBaseCactusBig
+  id: LPPcactus02
+  name: cactus
+  components:
+  - type: Sprite
+    state: tree02
+
+- type: entity
+  parent: LPPBaseCactusBig
+  id: LPPcactus03
+  name: cactus
+  components:
+  - type: Sprite
+    state: tree03
+
+- type: entity
+  parent: LPPBaseCactusBig
+  id: LPPcactus04
+  name: cactus
+  components:
+  - type: Sprite
+    state: tree04
+
+- type: entity
+  parent: LPPBaseCactusBig
+  id: LPPcactus05
+  name: cactus
+  components:
+  - type: Sprite
+    state: tree05
+
+
+- type: entity
+  id: LPPBaseCactusSmall
+  description: Yep, it's a cactus.
+  abstract: true
+  components:
+  - type: SpriteFade
+  - type: Clickable
+  - type: Sprite
+    sprite: _LostParadise/Objects/Decoration/Flora/cactus_small.rsi
+    drawdepth: Overdoors
+    offset: 0,0.9
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.35,-0.4,0.35,0.4"
+        density: 1000
+        layer:
+        - WallLayer
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Wood
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        path: /Audio/Effects/chop.ogg
+        params:
+          variation: 0.05
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/tree_fell.ogg
+          params:
+            volume: 5
+            variation: 0.05
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          Log:
+            min: 2
+            max: 8
+
+- type: entity
+  parent: LPPBaseCactusSmall
+  id: LPPSmallCactus01
+  name: cactus
+  components:
+  - type: Sprite
+    state: tree01
+
+- type: entity
+  parent: LPPBaseCactusSmall
+  id: LPPSmallCactus02
+  name: cactus
+  components:
+  - type: Sprite
+    state: tree02
+
+- type: entity
+  parent: LPPBaseCactusSmall
+  id: LPPSmallCactus03
+  name: cactus
+  components:
+  - type: Sprite
+    state: tree03
+
+- type: entity
+  parent: LPPBaseCactusSmall
+  id: LPPSmallCactus04
+  name: cactus
+  components:
+  - type: Sprite
+    state: tree04
+
+- type: entity
+  parent: LPPBaseCactusSmall
+  id: LPPSmallCactus05
+  name: cactus
+  components:
+  - type: Sprite
+    state: tree05

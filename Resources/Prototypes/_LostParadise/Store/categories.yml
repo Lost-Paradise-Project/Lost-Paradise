@@ -1,0 +1,125 @@
+
+#Emergency Responce Team
+
+- type: storeCategory
+  id: LPPERTWeapon
+  name: store-category-ert-weapon
+  priority: 0
+
+- type: storeCategory
+  id: LPPERTArmor
+  name: store-category-ert-armor
+  priority: 1
+
+- type: storeCategory
+  id: LPPERTAmmo
+  name: store-category-ert-ammo
+  priority: 2
+
+- type: storeCategory
+  id: LPPERTMedicine
+  name: store-category-ert-med
+  priority: 3
+
+- type: storeCategory
+  id: LPPERTEngineering
+  name: store-category-ert-eng
+  priority: 4
+
+- type: storeCategory
+  id: LPPERTUnlethal
+  name: store-category-ert-unlethal
+  priority: 5
+
+- type: storeCategory
+  id: LPPERTImplants
+  name: store-category-ert-implants
+  priority: 6
+
+#- type: storeCategory
+#  id: ERTAllies
+#  name: store-category-ert-allies
+#  priority: 7
+
+
+
+# Chemical Biological Undead Radiation Nuclear Defence
+
+- type: storeCategory
+  id: LPPCBURNWeapon
+  name: store-category-cburn-weapon
+  priority: 0
+
+- type: storeCategory
+  id: LPPCBURNArmor
+  name: store-category-cburn-armor
+  priority: 1
+
+- type: storeCategory
+  id: LPPCBURNAmmo
+  name: store-category-cburn-ammo
+  priority: 2
+
+- type: storeCategory
+  id: LPPCBURNEngineering
+  name: store-category-cburn-eng
+  priority: 3
+
+- type: storeCategory
+  id: LPPCBURNMedicine
+  name: store-category-cburn-med
+  priority: 4
+
+- type: storeCategory
+  id: LPPCBURNImplants
+  name: store-category-cburn-implants
+  priority: 5
+
+#- type: storeCategory
+#  id: CBURNAllies
+#  name: store-category-cburn-allies
+#  priority: 5
+
+
+
+# Special Force Delta
+
+- type: storeCategory
+  id: LPPDeltaWeapon
+  name: store-category-delta-weapon
+  priority: 0
+
+- type: storeCategory
+  id: LPPDeltaArmor
+  name: store-category-delta-armor
+  priority: 1
+
+- type: storeCategory
+  id: LPPDeltaAmmo
+  name: store-category-delta-ammo
+  priority: 2
+
+- type: storeCategory
+  id: LPPDeltaMedicine
+  name: store-category-delta-med
+  priority: 3
+
+- type: storeCategory
+  id: LPPDeltaEngineering
+  name: store-category-delta-eng
+  priority: 4
+
+- type: storeCategory
+  id: LPPDeltaUnlethal
+  name: store-category-delta-unlethal
+  priority: 5
+
+- type: storeCategory
+  id: LPPDeltaImplants
+  name: store-category-delta-implants
+  priority: 6
+
+#- type: storeCategory
+#  id: DeltaAllies
+#  name: store-category-delta-allies
+#  priority: 7

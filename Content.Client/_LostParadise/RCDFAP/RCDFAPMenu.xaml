@@ -13,13 +13,13 @@
     <!-- Entry layer (shows main categories) -->
     <ui:RadialContainer Name="Main" VerticalExpand="True" HorizontalExpand="True" Radius="64" ReserveSpaceForHiddenChildren="False">
         <ui:RadialMenuTextureButton StyleClasses="RadialMenuButton" SetSize="64 64" ToolTip="{Loc 'rcd-component-DisposalPipe'}" TargetLayer="DisposalPipe" Visible="False">
-            <TextureRect VerticalAlignment="Center" HorizontalAlignment="Center" TextureScale="2 2" TexturePath="/Textures/LPP/Interface/Radial/RCDFAP/DisposalPipe.png"/>
+            <TextureRect VerticalAlignment="Center" HorizontalAlignment="Center" TextureScale="2 2" TexturePath="/Textures/_LostParadise/Interface/Radial/RCDFAP/DisposalPipe.png"/>
         </ui:RadialMenuTextureButton>
         <ui:RadialMenuTextureButton StyleClasses="RadialMenuButton" SetSize="64 64" ToolTip="{Loc 'rcd-component-Gaspipes'}" TargetLayer="Gaspipes" Visible="False">
-            <TextureRect VerticalAlignment="Center" HorizontalAlignment="Center" TextureScale="2 2" TexturePath="/Textures/LPP/Interface/Radial/RCDFAP/Gaspipes.png"/>
+            <TextureRect VerticalAlignment="Center" HorizontalAlignment="Center" TextureScale="2 2" TexturePath="/Textures/_LostParadise/Interface/Radial/RCDFAP/Gaspipes.png"/>
         </ui:RadialMenuTextureButton>
         <ui:RadialMenuTextureButton StyleClasses="RadialMenuButton" SetSize="64 64" ToolTip="{Loc 'rcd-component-Devices'}" TargetLayer="Devices" Visible="False">
-            <TextureRect VerticalAlignment="Center" HorizontalAlignment="Center" TextureScale="2 2" TexturePath="/Textures/LPP/Interface/Radial/RCDFAP/Devices.png"/>
+            <TextureRect VerticalAlignment="Center" HorizontalAlignment="Center" TextureScale="2 2" TexturePath="/Textures/_LostParadise/Interface/Radial/RCDFAP/Devices.png"/>
         </ui:RadialMenuTextureButton>
     </ui:RadialContainer>
 

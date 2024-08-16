@@ -1,0 +1,40 @@
+- type: storePreset
+  id: LPPStorePresetERT
+  storeName: ERT Tactical Shop
+  categories:
+  - LPPERTWeapon
+  - LPPERTAmmo
+  - LPPERTArmor
+  - LPPERTMedicine
+  - LPPERTEngineering
+  - LPPERTUnlethal
+  - LPPERTImplants
+  currencyWhitelist:
+  - Telecrystal
+
+- type: storePreset
+  id: LPPStorePresetCBURN
+  storeName: CBURN Tactical Shop
+  categories:
+  - LPPCBURNWeapon
+  - LPPCBURNAmmo
+  - LPPCBURNArmor
+  - LPPCBURNMedicine
+  - LPPCBURNEngineering
+  - LPPCBURNImplants
+  currencyWhitelist:
+  - Telecrystal
+
+- type: storePreset
+  id: LPPStorePresetDelta
+  storeName: Delta Tactical Shop
+  categories:
+  - LPPDeltaWeapon
+  - LPPDeltaAmmo
+  - LPPDeltaArmor
+  - LPPDeltaMedicine
+  - LPPDeltaEngineering
+  - LPPDeltaUnlethal
+  - LPPDeltaImplants
+  currencyWhitelist:
+  - Telecrystal

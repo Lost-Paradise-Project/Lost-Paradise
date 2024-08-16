@@ -1,0 +1,71 @@
+- type: entity
+  id: BorgChassisMedicalKiti
+  parent: [BaseBorgChassisNT]
+  name: medical cyborg
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Mobs/Silicon/medibot_syndicat.rsi
+    layers:
+    - state: medibot1
+      map: ["movement"]
+    - state: medibot1
+      map: ["enum.BorgVisualLayers.Light"]
+      visible: false
+    - state: medibot1
+      map: ["light"]
+      visible: false
+  - type: SpriteMovement
+    movementLayers:
+      movement:
+        state: medibot1
+    noMovementLayers:
+      movement:
+        state: medibot1
+  - type: SiliconLawProvider
+    laws: LPPNTDefaultMedicalLaws
+  - type: BorgChassis
+    maxModules: 4
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - BorgModuleMedical
+    hasMindState: medibot1
+    noMindState: medibot1
+    name: киборг-доктор
+  - type: Construction
+    node: medical
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Medical
+    - Binary
+    - Common
+    - Science
+  - type: ActiveRadio
+    channels:
+    - Medical
+    - Binary
+    - Common
+    - Science
+  - type: AccessReader
+    access: [["Medical"], ["Command"], ["Research"]]
+  - type: ShowHealthBars
+    damageContainers:
+    - Biological
+  - type: ShowHealthIcons
+    damageContainers:
+    - Biological
+  - type: Inventory
+    templateId: borgDutch
+  - type: TTS # Corvax-TTS
+    voice: Vally
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHoverBorg
+  - type: InteractionPopup
+    interactSuccessString: petting-success-generic
+    interactFailureString: petting-failure-generic
+    interactSuccessSound:
+      path: /Audio/Ambience/Objects/periodic_beep.ogg
+  - type: PointLight
+    color: "#009dd6"
+    energy: 15

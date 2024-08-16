@@ -1,0 +1,75 @@
+﻿- type: entity
+  save: false
+  name: Urist McHands The Elf
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobElf
+  abstract: true
+  components:
+  - type: Hunger
+    starvationDamage:
+      types:
+        Cold: 0.5
+        Bloodloss: 0.5
+  - type: Thirst
+  - type: Perishable
+  - type: Icon
+    sprite: Mobs/Species/Slime/parts.rsi
+    state: full
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 2
+    damageRecovery:
+      types:
+        Asphyxiation: -1.0
+  - type: Sprite
+    noRot: true
+    drawdepth: Mobs
+    scale: 1, 1.2
+  - type: Body
+    prototype: Elf
+    requiredLegs: 2
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+  - type: Fixtures
+    fixtures: # TODO: This needs a second fixture just for mob collisions.
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.40
+        density: 80
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: Vocal
+    sounds:
+      Male: MaleHuman
+      Female: FemaleHuman
+      Unsexed: FemaleHuman
+  # - type: EmotePanel
+    race: Elf
+  - type: LanguageSpeaker
+    speaks:
+    - GalacticCommon
+    - LPPElfLang
+    understands:
+    - GalacticCommon
+    - LPPElfLang
+
+- type: entity
+  save: false
+  name: Urist McHands
+  parent: MobHumanDummy
+  id: MobElfDummy
+  categories: [ HideSpawnMenu ]
+  description: A dummy human meant to be used in character setup.
+  components:
+  - type: Sprite
+    noRot: true
+    drawdepth: Mobs
+    scale: 1, 1.2

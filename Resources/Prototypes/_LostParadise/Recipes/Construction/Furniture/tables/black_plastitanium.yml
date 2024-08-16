@@ -1,0 +1,36 @@
+#______________________________________#
+#________________Каркас________________#
+#______________________________________#
+- type: construction
+  name: каркас пластитан
+  id: LPPBlackPlasTitaniumRplasma
+  graph: PlasTitanium
+  startNode: start
+  targetNode: LPPBlackPlasTitaniumRplasma
+  category: construction-category-structures
+  description: Что то мрачное и темное...
+  conditions:
+    - !type:TileNotBlocked
+  icon:
+    sprite: _LostParadise/Structures/Furniture/Tables/BlackPlastitanium/black_plastitanium_rplasma.rsi
+    state: full
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+
+- type: construction
+  name: каркас титан
+  id: LPPTitaniumRplasma
+  graph: Titanium
+  startNode: start
+  targetNode: LPPTitaniumRplasma
+  category: construction-category-structures
+  description: Что то красивое и белое...
+  conditions:
+    - !type:TileNotBlocked
+  icon:
+    sprite: _LostParadise/Structures/Furniture/Tables/Titanium/frame_rplasma.rsi
+    state: full
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false

@@ -1,0 +1,29 @@
+- type: cargoProduct
+  id: LPPCrateDEMOCRACYhasLanded
+  icon:
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/M4A1.rsi
+    state: icon
+  product: LPPCrateDEMOCRACY
+  cost: 15000
+  category: cargoproduct-category-name-security
+  group: market
+
+- type: cargoProduct
+  id: LPPCratehunterHasLanded
+  icon:
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/marsrifle.rsi
+    state: icon
+  product: LPPCratehunter
+  cost: 15000
+  category: cargoproduct-category-name-security
+  group: market
+
+- type: cargoProduct
+  id: LPPCrateVintageDEMOCRACYhasLanded
+  icon:
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/m1a.rsi
+    state: icon
+  product: LPPCrateVintageDEMOCRACY
+  cost: 19000
+  category: cargoproduct-category-name-security
+  group: market

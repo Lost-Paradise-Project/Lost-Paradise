@@ -1,0 +1,474 @@
+# - type: entity
+#   id: WindowDiagonal
+#   name: window diagonal
+#   placement:
+#     mode: SnapgridCenter
+#     snap:
+#     - Window
+#   components:
+#   - type: Construction
+#     graph: LPPWindow
+#     node: WindowDiagonal
+#   - type: Transform
+#     anchored: true
+#   - type: Clickable
+#   - type: Tag
+#     tags:
+#     - Window
+#   - type: Sprite
+#     drawdepth: Walls
+#     sprite: _LostParadise/Structures/Windows/CornerGlass/corner-window.rsi
+#     state: state0
+#     noRot: false
+#   - type: IconSmooth
+#     mode: Diagonal
+#     key: walls
+#     base: state
+#   - type: Icon
+#     sprite: _LostParadise/Structures/Windows/CornerGlass/corner-window.rsi
+#     state: state0
+#   - type: Damageable
+#     damageContainer: Inorganic
+#     damageModifierSet: Metallic
+#   - type: Physics
+#     bodyType: Static
+#   - type: Pullable
+#   - type: Airtight
+#     noAirWhenFullyAirBlocked: false
+#     airBlockedDirection:
+#     - South
+#     - East
+#   - type: Fixtures
+#     fixtures:
+#       fix1:
+#         shape:
+#           !type:PolygonShape
+#             vertices:
+#             - "-0.5,-0.5"
+#             - "0.5,0.5"
+#             - "0.5,-0.5"
+#         mask:
+#         - FullTileMask
+#         layer:
+#         - WallLayer
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 150
+#       behaviors:
+#         - !type:DoActsBehavior
+#           acts: [ "Destruction" ]
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 50
+#       behaviors:
+#       - !type:PlaySoundBehavior
+#         sound:
+#           path: /Audio/Effects/glass_step.ogg
+#       - !type:DoActsBehavior
+#         acts: ["Destruction"]
+#     destroySound:
+#       path: /Audio/Effects/glass_hit.ogg
+#   - type: InteractionPopup
+#     interactSuccessString: comp-window-knock
+#     messagePerceivedByOthers: comp-window-knock
+#     interactSuccessSound:
+#       path: /Audio/Effects/glass_knock.ogg
+
+# - type: entity
+#   id: ReinforcedCornerWindow
+#   name: reinforced corner window
+#   placement:
+#     mode: SnapgridCenter
+#     snap:
+#     - Window
+#   components:
+#   - type: Construction
+#     graph: LPPWindow
+#     node: ReinforcedCornerWindow
+#   - type: Transform
+#     anchored: true
+#   - type: Clickable
+#   - type: Tag
+#     tags:
+#     - Window
+#   - type: Sprite
+#     drawdepth: Walls
+#     sprite: _LostParadise/Structures/Windows/CornerGlass/reinforced-corner-window.rsi
+#     state: state0
+#     noRot: false
+#   - type: IconSmooth
+#     mode: Diagonal
+#     key: walls
+#     base: state
+#   - type: Icon
+#     sprite: _LostParadise/Structures/Windows/CornerGlass/reinforced-corner-window.rsi
+#     state: state0
+#   - type: Damageable
+#     damageContainer: Inorganic
+#     damageModifierSet: Metallic
+#   - type: Physics
+#     bodyType: Static
+#   - type: Pullable
+#   - type: Airtight
+#     noAirWhenFullyAirBlocked: false
+#     airBlockedDirection:
+#     - South
+#     - East
+#   - type: Fixtures
+#     fixtures:
+#       fix1:
+#         shape:
+#           !type:PolygonShape
+#             vertices:
+#             - "-0.5,-0.5"
+#             - "0.5,0.5"
+#             - "0.5,-0.5"
+#         mask:
+#         - FullTileMask
+#         layer:
+#         - WallLayer
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 300
+#       behaviors:
+#         - !type:DoActsBehavior
+#           acts: [ "Destruction" ]
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 150
+#       behaviors:
+#       - !type:PlaySoundBehavior
+#         sound:
+#           path: /Audio/Effects/glass_step.ogg
+#       - !type:DoActsBehavior
+#         acts: ["Destruction"]
+#     destroySound:
+#       path: /Audio/Effects/glass_hit.ogg
+#   - type: InteractionPopup
+#     interactSuccessString: comp-window-knock
+#     messagePerceivedByOthers: comp-window-knock
+#     interactSuccessSound:
+#       path: /Audio/Effects/glass_knock.ogg
+
+# #---------------------плазма--------------
+
+# - type: entity
+#   id: PlasmaCornerWindow
+#   name: plasma corner window
+#   placement:
+#     mode: SnapgridCenter
+#     snap:
+#     - Window
+#   components:
+#   - type: Construction
+#     graph: LPPWindow
+#     node: PlasmaCornerWindow
+#   - type: Transform
+#     anchored: true
+#   - type: Clickable
+#   - type: Tag
+#     tags:
+#     - Window
+#   - type: Sprite
+#     drawdepth: Walls
+#     sprite: _LostParadise/Structures/Windows/CornerGlass/plasma-corner-window.rsi
+#     state: state0
+#     noRot: false
+#   - type: IconSmooth
+#     mode: Diagonal
+#     key: walls
+#     base: state
+#   - type: Icon
+#     sprite: _LostParadise/Structures/Windows/CornerGlass/plasma-corner-window.rsi
+#     state: state0
+#   - type: Damageable
+#     damageContainer: Inorganic
+#     damageModifierSet: Metallic
+#   - type: Physics
+#     bodyType: Static
+#   - type: Pullable
+#   - type: Airtight
+#     noAirWhenFullyAirBlocked: false
+#     airBlockedDirection:
+#     - South
+#     - East
+#   - type: Fixtures
+#     fixtures:
+#       fix1:
+#         shape:
+#           !type:PolygonShape
+#             vertices:
+#             - "-0.5,-0.5"
+#             - "0.5,0.5"
+#             - "0.5,-0.5"
+#         mask:
+#         - FullTileMask
+#         layer:
+#         - WallLayer
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 200
+#       behaviors:
+#         - !type:DoActsBehavior
+#           acts: [ "Destruction" ]
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 100
+#       behaviors:
+#       - !type:PlaySoundBehavior
+#         sound:
+#           path: /Audio/Effects/glass_step.ogg
+#       - !type:DoActsBehavior
+#         acts: ["Destruction"]
+#     destroySound:
+#       path: /Audio/Effects/glass_hit.ogg
+#   - type: InteractionPopup
+#     interactSuccessString: comp-window-knock
+#     messagePerceivedByOthers: comp-window-knock
+#     interactSuccessSound:
+#       path: /Audio/Effects/glass_knock.ogg
+
+
+
+# - type: entity
+#   id: ReinforcedPlasmaWindowCorner
+#   name: reinforced plasma window corner
+#   placement:
+#     mode: SnapgridCenter
+#     snap:
+#     - Window
+#   components:
+#   - type: Construction
+#     graph: LPPWindow
+#     node: ReinforcedPlasmaWindowCorner
+#   - type: Transform
+#     anchored: true
+#   - type: Clickable
+#   - type: Tag
+#     tags:
+#     - Window
+#   - type: Sprite
+#     drawdepth: Walls
+#     sprite: _LostParadise/Structures/Windows/CornerGlass/reinforced-plasma-window-corner.rsi
+#     state: state0
+#     noRot: false
+#   - type: IconSmooth
+#     mode: Diagonal
+#     key: walls
+#     base: state
+#   - type: Icon
+#     sprite: _LostParadise/Structures/Windows/CornerGlass/reinforced-plasma-window-corner.rsi
+#     state: state0
+#   - type: Damageable
+#     damageContainer: Inorganic
+#     damageModifierSet: Metallic
+#   - type: Physics
+#     bodyType: Static
+#   - type: Pullable
+#   - type: Airtight
+#     noAirWhenFullyAirBlocked: false
+#     airBlockedDirection:
+#     - South
+#     - East
+#   - type: Fixtures
+#     fixtures:
+#       fix1:
+#         shape:
+#           !type:PolygonShape
+#             vertices:
+#             - "-0.5,-0.5"
+#             - "0.5,0.5"
+#             - "0.5,-0.5"
+#         mask:
+#         - FullTileMask
+#         layer:
+#         - WallLayer
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 1000
+#       behaviors:
+#         - !type:DoActsBehavior
+#           acts: [ "Destruction" ]
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 600
+#       behaviors:
+#       - !type:PlaySoundBehavior
+#         sound:
+#           path: /Audio/Effects/glass_step.ogg
+#       - !type:DoActsBehavior
+#         acts: ["Destruction"]
+#     destroySound:
+#       path: /Audio/Effects/glass_hit.ogg
+#   - type: InteractionPopup
+#     interactSuccessString: comp-window-knock
+#     messagePerceivedByOthers: comp-window-knock
+#     interactSuccessSound:
+#       path: /Audio/Effects/glass_knock.ogg
+
+# #--------------------уран---------------
+
+# - type: entity
+#   id: UraiumCornerWindow
+#   name: uraium corner window
+#   placement:
+#     mode: SnapgridCenter
+#     snap:
+#     - Window
+#   components:
+#   - type: Construction
+#     graph: LPPWindow
+#     node: UraiumCornerWindow
+#   - type: Transform
+#     anchored: true
+#   - type: Clickable
+#   - type: Tag
+#     tags:
+#     - Window
+#   - type: Sprite
+#     drawdepth: Walls
+#     sprite: _LostParadise/Structures/Windows/CornerGlass/uraium-corner-window.rsi
+#     state: state0
+#     noRot: false
+#   - type: IconSmooth
+#     mode: Diagonal
+#     key: walls
+#     base: state
+#   - type: Icon
+#     sprite: _LostParadise/Structures/Windows/CornerGlass/uraium-corner-window.rsi
+#     state: state0
+#   - type: Damageable
+#     damageContainer: Inorganic
+#     damageModifierSet: Metallic
+#   - type: Physics
+#     bodyType: Static
+#   - type: Pullable
+#   - type: Airtight
+#     noAirWhenFullyAirBlocked: false
+#     airBlockedDirection:
+#     - South
+#     - East
+#   - type: Fixtures
+#     fixtures:
+#       fix1:
+#         shape:
+#           !type:PolygonShape
+#             vertices:
+#             - "-0.5,-0.5"
+#             - "0.5,0.5"
+#             - "0.5,-0.5"
+#         mask:
+#         - FullTileMask
+#         layer:
+#         - WallLayer
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 400
+#       behaviors:
+#         - !type:DoActsBehavior
+#           acts: [ "Destruction" ]
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 150
+#       behaviors:
+#       - !type:PlaySoundBehavior
+#         sound:
+#           path: /Audio/Effects/glass_step.ogg
+#       - !type:DoActsBehavior
+#         acts: ["Destruction"]
+#     destroySound:
+#       path: /Audio/Effects/glass_hit.ogg
+#   - type: InteractionPopup
+#     interactSuccessString: comp-window-knock
+#     messagePerceivedByOthers: comp-window-knock
+#     interactSuccessSound:
+#       path: /Audio/Effects/glass_knock.ogg
+
+# - type: entity
+#   id: ReinforcedUraniumWindowCorner
+#   name: reinforced uranium window corner
+#   placement:
+#     mode: SnapgridCenter
+#     snap:
+#     - Window
+#   components:
+#   - type: Construction
+#     graph: LPPWindow
+#     node: ReinforcedUraniumWindowCorner
+#   - type: Transform
+#     anchored: true
+#   - type: Clickable
+#   - type: Tag
+#     tags:
+#     - Window
+#   - type: Sprite
+#     drawdepth: Walls
+#     sprite: _LostParadise/Structures/Windows/CornerGlass/reinforced-uranium-window-corner.rsi
+#     state: state0
+#     noRot: false
+#   - type: IconSmooth
+#     mode: Diagonal
+#     key: walls
+#     base: state
+#   - type: Icon
+#     sprite: _LostParadise/Structures/Windows/CornerGlass/reinforced-uranium-window-corner.rsi
+#     state: state0
+#     noRot: false
+#   - type: Damageable
+#     damageContainer: Inorganic
+#     damageModifierSet: Metallic
+#   - type: Physics
+#     bodyType: Static
+#   - type: Pullable
+#   - type: Airtight
+#     noAirWhenFullyAirBlocked: false
+#     airBlockedDirection:
+#     - South
+#     - East
+#   - type: Fixtures
+#     fixtures:
+#       fix1:
+#         shape:
+#           !type:PolygonShape
+#             vertices:
+#             - "-0.5,-0.5"
+#             - "0.5,0.5"
+#             - "0.5,-0.5"
+#         mask:
+#         - FullTileMask
+#         layer:
+#         - WallLayer
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 1500
+#       behaviors:
+#         - !type:DoActsBehavior
+#           acts: [ "Destruction" ]
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 850
+#       behaviors:
+#       - !type:PlaySoundBehavior
+#         sound:
+#           path: /Audio/Effects/glass_step.ogg
+#       - !type:DoActsBehavior
+#         acts: ["Destruction"]
+#     destroySound:
+#       path: /Audio/Effects/glass_hit.ogg
+#   - type: InteractionPopup
+#     interactSuccessString: comp-window-knock
+#     messagePerceivedByOthers: comp-window-knock
+#     interactSuccessSound:
+#       path: /Audio/Effects/glass_knock.ogg

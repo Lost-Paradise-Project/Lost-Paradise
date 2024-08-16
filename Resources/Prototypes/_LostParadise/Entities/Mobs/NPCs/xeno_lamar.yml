@@ -1,0 +1,54 @@
+- type: entity
+  id: LPPXenoLamarSafe
+  name: Лицехват
+  parent: SimpleSpaceMobBase
+  description: Это маленькое нечто забавно пританцовывает на своих ножках, желая запрыгнуть вам на лицо.
+  suffix: Безопасный
+  components:
+  - type: Insulated
+  - type: Clothing
+    #sprite: /Uploaded/lamar.rsi
+    sprite: _LostParadise/Mobs/NPCs/lamar.rsi
+    slots: [mask]
+  - type: Blindfold
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 2
+    baseSprintSpeed : 2
+  - type: MovedByPressure
+  - type: Pullable
+  - type: Item
+  - type: Physics
+  - type: Sprite
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: alive
+      #sprite: /Uploaded/lamar.rsi
+      sprite: _LostParadise/Mobs/NPCs/lamar.rsi
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+  - type: NpcFactionMember
+    factions:
+    - Xeno
+  - type: MobState
+    allowedStates:
+      - Alive
+      - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      60: Dead
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: alive
+      Dead:
+        Base: dead
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - MonkeyWearable
+    - HamsterWearable
+    - WhitelistChameleon

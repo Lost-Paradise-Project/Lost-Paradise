@@ -1,0 +1,62 @@
+﻿- type: marking
+  id: LPPAllsuccubus
+  bodyPart: Tail
+  markingCategory: Tail
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
+      state: succubus
+
+- type: marking
+  id: LPPTailLisichkaBolsh
+  bodyPart: Tail
+  markingCategory: Tail
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
+      state: vulptail_s2_lisichka_bolsh
+
+- type: marking
+  id: LPPTailLisichka
+  bodyPart: Tail
+  markingCategory: Tail
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
+      state: vulptail_s2_lisichka
+
+- type: marking
+  id: LPPTailLisichkaPushok
+  bodyPart: Tail
+  markingCategory: Tail
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
+      state: vulptail_s2_pushok
+
+- type: marking
+  id: LPPTailLisichkaPyatna
+  bodyPart: Tail
+  markingCategory: Tail
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
+      state: vulptail_s2_pyatna
+
+- type: marking
+  id: LPPTailVulptail
+  bodyPart: Tail
+  markingCategory: Tail
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
+      state: vulptail_s2
+
+- type: marking
+  id: LPPSevenTail
+  bodyPart: Tail
+  markingCategory: Tail
+  sponsorOnly: true
+  sprites:
+    - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
+      state: seventail

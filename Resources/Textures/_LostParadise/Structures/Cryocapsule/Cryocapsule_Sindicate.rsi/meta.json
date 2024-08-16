@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/31d88c7454e429a64fbae4a9f7b4aecaf838e9a1",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "closed",
+      "directions": 4
+    },
+    { "name": "icon",
+      "directions": 4
+    },
+    { "name": "base",
+      "directions": 4
+    },
+    {
+      "name": "open",
+      "directions": 4
+    }
+  ]
+}

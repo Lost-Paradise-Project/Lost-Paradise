@@ -1,0 +1,894 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitAdjutant
+  name: adjutant's jumpsuit
+  description: #Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/adjutant_suite.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/adjutant_suite.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPCargotechjean
+  name: Techjean
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/cargotechjean.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/cargotechjean.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaCargo
+  name: Gorka
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/gorka_cargo.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/gorka_cargo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaCargoVarg
+  name: Gorka Varg
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/gorka_cargo_varg.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/gorka_cargo_varg.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmcCargo
+  name: Qmc
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/qmc.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/qmc.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmsyndCargo
+  name: Qmsynd
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/qmsynd.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/qmsynd.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefCargo
+  name: supply chief
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/supply_chief.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/supply_chief.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPTurtleneckQmCargo
+  name: turtleneck qm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/turtleneck_qm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/turtleneck_qm.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPUtilCargo
+  name: Util
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/util_cargo.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/util_cargo.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitBlueClown
+  name: blue clown suit
+  description: HONK! but blue
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/blue-clown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/blue-clown.rsi
+    femaleMask: UniformTop
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitGreenClown
+  name: green clown suit
+  description: HONK! but green
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/green-clown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/green-clown.rsi
+    femaleMask: UniformTop
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitOrangeClown
+  name: orange clown suit
+  description: HONK! but orange
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/orange-clown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/orange-clown.rsi
+    femaleMask: UniformTop
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitPurpleClown
+  name: purple clown suit
+  description: HONK! but purple
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/purple-clown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/purple-clown.rsi
+    femaleMask: UniformTop
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitRainbowClown
+  name: rainbow clown suit
+  description: HONK! but rainbow
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/rainbow-clown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/rainbow-clown.rsi
+    femaleMask: UniformTop
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitYellowClown
+  name: yellow clown suit
+  description: HONK! but yellow
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/yellow-clown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/yellow-clown.rsi
+    femaleMask: UniformTop
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPAtmostechjean
+  name: Techjean atmos
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/atmos_techjean.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/atmos_techjean.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaAtmos
+  name: Gorka atmos
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/gorka_atmos.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/gorka_atmos.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaWithReflectorsAtmos
+  name: Gorka with reflectors atmos
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/gorka_atmos_varg.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/gorka_atmos_varg.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmcAtmos
+  name: Qmc atmos
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/qmc.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/qmc.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmsyndAtmos
+  name: Qmsynd atmos
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/qmsynd.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/qmsynd.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefAtmos
+  name: supply chief atmos
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/supply_chief.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/supply_chief.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPTurtleneckQmAtmos
+  name: turtleneck qm atmos
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/turtleneck_qm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/turtleneck_qm.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPUtilAtmos
+  name: Util atmos
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/util_atmos.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/util_atmos.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPEngiTechjean
+  name: Techjean engi
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/engineers_techjean.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/engineers_techjean.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaEngi
+  name: Gorka engi
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/gorka_engineers.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/gorka_engineers.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaWithReflectorsEngi
+  name: Gorka with reflectors engi
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/gorka_engineers_varg.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/gorka_engineers_varg.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmcEngi
+  name: Qmc engi
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/qmc.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/qmc.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmsyndEngi
+  name: Qmsynd engi
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/qmsynd.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/qmsynd.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefEngi
+  name: supply chief engi
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/supply_chief.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/supply_chief.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPTurtleneckQmEngi
+  name: turtleneck qm engi
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/turtleneck_qm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/turtleneck_qm.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPUtilEngi
+  name: Util engi
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/util_engineers.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/util_engineers.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitPG
+  name: PG jumpsuit
+  description: Jumpsuit for all PG army's needs
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/WTF/pg-uniform.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/WTF/pg-uniform.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9 # Those overalls ARE sturdy.
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformBlackJumpsuitPG
+  name: black PG jumpsuit
+  description: Jumpsuit for all PG elite stealth army's needs
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/WTF/pg-black-uniform.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/WTF/pg-black-uniform.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9 # Those overalls ARE sturdy.
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformSnowJumpsuitPG
+  name: snow PG jumpsuit
+  description: Jumpsuit for all PG army's needs
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/WTF/snow-pg-uniform.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/WTF/snow-pg-uniform.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9 # Those overalls ARE sturdy.
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformDesertJumpsuitPG
+  name: desert PG jumpsuit
+  description: Jumpsuit for all PG army's needs
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/WTF/desert-pg-uniform.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/WTF/desert-pg-uniform.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9 # Those overalls ARE sturdy.
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPBlackFlannelJumpsuit
+  name: black flannel jumpsuit
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/WTF/black-flannel.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/WTF/black-flannel.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGreenFlannelJumpsuit
+  name: green flannel jumpsuit
+  description:
+  components:
+  - type: Sprite
+    sprite:  _LostParadise/Clothing/Uniforms/WTF/green-flannel.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/WTF/green-flannel.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPOrangeFlannelJumpsuit
+  name: orange flannel jumpsuit
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/WTF/orange-flannel.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/WTF/orange-flannel.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitFluppi
+  name: pink jumpsuit
+  description: "Just looking at this makes you feel fabulous."
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/FluppiClothing.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/FluppiClothing.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitSecEngineer
+  name: security engineer jumpskirt
+  description: A jumpsuit made of strong material, providing robust protection.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/Engineer/securityEngineerJumpSuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/Engineer/securityEngineerJumpSuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPMedictechjean
+  name: Techjean
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/medictechjean.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/medictechjean.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaMedic
+  name: Gorka
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/gorka_medic.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/gorka_medic.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaMedicVarg
+  name: Gorka Varg
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/gorka_medic_varg.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/gorka_medic_varg.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmcMedic
+  name: Qmc
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/qmc.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/qmc.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmsyndMedic
+  name: Qmsynd
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/qmsynd.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/qmsynd.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefMedic
+  name: supply chief
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/supply_chief.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/supply_chief.rs
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPTurtleneckQmMedic
+  name: turtleneck qm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/turtleneck_qm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/turtleneck_qm.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPUtilMedic
+  name: Util
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/util_medic.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/util_medic.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaVirology
+  name: Gorka Virology
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/gorka_virology.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/gorka_virology.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaVirologyVarg
+  name: Gorka Virology Varg
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/gorka_virology_varg.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/gorka_virology_varg.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmcVirology
+  name: Qmc Vorology
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/qmc_virology.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/qmc_virology.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmcSyndVirology
+  name: Qmc Synd Vorology
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/qm_synd_virology.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/qm_synd_virology.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefVirology
+  name: Supply Chief
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/supply_chief.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/supply_chief.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPTurtleneckQM
+  name: Turtleneck QM
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/turtleneck_qm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/turtleneck_qm.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPUtilVirology
+  name: Util Virology
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/util_virology.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/util_virology.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPVirologyTechjean
+  name: Virology Techjean
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/virologytechjean.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/medic/virology/virologytechjean.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPRndtechjean
+  name: Techjean
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/rnd/rndtechjean.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/rnd/rndtechjean.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaRnd
+  name: Gorka
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/rnd/gorka_rnd.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/rnd/gorka_rnd.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaRndVarg
+  name: Gorka Varg
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/rnd/gorka_rnd_varg.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/rnd/gorka_rnd_varg.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmcRnd
+  name: Qmc
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/rnd/qmc.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/rnd/qmc.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmsyndRnd
+  name: Qmsynd
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/rnd/qmsynd.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/rnd/qmsynd.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefRnd
+  name: supply chief
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/rnd/supply_chief.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/rnd/supply_chief.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPTurtleneckQmRnd
+  name: turtleneck qm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/rnd/turtleneck_qm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/rnd/turtleneck_qm.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPUtilRnd
+  name: Util
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/rnd/util_rnd.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/rnd/util_rnd.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSectechjean
+  name: Techjean
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/sectechjean.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/sectechjean.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaSec
+  name: Gorka
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/gorka_sec.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/gorka_sec.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPGorkaSecVarg
+  name: Gorka Varg
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/gorka_sec_varg.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/gorka_sec_varg.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmcSec
+  name: Qmc
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/qmc.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/qmc.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPQmsyndSec
+  name: Qmsynd
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/qmsynd.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/qmsynd.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPSupplyChiefSec
+  name: supply chief
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/supply_chief.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/supply_chief.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPTurtleneckQmSec
+  name: turtleneck qm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/turtleneck_qm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/turtleneck_qm.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPUtilSec
+  name: Util
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/util_sec.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/util_sec.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPTacticoolSec
+  name: Tacticool
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Sec/tacticool_sec.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Sec/tacticool_sec.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitExpeditor
+  name: expeditor jumpsuit
+  description: Jumpsuit for expeditor needs
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/expeditor.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/expeditor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformBlackTracksuit
+  name: black tracksuit
+  description: black tracksuit for sports in any situation.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/blacksportsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/blacksportsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformBlueTracksuit
+  name: blue tracksuit
+  description: blue tracksuit for sports in any situation.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/bluesportsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/bluesportsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformRedTracksuit
+  name: red tracksuit
+  description: red tracksuit for sports in any situation.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/redsportsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/redsportsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformGreenTracksuit
+  name: green tracksuit
+  description: greeb tracksuit for sports in any situation.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/greensportsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/greensportsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformSkiletsScientistJumpsuit
+  name: scientist jumpsuit
+  description: White scientist costume for beautiful people.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Skilets/skilets_uniforms.rsi
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Skilets/skilets_uniforms.rsi

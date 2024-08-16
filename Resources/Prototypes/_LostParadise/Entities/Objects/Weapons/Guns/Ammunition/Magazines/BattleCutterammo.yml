@@ -1,0 +1,38 @@
+- type: entity
+  name: заряд боевого резака
+  id: LPPWeaponCutterMagazine
+  parent: BaseItem
+  components:
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,2,0
+    storedRotation: -90
+  - type: Battery
+    pricePerJoule: 0.15
+    maxCharge: 2500
+    startingCharge: 2500
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Ammunition/Magazine/battlecuttercartridge.rsi
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: small
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: o2
+  - type: SolutionContainerManager
+    solutions:
+      battery:
+        maxVol: 7
+  - type: InjectableSolution
+    solution: battery
+  - type: DrawableSolution
+    solution: battery
+  - type: Tag
+    tags:
+      - PowerCell
+  - type: Appearance
+  - type: PowerCellVisuals
+  - type: Riggable
+  - type: ProjectileBatteryAmmoProvider
+    proto: battlecuttershot
+    fireCost: 125

@@ -1,0 +1,71 @@
+{
+    "version": 2,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Draw by Skilets: https://github.com/Skilets",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "botanist"
+        },
+        {
+            "name": "botanist-l"
+        },
+        {
+            "name": "botanist-r"
+        },
+        {
+            "name": "dark"
+        },
+        {
+            "name": "dark-l"
+        },
+        {
+            "name": "dark-m"
+        },
+        {
+            "name": "dark-r"
+        },
+        {
+            "name": "medstairs"
+        },
+        {
+            "name": "medstairs-l"
+        },
+        {
+            "name": "medstairs-m"
+        },
+        {
+            "name": "medstairs-r"
+        },
+        {
+            "name": "stairs"
+        },
+        {
+            "name": "stairs-l"
+        },
+        {
+            "name": "stairs-m"
+        },
+        {
+            "name": "stairs-r"
+        },
+        {
+            "name": "stairs-fil"
+        },
+        {
+            "name": "wooden"
+        },
+        {
+            "name": "wooden-l"
+        },
+        {
+            "name": "wooden-m"
+        },
+        {
+            "name": "wooden-r"
+        }
+    ]
+}

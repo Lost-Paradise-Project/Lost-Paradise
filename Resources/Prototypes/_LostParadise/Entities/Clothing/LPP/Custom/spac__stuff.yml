@@ -1,0 +1,34 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCutsomSpac
+  name: Fox stuff
+  suffix: Личное, Шпак
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Custom/Spac_stuff.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPCutsomOtchimOver
+    requiredSlot:
+    - neck
+    slot: head
+  - type: Tag
+    tags:
+    - ClothMade
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPCutsomSpacOver
+  name: Fox ears
+  categories: [ HideSpawnMenu ]
+  suffix: Личное, Шпак
+  components:
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Custom/Spac_stuff.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Custom/Spac_stuff.rsi

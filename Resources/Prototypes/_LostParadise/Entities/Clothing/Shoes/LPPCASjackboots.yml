@@ -1,0 +1,14 @@
+# - type: entity
+#   parent: ClothingShoesStorageBase
+#   id: LPPCASjackboots
+#   name: Ботинки CAS
+#   description: Чёрно-белые ботинки.
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/Clothing/Shoes/Boots/_LostParadiseCASjackboots.rsi
+#   - type: Clothing
+#     sprite: _LostParadise/Clothing/Shoes/Boots/_LostParadiseCASjackboots.rsi
+#   - type: Storage
+#     whitelist:
+#       tags:
+#         - Knife

@@ -345,7 +345,7 @@ public sealed class StationAiSystem : SharedStationAISystem
     }
 
     private static readonly SoundSpecifier AiDeath =
-        new SoundPathSpecifier("/Audio/LPP/IPC/borg_deathsound.ogg");
+        new SoundPathSpecifier("/Audio/_LostParadise/IPC/borg_deathsound.ogg");
 
     private void OnMobStateChanged(EntityUid uid, StationAIComponent component, MobStateChangedEvent args)
     {

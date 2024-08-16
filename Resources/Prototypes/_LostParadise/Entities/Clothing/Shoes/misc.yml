@@ -1,0 +1,22 @@
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: LPPClothingShoesClownPomni
+  name: Clown Pomni
+  description: Clown?
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/clownPomni.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/clownPomni.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingUnderSocksFluppi
+  name: coder socks
+  description: It's time to code sisters!!11!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/Floppy_socks.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/Floppy_socks.rsi
+  - type: NoSlip

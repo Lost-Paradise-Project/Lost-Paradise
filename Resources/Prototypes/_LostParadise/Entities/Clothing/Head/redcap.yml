@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatCapRed
+  name: red cap
+  description: A stylish red cap.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Caps/redcap.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Caps/redcap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon

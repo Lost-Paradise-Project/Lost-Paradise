@@ -1,0 +1,48 @@
+
+- type: entity
+  id: PlastitaniumPwindow
+  parent: WindowDirectional
+  name: plastitanium pwindow
+  description: Don't smudge up the glass down there.
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Windows/directional.rsi
+    state: pwindow
+    noRot: false
+  - type: Icon
+    sprite: _LostParadise/Structures/Windows/directional.rsi
+    state: pwindow
+  - type: Construction
+    graph: PlastitaniumWindow
+    node: PlastitaniumPwindow
+  - type: Appearance
+  - type: DamageVisuals
+    thresholds: [4, 8, 12]
+    damageDivisor: 10
+    trackAllDamage: true
+    damageOverlay:
+      sprite: Structures/Windows/cracks_directional.rsi
+  - type: Damageable
+    damageModifierSet: RGlass
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 250
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: StaticPrice
+    price: 22

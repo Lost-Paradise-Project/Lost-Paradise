@@ -1,0 +1,110 @@
+- type: entity
+  abstract: true
+  id: BaseItemCabinet
+  components:
+  - type: Openable
+    openOnActivate: true
+    closeable: true
+    sound:
+      path: /Audio/Machines/machine_switch.ogg
+    closeSound:
+      path: /Audio/Machines/machine_switch.ogg
+  - type: ItemCabinet
+  - type: ItemSlots
+  - type: ContainerContainer
+    containers:
+      ItemCabinet: !type:ContainerSlot
+  - type: Appearance
+  # perfect for most things but you can always replace it
+  - type: GenericVisualizer
+    visuals:
+      enum.ItemCabinetVisuals.ContainsItem:
+        enum.ItemCabinetVisuals.Layer:
+          True: { visible: true }
+          False: { visible: false }
+      enum.OpenableVisuals.Opened:
+        enum.OpenableVisuals.Layer:
+          True: { state: open }
+          False: { state: closed }
+
+- type: entity
+  abstract: true
+  parent: BaseItemCabinet
+  id: BaseItemCabinetGlass
+  components:
+  - type: GenericVisualizer
+    visuals:
+      enum.ItemCabinetVisuals.ContainsItem:
+        enum.ItemCabinetVisuals.Layer:
+          True: { visible: true }
+          False: { visible: false }
+      enum.OpenableVisuals.Opened:
+        enum.OpenableVisuals.Layer:
+          True: { state: glass-up }
+          False: { state: glass }
+
+- type: entity
+  parent: BaseItemCabinetGlass
+  id: LPPHammerCabinet
+  name: шкаф для штурмового молота
+  description: На контейнере есть маленькая этикетка на которой написано "Только для ломания структур!". Ну да, ну да.. так и поверил.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Glass
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 300
+        behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+      - trigger:
+          !type:DamageTrigger
+          damage: 200 #20ish crowbar hits
+        behaviors:
+        - !type:EmptyAllContainersBehaviour
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalGlassBreak
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        collection: GlassSmash
+  - type: WallMount
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Sprite
+    sprite: _LostParadise/Structures/Wallmounts/hammer_cabinet.rsi
+    layers:
+    - state: cabinet
+    - state: hammer
+      map: ["enum.ItemCabinetVisuals.Layer"]
+      visible: true
+    - state: glass
+      map: ["enum.OpenableVisuals.Layer"]
+  - type: ItemSlots
+    slots:
+      ItemCabinet:
+        ejectOnInteract: true
+        whitelist:
+          tags:
+          - LPPHammer
+  - type: Lock
+  - type: AccessReader
+    access: [["Engineering"], ["Salvage"], ["Security"]]
+
+- type: entity
+  id: LPPHammerCabinetFilled
+  parent: LPPHammerCabinet
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      ItemCabinet:
+      - LPPHammer

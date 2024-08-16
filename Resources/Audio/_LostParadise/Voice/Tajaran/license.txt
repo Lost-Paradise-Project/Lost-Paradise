@@ -1,0 +1,1 @@
+All sounds in directory are taken from SS220 github (licensed under CC-BY-SA by 3.0) at commit https://github.com/ss220-space/Paradise

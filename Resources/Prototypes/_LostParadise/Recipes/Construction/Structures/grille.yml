@@ -1,0 +1,19 @@
+#- type: construction
+#  name: угловая решотка
+#  id: SurvivalGrille
+#  graph: LPPSurvivalGrille
+#  startNode: start
+#  targetNode: SurvivalGrille
+#  category: construction-category-structures
+#  description: Главное - не троньте его если будет на проводов!
+#  conditions:
+#    - !type:TileNotBlocked
+#      failIfSpace: false
+#  icon:
+#    sprite: _LostParadise/Structures/Walls/survival_grille.rsi
+#    state: grille
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: false
+
+

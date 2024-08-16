@@ -1,0 +1,53 @@
+- type: marking
+  id: ReptilianBeard1
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_beard.rsi
+      state: beard_1
+
+- type: marking
+  id: ReptilianBeard2
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_beard.rsi
+      state: beard_2
+
+- type: marking
+  id: ReptilianBeard3
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_beard.rsi
+      state: beard_3
+
+- type: marking
+  id: ReptilianBeard4
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_beard.rsi
+      state: beard_4
+
+- type: marking
+  id: ReptilianBeard5
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_beard.rsi
+      state: beard_5
+
+- type: marking
+  id: ReptilianBeard6
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Reptilian]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/reptilian_beard.rsi
+      state: beard_6

@@ -1,0 +1,72 @@
+
+- type: entity
+  parent: LPPFloorGreenCircuitBase
+  id: LPPFloorGreenItemCircuitBaseLingering0
+  suffix: Lingering, 0
+  components:
+  - type: Stack
+    lingering: true
+    count: 0
+
+
+- type: entity
+  parent: LPPFloorBlueCircuitBase
+  id: LPPFloorBlueItemCircuitBaseLingering0
+  suffix: Lingering, 0
+  components:
+  - type: Stack
+    lingering: true
+    count: 0
+
+#---------танц-пол
+
+- type: entity
+  parent: LPPLEDDiscoFloorOjects
+  id: LPPLEDDiscoFloorOjectsLingering0
+  suffix: Lingering, 0
+  components:
+  - type: Stack
+    lingering: true
+    count: 0
+
+- type: entity
+  parent: LPPLEDDiscoFloorRotatesOjects
+  id: LPPLEDDiscoFloorRotatesOjectsLingering0
+  suffix: Lingering, 0
+  components:
+  - type: Stack
+    lingering: true
+    count: 0
+
+- type: entity
+  parent: LPPLEDDiscoFloorRotatesHalfwayOjects
+  id: LPPLEDDiscoFloorRotatesHalfwayOjectsLingering0
+  suffix: Lingering, 0
+  components:
+  - type: Stack
+    lingering: true
+    count: 0
+
+
+
+#
+
+
+
+- type: entity
+  parent: LPPLEDDiscoFloorMatrix4Ojects
+  id: LPPLEDDiscoFloorMatrix4OjectsLingering0
+  suffix: Lingering, 0
+  components:
+  - type: Stack
+    lingering: true
+    count: 0
+
+- type: entity
+  parent: LPPLEDDiscoFloorMatrix1Ojects
+  id: LPPLEDDiscoFloorMatrix1OjectsLingering0
+  suffix: Lingering, 0
+  components:
+  - type: Stack
+    lingering: true
+    count: 0

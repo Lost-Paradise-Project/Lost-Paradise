@@ -1,0 +1,30 @@
+- type: entity
+  id: LPPBlackCarpet
+  parent: CarpetBase
+  name: "black carpet"
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Furniture/Carpets/black_carpet.rsi
+  - type: Icon
+    sprite: _LostParadise/Structures/Furniture/Carpets/black_carpet.rsi
+
+- type: entity
+  id: LPPMonochromeCarpet
+  parent: CarpetBase
+  name: "monochrome carpet"
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Furniture/Carpets/carpet_monochrome.rsi
+  - type: Icon
+    sprite: _LostParadise/Structures/Furniture/Carpets/carpet_monochrome.rsi
+
+- type: entity
+  id: LPPBlackRedCarpet
+  parent: CarpetBase
+  name: "blackred carpet"
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Furniture/Carpets/carpet_blackred.rsi
+  - type: Icon
+    sprite: _LostParadise/Structures/Furniture/Carpets/carpet_blackred.rsi
+

@@ -1,0 +1,28 @@
+- type: entity
+  name: bluespace plant  bag
+  id: BluespacePlantBag
+  parent: BaseStorageItem
+  description: A bag for botanists to easily move their huge harvests.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Hydronics/Equipment/plant_bag_bluespace.rsi
+    state: icon
+  - type: Item
+    size: Normal
+    sprite: _LostParadise/Objects/Specific/Hydronics/Equipment/plant_bag_bluespace.rsi
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - belt
+  - type: Storage
+    grid:
+    - 0,0,19,9
+    maxItemSize: Small
+    quickInsert: true
+    areaInsert: true
+    whitelist:
+      components:
+        - Produce
+        - Seed
+  - type: Dumpable
+

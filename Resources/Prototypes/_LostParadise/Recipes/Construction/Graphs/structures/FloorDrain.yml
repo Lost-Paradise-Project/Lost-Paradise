@@ -1,0 +1,23 @@
+- type: constructionGraph
+  id: FloorDrain
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: FloorDrain
+          completed:
+            - !type:SnapToGrid
+              southRotation: true
+          steps:
+            - material: Plasteel
+              amount: 10
+              doAfter: 1
+
+    - node: FloorDrain
+      entity: FloorDrain
+      edges:
+        - to: start
+          completed:
+          - !type:SpawnPrototype
+                prototype: Plasteel
+                amount: 10

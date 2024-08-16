@@ -1,0 +1,9 @@
+- type: cargoProduct
+  id: FunRingBox
+  icon:
+    sprite: _LostParadise/Objects/Misc/RingBox.rsi
+    state: box
+  product: RingBox
+  cost: 8000
+  category: Fun
+  group: market

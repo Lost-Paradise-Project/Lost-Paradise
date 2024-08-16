@@ -1,0 +1,588 @@
+#weapon
+- type: listing
+  id: LPPCBURNCatalogWeaponMk58
+  name: cburn-catalog-weapon-mk58-name
+  description: cburn-catalog-weapon-mk58-desc
+  productEntity: WeaponPistolMk58
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPCBURNWeapon
+
+- type: listing
+  id: LPPCBURNCatalogWeaponLecter
+  name: cburn-catalog-weapon-lecter-name
+  description: cburn-catalog-weapon-lecter-desc
+  productEntity: WeaponRifleLecter
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPCBURNWeapon
+
+- type: listing
+  id: LPPCBURNCatalogWeaponKammerer
+  name: cburn-catalog-weapon-kammerer-name
+  description: cburn-catalog-weapon-kammerer-desc
+  productEntity: WeaponShotgunKammerer
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPCBURNWeapon
+
+- type: listing
+  id: LPPCBURNCatalogWeaponEnforcer
+  name: cburn-catalog-weapon-enforcer-name
+  description: cburn-catalog-weapon-enforcer-desc
+  productEntity: WeaponShotgunEnforcer
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNWeapon
+
+- type: listing
+  id: LPPCBURNCatalogWeaponBulldog
+  name: cburn-catalog-weapon-bulldog-name
+  description: cburn-catalog-weapon-bulldog-desc
+  productEntity: WeaponShotgunBulldog
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPCBURNWeapon
+
+- type: listing
+  id: LPPCBURNCatalogWeaponPulseCarbine
+  name: cburn-catalog-weapon-pulsecarbine-name
+  description: cburn-catalog-weapon-pulsecarbine-desc
+  productEntity: WeaponPulseCarbine
+  cost:
+    Telecrystal: 10
+  categories:
+  - LPPCBURNWeapon
+
+#armor
+- type: listing
+  id: LPPCBURNCatalogArmorBiohazardSuit
+  name: cburn-catalog-armor-biohazard-suit-name
+  description: cburn-catalog-armor-biohazard-suit-desc
+  productEntity: CrateGenericBiosuit
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPCBURNArmor
+
+- type: listing
+  id: LPPCBURNCatalogArmorRadiationSuit
+  name: cburn-catalog-armor-radiation-suit-name
+  description: cburn-catalog-armor-radiation-suit-desc
+  productEntity: CrateEmergencyRadiation
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPCBURNArmor
+
+- type: listing
+  id: LPPCBURNCatalogArmorFireSuit
+  name: cburn-catalog-armor-firesuit-name
+  description: cburn-catalog-armor-firesuit-desc
+  productEntity: LPPCrateFireSuit
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPCBURNArmor
+
+- type: listing
+  id: LPPCBURNCatalogArmorExosuit
+  name: cburn-catalog-armor-exosuit-name
+  description: cburn-catalog-armor-exosuit-desc
+  productEntity: ClothingOuterHardsuitCBURN
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPCBURNArmor
+
+- type: listing
+  id: LPPCBURNCatalogArmorExosuitCommander
+  name: cburn-catalog-armor-exosuit-com-name
+  description: cburn-catalog-armor-exosuit-com-desc
+  productEntity: ClothingOuterHardsuitCBURNLeader
+  cost:
+    Telecrystal: 10
+  categories:
+  - LPPCBURNArmor
+
+- type: listing
+  id: LPPCBURNCatalogArmorGasMask
+  name: cburn-catalog-armor-gas-mask-name
+  description: cburn-catalog-armor-gas-mask-desc
+  productEntity: ClothingMaskGasERT
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNArmor
+
+- type: listing
+  id: LPPCBURNCatalogArmorAirTank
+  name: cburn-catalog-armor-airtank-name
+  description: cburn-catalog-armor-airtank-desc
+  productEntity: AirTankFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPCBURNArmor
+
+- type: listing
+  id: LPPCBURNCatalogArmorOxygenTank
+  name: cburn-catalog-armor-oxytank-double-name
+  description: cburn-catalog-armor-oxytank-double-desc
+  productEntity: DoubleEmergencyOxygenTankFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPCBURNArmor
+
+- type: listing
+  id: LPPCBURNCatalogArmorNitrogenTankFilled
+  name: cburn-catalog-armor-nitrotank-double-name
+  description: cburn-catalog-armor-nitrotank-double-desc
+  productEntity: DoubleEmergencyNitrogenTankFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPCBURNArmor
+
+- type: listing
+  id: LPPCBURNCatalogArmorJetpack
+  name: cburn-catalog-armor-jetpack-name
+  description: cburn-catalog-armor-jetpack-desc
+  productEntity: JetpackVoidFilled
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNArmor
+
+- type: listing
+  id: LPPCBURNCatalogArmorMagboots
+  name: cburn-catalog-armor-magboots-name
+  description: cburn-catalog-armor-magboots-desc
+  productEntity: ClothingShoesBootsMagSci
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPCBURNArmor
+
+- type: listing
+  id: LPPCBURNCatalogArmorMagbootsAdv
+  name: cburn-catalog-armor-magboots-adv-name
+  description: cburn-catalog-armor-magboots-adv-desc
+  productEntity: ClothingShoesBootsMagAdv
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPCBURNArmor
+
+#- type: listing
+#  id: LPPCBURNCatalogArmorHudSec
+#  name: cburn-catalog-armor-hud-sec-name
+#  description: cburn-catalog-armor-hud-sec-desc
+#  productEntity: LPPRedHudGlasses
+#  cost:
+#    Telecrystal: 4
+#  categories:
+#  - LPPCBURNArmor
+
+- type: listing
+  id: LPPCBURNCatalogArmorHudMedSec
+  name: cburn-catalog-armor-hud-secmed-name
+  description: cburn-catalog-armor-hud-secmed-desc
+  productEntity: ClothingEyesHudMedSec
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNArmor
+
+#ammo
+- type: listing
+  id: LPPCBURNCatalogAmmoBoxShotgunTranquilizer
+  name: cburn-catalog-ammo-box-shotgun-tranquilizer-name
+  description: cburn-catalog-ammo-box-shotgun-tranquilizer-desc
+  productEntity: BoxShellTranquilizer
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNAmmo
+
+- type: listing
+  id: LPPCBURNCatalogAmmoBoxShotgunIncendiary
+  name: cburn-catalog-ammo-box-shotgun-incendiary-name
+  description: cburn-catalog-ammo-box-shotgun-incendiary-desc
+  productEntity: BoxShotgunIncendiary
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPCBURNAmmo
+
+- type: listing
+  id: LPPCBURNCatalogAmmoBoxMagazineRifleIncendiary
+  name: cburn-catalog-ammo-box-magazine-rifle-incendiary-name
+  description: cburn-catalog-ammo-box-magazine-rifle-incendiary-desc
+  productEntity: MagazineBoxRifleIncendiary
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPCBURNAmmo
+
+#- type: listing
+#  id: LPPCBURNCatalogAmmoBoxMagazineRifleRubber
+#  name: cburn-catalog-ammo-box-magazine-rifle-rubber-name
+#  description: cburn-catalog-ammo-box-magazine-rifle-rubber-desc
+#  productEntity: BoxMagazineRifleRubber
+#  cost:
+#    Telecrystal: 3
+#  categories:
+#  - LPPCBURNAmmo
+
+- type: listing
+  id: LPPCBURNCatalogAmmoBoxMagazineRifle
+  name: cburn-catalog-ammo-box-magazine-rifle-name
+  description: cburn-catalog-ammo-box-magazine-rifle-desc
+  productEntity: BoxMagazineRifle
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNAmmo
+
+#- type: listing
+#  id: LPPCBURNCatalogAmmoMagazinePistolRubber
+#  name: cburn-catalog-ammo-magazine-pistol-rubber-name
+#  description: cburn-catalog-ammo-magazine-pistol-rubber-desc
+#  productEntity: MagazinePistolRubber
+#  cost:
+#    Telecrystal: 1
+#  categories:
+#  - LPPCBURNAmmo
+
+- type: listing
+  id: LPPCBURNCatalogAmmoMagazineBoxPistol
+  name: cburn-catalog-ammo-magazine-box-pistol-name
+  description: cburn-catalog-ammo-magazine-box-pistol-desc
+  productEntity: MagazineBoxPistol
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPCBURNAmmo
+
+- type: listing
+  id: LPPCBURNCatalogAmmoMagazineBoxPistolIncendiary
+  name: cburn-catalog-ammo-magazine-box-pistol-incendiary-name
+  description: cburn-catalog-ammo-magazine-box-pistol-incendiary-desc
+  productEntity: MagazineBoxPistolIncendiary
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPCBURNAmmo
+
+- type: listing
+  id: LPPCBURNCatalogAmmoBelt
+  name: cburn-catalog-ammo-belt-name
+  description: cburn-catalog-ammo-belt-desc
+  productEntity: ClothingBeltAssault
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNAmmo
+
+- type: listing
+  id: LPPCBURNCatalogAmmoBandolier
+  name: cburn-catalog-ammo-bandolier-name
+  description: cburn-catalog-ammo-bandolier-desc
+  productEntity: ClothingBeltBandolier
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNAmmo
+
+#engineering
+#- type: listing
+#  id: LPPCBURNCatalogEngineeringHammer
+#  name: cburn-catalog-engineering-hammer-name
+#  description: cburn-catalog-engineering-hammer-desc
+#  productEntity: LPPHammer
+#  cost:
+#    Telecrystal: 5
+#  categories:
+#  - LPPCBURNEngineering
+
+- type: listing
+  id: LPPCBURNCatalogEngineeringCrowbar
+  name: cburn-catalog-engineering-crowbar-name
+  description: cburn-catalog-engineering-crowbar-desc
+  productEntity: CrowbarRed
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPCBURNEngineering
+
+#medicine
+- type: listing
+  id: LPPCBURNCatalogMedicineMedkitBrute
+  name: cburn-catalog-medicine-medkit-brute-name
+  description: cburn-catalog-medicine-medkit-brute-desc
+  productEntity: MedkitBruteFilled
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineMedkitBurn
+  name: cburn-catalog-medicine-medkit-burn-name
+  description: cburn-catalog-medicine-medkit-burn-desc
+  productEntity: MedkitBurnFilled
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineMedkitOxygen
+  name: cburn-catalog-medicine-medkit-oxygen-name
+  description: cburn-catalog-medicine-medkit-oxygen-desc
+  productEntity: MedkitOxygenFilled
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineMedkitToxin
+  name: cburn-catalog-medicine-medkit-toxin-name
+  description: cburn-catalog-medicine-medkit-toxin-desc
+  productEntity: MedkitToxinFilled
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineMedkitRadiation
+  name: cburn-catalog-medicine-medkit-radiation-name
+  description: cburn-catalog-medicine-medkit-radiation-desc
+  productEntity: MedkitRadiationFilled
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineBackpackSurgery
+  name: cburn-catalog-medicine-backpack-surgery-name
+  description: cburn-catalog-medicine-backpack-surgery-desc
+  productEntity: ClothingBackpackDuffelSurgeryFilled
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineAmbuzolSyringe
+  name: cburn-catalog-medicine-ambuzol-syringe-name
+  description: cburn-catalog-medicine-ambuzol-syringe-desc
+  productEntity: LPPClothingBackpackDuffelVirologyCBURNAmbuzolSyringe
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineAmbuzolPill
+  name: cburn-catalog-medicine-ambuzol-pill-name
+  description: cburn-catalog-medicine-ambuzol-pill-desc
+  productEntity: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPill
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineAmbuzolPlusSyringe
+  name: cburn-catalog-medicine-ambuzolplus-syringe-name
+  description: cburn-catalog-medicine-ambuzolplus-syringe-desc
+  productEntity: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPlusSyringe
+  cost:
+    Telecrystal: 7
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineAmbuzolPlusPill
+  name: cburn-catalog-medicine-ambuzolplus-pill-name
+  description: cburn-catalog-medicine-ambuzolplus-pill-desc
+  productEntity: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPlusPill
+  cost:
+    Telecrystal: 8
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineSpaceacillinSyringe
+  name: cburn-catalog-medicine-spaceacillin-syringe-name
+  description: cburn-catalog-medicine-spaceacillin-syringe-desc
+  productEntity: LPPClothingBackpackDuffelVirologyCBURNSpaceacillinSyringe
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineSpaceacillinPill
+  name: cburn-catalog-medicine-spaceacillin-pill-name
+  description: cburn-catalog-medicine-spaceacillin-pill-desc
+  productEntity: LPPClothingBackpackDuffelVirologyCBURNSpaceacillinPill
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineBiomass
+  name: cburn-catalog-medicine-biomass-name
+  description: cburn-catalog-medicine-biomass-desc
+  productEntity: MaterialBiomass
+  cost:
+    Telecrystal: 10
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineBelt
+  name: cburn-catalog-medicine-belt-name
+  description: cburn-catalog-medicine-belt-desc
+  productEntity: ClothingBeltMedicalEMTFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineHypospray
+  name: cburn-catalog-medicine-hypospray-name
+  description: cburn-catalog-medicine-hypospray-desc
+  productEntity: Hypospray
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineBottleStimulants
+  name: cburn-catalog-medicine-bottle-stimulants-name
+  description: cburn-catalog-medicine-bottle-stimulants-desc
+  productEntity: LPPChemistryBottleStimulant
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineBottleEpinephrine
+  name: cburn-catalog-medicine-bottle-epinephrine-name
+  description: cburn-catalog-medicine-bottle-epinephrine-desc
+  productEntity: EpinephrineChemistryBottle
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineBottleOmnizine
+  name: cburn-catalog-medicine-bottle-omnizine-name
+  description: cburn-catalog-medicine-bottle-omnizine-desc
+  productEntity: OmnizineChemistryBottle
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPCBURNMedicine
+
+- type: listing
+  id: LPPCBURNCatalogMedicineBottleEphedrine
+  name: cburn-catalog-medicine-bottle-ephedrine-name
+  description: cburn-catalog-medicine-bottle-ephedrine-desc
+  productEntity: EphedrineChemistryBottle
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPCBURNMedicine
+
+#Implants
+- type: listing
+  id: LPPCBURNCatalogImplantsTracker
+  name: cburn-catalog-implants-tracker-name
+  description: cburn-catalog-implants-tracker-desc
+  productEntity: CrateTrackingImplants
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPCBURNImplants
+
+- type: listing
+  id: LPPCBURNCatalogImplantsFreedom
+  name: cburn-catalog-implants-freedom-name
+  description: cburn-catalog-implants-freedom-desc
+  productEntity: LPPCrateFreedomImplants
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPCBURNImplants
+
+- type: listing
+  id: LPPCBURNCatalogImplantsAcidifier
+  name: cburn-catalog-implants-acidifier-name
+  description: cburn-catalog-implants-acidifier-desc
+  productEntity: LPPCrateAcidifierImplants
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPCBURNImplants
+
+#- type: listing
+#  id: LPPCBURNCatalogImplantsLanguage
+#  name: cburn-catalog-implants-language-name
+#  description: cburn-catalog-implants-language-desc
+#  productEntity: LPPCrateLanguageImplants
+#  cost:
+#    Telecrystal: 4
+#  categories:
+#  - LPPCBURNImplants
+
+# !!!НЕ ДЕКОМЕНТИТЬ ТО ЧТО СНИЗУ!!!
+
+#Allies
+#- type: listing
+#  id: CBURNCatalogAlliesBorgEng
+#  name: CBURN-catalog-allies-borg-eng-name
+#  description: CBURN-catalog-allies-borg-eng-desc
+#  productEntity: LPPBorgChassisEngineeringCBURN
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - CBURNAllies
+
+#- type: listing
+#  id: CBURNCatalogAlliesBorgMed
+#  name: CBURN-catalog-allies-borg-med-name
+#  description: CBURN-catalog-allies-borg-med-desc
+#  productEntity: LPPBorgChassisMedicalCBURN
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - CBURNAllies
+
+#- type: listing
+#  id: CBURNCatalogAlliesBorgSec
+#  name: CBURN-catalog-allies-borg-sec-name
+#  description: CBURN-catalog-allies-borg-sec-desc
+#  productEntity: LPPDSOBorgSecurity
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - CBURNAllies

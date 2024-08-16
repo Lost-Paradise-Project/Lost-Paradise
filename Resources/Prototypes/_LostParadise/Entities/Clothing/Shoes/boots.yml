@@ -1,0 +1,104 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: LPPGlowShoes
+  name: glow shoes
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/glow_shoes.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/glow_shoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: LPPIceboots
+  name: iceboots
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/iceboots.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/iceboots.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: LPPRainBow
+  name: rain bow
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/rain_bow.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/rain_bow.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: LPPSwagShoes
+  name: swag shoes
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/swag_shoes.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/swag_shoes.rsi
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: LPPWhiteShoes
+  name: white laceup shoes
+  description: The height of fashion, and they're pre-polished!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/white_laceups.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/white_laceups.rsi
+
+- type: entity
+  parent: ClothingShoesBootsJack
+  id: LPPClothingShoesBootsJackSecEnginer
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Clothing/Shoes/Boots/jackboots_sec_enginer.rsi
+    - type: Clothing
+      sprite: _LostParadise/Clothing/Shoes/Boots/jackboots_sec_enginer.rsi
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: LPPClothingShoesBootsCombatPG
+  name: PG combat boots
+  description: boots for all the PG needs.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/pg-boots.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/pg-boots.rsi
+  - type: Storage
+    whitelist:
+      tags:
+        - Knife
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: LPPUnathiWraps
+  name: unathi wraps
+  description: Unathi Wraps.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/unathiwraps.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/unathiwraps.rsi
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: LPPClothingShoesBootsNPZ
+  name: Сапоги НПЗ
+  description: Нет, вы не перепутали обувь цветами, это такой стиль.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/upgjackboots.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/upgjackboots.rsi
+  - type: Storage
+    whitelist:
+      tags:
+        - Knife

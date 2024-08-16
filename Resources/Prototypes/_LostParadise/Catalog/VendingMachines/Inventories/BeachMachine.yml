@@ -1,0 +1,22 @@
+- type: vendingMachineInventory
+  id: BeachVendingMachineServitorInventory
+  startingInventory:
+    LPPBikinisBlack: 3
+    LPPBikinisCyan: 3
+    LPPBikinisGreen: 3
+    LPPBikinisLatex: 3
+    LPPBikinisOrange: 3
+    LPPBikinisPurple: 3
+    LPPBikinisRed: 3
+    LPPBikinisTealblack: 3
+    LPPBikinisWhite: 3
+    LPPBikinisYellow: 3
+    LPPSwimmingTrunksBlack: 3
+    LPPSwimmingTrunksCyan: 3
+    LPPSwimmingTrunksGreen: 3
+    LPPSwimmingTrunksRed: 3
+    LPPSwimmingTrunksOrange: 3
+    LPPSwimmingTrunksWhite: 3
+    LPPSwimmingTrunksTealblack: 3
+    LPPSwimmingTrunksYellow: 3
+    LPPClothingBeltFlamingo: 3

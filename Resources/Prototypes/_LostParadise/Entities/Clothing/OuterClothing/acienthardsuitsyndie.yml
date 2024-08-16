@@ -1,0 +1,35 @@
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitAcientSyndie
+  name: древний скафандр Синдиката
+  description: Очень странная модель скафандра Ядерных Оперативников, явно нестандартной конфигурации и будто бы не из нашей вселенной, на стопе красуется вырезанный текст- "Скафандр Мика, DS1, Дэесдвашники- руки прочь!".
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi
+  - type: Item
+    size: Huge
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.05
+    sprintModifier: 1.05
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.40
+        Piercing: 0.35
+        Heat: 0.25
+        Radiation: 0.05
+        Caustic: 0.3
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: BiocodedClothing
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingMaskAcientSyndie
+    requiredSlot:
+    - outerclothing
+    slot: mask

@@ -1,0 +1,13 @@
+- type: entity
+  id: LPPCrateMedicalCloneMachine
+  parent: CrateMedical
+  name: Набор клонирующей машины
+  components:
+  - type: StorageFill
+    contents:
+      - id: CloningConsoleComputerCircuitboard
+        amount: 1
+      - id: CloningPodMachineCircuitboard
+        amount: 1
+      - id: MedicalScannerMachineCircuitboard
+        amount: 1

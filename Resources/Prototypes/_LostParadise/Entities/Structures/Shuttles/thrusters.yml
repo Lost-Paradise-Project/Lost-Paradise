@@ -1,0 +1,115 @@
+- type: entity
+  id: LPPThruster2x2
+  name: thruster 2x2
+  parent: [ BaseThruster, ConstructibleMachine ]
+  components:
+  - type: Thruster
+    thrust: 250
+  - type: Machine
+    board: ThrusterMachineCircuitboard
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+        - !type:ChangeConstructionNodeBehavior
+          node: machineFrame
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.35,-1.35,1.35,0.35"
+        density: 120
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: Sprite
+    sprite: _LostParadise/Structures/Shuttles/thruster-2x2.rsi
+    layers:
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+      offset: 0.5, -0.5
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      offset: 0.5, -0.5
+      shader: unshaded
+      visible: false
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
+      offset: 0.5, 2
+    - type: ApcPowerReceiver
+      powerLoad: 2000
+
+- type: entity
+  id: LPPThruster3x3
+  name: thruster 3x3
+  parent: [ BaseThruster, ConstructibleMachine ]
+  components:
+  - type: Thruster
+    thrust: 300
+  - type: Machine
+    board: ThrusterMachineCircuitboard
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+        - !type:ChangeConstructionNodeBehavior
+          node: machineFrame
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-1.35,-2.5,1.35,0.15"
+        density: 120
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: Sprite
+    sprite: _LostParadise/Structures/Shuttles/thruster-3x3.rsi
+    layers:
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+      offset: 0, -1
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      offset: 0, -1
+      shader: unshaded
+      visible: false
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
+      offset: 0, 2.9
+    - type: ApcPowerReceiver
+      powerLoad: 2500

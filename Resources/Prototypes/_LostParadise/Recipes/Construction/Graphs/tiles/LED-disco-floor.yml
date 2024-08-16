@@ -1,0 +1,115 @@
+- type: constructionGraph
+  id: LPPLEDDiscoFloorOjects
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: icon
+          steps:
+            - material: Glass
+              amount: 1
+              doAfter: 1
+            - material: Uranium
+              amount: 1
+              doAfter: 1
+            - material: Steel
+              amount: 2
+              doAfter: 1
+            - material: Cable
+              amount: 2
+              doAfter: 1
+    - node: icon
+      entity: LPPLEDDiscoFloorOjects
+
+- type: constructionGraph
+  id: LPPLEDDiscoFloorRotatesOjects
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: icon
+          steps:
+            - material: Glass
+              amount: 1
+              doAfter: 1
+            - material: Uranium
+              amount: 1
+              doAfter: 1
+            - material: Steel
+              amount: 2
+              doAfter: 1
+            - material: Cable
+              amount: 2
+              doAfter: 1
+    - node: icon
+      entity: LPPLEDDiscoFloorRotatesOjects
+
+- type: constructionGraph
+  id: LPPLEDDiscoFloorRotatesHalfwayOjects
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: icon
+          steps:
+            - material: Glass
+              amount: 1
+              doAfter: 1
+            - material: Uranium
+              amount: 1
+              doAfter: 1
+            - material: Steel
+              amount: 2
+              doAfter: 1
+            - material: Cable
+              amount: 2
+              doAfter: 1
+    - node: icon
+      entity: LPPLEDDiscoFloorRotatesHalfwayOjects
+
+#----------матрица-----------
+- type: constructionGraph
+  id: LPPLEDDiscoFloorMatrix4Ojects
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: icon
+          steps:
+            - material: Glass
+              amount: 1
+              doAfter: 1
+            - material: Uranium
+              amount: 1
+              doAfter: 1
+            - material: Steel
+              amount: 2
+              doAfter: 1
+            - material: Cable
+              amount: 2
+              doAfter: 1
+    - node: icon
+      entity: LPPLEDDiscoFloorMatrix4Ojects
+
+- type: constructionGraph
+  id: LPPLEDDiscoFloorMatrix1Ojects
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: icon
+          steps:
+            - material: Glass
+              amount: 1
+              doAfter: 1
+            - material: Uranium
+              amount: 1
+              doAfter: 1
+            - material: Steel
+              amount: 2
+              doAfter: 1
+            - material: Cable
+              amount: 2
+              doAfter: 1
+    - node: icon
+      entity: LPPLEDDiscoFloorMatrix1Ojects

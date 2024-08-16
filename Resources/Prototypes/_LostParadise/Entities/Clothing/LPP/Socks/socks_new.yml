@@ -1,0 +1,104 @@
+# These are technically shoes for now, as we don't actually have underwear. But
+# I would cry if we didn't have them. -swept
+
+- type: entity
+  parent: ClothingShoesBase
+  id: LPPClothingUnderSocksDartBee
+  name: dart bee socks
+  description: These are dark orange striped stockings for those who love honey sweets.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/New/bee.rsi
+
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksDark
+  name: dark socks
+  description: Ordinary dark stockings that will emphasize the slenderness of your legs.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/New/dark.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksDarkBlue
+  name: dark blue socks
+  description: Variation of stockings with a strip. Ideal for the beautiful half of the medbay.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/New/darkblue.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksDarkGrid
+  name: dark grid socks
+  description: A more extravagant version of stockings. Suitable for the best detachments of stations.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/New/darkgrid.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksDarkLace
+  name: dark lace socks
+  description: These chic stockings will make any heart melt.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/New/darklace.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksDarkRedLace
+  name: dark red lace socks
+  description: A variation of stockings with lace for those who like to stand out.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/New/darkredlace.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Socks/New/darkredlace.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksDarkRedLine
+  name: dark red line socks
+  description: Variation of stockings with a strip. With these stockings, your Secs officers won't have to run after intruders, as they will fall before their feet.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/New/darkredline.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksDarkWhiteLace
+  name: dark white lace socks
+  description: This elegant set of stockings will emphasize the tenderness of your fair nature.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/New/darkwhitelace.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksBlue
+  name: blue socks
+  description: These stockings will not get dirty by your interns or paramedics, no matter how much blood their patients shed.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/New/medsister.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksMime
+  name: mime socks
+  description: With these stockings, you will conquer the entire station without saying a word.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/New/mime.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksPink
+  name: pink socks
+  description: An ideal choice if you are in a movie about dolls.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/New/pinklace.rsi

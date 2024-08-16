@@ -1,0 +1,25 @@
+- type: entity
+  name: handcuffs
+  description: Used to detain criminals and other assholes.
+  id: LPPHandcuffsSpac
+  parent: BaseItem
+  suffix: Личное, Шпак
+  components:
+  - type: Item
+    size: Small
+    storedRotation: 90
+  - type: Handcuff
+    cuffedRSI: _LostParadise/Objects/Misc/Spac_staff.rsi
+    bodyIconState: body-overlay
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/Spac_staff.rsi
+    state: handcuff
+  - type: Tag
+    tags:
+    - Handcuffs
+  - type: MeleeWeapon
+    resetOnHandSelected: false
+    animation: WeaponArcDisarm
+    damage:
+      types:
+        Blunt: 0

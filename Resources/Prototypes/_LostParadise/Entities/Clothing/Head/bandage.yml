@@ -1,0 +1,23 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatBandage
+  name: face bandage
+  description: Protects the head.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/bandage.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/bandage.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPClothingEyesEyepatchBandage
+  name: bandage eyepatch
+  description: Its hurts.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/bandage-eyepatch.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/bandage-eyepatch.rsi
+  - type: EyeProtection
+    protectionTime: 5

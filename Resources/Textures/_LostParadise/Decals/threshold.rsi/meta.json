@@ -1,0 +1,47 @@
+{
+    "version": 2,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Draw by Skilets: https://github.com/Skilets",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "threshold1"
+        },
+        {
+            "name": "threshold2"
+        },
+        {
+            "name": "threshold3"
+        },
+        {
+            "name": "threshold4"
+        },
+        {
+            "name": "threshold5"
+        },
+        {
+            "name": "threshold6"
+        },
+        {
+            "name": "threshold7"
+        },
+        {
+            "name": "threshold8"
+        },
+        {
+            "name": "threshold9"
+        },
+        {
+            "name": "threshold10"
+        },
+        {
+            "name": "threshold11"
+        },
+        {
+            "name": "threshold12"
+        }
+    ]
+}

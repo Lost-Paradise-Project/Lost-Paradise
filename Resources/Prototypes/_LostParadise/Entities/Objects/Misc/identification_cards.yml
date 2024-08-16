@@ -1,0 +1,196 @@
+- type: entity
+  parent: IDCardStandard
+  id: LPPIDCardPrisoner
+  name: ID карточка заключенного
+  suffix: Prisoner
+  components:
+  - type: Sprite
+    scale: 0.55, 0.55
+    layers:
+    - state: orange
+  - type: PresetIdCard
+    job: LPPPrisoner
+
+- type: entity
+  parent: LPPIDCardPrisoner
+  id: LPPIDCardPrisoner01
+  components:
+  - type: Sprite
+    layers:
+    - state: prisoner_001
+  - type: PresetIdCard
+    job: LPPPrisoner
+
+- type: entity
+  parent: LPPIDCardPrisoner
+  id: LPPIDCardPrisoner02
+  components:
+  - type: Sprite
+    layers:
+    - state: prisoner_002
+  - type: PresetIdCard
+    job: LPPPrisoner
+
+- type: entity
+  parent: LPPIDCardPrisoner
+  id: LPPIDCardPrisoner03
+  components:
+  - type: Sprite
+    layers:
+    - state: prisoner_003
+  - type: PresetIdCard
+    job: LPPPrisoner
+
+- type: entity
+  parent: LPPIDCardPrisoner
+  id: LPPIDCardPrisoner04
+  components:
+  - type: Sprite
+    layers:
+    - state: prisoner_004
+  - type: PresetIdCard
+    job: LPPPrisoner
+
+- type: entity
+  parent: LPPIDCardPrisoner
+  id: LPPIDCardPrisoner05
+  components:
+  - type: Sprite
+    layers:
+    - state: prisoner_005
+  - type: PresetIdCard
+    job: LPPPrisoner
+
+- type: entity
+  parent: LPPIDCardPrisoner
+  id: LPPIDCardPrisoner06
+  components:
+  - type: Sprite
+    layers:
+    - state: prisoner_006
+  - type: PresetIdCard
+    job: LPPPrisoner
+
+- type: entity
+  parent: LPPIDCardPrisoner
+  id: LPPIDCardPrisoner07
+  components:
+  - type: Sprite
+    layers:
+    - state: prisoner_007
+  - type: PresetIdCard
+    job: LPPPrisoner
+
+- type: entity
+  parent: IDCardStandard
+  id: RoboticsIDCard
+  name: robotics ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idroboticist
+  - type: PresetIdCard
+    job: Roboticist
+
+- type: entity
+  parent: IDCardStandard
+  id: LPPVirologistIDCard
+  name: virology ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idvirologist
+  - type: PresetIdCard
+    job: LPPVirologist
+
+- type: entity
+  parent: IDCardStandard
+  id: LPPSecurityEnginerIDCard
+  name: security ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idsecurityenginer
+  - type: PresetIdCard
+    job: LPPSecurityEnginer
+
+- type: entity
+  parent: IDCardStandard
+  id: LPPBlueShieldOfficerIDCard
+  name: Blue Shield Officer ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: ert_security
+    - type: PresetIdCard
+      job: LPPBlueShieldOfficer
+    - type: Access
+      groups:
+      - AllAccess
+
+- type: entity
+  parent: IDCardStandard
+  id: LPPAdjutantIDCard
+  name: adjutant ID card
+  description: Adjutant ID card.
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idheadofpersonnel
+  - type: PresetIdCard
+    job: LPPAdjutant
+
+- type: entity
+  parent: IDCardStandard
+  id: LPPBrigmedicIDCard
+  name: brigmedic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idbrigmedic
+  - type: PresetIdCard
+    job: LPPBrigmedic
+
+- type: entity
+  parent: IDCardStandard
+  id: MagistrateIDCard
+  name: magistrate ID card
+  description: magistrate ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idlawyer
+    - type: PresetIdCard
+      job: Magistrate
+
+- type: entity
+  parent: IDCardStandard
+  id: ExpeditorIDCard
+  name: expeditor ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idexpeditor
+  - type: PresetIdCard
+    job: Expeditor
+
+- type: entity
+  parent: IDCardStandard
+  id: SecPilotIDCard
+  name: security pilot ID card
+  description: magistrate ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idseniorofficer
+    - type: PresetIdCard
+      job: SecPilot

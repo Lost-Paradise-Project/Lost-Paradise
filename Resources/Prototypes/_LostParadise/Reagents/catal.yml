@@ -1,0 +1,26 @@
+- type: reagent
+  id: LPPBlueCatalyst
+  name: reagent-name-bluecatalyst
+  group: Fun
+  desc: reagent-desc-bluecatalyst
+  physicalDesc: reagent-physical-desc-bluecatalyst
+  flavor: bitter
+  color: "#0900b3"
+
+- type: reagent
+  id: LPPExoticCatalyst
+  name: reagent-name-exoticcatalyst
+  group: Fun
+  desc: reagent-desc-exoticcatalyst
+  physicalDesc: reagent-physical-desc-exoticcatalyst
+  flavor: bitter
+  color: "#00b3a1"
+
+- type: reagent
+  id: LLPRedCatalyst
+  name: reagent-name-redcatalyst
+  group: Fun
+  desc: reagent-desc-redcatalyst
+  physicalDesc: reagent-physical-desc-redcatalyst
+  flavor: bitter
+  color: "#b30000"

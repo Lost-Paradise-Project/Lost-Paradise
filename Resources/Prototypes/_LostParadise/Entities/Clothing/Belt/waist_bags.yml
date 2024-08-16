@@ -1,0 +1,112 @@
+- type: entity
+  parent: ClothingBeltStorageWaistbag
+  id: LPPWaistbag01
+  name: waist bag
+  description: A waist bag meant for carrying small items.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/waistbag01.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/waistbag01.rsi
+
+- type: entity
+  parent: ClothingBeltStorageWaistbag
+  id: LPPWaistbag02
+  name: waist bag
+  description: A waist bag meant for carrying small items.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/waistbag02.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/waistbag02.rsi
+
+- type: entity
+  parent: ClothingBeltStorageWaistbag
+  id: LPPWaistbag03
+  name: waist bag
+  description: A waist bag meant for carrying small items.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/waistbag03.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/waistbag03.rsi
+
+- type: entity
+  parent: ClothingBeltStorageWaistbag
+  id: LPPWaistbag04
+  name: waist bag
+  description: A waist bag meant for carrying small items.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/waistbag04.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/waistbag04.rsi
+
+- type: entity
+  parent: ClothingBeltStorageWaistbag
+  id: LPPWaistbag05
+  name: waist bag
+  description: A waist bag meant for carrying small items.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/waistbag05.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/waistbag05.rsi
+
+- type: entity
+  parent: ClothingBeltStorageWaistbag
+  id: LPPWaistbag06
+  name: waist bag
+  description: A waist bag meant for carrying small items.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/waistbag06.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/waistbag06.rsi
+
+- type: entity
+  parent: ClothingBeltStorageWaistbag
+  id: LPPWaistbag07
+  name: waist bag
+  description: A waist bag meant for carrying small items.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/waistbag07.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/waistbag07.rsi
+
+- type: entity
+  parent: ClothingBeltStorageWaistbag
+  id: LPPWaistbag08
+  name: waist bag
+  description: A waist bag meant for carrying small items.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/waistbag08.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/waistbag08.rsi
+
+- type: entity
+  parent: ClothingBeltStorageWaistbag
+  id: LPPWaistbag09
+  name: waist bag
+  description: A waist bag meant for carrying small items.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/waistbag09.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/waistbag09.rsi
+
+- type: entity
+  parent: ClothingBeltStorageWaistbag
+  id: LPPWaistbag10
+  name: waist bag
+  description: A waist bag meant for carrying small items.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/waistbag10.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/waistbag10.rsi
+
+
+

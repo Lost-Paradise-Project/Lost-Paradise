@@ -1,0 +1,79 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPHypnogogglesPink
+  name: Hypnogoggles pink
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/hypnogoggles_pink.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/hypnogoggles_pink.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPHypnogogglesTeal
+  name: Hypnogoggles teal
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/hypnogoggles_teal.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/hypnogoggles_teal.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingLPPKblindfoldTeal
+  name: Kblindfold teal
+  description: The bind leading the blind.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/kblindfold_teal.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/kblindfold_teal.rsi
+  - type: Blindfold
+  - type: Construction
+    graph: Blindfold
+    node: blindfold
+  - type: FlashImmunity
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingLPPKblindfoldPink
+  name: Kblindfold pink
+  description: The bind leading the blind.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/kblindfold_pink.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/kblindfold_pink.rsi
+  - type: Blindfold
+  - type: Construction
+    graph: Blindfold
+    node: blindfold
+  - type: FlashImmunity
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPClothingEyesGlassesSunglassesPG
+  name: PG black protection glasses
+  description: Useful for special operations.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/Glasses/pg-black-glasses.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/Glasses/pg-black-glasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPClothingEyesGlassesNVG
+  name: PG nightvision goggles
+  description: Useful for special operations.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/nvg.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/nvg.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5

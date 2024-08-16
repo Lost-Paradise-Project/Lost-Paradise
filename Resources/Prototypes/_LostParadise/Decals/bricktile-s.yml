@@ -1,0 +1,370 @@
+
+#-------------------------------------------------#
+#-----bricktile-s---bricktile-s---bricktile-s-----#
+#-------------------------------------------------#
+
+#------------------#
+#--dark-dark-dark--#
+#------------------#
+- type: decal
+  id: LPPBrickTileDarkBoxS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_box
+
+- type: decal
+  id: LPPBrickTileDarkCornerNeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_corner_ne
+
+- type: decal
+  id: LPPBrickTileDarkCornerSeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_corner_se
+
+- type: decal
+  id: LPPBrickTileDarkCornerNwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_corner_nw
+
+- type: decal
+  id: LPPBrickTileDarkCornerSwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_corner_sw
+
+- type: decal
+  id: LPPBrickTileDarkInnerNeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_inner_ne
+
+- type: decal
+  id: LPPBrickTileDarkInnerSeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_inner_se
+
+- type: decal
+  id: LPPBrickTileDarkInnerNwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_inner_nw
+
+- type: decal
+  id: LPPBrickTileDarkInnerSwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_inner_sw
+
+- type: decal
+  id: LPPBrickTileDarkEndNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_end_n
+
+- type: decal
+  id: LPPBrickTileDarkEndES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_end_e
+
+- type: decal
+  id: LPPBrickTileDarkEndSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_end_s
+
+- type: decal
+  id: LPPBrickTileDarkEndWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_end_w
+
+- type: decal
+  id: LPPBrickTileDarkLineNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_line_n
+
+- type: decal
+  id: LPPBrickTileDarkLineES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_line_e
+
+- type: decal
+  id: LPPBrickTileDarkLineSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_line_s
+
+- type: decal
+  id: LPPBrickTileDarkLineWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: dark_line_w
+
+#---------------------#
+#--steel-steel-steel--#
+#---------------------#
+- type: decal
+  id: LPPLPPBrickTileSteelBoxS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_box
+
+- type: decal
+  id: LPPBrickTileSteelCornerNeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_corner_ne
+
+- type: decal
+  id: LPPBrickTileSteelCornerSeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_corner_se
+
+- type: decal
+  id: LPPBrickTileSteelCornerNwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_corner_nw
+
+- type: decal
+  id: LPPBrickTileSteelCornerSwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_corner_sw
+
+- type: decal
+  id: LPPBrickTileSteelInnerNeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_inner_ne
+
+- type: decal
+  id: LPPBrickTileSteelInnerSeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_inner_se
+
+- type: decal
+  id: LPPBrickTileSteelInnerNwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_inner_nw
+
+- type: decal
+  id: LPPBrickTileSteelInnerSwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_inner_sw
+
+- type: decal
+  id: LPPBrickTileSteelEndNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_end_n
+
+- type: decal
+  id: LPPBrickTileSteelEndES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_end_e
+
+- type: decal
+  id: LPPBrickTileSteelEndSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_end_s
+
+- type: decal
+  id: LPPBrickTileSteelEndWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_end_w
+
+- type: decal
+  id: LPPBrickTileSteelLineNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_line_n
+
+- type: decal
+  id: LPPBrickTileSteelLineES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_line_e
+
+- type: decal
+  id: LPPBrickTileSteelLineSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_line_s
+
+- type: decal
+  id: LPPBrickTileSteelLineWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: steel_line_w
+
+#---------------------#
+#--white-white-white--#
+#---------------------#
+- type: decal
+  id: LPPBrickTileWhiteBoxS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_box
+
+- type: decal
+  id: LPPBrickTileWhiteCornerNeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_corner_ne
+
+- type: decal
+  id: LPPBrickTileWhiteCornerSeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_corner_se
+
+- type: decal
+  id: LPPBrickTileWhiteCornerNwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_corner_nw
+
+- type: decal
+  id: LPPBrickTileWhiteCornerSwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_corner_sw
+
+- type: decal
+  id: LPPBrickTileWhiteInnerNeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_inner_ne
+
+- type: decal
+  id: LPPBrickTileWhiteInnerSeS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_inner_se
+
+- type: decal
+  id: LPPBrickTileWhiteInnerNwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_inner_nw
+
+- type: decal
+  id: LPPBrickTileWhiteInnerSwS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_inner_sw
+
+- type: decal
+  id: LPPBrickTileWhiteEndNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_end_n
+
+- type: decal
+  id: LPPBrickTileWhiteEndES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_end_e
+
+- type: decal
+  id: LPPBrickTileWhiteEndSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_end_s
+
+- type: decal
+  id: LPPBrickTileWhiteEndWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_end_w
+
+- type: decal
+  id: LPPBrickTileWhiteLineNS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_line_n
+
+- type: decal
+  id: LPPBrickTileWhiteLineES
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_line_e
+
+- type: decal
+  id: LPPBrickTileWhiteLineSS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_line_s
+
+- type: decal
+  id: LPPBrickTileWhiteLineWS
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _LostParadise/Decals/bricktile-s.rsi
+    state: white_line_w

@@ -1,0 +1,294 @@
+- type: entity
+  parent: VendingMachine
+  id: LPPBeachVendingMachine
+  name: Beach machine
+  description: a machine that decorates the appearance of customers and makes them beautiful!
+  suffix: Unlocked
+  components:
+  - type: VendingMachine
+    pack: BeachVendingMachineServitorInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    denyState: deny-unshaded
+  - type: Advertise
+    pack: ClothesMateAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/VendingMachines/beach.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#42aaff"
+
+- type: entity
+  parent: VendingMachine
+  id: LPPCargodrobeVard
+  name: Cargo vard machine
+  description: Fashionable suits for Varden!
+  suffix: Unlocked
+  components:
+  - type: VendingMachine
+    pack: CargodrobeVardVendingMachineServitorInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    denyState: deny-unshaded
+  - type: Advertise
+    pack: ClothesMateAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/VendingMachines/cargodrobe-vard.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#ff8000"
+
+- type: entity
+  parent: VendingMachine
+  id: LPPErpMachine
+  name: Erp machine
+  description: Fashionable suits for Varden!
+  suffix: Unlocked
+  components:
+  - type: VendingMachine
+    pack: ERPVendingMachineServitorInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    denyState: deny-unshaded
+  - type: Advertise
+    pack: ClothesMateAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/VendingMachines/erp-machine.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#9966cc"
+
+- type: entity
+  parent: VendingMachine
+  id: LPPBrasMat
+  name: Bras machine
+  description: a machine that decorates the appearance of customers and makes them beautiful!
+  suffix: Unlocked
+  components:
+  - type: VendingMachine
+    pack: BrasVendingMachineServitorInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+  - type: Advertise
+    pack: ClothesMateAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/VendingMachines/bras.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#e0f1ff"
+
+- type: entity
+  parent: VendingMachine
+  id: LPPWithMedal
+  name: With medal machine
+  description: For when you need seeds fast. Hands down the best seed selection on the station!
+  suffix: Unlocked
+  components:
+  - type: VendingMachine
+    pack: MedalMachineServitorInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    denyState: deny-unshaded
+  - type: Advertise
+    pack: ClothesMateAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/VendingMachines/medal-machine.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#1e90ff"
+
+- type: entity
+  parent: VendingMachine
+  id: LPPNascaMat
+  name: Nasca machine
+  description: a machine that decorates the appearance of customers and makes them beautiful!
+  suffix: Unlocked
+  components:
+  - type: VendingMachine
+    pack: NascaVendingMachineServitorInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+  - type: Advertise
+    pack: ClothesMateAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/VendingMachines/nasca.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#e0f1ff"
+
+- type: entity
+  parent: VendingMachine
+  id: LPPPillowVendingMachine
+  name: Pillow vending machine
+  description: For when you need seeds fast. Hands down the best seed selection on the station!
+  suffix: Unlocked
+  components:
+  - type: VendingMachine
+    pack: PillowVendingMachineServitorInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    denyState: deny-unshaded
+  - type: Advertise
+    pack: LPPPillowVendingMachineeAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/VendingMachines/pillow-vending-machine.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#326e3f"
+
+- type: entity
+  parent: VendingMachine
+  id: LPPUnderpantsMat
+  name: Underpants machine
+  description: a machine that decorates the appearance of customers and makes them beautiful!
+  suffix: Unlocked
+  components:
+  - type: VendingMachine
+    pack: UnderwearVendingMachineServitorInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+  - type: Advertise
+    pack: ClothesMateAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/VendingMachines/underpants.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#e0f1ff"
+
+- type: entity
+  parent: VendingMachine
+  id: LPPWithSoftAnimals
+  name: With soft animals machine
+  description: For when you need seeds fast. Hands down the best seed selection on the station!
+  suffix: Unlocked
+  components:
+  - type: VendingMachine
+    pack: ToysVendingMachineServitorInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    denyState: deny-unshaded
+  - type: Advertise
+    pack: ClothesMateAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/VendingMachines/with-soft-animals.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#afeeee"
+

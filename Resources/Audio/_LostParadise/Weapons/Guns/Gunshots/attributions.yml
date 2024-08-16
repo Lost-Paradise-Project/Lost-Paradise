@@ -1,0 +1,39 @@
+- files: ["ar15.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "youtube.com"
+  source: "https://www.youtube.com/"
+
+- files: ["desert_eagle.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "youtube.com"
+  source: "https://www.youtube.com/"
+
+- files: ["latogunshot.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "youtube.com"
+  source: "https://www.youtube.com/"
+
+- files: ["m90gunshot.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "youtube.com"
+  source: "https://www.youtube.com/"
+
+- files: ["m1911gunshot.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "youtube.com"
+  source: "https://www.youtube.com/"
+
+- files: ["saiber.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "youtube.com"
+  source: "https://www.youtube.com/"
+
+- files: ["saibergunshot.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "youtube.com"
+  source: "https://www.youtube.com/"
+
+- files: ["vulcan.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "youtube.com"
+  source: "https://www.youtube.com/"

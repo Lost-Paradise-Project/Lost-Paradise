@@ -1,0 +1,157 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatCargo
+  name: cargo jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/coatcargo.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/coatcargo.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatEngie
+  name: engineer jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/coateng.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/coateng.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatBomber1
+  name: bomber jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/misc_bomber/bomber1.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/misc_bomber/bomber1.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatBomber2
+  name: bomber jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/misc_bomber/bomber2.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/misc_bomber/bomber2.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatBomber3
+  name: bomber jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/misc_bomber/bomber3.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/misc_bomber/bomber3.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatBomber4
+  name: bomber jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/misc_bomber/bomber4.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/misc_bomber/bomber4.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatBomber5
+  name: bomber jacket
+  description: A thick, well-worn WW2 leather bomber jacket.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/misc_bomber/bomber5.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/misc_bomber/bomber5.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatLabSec
+  name: lab coat (sec)
+  description: A suit that protects against minor chemical spills. Has an red stripe on the shoulder.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/labcoat_sec.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/labcoat_sec.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.4
+        Heat: 0.9
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPExpeditorCoat
+  name: expeditor coat
+  description: nice coat.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/expeditor.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/expeditor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterSkiletsCoatLab
+  name: lab coat
+  description: A suit that protects against minor chemical spills.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/PERSONAL/Skilets/skilets_coats.rsi
+    scale: 0.55, 0.55
+  - type: Clothing
+    sprite: _LostParadise/PERSONAL/Skilets/skilets_coats.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.4
+        Heat: 0.85
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: LPPOuterClothingGarfield
+  name: костюм Гарфилда
+  description: Мягкий и пахнет ненавистью к понедельникам.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/garfield/costume.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/garfield/costume.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPHelmetGarfiled
+  - type: Food
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 30
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+  - type: StaticPrice
+    price: 50

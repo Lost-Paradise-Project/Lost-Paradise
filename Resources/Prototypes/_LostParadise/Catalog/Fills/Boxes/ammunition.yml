@@ -1,0 +1,22 @@
+
+- type: entity
+  name: box of Cobra
+  parent: BoxCardboard
+  id: LPPBoxCobraSyn
+  description: A box full of Cobra.
+  components:
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,3,3
+  - type: Sprite
+    layers:
+      - state: box_of_doom
+      - state: magazine
+  - type: StorageFill
+    contents:
+      - id: MagazineBoxCaselessRifle
+        amount: 1
+      - id: WeaponPistolCobra
+      - id: MagazinePistolCaselessRifle
+        amount: 2

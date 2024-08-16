@@ -1,0 +1,74 @@
+- type: entity
+  parent: BaseItem
+  id: LPPTelebaton
+  name: Telebaton
+  description: A standard baton for self-defense. Equipped with a folding function to save space and hide your intentions.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Melee/telebaton.rsi
+    layers:
+    - state: telescope_off
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: SwitchableWeapon
+    openSound: "/Audio/_LostParadise/Weapons/open.ogg"
+    closeSound: "/Audio/_LostParadise/Weapons/clone.ogg"
+    damageOpen:
+      types:
+        Blunt: 7
+    damageFolded:
+      types:
+        Blunt: 0
+    staminaDamageFolded: 0
+    staminaDamageOpen: 25
+    sizeClosed: Small
+    sizeOpened: Normal
+  - type: StaminaDamageOnHit
+    damage: 0
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 0
+  - type: Item
+    size: Small
+    sprite: _LostParadise/Objects/Weapons/Melee/telebaton.rsi
+  - type: UseDelay
+    delay: 1.0
+  - type: DisarmMalus
+    malus: 0
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+     enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: telescope_on}
+          False: {state: telescope_off}
+
+- type: entity
+  name: Rubber baton
+  parent: BaseItem
+  id: LPPRubberBaton
+  description: A rubber baton for incapacitating people with. Not as painful as stunbaton, but still unpleasant.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Melee/rubber_buton.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 1
+    bluntStaminaDamageFactor: 2.0
+    angle: 60
+    animation: WeaponArcSlash
+  - type: StaminaDamageOnHit
+    damage: 20
+  - type: StaminaDamageOnCollide
+    damage: 8
+  - type: Item
+    heldPrefix: off
+    size: Normal
+  - type: DisarmMalus
+    malus: 0.225
+  - type: Appearance
+  - type: StaticPrice
+    price: 100

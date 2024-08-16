@@ -1,0 +1,96 @@
+- type: entity
+  parent: ClothingBackpackERTLeader
+  id: LPPClothingBackpackIIC
+  name: IIC Backpack 'Delta'
+  description: Spacious backpack with many pockets worn by stormtroopers and officers of the interstellar Intellengence Center of Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Backpacks/iic-backpack.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackHop
+  name: hop backpack
+  description: They say it's bulletproof.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Backpacks/hop.rsi
+
+- type: entity
+  id: LPPJetpackNightGuardCape
+  parent: BaseJetpack
+  name: night guard jetpack
+  suffix: Empty
+  components:
+  - type: Item
+    sprite: _LostParadise/Clothing/Back/night-guard-cape.rsi
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/night-guard-cape.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Back/night-guard-cape.rsi
+    slots:
+      - Back
+      - suitStorage
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackPG
+  name: PG backpack
+  description: Backpack for all Predator Grosperox's needs.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Backpacks/pg-backpack.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPBlackClothingBackpackPG
+  name: Black PG backpack
+  description: Backpack for all Predator Grosperox's needs. Nighty needs.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Backpacks/black-pg-backpack.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackRobotics
+  name: robotics backpack
+  description: A red-striped backpack specially designed for holding spare parts and materials.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Backpacks/roboticist.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackSecurityEngineer
+  name: hop duffel bag
+  description: Twice as many handcuffs!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Backpacks/securityEngineer.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackBlueshield
+  name: blueshield backpack
+  description: They say it's bulletproof.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Backpacks/blueshield.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackExpeditor
+  name: expeditor backpack
+  description: They say it's bulletproof.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Backpacks/expeditor.rsi
+
+- type: entity
+  parent: ClothingBackpackERTLeader
+  id: LPPClothingBackpackBackPackNPZ
+  name: рюкзак НПЗ
+  description: Вместит всё, что надо.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Backpacks/upgbacpacks.rsi

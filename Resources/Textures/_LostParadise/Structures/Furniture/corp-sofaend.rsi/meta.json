@@ -1,0 +1,119 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from BlueMoon github at commit https://github.com/BlueMoon-Labs/SERP-BlueMoon-Station-13",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+  "states": [
+    {
+      "name": "corp-sofacorner",
+      "directions": 4
+    },
+    {
+      "name": "corp-sofacorner-armrest",
+      "directions": 4
+    },
+    {
+      "name": "corp-sofaend-left",
+      "directions": 4
+    },
+    {
+      "name": "corp-sofaend-left-armrest",
+      "directions": 4
+    },
+    {
+      "name": "corp-sofaend-right",
+      "directions": 4
+    },
+    {
+      "name": "corp-sofaend-right-armrest",
+      "directions": 4
+    },
+    {
+      "name": "corp-sofamiddle",
+      "directions": 4
+    },
+    {
+      "name": "bench-left",
+      "directions": 4
+    },
+    {
+      "name": "bench-middle",
+      "directions": 4
+    },
+    {
+      "name": "bench-right",
+      "directions": 4
+    },
+    {
+      "name": "bench-solo",
+      "directions": 4
+    },
+    {
+      "name": "pewend-left",
+      "directions": 4
+    },
+    {
+      "name": "pewend-left-overlay",
+      "directions": 4
+    },
+    {
+      "name": "pewend-right",
+      "directions": 4
+    },
+    {
+      "name": "pewend-right-overlay",
+      "directions": 4
+    },
+    {
+      "name": "pewmiddle",
+      "directions": 4
+    },
+    {
+      "name": "sofacorner",
+      "directions": 4
+    },
+    {
+      "name": "sofacorner-overlay",
+      "directions": 4
+    },
+    {
+      "name": "sofaend-left",
+      "directions": 4
+    },
+    {
+      "name": "sofaend-left-overlay",
+      "directions": 4
+    },
+    {
+      "name": "sofaend-right",
+      "directions": 4
+    },
+    {
+      "name": "sofaend-right-overlay",
+      "directions": 4
+    },
+    {
+      "name": "sofamiddle",
+      "directions": 4
+    },
+    {
+      "name": "dinner-sofa",
+      "directions": 4
+    },
+    {
+      "name": "dinner-sofa-corner",
+      "directions": 4
+    },
+    {
+      "name": "dinner-sofa-left",
+      "directions": 4
+    },
+    {
+      "name": "dinner-sofa-right",
+      "directions": 4
+    }
+  ]
+}   

@@ -1,0 +1,28 @@
+- type: reaction
+  id: LPPAphrodisiac
+  hideFromGuide: true
+  reactants:
+    Necrotoxins:
+      amount: 1
+    Heamotoxic:
+      amount: 1
+    Lucipherium:
+      amount: 1
+    Ethanol:
+      amount: 1
+    Iodine:
+      amount: 1
+  products:
+    LPPAphrodisiac: 5
+
+- type: reaction
+  id: LPPAphrodisiacReduced
+  reactants:
+    KiraSpecial:
+      amount: 5
+    LPPAphrodisiac:
+      amount: 1
+    Martini:
+      amount: 5
+  products:
+    LPPAphrodisiacReduced: 10

@@ -1,0 +1,180 @@
+- type: entity
+  parent: ComputerComms
+  id: LPPCEComputerComms
+  name: chief engineer communications computer
+  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: ["computerLayerKeys"]
+      state: generic_keys
+  - type: AccessReader
+    access: [[ "ChiefEngineer" ]]
+  - type: CommunicationsConsole
+    title: comms-console-announcement-title-ce
+    canShuttle: false
+    global: true
+    sound: /Audio/_LostParadise/Announcement/se.ogg
+  - type: Computer
+    board: LPPCECommsComputerCircuitboard
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#3c5eb5"
+
+- type: entity
+  parent: ComputerComms
+  id: LPPCapComputerComms
+  name: captain communications computer
+  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: ["computerLayerKeys"]
+      state: generic_keys
+  - type: AccessReader
+    access: [[ "Captain" ]]
+  - type: CommunicationsConsole
+    title: comms-console-announcement-title-cap
+    canShuttle: false
+    global: true
+    sound: /Audio/_LostParadise/Announcement/kep.ogg
+  - type: Computer
+    board: LPPCapCommsComputerCircuitboard
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#3c5eb5"
+
+- type: entity
+  parent: ComputerComms
+  id: LPPHopComputerComms
+  name: head of personell communications computer
+  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: ["computerLayerKeys"]
+      state: generic_keys
+  - type: AccessReader
+    access: [[ "HeadOfPersonnel" ]]
+  - type: CommunicationsConsole
+    title: comms-console-announcement-title-hop
+    canShuttle: false
+    global: true
+    sound: /Audio/_LostParadise/Announcement/hop.ogg
+  - type: Computer
+    board: LPPHopCommsComputerCircuitboard
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#3c5eb5"
+
+- type: entity
+  parent: ComputerComms
+  id: LPPHosComputerComms
+  name: head of security communications computer
+  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: ["computerLayerKeys"]
+      state: generic_keys
+  - type: AccessReader
+    access: [[ "HeadOfSecurity" ]]
+  - type: CommunicationsConsole
+    title: comms-console-announcement-title-hos
+    canShuttle: false
+    global: true
+    sound: /Audio/_LostParadise/Announcement/hos.ogg
+  - type: Computer
+    board: LPPHosCommsComputerCircuitboard
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#3c5eb5"
+
+- type: entity
+  parent: ComputerComms
+  id: LPPRDComputerComms
+  name: research director communications computer
+  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: ["computerLayerKeys"]
+      state: generic_keys
+  - type: AccessReader
+    access: [[ "ResearchDirector" ]]
+  - type: CommunicationsConsole
+    title: comms-console-announcement-title-rd
+    canShuttle: false
+    global: true
+    sound: /Audio/_LostParadise/Announcement/rd.ogg
+  - type: Computer
+    board: LPPRDCommsComputerCircuitboard
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#3c5eb5"
+
+- type: entity
+  parent: ComputerComms
+  id: LPPCmoComputerComms
+  name: chief medical officer communications computer
+  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: ["computerLayerKeys"]
+      state: generic_keys
+  - type: AccessReader
+    access: [[ "ChiefMedicalOfficer" ]]
+  - type: CommunicationsConsole
+    title: comms-console-announcement-title-cmo
+    canShuttle: false
+    global: true
+    sound: /Audio/_LostParadise/Announcement/cmo.ogg
+  - type: Computer
+    board: LPPCmoCommsComputerCircuitboard
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#3c5eb5"
+

@@ -1,0 +1,21 @@
+- type: microwaveMealRecipe
+  id: LPPRecipeCumburger
+  name: cumburger recipe
+  result: LPPFoodCumburger
+  time: 15
+  reagents:
+    Milk: 5
+  solids:
+    FoodBreadBun: 1
+    FoodBanana: 1
+
+- type: microwaveMealRecipe
+  id: LPPRecipeGingerBread
+  name: gingerbread recipe
+  result: LPPFoodGingerBread
+  time: 10
+  reagents:
+    Milk: 5
+    Flour: 15
+    Sugar: 5
+    Ice: 5

@@ -1,0 +1,37 @@
+- type: reaction
+  id: LPPBlueCatalyst
+  reactants:
+    Silicon:
+      amount: 1
+    Chlorine:
+      amount: 1
+    Iron:
+      amount: 1
+    Water:
+      amount: 1
+  products:
+    LPPBlueCatalyst: 4
+
+- type: reaction
+  id: LPPExoticCatalyst
+  reactants:
+    LPPHyperPlasmaoxide:
+      amount: 1
+    LPPBlueCatalyst:
+      amount: 1
+  products:
+    LPPExoticCatalyst: 2
+
+- type: reaction
+  id: LPPRedCatalyst
+  reactants:
+    Silicon:
+      amount: 1
+    Aluminium:
+      amount: 1
+    Lexorin:
+      amount: 1
+    Fluorine:
+      amount: 1
+  products:
+    LPPRedCatalyst: 4

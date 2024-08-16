@@ -1,0 +1,11 @@
+- type: entity
+  id: LPPSpawnPointSecurityEngineer
+  parent: SpawnPointJobBase
+  name: LPPsecurityEnginer
+  components:
+  - type: SpawnPoint
+    job_id: LPPSecurityEnginer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_officer

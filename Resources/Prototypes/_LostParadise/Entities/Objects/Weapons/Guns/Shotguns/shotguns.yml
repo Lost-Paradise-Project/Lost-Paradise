@@ -1,0 +1,15 @@
+- type: entity
+  name: Lemington
+  parent: BaseWeaponShotgun
+  id: LPPWeaponShotgunLemington
+  description: A lever-action rifle capable of tearing a man in half.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Shotguns/lemington.rsi
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Shotguns/lemington.rsi
+  - type: BallisticAmmoProvider
+    capacity: 7
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Corvax/Weapons/Guns/Gunshots/shotgun_alt.ogg

@@ -1,0 +1,60 @@
+- type: entity
+  name: мятный пряник
+  parent: FoodSnackBase
+  id: LPPFoodGingerBread
+  description: Вкусный мятный пряник, обладающий лечебными свойствами, любимое угощение одной сладкой дамочки, а так же древних русов. Самое то в прикуску с квасом.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - sweet
+      - cold
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/gingerbread.rsi
+    state: gingerbread
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+        - ReagentId: Vitamin
+          Quantity: 5
+    metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Blunt: -2
+
+- type: entity
+  name: пвяник
+  parent: FoodSnackBase
+  id: LPPFoodGingevBvead
+  description: Прототип самого UwUшного пвяника во всей галактике. За разработкой стоит неизвестная любительница пвяников и мастодонт по производству пряниковых изделий в галактике, та, чьё имя нельзя произносить в слух (иначе забанят). В составе содержится личезин, лекарство, что лечит от брейнротинга и воздействий от радиации.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - sweet
+      - cold
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/gingerbread.rsi
+    state: gingevbvead
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 228
+        - ReagentId: Vitamin
+          Quantity: 1337
+    metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          groups:
+            Radiaton: -20
+            Cell: -20

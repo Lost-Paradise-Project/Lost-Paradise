@@ -1,0 +1,34 @@
+ - type: entity
+   id: LPPCrateVintageDEMOCRACY
+   parent: CrateSecgear
+   name: набор с винтажной экипировкой
+   description: Набор оружия и брони, будто бы капсула времени из далёкого прошлого, пахнет джунглями. Требует доступ службы безопасности для открытия.
+   components:
+   - type: Destructible
+     thresholds:
+     - trigger:
+        !type:DamageTrigger
+        damage: 3000
+       behaviors:
+       - !type:DoActsBehavior
+         acts: ["Destruction"]
+       - !type:PlaySoundBehavior
+         sound:
+           collection: MetalBreak
+   - type: StorageFill
+     contents:
+       - id: LPPClothingBeltPGWebbing
+       - id: LPPClothingOuterVestPGWrittenOff
+       - id: LPPWeaponM1Garand
+       - id: LPPMagazineRifleGarand
+         amount: 3
+       - id: LPPMagazineBoxHunting
+       - id: LPPWeaponRifleM1A
+       - id: LPPWeaponRifleM14
+       - id: MagazineLightRifle
+         amount: 2
+       - id: LPPClothingEyesGlassesSunglassesPG
+       - id: ClothingHandsMercGlovesCombat
+       - id: LPPClothingHeadHatTacticalHelmetWrittenOff
+       - id: LPPClothingNeckChain
+       - id: LPPCamogreen

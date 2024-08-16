@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Content created by LostFor for Frontier Server",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "full"
+    },
+    {
+      "name": "hedge_0",
+      "directions": 4
+    },
+    {
+      "name": "hedge_1",
+      "directions": 4
+    },
+    {
+      "name": "hedge_2",
+      "directions": 4
+    },
+    {
+      "name": "hedge_3",
+      "directions": 4
+    },
+    {
+      "name": "hedge_4",
+      "directions": 4
+    },
+    {
+      "name": "hedge_5",
+      "directions": 4
+    },
+    {
+      "name": "hedge_6",
+      "directions": 4
+    },
+    {
+      "name": "hedge_7",
+      "directions": 4
+    }
+  ]
+}

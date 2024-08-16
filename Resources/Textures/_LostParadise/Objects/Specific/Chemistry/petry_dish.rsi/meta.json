@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from tg station at https://github.com/tgstation/tgstation/blob/ea485bd8f5f7e4a098fbae93f1bc92f6477cf059/icons/obj/science/vatgrowing.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "petrydish"
+    },
+    {
+      "name": "petrydish1"
+    }
+  ]
+}

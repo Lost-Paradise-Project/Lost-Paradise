@@ -1,0 +1,36 @@
+- type: construction
+  name: шлем с фонариком
+  id: LPPClothingHeadHelmetBasicLight
+  graph: LPPClothingHeadHelmetLight
+  startNode: start
+  targetNode: LPPHelmetLight
+  category: construction-category-clothing
+  description: шлем к которому проводами фонарик закрепили
+  icon: { sprite: _LostParadise/Clothing/Head/Helmets/security.rsi, state: icon }
+  objectType: Item
+
+- type: constructionGraph
+  id: LPPClothingHeadHelmetLight
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: LPPHelmetLight
+          steps:
+            - tag: LPPHelmet
+              name: шлем
+              icon:
+                sprite: Clothing/Head/Helmets/security.rsi
+                state: icon
+              doAfter: 5
+            - tag: LPPFlashlightSeclite
+              name: фонарик СБ
+              icon:
+                sprite: Objects/Tools/seclite.rsi
+                state: seclite
+              doAfter: 5
+            - material: Cable
+              amount: 5
+              doAfter: 5
+    - node: LPPHelmetLight
+      entity: LPPClothingHeadHelmetBasic

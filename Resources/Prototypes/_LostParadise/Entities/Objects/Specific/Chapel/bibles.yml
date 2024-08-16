@@ -1,0 +1,25 @@
+- type: entity
+  name: blue bible
+  description: New Interstellar Version 2340. Now with blue color.
+  parent: Bible
+  id: LPPBlueBible
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Chapel/bluebible.rsi
+    state: icon
+  - type: Item
+    size: Small
+    sprite: _LostParadise/Objects/Specific/Chapel/bluebible.rsi
+
+- type: entity
+  name: red bible
+  description: New Interstellar Version 2340. Now with red color.
+  parent: Bible
+  id: LPPRedBible
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Chapel/redbible.rsi
+    state: icon
+  - type: Item
+    size: Small
+    sprite: _LostParadise/Objects/Specific/Chapel/redbible.rsi

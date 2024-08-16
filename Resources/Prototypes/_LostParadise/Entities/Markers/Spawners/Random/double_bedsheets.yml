@@ -1,0 +1,30 @@
+- type: entity
+  name: Random Double Sheet Spawner
+  id: LPPDoubleBedsheetSpawner
+  parent: MarkerBase
+  components:
+    - type: Sprite
+      layers:
+        - state: red
+        - sprite: _LostParadise/Objects/Misc/double.rsi
+          state: random_doublesheet
+    - type: RandomSpawner
+      rarePrototypes:
+        - LPPBedsheetIan
+        - LPPBedsheetCosmos
+      rareChance: 0.03
+      prototypes:
+        - LPPBedsheetBlue
+        - LPPBedsheetYellow
+        - LPPBedsheetOrange
+        - LPPBedsheetGreen
+        - LPPBedsheetNT
+        - LPPBedsheetRed
+        - LPPBedsheetBrown
+        - LPPBedsheetBlack
+        - LPPBedsheetPurple
+        - LPPBedsheetGrey
+        - LPPBedsheetWhite
+        - LPPBedsheetRainbow
+      chance: 0.97
+      offset: 0

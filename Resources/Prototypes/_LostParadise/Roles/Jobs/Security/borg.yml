@@ -1,0 +1,31 @@
+# - type: job
+#   id: BorgSecurity
+#   name: job-name-borg-security
+#   description: job-description-borg-security
+#   playTimeTracker: JobBorgSecurity
+#   requirements:
+#     - !type:OverallPlaytimeRequirement
+#       time: 36000 #10 hrs
+#     - !type:CharacterDepartmentTimeRequirement
+#       department: Security
+#       time: 720
+#   canBeAntag: false
+#   icon: JobIconBorgSec
+#   supervisors: job-supervisors-hos
+#   jobEntity: LPPPlayerBorgSecurity
+
+# - type: job
+#   id: DroneSecurity
+#   name: job-name-drone-security
+#   description: job-description-drone-security
+#   playTimeTracker: JobDroneSecurity
+#   requirements:
+#     - !type:OverallPlaytimeRequirement
+#       time: 36000 #10 hrs
+#     - !type:CharacterDepartmentTimeRequirement
+#       department: Security
+#       time: 7200 #2 hrs
+#   canBeAntag: false
+#   icon: JobIconDroneSec
+#   supervisors: job-supervisors-hos
+#   jobEntity: LPPPlayerDroneSecurity

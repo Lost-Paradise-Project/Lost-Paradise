@@ -1,0 +1,51 @@
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskAcientSyndie
+  categories: [ HideSpawnMenu ]
+  name: шлем древнего скафандра Синдиката (боевой режим)
+  description: Шлем от странного скафандра Синдиката, он в боевом режиме.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/acienthelmsyndiebattle.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/acienthelmsyndiebattle.rsi
+    equipSound: /Audio/Mecha/mechmove03.ogg
+    unequipSound: /Audio/Mecha/mechmove03.ogg
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetAcientSyndieEVA
+    requiredSlot:
+    - mask
+    slot: head
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskHunter
+  categories: [ HideSpawnMenu ]
+  name: шлем скафандра охотника (походный)
+  description: Крайне комфорнтый шлем, что позволяет вам защититься от морозной погоды. Он в походном режиме
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/winterhuntermask.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/winterhuntermask.rsi
+    equipSound: /Audio/Mecha/mechmove03.ogg
+    unequipSound: /Audio/Mecha/mechmove03.ogg
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHunter
+    requiredSlot:
+    - mask
+    slot: head

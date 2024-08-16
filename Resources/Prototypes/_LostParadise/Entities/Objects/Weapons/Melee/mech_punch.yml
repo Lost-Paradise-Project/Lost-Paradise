@@ -1,0 +1,93 @@
+- type: entity
+  name: силовая клешня меха
+  parent: BaseItem
+  id: LPPMechPunch
+  #categories: [ HideSpawnMenu ]
+  description: Сила демократии.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Melee/mech_punch.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 1.2
+    range: 2
+    damage:
+      types:
+        Blunt: 20
+        Structural: 30
+    soundHit:
+      collection: MetalThud
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 20
+        Structural: 30
+  - type: Item
+    size: Ginormous
+  # - type: Tool
+    # qualities:
+    # - Rolling
+    # speed: 0.75 # a bit unwieldly but does the job
+  - type: UseDelay
+    delay: 4
+  - type: MeleeThrowOnHit
+    unanchorOnHit: true
+
+- type: entity
+  name: вулкан
+  id: LPPWeaponVulcan
+  parent: BaseWeaponHeavyMachineGun
+  description: Ешь, пей, молись, подчинись.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/HMGs/minigun.rsi
+    layers:
+    - state: icon
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    sprite: Objects/Weapons/Guns/HMGs/minigun.rsi
+  - type: Gun
+    fireRate: 20
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/vulcan.ogg
+  - type: BallisticAmmoProvider
+    proto: CartridgeMinigun
+    capacity: 16000
+  - type: MagazineVisuals
+    magState: mag
+    steps: 4
+    zeroVisible: true
+  - type: Appearance
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+
+- type: Tag
+  id: LPPAIMechPunchAndVulcan
+
+- type: entity
+  id: LPPBaseAIMechModulePunchAndVulcan
+  parent: BaseBorgModule
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - LPPAIMechPunchAndVulcan
+
+- type: entity
+  id: LPPAIMechModulePunchAndVulcan
+  parent: [ LPPBaseAIMechModulePunchAndVulcan, BaseProviderBorgModule ]
+  name: модуль повышеной толерантности экипажа
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Robotics/borgmodule.rsi
+    layers:
+    - state: security
+    - state: icon-battle
+  - type: ItemBorgModule
+    items:
+    - LPPMechPunch
+    - LPPWeaponVulcan
+    - DoorBumpOpener

@@ -1,0 +1,157 @@
+- type: entity
+  id: LPPBaseMagazineRifle
+  name: "магазин (калибр 5,56х45)"
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - LPPMagazineM4A1
+  - type: Item
+    size: Small
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeM4A1
+    capacity: 30
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/M4A1_mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+
+- type: entity
+  id: LPPMagazineRifleM4A1Lethal
+  name: магазин (калибр 5,56х45)
+  parent: LPPBaseMagazineRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeM4A1Lethal
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineRifleM4A1Rubber
+  name: магазин (калибр 5,56х45 резиновый)
+  parent: LPPBaseMagazineRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeRubberM4A1
+  - type: Sprite
+    layers:
+    - state: rubber
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPMagazineRifleM4A1Practice
+  name: магазин (калибр 5,56х45 учебный)
+  parent: LPPBaseMagazineRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgePracticeM4A1
+  - type: Sprite
+    layers:
+      - state: practice
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: mag-1
+        map: [ "enum.GunVisualLayers.Mag" ]
+        color: "#dbdbdb"
+
+- type: entity
+  id: LPPagazineRifleM4A1Uranium
+  name: магазин (калибр 5,56х45 урановый)
+  parent: LPPBaseMagazineRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeUraniumM4A1
+  - type: Sprite
+    layers:
+      - state: uranium
+        map: [ "enum.GunVisualLayers.Base" ]
+      - state: mag-1
+        map: [ "enum.GunVisualLayers.Mag" ]
+        color: "#65fe08"
+
+- type: entity
+  id: LPPMagazineRifleMars
+  name: обойма винтовки "Марс"
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - LPPMagazineMars
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeHunting
+    proto: LPPCartridgeLightRifleHunting
+    capacity: 6
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Ammunition/Magazine/Marsspeadloader.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-6
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 7
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: LPPMagazineRifleGarand
+  name: обойма "гаранда"
+  parent: BaseItem
+  components:
+  - type: Tag
+    tags:
+      - LPPMagazineGarand
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeHunting
+    proto: LPPCartridgeLightRifleHunting
+    capacity: 8
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Ammunition/Magazine/garandmag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-8
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 9
+    zeroVisible: false
+  - type: Appearance

@@ -1,0 +1,159 @@
+- type: guideEntry
+  id: LPPRuleset
+  name: Правила сервера
+  priority: 0
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/MrpRuleset.xml"
+  children:
+  - LPPRule0
+  - LPPRule1
+  - LPPRule2
+  - LPPRule3
+  - LPPRule4
+  - LPPRule5
+  - LPPRule6
+  - LPPRule7
+  - LPPRule8
+  - LPPRule9
+  - LPPRule10
+  - LPPRule11
+  - LPPRule12
+  - LPPRule13
+  - LPPRule14
+  - LPPRule15
+  - LPPRule16
+  - LPPRule17
+  - LPPRule18
+
+- type: guideEntry
+  id: LPPRule0
+  name: Правило 0
+  priority: 1
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule0.xml"
+
+- type: guideEntry
+  id: LPPRule1
+  name: Правило 1
+  priority: 2
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule1.xml"
+
+- type: guideEntry
+  id: LPPRule2
+  name: Правило 2
+  priority: 3
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule2.xml"
+
+- type: guideEntry
+  id: LPPRule3
+  name: Правило 3
+  priority: 4
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule3.xml"
+
+- type: guideEntry
+  id: LPPRule4
+  name: Правило 4
+  priority: 5
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule4.xml"
+
+- type: guideEntry
+  id: LPPRule5
+  name: Правило 5
+  priority: 6
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule5.xml"
+
+- type: guideEntry
+  id: LPPRule6
+  name: Правило 6
+  priority: 7
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule6.xml"
+
+- type: guideEntry
+  id: LPPRule7
+  name: Правило 7
+  priority: 8
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule7.xml"
+
+- type: guideEntry
+  id: LPPRule8
+  name: Правило 8
+  priority: 9
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule8.xml"
+
+- type: guideEntry
+  id: LPPRule9
+  name: Правило 9
+  priority: 10
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule9.xml"
+
+- type: guideEntry
+  id: LPPRule10
+  name: Правило 10
+  priority: 11
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule10.xml"
+
+- type: guideEntry
+  id: LPPRule11
+  name: Правило 11
+  priority: 12
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule11.xml"
+
+- type: guideEntry
+  id: LPPRule12
+  name: Правило 12
+  priority: 13
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule12.xml"
+
+- type: guideEntry
+  id: LPPRule13
+  name: Правило 13
+  priority: 14
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule13.xml"
+
+- type: guideEntry
+  id: LPPRule14
+  name: Правило 14
+  priority: 15
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule14.xml"
+
+- type: guideEntry
+  id: LPPRule15
+  name: Правило 15
+  priority: 16
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule15.xml"
+
+- type: guideEntry
+  id: LPPRule16
+  name: Правило 16
+  priority: 17
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule16.xml"
+
+- type: guideEntry
+  id: LPPRule17
+  name: Правило 17
+  priority: 18
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule17.xml"
+
+- type: guideEntry
+  id: LPPRule18
+  name: Правило 18
+  priority: 19
+  ruleEntry: true
+  text: "/ServerInfo/_LostParadise/Guidebook/ServerRules/Rule18.xml"

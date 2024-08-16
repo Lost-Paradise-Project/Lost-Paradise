@@ -1,0 +1,19 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterVestPGWrittenOff
+  name: Списанный бронижелет ПГ
+  description: Списанный бронижелет ПГ, хорошо защищающей от пуль. Также оснащен небольшими кармашками, в которых часто носят магазины.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/pg-vest.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/pg-vest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.6
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.9

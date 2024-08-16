@@ -1,0 +1,29 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitOperativeNPZ
+  name: комбинезон оперативника НПЗ
+  description: Брюки и свитер оперативников НПЗ, с дополнительной кевларовой подбивкой.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/NPZ/upgcloth.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/NPZ/upgcloth.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.95
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpskirtMadienPNZ
+  name: униформа горничной НПЗ
+  description: Созданная из новейших тканей униформа прекрасно подходит для тактической уборки помещений, а так же идеально подойдёт для любой фигуры.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/NPZ/maidenNPZ.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/NPZ/maidenNPZ.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.95

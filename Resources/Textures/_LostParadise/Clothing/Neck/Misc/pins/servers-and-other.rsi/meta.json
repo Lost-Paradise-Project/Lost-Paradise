@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Draw by JayJacobs",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+    "states": [
+        {
+            "name": "andromeda"
+        },
+        {
+            "name": "andromeda-equipped",
+            "directions": 4
+        },
+        {
+            "name": "foxhole"
+        },
+        {
+            "name": "foxhole-equipped",
+            "directions": 4
+        },
+        {
+            "name": "lostparadise"
+        },
+        {
+            "name": "lostparadise-equipped",
+            "directions": 4
+        },
+        {
+            "name": "mssa"
+        },
+        {
+            "name": "mssa-equipped",
+            "directions": 4
+        },
+        {
+            "name": "sirena"
+        },
+        {
+            "name": "sirena-equipped",
+            "directions": 4
+        }
+    ]
+}
+

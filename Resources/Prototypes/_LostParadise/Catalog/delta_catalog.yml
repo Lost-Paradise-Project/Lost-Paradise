@@ -1,0 +1,872 @@
+#weapon
+- type: listing
+  id: LPPDeltaCatalogWeaponMk58
+  name: delta-catalog-weapon-mk58-name
+  description: delta-catalog-weapon-mk58-desc
+  productEntity: WeaponPistolMk58
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPDeltaWeapon
+
+- type: listing
+  id: LPPDeltaCatalogWeaponDrozd
+  name: delta-catalog-weapon-drozd-name
+  description: delta-catalog-weapon-drozd-desc
+  productEntity: WeaponSubMachineGunDrozd
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaWeapon
+
+- type: listing
+  id: LPPDeltaCatalogWeaponLecter
+  name: delta-catalog-weapon-lecter-name
+  description: delta-catalog-weapon-lecter-desc
+  productEntity: WeaponRifleLecter
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPDeltaWeapon
+
+- type: listing
+  id: LPPDeltaCatalogWeaponEnforcer
+  name: delta-catalog-weapon-enforcer-name
+  description: delta-catalog-weapon-enforcer-desc
+  productEntity: WeaponShotgunEnforcer
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaWeapon
+
+- type: listing
+  id: LPPDeltaCatalogWeaponPulsePistol
+  name: delta-catalog-weapon-pulsepistol-name
+  description: delta-catalog-weapon-pulsepistol-desc
+  productEntity: WeaponPulsePistol
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaWeapon
+
+- type: listing
+  id: LPPDeltaCatalogWeaponPulseCarbine
+  name: delta-catalog-weapon-pulsecarbine-name
+  description: delta-catalog-weapon-pulsecarbine-desc
+  productEntity: WeaponPulseCarbine
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPDeltaWeapon
+
+- type: listing
+  id: LPPDeltaCatalogWeaponPulseRifle
+  name: delta-catalog-weapon-pulserifle-name
+  description: delta-catalog-weapon-pulserifle-desc
+  productEntity: WeaponPulseRifle
+  cost:
+    Telecrystal: 8
+  categories:
+  - LPPDeltaWeapon
+
+- type: listing
+  id: LPPDeltaCatalogWeaponEnergySword
+  name: delta-catalog-weapon-energy-sword-name
+  description: delta-catalog-weapon-energy-sword-desc
+  productEntity: EnergySword
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPDeltaWeapon
+
+- type: listing
+  id: LPPDeltaCatalogWeaponEnergyShield
+  name: delta-catalog-weapon-energy-shield-name
+  description: delta-catalog-weapon-energy-shield-desc
+  productEntity: EnergyShield
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPDeltaWeapon
+
+#- type: listing
+#  id: LPPDeltaCatalogWeaponIonGunAuto
+#  name: delta-catalog-weapon-iongunauto-name
+#  description: delta-catalog-weapon-iongunauto-desc
+#  productEntity: LPPIonGunAutoUI80
+#  cost:
+#    Telecrystal: 7
+#  categories:
+#  - LPPDeltaWeapon
+
+#- type: listing
+#  id: LPPDeltaCatalogWeaponIonGun
+#  name: delta-catalog-weapon-iongunauto-name
+#  description: delta-catalog-weapon-iongunauto-desc
+#  productEntity: LPPIonGunLV12
+#  cost:
+#    Telecrystal: 7
+#  categories:
+#  - LPPDeltaWeapon
+
+- type: listing
+  id: LPPDeltaCatalogWeaponEnergySwordDouble
+  name: delta-catalog-weapon-energy-sword-double-name
+  description: delta-catalog-weapon-energy-sword-double-desc
+  productEntity: EnergySwordDouble
+  cost:
+    Telecrystal: 10
+  categories:
+  - LPPDeltaWeapon
+
+- type: listing
+  id: LPPDeltaCatalogWeaponLauncherRocket
+  name: delta-catalog-weapon-launcher-rocket-name
+  description: delta-catalog-weapon-launcher-rocket-desc
+  productEntity: WeaponLauncherRocket
+  cost:
+    Telecrystal: 14
+  categories:
+  - LPPDeltaWeapon
+
+- type: listing
+  id: LPPDeltaCatalogWeaponMinigun
+  name: delta-catalog-weapon-minigun-name
+  description: delta-catalog-weapon-minigun-desc
+  productEntity: WeaponMinigun
+  cost:
+    Telecrystal: 15
+  categories:
+  - LPPDeltaWeapon
+
+#armor
+#- type: listing
+#  id: LPPDeltaCatalogArmorHardsuit
+#  name: delta-catalog-armor-hardsuit-name
+#  description: delta-catalog-armor-hardsuit-desc
+#  productEntity: LPPClothingOuterHardsuitIIC
+#  cost:
+#    Telecrystal: 3
+#  categories:
+#  - LPPDeltaArmor
+
+#- type: listing
+#  id: LPPDeltaCatalogArmorHardsuitPyrotech
+#  name: delta-catalog-armor-hardsuit-pyrotech-name
+#  description: delta-catalog-armor-hardsuit-pyrotech-desc
+#  productEntity: LPPClothingOuterHardsuitIICPyrotech
+#  cost:
+#    Telecrystal: 3
+#  categories:
+#  - LPPDeltaArmor
+
+#- type: listing
+#  id: LPPDeltaCatalogArmorHardsuitEngineer
+#  name: delta-catalog-armor-hardsuit-engineer-name
+#  description: delta-catalog-armor-hardsuit-engineer-desc
+#  productEntity: LPPClothingOuterHardsuitIICEngineer
+#  cost:
+#    Telecrystal: 3
+#  categories:
+#  - LPPDeltaArmor
+
+#- type: listing
+#  id: LPPDeltaCatalogArmorHardsuitMedic
+#  name: delta-catalog-armor-hardsuit-medic-name
+#  description: delta-catalog-armor-hardsuit-medic-desc
+#  productEntity: LPPClothingOuterHardsuitIICMedic
+#  cost:
+#    Telecrystal: 3
+#  categories:
+#  - LPPDeltaArmor
+
+#- type: listing
+#  id: LPPDeltaCatalogArmorHardsuitCommander
+#  name: delta-catalog-armor-hardsuit-commander-name
+#  description: delta-catalog-armor-hardsuit-commander-desc
+#  productEntity: LPPClothingOuterHardsuitIICCommander
+#  cost:
+#    Telecrystal: 6
+#  categories:
+#  - LPPDeltaArmor
+
+#- type: listing
+#  id: LPPDeltaCatalogArmorGasMask
+#  name: delta-catalog-armor-gas-mask-name
+#  description: delta-catalog-armor-gas-mask-desc
+#  productEntity: LPPClothingMaskGasIIC
+#  cost:
+#    Telecrystal: 3
+#  categories:
+#  - LPPDeltaArmor
+
+- type: listing
+  id: LPPDeltaCatalogArmorAirTank
+  name: delta-catalog-armor-airtank-name
+  description: delta-catalog-armor-airtank-desc
+  productEntity: AirTankFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaArmor
+
+- type: listing
+  id: LPPDeltaCatalogArmorOxygenTank
+  name: delta-catalog-armor-oxytank-double-name
+  description: delta-catalog-armor-oxytank-double-desc
+  productEntity: DoubleEmergencyOxygenTankFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaArmor
+
+- type: listing
+  id: LPPDeltaCatalogArmorNitrogenTankFilled
+  name: delta-catalog-armor-nitrotank-double-name
+  description: delta-catalog-armor-nitrotank-double-desc
+  productEntity: DoubleEmergencyNitrogenTankFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaArmor
+
+- type: listing
+  id: LPPDeltaCatalogArmorJetpack
+  name: delta-catalog-armor-jetpack-name
+  description: delta-catalog-armor-jetpack-desc
+  productEntity: JetpackVoidFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaArmor
+
+- type: listing
+  id: LPPDeltaCatalogArmorMagboots
+  name: delta-catalog-armor-magboots-name
+  description: delta-catalog-armor-magboots-desc
+  productEntity: ClothingShoesBootsMagSci
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPDeltaArmor
+
+- type: listing
+  id: LPPDeltaCatalogArmorMagbootsAdv
+  name: delta-catalog-armor-magboots-adv-name
+  description: delta-catalog-armor-magboots-adv-desc
+  productEntity: ClothingShoesBootsMagAdv
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaArmor
+
+#- type: listing
+#  id: LPPDeltaCatalogArmorHudSec
+#  name: delta-catalog-armor-hud-sec-name
+#  description: delta-catalog-armor-hud-sec-desc
+#  productEntity: LPPRedHudGlasses
+#  cost:
+#    Telecrystal: 3
+#  categories:
+#  - LPPDeltaArmor
+
+#- type: listing
+#  id: LPPDeltaCatalogArmorHudEngSec
+#  name: delta-catalog-armor-hud-seceng-name
+#  description: delta-catalog-armor-hud-seceng-desc
+#  productEntity: LPPClothingEyesHudSecEng
+#  cost:
+#    Telecrystal: 3
+#  categories:
+#  - LPPDeltaArmor
+
+- type: listing
+  id: LPPDeltaCatalogArmorHudMedSec
+  name: delta-catalog-armor-hud-secmed-name
+  description: delta-catalog-armor-hud-secmed-desc
+  productEntity: ClothingEyesHudMedSec
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaArmor
+
+#ammo
+
+- type: listing
+  id: LPPDeltaCatalogAmmoBoxMagazineShotgunSlug
+  name: delta-catalog-ammo-box-magazine-shotgun-slug-name
+  description: delta-catalog-ammo-box-magazine-shotgun-slug-desc
+  productEntity: BoxMagazineShotgunSlug
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaAmmo
+
+- type: listing
+  id: LPPDeltaCatalogAmmoBoxMagazineShotgun
+  name: delta-catalog-ammo-box-magazine-shotgun-name
+  description: delta-catalog-ammo-box-magazine-shotgun-desc
+  productEntity: BoxMagazineShotgun
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaAmmo
+
+- type: listing
+  id: LPPDeltaCatalogAmmoBoxShotgunIncendiary
+  name: delta-catalog-ammo-box-shotgun-incendiary-name
+  description: delta-catalog-ammo-box-shotgun-incendiary-desc
+  productEntity: BoxShotgunIncendiary
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaAmmo
+
+- type: listing
+  id: LPPDeltaCatalogAmmoBoxMagazinePistolSubMachineGun
+  name: delta-catalog-ammo-box-magazine-submachine-name
+  description: delta-catalog-ammo-box-magazine-submachine-desc
+  productEntity: BoxMagazinePistolSubMachineGun
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaAmmo
+
+- type: listing
+  id: LPPDeltaCatalogAmmoBoxMagazineRifle
+  name: delta-catalog-ammo-box-magazine-rifle-name
+  description: delta-catalog-ammo-box-magazine-rifle-desc
+  productEntity: BoxMagazineRifle
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaAmmo
+
+- type: listing
+  id: LPPDeltaCatalogAmmoBoxMagazineRifleIncendiary
+  name: delta-catalog-ammo-box-magazine-rifle-incendiary-name
+  description: delta-catalog-ammo-box-magazine-rifle-incendiary-desc
+  productEntity: MagazineBoxRifleIncendiary
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaAmmo
+
+- type: listing
+  id: LPPDeltaCatalogAmmoBoxMagazineRifleUranium
+  name: delta-catalog-ammo-box-magazine-rifle-uranium-name
+  description: delta-catalog-ammo-box-magazine-rifle-uranium-desc
+  productEntity: MagazineBoxRifleUranium
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaAmmo
+
+- type: listing
+  id: LPPDeltaCatalogAmmoBoxMagazinePistol
+  name: delta-catalog-ammo-box-magazine-pistol-name
+  description: delta-catalog-ammo-box-magazine-pistol-desc
+  productEntity: BoxMagazinePistol
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaAmmo
+
+- type: listing
+  id: LPPDeltaCatalogAmmoMagazineBoxPistolIncendiary
+  name: delta-catalog-ammo-magazine-box-pistol-incendiary-name
+  description: delta-catalog-ammo-magazine-box-pistol-incendiary-desc
+  productEntity: MagazineBoxPistolIncendiary
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaAmmo
+
+- type: listing
+  id: LPPDeltaCatalogAmmoMagazineBoxPistolUranium
+  name: delta-catalog-ammo-magazine-box-pistol-uranium-name
+  description: delta-catalog-ammo-magazine-box-pistol-uranium-desc
+  productEntity: MagazineBoxPistolUranium
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaAmmo
+
+- type: listing
+  id: LPPDeltaCatalogAmmoBelt
+  name: delta-catalog-ammo-belt-name
+  description: delta-catalog-ammo-belt-desc
+  productEntity: ClothingBeltAssault
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaAmmo
+
+- type: listing
+  id: LPPDeltaCatalogAmmoBandolier
+  name: delta-catalog-ammo-bandolier-name
+  description: delta-catalog-ammo-bandolier-desc
+  productEntity: ClothingBeltBandolier
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaAmmo
+
+
+#medicine
+- type: listing
+  id: LPPDeltaCatalogMedicineMedkit
+  name: delta-catalog-medicine-medkit-name
+  description: delta-catalog-medicine-medkit-desc
+  productEntity: MedkitFilled
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineMedkitBrute
+  name: delta-catalog-medicine-medkit-brute-name
+  description: delta-catalog-medicine-medkit-brute-desc
+  productEntity: MedkitBruteFilled
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineMedkitBurn
+  name: delta-catalog-medicine-medkit-burn-name
+  description: delta-catalog-medicine-medkit-burn-desc
+  productEntity: MedkitBurnFilled
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineMedkitOxygen
+  name: delta-catalog-medicine-medkit-oxygen-name
+  description: delta-catalog-medicine-medkit-oxygen-desc
+  productEntity: MedkitOxygenFilled
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineMedkitToxin
+  name: delta-catalog-medicine-medkit-toxin-name
+  description: delta-catalog-medicine-medkit-toxin-desc
+  productEntity: MedkitToxinFilled
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineMedkitRadiation
+  name: delta-catalog-medicine-medkit-radiation-name
+  description: delta-catalog-medicine-medkit-radiation-desc
+  productEntity: MedkitRadiationFilled
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineMedkitAdvanced
+  name: delta-catalog-medicine-medkit-advanced-name
+  description: delta-catalog-medicine-medkit-advanced-desc
+  productEntity: MedkitAdvancedFilled
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineMedkitCombat
+  name: delta-catalog-medicine-medkit-combat-name
+  description: delta-catalog-medicine-medkit-combat-desc
+  productEntity: MedkitCombatFilled
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineBiomass
+  name: delta-catalog-medicine-biomass-name
+  description: delta-catalog-medicine-biomass-desc
+  productEntity: MaterialBiomass
+  cost:
+    Telecrystal: 8
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineBelt
+  name: delta-catalog-medicine-belt-name
+  description: delta-catalog-medicine-belt-desc
+  productEntity: ClothingBeltMedicalEMTFilled
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineHypospray
+  name: delta-catalog-medicine-hypospray-name
+  description: delta-catalog-medicine-hypospray-desc
+  productEntity: Hypospray
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineBottleStimulants
+  name: delta-catalog-medicine-bottle-stimulants-name
+  description: delta-catalog-medicine-bottle-stimulants-desc
+  productEntity: LPPChemistryBottleStimulant
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineBottleEpinephrine
+  name: delta-catalog-medicine-bottle-epinephrine-name
+  description: delta-catalog-medicine-bottle-epinephrine-desc
+  productEntity: EpinephrineChemistryBottle
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineBottleOmnizine
+  name: delta-catalog-medicine-bottle-omnizine-name
+  description: delta-catalog-medicine-bottle-omnizine-desc
+  productEntity: OmnizineChemistryBottle
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineBottleEphedrine
+  name: delta-catalog-medicine-bottle-ephedrine-name
+  description: delta-catalog-medicine-bottle-ephedrine-desc
+  productEntity: EphedrineChemistryBottle
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPDeltaMedicine
+
+- type: listing
+  id: LPPDeltaCatalogMedicineAmbuzolPlusPill
+  name: delta-catalog-medicine-ambuzolplus-pill-name
+  description: delta-catalog-medicine-ambuzolplus-pill-desc
+  productEntity: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPlusPill
+  cost:
+    Telecrystal: 14
+  categories:
+  - LPPDeltaMedicine
+
+#engineering
+- type: listing
+  id: LPPDeltaCatalogEngineeringCrateSteel
+  name: delta-catalog-engineering-crate-steel-name
+  description: delta-catalog-engineering-crate-steel-desc
+  productEntity: CrateMaterialSteel
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaEngineering
+
+- type: listing
+  id: LPPDeltaCatalogEngineeringCrateGlass
+  name: delta-catalog-engineering-crate-glass-name
+  description: delta-catalog-engineering-crate-glass-desc
+  productEntity: CrateMaterialGlass
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaEngineering
+
+- type: listing
+  id: LPPDeltaCatalogEngineeringCratePlasteel
+  name: delta-catalog-engineering-crate-plasteel-name
+  description: delta-catalog-engineering-crate-plasteel-desc
+  productEntity: CrateMaterialPlasteel
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaEngineering
+
+- type: listing
+  id: LPPDeltaCatalogEngineeringBelt
+  name: delta-catalog-engineering-belt-name
+  description: delta-catalog-engineering-belt-desc
+  productEntity: ClothingBeltChiefEngineerFilled
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaEngineering
+
+- type: listing
+  id: LPPDeltaCatalogEngineeringRCD
+  name: delta-catalog-engineering-rcd-name
+  description: delta-catalog-engineering-rcd-desc
+  productEntity: RCD
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaEngineering
+
+- type: listing
+  id: LPPDeltaCatalogEngineeringRCDAmmo
+  name: delta-catalog-engineering-rcdammo-name
+  description: delta-catalog-engineering-rcdammo-desc
+  productEntity: RCDAmmo
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPDeltaEngineering
+
+- type: listing
+  id: LPPDeltaCatalogEngineeringC4
+  name: delta-catalog-engineering-c4-name
+  description: delta-catalog-engineering-c4-desc
+  productEntity: LPPBackpackDuffelC4Delta
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPDeltaEngineering
+
+- type: listing
+  id: LPPDeltaCatalogEngineeringExGrenade
+  name: delta-catalog-engineering-exgrenade-name
+  description: delta-catalog-engineering-exgrenade-desc
+  productEntity: LPPBackpackDuffelExGrenadeDelta
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPDeltaEngineering
+
+- type: listing
+  id: LPPDeltaCatalogEngineeringEmpGrenade
+  name: delta-catalog-engineering-empgrenade-name
+  description: delta-catalog-engineering-empgrenade-desc
+  productEntity: LPPBackpackDuffelEmpGrenadeDelta
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPDeltaEngineering
+
+- type: listing
+  id: LPPDeltaCatalogEngineeringGrenadeIncendiary
+  name: delta-catalog-engineering-grenade-incendiary-name
+  description: delta-catalog-engineering-grenade-incendiary-desc
+  productEntity: LPPBackpackDuffelIncendiaryGrenadeDelta
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPDeltaEngineering
+
+- type: listing
+  id: LPPDeltaCatalogEngineeringTurret
+  name: delta-catalog-engineering-turret-name
+  description: delta-catalog-engineering-turret-desc
+  productEntity: LPPToolboxElectricalTurretNT
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPDeltaEngineering
+
+#- type: listing
+#  id: LPPDeltaCatalogEngineeringHammer
+#  name: delta-catalog-engineering-hammer-name
+#  description: delta-catalog-engineering-hammer-desc
+#  productEntity: LPPHammer
+#  cost:
+#    Telecrystal: 3
+#  categories:
+#  - LPPDeltaEngineering
+
+- type: listing
+  id: LPPDeltaCatalogEngineeringCrowbar
+  name: delta-catalog-engineering-crowbar-name
+  description: delta-catalog-engineering-crowbar-desc
+  productEntity: CrowbarRed
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPDeltaEngineering
+
+
+#Unlethal
+- type: listing
+  id: LPPDeltaCatalogUnlethalBoxZiptie
+  name: delta-catalog-unlethal-boxziptie-name
+  description: delta-catalog-unlethal-boxziptie-desc
+  productEntity: BoxZiptie
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaUnlethal
+
+- type: listing
+  id: LPPDeltaCatalogUnlethalWeaponDisabler
+  name: delta-catalog-unlethal-disabler-name
+  description: delta-catalog-unlethal-disabler-desc
+  productEntity: WeaponDisabler
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaUnlethal
+
+- type: listing
+  id: LPPDeltaCatalogUnlethalWeaponDisablerSMG
+  name: delta-catalog-unlethal-disablersmg-name
+  description: delta-catalog-unlethal-disablersmg-desc
+  productEntity: WeaponDisablerSMG
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPDeltaUnlethal
+
+#Implants
+- type: listing
+  id: LPPDeltaCatalogImplantsTracker
+  name: delta-catalog-implants-tracker-name
+  description: delta-catalog-implants-tracker-desc
+  productEntity: CrateTrackingImplants
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPDeltaImplants
+
+- type: listing
+  id: LPPDeltaCatalogImplantsFreedom
+  name: delta-catalog-implants-freedom-name
+  description: delta-catalog-implants-freedom-desc
+  productEntity: LPPCrateFreedomImplants
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaImplants
+
+#- type: listing
+#  id: LPPDeltaCatalogImplantsLanguage
+#  name: delta-catalog-implants-language-name
+#  description: delta-catalog-implants-language-desc
+#  productEntity: LPPCrateLanguageImplants
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - LPPDeltaImplants
+
+- type: listing
+  id: LPPDeltaCatalogImplantsAcidifier
+  name: delta-catalog-implants-acidifier-name
+  description: delta-catalog-implants-acidifier-desc
+  productEntity: LPPCrateAcidifierImplants
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPDeltaImplants
+
+- type: listing
+  id: LPPDeltaCatalogImplantsEmp
+  name: delta-catalog-implants-emp-name
+  description: delta-catalog-implants-emp-desc
+  productEntity: LPPCrateEMPImplants
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaImplants
+
+- type: listing
+  id: LPPDeltaCatalogImplantsScram
+  name: delta-catalog-implants-scram-name
+  description: delta-catalog-implants-scram-desc
+  productEntity: LPPCrateScramImplants
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPDeltaImplants
+
+- type: listing
+  id: LPPDeltaCatalogImplantsMicroBomb
+  name: delta-catalog-implants-microbomb-name
+  description: delta-catalog-implants-microbomb-desc
+  productEntity: LPPCrateMicroBombImplants
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPDeltaImplants
+
+- type: listing
+  id: LPPDeltaCatalogImplantsStorage
+  name: delta-catalog-implants-storage-name
+  description: delta-catalog-implants-storage-desc
+  productEntity: LPPCrateStorageImplants
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPDeltaImplants
+
+- type: listing
+  id: LPPDeltaCatalogImplantsDnaScrambler
+  name: delta-catalog-implants-dnascrambler-name
+  description: delta-catalog-implants-dnascrambler-desc
+  productEntity: LPPCrateDnaScramblerImplants
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPDeltaImplants
+
+- type: listing
+  id: LPPDeltaCatalogImplantsMacroBomb
+  name: delta-catalog-implants-macrobomb-name
+  description: delta-catalog-implants-macrobomb-desc
+  productEntity: LPPCrateMacroBombImplants
+  cost:
+    Telecrystal: 9
+  categories:
+  - LPPDeltaImplants
+
+# !!!НЕ ДЕКОМЕНТИТЬ ТО ЧТО СНИЗУ!!!
+
+#Allies
+#- type: listing
+#  id: DeltaCatalogAlliesBorgEng
+#  name: Delta-catalog-allies-borg-eng-name
+#  description: Delta-catalog-allies-borg-eng-desc
+#  productEntity: LPPBorgChassisEngineeringDelta
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - DeltaAllies
+
+#- type: listing
+#  id: DeltaCatalogAlliesBorgMed
+#  name: Delta-catalog-allies-borg-med-name
+#  description: Delta-catalog-allies-borg-med-desc
+#  productEntity: LPPBorgChassisMedicalDelta
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - DeltaAllies
+
+#- type: listing
+#  id: DeltaCatalogAlliesBorgSec
+#  name: Delta-catalog-allies-borg-sec-name
+#  description: Delta-catalog-allies-borg-sec-desc
+#  productEntity: LPPDSOBorgSecurity
+#  cost:
+#    Telecrystal: 2
+#  categories:
+#  - DeltaAllies

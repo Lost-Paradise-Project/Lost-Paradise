@@ -1,0 +1,58 @@
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterDetectiveHardsuit
+  name: защитный костюм от давления детектива
+  description: Лёгкий костюм, помогающий детективам NanoTrasen расследывать даже в космосе!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/detectivehardsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/detectivehardsuit.rsi
+  - type: Item
+    size: Large
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.85
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.8
+        Caustic: 0.7
+        Heat: 0.85
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.90
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetDetectiveHardsuit
+  - type: StaticPrice
+    price: 350
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: LPPClothingHeadHelmetDetectiveHardsuit
+  name: защитный шлем детектива
+  description: Жаль что нет отверствия под курительную трубку...
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/detectiveharsuithelm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/detectiveharsuithelm.rsi
+  - type: PointLight
+    color: white
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95

@@ -1,0 +1,167 @@
+- type: Tag
+  id: tail
+
+- type: Tag
+  id: breast
+
+- type: Tag
+  id: underwear
+
+- type: Tag
+  id: socks
+
+#------Микросхемнй пол
+
+- type: Tag
+  id: FloorGreenCircuitBase
+- type: Tag
+  id: FloorGreenCircuit
+
+- type: Tag
+  id: FloorBlueCircuitBase
+- type: Tag
+  id: FloorBlueCircuit
+
+#-------Деско-пол
+
+- type: Tag
+  id: LPPLEDDiscoFloorOjects
+
+- type: Tag
+  id: LPPLEDDiscoFloor
+
+- type: Tag
+  id: LPPLEDDiscoFloorRotatesOjects
+
+
+- type: Tag
+  id: LPPLEDDiscoFloorRotates
+
+- type: Tag
+  id: LPPLEDDiscoFloorRotatesHalfwayOjects
+
+- type: Tag
+  id: LLPPLEDDiscoFloorRotatesHalfway
+
+#-------матрица
+
+- type: Tag
+  id: LPPLEDDiscoFloorMatrix4Ojects
+
+- type: Tag
+  id: LPPLEDDiscoFloorMatrix4
+
+
+
+- type: Tag
+  id: LPPLEDDiscoFloorMatrix1Ojects
+
+- type: Tag
+  id: LPPLEDDiscoFloorMatrix1
+
+# ============================================================
+#
+#                    [Модули для киборгов]
+#
+# ============================================================
+
+- type: Tag
+  id: LPPBorgModuleSecurity
+
+- type: Tag
+  id: LPPBorgModuleERP
+
+- type: Tag
+  id: LPPBorgModuleSci
+
+# ============================================================
+#
+#                    [Части тела киборгов]
+#
+# ============================================================
+
+# [Части тела эротического-киборга]
+
+- type: Tag
+  id: LPPBorgEroticLArm
+
+- type: Tag
+  id: LPPBorgEroticRArm
+
+- type: Tag
+  id: LPPBorgEroticLLeg
+
+- type: Tag
+  id: LPPBorgEroticRLeg
+
+- type: Tag
+  id: LPPBorgEroticHead
+
+- type: Tag
+  id: LPPBorgEroticTorso
+
+# [Части тела киборг-безопасности]
+
+- type: Tag
+  id: LPPBorgSecurityHead
+
+- type: Tag
+  id: LPPBorgSecurityTorso
+
+- type: Tag
+  id: LPPBorgSecurityRLeg
+
+- type: Tag
+  id: LPPBorgSecurityLLeg
+
+- type: Tag
+  id: LPPBorgSecurityRArm
+
+- type: Tag
+  id: LPPBorgSecurityLArm
+
+# [Части тела киборг-шахтёр]
+
+- type: Tag
+  id: LPPBorgMiningHead
+
+- type: Tag
+  id: LPPBorgMiningLArm
+
+- type: Tag
+  id: LPPBorgMiningLLeg
+
+- type: Tag
+  id: LPPBorgMiningRArm
+
+- type: Tag
+  id: LPPBorgMiningRLeg
+
+- type: Tag
+  id: LPPBorgMiningTorso
+
+- type: Tag
+  id: LPPDrinkBottleAlko
+
+- type: Tag
+  id: LPPHammer
+# [Обоема для M41-A]
+
+- type: Tag
+  id: MagazineRifleM41A
+
+# [ИИ Станции и его Модули]
+
+- type: Tag
+  id: AIModule
+
+- type: Tag
+  id: AIRebutModule
+
+# [Тэги Конструкции крафта]
+
+- type: Tag
+  id: LPPFlashlightSeclite
+
+- type: Tag
+  id: LPPHelmet

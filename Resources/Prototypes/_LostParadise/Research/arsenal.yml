@@ -1,0 +1,32 @@
+- type: technology
+  id: LPPIonGun
+  name: research-technology-ion-gun
+  icon:
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/combat_ion_pistols.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+  - LPPIonPistolIS17
+  - LPPIonGunLV12
+  - LPPIonGunAutoUI80
+
+- type: technology
+  id: LPPRoboticsSecurity
+  name: research-technology-robotics-security
+  icon:
+    sprite: Objects/Misc/handcuffs.rsi
+    state: handcuff
+  discipline: Arsenal
+  tier: 1
+  cost: 7000
+  recipeUnlocks:
+  - LPPBorgModuleAresst
+  - LPPBattleBorgModule
+  - LPPLeftArmBorgSecurity
+  - LPPRightArmBorgSecurity
+  - LPPLeftLegBorgSecurity
+  - LPPRightLegBorgSecurity
+  - LPPHeadBorgSecurity
+  - LPPTorsoBorgSecurity

@@ -1,0 +1,52 @@
+- type: entity
+  id: LPPHedgeBase
+  parent: BaseStructure
+  name: hedge
+  description: A square piece of metal standing on four metal legs.
+  abstract: true
+  components:
+  - type: SpriteFade
+  - type: Sprite
+    drawdepth: Overdoors
+    noRot: true
+  - type: Icon
+    state: full
+  - type: IconSmooth
+    key: hedge
+    base: hedge_
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.1
+        density: 190
+        mask:
+        - HighImpassable
+#  - type: Tag
+#    tags:
+#      - RCDDeconstructWhitelist
+  - type: Damageable
+    damageContainer: Inorganic # The pot. Not the plant. Or is it plastic?
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/plant_rustle.ogg
+
+- type: entity
+  id: LPPHedge
+  parent: LPPHedgeBase
+  name: hedge
+  description: A square piece of glass plasma, standing on four metal legs. Extra robust.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Furniture/Tables/hedge.rsi
+  - type: Icon
+    sprite: _LostParadise/Structures/Furniture/Tables/hedge.rsi

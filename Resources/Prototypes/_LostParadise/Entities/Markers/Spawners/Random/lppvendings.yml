@@ -1,0 +1,21 @@
+- type: entity
+  id: LPPRandomVending
+  name: random vending machine spawner
+  suffix: LPP
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: Structures/Machines/VendingMachines/random.rsi
+        state: any
+  - type: RandomSpawner
+    prototypes:
+      - LPPBeachVendingMachine
+      - LPPErpMachine
+      - LPPBrasMat
+      - LPPNascaMat
+      - LPPPillowVendingMachine
+      - LPPUnderpantsMat
+      - LPPWithSoftAnimals
+    chance: 1

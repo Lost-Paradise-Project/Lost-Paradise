@@ -1,0 +1,51 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPArbiterclothing
+  name: Arbiter uniform
+  description: An expensive suit from an unknown corporation. Elaborate workmanship and inlaid gold in the thread. Luxury.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/WTF/arbiterclothing.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/WTF/arbiterclothing.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPParbitercloak
+    requiredSlot:
+    - innerclothing
+    slot: neck
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+
+- type: entity
+  parent: ClothingUniformJumpsuitLawyerBlack
+  id: LPPIAASuite
+  name: iaa suit
+  description: IAA suit.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/iaa-suite.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/iaa-suite.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitLawyerBlack
+  id: LPPMagistrateUniform
+  name: Magistrate suit
+  description: Magitstrate suit.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/Magistrate-suite.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/Magistrate-suite.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitBlueshield
+  name: blueshield's jumpsuit
+  description: This is the costume of a man of high rank.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/blueshield_suit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/blueshield_suit.rsi

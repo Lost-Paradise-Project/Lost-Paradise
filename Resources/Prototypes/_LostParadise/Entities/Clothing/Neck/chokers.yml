@@ -1,0 +1,93 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckBellCollarWhite
+  name: белый чокер с колокольчиком
+  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/chokers/white.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/chokers/white.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckBellCollarBlack
+  name: чёрный чокер с колокольчиком
+  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/chokers/black.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/chokers/black.rsi
+
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckBellCollarRed
+  name: красный чокер с колокольчиком
+  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/chokers/red.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/chokers/red.rsi
+
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckBellCollarCyan
+  name: голубой чокер с колокольчиком
+  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/chokers/cyan.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/chokers/cyan.rsi
+
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckBellCollarGreen
+  name: зелёный чокер с колокольчиком
+  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/chokers/green.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/chokers/green.rsi
+
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckBellCollarPurple
+  name: фиолетовый чокер с колокольчиком
+  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/chokers/purple.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/chokers/purple.rsi
+
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckBellCollarOrange
+  name: оранжевый чокер с колокольчиком
+  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/chokers/orange.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/chokers/orange.rsi
+
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckCollarSpiked
+  name: шипастый чокер
+  description: Чокер с шипами, вы либо гот, либо металист, раз решились такое носить.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/chokers/spiked.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/chokers/spiked.rsi

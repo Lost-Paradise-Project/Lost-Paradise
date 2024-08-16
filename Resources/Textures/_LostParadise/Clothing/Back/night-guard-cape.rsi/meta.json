@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "My contacts github https://github.com/Skilets?tab=repositories and Discord Skilets#5770",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon" 
+    },
+    {
+      "name": "icon-on",
+      "delays": [
+                [0.2, 0.2, 0.2, 0.2]
+          ]
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "equipped-BACKPACK",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-BACKPACK",
+      "directions": 4
+    }
+  ]
+}

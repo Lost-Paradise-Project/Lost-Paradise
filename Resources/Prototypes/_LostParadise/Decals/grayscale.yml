@@ -1,0 +1,279 @@
+﻿- type: decal
+  id: LPPFullTileOverlayGreyscaleS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: fulltile_overlay
+
+- type: decal
+  id: LPPHalfTileOverlayGreyscaleS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: halftile_overlay
+
+- type: decal
+  id: LPPHalfTileOverlayGreyscale90S
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: halftile_overlay_90
+
+- type: decal
+  id: LPPHalfTileOverlayGreyscale180S
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: halftile_overlay_180
+
+- type: decal
+  id: LPPHalfTileOverlayGreyscale270S
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: halftile_overlay_270
+
+- type: decal
+  id: LPPQuarterTileOverlayGreyscaleS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: quartertile_overlay
+
+- type: decal
+  id: LPPQuarterTileOverlayGreyscale90S
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: quartertile_overlay_90
+
+- type: decal
+  id: LPPQuarterTileOverlayGreyscale180S
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: quartertile_overlay_180
+
+- type: decal
+  id: LPPQuarterTileOverlayGreyscale270S
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: quartertile_overlay_270
+
+- type: decal
+  id: LPPThreeQuarterTileOverlayGreyscaleS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: threequartertile_overlay
+
+- type: decal
+  id: LPPThreeQuarterTileOverlayGreyscale90S
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: threequartertile_overlay_90
+
+- type: decal
+  id: LPPThreeQuarterTileOverlayGreyscale180S
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: threequartertile_overlay_180
+
+- type: decal
+  id: LPPThreeQuarterTileOverlayGreyscale270S
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: threequartertile_overlay_270
+
+- type: decal
+  id: LPPCheckerNESWS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: checkerNESW
+
+- type: decal
+  id: LPPCheckerNWSES
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: checkerNWSE
+
+- type: decal
+  id: LPPDiagonalOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: diagonal
+
+- type: decal
+  id: LPPDiagonalCheckerAOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: diagonal_checker_a
+
+- type: decal
+  id: LPPDiagonalCheckerBOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: diagonal_checker_b
+
+- type: decal
+  id: LPPHerringboneOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: herringbone
+
+- type: decal
+  id: LPPMiniTileOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: minitile
+
+- type: decal
+  id: LPPMiniTileCheckerAOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: minitile_checker_a
+
+- type: decal
+  id: LPPMiniTileCheckerBOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: minitile_checker_b
+
+- type: decal
+  id: LPPMiniTileDiagonalOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: minitile_diagonal
+
+- type: decal
+  id: LPPMiniTileDiagonalCheckerAOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: minitile_diagonal_a
+
+- type: decal
+  id: LPPMiniTileDiagonalCheckerBOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: minitile_diagonal_b
+
+- type: decal
+  id: LPPMonoOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: mono
+
+- type: decal
+  id: LPPOffsetOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: offset
+
+- type: decal
+  id: LPPOffsetCheckerAOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: offset_checker_a
+
+- type: decal
+  id: LPPOffsetCheckerBOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: offset_checker_b
+
+- type: decal
+  id: LPPPavementOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: pavement
+
+- type: decal
+  id: LPPPavementCheckerAOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: pavement_checker_a
+
+- type: decal
+  id: LPPPavementCheckerBOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: pavement_checker_b
+
+- type: decal
+  id: LPPPavementVerticalOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: pavement_vertical
+
+- type: decal
+  id: LPPPavementVerticalCheckerAOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: pavement_vertical_checker_a
+
+- type: decal
+  id: LPPPavementVerticalCheckerBOverlayS
+  tags: ["station", "overlay"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _LostParadise/Decals/greyscale-s.rsi
+    state: pavement_vertical_checker_b

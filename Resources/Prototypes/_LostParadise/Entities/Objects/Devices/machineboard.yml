@@ -1,0 +1,165 @@
+- type: entity
+  id: LPPProtolatheENGMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: инженерный протолат (машинная плата)
+  description: Плата для создания инженерного протолата.
+  components:
+    - type: MachineBoard
+      prototype: LPPprotolatheENG
+      stackRequirements:
+        MatterBin: 2
+        Manipulator: 2
+      tagRequirements:
+        GlassBeaker:
+          amount: 2
+          defaultPrototype: Beaker
+
+- type: entity
+  id: LPPProtolatheRnDMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: научный протолат (машинная плата)
+  description: Плата для создания научного протолата.
+  components:
+    - type: MachineBoard
+      prototype: LPPprotolatheRnD
+      stackRequirements:
+        MatterBin: 2
+        Manipulator: 2
+      tagRequirements:
+        GlassBeaker:
+          amount: 2
+          defaultPrototype: Beaker
+
+- type: entity
+  id: LPPProtolatheSUPMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: протолат снабжения (машинная плата)
+  description: Плата для создания протолата снабжения.
+  components:
+    - type: MachineBoard
+      prototype: LPPSupProtolathe
+      stackRequirements:
+        MatterBin: 2
+        Manipulator: 2
+      tagRequirements:
+        GlassBeaker:
+          amount: 2
+          defaultPrototype: Beaker
+
+- type: entity
+  id: LPPProtolatheServiceMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: сервисный протолат (машинная плата)
+  description: Плата для создания сервисного протолата.
+  components:
+    - type: MachineBoard
+      prototype: LPPServiceProtolathe
+      stackRequirements:
+        MatterBin: 2
+        Manipulator: 2
+      tagRequirements:
+        GlassBeaker:
+          amount: 2
+          defaultPrototype: Beaker
+
+- type: entity
+  id: LPPSpaceForgeBoard
+  parent: BaseMachineCircuitboard
+  name: космическая кузница (машинная плата)
+  description: Плата для создания космической кузницы.
+  components:
+  - type: Tag
+    tags:
+    - HighRiskItem
+  - type: StealTarget
+    stealGroup: LPPSpaceForgeBoard
+  - type: MachineBoard
+    prototype: LPPthespaceforge
+    stackRequirements:
+      MatterBin: 8
+      Manipulator: 6
+      Glass: 10
+      Steel: 5
+    tagRequirements:
+      GlassBeaker:
+        amount: 2
+        defaultPrototype: Beaker
+        examineName: Glass Beaker
+
+- type: entity
+  id: LPPUniformPrinterMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: принтер униформы 2.0 (машинная плата)
+  description: Плата для создания принтера униформы 2.0.
+  components:
+    - type: MachineBoard
+      prototype: LPPUniformPrinter
+      stackRequirements:
+        MatterBin: 2
+        Manipulator: 2
+
+- type: entity
+  id: LPPCECommsComputerCircuitboard
+  parent: BaseMachineCircuitboard
+  name: chief engineer communications computer board
+  description: ent-BaseComputerCircuitboard.desc
+  components:
+    - type: Sprite
+      state: cpu_command
+    - type: MachineBoard
+      prototype: LPPCEComputerComms
+
+- type: entity
+  id: LPPCapCommsComputerCircuitboard
+  parent: BaseMachineCircuitboard
+  name: captain communications computer board
+  description: ent-BaseComputerCircuitboard.desc
+  components:
+    - type: Sprite
+      state: cpu_command
+    - type: MachineBoard
+      prototype: LPPCapComputerComms
+
+- type: entity
+  id: LPPHopCommsComputerCircuitboard
+  parent: BaseMachineCircuitboard
+  name: head of personnel communications computer board
+  description: ent-BaseComputerCircuitboard.desc
+  components:
+    - type: Sprite
+      state: cpu_command
+    - type: MachineBoard
+      prototype: LPPHopComputerComms
+
+- type: entity
+  id: LPPHosCommsComputerCircuitboard
+  parent: BaseMachineCircuitboard
+  name: head of security communications computer board
+  description: ent-BaseComputerCircuitboard.desc
+  components:
+    - type: Sprite
+      state: cpu_command
+    - type: MachineBoard
+      prototype: LPPHosComputerComms
+
+- type: entity
+  id: LPPRDCommsComputerCircuitboard
+  parent: BaseMachineCircuitboard
+  name: research director communications computer board
+  description: ent-BaseComputerCircuitboard.desc
+  components:
+    - type: Sprite
+      state: cpu_command
+    - type: MachineBoard
+      prototype: LPPRDComputerComms
+
+- type: entity
+  id: LPPCmoCommsComputerCircuitboard
+  parent: BaseMachineCircuitboard
+  name: chief medical officer communications computer board
+  description: ent-BaseComputerCircuitboard.desc
+  components:
+    - type: Sprite
+      state: cpu_command
+    - type: MachineBoard
+      prototype: LPPCmoComputerComms

@@ -1,0 +1,46 @@
+- type: entity
+  parent: BaseItem
+  id: LPPWeaponEnergyCrossbow
+  name: мини арбалет синдиката
+  description: Любимое оружие агентов из далёких времён. Выстрел сразу же поражает цель, роняя моментально вашу цель на короткое время. Хоть оно и не требуется боеприпасов для стрельбы, однако самому оружию требуется перезарядка для повторного выстрела.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/ecbow.rsi
+    layers:
+    - state: icon
+  - type: Item
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/ecbow.rsi
+    size: Small
+    shape:
+    - 0,0,2,0
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/click.ogg
+  - type: AmmoCounter
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.AmmoVisuals.HasAmmo:
+        empty-icon:
+          True: { visible: False }
+          False: { visible: True }
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 8
+    rechargeSound:
+      path: /Audio/Items/bow_pull.ogg
+  - type: BasicEntityAmmoProvider
+    proto: LPPBecbowarrow
+    capacity: 1
+    count: 1
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/ecbow.rsi
+    quickEquip: false
+    slots:
+    - Belt
+    - suitStorage
+  - type: UseDelay
+    delay: 1

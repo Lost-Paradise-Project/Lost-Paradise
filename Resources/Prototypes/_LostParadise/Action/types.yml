@@ -1,0 +1,11 @@
+# - type: entity
+#   id: ActionEmotePanelToggle
+#   name: Toggle Emote Panel
+#   categories: [ HideSpawnMenu ]
+#   components:
+#   - type: InstantAction
+#     itemIconStyle: NoItem
+#     icon:
+#       sprite: _LostParadise/Interface/emotion_heart.rsi
+#       state: heart
+#     event: !type:ToggleEmotePanelActionEvent

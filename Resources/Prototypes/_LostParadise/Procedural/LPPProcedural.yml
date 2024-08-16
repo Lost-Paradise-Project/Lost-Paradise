@@ -1,0 +1,444 @@
+- type: biomeTemplate
+  id: WetJungle
+  layers:
+    # Sparse vegetation
+    - !type:BiomeDecalLayer
+      allowedTiles:
+        - FloorPlanetGrass
+        - FloorDesert
+      divisions: 2
+      threshold: -0.50
+      noise:
+        seed: 0
+        noiseType: Cellular
+        frequency: 1
+      decals:
+        - BushDOne
+        - BushDTwo
+        - BushDThree
+        - Grassa1
+        - Grassa2
+        - Grassa3
+        - Grassa4
+    - !type:BiomeDecalLayer
+      allowedTiles:
+        - FloorPlanetGrass
+        - FloorDesert
+      noise:
+        seed: 0
+        noiseType: OpenSimplex2
+        frequency: 1
+      divisions: 1
+      threshold: 0.8
+      decals:
+        - FlowersBROne
+        - FlowersBRTwo
+        - FlowersBRThree
+        - Bushi4
+        - Bushj1
+        - Bushk3
+    # Dense vegetation
+    - !type:BiomeDecalLayer
+      allowedTiles:
+      - FloorPlanetGrass
+      - FloorDesert
+      divisions: 1
+      threshold: -0.35
+      noise:
+        seed: 0
+        noiseType: Cellular
+        frequency: 0.2
+        fractalType: FBm
+        octaves: 5
+        lacunarity: 2
+        gain: 1
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+      decals:
+        - BushAOne
+        - BushATwo
+        - BushAThree
+        - BushCOne
+        - BushCTwo
+        - BushCThree
+        - Basalt1
+        - Basalt2
+        - Basalt3
+    - !type:BiomeEntityLayer
+      threshold: 0.5
+      noise:
+        seed: 0
+        noiseType: OpenSimplex2
+        fractalType: FBm
+        frequency: 2
+      allowedTiles:
+        - FloorPlanetGrass
+        - FloorDesert
+      entities:
+        - FloraTree04
+        - FloraTree05
+        - FloraTree06
+        - FloraTreeLarge01
+        - FloraTreeLarge02
+        - FloraTreeLarge03
+        - LPPpalm01
+        - LPPpalm02
+        - LPPpalm03
+        - LPPpalm04
+        - LPPpalm05
+        - LPPpalm06
+        - FloraRockSolid01
+        - FloraRockSolid02
+        - FloraRockSolid03
+    # Rock formations
+    - !type:BiomeEntityLayer
+      allowedTiles:
+        - FloorCave
+      threshold: -0.15
+      noise:
+        seed: 0
+        noiseType: Cellular
+        frequency: 0.05
+        lacunarity: 2
+        fractalType: FBm
+        octaves: 5
+        gain: 1
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+      entities:
+        - WallRock
+        - WallRockTin
+    - !type:BiomeDummyLayer
+      id: Loot
+    # Water
+    - !type:BiomeEntityLayer
+      allowedTiles:
+        - FloorPlanetGrass
+        - FloorPlanetDirt
+        - FloorDesert
+      threshold: 0.95
+      noise:
+        seed: 3
+        noiseType: OpenSimplex2
+        frequency: 0.003
+        lacunarity: 1.50
+        fractalType: Ridged
+        octaves: 1
+      entities:
+        - FloorWaterEntity
+    # Fill remainder with dirt.
+    - !type:BiomeTileLayer
+      threshold: -1.0
+      tile: FloorPlanetDirt
+    - !type:BiomeTileLayer
+      threshold: -0.90
+      tile: FloorPlanetGrass
+    - !type:BiomeTileLayer
+      threshold: -0.50
+      tile: FloorDesert
+      noise:
+        seed: 0
+        frequency: 0.02
+        fractalType: None
+    # Water sand
+    - !type:BiomeTileLayer
+      tile: FloorPlanetDirt
+      threshold: 0.95
+      noise:
+        seed: 3
+        noiseType: OpenSimplex2
+        frequency: 0.003
+        lacunarity: 1.50
+        fractalType: Ridged
+        octaves: 1
+    # Rock formation sand
+    - !type:BiomeTileLayer
+      tile: FloorCave
+      threshold: -0.15
+      noise:
+        seed: 0
+        noiseType: Cellular
+        frequency: 0.05
+        lacunarity: 2
+        fractalType: FBm
+        octaves: 5
+        gain: 1
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+
+- type: biomeTemplate
+  id: IronMoon
+  layers:
+    - !type:BiomeEntityLayer
+      threshold: 0.9
+      noise:
+        frequency: 1
+        seed: 2
+      allowedTiles:
+        - FloorAsteroidIronsand
+      entities:
+        - BasaltOne
+        - BasaltTwo
+        - BasaltThree
+        - BasaltFour
+        - BasaltFive
+    - !type:BiomeDecalLayer
+      allowedTiles:
+        - FloorAsteroidIronsand
+      threshold: 0.9
+      divisions: 1
+      noise:
+        seed: 1
+        frequency: 1
+      decals:
+        - Basalt1
+        - Basalt2
+        - Basalt3
+        - Basalt4
+        - Basalt5
+        - Basalt6
+        - Basalt7
+        - Basalt8
+        - Basalt9
+    - !type:BiomeEntityLayer
+      threshold: 0.95
+      noise:
+        seed: 0
+        noiseType: OpenSimplex2
+        frequency: 1
+      allowedTiles:
+        - FloorAsteroidIronsand
+      entities:
+        - FloraRockSolid01
+        - FloraRockSolid02
+        - FloraRockSolid03
+    - !type:BiomeEntityLayer
+      threshold: 0.2
+      noise:
+        seed: 0
+        frequency: 0.02
+        fractalType: FBm
+        octaves: 5
+        lacunarity: 2
+        gain: 0.4
+      allowedTiles:
+        - FloorAsteroidIronsand
+      entities:
+        -
+    - !type:BiomeEntityLayer
+      threshold: -0.20
+      noise:
+        seed: 0
+        frequency: 0.04
+        noiseType: Cellular
+        fractalType: FBm
+        octaves: 5
+        lacunarity: 2
+        gain: 1
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+      allowedTiles:
+        - FloorAsteroidIronsand
+      entities:
+        - AsteroidRock
+    - !type:BiomeDummyLayer
+      id: Loot
+    # Fill basalt
+    - !type:BiomeTileLayer
+      threshold: -1.00
+      tile: FloorAsteroidIronsand
+
+- type: biomeTemplate
+  id: WesternDesert
+  layers:
+    # Sparse vegetation
+    - !type:BiomeDecalLayer
+      allowedTiles:
+        - FloorAsteroidSandRed
+        - FloorAsteroidSand
+        - FloorDesert
+      divisions: 2
+      threshold: -0.50
+      noise:
+        seed: 0
+        noiseType: Cellular
+        frequency: 1
+      decals:
+        - BushDOne
+        - BushDTwo
+        - BushDThree
+    - !type:BiomeDecalLayer
+      allowedTiles:
+        - FloorAsteroidSandRed
+        - FloorAsteroidSand
+      noise:
+        seed: 0
+        noiseType: OpenSimplex2
+        frequency: 1
+      divisions: 1
+      threshold: 0.8
+      decals:
+        - FlowersBROne
+        - FlowersBRThree
+        - Bushi4
+        - Bushk3
+        - Basalt1
+        - Basalt2
+        - Basalt3
+    - !type:BiomeEntityLayer
+      threshold: 0.5
+      noise:
+        seed: 0
+        noiseType: OpenSimplex2
+        fractalType: FBm
+        frequency: 2
+      allowedTiles:
+        - FloorLowDesert
+        - FloorAsteroidSandRed
+        - FloorAsteroidSand
+      entities:
+        - LPPcactus02
+        - LPPcactus03
+        - LPPcactus04
+        - LPPcactus05
+        - LPPSmallCactus01
+        - LPPSmallCactus02
+        - LPPSmallCactus03
+        - LPPSmallCactus04
+        - LPPSmallCactus05
+        - FloraRockSolid01
+        - FloraRockSolid02
+        - FloraRockSolid03
+    # Rock formations
+    - !type:BiomeEntityLayer
+      allowedTiles:
+        - FloorAsteroidSandRed
+      threshold: -0.15
+      noise:
+        seed: 0
+        noiseType: Cellular
+        frequency: 0.05
+        lacunarity: 2
+        fractalType: FBm
+        octaves: 5
+        gain: 1
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+      entities:
+        - AsteroidRock
+        - AsteroidRockMining
+    - !type:BiomeDummyLayer
+      id: Loot
+    # Fill remainder with dirt.
+    - !type:BiomeTileLayer
+      threshold: -0.80
+      tile: FloorAsteroidSandRed
+    - !type:BiomeTileLayer
+      threshold: -1.0
+      tile: FloorAsteroidSand
+    - !type:BiomeTileLayer
+      threshold: -0.90
+      tile: FloorDesert
+    - !type:BiomeTileLayer
+      threshold: -0.50
+      tile: FloorLowDesert
+      noise:
+        seed: 0
+        frequency: 0.02
+        fractalType: None
+    # Rock formation sand
+    - !type:BiomeTileLayer
+      tile: FloorCave
+      threshold: -0.15
+      noise:
+        seed: 0
+        noiseType: Cellular
+        frequency: 0.05
+        lacunarity: 2
+        fractalType: FBm
+        octaves: 5
+        gain: 1
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+
+- type: biomeTemplate
+  id: LavaLand
+  layers:
+    - !type:BiomeEntityLayer
+      threshold: 0.9
+      noise:
+        frequency: 1
+        seed: 2
+      allowedTiles:
+        - FloorBasalt
+      entities:
+        - BasaltOne
+        - BasaltTwo
+        - BasaltThree
+        - BasaltFour
+        - BasaltFive
+    - !type:BiomeDecalLayer
+      allowedTiles:
+        - FloorBasalt
+      threshold: 0.9
+      divisions: 1
+      noise:
+        seed: 1
+        frequency: 1
+      decals:
+        - Basalt1
+        - Basalt2
+        - Basalt3
+        - Basalt4
+        - Basalt5
+        - Basalt6
+        - Basalt7
+        - Basalt8
+        - Basalt9
+    - !type:BiomeEntityLayer
+      threshold: 0.95
+      noise:
+        seed: 0
+        noiseType: OpenSimplex2
+        frequency: 1
+      allowedTiles:
+        - FloorBasalt
+      entities:
+        - FloraRockSolid01
+        - FloraRockSolid02
+        - FloraRockSolid03
+    - !type:BiomeEntityLayer
+      threshold: 0.2
+      noise:
+        seed: 0
+        frequency: 0.02
+        fractalType: FBm
+        octaves: 5
+        lacunarity: 2
+        gain: 0.4
+      allowedTiles:
+        - FloorBasalt
+      entities:
+        - FloorLavaEntity
+    # Rock formations
+    - !type:BiomeEntityLayer
+      allowedTiles:
+        - FloorBasalt
+      threshold: -0.30
+      noise:
+        seed: 0
+        noiseType: Cellular
+        frequency: 0.05
+        lacunarity: 2
+        fractalType: FBm
+        octaves: 5
+        cellularDistanceFunction: Euclidean
+        cellularReturnType: Distance2
+      entities:
+        - WallRockBasalt
+    - !type:BiomeDummyLayer
+      id: Loot
+    # Fill basalt
+    - !type:BiomeTileLayer
+      threshold: -1
+      tile: FloorBasalt

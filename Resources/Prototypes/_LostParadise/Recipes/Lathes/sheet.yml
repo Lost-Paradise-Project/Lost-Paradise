@@ -1,0 +1,65 @@
+#----титан
+- type: latheRecipe
+  id: SheetTitanium30
+  result: SheetTitanium
+  completetime: 2
+  materials:
+    RawTitanium: 3000
+
+- type: latheRecipe
+  id: SheetTitanium1
+  result: SheetTitanium
+  completetime: 0.5
+  materials:
+    RawTitanium: 500
+#--стекло
+- type: latheRecipe
+  id: SheetTitaniumGlass30
+  result: MaterialTitaniumGlass
+  completetime: 2.5
+  materials:
+    RawTitanium: 3000
+    RawQuartz: 3000
+
+- type: latheRecipe
+  id: SheetTitaniumGlass1
+  result: MaterialTitaniumGlass
+  completetime: 1
+  materials:
+    RawTitanium: 500
+    RawQuartz: 500
+
+#----пласт титаниум
+- type: latheRecipe
+  id: SheetPlastitanium30
+  result: SheetPlastitanium
+  completetime: 3
+  materials:
+    RawTitanium: 3000
+    RawPlasma: 3000
+
+- type: latheRecipe
+  id: SheetPlastitanium1
+  result: SheetPlastitanium
+  completetime: 1
+  materials:
+    RawTitanium: 500
+    RawPlasma: 500
+#--стекло
+- type: latheRecipe
+  id: SheetPlasTitaniumGlass30
+  result: MaterialPlasTitaniumGlass
+  completetime: 4.5
+  materials:
+    RawTitanium: 3000
+    RawPlasma: 3000
+    RawQuartz: 3000
+
+- type: latheRecipe
+  id: SheetPlasTitaniumGlass1
+  result: MaterialPlasTitaniumGlass
+  completetime: 1.5
+  materials:
+    RawTitanium: 500
+    RawPlasma: 500
+    RawQuartz: 500

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "license": "CC0-1.0",
+  "copyright": "Made by Pe4henika",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "security"
+    },
+    {
+      "name": "modification"
+    },
+    {
+      "name": "service"
+    },
+    {
+      "name": "icon-battle"
+    },
+    {
+      "name": "icon-laser-r"
+    },
+    {
+      "name": "icon-laser-y"
+    },
+    {
+      "name": "icon-arest"
+    },
+    {
+      "name": "icon-patrol"
+    },
+    {
+      "name": "icon-erp"
+    }
+  ]
+}

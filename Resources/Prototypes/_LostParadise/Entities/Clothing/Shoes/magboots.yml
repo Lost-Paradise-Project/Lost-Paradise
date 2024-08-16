@@ -1,0 +1,74 @@
+- type: entity
+  parent: ClothingShoesBootsMag
+  id: LPPClothingShoesPowerBoots
+  name: power boots
+  description: Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/power_boots.rsi
+    state: icon
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/power_boots.rsi
+  - type: Magboots
+    toggleAction: ActionToggleMagbootsAdvanced
+  - type: ClothingSpeedModifier
+    walkModifier: 0.94
+    sprintModifier: 0.94
+    enabled: false
+  - type: NoSlip
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - HighRiskItem
+  - type: StaticPrice
+    price: 750
+
+- type: entity
+  parent: ClothingShoesBootsMag
+  id: LPPClothingShoesBootsMagParamed
+  name: advanced magboots
+  description: Magnetic boots paramed, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/para_magboots.rsi
+    state: icon
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/para_magboots.rsi
+  - type: Magboots
+    toggleAction: ActionToggleMagbootsAdvanced
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+    enabled: false
+  - type: NoSlip
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - HighRiskItem
+  - type: StaticPrice
+    price: 350
+
+- type: entity
+  parent: ClothingShoesBootsMag
+  id: LPPClothingShoesBootsMagAtmos
+  name: magboots atmos
+  description: Magnetic boots atmos, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/atmos_magboots.rsi
+    state: icon
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/atmos_magboots.rsi
+  - type: Magboots
+    toggleAction: ActionToggleMagbootsAdvanced
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+    enabled: false
+  - type: NoSlip
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - HighRiskItem
+  - type: StaticPrice
+    price: 450

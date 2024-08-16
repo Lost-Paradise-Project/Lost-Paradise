@@ -1,0 +1,112 @@
+#===================Moans===================#
+- type: soundCollection
+  id: LPPMoanMale
+  files:
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_m0.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_m1.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_m2.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_m3.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_m4.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_m5.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_m6.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_m7.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_m12.ogg
+
+- type: soundCollection
+  id: LPPMoanMaleFinal
+  files:
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/final_m1.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/final_m2.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/final_m3.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/final_m4.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/final_m5.ogg
+
+- type: soundCollection
+  id: LPPMoanFemale
+  files:
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_f1.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_f2.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_f3.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_f4.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_f5.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_f6.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/moan_f7.ogg
+
+- type: soundCollection
+  id: LPPMoanFemaleFinal
+  files:
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/final_f1.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/final_f2.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/final_f3.ogg
+
+- type: soundCollection
+  id: LPPMoanFemaleUnder
+  files:
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/under_moan_f1.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/under_moan_f2.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/under_moan_f3.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/Moans/under_moan_f4.ogg
+
+#===================ActingVerbs===================#
+
+- type: soundCollection
+  id: LPPVerbSuck
+  files:
+  - /Audio/_LostParadise/Other/ERP_collection/bj1.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bj2.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bj3.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bj4.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bj5.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bj6.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bj7.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bj8.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bj9.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bj10.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bj11.ogg
+
+- type: soundCollection
+  id: LPPVerbBang
+  files:
+  - /Audio/_LostParadise/Other/ERP_collection/bang1.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bang2.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bang3.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bang4.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bang5.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/bang6.ogg
+
+- type: soundCollection
+  id: LPPVerbChamp
+  files:
+  - /Audio/_LostParadise/Other/ERP_collection/champ1.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/champ2.ogg
+
+- type: soundCollection
+  id: LPPVerbSquelch
+  files:
+  - /Audio/_LostParadise/Other/ERP_collection/squelch1.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/squelch2.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/squelch3.ogg
+
+#===================Other===================#
+
+- type: soundCollection
+  id: LPPEmoteAra
+  files:
+  - /Audio/_LostParadise/Other/ERP_collection/emotes/ara-ara.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/emotes/ara-ara2.ogg
+
+- type: soundCollection
+  id: LPPEmoteKiss
+  files:
+  - /Audio/_LostParadise/Other/ERP_collection/emotes/kiss1.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/emotes/kiss2.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/emotes/kiss3.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/emotes/kiss4.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/emotes/kiss5.ogg
+
+- type: soundCollection
+  id: LPPEmotePurr
+  files:
+  - /Audio/_LostParadise/Other/ERP_collection/emotes/purr1.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/emotes/purr2.ogg
+  - /Audio/_LostParadise/Other/ERP_collection/emotes/purr3.ogg

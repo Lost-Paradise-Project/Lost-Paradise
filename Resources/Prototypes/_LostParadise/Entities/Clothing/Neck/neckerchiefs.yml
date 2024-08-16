@@ -1,0 +1,26 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckNeckerchiefGreen
+  name: NeckerchiefGreen
+  description: NeckerchiefGreen
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Neckerchiefs/neckerchief_green.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckNeckerchiefPurple
+  name: NeckerchiefPurple
+  description: NeckerchiefPurple
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Neckerchiefs/neckerchief_purple.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckNeckerchiefRed
+  name: NeckerchiefRed
+  description: NeckerchiefRed
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Neckerchiefs/neckerchief_red.rsi

@@ -1,0 +1,399 @@
+#----------------------------------------#
+#-----botanist---botanist---botanist-----#
+#----------------------------------------#
+- type: decal
+  id: LPPbotanist
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: botanist
+
+- type: decal
+  id: LPPbotanistL
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: botanist-l
+
+- type: decal
+  id: LPPbotanistR
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: botanist-r
+
+#----------------------------#
+#-----dark---dark---dark-----#
+#----------------------------#
+- type: decal
+  id: LPPdark
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: dark
+
+- type: decal
+  id: LPPdarkL
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: dark-l
+
+- type: decal
+  id: LPPdarkM
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: dark-m
+
+- type: decal
+  id: LPPdarkR
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: dark-r
+
+#-------------------------------------------#
+#-----medstairs---medstairs---medstairs-----#
+#-------------------------------------------#
+- type: decal
+  id: LPPmedstairs
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: medstairs
+
+- type: decal
+  id: LPPmedstairsL
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: medstairs-l
+
+- type: decal
+  id: LPPmedstairskM
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: medstairs-m
+
+- type: decal
+  id: LPPmedstairsR
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: medstairs-r
+
+#----------------------------------#
+#-----stairs---stairs---stairs-----#
+#----------------------------------#
+- type: decal
+  id: LPPstairs
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: stairs
+
+- type: decal
+  id: LPPstairsL
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: stairs-l
+
+- type: decal
+  id: LPPstairsM
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: stairs-m
+
+- type: decal
+  id: LPPstairsR
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: stairs-r
+
+#----------------------------------#
+#-----wooden---wooden---wooden-----#
+#----------------------------------#
+- type: decal
+  id: LPPwooden
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: wooden
+
+- type: decal
+  id: LPPwoodenL
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: wooden-l
+
+- type: decal
+  id: LPPwoodenM
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: wooden-m
+
+- type: decal
+  id: LPPwoodenR
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/stairs.rsi
+    state: wooden-r
+
+#-------------------------------------------#
+#-----synd-mini---synd-mini---synd-mini-----#
+#-------------------------------------------#
+- type: decal
+  id: LPPsyndMini1
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/synd-mini.rsi
+    state: synd-mini1
+
+- type: decal
+  id: LPPsyndMini2
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/synd-mini.rsi
+    state: synd-mini2
+
+- type: decal
+  id: LPPsyndMini3
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/synd-mini.rsi
+    state: synd-mini3
+
+- type: decal
+  id: LPPsyndMini4
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/synd-mini.rsi
+    state: synd-mini4
+
+- type: decal
+  id: LPPsyndMini5
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/synd-mini.rsi
+    state: synd-mini5
+
+- type: decal
+  id: LPPsyndMini6
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/synd-mini.rsi
+    state: synd-mini6
+
+- type: decal
+  id: LPPsyndMini7
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/synd-mini.rsi
+    state: synd-mini7
+
+- type: decal
+  id: LPPsyndMini8
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/synd-mini.rsi
+    state: synd-mini8
+
+- type: decal
+  id: LPPsyndMini9
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/synd-mini.rsi
+    state: synd-mini9
+
+#----------------------------------------------#
+#-----wheelchair---wheelchair---wheelchair-----#
+#----------------------------------------------#
+- type: decal
+  id: LPPwheelchair
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/wheelchair.rsi
+    state: wheelchair
+
+#----------------------------------#
+#-----siding---siding---siding-----#
+#----------------------------------#
+- type: decal
+  id: LPPsiding1
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/siding.rsi
+    state: siding1
+
+- type: decal
+  id: LPPsiding2
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/siding.rsi
+    state: siding2
+
+- type: decal
+  id: LPPsiding3
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/siding.rsi
+    state: siding3
+
+- type: decal
+  id: LPPsiding4
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/siding.rsi
+    state: siding4
+
+- type: decal
+  id: LPPsiding5
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/siding.rsi
+    state: siding5
+
+- type: decal
+  id: LPPsiding6
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/siding.rsi
+    state: siding6
+
+- type: decal
+  id: LPPsiding7
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/siding.rsi
+    state: siding7
+
+- type: decal
+  id: LPPsiding8
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/siding.rsi
+    state: siding8
+
+- type: decal
+  id: LPPsiding9
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/siding.rsi
+    state: siding9
+
+- type: decal
+  id: LPPsiding10
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/siding.rsi
+    state: siding10
+
+- type: decal
+  id: LPPsiding11
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/siding.rsi
+    state: siding11
+
+- type: decal
+  id: LPPsiding12
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/siding.rsi
+    state: siding12
+
+#-------------------------------------------#
+#-----threshold---threshold---threshold-----#
+#-------------------------------------------#
+
+- type: decal
+  id: LPPthreshold1
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold1
+
+- type: decal
+  id: LPPthreshold2
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold2
+
+- type: decal
+  id: LPPthreshold3
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold3
+
+- type: decal
+  id: LPPthreshold4
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold4
+
+- type: decal
+  id: LPPthreshold5
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold5
+
+- type: decal
+  id: LPPthreshold6
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold6
+
+- type: decal
+  id: LPPthreshold7
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold7
+
+- type: decal
+  id: LPPthreshold8
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold8
+
+- type: decal
+  id: LPPthreshold9
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold9
+
+- type: decal
+  id: LPPthreshold10
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold10
+
+- type: decal
+  id: LPPthreshold11
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold11
+
+- type: decal
+  id: LPPthreshold12
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold12
+

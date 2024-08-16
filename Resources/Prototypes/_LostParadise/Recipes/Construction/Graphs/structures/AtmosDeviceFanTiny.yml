@@ -1,0 +1,23 @@
+- type: constructionGraph
+  id: AtmosDeviceFanTiny
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: AtmosDeviceFanTiny
+          completed:
+            - !type:SnapToGrid
+              southRotation: true
+          steps:
+            - material: Plasteel
+              amount: 10
+              doAfter: 1
+
+    - node: AtmosDeviceFanTiny
+      entity: AtmosDeviceFanTiny
+      edges:
+        - to: start
+          completed:
+          - !type:SpawnPrototype
+                prototype: Plasteel
+                amount: 10

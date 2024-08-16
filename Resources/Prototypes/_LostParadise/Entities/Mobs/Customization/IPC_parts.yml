@@ -1,0 +1,339 @@
+# Базовые
+
+- type: marking
+  id: LPPIPCBaseChestFemale
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_base_parts.rsi
+      state: torso_f
+
+- type: marking
+  id: LPPIPCBaseChestFemaleAlt
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_base_parts.rsi
+      state: torso_f_alt
+
+- type: marking
+  id: LPPIPCBaseChestMale
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_base_parts.rsi
+      state: torso_m
+
+- type: marking
+  id: LPPIPCBaseLArm
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_base_parts.rsi
+      state: l_arm
+
+- type: marking
+  id: LPPIPCBaseRArm
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_base_parts.rsi
+      state: r_arm
+
+- type: marking
+  id: LPPIPCBaseRHand
+  bodyPart: RHand
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_base_parts.rsi
+      state: r_hand
+
+- type: marking
+  id: LPPIPCBaseLHand
+  bodyPart: LHand
+  markingCategory: Arms
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_base_parts.rsi
+      state: l_hand
+
+- type: marking
+  id: LPPIPCBaseRLeg
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_base_parts.rsi
+      state: r_leg
+
+- type: marking
+  id: LPPIPCBaseLLeg
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_base_parts.rsi
+      state: l_leg
+
+- type: marking
+  id: LPPIPCBaseRFoot
+  bodyPart: RFoot
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_base_parts.rsi
+      state: r_foot
+
+- type: marking
+  id: LPPIPCBaseLFoot
+  bodyPart: LFoot
+  markingCategory: Legs
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_base_parts.rsi
+      state: l_foot
+
+- type: marking
+  id: LPPIPCBaseHead
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [IPC]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_base_parts.rsi
+      state: head
+
+# Унатхи
+
+# # - type: marking
+# #   id: LPPIPCLizardChestFemale
+# #   bodyPart: Chest
+# #   markingCategory: Chest
+# #   speciesRestriction: [IPC]
+# #   coloring:
+# #     default:
+# #       type:
+# #         !type:SimpleColoring
+# #           color: "#FFFFFF"
+# #   sprites:
+# #     - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_lizard_parts.rsi
+# #       state: torso_f
+
+# # - type: marking
+# #   id: LPPIPCLizardChestFemaleAlt
+# #   bodyPart: Chest
+# #   markingCategory: Chest
+# #   speciesRestriction: [IPC]
+# #   coloring:
+# #     default:
+# #       type:
+# #         !type:SimpleColoring
+# #           color: "#FFFFFF"
+# #   sprites:
+# #     - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_lizard_parts.rsi
+# #       state: torso_f_alt
+
+# - type: marking
+#   id: LPPIPCLizardChest
+#   bodyPart: Chest
+#   markingCategory: Chest
+#   speciesRestriction: [IPC]
+#   coloring:
+#     default:
+#       type:
+#         !type:SimpleColoring
+#           color: "#FFFFFF"
+#   sprites:
+#     - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_lizard_parts.rsi
+#       state: torso
+
+# - type: marking
+#   id: LPPIPCLizardLArm
+#   bodyPart: LArm
+#   markingCategory: Arms
+#   speciesRestriction: [IPC]
+#   coloring:
+#     default:
+#       type:
+#         !type:SimpleColoring
+#           color: "#FFFFFF"
+#   sprites:
+#     - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_lizard_parts.rsi
+#       state: l_arm
+
+# - type: marking
+#   id: LPPIPCLizardRArm
+#   bodyPart: RArm
+#   markingCategory: Arms
+#   speciesRestriction: [IPC]
+#   coloring:
+#     default:
+#       type:
+#         !type:SimpleColoring
+#           color: "#FFFFFF"
+#   sprites:
+#     - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_lizard_parts.rsi
+#       state: r_arm
+
+# - type: marking
+#   id: LPPIPCLizardRHand
+#   bodyPart: RHand
+#   markingCategory: Arms
+#   speciesRestriction: [IPC]
+#   coloring:
+#     default:
+#       type:
+#         !type:SimpleColoring
+#           color: "#FFFFFF"
+#   sprites:
+#     - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_lizard_parts.rsi
+#       state: r_hand
+
+# - type: marking
+#   id: LPPIPCLizardLHand
+#   bodyPart: LHand
+#   markingCategory: Arms
+#   speciesRestriction: [IPC]
+#   coloring:
+#     default:
+#       type:
+#         !type:SimpleColoring
+#           color: "#FFFFFF"
+#   sprites:
+#     - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_lizard_parts.rsi
+#       state: l_hand
+
+# - type: marking
+#   id: LPPIPCLizardRLeg
+#   bodyPart: RLeg
+#   markingCategory: Legs
+#   speciesRestriction: [IPC]
+#   coloring:
+#     default:
+#       type:
+#         !type:SimpleColoring
+#           color: "#FFFFFF"
+#   sprites:
+#     - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_lizard_parts.rsi
+#       state: r_leg
+
+# - type: marking
+#   id: LPPIPCLizardLLeg
+#   bodyPart: LLeg
+#   markingCategory: Legs
+#   speciesRestriction: [IPC]
+#   coloring:
+#     default:
+#       type:
+#         !type:SimpleColoring
+#           color: "#FFFFFF"
+#   sprites:
+#     - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_lizard_parts.rsi
+#       state: l_leg
+
+# - type: marking
+#   id: LPPIPCLizardRFoot
+#   bodyPart: RFoot
+#   markingCategory: Legs
+#   speciesRestriction: [IPC]
+#   coloring:
+#     default:
+#       type:
+#         !type:SimpleColoring
+#           color: "#FFFFFF"
+#   sprites:
+#     - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_lizard_parts.rsi
+#       state: r_foot
+
+# - type: marking
+#   id: LPPIPCLizardLFoot
+#   bodyPart: LFoot
+#   markingCategory: Legs
+#   speciesRestriction: [IPC]
+#   coloring:
+#     default:
+#       type:
+#         !type:SimpleColoring
+#           color: "#FFFFFF"
+#   sprites:
+#     - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_lizard_parts.rsi
+#       state: l_foot
+
+# - type: marking
+#   id: LPPIPCLizardHead
+#   bodyPart: Head
+#   markingCategory: Head
+#   speciesRestriction: [IPC]
+#   coloring:
+#     default:
+#       type:
+#         !type:SimpleColoring
+#           color: "#FFFFFF"
+#   sprites:
+#     - sprite: _LostParadise/Mobs/Customization/ipc_parts/ipc_lizard_parts.rsi
+#       state: head

@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Draw by Skilets: https://github.com/Skilets",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "random_doublesheet"
+    },
+    {
+      "name": "sheetNT"
+    },
+    {
+      "name": "sheetblack"
+    },
+    {
+      "name": "sheetblue"
+    },
+    {
+      "name": "sheetbrown"
+    },
+    {
+      "name": "sheetcaptain"
+    },
+    {
+      "name": "sheetce"
+    },
+    {
+      "name": "sheetcentcom"
+    },
+    {
+      "name": "sheetclown"
+    },
+    {
+      "name": "sheetcmo"
+    },
+    {
+      "name": "sheetcosmos",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "sheetcult"
+    },
+    {
+      "name": "sheetgreen"
+    },
+    {
+      "name": "sheetgrey"
+    },
+    {
+      "name": "sheethop"
+    },
+    {
+      "name": "sheethos"
+    },
+    {
+      "name": "sheetian"
+    },
+    {
+      "name": "sheetmedical"
+    },
+    {
+      "name": "sheetmime"
+    },
+    {
+      "name": "sheetorange"
+    },
+    {
+      "name": "sheetpurple"
+    },
+    {
+      "name": "sheetqm"
+    },
+    {
+      "name": "sheetrainbow"
+    },
+    {
+      "name": "sheetrd"
+    },
+    {
+      "name": "sheetbrigmedic"
+    },
+    {
+      "name": "sheetred"
+    },
+    {
+      "name": "sheetsyndie"
+    },
+    {
+      "name": "sheetwhite"
+    },
+    {
+      "name": "sheetwiz"
+    },
+    {
+      "name": "sheetyellow"
+    }
+  ]
+}

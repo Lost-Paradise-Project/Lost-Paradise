@@ -1,0 +1,46 @@
+- type: entity
+  parent: Stunbaton
+  id: LPPStunBatonSelfCharging
+  suffix: Recharging, Do Not Map
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 10
+  - type: GuideHelp
+    guides:
+    - Security
+
+- type: entity
+  parent: Flash
+  id: LPPFlashRecharging
+  suffix: Recharging, Do Not Map
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: AutoRecharge
+    rechargeDuration: 120
+  - type: GuideHelp
+    guides:
+    - Security
+
+- type: entity
+  name: non-lethal baton
+  parent: BaseItem
+  id: LPPPoliceBatonNonLethal
+  description: First, do no harm.
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: MeleeWeapon
+      wideAnimationRotation: -135
+      damage:
+        types:
+          Blunt: 0
+    - type: StaminaDamageOnHit
+      damage: 17
+      sound: /Audio/Weapons/click.ogg
+    - type: Sprite
+      sprite: Objects/Weapons/Melee/truncheon.rsi
+      state: icon
+    - type: GuideHelp
+      guides:
+      - Security

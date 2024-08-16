@@ -1,0 +1,118 @@
+- type: latheRecipe
+  id: LPPMedHud
+  result: ClothingEyesHudMedical
+  completetime: 10
+  materials:
+    Plastic: 500
+    Glass: 300
+
+- type: latheRecipe
+  id: LPPSecHud
+  result: ClothingEyesHudSecurity
+  completetime: 10
+  materials:
+    Plastic: 500
+    Glass: 300
+
+- type: latheRecipe
+  id: LPPRedHudGlasses
+  result: LPPRedHudGlasses
+  completetime: 10
+  materials:
+    Plastic: 500
+    Glass: 300
+
+- type: latheRecipe
+  id: LPPSecEngHud
+  result: LPPClothingEyesHudSecEng
+  completetime: 10
+  materials:
+    Plastic: 500
+    Glass: 300
+
+- type: latheRecipe
+  id: LPPBlueHudGlasses
+  result: LPPBlueHudGlasses
+  completetime: 10
+  materials:
+    Plastic: 500
+    Glass: 300
+
+- type: latheRecipe
+  id: LPPRoboHud
+  result: ClothingEyesHudDiagnostic
+  completetime: 10
+  materials:
+    Plastic: 500
+    Glass: 300
+
+- type: latheRecipe
+  id: LPPBarHud
+  result: ClothingEyesHudBeer
+  completetime: 10
+  materials:
+    Plastic: 500
+    Glass: 300
+
+- type: latheRecipe
+  id: LPPRCDFAPDevice
+  result: LPPRCDFAPDeviceEmpty
+  category: Tools
+  completetime: 4
+  materials:
+    Steel: 1000
+    Plastic: 300
+
+- type: latheRecipe
+  id: LPPRCDFAPAmmo
+  result: LPPRCDFAPAmmo
+  category: Tools
+  completetime: 2.4
+  materials:
+    Steel: 500
+    Plastic: 250
+
+# - type: latheRecipe
+#   id: LPPNVG
+#   result: LPPClothingEyesNightVisionGoggles
+#   completetime: 15
+#   materials:
+#     Steel: 500
+#     Glass: 300
+#     Plasma: 400
+#
+# - type: latheRecipe
+#   id: LPPMedNVG
+#   result: LPPClothingEyesMedNightVisionGoggles
+#   completetime: 15
+#   materials:
+#     Steel: 500
+#     Glass: 300
+#     Plasma: 400
+#
+# - type: latheRecipe
+#   id: LPPSecNVG
+#   result: LPPClothingEyesSecNightVisionGoggles
+#   completetime: 15
+#   materials:
+#     Steel: 500
+#     Glass: 300
+#     Plasma: 400
+#
+# - type: latheRecipe
+#   id: LPPMesonNVG
+#   result: LPPClothingEyesMesonNightVisionGoggles
+#   completetime: 15
+#   materials:
+#     Steel: 500
+#     Glass: 300
+#     Plasma: 400
+#
+# - type: latheRecipe
+#   id: LPPDiagnosticNVG
+#   result: LPPClothingEyesDiagnosticNightVisionGoggles
+#   completetime: 15
+#   materials:
+#     Steel: 500
+#     Glass: 300
+#     Plasma: 400

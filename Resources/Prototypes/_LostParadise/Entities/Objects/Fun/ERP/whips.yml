@@ -1,0 +1,45 @@
+- type: entity
+  parent: BaseWhips
+  id: LPPWhips
+  name: Whip
+  description: Hot whip
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Fun/ERP/whips.rsi
+    state: icon
+  - type: Item
+    sprite: _LostParadise/Objects/Fun/ERP/whips.rsi
+    size: Normal
+  - type: Clothing
+    sprite: _LostParadise/Objects/Fun/ERP/whips.rsi
+    slots: [Belt]
+    quickEquip: false
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_LostParadise/Effects/whip.ogg
+      params:
+        variation: 0.246
+
+- type: entity
+  parent: BaseItem
+  id: BaseWhips
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Fun/ERP/whips.rsi
+  - type: StaminaDamageOnHit
+    damage: 5
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_LostParadise/Effects/whip.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_LostParadise/Effects/whip.ogg
+  - type: UseDelay
+    delay: 1.0
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/_LostParadise/Effects/whip.ogg
+    damage:
+      types:
+        Blunt: 0

@@ -1,0 +1,96 @@
+- type: constructionGraph
+  id: PlastitaniumWindow
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: PlastitaniumWindow
+          completed:
+            - !type:SnapToGrid
+              southRotation: true
+          steps:
+            - material: PlasTitaniumGlass
+              amount: 2
+              doAfter: 1
+        - to: PlastitaniumWindowDiagonal
+          completed:
+            - !type:SnapToGrid
+              southRotation: true
+          steps:
+            - material: PlasTitaniumGlass
+              amount: 2
+              doAfter: 1
+        - to: PlastitaniumPwindow
+          completed:
+            - !type:SnapToGrid
+              southRotation: true
+          steps:
+            - material: PlasTitaniumGlass
+              amount: 1
+              doAfter: 1
+
+
+    - node: PlastitaniumWindow
+      entity: PlastitaniumWindow
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetPlasTitaniumGlass1
+              amount: 2
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Welding
+              doAfter: 5
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+            - tool: Welding
+              doAfter: 5
+            - tool: Screwing
+              doAfter: 1
+            - tool: Anchoring
+              doAfter: 2
+
+    - node: PlastitaniumWindowDiagonal
+      entity: PlastitaniumWindowDiagonal
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetPlasTitaniumGlass1
+              amount: 2
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Welding
+              doAfter: 5
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+            - tool: Welding
+              doAfter: 5
+            - tool: Screwing
+              doAfter: 1
+            - tool: Anchoring
+              doAfter: 2
+
+    - node: PlastitaniumPwindow
+      entity: PlastitaniumPwindow
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetPlasTitaniumGlass1
+              amount: 1
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+            - tool: Screwing
+              doAfter: 1
+            - tool: Anchoring
+              doAfter: 2

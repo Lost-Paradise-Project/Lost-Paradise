@@ -1,0 +1,35 @@
+- type: entity
+  parent: Airlock
+  id: LPPAirlockSalvage
+  suffix: External
+  description: It opens, it closes, it might crush you, and there might be only space behind it. Has to be manually activated.
+  components:
+  - type: Door
+    bumpOpen: false
+    crushDamage:
+      types:
+        Blunt: 15
+    openSound:
+      path: /Audio/Machines/airlock_ext_open.ogg
+    closeSound:
+      path: /Audio/Machines/airlock_ext_close.ogg
+    denySound:
+      path: /Audio/Machines/airlock_deny.ogg
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Standard/survival.rsi
+  - type: PaintableAirlock
+    group: External
+
+- type: entity
+  parent: AirlockExternal
+  id: LPPAirlockSalvageGlass
+  suffix: Glass, External
+  components:
+  - type: Door
+    occludes: false
+  - type: Occluder
+    enabled: false
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Glass/survival.rsi
+  - type: PaintableAirlock
+    group: ExternalGlass

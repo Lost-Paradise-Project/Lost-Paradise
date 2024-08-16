@@ -1,0 +1,63 @@
+# - type: entity
+#   id: LPPShelf
+#   parent: BaseStructure
+#   name: shelf
+#   description: Cloth shelf, can store things inside itself, ideal for underwear, and someone's kidneys?...
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/Structures/Furniture/shelf.rsi
+#     snapCardinals: true
+#     layers:
+#       - state: shelf
+#       - map: ["enum.StorageFillLayers.Fill"]
+#   - type: Appearance
+#   - type: StorageFillVisualizer
+#     maxFillLevels: 9
+#     fillBaseName: loot
+#   - type: Damageable
+#     damageModifierSet: Metallic
+#     damageContainer: Inorganic
+#   - type: Fixtures
+#     fixtures:
+#       fix1:
+#         shape:
+#           !type:PhysShapeAabb
+#           bounds: "-0.4,-0.37,0.45,0.37"
+#         density: 120
+#         mask:
+#         - MachineMask
+#         layer:
+#         - MachineLayer
+#   - type: Destructible
+#     thresholds:
+#     - trigger:
+#         !type:DamageTrigger
+#         damage: 90
+#       behaviors:
+#       - !type:SpawnEntitiesBehavior
+#         spawn:
+#           MaterialCloth1:
+#             min: 2
+#             max: 2
+#       - !type:DoActsBehavior
+#         acts: [ "Destruction" ]
+#   - type: Storage
+#     grid:
+#     - 0,0,10,2
+#     - 0,4,10,6
+#     - 0,8,10,10
+#     maxItemSize: Normal
+#   - type: ContainerContainer
+#     containers:
+#       storagebase: !type:Container
+#   - type: UserInterface
+#     interfaces:
+#       enum.StorageUiKey.Key:
+#         type: StorageBoundUserInterface
+#   - type: InteractionOutline
+#   - type: Clickable
+#   - type: Anchorable
+#   - type: Rotatable
+#   - type: Construction
+#     graph: Dresser
+#     node: dresser

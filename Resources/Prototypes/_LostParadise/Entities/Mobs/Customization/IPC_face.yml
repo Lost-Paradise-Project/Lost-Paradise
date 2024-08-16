@@ -1,0 +1,260 @@
+- type: marking
+  id: LPPIPCFaceBlueS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: blue_s
+
+- type: marking
+  id: LPPIPCFaceConsoleS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: console_s
+
+- type: marking
+  id: LPPIPCFaceGogglesS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: goggles_s
+
+- type: marking
+  id: LPPIPCFaceEightS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: eight_s
+
+- type: marking
+  id: LPPIPCFaceGolGliderS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: gol_glider_s
+
+- type: marking
+  id: LPPIPCFaceGreenS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: green_s
+
+- type: marking
+  id: LPPIPCFaceHeartS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: heart_s
+
+- type: marking
+  id: LPPIPCFaceLumiEyesS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: lumieyes
+
+- type: marking
+  id: LPPIPCFaceMelody
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: melody
+
+- type: marking
+  id: LPPIPCFaceLumiWaitingS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: lumi_waiting_s
+
+- type: marking
+  id: LPPIPCFaceMonoeye
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: monoeye
+
+- type: marking
+  id: LPPIPCFaceSpark
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: spark
+
+- type: marking
+  id: LPPIPCFaceGolMime
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: gol_mime
+
+- type: marking
+  id: LPPIPCFaceOrangeHespAltS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: orange_hesp_alt_s
+
+- type: marking
+  id: LPPIPCFaceOrangeS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: orange_s
+
+- type: marking
+  id: LPPIPCFacePinkHespAltS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: pink_hesp_alt_s
+
+- type: marking
+  id: LPPIPCFacePinkS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: pink_s
+
+- type: marking
+  id: LPPIPCFaceRainbowHespAltS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: rainbow_hesp_alt_s
+
+- type: marking
+  id: LPPIPCFaceRainbowS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: rainbow_s
+
+- type: marking
+  id: LPPIPCFaceRedS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: red_s
+
+- type: marking
+  id: LPPIPCFaceRgbHespAltS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: rgb_hesp_alt_s
+
+# - type: marking
+#   id: LPPIPCFaceRgbS
+#   bodyPart: HeadSide
+#   markingCategory: HeadSide
+#   speciesRestriction: [IPC]
+#   sprites:
+#     - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+#       state: rgb_s
+
+- type: marking
+  id: LPPIPCFaceScrollHespAltS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: scroll_hesp_alt_s
+
+- type: marking
+  id: LPPIPCFaceScrollS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: scroll_s
+
+- type: marking
+  id: LPPIPCFaceShowerS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: shower_s
+
+- type: marking
+  id: LPPIPCFaceSmokingS
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: smoking_s
+
+- type: marking
+  id: LPPIPCFaceEyes
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: eyes
+
+- type: marking
+  id: LPPIPCFaceEyeStall
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: eyestall
+
+- type: marking
+  id: LPPIPCFaceLoading
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [IPC]
+  sprites:
+    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
+      state: loading

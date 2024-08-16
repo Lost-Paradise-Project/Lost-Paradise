@@ -1,0 +1,67 @@
+# - type: entity
+#   id: LPPHoloPalmBlue
+#   name: holo palm
+#   description: its like redular palm. But cooler.
+#   placement:
+#     mode: SnapgridCenter
+#   components:
+#   - type: Transform
+#     anchored: true
+#   - type: Physics
+#     bodyType: Static
+#     canCollide: false
+#   - type: Sprite
+#     sprite: _LostParadise/Structures/Holo/holo-palms/holo-palm-blue.rsi
+#     #state: palm-golo-blue
+#     #visible: false
+#     #shader: unshaded
+#     #map: [ "light" ]
+#   - type: HandheldLight
+#   - type: PointLight
+#     radius: 2
+#     energy: 2
+
+# - type: entity
+#   parent: LPPHoloPalmBlue
+#   id: LPPHoloPalmGreen
+#   name: holo palm
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/Structures/Holo/holo-palms/holo-palm-green.rsi
+#     state: palm-golo-green
+
+# - type: entity
+#   parent: LPPHoloPalmBlue
+#   id: LPPHoloPalmOrange
+#   name: holo palm
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/Structures/Holo/holo-palms/holo-palm-orange.rsi
+#     state: palm-golo-orange
+
+# - type: entity
+#   parent: LPPHoloPalmBlue
+#   id: LPPHoloPalmPink
+#   name: holo palm
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/Structures/Holo/holo-palms/holo-palm-pink.rsi
+#     state: palm-golo-pink
+
+# - type: entity
+#   parent: LPPHoloPalmBlue
+#   id: LPPHoloPalmPurple
+#   name: holo palm
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/Structures/Holo/holo-palms/holo-palm-purple.rsi
+#     state: palm-golo-purple
+
+# - type: entity
+#   parent: LPPHoloPalmBlue
+#   id: LPPHoloPalmRed
+#   name: holo palm
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/Structures/Holo/holo-palms/holo-palm-red.rsi
+#     state: palm-golo-red

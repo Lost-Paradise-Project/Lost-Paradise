@@ -1,0 +1,31 @@
+- type: entity
+  name: bluespace chem bag
+  id: BluespaceChemBag
+  parent: BaseStorageItem
+  description: A bluespace bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Chemistry/chem_bag_bluespace.rsi
+    state: icon
+  - type: Clothing
+    sprite: _LostParadise/Objects/Specific/Chemistry/chem_bag_bluespace.rsi
+    quickEquip: false
+    slots:
+    - belt
+  - type: Item
+    size: Normal
+  - type: Storage
+    maxItemSize: Normal # allow up to 5 large beakers / 10 beakers / 10 pill canisters
+    grid:
+    - 0,0,19,9
+    quickInsert: true
+    areaInsert: true
+    whitelist:
+      components:
+        - FitsInDispenser
+        - Pill
+      tags:
+        - PillCanister
+        - Bottle
+        - Syringe
+  - type: Dumpable

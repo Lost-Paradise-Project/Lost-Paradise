@@ -1,0 +1,51 @@
+- type: entity
+  parent: BaseItem
+  id: LPPweaponPibodi
+  name: самозарядная винтовка Пибоди
+  description: Адская смесь протокинетического ускорителя и классического огнестрела. Преобразует и накапливает углерод из атмосферы в снаряды, преобразовывая часть него в подобие пороха для выстрела, на что требуется довольно много времени, а пока вы можете потыкать своего противника интегрированным штыком.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/Pibodi.rsi
+    state: icon
+  - type: Item
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/Pibodi.rsi
+    size: Huge
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 3.5
+    selectedMode: SemiAuto
+    angleDecay: 45
+    minAngle: 44
+    maxAngle: 45
+    useKey: false
+  - type: GunWieldBonus
+    minAngle: -43
+    maxAngle: -43
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/latogunshot.ogg
+    useKey: false
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 2.5
+    rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
+  - type: BasicEntityAmmoProvider
+    proto: LPPBulletPibodi
+    capacity: 1
+    count: 1
+  - type: MeleeWeapon
+    attackRate: 1.8
+    damage:
+      types:
+        Piercing: 5.5
+  - type: Appearance
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Piercing: 8.5
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
