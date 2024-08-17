@@ -23,7 +23,7 @@
   id: JobCentralCommandRepresentative
 
 - type: playTimeTracker
-  id: JobSecPilot
+  id: JobPilot
 
 # - type: playTimeTracker
   # id: JobBorgSecurity
