@@ -5,6 +5,6 @@
   description: Чёрно белый противогаз.
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Mask/_LostParadiseCASGasMask.rsi
+    sprite: _LostParadise/Clothing/Mask/LPPCASGasMask.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Mask/_LostParadiseCASGasMask.rsi
+    sprite: _LostParadise/Clothing/Mask/LPPCASGasMask.rsi
