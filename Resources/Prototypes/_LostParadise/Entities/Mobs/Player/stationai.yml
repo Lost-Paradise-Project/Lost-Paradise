@@ -368,34 +368,8 @@
     - type: LanguageSpeaker
       speaks:
       - GalacticCommon
-      - LPPSynt
-      - LPPCanilunzt
-      - LPPSikTaj
-      - LPPCintaTaj
-      - LPPBubblish
-      - LPPDraconic
-      - LPPNian
-      - LPPSolCommon
-      - LPPDwarf
-      - LPPRootSpeak
-      - LPPMoffic
-      - LPPElfLang
-      - LPPVoxiss
       understands:
       - GalacticCommon
-      - LPPSynt
-      - LPPCanilunzt
-      - LPPSikTaj
-      - LPPCintaTaj
-      - LPPBubblish
-      - LPPDraconic
-      - LPPNian
-      - LPPSolCommon
-      - LPPDwarf
-      - LPPRootSpeak
-      - LPPMoffic
-      - LPPElfLang
-      - LPPVoxiss
 
 # - type: entity
 #   parent: AICore
@@ -528,10 +502,10 @@
       canCharge: true
       canDischarge: false
     - type: BatteryCharger
-#    - type: Battery
-#      charge: 12000
-#      maxCharge: 120000
-#      pricePerJoule: 0
+    - type: Battery
+      charge: 12000
+      maxCharge: 120000
+      pricePerJoule: 0
     - type: Sprite
       sprite: _LostParadise/Mobs/Silicon/ai.rsi
       drawdepth: Mobs

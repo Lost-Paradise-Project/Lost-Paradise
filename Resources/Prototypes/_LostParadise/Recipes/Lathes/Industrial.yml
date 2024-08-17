@@ -54,14 +54,14 @@
     Plastic: 500
     Glass: 300
 
-- type: latheRecipe
-  id: LPPRCDFAPDevice
-  result: LPPRCDFAPDeviceEmpty
-  category: Tools
-  completetime: 4
-  materials:
-    Steel: 1000
-    Plastic: 300
+# - type: latheRecipe
+#   id: LPPRCDFAPDevice
+#   result: LPPRCDFAPDeviceEmpty
+#   category: Tools
+#   completetime: 4
+#   materials:
+#     Steel: 1000
+#     Plastic: 300
 
 - type: latheRecipe
   id: LPPRCDFAPAmmo

@@ -8,25 +8,31 @@
   },
   "states": [
     {
-      "name": "grille"
+      "name": "grille",
+	  "directions": 4
     },
     {
-      "name": "grille_diagonal"
+      "name": "grille_diagonal",
+	  "directions": 4
     },
     {
       "name": "grille_broken"
     },
     {
-      "name": "grille_damaged_0"
+      "name": "grille_damaged_0",
+	  "directions": 4
     },
     {
-      "name": "grille_damaged_1"
+      "name": "grille_damaged_1",
+	  "directions": 4
     },
     {
-      "name": "grille_damaged_2"
+      "name": "grille_damaged_2",
+	  "directions": 4
     },
     {
-      "name": "grille_damaged_3"
+      "name": "grille_damaged_3",
+	  "directions": 4
     }
   ]
 }
