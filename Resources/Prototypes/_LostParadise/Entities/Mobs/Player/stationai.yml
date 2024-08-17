@@ -279,21 +279,21 @@
     - type: Visibility
     - type: UserInterface
       interfaces:
-        enum.CommunicationsConsoleUiKey.Key:
+        - key: enum.CommunicationsConsoleUiKey.Key
           type: CommunicationsConsoleBoundUserInterface
-        enum.AICameraListUiKey.Key:
+        - key: enum.AICameraListUiKey.Key
           type: AICameraListBoundUserInterface
-        enum.SiliconLawsUiKey.Key:
+        - key: enum.SiliconLawsUiKey.Key
           type: SiliconLawBoundUserInterface
-        enum.StrippingUiKey.Key:
+        - key: enum.StrippingUiKey.Key
           type: StrippableBoundUserInterface
-        enum.CriminalRecordsConsoleKey.Key:
+        - key: enum.CriminalRecordsConsoleKey.Key
           type: CriminalRecordsConsoleBoundUserInterface
     - type: IntrinsicUI
       uis:
-        enum.CommunicationsConsoleUiKey.Key:
+        - key: enum.CommunicationsConsoleUiKey.Key
           toggleAction: ActionAIShowCommunications
-        enum.CriminalRecordsConsoleKey.Key:
+        - key: enum.CriminalRecordsConsoleKey.Key
           toggleAction: ActionAiShowCriminalRecords
     - type: ContainerContainer
       containers:
@@ -368,34 +368,8 @@
     - type: LanguageSpeaker
       speaks:
       - GalacticCommon
-      - LPPSynt
-      - LPPCanilunzt
-      - LPPSikTaj
-      - LPPCintaTaj
-      - LPPBubblish
-      - LPPDraconic
-      - LPPNian
-      - LPPSolCommon
-      - LPPDwarf
-      - LPPRootSpeak
-      - LPPMoffic
-      - LPPElfLang
-      - LPPVoxiss
       understands:
       - GalacticCommon
-      - LPPSynt
-      - LPPCanilunzt
-      - LPPSikTaj
-      - LPPCintaTaj
-      - LPPBubblish
-      - LPPDraconic
-      - LPPNian
-      - LPPSolCommon
-      - LPPDwarf
-      - LPPRootSpeak
-      - LPPMoffic
-      - LPPElfLang
-      - LPPVoxiss
 
 # - type: entity
 #   parent: AICore
@@ -528,10 +502,10 @@
       canCharge: true
       canDischarge: false
     - type: BatteryCharger
-#    - type: Battery
-#      charge: 12000
-#      maxCharge: 120000
-#      pricePerJoule: 0
+    - type: Battery
+      charge: 12000
+      maxCharge: 120000
+      pricePerJoule: 0
     - type: Sprite
       sprite: _LostParadise/Mobs/Silicon/ai.rsi
       drawdepth: Mobs

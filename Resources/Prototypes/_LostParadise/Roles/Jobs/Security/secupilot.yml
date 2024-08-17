@@ -2,24 +2,24 @@
   id: SecPilot
   name: job-name-secpilot
   description: job-description-secpilot
-  playTimeTracker: JobSecPilot
+  playTimeTracker: JobPilot
   requirements:
     - !type:CharacterPlaytimeRequirement
-      role: JobSecurityOfficer
-      min: 72000 # 20 hrs
+      tracker: JobSecurityOfficer
+      min: 14400 # 4 hrs
     - !type:CharacterDepartmentTimeRequirement
       department: Security
-      min: 108000 # 30 hrs
+      min: 28800 # 8 hrs
   startingGear: SecPilotGear
   icon: "JobIconSecPilot"
   supervisors: job-supervisors-hos
   canBeAntag: false
   access:
   - Security
-  - Brig
   - Maintenance
   - Service
   - External
+  - Cryogenics
   - Armory
   special:
   - !type:AddImplantSpecial
