@@ -1,5 +1,5 @@
-﻿ent-BaseParadoxAnomalyObjective = { ent-BaseTerminatorObjective }
-    .desc = { ent-BaseTerminatorObjective.desc }
+﻿ent-BaseParadoxAnomalyObjective = { ent-BaseObjective }
+    .desc = { ent-BaseObjective.desc }
 ent-ParadoxAnomalyKillObjective = { ent-BaseParadoxAnomalyObjective }
     .desc = This universe doesn't have room for both of us.
 ent-ParadoxAnomalyFriendObjective = { ent-BaseParadoxAnomalyObjective }

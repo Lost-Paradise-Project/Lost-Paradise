@@ -5,4 +5,4 @@
   description: Синий плащ адъютанта, веет теплом и бюрократией при ношении её.
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Neck/Cloaks/_LostParadise/ADJUCloak.rsi
+    sprite: _LostParadise/Clothing/Neck/Cloaks/LPPADJUCloak.rsi

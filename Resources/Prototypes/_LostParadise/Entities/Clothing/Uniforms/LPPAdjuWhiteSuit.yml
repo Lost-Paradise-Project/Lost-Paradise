@@ -5,6 +5,6 @@
   description: Белый вариант костюма адъютанта что-то между школьником и офисным планктоном.
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/_LostParadiseAdjuWhiteSuit.rsi
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/LPPAdjuWhiteSuit.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/_LostParadiseAdjuWhiteSuit.rsi
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/LPPAdjuWhiteSuit.rsi

@@ -5,6 +5,6 @@
   description: Черно-белые тактические перчатки(не изолированы).
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Hands/Gloves/_LostParadise/CASTacticalGloves.rsi
+    sprite: _LostParadise/Clothing/Hands/Gloves/LPPCASTacticalGloves.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Hands/Gloves/_LostParadise/CASTacticalGloves.rsi
+    sprite: _LostParadise/Clothing/Hands/Gloves/LPPCASTacticalGloves.rsi

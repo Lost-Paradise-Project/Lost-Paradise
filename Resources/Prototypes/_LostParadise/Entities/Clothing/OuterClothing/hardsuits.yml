@@ -494,9 +494,9 @@
   description: Защитный скафандр, разработанный головастиками из отдела НИО, лёгкий для производства, а так же предоставляющий, в целом, хорошую защиту от разных внешних факторов, что можно встретить при работе в НИО.
   components:
   - type: Sprite
-    sprite: Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/rnd.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/rnd.rsi
   - type: Clothing
-    sprite: Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/rnd.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/rnd.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000

@@ -882,13 +882,13 @@
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/greensportsuit.rsi
 
-- type: entity
-  parent: ClothingUniformBase
-  id: LPPClothingUniformSkiletsScientistJumpsuit
-  name: scientist jumpsuit
-  description: White scientist costume for beautiful people.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/PERSONAL/Skilets/skilets_uniforms.rsi
-  - type: Clothing
-    sprite: _LostParadise/PERSONAL/Skilets/skilets_uniforms.rsi
+# - type: entity
+#   parent: ClothingUniformBase
+#   id: LPPClothingUniformSkiletsScientistJumpsuit
+#   name: scientist jumpsuit
+#   description: White scientist costume for beautiful people.
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/PERSONAL/Skilets/skilets_uniforms.rsi
+#   - type: Clothing
+#     sprite: _LostParadise/PERSONAL/Skilets/skilets_uniforms.rsi

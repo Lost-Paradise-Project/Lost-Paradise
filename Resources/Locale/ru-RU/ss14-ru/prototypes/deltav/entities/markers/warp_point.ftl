@@ -88,6 +88,7 @@ ent-WarpPointCryo = { ent-WarpPoint }
     .desc = { ent-WarpPoint.desc }
 ent-WarpPointChapel = { ent-WarpPoint }
     .suffix = Церковь
+    .desc = { ent-WarpPoint.desc }
 ent-WarpPointLibrary = { ent-WarpPoint }
     .suffix = Библиотека
     .desc = { ent-WarpPoint.desc }

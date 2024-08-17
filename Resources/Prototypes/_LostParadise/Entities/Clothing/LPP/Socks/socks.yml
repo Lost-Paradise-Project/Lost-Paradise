@@ -1,0 +1,884 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: LPPClothingUnderwearSocksBase
+  name: based socks
+  components:
+  - type: Sprite
+    state: icon
+  - type: Item
+    size: Small
+  - type: Clothing
+    slots: [socks]
+  - type: Tag
+    tags:
+      - socks
+
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderBeeKnee
+  name: bee knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/bee_knee.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderBeeNorm
+  name: bee norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/bee_norm.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderBeeThigh
+  name: bee thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/bee_thigh.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderCommieKnee
+  name: commie knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/commie_knee.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderCommieThigh
+  name: commie thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/commie_thigh.rsi
+
+#----------------Pantyhose------------------
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhoseBlack
+  name: pantyhose
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Pantyhose/black.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhoseBlue
+  name: pantyhose
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Pantyhose/blue.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhoseBrown
+  name: pantyhose
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Pantyhose/brown.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhoseGreen
+  name: pantyhose
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Pantyhose/green.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhoseGrey
+  name: pantyhose
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Pantyhose/grey.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhoseLightpurple
+  name: pantyhose
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Pantyhose/lightpurple.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhoseMaroon
+  name: pantyhose
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Pantyhose/maroon.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhoseOrange
+  name: pantyhose
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Pantyhose/orange.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhose
+  name: pantyhose
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Pantyhose/pantyhose.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhoseRed
+  name: pantyhose
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Pantyhose/red.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhoseTeal
+  name: pantyhose
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Pantyhose/teal.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderPantyhoseYellow
+  name: pantyhose
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Pantyhose/yellow.rsi
+
+#---------------------------------------------------
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderRainbowKnee
+  name: rainbow knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/rainbow_knee.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderRainbowThigh
+  name: rainbow thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/rainbow_thigh.rsi
+
+
+#------------------Socks------------------------
+#----------------SocksKnee----------------
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKneeBlack
+  name: socks knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/black.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKneeBlue
+  name: socks knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/blue.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKneeBrown
+  name: socks knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/brown.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKneeGreen
+  name: socks knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/green.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKneeGrey
+  name: socks knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/grey.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKneeLightpurple
+  name: socks knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/lightpurple.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKneeMaroon
+  name: socks knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/maroon.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKneeOrange
+  name: socks knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/orange.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKnee
+  name: socks knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/socks_knee.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKneeRed
+  name: socks knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/red.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKneeTeal
+  name: socks knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/teal.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksKneeYellow
+  name: socks knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/yellow.rsi
+
+#----------------SocksNorm----------------
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNormBlack
+  name: socks norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/black.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNormBlue
+  name: socks norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/blue.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNormBrown
+  name: socks norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/brown.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNormGreen
+  name: socks norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/green.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNormGrey
+  name: socks norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/grey.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNormLightpurple
+  name: socks norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/lightpurple.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNormMaroon
+  name: socks norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/maroon.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNormOrange
+  name: socks norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/orange.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNorm
+  name: socks norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/socks_norm.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNormRed
+  name: socks norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/red.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNormTeal
+  name: socks norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/teal.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksNormYellow
+  name: socks norm
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/yellow.rsi
+
+#----------------SocksShort----------------
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShortBlack
+  name: socks short
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/black.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShortBlue
+  name: socks short
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/blue.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShortBrown
+  name: socks short
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/brown.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShortGreen
+  name: socks short
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/green.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShortGrey
+  name: socks short
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/grey.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShortLightpurple
+  name: socks short
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/lightpurple.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShortMaroon
+  name: socks short
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/maroon.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShortOrange
+  name: socks short
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/orange.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShort
+  name: socks short
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/socks_short.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShortRed
+  name: socks short
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/red.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShortTeal
+  name: socks short
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/teal.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksShortYellow
+  name: socks short
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/yellow.rsi
+
+#----------------SocksThigh----------------
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThighBlack
+  name: socks thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/black.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThighBlue
+  name: socks thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/blue.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThighBrown
+  name: socks thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/brown.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThighGreen
+  name: socks thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/green.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThighGrey
+  name: socks thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/grey.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThighLightpurple
+  name: socks thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/lightpurple.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThighMaroon
+  name: socks thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/maroon.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThighOrange
+  name: socks thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/orange.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThigh
+  name: socks thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/socks_thigh.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThighRed
+  name: socks thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/red.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThighTeal
+  name: socks thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/teal.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderSocksThighYellow
+  name: socks thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/yellow.rsi
+
+#---------------------------------------------------
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderStripedKnee
+  name: striped knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/striped_knee.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderStripedThigh
+  name: striped thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/striped_thigh.rsi
+
+#---------------------ThinKnee----------------------
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinKneeBlack
+  name: thin knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinKnee/black.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinKneeBlue
+  name: thin knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinKnee/blue.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinKneeBrown
+  name: thin knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinKnee/brown.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinKneeGreen
+  name: thin knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinKnee/green.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinKneeGrey
+  name: thin knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinKnee/grey.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinKneeLightpurple
+  name: thin knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinKnee/lightpurple.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinKneeMaroon
+  name: thin knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinKnee/maroon.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinKneeOrange
+  name: thin knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinKnee/orange.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinKnee
+  name: thin knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinKnee/thin_knee.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinKneeRed
+  name: thin knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinKnee/red.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinKneeTeal
+  name: thin knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinKnee/teal.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinKneeYellow
+  name: thin knee
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinKnee/yellow.rsi
+
+
+#---------------------ThinThigh----------------------
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinThighBlack
+  name: thin thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinThigh/black.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinThighBlue
+  name: thin thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinThigh/blue.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinThighBrown
+  name: thin thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinThigh/brown.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinThighGreen
+  name: thin thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinThigh/green.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinThighGrey
+  name: thin thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinThigh/grey.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinThighLightpurple
+  name: thin thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinThigh/lightpurple.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinThighMaroon
+  name: thin thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinThigh/maroon.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinThighOrange
+  name: thin thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinThigh/orange.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinThigh
+  name: thin thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinThigh/thin_thigh.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinThighRed
+  name: thin thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinThigh/red.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinThighTeal
+  name: thin thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinThigh/teal.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPClothingUnderThinThighYellow
+  name: thin thigh
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Socks/ThinThigh/yellow.rsi
+
+- type: entity
+  parent: LPPClothingUnderwearSocksBase
+  id: LPPCowSocks
+  suffix: СПОНСОР
+  name: коровьи чулки
+  description: Муууу!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Underwear/cowset/cowsocks.rsi

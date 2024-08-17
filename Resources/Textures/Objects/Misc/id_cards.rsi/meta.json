@@ -199,6 +199,57 @@
         {
             "name": "blue-inhand-right",
             "directions": 4
+        },
+        {
+            "name": "ert_security"
+        },
+        {
+            "name": "orange"
+        },
+        {
+             "name": "prisoner_001"
+        },
+        {
+            "name": "prisoner_002"
+        },
+        {
+            "name": "prisoner_003"
+        },
+        {
+            "name": "prisoner_004"
+        },
+        {
+            "name": "prisoner_005"
+        },
+        {
+            "name": "prisoner_006"
+        },
+        {
+            "name": "prisoner_007"
+        },
+        {
+            "name": "idexpeditor"
+        },
+        {
+            "name": "idvirologist"
+        },
+        {
+            "name": "idroboticist"
+        },
+        {
+            "name": "idsecurityenginer"
+        },
+        {
+            "name": "idheadofpersonnel"
+        },
+        {
+            "name": "idbrigmedic"
+        },
+        {
+            "name": "idseniorofficer"
+        },
+        {
+            "name": "idcentcom"
         }
     ]
 }
