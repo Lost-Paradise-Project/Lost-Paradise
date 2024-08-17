@@ -5,9 +5,9 @@
 #   description: Чёрно-белые ботинки.
 #   components:
 #   - type: Sprite
-#     sprite: _LostParadise/Clothing/Shoes/Boots/_LostParadiseCASjackboots.rsi
+#     sprite: _LostParadise/Clothing/Shoes/Boots/LPPCASjackboots.rsi
 #   - type: Clothing
-#     sprite: _LostParadise/Clothing/Shoes/Boots/_LostParadiseCASjackboots.rsi
+#     sprite: _LostParadise/Clothing/Shoes/Boots/LPPCASjackboots.rsi
 #   - type: Storage
 #     whitelist:
 #       tags:

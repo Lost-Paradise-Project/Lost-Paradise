@@ -1,0 +1,115 @@
+##--------- код на сумки на хвост\/ ----------
+#
+#- type: entity
+#  abstract: true
+#  parent: Clothing
+#  id: LPPClothingBaseTail
+#  components:
+#  - type: Sprite
+#    state: icon
+#  - type: Item
+#    size: Large
+#  - type: Clothing
+#    slots:
+#    - TAIL
+#  - type: Tag
+#    tags:
+#      - tail
+#  - type: ClothingSpeedModifier
+#    walkModifier: 1
+#    sprintModifier: 0.95
+#  - type: PhysicalComposition
+#    materialComposition:
+#      Cloth: 50
+#  - type: StaticPrice
+#    price: 25
+#
+#- type: entity
+#  abstract: true
+#  parent: LPPClothingBaseTail
+#  id: LPPClothingTailStorageBase
+#  components:
+#  - type: Storage
+#    grid:
+#    - 0,0,4,4
+#    maxItemSize: Huge
+#    equipSound:
+#      path: /Audio/Items/belt_equip.ogg
+#  - type: ContainerContainer
+#    containers:
+#      storagebase: !type:Container
+#        ents: []
+#  - type: UserInterface
+#    interfaces:
+#    - key: enum.StorageUiKey.Key
+#      type: StorageBoundUserInterface
+#
+##---------------- сумки на хвост\/ ----------------
+##тут 7
+#
+#- type: entity
+#  parent: LPPClothingTailStorageBase
+#  id: LPPClothingBackpackSatchel
+#  name: Satchel bag
+#  description:
+#  components:
+#  - type: Sprite
+#    sprite: _LostParadise/Clothing/Tail/satchel.rsi
+#
+#- type: entity
+#  parent: LPPClothingTailStorageBase
+#  id: LPPClothingBackpackHydroponics
+#  name: Hydroponics bag
+#  description:
+#  components:
+#  - type: Sprite
+#    sprite: _LostParadise/Clothing/Tail/hydroponics.rsi
+#
+#- type: entity
+#  parent: LPPClothingTailStorageBase
+#  id: LPPClothingBackpackScience
+#  name: Science bag
+#  description:
+#  components:
+#  - type: Sprite
+#    sprite: _LostParadise/Clothing/Tail/science.rsi
+#
+#- type: entity
+#  parent: LPPClothingTailStorageBase
+#  id: LPPClothingBackpackEngineering
+#  name: engineering bag
+#  description:
+#  components:
+#  - type: Sprite
+#    sprite: _LostParadise/Clothing/Tail/engineering.rsi
+#
+#
+#- type: entity
+#  parent: LPPClothingTailStorageBase
+#  id: LPPClothingBackpackMedical
+#  name: medical bag
+#  description:
+#  components:
+#  - type: Sprite
+#    sprite: _LostParadise/Clothing/Tail/medical.rsi
+#
+#
+#- type: entity
+#  parent: LPPClothingTailStorageBase
+#  id: LPPClothingBackpackSalvage
+#  name: salvage bag
+#  description:
+#  components:
+#  - type: Sprite
+#    sprite: _LostParadise/Clothing/Tail/salvage.rsi
+#
+#
+#- type: entity
+#  parent: LPPClothingTailStorageBase
+#  id: LPPClothingBackpackSecurity
+#  name: security bag
+#  description:
+#  components:
+#  - type: Sprite
+#    sprite: _LostParadise/Clothing/Tail/security.rsi
+#

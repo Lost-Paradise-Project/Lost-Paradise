@@ -201,6 +201,9 @@
     },
     {
       "name": "zookeeper"
+    },
+    {
+      "name": "expeditor"
     }
   ]
 }

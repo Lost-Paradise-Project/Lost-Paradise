@@ -5,8 +5,8 @@
   description: Чёрно-белые очки.
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Eyes/Glasses/_LostParadiseCASglasses.rsi
+    sprite: _LostParadise/Clothing/Eyes/Glasses/LPPCASglasses.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Eyes/Glasses/_LostParadiseCASglasses.rsi
+    sprite: _LostParadise/Clothing/Eyes/Glasses/LPPCASglasses.rsi
   - type: FlashImmunity
   - type: EyeProtection

@@ -11,26 +11,26 @@
 #       # type: StrippableBoundUserInterface
 
 
-# - type: polymorph
-#   id: LPPAngelDustSwitcherToGhostYuki
-#   configuration:
-#     entity: LPPAngelDustYukiGhost
-#     transferName: true
-#     transferHumanoidAppearance: true
-#     inventory: Transfer
-#     #inventory: None
-#     transferDamage: false
-#     revertOnDeath: true
-#     revertOnCrit: true
+- type: polymorph
+  id: LPPAngelDustSwitcherToGhostYuki
+  configuration:
+    entity: LPPAngelDustYukiGhost
+    transferName: true
+    transferHumanoidAppearance: true
+    inventory: Transfer
+    #inventory: None
+    transferDamage: false
+    revertOnDeath: true
+    revertOnCrit: true
 
-# - type: polymorph
-#   id: LPPAngelDustSwitcherToPersonYuki
-#   configuration:
-#     entity: LPPAngelDustYuki
-#     transferName: true
-#     transferHumanoidAppearance: true
-#     inventory: Transfer
-#     #inventory: None
-#     transferDamage: false
-#     revertOnDeath: true
-#     revertOnCrit: true
+- type: polymorph
+  id: LPPAngelDustSwitcherToPersonYuki
+  configuration:
+    entity: LPPAngelDustYuki
+    transferName: true
+    transferHumanoidAppearance: true
+    inventory: Transfer
+    #inventory: None
+    transferDamage: false
+    revertOnDeath: true
+    revertOnCrit: true

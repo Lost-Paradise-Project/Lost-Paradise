@@ -8,7 +8,7 @@
     tags:
       - LPPHammer
   - type: Sprite
-    sprite: _LostParadise/Objects/Weapons/Melee/_LostParadiseHammer.rsi
+    sprite: _LostParadise/Objects/Weapons/Melee/LPPHammer.rsi
     state: icon
   - type: Item
     size: Huge
@@ -28,7 +28,7 @@
         Structural: 80
   - type: ToolTileCompatible
   - type: Clothing
-    sprite: _LostParadise/Objects/Weapons/Melee/_LostParadiseHammer.rsi
+    sprite: _LostParadise/Objects/Weapons/Melee/LPPHammer.rsi
     quickEquip: false
     slots:
     - back

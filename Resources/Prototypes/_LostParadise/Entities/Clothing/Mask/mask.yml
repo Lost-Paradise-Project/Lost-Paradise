@@ -290,20 +290,20 @@
       coefficients:
         Heat: 0.80
 
-- type: entity
-  parent: ClothingMaskGas
-  id: LPPClothingMaskSkiletsScientist
-  name: scientist gasmask
-  description: Tactical gas mask for attack aircraft IICs, fireproof.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/PERSONAL/Skilets/skilets_mask.rsi
-  - type: Clothing
-    sprite: _LostParadise/PERSONAL/Skilets/skilets_mask.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Heat: 0.80
+# - type: entity
+#   parent: ClothingMaskGas
+#   id: LPPClothingMaskSkiletsScientist
+#   name: scientist gasmask
+#   description: Tactical gas mask for attack aircraft IICs, fireproof.
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/PERSONAL/Skilets/skilets_mask.rsi
+#   - type: Clothing
+#     sprite: _LostParadise/PERSONAL/Skilets/skilets_mask.rsi
+#   - type: Armor
+#     modifiers:
+#       coefficients:
+#         Heat: 0.80
 
 - type: entity
   parent: ClothingMaskBase
