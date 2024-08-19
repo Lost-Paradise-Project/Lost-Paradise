@@ -195,6 +195,13 @@ public sealed partial class EncryptionKeySystem : EntitySystem
     {
         if (!args.IsInDetailsRange)
             return;
+        // IPC-Start
+        if (!component.ExamineWhileLocked && !component.KeysUnlocked)
+            return;
+
+        if (!component.ExamineWhileLocked && TryComp<WiresPanelComponent>(uid, out var panel) && !panel.Open)
+            return;
+        // IPC-End
 
         if(component.Channels.Count > 0)
         {
