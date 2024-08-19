@@ -1,4 +1,4 @@
-﻿ent-APCElectronics = микросхема ЛКП
+ent-APCElectronics = микросхема ЛКП
     .desc = Микросхема, используемая в создании ЛКП.
 ent-WallmountSubstationElectronics = микросхема настенной подстанции
     .desc = Микросхема, используемая в создании настенной подстанции.

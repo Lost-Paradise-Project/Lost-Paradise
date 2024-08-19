@@ -1,4 +1,4 @@
-﻿health-examinable-silicon-none = Видимые повреждения корпуса отсутствуют.
+health-examinable-silicon-none = Видимые повреждения корпуса отсутствуют.
 health-examinable-silicon-Blunt-25 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } небольшие вмятины на шасси.[/color]
 health-examinable-silicon-Blunt-50 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } шасси имеет серьёзные вмятины![/color]
 health-examinable-silicon-Blunt-75 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } шасси почти разваливается![/color]

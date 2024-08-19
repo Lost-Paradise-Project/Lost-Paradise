@@ -1,4 +1,4 @@
-﻿ent-LPPCalliePillow = Дакимукура Келли
+ent-LPPCalliePillow = Дакимукура Келли
     .desc = "Малышка Келли!"
     .suffix = { "" }
 ent-LPPAuroraPillow = Дакимукура Аврора

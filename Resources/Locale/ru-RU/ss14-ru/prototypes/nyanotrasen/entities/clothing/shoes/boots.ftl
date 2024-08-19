@@ -1,2 +1,2 @@
-﻿ent-ClothingShoesBootsMantis = psionic mantis' boots
+ent-ClothingShoesBootsMantis = psionic mantis' boots
     .desc = Soft, comfortable, and good for rough terrain.

@@ -1,3 +1,3 @@
-﻿ent-LockerChiefJusticeFilled = { ent-LockerChiefJustice }
+ent-LockerChiefJusticeFilled = { ent-LockerChiefJustice }
     .suffix = Заполнено
     .desc = { ent-LockerChiefJustice.desc }

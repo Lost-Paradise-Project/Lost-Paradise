@@ -1,4 +1,4 @@
-﻿# mop bucket
+# mop bucket
 mop-bucket-slot-component-slot-name-shark = Акула
 # janitorial trolley
 janitorial-trolley-slot-component-slot-name-plunger = Вантуз

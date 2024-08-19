@@ -1,4 +1,4 @@
-﻿loadout-description-LoadoutShoesBlack = Стильные чёрные кеды.
+loadout-description-LoadoutShoesBlack = Стильные чёрные кеды.
 loadout-description-LoadoutShoesBlue = Стильные кеды синего цвета, похожие на цвет самого лазурного моря.
 loadout-description-LoadoutShoesBrown = Стильные, а главное надёжные кеды коричневого цвета.
 loadout-description-LoadoutShoesGreen = Вы точно не наступили в траву?

@@ -1,4 +1,4 @@
-﻿ent-InflatableWallStack = надувная баррикада
+ent-InflatableWallStack = надувная баррикада
     .desc = Сложенная мембрана, которая быстро расширяется в большую кубическую форму при активации.
     .suffix = Полный
 ent-InflatableDoorStack = надувная дверь

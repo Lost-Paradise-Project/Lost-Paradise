@@ -1,4 +1,4 @@
-﻿language-Universal-name = Универсальный
+language-Universal-name = Универсальный
 language-Universal-description = Что ты такое?
 language-GalacticCommon-name = Общегалактический
 language-GalacticCommon-description = Обычно используется для межвидового общения и официальных целей.

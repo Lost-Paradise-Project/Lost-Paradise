@@ -1,4 +1,4 @@
-﻿ent-PenExploding = { ent-Pen }
+ent-PenExploding = { ent-Pen }
     .desc = { ent-Pen.desc }
     .suffix = Взрывчатка
 ent-PenExplodingBox = футляр взрывающейся ручки

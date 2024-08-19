@@ -1,4 +1,4 @@
-﻿ent-BaseSpeedLoaderSpecial = speed loader (.38 special)
+ent-BaseSpeedLoaderSpecial = speed loader (.38 special)
     .desc = { ent-BaseItem.desc }
 ent-SpeedLoaderSpecial = speed loader (.38 special)
     .desc = { ent-BaseSpeedLoaderSpecial.desc }

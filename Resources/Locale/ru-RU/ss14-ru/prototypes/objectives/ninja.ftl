@@ -1,4 +1,4 @@
-﻿ent-BaseNinjaObjective = { ent-BaseObjective }
+ent-BaseNinjaObjective = { ent-BaseObjective }
     .desc = { ent-BaseObjective.desc }
 ent-DoorjackObjective = { ent-BaseNinjaObjective }
     .desc = { ent-BaseNinjaObjective.desc }

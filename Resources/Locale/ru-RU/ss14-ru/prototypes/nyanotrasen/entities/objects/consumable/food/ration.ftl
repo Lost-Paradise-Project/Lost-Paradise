@@ -1,4 +1,4 @@
-﻿ent-FoodPSBTrash = psb wrapper
+ent-FoodPSBTrash = psb wrapper
     .desc = { ent-FoodPacketTrash.desc }
 ent-FoodPSB = prepacked sustenance bar
     .desc = The PSB is a densely packed, nutrient rich, artificially flavored and colored food bar specifically made to accomodate all species during food shortages.

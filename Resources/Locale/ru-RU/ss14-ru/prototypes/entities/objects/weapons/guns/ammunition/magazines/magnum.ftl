@@ -1,4 +1,4 @@
-﻿ent-BaseMagazineMagnum = пистолетный магазин (.45 магнум)
+ent-BaseMagazineMagnum = пистолетный магазин (.45 магнум)
     .desc = { ent-BaseMagazinePistol.desc }
 ent-BaseMagazineMagnumSubMachineGun = магазин Вектора (.45 магнум)
     .desc = { ent-BaseItem.desc }

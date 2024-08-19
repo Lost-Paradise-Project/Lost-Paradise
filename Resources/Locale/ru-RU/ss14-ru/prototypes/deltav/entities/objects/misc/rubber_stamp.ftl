@@ -1,4 +1,4 @@
-﻿ent-RubberStampPsychologist = psychologist's rubber stamp
+ent-RubberStampPsychologist = psychologist's rubber stamp
     .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
 ent-RubberStampLawyer = lawyer's rubber stamp

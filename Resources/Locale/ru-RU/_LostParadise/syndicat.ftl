@@ -1,4 +1,4 @@
-﻿#-----------------------------#
+#-----------------------------#
 #------------Шлюзы------------#
 #-СБ-#
 ent-AirlockSecuritySynGlassLocked = { ent-AirlockGlass }
@@ -117,7 +117,6 @@ ent-TitaniumWindoorServiceSynLocked = { ent-TitaniumWindoor }
 ent-TitaniumWindoorSalvageSynLocked = { ent-TitaniumWindoor }
     .suffix = SalvageSyn, Locked
     .desc = { ent-TitaniumWindoor }
-
 #---------------------------#
 #------------ЛКП------------#
 ent-APCConstructedSyn = ЛКП
@@ -135,7 +134,6 @@ ent-APCSuperCapacitySyn = { ent-APCConstructedSyn }
 ent-APCHyperCapacitySyn = { ent-APCConstructedSyn }
     .suffix = Гипер ёмкость, Синдиката 200кВт
     .desc = { ent-APCConstructedSyn.desc }
-
 #---------------------------------#
 #------------Двигатели------------#
 ent-LPPThruster2x2 = { ent-BaseThruster }
@@ -144,7 +142,6 @@ ent-LPPThruster2x2 = { ent-BaseThruster }
 ent-LPPThruster3x3 = { ent-BaseThruster }
     .suffix = 3x3
     .desc = { ent-BaseThruster.desc }
-
 #----------------------------#
 #------------Крио------------#
 ent-LPPCryogenicSleepUnitSyn = капсула криогенного сна синдиката
@@ -156,7 +153,6 @@ ent-LPPCryogenicSleepUnitSpawnerSyn = { ent-LPPCryogenicSleepUnitSyn }
 ent-LPPCryogenicSleepUnitSpawnerLateJoinSyn = { ent-LPPCryogenicSleepUnitSyn }
     .suffix = Спавнер, Позднее присоединение
     .desc = { ent-LPPCryogenicSleepUnitSyn.desc }
-
 #---------------------------#
 #------------КПК------------#
 ent-SyndiPDACap = кроваво-красный КПК капитана
@@ -186,7 +182,6 @@ ent-SyndiPDASalvage = кроваво-красный КПК утилизатор�
 ent-SyndiPDAEngineering = кроваво-красный КПК инженера
     .suffix = КПК Синдиката, инженер
     .desc = Смотря на этот КПК, ваше сердцебиение учащается... Словно его владелец совершил нечто опасное.
-
 #--------------------------#
 #------------ID------------#
 ent-LPPCaptainIDCardSyn = ID карта капитана
@@ -219,7 +214,6 @@ ent-LPPEngineeringIDCardSyn = ID карта инженера
 ent-LPPPrisonerIDCardSyn = ID карта заключенного
     .suffix = ID Синдиката, заключенный
     .desc = { ent-IDCardStandard.desc }
-
 #------------------------------#
 #------------одежда------------#
 #-голова-#
@@ -275,7 +269,6 @@ ent-LPPClothingBackpackSyndicat = рюкзак Синдиката
 ent-ClothingBackpackSatchelSyndicat = сумка Синдиката
     .suffix = Синдиката
     .desc = { ent-ClothingBackpackSatchel.desc }
-
 #----------------------------#
 #------------МОБЫ------------#
 ent-MobMediKitibot = медиботкот
@@ -301,7 +294,6 @@ ent-SpawnMobSyndiFox = спавн лиса
 ent-SpawnMobSyndiFoxRobot = спавн роболис
     .suffix = Синдиката
     .desc = { ent-MarkerBase.desc }
-
 #-----------------------------#
 #------------СПАВН------------#
 ent-SpawnMobSyndicateCap = спавн синдикат Капитан
@@ -364,4 +356,3 @@ ent-SpawnMobSyndicatePrisonerSyn = спавн синдикат Заключён�
 ent-SpawnSyndicatePrisonerSyn = роль синдикат Заключёный
     .suffix = Синдикат , Prisoner
     .desc = { ent-MarkerBase.desc }
-

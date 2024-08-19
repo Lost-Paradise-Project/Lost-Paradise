@@ -1,4 +1,4 @@
-﻿ent-PresentBase = подарок
+ent-PresentBase = подарок
     .desc = Маленькая коробочка с невероятными сюрпризами внутри.
 ent-Present = { ent-PresentBase }
     .desc = { ent-PresentBase.desc }

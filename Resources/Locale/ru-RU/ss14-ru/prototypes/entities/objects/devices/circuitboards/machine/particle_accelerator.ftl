@@ -1,4 +1,4 @@
-﻿ent-MachineParticleAcceleratorEndCapCircuitboard = плата торцевой заглушки УЧ
+ent-MachineParticleAcceleratorEndCapCircuitboard = плата торцевой заглушки УЧ
     .desc = { ent-BaseMachineCircuitboard.desc }
 ent-MachineParticleAcceleratorFuelChamberCircuitboard = плата топливной камеры УЧ
     .desc = { ent-BaseMachineCircuitboard.desc }

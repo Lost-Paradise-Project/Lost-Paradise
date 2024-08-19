@@ -1,4 +1,4 @@
-﻿ent-BaseDice = { ent-BaseItem }
+ent-BaseDice = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-PercentileDie = процентная кость
     .desc = Кость с 10 сторонами. Подходит для броска на d100 лучше, чем этот мячик для гольфа.

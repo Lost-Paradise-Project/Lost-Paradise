@@ -1,4 +1,4 @@
-﻿cuffable-component-cannot-interact-message = Вы не можете этого сделать!
+cuffable-component-cannot-interact-message = Вы не можете этого сделать!
 cuffable-component-cannot-remove-cuffs-too-far-message = Вы слишком далеко, чтобы снять наручники.
 cuffable-component-start-uncuffing-self = Вы начинаете мучительно выкручиваться из наручников.
 cuffable-component-start-uncuffing-observer = { $user } начинает расковывать { $target }!

@@ -1,4 +1,4 @@
-﻿ent-WeaponWandPolymorphBase = { ent-WeaponWandBase }
+ent-WeaponWandPolymorphBase = { ent-WeaponWandBase }
     .desc = { ent-WeaponWandBase.desc }
 ent-WeaponWandPolymorphCarp = волшебная палочка полиморфа карпа
     .desc = На случай, когда вам срочно нужно филе карпа, а клоун выглядит уж очень аппетитно.

@@ -1,2 +1,2 @@
-﻿ent-BoxCartridgeBB = box of BBs
+ent-BoxCartridgeBB = box of BBs
     .desc = { ent-BoxDonkSoftBase.desc }

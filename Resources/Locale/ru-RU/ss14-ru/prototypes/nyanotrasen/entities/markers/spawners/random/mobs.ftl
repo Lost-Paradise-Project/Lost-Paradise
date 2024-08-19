@@ -1,4 +1,4 @@
-﻿ent-CarpSpawnerMundane = NPC Carp Spawner
+ent-CarpSpawnerMundane = NPC Carp Spawner
     .suffix = No Ghost Takeover
     .desc = { ent-MarkerBase.desc }
 ent-SnakeSpawnerMundane = NPC Snake Spawner

@@ -1,4 +1,4 @@
-﻿reagent-name-flour = мука
+reagent-name-flour = мука
 reagent-desc-flour = Используется в выпечке.
 reagent-name-cornmeal = кукурузная мука
 reagent-desc-cornmeal = Используется в выпечке.

@@ -1,4 +1,4 @@
-﻿ent-FitnessWeightsBench1 = weights bench
+ent-FitnessWeightsBench1 = weights bench
     .desc = { ent-SeatBase.desc }
 ent-FitnessWeightLifter = weight lifter
     .desc = { ent-FitnessWeightsBench1.desc }

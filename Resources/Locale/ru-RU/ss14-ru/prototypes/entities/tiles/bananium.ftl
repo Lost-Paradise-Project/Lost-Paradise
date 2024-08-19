@@ -1,2 +1,2 @@
-﻿ent-FloorBananiumEntity = бананиумовый пол
+ent-FloorBananiumEntity = бананиумовый пол
     .desc = { "" }

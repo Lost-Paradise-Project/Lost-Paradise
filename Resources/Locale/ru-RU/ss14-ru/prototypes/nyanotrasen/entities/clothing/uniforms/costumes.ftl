@@ -1,4 +1,4 @@
-﻿ent-UniformJabroni = jabroni outfit
+ent-UniformJabroni = jabroni outfit
     .desc = For artists, performance artists.
 ent-ClothingCostumeArcDress = white shirt and purple skirt
     .desc = You feel a supernatural urge to put these on. It must be fate.

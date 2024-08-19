@@ -1,4 +1,4 @@
-﻿ent-ClothingBeltUtility = пояс для инструментов
+ent-ClothingBeltUtility = пояс для инструментов
     .desc = Может хранить различные предметы.
 ent-ClothingBeltChiefEngineer = пояс старшего инженера
     .desc = Держит инструменты, выглядит стильно.

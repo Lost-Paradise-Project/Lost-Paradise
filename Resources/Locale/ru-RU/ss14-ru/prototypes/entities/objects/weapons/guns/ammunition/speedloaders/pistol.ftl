@@ -1,4 +1,4 @@
-﻿ent-BaseSpeedLoaderPistol = спидлоадер (.35 авто)
+ent-BaseSpeedLoaderPistol = спидлоадер (.35 авто)
     .desc = { ent-BaseItem.desc }
 ent-SpeedLoaderPistol = спидлоадер (.35 авто)
     .desc = { ent-BaseSpeedLoaderPistol.desc }

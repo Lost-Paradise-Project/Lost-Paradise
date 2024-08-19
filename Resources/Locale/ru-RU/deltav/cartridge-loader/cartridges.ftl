@@ -1,4 +1,4 @@
-﻿crime-assist-program-name = Ассистент безопасности
+crime-assist-program-name = Ассистент безопасности
 crime-assist-yes-button = Да
 crime-assist-no-button = Нет
 crime-assist-crimetype-innocent = Невиновный

@@ -1,4 +1,4 @@
-﻿### UI
+### UI
 
 rcdfap-component-examine-mode-details = Выбран режим: '{ $mode }'.
 rcdfap-component-examine-build-details = Выбран режим строительства: { $name }.
@@ -28,7 +28,6 @@ rcd-component-Devices = Девайсы
 ### Prototype names (note: constructable items will be puralized)
 
 rcdfap-component-deconstruct = Демонтаж
-
 rcdfap-ammo-component-on-examine =
     Содержит { $charges } { $charges ->
         [one] заряд

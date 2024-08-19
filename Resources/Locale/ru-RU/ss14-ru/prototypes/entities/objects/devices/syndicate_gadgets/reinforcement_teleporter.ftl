@@ -1,4 +1,4 @@
-﻿ent-ReinforcementRadio = радио подкрепления Синдиката
+ent-ReinforcementRadio = радио подкрепления Синдиката
     .desc = Призовите на помощь агента Синдиката сомнительного качества, мгновенно! Предоставляется только базовое снаряжение.
 # Corvax-HiddenDesc-Start
 ent-ReinforcementRadioSyndicate = старое радио

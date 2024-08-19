@@ -1,4 +1,4 @@
-﻿ent-ActionMechCycleEquipment = Переключить снаряжение
+ent-ActionMechCycleEquipment = Переключить снаряжение
     .desc = Переключает выбранное снаряжение.
 ent-ActionMechOpenUI = Панель управления
     .desc = Открывает панель управления меха.

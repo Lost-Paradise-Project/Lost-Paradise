@@ -1,4 +1,4 @@
-﻿ent-WallShuttleInterior = shuttle wall
+ent-WallShuttleInterior = shuttle wall
     .suffix = Interior
     .desc = { ent-WallSolid.desc }
 ent-WallPaper = paper wall

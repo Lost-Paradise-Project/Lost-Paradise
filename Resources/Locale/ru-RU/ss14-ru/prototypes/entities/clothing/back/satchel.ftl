@@ -1,4 +1,4 @@
-﻿ent-ClothingBackpackSatchel = сумка
+ent-ClothingBackpackSatchel = сумка
     .desc = Модная сумка.
 ent-ClothingBackpackSatchelLeather = кожаная сумка
     .desc = Модная сумка из ушедшей эпохи.

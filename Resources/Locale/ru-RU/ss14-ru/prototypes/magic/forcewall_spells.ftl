@@ -1,2 +1,2 @@
-﻿ent-ActionForceWall = Магический барьер
+ent-ActionForceWall = Магический барьер
     .desc = Создаёт магический барьер.

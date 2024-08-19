@@ -1,4 +1,4 @@
-﻿ent-MobPurpleSnakeGhost = { ent-MobPurpleSnake }
+ent-MobPurpleSnakeGhost = { ent-MobPurpleSnake }
     .desc = { ent-MobPurpleSnake.desc }
 ent-MobSmallPurpleSnakeGhost = { ent-MobSmallPurpleSnake }
     .desc = { ent-MobSmallPurpleSnake.desc }

@@ -1,4 +1,4 @@
-﻿ent-BaseLamp = фонарь
+ent-BaseLamp = фонарь
     .desc = { ent-BaseItem.desc }
 ent-Lamp = лампа
     .desc = Светоизлучающее устройство.

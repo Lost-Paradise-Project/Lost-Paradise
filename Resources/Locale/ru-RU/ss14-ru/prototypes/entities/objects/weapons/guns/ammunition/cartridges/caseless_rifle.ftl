@@ -1,4 +1,4 @@
-﻿ent-BaseCartridgeCaselessRifle = патрон (.25 винтовочный)
+ent-BaseCartridgeCaselessRifle = патрон (.25 винтовочный)
     .desc = { ent-BaseCartridge.desc }
 ent-CartridgeCaselessRifle = патрон (.25 безгильзовый)
     .desc = { ent-BaseCartridgeCaselessRifle.desc }

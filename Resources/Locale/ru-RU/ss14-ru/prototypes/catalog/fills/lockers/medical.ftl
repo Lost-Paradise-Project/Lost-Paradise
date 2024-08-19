@@ -1,4 +1,4 @@
-﻿ent-LockerMedicineFilled = { ent-LockerMedicine }
+ent-LockerMedicineFilled = { ent-LockerMedicine }
     .suffix = Заполненный
     .desc = { ent-LockerMedicine.desc }
 ent-LockerWallMedicalFilled = { ent-LockerWallMedical }

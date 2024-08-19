@@ -1,4 +1,4 @@
-﻿drink-component-on-use-is-empty = { CAPITALIZE($owner) } пуст!
+drink-component-on-use-is-empty = { CAPITALIZE($owner) } пуст!
 drink-component-on-examine-is-empty = [color=gray]Пусто[/color]
 drink-component-on-examine-is-opened = [color=yellow]Открыто[/color]
 drink-component-on-examine-is-sealed = Пломба не повреждена.

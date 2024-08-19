@@ -1,4 +1,4 @@
-﻿ent-DrinkAlexanderGlass = { ent-DrinkGlass }
+ent-DrinkAlexanderGlass = { ent-DrinkGlass }
     .suffix = Александр
     .desc = { ent-DrinkGlass.desc }
 ent-DrinkBadTouchGlass = { ent-DrinkGlass }

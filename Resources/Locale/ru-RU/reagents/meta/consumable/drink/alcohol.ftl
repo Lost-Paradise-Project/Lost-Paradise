@@ -1,4 +1,4 @@
-﻿reagent-name-absinthe = абсент
+reagent-name-absinthe = абсент
 reagent-desc-absinthe = Спиртной напиток со вкусом аниса, полученный из растений.
 reagent-name-ale = эль
 reagent-desc-ale = Тёмный алкогольный напиток, приготовленный из ячменного солода и дрожжей.
@@ -24,6 +24,9 @@ reagent-name-poison-wine = ядовитое вино
 reagent-desc-poison-wine = Это вообще вино? Ядовитое! Галлюциногенное! Вероятно, ваше руководство потребляет его в огромных количествах!
 reagent-name-rum = ром
 reagent-desc-rum = Дистиллированный алкогольный напиток, изготовленный из субпродуктов сахарного тростника.
+#reagent-name-sake = sake
+#reagent-desc-sake = Alcoholic beverage made by fermenting rice that has been polished.
+
 reagent-name-sake = саке
 reagent-desc-sake = Алкогольный напиток, изготовленный путём брожения шлифованного риса.
 reagent-name-tequila = текила

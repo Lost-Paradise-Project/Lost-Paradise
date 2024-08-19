@@ -1,4 +1,4 @@
-﻿lp-chatsan-word-1 = сщ
+lp-chatsan-word-1 = сщ
 lp-chatsan-replacement-1 = Офицер Синий Щит
 lp-chatsan-word-2 = осщ
 lp-chatsan-replacement-2 = Офицер Синий Щит

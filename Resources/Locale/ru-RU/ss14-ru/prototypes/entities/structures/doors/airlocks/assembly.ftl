@@ -1,4 +1,4 @@
-﻿ent-AirlockAssemblyAtmospherics = { ent-AirlockAssembly }
+ent-AirlockAssemblyAtmospherics = { ent-AirlockAssembly }
     .suffix = Атмосферный
     .desc = { ent-AirlockAssembly.desc }
 ent-AirlockAssemblyAtmosphericsGlass = { ent-AirlockAssembly }

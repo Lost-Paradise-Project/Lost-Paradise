@@ -1,4 +1,4 @@
-﻿ent-BaseBigBox = картонная коробка
+ent-BaseBigBox = картонная коробка
     .desc = А? Просто коробка...
 ent-StealthBox = { ent-BaseBigBox }
     .desc = Kept ya waiting, huh?

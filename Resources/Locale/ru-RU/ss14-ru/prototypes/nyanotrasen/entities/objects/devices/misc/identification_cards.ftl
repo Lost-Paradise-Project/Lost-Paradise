@@ -1,4 +1,4 @@
-﻿ent-PrisonerIDCard = prisoner ID card
+ent-PrisonerIDCard = prisoner ID card
     .desc = { ent-IDCardStandard.desc }
 ent-GladiatorIDCard = gladiator ID card
     .desc = { ent-IDCardStandard.desc }

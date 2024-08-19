@@ -1,4 +1,4 @@
-﻿ent-LPPLaserDisk = лазерный диск
+ent-LPPLaserDisk = лазерный диск
     .desc = Лазерный кинжал выполненный в форме диска, в центре есть вырез под руку.
     .suffix = { "Личные вещи" }
 ent-LPPEnergyDoubleSword = двойной лазерный меч

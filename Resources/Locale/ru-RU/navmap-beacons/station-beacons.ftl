@@ -1,4 +1,4 @@
-﻿station-beacon-general = Общий
+station-beacon-general = Общий
 station-beacon-command = Командование
 station-beacon-bridge = Мостик
 station-beacon-vault = Хранилище

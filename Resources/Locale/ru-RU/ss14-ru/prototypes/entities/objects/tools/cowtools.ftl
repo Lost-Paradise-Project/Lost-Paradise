@@ -1,4 +1,4 @@
-﻿ent-Haycutters = сенорез
+ent-Haycutters = сенорез
     .desc = Косит провода. Му!
 ent-Moodriver = коровёртка
     .desc = Поворачивайте чтобы использовать. Му!

@@ -1,4 +1,4 @@
-﻿ent-WeldingFuelTank = топливный резервуар
+ent-WeldingFuelTank = топливный резервуар
     .desc = Топливный резервуар. Используется для хранения большого количества топлива.
     .suffix = Пустой
 ent-WeldingFuelTankFull = { ent-WeldingFuelTank }

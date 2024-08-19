@@ -1,4 +1,4 @@
-﻿ent-FloorCarpetItemRed = ковёр
+ent-FloorCarpetItemRed = ковёр
     .desc = { ent-FloorTileItemBase.desc }
     .suffix = Красный
 ent-FloorCarpetItemBlack = ковёр

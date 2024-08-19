@@ -1,1 +1,1 @@
-﻿changelog-tab-title-DeltaVChangelog = DeltaV
+changelog-tab-title-DeltaVChangelog = DeltaV

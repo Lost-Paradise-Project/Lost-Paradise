@@ -1,4 +1,4 @@
-﻿## UI
+## UI
 
 hypospray-all-mode-text = Только ввод
 hypospray-mobs-only-mode-text = Забор и ввод

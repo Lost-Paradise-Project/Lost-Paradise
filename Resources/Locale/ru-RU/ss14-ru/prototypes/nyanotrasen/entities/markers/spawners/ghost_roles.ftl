@@ -1,4 +1,4 @@
-﻿ent-SpawnPointGhostIfrit = ghost role spawn point
+ent-SpawnPointGhostIfrit = ghost role spawn point
     .suffix = Ifrit
     .desc = { ent-MarkerBase.desc }
 ent-SpawnPointGhostFugitive = ghost role spawn point

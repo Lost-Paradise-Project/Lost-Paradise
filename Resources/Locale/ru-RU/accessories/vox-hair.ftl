@@ -1,4 +1,4 @@
-﻿marking-VoxHairShortQuills = Вокс, Короткие перья
+marking-VoxHairShortQuills = Вокс, Короткие перья
 marking-VoxHairBraids = Вокс, Косички
 marking-VoxHairCrestedQuills = Вокс, Гребнистые перья
 marking-VoxHairEmperorQuills = Вокс, Императорские перья

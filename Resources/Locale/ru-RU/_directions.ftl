@@ -1,4 +1,4 @@
-﻿zzzz-fmt-direction-North = Север
+zzzz-fmt-direction-North = Север
 zzzz-fmt-direction-South = Юг
 zzzz-fmt-direction-East = Восток
 zzzz-fmt-direction-West = Запад

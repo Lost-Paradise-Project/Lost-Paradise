@@ -1,4 +1,4 @@
-﻿### Voting system related console commands
+### Voting system related console commands
 
 
 ## 'createvote' command

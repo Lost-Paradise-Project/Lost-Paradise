@@ -1,4 +1,4 @@
-﻿comp-gas-pump-ui-pump-status = Статус:
+comp-gas-pump-ui-pump-status = Статус:
 comp-gas-pump-ui-status-enabled = Вкл
 comp-gas-pump-ui-status-disabled = Выкл
 comp-gas-pump-ui-pump-set-rate = Установить

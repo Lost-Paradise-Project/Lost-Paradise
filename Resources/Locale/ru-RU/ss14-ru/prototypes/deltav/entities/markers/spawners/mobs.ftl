@@ -1,4 +1,4 @@
-﻿ent-SpawnMobArcticFoxSiobhan = Спавнер Песца Шиобиана
+ent-SpawnMobArcticFoxSiobhan = Спавнер Песца Шиобиана
     .desc = { ent-MarkerBase.desc }
 ent-SpawnMobSecDogLaika = Спавнер охранной собаки лайки
     .desc = { ent-MarkerBase.desc }

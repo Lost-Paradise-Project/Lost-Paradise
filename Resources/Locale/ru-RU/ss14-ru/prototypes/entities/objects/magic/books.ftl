@@ -1,4 +1,4 @@
-﻿ent-BaseSpellbook = книга заклинаний
+ent-BaseSpellbook = книга заклинаний
     .desc = { ent-BaseItem.desc }
 ent-WizardsGrimoire = гримуар волшебника
     .suffix = Волшебник

@@ -1,4 +1,4 @@
-﻿ent-RandomHumanoidSpawnerListener = Спавнер слушателя синдиката
+ent-RandomHumanoidSpawnerListener = Спавнер слушателя синдиката
     .desc = { "" }
 ent-RandomHumanoidSpawnerMobster = Спавнер мобстера
     .desc = { "" }

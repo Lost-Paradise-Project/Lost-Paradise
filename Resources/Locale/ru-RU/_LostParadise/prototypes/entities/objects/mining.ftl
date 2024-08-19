@@ -1,4 +1,4 @@
-﻿ent-WeaponCutter = ионный резак
+ent-WeaponCutter = ионный резак
     .desc = Инструмент шахтеров, предназначенный для расчистки горных пород.
     .suffix = { "" }
 ent-WeaponCutterAdv = улучшенный ионный резак

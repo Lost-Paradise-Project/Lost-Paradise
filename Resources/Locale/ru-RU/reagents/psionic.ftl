@@ -1,4 +1,4 @@
-﻿psionic-regeneration-begin = Глаза { CAPITALIZE($entity) } дергаются под волной пота.
+psionic-regeneration-begin = Глаза { CAPITALIZE($entity) } дергаются под волной пота.
 psionic-regeneration-essence-sweat = { CAPITALIZE($entity) } сильно потеет.
 psionic-regeneration-essence-veins = Вены { CAPITALIZE($entity) } пульсируют.
 psionic-regeneration-essence-breath = { CAPITALIZE($entity) } быстро дышит.

@@ -1,4 +1,4 @@
-﻿ent-LPPClothingShoesPowerBoots = Силовые ботинки
+ent-LPPClothingShoesPowerBoots = Силовые ботинки
     .desc = Часть силовой брони.
     .suffix = { "силовая броня" }
 ent-LPPUnathiWraps = обмотки для ног

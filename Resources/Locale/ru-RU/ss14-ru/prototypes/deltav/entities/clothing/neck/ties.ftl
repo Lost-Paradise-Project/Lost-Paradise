@@ -1,6 +1,6 @@
-﻿ent-ClothingNeckTieWhite = белый галстук
+ent-ClothingNeckTieWhite = белый галстук
     .desc = Винтажный белый галстук.
-ent-ClothingNeckTieBlack =  чёрный галстук
+ent-ClothingNeckTieBlack = чёрный галстук
     .desc = Пепельно-чёрный галстук.
 ent-ClothingNeckTieBrown = коричневый галстук
     .desc = Шоколадного цвета галстук.

@@ -1,4 +1,4 @@
-﻿research-technology-cutter = Ионный резак
+research-technology-cutter = Ионный резак
 research-technology-ore-bag-bluespace = Блюспейс сумка для руды
 research-technology-cutteradv = Улучшенный ионный резак
 research-technology-bluespace-plant-bag = Блюспейс сумка и лейка

@@ -1,4 +1,4 @@
-﻿cmd-jobwhitelist-job-does-not-exist = Должность { $job } не существует.
+cmd-jobwhitelist-job-does-not-exist = Должность { $job } не существует.
 cmd-jobwhitelist-player-not-found = Игрок { $player } не найден.
 cmd-jobwhitelist-hint-player = [player]
 cmd-jobwhitelist-hint-job = [job]

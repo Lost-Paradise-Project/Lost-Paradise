@@ -1,4 +1,4 @@
-﻿# Playtime Stats
+# Playtime Stats
 
 ui-playtime-stats-title = Игровое время пользователя
 ui-playtime-overall-base = Общее игровое время:

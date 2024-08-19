@@ -1,4 +1,4 @@
-﻿# Loading Screen
+# Loading Screen
 
 replay-loading = Загрузка ({ $cur }/{ $total })
 replay-loading-reading = Чтение файлов

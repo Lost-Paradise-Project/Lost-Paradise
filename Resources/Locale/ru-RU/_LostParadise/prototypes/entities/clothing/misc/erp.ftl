@@ -1,4 +1,4 @@
-﻿ent-LPPBigGreenButtplug = большая зеленая пробка
+ent-LPPBigGreenButtplug = большая зеленая пробка
 ent-LPPMedGreenButtplug = средняя зеленая пробка
 ent-LPPSmallGreenButtplug = маленькая зеленая пробка
 ent-LPPBigmetalButtplug = большая металлическая пробка

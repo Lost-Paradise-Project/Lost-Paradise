@@ -1,2 +1,2 @@
-﻿ent-Vaccinator = Вакцинатор
+ent-Vaccinator = Вакцинатор
     .desc = Машина для создания вакцин.

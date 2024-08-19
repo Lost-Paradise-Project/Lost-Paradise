@@ -1,4 +1,4 @@
-﻿ent-BaseThiefObjective = { ent-BaseObjective }
+ent-BaseThiefObjective = { ent-BaseObjective }
     .desc = { ent-BaseObjective.desc }
 ent-BaseThiefStealObjective = { ent-BaseThiefObjective }
     .desc = { ent-BaseThiefObjective.desc }

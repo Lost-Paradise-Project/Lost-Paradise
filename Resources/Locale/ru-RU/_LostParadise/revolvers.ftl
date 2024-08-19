@@ -1,4 +1,4 @@
-﻿ent-WeaponRevolverColtpeacemaker = кольт миротворец
+ent-WeaponRevolverColtpeacemaker = кольт миротворец
     .desc = Легендарный револвьер из дикого запада. Использует патроны .45 калибра
 ent-LPPWeaponRevolverPeacemaker = "Миротворец"
     .desc = Оружие, которое носит детектив Артемон Веалис. Использует патроны .45 калибра. На рукоятке выгвированы его инициалы "AV".

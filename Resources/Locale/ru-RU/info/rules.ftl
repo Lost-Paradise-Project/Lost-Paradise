@@ -1,4 +1,4 @@
-﻿# Rules
+# Rules
 
 ui-rules-header = Правила сервера
 ui-rules-header-rp = Правила сервера

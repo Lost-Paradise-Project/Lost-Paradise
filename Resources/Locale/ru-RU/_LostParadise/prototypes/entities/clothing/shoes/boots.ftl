@@ -1,4 +1,4 @@
-﻿ent-LPPGlowShoes = светящиеся кроссовки
+ent-LPPGlowShoes = светящиеся кроссовки
 ent-LPPIceboots = зимние ботинки
 ent-LPPRainBow = радужные кроссовки
 ent-LPPSwagShoes = swag кроссовки

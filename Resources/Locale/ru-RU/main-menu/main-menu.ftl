@@ -1,4 +1,4 @@
-﻿main-menu-invalid-username-with-reason =
+main-menu-invalid-username-with-reason =
     Неверное имя пользователя:
     { $invalidReason }
 main-menu-invalid-username = Неверное имя пользователя

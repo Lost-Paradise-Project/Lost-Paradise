@@ -1,4 +1,4 @@
-﻿defusable-examine-defused = { CAPITALIZE($name) } [color=lime]обезврежена[/color].
+defusable-examine-defused = { CAPITALIZE($name) } [color=lime]обезврежена[/color].
 defusable-examine-live =
     { CAPITALIZE($name) } тикает [color=red][/color] и осталось [color=red]{ $time } { $time ->
         [one] секунда

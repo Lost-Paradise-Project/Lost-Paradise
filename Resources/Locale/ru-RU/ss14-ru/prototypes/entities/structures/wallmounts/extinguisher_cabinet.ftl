@@ -1,4 +1,4 @@
-﻿ent-ExtinguisherCabinet = шкаф для огнетушителя
+ent-ExtinguisherCabinet = шкаф для огнетушителя
     .desc = Небольшой настенный шкаф, предназначенный для хранения огнетушителя.
 ent-ExtinguisherCabinetOpen = { ent-ExtinguisherCabinet }
     .suffix = Открытый

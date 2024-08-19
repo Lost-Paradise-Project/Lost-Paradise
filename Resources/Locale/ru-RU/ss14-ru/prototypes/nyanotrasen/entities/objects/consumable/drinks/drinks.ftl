@@ -1,4 +1,4 @@
-﻿ent-DrinkSakeGlass = { ent-DrinkGlass }
+ent-DrinkSakeGlass = { ent-DrinkGlass }
     .desc = Wine made from rice, it's sake!
     .suffix = sake
 ent-DrinkOrangeCreamiceGlass = { ent-DrinkGlass }

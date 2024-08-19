@@ -1,4 +1,4 @@
-﻿ent-ClothingHeadHatBunny = кроличьи ушки
+ent-ClothingHeadHatBunny = кроличьи ушки
     .desc = Милые ушки кролика.
 ent-ClothingHeadHatCake = шляпа с тортом
     .desc = Вы надели торт на голову. Гениально.

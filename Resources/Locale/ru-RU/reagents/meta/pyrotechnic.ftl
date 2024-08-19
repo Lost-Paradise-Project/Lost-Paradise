@@ -1,4 +1,4 @@
-﻿reagent-name-thermite = термит
+reagent-name-thermite = термит
 reagent-desc-thermite = Смесь, которая становится крайне горячей при воспламенении.
 reagent-name-napalm = напалм
 reagent-desc-napalm = Немножко огнеопасен.

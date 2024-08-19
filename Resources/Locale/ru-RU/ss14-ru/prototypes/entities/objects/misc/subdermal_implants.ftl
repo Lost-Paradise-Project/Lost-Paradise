@@ -1,4 +1,4 @@
-﻿ent-BaseSubdermalImplant = имплант
+ent-BaseSubdermalImplant = имплант
     .desc = Микрочип, который вживляют под кожу.
 # Corvax-HiddenDesc-Start
 ent-SadTromboneImplant = { ent-BaseSubdermalImplant }

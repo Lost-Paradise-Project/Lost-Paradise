@@ -1,4 +1,4 @@
-﻿ent-PartDiona = часть тела дионы
+ent-PartDiona = часть тела дионы
     .desc = { ent-BaseItem.desc }
 ent-TorsoDiona = туловище дионы
     .desc = { ent-PartDiona.desc }

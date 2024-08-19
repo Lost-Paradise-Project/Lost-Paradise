@@ -1,4 +1,4 @@
-﻿ent-GasTankBase = { ent-BaseItem }
+ent-GasTankBase = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-GasTankRoundBase = { ent-GasTankBase }
     .desc = { ent-GasTankBase.desc }

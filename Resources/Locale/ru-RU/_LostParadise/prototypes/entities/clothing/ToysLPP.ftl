@@ -1,4 +1,4 @@
-﻿ent-LPPBlackcat = плюшевая черная кошка
+ent-LPPBlackcat = плюшевая черная кошка
     .desc = "Мягкая игрушка (Черная кошка)"
     .suffix = { "" }
 ent-LPPGreycat = плюшевая серая кошка

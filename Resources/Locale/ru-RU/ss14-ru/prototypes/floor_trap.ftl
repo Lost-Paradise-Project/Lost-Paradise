@@ -1,4 +1,4 @@
-﻿ent-CollideFloorTrap = { "" }
+ent-CollideFloorTrap = { "" }
     .desc = { "" }
 ent-CollideFloorTrapSpawn = спавнер напольная ловушка
     .desc = { ent-CollideFloorTrap.desc }

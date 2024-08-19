@@ -1,4 +1,4 @@
-﻿ent-ElectricGuitarInstrument = электрогитара
+ent-ElectricGuitarInstrument = электрогитара
     .desc = Почувствуйте себя рок-звездой!
 ent-BassGuitarInstrument = бас-гитара
     .desc = Вы чувствуете себя очень крутым, держа её в руках. Досадно, что вы одни так думаете.

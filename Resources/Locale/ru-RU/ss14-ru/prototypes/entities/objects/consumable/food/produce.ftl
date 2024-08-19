@@ -1,4 +1,4 @@
-﻿ent-ProduceBase = { ent-BaseItem }
+ent-ProduceBase = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-FoodProduceBase = { ent-FoodInjectableBase }
     .desc = { ent-FoodInjectableBase.desc }

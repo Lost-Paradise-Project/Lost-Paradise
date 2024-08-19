@@ -1,4 +1,4 @@
-﻿ent-LootSpawnerMaterials = спавнер материалы
+ent-LootSpawnerMaterials = спавнер материалы
     .suffix = Строительные материалы
     .desc = { ent-MarkerBase.desc }
 ent-LootSpawnerMaterialsSupplementary = спавнер материалы

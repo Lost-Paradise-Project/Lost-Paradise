@@ -1,4 +1,4 @@
-﻿ent-FoodMothCottonSoup = cotton soup
+ent-FoodMothCottonSoup = cotton soup
     .desc = A soup made from raw cotton in a flavourful vegetable broth. Enjoyed only by moths and the criminally tasteless.
 ent-FoodMothCheeseSoup = cheese soup
     .desc = A simple and filling soup made from homemade cheese and sweet potato.

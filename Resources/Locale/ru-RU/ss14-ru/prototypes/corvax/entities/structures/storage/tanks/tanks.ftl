@@ -1,4 +1,4 @@
-﻿ent-KvassTank = бочка кваса
+ent-KvassTank = бочка кваса
     .suffix = Пустой
     .desc = Та самая бочка с освежающим хлебным нектаром.
 ent-KvassTankFull = { ent-KvassTank }

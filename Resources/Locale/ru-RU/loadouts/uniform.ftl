@@ -1,1 +1,1 @@
-﻿loadout-description-LoadoutUniformAncientJumpsuit = Говорят его носили самые робастные ассистенты.
+loadout-description-LoadoutUniformAncientJumpsuit = Говорят его носили самые робастные ассистенты.

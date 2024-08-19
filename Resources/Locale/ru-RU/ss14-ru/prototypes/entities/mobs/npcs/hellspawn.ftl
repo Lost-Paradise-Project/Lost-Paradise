@@ -1,2 +1,2 @@
-﻿ent-MobHellspawn = адское отродье
+ent-MobHellspawn = адское отродье
     .desc = Неудержимая сила резни.

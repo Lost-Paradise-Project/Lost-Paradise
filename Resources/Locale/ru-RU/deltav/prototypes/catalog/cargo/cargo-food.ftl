@@ -1,4 +1,4 @@
-﻿ent-FoodCrateKvassTank = { ent-CrateFoodKvassTank }
+ent-FoodCrateKvassTank = { ent-CrateFoodKvassTank }
     .desc = { ent-CrateFoodKvassTank.desc }
 ent-FoodDonkpocketSavory = { ent-CrateFoodDonkpocketSavory }
     .desc = { ent-CrateFoodDonkpocketSavory.desc }

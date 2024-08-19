@@ -1,4 +1,4 @@
-﻿ent-WeldingMaskBase = сварочная маска
+ent-WeldingMaskBase = сварочная маска
     .desc = { ent-ClothingHeadBase.desc }
 ent-ClothingHeadHatWelding = сварочная маска
     .desc = Маска для лица с креплением на голову, предназначенная для полной защиты глаз пользователя от сварки.

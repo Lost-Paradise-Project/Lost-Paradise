@@ -1,4 +1,4 @@
-﻿reagent-name-cola = кола
+reagent-name-cola = кола
 reagent-desc-cola = Сладкий газированный безалкогольный напиток. Не содержит кофеина.
 reagent-name-shirley-temple = Ширли Темпл
 reagent-desc-shirley-temple = Фаворит среди более юных членов экипажа.

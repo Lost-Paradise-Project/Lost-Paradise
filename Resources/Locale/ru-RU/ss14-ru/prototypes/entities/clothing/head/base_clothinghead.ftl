@@ -1,4 +1,4 @@
-﻿ent-ClothingHeadBase = { ent-Clothing }
+ent-ClothingHeadBase = { ent-Clothing }
     .desc = { ent-Clothing.desc }
 ent-ClothingHeadBaseButcherable = { ent-ClothingHeadBase }
     .desc = { ent-ClothingHeadBase.desc }

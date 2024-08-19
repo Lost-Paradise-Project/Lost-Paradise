@@ -1,4 +1,4 @@
-﻿gateway-window-title = Врата
+gateway-window-title = Врата
 gateway-window-open-portal = Открыть портал
 gateway-window-portal-cooldown = Перезарядка
 gateway-window-portal-unlock = Следующее открытие

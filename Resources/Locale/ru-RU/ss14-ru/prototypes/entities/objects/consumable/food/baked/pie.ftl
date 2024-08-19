@@ -1,4 +1,4 @@
-﻿ent-FoodPieBase = { ent-FoodInjectableBase }
+ent-FoodPieBase = { ent-FoodInjectableBase }
     .desc = { ent-FoodInjectableBase.desc }
 ent-FoodPieSliceBase = { ent-FoodInjectableBase }
     .desc = Кусочек пирога. Объедение!

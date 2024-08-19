@@ -1,4 +1,4 @@
-﻿ent-UnsensoredClothingUniformBase = { ent-Clothing }
+ent-UnsensoredClothingUniformBase = { ent-Clothing }
     .desc = { ent-Clothing.desc }
 ent-UnsensoredClothingUniformSkirtBase = { ent-UnsensoredClothingUniformBase }
     .desc = { ent-UnsensoredClothingUniformBase.desc }

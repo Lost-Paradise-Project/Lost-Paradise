@@ -1,4 +1,4 @@
-﻿ent-SignSec = security sign
+ent-SignSec = security sign
     .desc = A sign indicating the Security department.
 ent-SignLastIdiot = Zero Days Since Last Idiot
     .desc = Must be an Engineering joke.

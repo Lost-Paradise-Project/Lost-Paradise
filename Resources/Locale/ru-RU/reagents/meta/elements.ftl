@@ -1,4 +1,4 @@
-﻿reagent-name-aluminium = алюминий
+reagent-name-aluminium = алюминий
 reagent-desc-aluminium = Серебристый, мягкий, немагнитный и ковкий металл.
 reagent-name-ash = пепел
 reagent-desc-ash = Светло-серый рассыпчатый порошок.

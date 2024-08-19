@@ -1,4 +1,4 @@
-﻿ent-ClothingOuterBioGeneral = биозащитный костюм
+ent-ClothingOuterBioGeneral = биозащитный костюм
     .desc = Костюм, защищающий от биологического заражения.
     .suffix = Обычный
 ent-ClothingOuterBioCmo = биозащитный костюм

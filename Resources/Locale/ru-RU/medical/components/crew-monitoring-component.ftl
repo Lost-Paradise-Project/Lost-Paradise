@@ -1,4 +1,4 @@
-﻿## UI
+## UI
 
 crew-monitoring-user-interface-title = Консоль мониторинга экипажа
 crew-monitoring-user-interface-name = Имя

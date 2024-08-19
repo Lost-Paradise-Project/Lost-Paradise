@@ -1,4 +1,4 @@
-﻿war-ops-infiltrator-unavailable =
+war-ops-infiltrator-unavailable =
     ОШИБКА: Выполняется перерасчёт БСС-перемещений. Расчётное время: { $time } { $time ->
         [one] минута
         [few] минуты

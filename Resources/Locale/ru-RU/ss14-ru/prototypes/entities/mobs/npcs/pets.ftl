@@ -1,4 +1,4 @@
-﻿ent-MobCorgiIan = Иан
+ent-MobCorgiIan = Иан
     .desc = Любимое домашнее животное - корги.
 ent-MobCorgiIanOld = Старый Иан
     .desc = Всё ещё любимый домашний корги. Любит свои колёса.

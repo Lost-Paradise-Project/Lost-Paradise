@@ -1,4 +1,4 @@
-﻿ent-FloorTileItemBase = { ent-BaseItem }
+ent-FloorTileItemBase = { ent-BaseItem }
     .desc = Может послужить неплохим метательным оружием.
 ent-FloorTileItemSteel = стальная плитка
     .desc = { ent-FloorTileItemBase.desc }

@@ -1,2 +1,2 @@
-﻿ent-DoorRemoteJustice = justice door remote
+ent-DoorRemoteJustice = justice door remote
     .desc = { ent-DoorRemoteDefault.desc }

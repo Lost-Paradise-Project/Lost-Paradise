@@ -1,4 +1,4 @@
-﻿station-beacon-epistemics = Эпистемология
+station-beacon-epistemics = Эпистемология
 station-beacon-mystagogue = Мистагог
 station-beacon-logistics = Логистика
 station-beacon-logistics-reception = Логистика

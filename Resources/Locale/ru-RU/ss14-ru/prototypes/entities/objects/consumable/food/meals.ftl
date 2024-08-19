@@ -1,4 +1,4 @@
-﻿ent-FoodMealBase = { ent-FoodInjectableBase }
+ent-FoodMealBase = { ent-FoodInjectableBase }
     .desc = Вкусное блюдо, приготовленное с любовью.
 ent-FoodMealPotatoLoaded = печёный картофель с начинкой
     .desc = Совершенно запечённый.

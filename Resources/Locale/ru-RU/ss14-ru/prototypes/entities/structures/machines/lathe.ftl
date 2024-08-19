@@ -1,4 +1,4 @@
-﻿ent-BaseLathe = лат
+ent-BaseLathe = лат
     .desc = { ent-BaseMachinePowered.desc }
 ent-BaseLatheLube = { ent-BaseLathe }
     .desc = { ent-BaseLathe.desc }

@@ -1,2 +1,2 @@
-﻿ent-LightningNoospheric = noospheric lightning
+ent-LightningNoospheric = noospheric lightning
     .desc = { ent-BaseLightning.desc }

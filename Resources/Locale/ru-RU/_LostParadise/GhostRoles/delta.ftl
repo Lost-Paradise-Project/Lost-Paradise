@@ -1,4 +1,4 @@
-﻿ghost-role-information-delta-commander-name = Командир ОСН "Дельта"
+ghost-role-information-delta-commander-name = Командир ОСН "Дельта"
 ghost-role-information-delta-commander-description = Возглавьте элитный отряд NanoTrasen и выполните поставленную боевую задача.
 ghost-role-information-delta-operator-name = Оперативник ОСН "Дельта"
 ghost-role-information-delta-operator-description = Оперативник "Дельта", сделайте все в лучшем виде. NanoTrasen надеется на вас. И помните: Вы клин авангарда.

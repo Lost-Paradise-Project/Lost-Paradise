@@ -1,4 +1,4 @@
-﻿ent-ClothingHeadHelmetBasic = шлем
+ent-ClothingHeadHelmetBasic = шлем
     .desc = Стандартная защитная экипировка. Защищает голову от ударов.
 ent-ClothingHeadHelmetBombSuit = сапёрный шлем
     .desc = Тяжёлый шлем, предназначенный для защиты от осколков и давления, создаваемого взрывом.

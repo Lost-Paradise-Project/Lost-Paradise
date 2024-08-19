@@ -1,4 +1,4 @@
-﻿reagent-name-oxygen = кислород
+reagent-name-oxygen = кислород
 reagent-desc-oxygen = Окисляющий, бесцветный газ.
 reagent-name-plasma = плазма
 reagent-desc-plasma = Причудливая, космически-магическая пыльца фей. Вам, наверное, не стоит это есть, но мы оба знаем, что вы всё равно это сделаете.

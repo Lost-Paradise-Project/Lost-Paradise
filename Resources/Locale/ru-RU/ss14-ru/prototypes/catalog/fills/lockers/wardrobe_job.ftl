@@ -1,4 +1,4 @@
-﻿ent-WardrobePrisonFilled = { ent-WardrobePrison }
+ent-WardrobePrisonFilled = { ent-WardrobePrison }
     .desc = Содержит коллекцию красивой оранжевой одежды для людей, наслаждающихся пребыванием в бриге.
     .suffix = Заполненный
 ent-WardrobeRoboticsFilled = { ent-WardrobeRobotics }

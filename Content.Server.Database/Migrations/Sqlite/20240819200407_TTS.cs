@@ -2,20 +2,23 @@
 
 #nullable disable
 
-namespace Content.Server.Database.Migrations.Postgres
+namespace Content.Server.Database.Migrations.Sqlite
 {
-    public partial class TTSVoice : Migration
+    /// <inheritdoc />
+    public partial class TTS : Migration
     {
+        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(
                 name: "voice",
                 table: "profile",
-                type: "text",
+                type: "TEXT",
                 nullable: false,
                 defaultValue: "");
         }
 
+        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(

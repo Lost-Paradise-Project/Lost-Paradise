@@ -1,4 +1,4 @@
-﻿ent-BulletSpecial = bullet (.38 special)
+ent-BulletSpecial = bullet (.38 special)
     .desc = { ent-BaseBullet.desc }
 ent-BulletSpecialPractice = bullet (.38 special practice)
     .desc = { ent-BaseBulletPractice.desc }

@@ -1,4 +1,4 @@
-﻿ent-LPPCorpSofacorner = Темный угловой диван
+ent-LPPCorpSofacorner = Темный угловой диван
     .desc = Выглядит как мягким диван.
 ent-LPPCorpSofaendLeft = Темный левый угловой диван
     .desc = Выглядит как мягким диван.

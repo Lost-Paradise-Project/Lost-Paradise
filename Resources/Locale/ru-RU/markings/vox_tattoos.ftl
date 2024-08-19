@@ -1,4 +1,4 @@
-﻿marking-TattooVoxHeartLeftArm-heart_l_arm = Вокс, Левая рука, Татуировка (Сердце)
+marking-TattooVoxHeartLeftArm-heart_l_arm = Вокс, Левая рука, Татуировка (Сердце)
 marking-TattooVoxHeartLeftArm = Вокс, Левая рука, Татуировка (Сердце)
 marking-TattooVoxHeartRightArm-heart_r_arm = Вокс, Правая рука, Татуировка (Сердце)
 marking-TattooVoxHeartRightArm = Вокс, Правая рука, Татуировка (Сердце)

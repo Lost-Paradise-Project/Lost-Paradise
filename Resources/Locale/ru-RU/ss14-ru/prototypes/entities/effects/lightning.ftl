@@ -1,4 +1,4 @@
-﻿ent-BaseLightning = молния
+ent-BaseLightning = молния
     .desc = { "" }
 ent-Lightning = молния
     .desc = { ent-BaseLightning.desc }

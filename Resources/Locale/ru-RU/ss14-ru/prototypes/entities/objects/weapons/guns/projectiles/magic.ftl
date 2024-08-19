@@ -1,4 +1,4 @@
-﻿ent-ProjectileFireball = огненный шар
+ent-ProjectileFireball = огненный шар
     .desc = По мнению волшебников явлется средством от всех проблем.
 ent-ProjectileDragonsBreath = дыхание дракона
     .desc = Постарайтесь не поджариться.

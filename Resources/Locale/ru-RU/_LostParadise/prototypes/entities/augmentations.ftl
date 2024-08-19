@@ -1,4 +1,4 @@
-﻿marking-LPPTattooAgent = Агент
+marking-LPPTattooAgent = Агент
 marking-LPPTattooTear = Слеза
 marking-LPPJaw = Челюсть
 marking-LPPVisor = Визор
