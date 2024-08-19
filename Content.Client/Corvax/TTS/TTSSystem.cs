@@ -10,6 +10,10 @@ using Robust.Shared.ContentPack;
 using Robust.Shared.Player;
 using Robust.Shared.Utility;
 using Content.Client.Language.Systems;
+using Content.Client.Administration.Managers;
+using Content.Shared.Administration;
+using Content.Shared.Administration;
+
 
 namespace Content.Client.Corvax.TTS;
 
@@ -24,6 +28,7 @@ public sealed class TTSSystem : EntitySystem
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly ISharedPlayerManager _playerManager = default!;
     [Dependency] private readonly LanguageSystem _language = default!;
+    [Dependency] private readonly IClientAdminManager _adminMgr = default!;
 
     private ISawmill _sawmill = default!;
     private readonly MemoryContentRoot _contentRoot = new();
@@ -79,7 +84,7 @@ public sealed class TTSSystem : EntitySystem
         var player = _playerManager.LocalSession?.AttachedEntity;
         if (player != null)
         {
-            if (_language.UnderstoodLanguages.Contains(ev.LanguageProtoId))
+            if (_language.UnderstoodLanguages.Contains(ev.LanguageProtoId) || _adminMgr.HasFlag(AdminFlags.Admin))
                 _contentRoot.AddOrUpdateFile(filePath, ev.Data);
             else
                 _contentRoot.AddOrUpdateFile(filePath, ev.LanguageData);
