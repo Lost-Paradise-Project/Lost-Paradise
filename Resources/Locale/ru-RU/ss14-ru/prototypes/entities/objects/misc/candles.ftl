@@ -1,4 +1,4 @@
-﻿ent-Candle = свеча
+ent-Candle = свеча
     .desc = Тонкий фитиль, пропущенный через жир.
 ent-CandleRed = красная свеча
     .desc = { ent-Candle.desc }

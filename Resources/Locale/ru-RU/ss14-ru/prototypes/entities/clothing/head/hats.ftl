@@ -1,4 +1,4 @@
-﻿ent-ClothingHeadHatBeaverHat = бобровая шапка
+ent-ClothingHeadHatBeaverHat = бобровая шапка
     .desc = Джентльмены?
 ent-ClothingHeadHatBeret = берет
     .desc = Берет, любимый головной убор творцов.

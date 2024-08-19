@@ -1,4 +1,4 @@
-﻿ent-ShowSecurityIcons = { "" }
+ent-ShowSecurityIcons = { "" }
     .desc = { "" }
 ent-ShowMedicalIcons = { "" }
     .desc = { "" }

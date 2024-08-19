@@ -1,4 +1,4 @@
-﻿ent-BlankHandyFlag = пустой ручной флажок
+ent-BlankHandyFlag = пустой ручной флажок
     .desc = Кусок белой ткани, намотанный на палку.
 ent-NTHandyFlag = ручной флажок Nanotrasen
     .desc = Слава Nanotrasen! Подождите, они реально сделали ручной флажок для корпорации?

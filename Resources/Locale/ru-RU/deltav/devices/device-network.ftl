@@ -1,1 +1,1 @@
-﻿device-frequency-prototype-name-surveillance-camera-justice = Камеры cуда
+device-frequency-prototype-name-surveillance-camera-justice = Камеры cуда

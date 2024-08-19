@@ -1,4 +1,4 @@
-﻿ent-CrateSalvageEquipment = ящик со снаряжением для утилизации
+ent-CrateSalvageEquipment = ящик со снаряжением для утилизации
     .desc = Для отважных.
     .suffix = Заполненный
 ent-CrateSalvageAssortedGoodies = { ent-CrateGenericSteel }

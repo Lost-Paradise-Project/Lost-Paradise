@@ -1,4 +1,4 @@
-﻿ent-DisposalPipeBase = { "" }
+ent-DisposalPipeBase = { "" }
     .desc = { "" }
 ent-DisposalHolder = держатель утилизационного блока
     .desc = { "" }

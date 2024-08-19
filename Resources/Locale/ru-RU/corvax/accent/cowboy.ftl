@@ -1,4 +1,4 @@
-﻿corvax-accent-cowboy-words-1 = алкоголь
+corvax-accent-cowboy-words-1 = алкоголь
 corvax-accent-cowboy-replacement-1 = огненная вода
 corvax-accent-cowboy-words-2 = алкоголя
 corvax-accent-cowboy-replacement-2 = огненной воды

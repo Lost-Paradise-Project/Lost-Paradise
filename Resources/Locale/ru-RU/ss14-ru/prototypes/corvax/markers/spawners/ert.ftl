@@ -1,4 +1,4 @@
-﻿ent-BaseERTSpawner = одноразовый маркер спавна ОБР по сигналу
+ent-BaseERTSpawner = одноразовый маркер спавна ОБР по сигналу
     .desc = { ent-MarkerBase.desc }
 ent-ERTSpawnerLeader = { ent-BaseERTSpawner }
     .suffix = Лидер

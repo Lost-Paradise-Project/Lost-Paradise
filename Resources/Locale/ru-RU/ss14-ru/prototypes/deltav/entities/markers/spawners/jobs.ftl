@@ -1,4 +1,4 @@
-﻿ent-SpawnPointMedicalBorg = Спавнер медицинского киборга
+ent-SpawnPointMedicalBorg = Спавнер медицинского киборга
     .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnPointChiefJustice = Спавнер верховного судьи
     .desc = { ent-SpawnPointJobBase.desc }

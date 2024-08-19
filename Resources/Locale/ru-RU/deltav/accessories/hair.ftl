@@ -1,4 +1,4 @@
-﻿marking-HumanHairShortBedhead = Короткое изголовье
+marking-HumanHairShortBedhead = Короткое изголовье
 marking-HumanHairBobClassic = Классические Волосы Боба
 marking-HumanHairMessyClassic = Грязная классика
 marking-HumanHairClassicGentle = Нежная классика

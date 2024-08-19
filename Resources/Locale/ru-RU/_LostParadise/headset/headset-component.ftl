@@ -1,1 +1,1 @@
-﻿chat-radio-law = Юридический
+chat-radio-law = Юридический

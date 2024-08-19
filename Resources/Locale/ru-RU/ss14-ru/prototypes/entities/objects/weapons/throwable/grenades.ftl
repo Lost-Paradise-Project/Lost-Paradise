@@ -1,4 +1,4 @@
-﻿ent-GrenadeBase = { ent-BaseItem }
+ent-GrenadeBase = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-ExGrenade = разрывная граната
     .desc = Граната, создающая небольшой но разрушительный взрыв.

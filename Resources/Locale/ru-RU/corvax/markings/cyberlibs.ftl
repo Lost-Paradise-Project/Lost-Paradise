@@ -1,4 +1,4 @@
-﻿# Bishop
+# Bishop
 marking-CyberlimbRArmBishop = Протез, правая рука (Бисшоп)
 marking-CyberlimbLArmBishop = Протез, левая рука (Бисшоп)
 marking-CyberlimbRHandBishop = Протез, кисть правой руки (Бисшоп)

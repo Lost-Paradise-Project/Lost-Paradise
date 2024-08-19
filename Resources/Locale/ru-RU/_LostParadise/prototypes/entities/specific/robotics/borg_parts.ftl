@@ -1,4 +1,4 @@
-﻿ent-LPPLeftArmBorgErotic = левая рука эротического-киборга
+ent-LPPLeftArmBorgErotic = левая рука эротического-киборга
     .desc = { ent-BaseBorgArmLeft.desc }
 ent-LPPRightArmBorgErotic = правая рука эротического-киборга
     .desc = { ent-BaseBorgArmRight.desc }
@@ -10,7 +10,6 @@ ent-LPPHeadBorgErotic = голова эротического-киборга
     .desc = { ent-BaseBorgHead.desc }
 ent-LPPTorsoBorgErotic = тело эротического-киборга
     .desc = { ent-BaseBorgTorso.desc }
-
 ent-LPPLeftArmBorgSecurity = левая рука киборга-безопасности
     .desc = { ent-BaseBorgArmLeft.desc }
 ent-LPPRightArmBorgSecurity = правая рука киборга-безопасности
@@ -23,7 +22,6 @@ ent-LPPHeadBorgSecurity = голова киборга-безопасности
     .desc = { ent-BaseBorgHead.desc }
 ent-LPPTorsoBorgSecurity = тело киборга-безопасности
     .desc = { ent-BaseBorgTorso.desc }
-
 ent-LPPLeftArmBorgMining = левая рука киборга-шахтёра
     .desc = { ent-BaseBorgArmLeft.desc }
 ent-LPPRightArmBorgMining = правая рука киборга-шахтёра
@@ -36,7 +34,6 @@ ent-LPPHeadBorgMining = голова киборга-шахтёра
     .desc = { ent-BaseBorgHead.desc }
 ent-LPPTorsoBorgMining = тело киборга-шахтёра
     .desc = { ent-BaseBorgTorso.desc }
-
 ent-LPPLeftArmBorgScience = левая рука киборга-исследователя
     .desc = { ent-BaseBorgArmLeft.desc }
 ent-LPPRightArmBorgScience = правая рука киборга-исследователя

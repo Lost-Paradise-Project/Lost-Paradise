@@ -1,4 +1,4 @@
-﻿job-name-gladiator = Гладиатор
+job-name-gladiator = Гладиатор
 job-name-guard = Охранник тюрьмы
 job-name-mail-carrier = Курьер
 job-name-martialartist = Мастер боевых искусств

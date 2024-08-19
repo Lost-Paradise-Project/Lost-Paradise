@@ -1,4 +1,4 @@
-﻿ent-ClothingOuterCoatBomber = куртка-бомбер
+ent-ClothingOuterCoatBomber = куртка-бомбер
     .desc = Толстая, поношенная кожаная куртка-бомбер периода Второй мировой войны.
 ent-ClothingOuterCoatDetective = тренч детектива
     .desc = Мультифункциональный тренчкот XVIII века. Носящий его - серьёзный тип.

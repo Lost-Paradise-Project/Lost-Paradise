@@ -1,2 +1,2 @@
-﻿ent-HoloprojectorEngineering = engineering holoprojector
+ent-HoloprojectorEngineering = engineering holoprojector
     .desc = Displays a warning sign.

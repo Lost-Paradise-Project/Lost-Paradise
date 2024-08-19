@@ -1,4 +1,3 @@
-﻿
 ent-LPPPlayerDroneSecurity = дрон-разведки
     .desc = Новейшая технология, в области безопасности!
     .suffix = Батарея, Инструменты
@@ -13,4 +12,3 @@ ent-LPPBorgChassisMining = киборг-шахтёр
     .desc = { ent-BaseBorgChassis.desc }
 ent-LPPBorgSpiderScience = киборг-исследователь
     .desc = { ent-BaseBorgChassis.desc }
-

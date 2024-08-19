@@ -1,2 +1,2 @@
-﻿ent-CrateVendingMachineRestockPrideFilled = { ent-CratePlastic }
+ent-CrateVendingMachineRestockPrideFilled = { ent-CratePlastic }
     .desc = { ent-CratePlastic.desc }

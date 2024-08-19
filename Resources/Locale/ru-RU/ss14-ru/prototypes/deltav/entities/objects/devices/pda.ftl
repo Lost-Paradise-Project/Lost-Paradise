@@ -1,4 +1,4 @@
-﻿ent-CorpsmanPDA = corpsman PDA
+ent-CorpsmanPDA = corpsman PDA
     .desc = Red and Sterile. Has a built-in health analyzer.
 ent-ChiefJusticePDA = chief justice PDA
     .desc = Whosoever bears this PDA is the law.

@@ -1,4 +1,4 @@
-﻿# Job
+# Job
 character-job-requirement =
     Вы должны { $inverted ->
         [true] не быть

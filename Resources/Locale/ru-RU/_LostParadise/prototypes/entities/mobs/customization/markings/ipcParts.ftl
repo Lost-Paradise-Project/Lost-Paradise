@@ -1,4 +1,4 @@
-﻿marking-LPPIPCBaseChestFemale = Стандартная грудь (Женская)
+marking-LPPIPCBaseChestFemale = Стандартная грудь (Женская)
 marking-LPPIPCBaseChestFemaleAlt = Стандартная грудь (Женская, Альт)
 marking-LPPIPCBaseChestMale = Стандартная грудь (Мужская)
 marking-LPPIPCBaseLArm = Стандартная рука (Левая)

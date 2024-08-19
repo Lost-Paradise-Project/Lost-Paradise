@@ -1,4 +1,4 @@
-﻿ent-SignalButtonExt1 = кнопка внешняя 1
+ent-SignalButtonExt1 = кнопка внешняя 1
     .suffix = Автолинк, Внеш1
     .desc = { ent-SignalButton.desc }
 ent-SignalButtonExt2 = кнопка внешняя 2

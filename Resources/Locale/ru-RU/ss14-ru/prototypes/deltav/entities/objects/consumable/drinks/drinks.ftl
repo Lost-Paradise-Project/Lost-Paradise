@@ -1,4 +1,4 @@
-﻿ent-DrinkHealthViolationGlass = { ent-DrinkGlass }
+ent-DrinkHealthViolationGlass = { ent-DrinkGlass }
     .desc = По идее это коктейль, но пить его может быть и опасно.
     .suffix = сердечный удар
 ent-DrinkGunmetalGlass = { ent-DrinkGlass }

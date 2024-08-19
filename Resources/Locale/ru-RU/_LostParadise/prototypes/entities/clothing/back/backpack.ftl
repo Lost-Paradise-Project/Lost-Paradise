@@ -1,4 +1,4 @@
-﻿ent-ClothingBackpackRobotics = Рюкзак Робототехника
+ent-ClothingBackpackRobotics = Рюкзак Робототехника
     .desc = Красно-белый рюкзак для хранения материалов и запчастей.
 ent-LPPClothingBackpackBlueshield = рюкзак офицера "Синий Щит"
     .desc = Говорят, он пуленепробиваемый.

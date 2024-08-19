@@ -1,4 +1,4 @@
-﻿ent-WeaponArcStatic = { "" }
+ent-WeaponArcStatic = { "" }
     .desc = { "" }
 ent-WeaponArcAnimated = { "" }
     .desc = { "" }

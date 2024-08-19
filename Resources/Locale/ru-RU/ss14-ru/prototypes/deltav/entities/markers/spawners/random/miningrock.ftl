@@ -1,4 +1,4 @@
-﻿ent-RandomRockSpawner = Mining Rock Spawner
+ent-RandomRockSpawner = Mining Rock Spawner
     .desc = { ent-MarkerBase.desc }
 ent-RandomCrystalSpawner = Crystal Spawner
     .suffix = 100%

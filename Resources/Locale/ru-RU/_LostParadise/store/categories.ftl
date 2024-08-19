@@ -1,4 +1,4 @@
-﻿# Emergency Responce Team
+# Emergency Responce Team
 store-category-ert-weapon = Вооружение
 store-category-ert-armor = Экипировка
 store-category-ert-ammo = Боеприпасы

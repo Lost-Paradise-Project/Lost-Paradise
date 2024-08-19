@@ -1,4 +1,4 @@
-﻿ent-BaseWeaponPistol = BasePistol
+ent-BaseWeaponPistol = BasePistol
     .desc = Дерзай — налетай, целься и стреляй.
 ent-WeaponPistolViper = Гадюка
     .desc = Небольшой, легко скрываемый, но маломощный пистолет. Оснащён полностью автоматическим ресивером. Использует патроны калибра .35 авто.

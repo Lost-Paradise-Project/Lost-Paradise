@@ -1,4 +1,4 @@
-﻿reverse-engineering-machine-menu-title = машина реверсивной инженерии
+reverse-engineering-machine-menu-title = машина реверсивной инженерии
 reverse-engineering-machine-server-list-button = Список серверов
 reverse-engineering-machine-scan-button = Провести анализ
 reverse-engineering-machine-scan-tooltip-info = Просканировать вставленный объект в попытке провести реверсинжениринг.

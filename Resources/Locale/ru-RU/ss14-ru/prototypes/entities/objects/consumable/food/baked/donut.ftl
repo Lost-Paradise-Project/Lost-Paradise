@@ -1,4 +1,4 @@
-﻿ent-FoodDonutBase = { ent-FoodInjectableBase }
+ent-FoodDonutBase = { ent-FoodInjectableBase }
     .desc = Отлично сочетается с крепким кофе.
 ent-FoodDonutPlain = обычный пончик
     .desc = { ent-FoodDonutBase.desc }

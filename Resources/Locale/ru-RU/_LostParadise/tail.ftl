@@ -1,4 +1,4 @@
-﻿marking-LPPTailLisichkaBolsh = Большой хвостик (Лисий)
+marking-LPPTailLisichkaBolsh = Большой хвостик (Лисий)
 marking-LPPTailLisichka = Лисий хвостик (Лисий)
 marking-LPPTailLisichkaPushok = Хвостик без пушка (Лисий)
 marking-LPPTailLisichkaPyatna = Запутаный хвостик (Лисий)

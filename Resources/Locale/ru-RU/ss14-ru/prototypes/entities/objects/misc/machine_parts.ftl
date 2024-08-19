@@ -1,4 +1,4 @@
-﻿ent-BaseStockPart = stock part
+ent-BaseStockPart = stock part
     .desc = What?
 ent-CapacitorStockPart = конденсатор
     .desc = Базовый конденсатор, используемый при создании различных устройств.

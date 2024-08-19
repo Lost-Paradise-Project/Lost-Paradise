@@ -1,4 +1,4 @@
-﻿character-setup-gui-character-setup-label = Настройки персонажа
+character-setup-gui-character-setup-label = Настройки персонажа
 character-setup-gui-character-setup-stats-button = Статистика
 character-setup-gui-character-setup-rules-button = Правила
 character-setup-gui-character-setup-save-button = Сохранить

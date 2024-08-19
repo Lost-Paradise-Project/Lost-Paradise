@@ -1,4 +1,4 @@
-﻿ent-ActionCritSuccumb = Сдаться
+ent-ActionCritSuccumb = Сдаться
     .desc = Смириться с судьбой.
 ent-ActionCritFakeDeath = Притвориться мёртвым
     .desc = Притвориться, что вы делаете свой последний вдох, оставаясь при этом живым.

@@ -1,4 +1,4 @@
-﻿ent-ClothingHeadHatHardhatBase = { ent-ClothingHeadBase }
+ent-ClothingHeadHatHardhatBase = { ent-ClothingHeadBase }
     .desc = { ent-ClothingHeadBase.desc }
 ent-ClothingHeadHatHardhatBlue = синяя рабочая каска
     .desc = Окрашенная в синий цвет каска, используемая при опасных условиях труда для защиты головы. Имеет встроенный фонарик.

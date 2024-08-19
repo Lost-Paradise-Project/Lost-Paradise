@@ -1,4 +1,4 @@
-﻿ent-ClothingShoesBootsWork = рабочие ботинки
+ent-ClothingShoesBootsWork = рабочие ботинки
     .desc = Инженерные рабочие ботинки на шнуровке, для настоящих работяг.
 ent-ClothingShoesBootsJack = подкованные сапоги
     .desc = Обувь службы безопасности Nanotrasen, для боевых операций или боевых действий. Борьба - всё, борьба - всегда.

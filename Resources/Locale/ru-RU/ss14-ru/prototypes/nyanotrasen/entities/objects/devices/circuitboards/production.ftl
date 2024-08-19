@@ -1,4 +1,4 @@
-﻿ent-MetempsychoticMachineCircuitboard = metempsychotic machine machine board
+ent-MetempsychoticMachineCircuitboard = metempsychotic machine machine board
     .desc = A machine printed circuit board for a cloning pod
 ent-ReverseEngineeringMachineCircuitboard = reverse engineering machine machine board
     .desc = A machine printed circuit board for a reverse engineering machine

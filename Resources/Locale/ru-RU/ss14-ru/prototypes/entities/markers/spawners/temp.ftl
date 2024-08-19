@@ -1,2 +1,2 @@
-﻿ent-TemporaryEntityForTimedDespawnSpawners = { "" }
+ent-TemporaryEntityForTimedDespawnSpawners = { "" }
     .desc = { "" }

@@ -1,4 +1,4 @@
-﻿research-discipline-none = Отсутствует
+research-discipline-none = Отсутствует
 research-discipline-industrial = Промышленность
 research-discipline-arsenal = Арсенал
 research-discipline-experimental = Экспериментальное

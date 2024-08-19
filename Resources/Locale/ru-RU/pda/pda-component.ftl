@@ -1,4 +1,4 @@
-﻿### UI
+### UI
 
 # For the PDA screen
 comp-pda-ui = ID: [color=white]{ $owner }[/color], [color=yellow]{ CAPITALIZE($jobTitle) }[/color]
@@ -27,5 +27,6 @@ pda-bound-user-interface-music-button-description = Слушайте музык�
 pda-bound-user-interface-music-button = Музыкальный инструмент
 comp-pda-ui-unknown = Неизвестно
 comp-pda-ui-unassigned = Не назначено
-pda-notification-message = [font size=12][bold]КПК[/bold] { $header }: [/font]
+pda-notification-message =
+    [font size=12][bold]КПК[/bold] { $header }: [/font]
     "{ $message }"

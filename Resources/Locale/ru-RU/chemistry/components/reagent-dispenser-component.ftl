@@ -1,4 +1,4 @@
-﻿## Entity
+## Entity
 
 reagent-dispenser-component-activate-no-hands = У вас нет рук.
 reagent-dispenser-component-cannot-put-entity-message = Вы не можете поместить это в раздатчик!

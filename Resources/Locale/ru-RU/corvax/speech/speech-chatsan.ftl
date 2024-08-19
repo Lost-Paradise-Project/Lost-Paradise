@@ -1,4 +1,4 @@
-﻿corvax-chatsan-word-1 = хос
+corvax-chatsan-word-1 = хос
 corvax-chatsan-replacement-1 = гсб
 corvax-chatsan-word-2 = хоса
 corvax-chatsan-replacement-2 = гсб

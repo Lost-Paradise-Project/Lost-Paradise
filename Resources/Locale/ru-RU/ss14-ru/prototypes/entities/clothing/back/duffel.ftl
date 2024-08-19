@@ -1,4 +1,4 @@
-﻿ent-ClothingBackpackDuffel = вещмешок
+ent-ClothingBackpackDuffel = вещмешок
     .desc = Большой вещмешок для хранения дополнительных предметов.
 ent-ClothingBackpackDuffelEngineering = вещмешок инженера
     .desc = Большой вещмешок для хранения дополнительных инструментов и припасов.

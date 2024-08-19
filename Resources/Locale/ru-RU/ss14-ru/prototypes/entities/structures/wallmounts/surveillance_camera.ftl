@@ -1,4 +1,4 @@
-﻿ent-SurveillanceCameraBase = камера
+ent-SurveillanceCameraBase = камера
     .desc = Камера наблюдения. Она наблюдает за тобой. Вроде как.
 ent-SurveillanceCameraConstructed = камера
     .suffix = Построенный

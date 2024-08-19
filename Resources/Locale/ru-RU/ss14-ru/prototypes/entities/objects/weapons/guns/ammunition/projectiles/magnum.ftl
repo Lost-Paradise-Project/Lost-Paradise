@@ -1,4 +1,4 @@
-﻿ent-BulletMagnum = пуля (.45 магнум)
+ent-BulletMagnum = пуля (.45 магнум)
     .desc = { ent-BaseBullet.desc }
 ent-BulletMagnumPractice = пуля (.45 магнум учебная)
     .desc = { ent-BaseBulletPractice.desc }

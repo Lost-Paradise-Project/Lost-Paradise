@@ -1,4 +1,4 @@
-﻿gases-oxygen = Кислород
+gases-oxygen = Кислород
 gases-nitrogen = Азот
 gases-co2 = Диоксид углерода
 gases-plasma = Плазма

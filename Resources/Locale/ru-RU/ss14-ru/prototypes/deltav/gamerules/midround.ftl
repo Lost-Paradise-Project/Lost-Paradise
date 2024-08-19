@@ -1,2 +1,2 @@
-﻿ent-ParadoxAnomaly = { ent-BaseGameRule }
+ent-ParadoxAnomaly = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }

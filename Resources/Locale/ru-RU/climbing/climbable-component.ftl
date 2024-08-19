@@ -1,4 +1,4 @@
-﻿### UI
+### UI
 
 # Verb name for climbing
 comp-climbable-verb-climb = Взобраться

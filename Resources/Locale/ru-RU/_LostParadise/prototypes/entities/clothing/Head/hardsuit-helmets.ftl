@@ -1,4 +1,4 @@
-﻿ent-LPPArmorMovementHead = Силовой шлем
+ent-LPPArmorMovementHead = Силовой шлем
     .desc = Силовой шлем с новейшим сверхсекретным программным обеспечением NT-FAL.
     .suffix = { "силовая броня" }
 ent-ClothingHeadHelmetHardsuitSWAT = шлем скафандра подавителя беспорядков

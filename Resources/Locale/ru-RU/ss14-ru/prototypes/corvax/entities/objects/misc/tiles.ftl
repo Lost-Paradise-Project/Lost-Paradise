@@ -1,4 +1,4 @@
-﻿ent-FloorTileItemWoodParquet = деревянный паркет
+ent-FloorTileItemWoodParquet = деревянный паркет
     .desc = { ent-FloorTileItemBase.desc }
 ent-FloorTileItemWoodBlack = деревянный чёрный пол
     .desc = { ent-FloorTileItemBase.desc }

@@ -1,4 +1,4 @@
-﻿### Interaction Messages
+### Interaction Messages
 
 # Shown when player tries to replace light, but there is no lighs left
 comp-light-replacer-missing-light = В { $light-replacer } не осталось лампочек.

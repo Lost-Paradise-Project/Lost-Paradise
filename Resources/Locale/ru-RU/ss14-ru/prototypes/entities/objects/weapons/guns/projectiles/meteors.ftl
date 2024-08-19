@@ -1,4 +1,4 @@
-﻿ent-BaseMeteor = метеор
+ent-BaseMeteor = метеор
     .desc = Вы бы предпочли, чтобы они сгорали в атмосфере.
 ent-MeteorSpaceDust = космическая пыль
     .desc = Заставляет станцию чихать.

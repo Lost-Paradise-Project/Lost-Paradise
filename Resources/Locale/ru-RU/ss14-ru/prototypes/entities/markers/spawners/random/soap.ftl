@@ -1,2 +1,2 @@
-﻿ent-RandomSoap = спавнер случайное мыло
+ent-RandomSoap = спавнер случайное мыло
     .desc = { ent-MarkerBase.desc }

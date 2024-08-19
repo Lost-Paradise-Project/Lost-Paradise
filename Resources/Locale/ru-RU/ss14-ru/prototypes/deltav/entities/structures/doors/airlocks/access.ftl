@@ -1,4 +1,4 @@
-﻿ent-AirlockMantisLocked = { ent-AirlockScience }
+ent-AirlockMantisLocked = { ent-AirlockScience }
     .suffix = Богомол, Закрыто
     .desc = { ent-AirlockScience.desc }
 ent-AirlockMantisGlassLocked = { ent-AirlockScienceGlass }

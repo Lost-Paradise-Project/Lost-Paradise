@@ -1,4 +1,4 @@
-﻿objective-condition-doorjack-title =
+objective-condition-doorjack-title =
     Взломайте { $count } { $count ->
         [one] дверь
         [few] двери

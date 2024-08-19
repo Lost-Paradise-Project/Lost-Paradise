@@ -1,4 +1,4 @@
-﻿ent-ClothingShoesBootsWinterAtmos = зимние ботинки атмосферного техника
+ent-ClothingShoesBootsWinterAtmos = зимние ботинки атмосферного техника
     .desc = { ent-ClothingShoesBaseWinterBoots.desc }
 ent-ClothingShoesBootsWinterCap = зимние ботинки капитана
     .desc = { ent-ClothingShoesBaseWinterBoots.desc }

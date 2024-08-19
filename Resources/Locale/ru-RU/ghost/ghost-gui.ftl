@@ -1,4 +1,4 @@
-﻿ghost-gui-return-to-body-button = Вернуться в тело
+ghost-gui-return-to-body-button = Вернуться в тело
 ghost-gui-ghost-warp-button = Телепорт призрака
 ghost-gui-ghost-roles-button = Роли призраков ({ $count })
 ghost-gui-toggle-ghost-visibility-popup = Видимость других призраков изменена.

@@ -1,4 +1,4 @@
-﻿reagent-name-blood = кровь
+reagent-name-blood = кровь
 reagent-desc-blood = Я надеюсь, что это кетчуп.
 reagent-name-insect-blood = кровь насекомого
 reagent-desc-insect-blood = Окей, а это реально мерзко. Она выглядит почти... живой?

@@ -1,4 +1,4 @@
-﻿ent-BaseCartridgeSpecial = cartridge (.38 special)
+ent-BaseCartridgeSpecial = cartridge (.38 special)
     .desc = { ent-BaseCartridge.desc }
 ent-CartridgeSpecial = cartridge (.38 special)
     .desc = { ent-BaseCartridgeSpecial.desc }

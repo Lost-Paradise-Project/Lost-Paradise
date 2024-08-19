@@ -1,4 +1,4 @@
-﻿ent-FloorTileItemGrassDark = dark grass tile
+ent-FloorTileItemGrassDark = dark grass tile
     .desc = { ent-FloorTileItemBase.desc }
 ent-FloorTileItemGrassLight = light grass tile
     .desc = { ent-FloorTileItemBase.desc }

@@ -1,4 +1,4 @@
-﻿ent-AtmosFixBlockerMarker = Atmos Fix Vacuum Marker
+ent-AtmosFixBlockerMarker = Atmos Fix Vacuum Marker
     .desc = Vacuum, T20C
 ent-AtmosFixOxygenMarker = Atmos Fix Oxygen Marker
     .desc = Oxygen @ gas miner pressure, T20C

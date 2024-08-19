@@ -1,4 +1,4 @@
-﻿bounty-item-artifact = Космический артефакт
+bounty-item-artifact = Космический артефакт
 bounty-item-baseball-bat = Бейсбольная бита
 bounty-item-box-hugs = Коробка обнимашек
 bounty-item-brain = Мозг

@@ -1,4 +1,4 @@
-﻿permissions-eui-do-not-have-required-flags-to-edit-admin-tooltip = У вас нет необходимых флагов для редактирования этого администратора.
+permissions-eui-do-not-have-required-flags-to-edit-admin-tooltip = У вас нет необходимых флагов для редактирования этого администратора.
 permissions-eui-do-not-have-required-flags-to-edit-rank-tooltip = У вас нет необходимых флагов для редактирования этого ранга.
 permissions-eui-menu-title = Панель разрешений
 permissions-eui-menu-add-admin-button = Добавить админа

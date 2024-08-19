@@ -1,4 +1,4 @@
-﻿ent-LPPClothingUnderSocksDartBee = носки "пчелиная полосочка"
+ent-LPPClothingUnderSocksDartBee = носки "пчелиная полосочка"
     .desc = "Это темно-оранжевые чулки в полоску, для тех, кто любит медовые сладости."
 ent-LPPClothingUnderSocksDark = темные носки
     .desc = "Обычные темные чулки, которые подчеркнут стройность ваших ног."

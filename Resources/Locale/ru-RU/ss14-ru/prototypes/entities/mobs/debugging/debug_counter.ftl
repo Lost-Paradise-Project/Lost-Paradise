@@ -1,4 +1,4 @@
-﻿ent-MobDebugCounter = debug counter
+ent-MobDebugCounter = debug counter
     .desc = He can count
     .suffix = AI, DEBUG
 ent-MobDebugRandomCounter = debug random counter

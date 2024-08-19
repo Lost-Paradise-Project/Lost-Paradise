@@ -1,4 +1,4 @@
-﻿ent-ClockworkWindow = заводное окно
+ent-ClockworkWindow = заводное окно
     .desc = Смотри не заляпай латунь.
 ent-WindowClockworkDirectional = направленное заводное окно
     .desc = Смотри не заляпай латунь.

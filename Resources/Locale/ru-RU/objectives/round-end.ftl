@@ -1,4 +1,4 @@
-﻿objectives-round-end-result =
+objectives-round-end-result =
     { $count ->
         [one] Был один { $agent }.
         [few] Было { $count } { $agent }.

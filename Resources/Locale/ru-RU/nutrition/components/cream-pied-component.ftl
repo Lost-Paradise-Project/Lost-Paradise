@@ -1,4 +1,4 @@
-﻿cream-pied-component-on-hit-by-message =
+cream-pied-component-on-hit-by-message =
     { GENDER($thrower) ->
         [male] КРЕМировал
         [female] КРЕМировала

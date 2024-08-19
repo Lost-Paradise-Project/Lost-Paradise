@@ -1,4 +1,4 @@
-﻿ent-AdminObserver = админ наблюдатель
+ent-AdminObserver = админ наблюдатель
     .desc = { ent-MobObserver.desc }
 ent-ActionAGhostShowSolar = Интерфейс управления солнечными батареями
     .desc = Просмотр интерфейса управления солнечными батареями.

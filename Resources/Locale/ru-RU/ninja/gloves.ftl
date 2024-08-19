@@ -1,4 +1,4 @@
-﻿ninja-gloves-on = Перчатки наполняются энергией!
+ninja-gloves-on = Перчатки наполняются энергией!
 ninja-gloves-off = Перчатки отключаются...
 ninja-gloves-not-wearing-suit = На вас нет костюма ниндзя
 ninja-gloves-examine-on = Все способности включены.

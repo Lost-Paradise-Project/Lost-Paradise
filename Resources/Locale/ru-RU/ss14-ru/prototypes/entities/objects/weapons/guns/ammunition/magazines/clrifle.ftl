@@ -1,4 +1,4 @@
-﻿ent-MagazineClRifleBase = магазин (.25 безгильзовые)
+ent-MagazineClRifleBase = магазин (.25 безгильзовые)
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }
 ent-MagazineClRifle10x24 = коробчатый магазин (.25 безгильзовые)

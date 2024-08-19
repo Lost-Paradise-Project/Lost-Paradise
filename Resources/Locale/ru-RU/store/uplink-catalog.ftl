@@ -1,4 +1,4 @@
-﻿# Weapons
+# Weapons
 uplink-pistol-viper-name = Гадюка
 uplink-pistol-viper-desc = Небольшой, легко скрываемый, но маломощный пистолет. Оснащён полностью автоматическим ресивером. Использует патроны калибра .35 авто.
 uplink-revolver-python-name = Питон

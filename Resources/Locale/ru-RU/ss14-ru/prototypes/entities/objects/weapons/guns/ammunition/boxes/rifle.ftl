@@ -1,4 +1,4 @@
-﻿ent-BaseMagazineBoxRifle = { ent-BaseItem }
+ent-BaseMagazineBoxRifle = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-MagazineBoxRifleBig = ящик патронов (.20 винтовочные)
     .desc = { ent-BaseMagazineBoxRifle.desc }

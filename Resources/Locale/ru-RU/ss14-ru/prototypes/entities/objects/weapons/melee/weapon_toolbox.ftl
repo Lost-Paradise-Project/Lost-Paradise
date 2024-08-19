@@ -1,3 +1,3 @@
-﻿ent-WeaponMeleeToolboxRobust = робастный тулбокс
+ent-WeaponMeleeToolboxRobust = робастный тулбокс
     .desc = Оружие грейтайдера.
     .suffix = НЕ МАППИТЬ

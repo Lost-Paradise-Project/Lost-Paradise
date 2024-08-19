@@ -1,1 +1,1 @@
-﻿loadout-description-LoadoutCargoNeckGoliathCloak = Лишь для властных личностей.
+loadout-description-LoadoutCargoNeckGoliathCloak = Лишь для властных личностей.

@@ -1,4 +1,4 @@
-﻿# Blocking examines
+# Blocking examines
 blocking-examinable-verb-text = Защита
 blocking-examinable-verb-message = Изучить показатели защиты.
 blocking-fraction = Блокируется [color=lightblue]{ $value }%[/color] входящего урона и:

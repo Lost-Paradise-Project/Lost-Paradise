@@ -1,3 +1,3 @@
-﻿department-Epistemics = Эпистемология
+department-Epistemics = Эпистемология
 department-Logistics = Логистика
 department-Justice = Судебное

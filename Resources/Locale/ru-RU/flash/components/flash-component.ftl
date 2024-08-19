@@ -1,4 +1,4 @@
-﻿### Interaction Messages
+### Interaction Messages
 
 # Shown when someone flashes you with a flash
 flash-component-user-blinds-you = { $user } ослепляет вас вспышкой!

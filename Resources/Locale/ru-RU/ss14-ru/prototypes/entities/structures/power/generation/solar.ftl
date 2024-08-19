@@ -1,4 +1,4 @@
-﻿ent-SolarPanelBasePhysSprite = солнечная панель
+ent-SolarPanelBasePhysSprite = солнечная панель
     .desc = { "" }
 ent-SolarPanel = солнечная панель
     .desc = Солнечная панель, вырабатывающая электроэнергию.

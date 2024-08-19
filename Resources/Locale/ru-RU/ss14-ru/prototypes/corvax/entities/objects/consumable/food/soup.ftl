@@ -1,2 +1,2 @@
-﻿ent-FoodPelmeniBowl = пельмени
+ent-FoodPelmeniBowl = пельмени
     .desc = Много мяса, мало теста.

@@ -1,1 +1,1 @@
-﻿custom-vote-webhook-name = Проведено кастомное голосование
+custom-vote-webhook-name = Проведено кастомное голосование

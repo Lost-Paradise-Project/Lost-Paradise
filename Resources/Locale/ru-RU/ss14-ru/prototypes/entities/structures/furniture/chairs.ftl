@@ -1,4 +1,4 @@
-﻿ent-SeatBase = стул
+ent-SeatBase = стул
     .desc = Вы сидите на нём. Либо по вашей воле, либо по принуждению.
 ent-UnanchoredChairBase = стул
     .desc = { ent-SeatBase.desc }

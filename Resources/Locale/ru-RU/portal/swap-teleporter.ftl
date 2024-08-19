@@ -1,4 +1,4 @@
-﻿swap-teleporter-popup-link-create = Установлена квантовая связь!
+swap-teleporter-popup-link-create = Установлена квантовая связь!
 swap-teleporter-popup-link-fail-already = Не удалось установить квантовую связь! Устройство уже связано.
 swap-teleporter-popup-link-fail-already-other = Не удалось установить квантовую связь! Вторичное устройство уже связано.
 swap-teleporter-popup-link-destroyed = Квантовая связь разорвана!

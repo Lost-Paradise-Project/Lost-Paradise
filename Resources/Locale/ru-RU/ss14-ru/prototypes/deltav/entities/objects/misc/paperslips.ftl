@@ -1,4 +1,4 @@
-﻿ent-PaperBiscuit = biscuit card
+ent-PaperBiscuit = biscuit card
     .desc = A biscuit card. On the back, 'DO NOT DIGEST' is printed in large lettering.
 ent-PaperBiscuitFilled = { ent-PaperBiscuit }
     .suffix = Filled

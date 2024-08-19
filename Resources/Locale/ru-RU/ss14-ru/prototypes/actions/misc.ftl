@@ -1,2 +1,2 @@
-﻿ent-ActionCancelEscape = Перестать сбегать
+ent-ActionCancelEscape = Перестать сбегать
     .desc = Успокойтесь и спокойно посидите в инвентаре

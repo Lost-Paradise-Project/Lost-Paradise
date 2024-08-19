@@ -1,4 +1,4 @@
-﻿ent-RollerBed = каталка
+ent-RollerBed = каталка
     .desc = Используется для транспортировки пациентов, не нанося вреда.
 ent-RollerBedSpawnFolded = { ent-RollerBed }
     .suffix = Сложенный

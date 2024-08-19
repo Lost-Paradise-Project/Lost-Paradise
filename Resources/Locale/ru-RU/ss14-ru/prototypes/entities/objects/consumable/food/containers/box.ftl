@@ -1,4 +1,4 @@
-﻿ent-FoodBoxDonut = коробка пончиков
+ent-FoodBoxDonut = коробка пончиков
     .desc = Ммм, пончики.
 ent-FoodContainerEgg = картонная упаковка яиц
     .desc = Не урони!

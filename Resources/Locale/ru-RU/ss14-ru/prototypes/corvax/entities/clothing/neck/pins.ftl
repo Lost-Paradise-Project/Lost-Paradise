@@ -1,4 +1,4 @@
-﻿ent-ClothingNeckAtharaPin = значок звёздного неба
+ent-ClothingNeckAtharaPin = значок звёздного неба
     .desc = Значок со звёздным небом.
 ent-ClothingNeckUSSPPin = значок СССП
     .desc = Значок Союза Советских Социалистических Планет.

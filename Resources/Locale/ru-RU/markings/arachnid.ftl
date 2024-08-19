@@ -1,4 +1,4 @@
-﻿marking-ArachnidCheliceraeDownwards = Хелицеры (Вниз)
+marking-ArachnidCheliceraeDownwards = Хелицеры (Вниз)
 marking-ArachnidCheliceraeDownwards-downwards = Хелицеры
 marking-ArachnidCheliceraeInwards = Хелицеры (Внутрь)
 marking-ArachnidCheliceraeInwards-inwards = Хелицеры

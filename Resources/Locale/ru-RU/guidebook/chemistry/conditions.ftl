@@ -1,4 +1,4 @@
-﻿reagent-effect-condition-guidebook-total-damage =
+reagent-effect-condition-guidebook-total-damage =
     { $max ->
         [2147483648] тело имеет по крайней мере { NATURALFIXED($min, 2) } общего урона
        *[other]

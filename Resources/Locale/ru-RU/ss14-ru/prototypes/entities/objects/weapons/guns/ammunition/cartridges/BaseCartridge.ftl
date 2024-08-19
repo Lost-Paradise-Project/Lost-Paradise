@@ -1,3 +1,3 @@
-﻿ent-BaseCartridge = { ent-BaseItem }
+ent-BaseCartridge = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }

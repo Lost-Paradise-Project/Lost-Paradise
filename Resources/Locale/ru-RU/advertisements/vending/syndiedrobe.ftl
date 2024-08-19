@@ -1,4 +1,4 @@
-﻿advertisement-syndiedrobe-1 = Совершенно новые наряды!
+advertisement-syndiedrobe-1 = Совершенно новые наряды!
 advertisement-syndiedrobe-2 = Крышесносные наряды для любого случая!
 advertisement-syndiedrobe-3 = Быть негодяем может быть стильно.
 advertisement-syndiedrobe-4 = Исходя из анализа: одеваясь красиво - ваши шансы на успех повышаются на 0.0098%!

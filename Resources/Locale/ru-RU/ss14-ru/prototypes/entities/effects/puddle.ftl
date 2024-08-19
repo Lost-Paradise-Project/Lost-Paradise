@@ -1,4 +1,4 @@
-﻿ent-PuddleTemporary = { ent-Puddle }
+ent-PuddleTemporary = { ent-Puddle }
     .desc = { ent-Puddle.desc }
 ent-PuddleSmear = { ent-PuddleTemporary }
     .desc = { ent-PuddleTemporary.desc }

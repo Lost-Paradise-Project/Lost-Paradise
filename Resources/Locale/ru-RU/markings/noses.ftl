@@ -1,4 +1,4 @@
-﻿marking-HumanNoseSchnozz = Шнобель
+marking-HumanNoseSchnozz = Шнобель
 marking-HumanNoseSchnozz-schnozz = Нос
 marking-HumanNoseNubby = Нос с бугорками
 marking-HumanNoseNubby-nubby = Нос

@@ -1,4 +1,4 @@
-﻿ent-ActionFireball = Огненный шар
+ent-ActionFireball = Огненный шар
     .desc = Выпускает взрывающийся огненный шар в выбранном направлении.
 ent-ActionFireballII = Огненный шар II
     .desc = Выпускает быстрый огненный шар.

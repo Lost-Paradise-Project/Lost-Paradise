@@ -1,4 +1,4 @@
-﻿ent-SmallboxItem = { ent-BaseItem }
+ent-SmallboxItem = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-Matchstick = спичка
     .desc = Простая спичка, используемая для поджигания хороших курительных смесей.

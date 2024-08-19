@@ -1,4 +1,4 @@
-﻿ent-AlwaysPoweredWallLight = светильник
+ent-AlwaysPoweredWallLight = светильник
     .desc = Всегда работающий светильник.
     .suffix = Всегда запитанный
 ent-PoweredlightEmpty = светильник

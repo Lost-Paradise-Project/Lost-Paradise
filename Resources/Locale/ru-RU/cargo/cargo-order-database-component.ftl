@@ -1,3 +1,3 @@
-﻿## Cargo order database
+## Cargo order database
 
 cargo-order-database-order-overflow-message = { $placeholder } (Переполнение)

@@ -1,4 +1,4 @@
-﻿## Modes
+## Modes
 
 pen-mode-write = Письмо
 pen-mode-sign = Подпись

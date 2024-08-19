@@ -1,4 +1,4 @@
-﻿ent-BaseMagazineBoxSpecial = { ent-BaseItem }
+ent-BaseMagazineBoxSpecial = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-MagazineBoxSpecial = ammunition box (.38 special)
     .desc = { ent-BaseMagazineBoxSpecial.desc }

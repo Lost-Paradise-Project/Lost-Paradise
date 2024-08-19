@@ -1,4 +1,4 @@
-﻿ent-SalvageHumanCorpseSpawner = спавнер труп человека
+ent-SalvageHumanCorpseSpawner = спавнер труп человека
     .desc = { ent-MarkerBase.desc }
 ent-RandomServiceCorpseSpawner = спавнер случайный сервис труп
     .desc = { ent-SalvageHumanCorpseSpawner.desc }

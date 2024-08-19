@@ -1,4 +1,4 @@
-﻿ent-BaseMagazinePistolSpecial = pistol magazine (.38 special)
+ent-BaseMagazinePistolSpecial = pistol magazine (.38 special)
     .desc = { ent-BaseItem.desc }
 ent-MagazinePistolSpecial = pistol magazine (.38 special)
     .desc = { ent-BaseMagazinePistolSpecial.desc }

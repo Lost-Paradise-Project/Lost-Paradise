@@ -1,4 +1,4 @@
-﻿ent-ClothingUniformJumpskirtBartender = униформа бармена
+ent-ClothingUniformJumpskirtBartender = униформа бармена
     .desc = Красивая и опрятная форма. Жаль только, что про бар этого не скажешь.
 ent-ClothingUniformJumpskirtCaptain = юбка-комбинезон капитана
     .desc = Синяя юбка-комбинезон с золотыми нашивками, указывающими на звание капитана.

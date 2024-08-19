@@ -1,1 +1,1 @@
-﻿teleporting-trait-component-slipped = Ты проскальзываешь сквозь блюспейс!
+teleporting-trait-component-slipped = Ты проскальзываешь сквозь блюспейс!

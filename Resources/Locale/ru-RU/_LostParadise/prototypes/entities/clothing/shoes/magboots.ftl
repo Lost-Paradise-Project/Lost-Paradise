@@ -1,4 +1,4 @@
-﻿ent-LPPClothingShoesBootsMagAtmos = магнитные ботинки атмоса
+ent-LPPClothingShoesBootsMagAtmos = магнитные ботинки атмоса
     .desc = Лучше чем обычные, чтобы было легче работать с газами.
     .suffix = { "атмоса" }
 ent-LPPClothingShoesBootsMagParamed = магнитные ботинки парамеда

@@ -1,4 +1,4 @@
-﻿ent-ClothingHeadsetMagistrate = гарнитура магистрата
+ent-ClothingHeadsetMagistrate = гарнитура магистрата
     .desc = гарнитура магистрата
     .suffix = { "" }
 ent-MagistratePDA = КПК магистрата
@@ -17,7 +17,6 @@ ent-LPPJudgesGavel = молоток магистрата
     .desc = Издаёт звуки справедливости.
     .suffix = { "Магистрат" }
 stamp-component-stamped-name-magistrate = Магистрат
-
 ent-LPPMagistrateUniform = костюм магистрата
     .desc = Костюм магистрата, сшитый нановолокнами прямиком из Т.С.Ф.
     .suffix = { "Магистрат" }

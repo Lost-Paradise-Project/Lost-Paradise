@@ -1,4 +1,4 @@
-﻿# Restrictions
+# Restrictions
 loadout-restrictions = Ограничения
 loadouts-min-limit = Минимальное количество: { $count }
 loadouts-max-limit = Максимальное количество: { $count }

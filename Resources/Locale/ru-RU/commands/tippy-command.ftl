@@ -1,4 +1,4 @@
-﻿cmd-tippy-desc = Передать сообщение от имени клоуна Типпи.
+cmd-tippy-desc = Передать сообщение от имени клоуна Типпи.
 cmd-tippy-help = tippy <user | all> <message> [entity prototype] [speak time] [slide time] [waddle interval]
 cmd-tippy-auto-1 = <user | all>
 cmd-tippy-auto-2 = текст

@@ -1,1 +1,1 @@
-﻿comp-block-melee-success = Отражено!
+comp-block-melee-success = Отражено!

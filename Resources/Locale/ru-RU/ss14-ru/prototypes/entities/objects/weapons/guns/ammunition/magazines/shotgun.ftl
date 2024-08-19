@@ -1,4 +1,4 @@
-﻿ent-BaseMagazineShotgun = барабан (.50 дробь)
+ent-BaseMagazineShotgun = барабан (.50 дробь)
     .desc = { ent-BaseItem.desc }
 ent-MagazineShotgunEmpty = барабан (.50 любые)
     .suffix = Пустой

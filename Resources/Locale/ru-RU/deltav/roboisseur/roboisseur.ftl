@@ -1,4 +1,4 @@
-﻿roboisseur-request-1 = Я смиренно прошу вас об одном { $item } для моего самого богатого клиента.
+roboisseur-request-1 = Я смиренно прошу вас об одном { $item } для моего самого богатого клиента.
 roboisseur-request-2 = Вас ждет куча денег за хороший { $item }!
 roboisseur-request-3 = На этой станции может оказаться непомерно богатый человек, который ищет { INDEFINITE($item) } { $item }.
 roboisseur-request-4 = Мои большие... Предприимчивые клиенты требуют { INDEFINITE($item) } { $item }.

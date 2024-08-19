@@ -1,4 +1,4 @@
-﻿story-gen-book-type1 = переплёт
+story-gen-book-type1 = переплёт
 story-gen-book-type2 = фолиант
 story-gen-book-type3 = протокол
 story-gen-book-type4 = дневник

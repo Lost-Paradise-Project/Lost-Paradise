@@ -1,4 +1,4 @@
-﻿ent-ShadowBasaltOne = тенекамень
+ent-ShadowBasaltOne = тенекамень
     .desc = Светящиеся разломы в реальности. Это нормально, наверное.
 ent-ShadowBasaltTwo = { ent-ShadowBasaltOne }
     .desc = { ent-ShadowBasaltOne.desc }

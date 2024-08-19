@@ -1,4 +1,4 @@
-﻿ent-CigCartonGreen = блок сигарет Spessman's Smokes
+ent-CigCartonGreen = блок сигарет Spessman's Smokes
     .desc = Картонная коробка, содержащая 6 пачек сигарет Spessman's Smokes.
 ent-CigCartonRed = блок сигарет DromedaryCo
     .desc = Картонная коробка, содержащая 6 пачек сигарет Dromedarycos.

@@ -1,4 +1,4 @@
-﻿whitelist-not-whitelisted = Вас нет в вайтлисте.
+whitelist-not-whitelisted = Вас нет в вайтлисте.
 # proper handling for having a min/max or not
 whitelist-playercount-invalid =
     { $min ->

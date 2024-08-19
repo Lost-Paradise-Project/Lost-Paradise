@@ -1,2 +1,2 @@
-﻿ent-ClothingEyesGlassesChemist = очки безопасности
+ent-ClothingEyesGlassesChemist = очки безопасности
     .desc = Очки предназначены для химиков и других работников, имеющих дело с едкими реагентами.

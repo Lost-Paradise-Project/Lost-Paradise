@@ -1,4 +1,4 @@
-﻿job-name-warden = смотритель
+job-name-warden = смотритель
 job-name-security = офицер СБ
 job-name-cadet = кадет СБ
 job-name-hos = глава службы безопасности

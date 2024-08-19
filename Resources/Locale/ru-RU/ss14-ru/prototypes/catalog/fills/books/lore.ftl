@@ -1,4 +1,4 @@
-﻿ent-BookDemonomicon = демономикон
+ent-BookDemonomicon = демономикон
     .desc = Кто знает, какие темные заклинания могут таиться на этих ужасных страницах?
 ent-BookDemonomiconRandom = демономикон
     .suffix = случайный

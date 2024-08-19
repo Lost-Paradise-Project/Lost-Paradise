@@ -1,4 +1,4 @@
-﻿ent-ClothingOuterCoatLettermanBlue = blue letterman jacket
+ent-ClothingOuterCoatLettermanBlue = blue letterman jacket
     .desc = It's a blue highschool jacket with a big '14' stitched onto the back.
 ent-ClothingOuterCoatLettermanRed = red letterman jacket
     .desc = It's a red highschool jacket with a big '14' stitched onto the back.

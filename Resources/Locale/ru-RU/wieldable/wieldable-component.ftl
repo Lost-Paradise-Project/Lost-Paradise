@@ -1,4 +1,4 @@
-﻿### Locale for wielding items; i.e. two-handing them
+### Locale for wielding items; i.e. two-handing them
 
 wieldable-verb-text-wield = Взять в руки
 wieldable-verb-text-unwield = Взять в руку

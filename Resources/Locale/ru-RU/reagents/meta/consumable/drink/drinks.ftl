@@ -1,4 +1,4 @@
-﻿reagent-name-coffee = кофе
+reagent-name-coffee = кофе
 reagent-desc-coffee = Напиток, приготовленный из заваренных кофейных зёрен. Содержит умеренное количество кофеина.
 reagent-name-cream = сливки
 reagent-desc-cream = Жирная, но ещё жидкая часть молока. Почему бы вам не смешать это с виски, а?

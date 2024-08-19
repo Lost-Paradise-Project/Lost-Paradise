@@ -1,4 +1,4 @@
-﻿## UI
+## UI
 
 injector-draw-text = Забор
 injector-inject-text = Введение

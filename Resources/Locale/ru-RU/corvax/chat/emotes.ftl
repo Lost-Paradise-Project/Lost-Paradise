@@ -1,4 +1,4 @@
-﻿# Имена
+# Имена
 chat-emote-name-howl = Выть
 chat-emote-name-growl = Рычать
 # Сообщение

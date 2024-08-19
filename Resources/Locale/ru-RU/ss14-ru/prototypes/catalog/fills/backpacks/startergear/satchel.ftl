@@ -1,4 +1,4 @@
-﻿ent-ClothingBackpackSatchelFilled = { ent-ClothingBackpackSatchel }
+ent-ClothingBackpackSatchelFilled = { ent-ClothingBackpackSatchel }
     .desc = { ent-ClothingBackpackSatchel.desc }
 ent-ClothingBackpackSatchelTools = { ent-ClothingBackpackSatchel }
     .desc = { ent-ClothingBackpackSatchel.desc }

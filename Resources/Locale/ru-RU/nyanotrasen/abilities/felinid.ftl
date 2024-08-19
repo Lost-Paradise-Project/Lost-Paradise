@@ -1,4 +1,4 @@
-﻿action-name-hairball = Срыгнуть комок шерсти
+action-name-hairball = Срыгнуть комок шерсти
 action-description-hairball = Очистите свой химический поток и получите классный комок шерсти, который можно будет швырять в людей.
 hairball-mask = Снимите вашу { $mask }.
 hairball-cough = { CAPITALIZE(THE($name)) } срыгивает комок шерсти!
