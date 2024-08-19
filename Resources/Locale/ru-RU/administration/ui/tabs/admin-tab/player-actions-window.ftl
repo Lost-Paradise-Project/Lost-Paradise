@@ -1,4 +1,4 @@
-﻿admin-player-actions-window-title = Действия с игроками
+admin-player-actions-window-title = Действия с игроками
 admin-player-actions-window-ban = Панель банов
 admin-player-actions-window-admin-ghost = Админ призрак
 admin-player-actions-window-teleport = Телепорт

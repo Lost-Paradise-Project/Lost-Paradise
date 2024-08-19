@@ -1,4 +1,4 @@
-﻿ent-DrinkBottleBaseEmpty = base empty bottle
+ent-DrinkBottleBaseEmpty = base empty bottle
     .desc = Пустая бутылка.
     .suffix = Пустой
 ent-DrinkBottleBaseSmallEmpty = base empty bottle

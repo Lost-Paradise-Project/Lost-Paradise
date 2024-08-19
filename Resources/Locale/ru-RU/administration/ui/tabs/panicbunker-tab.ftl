@@ -1,4 +1,4 @@
-﻿admin-ui-panic-bunker-window-title = Бункер
+admin-ui-panic-bunker-window-title = Бункер
 admin-ui-panic-bunker-enabled = Бункер включён
 admin-ui-panic-bunker-disabled = Бункер выключен
 admin-ui-panic-bunker-tooltip = Бункер ограничивает игроков от подключения, если их аккаунт слишком новый или у них недостаточно общего времени игры на этом сервере.

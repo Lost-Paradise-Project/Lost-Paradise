@@ -1,4 +1,4 @@
-﻿#Унатхи и где они обитают
+#Унатхи и где они обитают
 
 marking-ReptilianlongFeathersHair = Волосы рептилий с длинными перьями
 marking-ReptilianlongFeathersHair2 = Волосы рептилий с длинными перьями 2

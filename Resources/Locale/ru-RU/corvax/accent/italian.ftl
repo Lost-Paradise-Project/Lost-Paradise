@@ -1,4 +1,4 @@
-﻿accent-italian-words-301 = малышка
+accent-italian-words-301 = малышка
 accent-italian-words-replace-301 = bambino
 accent-italian-words-401 = плохая
 accent-italian-words-replace-401 = molto male

@@ -1,4 +1,4 @@
-﻿ent-FoodSkewerBase = { ent-FoodInjectableBase }
+ent-FoodSkewerBase = { ent-FoodInjectableBase }
     .desc = { ent-FoodInjectableBase.desc }
 ent-FoodKebabSkewer = шампур
     .desc = Тонкий металлический стержень, используемый для нанизывания на него любых продуктов и их приготовления.

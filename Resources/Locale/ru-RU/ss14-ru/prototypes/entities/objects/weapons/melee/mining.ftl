@@ -1,4 +1,4 @@
-﻿ent-BaseWeaponCrusher = крушитель
+ent-BaseWeaponCrusher = крушитель
     .desc = Ранняя версия протокинетического ускорителя.
 ent-WeaponCrusher = { ent-BaseWeaponCrusher }
     .desc = { ent-BaseWeaponCrusher.desc }

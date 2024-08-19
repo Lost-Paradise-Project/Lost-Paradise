@@ -1,2 +1,2 @@
-﻿ent-MetempsychoticMachine = metempsychotic machine
+ent-MetempsychoticMachine = metempsychotic machine
     .desc = Speeds along the transmigration of a soul to its next vessel.

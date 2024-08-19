@@ -1,4 +1,4 @@
-﻿ent-BaseMagazineBoxSpecial = { ent-BaseItem }
+ent-BaseMagazineBoxSpecial = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-MagazineBoxSpecial = коробка патрон (.38 специальные)
     .desc = { ent-BaseMagazineBoxSpecial.desc }

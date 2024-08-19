@@ -1,16 +1,13 @@
-﻿
 ent-LPPBorgModuleAresst = патрульный модуль киборга
     .desc = { ent-BaseBorgModule.desc }
 ent-LPPBattleBorgModule = модуль защиты киборга
     .desc = { ent-BaseBorgModule.desc }
-
 ent-LPPBorgModuleLaserWeapon = лазер-модуль киборга
     .desc = { ent-BaseBorgModule.desc }
 ent-LPPBorgModuleLaserWeaponAdvanced = продвинутый лазер-модуль киборга
     .desc = { ent-BaseBorgModule.desc }
 ent-LPPERPModuleBorg = эротический модуль киборга
     .desc = { ent-BaseBorgModule.desc }
-
 ent-LPPDisbalerBorg = механический станнер
     .desc = { ent-BaseBorgModule.desc }
 ent-LPPPoliceBatonNonLethal = механическая дубинка

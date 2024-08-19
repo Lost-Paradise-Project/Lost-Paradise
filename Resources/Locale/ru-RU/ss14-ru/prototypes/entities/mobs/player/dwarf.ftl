@@ -1,2 +1,2 @@
-﻿ent-MobDwarf = { ent-BaseMobDwarf }
+ent-MobDwarf = { ent-BaseMobDwarf }
     .desc = { ent-BaseMobDwarf.desc }

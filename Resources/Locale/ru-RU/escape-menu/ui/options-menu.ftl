@@ -1,4 +1,4 @@
-﻿## General stuff
+## General stuff
 
 ui-options-title = Игровые настройки
 ui-options-tab-accessibility = Доступность

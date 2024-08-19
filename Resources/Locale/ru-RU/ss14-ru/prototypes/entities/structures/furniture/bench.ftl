@@ -1,4 +1,4 @@
-﻿ent-BenchComfy = удобная скамейка
+ent-BenchComfy = удобная скамейка
     .desc = Скамейка с очень удобной спинкой.
 ent-BenchColorfulComfy = { ent-BenchComfy }
     .desc = Скамейка с очень удобной спинкой.

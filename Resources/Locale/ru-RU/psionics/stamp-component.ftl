@@ -1,1 +1,1 @@
-﻿stamp-component-stamped-name-mantis = Мантис
+stamp-component-stamped-name-mantis = Мантис

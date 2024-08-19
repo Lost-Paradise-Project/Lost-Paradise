@@ -1,4 +1,4 @@
-﻿## DeepFryer Entity
+## DeepFryer Entity
 
 deep-fryer-blacklist-item-failed = { CAPITALIZE(THE($item)) } Не удается покрыть маслом
 deep-fryer-oil-purity-low = { CAPITALIZE(THE($deepFryer)) } Шипит без результата

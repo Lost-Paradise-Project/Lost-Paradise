@@ -1,4 +1,4 @@
-﻿ent-ClosetToolFilled = { ent-ClosetTool }
+ent-ClosetToolFilled = { ent-ClosetTool }
     .suffix = Заполненный
     .desc = { ent-ClosetTool.desc }
 ent-LockerElectricalSuppliesFilled = { ent-LockerElectricalSupplies }

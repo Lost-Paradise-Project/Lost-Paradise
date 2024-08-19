@@ -1,4 +1,4 @@
-﻿gun-selected-mode-examine = Выбран режим огня [color={ $color }]{ $mode }[/color].
+gun-selected-mode-examine = Выбран режим огня [color={ $color }]{ $mode }[/color].
 gun-fire-rate-examine = Скорострельность [color={ $color }]{ $fireRate }[/color] в секунду.
 gun-selector-verb = Изменить на { $mode }
 gun-selected-mode = Выбран { $mode }

@@ -1,3 +1,3 @@
-﻿ent-LockerForensicMantisFilled = { ent-LockerForensicMantis }
+ent-LockerForensicMantisFilled = { ent-LockerForensicMantis }
     .suffix = Filled
     .desc = { ent-LockerForensicMantis.desc }

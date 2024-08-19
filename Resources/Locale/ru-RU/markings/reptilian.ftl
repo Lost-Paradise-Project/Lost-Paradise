@@ -1,4 +1,4 @@
-﻿marking-LizardFrillsShort-frills_short = Унатх, воротник (Короткий)
+marking-LizardFrillsShort-frills_short = Унатх, воротник (Короткий)
 marking-LizardFrillsShort = Унатх, воротник (Короткий)
 marking-LizardFrillsSimple-frills_simple = Унатх, воротник (Простой)
 marking-LizardFrillsSimple = Унатх, воротник (Простой)

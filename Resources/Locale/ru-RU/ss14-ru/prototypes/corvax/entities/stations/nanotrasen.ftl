@@ -1,2 +1,2 @@
-﻿ent-NanotrasenStationNoArrivals = { ent-BaseStation }
+ent-NanotrasenStationNoArrivals = { ent-BaseStation }
     .desc = { ent-BaseStation.desc }

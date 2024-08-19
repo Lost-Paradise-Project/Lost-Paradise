@@ -1,4 +1,4 @@
-﻿ent-VendingMachineBoxingDrobe = Boxing Drobe
+ent-VendingMachineBoxingDrobe = Boxing Drobe
     .desc = Always short on stock.
 ent-VendingMachineRepDrobe = RepDrobe
     .desc = A machine for all your reporting needs, as long as you need clothes.

@@ -1,4 +1,4 @@
-﻿ent-BaseMobFlesh = искажённая плоть
+ent-BaseMobFlesh = искажённая плоть
     .desc = Колышущаяся масса плоти, оживлённая под действием аномальной энергии.
 ent-MobFleshJared = { ent-BaseMobFlesh }
     .desc = { ent-BaseMobFlesh.desc }

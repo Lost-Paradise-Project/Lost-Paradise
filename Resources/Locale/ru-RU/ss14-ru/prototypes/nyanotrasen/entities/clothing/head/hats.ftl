@@ -1,4 +1,4 @@
-﻿ent-ClothingHeadMailCarrier = mail carrier's hat
+ent-ClothingHeadMailCarrier = mail carrier's hat
     .desc = Smells like a good pension.
 ent-ClothingHeadHoodMysta = mystagogue's muffin cap
     .desc = Contrary to its silly name, it's actually a symbol of great academic achievement.

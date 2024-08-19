@@ -1,4 +1,4 @@
-﻿### Info Window
+### Info Window
 
 
 ## General stuff

@@ -1,4 +1,4 @@
-﻿ent-MobSkeletonPerson = { ent-BaseMobSkeletonPerson }
+ent-MobSkeletonPerson = { ent-BaseMobSkeletonPerson }
     .desc = { ent-BaseMobSkeletonPerson.desc }
 ent-MobSkeletonPirate = скелет-пират
     .desc = { ent-MobSkeletonPerson.desc }

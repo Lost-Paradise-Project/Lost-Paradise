@@ -1,4 +1,4 @@
-﻿ent-LockerBooze = шкафчик со спиртным
+ent-LockerBooze = шкафчик со спиртным
     .desc = Здесь бармен хранит алкоголь.
 ent-LockerSteel = защищённый шкаф
     .desc = { ent-LockerBaseSecure.desc }

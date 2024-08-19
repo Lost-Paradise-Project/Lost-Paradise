@@ -1,4 +1,4 @@
-﻿ent-BaseMobAdultSlimes = базовый слайм
+ent-BaseMobAdultSlimes = базовый слайм
     .desc = Он так похож на желе. Интересно, каков он на вкус?
 ent-MobAdultSlimes = базовый слайм
     .desc = Он так похож на желе. Интересно, каков он на вкус?

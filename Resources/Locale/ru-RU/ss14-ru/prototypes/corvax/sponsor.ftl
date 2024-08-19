@@ -1,4 +1,4 @@
-﻿ent-ClothingOuterAtmosianBomberJacket = куртка-бомбер атмосианина
+ent-ClothingOuterAtmosianBomberJacket = куртка-бомбер атмосианина
     .desc = Плотная, поношенная куртка-бомбер атмосианина.
     .suffix = Спонсор
 ent-ClothingMaskGasAtmosian = противогаз атмосианина

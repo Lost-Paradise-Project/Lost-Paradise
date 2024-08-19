@@ -1,4 +1,4 @@
-﻿ent-MailAlcohol = { ent-BaseMail }
+ent-MailAlcohol = { ent-BaseMail }
     .suffix = alcohol
     .desc = { ent-BaseMail.desc }
 ent-MailSake = { ent-BaseMail }

@@ -1,4 +1,4 @@
-﻿ent-GasTrinaryBase = { ent-GasPipeBase }
+ent-GasTrinaryBase = { ent-GasPipeBase }
     .desc = { ent-GasPipeBase.desc }
 ent-GasFilter = газовый фильтр
     .desc = Очень полезен для фильтрации газов.

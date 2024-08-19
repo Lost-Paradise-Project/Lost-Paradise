@@ -1,4 +1,4 @@
-﻿action-name-suck-blood = Сосать кровь
+action-name-suck-blood = Сосать кровь
 action-description-suck-blood = Высоси кровь жертвы в твоих руках.
 bloodsucker-fail-helmet = Вам нужно снять { THE($helmet) }.
 bloodsucker-fail-mask = Вам нужно снять маску!

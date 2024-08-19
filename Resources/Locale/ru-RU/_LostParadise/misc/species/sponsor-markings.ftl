@@ -1,4 +1,4 @@
-﻿marking-LPPAllsuccubus = Суккубус
+marking-LPPAllsuccubus = Суккубус
 marking-LPPAllbasarab = Басараб
 marking-LPPAllcrayfish = Рачок
 marking-LPPAllhank = Хэнк

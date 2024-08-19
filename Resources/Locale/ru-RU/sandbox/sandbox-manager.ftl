@@ -1,4 +1,4 @@
-﻿sandbox-window-title = Панель песочницы
+sandbox-window-title = Панель песочницы
 sandbox-window-respawn-button = Возрождение
 sandbox-window-spawn-entities-button = Спавн сущностей
 sandbox-window-spawn-tiles-button = Спавн тайлов

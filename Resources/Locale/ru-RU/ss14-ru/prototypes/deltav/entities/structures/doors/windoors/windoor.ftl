@@ -1,4 +1,4 @@
-﻿ent-WindoorMailLocked = { ent-Windoor }
+ent-WindoorMailLocked = { ent-Windoor }
     .suffix = Mail, Locked
     .desc = { ent-Windoor.desc }
 ent-WindoorSecureMailLocked = { ent-WindoorSecure }

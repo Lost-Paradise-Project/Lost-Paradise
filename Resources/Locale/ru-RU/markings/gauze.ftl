@@ -1,4 +1,4 @@
-﻿marking-GauzeLefteyePatch-gauze_lefteye_2 = Бинт, Перевязь глаза (Левый)
+marking-GauzeLefteyePatch-gauze_lefteye_2 = Бинт, Перевязь глаза (Левый)
 marking-GauzeLefteyePatch = Бинт, Перевязь глаза (Левый)
 marking-GauzeLefteyePad-gauze_lefteye_1 = Бинт, Подушечка на глаз (Левый)
 marking-GauzeLefteyePad = Бинт, Подушечка на глаз (Левый)

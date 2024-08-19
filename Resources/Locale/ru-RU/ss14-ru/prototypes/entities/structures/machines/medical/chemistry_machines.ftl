@@ -1,4 +1,4 @@
-﻿ent-BaseTabletopChemicalMachine = { ent-BaseMachinePowered }
+ent-BaseTabletopChemicalMachine = { ent-BaseMachinePowered }
     .desc = { ent-BaseMachinePowered.desc }
 ent-MachineElectrolysisUnit = электролизная установка
     .desc = Технологическая новинка в области медицинских ударов током.

@@ -1,4 +1,4 @@
-﻿ent-WoodenSign = деревянный знак
+ent-WoodenSign = деревянный знак
     .desc = Он куда-то указывает.
 ent-WoodenSignRight = { ent-WoodenSign }
     .desc = { ent-WoodenSign.desc }

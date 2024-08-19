@@ -1,4 +1,4 @@
-﻿ent-Window = окно
+ent-Window = окно
     .desc = Смотри не заляпай.
 ent-WindowRCDResistant = { ent-Window }
     .desc = { ent-Window.desc }

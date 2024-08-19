@@ -1,4 +1,4 @@
-﻿ent-PosterContrabandSaucerNumberOne = Saucer #1!
+ent-PosterContrabandSaucerNumberOne = Saucer #1!
     .desc = Out of every station in the NyanoTrasen jurisdiction, Saucer was rated #1 out of 5! Congratulations!
 ent-PosterContrabandBreadLies = Bread Lies
     .desc = You have been lied to. There is no "Big Bread." It is not real. Please stop looking for it.

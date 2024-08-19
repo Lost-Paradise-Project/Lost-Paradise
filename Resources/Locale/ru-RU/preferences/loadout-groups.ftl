@@ -1,4 +1,4 @@
-﻿# Miscellaneous
+# Miscellaneous
 loadout-group-trinkets = Брелки
 loadout-group-glasses = Очки
 loadout-group-bra = Бюстгальтер

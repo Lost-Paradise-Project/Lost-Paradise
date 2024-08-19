@@ -1,4 +1,4 @@
-﻿cargoproduct-category-name-armory = Оружейная
+cargoproduct-category-name-armory = Оружейная
 cargoproduct-category-name-atmospherics = Атмосферика
 cargoproduct-category-name-cargo = Логистика
 cargoproduct-category-name-circuitboards = Платы и схемы

@@ -1,4 +1,4 @@
-﻿ghost-role-information-nukie-mouse-name = Ядерная мышь
+ghost-role-information-nukie-mouse-name = Ядерная мышь
 ghost-role-information-nukie-mouse-description = Подкрепление в виде ядерного оперативника от Синдиката
 ghost-role-information-nukie-mouse-rules = Действуют обычные правила антагонистов синдиката. Работайте с тем, кто вас вызвал, и не причиняйте ему вреда. Экипаж может убить вас без предупреждения. Вам разрешено напасть на экипаж и уничтожить станцию без провокации.
 ghost-role-information-listeningop-name = Подслушивающий операвник Синдиката

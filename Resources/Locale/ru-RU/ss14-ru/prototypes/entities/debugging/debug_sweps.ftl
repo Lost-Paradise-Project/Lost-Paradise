@@ -1,4 +1,4 @@
-﻿ent-WeaponPistolDebug = bang, ded
+ent-WeaponPistolDebug = bang, ded
     .desc = ded
     .suffix = DEBUG
 ent-MagazinePistolDebug = bang, ded mag

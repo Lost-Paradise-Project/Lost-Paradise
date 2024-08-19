@@ -1,2 +1,2 @@
-﻿ent-KitchenElectricGrill = электрогриль
+ent-KitchenElectricGrill = электрогриль
     .desc = Микроволновка? Нет, настоящие мужики готовят стейки на гриле!

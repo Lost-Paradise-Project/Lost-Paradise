@@ -1,4 +1,4 @@
-﻿ent-LPPClothingNeckMantleAV = наплечная мантия Веалиса
+ent-LPPClothingNeckMantleAV = наплечная мантия Веалиса
     .desc = Черная мантия. Абсолютно не мантия ГСБ. Прекратите их путать.
 ent-LPPClothingNeckMantleAidan = мантия Эйдана
     .desc = Легендарная мантия Эйдана. Отдает честь прошлому.

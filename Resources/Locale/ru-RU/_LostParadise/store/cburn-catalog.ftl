@@ -1,4 +1,4 @@
-﻿cburn-catalog-weapon-mk58-name = Mk58
+cburn-catalog-weapon-mk58-name = Mk58
 cburn-catalog-weapon-mk58-desc = Стандартный пистолет используемый на вооружении НаноТрейзен. Использует калибр .35 авто.
 cburn-catalog-weapon-lecter-name = Лектер
 cburn-catalog-weapon-lecter-desc = Штурмовая винтовка с убойной огневой мощью, способная лишить врага жизни за считанные секунды. Использует калибр .20 винтовочные.

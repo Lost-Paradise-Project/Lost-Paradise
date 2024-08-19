@@ -1,4 +1,4 @@
-﻿ent-GlockenspielInstrument = глокеншпиль
+ent-GlockenspielInstrument = глокеншпиль
     .desc = { ent-BaseHandheldInstrument.desc }
 ent-MusicBoxInstrument = музыкальная шкатулка
     .desc = Её мелодия заставляет вас не бояться страшных аниматроников.

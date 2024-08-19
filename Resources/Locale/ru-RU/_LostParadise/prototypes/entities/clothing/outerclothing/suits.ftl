@@ -1,4 +1,4 @@
-﻿ent-LPPClothingOuterCoatLabSec = лабораторный халат СБ с бронежилетом
+ent-LPPClothingOuterCoatLabSec = лабораторный халат СБ с бронежилетом
     .desc = Костюм, защищающий от незначительных разливов химикатов и пуль. Имеет красную полосу на плече.
     .suffix = { "" }
 ent-LPPKilt = килт

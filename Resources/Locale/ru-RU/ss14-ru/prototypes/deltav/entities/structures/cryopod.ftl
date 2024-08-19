@@ -1,3 +1,3 @@
-﻿ent-CryogenicSleepUnitSpawnerPrisoner = { ent-CryogenicSleepUnit }
+ent-CryogenicSleepUnitSpawnerPrisoner = { ent-CryogenicSleepUnit }
     .suffix = Spawner, Prisoner
     .desc = { ent-CryogenicSleepUnit.desc }

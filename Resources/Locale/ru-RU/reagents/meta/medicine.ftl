@@ -1,4 +1,4 @@
-﻿reagent-name-cryptobiolin = криптобиолин
+reagent-name-cryptobiolin = криптобиолин
 reagent-desc-cryptobiolin = Вызывает растерянность и головокружение.
 reagent-name-dylovene = диловен
 reagent-desc-dylovene = Антитоксин широкого спектра действия, который лечит поражение организма токсинами. Передозировка вызывает рвоту, головокружение и боль.

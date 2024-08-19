@@ -1,4 +1,4 @@
-﻿ent-BaseVariationPass = { ent-BaseGameRule }
+ent-BaseVariationPass = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
 ent-BasicPoweredLightVariationPass = { ent-BaseVariationPass }
     .desc = { ent-BaseVariationPass.desc }

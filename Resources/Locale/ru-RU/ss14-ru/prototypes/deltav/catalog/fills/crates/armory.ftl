@@ -1,4 +1,4 @@
-﻿ent-CrateArmoryGrand = { ent-CrateWeaponSecure }
+ent-CrateArmoryGrand = { ent-CrateWeaponSecure }
     .desc = { ent-CrateWeaponSecure.desc }
 ent-CrateArmoryUniversal = { ent-CrateWeaponSecure }
     .desc = { ent-CrateWeaponSecure.desc }

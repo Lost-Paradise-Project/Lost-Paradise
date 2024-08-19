@@ -1,2 +1,2 @@
-﻿ent-FishLabeler = fish labeler
+ent-FishLabeler = fish labeler
     .desc = A hand labeler modified for naming your fish.

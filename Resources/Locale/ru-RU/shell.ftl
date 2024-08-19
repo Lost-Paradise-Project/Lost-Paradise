@@ -1,4 +1,4 @@
-﻿### for technical and/or system messages
+### for technical and/or system messages
 
 
 ## General

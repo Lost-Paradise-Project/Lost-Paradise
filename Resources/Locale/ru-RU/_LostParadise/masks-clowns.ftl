@@ -1,4 +1,4 @@
-﻿ent-LPPClothingBugMaskMime = маска мима-жук
+ent-LPPClothingBugMaskMime = маска мима-жук
     .desc = Маска мима - жука.
 ent-LPPClothingBullseyeMaskMime = маска мима-мишень
     .desc = Маска мима - мишени.

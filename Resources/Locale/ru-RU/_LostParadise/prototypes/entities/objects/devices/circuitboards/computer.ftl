@@ -1,4 +1,4 @@
-﻿ent-LPPCECommsComputerCircuitboard = консоль связи старшего инженера (консольная плата)
+ent-LPPCECommsComputerCircuitboard = консоль связи старшего инженера (консольная плата)
     .desc = { ent-BaseComputerCircuitboard.desc }
 ent-LPPCapCommsComputerCircuitboard = консоль связи капитана (консольная плата)
     .desc = { ent-BaseComputerCircuitboard.desc }

@@ -1,4 +1,4 @@
-﻿criminal-records-console-window-title = Консоль криминальных записей
+criminal-records-console-window-title = Консоль криминальных записей
 criminal-records-console-records-list-title = Члены экипажа
 criminal-records-console-select-record-info = Выбрать запись.
 criminal-records-console-no-records = Записи не найдены!

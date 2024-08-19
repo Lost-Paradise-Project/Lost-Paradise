@@ -1,4 +1,4 @@
-﻿particle-accelerator-control-menu-on-button = ВКЛ
+particle-accelerator-control-menu-on-button = ВКЛ
 particle-accelerator-control-menu-off-button = ВЫКЛ
 particle-accelerator-control-menu-service-manual-reference = См. стр. 132 руководства по обслуживанию
 particle-accelerator-control-menu-device-version-label = Ускоритель частиц Mark 2

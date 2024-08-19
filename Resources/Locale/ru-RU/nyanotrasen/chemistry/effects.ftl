@@ -1,4 +1,4 @@
-﻿## Disease System support
+## Disease System support
 
 reagent-effect-guidebook-chem-miasma-pool =
     { $chance ->

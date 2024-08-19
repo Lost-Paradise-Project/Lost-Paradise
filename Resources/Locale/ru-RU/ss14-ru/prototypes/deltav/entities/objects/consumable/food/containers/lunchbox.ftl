@@ -1,4 +1,4 @@
-﻿ent-LunchboxGeneric = ланчбокс
+ent-LunchboxGeneric = ланчбокс
     .desc = Сюда можно положить еду на случай увлекательного похода.
 ent-LunchboxGenericFilledRandom = заполненный ланчбокс
     .desc = Сделано с любовью.

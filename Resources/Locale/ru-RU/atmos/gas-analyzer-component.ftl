@@ -1,4 +1,4 @@
-﻿## Entity
+## Entity
 
 gas-analyzer-component-player-cannot-reach-message = Вы не можете туда достать.
 gas-analyzer-shutoff = Газоанализатор выключается.

@@ -1,3 +1,3 @@
-﻿ent-ClothingHeadsetChameleon = гарнитура пассажира
+ent-ClothingHeadsetChameleon = гарнитура пассажира
     .desc = { ent-ClothingHeadset.desc }
     .suffix = Хамелеон

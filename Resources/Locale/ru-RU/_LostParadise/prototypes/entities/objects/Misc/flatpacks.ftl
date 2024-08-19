@@ -1,2 +1,2 @@
-﻿ent-LPPBookPrinterFlatpack = упаковонный принтер книг
+ent-LPPBookPrinterFlatpack = упаковонный принтер книг
     .desc = Упаковка, при помощи которой можно создать принтер книг.

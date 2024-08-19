@@ -1,4 +1,4 @@
-﻿server-info-rules-button = Правила
+server-info-rules-button = Правила
 server-info-guidebook-button = Руководство
 server-info-discord-button = Discord
 server-info-website-button = Сайт

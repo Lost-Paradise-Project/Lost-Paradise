@@ -1,2 +1,2 @@
-﻿ent-ShockCollar = shock collar
+ent-ShockCollar = shock collar
     .desc = Shocking.

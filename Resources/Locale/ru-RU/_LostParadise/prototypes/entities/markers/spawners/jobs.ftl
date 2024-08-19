@@ -1,4 +1,4 @@
-﻿ent-LPPSpawnPointPrisoner = спавнер заключённого
+ent-LPPSpawnPointPrisoner = спавнер заключённого
     .desc = { ent-SpawnPointJobBase.desc }
 ent-LPPSpawnPointLawyer = спавнер адвоката
     .desc = { ent-SpawnPointJobBase.desc }

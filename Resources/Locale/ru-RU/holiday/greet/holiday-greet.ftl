@@ -1,4 +1,4 @@
-﻿## Generic Congrats
+## Generic Congrats
 
 holiday-greet = Счастливого { $holidayName }!
 

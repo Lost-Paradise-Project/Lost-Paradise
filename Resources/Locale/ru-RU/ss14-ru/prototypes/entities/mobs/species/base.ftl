@@ -1,4 +1,4 @@
-﻿ent-BaseMobSpecies = { ent-BaseMob }
+ent-BaseMobSpecies = { ent-BaseMob }
     .desc = { ent-BaseMob.desc }
 ent-BaseMobSpeciesOrganic = { ent-BaseMobSpecies }
     .desc = { ent-BaseMobSpecies.desc }

@@ -1,4 +1,4 @@
-﻿uploadfolder-command-description = Uploads a folder from your UserData folder recursively to the server contentDB.
+uploadfolder-command-description = Uploads a folder from your UserData folder recursively to the server contentDB.
 uploadfolder-command-help = uploadfolder [folder you want to upload in userdata/UploadFolder]
 uploadfolder-command-wrong-args = Wrong number of arguments!
 uploadfolder-command-folder-not-found = Folder { $folder } not found!

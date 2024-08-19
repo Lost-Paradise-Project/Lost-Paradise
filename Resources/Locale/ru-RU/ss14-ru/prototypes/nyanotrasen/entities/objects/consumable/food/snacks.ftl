@@ -1,4 +1,4 @@
-﻿ent-FoodMothSqueakingFry = squeaking stir fry
+ent-FoodMothSqueakingFry = squeaking stir fry
     .desc = A mothic classic made with cheese curds and tofu (amongst other things).
 ent-FoodMothToastedSeeds = toasted seeds
     .desc = While they're far from filling, toasted seeds are a popular snack amongst the moths. Some more exotic flavours may be added for some extra pep.

@@ -1,4 +1,4 @@
-﻿# Examine Text
+# Examine Text
 gas-volume-pump-system-examined =
     Насос настроен на [color={ $statusColor }]{ $rate }{ $rate ->
         [one] литр/сек

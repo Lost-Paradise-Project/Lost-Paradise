@@ -1,2 +1,2 @@
-﻿ent-FoodBakedVulpkaninPlate = запечённый вульпканин
+ent-FoodBakedVulpkaninPlate = запечённый вульпканин
     .desc = На поверхности блюда все ещё виднеются клочки шерсти..

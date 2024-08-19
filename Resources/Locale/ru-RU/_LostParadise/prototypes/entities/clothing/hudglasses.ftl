@@ -1,6 +1,6 @@
-﻿ent-LPPBlackHudGlasses-name = солнцезащитные очки с визором
+ent-LPPBlackHudGlasses-name = солнцезащитные очки с визором
     .desc = "Чёрно, стильно, информативно."
-ent-LPPBlueHudGlasse-names =  синие очки с визором
+ent-LPPBlueHudGlasse-names = синие очки с визором
     .desc = "Чуть более стильные чем красные, и более навороченные чем обычные."
 ent-LPPRedHudGlasses-name = очки охраны с визором
     .desc = "Версия очков охраны с визором"

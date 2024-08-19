@@ -1,4 +1,4 @@
-﻿ent-BorgChassisGeneric = { ent-BaseBorgChassisNT }
+ent-BorgChassisGeneric = { ent-BaseBorgChassisNT }
     .desc = { ent-BaseBorgChassisNT.desc }
 ent-BorgChassisMining = киборг-шахтёр
     .desc = { ent-BaseBorgChassisNT.desc }

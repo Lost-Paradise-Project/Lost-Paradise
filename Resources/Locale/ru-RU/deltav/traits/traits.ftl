@@ -1,4 +1,4 @@
-﻿trait-name-ScottishAccent = Шотландский акцент
+trait-name-ScottishAccent = Шотландский акцент
 trait-description-ScottishAccent = Работает только с английским языком
 trait-name-UltraVision = Ультрафиолетовое зрение
 trait-description-UltraVision =

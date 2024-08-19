@@ -1,4 +1,4 @@
-﻿ent-PartHarpy = части тела гарпии
+ent-PartHarpy = части тела гарпии
     .desc = Курлык
 ent-TorsoHarpy = торс гарпии
     .desc = { ent-PartHarpy.desc }

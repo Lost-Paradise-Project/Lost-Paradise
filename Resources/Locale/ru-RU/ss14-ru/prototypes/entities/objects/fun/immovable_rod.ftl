@@ -1,4 +1,4 @@
-﻿ent-ImmovableRod = неподвижный жезл
+ent-ImmovableRod = неподвижный жезл
     .desc = Вы чувствуете, что он голоден. Как правило, это плохой знак.
 ent-ImmovableRodDespawn = { ent-ImmovableRod }
     .desc = { ent-ImmovableRod.desc }

@@ -1,4 +1,4 @@
-﻿## UI
+## UI
 
 body-scanner-display-title = Сканер тела
 body-scanner-display-health-label = Здоровье:

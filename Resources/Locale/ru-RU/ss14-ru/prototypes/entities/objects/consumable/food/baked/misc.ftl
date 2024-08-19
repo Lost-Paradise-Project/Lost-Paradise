@@ -1,4 +1,4 @@
-﻿ent-FoodBakedBase = { ent-FoodInjectableBase }
+ent-FoodBakedBase = { ent-FoodInjectableBase }
     .desc = { ent-FoodInjectableBase.desc }
 ent-FoodBakedMuffin = маффин
     .desc = Вкусный и нежный кекс.

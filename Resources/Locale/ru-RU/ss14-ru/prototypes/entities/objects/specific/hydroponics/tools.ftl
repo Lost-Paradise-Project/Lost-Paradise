@@ -1,4 +1,4 @@
-﻿ent-HydroponicsToolMiniHoe = маленькая тяпка
+ent-HydroponicsToolMiniHoe = маленькая тяпка
     .desc = Они используются для удаления сорняков, впрочем, ими можно почесать спину.
 ent-HydroponicsToolClippers = секатор
     .desc = Инструмент, используемый для взятия образцов с растений.

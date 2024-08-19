@@ -1,4 +1,4 @@
-﻿ent-ClothingBeltUtilityFilled = { ent-ClothingBeltUtility }
+ent-ClothingBeltUtilityFilled = { ent-ClothingBeltUtility }
     .desc = { ent-ClothingBeltUtility.desc }
     .suffix = Заполненный
 ent-ClothingBeltUtilityEngineering = { ent-ClothingBeltUtility }

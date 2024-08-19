@@ -1,4 +1,4 @@
-﻿ent-ClothingOuterCoatHoSGreatcoat = бронированная шинель
+ent-ClothingOuterCoatHoSGreatcoat = бронированная шинель
     .desc = Шинель, усиленная специальными сплавами для дополнительной защиты и стиля для тех, кто обладает властным характером.
 ent-ClothingOuterCoatDetectiveDark = нуарный плащ
     .desc = Тёмный плащ частного детектива.

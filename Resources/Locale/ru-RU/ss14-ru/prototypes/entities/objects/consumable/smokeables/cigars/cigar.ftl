@@ -1,4 +1,4 @@
-﻿ent-Cigar = сигара
+ent-Cigar = сигара
     .desc = Коричневая скрутка табака и... ну, вы не совсем уверены.
 ent-CigarSpent = { ent-Cigar }
     .suffix = Окурок

@@ -1,4 +1,4 @@
-﻿### UI
+### UI
 
 paper-ui-blank-page-message = Данная страница оставлена пустой специально
 # Shown when paper with words examined details

@@ -1,10 +1,10 @@
-﻿ent-TranslatorUnpowered = Переводчик
+ent-TranslatorUnpowered = Переводчик
     .desc = Переводит языки.
 ent-TranslatorPoweredBase = { ent-TranslatorUnpowered }
-  .desc = { ent-TranslatorUnpowered.desc }
+    .desc = { ent-TranslatorUnpowered.desc }
 ent-Translator = { ent-TranslatorPoweredBase }
-  .suffix = Powered
-  .desc = { ent-TranslatorPoweredBase.desc }
+    .suffix = Powered
+    .desc = { ent-TranslatorPoweredBase.desc }
 ent-TranslatorForeigner = foreigner's translator
     .desc = A special-issue translator that helps foreigner's speak and understand this station's primary language.
 ent-CanilunztTranslator = Canilunzt translator

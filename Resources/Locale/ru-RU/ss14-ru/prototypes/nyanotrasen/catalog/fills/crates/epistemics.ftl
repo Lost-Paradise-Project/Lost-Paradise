@@ -1,2 +1,2 @@
-﻿ent-CrateHolyWaterKit = { ent-CrateScienceSecure }
+ent-CrateHolyWaterKit = { ent-CrateScienceSecure }
     .desc = { ent-CrateScienceSecure.desc }

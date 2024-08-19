@@ -1,4 +1,4 @@
-﻿ent-LockerOldAISat = шкаф
+ent-LockerOldAISat = шкаф
     .suffix = шкаф пустотный скафандр NTSRA
     .desc = { ent-LockerSyndicate.desc }
 ent-LockerSyndicateShipGearBasic = { ent-LockerSyndicate }

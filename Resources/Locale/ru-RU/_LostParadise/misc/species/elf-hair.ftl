@@ -1,4 +1,4 @@
-﻿marking-ElfHairAfricanPigtails = Хвостики (Африканские)
+marking-ElfHairAfricanPigtails = Хвостики (Африканские)
 marking-ElfHairAfropuffdouble = Aфро-пуф, Двойной
 marking-ElfHairAfropuffleft = Aфро-пуф, Левый
 marking-ElfHairAfropuffright = Aфро-пуф, Правый

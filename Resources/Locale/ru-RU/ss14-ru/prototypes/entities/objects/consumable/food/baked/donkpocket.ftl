@@ -1,4 +1,4 @@
-﻿ent-FoodDonkpocketBase = { ent-FoodInjectableBase }
+ent-FoodDonkpocketBase = { ent-FoodInjectableBase }
     .desc = { ent-FoodInjectableBase.desc }
 ent-FoodDonkpocket = донк-покет
     .desc = Еда опытного предателя.

@@ -1,4 +1,4 @@
-﻿ent-LPPClothingUniformJumpsuitExpeditor = комбинезон исследователя
+ent-LPPClothingUniformJumpsuitExpeditor = комбинезон исследователя
     .desc = Могут возникать трудности со снятием после попадания в вас кислоты ксено.
 ent-LockerExpeditor = шкаф исследователя
     .desc = стандартное хранилище Nanotrasen.

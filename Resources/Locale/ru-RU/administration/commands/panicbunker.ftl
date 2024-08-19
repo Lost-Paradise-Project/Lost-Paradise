@@ -1,4 +1,4 @@
-﻿cmd-panicbunker-desc = Toggles the panic bunker, which enables stricter restrictions on who's allowed to join the server.
+cmd-panicbunker-desc = Toggles the panic bunker, which enables stricter restrictions on who's allowed to join the server.
 cmd-panicbunker-help = Usage: panicbunker
 panicbunker-command-enabled = Режим "Бункер" был включён.
 panicbunker-command-disabled = Режим "Бункер" был выключен.

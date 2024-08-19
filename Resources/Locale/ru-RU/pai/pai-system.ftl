@@ -1,4 +1,4 @@
-﻿pai-system-pai-installed = пИИ установлен.
+pai-system-pai-installed = пИИ установлен.
 pai-system-off = пИИ не установлен.
 pai-system-still-searching = Всё ещё ищем пИИ.
 pai-system-searching = Ищем пИИ...

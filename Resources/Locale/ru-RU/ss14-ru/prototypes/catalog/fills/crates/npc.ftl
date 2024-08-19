@@ -1,4 +1,4 @@
-﻿ent-CrateNPCBee = ящик с пчёлами
+ent-CrateNPCBee = ящик с пчёлами
     .desc = Ящик, содержащий рой из восьми пчёл.
 ent-CrateNPCButterflies = ящик с бабочками
     .desc = Ящик, содержащий пять бабочек.

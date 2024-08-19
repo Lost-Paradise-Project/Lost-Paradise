@@ -1,4 +1,4 @@
-﻿admin-ui-baby-jail-window-title = Детсад
+admin-ui-baby-jail-window-title = Детсад
 admin-ui-baby-jail-enabled = Детсад включён
 admin-ui-baby-jail-disabled = Детсад выключен
 admin-ui-baby-jail-tooltip = Детсад запрещает игрокам присоединяться, если их учётная запись слишком старая или у них слишком много общего времени игры на этом сервере.

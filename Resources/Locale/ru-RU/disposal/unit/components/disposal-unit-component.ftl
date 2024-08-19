@@ -1,4 +1,4 @@
-﻿## UI
+## UI
 
 ui-disposal-unit-title = Утилизационный блок
 ui-disposal-unit-label-state = Состояние:

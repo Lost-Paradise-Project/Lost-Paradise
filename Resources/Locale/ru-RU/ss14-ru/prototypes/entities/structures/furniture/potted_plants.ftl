@@ -1,4 +1,4 @@
-﻿ent-PottedPlantBase = комнатное растение
+ent-PottedPlantBase = комнатное растение
     .desc = Чудесный кусочек природы, заключённый в горшке.
 ent-PottedPlant0 = { ent-PottedPlantBase }
     .desc = { ent-PottedPlantBase.desc }

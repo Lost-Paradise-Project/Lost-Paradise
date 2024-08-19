@@ -1,4 +1,4 @@
-﻿ent-DefaultStationBeacon = станционный маяк
+ent-DefaultStationBeacon = станционный маяк
     .desc = Небольшое устройство, передающее информацию на карты станций. Может быть сконфигурировано.
     .suffix = Общий
 ent-DefaultStationBeaconUnanchored = { ent-DefaultStationBeacon }

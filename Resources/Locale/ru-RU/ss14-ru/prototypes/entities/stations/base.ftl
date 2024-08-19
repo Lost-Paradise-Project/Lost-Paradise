@@ -1,4 +1,4 @@
-﻿ent-BaseStation = { "" }
+ent-BaseStation = { "" }
     .desc = { "" }
 ent-BaseStationCargo = { "" }
     .desc = { "" }

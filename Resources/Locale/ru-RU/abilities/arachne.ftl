@@ -1,4 +1,4 @@
-﻿action-name-spin-web = Крутить паутину
+action-name-spin-web = Крутить паутину
 action-desc-spin-web = Используйте свои фильеры, чтобы создать паутину на текущем тайле. Делает вас более голодным и жаждущим.
 action-name-spin-web-space = В космосе паутину плести нельзя!
 action-name-spin-web-blocked = Здесь нет места для паутины.

@@ -1,4 +1,4 @@
-﻿cmd-biome_clear-desc = Полностью очищает биом
+cmd-biome_clear-desc = Полностью очищает биом
 cmd-biome_clear-help = biome_clear <biomecomponent>
 cmd-biome_addlayer-desc = Добавляет ещё один слой биома
 cmd-biome_addlayer-help = biome_addlayer <mapid> <biometemplate> [смещение сида]

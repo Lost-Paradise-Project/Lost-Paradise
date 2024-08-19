@@ -1,4 +1,4 @@
-﻿expendable-light-start-verb = Зажечь
+expendable-light-start-verb = Зажечь
 expendable-light-spent-flare-name = сгоревший фальшфейер
 expendable-light-spent-flare-desc = Похоже, этот фальшфейер догорел. Какой облом.
 expendable-light-burnt-torch-name = сгоревший факел

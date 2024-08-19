@@ -1,4 +1,4 @@
-﻿ent-BasePlushie = { ent-BaseItem }
+ent-BasePlushie = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-PlushieGhost = плюшевый призрак
     .desc = Начало вашей собственной БАНДЫ ПРИЗРАКОВ!

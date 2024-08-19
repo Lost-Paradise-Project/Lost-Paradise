@@ -1,4 +1,4 @@
-﻿ent-BaseDionaOrgan = { ent-BaseItem }
+ent-BaseDionaOrgan = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-OrganDionaBrain = мозг
     .desc = Источник невероятного, бесконечного интеллекта. Хонк.

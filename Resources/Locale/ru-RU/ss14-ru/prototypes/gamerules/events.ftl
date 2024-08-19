@@ -1,4 +1,4 @@
-﻿ent-BaseStationEvent = { ent-BaseGameRule }
+ent-BaseStationEvent = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
 ent-BaseStationEventShortDelay = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }

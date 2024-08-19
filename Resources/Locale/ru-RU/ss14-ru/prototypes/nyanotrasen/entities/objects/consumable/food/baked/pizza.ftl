@@ -1,4 +1,4 @@
-﻿ent-FoodPizzaCorncob = corncob crust pizza
+ent-FoodPizzaCorncob = corncob crust pizza
     .desc = Cobbled together as a sick joke. Best served with liquid butter.
 ent-FoodPizzaCorncobSlice = slice of corncob crust pizza
     .desc = Cobbled together as a sick joke. Best served with liquid butter.

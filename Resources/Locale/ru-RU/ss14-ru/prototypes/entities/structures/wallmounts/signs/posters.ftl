@@ -1,4 +1,4 @@
-﻿ent-PosterBase = { ent-BaseSign }
+ent-PosterBase = { ent-BaseSign }
     .desc = { ent-BaseSign.desc }
 ent-PosterBroken = порванный плакат
     .desc = Вы не можете разобрать что было на оригинальном плакате. Он испорчен.

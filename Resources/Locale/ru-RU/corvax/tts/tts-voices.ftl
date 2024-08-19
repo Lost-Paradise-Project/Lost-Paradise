@@ -1,4 +1,4 @@
-﻿tts-voice-name-hjalmar = Хьялмар (Ведьмак)
+tts-voice-name-hjalmar = Хьялмар (Ведьмак)
 tts-voice-name-portal_cave_johnson = Кейв Джонсон (Portal)
 tts-voice-name-Ninja_Turtles_shredder = Шреддер (Черепашки-ниндзя)
 tts-voice-name-Star_Wars_Han_Solo = Хан Соло (Звёздные войны)

@@ -1,4 +1,4 @@
-﻿ent-BaseStructureComputer = { ent-BaseStructure }
+ent-BaseStructureComputer = { ent-BaseStructure }
     .desc = { ent-BaseStructure.desc }
 ent-ComputerFrame = каркас консоли
     .desc = Строящаяся консоль.

@@ -1,4 +1,4 @@
-﻿# Playback Commands
+# Playback Commands
 
 cmd-replay-play-desc = Resume replay playback.
 cmd-replay-play-help = replay_play

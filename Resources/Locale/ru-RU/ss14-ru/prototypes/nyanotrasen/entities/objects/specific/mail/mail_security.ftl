@@ -1,4 +1,4 @@
-﻿ent-MailSecurityDonuts = { ent-BaseMail }
+ent-MailSecurityDonuts = { ent-BaseMail }
     .suffix = donuts
     .desc = { ent-BaseMail.desc }
 ent-MailSecurityFlashlight = { ent-BaseMail }

@@ -1,2 +1,2 @@
-﻿salvage-faction-xenos = Ксено
+salvage-faction-xenos = Ксено
 salvage-faction-carps = Карпы

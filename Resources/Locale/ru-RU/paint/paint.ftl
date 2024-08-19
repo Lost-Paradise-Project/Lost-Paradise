@@ -1,4 +1,4 @@
-﻿paint-success = { $target } был покрашен!
+paint-success = { $target } был покрашен!
 paint-failure = Не удалось покрасить { $target }!
 paint-failure-painted = { $target } уже покрашен!
 paint-empty = { $used } пуст!

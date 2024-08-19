@@ -1,4 +1,4 @@
-﻿ent-BaseMobCarp = космический карп
+ent-BaseMobCarp = космический карп
     .desc = Это космический карп.
 ent-MobCarp = { ent-BaseMobCarp }
     .desc = { ent-BaseMobCarp.desc }

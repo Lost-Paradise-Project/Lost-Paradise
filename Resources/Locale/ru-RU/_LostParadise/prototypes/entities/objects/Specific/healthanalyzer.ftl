@@ -1,4 +1,4 @@
-﻿ent-HandheldHealthAnalyzerPlague = анализатор здоровья
+ent-HandheldHealthAnalyzerPlague = анализатор здоровья
     .desc = { ent-HandheldHealthAnalyzerUnpowered.desc }
     .suffix = Болезнь, Чума
 ent-HandheldHealthAnalyzerOwOnavirus = анализатор здоровья

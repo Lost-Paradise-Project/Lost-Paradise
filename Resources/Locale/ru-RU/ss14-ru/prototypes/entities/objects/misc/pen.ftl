@@ -1,4 +1,4 @@
-﻿ent-Pen = ручка
+ent-Pen = ручка
     .desc = Ручка с чёрными чернилами.
 ent-PenEmbeddable = { ent-Pen }
     .desc = { ent-Pen.desc }

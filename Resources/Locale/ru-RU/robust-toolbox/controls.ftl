@@ -1,4 +1,4 @@
-﻿color-selector-sliders-red = R
+color-selector-sliders-red = R
 color-selector-sliders-green = G
 color-selector-sliders-blue = B
 color-selector-sliders-hue = H

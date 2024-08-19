@@ -1,4 +1,4 @@
-﻿comp-storage-no-item-size = Нет
+comp-storage-no-item-size = Нет
 comp-storage-cant-insert = Невозможно поместить.
 comp-storage-too-big = Слишком большое!
 comp-storage-insufficient-capacity = Недостаточная вместимость.

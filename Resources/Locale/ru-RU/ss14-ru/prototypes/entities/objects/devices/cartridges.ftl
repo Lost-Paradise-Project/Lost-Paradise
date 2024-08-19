@@ -1,4 +1,4 @@
-﻿ent-NotekeeperCartridge = картридж Заметки
+ent-NotekeeperCartridge = картридж Заметки
     .desc = Программа для хранения заметок
 ent-NewsReaderCartridge = картридж Новости
     .desc = Программа для чтения новостей

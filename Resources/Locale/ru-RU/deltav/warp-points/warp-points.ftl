@@ -1,4 +1,4 @@
-﻿warp-point-evacshuttle = Эвакуационный шаттл
+warp-point-evacshuttle = Эвакуационный шаттл
 warp-point-shuttle = Шаттл
 warp-point-debris = Космический мусор
 warp-point-ruin = Космические руины

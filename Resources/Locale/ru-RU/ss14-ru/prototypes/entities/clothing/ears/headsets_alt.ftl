@@ -1,4 +1,4 @@
-﻿ent-ClothingHeadsetAlt = полноразмерная гарнитура
+ent-ClothingHeadsetAlt = полноразмерная гарнитура
     .desc = Модифицированный модульный интерком, надеваемый на голову. Принимает ключи шифрования.
 ent-ClothingHeadsetAltCentCom = полноразмерная гарнитура Центком
     .desc = { ent-ClothingHeadsetAlt.desc }

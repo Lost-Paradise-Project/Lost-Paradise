@@ -1,4 +1,4 @@
-﻿ent-ClothingHeadHatFedoraBlack = чёрная федора
+ent-ClothingHeadHatFedoraBlack = чёрная федора
     .desc = Чёрная федора. Выглядит стильно.
 ent-ClothingHeadHatFedoraChoc = коричневая федора
     .desc = Коричневая федора. Выглядит шикарно.

@@ -1,4 +1,4 @@
-﻿# Popups
+# Popups
 
 network-configurator-device-saved = Успешно сохранено сетевое устройство { $device } с адресом { $address }!
 network-configurator-device-failed = Не удалось сохранить сетевое устройство { $device }! Адрес не присвоен!

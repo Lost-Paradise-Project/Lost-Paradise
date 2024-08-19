@@ -1,4 +1,4 @@
-﻿### Interaction Messages
+### Interaction Messages
 
 food-you-need-to-hold-utensil = Вы должны держать { $utensil }, чтобы съесть это!
 food-nom = Ням. { $flavors }

@@ -1,4 +1,4 @@
-﻿department-Cargo = Отдел логистики
+department-Cargo = Отдел логистики
 department-Civilian = Сервисный отдел
 department-Command = Командование
 department-Engineering = Инженерный отдел

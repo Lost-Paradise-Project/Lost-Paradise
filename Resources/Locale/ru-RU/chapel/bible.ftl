@@ -1,4 +1,4 @@
-﻿bible-heal-success-self = Вы ударяете { $target } с помощью { $bible }, и его раны закрываются во вспышке святого света!
+bible-heal-success-self = Вы ударяете { $target } с помощью { $bible }, и его раны закрываются во вспышке святого света!
 bible-heal-success-others = { CAPITALIZE($user) } ударяет { $target } с помощью { $bible }, и его раны закрываются во вспышке святого света!
 bible-heal-success-none-self = Вы ударяете { $target } с помощью { $bible }, но раны которые можно излечить отсутствуют!
 bible-heal-success-none-others = { CAPITALIZE($user) } ударяет { $target } с помощью { $bible }!
