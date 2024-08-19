@@ -103,11 +103,11 @@
           sprite: Mobs/Customization/masking_helpers.rsi
           state: female_full
           visible: false
+        - map: [ "breast" ]
+        - map: [ "underwear" ]
         - map: ["enum.HumanoidVisualLayers.LFoot"]
         - map: ["enum.HumanoidVisualLayers.RFoot"]
         - map: ["socks"]
-        - map: ["underpants"]
-        - map: ["undershirt"]
         - map: ["jumpsuit"]
         - map: ["enum.HumanoidVisualLayers.LHand"]
         - map: ["enum.HumanoidVisualLayers.RHand"]
@@ -304,4 +304,3 @@
     Cold: 0.2
     Heat: 2
     Shock: 2.5
-
