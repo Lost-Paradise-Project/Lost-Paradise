@@ -5,7 +5,7 @@
   playTimeTracker: JobRoboticist
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Science
+      department: Epistemics
       time: 36000 #10 hrs
   startingGear: RoboticistGear
   icon: "JobIconRoboticist"
@@ -23,5 +23,3 @@
     ears: ClothingHeadsetRobotics
     eyes: ClothingEyesHudDiagnostic
     belt: ClothingBeltUtilityEngineering
-
-
