@@ -41,13 +41,11 @@ public sealed partial class FelinidSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        SubscribeLocalEvent<FelinidComponent, ComponentInit>(OnInit);
-        SubscribeLocalEvent<FelinidComponent, HairballActionEvent>(OnHairball);
         SubscribeLocalEvent<FelinidComponent, EatMouseActionEvent>(OnEatMouse);
         SubscribeLocalEvent<FelinidComponent, DidEquipHandEvent>(OnEquipped);
         SubscribeLocalEvent<FelinidComponent, DidUnequipHandEvent>(OnUnequipped);
-        SubscribeLocalEvent<HairballComponent, ThrowDoHitEvent>(OnHairballHit);
-        SubscribeLocalEvent<HairballComponent, GettingPickedUpAttemptEvent>(OnHairballPickupAttempt);
+        // SubscribeLocalEvent<HairballComponent, ThrowDoHitEvent>(OnHairballHit);
+        // SubscribeLocalEvent<HairballComponent, GettingPickedUpAttemptEvent>(OnHairballPickupAttempt);
     }
 
     private Queue<EntityUid> RemQueue = new();
@@ -68,20 +66,21 @@ public sealed partial class FelinidSystem : EntitySystem
                 continue;
 
             hairballComp.Accumulator = 0;
-            SpawnHairball(hairballComp.Owner, catComp);
+            // SpawnHairball(hairballComp.Owner, catComp);
             RemQueue.Enqueue(hairballComp.Owner);
         }
     }
 
-    private void OnInit(EntityUid uid, FelinidComponent component, ComponentInit args)
-    {
-        if (component.HairballAction != null)
-            return;
+    // LOST PARADISE (PE4HENIKA)- Start
+    // private void (EntityUid uid, FelinidComponent component, ComponentInit args)
+    // {
+    //     if (component.HairballAction != null)
+    //         return;
 
-        //component.HairballAction = Spawn("ActionHairball");
-        _actionsSystem.AddAction(uid, ref component.HairballAction, component.HairballActionId);
-    }
-
+    //     //component.HairballAction = Spawn("ActionHairball");
+    //     _actionsSystem.AddAction(uid, ref component.HairballAction, component.HairballActionId);
+    // }
+    // LOST PARADISE (PE4HENIKA)- END
     private void OnEquipped(EntityUid uid, FelinidComponent component, DidEquipHandEvent args)
     {
         if (!HasComp<FelinidFoodComponent>(args.Equipped))
@@ -103,23 +102,24 @@ public sealed partial class FelinidSystem : EntitySystem
         }
     }
 
-    private void OnHairball(EntityUid uid, FelinidComponent component, HairballActionEvent args)
-    {
-        if (_inventorySystem.TryGetSlotEntity(uid, "mask", out var maskUid) &&
-        EntityManager.TryGetComponent<IngestionBlockerComponent>(maskUid, out var blocker) &&
-        blocker.Enabled)
-        {
-            _popupSystem.PopupEntity(Loc.GetString("hairball-mask", ("mask", maskUid)), uid, uid);
-            return;
-        }
+    // LOST PARADISE (PE4HENIKA)- Start
+    // private void OnHairball(EntityUid uid, FelinidComponent component, HairballActionEvent args)
+    // {
+    //     if (_inventorySystem.TryGetSlotEntity(uid, "mask", out var maskUid) &&
+    //     EntityManager.TryGetComponent<IngestionBlockerComponent>(maskUid, out var blocker) &&
+    //     blocker.Enabled)
+    //     {
+    //         _popupSystem.PopupEntity(Loc.GetString("hairball-mask", ("mask", maskUid)), uid, uid);
+    //         return;
+    //     }
 
-        _popupSystem.PopupEntity(Loc.GetString("hairball-cough", ("name", Identity.Entity(uid, EntityManager))), uid);
-        _audio.PlayPvs("/Audio/Nyanotrasen/Effects/Species/hairball.ogg", uid, AudioHelpers.WithVariation(0.15f));
+    //     _popupSystem.PopupEntity(Loc.GetString("hairball-cough", ("name", Identity.Entity(uid, EntityManager))), uid);
+    //     _audio.PlayPvs("/Audio/Nyanotrasen/Effects/Species/hairball.ogg", uid, AudioHelpers.WithVariation(0.15f));
 
-        EnsureComp<CoughingUpHairballComponent>(uid);
-        args.Handled = true;
-    }
-
+    //     EnsureComp<CoughingUpHairballComponent>(uid);
+    //     args.Handled = true;
+    // }
+    // LOST PARADISE (PE4HENIKA)- END
     private void OnEatMouse(EntityUid uid, FelinidComponent component, EatMouseActionEvent args)
     {
         if (component.EatActionTarget == null)
@@ -141,12 +141,13 @@ public sealed partial class FelinidSystem : EntitySystem
             _popupSystem.PopupEntity(Loc.GetString("hairball-mask", ("mask", maskUid)), uid, uid, Shared.Popups.PopupType.SmallCaution);
             return;
         }
-
-        if (component.HairballAction != null)
-        {
-            _actionsSystem.SetCharges(component.HairballAction, 1); // You get the charge back and that's it. Tough.
-            _actionsSystem.SetEnabled(component.HairballAction, true);
-        }
+    // LOST PARADISE (PE4HENIKA)- Start
+        // if (component.HairballAction != null)
+        // {
+        //     _actionsSystem.SetCharges(component.HairballAction, 1); // You get the charge back and that's it. Tough.
+        //     _actionsSystem.SetEnabled(component.HairballAction, true);
+        // }
+    // LOST PARADISE (PE4HENIKA)- END
         Del(component.EatActionTarget.Value);
         component.EatActionTarget = null;
 
@@ -158,38 +159,38 @@ public sealed partial class FelinidSystem : EntitySystem
             _actionsSystem.RemoveAction(uid, component.EatAction.Value);
     }
 
-    private void SpawnHairball(EntityUid uid, FelinidComponent component)
-    {
-        var hairball = EntityManager.SpawnEntity(component.HairballPrototype, Transform(uid).Coordinates);
-        var hairballComp = Comp<HairballComponent>(hairball);
+    // private void SpawnHairball(EntityUid uid, FelinidComponent component)
+    // {
+    //     // var hairball = EntityManager.SpawnEntity(component.HairballPrototype, Transform(uid).Coordinates);
+    //     var hairballComp = Comp<HairballComponent>(hairball);
 
-        if (TryComp<BloodstreamComponent>(uid, out var bloodstream) && bloodstream.ChemicalSolution.HasValue)
-        {
-            var temp = _solutionSystem.SplitSolution(bloodstream.ChemicalSolution.Value, 20);
+    //     if (TryComp<BloodstreamComponent>(uid, out var bloodstream) && bloodstream.ChemicalSolution.HasValue)
+    //     {
+    //         var temp = _solutionSystem.SplitSolution(bloodstream.ChemicalSolution.Value, 20);
 
-            if (_solutionSystem.TryGetSolution(hairball, hairballComp.SolutionName, out var hairballSolution))
-            {
-                _solutionSystem.TryAddSolution(hairballSolution.Value, temp);
-            }
-        }
-    }
-    private void OnHairballHit(EntityUid uid, HairballComponent component, ThrowDoHitEvent args)
-    {
-        if (HasComp<FelinidComponent>(args.Target) || !HasComp<StatusEffectsComponent>(args.Target))
-            return;
-        if (_robustRandom.Prob(0.2f))
-            _vomitSystem.Vomit(args.Target);
-    }
+    //         if (_solutionSystem.TryGetSolution(hairball, hairballComp.SolutionName, out var hairballSolution))
+    //         {
+    //             _solutionSystem.TryAddSolution(hairballSolution.Value, temp);
+    //         }
+    //     }
+    // }
+    // private void OnHairballHit(EntityUid uid, HairballComponent component, ThrowDoHitEvent args)
+    // {
+    //     if (HasComp<FelinidComponent>(args.Target) || !HasComp<StatusEffectsComponent>(args.Target))
+    //         return;
+    //     if (_robustRandom.Prob(0.2f))
+    //         _vomitSystem.Vomit(args.Target);
+    // }
 
-    private void OnHairballPickupAttempt(EntityUid uid, HairballComponent component, GettingPickedUpAttemptEvent args)
-    {
-        if (HasComp<FelinidComponent>(args.User) || !HasComp<StatusEffectsComponent>(args.User))
-            return;
+    // private void OnHairballPickupAttempt(EntityUid uid, HairballComponent component, GettingPickedUpAttemptEvent args)
+    // {
+    //     if (HasComp<FelinidComponent>(args.User) || !HasComp<StatusEffectsComponent>(args.User))
+    //         return;
 
-        if (_robustRandom.Prob(0.2f))
-        {
-            _vomitSystem.Vomit(args.User);
-            args.Cancel();
-        }
-    }
+    //     if (_robustRandom.Prob(0.2f))
+    //     {
+    //         _vomitSystem.Vomit(args.User);
+    //         args.Cancel();
+    //     }
+    // }
 }

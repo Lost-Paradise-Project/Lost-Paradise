@@ -121,13 +121,13 @@
     priority: -1
     range: 25
 
-- type: entity
-  id: ActionViewAILaws
-  name: View AI Laws
-  description: View the laws that you must follow.
-  components:
-  - type: InstantAction
-    itemIconStyle: NoItem
-    icon: _LostParadise/Actions/AI/laws.png
-    event: !type:ToggleLawsScreenEvent
-    useDelay: 0.5
+# - type: entity
+#   id: ActionViewAILaws
+#   name: View AI Laws
+#   description: View the laws that you must follow.
+#   components:
+#   - type: InstantAction
+#     itemIconStyle: NoItem
+#     icon: _LostParadise/Actions/AI/laws.png
+#     event: !type:ToggleLawsScreenEvent
+#     useDelay: 0.5

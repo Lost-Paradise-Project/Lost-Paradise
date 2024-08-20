@@ -13,7 +13,7 @@
     - type: StationAI
       lawsId: LawsStationAIDefault
       defaultLayer: blue
-      action: ActionViewAILaws
+      # action: ActionViewAILaws
       layers:
         blue:
         - state: 4
