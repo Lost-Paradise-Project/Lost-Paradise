@@ -1,4 +1,4 @@
-﻿ent-NapalmChemistryBottle = napalm bottle
+﻿ent-NapalmChemistryBottle = бутылочка напалма
     .desc = { ent-BaseChemistryEmptyBottle.desc }
-ent-UltravasculineChemistryBottle = ultravasculine bottle
+ent-UltravasculineChemistryBottle = бутылочка ультраваскулина
     .desc = { ent-BaseChemistryEmptyBottle.desc }

@@ -1,8 +1,8 @@
 ﻿ent-AirlockMantisLocked = { ent-AirlockScience }
-    .suffix = Богомол, Закрыто
+    .suffix = Мантис, Закрыто
     .desc = { ent-AirlockScience.desc }
 ent-AirlockMantisGlassLocked = { ent-AirlockScienceGlass }
-    .suffix = Богомол, Закрыто
+    .suffix = Мантис, Закрыто
     .desc = { ent-AirlockScienceGlass.desc }
 ent-AirlockChiefJusticeLocked = { ent-AirlockCommand }
     .suffix = Chief Justice, Закрыто

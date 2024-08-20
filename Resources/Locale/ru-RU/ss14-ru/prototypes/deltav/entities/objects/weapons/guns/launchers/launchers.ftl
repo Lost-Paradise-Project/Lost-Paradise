@@ -1,3 +1,3 @@
-﻿ent-WeaponLauncherChinaLakeBorg = china lake
-    .desc = PLOOP! Contains a built in replicator to slowly make more ammo.
-    .suffix = Robot, energy based
+﻿ent-WeaponLauncherChinaLakeBorg = China Lake
+    .desc = БЛУП! Использует энергию для воссоздания боезапаса за довольно длительное время.
+    .suffix = Борг, использует энергию

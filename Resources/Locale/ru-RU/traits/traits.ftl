@@ -58,37 +58,84 @@ trait-name-Foreigner = Унесённый ядерным взрывом
 trait-description-Foreigner =
     По той или иной причине вы не говорите на основном языке станции.
     Вместо этого вам выдан переводчик, которым можете пользоваться только вы.
+trait-name-WillToLive = Воля К Жизни
+trait-description-WillToLive =
+    У вас необычайно сильная "воля к жизни", и вы будете сопротивляться смерти сильнее, чем другие.
+    Ваш порог урон, при котором вы становитесь мертвым, увеличен на 10 пунктов.
+trait-name-WillToDie = Воля к Смерти
+trait-description-WillToDie =
+    У вас необычайно слабая "воля к жизни", и вы будете умирать от ранений раньше, чем другие.
+    Ваш порог урон, при котором вы становитесь мертвым, снижен на 15 пунктов.
+trait-name-Tenacity = Упорство
+trait-description-Tenacity =
+    Будь то благодаря упорству, силе воли или тонким бионическим усилениям, вы становитесь выносливее других.
+    Ваш порог получения критического урона увеличен на 5 пунктов.
+trait-name-GlassJaw = Стеклянная челюсть
+trait-description-GlassJaw =
+    Ваше тело более хрупкое, чем у других, что приводит к большему урону критическими травмами
+    Ваш порог получения критического урона снижен на 10 пунктов.
+trait-name-HighAdrenaline = Высокий уровень адреналина
+trait-description-HighAdrenaline =
+    В силу естественных причин, генетических или бионических особенностей, у вас более мощная надпочечниковая железа.
+    При ранении ваши атаки в ближнем бою наносят на 10% больше урона, в дополнение к естественным бонусам от адреналина.
+    Стандартные адреналиновые бонусы к урону в ближнем бою увеличиваются на 20%.
+trait-name-AdrenalDysfunction = Дисфункция надпочечников
+trait-description-AdrenalDysfunction =
+    Ваши надпочечники полностью выведены из строя или, возможно, полностью отсутствуют.
+    При ранении ваши атаки в ближнем бою не получают бонус.
+    Стандартные бонусы от адреналина к урону в ближнем бою увеличиваются на 20%.
+trait-name-Masochism = Мазохизм
+trait-description-Masochism =
+    Получая удовольствие от собственной боли, вы не испытываете такой скованности, как другие.
+    Вы игнорируете первые 10% урона выносливости при атаках в ближнем бою.
+trait-name-LowPainTolerance = Низкая переносимость боли
+trait-description-LowPainTolerance =
+    Ваша переносимость боли намного ниже средней, а ее воздействие более подавляюще.
+    При получении урона выносливости ваш урон в ближнем бою уменьшается еще на 15%.
+trait-name-MartialArtist = Мастер боевых искусств
+trait-description-MartialArtist =
+    Вы прошли формальную подготовку по рукопашному бою, будь то на кулаках, ногах или когтях.
+    Ваши атаки в ближнем бою без оружия немного увеличивают дальность и наносят на 50% больше урона.
+    Это не относится ни к какому виду рукопашного боя, а только к оружию, с которым вы родились.
+trait-name-Vigor = Сила
+trait-description-Vigor =
+    Ваша выносливость повышается благодаря целеустремленности, физической подготовке или бионическим усилениям.
+    Ваша выносливость увеличивается на 10 пунктов.
+trait-name-Lethargy = Летаргия
+trait-description-Lethargy =
+    Вы устаете быстрее других, что делает вас более уязвимым к переутомлению.
+    Ваша выносливость снижена на 15 пунктов.
 trait-name-SignLanguage = Язык жестов
 trait-description-SignLanguage =
     Вы можете понимать и использовать галактический язык жестов.
     Если вы по какой-либо причине не можете говорить, вы все равно можете общаться с помощью языка жестов.
 trait-name-Voracious = Прожорливый
 trait-description-Voracious =
-    Nothing gets between you and your food.
-    Your endless consumption of food and drinks is twice as fast.
-trait-name-ParkourTraining = Parkour Training
+    Ничто не встанет между вами и вашей едой.
+    Вы будете потреблять еду и напитки в два раза быстрее, чем обычно.
+trait-name-ParkourTraining = Тренировка по паркуру
 trait-description-ParkourTraining =
-    Whether as a hobby, lifestyle, or professional training, you are trained in the discipline of parkour.
-    You're faster with climbing, crawling, lying down, and getting up.
-trait-name-Sluggish = Sluggish
+    Паркур - это ваше хобби, стиль жизни или профессиональная тренировка.
+    Вы становитесь быстрее в лазании, ползании, лежании и вставании.
+trait-name-Sluggish = Вялый
 trait-description-Sluggish =
-    You navigate the world slower than others, perhaps due to a medical condition, inactivity, or age.
-    You move slower, and it takes longer for you to climb, lie down and get up.
-trait-name-SnailPaced = Snail-Paced
+    Вы ориентируетесь в мире медленнее, чем другие, возможно, из-за состояния здоровья, гиподинамии или возраста.
+    Вы двигаетесь медленнее, и вам требуется больше времени, чтобы подняться, лечь и встать с постели.
+trait-name-SnailPaced = Черепашьим шагом
 trait-description-SnailPaced =
-    You walk at a snail's pace, perhaps due to a medical condition, mobility impairment, or age.
-    You move substantially slower, and it takes far longer for you to climb, lie down and get up.
-trait-name-LightStep = Light Step
-trait-description-LightStep = You move with a gentle step, making your footsteps quieter.
-trait-name-Swashbuckler = Swashbuckler
+    Вы передвигаетесь со скоростью улитки, возможно, из-за состояния здоровья, нарушения подвижности или возраста.
+    Вы двигаетесь значительно медленнее, и вам требуется гораздо больше времени, чтобы подняться, лечь и встать.
+trait-name-LightStep = Легкий шаг
+trait-description-LightStep = Вы двигаетесь легким шагом, делая свои шаги тише.
+trait-name-Swashbuckler = Фехтовальщик
 trait-description-Swashbuckler =
-    You are an expert in swordsmanship, wielding swords, knives, and other blades with unrivaled finesse.
-    Your melee Slash bonus is increased to 35%, but your melee Blunt bonus is reduced to 20%.
-trait-name-Spearmaster = Spearmaster
+    Вы являетесь экспертом в фехтовании, владея мечами, ножами и другими видами клинков с непревзойденным мастерством.
+    Ваш бонус за удар ножом в ближнем бою увеличен до 35%, но бонус за удар тупым предметом в ближнем бою снижен до 20%.
+trait-name-Spearmaster = Мастер копья
 trait-description-Spearmaster =
-    You have an outstanding proficiency with spears, wielding them as an extension of your body.
-    Your melee Piercing bonus is increased to 35%, but your melee Blunt bonus is reduced to 20%.
-trait-name-WeaponsGeneralist = Weapons Generalist
+    Вы превосходно владеете копьями, используя их как продолжение своего тела.
+    Ваш бонус к прокалыванию в ближнем бою увеличен до 35%, но бонус к нанесению ударов тупым предметом в ближнем бою снижен до 20%.
+trait-name-WeaponsGeneralist = Специалист по оружию
 trait-description-WeaponsGeneralist =
-    You are a jack of all trades with melee weapons, enabling you to be versatile with your weapon arsenal.
-    Your melee damage bonus for all Brute damage types (Blunt, Slash, Piercing) becomes 25%.
+    Вы мастер на все руки в обращении с оружием ближнего боя, что позволяет вам быть универсальным в своем арсенале.
+    Ваш бонус к урону в ближнем бою за все виды грубого урона составляет 25%.

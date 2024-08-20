@@ -4,6 +4,7 @@ damage-examinable-verb-message = Изучить показатели урона.
 damage-hitscan = хитскан
 damage-projectile = снаряд
 damage-melee = ближний бой
+damage-melee-heavy = сильная атака
 damage-throw = метательное
 damage-examine = Наносит следующие повреждения:
 damage-examine-type = Наносит следующие повреждения ([color=cyan]{ $type }[/color]):

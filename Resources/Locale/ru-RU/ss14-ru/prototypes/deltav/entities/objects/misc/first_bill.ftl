@@ -1,2 +1,2 @@
-﻿ent-SpaceCashLuckyBill = logistics officer's lucky bill
-    .desc = The first bill ever earned by the Logistics Officer from trading. A small chip is embedded in it.
+﻿ent-SpaceCashLuckyBill = талисман удачи офицера логистики
+    .desc = Это - самый первая банкнота офицера логистики, которую он заработал путём торговли. В неё встроен маленький чип.

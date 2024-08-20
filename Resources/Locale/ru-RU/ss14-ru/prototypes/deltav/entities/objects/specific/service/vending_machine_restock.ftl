@@ -1,4 +1,4 @@
-﻿ent-BaseVendingMachineRestockDeltaV = vending machine restock box
-    .desc = A box for restocking vending machines with corporate goodies.
-ent-VendingMachineRestockPride = Pride-O-Mat restock box
-    .desc = The station needs more plushie sharks and you know it.
+﻿ent-BaseVendingMachineRestockDeltaV = ящик пополнения автоматов
+    .desc = Коробка с пополнениями для станционных автоматов.
+ent-VendingMachineRestockPride = пополнение Флаг-О-Мат
+    .desc = Станции нужны плюшевые акулы!

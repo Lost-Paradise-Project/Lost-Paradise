@@ -1,2 +1,2 @@
-﻿ent-BulletLightRifleReplicated = replicated bullet (.20 rifle)
+﻿ent-BulletLightRifleReplicated = пуля (.20 винтовочные)
     .desc = { ent-BaseBullet.desc }

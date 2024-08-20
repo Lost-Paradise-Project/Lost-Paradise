@@ -1,2 +1,2 @@
-﻿ent-DoorRemoteJustice = justice door remote
+﻿ent-DoorRemoteJustice = юридический пульт шлюзов
     .desc = { ent-DoorRemoteDefault.desc }
