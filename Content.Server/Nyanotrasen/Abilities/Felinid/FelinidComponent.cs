@@ -11,18 +11,18 @@ public sealed partial class FelinidComponent : Component
     /// <summary>
     /// The hairball prototype to use.
     /// </summary>
-    [DataField("hairballPrototype", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
-    public string HairballPrototype = "Hairball";
+    // [DataField("hairballPrototype", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
+    // public string HairballPrototype = "Hairball";
 
     //[DataField("hairballAction", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
     //public string HairballAction = "ActionHairball";
 
-    [DataField("hairballActionId",
-        customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
-    public string? HairballActionId = "ActionHairball";
+    // [DataField("hairballActionId",
+    //     customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
+    // public string? HairballActionId = "ActionHairball";
 
-    [DataField("hairballAction")]
-    public EntityUid? HairballAction;
+    // [DataField("hairballAction")]
+    // public EntityUid? HairballAction;
 
     [DataField("eatActionId",
         customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]

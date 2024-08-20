@@ -107,7 +107,7 @@ public sealed partial class EnsnareableSystem
     /// <param name="user">The entity that is freeing the target</param>
     /// <param name="ensnare">The entity used to ensnare</param>
     /// <param name="component">The ensnaring component</param>
-    public void TryFree(EntityUid target,  EntityUid user, EntityUid ensnare, EnsnaringComponent component)
+    public void TryFree(EntityUid target, EntityUid user, EntityUid ensnare, EnsnaringComponent component) // PE4HENIKA LOST PARADISE
     {
         //Don't do anything if they don't have the ensnareable component.
         if (!HasComp<EnsnareableComponent>(target))
@@ -118,8 +118,7 @@ public sealed partial class EnsnareableSystem
 
         var doAfterEventArgs = new DoAfterArgs(EntityManager, user, freeTime, new EnsnareableDoAfterEvent(), target, target: target, used: ensnare)
         {
-            BreakOnUserMove = breakOnMove,
-            BreakOnTargetMove = breakOnMove,
+            BreakOnMove = breakOnMove, // PE4HENIKA LOST PARADISE
             BreakOnDamage = false,
             NeedHand = true,
             BlockDuplicate = true,

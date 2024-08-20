@@ -15,6 +15,8 @@
         Male: MaleTajaran
         Female: FemaleTajaran
         Unsexed: FemaleTajaran
+    - type: PotentialPsionic
+    - type: Carriable
     - type: Hunger
       starvationDamage:
         types:
@@ -55,8 +57,8 @@
       speechVerb: Tajaran
     - type: Inventory
       speciesId: tajaran
-    # - type: EmotePanel
-      race: Tajar
+    # # - type: EmotePanel
+    #   race: Tajar
     - type: LanguageSpeaker
       speaks:
       - GalacticCommon

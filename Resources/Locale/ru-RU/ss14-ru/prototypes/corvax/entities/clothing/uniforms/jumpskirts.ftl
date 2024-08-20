@@ -16,5 +16,5 @@ ent-ClothingUniformJumpskirtHoPTurtleneck = юбка-водолазка глав
     .desc = Это водолазка с юбкой главы персонала.
 ent-ClothingUniformJumpskirtHoSBlack = чёрная юбка-комбинезон главы службы безопасности
     .desc = Это чёрный костюм с юбкой главы службы безопасности.
-ent-ClothingUniformJumpskirtRDClassical = классическая юбка-костюм научного руководителя
-    .desc = Это классический костюм с юбкой научного руководителя.
+ent-ClothingUniformJumpskirtRDClassical = классическая юбка-костюм научного директора
+    .desc = Это классический костюм с юбкой научного директора.

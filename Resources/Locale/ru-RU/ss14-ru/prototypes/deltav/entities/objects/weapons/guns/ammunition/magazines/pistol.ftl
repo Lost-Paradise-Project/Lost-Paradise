@@ -1,10 +1,10 @@
-ent-BaseMagazinePistolSpecial = pistol magazine (.38 special)
+﻿ent-BaseMagazinePistolSpecial = пистолетный магазин (.38 специальные)
     .desc = { ent-BaseItem.desc }
-ent-MagazinePistolSpecial = pistol magazine (.38 special)
+ent-MagazinePistolSpecial = пистолетный магазин (.38 специальные)
     .desc = { ent-BaseMagazinePistolSpecial.desc }
-ent-MagazinePistolSpecialPractice = pistol magazine (.38 special practice)
+ent-MagazinePistolSpecialPractice = пистолетный магазин (.38 специальные учебные)
     .desc = { ent-BaseMagazinePistolSpecial.desc }
-ent-MagazinePistolSpecialRubber = pistol magazine (.38 special rubber)
+ent-MagazinePistolSpecialRubber = пистолетный магазин (.38 специальные резиновые)
     .desc = { ent-BaseMagazinePistolSpecial.desc }
-ent-MagazinePistolSpecialMindbreaker = pistol magazine (.38 special mindbreaker)
+ent-MagazinePistolSpecialMindbreaker = пистолетный магазин (.38 специальные подавляющие)
     .desc = { ent-BaseMagazinePistolSpecial.desc }

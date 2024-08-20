@@ -26,6 +26,14 @@
     price: 0
   - type: StackPrice
     price: 1
+  - type: Healing
+    delay: 0.8
+    damageContainers:
+    - Silicon
+    damage:
+      types: # these are all split across multiple types
+        Heat: -1.50
+        Shock: -1.50
 
 - type: entity
   id: CableHVStack

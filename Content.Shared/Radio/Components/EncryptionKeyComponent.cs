@@ -19,4 +19,20 @@ public sealed partial class EncryptionKeyComponent : Component
     /// </summary>
     [DataField("defaultChannel", customTypeSerializer: typeof(PrototypeIdSerializer<RadioChannelPrototype>))]
     public string? DefaultChannel;
+
+    // IPC-Start
+    /// <summary>
+    ///     Whether or not the headset can be examined to see the encryption keys while the keys aren't accessible.
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    [DataField("examineWhileLocked")]
+    public bool ExamineWhileLocked = true;
+
+    /// <summary>
+    ///     Whether or not encryption keys can be removed from the headset.
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    [DataField("keysUnlocked")]
+    public bool KeysUnlocked = true;
+    // IPC-End
 }

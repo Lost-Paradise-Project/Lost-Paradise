@@ -1,260 +1,391 @@
-- type: marking
-  id: LPPIPCFaceBlueS
-  bodyPart: HeadSide
-  markingCategory: HeadSide
-  speciesRestriction: [IPC]
-  sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: blue_s
+
+## CANT SET THESE SCREENS TO "shader: unshaded"
+## RobustToolbox/Robust.Shared/Utility/SpriteSpecifier.cs
 
 - type: marking
-  id: LPPIPCFaceConsoleS
+  speciesRestriction: [IPC]
+  id: ScreenStatic
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: console_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_static
+
 
 - type: marking
-  id: LPPIPCFaceGogglesS
+  speciesRestriction: [IPC]
+  id: ScreenBlue
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: goggles_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_blue
+
 
 - type: marking
-  id: LPPIPCFaceEightS
+  speciesRestriction: [IPC]
+  id: ScreenBreakout
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: eight_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_breakout
+
 
 - type: marking
-  id: LPPIPCFaceGolGliderS
+  speciesRestriction: [IPC]
+  id: ScreenEight
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: gol_glider_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_eight
+
 
 - type: marking
-  id: LPPIPCFaceGreenS
+  speciesRestriction: [IPC]
+  id: ScreenGoggles
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: green_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_goggles
+
 
 - type: marking
-  id: LPPIPCFaceHeartS
+  speciesRestriction: [IPC]
+  id: ScreenExclaim
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: heart_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_exclaim
+
 
 - type: marking
-  id: LPPIPCFaceLumiEyesS
+  speciesRestriction: [IPC]
+  id: ScreenHeart
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: lumieyes
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_heart
+
 
 - type: marking
-  id: LPPIPCFaceMelody
+  speciesRestriction: [IPC]
+  id: ScreenMonoeye
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: melody
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_monoeye
+
 
 - type: marking
-  id: LPPIPCFaceLumiWaitingS
+  speciesRestriction: [IPC]
+  id: ScreenNature
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: lumi_waiting_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_nature
+
 
 - type: marking
-  id: LPPIPCFaceMonoeye
+  speciesRestriction: [IPC]
+  id: ScreenOrange
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: monoeye
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_orange
+
 
 - type: marking
-  id: LPPIPCFaceSpark
+  speciesRestriction: [IPC]
+  id: ScreenPink
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: spark
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_pink
+
 
 - type: marking
-  id: LPPIPCFaceGolMime
+  speciesRestriction: [IPC]
+  id: ScreenQuestion
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: gol_mime
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_question
+
 
 - type: marking
-  id: LPPIPCFaceOrangeHespAltS
+  speciesRestriction: [IPC]
+  id: ScreenShower
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: orange_hesp_alt_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_shower
+
 
 - type: marking
-  id: LPPIPCFaceOrangeS
+  speciesRestriction: [IPC]
+  id: ScreenYellow
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: orange_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_yellow
+
 
 - type: marking
-  id: LPPIPCFacePinkHespAltS
+  speciesRestriction: [IPC]
+  id: ScreenScroll
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: pink_hesp_alt_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_scroll
+
 
 - type: marking
-  id: LPPIPCFacePinkS
+  speciesRestriction: [IPC]
+  id: ScreenConsole
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: pink_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_console
+
 
 - type: marking
-  id: LPPIPCFaceRainbowHespAltS
+  speciesRestriction: [IPC]
+  id: ScreenRgb
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: rainbow_hesp_alt_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_rgb
+
 
 - type: marking
-  id: LPPIPCFaceRainbowS
+  speciesRestriction: [IPC]
+  id: ScreenGlider
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: rainbow_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_glider
+
 
 - type: marking
-  id: LPPIPCFaceRedS
+  speciesRestriction: [IPC]
+  id: ScreenRainbowhoriz
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: red_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_rainbowhoriz
+
 
 - type: marking
-  id: LPPIPCFaceRgbHespAltS
+  speciesRestriction: [IPC]
+  id: ScreenBsod
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: rgb_hesp_alt_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_bsod
 
-# - type: marking
-#   id: LPPIPCFaceRgbS
-#   bodyPart: HeadSide
-#   markingCategory: HeadSide
-#   speciesRestriction: [IPC]
-#   sprites:
-#     - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-#       state: rgb_s
 
 - type: marking
-  id: LPPIPCFaceScrollHespAltS
+  speciesRestriction: [IPC]
+  id: ScreenRedtext
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: scroll_hesp_alt_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_redtext
+
 
 - type: marking
-  id: LPPIPCFaceScrollS
+  speciesRestriction: [IPC]
+  id: ScreenSinewave
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: scroll_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_sinewave
+
 
 - type: marking
-  id: LPPIPCFaceShowerS
+  speciesRestriction: [IPC]
+  id: ScreenSquarewave
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: shower_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_squarewave
+
 
 - type: marking
-  id: LPPIPCFaceSmokingS
+  speciesRestriction: [IPC]
+  id: ScreenEcgwave
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: smoking_s
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_ecgwave
+
 
 - type: marking
-  id: LPPIPCFaceEyes
+  speciesRestriction: [IPC]
+  id: ScreenEyes
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: eyes
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_eyes
+
 
 - type: marking
-  id: LPPIPCFaceEyeStall
+  speciesRestriction: [IPC]
+  id: ScreenEyestall
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: eyestall
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_eyestall
+
 
 - type: marking
-  id: LPPIPCFaceLoading
+  speciesRestriction: [IPC]
+  id: ScreenEyesangry
   bodyPart: HeadSide
   markingCategory: HeadSide
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_face.rsi
-      state: loading
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_eyesangry
+
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: ScreenLoading
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_loading
+
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: ScreenWindowsxp
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_windowsxp
+
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: ScreenTetris
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_tetris
+
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: ScreenTv
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_tv
+
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: ScreenTextdrop
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_textdrop
+
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: ScreenStars
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_stars
+
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: ScreenRainbowdiag
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_rainbowdiag
+
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: ScreenBlank
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_blank
+
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: ScreenSmile
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_smile
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: ScreenFrown
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_frown
+
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: ScreenRing
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_ring
+
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: ScreenL
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+      state: ipc_screen_l

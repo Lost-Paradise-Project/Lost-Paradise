@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/cf45322c7ee16f9d7e43d5260daf24ceb77c1b25",
+  "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/cf45322c7ee16f9d7e43d5260daf24ceb77c1b25 / Edit by Pe4henika",
   "size": {
     "x": 32,
     "y": 32
@@ -213,6 +213,114 @@
     },
     {
       "name": "service_r_leg+o"
+    },
+    {
+      "name": "science_l_arm"
+    },
+    {
+      "name": "science_r_arm"
+    },
+    {
+      "name": "science_l_leg"
+    },
+    {
+      "name": "science_r_leg"
+    },
+    {
+      "name": "science_chest"
+    },
+    {
+      "name": "science_head"
+    },
+    {
+      "name": "science_head+o"
+    },
+    {
+      "name": "science_chest+o"
+    },
+    {
+      "name": "science_l_arm+o"
+    },
+    {
+      "name": "science_r_arm+o"
+    },
+    {
+      "name": "science_l_leg+o"
+    },
+    {
+      "name": "science_r_leg+o"
+    },
+    {
+      "name": "erp_borg_l_arm"
+    },
+    {
+      "name": "erp_borg_r_arm"
+    },
+    {
+      "name": "erp_borg_l_leg"
+    },
+    {
+      "name": "erp_borg_r_leg"
+    },
+    {
+      "name": "erp_borg_chest"
+    },
+    {
+      "name": "erp_borg_head"
+    },
+    {
+      "name": "erp_borg_head+o"
+    },
+    {
+      "name": "erp_borg_chest+o"
+    },
+    {
+      "name": "erp_borg_l_arm+o"
+    },
+    {
+      "name": "erp_borg_r_arm+o"
+    },
+    {
+      "name": "erp_borg_l_leg+o"
+    },
+    {
+      "name": "erp_borg_r_leg+o"
+    },
+    {
+      "name": "security_chest"
+    },
+	  {
+      "name": "security_chest+o"
+    },
+    {
+      "name": "security_head"
+    },
+	  {
+      "name": "security_head+o"
+    },
+    {
+      "name": "security_l_arm"
+    },
+    {
+      "name": "security_l_arm+o"
+    },
+    {
+      "name": "security_l_leg"
+    },
+    {
+      "name": "security_l_leg+o"
+    },
+    {
+      "name": "security_r_arm"
+    },
+    {
+      "name": "security_r_arm+o"
+    },
+    {
+      "name": "security_r_leg"
+    },
+    {
+      "name": "security_r_leg+o"
     }
   ]
 }

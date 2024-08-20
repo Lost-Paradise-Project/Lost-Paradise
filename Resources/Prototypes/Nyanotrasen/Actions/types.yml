@@ -7,15 +7,17 @@
   - type: InstantAction
     icon: Nyanotrasen/Icons/verbiconfangs.png
     event: !type:EatMouseActionEvent
-
-- type: entity
-  id: ActionHairball
-  name: action-name-hairball
-  description: action-description-hairball
-  noSpawn: true
-  components:
-  - type: InstantAction
-    charges: 1
-    icon: { sprite: Nyanotrasen/Objects/Specific/Species/felinid.rsi, state: icon }
-    useDelay: 30
-    event: !type:HairballActionEvent
+    
+# LOST PARADISE (PE4HENIKA)- Start
+# - type: entity
+#   id: ActionHairball
+#   name: action-name-hairball
+#   description: action-description-hairball
+#   noSpawn: true
+#   components:
+#   - type: InstantAction
+#     charges: 1
+#     icon: { sprite: Nyanotrasen/Objects/Specific/Species/felinid.rsi, state: icon }
+#     useDelay: 30
+#     event: !type:HairballActionEvent
+# LOST PARADISE (PE4HENIKA)- END

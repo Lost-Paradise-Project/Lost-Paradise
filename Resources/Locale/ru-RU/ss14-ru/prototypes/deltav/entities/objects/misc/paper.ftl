@@ -1,2 +1,2 @@
-ent-PaperStationWarrant = station warrant
-    .desc = A paper warrant issued by the justice department.
+﻿ent-PaperStationWarrant = станционный ордер
+    .desc = Бумажный ордер, выданный юридическим департаментом.

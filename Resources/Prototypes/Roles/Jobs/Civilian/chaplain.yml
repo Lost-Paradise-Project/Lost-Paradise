@@ -5,11 +5,11 @@
   playTimeTracker: JobChaplain
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Epistemics # DeltaV - Epistemics Department replacing Science
-      min: 14400 #DeltaV 4 hours
+      department: Civilian
+      min: 14400 #Lost Paradise 4 hour
   startingGear: ChaplainGear
   icon: "JobIconChaplain"
-  supervisors: job-supervisors-rd
+  supervisors: job-supervisors-hop
   access:
   - Chapel
   - Research # DeltaV - Move Chaplain into Epistemics

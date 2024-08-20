@@ -32,7 +32,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHunter
   categories: [ HideSpawnMenu ]
-  name: шлем древнего скафандра Синдиката (защитный)
+  name: шлем древнего скафандра Охотника (защитный)
   description: Крайне комфорнтый шлем, что позволяет вам защититься от морозной погоды. он в защитном.
   components:
   - type: Sprite

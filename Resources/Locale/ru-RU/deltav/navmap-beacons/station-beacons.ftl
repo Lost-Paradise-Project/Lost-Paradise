@@ -1,5 +1,5 @@
-station-beacon-epistemics = Эпистемология
-station-beacon-mystagogue = Мистагог
+﻿station-beacon-epistemics = Научный отдел
+station-beacon-mystagogue = Научный Директор
 station-beacon-logistics = Логистика
 station-beacon-logistics-reception = Логистика
 station-beacon-lo = Офицер логистики
@@ -10,7 +10,7 @@ station-beacon-exam = Экзамен
 station-beacon-med-outpost = Медицинский аванпост
 station-beacon-psych = Психология
 station-beacon-glimmer-prober = Исследователь
-station-beacon-forensic-mantis = Богомол
+station-beacon-forensic-mantis = Мантис
 station-beacon-mailroom = Почта
 station-beacon-engi-outpost = Инженерский аванпост
 station-beacon-janitor-office = Офис уборщика

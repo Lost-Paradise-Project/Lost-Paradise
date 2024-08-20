@@ -1,5 +1,5 @@
-ent-Portafib = portafib
-    .desc = Less weight, same great ZZZAP!
+﻿ent-Portafib = портативный дефибриллятор
+    .desc = Компактно и надёжно. РАЗРЯД!
 ent-PortafibEmpty = { ent-Portafib }
-    .suffix = Empty
+    .suffix = Пустой
     .desc = { ent-Portafib.desc }

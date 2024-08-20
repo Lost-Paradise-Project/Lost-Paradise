@@ -1,10 +1,10 @@
-ent-RubberStampPsychologist = psychologist's rubber stamp
+﻿ent-RubberStampPsychologist = печать психолога
     .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
-ent-RubberStampLawyer = lawyer's rubber stamp
+ent-RubberStampLawyer = печать адвоката
     .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
-ent-RubberStampNotary = notary stamp
-    .desc = An old-fashioned seal for marking important documents, made of polished bronze.
-ent-RubberStampChiefJustice = chief justice stamp
+ent-RubberStampNotary = нотариальная печать
+    .desc = Старомодная печать для заверения документов. Сделана из бронзового сплава.
+ent-RubberStampChiefJustice = печать верховного судьи
     .desc = { ent-RubberStampBase.desc }

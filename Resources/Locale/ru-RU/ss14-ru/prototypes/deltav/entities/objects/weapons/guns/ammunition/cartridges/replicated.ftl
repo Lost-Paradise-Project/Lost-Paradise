@@ -1,2 +1,2 @@
-ent-CartridgeLightRifleReplicated = replicated cartridge (.30 rifle)
+﻿ent-CartridgeLightRifleReplicated = патрон (.30 винтовочный)
     .desc = { ent-BaseCartridgeLightRifle.desc }
