@@ -1,1 +1,1 @@
-character-setup-gui-character-setup-sponsor-button = Спонсор
+﻿character-setup-gui-character-setup-sponsor-button = Спонсор

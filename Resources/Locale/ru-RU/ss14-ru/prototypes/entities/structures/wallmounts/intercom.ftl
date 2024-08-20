@@ -1,4 +1,4 @@
-ent-BaseIntercom = интерком
+﻿ent-BaseIntercom = интерком
     .desc = Интерком. На случай, когда необходимо что-то сообщить станции.
 ent-IntercomAssembly = intercom assembly
     .desc = Интерком. На данный момент он бесполезен.

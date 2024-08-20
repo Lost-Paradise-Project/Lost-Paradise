@@ -1,2 +1,2 @@
-ent-RandomBook = random book spawner
+﻿ent-RandomBook = random book spawner
     .desc = { ent-MarkerBase.desc }

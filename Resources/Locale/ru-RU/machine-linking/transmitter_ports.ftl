@@ -1,4 +1,4 @@
-signal-port-name-pressed = Нажато
+﻿signal-port-name-pressed = Нажато
 signal-port-description-pressed = Этот порт задействуется всякий раз, когда передатчик активируется.
 signal-port-name-on-transmitter = Вкл
 signal-port-description-on-transmitter = Этот порт задействуется всякий раз, когда передатчик включён.

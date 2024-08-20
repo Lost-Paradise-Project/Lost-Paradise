@@ -1,4 +1,4 @@
-### Loc for the transfer amount eui window
+﻿### Loc for the transfer amount eui window
 
 
 ## Title

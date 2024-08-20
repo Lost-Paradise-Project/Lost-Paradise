@@ -1,4 +1,4 @@
-ent-ClothingOuterVestFlak = жилетка
+﻿ent-ClothingOuterVestFlak = жилетка
     .desc = Обычная пыльная жилетка.
 ent-ClothingOuterVestFlakPress = жилетка прессы
     .desc = Жилетка, которую надевают репортёры в горячих точках.

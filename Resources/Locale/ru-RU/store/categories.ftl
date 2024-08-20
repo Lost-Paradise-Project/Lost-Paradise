@@ -1,4 +1,4 @@
-# Uplink
+﻿# Uplink
 store-category-debug = debug category
 store-category-debug2 = debug category 2
 store-category-weapons = Вооружение

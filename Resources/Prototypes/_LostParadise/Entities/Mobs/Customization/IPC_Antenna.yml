@@ -1,98 +1,89 @@
 - type: marking
-  id: LPPIPCAntennaAntlers
+  speciesRestriction: [IPC]
+  id: RobotAntennaTv
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_antenna.rsi
+    - sprite: SimpleStation14/Mobs/Customization/ipc_antenna.rsi
+      state: ipc_antenna_tv
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: RobotAntennaTesla
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_antenna.rsi
+      state: ipc_antenna_tesla
+
+# - type: marking
+#   speciesRestriction: [IPC]
+#   id: RobotAntennaLightb
+#   bodyPart: HeadTop
+#   markingCategory: HeadTop
+#   sprites:
+#     - sprite: SimpleStation14/Mobs/Customization/ipc_antenna.rsi
+#       state: ipc_antenna_lightb
+
+# - type: marking
+#   speciesRestriction: [IPC]
+#   id: RobotAntennaLight
+#   bodyPart: HeadTop
+#   markingCategory: HeadTop
+#   sprites:
+#     - sprite: SimpleStation14/Mobs/Customization/ipc_antenna.rsi
+#       state: ipc_antenna_light
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: RobotAntennaCyberhead
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_antenna.rsi
+      state: ipc_antenna_cyberhead
+
+# - type: marking
+#   speciesRestriction: [IPC]
+#   id: RobotAntennaSidelights
+#   bodyPart: HeadTop
+#   markingCategory: HeadTop
+#   sprites:
+#     - sprite: SimpleStation14/Mobs/Customization/ipc_antenna.rsi
+#       state: ipc_antenna_sidelights
+
+- type: marking
+  speciesRestriction: [IPC]
+  id: RobotAntennaAntlers
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  sprites:
+    - sprite: SimpleStation14/Mobs/Customization/ipc_antenna.rsi
       state: ipc_antenna_antlers
 
 - type: marking
-  id: LPPIPCAntennaTesla
+  speciesRestriction: [IPC]
+  id: RobotAntennaDroneeyes
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_antenna.rsi
-      state: ipc_antenna_tesla
-
-- type: marking
-  id: LPPIPCAntennaLightb
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [IPC]
-  sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_antenna.rsi
-      state: ipc_antenna_lightb
-
-- type: marking
-  id: LPPIPCAntennaLight
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [IPC]
-  sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_antenna.rsi
-      state: ipc_antenna_light
-
-- type: marking
-  id: LPPIPCAntennaCyberHead
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [IPC]
-  sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_antenna.rsi
-      state: ipc_antenna_cyberhead
-
-- type: marking
-  id: LPPIPCAntennaSideLight
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [IPC]
-  sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_antenna.rsi
-      state: ipc_antenna_sidelights
-
-- type: marking
-  id: LPPIPCAntennaDroneeyes
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [IPC]
-  sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_antenna.rsi
+    - sprite: SimpleStation14/Mobs/Customization/ipc_antenna.rsi
       state: ipc_antenna_droneeyes
 
 - type: marking
-  id: LPPIPCAntennaCrowned
+  speciesRestriction: [IPC]
+  id: RobotAntennaCrowned
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_antenna.rsi
+    - sprite: SimpleStation14/Mobs/Customization/ipc_antenna.rsi
       state: ipc_antenna_crowned
 
 - type: marking
-  id: LPPIPCAntennaTowers
+  speciesRestriction: [IPC]
+  id: RobotAntennaTowers
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [IPC]
   sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_antenna.rsi
+    - sprite: SimpleStation14/Mobs/Customization/ipc_antenna.rsi
       state: ipc_antenna_towers
-
-- type: marking
-  id: LPPIPCAntennaShortLizard
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [IPC]
-  sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_antenna.rsi
-      state: ipc_antenna_short_lizard
-
-- type: marking
-  id: LPPIPCAntennaLizard
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [IPC]
-  sprites:
-    - sprite: _LostParadise/Mobs/Customization/ipc_antenna.rsi
-      state: ipc_antenna_lizard

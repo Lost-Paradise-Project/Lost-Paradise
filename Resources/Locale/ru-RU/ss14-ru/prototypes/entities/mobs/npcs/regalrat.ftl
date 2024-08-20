@@ -1,4 +1,4 @@
-ent-MobRatKing = крысиный король
+﻿ent-MobRatKing = крысиный король
     .desc = Он крысюк и он тут босс.
 ent-MobRatKingBuff = { ent-MobRatKing }
     .suffix = Качок

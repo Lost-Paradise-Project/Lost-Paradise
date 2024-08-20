@@ -1,4 +1,4 @@
-# sheets of steel
+﻿# sheets of steel
 materials-unit-sheet = листы
 # bars of gold
 materials-unit-bar = слитки

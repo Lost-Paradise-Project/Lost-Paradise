@@ -1,4 +1,4 @@
-ent-UtensilBase = { ent-BaseItem }
+﻿ent-UtensilBase = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-UtensilBasePlastic = { ent-UtensilBase }
     .desc = { ent-UtensilBase.desc }

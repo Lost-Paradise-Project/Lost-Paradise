@@ -1,4 +1,4 @@
-ent-LightPostSmall = фонарный столб
+﻿ent-LightPostSmall = фонарный столб
     .desc = Всегда работающий светильник.
     .suffix = Всегда запитанный
 ent-PoweredLightPostSmallEmpty = фонарный столб

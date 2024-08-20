@@ -1,4 +1,4 @@
-ent-PlushieMothRandom = moth plushie
+﻿ent-PlushieMothRandom = moth plushie
     .desc = A cute little mothperson that you can hold in the palm of your hand.
     .suffix = Random
 ent-PlushieMothMusician = moth musician plushie

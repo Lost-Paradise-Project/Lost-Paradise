@@ -1,4 +1,4 @@
-ent-WeaponWandPolymorphBase = { ent-WeaponWandBase }
+﻿ent-WeaponWandPolymorphBase = { ent-WeaponWandBase }
     .desc = { ent-WeaponWandBase.desc }
 ent-WeaponWandPolymorphCarp = волшебная палочка полиморфа карпа
     .desc = На случай, когда вам срочно нужно филе карпа, а клоун выглядит уж очень аппетитно.
@@ -7,7 +7,7 @@ ent-WeaponWandPolymorphMonkey = волшебная палочка полимор
 ent-WeaponWandFireball = волшебная палочка огненного шара
     .desc = Огромные огненные шары!
 ent-WeaponWandDeath = волшебная палочка мгновенной смерти
-    .desc = Над созданием этого чуда трудились только лучшие умы отдела Эпистемологии Space Wizards.
+    .desc = Над созданием этого чуда трудились только лучшие умы отдела Научного отдела Space Wizards.
 ent-WeaponWandPolymorphDoor = волшебная палочка входа
     .desc = На случай, когда нужен маршрут для побега.
 ent-WeaponWandCluwne = волшебная палочка полиморфа клувеня

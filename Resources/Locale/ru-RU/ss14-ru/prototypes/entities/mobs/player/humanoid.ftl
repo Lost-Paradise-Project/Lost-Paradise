@@ -1,4 +1,4 @@
-ent-RandomHumanoidSpawnerDeathSquad = Агент Эскадрона смерти
+﻿ent-RandomHumanoidSpawnerDeathSquad = Агент Эскадрона смерти
     .suffix = Роль ОБР, Эскадрон смерти
     .desc = { "" }
 ent-RandomHumanoidSpawnerERTLeader = ОБР лидер
@@ -71,7 +71,7 @@ ent-RandomHumanoidTravelingChef = путешествующий шеф-повар
     .desc = { "" }
 ent-DisasterVictimSpawner = жертва катастрофы спавнер
     .desc = { ent-MarkerBase.desc }
-ent-RandomHumanoidDisasterVictimRD = жертва катастрофы Мистагоги роль призрака
+ent-RandomHumanoidDisasterVictimRD = жертва катастрофы Научный Директори роль призрака
     .desc = { "" }
 ent-RandomHumanoidDisasterVictimCMO = жертва катастрофы ГВ роль призрака
     .desc = { ent-RandomHumanoidDisasterVictimRD.desc }

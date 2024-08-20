@@ -1,4 +1,4 @@
-ent-LPPCEComputerComms = консоль связи старшего инженера
+﻿ent-LPPCEComputerComms = консоль связи старшего инженера
     .desc = Консоль, используемая для подачи объявлений на всю станцию от конкретного главы.
 ent-LPPCapComputerComms = консоль связи капитана
     .desc = { ent-LPPCEComputerComms.desc }

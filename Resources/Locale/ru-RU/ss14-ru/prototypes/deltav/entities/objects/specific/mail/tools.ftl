@@ -1,2 +1,2 @@
-ent-CourierBag = courier bag
+﻿ent-CourierBag = courier bag
     .desc = Keeps your parcels safe.

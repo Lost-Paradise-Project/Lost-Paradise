@@ -1,4 +1,4 @@
-# Bench
+﻿# Bench
 construction-bench-left = скамейка (лево)
 construction-bench-middle = скамейка (середина)
 construction-bench-right = скамейка (право)

@@ -1,4 +1,4 @@
-### Announcement
+﻿### Announcement
 
 earlyleave-cryo-job-unknown = Должность неизвестна
 earlyleave-cryo-announcement =

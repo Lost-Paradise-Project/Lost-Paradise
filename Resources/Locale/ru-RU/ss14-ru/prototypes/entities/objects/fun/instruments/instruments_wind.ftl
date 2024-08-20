@@ -1,4 +1,4 @@
-ent-SaxophoneInstrument = саксофон
+﻿ent-SaxophoneInstrument = саксофон
     .desc = Инструмент. Вероятно, вы можете перемолоть его в сырой джаз.
 ent-AccordionInstrument = аккордеон
     .desc = { ent-BaseHandheldInstrument.desc }

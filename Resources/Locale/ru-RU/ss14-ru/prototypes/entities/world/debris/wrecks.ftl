@@ -1,4 +1,4 @@
-ent-BaseScrapDebris = Обломок мусора
+﻿ent-BaseScrapDebris = Обломок мусора
     .desc = { ent-BaseDebris.desc }
 ent-ScrapDebrisSmall = Обломок мусора маленький
     .desc = { ent-BaseScrapDebris.desc }

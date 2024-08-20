@@ -1,4 +1,4 @@
-ent-SalvageLorePaperGamingSpawner = Salvage Lore Paper Gaming Spawner
+﻿ent-SalvageLorePaperGamingSpawner = Salvage Lore Paper Gaming Spawner
     .desc = { ent-MarkerBase.desc }
 ent-PaperWrittenSalvageLoreGaming1 = { ent-Paper }
     .suffix = Salvage: Lore: Gaming 1

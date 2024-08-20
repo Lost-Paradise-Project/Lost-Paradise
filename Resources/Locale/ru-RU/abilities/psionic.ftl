@@ -1,4 +1,4 @@
-cage-resist-second-person = Вы начали убирать вашу { $cage }.
+﻿cage-resist-second-person = Вы начали убирать вашу { $cage }.
 cage-resist-third-person = { CAPITALIZE(THE($user)) } начал снимать { POSS-ADJ($user) } { $cage }.
 cage-uncage-verb = Освободиться
 action-name-metapsionic = Метапсионический импульс

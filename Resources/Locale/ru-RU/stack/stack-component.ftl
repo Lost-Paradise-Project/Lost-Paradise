@@ -1,4 +1,4 @@
-### UI
+﻿### UI
 
 # Shown when a stack is examined in details range
 comp-stack-examine-detail-count =

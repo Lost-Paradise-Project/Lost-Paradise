@@ -1,4 +1,4 @@
-ent-FoodMothBakedRice = big baked rice
+﻿ent-FoodMothBakedRice = big baked rice
     .desc = A mothic favourite, baked rice can be filled with a variety of vegetable fillings to make a delicious meal to share.
 ent-FoodMothBakedRicePortion = lil baked rice
     .desc = A single portion of baked rice, perfect as a side dish, or even as a full meal.

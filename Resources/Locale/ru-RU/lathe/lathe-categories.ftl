@@ -1,4 +1,4 @@
-lathe-category-ammo = Боеприпасы
+﻿lathe-category-ammo = Боеприпасы
 lathe-category-circuitry = Электроника
 lathe-category-lights = Лампы
 lathe-category-mechs = Мехи

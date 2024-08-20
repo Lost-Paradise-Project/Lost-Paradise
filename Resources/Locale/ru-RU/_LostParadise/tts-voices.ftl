@@ -1,4 +1,4 @@
-tts-voice-name-albina = Альбина
+﻿tts-voice-name-albina = Альбина
 tts-voice-name-alena = Алена
 tts-voice-name-alexsey = Алексей
 tts-voice-name-andelina = Анделина

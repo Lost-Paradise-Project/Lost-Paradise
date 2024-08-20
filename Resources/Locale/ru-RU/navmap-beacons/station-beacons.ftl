@@ -1,4 +1,4 @@
-station-beacon-general = Общий
+﻿station-beacon-general = Общий
 station-beacon-command = Командование
 station-beacon-bridge = Мостик
 station-beacon-vault = Хранилище
@@ -24,9 +24,9 @@ station-beacon-cmo = Кабинет главрача
 station-beacon-morgue = Морг
 station-beacon-surgery = Операционная
 station-beacon-science = Научный отдел
-station-beacon-research-and-development = Эпистемологии
+station-beacon-research-and-development = Научного отдела
 station-beacon-research-server = Серверная
-station-beacon-research-director = Кабинет Мистагоги
+station-beacon-research-director = Кабинет Научный Директори
 station-beacon-robotics = Робототехника
 station-beacon-artifact-lab = Ксеноархеология
 station-beacon-anomaly-gen = Аномалистика

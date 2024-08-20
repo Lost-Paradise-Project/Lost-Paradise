@@ -1,4 +1,4 @@
-ent-PortableGeneratorBase = { ent-ConstructibleMachine }
+﻿ent-PortableGeneratorBase = { ent-ConstructibleMachine }
     .desc = { ent-ConstructibleMachine.desc }
 ent-PortableGeneratorSwitchableBase = { ent-PortableGeneratorBase }
     .desc = { ent-PortableGeneratorBase.desc }

@@ -1,3 +1,4 @@
+﻿
 #титановое стекло
 ent-SheetTitaniumGlass1 = титановое стекло
     .suffix = 1

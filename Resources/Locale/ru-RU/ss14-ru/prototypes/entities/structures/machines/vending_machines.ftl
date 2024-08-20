@@ -1,4 +1,4 @@
-ent-VendingMachine = торговый автомат
+﻿ent-VendingMachine = торговый автомат
     .desc = Просто добавь капитализма!
 ent-VendingMachineCondiments = Островок соусов
     .desc = Нанесите эти густые тягучие вещества на еду для полноты вкусовых ощущений.

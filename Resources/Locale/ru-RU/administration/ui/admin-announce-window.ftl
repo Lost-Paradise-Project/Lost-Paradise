@@ -1,4 +1,4 @@
-admin-announce-title = Сделать объявление
+﻿admin-announce-title = Сделать объявление
 admin-announce-announcement-placeholder = Текст объявления...
 admin-announce-announcer-placeholder = Отправитель
 admin-announce-announcer-default = Центральное командование

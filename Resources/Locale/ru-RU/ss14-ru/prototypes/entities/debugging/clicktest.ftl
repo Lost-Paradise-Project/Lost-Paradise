@@ -1,4 +1,4 @@
-ent-ClickTestBase = { "" }
+﻿ent-ClickTestBase = { "" }
     .suffix = DEBUG
     .desc = { "" }
 ent-ClickTestRotatingCornerVisible = ClickTestRotatingCornerVisible

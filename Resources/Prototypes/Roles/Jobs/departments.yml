@@ -18,7 +18,7 @@
   - Borg
   - Botanist
   - Boxer
-  # - Chaplain # DeltaV - Move Chaplain into Epistemics
+  - Chaplain # Lost Paradise - return in Service
   - Chef
   - Clown
   - HeadOfPersonnel
@@ -101,7 +101,7 @@
   - SeniorResearcher
   - Scientist
   - ResearchAssistant
-  - Chaplain # DeltaV - Move Chaplain into Epistemics
+  # - Chaplain # Lost Paradise - move to Service
   - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
 
 - type: department

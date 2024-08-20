@@ -1,4 +1,4 @@
-forensic-fibers = { LOC($material) } волокна
+﻿forensic-fibers = { LOC($material) } волокна
 forensic-fibers-colored = { LOC($color) } { LOC($material) } волокна
 fibers-insulative = изолирующие
 fibers-synthetic = синтетические

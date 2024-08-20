@@ -1,4 +1,4 @@
-ent-ClothingUniformJumpsuitHoPMess = комбинезон главы персонала
+﻿ent-ClothingUniformJumpsuitHoPMess = комбинезон главы персонала
     .desc = Шикарная форма с золотой и красной отделкой. Держите свой латте подальше от него.
 ent-ClothingUniformJumpsuitBoatswain = водолазка боцмана
     .desc = Удобная водолазка и брюки. Подхожящая одежда для боцмана, курящего трубку.

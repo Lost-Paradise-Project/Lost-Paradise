@@ -1,4 +1,4 @@
-comp-gas-mixer-ui-mixer-status = Статус:
+﻿comp-gas-mixer-ui-mixer-status = Статус:
 comp-gas-mixer-ui-status-enabled = Вкл
 comp-gas-mixer-ui-status-disabled = Выкл
 comp-gas-mixer-ui-mixer-output-pressure = Выходное давление (кПа):

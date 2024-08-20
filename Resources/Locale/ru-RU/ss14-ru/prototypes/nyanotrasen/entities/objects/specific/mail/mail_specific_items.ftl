@@ -1,4 +1,4 @@
-ent-PaperMailCallForHelp1 = { ent-Paper }
+﻿ent-PaperMailCallForHelp1 = { ent-Paper }
     .suffix = call for help 1
     .desc = { ent-Paper.desc }
 ent-PaperMailCallForHelp2 = { ent-Paper }

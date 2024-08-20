@@ -1,4 +1,4 @@
-loadout-description-LoadoutItemCig = Курение убивает.
+﻿loadout-description-LoadoutItemCig = Курение убивает.
 loadout-description-LoadoutItemCigsGreen = Пачка в день лишает вас пяти часов жизни.
 loadout-description-LoadoutItemCigsRed = Пачка в день лишает вас пяти часов жизни.
 loadout-description-LoadoutItemCigsBlue = Пачка в день лишает вас пяти часов жизни.
@@ -11,7 +11,7 @@ loadout-description-LoadoutItemPlushieSharkBlue = В отличии от сво�
 loadout-description-LoadoutItemPlushieSharkPink = В отличии от своих предков она не кусается.
 loadout-description-LoadoutItemPlushieSharkGrey = В отличии от своих предков она не кусается.
 loadout-description-LoadoutItemPlushieCarp = Рррр!
-loadout-description-LoadoutSolCommonTranslator =
+loadout-description-LoadoutSolCommonTranslator = 
     Самый обыкновенный переводчик. Такой можно купить в любом доступном месте.
     Данный девайс переводит солнечный язык на общегалактический.
 loadout-name-LoadoutItemPapers = стопка бумаги

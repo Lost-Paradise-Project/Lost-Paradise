@@ -1,2 +1,2 @@
-ent-FoodMealScrambledEggs = яичница
-    .desc = Поджаренные на сковороде яйца с солью.
+﻿ent-FoodMealScrambledEggs = scrambled eggs
+    .desc = Some cooked eggs with salt. Yummy!

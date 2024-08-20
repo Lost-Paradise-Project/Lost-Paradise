@@ -1,4 +1,4 @@
-ent-MagazineLRifleBase = магазин (.30 винтовочные)
+﻿ent-MagazineLRifleBase = магазин (.30 винтовочные)
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }
 ent-MagazineLRifleBox = короб патронов L6 SAW (.30 винтовочные)

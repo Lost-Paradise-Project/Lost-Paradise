@@ -1,4 +1,4 @@
-metabolizer-type-animal = Животное
+﻿metabolizer-type-animal = Животное
 metabolizer-type-bloodsucker = Кровососущее
 metabolizer-type-dragon = Дракон
 metabolizer-type-human = Человек

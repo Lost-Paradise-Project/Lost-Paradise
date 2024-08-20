@@ -1,4 +1,4 @@
-ent-BaseLightbulb = { ent-BaseItem }
+﻿ent-BaseLightbulb = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-BaseLightTube = { ent-BaseLightbulb }
     .desc = { ent-BaseLightbulb.desc }

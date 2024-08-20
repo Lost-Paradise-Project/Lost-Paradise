@@ -1,4 +1,4 @@
-loadout-description-LoadoutServiceClownUniformJesterAlt = Джекпот-джекпот!
+﻿loadout-description-LoadoutServiceClownUniformJesterAlt = Джекпот-джекпот!
 loadout-description-LoadoutServiceClownShoesJester = Хаос-хаос!
 loadout-description-LoadoutServiceClownHeadJesterHatAlt = Я могу править всем миром!
 loadout-description-LoadoutServiceBotanistUniformOveralls = Прочный комбенизон. Защитит от уколов шипов розы.

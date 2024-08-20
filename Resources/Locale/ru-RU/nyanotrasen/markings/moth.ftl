@@ -1,4 +1,4 @@
-marking-MothAntennasClassicAspen = Антенны (Аспен, Классические)
+﻿marking-MothAntennasClassicAspen = Антенны (Аспен, Классические)
 marking-MothAntennasClassicBrown = Антенны (Коричневые, Классические)
 marking-MothAntennasClassicDeathshead = Антенны (Смертоносец, Классические)
 marking-MothAntennasClassicFeathery = Антенны (Перья, Классические)

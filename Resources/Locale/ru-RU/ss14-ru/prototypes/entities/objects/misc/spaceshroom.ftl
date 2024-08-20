@@ -1,4 +1,4 @@
-ent-Spaceshroom = космогриб
+﻿ent-Spaceshroom = космогриб
     .desc = Скопление дикорастущих грибов, которые любят расти в тёмной, влажной среде.
     .suffix = Структура
 ent-FoodSpaceshroom = космогриб

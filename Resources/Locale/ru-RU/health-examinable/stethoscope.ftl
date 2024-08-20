@@ -1,4 +1,4 @@
-stethoscope-verb = Прослушать стетоскопом
+﻿stethoscope-verb = Прослушать стетоскопом
 stethoscope-dead = Вы не слышите ничего.
 stethoscope-normal = Вы слышите нормальное дыхание.
 stethoscope-hyper = Вы слышите гипервентиляцию.

@@ -1,4 +1,4 @@
-salvage-expedition-structure-examine = Это необходимо [color=#B02E26]уничтожить[/color]
+﻿salvage-expedition-structure-examine = Это необходимо [color=#B02E26]уничтожить[/color]
 salvage-expedition-structure-remaining =
     Осталось разрушить { $count } { $count ->
         [one] цель.

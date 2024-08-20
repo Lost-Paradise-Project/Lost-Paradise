@@ -1,4 +1,4 @@
-objective-carp-rifts-title =
+﻿objective-carp-rifts-title =
     Открыть { $count } { $count ->
         [one] карповый разлом
         [few] карповых разлома

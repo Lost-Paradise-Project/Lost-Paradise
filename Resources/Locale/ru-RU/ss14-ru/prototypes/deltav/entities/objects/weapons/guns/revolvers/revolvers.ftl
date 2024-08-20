@@ -1,4 +1,4 @@
-ent-WeaponRevolverSnub = snubbed .45
+﻿ent-WeaponRevolverSnub = snubbed .45
     .desc = An old and reliable revolver, modified to be more easily concealed. Uses .45 magnum ammo.
 ent-WeaponRevolverK38Master = k-38 masterpiece
     .desc = A classic, if not outdated, law enforcement firearm. Uses .38 special ammo.

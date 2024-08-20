@@ -1,4 +1,4 @@
-marking-PawSocks-pawsocks = Носки на лапах
+﻿marking-PawSocks-pawsocks = Носки на лапах
 marking-PawSocks = Носки на лапах
 marking-FoxTail-vulp_tail = Лисий хвост (основа)
 marking-FoxTail = Лисий хвост (конец)

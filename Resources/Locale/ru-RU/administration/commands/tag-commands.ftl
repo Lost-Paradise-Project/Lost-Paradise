@@ -1,4 +1,4 @@
-addtag-command-description = Добавить тег к выбранной сущности
+﻿addtag-command-description = Добавить тег к выбранной сущности
 addtag-command-help = Использование: addtag <entity uid> <tag>
 addtag-command-success = Тег { $tag } был добавлен { $target }.
 addtag-command-fail = Не удалость добавить тег { $tag } к { $target }.

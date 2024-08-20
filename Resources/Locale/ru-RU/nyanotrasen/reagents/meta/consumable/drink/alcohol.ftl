@@ -1,4 +1,4 @@
-reagent-name-sake = саке
+﻿reagent-name-sake = саке
 reagent-desc-sake = Алкогольный напиток, изготовленный путём брожения шлифованного риса.
 reagent-name-soju = соджу
 reagent-desc-soju = Алкогольный напиток, приготовленный путем брожения шлифованного риса.

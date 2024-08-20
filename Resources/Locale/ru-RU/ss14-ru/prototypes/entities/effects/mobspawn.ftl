@@ -1,4 +1,4 @@
-ent-MobSpawnCrabQuartz = спавнер моб рудокраб кварц
+﻿ent-MobSpawnCrabQuartz = спавнер моб рудокраб кварц
     .desc = { "" }
 ent-MobSpawnCrabIron = спавнер моб рудокраб железо
     .desc = { ent-MobSpawnCrabQuartz.desc }

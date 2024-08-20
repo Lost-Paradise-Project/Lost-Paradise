@@ -1,4 +1,4 @@
-ent-filingCabinet = картотечный шкаф
+﻿ent-filingCabinet = картотечный шкаф
     .desc = Шкаф для хранения документов.
     .suffix = Пустой
 ent-filingCabinetTall = высокий шкаф

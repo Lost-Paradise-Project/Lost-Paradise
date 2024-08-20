@@ -1,4 +1,4 @@
-ent-ReagentContainerBase = { ent-BaseItem }
+﻿ent-ReagentContainerBase = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-ReagentPacketBase = { ent-ReagentContainerBase }
     .desc = { ent-ReagentContainerBase.desc }

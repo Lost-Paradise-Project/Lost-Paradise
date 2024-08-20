@@ -1,4 +1,4 @@
-ent-DebugGenerator = { ent-BaseGenerator }
+﻿ent-DebugGenerator = { ent-BaseGenerator }
     .suffix = DEBUG
     .desc = { ent-BaseGenerator.desc }
 ent-DebugConsumer = consumer

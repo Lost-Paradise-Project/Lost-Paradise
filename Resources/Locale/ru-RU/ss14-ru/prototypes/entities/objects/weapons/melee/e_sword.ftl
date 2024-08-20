@@ -1,4 +1,4 @@
-# Corvax-HiddenDesc-Start
+﻿# Corvax-HiddenDesc-Start
 ent-EnergySword = игрушечный меч
     .suffix = энергетический меч
     .desc = Новый пластиковый меч от Sandy-Cat! Имеет реалистичный звук и насыщенный цвет! Почти как настоящий!

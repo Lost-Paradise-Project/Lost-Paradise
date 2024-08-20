@@ -1,4 +1,4 @@
-ent-BaseMagazineUniversalMagnum = Universal magazine (.45 magnum)
+﻿ent-BaseMagazineUniversalMagnum = Universal magazine (.45 magnum)
     .desc = { ent-BaseMagazinePistol.desc }
 ent-MagazineUniversalMagnum = Universal magazine (.45 magnum)
     .desc = { ent-BaseMagazineUniversalMagnum.desc }

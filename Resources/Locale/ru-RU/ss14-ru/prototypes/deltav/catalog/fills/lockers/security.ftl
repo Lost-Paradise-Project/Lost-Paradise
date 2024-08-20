@@ -1,4 +1,4 @@
-ent-GunSafePistolUniversal = сейф с Mk32
+﻿ent-GunSafePistolUniversal = сейф с Mk32
     .desc = { ent-GunSafe.desc }
 ent-GunSafeSniperGrand = сейф с Mark 1
     .desc = { ent-GunSafe.desc }

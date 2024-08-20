@@ -1,2 +1,2 @@
-ent-CrateNPCSecDog = { ent-CrateLivestock }
+﻿ent-CrateNPCSecDog = { ent-CrateLivestock }
     .desc = { ent-CrateLivestock.desc }

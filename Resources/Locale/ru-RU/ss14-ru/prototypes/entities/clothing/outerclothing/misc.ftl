@@ -1,4 +1,4 @@
-ent-ClothingOuterApron = фартук
+﻿ent-ClothingOuterApron = фартук
     .desc = Модный фартук для стильных людей.
 ent-ClothingOuterApronBar = фартук
     .desc = Тёмного цвета фартук, предназначенный для барменов.

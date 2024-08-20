@@ -1,4 +1,4 @@
-marking-DionaThornsHead-thorns_head = Диона, голова (Колючки)
+﻿marking-DionaThornsHead-thorns_head = Диона, голова (Колючки)
 marking-DionaThornsHead = Диона, голова (Колючки)
 marking-DionaThornsBody-thorns_body = Диона, грудь (Колючки)
 marking-DionaThornsBody = Диона, грудь (Колючки)

@@ -1,4 +1,4 @@
-ent-AirlockMailLocked = { ent-AirlockCargo }
+﻿ent-AirlockMailLocked = { ent-AirlockCargo }
     .suffix = Почта, Закрыто
     .desc = { ent-AirlockCargo.desc }
 ent-AirlockMailGlassLocked = { ent-AirlockCargoGlass }

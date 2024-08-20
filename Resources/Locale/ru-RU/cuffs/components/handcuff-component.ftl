@@ -1,4 +1,4 @@
-handcuff-component-target-self = Вы начинаете заковывать себя.
+﻿handcuff-component-target-self = Вы начинаете заковывать себя.
 handcuff-component-cuffs-broken-error = Наручники сломаны!
 handcuff-component-target-has-no-hands-error = { $targetName } не имеет рук!
 handcuff-component-target-has-no-free-hands-error = { $targetName } не имеет свободных рук!

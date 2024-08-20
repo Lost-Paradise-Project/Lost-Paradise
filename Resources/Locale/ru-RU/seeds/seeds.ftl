@@ -1,4 +1,4 @@
-# Nouns
+﻿# Nouns
 seeds-noun-seeds = семян
 seeds-noun-spores = спор
 # Seeds

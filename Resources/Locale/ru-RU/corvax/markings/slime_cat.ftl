@@ -1,4 +1,4 @@
-marking-SlimeCatEars = Кошачьи ушки из слизи
+﻿marking-SlimeCatEars = Кошачьи ушки из слизи
 marking-SlimeCatTail = Кошачий хвост из слизи
 marking-SlimeCatTail-slime_tail_cat_wag = Кошачий хвост из слизи
 marking-SlimeCatEars-ears_slime_cat_outer = Наружное ухо

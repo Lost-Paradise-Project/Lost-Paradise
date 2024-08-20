@@ -1,4 +1,4 @@
-cmd-babyjail-desc = Toggles the baby jail, which enables stricter restrictions on who's allowed to join the server.
+﻿cmd-babyjail-desc = Toggles the baby jail, which enables stricter restrictions on who's allowed to join the server.
 cmd-babyjail-help = Usage: babyjail
 babyjail-command-enabled = Baby jail has been enabled.
 babyjail-command-disabled = Baby jail has been disabled.

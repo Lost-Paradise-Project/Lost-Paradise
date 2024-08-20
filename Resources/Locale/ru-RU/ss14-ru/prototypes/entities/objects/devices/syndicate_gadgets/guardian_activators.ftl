@@ -1,4 +1,4 @@
-# Corvax-HiddenDesc-Start
+﻿# Corvax-HiddenDesc-Start
 ent-HoloparasiteInjector = имплантер
     .suffix = инъектор голопаразита
     .desc = Одноразовый шприц, специально предназначенный для введения подкожных имплантов.

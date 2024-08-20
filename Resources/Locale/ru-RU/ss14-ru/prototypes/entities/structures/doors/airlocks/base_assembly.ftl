@@ -1,2 +1,2 @@
-ent-AirlockAssembly = каркас шлюза
+﻿ent-AirlockAssembly = каркас шлюза
     .desc = Он открывается, он закрывается, и он может вас раздавить.

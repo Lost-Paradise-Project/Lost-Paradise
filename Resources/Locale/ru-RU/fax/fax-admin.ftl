@@ -1,4 +1,4 @@
-# Command
+﻿# Command
 cmd-faxui-desc = Открыть админ окно отправки факсов
 cmd-faxui-help = Использование: faxui
 # Window

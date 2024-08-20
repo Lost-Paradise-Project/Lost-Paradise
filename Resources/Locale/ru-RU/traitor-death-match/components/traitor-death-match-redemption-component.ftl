@@ -1,4 +1,4 @@
-traitor-death-match-redemption-component-interact-using-main-message = Машина жужжит и показывает: { $secondMessage }
+﻿traitor-death-match-redemption-component-interact-using-main-message = Машина жужжит и показывает: { $secondMessage }
 traitor-death-match-redemption-component-interact-using-no-mind-message = "СБОЙ АУТЕНТИФИКАЦИИ (0045)"
 traitor-death-match-redemption-component-interact-using-no-user-mind-message = "СБОЙ АУТЕНТИФИКАЦИИ (0052)"
 traitor-death-match-redemption-component-interact-using-no-pda-message = ДАННЫЙ КПК НЕ ЯВЛЯЕТСЯ КПК (0058)"

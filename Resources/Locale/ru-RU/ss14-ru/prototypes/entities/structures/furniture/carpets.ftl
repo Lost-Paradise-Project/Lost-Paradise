@@ -1,4 +1,4 @@
-ent-CarpetBase = ковёр
+﻿ent-CarpetBase = ковёр
     .desc = Приятная поверхность для ходьбы.
 ent-Carpet = { ent-CarpetBase }
     .desc = { ent-CarpetBase.desc }

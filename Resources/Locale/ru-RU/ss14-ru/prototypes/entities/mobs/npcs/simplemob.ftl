@@ -1,4 +1,4 @@
-ent-BaseSimpleMob = { "" }
+﻿ent-BaseSimpleMob = { "" }
     .suffix = ИИ
     .desc = { "" }
 ent-SimpleSpaceMobBase = { ent-BaseSimpleMob }

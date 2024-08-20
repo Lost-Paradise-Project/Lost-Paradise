@@ -1,2 +1,2 @@
-ent-OrganMothStomach = { ent-OrganAnimalStomach }
+﻿ent-OrganMothStomach = { ent-OrganAnimalStomach }
     .desc = { ent-OrganAnimalStomach.desc }

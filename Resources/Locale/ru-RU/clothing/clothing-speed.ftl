@@ -1,4 +1,4 @@
-# Clothing speed examine
+﻿# Clothing speed examine
 clothing-speed-examinable-verb-text = Одежда
 clothing-speed-examinable-verb-message = Изучить показатели скорости одежды.
 clothing-speed-increase-equal-examine = Повышает вашу скорость на [color=yellow]{ $walkSpeed }%[/color].

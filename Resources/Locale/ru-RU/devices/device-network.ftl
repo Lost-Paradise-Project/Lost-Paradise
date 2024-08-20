@@ -1,4 +1,4 @@
-# named frequencies
+﻿# named frequencies
 device-frequency-prototype-name-atmos = Атмосферные приборы
 device-frequency-prototype-name-suit-sensors = Сенсоры костюмов
 device-frequency-prototype-name-crew-monitor = Монитор экипажа

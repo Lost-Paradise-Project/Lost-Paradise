@@ -1,4 +1,4 @@
-### Special messages used by internal localizer stuff.
+﻿### Special messages used by internal localizer stuff.
 
 # Used internally by the PRESSURE() function.
 zzzz-fmt-pressure =

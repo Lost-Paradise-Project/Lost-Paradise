@@ -1,4 +1,4 @@
-ent-AirlockJustice = { ent-Airlock }
+﻿ent-AirlockJustice = { ent-Airlock }
     .suffix = Судья
     .desc = { ent-Airlock.desc }
 ent-AirlockJusticeGlass = { ent-AirlockGlass }

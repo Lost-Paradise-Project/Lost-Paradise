@@ -1,4 +1,4 @@
-ent-ClothingHeadHelmetHardsuitCombatStandard = шлем боевого скафандра
+﻿ent-ClothingHeadHelmetHardsuitCombatStandard = шлем боевого скафандра
     .desc = Бронированный шлем с желтым забралом и двойными головными фонарями.
 ent-ClothingHeadHelmetHardsuitCombatOfficer = шлем боевого скафандра охраны
     .desc = { ent-ClothingHeadHelmetHardsuitCombatStandard.desc }

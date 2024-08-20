@@ -1,4 +1,4 @@
-health-examinable-selfaware-none = Вы чувствуете себя здоровым и хорошо себя чувствуете.
+﻿health-examinable-selfaware-none = Вы чувствуете себя здоровым и хорошо себя чувствуете.
 health-examinable-selfaware-type-text = У вас { $damageType }, около [bold]{ $amount }[/bold].
 health-examinable-selfaware-type-Blunt = [color=red]Ушибы[/color]
 health-examinable-selfaware-type-Slash = [color=red]Порезы[/color]

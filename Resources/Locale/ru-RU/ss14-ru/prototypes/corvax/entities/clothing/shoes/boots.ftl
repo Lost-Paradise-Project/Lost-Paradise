@@ -1,2 +1,2 @@
-ent-ClothingShoesBootsJackSec = { ent-ClothingShoesBootsJack }
+﻿ent-ClothingShoesBootsJackSec = { ent-ClothingShoesBootsJack }
     .desc = { ent-ClothingShoesBootsJack.desc }

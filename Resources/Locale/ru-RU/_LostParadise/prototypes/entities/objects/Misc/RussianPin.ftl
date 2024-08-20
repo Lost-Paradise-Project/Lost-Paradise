@@ -1,3 +1,3 @@
-ent-ClothingNeckRussianPin = Пин Россия
+﻿ent-ClothingNeckRussianPin = Пин Россия
     .desc = Russia
     .suffix = { "" }

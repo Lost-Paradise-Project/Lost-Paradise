@@ -1,4 +1,4 @@
-ent-BasicGalacticCommonTranslatorImplant = basic common translator implant
+﻿ent-BasicGalacticCommonTranslatorImplant = basic common translator implant
     .desc = Provides your illiterate friends the ability to understand the common galactic tongue.
 ent-GalacticCommonTranslatorImplant = advanced common translator implant
     .desc = A more advanced version of the translator implant, teaches your illiterate friends the ability to both speak and understand the galactic tongue!

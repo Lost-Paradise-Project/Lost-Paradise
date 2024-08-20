@@ -1,2 +1,2 @@
-ent-DrinkSakeCup = sakazuki
+﻿ent-DrinkSakeCup = sakazuki
     .desc = A ceremonial white cup for drinking sake.

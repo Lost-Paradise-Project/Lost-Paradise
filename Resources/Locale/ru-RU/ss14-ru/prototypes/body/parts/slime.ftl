@@ -1,4 +1,4 @@
-ent-PartSlime = часть тела слаймолюда
+﻿ent-PartSlime = часть тела слаймолюда
     .desc = { ent-BaseItem.desc }
 ent-TorsoSlime = туловище слаймолюда
     .desc = { ent-PartSlime.desc }

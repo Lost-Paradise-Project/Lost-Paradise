@@ -1,4 +1,4 @@
-ent-GasUnaryBase = { ent-GasPipeBase }
+﻿ent-GasUnaryBase = { ent-GasPipeBase }
     .desc = { ent-GasPipeBase.desc }
 ent-GasVentPump = вентиляция
     .desc = Имеет клапан и прикреплённый к нему насос.

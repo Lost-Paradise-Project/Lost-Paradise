@@ -1,4 +1,4 @@
-ent-BaseFlag = { ent-BaseSign }
+﻿ent-BaseFlag = { ent-BaseSign }
     .desc = { ent-BaseSign.desc }
 ent-BlankFlag = пустой флаг
     .desc = Кусок белой ткани. Определённо не флаг Франции.

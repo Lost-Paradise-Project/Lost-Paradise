@@ -1,4 +1,4 @@
-ent-ClothingBackpackSatchelRobotics = Сумка Робототехника
+﻿ent-ClothingBackpackSatchelRobotics = Сумка Робототехника
     .desc = Красно-белая сумка для хранения материалов и запчастей.
 ent-LPPClothingSatchelSmuggler = сумка
     .desc = Модная сумка.

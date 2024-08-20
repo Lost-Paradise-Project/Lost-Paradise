@@ -1,4 +1,4 @@
-ent-BaseLandMine = { "" }
+﻿ent-BaseLandMine = { "" }
     .desc = { "" }
 ent-LandMineKick = кикающая мина
     .desc = { ent-BaseLandMine.desc }

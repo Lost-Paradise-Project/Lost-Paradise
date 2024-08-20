@@ -1,1 +1,1 @@
-comp-label-format = { $baseName } ({ $label })
+﻿comp-label-format = { $baseName } ({ $label })

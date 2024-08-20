@@ -1,4 +1,4 @@
-ent-DefaultStationBeaconConferenceRoom = { ent-DefaultStationBeaconCommand }
+﻿ent-DefaultStationBeaconConferenceRoom = { ent-DefaultStationBeaconCommand }
     .suffix = Conference Room
     .desc = { ent-DefaultStationBeaconCommand.desc }
 ent-DefaultStationBeaconVirology = { ent-DefaultStationBeaconMedical }

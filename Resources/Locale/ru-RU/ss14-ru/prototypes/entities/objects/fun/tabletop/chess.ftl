@@ -1,4 +1,4 @@
-ent-ChessBoard = шахматная доска
+﻿ent-ChessBoard = шахматная доска
     .desc = Шахматная доска. Фигуры в комплекте!
 ent-ChessBoardTabletop = шахматы
     .desc = { ent-BaseBoardTabletop.desc }

@@ -1,1 +1,1 @@
-id-card-access-level-mail = Почта
+﻿id-card-access-level-mail = Почта

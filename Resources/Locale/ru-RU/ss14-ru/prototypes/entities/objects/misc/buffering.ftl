@@ -1,2 +1,2 @@
-ent-BufferingIcon = { "" }
+﻿ent-BufferingIcon = { "" }
     .desc = { "" }

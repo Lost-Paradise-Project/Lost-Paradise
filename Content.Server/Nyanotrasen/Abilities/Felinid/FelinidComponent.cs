@@ -17,9 +17,9 @@ public sealed partial class FelinidComponent : Component
     //[DataField("hairballAction", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
     //public string HairballAction = "ActionHairball";
 
-    [DataField("hairballActionId",
-        customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
-    public string? HairballActionId = "ActionHairball";
+    // [DataField("hairballActionId",
+    //     customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
+    // public string? HairballActionId = "ActionHairball";
 
     [DataField("hairballAction")]
     public EntityUid? HairballAction;

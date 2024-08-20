@@ -1,4 +1,4 @@
-reagent-name-juice-apple = яблочный сок
+﻿reagent-name-juice-apple = яблочный сок
 reagent-desc-juice-apple = Это маленький кусочек Эдема.
 reagent-name-juice-banana = банановый сок
 reagent-desc-juice-banana = Жидкая суть банана. ХОНК.

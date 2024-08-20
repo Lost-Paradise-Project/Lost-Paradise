@@ -1,2 +1,2 @@
-ent-PortalGate = { ent-BasePortal }
+﻿ent-PortalGate = { ent-BasePortal }
     .desc = { ent-BasePortal.desc }

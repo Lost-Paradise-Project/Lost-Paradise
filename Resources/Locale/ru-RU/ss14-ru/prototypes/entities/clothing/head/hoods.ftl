@@ -1,4 +1,4 @@
-ent-ClothingHeadHatHoodBioGeneral = капюшон биозащитного костюма
+﻿ent-ClothingHeadHatHoodBioGeneral = капюшон биозащитного костюма
     .desc = Капюшон, защищающий голову и лицо от биологического заражения.
     .suffix = Обычный
 ent-ClothingHeadHatHoodBioCmo = капюшон биозащитного костюма

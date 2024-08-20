@@ -1,4 +1,4 @@
-## SpillTargetVerb
+﻿## SpillTargetVerb
 
 spill-target-verb-get-data-text = Выплеснуть
 spill-target-verb-activate-cannot-drain-message = Вы не можете ничего выплеснуть из { $owner }!

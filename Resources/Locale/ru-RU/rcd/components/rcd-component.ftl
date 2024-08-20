@@ -1,4 +1,4 @@
-### UI
+﻿### UI
 
 rcd-component-examine-mode-details = Выбран режим: '{ $mode }'.
 rcd-component-examine-build-details = Выбран режим строительства: { $name }.

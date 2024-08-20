@@ -1,4 +1,4 @@
-ent-ToolboxEmergencyFilled = аварийный ящик для инструментов
+﻿ent-ToolboxEmergencyFilled = аварийный ящик для инструментов
     .suffix = Заполненный
     .desc = { ent-ToolboxEmergency.desc }
 ent-ToolboxElectricalFilled = электротехнический ящик для инструментов

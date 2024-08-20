@@ -1,4 +1,4 @@
-tool-quality-anchoring-name = Закрепление
+﻿tool-quality-anchoring-name = Закрепление
 tool-quality-anchoring-tool-name = Гаечный ключ
 tool-quality-prying-name = Монтирование
 tool-quality-prying-tool-name = Монтировка

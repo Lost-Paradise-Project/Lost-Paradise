@@ -1,4 +1,4 @@
-alerts-low-oxygen-name = [color=red]Низкий уровень кислорода[/color]
+﻿alerts-low-oxygen-name = [color=red]Низкий уровень кислорода[/color]
 alerts-low-oxygen-desc = В воздухе, которым вы дышите, [color=red]недостаточно кислорода[/color]. Используйте [color=green]дыхательную маску и баллон[/color].
 alerts-low-nitrogen-name = [color=red]Низкий уровень азота[/color]
 alerts-low-nitrogen-desc = В воздухе, которым вы дышите, [color=red]недостаточно азота[/color]. Используйте [color=green]дыхательную маску и баллон[/color].

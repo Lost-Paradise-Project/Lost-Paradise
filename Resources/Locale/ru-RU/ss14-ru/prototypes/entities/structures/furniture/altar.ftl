@@ -1,4 +1,4 @@
-ent-AltarBase = алтарь
+﻿ent-AltarBase = алтарь
     .desc = Алтарь богов.
 ent-AltarNanotrasen = алтарь Nanotrasen
     .desc = { ent-AltarBase.desc }

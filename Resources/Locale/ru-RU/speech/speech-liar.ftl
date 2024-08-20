@@ -1,4 +1,4 @@
-#  liar-word-1 = yes
+﻿#  liar-word-1 = yes
 #  liar-word-replacement-1 = no
 #  liar-word-2 = no
 #  liar-word-replacement-2 = yes

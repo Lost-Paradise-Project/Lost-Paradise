@@ -1,4 +1,4 @@
-ent-MuzzleFlashEffect = { "" }
+﻿ent-MuzzleFlashEffect = { "" }
     .desc = { "" }
 ent-BaseBullet = BaseBullet
     .desc = Если вы можете видеть это, вы вероятно мертвы!

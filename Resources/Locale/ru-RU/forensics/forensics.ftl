@@ -1,4 +1,4 @@
-forensic-scanner-interface-title = Криминалистический сканер
+﻿forensic-scanner-interface-title = Криминалистический сканер
 forensic-scanner-interface-fingerprints = Отпечатки
 forensic-scanner-interface-fibers = Волокна
 forensic-scanner-interface-dnas = ДНК

@@ -1,4 +1,4 @@
-input-key-Escape = Escape
+﻿input-key-Escape = Escape
 input-key-Control = Control
 input-key-Shift = Shift
 input-key-Alt = Alt

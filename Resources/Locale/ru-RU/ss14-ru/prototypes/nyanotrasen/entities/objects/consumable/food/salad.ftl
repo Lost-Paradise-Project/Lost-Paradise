@@ -1,4 +1,4 @@
-ent-FoodMothCapreseSalad = caprese salad
+﻿ent-FoodMothCapreseSalad = caprese salad
     .desc = A very tasty yet simple to prepare salad.
 ent-FoodMothFleetSalad = fleet salad
     .desc = The grilled cheese makes it particularly filling, while the croutons provide a crunchy kick.

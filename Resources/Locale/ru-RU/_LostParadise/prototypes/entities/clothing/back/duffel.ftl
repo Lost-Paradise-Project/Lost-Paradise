@@ -1,10 +1,10 @@
-ent-ClothingBackpackDuffelRobotics = Вещмешок Робототехника
+﻿ent-ClothingBackpackDuffelRobotics = Вещмешок Робототехника
     .desc = Красно-белый вещмешок для хранения материалов и запчастей.
 ent-LPPClothingBackpackDuffelBlueshield = вещмешок офицера "Синий Щит"
     .desc = В два раза больше наручников!
     .suffix = { "Синий Щит" }
 ent-LPPClothingBackpackDuffelHop = Вещмешок Главы Персонала
-    .desc = Сотканный из дорогих тканей вещмешок.
+  .desc = Сотканный из дорогих тканей вещмешок.
 ent-LPPClothingBackpackDuffelSecurityEngineer = Вещмешок полевого инженера
     .desc = Свет инженерного отдела продолжает борьбу... Все еще не заляпан кровью...
 ent-LPPClothingBackpackDuffelBlack = чёрный вещмешок

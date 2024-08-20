@@ -1,2 +1,2 @@
-ent-HolyWaterKit = { ent-CrateHolyWaterKit }
+﻿ent-HolyWaterKit = { ent-CrateHolyWaterKit }
     .desc = { ent-CrateHolyWaterKit.desc }

@@ -1,4 +1,4 @@
-reagent-name-ecotropin = экотропин
+﻿reagent-name-ecotropin = экотропин
 reagent-desc-ecotropin = Странное вещество схожее с углем, почти самое бесполезное, но нужно для создания других веществ.
 reagent-physical-desc-ecotropin = порошковидное
 reagent-name-formaldehyde = формальдегид

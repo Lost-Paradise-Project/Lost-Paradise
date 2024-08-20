@@ -1,4 +1,4 @@
-ent-GasBinaryBase = { ent-GasPipeBase }
+﻿ent-GasBinaryBase = { ent-GasPipeBase }
     .desc = { ent-GasPipeBase.desc }
 ent-GasPressurePump = газовый насос
     .desc = Насос, перемещающий газ под определённым давлением.

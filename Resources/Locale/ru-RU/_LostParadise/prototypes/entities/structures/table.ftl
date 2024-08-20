@@ -1,4 +1,4 @@
-##Титан
+﻿##Титан
 
 ent-LPPTitaniumRplasma = каркас титан
     .desc = Выглядит белым и красивым.
@@ -14,6 +14,7 @@ ent-LPPTitanium = титановый стол
     .desc = Выглядит сделанным из титана.
 ent-LPPPlasTitanium = стол из пластитана
     .desc = Выглядит сделанным из титана и пластитанна.
+
 ##ПласТитан
 
 ent-LPPBlackPlasTitaniumRplasma = каркас пластитан
@@ -30,6 +31,8 @@ ent-LPPBlackPlasTitaniumTitanium = стол из титана
     .desc = Выглядит сделанным из титана.
 ent-LPPBlackPlasTitanium = пластитановый стол
     .desc = Выглядит сделанным из титана и пластитанна.
+
+
 ##КУСТ
 
 ent-LPPHedge = изгородь

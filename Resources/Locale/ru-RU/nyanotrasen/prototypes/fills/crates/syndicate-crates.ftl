@@ -1,2 +1,2 @@
-ent-CrateSyndicateSamurai = Ящик самурая из синдиката
+﻿ent-CrateSyndicateSamurai = Ящик самурая из синдиката
     .desc = Содержит современную копию полного набора Тоусэй-Гусоку.

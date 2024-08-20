@@ -1,4 +1,4 @@
-## Entity
+﻿## Entity
 
 crayon-drawing-label = Остаток: [color={ $color }]{ $state }[/color] ({ $charges }/{ $capacity })
 crayon-interact-not-enough-left-text = Ничего не осталось.

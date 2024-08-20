@@ -1,4 +1,4 @@
-## TabletopGameComponent
+﻿## TabletopGameComponent
 
 tabletop-verb-play-game = Играть
 tabletop-verb-dump-pieces = Скинуть фигурки

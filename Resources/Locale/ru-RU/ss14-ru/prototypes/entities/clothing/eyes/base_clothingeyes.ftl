@@ -1,4 +1,4 @@
-ent-ClothingEyesBase = { ent-Clothing }
+﻿ent-ClothingEyesBase = { ent-Clothing }
     .desc = { ent-Clothing.desc }
 ent-ClothingHeadEyeBaseFlippable = { ent-ClothingEyesBase }
     .desc = { ent-ClothingEyesBase.desc }

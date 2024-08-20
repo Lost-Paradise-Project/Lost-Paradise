@@ -1,4 +1,4 @@
-loadout-description-LoadoutCommandHOSNeckMantle = Покажите им кто тут главный.
+﻿loadout-description-LoadoutCommandHOSNeckMantle = Покажите им кто тут главный.
 loadout-description-LoadoutCommandHOSNeckCloak = Приятный на ощупь плащ сделанный специально под заказ.
 loadout-description-LoadoutCommandHOSJumpsuitParade = Стройный парадный костюм. Наденьте его на парад.
 loadout-description-LoadoutCommandHOSJumpsuitFormal = Выглядит модно. А вам точно нужно судить кого-то в нём?

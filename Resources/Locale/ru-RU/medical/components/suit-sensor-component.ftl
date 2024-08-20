@@ -1,4 +1,4 @@
-## Modes
+﻿## Modes
 
 suit-sensor-mode-off = Выкл.
 suit-sensor-mode-binary = Бинарные

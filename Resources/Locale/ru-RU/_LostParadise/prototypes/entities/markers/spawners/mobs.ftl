@@ -1,1 +1,1 @@
-ent-LPPSpawnMobPossumPoppy = спавнер опоссум Поппи
+﻿ent-LPPSpawnMobPossumPoppy = спавнер опоссум Поппи

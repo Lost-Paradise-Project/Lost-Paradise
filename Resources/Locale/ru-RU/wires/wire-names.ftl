@@ -1,4 +1,4 @@
-# titles that get displayed in the wire hacking window
+﻿# titles that get displayed in the wire hacking window
 wires-board-name-default = Провода
 wires-board-name-booze = Раздатчик алкоголя
 wires-board-name-soda = Раздатчик безалкоголя

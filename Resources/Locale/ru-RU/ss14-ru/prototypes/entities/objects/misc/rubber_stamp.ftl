@@ -1,4 +1,4 @@
-ent-RubberStampBase = универсальная печать
+﻿ent-RubberStampBase = универсальная печать
     .desc = Печать из резины, для проставления печатей на важных документах.
 ent-RubberStampBaseAlt = альтернативная печать
     .desc = { ent-RubberStampBase.desc }

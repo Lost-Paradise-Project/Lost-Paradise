@@ -1,4 +1,4 @@
-chatsan-smiles = улыбается
+﻿chatsan-smiles = улыбается
 chatsan-frowns = хмурится
 chatsan-smiles-widely = широко улыбается
 chatsan-frowns-deeply = сильно хмурится

@@ -1,4 +1,4 @@
-# Examination for different levels of wiring protection
+﻿# Examination for different levels of wiring protection
 wires-panel-component-on-examine-security-level1 = Стальная пластина препятствует доступу к проводам. Используйте [color=cyan]монтировку[/color], чтобы убрать её.
 wires-panel-component-on-examine-security-level2 = Стальная пластина была приварена изнутри к [color=lightgray]технической панели[/color]. Используйте [color=cyan]сварочный аппарат[/color], чтобы убрать её.
 wires-panel-component-on-examine-security-level3 = Пласталевая пластина препятствует доступу к проводам. Используйте [color=cyan]монтировку[/color], чтобы убрать её.

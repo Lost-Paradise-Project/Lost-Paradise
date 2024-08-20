@@ -1,4 +1,4 @@
-ent-CableStack = моток кабеля
+﻿ent-CableStack = моток кабеля
     .suffix = Полный
     .desc = { ent-BaseItem.desc }
 ent-CableHVStack = моток ВВ кабеля

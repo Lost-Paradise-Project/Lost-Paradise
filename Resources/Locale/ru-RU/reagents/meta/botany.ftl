@@ -1,4 +1,4 @@
-reagent-name-e-z-nutrient = EZ-нутриенты
+﻿reagent-name-e-z-nutrient = EZ-нутриенты
 reagent-desc-e-z-nutrient = Дайте вашим растениям немного этих ЛЁГКИХ питательных веществ! Дионы считают это аппетитным.
 reagent-name-left4-zed = left-4-zed
 reagent-desc-left4-zed = Коктейль из различных мутагенов, которые насыщают питательными веществами, но вредят и влияют на геном жизни растения.

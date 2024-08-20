@@ -1,4 +1,4 @@
-ent-ClothingUniformJumpskirtBlackElegantDress = элегантное чёрное платье
+﻿ent-ClothingUniformJumpskirtBlackElegantDress = элегантное чёрное платье
     .desc = Элегантное платье с красивым бантом.
 ent-ClothingUniformJumpskirtRedElegantDress = элегантное красное платье
     .desc = { ent-ClothingUniformJumpskirtBlackElegantDress.desc }

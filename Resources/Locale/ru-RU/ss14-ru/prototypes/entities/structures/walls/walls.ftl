@@ -1,4 +1,4 @@
-ent-BaseWall = базовая стена
+﻿ent-BaseWall = базовая стена
     .desc = Удерживает воздух внутри, а ассистентов снаружи.
 ent-WallBrick = кирпичная стена
     .desc = { ent-BaseWall.desc }

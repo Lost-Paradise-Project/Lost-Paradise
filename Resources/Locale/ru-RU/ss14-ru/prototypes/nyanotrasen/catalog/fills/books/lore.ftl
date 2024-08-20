@@ -1,4 +1,4 @@
-ent-BookSalvageEpistemics = epistemics book
+﻿ent-BookSalvageEpistemics = epistemics book
     .desc = A metallic hardcover book.
 ent-BookSalvageEpistemicsRandom = epistemics book
     .desc = { ent-BookSalvageEpistemics.desc }

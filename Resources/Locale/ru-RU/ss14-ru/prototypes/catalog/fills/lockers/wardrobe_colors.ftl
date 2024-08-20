@@ -1,4 +1,4 @@
-ent-WardrobeGreyFilled = { ent-WardrobeGrey }
+﻿ent-WardrobeGreyFilled = { ent-WardrobeGrey }
     .suffix = Заполненный
     .desc = { ent-WardrobeGrey.desc }
 ent-WardrobeMixedFilled = { ent-WardrobeMixed }

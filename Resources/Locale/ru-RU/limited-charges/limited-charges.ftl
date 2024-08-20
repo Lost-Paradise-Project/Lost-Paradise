@@ -1,4 +1,4 @@
-limited-charges-charges-remaining =
+﻿limited-charges-charges-remaining =
     Имеется { $charges } { $charges ->
         [one] заряд
         [few] заряда

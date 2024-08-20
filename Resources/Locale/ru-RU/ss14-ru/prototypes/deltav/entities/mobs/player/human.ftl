@@ -1,2 +1,2 @@
-ent-MobHumanSyndicateListener = Слушатель синдиката
+﻿ent-MobHumanSyndicateListener = Слушатель синдиката
     .desc = { ent-MobHumanSyndicateAgent.desc }

@@ -1,4 +1,4 @@
-ent-CartridgeSRifleBase = патрон (.20 винтовочный)
+﻿ent-CartridgeSRifleBase = патрон (.20 винтовочный)
     .desc = { ent-BaseCartridge.desc }
     .suffix = { "" }
 ent-CartridgeSRifle = патрон (.20 винтовочный)

@@ -1,4 +1,4 @@
-ent-Dart = дротик
+﻿ent-Dart = дротик
     .desc = Лёгкий метательный дротик для игры в дартс. Не попадите в глаз!
 ent-DartBlue = { ent-Dart }
     .desc = { ent-Dart.desc }

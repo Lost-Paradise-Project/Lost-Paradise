@@ -1,4 +1,4 @@
-ent-ClothingBackpackDuffelFilled = { ent-ClothingBackpackDuffel }
+﻿ent-ClothingBackpackDuffelFilled = { ent-ClothingBackpackDuffel }
     .desc = { ent-ClothingBackpackDuffel.desc }
 ent-ClothingBackpackDuffelClownFilled = { ent-ClothingBackpackDuffelClown }
     .desc = { ent-ClothingBackpackDuffelClown.desc }

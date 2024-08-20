@@ -1,4 +1,4 @@
-# General
+﻿# General
 rule-restarting-in-seconds =
     Перезапуск через { $seconds } { $seconds ->
         [one] секунду

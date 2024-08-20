@@ -1,4 +1,4 @@
-delta-catalog-weapon-mk58-name = Mk58
+﻿delta-catalog-weapon-mk58-name = Mk58
 delta-catalog-weapon-mk58-desc = Стандартный пистолет используемый на вооружении НаноТрейзен. Использует калибр .35 авто.
 delta-catalog-weapon-wt550-name = Wt550
 delta-catalog-weapon-wt550-desc = Эргономичный пистолет-пулемёт, имеющий надствольный магазин. Использует калибр .35 авто.

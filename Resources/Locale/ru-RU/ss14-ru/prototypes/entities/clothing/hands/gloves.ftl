@@ -1,4 +1,4 @@
-ent-ClothingHandsGlovesBoxingRed = красные боксёрские перчатки
+﻿ent-ClothingHandsGlovesBoxingRed = красные боксёрские перчатки
     .desc = Красные перчатки для соревновательного бокса.
 ent-ClothingHandsGlovesBoxingBlue = синие боксёрские перчатки
     .desc = Синие перчатки для соревновательного бокса.

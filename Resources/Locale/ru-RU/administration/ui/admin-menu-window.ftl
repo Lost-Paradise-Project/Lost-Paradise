@@ -1,4 +1,4 @@
-## AdminMenuWindow.xaml.cs
+﻿## AdminMenuWindow.xaml.cs
 
 admin-menu-title = Меню администратора
 admin-menu-admin-tab = Администратор

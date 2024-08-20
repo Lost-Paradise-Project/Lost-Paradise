@@ -1,4 +1,4 @@
-fax-machine-popup-source-unknown = Неизвестно
+﻿fax-machine-popup-source-unknown = Неизвестно
 fax-machine-popup-received = Получена передача от { $from }.
 fax-machine-popup-name-long = Слишком длинное имя факса
 fax-machine-popup-name-exist = Факс с таким же именем уже существует в сети

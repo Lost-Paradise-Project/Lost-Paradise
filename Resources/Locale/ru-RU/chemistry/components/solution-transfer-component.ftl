@@ -1,4 +1,4 @@
-### Solution transfer component
+﻿### Solution transfer component
 
 comp-solution-transfer-fill-normal = Вы перемещаете { $amount } ед. из { $owner } в { $target }.
 comp-solution-transfer-fill-fully = Вы наполняете { $target } до краёв, переместив { $amount } ед. из { $owner }.

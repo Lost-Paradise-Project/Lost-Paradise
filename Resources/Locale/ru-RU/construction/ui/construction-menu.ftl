@@ -1,4 +1,4 @@
-## ConstructionMenu.xaml.cs
+﻿## ConstructionMenu.xaml.cs
 
 construction-menu-title = Строительство
 construction-menu-place-ghost = Разместить призрак конструкции

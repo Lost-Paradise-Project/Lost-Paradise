@@ -1,4 +1,4 @@
-# Glass
+﻿# Glass
 materials-glass = стекло
 materials-reinforced-glass = бронестекло
 materials-plasma-glass = плазменное стекло

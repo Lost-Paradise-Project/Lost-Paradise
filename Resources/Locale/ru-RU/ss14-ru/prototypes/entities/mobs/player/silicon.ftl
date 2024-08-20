@@ -1,4 +1,4 @@
-ent-PlayerBorgGeneric = { ent-BorgChassisGeneric }
+﻿ent-PlayerBorgGeneric = { ent-BorgChassisGeneric }
     .desc = { ent-BorgChassisGeneric.desc }
     .suffix = Батарея, Инструменты
 ent-PlayerBorgBattery = { ent-BorgChassisGeneric }

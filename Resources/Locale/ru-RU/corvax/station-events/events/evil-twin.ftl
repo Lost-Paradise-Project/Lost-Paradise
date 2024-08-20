@@ -1,4 +1,4 @@
-evil-twin-round-end-result =
+﻿evil-twin-round-end-result =
     { $evil-twin-count ->
         [one] Был один
        *[other] Было { $evil-twin-count }

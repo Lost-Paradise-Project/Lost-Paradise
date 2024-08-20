@@ -1,4 +1,4 @@
-ent-XenoVents = { ent-BaseGameRule }
+﻿ent-XenoVents = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
 ent-XenoVentsWeak = { ent-XenoVents }
     .desc = { ent-XenoVents.desc }

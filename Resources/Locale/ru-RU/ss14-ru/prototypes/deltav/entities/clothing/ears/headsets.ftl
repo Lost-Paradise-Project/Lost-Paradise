@@ -1,4 +1,4 @@
-ent-ClothingHeadsetHoP = гарнитура главы персонала
+﻿ent-ClothingHeadsetHoP = гарнитура главы персонала
     .desc = Гарнитура используемая Главой Персонала.
 ent-ClothingHeadsetAltService = полноразмерная гарнитура главы персонала
     .desc = { ent-ClothingHeadsetAlt.desc }

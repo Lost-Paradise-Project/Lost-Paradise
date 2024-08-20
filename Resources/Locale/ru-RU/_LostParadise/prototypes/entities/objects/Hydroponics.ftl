@@ -1,4 +1,4 @@
-ent-WateringCan = лейка
+﻿ent-WateringCan = лейка
     .desc = лейка для поливки растений.
     .suffix = { "" }
 ent-WateringCanWood = деревяная лейка

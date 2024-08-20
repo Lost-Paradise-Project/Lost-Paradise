@@ -1,4 +1,4 @@
-supermatter-announcer = Автоматический двигатель
+﻿supermatter-announcer = Автоматический двигатель
 supermatter-examine-integrity = Его целостность - [color=yellow]{ $integrity }%[/color].
 supermatter-announcement-warning = Внимание! Целостность гиперструктуры кристалла нарушена! Целостность: { $integrity }%.
 supermatter-announcement-emergency = ОПАСНО! Целостность кристаллической гиперструктуры достигает критического уровня! Целостность: { $integrity }%.

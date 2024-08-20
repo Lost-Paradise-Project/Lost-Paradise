@@ -1,4 +1,4 @@
-ent-BaseLogicItem = { ent-BaseItem }
+﻿ent-BaseLogicItem = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-LogicGateOr = логический элемент
     .desc = Логический элемент с двумя портами на вход и одним на выход. Можно изменить логическую операцию с помощью отвёртки.

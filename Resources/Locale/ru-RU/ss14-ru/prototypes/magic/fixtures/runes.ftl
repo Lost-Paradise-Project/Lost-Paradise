@@ -1,4 +1,4 @@
-ent-BaseRune = руна
+﻿ent-BaseRune = руна
     .desc = { "" }
 ent-CollideRune = руна столкновения
     .desc = { ent-BaseRune.desc }

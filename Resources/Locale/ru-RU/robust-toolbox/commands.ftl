@@ -1,4 +1,4 @@
-### Localization for engine console commands
+﻿### Localization for engine console commands
 
 
 ## generic command errors

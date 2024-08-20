@@ -1,4 +1,4 @@
-ent-BaseToolSurgery = { ent-BaseItem }
+﻿ent-BaseToolSurgery = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-Cautery = прибор для прижигания
     .desc = Хирургический инструмент, используемый для прижигания открытых ран.

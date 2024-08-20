@@ -1,4 +1,4 @@
-#---------------------------------------
+﻿#---------------------------------------
 #             атмосферного
 ent-LPPAtmosBlackSkirt = Стильная юбка атмосферного техника
 ent-LPPAtmostechjean = Джинсовка атмосферного техника
@@ -12,6 +12,7 @@ ent-LPPSupplyChiefAtmos = Рубашка атмосферного техника
 ent-LPPSupplyChiefSkirtAtmos = Рубашка с юбкой атмосферного техника
 ent-LPPTurtleneckQmAtmos = Водолазка QM атмосферного техника
 ent-LPPUtilAtmos = Черная рубашка атмосферного техника
+
 #---------------------------------------
 #               инженера
 ent-LPPEngiBlackSkirt = Стильная юбка инженера
@@ -26,6 +27,7 @@ ent-LPPSupplyChiefEngi = рубашка инженера
 ent-LPPSupplyChiefSkirtEngi = рубашка с юбкой инженера
 ent-LPPTurtleneckQmEngi = Водолазка QM инженера
 ent-LPPUtilEngi = Водолазка QM инженера
+
 #---------------------------------------
 #               грузчика
 ent-LPPCargoBlackSkirt = Стильная юбка грузчика
@@ -44,6 +46,8 @@ ent-LPPClothingUniformDressWedding = Свадебное платье
     .desc = Горько!
 ent-LPPClothingUniformDressTango = Платье для танго
     .desc = Смотрите под ноги.
+
+
 #---------------------------------------
 #               СБ
 ent-LPPSecBlackSkirt = Стильная юбка СБ
@@ -59,6 +63,7 @@ ent-LPPSupplyChiefSkirtSec = Рубашка с юбкой СБ
 ent-LPPTurtleneckQmSec = Водолазка СБ
 ent-LPPUtilSec = Черная рубашка СБ
 ent-LPPTacticoolSec = спортивка СБ
+
 #---------------------------------------
 #               МЕД
 ent-LPPMedicBlackSkirt = Стильная юбка Медика
@@ -86,6 +91,7 @@ ent-LPPUtilVirology = Черная рубашка Вирусолога
 ent-LPPVirologyBlackSkirt = Стильная юбка Вирусолога
 ent-LPPVirologyTechjean = Джинсовка Вирусолога
 ent-LPPMedicBlackSkirt2 = Стильная юбка Вирусолога
+
 #---------------------------------------
 #               РНД
 ent-LPPRndBlackSkirt = Стильная юбка РНД

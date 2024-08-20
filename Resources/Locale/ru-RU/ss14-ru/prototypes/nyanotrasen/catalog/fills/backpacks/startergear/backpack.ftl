@@ -1,2 +1,2 @@
-ent-ClothingBackpackMantisFilled = { ent-ClothingBackpackScience }
+﻿ent-ClothingBackpackMantisFilled = { ent-ClothingBackpackScience }
     .desc = { ent-ClothingBackpackScience.desc }

@@ -1,4 +1,4 @@
-ent-BoxLRifleBase = коробка патронов (.30 винтовочные)
+﻿ent-BoxLRifleBase = коробка патронов (.30 винтовочные)
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }
 ent-BoxLRifleBigBox = коробка патронов (.30 винтовочные)

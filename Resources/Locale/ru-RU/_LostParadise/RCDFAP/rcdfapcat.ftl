@@ -1,4 +1,4 @@
-rcdfap-component-FireAlarm = { ent-FireAlarm }
+﻿rcdfap-component-FireAlarm = { ent-FireAlarm }
 rcdfap-component-GasPipeBend = { ent-GasPipeBend }
 rcdfap-component-GasPipeStraight = { ent-GasPipeStraight }
 rcdfap-component-GasPipeHalf = { ent-GasPipeHalf }

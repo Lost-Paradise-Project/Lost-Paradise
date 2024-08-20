@@ -1,2 +1,2 @@
-ent-BaseStationMail = { "" }
+﻿ent-BaseStationMail = { "" }
     .desc = { "" }

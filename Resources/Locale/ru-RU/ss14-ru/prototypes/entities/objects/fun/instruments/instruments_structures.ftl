@@ -1,4 +1,4 @@
-ent-PianoInstrument = рояль
+﻿ent-PianoInstrument = рояль
     .desc = При необходимости поднять на девятый этаж зовите карго.
 ent-UprightPianoInstrument = пианино
     .desc = Я сказал пьянино!

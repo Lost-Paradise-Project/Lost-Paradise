@@ -1,4 +1,4 @@
-comp-gas-canister-ui-canister-status = Статус канистры
+﻿comp-gas-canister-ui-canister-status = Статус канистры
 comp-gas-canister-ui-canister-relabel = Перемаркировать
 comp-gas-canister-ui-canister-pressure = Давление в канистре:
 comp-gas-canister-ui-port-status = Статус порта:

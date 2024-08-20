@@ -1,4 +1,4 @@
-ent-VehicleKeyJanicart = ключ от уборочной машины
+﻿ent-VehicleKeyJanicart = ключ от уборочной машины
     .desc = Интересный дизайн.
 ent-VehicleKeySecway = ключ от секвея
     .desc = Ключи к будущему.

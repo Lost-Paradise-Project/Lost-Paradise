@@ -1,4 +1,4 @@
-ent-SheetOtherBase = { ent-BaseItem }
+﻿ent-SheetOtherBase = { ent-BaseItem }
     .desc = Лист материала, широко применяемого на станции в различных целях.
 ent-SheetPaper = бумага
     .suffix = Полный

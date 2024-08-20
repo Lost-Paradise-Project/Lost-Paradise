@@ -1,4 +1,4 @@
-ent-CableBase = { "" }
+﻿ent-CableBase = { "" }
     .desc = { "" }
 ent-CableHV = ВВ кабель
     .desc = Оранжевый высоковольтный кабель.

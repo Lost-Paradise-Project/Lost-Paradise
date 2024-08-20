@@ -1,4 +1,4 @@
-ent-GasMinerBase = добытчик газа
+﻿ent-GasMinerBase = добытчик газа
     .desc = Газы, добытые из газового гиганта под (над?) вами, проходят через эту массивную вентиляционную трубу.
 ent-GasMinerOxygen = газодобытчик O2
     .desc = { ent-GasMinerBase.desc }

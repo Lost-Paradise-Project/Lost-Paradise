@@ -1,4 +1,4 @@
-ent-PaintingMonkey = картина обезьяны
+﻿ent-PaintingMonkey = картина обезьяны
     .desc = Отвергни эволюцию, стань манки.
 ent-BaseSignDirectional = { ent-BaseSign }
     .desc = { ent-BaseSign.desc }
@@ -122,7 +122,7 @@ ent-SignMorgue = знак "морг"
     .desc = Знак, указывающий на морг.
 ent-SignPrison = знак "тюрьма"
     .desc = Знак, указывающий на тюрьму.
-ent-SignRND = знак "Эпистемологии"
+ent-SignRND = знак "Научного отдела"
     .desc = Знак, указывающий на отдел исследования и разработки.
 ent-SignScience = знак "наука"
     .desc = Знак, указывающий на научный отсек.

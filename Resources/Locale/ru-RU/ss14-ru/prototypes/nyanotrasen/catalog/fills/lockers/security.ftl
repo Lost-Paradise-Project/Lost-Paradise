@@ -1,2 +1,2 @@
-ent-GunSafeSubMachineGunVector = vector safe
+﻿ent-GunSafeSubMachineGunVector = vector safe
     .desc = { ent-GunSafe.desc }

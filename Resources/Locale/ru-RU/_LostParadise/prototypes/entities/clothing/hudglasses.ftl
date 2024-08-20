@@ -1,6 +1,6 @@
-ent-LPPBlackHudGlasses-name = солнцезащитные очки с визором
+﻿ent-LPPBlackHudGlasses-name = солнцезащитные очки с визором
     .desc = "Чёрно, стильно, информативно."
-ent-LPPBlueHudGlasse-names = синие очки с визором
+ent-LPPBlueHudGlasse-names =  синие очки с визором
     .desc = "Чуть более стильные чем красные, и более навороченные чем обычные."
 ent-LPPRedHudGlasses-name = очки охраны с визором
     .desc = "Версия очков охраны с визором"
@@ -8,6 +8,6 @@ ent-LPPChemistHudGlasses-name = очки химика
     .desc = "Шикарные оранжевые очки, используемые для защиты от брызгов химических веществ. Оснащены функцией сканирования реагентов в разных ёмкостях."
 ent-LPPAVDEyeshud-name = визор агента внутренних дел
     .desc = От этого визора вы не скроетесь от закона
-ent-LPPMagistrateEyeshud-name = визор магистрата
+ent-LPPMagistrateEyeshud-name = визор Судьи
     .desc = От этого визора вы не скроетесь от закона
-    .suffix = { "Магистрат" }
+    .suffix = { "Судья" }

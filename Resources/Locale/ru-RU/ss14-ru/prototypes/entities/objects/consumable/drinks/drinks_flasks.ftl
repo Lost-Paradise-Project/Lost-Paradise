@@ -1,4 +1,4 @@
-ent-FlaskBase = { ent-DrinkBase }
+﻿ent-FlaskBase = { ent-DrinkBase }
     .desc = { ent-DrinkBase.desc }
 ent-DrinkShinyFlask = блестящая фляга
     .desc = Блестящая металлическая фляга. Похоже, на ней нарисован греческий символ.

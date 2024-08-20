@@ -1,4 +1,4 @@
-ent-PartSilicon = { ent-BaseItem }
+﻿ent-PartSilicon = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-BaseBorgArmLeft = левая рука киборга
     .desc = { ent-PartSilicon.desc }

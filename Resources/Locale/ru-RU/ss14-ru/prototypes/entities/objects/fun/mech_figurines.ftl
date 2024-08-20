@@ -1,4 +1,4 @@
-ent-BaseFigurineMech = фигурка
+﻿ent-BaseFigurineMech = фигурка
     .desc = Небольшая миниатюрка.
 ent-ToyRipley = игрушечный рипли
     .desc = Фигурка Мини-Мех! 'Меха номер 1/12' написано на обороте.

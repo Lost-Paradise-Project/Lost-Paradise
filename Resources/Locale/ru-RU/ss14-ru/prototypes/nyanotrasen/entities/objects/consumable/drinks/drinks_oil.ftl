@@ -1,4 +1,4 @@
-ent-BaseOilJar = { ent-DrinkBottleGlassBaseFull }
+﻿ent-BaseOilJar = { ent-DrinkBottleGlassBaseFull }
     .desc = { ent-DrinkBottleGlassBaseFull.desc }
 ent-OilJarGhee = jar of ghee
     .desc = A large tinted glass jar with a simple label of butter sticks on it.

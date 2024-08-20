@@ -1,2 +1,2 @@
-ent-ClothingHandsClownPomni = Перчатки шута
+﻿ent-ClothingHandsClownPomni = Перчатки шута
     .desc = Мягкие перчатки, создающие впечатление, будто полностью обволакивают ваши руки...

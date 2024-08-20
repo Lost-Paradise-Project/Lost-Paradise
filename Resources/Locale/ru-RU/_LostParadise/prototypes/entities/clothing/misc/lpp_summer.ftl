@@ -1,9 +1,10 @@
-ent-LPPBikinisBlack = Черные бикини
+﻿ent-LPPBikinisBlack = Черные бикини
     .desc = "Стильно для женщин на пляже ходить в Бикини"
     .suffix = { "" }
 ent-LPPBikinisCyan = Синие бикини
     .desc = "Стильно для женщин на пляже ходить в Бикини"
     .suffix = { "" }
+
 ent-LPPBikinisGreen = Зеленые бикини
     .desc = "Стильно для женщин на пляже ходить в Бикини"
     .suffix = { "" }

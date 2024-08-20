@@ -1,4 +1,4 @@
-ent-MagazineSRifleBase = магазин (.20 винтовочные)
+﻿ent-MagazineSRifleBase = магазин (.20 винтовочные)
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }
 ent-MagazineSRifle = магазин (.20 винтовочные)

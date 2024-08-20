@@ -1,4 +1,4 @@
-ent-BoxClRifleBase = коробка патронов (.25 безгильзовые)
+﻿ent-BoxClRifleBase = коробка патронов (.25 безгильзовые)
     .desc = { ent-BaseItem.desc }
     .suffix = { "" }
 ent-BoxClRifle10x24 = коробка патронов (.25 безгильзовые)

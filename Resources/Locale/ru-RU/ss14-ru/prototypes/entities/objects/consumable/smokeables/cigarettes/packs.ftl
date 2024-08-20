@@ -1,4 +1,4 @@
-ent-CigPackBase = пачка сигарет
+﻿ent-CigPackBase = пачка сигарет
     .desc = { ent-BaseItem.desc }
 ent-CigPackMixedBase = пачка пропитанных сигарет
     .desc = { ent-BaseItem.desc }

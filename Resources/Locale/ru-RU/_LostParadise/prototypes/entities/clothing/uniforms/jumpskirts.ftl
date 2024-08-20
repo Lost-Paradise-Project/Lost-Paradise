@@ -1,4 +1,4 @@
-ent-ClothingUniformJumpskirtAdjutant = костюм адьютанта
+﻿ent-ClothingUniformJumpskirtAdjutant = костюм адьютанта
     .desc = Что то среднее между Главой Персонала и старшеклассницей.
     .suffix = { "Адьютант" }
 ent-LPPSchoolgirlred = костюм ученицы

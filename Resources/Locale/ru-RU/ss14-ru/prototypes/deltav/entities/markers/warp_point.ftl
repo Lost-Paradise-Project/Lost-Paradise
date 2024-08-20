@@ -1,4 +1,4 @@
-ent-WarpPointEvacShuttle = { ent-WarpPoint }
+﻿ent-WarpPointEvacShuttle = { ent-WarpPoint }
     .suffix = Эвакуационный шаттл
     .desc = { ent-WarpPoint.desc }
 ent-WarpPointShuttle = { ent-WarpPoint }
@@ -35,7 +35,7 @@ ent-WarpPointMorgue = { ent-WarpPoint }
     .suffix = Морг
     .desc = { ent-WarpPoint.desc }
 ent-WarpPointEpistemics = { ent-WarpPoint }
-    .suffix = Эпистемика
+    .suffix = Научного отдела
     .desc = { ent-WarpPoint.desc }
 ent-WarpPointLogistics = { ent-WarpPoint }
     .suffix = Логистика
@@ -46,6 +46,7 @@ ent-WarpPointSalvage = { ent-WarpPoint }
 ent-WarpPointEngineering = { ent-WarpPoint }
     .suffix = Инженерия
     .desc = { ent-WarpPoint.desc }
+
 ent-WarpPointSingulo = { ent-WarpPoint }
     .suffix = Сингулярность
     .desc = { ent-WarpPoint.desc }

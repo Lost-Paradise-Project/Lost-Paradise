@@ -1,4 +1,4 @@
-ent-PottedPlantAlt0 = { ent-PottedPlantBase }
+﻿ent-PottedPlantAlt0 = { ent-PottedPlantBase }
     .desc = { ent-PottedPlantBase.desc }
 ent-PottedPlantAlt1 = { ent-PottedPlantBase }
     .desc = { ent-PottedPlantBase.desc }

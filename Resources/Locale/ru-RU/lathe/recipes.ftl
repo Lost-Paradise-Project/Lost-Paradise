@@ -1,4 +1,4 @@
-lathe-recipe-Medkit-name = аптечка первой помощи (пусто)
+﻿lathe-recipe-Medkit-name = аптечка первой помощи (пусто)
 lathe-recipe-MedkitBurn-name = набор для лечения физических травм (пусто)
 lathe-recipe-MedkitToxin-name = набор для лечения токсинов (пусто)
 lathe-recipe-MedkitO2-name = набор для лечения кислородного голодания (пусто)

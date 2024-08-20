@@ -1,4 +1,4 @@
-ent-AsteroidAltRock = asteroid rock
+﻿ent-AsteroidAltRock = asteroid rock
     .desc = A rocky asteroid.
     .suffix = Low Ore Yield
 ent-MountainRockMining = mountain rock

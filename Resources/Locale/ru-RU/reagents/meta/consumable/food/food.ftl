@@ -1,4 +1,4 @@
-reagent-name-nutriment = питательные вещества
+﻿reagent-name-nutriment = питательные вещества
 reagent-desc-nutriment = Все необходимые организму витамины, минералы и углеводы в чистом виде.
 reagent-name-glucose = глюкоза
 reagent-desc-glucose = Простой сахар, содержащийся во многих продуктах питания.

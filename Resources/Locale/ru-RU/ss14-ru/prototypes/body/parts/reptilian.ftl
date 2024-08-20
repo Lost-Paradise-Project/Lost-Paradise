@@ -1,4 +1,4 @@
-ent-PartReptilian = часть тела унатха
+﻿ent-PartReptilian = часть тела унатха
     .desc = { ent-BaseItem.desc }
 ent-TorsoReptilian = туловище унатха
     .desc = { ent-PartReptilian.desc }

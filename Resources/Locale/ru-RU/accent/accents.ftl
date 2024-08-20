@@ -1,4 +1,4 @@
-# Cat accent
+﻿# Cat accent
 accent-words-cat-1 = Мяу!
 accent-words-cat-2 = Mиау.
 accent-words-cat-3 = Мурррр!

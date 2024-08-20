@@ -1,4 +1,4 @@
-ent-BaseChemistryEmptyBottle = бутылочка
+﻿ent-BaseChemistryEmptyBottle = бутылочка
     .desc = Маленькая бутылочка.
 ent-ChemistryEmptyBottle01 = { ent-BaseChemistryEmptyBottle }
     .desc = { ent-BaseChemistryEmptyBottle.desc }

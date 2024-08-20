@@ -1,4 +1,4 @@
-ent-ClothingEyesTelegnosisSpectacles = strange spectacles
+﻿ent-ClothingEyesTelegnosisSpectacles = strange spectacles
     .desc = A pair of spectacular and strange spectacles with lenses constructed of an unknown material.
 ent-BedsheetInvisibilityCloak = tattered bedsheet
     .desc = A tattered bedsheet, It looks like its been through hell and back.

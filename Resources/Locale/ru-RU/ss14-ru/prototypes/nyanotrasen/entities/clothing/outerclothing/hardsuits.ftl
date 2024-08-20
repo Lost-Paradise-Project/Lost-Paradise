@@ -1,4 +1,4 @@
-ent-ClothingOuterHardsuitMystagogue = mystagogue's hardsuit
+﻿ent-ClothingOuterHardsuitMystagogue = mystagogue's hardsuit
     .desc = Lightweight hardsuit that has a helmet with a galaxy-first psionic passthrough system.
 ent-ClothingOuterHardsuitSyndieReverseEngineered = SA-122 combat hardsuit
     .suffix = reverse-engineered

@@ -1,4 +1,4 @@
-marking-OniHornSingleCurved = Одинарный изогнутый
+﻿marking-OniHornSingleCurved = Одинарный изогнутый
 marking-OniHornSingleCurved-single_curved = Одинарный изогнутый
 marking-OniHornSingleLeftCurved = Одинарный левый изогнутый
 marking-OniHornSingleLeftCurved-single_left_curved = Одинарный левый изогнутый

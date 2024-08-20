@@ -1,4 +1,4 @@
-ent-PartSpider = spider body part
+﻿ent-PartSpider = spider body part
     .desc = { ent-BaseItem.desc }
 ent-ThoraxSpider = spider thorax
     .desc = { ent-PartSpider.desc }

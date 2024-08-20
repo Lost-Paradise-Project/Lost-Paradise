@@ -1,4 +1,4 @@
-penlight-off = Свет фонарика выключен
+﻿penlight-off = Свет фонарика выключен
 pen-light-exam-title = Диагностический фонарик
 pen-light-window-entity-eyes-text = { $entityName }'s conditions:
 pen-light-window-no-patient-data-text = Нет данных о пациенте.

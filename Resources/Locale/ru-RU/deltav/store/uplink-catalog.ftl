@@ -1,4 +1,4 @@
-# Utility
+﻿# Utility
 uplink-reinforcement-radio-nukie-mouse-name = Телепортатор оперативного усиления мыши
 uplink-reinforcement-radio-nukie-mouse-desc = Вызовите на помощь специально обученного специалиста по работе с мышами.
 # Implants

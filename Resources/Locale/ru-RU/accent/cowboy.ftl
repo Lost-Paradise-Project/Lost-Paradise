@@ -1,4 +1,4 @@
-accent-cowboy-words-1 = alcohol
+﻿accent-cowboy-words-1 = alcohol
 accent-cowboy-replacement-1 = firewater
 accent-cowboy-words-2 = alien
 accent-cowboy-replacement-2 = space critter

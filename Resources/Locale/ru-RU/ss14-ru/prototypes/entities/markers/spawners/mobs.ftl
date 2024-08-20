@@ -1,4 +1,4 @@
-ent-SpawnMobMouse = спавнер мышь
+﻿ent-SpawnMobMouse = спавнер мышь
     .desc = { ent-MarkerBase.desc }
 ent-SpawnMobCockroach = спавнер таракан
     .desc = { ent-MarkerBase.desc }

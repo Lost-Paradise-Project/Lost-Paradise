@@ -80,8 +80,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
   id: LPPMagistrateEyeshud
-  name: визор Магистрата
-  description: Это визор Магистрата
+  name: визор Судьи
+  description: Это визор Судьи
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Eyes/HUD/magistrate.rsi

@@ -1,4 +1,4 @@
-ent-ClosetL3Filled = { ent-ClosetL3 }
+﻿ent-ClosetL3Filled = { ent-ClosetL3 }
     .suffix = Заполненный, Обычный
     .desc = { ent-ClosetL3.desc }
 ent-ClosetL3VirologyFilled = { ent-ClosetL3Virology }

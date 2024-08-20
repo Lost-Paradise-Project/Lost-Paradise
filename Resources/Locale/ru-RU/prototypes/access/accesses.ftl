@@ -1,4 +1,4 @@
-id-card-access-level-command = Командование
+﻿id-card-access-level-command = Командование
 id-card-access-level-captain = Капитан
 id-card-access-level-head-of-personnel = Глава персонала
 id-card-access-level-cryogenics = Криогеника
@@ -10,7 +10,7 @@ id-card-access-level-detective = Детектив
 id-card-access-level-chief-engineer = Старший инженер
 id-card-access-level-engineering = Инженерный
 id-card-access-level-atmospherics = Атмосферный
-id-card-access-level-research-director = Мистагог
+id-card-access-level-research-director = Научный Директор
 id-card-access-level-research = Научный
 id-card-access-level-chief-medical-officer = Главный врач
 id-card-access-level-medical = Медицинский

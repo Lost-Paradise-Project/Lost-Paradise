@@ -1,4 +1,4 @@
-ent-PosterBase = { ent-BaseSign }
+﻿ent-PosterBase = { ent-BaseSign }
     .desc = { ent-BaseSign.desc }
 ent-PosterBroken = порванный плакат
     .desc = Вы не можете разобрать что было на оригинальном плакате. Он испорчен.
@@ -39,7 +39,7 @@ ent-PosterContrabandSpaceCube = Космический куб
 ent-PosterContrabandCommunistState = Коммунистическое государство
     .desc = Да здравствует Коммунистическая партия!
 ent-PosterContrabandLamarr = Ламарр
-    .desc = На этом плакате изображён Ламарр. Вероятно, его cоздал мистагог-предатель.
+    .desc = На этом плакате изображён Ламарр. Вероятно, его cоздал Научный Директор-предатель.
 ent-PosterContrabandBorgFancy = Модные борги
     .desc = Быть модным может любой борг, нужен только костюм.
 ent-PosterContrabandBorgFancyv2 = Модные борги, версия 2.0

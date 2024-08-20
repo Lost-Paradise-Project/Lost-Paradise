@@ -1,4 +1,4 @@
-ent-RandomWoodenSupport = спавнер деревянная балка
+﻿ent-RandomWoodenSupport = спавнер деревянная балка
     .desc = { ent-MarkerBase.desc }
 ent-RandomWoodenWall = спавнер деревянная стена
     .desc = { ent-MarkerBase.desc }

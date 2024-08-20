@@ -1,4 +1,4 @@
-ent-BaseRock = { "" }
+﻿ent-BaseRock = { "" }
     .desc = Очень тяжёлый.
 ent-BaseTree = { "" }
     .desc = { "" }

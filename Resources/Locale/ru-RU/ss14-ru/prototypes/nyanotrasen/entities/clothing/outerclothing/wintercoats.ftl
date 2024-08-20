@@ -1,4 +1,4 @@
-ent-ClothingOuterCoatHyenhSweater = comfy sweater
+﻿ent-ClothingOuterCoatHyenhSweater = comfy sweater
     .desc = It's comfy.
 ent-ClothingOuterWinterCoatLong = long winter coat
     .desc = Even your legs will be warm with this stylish coat.

@@ -1,4 +1,4 @@
-ent-SuspicionRifleSpawner = Suspicion Rifle Spawner
+﻿ent-SuspicionRifleSpawner = Suspicion Rifle Spawner
     .desc = { ent-MarkerBase.desc }
     .suffix = { "" }
 ent-SuspicionPistolSpawner = Suspicion Pistol Spawner

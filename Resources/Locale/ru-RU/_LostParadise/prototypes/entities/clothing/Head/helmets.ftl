@@ -1,2 +1,2 @@
-ent-LPPJudjeDreddHelmet = Шлем Судьи
-    .desc = Ты здесь закон!
+﻿ent-LPPJudjeDreddHelmet = Шлем Судьи
+.desc = Ты здесь закон!

@@ -1,4 +1,4 @@
-ent-BulletImpactEffect = { "" }
+﻿ent-BulletImpactEffect = { "" }
     .desc = { "" }
 ent-BulletImpactEffectDisabler = { "" }
     .desc = { "" }

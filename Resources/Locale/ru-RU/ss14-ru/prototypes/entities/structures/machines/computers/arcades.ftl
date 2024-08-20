@@ -1,4 +1,4 @@
-ent-ArcadeBase = аркада
+﻿ent-ArcadeBase = аркада
     .desc = Игровой автомат.
 ent-SpaceVillainArcade = аркада Космический злодей
     .desc = { ent-ArcadeBase.desc }

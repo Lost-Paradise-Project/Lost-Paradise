@@ -1,4 +1,4 @@
-ent-SpawnPointPlayerCharacter = Спавнер игрока
+﻿ent-SpawnPointPlayerCharacter = Спавнер игрока
     .suffix = игрок, НЕ МАППИТЬ
     .desc = { ent-MarkerBase.desc }
 ent-SpawnPointGhostSyndicateListener = Спавнер слушателя синдиката

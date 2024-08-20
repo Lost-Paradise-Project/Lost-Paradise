@@ -1,4 +1,4 @@
-power-monitoring-window-title = Консоль контроля питания
+﻿power-monitoring-window-title = Консоль контроля питания
 power-monitoring-window-label-sources = Источники
 power-monitoring-window-label-smes = СМЭС
 power-monitoring-window-label-substation = Подстанции

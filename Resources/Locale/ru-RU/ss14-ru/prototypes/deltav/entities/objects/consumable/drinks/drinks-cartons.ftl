@@ -1,4 +1,4 @@
-ent-DrinkJuiceBoxBaseFull = { ent-DrinkBase }
+﻿ent-DrinkJuiceBoxBaseFull = { ent-DrinkBase }
     .desc = { ent-DrinkBase.desc }
 ent-DrinkJuiceOrangeJuicebox = коробка апельсинового сока
     .desc = Великолепный источник витаминов. Будте здоровы!

@@ -1,0 +1,27 @@
+- type: stationGoal
+  id: LPPStationGoalBorgs
+  text: lpp-station-goal-borgs
+
+- type: stationGoal
+  id: LPPStationGoalBooks
+  text: lpp-station-goal-books
+
+# - type: stationGoal
+#   id: LPPStationGoalRace
+#   text: station-goal-race
+
+- type: stationGoal
+  id: LPPStationGoalCheck
+  text: station-goal-check
+
+- type: stationGoal
+  id: LPPStationGoalrRomforresearch
+  text: station-goal-roomforresearch
+
+- type: stationGoal
+  id: LPPStationGoalNewroom
+  text: station-goal-newroom
+
+- type: stationGoal
+  id: LPPStationGoalTraining
+  text: station-goal-training

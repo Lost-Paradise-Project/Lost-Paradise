@@ -1,4 +1,4 @@
-ent-ActionRevenantShop = Магазин
+﻿ent-ActionRevenantShop = Магазин
     .desc = Открывает магазин способностей.
 ent-ActionRevenantDefile = Осквернение
     .desc = Цена 30 эссенций.

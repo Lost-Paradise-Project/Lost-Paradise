@@ -1,2 +1,2 @@
-ent-AlertSpriteView = { "" }
+﻿ent-AlertSpriteView = { "" }
     .desc = { "" }

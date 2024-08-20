@@ -1,4 +1,4 @@
-ent-BriefcaseBrownFilled = коричневый чемодан
+﻿ent-BriefcaseBrownFilled = коричневый чемодан
     .suffix = Заполненный, Бумага
     .desc = { ent-BriefcaseBrown.desc }
 ent-BriefcaseSyndieSniperBundleFilled = коричневый чемодан

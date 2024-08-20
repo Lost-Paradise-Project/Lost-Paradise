@@ -1,4 +1,4 @@
-ent-MobSiliconBase = { "" }
+﻿ent-MobSiliconBase = { "" }
     .desc = { "" }
 ent-MobHonkBot = хонкбот
     .desc = Ужасающе.

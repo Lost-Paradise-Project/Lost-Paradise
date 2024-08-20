@@ -1,4 +1,4 @@
-chat-speech-verb-name-vulpkanin = Вульпканин
+﻿chat-speech-verb-name-vulpkanin = Вульпканин
 chat-speech-verb-vulpkanin-1 = рычит
 chat-speech-verb-vulpkanin-2 = лает
 chat-speech-verb-vulpkanin-3 = гавкает

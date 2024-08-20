@@ -1,4 +1,4 @@
-welder-component-welder-not-lit-message = Сварочный аппарат выключен!
+﻿welder-component-welder-not-lit-message = Сварочный аппарат выключен!
 welder-component-cannot-weld-message = В сварочном аппарате недостаточно топлива для этого!
 welder-component-no-fuel-message = В устройстве не осталось топлива!
 welder-component-no-fuel-in-tank = { $owner } пуст.

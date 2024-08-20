@@ -1,4 +1,4 @@
-## UI
+﻿## UI
 
 reagent-grinder-bound-user-interface-instant-button = МГНОВЕННО
 reagent-grinder-bound-user-interface-cook-time-label = ВРЕМЯ:

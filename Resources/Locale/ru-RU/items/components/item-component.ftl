@@ -1,4 +1,4 @@
-## PickUpVerb
+﻿## PickUpVerb
 
 pick-up-verb-get-data-text = Подобрать
 

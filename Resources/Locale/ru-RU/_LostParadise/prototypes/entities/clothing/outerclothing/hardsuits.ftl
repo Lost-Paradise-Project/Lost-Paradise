@@ -1,4 +1,4 @@
-ent-LPPHardsuitAssaultParamedic = Скафандр штурмового медицинского офицера
+﻿ent-LPPHardsuitAssaultParamedic = Скафандр штурмового медицинского офицера
     .desc = Защитный скафандр, используемый штурмовыми парамедиками в спасательных операциях. Произведен корпорацией Paradise inc совместно с Nanotrasen в рамках контракта по улучшению здравоохранения сотрудников NT.
 ent-LPPHardsuitHelmetAssaultParamedic = Шлем cкафандра штурмового медицинского офицера
 ent-LPPHardsuitSuppressor = Улучшенная силовая броня

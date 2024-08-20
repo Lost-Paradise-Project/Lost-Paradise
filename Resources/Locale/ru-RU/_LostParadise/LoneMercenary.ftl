@@ -1,4 +1,4 @@
-ent-LPPClothingOuterHardsuitLoneMercenary-name = Скафандр наемника Gorlex
+﻿ent-LPPClothingOuterHardsuitLoneMercenary-name = Скафандр наемника Gorlex
     .desc = Один из самых дорогих и передовых военных скафандров на сегодняшний день,интегрированное поле невидимости,впрыскиваемые вещества в организм способные фильтровать токсины без противогаза. Такие скафандры носят элитные частные наемники, заключившие контракт с Gorlex.
     .suffix = Наёмник
 ent-LPPClothingBackpackDuffelLoneMercenary-name = Вещьмешок наемника Gorlex
@@ -21,4 +21,4 @@ ent-LPPWeaponSubMachineGunIL20-name = ИЛ-20
     .suffix = Наёмник
 ghost-role-information-loneMercenary-name = Одиночный наёмник Gorlex
 ghost-role-information-loneMercenary-description = Вы - Одиночный наёмник Gorlex. Уничтожьте станцию, и не раскройте себя!
-ghost-role-information-loneMercenary-rules = Вы являетесь наёмником Синдиката, которому поручено уничтожить станцию. Как антагонист, вы можете делать всё необходимое для выполнения цели! Старайтесь не раскрыть себя.
+ghost-role-information-loneMercenary-rules =  Вы являетесь наёмником Синдиката, которому поручено уничтожить станцию. Как антагонист, вы можете делать всё необходимое для выполнения цели! Старайтесь не раскрыть себя.

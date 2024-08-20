@@ -1,4 +1,4 @@
-## UI
+﻿## UI
 
 research-console-menu-title = Консоль R&D
 research-console-menu-main-discipline = Основная дисциплина: [color={ $color }]{ $name }[/color]

@@ -1,4 +1,4 @@
-ent-MailBotanistChemicalBottles = { ent-BaseMail }
+﻿ent-MailBotanistChemicalBottles = { ent-BaseMail }
     .suffix = botanistchemicals
     .desc = { ent-BaseMail.desc }
 ent-MailBotanistMutagen = { ent-BaseMail }

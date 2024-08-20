@@ -1,4 +1,4 @@
-ent-ChairBarber = barbers chair
+﻿ent-ChairBarber = barbers chair
     .desc = { ent-SeatBase.desc }
 ent-BarberSignPole = barber pole
     .desc = Hypnotic.

@@ -1,4 +1,4 @@
-ent-FoodBowlBig = миска
+﻿ent-FoodBowlBig = миска
     .desc = Простая миска, используемая для супов и салатов.
 ent-FoodBowlBigTrash = разбитая миска
     .desc = Простая миска, разбитая и бесполезная.

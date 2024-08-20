@@ -1,4 +1,4 @@
-translator-component-shutoff = { $translator } выключается.
+﻿translator-component-shutoff = { $translator } выключается.
 translator-component-turnon = { $translator } включается.
 translator-implanter-refuse = { $implanter } не возымел эффекта для { $target }.
 translator-implanter-success = { $implanter } успешно имплантирован в { $target }.

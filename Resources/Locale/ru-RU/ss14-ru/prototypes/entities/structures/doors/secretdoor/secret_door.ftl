@@ -1,4 +1,4 @@
-ent-BaseSecretDoor = обычная стена
+﻿ent-BaseSecretDoor = обычная стена
     .desc = Удерживает воздух внутри, а ассистентов снаружи.
     .suffix = Потайная дверь
 ent-BaseSecretDoorAssembly = каркас потайной двери

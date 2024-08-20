@@ -1,4 +1,4 @@
-ent-MobLivingLight = светящаяся персона
+﻿ent-MobLivingLight = светящаяся персона
     .desc = Ослепительная фигура из чистого света, кажущаяся неосязаемой.
 ent-MobLuminousPerson = { ent-MobLivingLight }
     .desc = { ent-MobLivingLight.desc }

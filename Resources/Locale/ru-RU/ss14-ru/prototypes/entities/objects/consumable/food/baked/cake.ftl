@@ -1,4 +1,4 @@
-ent-FoodCakeBase = { ent-FoodInjectableBase }
+﻿ent-FoodCakeBase = { ent-FoodInjectableBase }
     .desc = { ent-FoodInjectableBase.desc }
 ent-FoodCakeSliceBase = { ent-FoodCakeBase }
     .desc = Просто кусок торта, хватит на всех.

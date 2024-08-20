@@ -1,4 +1,4 @@
-ent-LootSpawnerSecurityBasic = спавнер лут служба безопасности
+﻿ent-LootSpawnerSecurityBasic = спавнер лут служба безопасности
     .suffix = Экипировка, Простая
     .desc = { ent-MarkerBase.desc }
 ent-LootSpawnerSecurity = спавнер лут служба безопасности

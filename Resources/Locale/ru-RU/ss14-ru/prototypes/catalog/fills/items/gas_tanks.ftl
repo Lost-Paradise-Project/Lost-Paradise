@@ -1,4 +1,4 @@
-ent-OxygenTankFilled = { ent-OxygenTank }
+﻿ent-OxygenTankFilled = { ent-OxygenTank }
     .desc = { ent-OxygenTank.desc }
     .suffix = Заполненный
 ent-EmergencyOxygenTankFilled = { ent-EmergencyOxygenTank }

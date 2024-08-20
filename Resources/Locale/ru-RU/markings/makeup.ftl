@@ -1,4 +1,4 @@
-marking-MakeupLips-lips = Помада
+﻿marking-MakeupLips-lips = Помада
 marking-MakeupLips = Помада
 marking-MakeupBlush-blush = Румяна
 marking-MakeupBlush = Румяна

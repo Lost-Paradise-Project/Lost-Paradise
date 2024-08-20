@@ -1,4 +1,4 @@
-cmd-set-map-atmos-desc = Sets a map's atmosphere
+﻿cmd-set-map-atmos-desc = Sets a map's atmosphere
 cmd-set-map-atmos-help = setmapatmos <mapid> <space> [<temperature> [moles...]]
 cmd-set-map-atmos-removed = Atmosphere removed from map { $map }
 cmd-set-map-atmos-updated = Atmosphere set for map { $map }

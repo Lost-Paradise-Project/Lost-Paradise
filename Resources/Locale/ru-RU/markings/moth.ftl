@@ -1,4 +1,4 @@
-marking-MothAntennasDefault-default = Антенна
+﻿marking-MothAntennasDefault-default = Антенна
 marking-MothAntennasDefault = Антенны (Обычные)
 marking-MothAntennasCharred-charred = Антенна
 marking-MothAntennasCharred = Антенны (Обугленные)

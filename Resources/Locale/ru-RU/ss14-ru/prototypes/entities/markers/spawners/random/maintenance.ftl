@@ -1,4 +1,4 @@
-ent-MaintenanceFluffSpawner = спавнер добыча тех туннели
+﻿ent-MaintenanceFluffSpawner = спавнер добыча тех туннели
     .suffix = Разное+Одежда
     .desc = { ent-MarkerBase.desc }
 ent-MaintenanceToolSpawner = спавнер добыча тех туннели

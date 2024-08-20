@@ -1,4 +1,4 @@
-ent-BaseStationNanotrasen = { "" }
+﻿ent-BaseStationNanotrasen = { "" }
     .desc = { "" }
 ent-StandardNanotrasenStation = { ent-BaseStation }
     .desc = { ent-BaseStation.desc }

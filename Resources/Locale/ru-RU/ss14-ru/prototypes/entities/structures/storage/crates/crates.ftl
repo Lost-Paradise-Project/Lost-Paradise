@@ -1,4 +1,4 @@
-ent-CrateGenericSteel = стальной ящик
+﻿ent-CrateGenericSteel = стальной ящик
     .desc = { ent-CrateBaseWeldable.desc }
 ent-CratePlastic = пластиковый ящик
     .desc = { ent-CrateBaseWeldable.desc }

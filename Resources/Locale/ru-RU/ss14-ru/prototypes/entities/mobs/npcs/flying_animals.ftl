@@ -1,2 +1,2 @@
-ent-FlyingMobBase = { "" }
+﻿ent-FlyingMobBase = { "" }
     .desc = { "" }

@@ -1,4 +1,4 @@
-ent-ClothingHandsGlovesInspection = перчатки инспектора
+﻿ent-ClothingHandsGlovesInspection = перчатки инспектора
     .desc = Модная пара белых перчаток, одновременно прочных и изящных.
 ent-ClothingHandsGlovesRyuzoGauntlets = золотые перчатки
     .desc = Потому что иногда все должно основываться только на твоих кулаках.

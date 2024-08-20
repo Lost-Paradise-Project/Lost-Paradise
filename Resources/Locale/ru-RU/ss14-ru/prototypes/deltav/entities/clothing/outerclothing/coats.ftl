@@ -1,4 +1,4 @@
-ent-ClothingOuterCoatRyuzo = одеяние мудреца
+﻿ent-ClothingOuterCoatRyuzo = одеяние мудреца
     .desc = Где-то в другой вселенной Джей - смертоносное животное.
     .suffix = АДМЕМЫ, НЕ МАППИТЬ
 ent-ClothingOuterCoatHoPArmored = бронированная куртка главы персонала

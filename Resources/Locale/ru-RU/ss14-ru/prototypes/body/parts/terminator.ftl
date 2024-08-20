@@ -1,4 +1,4 @@
-ent-PartTerminator = часть тела NT-800
+﻿ent-PartTerminator = часть тела NT-800
     .desc = { ent-BaseItem.desc }
 ent-TorsoTerminator = туловище NT-800
     .desc = { ent-PartTerminator.desc }

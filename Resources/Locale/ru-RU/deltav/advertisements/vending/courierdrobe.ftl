@@ -1,4 +1,4 @@
-advertisement-courierdrobe-1 = Доставляйте посылки в одних только самых прочных шортах!
+﻿advertisement-courierdrobe-1 = Доставляйте посылки в одних только самых прочных шортах!
 advertisement-courierdrobe-2 = Отличная инвестиция для вашего выживания!
 advertisement-courierdrobe-3 = Носите коричневый с гордостью!
 advertisement-courierdrobe-4 = Эти шорты удобны и легко носить, приобретите свои прямо сейчас!

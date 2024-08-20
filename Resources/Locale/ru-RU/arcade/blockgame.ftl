@@ -1,4 +1,4 @@
-### UI
+﻿### UI
 
 # Current game score
 blockgame-menu-label-points = Очки: { $points }

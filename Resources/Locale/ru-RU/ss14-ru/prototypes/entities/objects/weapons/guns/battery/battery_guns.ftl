@@ -1,4 +1,4 @@
-ent-BaseWeaponBattery = { ent-BaseItem }
+﻿ent-BaseWeaponBattery = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-BaseWeaponPowerCell = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }

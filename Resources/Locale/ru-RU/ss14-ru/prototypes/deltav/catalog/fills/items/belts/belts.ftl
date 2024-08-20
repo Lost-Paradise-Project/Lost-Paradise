@@ -1,4 +1,4 @@
-ent-ClothingBeltKatanaSheathFilled = { ent-ClothingBeltKatanaSheath }
+﻿ent-ClothingBeltKatanaSheathFilled = { ent-ClothingBeltKatanaSheath }
     .suffix = Заполнено
     .desc = { ent-ClothingBeltKatanaSheath.desc }
 ent-ClothingBeltCorpsmanWebbingFilled = { ent-ClothingBeltCorpsmanWebbing }

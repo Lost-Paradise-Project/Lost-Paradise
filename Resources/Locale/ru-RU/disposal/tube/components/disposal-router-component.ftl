@@ -1,4 +1,4 @@
-## UI
+﻿## UI
 
 disposal-router-window-title = Маршрутизатор утилизации
 disposal-router-window-tags-label = Метки:

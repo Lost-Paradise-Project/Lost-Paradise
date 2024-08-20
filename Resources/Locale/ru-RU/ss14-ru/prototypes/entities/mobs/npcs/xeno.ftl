@@ -1,4 +1,4 @@
-ent-MobXeno = Бурильщик
+﻿ent-MobXeno = Бурильщик
     .desc = Обычно они приходят ночью. Обычно.
 ent-MobXenoPraetorian = Преторианец
     .desc = { ent-MobXeno.desc }

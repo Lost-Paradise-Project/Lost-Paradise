@@ -1,4 +1,4 @@
-ent-ClothingUniformJumpsuitDeathSquad = униформа Эскадрона смерти
+﻿ent-ClothingUniformJumpsuitDeathSquad = униформа Эскадрона смерти
     .desc = Усовершенствованный бронированный комбинезон, используемый спецподразделениями при проведении специальных операций.
 ent-ClothingUniformJumpsuitAncient = старинный комбинезон
     .desc = Ужасно поношенный и потрёпанный серый комбинезон. Он выглядит так, будто его не стирали более десяти лет.
@@ -21,7 +21,7 @@ ent-ClothingUniformJumpsuitChiefEngineerTurtle = водолазка старше
 ent-ClothingUniformJumpsuitChaplain = комбинезон священника
     .desc = Это чёрный комбинезон, зачастую носимый религиозными людьми.
 ent-ClothingUniformJumpsuitCentcomAgent = комбинезон агента Центком
-    .desc = Костюм, который носят юристы Центком. Пахнет подгоревшим кофе.
+    .desc = Костюм, который носят Адвкоаты Центком. Пахнет подгоревшим кофе.
 ent-ClothingUniformJumpsuitCentcomOfficial = костюм офицера Центком
     .desc = Это комбинезон, который носят офицеры Центком высшего звена.
 ent-ClothingUniformJumpsuitCentcomOfficer = водолазка Центком

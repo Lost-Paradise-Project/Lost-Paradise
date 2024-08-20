@@ -1,2 +1,2 @@
-ent-IntercomElectronics = микросхема интеркома
+﻿ent-IntercomElectronics = микросхема интеркома
     .desc = Микросхема, используемая в строительстве интеркома.

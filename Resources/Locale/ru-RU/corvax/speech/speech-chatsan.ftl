@@ -1,4 +1,4 @@
-corvax-chatsan-word-1 = хос
+﻿corvax-chatsan-word-1 = хос
 corvax-chatsan-replacement-1 = гсб
 corvax-chatsan-word-2 = хоса
 corvax-chatsan-replacement-2 = гсб
@@ -11,7 +11,7 @@ corvax-chatsan-replacement-5 = гп
 corvax-chatsan-word-6 = хопа
 corvax-chatsan-replacement-6 = гп
 corvax-chatsan-word-7 = рд
-corvax-chatsan-replacement-7 = мистагог
+corvax-chatsan-replacement-7 = Научный Директор
 corvax-chatsan-word-8 = вард
 corvax-chatsan-replacement-8 = смотритель
 corvax-chatsan-word-9 = варден

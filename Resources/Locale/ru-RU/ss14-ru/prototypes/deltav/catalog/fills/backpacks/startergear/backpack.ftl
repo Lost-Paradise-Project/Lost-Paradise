@@ -1,4 +1,4 @@
-ent-ClothingBackpackMafiaFilled = { ent-ClothingBackpackSatchelLeather }
+﻿ent-ClothingBackpackMafiaFilled = { ent-ClothingBackpackSatchelLeather }
     .suffix = Заполненный, Мафия
     .desc = { ent-ClothingBackpackSatchelLeather.desc }
 ent-ClothingBackpackParamedicFilledDV = { ent-ClothingBackpackMedical }

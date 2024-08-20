@@ -1,1 +1,1 @@
-biscuit-verb-crack = Порвать
+﻿biscuit-verb-crack = Порвать

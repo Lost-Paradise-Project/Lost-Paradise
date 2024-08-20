@@ -1,4 +1,4 @@
-ent-ClothingBeltMantis = psionic mantis' belt
+﻿ent-ClothingBeltMantis = psionic mantis' belt
     .desc = Perfect for storing all of your equipment.
 ent-ClothingBeltMartialBlack = black belt
     .desc = This is the most martial of all the belts.

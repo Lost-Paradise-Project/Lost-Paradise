@@ -1,4 +1,4 @@
-ent-TrumpetInstrument = труба
+﻿ent-TrumpetInstrument = труба
     .desc = Любимый инструмент джазовых музыкантов и эгоистичных школьников средних классов.
 ent-TromboneInstrument = тромбон
     .desc = Всеми любимый подвижный духовой инструмент.

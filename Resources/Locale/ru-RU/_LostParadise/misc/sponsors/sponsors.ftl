@@ -1,4 +1,4 @@
-ent-SPNOneHundredPunch = сто ударов
+﻿ent-SPNOneHundredPunch = сто ударов
     .desc = Вместо тысячи слов.
     .suffix = { "Спонсоры" }
 ent-SPNLargeBeaker = мензурка из плазмостекла

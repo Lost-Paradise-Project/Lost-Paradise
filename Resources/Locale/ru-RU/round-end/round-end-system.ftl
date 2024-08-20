@@ -1,4 +1,4 @@
-## RoundEndSystem
+﻿## RoundEndSystem
 
 round-end-system-shuttle-called-announcement = Эвакуационный шаттл был вызван. Он прибудет через: { $time } { $units }.
 round-end-system-shuttle-already-called-announcement = Эвакуационный шаттл уже был отправлен.

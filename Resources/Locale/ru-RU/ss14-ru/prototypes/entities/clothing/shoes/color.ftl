@@ -1,4 +1,4 @@
-ent-ClothingShoesColorBlack = чёрные туфли
+﻿ent-ClothingShoesColorBlack = чёрные туфли
     .desc = Стильные чёрные туфли.
 ent-ClothingShoesColorBlue = синие туфли
     .desc = Стильные синие туфли.

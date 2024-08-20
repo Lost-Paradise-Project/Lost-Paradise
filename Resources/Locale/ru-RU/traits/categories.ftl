@@ -1,4 +1,4 @@
-# Alphabetically ordered, except for Uncategorized since it is always first
+﻿# Alphabetically ordered, except for Uncategorized since it is always first
 
 trait-category-Uncategorized = Без категории
 trait-category-Auditory = Слуховые

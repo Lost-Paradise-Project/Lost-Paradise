@@ -1,2 +1,2 @@
-ent-MobMimic = Мимик
+﻿ent-MobMimic = Мимик
     .desc = Сюрприз.

@@ -1,4 +1,4 @@
-ent-ClothingEyesGlassesGar = мужицкие очки
+﻿ent-ClothingEyesGlassesGar = мужицкие очки
     .desc = Совершать невозможное и раздавать пинки здравому смыслу!
 ent-ClothingEyesGlassesGarOrange = оранжевые мужицкие очки
     .desc = Ты за кого меня держишь?!

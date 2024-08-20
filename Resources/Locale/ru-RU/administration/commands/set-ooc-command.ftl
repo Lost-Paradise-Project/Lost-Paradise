@@ -1,4 +1,4 @@
-set-ooc-command-description = Позволяет включить или выключить OOC.
+﻿set-ooc-command-description = Позволяет включить или выключить OOC.
 set-ooc-command-help = Использование: setooc ИЛИ setooc [value]
 set-ooc-command-too-many-arguments-error = Слишком много аргументов.
 set-ooc-command-invalid-argument-error = Неверный аргумент.

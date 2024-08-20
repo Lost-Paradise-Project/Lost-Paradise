@@ -1,4 +1,4 @@
-shuttle-timer-eta = ПРИБ
+﻿shuttle-timer-eta = ПРИБ
 shuttle-timer-etd = ОТБ
 shuttle-timer-shuttle-time = ShuttleTime
 shuttle-timer-source-time = SourceTime

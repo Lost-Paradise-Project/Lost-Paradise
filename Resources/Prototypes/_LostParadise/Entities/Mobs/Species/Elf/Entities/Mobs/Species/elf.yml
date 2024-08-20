@@ -22,6 +22,8 @@
     damageRecovery:
       types:
         Asphyxiation: -1.0
+  - type: PotentialPsionic
+  - type: Carriable
   - type: Sprite
     noRot: true
     drawdepth: Mobs

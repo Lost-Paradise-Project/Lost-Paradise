@@ -1,4 +1,4 @@
-ent-CrateMedicalSupplies = ящик медицинских припасов
+﻿ent-CrateMedicalSupplies = ящик медицинских припасов
     .desc = Стандартные медикаменты.
 ent-CrateChemistrySupplies = ящик химического оборудования
     .desc = Стандартное химическое оборудование.

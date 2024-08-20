@@ -1,4 +1,4 @@
-ent-BannerBase = базовое знамя
+﻿ent-BannerBase = базовое знамя
     .desc = Это концепт баннера, который вы не должны видеть.
 ent-BannerNanotrasen = знамя Nanotrasen
     .desc = Это знамя с логотипом Nanotrasen. Оно выглядит довольно дёшево.

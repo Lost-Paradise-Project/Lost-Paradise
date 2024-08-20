@@ -1,4 +1,4 @@
-ent-PaperWrittenNoteFromMumGeneric = записка от мамы
+﻿ent-PaperWrittenNoteFromMumGeneric = записка от мамы
     .suffix = Ланчбокс, Обычная еда
     .desc = { ent-Paper.desc }
 ent-PaperWrittenNoteFromMumHealthy = записка от мамы

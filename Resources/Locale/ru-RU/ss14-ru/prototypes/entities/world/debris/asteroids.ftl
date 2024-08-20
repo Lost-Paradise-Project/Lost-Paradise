@@ -1,4 +1,4 @@
-ent-BaseAsteroidDebris = Обломок астероида
+﻿ent-BaseAsteroidDebris = Обломок астероида
     .desc = { ent-BaseDebris.desc }
 ent-AsteroidDebrisSmall = Обломок астероида маленький
     .desc = { ent-BaseAsteroidDebris.desc }

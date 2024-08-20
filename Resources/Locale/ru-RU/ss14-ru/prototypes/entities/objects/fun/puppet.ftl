@@ -1,4 +1,4 @@
-ent-MrChips = мистер Чипс
+﻿ent-MrChips = мистер Чипс
     .desc = Это кукла!
     .suffix = Кукла
 ent-MrDips = мистер Дипс

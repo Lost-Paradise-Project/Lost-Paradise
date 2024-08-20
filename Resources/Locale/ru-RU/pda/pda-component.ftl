@@ -1,4 +1,4 @@
-### UI
+﻿### UI
 
 # For the PDA screen
 comp-pda-ui = ID: [color=white]{ $owner }[/color], [color=yellow]{ CAPITALIZE($jobTitle) }[/color]
@@ -17,7 +17,7 @@ comp-pda-ui-footer = Карманный Персональный Компьют�
 comp-pda-ui-station = Станция: [color=white]{ $station }[/color]
 comp-pda-ui-station-alert-level = Уровень угрозы: [color={ $color }]{ $level }[/color]
 comp-pda-ui-station-alert-level-instructions = Инструкции: [color=white]{ $instructions }[/color]
-comp-pda-ui-station-time = Текущая дата: [color=white]{ $time } { $date }[/color]
+comp-pda-ui-station-time = Текущая дата: [color=white]{ $time } {$date}[/color]
 comp-pda-ui-eject-id-button = Извлечь ID
 comp-pda-ui-eject-pen-button = Извлечь ручку
 comp-pda-ui-ringtone-button-description = Измените рингтон вашего КПК
@@ -27,6 +27,5 @@ pda-bound-user-interface-music-button-description = Слушайте музык�
 pda-bound-user-interface-music-button = Музыкальный инструмент
 comp-pda-ui-unknown = Неизвестно
 comp-pda-ui-unassigned = Не назначено
-pda-notification-message =
-    [font size=12][bold]КПК[/bold] { $header }: [/font]
+pda-notification-message = [font size=12][bold]КПК[/bold] { $header }: [/font]
     "{ $message }"

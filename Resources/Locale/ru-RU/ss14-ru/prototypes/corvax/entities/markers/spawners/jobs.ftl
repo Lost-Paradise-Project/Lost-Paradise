@@ -1,2 +1,2 @@
-ent-SpawnPointPilot = пилот
+﻿ent-SpawnPointPilot = пилот
     .desc = { ent-SpawnPointJobBase.desc }

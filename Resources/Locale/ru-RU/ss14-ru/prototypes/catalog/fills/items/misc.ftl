@@ -1,4 +1,4 @@
-ent-ClothingShoesBootsCombatFilled = { ent-ClothingShoesBootsCombat }
+﻿ent-ClothingShoesBootsCombatFilled = { ent-ClothingShoesBootsCombat }
     .suffix = Заполненный
     .desc = { ent-ClothingShoesBootsCombat.desc }
 ent-ClothingShoesBootsJackFilled = { ent-ClothingShoesBootsJack }

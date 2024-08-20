@@ -1,4 +1,4 @@
-ent-BaseMagazineGrenade = картридж гранат
+﻿ent-BaseMagazineGrenade = картридж гранат
     .desc = { ent-BaseItem.desc }
 ent-MagazineGrenadeEmpty = картридж гранат
     .desc = { ent-BaseMagazineGrenade.desc }

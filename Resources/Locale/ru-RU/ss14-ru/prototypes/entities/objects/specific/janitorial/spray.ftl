@@ -1,4 +1,4 @@
-ent-SprayBottle = распылитель
+﻿ent-SprayBottle = распылитель
     .desc = Распылитель с отвинчивающимся верхом.
     .suffix = Пустой
 ent-MegaSprayBottle = мега-распылитель

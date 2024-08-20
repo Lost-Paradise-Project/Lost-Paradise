@@ -1,4 +1,4 @@
-## Guardian host specific
+﻿## Guardian host specific
 
 guardian-created = Вы чувствуете... Одержимость.
 guardian-already-present-invalid-creation = Вы НЕ переживёте заново ту одержимость!

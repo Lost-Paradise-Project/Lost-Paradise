@@ -1,4 +1,4 @@
-markings-used = Используемые черты
+﻿markings-used = Используемые черты
 markings-unused = Неиспользуемые черты
 markings-add = Добавить черту
 markings-remove = Убрать черту

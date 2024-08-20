@@ -1,4 +1,4 @@
-ent-CrateMaterialGlass = ящик стекла
+﻿ent-CrateMaterialGlass = ящик стекла
     .desc = 90 единиц стекла, упакованных с заботой.
 ent-CrateMaterialSteel = ящик стали
     .desc = 90 единиц стали.

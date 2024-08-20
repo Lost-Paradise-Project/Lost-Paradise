@@ -1,1 +1,1 @@
-wire-speech-pulse = { CAPITALIZE($name) } издаёт жужжащий звук
+﻿wire-speech-pulse = { CAPITALIZE($name) } издаёт жужжащий звук

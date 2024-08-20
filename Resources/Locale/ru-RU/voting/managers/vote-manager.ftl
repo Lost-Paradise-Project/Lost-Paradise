@@ -1,4 +1,4 @@
-ui-vote-initiator-server = Сервер
+﻿ui-vote-initiator-server = Сервер
 
 ## Default.Votes
 

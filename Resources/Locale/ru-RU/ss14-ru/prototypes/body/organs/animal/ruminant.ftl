@@ -1,2 +1,2 @@
-ent-OrganAnimalRuminantStomach = желудок жвачного
+﻿ent-OrganAnimalRuminantStomach = желудок жвачного
     .desc = { ent-OrganAnimalStomach.desc }

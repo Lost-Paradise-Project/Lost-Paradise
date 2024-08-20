@@ -1,4 +1,4 @@
-species-name-tajaran = Таяр
+﻿species-name-tajaran = Таяр
 TajaranSpecies = Таяр
 MothSpecies = Ниан
 VulpkaninSpecies = Вульпканин

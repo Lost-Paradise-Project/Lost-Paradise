@@ -1,4 +1,4 @@
-flavor-profile = На вкус { $flavor }.
+﻿flavor-profile = На вкус { $flavor }.
 flavor-profile-multiple = На вкус { $flavors } и { $lastFlavor }.
 flavor-profile-unknown = Вкус неописуем.
 

@@ -1,19 +1,25 @@
+﻿
 ent-LPPFloorGreenCircuitBase = зелёный микросхемная плитка
     .desc = { ent-FloorTileItemBase.desc }
 ent-LPPFloorBlueCircuitBase = синяя микросхемная плитка
     .desc = { ent-FloorTileItemBase.desc }
+
 ent-LPPLEDDiscoFloorOjects = диско плитка
     .desc = { ent-FloorTileItemBase.desc }
 ent-LPPLEDDiscoFloorRotatesOjects = диско плитка
     .desc = { ent-FloorTileItemBase.desc }
 ent-LPPLEDDiscoFloorRotatesHalfwayOjects = диско плитка
     .desc = { ent-FloorTileItemBase.desc }
+
+
 ent-LPPLEDDiscoFloorMatrix4Ojects = плитка матрицы
     .desc = { ent-FloorTileItemBase.desc }
 ent-LPPLEDDiscoFloorMatrix1Ojects = плитка матрицы
     .desc = { ent-FloorTileItemBase.desc }
+
 ent-LPPFloorTileItemWoodLarge = большой деревяная плитка
     .desc = { ent-FloorTileItemBase.desc }
+
 #----Без-пупырок----#
 ent-FloorTileItemDarkS = темная плитка
     .suffix = Без пупыр.
@@ -42,6 +48,7 @@ ent-FloorTileItemDarkPavementS = темная стальная плитка
 ent-FloorTileItemDarkPavementVerticalS = темная стальная перевернутая плитка
     .suffix = { ent-FloorTileItemDarkS.suffix }
     .desc = { ent-FloorTileItemDarkS.desc }
+
 #----Без-пупырок----#
 ent-FloorTileItemSteelS = стальная плитка
     .suffix = { ent-FloorTileItemDarkS.suffix }
@@ -98,3 +105,4 @@ ent-FloorTileItemWhitePavementS = белая стальная плитка
 ent-FloorTileItemWhitePavementVerticalS = белая стальная перевернутая плитка
     .suffix = { ent-FloorTileItemDarkS.suffix }
     .desc = { ent-FloorTileItemWhiteS.desc }
+

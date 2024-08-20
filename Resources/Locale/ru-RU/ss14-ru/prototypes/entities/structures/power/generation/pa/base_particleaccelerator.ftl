@@ -1,4 +1,4 @@
-ent-ParticleAcceleratorBase = { "" }
+﻿ent-ParticleAcceleratorBase = { "" }
     .desc = { "" }
 ent-ParticleAcceleratorFinishedPart = { ent-ParticleAcceleratorBase }
     .desc = { ent-ParticleAcceleratorBase.desc }

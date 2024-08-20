@@ -1,4 +1,4 @@
-ent-BasePowerCell = { ent-BaseItem }
+﻿ent-BasePowerCell = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-PowerCellPotato = картофельная батарея
     .desc = Кто-то воткнул два гвоздя и несколько проводов в большую картофелину. Каким-то образом это обеспечивает небольшой заряд. Вы можете запихнуть его в слот среднего размера.

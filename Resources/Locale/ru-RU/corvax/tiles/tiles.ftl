@@ -1,4 +1,4 @@
-tiles-wood-parquet = деревянный паркет
+﻿tiles-wood-parquet = деревянный паркет
 tiles-wood-chess = деревянный шахматный пол
 tiles-wood-black = деревянный чёрный пол
 tiles-wood-large-black = большой деревянный чёрный пол

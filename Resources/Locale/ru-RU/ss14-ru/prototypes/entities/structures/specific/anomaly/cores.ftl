@@ -1,4 +1,4 @@
-ent-BaseAnomalyCore = ядро аномалии
+﻿ent-BaseAnomalyCore = ядро аномалии
     .desc = Ядро уничтоженного непостижимого объекта.
 ent-AnomalyCorePyroclastic = { ent-BaseAnomalyCore }
     .suffix = Пирокластика

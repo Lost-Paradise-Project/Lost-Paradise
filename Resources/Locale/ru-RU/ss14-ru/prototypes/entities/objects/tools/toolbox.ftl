@@ -1,4 +1,4 @@
-ent-ToolboxBase = { ent-BaseItem }
+﻿ent-ToolboxBase = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-ToolboxEmergency = аварийный ящик для инструментов
     .desc = Ярко-красный ящик для инструментов, укомплектованный аварийными инструментами.

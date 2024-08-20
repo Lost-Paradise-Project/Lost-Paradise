@@ -1,4 +1,4 @@
-marking-MobIPCHeadDefault = Операционный монитор (Стандарт)
+﻿marking-MobIPCHeadDefault = Операционный монитор (Стандарт)
 marking-MobIPCTorsoDefault = Робошасси (Стандарт)
 marking-MobIPCTorsoFemaleDefault = Робошасси (Стандарт)
 marking-MobIPCLArmDefault = Левая роборука (Стандарт)

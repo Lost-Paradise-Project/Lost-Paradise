@@ -1,4 +1,4 @@
-buckle-component-no-hands-message = У вас нет рук.
+﻿buckle-component-no-hands-message = У вас нет рук.
 buckle-component-already-buckled-message = Вы уже пристёгнуты!
 buckle-component-other-already-buckled-message = { $owner } уже пристёгнут!
 buckle-component-cannot-buckle-message = Вы не можете пристегнуть себя туда.

@@ -1,4 +1,4 @@
-## Traitor
+﻿## Traitor
 
 # Shown at the end of a round of Traitor
 traitor-round-end-agent-name = предатель

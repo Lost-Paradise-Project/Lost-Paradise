@@ -1,4 +1,4 @@
-ent-ClothingBackpack = рюкзак
+﻿ent-ClothingBackpack = рюкзак
     .desc = Вы носите это на спине и кладёте в него предметы.
 ent-ClothingBackpackClown = хихишкин фон хонкертон
     .desc = Это рюкзак, изготовленный компанией «Honk! Co».

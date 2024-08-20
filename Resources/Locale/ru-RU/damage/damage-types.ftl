@@ -1,4 +1,4 @@
-damage-type-asphyxiation = Удушение
+﻿damage-type-asphyxiation = Удушение
 damage-type-bloodloss = Кровопотеря
 damage-type-blunt = Ушибы
 damage-type-cellular = Клеточные

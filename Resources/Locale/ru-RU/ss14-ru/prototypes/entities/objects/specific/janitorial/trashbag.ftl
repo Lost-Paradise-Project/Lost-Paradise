@@ -1,4 +1,4 @@
-ent-TrashBag = мешок для мусора
+﻿ent-TrashBag = мешок для мусора
     .desc = { ent-BaseItem.desc }
 ent-TrashBagBlue = мешок для мусора
     .desc = { ent-TrashBag.desc }

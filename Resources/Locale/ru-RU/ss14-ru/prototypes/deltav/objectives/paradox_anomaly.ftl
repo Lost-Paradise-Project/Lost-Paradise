@@ -1,4 +1,4 @@
-ent-BaseParadoxAnomalyObjective = { ent-BaseObjective }
+﻿ent-BaseParadoxAnomalyObjective = { ent-BaseObjective }
     .desc = { ent-BaseObjective.desc }
 ent-ParadoxAnomalyKillObjective = { ent-BaseParadoxAnomalyObjective }
     .desc = This universe doesn't have room for both of us.

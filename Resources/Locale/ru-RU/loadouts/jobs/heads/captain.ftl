@@ -1,4 +1,4 @@
-loadout-description-LoadoutCommandCapNeckMantle = Вы - король этой станции. Носите с честью.
+﻿loadout-description-LoadoutCommandCapNeckMantle = Вы - король этой станции. Носите с честью.
 loadout-description-LoadoutCommandCapNeckCloak = Покажите им, что такое настоящий капитан.
 loadout-description-LoadoutCommandCapNeckCloakFormal = Золотая окантовка выглядит приятно и богато.
 loadout-description-LoadoutCommandCapJumpsuitFormal = Уютный и роскошный костюм для самых успешных.

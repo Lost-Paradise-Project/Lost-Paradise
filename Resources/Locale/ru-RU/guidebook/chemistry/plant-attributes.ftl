@@ -1,4 +1,4 @@
-plant-attribute-growth = возраст
+﻿plant-attribute-growth = возраст
 plant-attribute-water = уровень воды
 plant-attribute-weeds = уровень сорняков
 plant-attribute-toxins = уровень токсинов

@@ -1,4 +1,4 @@
-ent-VirtualElectrocutionLoadBase = { "" }
+﻿ent-VirtualElectrocutionLoadBase = { "" }
     .desc = { "" }
 ent-VirtualElectrocutionLoadHVPower = { ent-VirtualElectrocutionLoadBase }
     .desc = { ent-VirtualElectrocutionLoadBase.desc }

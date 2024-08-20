@@ -1,4 +1,4 @@
-ent-BaseWeaponLauncher = BaseWeaponLauncher
+﻿ent-BaseWeaponLauncher = BaseWeaponLauncher
     .desc = Дерзай — налетай, целься и стреляй.
 ent-WeaponLauncherChinaLake = China Lake
     .desc = БЛУП

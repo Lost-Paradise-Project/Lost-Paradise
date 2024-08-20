@@ -1,4 +1,4 @@
-ent-MaterialBase = { ent-BaseItem }
+﻿ent-MaterialBase = { ent-BaseItem }
     .desc = Сырьё.
 ent-MaterialCardboard = картон
     .suffix = Полный

@@ -1,4 +1,4 @@
-ent-ClothingHandsGlovesColorPurple = фиолетовые перчатки
+﻿ent-ClothingHandsGlovesColorPurple = фиолетовые перчатки
     .desc = Обычные фиолетовые перчатки, которые не спасут вас от поджаривания.
 ent-ClothingHandsGlovesColorRed = красные перчатки
     .desc = Обычные красные перчатки, которые не спасут вас от поджаривания.

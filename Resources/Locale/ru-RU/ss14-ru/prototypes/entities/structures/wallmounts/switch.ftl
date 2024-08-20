@@ -1,4 +1,4 @@
-ent-SignalSwitch = переключатель сигнала
+﻿ent-SignalSwitch = переключатель сигнала
     .desc = Это переключатель питания устройств.
 ent-SignalButton = кнопка сигнала
     .desc = Эта кнопка что-то активирует.
@@ -33,7 +33,7 @@ ent-LockableButtonHeadOfSecurity = { ent-LockableButton }
     .suffix = Глава службы безопасности
     .desc = { ent-LockableButton.desc }
 ent-LockableButtonResearchDirector = { ent-LockableButton }
-    .suffix = Мистагог
+    .suffix = Научный Директор
     .desc = { ent-LockableButton.desc }
 ent-LockableButtonCommand = { ent-LockableButton }
     .suffix = Командование

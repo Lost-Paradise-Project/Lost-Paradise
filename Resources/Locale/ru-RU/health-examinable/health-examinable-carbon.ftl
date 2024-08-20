@@ -1,4 +1,4 @@
-health-examinable-carbon-none = Видимые повреждения тела отсутствуют.
+﻿health-examinable-carbon-none = Видимые повреждения тела отсутствуют.
 health-examinable-carbon-Blunt-25 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } небольшие ушибы на теле.[/color]
 health-examinable-carbon-Blunt-50 = [color=crimson]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } серьёзные ушибы на теле![/color]
 health-examinable-carbon-Blunt-75 = [color=crimson]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } сильные ушибы по всему телу![/color]

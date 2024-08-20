@@ -1,4 +1,4 @@
-reagent-physical-desc-soapy = мыльное
+﻿reagent-physical-desc-soapy = мыльное
 reagent-physical-desc-ferrous = чёрнометаллическое
 reagent-physical-desc-nothing = никакое
 reagent-physical-desc-acrid = едкое

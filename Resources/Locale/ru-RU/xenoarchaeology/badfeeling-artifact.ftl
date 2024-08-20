@@ -1,4 +1,4 @@
-badfeeling-artifact-1 = Что-то не так.
+﻿badfeeling-artifact-1 = Что-то не так.
 badfeeling-artifact-2 = У вас внутри возникает странное ощущение.
 badfeeling-artifact-3 = Ваши инстинкты пытаются предупредить вас о чём-то.
 badfeeling-artifact-4 = Вы непроизвольно вздрагиваете.

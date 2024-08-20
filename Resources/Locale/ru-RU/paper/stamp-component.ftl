@@ -1,4 +1,4 @@
-stamp-component-stamped-name-default = VIP
+﻿stamp-component-stamped-name-default = VIP
 stamp-component-stamped-name-detective = Детектив
 stamp-component-stamped-name-mime = Мим
 stamp-component-stamped-name-captain = Капитан
@@ -12,7 +12,7 @@ stamp-component-stamped-name-approved = ОДОБРЕНО
 stamp-component-stamped-name-hop = Глава персонала
 stamp-component-stamped-name-hos = Глава службы безопасности
 stamp-component-stamped-name-qm = Офицер логистики
-stamp-component-stamped-name-rd = Мистагог
+stamp-component-stamped-name-rd = Научный Директор
 stamp-component-stamped-name-warden = Смотритель
 stamp-component-stamped-name-trader = Торговец
 stamp-component-stamped-name-syndicate = Синдикат

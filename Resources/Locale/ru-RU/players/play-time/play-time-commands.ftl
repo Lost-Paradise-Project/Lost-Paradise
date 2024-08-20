@@ -1,4 +1,4 @@
-parse-minutes-fail = Не удалось спарсить '{ $minutes }' как минуты
+﻿parse-minutes-fail = Не удалось спарсить '{ $minutes }' как минуты
 parse-session-fail = Не найдена сессия для '{ $username }'
 
 ## Role Timer Commands

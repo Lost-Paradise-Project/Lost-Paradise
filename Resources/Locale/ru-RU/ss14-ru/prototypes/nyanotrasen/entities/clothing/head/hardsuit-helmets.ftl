@@ -1,4 +1,4 @@
-ent-ClothingHeadHelmetHardsuitMystagogue = mystagogue's hardsuit helmet
+﻿ent-ClothingHeadHelmetHardsuitMystagogue = mystagogue's hardsuit helmet
     .desc = Lightweight hardsuit helmet that has a galaxy-first psionic passthrough system.
 ent-ClothingHeadHelmetHardsuitSyndieReverseEngineered = SA-123 combat hardsuit helmet
     .desc = An advanced hardsuit helmet designed for work in special operations.

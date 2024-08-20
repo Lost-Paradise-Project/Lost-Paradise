@@ -1,4 +1,4 @@
-# ban
+﻿# ban
 cmd-ban-desc = Банит кого-либо
 cmd-ban-help = Использование: ban <name or user ID> <reason> [продолжительность в минутах, без указания или 0 для пермабана]
 cmd-ban-player = Не удалось найти игрока с таким именем.
@@ -74,66 +74,64 @@ ban-panel-erase = Стереть сообщения в чате и игрока 
 server-ban-string-never = никогда
 server-ban-string-infinity = Вечно
 server-ban-no-name = Не найдено. ({ $hwid })
-server-time-ban =
-    Временный бан на { $mins } { $mins ->
-        [one] минуту
-        [few] минуты
-       *[other] минут
+server-time-ban = Временный бан на { $mins } { $mins ->
+[one] минуту
+[few] минуты
+*[other] минут
     }.
 server-perma-ban = Перманентный бан.
-server-role-ban =
-    Временный джоб-бан на { $mins } { $mins ->
-        [one] минуту
-        [few] минуты
-       *[other] минут
+server-role-ban = Временный джоб-бан на { $mins } { $mins ->
+[one] минуту
+[few] минуты
+*[other] минут
     }.
 server-perma-role-ban = Перманентный джоб-бан.
 server-time-ban-string =
     > **Нарушитель**
         > **Логин:** ``{ $targetName }``
-    
+
         > **Администратор**
         > **Логин:** ``{ $adminName }``
-    
+
         > **Выдан:** { $TimeNow }
         > **Истечет:** { $expiresString }
-    
+
         > **Причина:** { $reason }
 server-ban-footer = { $server } | Раунд: #{ $round }
 server-perma-ban-string =
     > **Нарушитель**
         > **Логин:** ``{ $targetName }``
-    
+
         > **Администратор**
         > **Логин:** ``{ $adminName }``
-    
+
         > **Выдан:** { $TimeNow }
-    
+
         > **Причина:** { $reason }
 server-role-ban-string =
     > **Нарушитель**
         > **Логин:** ``{ $targetName }``
-    
+
         > **Администратор**
         > **Логин:** ``{ $adminName }``
-    
+
         > **Выдан:** { $TimeNow }
         > **Истечет:** { $expiresString }
-    
+
         > **Роли:** { $roles }
-    
+
         > **Причина:** { $reason }
 server-perma-role-ban-string =
     > **Нарушитель**
         > **Логин:** ``{ $targetName }``
-    
+
         > **Администратор**
         > **Логин:** ``{ $adminName }``
-    
+
         > **Выдан:** { $TimeNow }
-    
+
         > **Роли:** { $roles }
-    
+
         > **Причина:** { $reason }
 server-ban-string-no-pii = { $admin } установил серверный бан { $severity } тяжести, который истечёт { $expires } у { $name } с причиной: { $reason }
 cmd-ban_exemption_get-arg-player = <player>

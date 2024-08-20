@@ -1,4 +1,4 @@
-ent-PersonalAI = персональный ИИ
+﻿ent-PersonalAI = персональный ИИ
     .desc = Ваш электронный друг, с которым весело!
 # Corvax-HiddenDesc-Start
 ent-SyndicatePersonalAI = персональный ИИ

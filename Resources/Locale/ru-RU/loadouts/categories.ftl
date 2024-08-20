@@ -1,4 +1,4 @@
-# Alphabetically ordered, except for Uncategorized since it is always first
+﻿# Alphabetically ordered, except for Uncategorized since it is always first
 
 loadout-category-Uncategorized = Без категории
 loadout-category-Accessories = Аксессуары

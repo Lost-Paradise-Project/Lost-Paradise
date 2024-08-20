@@ -1,4 +1,4 @@
-marking-FelinidEarsBasic = Базовые уши
+﻿marking-FelinidEarsBasic = Базовые уши
 marking-FelinidEarsBasic-basic_outer = Снаружи уха
 marking-FelinidEarsBasic-basic_inner = Внутри уха
 marking-FelinidEarsCurled = Загнутые уши

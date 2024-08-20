@@ -1,4 +1,4 @@
-ent-CrateVendingMachineRestockBoozeFilled = ящик пополнения АлкоМат
+﻿ent-CrateVendingMachineRestockBoozeFilled = ящик пополнения АлкоМат
     .desc = Содержит набор пополнения торгомата АлкоМат.
 ent-CrateVendingMachineRestockChefvendFilled = ящик пополнения ШефВенд
     .desc = Содержит набор пополнения торгомата ШефВенд.

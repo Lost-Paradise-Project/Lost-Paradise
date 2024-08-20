@@ -1,4 +1,4 @@
-ent-ClothingUniformJumpskirtColorWhite = белая юбка-комбинезон
+﻿ent-ClothingUniformJumpskirtColorWhite = белая юбка-комбинезон
     .desc = Обычная белая юбка-комбинезон без знаков различия.
 ent-ClothingUniformJumpskirtColorGrey = серая юбка-комбинезон
     .desc = Серая юбка-комбинезон, напоминающая вам о старых добрых временах.

@@ -1,4 +1,4 @@
-ent-DrinkBaseCup = обычная чашка
+﻿ent-DrinkBaseCup = обычная чашка
     .desc = { ent-BaseItem.desc }
 ent-DrinkGoldenCup = золотая чаша
     .desc = Золотая чаша, золотая.

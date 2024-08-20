@@ -1,4 +1,4 @@
-ent-ClothingShoesBootsWinterAtmos = зимние ботинки атмосферного техника
+﻿ent-ClothingShoesBootsWinterAtmos = зимние ботинки атмосферного техника
     .desc = { ent-ClothingShoesBaseWinterBoots.desc }
 ent-ClothingShoesBootsWinterCap = зимние ботинки капитана
     .desc = { ent-ClothingShoesBaseWinterBoots.desc }
@@ -32,7 +32,7 @@ ent-ClothingShoesBootsWinterParamedic = зимние ботинки медици
     .desc = { ent-ClothingShoesBaseWinterBoots.desc }
 ent-ClothingShoesBootsWinterLogisticsOfficer = зимние ботинки офицера логиситики
     .desc = { ent-ClothingShoesBaseWinterBoots.desc }
-ent-ClothingShoesBootsWinterMystagogue = зимние ботинки мистагога
+ent-ClothingShoesBootsWinterMystagogue = зимние ботинки Научный Директора
     .desc = { ent-ClothingShoesBaseWinterBoots.desc }
 ent-ClothingShoesBootsWinterRobo = зимние ботинки робототехника
     .desc = { ent-ClothingShoesBaseWinterBoots.desc }

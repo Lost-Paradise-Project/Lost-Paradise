@@ -1,4 +1,4 @@
-marking-HarpyWingDefaultHuescale = Обычные крылья (Шкала оттенков)
+﻿marking-HarpyWingDefaultHuescale = Обычные крылья (Шкала оттенков)
 marking-HarpyWingDefaultHuescale-huescale_harpy = Крылья
 marking-HarpyWingDefaultWhitescale = Обычные крылья (Белая шкала)
 marking-HarpyWingDefaultWhitescale-whitescale_harpy = Крылья

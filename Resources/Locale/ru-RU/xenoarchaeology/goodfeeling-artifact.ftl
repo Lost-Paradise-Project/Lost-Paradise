@@ -1,4 +1,4 @@
-goodfeeling-artifact-1 = Вы чувствуете себя хорошо.
+﻿goodfeeling-artifact-1 = Вы чувствуете себя хорошо.
 goodfeeling-artifact-2 = Кажется, всё идёт хорошо.
 goodfeeling-artifact-3 = У вас хорошее предчувствие.
 goodfeeling-artifact-4 = Интуиция подсказывает вам, что всё будет хорошо.

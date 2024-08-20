@@ -1,4 +1,4 @@
-ent-ClothingUniformJumpskirtCentcomOfficial = юбка-костюм офицера Центком
+﻿ent-ClothingUniformJumpskirtCentcomOfficial = юбка-костюм офицера Центком
     .desc = Это костюм с юбкой, который носят офицеры Центком высшего звена.
 ent-ClothingUniformJumpskirtCentcomOfficer = водолазка с юбкой Центком
     .desc = Версия водолазки Центком с юбкой, более редкая и востребованная, чем оригинал.

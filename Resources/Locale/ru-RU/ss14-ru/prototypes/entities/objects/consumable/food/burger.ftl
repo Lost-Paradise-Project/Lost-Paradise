@@ -1,4 +1,4 @@
-ent-FoodBreadBun = булочка
+﻿ent-FoodBreadBun = булочка
     .desc = Булочка для гамбургера. Круглая и удобная для удержания чего-то.
 ent-FoodBurgerBase = { ent-FoodInjectableBase }
     .desc = { ent-FoodInjectableBase.desc }

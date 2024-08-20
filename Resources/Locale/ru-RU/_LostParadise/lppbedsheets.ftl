@@ -1,4 +1,4 @@
-ent-LPPBedsheetBase = базовое одеяло
+﻿ent-LPPBedsheetBase = базовое одеяло
     .desc = Удивительно мягкое льняное одеяло.
 ent-LPPBedsheetBlack = чёрное одеяло
     .desc = { ent-BedsheetBase.desc }
@@ -58,6 +58,7 @@ ent-LPPBedsheetWiz = одеяло волшебника
     .desc = Специальная зачарованная ткань, чтобы вы провели волшебную ночь. Оно даже светится!
 ent-LPPBedsheetYellow = жёлтое одеяло
     .desc = { ent-BedsheetBase.desc }
+
 ent-LPPBedDoubleUp = двойная кровать
     .desc = На ней можно лежать или спать пристёгнутым.
     .suffix = { "верх." }

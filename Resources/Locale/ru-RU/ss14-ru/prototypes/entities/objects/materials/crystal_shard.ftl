@@ -1,4 +1,4 @@
-ent-ShardCrystalBase = осколок кристалла
+﻿ent-ShardCrystalBase = осколок кристалла
     .desc = Небольшой кусочек кристалла.
 ent-ShardCrystalCyan = голубой осколок кристалла
     .desc = Небольшой кусочек кристалла.

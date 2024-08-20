@@ -1,4 +1,4 @@
-ent-ClothingHeadHatAnimalCat = серая кошко-шапка
+﻿ent-ClothingHeadHatAnimalCat = серая кошко-шапка
     .desc = Милая и пушистая серая кошка вам на голову.
 ent-ClothingHeadHatAnimalCatBrown = коричневая кошко-шапка
     .desc = Милая и пушистая коричневая кошка вам на голову.

@@ -1,4 +1,4 @@
-ent-SuitStorageEVA = { ent-SuitStorageBase }
+﻿ent-SuitStorageEVA = { ent-SuitStorageBase }
     .suffix = EVA
     .desc = { ent-SuitStorageBase.desc }
 ent-SuitStorageEVAAlternate = { ent-SuitStorageBase }
@@ -38,7 +38,7 @@ ent-SuitStorageCMO = { ent-SuitStorageBase }
     .suffix = Главный врач
     .desc = { ent-SuitStorageBase.desc }
 ent-SuitStorageRD = { ent-SuitStorageBase }
-    .suffix = Мистагог
+    .suffix = Научный Директор
     .desc = { ent-SuitStorageBase.desc }
 ent-SuitStorageHOS = { ent-SuitStorageBase }
     .suffix = Глава службы безопасности

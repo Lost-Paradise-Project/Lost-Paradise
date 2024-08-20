@@ -1,2 +1,2 @@
-ent-GlimmerMonitorCartridge = glimmer monitor cartridge
+﻿ent-GlimmerMonitorCartridge = glimmer monitor cartridge
     .desc = A cartridge that keeps track of glimmer.

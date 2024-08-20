@@ -1,4 +1,4 @@
-ent-LoaltyImplant = имплант лояльности
+﻿ent-LoaltyImplant = имплант лояльности
     .desc = Сделает врага - другом.
     .suffix = { "" }
 ent-LoaltyImplanter = имплантер импланта лояльности

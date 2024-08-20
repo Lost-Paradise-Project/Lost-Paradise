@@ -1,4 +1,4 @@
-ent-BaseDecoy = { ent-BaseItem }
+﻿ent-BaseDecoy = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-BalloonOperative = надувной оперативник
     .desc = При ближайшем рассмотрении выяснилось, что этот оперативник Синдиката на самом деле является воздушным шаром.

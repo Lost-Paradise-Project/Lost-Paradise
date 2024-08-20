@@ -1,4 +1,4 @@
-ent-BaseRecharger = { ent-BaseMachinePowered }
+﻿ent-BaseRecharger = { ent-BaseMachinePowered }
     .desc = { ent-BaseMachinePowered.desc }
 ent-BaseItemRecharger = { ent-BaseRecharger }
     .desc = { ent-BaseRecharger.desc }

@@ -1,4 +1,4 @@
-sliceable-food-component-on-examine-remaining-slices-text =
+﻿sliceable-food-component-on-examine-remaining-slices-text =
     { $remainingCount ->
         [one] Остался
        *[other] Осталось

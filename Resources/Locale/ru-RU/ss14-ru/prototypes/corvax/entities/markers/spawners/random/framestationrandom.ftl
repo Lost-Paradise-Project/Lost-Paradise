@@ -1,2 +1,2 @@
-ent-FrameStationRandomSpawner = { ent-MarkerBase }
+﻿ent-FrameStationRandomSpawner = { ent-MarkerBase }
     .desc = { ent-MarkerBase.desc }

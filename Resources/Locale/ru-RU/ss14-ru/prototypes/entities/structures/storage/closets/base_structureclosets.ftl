@@ -1,4 +1,4 @@
-ent-ClosetBase = шкаф
+﻿ent-ClosetBase = шкаф
     .desc = Стандартное хранилище Nanotrasen.
 ent-ClosetSteelBase = { ent-ClosetBase }
     .desc = { ent-ClosetBase.desc }

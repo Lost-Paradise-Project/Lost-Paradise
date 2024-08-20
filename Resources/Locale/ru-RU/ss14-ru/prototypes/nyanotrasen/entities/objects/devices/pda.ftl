@@ -1,4 +1,4 @@
-ent-PrisonerPDA = prisoner PDA
+﻿ent-PrisonerPDA = prisoner PDA
     .desc = Clear, so you can make sure there's nothing being smuggled inside.
 ent-GladiatorPDA = gladiator PDA
     .desc = { ent-PrisonerPDA.desc }

@@ -1,4 +1,4 @@
-ent-ClothingUniformRandom = { ent-ClothingUniformBase }
+﻿ent-ClothingUniformRandom = { ent-ClothingUniformBase }
     .desc = Сгенерировано нейросетью на основе последних тенденций моды.
     .suffix = Случайный вид
 ent-ClothingRandomSpawner = случайный яркий костюм

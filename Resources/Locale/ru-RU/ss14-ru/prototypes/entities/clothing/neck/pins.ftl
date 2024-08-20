@@ -1,4 +1,4 @@
-ent-ClothingNeckPinBase = нагрудный значок
+﻿ent-ClothingNeckPinBase = нагрудный значок
     .desc = Значок с булавкой.
 ent-ClothingNeckLGBTPin = { ent-ClothingNeckPinBase }
     .desc = Разноцветный металлический значок с булавкой.

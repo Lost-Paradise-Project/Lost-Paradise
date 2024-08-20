@@ -1,4 +1,4 @@
-ent-BaseBarSign = вывеска бара
+﻿ent-BaseBarSign = вывеска бара
     .desc = { ent-BaseStructure.desc }
 ent-BarSign = вывеска бара
     .desc = { ent-BaseBarSign.desc }

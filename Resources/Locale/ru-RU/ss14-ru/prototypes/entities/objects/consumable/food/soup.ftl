@@ -1,4 +1,4 @@
-ent-FoodBowlBase = { ent-BaseItem }
+﻿ent-FoodBowlBase = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-FoodSoupPea = гороховый суп
     .desc = Простой гороховый суп.

@@ -1,4 +1,4 @@
-ent-tatamibase = { ent-BaseStructure }
+﻿ent-tatamibase = { ent-BaseStructure }
     .desc = { ent-BaseStructure.desc }
 ent-tatamisingle = tatami square
     .desc = It's tatami, but a square.

@@ -1,4 +1,4 @@
-fulton-folded = Маяк необходимо развернуть
+﻿fulton-folded = Маяк необходимо развернуть
 fulton-examine = { $time } секунд до эвакуации
 fulton-linked = Связанный маяк
 fulton-not-found = Маяк не найден

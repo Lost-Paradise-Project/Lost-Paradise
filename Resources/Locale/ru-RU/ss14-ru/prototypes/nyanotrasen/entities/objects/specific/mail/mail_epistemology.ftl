@@ -1,4 +1,4 @@
-ent-MailEpistemologyBluespace = { ent-BaseMail }
+﻿ent-MailEpistemologyBluespace = { ent-BaseMail }
     .suffix = bluespace
     .desc = { ent-BaseMail.desc }
 ent-MailEpistemologyIngotGold = { ent-BaseMail }

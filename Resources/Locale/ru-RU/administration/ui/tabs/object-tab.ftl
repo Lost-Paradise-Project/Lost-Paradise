@@ -1,4 +1,4 @@
-object-tab-entity-id = ID сущности
+﻿object-tab-entity-id = ID сущности
 object-tab-object-name = Имя объекта
 object-tab-object-type = Тип объекта:
 object-tab-object-search = Поиск...

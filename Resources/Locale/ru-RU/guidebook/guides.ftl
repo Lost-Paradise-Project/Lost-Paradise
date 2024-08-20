@@ -1,4 +1,4 @@
-guide-entry-engineering = Инженерное дело
+﻿guide-entry-engineering = Инженерное дело
 guide-entry-construction = Строительство
 guide-entry-airlock-security = Улучшение шлюзов
 guide-entry-atmospherics = Атмосфера

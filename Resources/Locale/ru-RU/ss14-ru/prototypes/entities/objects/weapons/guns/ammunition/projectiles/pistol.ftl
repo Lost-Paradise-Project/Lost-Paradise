@@ -1,4 +1,4 @@
-ent-BulletPistol = пуля (.35 авто)
+﻿ent-BulletPistol = пуля (.35 авто)
     .desc = { ent-BaseBullet.desc }
 ent-BulletPistolPractice = пуля (.35 авто учебная)
     .desc = { ent-BaseBulletPractice.desc }

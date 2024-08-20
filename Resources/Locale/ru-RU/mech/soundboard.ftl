@@ -1,4 +1,4 @@
-mech-soundboard-BikeHorn = Хонк!
+﻿mech-soundboard-BikeHorn = Хонк!
 mech-soundboard-CluwneHorn = !кноХ
 mech-soundboard-TrollAnimals = звуки животных
 mech-soundboard-TrollEsword = энергомеч

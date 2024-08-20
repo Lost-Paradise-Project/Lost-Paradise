@@ -1,4 +1,4 @@
-### Portal verb text
+﻿### Portal verb text
 
 portal-component-ghost-traverse = Переместиться
 portal-component-no-linked-entities = Невозможно переместиться призраком через портал, не имеющий ровно одного связанного портала.

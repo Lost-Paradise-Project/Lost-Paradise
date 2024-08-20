@@ -1,4 +1,4 @@
-ent-Holoprojector = проектор голографических знаков
+﻿ent-Holoprojector = проектор голографических знаков
     .desc = Удобный голографический проектор, отображающий табличку уборщика.
 ent-HoloprojectorEmpty = { ent-Holoprojector }
     .suffix = Пустой

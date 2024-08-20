@@ -1,4 +1,4 @@
-ent-PartMoth = часть тела нианы
+﻿ent-PartMoth = часть тела нианы
     .desc = { ent-BasePart.desc }
 ent-TorsoMoth = торс нианы
     .desc = { ent-PartMoth.desc }

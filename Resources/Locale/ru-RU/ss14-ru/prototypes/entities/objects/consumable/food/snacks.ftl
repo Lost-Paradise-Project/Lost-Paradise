@@ -1,4 +1,4 @@
-ent-FoodSnackBase = { ent-BaseItem }
+﻿ent-FoodSnackBase = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-FoodSnackBoritos = боритос
     .desc = Хрустящие, солёные чипсы из тортильи. Вероятно, с ними можно приготовить начос.

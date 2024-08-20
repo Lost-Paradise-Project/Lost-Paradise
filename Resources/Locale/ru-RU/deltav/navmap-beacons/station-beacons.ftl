@@ -1,5 +1,5 @@
-station-beacon-epistemics = Эпистемология
-station-beacon-mystagogue = Мистагог
+﻿station-beacon-epistemics = Научный отдел
+station-beacon-mystagogue = Научный Директор
 station-beacon-logistics = Логистика
 station-beacon-logistics-reception = Логистика
 station-beacon-lo = Офицер логистики

@@ -1,4 +1,4 @@
-ent-BaseEnergyBall = { "" }
+﻿ent-BaseEnergyBall = { "" }
     .desc = { "" }
 ent-TeslaEnergyBall = шаровая молния
     .desc = Гигантский шар чистой энергии. Пространство вокруг него гудит и плавится.

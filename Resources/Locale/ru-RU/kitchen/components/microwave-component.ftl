@@ -1,4 +1,4 @@
-## Entity
+﻿## Entity
 
 microwave-component-interact-using-no-power = У неё нет электричества!
 microwave-component-interact-using-broken = Она сломана!

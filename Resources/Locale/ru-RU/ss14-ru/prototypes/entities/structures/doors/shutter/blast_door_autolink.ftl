@@ -1,4 +1,4 @@
-ent-BlastDoorExterior1 = { ent-BlastDoor }
+﻿ent-BlastDoorExterior1 = { ent-BlastDoor }
     .suffix = Автолинк, Внеш1
     .desc = { ent-BlastDoor.desc }
 ent-BlastDoorExterior1Open = { ent-BlastDoorOpen }

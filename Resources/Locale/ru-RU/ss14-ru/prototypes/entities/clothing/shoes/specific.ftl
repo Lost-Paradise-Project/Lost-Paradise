@@ -1,4 +1,4 @@
-ent-ClothingShoesChef = поварские ботинки
+﻿ent-ClothingShoesChef = поварские ботинки
     .desc = Прочная обувь, которая минимизирует травмы от падающих предметов или ножей.
 ent-ClothingShoesClownBase = { ent-ClothingSlotBase }
     .desc = { ent-ClothingSlotBase.desc }

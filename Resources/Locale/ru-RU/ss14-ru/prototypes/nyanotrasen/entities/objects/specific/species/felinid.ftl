@@ -1,2 +1,2 @@
-ent-Hairball = hairball
+﻿ent-Hairball = hairball
     .desc = Felinids, man... Placeholder sprite.

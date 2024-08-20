@@ -1,2 +1,2 @@
-ent-MobFerretWhite = белый хорек
+﻿ent-MobFerretWhite = белый хорек
     .desc = { ent-MobFerret.desc }

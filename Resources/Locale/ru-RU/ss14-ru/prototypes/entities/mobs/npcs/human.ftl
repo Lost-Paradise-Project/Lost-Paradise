@@ -1,4 +1,4 @@
-ent-MobCivilian = гражданский
+﻿ent-MobCivilian = гражданский
     .desc = Жалкая кучка тайн.
 ent-MobSalvager = утилизатор
     .desc = { ent-BaseMobHuman.desc }

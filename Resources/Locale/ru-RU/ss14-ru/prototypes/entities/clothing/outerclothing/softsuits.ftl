@@ -1,4 +1,4 @@
-ent-ClothingOuterHardsuitEVA = скафандр EVA
+﻿ent-ClothingOuterHardsuitEVA = скафандр EVA
     .desc = Лёгкий космический скафандр, способный защитить владельца от космического вакуума во время аварийной ситуации.
 # Corvax-HiddenDesc-Start
 ent-ClothingOuterHardsuitSyndicate = кроваво-красный скафандр EVA

@@ -1,4 +1,4 @@
-shuttle-pilot-start = Пилотирование начато
+﻿shuttle-pilot-start = Пилотирование начато
 shuttle-pilot-end = Пилотирование прекращено
 shuttle-console-in-ftl = Уже в БСС
 shuttle-console-mass = Слишком большой для БСС

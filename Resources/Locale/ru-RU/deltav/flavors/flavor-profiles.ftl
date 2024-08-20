@@ -1,4 +1,4 @@
-## Nyano
+﻿## Nyano
 
 flavor-base-acidic = кислое
 flavor-complex-nuggie = как "курица"

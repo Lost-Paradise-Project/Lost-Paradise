@@ -1,4 +1,4 @@
-ent-EvidenceMarker = маркер улик
+﻿ent-EvidenceMarker = маркер улик
     .desc = Пронумерованный жёлтый маркер, полезный для обозначения улик на месте преступления.
 ent-EvidenceMarkerOne = { ent-EvidenceMarker }
     .desc = { ent-EvidenceMarker.desc }

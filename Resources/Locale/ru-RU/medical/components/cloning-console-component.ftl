@@ -1,4 +1,4 @@
-## UI
+﻿## UI
 
 cloning-console-window-title = Консоль клонирования
 cloning-console-window-clone-button-text = Клонировать

@@ -1,4 +1,4 @@
-ent-LeftArmBorg = { ent-BaseBorgArmLeft }
+﻿ent-LeftArmBorg = { ent-BaseBorgArmLeft }
     .desc = { ent-BaseBorgArmLeft.desc }
 ent-RightArmBorg = { ent-BaseBorgArmRight }
     .desc = { ent-BaseBorgArmRight.desc }

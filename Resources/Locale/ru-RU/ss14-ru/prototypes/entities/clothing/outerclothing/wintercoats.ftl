@@ -1,4 +1,4 @@
-ent-ClothingOuterWinterCoat = зимняя куртка
+﻿ent-ClothingOuterWinterCoat = зимняя куртка
     .desc = Тяжёлая куртка из 'синтетического' меха животных.
 ent-ClothingOuterWinterCoatToggleable = зимняя куртка с капюшоном
     .desc = { ent-ClothingOuterWinterCoat.desc }

@@ -1,4 +1,4 @@
-ent-ClothingUniformJumpsuitFluppi = комбинезон Фрупи
+﻿ent-ClothingUniformJumpsuitFluppi = комбинезон Фрупи
     .desc = Нежно-пушистый комбинезон маскота базированной корпораций Fluppy&Co Ltd!
     .suffix = { "ФРУПИ" }
 ent-PlushieSharkFluppi = плюшевый Гектор

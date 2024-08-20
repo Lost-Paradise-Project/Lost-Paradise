@@ -1,4 +1,4 @@
-ent-BaseMob = { "" }
+﻿ent-BaseMob = { "" }
     .desc = { "" }
 ent-MobDamageable = { "" }
     .desc = { "" }

@@ -1,4 +1,4 @@
-ent-BedsheetBase = базовое одеяло
+﻿ent-BedsheetBase = базовое одеяло
     .desc = Удивительно мягкое льняное одеяло.
 ent-BedsheetBlack = чёрное одеяло
     .desc = { ent-BedsheetBase.desc }

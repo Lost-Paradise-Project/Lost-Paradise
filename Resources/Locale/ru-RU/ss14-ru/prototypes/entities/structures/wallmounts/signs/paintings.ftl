@@ -1,4 +1,4 @@
-ent-PaintingBase = { ent-BaseSign }
+﻿ent-PaintingBase = { ent-BaseSign }
     .desc = { ent-BaseSign.desc }
 ent-PaintingEmpty = пустая рама
     .desc = Пустая рама, ожидающая, когда её наполнят искусством.

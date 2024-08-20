@@ -1,4 +1,4 @@
-metabolism-group-poison = Яды
+﻿metabolism-group-poison = Яды
 metabolism-group-medicine = Лекарства
 metabolism-group-narcotic = Наркотики
 metabolism-group-alcohol = Алкоголь

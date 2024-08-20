@@ -1,4 +1,4 @@
-ent-MailEngineeringCables = { ent-BaseMail }
+﻿ent-MailEngineeringCables = { ent-BaseMail }
     .suffix = cables
     .desc = { ent-BaseMail.desc }
 ent-MailEngineeringKudzuDeterrent = { ent-BaseMail }

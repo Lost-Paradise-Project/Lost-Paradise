@@ -1,4 +1,4 @@
-ent-FoodTacoShell = лепёшка тако
+﻿ent-FoodTacoShell = лепёшка тако
     .desc = Оболочка для тако, которую удобно держать. Падает на бок, если положить.
 ent-FoodTacoBase = { ent-FoodInjectableBase }
     .desc = { ent-FoodInjectableBase.desc }

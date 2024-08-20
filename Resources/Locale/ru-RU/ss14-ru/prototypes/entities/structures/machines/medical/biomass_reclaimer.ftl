@@ -1,2 +1,2 @@
-ent-BiomassReclaimer = переработчик биомассы
+﻿ent-BiomassReclaimer = переработчик биомассы
     .desc = Извлекает биомассу из трупов. Ужасно.

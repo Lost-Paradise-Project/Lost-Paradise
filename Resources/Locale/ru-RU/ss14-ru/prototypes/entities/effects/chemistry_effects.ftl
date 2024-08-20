@@ -1,4 +1,4 @@
-ent-BaseFoam = { "" }
+﻿ent-BaseFoam = { "" }
     .desc = { "" }
 ent-Smoke = дым
     .desc = { ent-BaseFoam.desc }
