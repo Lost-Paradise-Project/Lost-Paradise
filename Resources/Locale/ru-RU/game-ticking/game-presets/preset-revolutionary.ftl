@@ -52,8 +52,7 @@ rev-headrev-name-user = [color=#5e9cff]{ $name }[/color] ([color=gray]{ $usernam
         [few] члена
        *[other] членов
     } экипажа
-rev-headrev-name =
-    [color=#5e9cff]{ $name }[/color] конвертировал { $count } { $count ->
+rev-headrev-name = [color=#5e9cff]{ $name }[/color] конвертировал { $count } { $count ->
         [one] члена
         [few] члена
        *[other] членов
