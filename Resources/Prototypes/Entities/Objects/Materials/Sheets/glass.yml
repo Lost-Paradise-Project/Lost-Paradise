@@ -48,6 +48,11 @@
     solutions:
       glass:
         canReact: false
+  - type: BlindHealing
+    damageContainers:
+      - Silicon
+  - type: StackPrice
+    price: 2
 
 - type: entity
   parent: SheetGlassBase

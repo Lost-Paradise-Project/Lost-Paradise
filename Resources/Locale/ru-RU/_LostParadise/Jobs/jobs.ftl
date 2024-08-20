@@ -18,12 +18,12 @@ job-name-centcom-representative = представитель ЦентКом
 job-name-blueshieldofficer = офицер "синий щит"
 job-description-blueshieldofficer = Ваша задача защитить всех глав на станции. Следите за ними.
 
-job-name-magistrate = магистрат
+job-name-magistrate = Судья
 job-description-magistrate = Вы закон! Проводите суды и следите за соблюдением КЗ.
 
-job-supervisors-mag-iaa = магистрату и АВД
-job-supervisors-mag = магистрату
-job-supervisors-mag-centcom = центральному коммандованию и магистрату
+job-supervisors-mag-iaa = Судьяу и АВД
+job-supervisors-mag = Судьяу
+job-supervisors-mag-centcom = центральному коммандованию и Судьяу
 
 department-Law = Юридический отдел
 department-CentCom = Центральное Командование

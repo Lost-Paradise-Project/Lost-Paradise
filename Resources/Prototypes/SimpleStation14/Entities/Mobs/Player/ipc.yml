@@ -18,8 +18,8 @@
   - type: EncryptionHolderRequiresLock
   - type: SiliconEmitSoundOnDrained
     sound: "/Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg"
-    minInterval: 15
-    maxInterval: 30
+    minInterval: 25
+    maxInterval: 45
     popUp: "silicon-power-low"
   - type: Lock
     locked: true
@@ -66,9 +66,6 @@
   - type: SiliconDownOnDead
   - type: Inventory
     templateId: ipc
-  - type: GuideHelp
-    guides:
-      - IPCs
   - type: Silicon
     entityType: enum.SiliconType.Player
     batteryPowered: true
@@ -83,20 +80,24 @@
       1: 0.45
       0: 0.00
   - type: BatteryDrinker
-  - type: EncryptionKeyHolder
-    keySlots: 4
-    examineWhileLocked: false
-    keysExtractionMethod: Cutting
-    keysUnlocked: false
-  - type: ActiveRadio
-  - type: IntrinsicRadioReceiver
-  - type: IntrinsicRadioTransmitter
+  - type: Carriable
   - type: DeadStartupButton
     sound:
       path: /Audio/EstacaoPirata/Effects/Silicon/startup.ogg
   - type: EmitBuzzWhileDamaged
   - type: CanHostGuardian
-
+  - type: Fixtures
+    fixtures: # TODO: This needs a second fixture just for mob collisions.
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 185
+        restitution: 0.0
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
 
 - type: entity
   save: false

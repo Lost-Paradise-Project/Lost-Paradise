@@ -1,4 +1,4 @@
-﻿crime-assist-program-name = Персональный юрист
+﻿crime-assist-program-name = Персональный Адвкоат
 crime-assist-yes-button = Да
 crime-assist-no-button = Нет
 crime-assist-crimetype-innocent = Невиновный

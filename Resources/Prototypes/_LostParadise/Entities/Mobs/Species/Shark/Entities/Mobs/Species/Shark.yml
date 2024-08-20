@@ -22,6 +22,7 @@
     - type: Damageable
       damageContainer: Biological
       damageModifierSet: Scale
+    - type: PotentialPsionic
     - type: MeleeWeapon
       hidden: true
       soundHit:
@@ -58,8 +59,9 @@
       - GalacticCommon
       understands:
       - GalacticCommon
-    # - type: EmotePanel
-      race: Shark
+    # # - type: EmotePanel
+    #   race: Shark
+    - type: Carriable
 
 - type: entity
   save: false

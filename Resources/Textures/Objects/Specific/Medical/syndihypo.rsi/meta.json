@@ -1,14 +1,22 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from vgstation at commit https://github.com/vgstation-coders/vgstation13/commit/1cdfb0230cc96d0ba751fa002d04f8aa2f25ad7d and modified by emisse for ss14",
+  "copyright": "Taken from cev-eris at https://github.com/Skilets",
   "size": {
     "x": 32,
     "y": 32
   },
   "states": [
     {
-      "name": "hypo"
+      "name": "hypo",
+        "delays": [
+          [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ]
+        ]
     },
     {
       "name": "inhand-left",

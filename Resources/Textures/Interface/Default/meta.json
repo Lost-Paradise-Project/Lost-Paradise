@@ -83,6 +83,18 @@
         "name": "pda"
       },
       {
+        "name": "tail"
+      },
+      {
+          "name": "breast"
+      },
+      {
+          "name": "underwear"
+      },
+      {
+          "name": "socks"
+      },
+      {
         "name": "web"
       }
    ]
