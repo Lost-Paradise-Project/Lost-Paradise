@@ -11,7 +11,7 @@
       department: Science
       time: 14400
     - !type:DepartmentTimeRequirement
-      department: Security
+      department: Epistemics
       time: 14400
     - !type:DepartmentTimeRequirement
       department: Civilian

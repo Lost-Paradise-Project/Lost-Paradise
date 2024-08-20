@@ -630,6 +630,12 @@
     - JetpackBlue
     - JetpackMini
   # End Nyano additions
+  # Lost Paradise: start
+    - LPPERPModuleBorg
+    - LPPDroneModuleSecurityTaser
+    - LPPBorgModuleAresst
+    - LPPBattleBorgModule
+  #  Lost Paradise: end
   - type: MaterialStorage
     whitelist:
       tags:

@@ -1,0 +1,871 @@
+
+# ============================================================
+#
+#                   [Части тела киборгов]
+#
+# ============================================================
+# 
+# - type: latheRecipe
+#   id: LeftArmBorg
+#   result: LeftArmBorg
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: RightArmBorg
+#   result: RightArmBorg
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: LeftLegBorg
+#   result: LeftLegBorg
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: RightLegBorg
+#   result: RightLegBorg
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: LightHeadBorg
+#   result: LightHeadBorg
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: TorsoBorg
+#   result: TorsoBorg
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: LeftArmBorgEngineer
+#   result: LeftArmBorgEngineer
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: RightArmBorgEngineer
+#   result: RightArmBorgEngineer
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: LeftLegBorgEngineer
+#   result: LeftLegBorgEngineer
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: RightLegBorgEngineer
+#   result: RightLegBorgEngineer
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: HeadBorgEngineer
+#   result: HeadBorgEngineer
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: TorsoBorgEngineer
+#   result: TorsoBorgEngineer
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: LeftArmBorgMedical
+#   result: LeftArmBorgMedical
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: RightArmBorgMedical
+#   result: RightArmBorgMedical
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: LeftLegBorgMedical
+#   result: LeftLegBorgMedical
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: RightLegBorgMedical
+#   result: RightLegBorgMedical
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: HeadBorgMedical
+#   result: HeadBorgMedical
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: TorsoBorgMedical
+#   result: TorsoBorgMedical
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: LeftArmBorgService
+#   result: LeftArmBorgService
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: RightArmBorgService
+#   result: RightArmBorgService
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: LeftLegBorgService
+#   result: LeftLegBorgService
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: RightLegBorgService
+#   result: RightLegBorgService
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: HeadBorgService
+#   result: HeadBorgService
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: TorsoBorgService
+#   result: TorsoBorgService
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: LeftLegBorgJanitor
+#   result: LeftLegBorgJanitor
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: RightLegBorgJanitor
+#   result: RightLegBorgJanitor
+#   category: Robotics
+#   completetime: 2
+#   materials:
+#     Steel: 250
+#     Glass: 100
+#
+# - type: latheRecipe
+#   id: HeadBorgJanitor
+#   result: HeadBorgJanitor
+#   category: Robotics
+#   completetime: 4
+#   materials:
+#     Steel: 500
+#     Glass: 200
+#
+# - type: latheRecipe
+#   id: TorsoBorgJanitor
+#   result: TorsoBorgJanitor
+#   category: Robotics
+#   completetime: 4
+#   materials:
+#     Steel: 500
+#     Glass: 200
+#
+# # ============================================================
+# #
+# #             [Центральные процессоры киборгов]
+# #
+# # ============================================================
+#
+# - type: latheRecipe
+#   id: MMI
+#   result: MMI
+#   category: Robotics
+#   completetime: 3
+#   icon:
+#     sprite: Objects/Specific/Robotics/mmi.rsi
+#     state: mmi_off
+#   materials:
+#     Steel: 1000
+#     Glass: 200
+#     Plastic: 500
+#     Gold: 200
+#
+# - type: latheRecipe
+#   id: PositronicBrain
+#   result: PositronicBrain
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 500
+#     Plastic: 500
+#     Gold: 100
+#     Silver: 100
+#     Plasma: 1000
+#
+# # ============================================================
+# #
+# #                     [Модули киборгов]
+# #
+# # ============================================================
+#
+# - type: latheRecipe
+#   id: BorgModuleCable
+#   result: BorgModuleCable
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleFireExtinguisher
+#   result: BorgModuleFireExtinguisher
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleGPS
+#   result: BorgModuleGPS
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleRadiationDetection
+#   result: BorgModuleRadiationDetection
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleTool
+#   result: BorgModuleTool
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleAppraisal
+#   result: BorgModuleAppraisal
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleMining
+#   result: BorgModuleMining
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleGrapplingGun
+#   result: BorgModuleGrapplingGun
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 500
+#     Glass: 500
+#     Plastic: 250
+#     Gold: 50
+#
+# - type: latheRecipe
+#   id: BorgModuleAdvancedTool
+#   result: BorgModuleAdvancedTool
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 500
+#     Glass: 500
+#     Plastic: 250
+#     Gold: 50
+#
+# - type: latheRecipe
+#   id: BorgModuleConstruction
+#   result: BorgModuleConstruction
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 500
+#     Glass: 500
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleRCD
+#   result: BorgModuleRCD
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 500
+#     Glass: 500
+#     Plastic: 250
+#     Gold: 50
+#
+# - type: latheRecipe
+#   id: BorgModuleLightReplacer
+#   result: BorgModuleLightReplacer
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleCleaning
+#   result: BorgModuleCleaning
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleAdvancedCleaning
+#   result: BorgModuleAdvancedCleaning
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#     Gold: 50
+#
+# - type: latheRecipe
+#   id: BorgModuleDiagnosis
+#   result: BorgModuleDiagnosis
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleTreatment
+#   result: BorgModuleTreatment
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleAdvancedTreatment
+#   result: BorgModuleAdvancedTreatment
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 500
+#     Glass: 500
+#     Plastic: 250
+#     Gold: 50
+#
+# - type: latheRecipe
+#   id: BorgModuleDefibrillator
+#   result: BorgModuleDefibrillator
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 500
+#     Glass: 500
+#     Plastic: 250
+#     Gold: 50
+#
+# - type: latheRecipe
+#   id: BorgModuleArtifact
+#   result: BorgModuleArtifact
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleAnomaly
+#   result: BorgModuleAnomaly
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleService
+#   result: BorgModuleService
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleMusique
+#   result: BorgModuleMusique
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleGardening
+#   result: BorgModuleGardening
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleHarvesting
+#   result: BorgModuleHarvesting
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+#
+# - type: latheRecipe
+#   id: BorgModuleClowning
+#   result: BorgModuleClowning
+#   category: Robotics
+#   completetime: 3
+#   materials:
+#     Steel: 250
+#     Glass: 250
+#     Plastic: 250
+
+# ============================================================
+#
+#                   [Части киборгов LPP]
+#
+# ============================================================
+
+# [Киборг службы безопасности]
+
+- type: latheRecipe
+  id: LPPLeftArmBorgSecurity
+  result: LPPLeftArmBorgSecurity
+  category: Robotics
+  completetime: 4
+  materials:
+    Steel: 350
+    Glass: 200
+
+- type: latheRecipe
+  id: LPPRightArmBorgSecurity
+  result: LPPRightArmBorgSecurity
+  category: Robotics
+  completetime: 4
+  materials:
+    Steel: 350
+    Glass: 200
+
+- type: latheRecipe
+  id: LPPLeftLegBorgSecurity
+  result: LPPLeftLegBorgSecurity
+  category: Robotics
+  completetime: 4
+  materials:
+    Steel: 350
+    Glass: 200
+
+- type: latheRecipe
+  id: LPPRightLegBorgSecurity
+  result: LPPRightLegBorgSecurity
+  category: Robotics
+  completetime: 4
+  materials:
+    Steel: 350
+    Glass: 200
+
+- type: latheRecipe
+  id: LPPHeadBorgSecurity
+  result: LPPHeadBorgSecurity
+  category: Robotics
+  completetime: 4
+  materials:
+    Steel: 350
+    Glass: 200
+
+- type: latheRecipe
+  id: LPPTorsoBorgSecurity
+  result: LPPTorsoBorgSecurity
+  category: Robotics
+  completetime: 4
+  materials:
+    Steel: 350
+    Glass: 200
+
+# [Эротический киборг]
+- type: latheRecipe
+  id: LPPLeftArmBorgErotic
+  result: LPPLeftArmBorgErotic
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 350
+
+- type: latheRecipe
+  id: LPPRightArmBorgErotic
+  result: LPPRightArmBorgErotic
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 350
+
+- type: latheRecipe
+  id: LPPLeftLegBorgErotic
+  result: LPPLeftLegBorgErotic
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 350
+
+- type: latheRecipe
+  id: LPPRightLegBorgErotic
+  result: LPPRightLegBorgErotic
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 350
+
+- type: latheRecipe
+  id: LPPHeadBorgErotic
+  result: LPPHeadBorgErotic
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 350
+
+- type: latheRecipe
+  id: LPPTorsoBorgErotic
+  result: LPPTorsoBorgErotic
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 350
+# [Шахтёрский киборг]
+- type: latheRecipe
+  id: LPPLeftArmBorgMining
+  result: LPPLeftArmBorgMining
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 350
+    Glass: 100
+
+- type: latheRecipe
+  id: LPPRightArmBorgMining
+  result: LPPRightArmBorgMining
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 350
+    Glass: 100
+
+- type: latheRecipe
+  id: LPPLeftLegBorgMining
+  result: LPPLeftLegBorgMining
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 350
+    Glass: 100
+
+- type: latheRecipe
+  id: LPPRightLegBorgMining
+  result: LPPRightLegBorgMining
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 350
+    Glass: 100
+
+- type: latheRecipe
+  id: LPPHeadBorgMining
+  result: LPPHeadBorgMining
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 350
+    Glass: 100
+
+- type: latheRecipe
+  id: LPPTorsoBorgMining
+  result: LPPTorsoBorgMining
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 350
+    Glass: 100
+# [РНД киборг]
+- type: latheRecipe
+  id: LPPLeftArmBorgScience
+  result: LPPLeftArmBorgScience
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 200
+
+- type: latheRecipe
+  id: LPPRightArmBorgScience
+  result: LPPRightArmBorgScience
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 200
+
+- type: latheRecipe
+  id: LPPLeftLegBorgScience
+  result: LPPLeftLegBorgScience
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 200
+
+- type: latheRecipe
+  id: LPPRightLegBorgScience
+  result: LPPRightLegBorgScience
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 200
+
+- type: latheRecipe
+  id: LPPHeadBorgScience
+  result: LPPHeadBorgScience
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 200
+
+- type: latheRecipe
+  id: LPPTorsoBorgScience
+  result: LPPTorsoBorgScience
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 200
+
+# ============================================================
+#
+#                   [Модули киборгов LPP]
+#
+# ============================================================
+
+- type: latheRecipe
+  id: LPPERPModuleBorg
+  result: LPPERPModuleBorg
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 250
+    Glass: 250
+    Plastic: 350
+
+- type: latheRecipe
+  id: LPPBorgModuleLaserWeaponAdvanced
+  result: LPPBorgModuleLaserWeaponAdvanced
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 500
+    Glass: 500
+    Plastic: 200
+    Silver: 200
+
+- type: latheRecipe
+  id: LPPBorgModuleLaserWeapon
+  result: LPPBorgModuleLaserWeapon
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 400
+    Glass: 400
+    Plastic: 100
+    Silver: 100
+
+- type: latheRecipe
+  id: LPPDroneModuleSecurityTaser
+  result: LPPDroneModuleSecurityTaser
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 200
+    Glass: 400
+    Plastic: 100
+    Silver: 100
+
+- type: latheRecipe
+  id: LPPBorgModuleAresst
+  result: LPPBorgModuleAresst
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 500
+    Glass: 100
+    Plastic: 100
+    Silver: 100
+
+- type: latheRecipe
+  id: LPPBattleBorgModule
+  result: LPPBattleBorgModule
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 500
+    Glass: 500
+    Plastic: 100
+    Silver: 100
+
+- type: latheRecipe
+  id: LPPModuleBorgHands
+  result: LPPModuleBorgHands
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 500
+    Glass: 500
+    Plastic: 500
+    Silver: 200
