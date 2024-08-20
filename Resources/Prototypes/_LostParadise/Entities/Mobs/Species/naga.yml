@@ -170,7 +170,7 @@
 #   parent: BaseSpeciesDummy
 #   id: LPPMobNagaDummy
 #   description: "null"
-#   categories: [ HideSpawnMenu ]
+#   noSpawn: true
 #   components:
 #   - type: HumanoidAppearance
 #     species: Naga

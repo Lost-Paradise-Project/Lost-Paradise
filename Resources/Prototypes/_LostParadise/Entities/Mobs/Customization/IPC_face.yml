@@ -8,7 +8,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_static
 
 
@@ -18,7 +18,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_blue
 
 
@@ -28,7 +28,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_breakout
 
 
@@ -38,7 +38,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_eight
 
 
@@ -48,7 +48,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_goggles
 
 
@@ -58,7 +58,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_exclaim
 
 
@@ -68,7 +68,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_heart
 
 
@@ -78,7 +78,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_monoeye
 
 
@@ -88,7 +88,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_nature
 
 
@@ -98,7 +98,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_orange
 
 
@@ -108,7 +108,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_pink
 
 
@@ -118,7 +118,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_question
 
 
@@ -128,7 +128,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_shower
 
 
@@ -138,7 +138,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_yellow
 
 
@@ -148,7 +148,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_scroll
 
 
@@ -158,7 +158,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_console
 
 
@@ -168,7 +168,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_rgb
 
 
@@ -178,7 +178,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_glider
 
 
@@ -188,7 +188,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_rainbowhoriz
 
 
@@ -198,7 +198,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_bsod
 
 
@@ -208,7 +208,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_redtext
 
 
@@ -218,7 +218,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_sinewave
 
 
@@ -228,7 +228,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_squarewave
 
 
@@ -238,7 +238,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_ecgwave
 
 
@@ -248,7 +248,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_eyes
 
 
@@ -258,7 +258,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_eyestall
 
 
@@ -268,7 +268,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_eyesangry
 
 
@@ -278,7 +278,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_loading
 
 
@@ -288,7 +288,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_windowsxp
 
 
@@ -298,7 +298,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_tetris
 
 
@@ -308,7 +308,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_tv
 
 
@@ -318,7 +318,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_textdrop
 
 
@@ -328,7 +328,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_stars
 
 
@@ -338,7 +338,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_rainbowdiag
 
 
@@ -348,7 +348,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_blank
 
 
@@ -358,7 +358,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_smile
 
 - type: marking
@@ -367,7 +367,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_frown
 
 
@@ -377,7 +377,7 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_ring
 
 
@@ -387,5 +387,5 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   sprites:
-    - sprite: SimpleStation14/Mobs/Customization/ipc_screens.rsi
+    - sprite: DeltaV/Mobs/Customization/ipc_screens.rsi
       state: ipc_screen_l

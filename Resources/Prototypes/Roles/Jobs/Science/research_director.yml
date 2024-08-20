@@ -25,14 +25,16 @@
   - Chapel # DeltaV - Chaplain is in Epistemics
   - Cryogenics
   special: # Nyanotrasen - Mystagogue can use the Bible
-  - !type:AddComponentSpecial
-    - type: Psionic # Nyano - They start with telepathic chat
-    - type: DispelPower # Nyano - They get the Dispel psionic power on spawn
+  # - !type:AddComponentSpecial
+    # - type: Psionic # Nyano - They start with telepathic chat
+    # - type: DispelPower # Nyano - They get the Dispel psionic power on spawn
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+      - type: Psionic # Nyano - They start with telepathic chat
+      - type: DispelPower # Nyano - They get the Dispel psionic power on spawn
 
 - type: startingGear
   id: ResearchDirectorGear

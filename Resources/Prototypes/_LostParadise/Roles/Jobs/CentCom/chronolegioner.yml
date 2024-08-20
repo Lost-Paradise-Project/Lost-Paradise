@@ -16,7 +16,7 @@
   duffelbag: LPPClothingBackpackHoldingChrono
 
 - type: entity
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   parent: ClothingBackpackHolding
   id: LPPClothingBackpackHoldingChrono
   components:

@@ -50,7 +50,7 @@
   id: LPPBulletM4A1
   parent: LPPBaseBullet
   name: пуля (5,56х45)
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   description: America! FUCK YEA!
   components:
   - type: Projectile
@@ -63,7 +63,7 @@
   id: LPPBulletRubberM4A1
   parent: LPPBaseBullet
   name: пуля (5,56х45 резиновая)
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   description: America! FUCK YEA!
   components:
   - type: Projectile
@@ -79,7 +79,7 @@
   id: LPPBulletPracticeM4A1
   name: пуля (5,56х45 учебная)
   parent: BaseBulletPractice
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: Projectile
     damage:
@@ -90,7 +90,7 @@
   id: LPPBulletUraniumM4A1
   parent: BaseBulletUranium
   name: пуля (5,56х45 урановая)
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: Projectile
     damage:
@@ -102,7 +102,7 @@
   id: LPPBulletIncendiaryM4A1
   parent: BaseBulletIncendiary
   name: пуля (5,56х45 зажигательная)
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: Projectile
     damage:

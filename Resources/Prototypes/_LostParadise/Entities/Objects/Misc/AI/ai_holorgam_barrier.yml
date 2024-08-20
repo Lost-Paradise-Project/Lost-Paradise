@@ -90,7 +90,7 @@
 #   description: Очень гладкий и удивительно прочный.
 #   parent: LPPCapsuleBaseHolo
 #   id: LPPCapsuleHoloAI
-#   categories: [ HideSpawnMenu ]
+#   noSpawn: true
 #   components:
 #   - type: Sprite
 #     sprite: Objects/Tiles/web.rsi
@@ -116,7 +116,7 @@
 #   parent: TableBase
 #   name: Загружающийся барьер
 #   description: Очень гладкий и удивительно прочный.
-#   categories: [ HideSpawnMenu ]
+#   noSpawn: true
 #   components:
 #   - type: Damageable
 #     damageModifierSet: Web
@@ -191,7 +191,7 @@
 #   id: LPPActionSpawnHoloAI
 #   name: Защитный барьер
 #   description: Создайте защитный барьер
-#   categories: [ HideSpawnMenu ]
+#   noSpawn: true
 #   components:
 #   - type: WorldTargetAction
 #     useDelay: 8
@@ -217,7 +217,7 @@
 #   parent: BaseSubdermalImplant
 #   id: LPPSystemSpawnHoloAI
 #   name: Holorgam AI
-#   categories: [ HideSpawnMenu ]
+#   noSpawn: true
 #   components:
 #     - type: SubdermalImplant
 #       implantAction: LPPActionSpawnHoloAI

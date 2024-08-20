@@ -37,7 +37,7 @@
   id: LPPClothingHeadHelmetDetectiveHardsuit
   name: защитный шлем детектива
   description: Жаль что нет отверствия под курительную трубку...
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: BreathMask
   - type: Sprite

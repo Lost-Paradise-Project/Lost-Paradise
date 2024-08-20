@@ -42,7 +42,7 @@
   id: LPPClothingOuterHardsuitHelmetLeaderNFSD
   name: шлем элитного скафандра шерифа
   description: Пархай как бабочка, жаль, что ты уже мёртв, жалкий ксенос!
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: BreathMask
   - type: Sprite
