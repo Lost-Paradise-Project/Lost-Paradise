@@ -356,7 +356,7 @@
   - type: Sprite
     state: pill16
   - type: Label
-    currentLabel: dexalin 10u
+    currentLabel: дексалин 10u
   - type: SolutionContainerManager
     solutions:
       food:
@@ -373,7 +373,7 @@
   suffix: Dexalin, 7
   components:
   - type: Label
-    currentLabel: dexalin 10u
+    currentLabel: дексалин 10u
   - type: StorageFill
     contents:
     - id: PillDexalin
@@ -389,7 +389,7 @@
   - type: Sprite
     state: pill10
   - type: Label
-    currentLabel: dylovene 10u
+    currentLabel: диловен 10u
   - type: SolutionContainerManager
     solutions:
       food:
@@ -405,7 +405,7 @@
   suffix: Dylovene, 5
   components:
   - type: Label
-    currentLabel: dylovene 10u
+    currentLabel: диловен 10u
   - type: StorageFill
     contents:
     - id: PillDylovene
@@ -421,7 +421,7 @@
   - type: Sprite
     state: pill17
   - type: Label
-    currentLabel: hyronalin 10u
+    currentLabel: хироналин 10u
   - type: SolutionContainerManager
     solutions:
       food:
@@ -437,7 +437,7 @@
   suffix: Hyronalin, 5
   components:
   - type: Label
-    currentLabel: hyronalin 10u
+    currentLabel: хироналин 10u
   - type: StorageFill
     contents:
     - id: PillHyronalin
@@ -453,7 +453,7 @@
   - type: Sprite
     state: pill14
   - type: Label
-    currentLabel: iron 10u
+    currentLabel: железо 10u
   - type: SolutionContainerManager
     solutions:
       food:
@@ -472,7 +472,7 @@
   - type: Sprite
     state: pill13
   - type: Label
-    currentLabel: copper 10u
+    currentLabel: медь 10u
   - type: SolutionContainerManager
     solutions:
       food:
@@ -488,7 +488,7 @@
   suffix: Iron, 5
   components:
   - type: Label
-    currentLabel: iron 10u
+    currentLabel: железо 10u
   - type: StorageFill
     contents:
     - id: PillIron
@@ -501,7 +501,7 @@
   suffix: Copper, 5
   components:
   - type: Label
-    currentLabel: copper 10u
+    currentLabel: медь 10u
   - type: StorageFill
     contents:
     - id: PillCopper
@@ -517,7 +517,7 @@
   - type: Sprite
     state: pill4
   - type: Label
-    currentLabel: kelotane 10u
+    currentLabel: келотан 10u
   - type: SolutionContainerManager
     solutions:
       food:
@@ -533,7 +533,7 @@
   suffix: Kelotane, 5
   components:
   - type: Label
-    currentLabel: kelotane 10u
+    currentLabel: келотан 10u
   - type: StorageFill
     contents:
     - id: PillKelotane
@@ -549,7 +549,7 @@
   - type: Sprite
     state: pill8
   - type: Label
-    currentLabel: dermaline 10u
+    currentLabel: дермалин 10u
   - type: SolutionContainerManager
     solutions:
       food:
@@ -565,7 +565,7 @@
   suffix: Dermaline, 5
   components:
   - type: Label
-    currentLabel: dermaline 10u
+    currentLabel: дермалин 10u
   - type: StorageFill
     contents:
     - id: PillDermaline
@@ -594,7 +594,7 @@
   - type: Sprite
     state: pill3
   - type: Label
-    currentLabel: tricordrazine 10u
+    currentLabel: трикордразин 10u
   - type: SolutionContainerManager
     solutions:
       food:
@@ -610,7 +610,7 @@
   suffix: Tricordrazine, 5
   components:
   - type: Label
-    currentLabel: tricordrazine 10u
+    currentLabel: трикордразин 10u
   - type: StorageFill
     contents:
     - id: PillTricordrazine
@@ -626,7 +626,7 @@
   - type: Sprite
     state: pill5
   - type: Label
-    currentLabel: bicaridine 10u
+    currentLabel: бикаридин 10u
   - type: SolutionContainerManager
     solutions:
       food:
@@ -642,7 +642,7 @@
   suffix: Bicaridine, 5
   components:
   - type: Label
-    currentLabel: bicaridine 10u
+    currentLabel: бикаридин 10u
   - type: StorageFill
     contents:
     - id: PillBicaridine
@@ -658,7 +658,7 @@
   - type: Sprite
     state: pill21
   - type: Label
-    currentLabel: charcoal 10u
+    currentLabel: уголь 10u
   - type: SolutionContainerManager
     solutions:
       food:
@@ -674,7 +674,7 @@
   suffix: Charcoal, 3
   components:
   - type: Label
-    currentLabel: charcoal 10u
+    currentLabel: уголь 10u
   - type: StorageFill
     contents:
     - id: PillCharcoal

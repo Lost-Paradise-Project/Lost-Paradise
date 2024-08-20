@@ -1,2 +1,2 @@
-ent-BulletBB = BB
-    .desc = Don't shoot your eye out.
+ent-BulletBB = ББ
+    .desc = Не попади себе в глаза.

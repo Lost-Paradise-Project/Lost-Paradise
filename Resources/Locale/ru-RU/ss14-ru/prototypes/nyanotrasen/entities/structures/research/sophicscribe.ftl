@@ -1,2 +1,2 @@
-ent-SophicScribe = sophie
-    .desc = Latest reports on the Noösphere!
+ent-SophicScribe = софия
+    .desc = Последние сообщения о Ноосфере!
