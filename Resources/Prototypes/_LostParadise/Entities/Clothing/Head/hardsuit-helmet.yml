@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitNightGuard
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: night guard exosuit helmet
   description: He usually comes at night. Usually.
   components:
@@ -42,7 +42,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPHardsuitHelmetAssaultParamedic
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Assault paramedic helmet
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitIIC
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: IIC exosuit helmet
   description: A pressure resistant and fireproof hood worn by special cleanup units.
   components:
@@ -99,7 +99,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitSWAT
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: SWAT hardsuit helmet
   description: Armored hardsuit helmet for security needs.
   components:
@@ -123,7 +123,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitLoneMercenary
   name: LoneMercenary hardsuit helmet
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Hardsuits/loneMercenary-syndicate_helmet.rsi
@@ -147,7 +147,7 @@
   id: LPPClothingHeadHelmetMikhelm
   name: обесцвеченный шлем скафандра
   description: Шлем от скафандра, дисплей слегка побит, но работать можно...
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: BreathMask
   - type: Sprite
@@ -171,7 +171,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitSecurityPilot
   name: pilot security hardsuit helmet
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   description: Pilot armored hardsuit helmet for security needs.
   components:
   - type: Sprite
@@ -194,7 +194,7 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: LPPHardsuitHelmetSuppressor
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Improved Power Armor helmet
   components:
   - type: Sprite
@@ -217,7 +217,7 @@
   parent: ClothingHeadHelmetHardsuitERTLeader
   id: LPPClothingOuterHardsuitBlueshieldHelm
   name: blueshield's hardsuit helmet
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Hardsuits/blueshield_hardsuithead.rsi
@@ -229,7 +229,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPArmorMovementHead
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Pilot Suit Helm Security
   description: Looks like something that inspires order.
   components:
@@ -246,7 +246,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitChrono
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: chrono two
   components:
   - type: Sprite
@@ -271,7 +271,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitIICPyrotech
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Pyrotech IIC exosuit helmet
   description:
   components:
@@ -312,7 +312,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitIICMedic
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Medic IIC exosuit helmet
   description:
   components:
@@ -353,7 +353,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitIICCommand
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: IIC exosuit helmet
   description:
   components:
@@ -394,7 +394,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitIICEngineer
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Engineer IIC exosuit helmet
   description:
   components:

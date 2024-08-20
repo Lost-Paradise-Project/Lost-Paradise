@@ -19,7 +19,7 @@
   id: LPPBulletCharge
   name: syndie charge bolt
   parent: BaseBullet
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   description: Marks a target for additional damage.
   components:
   - type: Reflective
@@ -54,7 +54,7 @@
   id: LPPBulletPibodi
   name: Pibodi Bullet
   parent: BaseBullet
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   description: Not too bad, but you still don't want to get hit by it.
   components:
   - type: Reflective
@@ -81,7 +81,7 @@
 #   name: Bullet or AI Turrets
 #   id: LPPBulletAITurrets
 #   parent: BaseBullet
-#   categories: [ HideSpawnMenu ]
+#   noSpawn: true
 #   components:
 #   - type: Reflective
 #     reflective:
@@ -123,7 +123,7 @@
   parent: BaseBullet
   name: Bullet AI
   description: If you can see this you're probably dead!
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/AIBullet.rsi
@@ -148,7 +148,7 @@
 # IMPACTS
 - type: entity
   id: LPPAIBulletsImpact
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
     - type: TimedDespawn
       lifetime: 0.2
@@ -168,7 +168,7 @@
   id: LPPBecbowarrow
   name: ecbowshot
   parent: BaseBullet
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   description: Not too bad, but you still don't want to get hit by it.
   components:
   - type: Reflective

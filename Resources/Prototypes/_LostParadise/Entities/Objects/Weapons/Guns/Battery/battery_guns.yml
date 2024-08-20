@@ -161,7 +161,7 @@
   parent: BaseWeaponBattery
   id: LPPIonGunAutoBORGMECH
   description: Ion combat Gun AUTO UI-80
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Guns/Battery/ion_gun_borg_security.rsi
@@ -193,7 +193,7 @@
   name: Borg-Disbaler
   parent: BaseWeaponBatterySmall
   id: LPPDisbalerBorg
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   description:
   components:
     - type: Tag
@@ -227,7 +227,7 @@
   name: Robotics-laser
   parent: BaseWeaponBattery
   id: LPPBorgLaser
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   description:
   components:
     - type: Sprite
@@ -258,7 +258,7 @@
   name: Robotics-laser-advanced
   parent: WeaponLaserCannon
   id: LPPBorgLaserAdvanced
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   description:
   components:
     - type: Sprite

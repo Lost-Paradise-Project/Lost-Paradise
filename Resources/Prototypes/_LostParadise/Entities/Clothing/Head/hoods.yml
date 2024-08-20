@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPClothingHeadHelmetHardsuitKiravaHoodsec
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Kirava Hoodsec
   description: beautiful kapeshon u Kirava
   components:
@@ -32,7 +32,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodAtmos
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood atmos
   description:
   components:
@@ -53,7 +53,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodCaptain
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood captain
   description:
   components:
@@ -74,7 +74,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodCargo
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood cargo
   description:
   components:
@@ -95,7 +95,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodCe
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood ce
   description:
   components:
@@ -116,7 +116,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodCentcom
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood centcom
   description:
   components:
@@ -137,7 +137,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodChemistry
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood chemistry
   description:
   components:
@@ -158,7 +158,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodCmo
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood cmo
   description:
   components:
@@ -179,7 +179,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodCoroner
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood coroner
   description:
   components:
@@ -200,7 +200,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodEngineer
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood engineer
   description:
   components:
@@ -221,7 +221,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodEva
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood eva
   description:
   components:
@@ -242,7 +242,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodGenetics
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood genetics
   description:
   components:
@@ -263,7 +263,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodHop
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood hop
   description:
   components:
@@ -284,7 +284,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodHos
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood hos
   description:
   components:
@@ -305,7 +305,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodHydro
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood hydro
   description:
   components:
@@ -326,7 +326,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodJanitor
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood janitor
   description:
   components:
@@ -347,7 +347,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodMedical
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood medical
   description:
   components:
@@ -367,7 +367,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodMime
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood mime
   description:
   components:
@@ -387,7 +387,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodMiner
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood miner
   description:
   components:
@@ -408,7 +408,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodParamed
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood paramed
   description:
   components:
@@ -429,7 +429,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodQm
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood qm
   description:
   components:
@@ -450,7 +450,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodRd
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood rd
   description:
   components:
@@ -471,7 +471,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodRobotics
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood robotics
   description:
   components:
@@ -492,7 +492,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodScience
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood science
   description:
   components:
@@ -513,7 +513,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodSecurity
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood security
   description:
   components:
@@ -534,7 +534,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodViro
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood viro
   description:
   components:
@@ -555,7 +555,7 @@
 #- type: entity
 #  parent: ClothingHeadBase
 #  id: LPPHelmetHardsuitHoodWinter
-#  categories: [ HideSpawnMenu ]
+#  noSpawn: true
 #  name: Hood winter
 #  description:
 #  components:
@@ -575,7 +575,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodWinter
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood Winter
   description:
   components:
@@ -595,7 +595,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodSyndicate
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood syndicate
   description:
   components:
@@ -615,7 +615,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodSyndicates
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Hood Syndicates
   description:
   components:
@@ -635,7 +635,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPKirasHead
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: Kirava Hoodsec
   description: The steering wheel is imprinted in the visor of this helmet.
   components:
@@ -655,7 +655,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetGarfiled
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: капюшон костюма Гарфилда
   description: Пахнет лазанью...
   components:

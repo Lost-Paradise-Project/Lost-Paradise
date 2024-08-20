@@ -16,7 +16,7 @@
 
 - type: entity
   id: AlertEssenceSpriteView
-  categories: [ hideSpawnMenu ]
+  noSpawn: true
   components:
   - type: Sprite
     sprite: /Textures/Interface/Alerts/essence_counter.rsi

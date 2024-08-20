@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: OrganTajaranStomach
   parent: OrganAnimalStomach
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: Stomach
     specialDigestible:

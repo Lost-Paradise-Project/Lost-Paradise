@@ -540,7 +540,7 @@
   id: AIEye
   parent: AIBase
   name: Invalid AI name
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   save: false
   components:
     - type: ShowSecurityIcons

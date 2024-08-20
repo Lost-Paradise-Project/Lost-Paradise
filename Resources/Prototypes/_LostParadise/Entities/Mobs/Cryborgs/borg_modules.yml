@@ -154,7 +154,7 @@
   id: LPPClothingBackpackBorgs
   name: Borg's backpack
   description: it`s cool robotics backpack
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Back/Backpacks/borg.rsi

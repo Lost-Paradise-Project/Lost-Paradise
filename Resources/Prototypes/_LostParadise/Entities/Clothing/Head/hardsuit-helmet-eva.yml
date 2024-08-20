@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetAcientSyndieEVA
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: шлем древнего скафандра Синдиката (EVA режим)
   description: Шлем от странного скафандра Синдиката, он в EVA режиме.
   components:
@@ -31,7 +31,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHunter
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: шлем древнего скафандра Охотника (защитный)
   description: Крайне комфорнтый шлем, что позволяет вам защититься от морозной погоды. он в защитном.
   components:
@@ -61,7 +61,7 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: LPPClothingHeadHelmetRND
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   name: шлем "НИС"
   description: Шлем от скафандра НИС, довольно полезен и имеет встроенный функционал, по типу определения жидкостей и защиту от сварки, из-за чего довольно громозок.
   components:

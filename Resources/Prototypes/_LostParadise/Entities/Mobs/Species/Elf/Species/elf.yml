@@ -1,7 +1,7 @@
 - type: species
   id: ElfSpecies
   name: species-name-elf
-  roundStart: true
+  roundStart: false
   prototype: MobElf
   sprites: MobElfSprites
   markingLimits: MobElfMarkingLimits

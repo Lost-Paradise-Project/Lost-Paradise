@@ -37,7 +37,7 @@
   id: LPPClothingHeadHelmetMikhelmJugger
   name: обесцвеченный шлем скафандра "Панцирь"
   description: Шлем от скафандра, дисплей слегка побит, но работать можно...
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: BreathMask
   - type: Sprite
