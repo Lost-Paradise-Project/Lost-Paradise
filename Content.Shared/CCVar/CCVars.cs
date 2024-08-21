@@ -2021,7 +2021,7 @@ namespace Content.Shared.CCVar
         /// Toggles whether the walking key is a toggle or a held key.
         /// </summary>
         public static readonly CVarDef<bool> ToggleWalk =
-            CVarDef.Create("control.toggle_walk", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+            CVarDef.Create("control.toggle_walk", true, CVar.CLIENTONLY | CVar.ARCHIVE);
 
         /*
          * STORAGE

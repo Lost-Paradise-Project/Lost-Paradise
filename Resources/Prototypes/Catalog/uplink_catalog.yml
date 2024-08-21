@@ -82,7 +82,7 @@
   description: uplink-gloves-north-star-desc
   productEntity: ClothingHandsGlovesNorthStar
   cost:
-    Telecrystal: 8
+    Telecrystal: 5
   categories:
   - UplinkWeapons
 
