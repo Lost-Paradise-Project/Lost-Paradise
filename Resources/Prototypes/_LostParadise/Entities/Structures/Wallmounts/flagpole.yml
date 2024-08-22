@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: _LostParadise\Structures\Decoration\flagpole.rsi
+    sprite: _LostParadise/Structures/Decoration/flagpole.rsi
   - type: InteractionOutline
   - type: Damageable
     damageContainer: Inorganic
@@ -37,7 +37,7 @@
   suffix: NT
   components:
   - type: Sprite
-    sprite: _LostParadise\Structures\Decoration\flagpole.rsi
+    sprite: _LostParadise/Structures/Decoration/flagpole.rsi
     layers:
     - state: flagpole
     - state: flagpole-nt
@@ -48,7 +48,7 @@
   suffix: Syndicate
   components:
   - type: Sprite
-    sprite: _LostParadise\Structures\Decoration\flagpole.rsi
+    sprite: _LostParadise/Structures/Decoration/flagpole.rsi
     layers:
     - state: flagpole
     - state: flagpole-synd
@@ -59,7 +59,7 @@
   suffix: Central Command
   components:
   - type: Sprite
-    sprite: _LostParadise\Structures\Decoration\flagpole.rsi
+    sprite: _LostParadise/Structures/Decoration/flagpole.rsi
     layers:
     - state: flagpole
     - state: flagpole-cc
@@ -70,7 +70,7 @@
   suffix: White
   components:
   - type: Sprite
-    sprite: _LostParadise\Structures\Decoration\flagpole.rsi
+    sprite: _LostParadise/Structures/Decoration/flagpole.rsi
     layers:
     - state: flagpole
     - state: flagpole-white
@@ -83,7 +83,7 @@
   suffix: Red
   components:
   - type: Sprite
-    sprite: _LostParadise\Structures\Decoration\flagpole.rsi
+    sprite: _LostParadise/Structures/Decoration/flagpole.rsi
     layers:
     - state: flagpole
     - state: flagpole-red
@@ -94,7 +94,7 @@
   suffix: Blue
   components:
   - type: Sprite
-    sprite: _LostParadise\Structures\Decoration\flagpole.rsi
+    sprite: _LostParadise/Structures/Decoration/flagpole.rsi
     layers:
     - state: flagpole
     - state: flagpole-blue

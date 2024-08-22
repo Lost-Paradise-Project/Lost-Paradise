@@ -5,7 +5,7 @@
   description: Counting down the days to your vacation.
   components:
   - type: Sprite
-    sprite: _LostParadise\Structures\Decoration\calendar.rsi
+    sprite: _LostParadise/Structures/Decoration/calendar.rsi
     snapCardinals: true
     layers:
     - state: calendar1
