@@ -1,0 +1,56 @@
+- type: decal
+  id: LPPdepsightcmd
+  tags: ["dep-sign"]
+  sprite:
+    sprite: _LostParadise/Decals/departament-sign.rsi
+    state: cmd-sign
+
+- type: decal
+  id: LPPdepsightjus
+  tags: ["dep-sign"]
+  sprite:
+    sprite: _LostParadise/Decals/departament-sign.rsi
+    state: jus-sign
+
+- type: decal
+  id: LPPdepsightlog
+  tags: ["dep-sign"]
+  sprite:
+    sprite: _LostParadise/Decals/departament-sign.rsi
+    state: log-sign
+
+- type: decal
+  id: LPPdepsightmed
+  tags: ["dep-sign"]
+  sprite:
+    sprite: _LostParadise/Decals/departament-sign.rsi
+    state: med-sign
+
+- type: decal
+  id: LPPdepsightnt
+  tags: ["dep-sign"]
+  sprite:
+    sprite: _LostParadise/Decals/departament-sign.rsi
+    state: nt-sign
+
+- type: decal
+  id: LPPdepsightrnd
+  tags: ["dep-sign"]
+  sprite:
+    sprite: _LostParadise/Decals/departament-sign.rsi
+    state: rnd-sign
+
+- type: decal
+  id: LPPdepsightsec
+  tags: ["dep-sign"]
+  sprite:
+    sprite: _LostParadise/Decals/departament-sign.rsi
+    state: sec-sign
+
+- type: decal
+  id: LPPdepsightsrv
+  tags: ["dep-sign"]
+  sprite:
+    sprite: _LostParadise/Decals/departament-sign.rsi
+    state: srv-sign
+

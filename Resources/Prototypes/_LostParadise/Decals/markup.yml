@@ -1,0 +1,99 @@
+- type: decal
+  id: LPPmarkup-full
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-full
+
+- type: decal
+  id: LPPmarkup-halftile
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-halftile
+
+- type: decal
+  id: LPPmarkup-quartertile
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-quartertile
+
+- type: decal
+  id: LPPmarkup-quartertile-cutt
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-quartertile-cutt
+
+- type: decal
+  id: LPPmarkup-quartertile-cutt-mirr
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-quartertile-cutt-mirr
+
+- type: decal
+  id: LPPmarkup-quartertile-cutt-out
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-quartertile-cutt-out
+
+- type: decal
+  id: LPPmarkup-quartertile-cutt-out-mirr
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-quartertile-cutt-out-mirr
+
+- type: decal
+  id: LPPmarkup-corner
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-corner
+
+- type: decal
+  id: LPPmarkup-halftile-centred
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-halftile-centred
+
+- type: decal
+  id: LPPmarkup-quartertile-centred
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-quartertile-centred
+
+- type: decal
+  id: LPPmarkup-corner-centred
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-corner-centred
+
+- type: decal
+  id: LPPmarkup-corner-centred-cutt
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-corner-centred-cutt
+
+- type: decal
+  id: LPPmarkup-T-centred
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-T-centred
+
+- type: decal
+  id: LPPmarkup-X-centred
+  tags: ["markup"]
+  sprite:
+    sprite: _LostParadise/Decals/markup.rsi
+    state: markup-X-centred
+
+

@@ -1,0 +1,56 @@
+- type: decal
+  id: LPPstarcircle1
+  tags: ["starcircle"]
+  sprite:
+    sprite: _LostParadise/Decals/starcircle.rsi
+    state: starcircle1
+
+- type: decal
+  id: LPPstarcircle2
+  tags: ["starcircle"]
+  sprite:
+    sprite: _LostParadise/Decals/starcircle.rsi
+    state: starcircle2
+
+- type: decal
+  id: LPPstarcircle3
+  tags: ["starcircle"]
+  sprite:
+    sprite: _LostParadise/Decals/starcircle.rsi
+    state: starcircle3
+
+- type: decal
+  id: LPPstarcircle4
+  tags: ["starcircle"]
+  sprite:
+    sprite: _LostParadise/Decals/starcircle.rsi
+    state: starcircle4
+
+- type: decal
+  id: LPPstarcircle6
+  tags: ["starcircle"]
+  sprite:
+    sprite: _LostParadise/Decals/starcircle.rsi
+    state: starcircle6
+
+- type: decal
+  id: LPPstarcircle7
+  tags: ["starcircle"]
+  sprite:
+    sprite: _LostParadise/Decals/starcircle.rsi
+    state: starcircle7
+
+- type: decal
+  id: LPPstarcircle8
+  tags: ["starcircle"]
+  sprite:
+    sprite: _LostParadise/Decals/starcircle.rsi
+    state: starcircle8
+
+- type: decal
+  id: LPPstarcircle9
+  tags: ["starcircle"]
+  sprite:
+    sprite: _LostParadise/Decals/starcircle.rsi
+    state: starcircle9
+

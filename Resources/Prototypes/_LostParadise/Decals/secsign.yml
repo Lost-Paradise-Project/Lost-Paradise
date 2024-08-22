@@ -1,0 +1,63 @@
+- type: decal
+  id: LPPsecsign1
+  tags: ["secsign"]
+  sprite:
+    sprite: _LostParadise/Decals/secsign.rsi
+    state: secsign1
+
+- type: decal
+  id: LPPsecsign2
+  tags: ["secsign"]
+  sprite:
+    sprite: _LostParadise/Decals/secsign.rsi
+    state: secsign2
+
+- type: decal
+  id: LPPsecsign3
+  tags: ["secsign"]
+  sprite:
+    sprite: _LostParadise/Decals/secsign.rsi
+    state: secsign3
+
+- type: decal
+  id: LPPsecsign4
+  tags: ["secsign"]
+  sprite:
+    sprite: _LostParadise/Decals/secsign.rsi
+    state: secsign4
+
+- type: decal
+  id: LPPsecsign5
+  tags: ["secsign"]
+  sprite:
+    sprite: _LostParadise/Decals/secsign.rsi
+    state: secsign5
+
+- type: decal
+  id: LPPsecsign6
+  tags: ["secsign"]
+  sprite:
+    sprite: _LostParadise/Decals/secsign.rsi
+    state: secsign6
+
+- type: decal
+  id: LPPsecsign7
+  tags: ["secsign"]
+  sprite:
+    sprite: _LostParadise/Decals/secsign.rsi
+    state: secsign7
+
+- type: decal
+  id: LPPsecsign8
+  tags: ["secsign"]
+  sprite:
+    sprite: _LostParadise/Decals/secsign.rsi
+    state: secsign8
+
+- type: decal
+  id: LPPsecsign9
+  tags: ["secsign"]
+  sprite:
+    sprite: _LostParadise/Decals/secsign.rsi
+    state: secsign9
+

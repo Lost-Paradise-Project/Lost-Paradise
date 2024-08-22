@@ -1,0 +1,110 @@
+{
+    "version": 2,
+    "license": "AGPL 3.0",
+    "copyright": "Draw by Hqlle (Github)",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+  "states": [
+    {
+      "name": "lpsign-text1"
+    },
+    {
+      "name": "lpsign-text2"
+    },
+    {
+      "name": "lpsign-text3"
+    },
+    {
+      "name": "lpsign-text4"
+    },
+    {
+      "name": "lpsign-text5"
+    },
+    {
+      "name": "lpsign-text6"
+    },
+    {
+      "name": "lpsign-text7"
+    },
+    {
+      "name": "lpsign-text8"
+    },
+    {
+      "name": "lpsign-text9"
+    },
+    {
+      "name": "lpsign-text10"
+    },
+    {
+      "name": "lpsign-text11"
+    },
+    {
+      "name": "lpsign-text12"
+    },
+    {
+      "name": "lpsign-text13"
+    },
+    {
+      "name": "lpsign-text14"
+    },
+    {
+      "name": "lpsign-text15"
+    },
+    {
+      "name": "lpsign-text16"
+    },
+    {
+      "name": "lpsign-text17"
+    },
+    {
+      "name": "lpsign-text18"
+    },
+    {
+      "name": "lpsign-text19"
+    },
+    {
+      "name": "lpsign-text20"
+    },
+    {
+      "name": "lpsign-text21"
+    },
+    {
+      "name": "lpsign-text22"
+    },
+    {
+      "name": "lpsign-text23"
+    },
+    {
+      "name": "lpsign-text24"
+    },
+    {
+      "name": "lpsign-text25"
+    },
+    {
+      "name": "lpsign-text26"
+    },
+    {
+      "name": "lpsign-text27"
+    },
+    {
+      "name": "lpsign-text28"
+    },
+    {
+      "name": "lpsign-text29"
+    },
+    {
+      "name": "lpsign-text30"
+    },
+    {
+      "name": "lpsign-text31"
+    },
+    {
+      "name": "lpsign-text32"
+    },
+    {
+      "name": "lpsign-text33"
+    }
+  ]
+}
