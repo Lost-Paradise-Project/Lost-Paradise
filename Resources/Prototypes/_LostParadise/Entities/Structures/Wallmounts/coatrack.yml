@@ -12,7 +12,7 @@
     - type: InteractionOutline
     - type: Appearance
     - type: Sprite
-      sprite: _LostParadise\Structures\Wallmounts\coatrack.rsi
+      sprite: _LostParadise/Structures/Wallmounts/coatrack.rsi
       layers:
       - state: coatrack
       - map: [ "enum.StorageContainerVisualLayers.Fill" ]

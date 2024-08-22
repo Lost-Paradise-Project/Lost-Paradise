@@ -2,26 +2,26 @@
   id: LPPindletterAB
   tags: ["letter"]
   sprite:
-    sprite: _LostParadise\Decals\ind-letters.rsi
+    sprite: _LostParadise/Decals/ind-letters.rsi
     state: A
 
 - type: decal
   id: LPPindletterBB
   tags: ["letter"]
   sprite:
-    sprite: _LostParadise\Decals\ind-letters.rsi
+    sprite: _LostParadise/Decals/ind-letters.rsi
     state: B
 
 - type: decal
   id: LPPindletterCB
   tags: ["letter"]
   sprite:
-    sprite: _LostParadise\Decals\ind-letters.rsi
+    sprite: _LostParadise/Decals/ind-letters.rsi
     state: C
 
 - type: decal
   id: LPPindletterDB
   tags: ["letter"]
   sprite:
-    sprite: _LostParadise\Decals\ind-letters.rsi
+    sprite: _LostParadise/Decals/ind-letters.rsi
     state: D
