@@ -1,0 +1,203 @@
+- type: decal
+  id: LPPindletterA
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: A
+
+- type: decal
+  id: LPPindletterB
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: B
+
+- type: decal
+  id: LPPindletterC
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: C
+
+- type: decal
+  id: LPPindletterD
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: D
+
+- type: decal
+  id: LPPindletterE
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: E
+
+- type: decal
+  id: LPPindletterF
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: F
+
+- type: decal
+  id: LPPindletterG
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: G
+
+- type: decal
+  id: LPPindletterH
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: H
+
+- type: decal
+  id: LPPindletterI
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: I
+
+- type: decal
+  id: LPPindletterJ
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: J
+
+- type: decal
+  id: LPPindletterK
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: K
+
+- type: decal
+  id: LPPindletterL
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: L
+
+- type: decal
+  id: LPPindletterM
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: M
+
+- type: decal
+  id: LPPindletterO
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: O
+
+- type: decal
+  id: LPPindletterP
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: P
+
+- type: decal
+  id: LPPindletterQ
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: Q
+
+- type: decal
+  id: LPPindletterR
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: R
+
+- type: decal
+  id: LPPindletterS
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: S
+
+- type: decal
+  id: LPPindletterT
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: T
+
+- type: decal
+  id: LPPindletterU
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: U
+
+- type: decal
+  id: LPPindletterV
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: V
+
+- type: decal
+  id: LPPindletterY
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: Y
+
+- type: decal
+  id: LPPindletterX
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: X
+
+- type: decal
+  id: LPPindletterY
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: Y
+
+- type: decal
+  id: LPPindletterZ
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: Z
+
+- type: decal
+  id: LPPindletterÜ
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: Ü
+
+- type: decal
+  id: LPPindletterÕ
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: Õ
+
+- type: decal
+  id: LPPindletterÖ
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: Ö
+
+- type: decal
+  id: LPPindletterÄ
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise\Decals\ind-letters-mini.rsi
+    state: Ä
+

@@ -1,0 +1,230 @@
+- type: decal
+  id: LPPlpsign-text1
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text1
+
+- type: decal
+  id: LPPlpsign-text2
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text2
+
+- type: decal
+  id: LPPlpsign-text3
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text3
+
+- type: decal
+  id: LPPlpsign-text4
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text4
+
+- type: decal
+  id: LPPlpsign-text5
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text5
+
+- type: decal
+  id: LPPlpsign-text6
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text6
+
+- type: decal
+  id: LPPlpsign-text7
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text7
+
+- type: decal
+  id: LPPlpsign-text8
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text8
+
+- type: decal
+  id: LPPlpsign-text9
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text9
+
+- type: decal
+  id: LPPlpsign-text10
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text10
+
+- type: decal
+  id: LPPlpsign-text11
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text11
+
+- type: decal
+  id: LPPlpsign-text12
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text12
+
+- type: decal
+  id: LPPlpsign-text13
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text13
+
+- type: decal
+  id: LPPlpsign-text14
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text14
+
+- type: decal
+  id: LPPlpsign-text15
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text15
+
+- type: decal
+  id: LPPlpsign-text16
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text16
+
+- type: decal
+  id: LPPlpsign-text17
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text17
+
+- type: decal
+  id: LPPlpsign-text18
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text18
+
+- type: decal
+  id: LPPlpsign-text19
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text19
+
+- type: decal
+  id: LPPlpsign-text20
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text20
+
+- type: decal
+  id: LPPlpsign-text21
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text21
+
+- type: decal
+  id: LPPlpsign-text22
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text22
+
+- type: decal
+  id: LPPlpsign-text23
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text23
+
+- type: decal
+  id: LPPlpsign-text24
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text24
+
+- type: decal
+  id: LPPlpsign-text25
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text25
+
+- type: decal
+  id: LPPlpsign-text26
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text26
+
+- type: decal
+  id: LPPlpsign-text27
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text27
+
+- type: decal
+  id: LPPlpsign-text28
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text28
+
+- type: decal
+  id: LPPlpsign-text29
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text29
+
+- type: decal
+  id: LPPlpsign-text30
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text30
+
+- type: decal
+  id: LPPlpsign-text31
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text31
+
+- type: decal
+  id: LPPlpsign-text32
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text32
+
+- type: decal
+  id: LPPlpsign-text33
+  tags: ["lpsign-text"]
+  sprite:
+    sprite: _LostParadise/Decals/lpsignwtext.rsi
+    state: lpsign-text33
