@@ -5,7 +5,7 @@
   description: The gold trophy received for the first place, the nameplate is erased so no one knows whose trophy it is.
   components:
   - type: Sprite
-    sprite: _LostParadise\Objects\Misc\Trophies\gold.rsi
+    sprite: _LostParadise/Objects/Misc/Trophies/gold.rsi
   - type: Item
     size: Normal
   - type: StaticPrice
@@ -18,7 +18,7 @@
   description: A small steel trophy for second place, the nameplate is erased so no one knows whose trophy it is.
   components:
   - type: Sprite
-    sprite: _LostParadise\Objects\Misc\Trophies\black.rsi
+    sprite: _LostParadise/Objects/Misc/Trophies/black.rsi
   - type: Item
     size: Normal
   - type: StaticPrice
