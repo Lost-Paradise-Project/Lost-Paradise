@@ -146,11 +146,11 @@
     state: V
 
 - type: decal
-  id: LPPindletterY
+  id: LPPindletterW
   tags: ["letter"]
   sprite:
     sprite: _LostParadise\Decals\ind-letters-mini.rsi
-    state: Y
+    state: W
 
 - type: decal
   id: LPPindletterX
