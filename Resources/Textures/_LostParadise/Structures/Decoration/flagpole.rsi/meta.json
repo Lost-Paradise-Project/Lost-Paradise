@@ -1,0 +1,39 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Draw by Hqlle(Github)",
+    "size": {
+        "x": 64,
+        "y": 64
+    },
+    "states": [
+        {
+            "name": "flagpole",
+            "directions": 4
+        },
+        {
+            "name": "flagpole-nt",
+            "directions": 4
+        },
+        {
+            "name": "flagpole-synd",
+            "directions": 4
+        },
+        {
+            "name": "flagpole-cc",
+            "directions": 4
+        },
+        {
+            "name": "flagpole-white",
+            "directions": 4
+        },
+        {
+            "name": "flagpole-red",
+            "directions": 4
+        },
+        {
+            "name": "flagpole-blue",
+            "directions": 4
+        }
+    ]
+}

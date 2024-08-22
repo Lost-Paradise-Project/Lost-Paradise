@@ -48,6 +48,9 @@
       toggleable-clothing: !type:ContainerSlot {}
       storagebase: !type:Container
         ents: []
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -60,6 +63,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatatmos.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterEngineer
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -72,6 +78,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatbar.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterBartender
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -91,6 +100,9 @@
         Slash: 0.75
         Piercing: 0.75
         Heat: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -103,6 +115,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatcargo.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterCargo
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -115,6 +130,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatce.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterCE
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -127,6 +145,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatcentcom.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterCentcom
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -138,6 +159,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatchef.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/coatchef.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -157,6 +181,9 @@
     priceMultiplier: 0.15
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterChem
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -176,6 +203,9 @@
     priceMultiplier: 0.15
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterCMO
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -186,6 +216,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatclown.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/coatclown.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -198,6 +231,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatengi.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterEngineer
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -217,6 +253,9 @@
     priceMultiplier: 0.15
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterSci
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -229,6 +268,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coathop.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterHOP
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -248,6 +290,9 @@
         Slash: 0.75
         Piercing: 0.75
         Heat: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -260,6 +305,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coathydro.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterHydro
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -279,6 +327,9 @@
     priceMultiplier: 0.15
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterJani
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -298,6 +349,9 @@
     priceMultiplier: 0.15
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterMed
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -310,6 +364,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatmime.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterMime
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -322,6 +379,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatminer.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterMiner
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -341,6 +401,9 @@
     priceMultiplier: 0.15
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterPara
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -353,7 +416,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatqm.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterQM
-
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -373,6 +438,9 @@
     priceMultiplier: 0.15
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterRD
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -385,7 +453,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatrobo.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterRobo
-
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -405,6 +475,9 @@
     priceMultiplier: 0.15
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterSci
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -424,6 +497,9 @@
         Slash: 0.85
         Piercing: 0.85 # DeltaV - not as resistant as pre-rebase, but still better than nothing
         Heat: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -443,6 +519,9 @@
     priceMultiplier: 0.15
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterSci
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -463,6 +542,9 @@
         Heat: 0.70
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterWarden
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -476,6 +558,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecap.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterSyndie
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterWarden
@@ -489,6 +574,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecaparmored.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterSyndie
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -502,6 +590,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/syndicate/wintercoatsyndie.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterSyndie
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -513,6 +604,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatnomi.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/coatnomi.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -541,6 +635,9 @@
           Quantity: 20
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterWeb
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -552,6 +649,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_cybersun.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_cybersun.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -563,6 +663,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_einstein_engines.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_einstein_engines.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -574,6 +677,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_hephestus_industries.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_hephestus_industries.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -585,6 +691,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_hawkmoon_aquisitions.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_hawkmoon_aquisitions.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -596,6 +705,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_interdyne.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_interdyne.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -607,6 +719,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_bishop_cybernetics.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_bishop_cybernetics.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -618,6 +733,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_discount_dans.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_discount_dans.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -629,6 +747,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_five_points_armory.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_five_points_armory.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -640,6 +761,9 @@
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_gilthari_exports.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_gilthari_exports.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -651,3 +775,6 @@
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_zeng_hu_pharma.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/WinterCoats/corpo_jacket_zeng_hu_pharma.rsi
+  - type: Tag
+    tags:
+      - CoatRack
