@@ -1,2 +1,2 @@
-ent-Supermatter = supermatter crystal
-    .desc = A strangely translucent and iridescent crystal.
+ent-Supermatter = кристал суперматерии
+    .desc = Странно прозрачный и переливающийся кристалл.

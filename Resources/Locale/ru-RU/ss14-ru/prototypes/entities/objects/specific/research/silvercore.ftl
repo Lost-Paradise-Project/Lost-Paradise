@@ -1,2 +1,2 @@
-ent-CoreSilver = silver alloy core
-    .desc = A synthetic alloy made of silver and other materials.
+ent-CoreSilver = ядро из серебряного сплава
+    .desc = Синтетический сплав, изготовленный из серебра и других материалов.

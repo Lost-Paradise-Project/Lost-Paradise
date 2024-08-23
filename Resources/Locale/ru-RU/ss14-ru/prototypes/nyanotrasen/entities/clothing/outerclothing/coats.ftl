@@ -1,4 +1,4 @@
-ent-ClothingOuterCoatMantis = psionic mantis' jacket
-    .desc = Modeled after an ancient infantry uniform, this jacket may guard you against the unknown in your journey for the truth.
-ent-ClothingOuterCoatRndMysta = mystagogue lab coat
-    .desc = Similar to the standard model but with more purple and gold.
+ent-ClothingOuterCoatMantis = куртка мантиса
+    .desc = Созданная на подобии древней солдатской униформы, эта куртка может защитить вас от неизведанного на ваешм пути к истине.
+ent-ClothingOuterCoatRndMysta = лабораторный халат научного директора
+    .desc = Аналогичен стандартной версии, но золотого и пурпурного гораздо больше.

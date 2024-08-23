@@ -1,2 +1,2 @@
-ent-Oracle = Oracle
-    .desc = It asks for items in exchange for knowledge. No one knows how it works.
+ent-Oracle = Оракл
+    .desc = Он просит предметы в обмен на знания. Никто не знает, как это работает.

@@ -1,8 +1,8 @@
-ent-ClothingHeadHelmetHardsuitMystagogue = mystagogue's hardsuit helmet
-    .desc = Lightweight hardsuit helmet that has a galaxy-first psionic passthrough system.
-ent-ClothingHeadHelmetHardsuitSyndieReverseEngineered = SA-123 combat hardsuit helmet
-    .desc = An advanced hardsuit helmet designed for work in special operations.
-ent-ClothingHeadHelmetHardsuitJuggernautReverseEngineered = SA-127 combat hardsuit helmet
-    .desc = An assault hardsuit helmet featuring a top-secret translucent polymer.
-ent-ClothingHeadHelmetHardsuitERTCentcomm = CentCom hardsuit helmet
+ent-ClothingHeadHelmetHardsuitMystagogue = шлем скафандра научного директора
+    .desc = Легкий шлем-скафандр, оснащенный первой в галактике псионической системой пропуска.
+ent-ClothingHeadHelmetHardsuitSyndieReverseEngineered = Боевой защитный шлем SA-123
+    .desc = Усовершенствованный шлем скафандра, предназначенный для работы в специальных операциях.
+ent-ClothingHeadHelmetHardsuitJuggernautReverseEngineered = Боевой защитный шлем SA-127
+    .desc = Штурмовой шлем-скафандр из сверхсекретного полупрозрачного полимера.
+ent-ClothingHeadHelmetHardsuitERTCentcomm = Защитный шлем скафандра ЦентКом
     .desc = { ent-ClothingHeadHelmetHardsuitERTLeader.desc }

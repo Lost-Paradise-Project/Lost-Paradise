@@ -1,8 +1,8 @@
-ent-ClothingBeltMantis = psionic mantis' belt
-    .desc = Perfect for storing all of your equipment.
-ent-ClothingBeltMartialBlack = black belt
+ent-ClothingBeltMantis = псионический пояс мантиса
+    .desc = Идеально подходит для хранения всего вашего оборудования.
+ent-ClothingBeltMartialBlack = черный пояс
     .desc = This is the most martial of all the belts.
-ent-ClothingBeltKatanaSheath = katana sheaths
+ent-ClothingBeltKatanaSheath = ножны для катаны
     .desc = An ornate belt designed to hold a pair of samurai's blades, or daisho.
-ent-ClothingBeltMilitaryWebbingCMO = chief medical officer's chest rig
-    .desc = A medical chest rig with deep pockets, for use by paramedics and health professionals.
+ent-ClothingBeltMilitaryWebbingCMO = разгрузка главного врача
+    .desc = Медицинский нагрудник с глубокими карманами, предназначенный для использования парамедиками и медицинскими работниками.

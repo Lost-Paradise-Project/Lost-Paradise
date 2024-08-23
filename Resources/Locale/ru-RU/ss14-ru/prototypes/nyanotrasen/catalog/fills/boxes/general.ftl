@@ -1,6 +1,6 @@
-ent-BoxColoredLighttube = colored lighttube box
-    .desc = This box is shaped on the inside so that only light tubes and bulbs fit.
-ent-BoxMaintenanceLightbulb = maintenance lightbulb box
-    .desc = This box is shaped on the inside so that only light tubes and bulbs fit.
-ent-BoxHolyWater = holy water kit
-    .desc = This box is filled with everything you need to make homemade holy water. Water not included.
+ent-BoxColoredLighttube = коробка цветных светильников
+    .desc = Внутренняя часть этой коробки имеет такую форму, что в нее помещаются только светильники и лампочки накаливания.
+ent-BoxMaintenanceLightbulb = коробка ламп накаливания для тех обслуживания
+    .desc = Внутренняя часть этой коробки имеет такую форму, что в нее помещаются только светильники и лампочки накаливания.
+ent-BoxHolyWater = набор святой воды
+    .desc = В этой коробке есть все необходимое для приготовления домашней святой воды. Вода в комплект не входит.
