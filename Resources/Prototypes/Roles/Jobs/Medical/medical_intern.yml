@@ -4,7 +4,10 @@
   description: job-description-intern
   playTimeTracker: JobMedicalIntern
   requirements:
-    # - !type:DepartmentTimeRequirement # DeltaV - Removes time limit
+    - !type:CharacterPlaytimeRequirement # Lost Paradise - Time in start role (PE4HENIKA)
+      tracker: Passenger
+      min: 7200 # 2 hours
+    # - !type:DepartmentTimeRequirement # Lost Paradise - return time limit
     #   department: Medical
     #   time: 54000 # 15 hrs
     #   inverted: true # stop playing intern if you're good at med!
