@@ -1,4 +1,4 @@
-﻿ent-WeaponPistolViperWood = Вайпер
+ent-WeaponPistolViperWood = Вайпер
     .desc = Компактный пистолет с деревянной рукояткой. Использует патроны калибра .35 авто.
     .suffix = Дерево
 ent-WeaponPistolPollock = Поуллок

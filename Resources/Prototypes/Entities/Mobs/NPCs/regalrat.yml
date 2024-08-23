@@ -120,7 +120,7 @@
       gender: male
   - type: TTS # Corvax-TTS
     voice: Astral
-  - type: PotentialPsionic # Nyano
+#  - type: PotentialPsionic # Nyano
   - type: LanguageKnowledge
     speaks:
     - GalacticCommon

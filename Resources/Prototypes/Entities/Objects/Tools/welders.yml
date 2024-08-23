@@ -112,9 +112,9 @@
     fuelcost: 5
     damage:
       types:
-        Blunt: -13
-        Piercing: -13
-        Slash: -13
+        Blunt: -15
+        Piercing: -15
+        Slash: -15
 
 - type: entity
   name: industrial welding tool

@@ -505,6 +505,12 @@
   chatMessages: ["chat-emote-msg-deathgasp-monkey"]
 
 - type: emote
+  id: SiliconDeathgasp
+  chatMessages: ["chat-emote-msg-deathgasp-silicon"]
+  chatTriggers:
+  - sdeathgasp
+
+- type: emote
   id: Buzz
   name: chat-emote-name-buzz
   category: Vocal

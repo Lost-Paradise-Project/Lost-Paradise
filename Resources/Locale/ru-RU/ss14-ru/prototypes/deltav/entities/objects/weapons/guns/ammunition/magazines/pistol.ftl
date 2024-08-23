@@ -1,4 +1,4 @@
-﻿ent-BaseMagazinePistolSpecial = пистолетный магазин (.38 специальные)
+ent-BaseMagazinePistolSpecial = пистолетный магазин (.38 специальные)
     .desc = { ent-BaseItem.desc }
 ent-MagazinePistolSpecial = пистолетный магазин (.38 специальные)
     .desc = { ent-BaseMagazinePistolSpecial.desc }

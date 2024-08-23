@@ -1,4 +1,4 @@
-﻿ent-ClothingHeadsetMagistrate = гарнитура Судьи
+ent-ClothingHeadsetMagistrate = гарнитура Судьи
     .desc = гарнитура Судьи
     .suffix = { "" }
 ent-MagistratePDA = КПК Судьи
@@ -17,7 +17,6 @@ ent-LPPJudgesGavel = молоток Судьи
     .desc = Издаёт звуки справедливости.
     .suffix = { "Судья" }
 stamp-component-stamped-name-magistrate = Судья
-
 ent-LPPMagistrateUniform = костюм Судьи
     .desc = Костюм Судьи, сшитый нановолокнами прямиком из Т.С.Ф.
     .suffix = { "Судья" }

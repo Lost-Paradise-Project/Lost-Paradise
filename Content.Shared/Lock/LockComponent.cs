@@ -28,10 +28,17 @@ public sealed partial class LockComponent : Component
     public bool LockOnClick;
 
     /// <summary>
+    /// Whether or not the lock is unlocked by simply clicking.
+    /// </summary>
+    [DataField("unlockOnClick"), ViewVariables(VVAccess.ReadWrite)]
+    [AutoNetworkedField]
+    public bool UnlockOnClick = true;
+
+
+    /// <summary>
     /// The sound played when unlocked.
     /// </summary>
-    [DataField("unlockOnClick"), ViewVariables(VVAccess.ReadWrite)] // Estacao Pirata - IPC locking
-    [AutoNetworkedField]
+    [DataField("unlockingSound"), ViewVariables(VVAccess.ReadWrite)]
     public SoundSpecifier UnlockSound = new SoundPathSpecifier("/Audio/Machines/door_lock_off.ogg")
     {
         Params = AudioParams.Default.WithVolume(-5f),

@@ -115,6 +115,7 @@
     understands:
     - GalacticCommon
     - RobotTalk
+  - type: PsionicInsulation
 
 - type: entity
   parent: MobSiliconBase

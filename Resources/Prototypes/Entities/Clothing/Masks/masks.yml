@@ -312,7 +312,6 @@
   - type: Tag
     tags:
     - HidesNose
-    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskClownBase
@@ -344,7 +343,6 @@
     - WhitelistChameleon
     - HidesHair
     - HidesNose
-    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskGasExplorer
@@ -372,7 +370,6 @@
     - WhitelistChameleon
     - HidesHair
     - HidesNose
-    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskGasERT

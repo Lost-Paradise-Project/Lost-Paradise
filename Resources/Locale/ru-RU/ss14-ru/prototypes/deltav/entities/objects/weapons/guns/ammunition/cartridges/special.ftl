@@ -1,4 +1,4 @@
-﻿ent-BaseCartridgeSpecial = патрон (.38 специальные)
+ent-BaseCartridgeSpecial = патрон (.38 специальные)
     .desc = { ent-BaseCartridge.desc }
 ent-CartridgeSpecial = патрон (.38 специальные)
     .desc = { ent-BaseCartridgeSpecial.desc }
