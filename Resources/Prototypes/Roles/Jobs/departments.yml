@@ -33,7 +33,6 @@
   - Zookeeper
   - ServiceWorker
   - MartialArtist # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
-  - Prisoner # Nyanotrasen - Prisoner, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/prisoner.yml
   - Gladiator # Nyanotrasen - Gladiator, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/gladiator.yml
 
 - type: department
@@ -49,6 +48,8 @@
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
+  - SAI # Lost Paradise - SAI
+  - LPPAdjutant # Lost Paradise - Added Adjutant in Command
   primary: false
   weight: 100
 
@@ -90,7 +91,8 @@
   - Detective
   - Warden
   - PrisonGuard # Nyanotrasen - PrisonGuard, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Security/prisonguard.yml
-  - Brigmedic # DeltaV - Brigmedic, see Resources/Prototypes/DeltaV/Roles/Jobs/Security/brigmedic.yml
+  - Brigmedic # Lost Paradise - Move Brigmedic to Security
+  - Prisoner # Lost Paradise - Move Prisoner to Security
 
 - type: department
   id: Epistemics # DeltaV - Epistemics Department replacing Science
@@ -116,6 +118,13 @@
   - Psychologist
   - MartialArtist # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
   - Gladiator # Nyanotrasen - Gladiator, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/gladiator.yml
-  - Prisoner # Nyanotrasen - Prisoner, see Resrouces/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/prisoner.yml
-  - Brigmedic # DeltaV - Corpsman, see Resources/Prototypes/DeltaV/Roles/Jobs/Security/brigmedic.yml
   primary: false
+
+- type: department
+  id: CentralCommand
+  description: department-CentralCommand-description
+  color: "#49C423"
+  roles:
+  - LPPBlueShieldOfficer
+  primary: false
+  weight: 101

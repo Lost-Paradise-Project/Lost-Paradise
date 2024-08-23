@@ -1,9 +1,9 @@
-- type: decal
-  id: LPPindletterA
-  tags: ["letter"]
-  sprite:
-    sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: A
+# - type: decal
+#   id: LPPindletterA
+#   tags: ["letter"]
+#   sprite:
+#     sprite: _LostParadise/Decals/ind-letters-mini.rsi
+#     state: A
 
 - type: decal
   id: LPPindletterB
