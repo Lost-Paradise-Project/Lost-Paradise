@@ -198,6 +198,7 @@
     - ClownMask
     - WhitelistChameleon
     - HidesNose
+    - IPCMaskWearable # Estacao Pirata - IPCs
 
 - type: entity
   parent: ClothingMaskClownBase
@@ -209,7 +210,6 @@
     - HamsterWearable
     - WhitelistChameleon
     - HidesNose
-    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskClown
@@ -239,7 +239,7 @@
   - type: Tag
     tags:
     - HidesNose
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -258,7 +258,7 @@
     - HamsterWearable
     - WhitelistChameleon
     - HidesNose
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs
 
 - type: entity
   parent: ClothingMaskPullableBase
@@ -312,7 +312,6 @@
   - type: Tag
     tags:
     - HidesNose
-    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskClownBase
@@ -344,7 +343,6 @@
     - WhitelistChameleon
     - HidesHair
     - HidesNose
-    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskGasExplorer
@@ -372,7 +370,6 @@
     - WhitelistChameleon
     - HidesHair
     - HidesNose
-    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskGasERT
@@ -405,10 +402,10 @@
   - type: BreathMask
   - type: Tag
     tags:
+    - IPCMaskWearable # Estacao Pirata - IPCs
     - HamsterWearable
     - WhitelistChameleon
     - HidesNose
-    - IPCMaskWearable
   - type: IdentityBlocker
 
 - type: entity
@@ -426,7 +423,7 @@
   - type: Tag
     tags:
     - HidesNose
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -443,7 +440,7 @@
   - type: Tag
     tags:
     - HidesNose
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -460,7 +457,7 @@
   - type: Tag
     tags:
     - HidesNose
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -477,7 +474,7 @@
   - type: Tag
     tags:
     - HidesNose
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -494,7 +491,7 @@
   - type: Tag
     tags:
     - HidesNose
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -511,7 +508,7 @@
   - type: Tag
     tags:
     - HidesNose
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs
 
 - type: entity
   parent: ClothingMaskBase
@@ -528,7 +525,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs
 
 - type: entity
   parent: ClothingMaskNeckGaiter
@@ -550,10 +547,6 @@
     sprite: Clothing/Mask/sexyclown.rsi
   - type: Clothing
     sprite: Clothing/Mask/sexyclown.rsi
-  - type: Tag
-    tags:
-    - WhitelistChameleon
-    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskMime
@@ -565,10 +558,6 @@
     sprite: Clothing/Mask/sexymime.rsi
   - type: Clothing
     sprite: Clothing/Mask/sexymime.rsi
-  - type: Tag
-    tags:
-    - WhitelistChameleon
-    - IPCMaskWearable
 
 - type: entity
   parent: ClothingMaskMime
@@ -625,5 +614,4 @@
   - type: IdentityBlocker
   - type: Tag
     tags:
-    - WhitelistChameleon
-    - IPCMaskWearable
+    - IPCMaskWearable # Estacao Pirata - IPCs

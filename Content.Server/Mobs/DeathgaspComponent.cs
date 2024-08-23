@@ -1,7 +1,4 @@
-﻿// EDIT FOR PE4HENIKA (LOST PARADISE)
-// PARKSTATION-IPC
-
-using Content.Shared.Chat.Prototypes;
+﻿using Content.Shared.Chat.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 
 namespace Content.Server.Mobs;
@@ -16,12 +13,12 @@ public sealed partial class DeathgaspComponent : Component
     /// <summary>
     ///     The emote prototype to use.
     /// </summary>
-    [DataField("prototype", customTypeSerializer:typeof(PrototypeIdSerializer<EmotePrototype>))]
+    [DataField(customTypeSerializer:typeof(PrototypeIdSerializer<EmotePrototype>))]
     public string Prototype = "DefaultDeathgasp";
 
     /// <summary>
-    ///     Makes sure that the deathgasp is only displayed if the entity went critical before dying - Estacao Pirata // Parkstation-IPC
+    ///     Makes sure that the deathgasp is only displayed if the entity went critical before dying
     /// </summary>
-    [DataField("needsCritical")]
+    [DataField]
     public bool NeedsCritical = true;
 }
