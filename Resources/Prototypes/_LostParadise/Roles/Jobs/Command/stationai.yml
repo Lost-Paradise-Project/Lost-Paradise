@@ -8,9 +8,6 @@
       department: Medical
       time: 14400
     - !type:DepartmentTimeRequirement
-      department: Science
-      time: 14400
-    - !type:DepartmentTimeRequirement
       department: Epistemics
       time: 14400
     - !type:DepartmentTimeRequirement
