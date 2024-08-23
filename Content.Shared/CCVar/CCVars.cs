@@ -2239,13 +2239,6 @@ namespace Content.Shared.CCVar
             CVarDef.Create("replay.auto_record_temp_dir", "", CVar.SERVERONLY);
 
 
-        /// <summary>
-        ///     The amount of time between NPC Silicons draining their battery in seconds.
-        /// </summary>
-        public static readonly CVarDef<float> SiliconNpcUpdateTime =
-            CVarDef.Create("silicon.npcupdatetime", 1.5f, CVar.SERVERONLY);
-
-
         /*
          * Miscellaneous
          */

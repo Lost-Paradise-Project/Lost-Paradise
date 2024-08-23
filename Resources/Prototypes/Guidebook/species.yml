@@ -47,7 +47,7 @@
   name: species-name-slime
   text: "/ServerInfo/Guidebook/Mobs/SlimePerson.xml"
 
-- type: guideEntry
-  id: IPCs
-  name: species-name-ipc
-  text: "/ServerInfo/Guidebook/Mobs/IPCs.xml"
+#- type: guideEntry
+#  id: IPCs
+#  name: species-name-ipc
+#  text: "/ServerInfo/Guidebook/Mobs/IPCs.xml"

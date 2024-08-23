@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/59f2a4e10e5ba36033c9734ddebfbbdc6157472d, pda-cluwne made by brainfood1183 (github) ss14 | pda-brigmedic and pda-centcom made by PuroSlavKing (Github) | pda-brigemdic resprited by Hülle#2562 (Discord), pda-pirate made by brainfood1183 (Github), pda-syndi-agent drawn by Ubaser+Spac__",
+  "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/59f2a4e10e5ba36033c9734ddebfbbdc6157472d, pda-cluwne made by brainfood1183 (github) ss14 | pda-brigmedic and pda-centcom made by PuroSlavKing (Github) | pda-brigemdic resprited by Hülle#2562 (Discord), pda-pirate made by brainfood1183 (Github), pda-syndi-agent drawn by Ubaser",
   "size": {
     "x": 32,
     "y": 32
@@ -41,9 +41,6 @@
       "name": "pda-boxer"
     },
     {
-      "name": "pda-security-enginer"
-    },
-    {
       "name": "pda-captain"
     },
     {
@@ -81,9 +78,6 @@
     },
     {
       "name": "pda-hop"
-    },
-    {
-      "name": "pda-avd"
     },
     {
       "name": "pda-hos"
@@ -171,33 +165,6 @@
       "name": "pda-syndi"
     },
     {
-      "name": "pda-syndi-cap"
-    },
-    {
-      "name": "pda-syndi-hop"
-    },
-    {
-      "name": "pda-syndi-hos"
-    },
-    {
-      "name": "pda-syndi-science"
-    },
-    {
-      "name": "pda-syndi-medical"
-    },
-    {
-      "name": "pda-syndi-service"
-    },
-    {
-      "name": "pda-syndi-seniorengineer"
-    },
-    {
-      "name": "pda-syndi-miner"
-    },
-    {
-      "name": "pda-syndi-security"
-    },
-    {
       "name": "pda-syndi-agent"
     },
     {
@@ -258,9 +225,6 @@
     },
     {
       "name": "pda-seniorofficer"
-    },
-    {
-      "name":  "pda-expeditor"
     },
     {
       "name": "equipped-IDCARD",
