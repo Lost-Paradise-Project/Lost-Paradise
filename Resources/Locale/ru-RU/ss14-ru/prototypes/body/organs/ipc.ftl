@@ -1,10 +1,10 @@
 ent-BaseIPCOrgan = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
-ent-OrganIPCEyes = robotic eyes
+ent-OrganIPCEyes = глаза робота
     .desc = 01001001 00100000 01110011 01100101 01100101 00100000 01111001 01101111 01110101 00100001
-ent-OrganIPCTongue = vocal modulator
-    .desc = A vocal modulator, used to produce speech.
-ent-OrganIPCEars = sonic receptors
+ent-OrganIPCTongue = вокальный модуль
+    .desc = Вокальный модуль, способный производить речь.
+ent-OrganIPCEars = эхолокационные рецепторы
     .desc = { ent-BaseIPCOrgan.desc }
-ent-OrganIPCPump = micro pump
-    .desc = A micro pump, used to circulate coolant.
+ent-OrganIPCPump = микро насос
+    .desc = Микро насос который качает масло по телу КПБ.

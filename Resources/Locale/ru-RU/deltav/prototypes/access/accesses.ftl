@@ -4,4 +4,4 @@ id-card-access-level-chief-justice = Верховный судья
 id-card-access-level-cj = Верховный судья
 id-card-access-level-prosecutor = Прокурор
 id-card-access-level-justice = Судья
-id-card-access-level-corpsman = Медицинский офицер
+id-card-access-level-corpsman = Парамедик

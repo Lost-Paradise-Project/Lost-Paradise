@@ -2,7 +2,7 @@
 
 loadout-category-Uncategorized = Без категории
 loadout-category-Accessories = Аксессуары
-loadout-category-Outer = Верхняя одежда
+loadout-category-Outer = Верхняя
 loadout-category-Items = Вещи
 loadout-category-Eyes = Глаза
 loadout-category-Head = Голова
@@ -12,4 +12,4 @@ loadout-category-Shoes = Обувь
 loadout-category-Species = Расовые
 loadout-category-Hands = Руки
 loadout-category-Uniform = Униформа
-loadout-category-Neck = Шейные
+loadout-category-Neck = Шея

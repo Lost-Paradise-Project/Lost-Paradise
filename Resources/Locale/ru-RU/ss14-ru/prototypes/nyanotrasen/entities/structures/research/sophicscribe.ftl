@@ -1,2 +1,2 @@
-ent-SophicScribe = софия
+ent-SophicScribe = София
     .desc = Последние сообщения о Ноосфере!
