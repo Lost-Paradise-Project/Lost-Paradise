@@ -22,6 +22,7 @@
   - Chef
   - Clown
   - HeadOfPersonnel
+  - Librarian
   - Janitor
   # - Lawyer # DeltaV - Move Lawyer into Justice
   - Mime
@@ -102,7 +103,6 @@
   - ResearchAssistant
   # - Chaplain # Lost Paradise - move to Service
   - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
-  - Librarian
 
 - type: department
   id: Specific

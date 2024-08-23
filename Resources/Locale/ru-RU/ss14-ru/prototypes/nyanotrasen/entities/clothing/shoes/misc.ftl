@@ -1,5 +1,5 @@
-ent-ClothingShoesGeta = geta sandals
-    .desc = A pair of traditional japanese sandals.
-ent-ClothingShoesWizardFake = wizard shoes
-    .desc = A pair of sandals.
+ent-ClothingShoesGeta = сандали гэта
+    .desc = Пара традиционных японских сандалей.
+ent-ClothingShoesWizardFake = обувка волшебника
+    .desc = Пара сандалей.
     .suffix = fake

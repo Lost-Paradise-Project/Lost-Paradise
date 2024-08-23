@@ -30,35 +30,35 @@ pyrokinesis-power-initialization-feedback =
     Теперь я знаю Его имя, это Тайна Огня. Просто думая об этом, я чувствую, как жар этого места распространяется по моим рукам.
 pyrokinesis-power-metapsionic-feedback = Тайна огня скрыта внутри { CAPITALIZE($entity) }
 # Metapsionic Pulse
-metapsionic-power-description = Send a mental pulse through the area to see if there are any psychics nearby.
+metapsionic-power-description = Отправьте ментальный импульс на расстояние, что бы узнать еслить ли псионики поблизости
 metapsionic-power-initialization-feedback =
-    The world around me awakens with dreamlight. For a transcendent moment, I can see all that is, all that will ever be.
-    I find myself staggering, my lips parched not for want of water, but to drink of the cup of knowledge. I. Must. Find. It.
-metapsionic-power-metapsionic-feedback = { CAPITALIZE($entity) } gazes back upon thee.
+    Мир вокруг меня просыпается в свете сновидений. На какое-то трансцендентное мгновение я вижу все, что есть, и все, что когда-либо будет.
+    Я пошатываюсь, губы пересохли не от желания выпить воды, а от желания испить чашу знаний. Я. Должен. Найти. Это.
+metapsionic-power-metapsionic-feedback = { CAPITALIZE($entity) } взирает на тебя.
 # Psionic Regeneration
-psionic-regeneration-power-description = Push your natural metabolism to the limit to power your body's regenerative capability.
-psionic-regeneration-power-initialization-feedback = I look within myself, finding a wellspring of life.
-psionic-regeneration-power-metapsionic-feedback = { CAPITALIZE($entity) } possesses an overwhelming will to live
+psionic-regeneration-power-description = Доведите свой метоболизм до предела что бы ускорить регенерацию.
+psionic-regeneration-power-initialization-feedback = Я смотрю внутрь себя и нахожу источник жизни.
+psionic-regeneration-power-metapsionic-feedback = { CAPITALIZE($entity) } обладает непреодолимой волей к жизни
 # Telegnosis
-telegnosis-power-description = Create a telegnostic projection to remotely observe things.
+telegnosis-power-description = Создайте проекцию что бы удалённо осматривать местность.
 telegnosis-power-initialization-feedback =
-    With my next step, I find that I am no longer in the material realm. My feet are trodding upon a bridge of rainbow light.
-    Yet strangly, as I look left and right, I first see a color that is as pink within pink, and to my right, blue within blue.
-    Just as my mind reels from the displeasure of knowing colors that aren't, a creature I can only describe as a
-    dragon with the wings of a peacock swoops down, and consumes my flesh in a single bite. I awaken in an instant, to a world utterly devoid
-    of true, real colors.
-telegnosis-power-metapsionic-feedback = { CAPITALIZE($entity) }'s soul travels across bridges composed of dreamlight
+  Сделав следующий шаг, я обнаружил, что больше не нахожусь в материальном царстве. Мои ноги ступают по мосту из радужного света.
+    Но, как ни странно, когда я смотрю вправо и влево, то сначала вижу розовый цвет внутри розового, а справа от меня - синий внутри синего.
+    В тот момент, когда мой разум замирает от досады, что я знаю цвета, которых нет, появляется существо, которое я могу описать только как
+    дракон с крыльями павлина, срывается вниз и пожирает мою плоть одним укусом. Через мгновение я просыпаюсь в мире, полностью лишенном
+    истинных, настоящих цветов.
+telegnosis-power-metapsionic-feedback = Душа { CAPITALIZE($entity) } путешествует по мостам, состоящим из света снов
 # Psionic Invisibility
-psionic-invisibility-power-description = Render yourself invisible to any entity that could potentially be psychic. Borgs, animals, and so on are not affected.
+psionic-invisibility-power-description = Станьте невидимым для всех существ, способным стать псиоником. Борги, животные и так далее не подвержены этому воздействию.
 psionic-invisibility-power-initialization-feedback =
-    I suddenly find myself plunged into a world utterly without light, yet I can feel the rays of warmth cast upon me.
-    Pondering this, I arrive at a realization that sight itself is an illusion. I reject it, I deny that light itself is real.
-    When I awaken, I can no longer see even myself.
-psionic-invisibility-power-metapsionic-feedback = { CAPITALIZE($entity) }'s wyrd seeks to hide from thine gaze
+    Я вдруг обнаружил, что погрузился в мир, где нет света, но я чувствую лучи тепла, падающие на меня.
+    Размышляя об этом, я прихожу к пониманию, что само зрение - это иллюзия. Я отвергаю ее, я отрицаю, что свет реален.
+    Когда я просыпаюсь, я уже не вижу даже себя.
+psionic-invisibility-power-metapsionic-feedback = { CAPITALIZE($entity) } стремится скрыться от твоего взгляда
 # Xenoglossy
-xenoglossy-power-description = You understand all languages.
+xenoglossy-power-description = Вы понимаете все языки.
 xenoglossy-power-initialization-feedback =
-    I feel an empathy with all creation, so that I may understand them and be understood.
-    The barrier between thought and expressions is permeable to me.
-psionic-language-power-metapsionic-feedback = The noösphere flows freely through { CAPITALIZE($entity) }, who seems to digest it and pass it back out undisturbed.
-mindbreaking-feedback = The light of life vanishes from { CAPITALIZE($entity) }'s eyes, leaving behind a husk pretending at sapience
+    Я сопереживаю всему творению, чтобы понять его и быть понятым.
+    Барьер между мыслями и выражениями для меня непроницаем.
+psionic-language-power-metapsionic-feedback = Ноöсфера свободно проходит через { CAPITALIZE($entity) }, который, кажется, переваривает ее и невозмутимо выпускает обратно.
+mindbreaking-feedback = Свет жизни исчезает из глаз { CAPITALIZE($entity) }, оставляя после себя шелуху, претендующую на разумность
