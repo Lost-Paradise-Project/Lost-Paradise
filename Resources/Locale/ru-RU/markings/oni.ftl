@@ -39,14 +39,12 @@ marking-OniHornSagittarius3Tone = Стрелец (три цвета)
 marking-OniHornSagittarius3Tone-sagittarius_3tone_1 = Нижняя часть
 marking-OniHornSagittarius3Tone-sagittarius_3tone_2 = Средняя часть
 marking-OniHornSagittarius3Tone-sagittarius_3tone_3 = Верхняя часть
-
 marking-OniHornVantas = Вантас
 marking-OniHornVantas-vantas = Вантас
 marking-OniHornVantas3Tone = Вантас (Три цвета)
 marking-OniHornVantas3Tone-vantas_3tone_1 = Нижняя часть
 marking-OniHornVantas3Tone-vantas_3tone_2 = Средняя часть
 marking-OniHornVantas3Tone-vantas_3tone_3 = Верхняя часть
-
 marking-OniHornMakara = Макара
 marking-OniHornMakara-makara = Макара
 marking-OniHornMakara2Tone = Макара (Полосы)
@@ -56,14 +54,12 @@ marking-OniHornMakara3Tone = Макара (Три цвета)
 marking-OniHornMakara3Tone-makara_3tone_1 = Нижняя часть
 marking-OniHornMakara3Tone-makara_3tone_2 = Средняя часть
 marking-OniHornMakara3Tone-makara_3tone_3 = Верхняя часть
-
 marking-OniHornNepeta = Непета
 marking-OniHornNepeta-nepeta = Непета
 marking-OniHornNepeta3Tone = Непета (Три цвета)
 marking-OniHornNepeta3Tone-nepeta_3tone_1 = Нижняя часть
 marking-OniHornNepeta3Tone-nepeta_3tone_2 = Средняя часть
 marking-OniHornNepeta3Tone-nepeta_3tone_3 = Верхняя часть
-
 marking-OniHornTaurus = Телец
 marking-OniHornTaurus-taurus = Телец
 marking-OniHornTaurus2Tone = Телец (Полосы)
