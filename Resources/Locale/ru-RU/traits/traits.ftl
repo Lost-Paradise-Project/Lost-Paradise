@@ -1,4 +1,4 @@
-﻿trait-name-Blindness = Слепота
+trait-name-Blindness = Слепота
 trait-description-Blindness = Вы совершенно слепы и не можете видеть дальше нескольких метров перед собой.
 trait-examined-Blindness = [color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } глаза остекленелые и расфокусированные. Не похоже, что { SUBJECT($target) } может хорошо вас видеть, если может вообще.[/color]
 trait-name-Narcolepsy = Нарколепсия
@@ -14,6 +14,11 @@ trait-name-LightweightDrunk = Быстрое опьянение
 trait-description-LightweightDrunk = Алкоголь оказывает на вас более сильное воздействие
 trait-name-HeavyweightDrunk = Толерантность к алкоголю
 trait-description-HeavyweightDrunk = Алкоголь боится тебя.
+trait-name-LiquorLifeline = Спасательный круг для ликера
+trait-description-LiquorLifeline =
+    Забудьте о враче — просто зайдите в бар и получите свой "рецепт на этанол"!
+    Когда вы пьёте, лечите [color=red]Механические[/color], [color=orange]Термические[/color], [color=orange]Электрические[/color], и [color=orange]Обморожение[/color], смотря на сколько вы пьяны.
+    Вы также получаете преимущества [color=lightblue]Толерантности к алкоголю[/color].
 trait-name-Muted = Немой
 trait-description-Muted = Вы не можете говорить
 trait-name-BloodDeficiency = Дефицит крови
@@ -58,6 +63,10 @@ trait-name-Foreigner = Унесённый ядерным взрывом
 trait-description-Foreigner =
     По той или иной причине вы не говорите на основном языке станции.
     Вместо этого вам выдан переводчик, которым можете пользоваться только вы.
+trait-name-Saturnine = Мрачный
+trait-description-Saturnine = Вы от природы суровы и угрюмый человек. Ваше настроение постоянно ухудшается.
+trait-name-Sanguine = Оптимистичный
+trait-description-Sanguine = Вы от природы оптимистичны и жизнерадостны! Ваше настроение постоянно повышается в разы.
 trait-name-WillToLive = Воля К Жизни
 trait-description-WillToLive =
     У вас необычайно сильная "воля к жизни", и вы будете сопротивляться смерти сильнее, чем другие.
@@ -139,3 +148,10 @@ trait-name-WeaponsGeneralist = Специалист по оружию
 trait-description-WeaponsGeneralist =
     Вы мастер на все руки в обращении с оружием ближнего боя, что позволяет вам быть универсальным в своем арсенале.
     Ваш бонус к урону в ближнем бою за все виды грубого урона составляет 25%.
+trait-name-Singer = Певец
+trait-description-Singer = Вы, естественно, способны петь своим голосом простые мелодии.
+trait-name-LatentPsychic = Скрытый экстрасенс
+trait-description-LatentPsychic =
+    Ваш разум и душа открыты ноосфере, что позволяет использовать телепатию.
+    Таким образом, вы имеете право на потенциальное получение экстрасенсорных способностей.
+    Вполне возможно, что за вами охотятся потусторонние силы, поэтому подумайте о том, чтобы сохранить свои способности в секрете.

@@ -1,2 +1,2 @@
-ent-ClothingShoesBootsMantis = psionic mantis' boots
-    .desc = Soft, comfortable, and good for rough terrain.
+ent-ClothingShoesBootsMantis = ботинки мантиса
+    .desc = Мягкие, удобные и хороши для езды по пересеченной местности.

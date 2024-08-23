@@ -1,4 +1,4 @@
-﻿ent-PaperBiscuit = бумажный конверт
+ent-PaperBiscuit = бумажный конверт
     .desc = Обычный бумажный конверт. Вы можете его вскрыть.
 ent-PaperBiscuitFilled = { ent-PaperBiscuit }
     .suffix = Заполненный

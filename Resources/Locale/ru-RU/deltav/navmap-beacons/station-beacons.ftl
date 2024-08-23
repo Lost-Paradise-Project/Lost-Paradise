@@ -1,4 +1,4 @@
-﻿station-beacon-epistemics = Научный отдел
+station-beacon-epistemics = Научный отдел
 station-beacon-mystagogue = Научный Директор
 station-beacon-logistics = Логистика
 station-beacon-logistics-reception = Логистика
