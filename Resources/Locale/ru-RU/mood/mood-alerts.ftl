@@ -1,4 +1,4 @@
-﻿alerts-mood-insane-name = Безумие
+alerts-mood-insane-name = Безумие
 alerts-mood-insane-desc = В моей душе тлеют мрак и безнадежность, мир обречен на абсолютное зло.
 alerts-mood-horrible-name = Печально
 alerts-mood-horrible-desc = Я борюсь с болями и страхами, моя судьба - череда мучений и страданий.
