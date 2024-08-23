@@ -1,0 +1,69 @@
+- type: decal
+  id: LPPindnumber0
+  tags: ["number"]
+  sprite:
+    sprite: _LostParadise/Decals/ind-numbers-mini.rsi
+    state: null
+
+- type: decal
+  id: LPPindnumber1
+  tags: ["number"]
+  sprite:
+    sprite: _LostParadise/Decals/ind-numbers-mini.rsi
+    state: one
+
+- type: decal
+  id: LPPindnumber2
+  tags: ["number"]
+  sprite:
+    sprite: _LostParadise/Decals/ind-numbers-mini.rsi
+    state: two
+
+- type: decal
+  id: LPPindnumber3
+  tags: ["number"]
+  sprite:
+    sprite: _LostParadise/Decals/ind-numbers-mini.rsi
+    state: three
+
+- type: decal
+  id: LPPindnumber4
+  tags: ["number"]
+  sprite:
+    sprite: _LostParadise/Decals/ind-numbers-mini.rsi
+    state: four
+
+- type: decal
+  id: LPPindnumber5
+  tags: ["number"]
+  sprite:
+    sprite: _LostParadise/Decals/ind-numbers-mini.rsi
+    state: five
+
+- type: decal
+  id: LPPindnumber6
+  tags: ["number"]
+  sprite:
+    sprite: _LostParadise/Decals/ind-numbers-mini.rsi
+    state: six
+
+- type: decal
+  id: LPPindnumber7
+  tags: ["number"]
+  sprite:
+    sprite: _LostParadise/Decals/ind-numbers-mini.rsi
+    state: seven
+
+- type: decal
+  id: LPPindnumber8
+  tags: ["number"]
+  sprite:
+    sprite: _LostParadise/Decals/ind-numbers-mini.rsi
+    state: eight
+
+- type: decal
+  id: LPPindnumber9
+  tags: ["number"]
+  sprite:
+    sprite: _LostParadise/Decals/ind-numbers-mini.rsi
+    state: nine

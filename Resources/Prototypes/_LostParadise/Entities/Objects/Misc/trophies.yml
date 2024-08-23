@@ -1,0 +1,25 @@
+- type: entity
+  parent: DrinkBaseCup
+  id: LPPtrophieGold
+  name: golden trophy
+  description: The gold trophy received for the first place, the nameplate is erased so no one knows whose trophy it is.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/Trophies/gold.rsi
+  - type: Item
+    size: Normal
+  - type: StaticPrice
+    price: 100
+
+- type: entity
+  parent: DrinkBaseCup
+  id: LPPtrophieSteel
+  name: steel trophy
+  description: A small steel trophy for second place, the nameplate is erased so no one knows whose trophy it is.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/Trophies/black.rsi
+  - type: Item
+    size: Normal
+  - type: StaticPrice
+    price: 30

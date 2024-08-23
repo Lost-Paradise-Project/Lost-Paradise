@@ -1,0 +1,35 @@
+{
+    "version": 2,
+    "license": "AGPL 3.0",
+    "copyright": "Draw by Hqlle (Github)",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+      {
+        "name": "log-sign"
+      },
+        {
+            "name": "sec-sign"
+        },
+        {
+            "name": "med-sign"
+        },
+        {
+            "name": "cmd-sign"
+        },
+        {
+            "name": "jus-sign"
+        },
+        {
+            "name": "rnd-sign"
+        },
+        {
+            "name": "srv-sign"
+        },
+        {
+            "name": "nt-sign"
+        }
+    ]
+}

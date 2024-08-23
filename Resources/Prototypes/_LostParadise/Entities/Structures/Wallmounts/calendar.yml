@@ -1,0 +1,38 @@
+﻿- type: entity
+  parent: BaseStructure
+  id: LPPCalendar
+  name: calendar
+  description: Counting down the days to your vacation.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Decoration/calendar.rsi
+    snapCardinals: true
+    layers:
+    - state: calendar1
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+  - type: InteractionOutline
+  - type: RandomSprite
+    available:
+      - enum.DamageStateVisualLayers.Base:
+          calendar1: ""
+          calendar2: ""
+          calendar3: ""
+          calendar4: ""
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroyHeavy
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialCloth1:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]

@@ -98,6 +98,13 @@
         - MobMask
         layer:
         - MobLayer
+  - type: LanguageKnowledge
+    speaks:
+    - GalacticCommon
+    - RobotTalk
+    understands:
+    - GalacticCommon
+    - RobotTalk
 
 - type: entity
   save: false

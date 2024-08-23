@@ -1,0 +1,27 @@
+- type: entity
+  id: LPPcoatrack
+  parent: BaseStructure
+  name: coat rack
+  description: A wooden rack to keep your things from lying around.
+  components:
+    - type: UserInterface
+      interfaces:
+      - key: enum.StorageUiKey.Key
+        type: StorageBoundUserInterface
+    - type: WallMount
+    - type: InteractionOutline
+    - type: Appearance
+    - type: Sprite
+      sprite: _LostParadise/Structures/Wallmounts/coatrack.rsi
+      layers:
+      - state: coatrack
+      - map: [ "enum.StorageContainerVisualLayers.Fill" ]
+    - type: Storage
+      grid:
+      - 0,0,6,1
+      whitelist:
+       tags:
+       - CoatRack
+    - type: StorageContainerVisuals
+      maxFillLevels: 3
+      fillBaseName: fill-
