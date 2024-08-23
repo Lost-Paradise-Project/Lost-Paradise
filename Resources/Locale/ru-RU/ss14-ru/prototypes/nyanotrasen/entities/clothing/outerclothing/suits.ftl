@@ -1,2 +1,2 @@
-ent-ClothingOuterSuitAreopagite = areopagite's suit
-    .desc = Quite the getup.
+ent-ClothingOuterSuitAreopagite = Костюм Ареопагита
+    .desc = Приличный наряд.
