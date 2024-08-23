@@ -239,5 +239,5 @@
   - type: Battery
     maxCharge: 200000
     startingCharge: 200000
-  - type: BatteryDrinkerSource # Parkstation IPCs # Parkstation IPCs
+  - type: BatteryDrinkerSource # Parkstation IPCs
     maxAmount: 26000
