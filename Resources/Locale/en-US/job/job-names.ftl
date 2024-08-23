@@ -7,7 +7,7 @@ job-name-brigmedic = Corpsman
 job-name-borg = Cyborg
 job-name-scientist = Scientist
 job-name-research-assistant = Research Assistant
-job-name-rd = Научный Директор
+job-name-rd = Mystagogue
 job-name-psychologist = Psychologist
 job-name-intern = Medical Intern
 job-name-doctor = Medical Doctor
@@ -23,7 +23,7 @@ job-name-serviceworker = Service Worker
 job-name-centcomoff = CentCom Official
 job-name-reporter = Reporter
 job-name-musician = Musician
-job-name-librarian = Librarian
+job-name-librarian = Cataloguer
 # DeltaV - Changed Lawyer to Attorney
 # job-name-lawyer = Lawyer
 job-name-mime = Mime

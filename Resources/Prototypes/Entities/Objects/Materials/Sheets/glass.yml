@@ -48,6 +48,7 @@
     solutions:
       glass:
         canReact: false
+  # Estacao Pirata - IPC Healing
   - type: BlindHealing
     damageContainers:
       - Silicon

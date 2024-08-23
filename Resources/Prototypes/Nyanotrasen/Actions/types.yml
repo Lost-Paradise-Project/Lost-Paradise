@@ -7,7 +7,7 @@
   - type: InstantAction
     icon: Nyanotrasen/Icons/verbiconfangs.png
     event: !type:EatMouseActionEvent
-    
+
 # LOST PARADISE (PE4HENIKA)- Start
 # - type: entity
 #   id: ActionHairball

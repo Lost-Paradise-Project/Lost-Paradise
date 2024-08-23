@@ -1,4 +1,4 @@
-﻿# Damage examines
+# Damage examines
 damage-examinable-verb-text = Повреждения
 damage-examinable-verb-message = Изучить показатели урона.
 damage-hitscan = хитскан

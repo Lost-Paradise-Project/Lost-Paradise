@@ -22,7 +22,7 @@
     - type: Damageable
       damageContainer: Biological
       damageModifierSet: Scale
-    - type: PotentialPsionic
+#    - type: PotentialPsionic
     - type: MeleeWeapon
       hidden: true
       soundHit:
