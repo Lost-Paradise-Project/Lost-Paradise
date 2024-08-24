@@ -1,2 +1,2 @@
-ent-BaseBallBatHomeRun = home run bat
-    .desc = Heavy metal bat with an extra kick.
+ent-BaseBallBatHomeRun = бейсбольная бита
+    .desc = Тяжёлая металлическая бита. Пахнет рыбой.

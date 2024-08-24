@@ -1,3 +1,3 @@
-ent-PlayerSiliconHumanoidBase = { ent-['BaseMob', 'MobDamageable', 'MobCombat', 'MobAtmosExposed', 'MobFlammable'] }
+ent-PlayerSiliconHumanoidBase = { ent-BaseMob }
 
-  .desc = { ent-['BaseMob', 'MobDamageable', 'MobCombat', 'MobAtmosExposed', 'MobFlammable'].desc }
+  .desc = { ent-BaseMob.desc }

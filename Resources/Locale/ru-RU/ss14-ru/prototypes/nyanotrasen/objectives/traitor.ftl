@@ -1,6 +1,6 @@
 ent-MantisKnifeStealObjective = { ent-BaseTraitorStealObjective }
     .desc = { ent-BaseTraitorStealObjective.desc }
-ent-BecomePsionicObjective = Become psionic
-    .desc = We need you to acquire psionics and keep them until your mission is complete.
-ent-RaiseGlimmerObjective = Raise Glimmer.
-    .desc = Get the glimmer above the specified amount.
+ent-BecomePsionicObjective = Стать псионическим (или псиоником)
+    .desc = Нам нужно, чтобы вы получили силы псиоников и сохранили их до момента выполнения миссии.
+ent-RaiseGlimmerObjective = Поднемите мерцание.
+    .desc = Восполните мерцание до указанного количества.
