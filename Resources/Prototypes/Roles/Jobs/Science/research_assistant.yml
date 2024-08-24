@@ -4,9 +4,8 @@
   description: job-description-research-assistant
   playTimeTracker: JobResearchAssistant
   requirements:
-    - !type:CharacterPlaytimeRequirement # Lost Paradise - Time in start role (PE4HENIKA)
-      tracker: Passenger
-      min: 7200 # 2 hours
+    - !type:CharacterOverallTimeRequirement
+      time: 7200
     # - !type:DepartmentTimeRequirement # Lost Paradise - return time limit
     #   department: Science
     #   time: 54000 #15 hrs

@@ -5,9 +5,8 @@
   playTimeTracker: JobCargoTechnician
   antagAdvantage: 2 # DeltaV - Reduced TC: External Access
   requirements:
-    - !type:CharacterPlaytimeRequirement # Lost Paradise - Time in start role (PE4HENIKA)
-      tracker: Passenger
-      min: 7200 # 2 hours
+    - !type:CharacterOverallTimeRequirement
+      time: 7200
   startingGear: CargoTechGear
   icon: "JobIconCargoTechnician"
   supervisors: job-supervisors-qm
