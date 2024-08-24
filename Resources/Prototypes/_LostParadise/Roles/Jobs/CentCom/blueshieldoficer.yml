@@ -17,7 +17,6 @@
   icon: "JobIconBlueshield"
   supervisors: job-supervisors-centcom
   canBeAntag: false
-  whitelisted: false
   accessGroups:
   - AllAccess
   special:
