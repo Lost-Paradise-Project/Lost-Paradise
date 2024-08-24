@@ -239,7 +239,7 @@
 #---------остольное----остольное----остольное---------#
 #-----------------------------------------------------#
 
-#- type: entity
+# - type: entity
 #  id: LPPFloorTileItemWoodLarge
 #  parent: FloorTileItemSteel
 #  name: steel dark checker tile
@@ -251,8 +251,8 @@
 #    outputs:
 #      - Plating
 #      - LPPWoodLarge
-
-#- type: entity
+#
+# - type: entity
 #  id: LPPFloorTileItemShuttleBlak
 #  parent: FloorTileItemSteel
 #  name: steel dark checker tile
@@ -265,7 +265,7 @@
 #      - Plating
 #      - LPPFloorShuttleBlak
 #
-#- type: entity
+# - type: entity
 #  id: FloorTileItemShuttleBlak
 #  parent: FloorTileItemSteel
 #  name: steel dark checker tile

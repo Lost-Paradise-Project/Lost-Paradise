@@ -1,7 +1,7 @@
 - type: tile
   id: LPPLatticeHalf1
   name: lattice-half-1
-  sprite: /Textures/_LostParadise/Tiles/CornerFloors/lattice-half.rsi/lattice-half1.png
+  sprite: /Textures/_LostParadise/Tiles/CornerFloors/lattice-half/lattice-half1.png
   baseTurf: Lattice
   isSubfloor: true
   canCrowbar: false
@@ -15,7 +15,7 @@
 - type: tile
   id: LPPLatticeHalf2
   name: lattice-half-2
-  sprite: /Textures/_LostParadise/Tiles/CornerFloors/lattice-half.rsi/lattice-half2.png
+  sprite: /Textures/_LostParadise/Tiles/CornerFloors/lattice-half/lattice-half2.png
   baseTurf: Lattice
   isSubfloor: true
   canCrowbar: false
@@ -29,7 +29,7 @@
 - type: tile
   id: LPPLatticeHalf3
   name: lattice-half-3
-  sprite: /Textures/_LostParadise/Tiles/CornerFloors/lattice-half.rsi/lattice-half3.png
+  sprite: /Textures/_LostParadise/Tiles/CornerFloors/lattice-half/lattice-half3.png
   baseTurf: Lattice
   isSubfloor: true
   canCrowbar: false
@@ -43,7 +43,7 @@
 - type: tile
   id: LPPLatticeHalf4
   name: lattice-half-4
-  sprite: /Textures/_LostParadise/Tiles/CornerFloors/lattice-half.rsi/lattice-half4.png
+  sprite: /Textures/_LostParadise/Tiles/CornerFloors/lattice-half/lattice-half4.png
   baseTurf: Lattice
   isSubfloor: true
   canCrowbar: false
@@ -53,4 +53,3 @@
   itemDrop: FloorTileItemGrass
   friction: 0.3
   heatCapacity: 10000
-

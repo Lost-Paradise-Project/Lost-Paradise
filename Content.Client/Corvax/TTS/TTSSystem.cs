@@ -12,6 +12,7 @@ using Robust.Shared.Utility;
 using Content.Client.Language.Systems;
 using Content.Client.Administration.Managers;
 using Content.Shared.Administration;
+using Content.Shared.Ghost;
 
 
 namespace Content.Client.Corvax.TTS;
@@ -23,6 +24,7 @@ namespace Content.Client.Corvax.TTS;
 public sealed class TTSSystem : EntitySystem
 {
     [Dependency] private readonly IConfigurationManager _cfg = default!;
+    [Dependency] private readonly IEntityManager _entities = default!;
     [Dependency] private readonly IResourceCache _resourceCache = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly ISharedPlayerManager _playerManager = default!;
@@ -83,7 +85,9 @@ public sealed class TTSSystem : EntitySystem
         var player = _playerManager.LocalSession?.AttachedEntity;
         if (player != null)
         {
-            if (_language.UnderstoodLanguages.Contains(ev.LanguageProtoId) || _adminMgr.HasFlag(AdminFlags.Admin))
+            var isadmin = _adminMgr.HasFlag(AdminFlags.Admin) && _entities.TryGetComponent<GhostComponent>(player, out var ghostcomp);
+
+            if ((_language.UnderstoodLanguages.Contains(ev.LanguageProtoId) || isadmin) && ev.LanguageProtoId != "Sign")
                 _contentRoot.AddOrUpdateFile(filePath, ev.Data);
             else
                 _contentRoot.AddOrUpdateFile(filePath, ev.LanguageData);

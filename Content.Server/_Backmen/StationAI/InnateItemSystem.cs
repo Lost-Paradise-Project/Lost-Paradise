@@ -8,6 +8,7 @@ using Content.Shared.Tag;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using Content.Shared.Hands.Components;  //LPP
 
 namespace Content.Server._Backmen.StationAI;
 
@@ -16,6 +17,7 @@ public sealed partial class InnateItemSystem : EntitySystem
     [Dependency] private readonly SharedActionsSystem _actionsSystem = default!;
     [Dependency] private readonly TagSystem _tagSystem = default!;
     [Dependency] private readonly MobStateSystem _mobState = default!;
+    [Dependency] private readonly EntityManager _entityManager = default!;  //LPP 
 
     public override void Initialize()
     {
@@ -106,7 +108,13 @@ public sealed partial class InnateItemSystem : EntitySystem
     {
         if (!component.Items.ContainsKey(args) && args != "")
         {
-            if (!TrySpawnInContainer(args, uid, "tools", out var item))
+            if (_entityManager.TryGetComponent<HandsComponent>(uid, out var handcomp))  //LPP: для извлечения старого объекта из активной руки
+            {
+                var obj = handcomp.ActiveHandEntity;
+                if (obj != null)
+                    _entityManager.DeleteEntity(obj!);
+            }
+            if (!TrySpawnInContainer(args, uid, "SAI", out var item))             //LPP: нет слота с id "tools"
             {
                 Logger.Error($"Невозможно заспавнить tools {args}");
                 return;

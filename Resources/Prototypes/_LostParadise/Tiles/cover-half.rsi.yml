@@ -1,7 +1,7 @@
 - type: tile
   id: LPPCoverHalf1
   name: cover-half-1
-  sprite: /Textures/_LostParadise/Tiles/CornerFloors/cover-half.rsi/cover-half1.png
+  sprite: /Textures/_LostParadise/Tiles/CornerFloors/cover-half/cover-half1.png
   baseTurf: Lattice
   isSubfloor: true
   canCrowbar: false
@@ -13,7 +13,7 @@
 - type: tile
   id: LPPCoverHalf2
   name: cover-half-2
-  sprite: /Textures/_LostParadise/Tiles/CornerFloors/cover-half.rsi/cover-half2.png
+  sprite: /Textures/_LostParadise/Tiles/CornerFloors/cover-half/cover-half2.png
   baseTurf: Lattice
   isSubfloor: true
   canCrowbar: false
@@ -25,7 +25,7 @@
 - type: tile
   id: LPPCoverHalf3
   name: cover-half-3
-  sprite: /Textures/_LostParadise/Tiles/CornerFloors/cover-half.rsi/cover-half3.png
+  sprite: /Textures/_LostParadise/Tiles/CornerFloors/cover-half/cover-half3.png
   baseTurf: Lattice
   isSubfloor: true
   canCrowbar: false
@@ -37,7 +37,7 @@
 - type: tile
   id: LPPCoverHalf4
   name: cover-half-4
-  sprite: /Textures/_LostParadise/Tiles/CornerFloors/cover-half.rsi/cover-half4.png
+  sprite: /Textures/_LostParadise/Tiles/CornerFloors/cover-half/cover-half4.png
   baseTurf: Lattice
   isSubfloor: true
   canCrowbar: false
@@ -45,4 +45,3 @@
     collection: FootstepPlating
   itemDrop: FloorTileItemGrass
   heatCapacity: 10000
-
