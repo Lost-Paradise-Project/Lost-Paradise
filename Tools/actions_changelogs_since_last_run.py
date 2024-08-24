@@ -25,7 +25,7 @@ CHANGELOG_FILE = "Resources/Changelog/ChangelogLPP.yml"
 
 TYPES_TO_EMOJI = {
     "Fix":    "🐛",
-    "Add":    "🆕",
+    "Add":    "✨",
     "Remove": "❌",
     "Tweak":  "⚒️"
 }
@@ -138,7 +138,7 @@ def send_to_discord(entries: Iterable[ChangelogEntry]) -> None:
     for name, group in itertools.groupby(entries, lambda x: x["author"]):
         # Need to split text to avoid discord character limit
         group_content = io.StringIO()
-        group_content.write(f"<@&1260544966502125579>\n**{name}** updated:\n")
+        group_content.write(f"<@&1260544966502125579>\n <:propen:1276927947428859914>**{name}** updated:\n")
 
         for entry in group:
             for change in entry["changes"]:
