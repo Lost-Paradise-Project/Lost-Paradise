@@ -1,8 +1,8 @@
 ent-BaseOilJar = { ent-DrinkBottleGlassBaseFull }
     .desc = { ent-DrinkBottleGlassBaseFull.desc }
-ent-OilJarGhee = jar of ghee
-    .desc = A large tinted glass jar with a simple label of butter sticks on it.
-ent-OilJarCorn = jar of corn oil
-    .desc = A large tinted glass jar with a simple label of a corn stalk on it.
-ent-OilJarOlive = jar of olive oil
-    .desc = A large tinted glass jar with a simple label of olives on it.
+ent-OilJarGhee = банка топлёного масла
+    .desc = Большая стеклянная банка с этикеткой на ней.
+ent-OilJarCorn = банка кукурузного масла
+    .desc = Большая стеклянная банка с этикеткой на ней.
+ent-OilJarOlive = банка оливкового масла
+    .desc = Большая стеклянная банка с этикеткой на ней.

@@ -1,2 +1,2 @@
-ent-ShockCollar = shock collar
-    .desc = Shocking.
+ent-ShockCollar = ошейник-шокер
+    .desc = Шокирующе.

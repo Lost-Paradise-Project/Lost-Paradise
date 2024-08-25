@@ -1,174 +1,174 @@
-ent-ClothingOuterHardsuitBasic = basic vacsuit
-    .desc = A common, colonial-era vacsuit of indeterminate make and model. It's strictly better than nothing, but not by much.
-ent-ClothingOuterHardsuitAtmos = HpI-19t "Fotia" hardsuit
+ent-ClothingOuterHardsuitBasic = Стандартный пустотный скафандр
+    .desc = Обычный пустотный скафандр колониальной эпохи неопределенной марки и модели. Это, конечно, лучше, чем ничего, но не намного.
+ent-ClothingOuterHardsuitAtmos = Скафандр HpI-19t "Fotia"
     .desc =
-        A standard-issue hardsuit produced by Hephaestus Industries, used by atmospheric technicians in low & high pressure environments.
-        The label indicates that its rated for high amounts of thermal exposure. It feels a bit heavy.
-ent-ClothingOuterHardsuitEngineering = HpI-19r "Lampsi" hardsuit
+        Универсальный скафандр производства Hephaestus Industries, используется атсмостехами в средах низкого и высокого давления.
+        Имеет отметку, обозначующую что данная модель способна выдерживать высокую степень нагрева. Выглядит не лёгким.
+ent-ClothingOuterHardsuitEngineering = Скафандр HpI-19r "Lampsi"
     .desc =
-        A standard-issue hardsuit produced by Hephaestus Industries, used by engineers in low & high pressure environments.
-        The label indicates that its rated for moderate amounts of radiation exposure. It feels a bit heavy.
-ent-ClothingOuterHardsuitSpatio = HpI-20s "Kriti" hardsuit
+        Универсальный скафандр производства Hephaestus Industries, используется инженерами в средах низкого и высокого давления.
+        Имеет отметку, обозначующую что данная модель имеет повышенную радиационную защиту. Выглядит не лёгким.
+ent-ClothingOuterHardsuitSpatio = Скафандр HpI-20s "Kriti"
     .desc =
-        A standard-issue hardsuit produced by Hephaestus Industries, designed for industrial work in low pressure environments.
-        The label indicates that its rated for moderate amounts of radiation exposure, and it feels somewhat light.
-ent-ClothingOuterHardsuitSalvage = HpI-20a "Lavrion" hardsuit
+        Универсальный скафандр производства Hephaestus Industries, сконструирован для промышленных работ в условиях пониженного давления.
+        Имеет отметку, обозначующую что данная модель имеет повышенную радиационную защиту и облегчённую конструкцию.
+ent-ClothingOuterHardsuitSalvage = Скафандр HpI-20a "Lavrion"
     .desc =
-        A sturdy hardsuit produced by Hephaestus Industries, designed for industrial work in low pressure environments.
-        The labels indicate that it provides protection against most forms of damage. It feels heavy.
-ent-ClothingOuterHardsuitVoidParamed = ZhP-24m "Sukunabikona"
+        Укреплённый скафандр производства Hephaestus Industries, сконструирован для промышленных работ в условиях пониженного давления.
+        Имеет отметку, обозначующую что данная модель имеет защиту от большинства видов воздействия. Выглядит тяжёлым.
+ent-ClothingOuterHardsuitVoidParamed = Скафандр ZhP-24m "Sukunabikona"
     .desc =
-        A standard-issue hardsuit manufactured by Zeng-Hu Pharmaceuticals, used by paramedics due to its lightweight frame.
-        The label mentions that it offers some protection against chemical spills.
-ent-ClothingOuterHardsuitMaxim = Mysterious tacsuit
+        Универсальный скафандр производства Zeng-Hu Pharmaceuticals, имеет облегчённую конструкцию, потому популярен среди парамедиков.
+        Имеет отметку, обозначующую что данная модель имеет высокий уровень биологической защиты.
+ent-ClothingOuterHardsuitMaxim = Загадочный тактический скафандр
     .desc =
-        An old looking tactical combat hardsuit. It has a faded red logo on it along with the words "Maxim".
-        It feels very sturdy and doesn't seem to have any weight... Though it has an ominous aura to it.
-ent-ClothingOuterHardsuitSecurity = FPA-83s - "Baghatur" tacsuit
+        Тактический боевый скафандр старой модели. Имеет выцветшую красныую эмблему с надписью "Maxim".
+        Выглядит крайне прочным и лёгким... Однако вы ощущаете зловещую ауру исходящую от него.
+ent-ClothingOuterHardsuitSecurity = Тактический скафандр FPA-83s - "Baghatur"
     .desc =
-        A sturdy tactical combat hardsuit mass-produced by Five-Points-Armory, used by the Nanotrasen security force.
-        The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels heavy.
-ent-ClothingOuterHardsuitBrigmedic = FPA-84m - "Tsagaan" tacsuit
+        Укреплённый тактический скафандр массового производства фирмы Five-Points-Armory, используется службой безопасности Nanotrasen.
+        Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит тяжёлым.
+ent-ClothingOuterHardsuitBrigmedic = Тактический скафандр FPA-84m - "Tsagaan"
     .desc =
-        A sturdy tactical combat hardsuit mass-produced by Five-Points-Armory, used by doctors in the Nanotrasen security force.
-        The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels heavy.
-ent-ClothingOuterHardsuitCombatStandard = FPA-85 - "Baghatur Mk.II" tacsuit
+        Укреплённый тактический скафандр массового производства фирмы Five-Points-Armory, используется медиками службы безопасности Nanotrasen.
+        Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит тяжёлым.
+ent-ClothingOuterHardsuitCombatStandard = Тактический скафандр FPA-85 - "Baghatur Mk.II"
     .desc =
-        A sturdy tactical combat hardsuit mass-produced by Five-Points-Armory.
-        The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels heavy.
-ent-ClothingOuterHardsuitCombatOfficer = FPA-85s - "Baghatur Mk.II" tacsuit
+        Укреплённый тактический скафандр массового производства фирмы Five-Points-Armory.
+        Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит тяжёлым.
+ent-ClothingOuterHardsuitCombatOfficer = Тактический скафандр FPA-85s - "Baghatur Mk.II"
     .desc =
-        A sturdy tactical combat hardsuit mass-produced by Five-Points-Armory, painted with the colors of station security.
-        The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels heavy.
-ent-ClothingOuterHardsuitCombatMedical = FPA-86 - "Tsagaan Mk.II" tacsuit
+        Укреплённый тактический скафандр массового производства фирмы Five-Points-Armory, покрашен в цвета станционной охраны.
+        Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит тяжёлым.
+ent-ClothingOuterHardsuitCombatMedical = Тактический скафандр FPA-86 - "Tsagaan Mk.II"
     .desc =
-        A sturdy tactical combat hardsuit mass-produced by Five-Points-Armory.
-        The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels heavy.
-ent-ClothingOuterHardsuitCombatCorpsman = FPA-86m - "Tsagaan Mk.II" tacsuit
+        Укреплённый тактический скафандр массового производства фирмы Five-Points-Armory.
+        Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит тяжёлым.
+ent-ClothingOuterHardsuitCombatCorpsman = Тактический скафандр FPA-86m - "Tsagaan Mk.II"
     .desc =
-        A sturdy tactical combat hardsuit mass-produced by Five-Points-Armory, painted with the colors of station security & medical staff.
-        The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels heavy.
-ent-ClothingOuterHardsuitWarden = FPA-92s - "Sulde" tacsuit
+        Укреплённый тактический скафандр массового производства фирмы Five-Points-Armory, покрашен в цвета мед. персонала и охраны станции.
+        Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит тяжёлым.
+ent-ClothingOuterHardsuitWarden = Тактический скафандр FPA-92s - "Sulde"
     .desc =
-        A specialized tactical combat hardsuit produced by Five-Points-Armory, often used by Wardens in Nanotrasen stations.
-        The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels VERY heavy.
-ent-ClothingOuterHardsuitCombatRiot = FPA-93 - "Sulde Mk.II" tacsuit
+        Специализированный тактический скафандр производства Five-Points-Armory, используется командирами низшего звена службы безопасности Nanotrasen.
+        Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит крайне тяжёлым.
+ent-ClothingOuterHardsuitCombatRiot = Тактический скафандр FPA-93 - "Sulde Mk.II"
     .desc =
-        A specialized tactical combat hardsuit produced by Five-Points-Armory.
-        The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels VERY heavy.
-ent-ClothingOuterHardsuitCombatWarden = FPA-93s - "Sulde Mk.II" tacsuit
+        Специализированный тактический скафандр производства Five-Points-Armory.
+        Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит крайне тяжёлым.
+ent-ClothingOuterHardsuitCombatWarden = Тактический скафандр FPA-93s - "Sulde Mk.II"
     .desc =
-        A specialized tactical combat hardsuit produced by Five-Points-Armory, painted with the colors of station security.
-        The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels VERY heavy.
-ent-ClothingOuterHardsuitCap = NT-42c - "Tengri" tacsuit
+        Специализированный тактический скафандр производства Five-Points-Armory, покрашен в цвета станционной охраны.
+        Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит крайне тяжёлым.
+ent-ClothingOuterHardsuitCap = Тактический скафандр NT-42c - "Tengri"
     .desc =
-        A formal, tactical combat hardsuit, made in collaboration by Nanotrasen's R&D department with Five-Points-Armory for station captains.
-        The labels indicate that it provides protection against most forms of damage. It feels somewhat light.
-ent-ClothingOuterHardsuitEngineeringWhite = HpI-24c "Daedalus" hardsuit
+        тактический скафандр, разработанный Five-Points-Armory в сотрудничестве с Nanotrasen, и предназначенный для капитанов корпорации.
+        Имеет отметку, обозначующую что данная модель имеет защиту от большинства видов воздействий. Выглядит лёгким.
+ent-ClothingOuterHardsuitEngineeringWhite = Скафандр HpI-24c "Daedalus"
     .desc =
-        A specialized hardsuit produced by Hephaestus Industries, often purchased for use by Nanotrasen senior engineers.
-        The labels indicate that its rated for high amounts of radiation and pressure. It feels somewhat light.
-ent-ClothingOuterHardsuitMedical = ZhP-25m - "Okuninushi" hardsuit
+        Специализированный скафандр производства Hephaestus Industries, закупается Nanotrasen для старших инженеров.
+        Имеет отметку, обозначующую что данная модель имеет высокую степень защиты от радиации и давления. Выглядит лёгким.
+ent-ClothingOuterHardsuitMedical = Скафандр ZhP-25m - "Okuninushi"
     .desc =
-        A hardsuit produced by Zeng-hu Pharmaceuticals, often purchased for use by Nanotrasen senior medical doctors.
-        The labels claim it protects against damage from most chemical spills. It feels incredibly light.
-ent-ClothingOuterHardsuitRd = NT-45e - "Sophia" research hardsuit
+        Скафандр производства Zeng-hu Pharmaceuticals, закупается Nanotrasen для старшего медицинского персонала.
+        Имеет отметку, обозначующую что данная модель имеет высокий уровень биологической защиты. Выглядит крайне лёгким.
+ent-ClothingOuterHardsuitRd = Научный скафандр NT-45e - "Sophia"
     .desc =
-        The magnum opus of Nanotrasen's R&D division. The labels on this hardsuit claim that its near-immune to explosions, heat and radiation.
-        Somehow it also can shrink enough to fit in a bag. It feels VERY heavy.
+        Новейшый продукт отдела разработок Nanotrasen. Отметки на скафандре соответствуют высшей степени защиты от взрывов, нагрева и радиации.
+        Способен складываться для переноса в рюкзаке. Выглядит крайне тяжёлым.
 ent-ClothingOuterHardsuitMystagogue = NT-45e - "Sophia" research hardsuit
     .desc = { ent-ClothingOuterHardsuitRd.desc }
-ent-ClothingOuterHardsuitSecurityRed = FPA-98s - "Dayicin" tacsuit
+ent-ClothingOuterHardsuitSecurityRed = Тактический скафандр FPA-98s - "Dayicin"
     .desc =
-        A top-of-the-line tactical combat hardsuit  produced by Five-Points-Armory, often purchased for use by Nanotrasen senior security officers.
-        The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels somewhat light.
-ent-ClothingOuterHardsuitCombatAdvanced = FPA-99 - "Dayicin Mk.II" tacsuit
+        Продвинутый тактический скафандр производства Five-Points-Armory, закупается Nanotrasen для командиров службы безопасности.
+        Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит лёгким.
+ent-ClothingOuterHardsuitCombatAdvanced = Тактический скафандр FPA-99 - "Dayicin Mk.II"
     .desc =
-        A top-of-the-line tactical combat hardsuit produced by Five-Points-Armory.
-        The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels somewhat light.
-ent-ClothingOuterHardsuitCombatHoS = FPA-99s - "Dayicin Mk.II" tacsuit
+        Продвинутый тактический скафандр производства Five-Points-Armory.
+        Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит лёгким.
+ent-ClothingOuterHardsuitCombatHoS = Тактический скафандр FPA-99s - "Dayicin Mk.II"
     .desc =
-        A top-of-the-line tactical combat hardsuit produced by Five-Points-Armory, painted with the colors of station security.
-        The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels somewhat light.
-ent-ClothingOuterHardsuitLuxury = HpI-20c - "Minos" hardsuit
+        Продвинутый тактический скафандр производства Five-Points-Armory, покрашен в цвета станционной охраны.
+        Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит лёгким.
+ent-ClothingOuterHardsuitLuxury = Скафандр HpI-20c - "Minos"
     .desc =
-        A modified mining hardsuit from Hephaestus Industries, fashioned after the Logistics Officer's colors.
-        The labels indicate that it provides slight protection against most forms of damage. It feels incredibly light.
-ent-ClothingOuterHardsuitSyndie = CSA-51a - "Shanlin" tacsuit
+        Модифицированный шахтёрский скафандр производства Hephaestus Industries, имеет цветовую схему офицера по логистике.
+        Имеет отметку, обозначующую что данная модель предоставляет минимальный уровень защиты от большинства воздействий. Выглядит крайне лёгким.
+ent-ClothingOuterHardsuitSyndie = Тактический скафандр CSA-51a - "Shanlin"
     .desc =
-        A tactical combat hardsuit produced by the Cybersun-Armaments Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
-        This one has been painted blood red. It feels incredibly light.
-ent-ClothingOuterHardsuitSyndieMedic = CSA-51m - "Zhongyao" tacsuit
+        Тактический скафандр производства Cybersun-Armaments Corporation, отметки на скафандре соотвествуют средней защите от большинства видов воздействий.
+        Покрашен в кроваво-красный. Выглядит крайне лёгким.
+ent-ClothingOuterHardsuitSyndieMedic = Тактический скафандр CSA-51m - "Zhongyao"
     .desc =
-        A tactical combat hardsuit produced by the Cybersun-Armaments Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
-        Half of the suit is painted blood red, the rest bears galactic-standard medical markings. It feels incredibly light.
-ent-ClothingOuterHardsuitSyndieElite = CSA-54UA - "Shiwei" tacsuit
+        Тактический скафандр производства Cybersun-Armaments Corporation, отметки на скафандре соотвествуют средней защите от большинства видов воздействий.
+        Костюм покрашен в кроваво-красный с медицинскими метками общегалактического стандарта. Выглядит крайне лёгким.
+ent-ClothingOuterHardsuitSyndieElite = Тактический скафандр CSA-54UA - "Shiwei"
     .desc =
-        An "Up-Armored" tactical combat hardsuit produced by the Cybersun-Armaments Corporation.
-        The suit's tags indicate its rated for high exposure to radiation, heat and explosions, along with moderate physical trauma protection.
-        It feels incredibly light.
-ent-ClothingOuterHardsuitSyndieCommander = CSA-54c - "Tianming" tacsuit
+        Бронированный тактический скафандр производства the Cybersun-Armaments Corporation.
+        Отметки на скафандре соотвествуют высоким степеням защиты от радиации, нагрева и взрывов, а также средним от физических травм.
+        Выглядит крайне лёгким.
+ent-ClothingOuterHardsuitSyndieCommander = Тактический скафандр CSA-54c - "Tianming"
     .desc =
-        A "Commander" tactical combat hardsuit produced by the Cybersun-Armaments Corporation. The suit's tags indicate that it protects greatly against all forms of damage.
-        This one has been painted blood red. It doesn't seem to have any weight.
-ent-ClothingOuterHardsuitJuggernaut = CSA-80UA - "Guan Yu" tacsuit
+        Офицерский тактический скафандр производства the Cybersun-Armaments Corporation. Отметки на скафандре соотвествуют высокой степени защаты от всех видов воздействий.
+        Покрашен в кроваво-красный. Кажется, не весит ничего.
+ent-ClothingOuterHardsuitJuggernaut = Тактический скафандр CSA-80UA - "Guan Yu"
     .desc =
-        The pride and joy of the Cybersun-Armaments Corporation, named after an ancient Sol' War God. Commonly known throughout the galaxy as a "Juggernaut".
-        Matching its bulky appearance, it protects against all forms of damage. It feels VERY heavy.
-ent-ClothingOuterHardsuitWizard = WZD-84 - "Mana" tacsuit
+        Новейшая разработка Cybersun-Armaments Corporation, названа в честь древнего Земного бога войны. Скафандр также известен под неофициальным названием "Juggernaut".
+        Отлично защищает от большинства видов воздействий. Выглядит крайне тяжёлым.
+ent-ClothingOuterHardsuitWizard = Тактический скафандр WZD-84 - "Mana"
     .desc =
-        A bizarre gem-encrusted hardsuit. Famously used by members of the Wizard Federation in their operations.
-        Contrary to it's appearance, it can protect its wearer from space and considerable amounts of physical trauma, it feels somewhat light.
-ent-ClothingOuterHardsuitLing = organic vacsuit
-    .desc = A suit made of biomass tissue that is somehow capable of resisting the hazards of low pressure and temperature in space.
-ent-ClothingOuterHardsuitPirateEVA = pirate vacsuit
-    .desc = A worn-out heavy space suit of unknown origin that provides some basic protection from the cold harsh realities of deep space.
-    .suffix = Pirate
-ent-ClothingOuterHardsuitPirateCap = pirate captain's tacsuit
+        Причудливый украшенный драгоценными камнями скафандр. Используется Федерацией Магов.
+        Несмотря на свою внешность, он способен защитить владельца от воздействия космоса и физических повреждений. Выглядит лёгким.
+ent-ClothingOuterHardsuitLing = Органический пустотный скафандр
+    .desc = Скафандр из органической материи способный защитить владельца от низкого давления и пониженной темпиратуры космоса.
+ent-ClothingOuterHardsuitPirateEVA = Пиратский пустотный скафандр
+    .desc = Изношенный пустотный скафандр способный предоставить стандартную защиту от воздействия космоса.
+    .suffix = Пиратский
+ent-ClothingOuterHardsuitPirateCap = Тактический скафандр пирата
     .desc =
-        An ancient armored tactical combat hardsuit of unknown origin, provides basic protections from the cold harsh realities of deep space and physical trauma.
-        It doesn't seem to have any weight either. Perfect for defending against space scurvy and toolbox-wielding scallywags.
-ent-ClothingOuterHardsuitSyndieReverseEngineered = NTSA-122 tacsuit
-    .desc = A suit made by the special adquisitions department of Nanotrasen, the suit's tags indicate it provides moderate protection against most forms of damage.
-ent-ClothingOuterHardsuitJuggernautReverseEngineered = NTSA-126 tacsuit
+        Древний бронированный тактический скафандр неизвестного происхождения способный предоставить стандартную защиту от воздействия космоса и физических повреждений.
+        Кажется, не весит ничего.
+ent-ClothingOuterHardsuitSyndieReverseEngineered = Тактический скафандр NTSA-122
+    .desc = Скафандр, созданный департаментом особых приобретений Nanotrasen. Отметки на скафандре соотвествуют средней степени защаты от всех видов воздействий.
+ent-ClothingOuterHardsuitJuggernautReverseEngineered = Тактический скафандр NTSA-126
     .desc =
-        A suit made by the special acquisitions department of Nanotrasen based on the "Juggernaut" design.
-        Matching its bulky appearance, it protects against all forms of damage. It feels VERY heavy.
-ent-ClothingOuterHardsuitERTCentcomm = NT-444c - "Ophanim" tacsuit
+        Скафандр, созданный департаментом особых приобретений Nanotrasen, в основе которого лежит модель "Juggernaut".
+        Отлично защищает от большинства видов воздействий. Выглядит крайне тяжёлым.
+ent-ClothingOuterHardsuitERTCentcomm = Тактический скафандр NT-444c - "Ophanim"
     .desc =
-        A highly advanced, tactical combat hardsuit used by Central Command Officers, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-        The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
-ent-ClothingOuterHardsuitERTLeader = NT-444l - "Michael" tacsuit
+        Крайне продвинутый тактический скафандр предназначенный для офицеров ЦК, имеет логотип Nanotrasen и серийный номер.
+        Броня скафандра укреплена сверхпрочным сплавом, помимо этого он почти ничего не весит.
+ent-ClothingOuterHardsuitERTLeader = Тактический скафандр NT-444l - "Michael"
     .desc =
-        A highly advanced, tactical combat hardsuit used by Leaders of the Emergency Response Team, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-        The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
-ent-ClothingOuterHardsuitERTEngineer = NT-444e - "Uriel" hardsuit
+        Крайне продвинутый тактический скафандр предназначенный для командования ОБР, имеет логотип Nanotrasen и серийный номер.
+        Броня скафандра укреплена сверхпрочным сплавом, помимо этого он почти ничего не весит.
+ent-ClothingOuterHardsuitERTEngineer =Скафандр NT-444e - "Uriel"
     .desc =
-        A highly advanced hardsuit used by Engineers of the Emergency Response Team, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-        The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
-ent-ClothingOuterHardsuitERTMedical = NT-444m - "Raphael" hardsuit
+        Крайне продвинутый скафандр предназначенный для инженеров ОБР, имеет логотип Nanotrasen и серийный номер.
+        Броня скафандра укреплена сверхпрочным сплавом, помимо этого он почти ничего не весит.
+ent-ClothingOuterHardsuitERTMedical = Скафандр NT-444m - "Raphael"
     .desc =
-        A highly advanced hardsuit used by Doctors of the Emergency Response Team, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-        The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
-ent-ClothingOuterHardsuitERTSecurity = NT-444s - "Gabriel" tacsuit
+        Крайне продвинутый скафандр предназначенный для медиков ОБР, имеет логотип Nanotrasen и серийный номер.
+        Броня скафандра укреплена сверхпрочным сплавом, помимо этого он почти ничего не весит.
+ent-ClothingOuterHardsuitERTSecurity = Тактический скафандр NT-444s - "Gabriel"
     .desc =
-        A highly advanced, tactical combat hardsuit used by Security Officers of the Emergency Response Team, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-        The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
-ent-ClothingOuterHardsuitERTJanitor = NT-444j - "Sandalphon" hardsuit
+        Крайне продвинутый тактический скафандр предназначенный для штурмовиков ОБР, имеет логотип Nanotrasen и серийный номер.
+        Броня скафандра укреплена сверхпрочным сплавом, помимо этого он почти ничего не весит.
+ent-ClothingOuterHardsuitERTJanitor = Сскафандр NT-444j - "Sandalphon"
     .desc =
-        A highly advanced hardsuit used by Janitors of the Emergency Response Team, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-        The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
-ent-ClothingOuterHardsuitDeathsquad = NT-662ua "Samael" tacsuit
+        Крайне продвинутый скафандр предназначенный для уборщиков ОБР, имеет логотип Nanotrasen и серийный номер.
+        Броня скафандра укреплена сверхпрочным сплавом, помимо этого он почти ничего не весит.
+ent-ClothingOuterHardsuitDeathsquad = Тактический скафандр NT-662ua "Samael"
     .desc =
-        A highly advanced, top of the line tactical combat hardsuit, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-        You can barely make out the letters "NTIA-DAP" written on it. The armor appears to be lined with a very sturdy alloy, and doesn't seem to have any weight either.
-ent-ClothingOuterHardsuitCBURN = NT-444-CBRN -"Jophiel" tacsuit
+        Крайне продвинутый тактический скафандр спец. выпуска, имеет логотип Nanotrasen и серийный номер.
+        На нём виднеется аббревиатура "NTIA-DAP". Броня скафандра укреплена сверхпрочным сплавом, помимо этого он почти ничего не весит.
+ent-ClothingOuterHardsuitCBURN = Тактический скафандр NT-444-CBRN -"Jophiel"
     .desc =
-        A tactical combat hardsuit used by the CBURN subdivision of the Emergency Response Team, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-        The armor appears to be lined with a rather plain, but sturdy alloy, it doesn't seem to have any weight either.
-ent-ClothingOuterHardsuitClown = clown vacsuit
-    .desc = A custom-made clown vacsuit. On closer inspection, it appears to be a normal vacsuit with paint applied on top.
-ent-ClothingOuterHardsuitMime = mime vacsuit
-    .desc = A custom-made mime vacsuit. On closer inspection, it appears to be a normal vacsuit with suspenders and paint applied on top.
-ent-ClothingOuterHardsuitSanta = DNK-31 "Jolly" hardsuit
-    .desc = A festive hardsuit produced by Donk Co. for their time-limited celebratory events, provides protection for its jolly gift-giver to sleighride safely in space without worrying about asteroid strikes.
+        Тактический скафандр предназначенный для ОБР катергии CBURN, имеет логотип Nanotrasen и серийный номер.
+        Броня скафандра укреплена простым, но прочным сплавом, помимо этого он почти ничего не весит.
+ent-ClothingOuterHardsuitClown = Пустотный скафандр клоуна
+    .desc = Обычный пустотный скафандр, украшенный специальной расцветкой.
+ent-ClothingOuterHardsuitMime = Пустотный скафандр мима
+    .desc = Обычный пустотный скафандр, украшенный специальной расцветкой.
+ent-ClothingOuterHardsuitSanta = Скафандр DNK-31 "Jolly"
+    .desc = Праздничный скафандр производства Donk Co. предназначенный для их специальных развлекательных мероприятий, предоставляет стандартную защиту от космоса.

@@ -1,2 +1,2 @@
-ent-KillerTomatoSeeds = packet of killer tomato seeds
+ent-KillerTomatoSeeds = пакет семян (томат-убийца)
     .desc = { ent-SeedBase.desc }

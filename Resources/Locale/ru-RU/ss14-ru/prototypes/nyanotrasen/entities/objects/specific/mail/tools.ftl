@@ -1,2 +1,2 @@
-ent-MailBag = mail bag
-    .desc = Here's the mail, it never fails...
+ent-MailBag = почтовая сумка
+    .desc = Ваша почта!

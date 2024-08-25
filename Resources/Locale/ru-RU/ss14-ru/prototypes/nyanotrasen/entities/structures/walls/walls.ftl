@@ -1,7 +1,7 @@
-ent-WallShuttleInterior = shuttle wall
-    .suffix = Interior
+ent-WallShuttleInterior = стена шаттла
+    .suffix = Интерьер
     .desc = { ent-WallSolid.desc }
-ent-WallPaper = paper wall
-    .desc = Helps to contain the repeated screams of martial artists.
-ent-WallDrywall = drywall
-    .desc = It looks sturdy enough.
+ent-WallPaper = бумажная стена
+    .desc = Помогает изолироваться от страшных криков из додзё.
+ent-WallDrywall = гипсокартоновая стена
+    .desc = Выглядит довольно прочно.

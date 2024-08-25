@@ -1,8 +1,8 @@
-ent-FloorTileItemGrassDark = dark grass tile
+ent-FloorTileItemGrassDark = зелёный травяной пол
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemGrassLight = light grass tile
+ent-FloorTileItemGrassLight = светло-зелёный травяной пол
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemDirt = dirt tile
+ent-FloorTileItemDirt = грязевой пол
     .desc = { ent-FloorTileItemBase.desc }
-ent-FloorTileItemBedrock = bedrock tile
+ent-FloorTileItemBedrock = каменный пол
     .desc = { ent-FloorTileItemBase.desc }

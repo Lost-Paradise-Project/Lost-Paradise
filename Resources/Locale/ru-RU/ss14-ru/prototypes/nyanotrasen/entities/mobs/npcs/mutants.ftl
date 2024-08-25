@@ -1,9 +1,9 @@
-ent-MobTomatoKiller = killer tomato
-    .desc = This is really going to let you own some vegans in your next online debate.
-ent-MobGiantSpiderVampire = oneirophage
-    .desc = The 'dream-eater' spider, rumored to be one of the potential genetic sources for arachne.
-ent-MobGiantSpiderVampireAngry = oneirophage
-    .suffix = Angry
+ent-MobTomatoKiller = убийца-томат
+    .desc = Теперь вы можете поспорить с веганами о жизни растений.
+ent-MobGiantSpiderVampire = онейрофаг
+    .desc = Паук коронованный "пожирателем-снов".
+ent-MobGiantSpiderVampireAngry = онейрофаг
+    .suffix = Злой
     .desc = { ent-MobGiantSpiderVampire.desc }
-ent-MobMouseCancer = Cancer Mouse
-    .desc = Oh hey Civvie...
+ent-MobMouseCancer = раковая мышь
+    .desc = О, Привет, Сиви..

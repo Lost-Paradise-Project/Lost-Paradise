@@ -1,2 +1,2 @@
-ent-PaintingMothBigCatch = Big Catch
-    .desc = Depicts a blue moth wearing a tophat who caught a relatively large space carp.
+ent-PaintingMothBigCatch = Большой улов
+    .desc = На этой картине изображён ниан, который оседлал довольно большого карпа.

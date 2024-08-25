@@ -1,4 +1,4 @@
-ent-CocoonedHumanoid = cocooned humanoid
-    .desc = Unlucky.
-ent-CocoonSmall = cocoon
-    .desc = What could be inside...?
+ent-CocoonedHumanoid = гуманойд в коконе
+    .desc = Не повезло.
+ent-CocoonSmall = кокон
+    .desc = Интересно, что же внутри...?

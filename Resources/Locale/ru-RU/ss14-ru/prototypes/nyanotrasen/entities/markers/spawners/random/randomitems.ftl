@@ -1,2 +1,2 @@
-ent-RandomItem = random item spawner
+ent-RandomItem = спавнер случайной вещи
     .desc = { ent-MarkerBase.desc }

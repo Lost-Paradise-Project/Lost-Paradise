@@ -1,2 +1,2 @@
-ent-WeaponPistolUniversal = mk 32 "Universal"
-    .desc = An expensive and robust pistol with decent offensive capabilities. Uses .45 magnum ammo.
+ent-WeaponPistolUniversal = МК-32 "Универсальный"
+    .desc = Дорогой и робастный пистолет с задатками револьвера. Использует калибр .45 магнум.

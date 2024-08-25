@@ -1,108 +1,108 @@
-ent-ClothingHeadHelmetHardsuitBasic = basic vacsuit helmet
-    .desc = A common vacsuit helmet that provides little more than basic protection from vacuum.
-ent-ClothingHeadHelmetHardsuitAtmos = HpI-19t helmet
-    .desc = The Fotia's standard helmet, it features the same heat protection as the suit, along with some integrated protective gear for the wearer's head.
-ent-ClothingHeadHelmetHardsuitEngineering = HpI-19r helmet
-    .desc = The Lampsi's standard helmet, it features the same radiation protection as the suit, along with some integrated protective gear for the wearer's head.
-ent-ClothingHeadHelmetHardsuitSpatio = HpI-20s helmet
-    .desc = A lightweight helmet designed for the Kriti hardsuit, it allows for better mobility, along with some protection against radiation.
-ent-ClothingHeadHelmetHardsuitSalvage = HpI-20a helmet
-    .desc = A bulky helmet designed for the Lavrion hardsuit, it has reinforced plating to protect the wearer's head in wildlife encounters.
-ent-ClothingHeadHelmetHardsuitVoidParamed = ZhP-24m helmet
-    .desc = A lightweight helmet designed for use with the Sukunabikona hardsuit. Parts of the helmet are made of hard transparent plastics, allowing for better visibility.
-ent-ClothingHeadHelmetHardsuitMaxim = mysterious helmet
-    .desc = An old looking helmet, it seems rather sturdy and lightweight. It also has an ominous red and black color scheme.
-ent-ClothingHeadHelmetHardsuitSecurity = FPA-83s helmet
-    .desc = A bulky helmet deployed with the Baghatur tacsuit. Protects its wearer against ballistics and explosive ordinance, at the cost of some mobility.
-ent-ClothingHeadHelmetHardsuitBrigmedic = FPA-84m helmet
-    .desc = A bulky helmet deployed with the Tsagaan tacsuit. Protects its wearer against ballistics and explosive ordinance, at the cost of some mobility.
-ent-ClothingHeadHelmetHardsuitCombatStandard = FPA-85 helmet
+ent-ClothingHeadHelmetHardsuitBasic = Стандартный пустотный шлем
+    .desc = Стандартный шлем пустотного костюма, не ждите от него большего чем защиты от космоса.
+ent-ClothingHeadHelmetHardsuitAtmos = Шлем HpI-19t
+    .desc = Стандартный шлем модели Fotia, предоставляет защиту аналогичную защите костюма, а также имеет дополнительную защиту головы.
+ent-ClothingHeadHelmetHardsuitEngineering = Шлем HpI-19r
+    .desc = Стандартный шлем модели Lampsi, предоставляет защиту аналогичную защите костюма, а также имеет дополнительную защиту головы
+ent-ClothingHeadHelmetHardsuitSpatio = Шлем HpI-20s
+    .desc = Лёгкий шлем спроектированный для скафандра Kriti, предоставляет повышенную мобильность по совместительству с защитой от радиации.
+ent-ClothingHeadHelmetHardsuitSalvage = Шлем HpI-20a
+    .desc = Тяжёлый шлем спроектированный для скафандра Lavrion, его укреплённая поверхность хорошо защищает владельца от контактов с фауной.
+ent-ClothingHeadHelmetHardsuitVoidParamed = Шлем ZhP-24m
+    .desc = Лёгкий шлем спроектированный для скафандра Sukunabikona. Имеет вставки из высокопрочного прозрачного пластика для лучшей видимости
+ent-ClothingHeadHelmetHardsuitMaxim = Загадочный шлем
+    .desc = Старомодный шлем покрашенный в красное и чёрное, крепкий и лёгкий.
+ent-ClothingHeadHelmetHardsuitSecurity = Шлем FPA-83s
+    .desc = Громоздкий шлем тактического скафандра Baghatur. Защищает владельца от пуль и взрывов ценой мобильности.
+ent-ClothingHeadHelmetHardsuitBrigmedic = Шлем FPA-84m
+    .desc = Громоздкий шлем тактического скафандра Tsagaan. Защищает владельца от пуль и взрывов ценой мобильности.
+ent-ClothingHeadHelmetHardsuitCombatStandard = Шлем FPA-85
     .desc =
-        A bulky helmet deployed with the Baghatur Mk.II tacsuit.
-        Protects its wearer against ballistics and explosive ordinance, at the cost of some mobility.
-ent-ClothingHeadHelmetHardsuitCombatOfficer = FPA-85s helmet
+        Громоздкий шлем тактического скафандра Baghatur Mk.II.
+        Защищает владельца от пуль и взрывов ценой мобильности.
+ent-ClothingHeadHelmetHardsuitCombatOfficer = Шлем FPA-85s
     .desc = { ent-ClothingHeadHelmetHardsuitCombatStandard.desc }
-ent-ClothingHeadHelmetHardsuitCombatMedical = FPA-86 helmet
+ent-ClothingHeadHelmetHardsuitCombatMedical = Шлем FPA-86
     .desc =
-        A bulky helmet deployed with the Tsagaan Mk.II tacsuit.
-        Protects its wearer against ballistics and explosive ordinance, at the cost of some mobility.
-ent-ClothingHeadHelmetHardsuitCombatCorpsman = FPA-86m helmet
+        Громоздкий шлем тактического скафандра Tsagaan Mk.II tacsuit.
+        Защищает владельца от пуль и взрывов ценой мобильности.
+ent-ClothingHeadHelmetHardsuitCombatCorpsman = Шлем FPA-86m
     .desc = { ent-ClothingHeadHelmetHardsuitCombatMedical.desc }
-ent-ClothingHeadHelmetHardsuitWarden = FPA-92s helmet
-    .desc = A modified riot-control helmet for use with the Sulde tacsuit. Offers better overall protection than standard tacsuits at the expense of mobility.
-ent-ClothingHeadHelmetHardsuitCombatRiot = FPA-93 helmet
+ent-ClothingHeadHelmetHardsuitWarden = Шлем FPA-92s
+    .desc = Модифицированный для борьбы с беспорядками шлем модели Sulde. Предоставляет лучшую защиту чем обычный тактический шлем ценой мобильности.
+ent-ClothingHeadHelmetHardsuitCombatRiot = Шлем FPA-93
     .desc =
-        A modified riot-control helmet for use with the Sulde Mk.II tacsuit.
-        Offers better overall protection than other models at the expense of mobility.
-ent-ClothingHeadHelmetHardsuitCombatWarden = FPA-93s helmet
+        Модифицированный для борьбы с беспорядками шлем модели Sulde Mk.II.
+        Предоставляет лучшую защиту чем обычный тактический шлем ценой мобильности.
+ent-ClothingHeadHelmetHardsuitCombatWarden = Шлем FPA-93s
     .desc = { ent-ClothingHeadHelmetHardsuitCombatRiot.desc }
-ent-ClothingHeadHelmetHardsuitCap = NT-42c helmet
-    .desc = A special helmet for the Tengri tacsuit, despite its lightweight appearance, it provides good all-around protection to its wearer.
-ent-ClothingHeadHelmetHardsuitEngineeringWhite = HpI-24c helmet
-    .desc = A high-grade helmet used with the Daedalus hardsuit, it has a lighter construction than its standard counterparts, along with more radiation protection.
-ent-ClothingHeadHelmetHardsuitMedical = ZhP-25m helmet
+ent-ClothingHeadHelmetHardsuitCap = Шлем NT-42c
+    .desc = Специальный шлем для модели Tengri, несмотря на лёгкий вес предоставляет хорошую защиту широкого спектра.
+ent-ClothingHeadHelmetHardsuitEngineeringWhite = Шлем HpI-24c
+    .desc = Высококачественный шлем модели Daedalus, ниже вес и лучшая защита от радиации чем у стандартной версии.
+ent-ClothingHeadHelmetHardsuitMedical = Шлем ZhP-25m
     .desc =
-        An extraordinarily lightweight helmet designed for use with the Okuninushi hardsuit.
-        It is primarily made from transparent hard-plastics, providing complete freedom of vision.
-ent-ClothingHeadHelmetHardsuitRd = NT-45e helmet
-    .desc = A heavily armored helmet worn over the Sophia hardsuit. It boasts the same near-immunity to explosions, heat and radiation as the suit, but heavily restricts the wearer's mobility.
-ent-ClothingHeadHelmetHardsuitMystagogue = NT-45e helmet
+        Крайне лёгкий шлем модели Okuninushi.
+        Создан из укерплённого позрачного пластика, предоставляет полный обзор.
+ent-ClothingHeadHelmetHardsuitRd = Шлем NT-45e
+    .desc = Тяжелобронированный шлем модели Sophia. Степень защиты аналогична скафандру.
+ent-ClothingHeadHelmetHardsuitMystagogue = Шлем NT-45e
     .desc = { ent-ClothingHeadHelmetHardsuitRd.desc }
-ent-ClothingHeadHelmetHardsuitSecurityRed = FPA-98s helmet
-    .desc = A high quality helmet for the Dayicin tacsuit. It offers better overall protection than standard tacsuits without impacting mobility as much.
-ent-ClothingHeadHelmetHardsuitCombatAdvanced = FPA-99 helmet
+ent-ClothingHeadHelmetHardsuitSecurityRed = Шлем FPA-98s
+    .desc = Высококачественный шлем модели Dayicin. Лучшая защита и подвижность по сравнению с обычными тактическими шлемами.
+ent-ClothingHeadHelmetHardsuitCombatAdvanced = Шлем FPA-99
     .desc =
-        A high quality helmet for the Dayicin Mk.II tacsuit.
-        Features a lightweight construction, offering the same protection as a standard tacsuit without impacting mobility as much.
-ent-ClothingHeadHelmetHardsuitCombatHoS = FPA-99s helmet
+        Высококачественный шлем для скафандра Dayicin Mk.II.
+        Лёгкая конструкция позволяет обеспечить стандартный уровень защиты без ущерба мобильности.
+ent-ClothingHeadHelmetHardsuitCombatHoS = Шлем FPA-99s
     .desc = { ent-ClothingHeadHelmetHardsuitCombatAdvanced.desc }
-ent-ClothingHeadHelmetHardsuitLuxury = HpI-20c helmet
-    .desc = A modified helmet for the Minos hardsuit, fashioned after the Logistics Officer's colors. It's been modified for greater mobility at the expense of physical trauma protection.
-ent-ClothingHeadHelmetHardsuitSyndie = CSA-51a helmet
-    .desc = An armored helmet deployed over a Shanlin tacsuit. This one has been painted blood red.
-ent-ClothingHeadHelmetHardsuitSyndieMedic = CSA-51m helmet
+ent-ClothingHeadHelmetHardsuitLuxury = Шлем HpI-20c
+    .desc = Модифицированный шлем модли Minos, покрашен в цвета офицера логистики и предоставляет защиту аналогичную скафандру.
+ent-ClothingHeadHelmetHardsuitSyndie = Шлем CSA-51a
+    .desc = Бронированный шлем модели Shanlin. Покрашен в печально известный кроваво-красный.
+ent-ClothingHeadHelmetHardsuitSyndieMedic = Шлем CSA-51m
     .desc =
-        An armored helmet deployed over a Zhongyao tacsuit. features optic integrations for nearly every medical hud on the market.
-        Designed to enable the survival of combat medics in the most dangerous of environments.
-ent-ClothingHeadHelmetHardsuitSyndieElite = CSA-54UA helmet
-    .desc = An elite version of the Shanlin tacsuit's helmet, featuring improved armor and fireproofing.
-ent-ClothingHeadHelmetHardsuitSyndieCommander = CSA-54c helmet
-    .desc = A bulked up version of the Shanlin tacsuit's helmet, purpose-built for commanders of special operation squads. This one has been painted blood-red.
-ent-ClothingHeadHelmetHardsuitCybersun = CSA-80UA helmet
-    .desc = An incredibly sturdy looking helmet designed for the Guan Yu tacsuit.
-ent-ClothingHeadHelmetHardsuitWizard = WZD-84 helmet
-    .desc = A bizarre, gem-encrusted helmet from unknown origins. It provides some protection to its wearer without restricting their movements.
-ent-ClothingHeadHelmetHardsuitLing = organic space helmet
-    .desc = A spaceworthy biomass of pressure and temperature resistant tissue.
-ent-ClothingHeadHelmetHardsuitPirateEVA = pirate helmet
-    .desc = A pirate vacsuit helmet, very heavy but provides good protection.
-    .suffix = Pirate
-ent-ClothingHeadHelmetHardsuitPirateCap = pirate captain's tacsuit helmet
-    .desc = A special hardsuit helmet, made for the captain of a pirate ship.
-    .suffix = Pirate
-ent-ClothingHeadHelmetHardsuitSyndieReverseEngineered = NTSA-122 helmet
-    .desc = A sturdy, lightweight helmet made by the special adquisitions department of Nanotrasen.
-ent-ClothingHeadHelmetHardsuitJuggernautReverseEngineered = NTSA-126 helmet
-    .desc = A very sturdy helmet made by the special acquisitions department of Nanotrasen, based on the "Juggernaut" tacsuit's design.
-ent-ClothingHeadHelmetHardsuitERTCentcomm = NT-444c helmet
-    .desc = A special tacsuit helmet worn by Central Command Officers.
-ent-ClothingHeadHelmetHardsuitERTLeader = NT-444l helmet
-    .desc = A special tacsuit helmet worn by leaders of an emergency response team.
-ent-ClothingHeadHelmetHardsuitERTEngineer = NT-444e helmet
-    .desc = A special hardsuit helmet worn by members of an engineering emergency response team.
-ent-ClothingHeadHelmetHardsuitERTMedical = NT-444m helmet
-    .desc = A special hardsuit helmet worn by members of a medical emergency response team.
-ent-ClothingHeadHelmetHardsuitERTSecurity = NT-444s helmet
-    .desc = A special tacsuit helmet worn by members of a engineering emergency response team.
-ent-ClothingHeadHelmetHardsuitERTJanitor = NT-444j helmet
-    .desc = A special hardsuit helmet worn by members of a janitorial emergency response team.
-ent-ClothingHeadHelmetCBURN = NT-444-CBRN helmet
-    .desc = A pressure resistant and fireproof hood worn by special cleanup units.
-ent-ClothingHeadHelmetHardsuitDeathsquad = NT-662ua helmet
-    .desc = A highly advanced, top of the line helmet used in special operations.
-ent-ClothingHeadHelmetHardsuitClown = clown vacsuit helmet
-    .desc = A colorful clown vacsuit helmet. On closer inspection, it appears to be a normal helmet painted with crayons, and a clown mask glued on top.
-ent-ClothingHeadHelmetHardsuitMime = mime vacsuit helmet
-    .desc = A mime vacsuit helmet. On closer inspection, it appears to be a normal helmet painted with crayons, and a mime mask glued on top.
-ent-ClothingHeadHelmetHardsuitSanta = DNK-31 helmet
-    .desc = A festive-looking hardsuit helmet that provides the jolly gift-giver protection from low-pressure environments.
+        Бронированный шлем модели Zhongyao. Поддерживает интеграцию с большинством медицинских интерфейсов на рынке.
+        Сконструирован для обеспечения выживания медика в боевых условиях.
+ent-ClothingHeadHelmetHardsuitSyndieElite = Шлем CSA-54UA
+    .desc = Элитная версия шлема модели Shanli, имеет улучшенную защиту и теплоизоляцию.
+ent-ClothingHeadHelmetHardsuitSyndieCommander = Шлем CSA-54c
+    .desc = Тяжелобронированная версия шлема модели Shanlin, создана для командиров спец. отрядов. Выкрашена в кроваво-красный.
+ent-ClothingHeadHelmetHardsuitCybersun = Шлем CSA-80UA
+    .desc = Сверхпрочная модель шлема Guan Yu.
+ent-ClothingHeadHelmetHardsuitWizard = Шлем WZD-84
+    .desc = Причудливый шлем, украшенный драгоценными камнями. Защищает от космоса, не сковывая движения.
+ent-ClothingHeadHelmetHardsuitLing = Органический пустотный шлем
+    .desc = Биошлем защищающий от вакуума и пониженных темпиратур.
+ent-ClothingHeadHelmetHardsuitPirateEVA = Шлем пирата
+    .desc = Пиратский пустотный шлем, тяжёлый, но хорошо защищает.
+    .suffix = Пиратский
+ent-ClothingHeadHelmetHardsuitPirateCap = Шлем пиратского капитана
+    .desc = Пустотный шлем, сделаный на заказ для пиратского капитана
+    .suffix = Пиратский
+ent-ClothingHeadHelmetHardsuitSyndieReverseEngineered = Шлем NTSA-122
+    .desc = Прочный легковесный шлем, созданный департаментом особых приобретений Nanotrasen.
+ent-ClothingHeadHelmetHardsuitJuggernautReverseEngineered = Шлем NTSA-126
+    .desc = Сверхпрочный шлем, созданный департаментом особых приобретений Nanotrasen, основываясь на модели "Juggernaut".
+ent-ClothingHeadHelmetHardsuitERTCentcomm = Шлем NT-444c
+    .desc = Специальный тактический шлем, предназначенный для ОЦК.
+ent-ClothingHeadHelmetHardsuitERTLeader = Шлем NT-444l
+    .desc = Специальный тактический шлем, предназначенный для командования ОБР.
+ent-ClothingHeadHelmetHardsuitERTEngineer = Шлем NT-444e
+    .desc = Специальный шлем, предназначенный для инженеров ОБР.
+ent-ClothingHeadHelmetHardsuitERTMedical = Шлем NT-444m
+    .desc = Специальный шлем, предназначенный для медиков ОБР.
+ent-ClothingHeadHelmetHardsuitERTSecurity = Шлем NT-444s
+    .desc = Специальный тактический шлем, предназначенный для штурмовиков ОБР.
+ent-ClothingHeadHelmetHardsuitERTJanitor = Шлем NT-444j
+    .desc = Специальный шлем, предназначенный для уборщиков ОБР.
+ent-ClothingHeadHelmetCBURN = Шлем NT-444-CBRN
+    .desc = Спец. капюшон с защитой от вакуума и огня, разработанный для отрядов зачистки.
+ent-ClothingHeadHelmetHardsuitDeathsquad = Шлем NT-662ua
+    .desc = Продвинутый тактический шлем, предназначенный для отрядов спец. назначения.
+ent-ClothingHeadHelmetHardsuitClown = шлем скафандра клоуна
+    .desc = Цветной пустотный шлем клоуна.
+ent-ClothingHeadHelmetHardsuitMime = шлем скафандра мима
+    .desc = Пустотный шлем мима, с нарисованной на нём маской.
+ent-ClothingHeadHelmetHardsuitSanta = Шлем DNK-31
+    .desc = Праздничный шлем производства Donk Co., предназначенный для их специальных развлекательных мероприятий, предоставляет стандартную защиту от космоса.

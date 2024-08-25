@@ -1,8 +1,8 @@
-ent-WashingMachine = washing machine
-    .desc = A machine that washes clothes with a spinning steel drum in a shiny frame.
-ent-WashingMachineBroken = washing machine
-    .desc = A shattered mess of glass and steel that won't be washing anything anytime soon. It looks dusty.
-    .suffix = broken
-ent-WashingMachineFilledClothes = washing machine
-    .suffix = random clothes
+ent-WashingMachine = стиральная машина
+    .desc = Это обычная стиральная машина.
+ent-WashingMachineBroken = сломанная стиральная машина
+    .desc = Кажется она больше не постирает.
+    .suffix = Сломан
+ent-WashingMachineFilledClothes = стиральная машина
+    .suffix = Случайная одежда
     .desc = { ent-WashingMachine.desc }

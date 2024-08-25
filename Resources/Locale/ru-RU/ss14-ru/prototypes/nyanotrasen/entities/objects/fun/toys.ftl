@@ -1,7 +1,7 @@
-ent-PlushieMothRandom = moth plushie
-    .desc = A cute little mothperson that you can hold in the palm of your hand.
-    .suffix = Random
-ent-PlushieMothMusician = moth musician plushie
-    .desc = A plushie depicting an adorable mothperson with a tiny synthesizer and tiny glasses.
-ent-PlushieMothBartender = moth bartender plushie
-    .desc = A plushie depicting an adorable mothperson with a tiny tophat and tiny kevlar vest. It smells like cigarettes.
+ent-PlushieMothRandom = плюшевая моль
+    .desc = Маленькая моль у вас в руках.
+    .suffix = Случайный
+ent-PlushieMothMusician = плюшевая моль-музыкант
+    .desc = Маленькая моль-музыкант у вас в руках.
+ent-PlushieMothBartender = плюшевая моль-бармен
+    .desc = Маленькая моль-бармен у вас в руках. От неё пахнет сигаретным дымом.
