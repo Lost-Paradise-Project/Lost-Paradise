@@ -39,6 +39,7 @@
   id: AIEyeReturnAction
   name: AI Eye Return
   description: Return view to AI Core
+  noSpawn: true
   components:
   - type: InstantAction
     icon: _LostParadise/Actions/AI/core.png
