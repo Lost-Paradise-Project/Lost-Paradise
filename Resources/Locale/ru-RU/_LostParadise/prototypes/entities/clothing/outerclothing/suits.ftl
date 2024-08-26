@@ -6,3 +6,5 @@ ent-LPPKilt = килт
 ent-LPPClothingOuterCoatHoSTrenchCAS = Тренч CAS
     .desc = Чёрно-белый тренч.
     .suffix = { "Спонсор" }
+ent-LPPReallyBlackSuit = Черный костюм
+    .desc = Ну реально черный.

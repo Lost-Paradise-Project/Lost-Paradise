@@ -10,3 +10,4 @@ ent-MartialArtistIDCard = ID карта мастера боевых искусс
     .desc = { ent-IDCardStandard.desc }
 ent-ForensicMantisIDCard = ID карта мантиса
     .desc = { ent-IDCardStandard.desc }
+ent-ClerkIDCard = ID карта судьи
