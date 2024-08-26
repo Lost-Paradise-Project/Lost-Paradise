@@ -319,6 +319,15 @@
       ]
     },
     {
+        "name": "scatterlaser",
+        "delays": [
+          [
+            0.060000002,
+            0.060000002
+          ]
+        ]
+     },
+    {
       "name": "impact_xray",
       "delays": [
         [
