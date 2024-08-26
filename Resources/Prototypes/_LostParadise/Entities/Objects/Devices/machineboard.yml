@@ -1,3 +1,67 @@
+# - type: entity
+#   id: LPPProtolatheENGMachineCircuitboard
+#   parent: BaseMachineCircuitboard
+#   name: инженерный протолат (машинная плата)
+#   description: Плата для создания инженерного протолата.
+#   components:
+#     - type: MachineBoard
+#       prototype: LPPprotolatheENG
+#       stackRequirements:
+#         MatterBin: 2
+#         Manipulator: 2
+#       tagRequirements:
+#         GlassBeaker:
+#           amount: 2
+#           defaultPrototype: Beaker
+#
+# - type: entity
+#   id: LPPProtolatheRnDMachineCircuitboard
+#   parent: BaseMachineCircuitboard
+#   name: научный протолат (машинная плата)
+#   description: Плата для создания научного протолата.
+#   components:
+#     - type: MachineBoard
+#       prototype: LPPprotolatheRnD
+#       stackRequirements:
+#         MatterBin: 2
+#         Manipulator: 2
+#       tagRequirements:
+#         GlassBeaker:
+#           amount: 2
+#           defaultPrototype: Beaker
+#
+# - type: entity
+#   id: LPPProtolatheSUPMachineCircuitboard
+#   parent: BaseMachineCircuitboard
+#   name: протолат снабжения (машинная плата)
+#   description: Плата для создания протолата снабжения.
+#   components:
+#     - type: MachineBoard
+#       prototype: LPPSupProtolathe
+#       stackRequirements:
+#         MatterBin: 2
+#         Manipulator: 2
+#       tagRequirements:
+#         GlassBeaker:
+#           amount: 2
+#           defaultPrototype: Beaker
+#
+# - type: entity
+#   id: LPPProtolatheServiceMachineCircuitboard
+#   parent: BaseMachineCircuitboard
+#   name: сервисный протолат (машинная плата)
+#   description: Плата для создания сервисного протолата.
+#   components:
+#     - type: MachineBoard
+#       prototype: LPPServiceProtolathe
+#       stackRequirements:
+#         MatterBin: 2
+#         Manipulator: 2
+#       tagRequirements:
+#         GlassBeaker:
+#           amount: 2
+#           defaultPrototype: Beaker
+#
 - type: entity
   id: LPPSpaceForgeBoard
   parent: BaseMachineCircuitboard
