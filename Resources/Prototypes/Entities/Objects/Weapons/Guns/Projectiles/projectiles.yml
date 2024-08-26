@@ -1059,6 +1059,7 @@
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     layers:
     - state: scatterlaser
+      shader: unshaded
   - type: GatheringProjectile
   - type: Projectile
     DeleteOnCollide: false
@@ -1133,7 +1134,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: LPP/Objects/Weapons/Guns/Projectiles/battlecutter.rsi
+    sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/battlecutter.rsi
     layers:
     - state: ion
       shader: unshaded
@@ -1163,11 +1164,11 @@
     types:
       Heat: 1
   muzzleFlash:
-    sprite: LPP/Objects/Weapons/Guns/projectiles/ailaser.rsi
+    sprite: _LostParadise/Objects/Weapons/Guns/projectiles/ailaser.rsi
     state: AILaser_3
   travelFlash:
-    sprite: LPP/Objects/Weapons/Guns/projectiles/ailaser.rsi
+    sprite: _LostParadise/Objects/Weapons/Guns/projectiles/ailaser.rsi
     state: AILaser_2
   impactFlash:
-    sprite: LPP/Objects/Weapons/Guns/projectiles/ailaser.rsi
+    sprite: _LostParadise/Objects/Weapons/Guns/projectiles/ailaser.rsi
     state: AILaser_1
