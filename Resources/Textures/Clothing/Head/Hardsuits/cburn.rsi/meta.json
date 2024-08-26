@@ -24,7 +24,39 @@
       "directions": 4
     },
     {
+      "name": "equipped-head-vulpkanin",
+      "directions": 4
+    },
+    {
+      "name": "equipped-head-tajaran",
+      "directions": 4
+    },
+    {
+      "name": "equipped-head-shark",
+      "directions": 4
+    },
+    {
+      "name": "equipped-head-reptilian",
+      "directions": 4
+    },
+    { 
       "name": "equipped-head-unshaded",
+      "directions": 4
+    },
+    { 
+      "name": "equipped-head-unshaded-vulpkanin",
+      "directions": 4
+    },
+    { 
+      "name": "equipped-head-unshaded-tajaran",
+      "directions": 4
+    },
+    { 
+      "name": "equipped-head-unshaded-shark",
+      "directions": 4
+    },
+    { 
+      "name": "equipped-head-unshaded-reptilian",
       "directions": 4
     },
     {

@@ -109,3 +109,15 @@
       types:
         Blunt: 3
         Heat: 15
+
+- type: entity
+  id: LPPBulletLightRifleHunting
+  name: Huntingbullet (.30 rifle)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 16
+        Blunt: 7
