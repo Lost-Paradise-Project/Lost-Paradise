@@ -1041,3 +1041,133 @@
         Heat: 20 # Slightly more damage than the 17heat from the Captain's Hitscan lasgun
     soundHit:
       collection: MeatLaserImpact
+
+#---------------------LPP--------------------------
+
+- type: entity
+  id: BulletCutter
+  name: Cutter bolt
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  description: Not too bad, but you still don't want to get hit by it.
+  components:
+  - type: Reflective
+    reflective:
+      - NonEnergy
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    layers:
+    - state: scatterlaser
+  - type: GatheringProjectile
+  - type: Projectile
+    DeleteOnCollide: false
+    damage:
+      types:
+        Blunt: 0.5
+  # Короткий срок пули
+  - type: TimedDespawn
+    lifetime: 0.2
+
+- type: entity
+  name : Cutter bolt
+  id: BulletCutter2
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Reflective
+    reflective:
+    - Energy
+  - type: FlyBySound
+    sound:
+      collection: EnergyMiss
+      params:
+        volume: 5
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    layers:
+    - state: scatterlaser
+      shader: unshaded
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.3,0.15,0.3"
+        hard: false
+        mask:
+        - Impassable
+        - BulletImpassable
+      fly-by: *flybyfixture
+  - type: Ammo
+  - type: StaminaDamageOnCollide
+    damage: 13
+  - type: Projectile
+    impactEffect: BulletImpactEffectDisabler
+    DeleteOnCollide: false
+    damage:
+      types:
+        Heat: 5
+        Slash: 9
+    soundHit:
+      path: "/Audio/LPP/Weapons/Guns/Gunshots/ion/ion_hit_1.ogg"
+    soundForce: true
+  - type: TimedDespawn
+    lifetime: 0.4
+  - type: GatheringProjectile
+
+- type: entity
+  name : battlecutter1
+  id: battlecuttershot
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Reflective
+    reflective:
+    - Energy
+  - type: FlyBySound
+    sound:
+      collection: EnergyMiss
+      params:
+        volume: 5
+  - type: Sprite
+    sprite: LPP/Objects/Weapons/Guns/Projectiles/battlecutter.rsi
+    layers:
+    - state: ion
+      shader: unshaded
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      projectile:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.15,-0.3,0.15,0.3"
+        hard: false
+        mask:
+        - Impassable
+        - BulletImpassable
+      fly-by: *flybyfixture
+  - type: Ammo
+  - type: Projectile
+    impactEffect: BulletImpactEffectDisabler
+    damage:
+      types:
+        Blunt: 5
+        Slash: 10
+
+- type: hitscan
+  id: RedAILaser
+  damage:
+    types:
+      Heat: 1
+  muzzleFlash:
+    sprite: LPP/Objects/Weapons/Guns/projectiles/ailaser.rsi
+    state: AILaser_3
+  travelFlash:
+    sprite: LPP/Objects/Weapons/Guns/projectiles/ailaser.rsi
+    state: AILaser_2
+  impactFlash:
+    sprite: LPP/Objects/Weapons/Guns/projectiles/ailaser.rsi
+    state: AILaser_1
