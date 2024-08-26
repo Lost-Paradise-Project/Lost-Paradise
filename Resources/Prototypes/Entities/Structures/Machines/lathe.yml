@@ -244,7 +244,7 @@
   parent: BaseLathe
   name: protolathe
   description: Converts raw materials into useful objects.
-  noSpawn: false  #проверка
+  noSpawn: false
   components:
   - type: Sprite
     sprite: Structures/Machines/protolathe.rsi
