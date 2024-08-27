@@ -4,3 +4,5 @@ ent-HandheldCrewMonitor = портативный монитор экипажа
 ent-HandheldCrewMonitorEmpty = { ent-HandheldCrewMonitor }
     .suffix = Пустой
     .desc = { ent-HandheldCrewMonitor.desc }
+ent-SyndiCrewMonitorEmpty = Экран мониторинга синдиката
+    .desc = Монитор, собирающий информацию о живых сущностях с серверов

@@ -151,21 +151,21 @@
   - type: PresetIdCard
     job: LPPAdjutant
 
-- type: entity
-  parent: IDCardStandard
-  id: LPPBrigmedicIDCard
-  name: brigmedic ID card
-  components:
-  - type: Sprite
-    layers:
-    - state: default
-    - state: department
-      color: "#5B97BC"
-    - state: subdepartment
-      color: "#5B97BC"
-    - state: idbrigmedic
-  - type: PresetIdCard
-    job: LPPBrigmedic
+#- type: entity
+#  parent: IDCardStandard
+#  id: LPPBrigmedicIDCard
+#  name: brigmedic ID card
+#  components:
+#  - type: Sprite
+#    layers:
+#    - state: default
+#    - state: department
+#      color: "#5B97BC"
+#    - state: subdepartment
+#      color: "#5B97BC"
+#    - state: idbrigmedic
+#  - type: PresetIdCard
+#    job: LPPBrigmedic
 
 #- type: entity
 #  parent: IDCardStandard

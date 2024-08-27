@@ -11,3 +11,6 @@ ent-MartialArtistIDCard = ID карта мастера боевых искусс
 ent-ForensicMantisIDCard = ID карта мантиса
     .desc = { ent-IDCardStandard.desc }
 ent-ClerkIDCard = ID карта судьи
+    .desc = { ent-IDCardStandard.desc }
+ent-ChiefJusticeIDCard = ID карта верховного судьи
+    .desc = { ent-IDCardStandard.desc }

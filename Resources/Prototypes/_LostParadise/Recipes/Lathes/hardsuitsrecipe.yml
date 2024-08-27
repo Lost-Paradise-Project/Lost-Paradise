@@ -131,18 +131,18 @@
     Silver: 1020
     Gold: 425
 
-- type: latheRecipe
-  id: ClothingOuterHardsuitBrigmedic
-  result: ClothingOuterHardsuitBrigmedic
-  category: hardsuit
-  completetime: 32
-  materials:
-    Steel: 1275
-    Plasteel: 1190
-    Silver: 1190
-    Gold: 1105
-    Plasma: 680
-    Uranium: 170
+#- type: latheRecipe
+#  id: ClothingOuterHardsuitBrigmedic
+#  result: ClothingOuterHardsuitBrigmedic
+#  category: hardsuit
+#  completetime: 32
+#  materials:
+#    Steel: 1275
+#    Plasteel: 1190
+#    Silver: 1190
+#    Gold: 1105
+#    Plasma: 680
+#    Uranium: 170
 
 - type: latheRecipe
   id: ClothingOuterHardsuitEngineeringWhite
