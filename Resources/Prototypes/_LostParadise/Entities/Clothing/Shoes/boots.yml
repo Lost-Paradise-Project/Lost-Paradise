@@ -98,7 +98,3 @@
     sprite: _LostParadise/Clothing/Shoes/Boots/upgjackboots.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Shoes/Boots/upgjackboots.rsi
-  - type: Storage
-    whitelist:
-      tags:
-        - Knife
