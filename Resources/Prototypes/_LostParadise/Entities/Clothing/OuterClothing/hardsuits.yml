@@ -532,8 +532,6 @@
         Cold: 0.5
   - type: TemperatureProtection
     coefficient: 0.5
-  - type: ExplosionResistance
-    damageCoefficient: 0.2
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
@@ -544,8 +542,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitScienceNPZ
-  name: Научно Исследовательский Скафандр НПЗ
-  description: Защитный скафандр, разработанный для работы научного персонала НПЗ, а так же техников в открытом космосе и тяжёлых условиях планет.
+  name: "НИС" НПЗ
+  description: Научно исследовательский скафандр, разработанный для работы учёных НПЗ, а так же техников в открытом космосе и тяжёлых условиях планет.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Hardsuits/NPZsciense/body.rsi
@@ -554,8 +552,6 @@
   - type: PressureProtection
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
-  - type: ExplosionResistance
-    damageCoefficient: 0.4
   - type: Armor
     modifiers:
       coefficients:

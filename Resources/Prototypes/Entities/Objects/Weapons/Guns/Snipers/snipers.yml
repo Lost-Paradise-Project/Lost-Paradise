@@ -71,7 +71,7 @@
       - CartridgeAntiMateriel
     capacity: 5
     proto: CartridgeAntiMateriel
-- type: MultiHandedItemComponent
+  - type: MultiHandedItem
 
 - type: entity
   name: musket
