@@ -80,6 +80,26 @@
     enabled: false
   - type: IgnitionSource
     temperature: 700
+  # Corvax-HiddenDesc-Start
+  - type: HiddenDescription
+    entries:
+    - label: corvax-hidden-desc-EnergySword-syndicate
+      whitelistMind:
+        components:
+        - TraitorRole
+        - NukeOperative
+    - label: corvax-hidden-desc-EnergySword-security
+      jobRequired:
+      - HeadOfSecurity
+      - Detective
+      - SecurityCadet
+      - SecurityOfficer
+      - Warden
+      - Captain
+    - label: corvax-hidden-desc-EnergySword-cargo
+      jobRequired:
+      - SalvageSpecialist
+# Corvax-HiddenDesc-End
 
 - type: entity
   name: pen

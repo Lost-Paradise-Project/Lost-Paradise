@@ -14,3 +14,7 @@ ent-ClerkIDCard = ID карта судьи
     .desc = { ent-IDCardStandard.desc }
 ent-ChiefJusticeIDCard = ID карта верховного судьи
     .desc = { ent-IDCardStandard.desc }
+ent-ProsecutorIDCard = ID карта прокурора
+    .desc = { ent-IDCardStandard.desc }
+ent-RoboticsIDCard = ID карта робототехника
+    .desc = { ent-IDCardStandard.desc }

@@ -63,7 +63,7 @@
   parent: ClothingHeadHardsuitBase
   id: LPPClothingHeadHelmetRND
   noSpawn: true
-  name: шлем "НИС"
+  name: шлем НИС
   description: Шлем от скафандра НИС, довольно полезен и имеет встроенный функционал, по типу определения жидкостей и защиту от сварки, из-за чего довольно громозок.
   components:
   - type: Sprite

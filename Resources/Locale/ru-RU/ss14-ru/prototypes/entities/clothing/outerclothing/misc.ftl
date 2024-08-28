@@ -55,3 +55,5 @@ ent-ClothingOuterFlannelGreen = зелёная фланелевая куртка
     .desc = Старомодная зелёная фланелевая куртка для космической осени.
 ent-ClothingOuterRedRacoon = костюм рыжего енота
     .desc = Пушистый костюм рыжего енота!
+ent-ClothingOuterUnathiRobe = грубошерстные одеяния
+    .desc = Традиционная одежда племени унати.

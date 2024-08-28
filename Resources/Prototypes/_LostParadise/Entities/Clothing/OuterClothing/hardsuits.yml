@@ -540,7 +540,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitRND
-  name: Научно Исследовательский Скафандр "НИС"
+  name: Научно Исследовательский Скафандр НИС
   description: Защитный скафандр, разработанный головастиками из отдела НИО, лёгкий для производства, а так же предоставляющий, в целом, хорошую защиту от разных внешних факторов, что можно встретить при работе в НИО.
   components:
   - type: Sprite
@@ -574,7 +574,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitScienceNPZ
-  name: "НИС" НПЗ
+  name: НИС НПЗ
   description: Научно исследовательский скафандр, разработанный для работы учёных НПЗ, а так же техников в открытом космосе и тяжёлых условиях планет.
   components:
   - type: Sprite

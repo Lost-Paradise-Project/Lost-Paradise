@@ -76,3 +76,5 @@ ent-ClothingOuterCoatSpaceAsshole = куртка космического муд
     .desc = And there he was...
 ent-ClothingOuterCoatExpensive = дорогая шуба
     .desc = Очень пушистая розовая шуба, сделанная из очень дорогого меха (очевидно).
+ent-ClothingOuterCoatInspector = приталенный тренчкот
+    .desc = Приталенный тренч в минималистском стиле, который лучше всего носить расстегнутым.
