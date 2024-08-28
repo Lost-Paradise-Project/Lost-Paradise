@@ -55,3 +55,7 @@
   innerClothingSkirt: ClothingUniformJumpskirtQM
   satchel: ClothingBackpackSatchelQuartermasterFilled
   duffelbag: ClothingBackpackDuffelQuartermasterFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite

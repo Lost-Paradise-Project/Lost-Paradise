@@ -26,6 +26,8 @@
         Radiation: 0.10
   - type: ToggleableClothing
     clothingPrototype: LPPArmorMovementHead
+  - type: StaminaDamageResistance
+    coefficient: 0.7
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -60,6 +62,8 @@
     damageCoefficient: 0.2
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitIIC
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -90,6 +94,8 @@
     damageCoefficient: 0.2
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitNightGuard
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -120,6 +126,8 @@
     damageCoefficient: 0.4
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitSWAT
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -146,6 +154,8 @@
     damageCoefficient: 0.95
   - type: ToggleableClothing
     clothingPrototype: LPPHardsuitHelmetAssaultParamedic
+  - type: StaminaDamageResistance
+    coefficient: 0.95
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -185,6 +195,8 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitLoneMercenary
   - type: BiocodedClothing
+  - type: StaminaDamageResistance
+    coefficient: 0.5
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -213,6 +225,8 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitSecurityPilot
+  - type: StaminaDamageResistance
+    coefficient: 0.7
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -243,6 +257,8 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSecurity
+  - type: StaminaDamageResistance
+    coefficient: 0.7
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -272,6 +288,8 @@
     damageCoefficient: 0.4
   - type: ToggleableClothing
     clothingPrototype: LPPHardsuitHelmetSuppressor
+  - type: StaminaDamageResistance
+    coefficient: 0.2
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -305,6 +323,8 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetMikhelm
+  - type: StaminaDamageResistance
+    coefficient: 0.8
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -335,6 +355,8 @@
     damageCoefficient: 0.2
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitChrono
+  - type: StaminaDamageResistance
+    coefficient: 0.05
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -364,6 +386,8 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.85
+  - type: StaminaDamageResistance
+    coefficient: 0.65
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -399,6 +423,8 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitIICPyrotech
   - type: BiocodedClothing
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -434,6 +460,8 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitIICMedic
   - type: BiocodedClothing
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -469,6 +497,8 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitIICCommand
   - type: BiocodedClothing
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -504,6 +534,8 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitIICEngineer
   - type: BiocodedClothing
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase

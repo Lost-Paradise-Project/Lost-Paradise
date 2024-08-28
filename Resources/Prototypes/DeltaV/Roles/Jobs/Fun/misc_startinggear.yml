@@ -19,7 +19,10 @@
     pocket1: Brutepack
     pocket2: GlowstickBase
     belt: ClothingBeltMedical
-
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
 
 - type: startingGear
   id: OldstationGuard
@@ -29,6 +32,10 @@
     id: SecurityIDCard
     pocket1: Flash
     pocket2: GlowstickBase
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
 
 - type: startingGear
   id: OldstationEngi
@@ -41,6 +48,10 @@
     pocket1: EmergencyOxygenTankFilled
     pocket2: GlowstickBase
     belt: ClothingBeltUtility
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
 
 - type: startingGear
   id: OldstationScientist
@@ -50,6 +61,10 @@
     id: ResearchIDCard
     pocket1: Pen
     pocket2: GlowstickBase
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
 
 #Syndicate Pirate Radio Listener
 
@@ -63,6 +78,10 @@
     shoes: ClothingShoesSlippers
     id: SyndiListeningPostPDA
   innerClothingSkirt: ClothingUniformJumpsuitPyjamaSyndicatePink
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
 
 # Mobsters
 
@@ -80,6 +99,10 @@
   innerClothingSkirt: ClothingUniformJumpsuitSuitBlackMob
   satchel: ClothingBackpackMafiaFilled
   duffelbag: ClothingBackpackMafiaFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
 
 - type: startingGear
   id: MobsterGearAlt
@@ -96,3 +119,7 @@
   innerClothingSkirt: ClothingUniformJumpsuitSuitBrown
   satchel: ClothingBackpackMafiaFilled
   duffelbag: ClothingBackpackMafiaFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite

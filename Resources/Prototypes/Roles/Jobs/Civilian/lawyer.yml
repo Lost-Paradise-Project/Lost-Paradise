@@ -32,3 +32,7 @@
   innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack
   satchel: ClothingBackpackSatchelLawyerFilled #DeltaV - stamp included
   duffelbag: ClothingBackpackDuffelLawyerFilled #DeltaV - stamp included
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite

@@ -36,6 +36,10 @@
   innerClothingSkirt: ClothingUniformJumpskirtMime
   satchel: ClothingBackpackSatchelMimeFilled
   duffelbag: ClothingBackpackDuffelMimeFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
 
 - type: entity
   id: ActionMimeInvisibleWall

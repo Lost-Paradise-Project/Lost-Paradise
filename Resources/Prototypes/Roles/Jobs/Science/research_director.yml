@@ -51,3 +51,7 @@
   innerClothingSkirt: ClothingUniformJumpskirtResearchDirector
   satchel: ClothingBackpackSatchelResearchDirectorFilled
   duffelbag: ClothingBackpackDuffelResearchDirectorFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite

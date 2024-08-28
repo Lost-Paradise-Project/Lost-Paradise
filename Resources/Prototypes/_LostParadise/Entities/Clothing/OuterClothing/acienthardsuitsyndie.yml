@@ -33,3 +33,5 @@
     requiredSlot:
     - outerclothing
     slot: mask
+  - type: StaminaDamageResistance
+    coefficient: 0.4

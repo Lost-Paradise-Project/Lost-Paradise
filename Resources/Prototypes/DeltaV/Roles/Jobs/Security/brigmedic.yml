@@ -44,6 +44,10 @@
     ears: ClothingHeadsetBrigmedic
     belt: ClothingBeltCorpsmanWebbingFilled
     pocket1: WeaponPistolMk58Nonlethal
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
   innerClothingSkirt: ClothingUniformJumpskirtBrigmedic
   satchel: ClothingBackpackSatchelBrigmedicFilled
   duffelbag: ClothingBackpackDuffelBrigmedicFilled

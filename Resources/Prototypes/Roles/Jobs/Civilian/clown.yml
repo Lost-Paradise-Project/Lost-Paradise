@@ -43,3 +43,7 @@
     ears: ClothingHeadsetService
   satchel: ClothingBackpackSatchelClownFilled
   duffelbag: ClothingBackpackDuffelClownFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite

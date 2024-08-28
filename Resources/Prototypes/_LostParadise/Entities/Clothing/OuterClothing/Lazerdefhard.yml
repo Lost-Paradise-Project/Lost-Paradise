@@ -55,3 +55,5 @@
     reflectProb: 1
     reflects:
       - Energy
+  - type: StaminaDamageResistance
+    coefficient: 0.7

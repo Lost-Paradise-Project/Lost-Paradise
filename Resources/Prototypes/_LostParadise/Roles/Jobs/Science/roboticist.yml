@@ -23,3 +23,7 @@
     ears: ClothingHeadsetRobotics
     eyes: ClothingEyesHudDiagnostic
     belt: ClothingBeltUtilityEngineering
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite

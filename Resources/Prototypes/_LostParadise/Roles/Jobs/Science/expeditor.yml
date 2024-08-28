@@ -29,3 +29,7 @@
     id: LPPExpeditorPDA
     ears: ClothingHeadsetScience
     hands: ClothingHandsGlovesCombat
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite

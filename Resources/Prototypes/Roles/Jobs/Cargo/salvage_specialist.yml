@@ -29,3 +29,7 @@
     ears: ClothingHeadsetCargo
   satchel: ClothingBackpackSatchelSalvageFilled
   duffelbag: ClothingBackpackDuffelSalvageFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
