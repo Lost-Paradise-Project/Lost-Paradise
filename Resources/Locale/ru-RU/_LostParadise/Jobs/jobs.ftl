@@ -4,6 +4,7 @@ job-name-adjutant = адъютант
 job-description-adjutant = Вы помощник всего коммандования, слушайте рацию и набирайтесь опыта в работе всей структуры.
 JobLPPadjutant = адъютант
 ent-LPPAdjutantPDA = КПК Адъютанта
+    .desc = Установлена прошивка для помощников командования.
 ent-LPPAdjutantIDCard = ID карта Адъютанта
     .desc = Установлена прошивка для помощников командования.
 ent-LPPCentralCommandRepresentativePDA = КПК представителя ЦК

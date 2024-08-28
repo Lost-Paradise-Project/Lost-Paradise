@@ -1,17 +1,4 @@
 - type: gameMapPool
   id: LostParadiseMapPool
   maps:
-  - LPCyberiad
-  - LPKerberos
-  - LPBagel
-  - LPAspid
-  - LPNTS
-  - LPEyesOrb
-
-- type: gameMapPool
-  id: LostParadiseMapPoolLite
-  maps:
-  - LPKerberos
-  #- LPCyberiad
-  #- LPEyesOrb
-  #- LPNTS
+  - LPPAsterisk

@@ -42,11 +42,11 @@
     gloves: ClothingHandsGlovesColorWhite
     outerClothing: ClothingOuterCoatMantis
     belt: ClothingBeltMantis
-    # pocket2: ForensicScanner # DeltaV - Mantis is no longer a Detective
-  innerClothingSkirt: ClothingUniformSkirtMantis
-  satchel: ClothingBackpackSatchelMantisFilled
-  duffelbag: ClothingBackpackDuffelMantisFilled
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
   underwear: LPPBriefs
   breast: LPPBraAltWhite
+    # pocket2: ForensicScanner # DeltaV - Mantis is no longer a Detective
+  innerClothingSkirt: ClothingUniformSkirtMantis
+  satchel: ClothingBackpackSatchelMantisFilled
+  duffelbag: ClothingBackpackDuffelMantisFilled

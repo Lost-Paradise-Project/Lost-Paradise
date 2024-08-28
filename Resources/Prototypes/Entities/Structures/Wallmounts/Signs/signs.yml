@@ -194,8 +194,8 @@
   description: A direction sign, pointing out which way the Epistemics department is. # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Structures/Wallmounts/signs.rsi # DeltaV - Epistemics Department replacing Science
-    state: direction_epi # DeltaV - Epistemics Department replacing Science
+    sprite: Structures/Wallmounts/signs.rsi # DeltaV - Epistemics Department replacing Science
+    state: direction_sci # DeltaV - Epistemics Department replacing Science
 
 - type: entity
   parent: BaseSignDirectional

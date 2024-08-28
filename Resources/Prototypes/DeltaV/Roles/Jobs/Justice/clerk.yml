@@ -34,11 +34,11 @@
     shoes: ClothingShoesBootsLaceup
     id: ClerkPDA
     ears: ClothingHeadsetJustice
-  innerClothingSkirt: ClothingUniformJumpskirtClerk
-  satchel: ClothingBackpackSatchelFilled
-  duffelbag: ClothingBackpackDuffelFilled
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
   underwear: LPPBriefs
   breast: LPPBraAltWhite
+  innerClothingSkirt: ClothingUniformJumpskirtClerk
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
 

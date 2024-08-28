@@ -34,10 +34,10 @@
     ears: ClothingHeadsetScience
     pocket1: d10Dice
     pocket2: HandLabeler
-  innerClothingSkirt: ClothingUniformJumpskirtLibrarian
-  satchel: ClothingBackpackSatchelLibrarianFilled
-  duffelbag: ClothingBackpackDuffelLibrarianFilled
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
   underwear: LPPBriefs
   breast: LPPBraAltWhite
+  innerClothingSkirt: ClothingUniformJumpskirtLibrarian
+  satchel: ClothingBackpackSatchelLibrarianFilled
+  duffelbag: ClothingBackpackDuffelLibrarianFilled

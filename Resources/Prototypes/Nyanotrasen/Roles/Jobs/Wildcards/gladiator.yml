@@ -31,9 +31,9 @@
     outerClothing: ClothingOuterArmorGladiator
     id: GladiatorPDA
     ears: ClothingHeadsetGrey
-  innerClothingSkirt: UniformShortsRedWithTop
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
   underwear: LPPBriefs
   breast: LPPBraAltWhite
+  innerClothingSkirt: UniformShortsRedWithTop
   #any other possessions, spawn in cell

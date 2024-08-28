@@ -77,11 +77,11 @@
     gloves: ClothingHandsGlovesCombat
     shoes: ClothingShoesSlippers
     id: SyndiListeningPostPDA
-  innerClothingSkirt: ClothingUniformJumpsuitPyjamaSyndicatePink
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
   underwear: LPPBriefs
   breast: LPPBraAltWhite
+  innerClothingSkirt: ClothingUniformJumpsuitPyjamaSyndicatePink
 
 # Mobsters
 
@@ -96,13 +96,13 @@
     outerClothing: ClothingOuterArmorBasicSlim
     id: PassengerPDA
     belt: ClothingBeltHolster
-  innerClothingSkirt: ClothingUniformJumpsuitSuitBlackMob
-  satchel: ClothingBackpackMafiaFilled
-  duffelbag: ClothingBackpackMafiaFilled
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
   underwear: LPPBriefs
   breast: LPPBraAltWhite
+  innerClothingSkirt: ClothingUniformJumpsuitSuitBlackMob
+  satchel: ClothingBackpackMafiaFilled
+  duffelbag: ClothingBackpackMafiaFilled
 
 - type: startingGear
   id: MobsterGearAlt
@@ -116,10 +116,10 @@
     id: PassengerPDA
     belt: ClothingBeltSuspendersBlack
     pocket1: CombatKnife
-  innerClothingSkirt: ClothingUniformJumpsuitSuitBrown
-  satchel: ClothingBackpackMafiaFilled
-  duffelbag: ClothingBackpackMafiaFilled
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
   underwear: LPPBriefs
   breast: LPPBraAltWhite
+  innerClothingSkirt: ClothingUniformJumpsuitSuitBrown
+  satchel: ClothingBackpackMafiaFilled
+  duffelbag: ClothingBackpackMafiaFilled

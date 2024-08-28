@@ -97,6 +97,9 @@
       inverted: true
       species:
         - Felinid
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
         - Borg
         - MedicalBorg
 
@@ -125,6 +128,9 @@
       species:
         - Vulpkanin
         - IPC
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
         - Borg
         - MedicalBorg
 
@@ -142,6 +148,9 @@
       inverted: true
       species:
         - Diona
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
         - Borg
         - MedicalBorg
   components:
