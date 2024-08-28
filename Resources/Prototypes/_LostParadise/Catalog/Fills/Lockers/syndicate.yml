@@ -23,8 +23,8 @@
         amount: 3
       - id: ClothingHeadsetAltSyndicate
         amount: 3
-      - id: LPPBoxFolderSyndicate
-        amount: 3
+#      - id: LPPBoxFolderSyndicate
+#        amount: 3
 
 - type: entity
   id: LockerHeadOfSecuritySyndicateFilledHardsuit
