@@ -80,7 +80,7 @@
         map: [ "base" ]
         color: "#bfe3ff"
   - type: FaxMachine
-    name: "Central Command"
+    name: "ЦентКом"
     notifyAdmins: true
 
 - type: entity
@@ -107,7 +107,7 @@
   suffix: NukeCodes
   components:
     - type: FaxMachine
-      name: "Captain's Office"
+      name: "Капитан"
       receiveNukeCodes: true
       receiveStationGoal: true
     - type: StealTarget
