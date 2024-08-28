@@ -1,4 +1,4 @@
-﻿ent-BaseCartridgeSpecial = патрон (.38 специальные)
+ent-BaseCartridgeSpecial = патрон (.38 специальные)
     .desc = { ent-BaseCartridge.desc }
 ent-CartridgeSpecial = патрон (.38 специальные)
     .desc = { ent-BaseCartridgeSpecial.desc }
@@ -10,7 +10,7 @@ ent-CartridgeSpecialIncendiary = патрон (.38 специальные заж
     .desc = { ent-BaseCartridgeSpecial.desc }
 ent-CartridgeSpecialUranium = патрон (.38 специальные урановые)
     .desc = { ent-BaseCartridgeSpecial.desc }
-ent-CartridgeSpecialHoly = cartridge патрон (.38 специальные освещённые)
+ent-CartridgeSpecialHoly = патрон (.38 специальные освещённые)
     .desc = { ent-BaseCartridgeSpecial.desc }
 ent-CartridgeSpecialMindbreaker = патрон (.38 специальные подавляющие)
     .desc = { ent-BaseCartridgeSpecial.desc }

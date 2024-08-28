@@ -1,4 +1,4 @@
-ent-PenLightBase = Pen Light
-    .desc = A pen-sized light, used by medical staff.
-ent-CMOPenLight = Chief Medical Officer's Pen Light
-    .desc = A pen-sized light, this one belonging to the Chief Medical Officer. When you get promoted you get a better pen.
+ent-PenLightBase = Диагностический фонарик
+    .desc = Фонарик размером с ручку, которым пользуется медицинский персонал.
+ent-CMOPenLight = Диагностический фонарик ГВ
+    .desc = Фонарик размером с авторучку, принадлежащий главному врачу. Когда вас повысят, вы получите ручку получше.

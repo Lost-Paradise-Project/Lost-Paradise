@@ -1,37 +1,4 @@
 - type: latheRecipe
-  id: LPPIonPistolIS17
-  result: LPPIonPistolIS17
-  completetime: 20
-  materials:
-    Steel: 2000
-    Plastic: 2000
-    Glass: 3000
-    Gold: 1000
-    Uranium: 500
-
-- type: latheRecipe
-  id: LPPIonGunLV12
-  result: LPPIonGunLV12
-  completetime: 20
-  materials:
-    Steel: 3500
-    Plastic: 2000
-    Glass: 3000
-    Gold: 2000
-    Uranium: 1000
-
-- type: latheRecipe
-  id: LPPIonGunAutoUI80
-  result: LPPIonGunAutoUI80
-  completetime: 20
-  materials:
-    Steel: 3500
-    Plastic: 2000
-    Glass: 3000
-    Gold: 3000
-    Uranium: 1000
-
-- type: latheRecipe
   id: LPPTelebaton
   result: LPPTelebaton
   completetime: 15

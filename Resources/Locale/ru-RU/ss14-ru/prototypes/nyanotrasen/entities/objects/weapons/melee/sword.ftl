@@ -1,2 +1,2 @@
-ent-Wakizashi = wakizashi
-    .desc = A short, multi-purpose sword of plasteel construction.
+ent-Wakizashi = вакизаши
+    .desc = Короткий нож из сделанный из сплава пластали.

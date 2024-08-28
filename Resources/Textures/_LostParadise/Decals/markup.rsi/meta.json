@@ -1,0 +1,53 @@
+{
+    "version": 2,
+    "license": "AGPL 3.0",
+    "copyright": "Draw by Hqlle (Github)",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "markup-full"
+        },
+        {
+            "name": "markup-halftile"
+        },
+        {
+            "name": "markup-quartertile"
+        },
+        {
+            "name": "markup-quartertile-cutt"
+        },
+        {
+            "name": "markup-quartertile-cutt-mirr"
+        },
+        {
+            "name": "markup-quartertile-cutt-out"
+        },
+        {
+            "name": "markup-quartertile-cutt-out-mirr"
+        },
+        {
+            "name": "markup-corner"
+        },
+        {
+            "name": "markup-halftile-centred"
+        },
+        {
+            "name": "markup-quartertile-centred"
+        },
+        {
+            "name": "markup-corner-centred"
+        },
+        {
+            "name": "markup-corner-centred-cutt"
+        },
+        {
+            "name": "markup-T-centred"
+        },
+        {
+            "name": "markup-X-centred"
+        }
+    ]
+}

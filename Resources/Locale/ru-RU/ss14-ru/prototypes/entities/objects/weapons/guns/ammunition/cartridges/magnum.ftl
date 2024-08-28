@@ -10,3 +10,5 @@ ent-CartridgeMagnumAP = патрон (.45 магнум бронебойный)
     .desc = { ent-BaseCartridgeMagnum.desc }
 ent-CartridgeMagnumUranium = патрон (.45 магнум урановый)
     .desc = { ent-BaseCartridgeMagnum.desc }
+ent-CartridgeMagnumRubber = патрон (.45 магнум резиновый)
+    .desc = { ent-BaseCartridgeMagnum.desc }

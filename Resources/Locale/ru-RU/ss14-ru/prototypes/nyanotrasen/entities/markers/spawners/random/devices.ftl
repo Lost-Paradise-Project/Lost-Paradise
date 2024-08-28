@@ -1,2 +1,2 @@
-ent-RandomBoards = random device & board spawner
+ent-RandomBoards = спавнер случайной информационной доски
     .desc = { ent-MarkerBase.desc }

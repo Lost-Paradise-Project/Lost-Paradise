@@ -47,3 +47,5 @@ ent-LPPAirlockEVA = Шлюз хранилища EVA
     .desc = За ним находится спасение!
 ent-LPPAirlockGate = Шлюз врат
     .desc = За ним находится таинственная машина...
+ent-ExpeditorIDCard = ID карта исследователя
+    .desc = { ent-IDCardStandard.desc }

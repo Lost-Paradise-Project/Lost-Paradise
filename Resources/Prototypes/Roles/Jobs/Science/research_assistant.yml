@@ -4,7 +4,9 @@
   description: job-description-research-assistant
   playTimeTracker: JobResearchAssistant
   requirements:
-    # - !type:DepartmentTimeRequirement # DeltaV - Removes time limit
+    - !type:CharacterOverallTimeRequirement
+      time: 7200
+    # - !type:DepartmentTimeRequirement # Lost Paradise - return time limit
     #   department: Science
     #   time: 54000 #15 hrs
     #   inverted: true # stop playing intern if you're good at science!

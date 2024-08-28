@@ -1,2 +1,2 @@
-﻿ent-PaperStationWarrant = станционный ордер
+ent-PaperStationWarrant = станционный ордер
     .desc = Бумажный ордер, выданный юридическим департаментом.

@@ -1,4 +1,4 @@
-﻿station-beacon-epistemics = Научный отдел
+station-beacon-epistemics = Научный отдел
 station-beacon-mystagogue = Научный Директор
 station-beacon-logistics = Логистика
 station-beacon-logistics-reception = Логистика
@@ -19,7 +19,7 @@ station-beacon-reporter = Репортёр
 station-beacon-camera-servers = Камеры
 station-beacon-boxing-ring = Боксёрская
 station-beacon-park = Парк
-station-beacon-corpsman = медицинский офицер
+station-beacon-corpsman = Парамедик
 station-beacon-justice = Судебная
 station-beacon-chiefjustice = Верховный судья
 station-beacon-prosecutor = Прокурор

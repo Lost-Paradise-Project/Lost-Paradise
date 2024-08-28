@@ -8,3 +8,5 @@ ent-CartridgeRifleIncendiary = патрон (.20 винтовочный зажи
     .desc = { ent-BaseCartridgeRifle.desc }
 ent-CartridgeRifleUranium = патрон (.20 винтовочный урановый)
     .desc = { ent-BaseCartridgeRifle.desc }
+ent-CartridgeRifleRubber = патрон (.20 винтовочный резиновый)
+    .desc = { ent-BaseCartridgeRifle.desc }

@@ -6,6 +6,30 @@
   items:
     - ClothingNeckHeadphones
 
+- type: loadout
+  id: LoadoutNeckBellCollar
+  category: Neck
+  cost: 2
+  exclusive: true
+  items:
+    - ClothingNeckBellCollar
+
+- type: loadout
+  id: LoadoutNeckOldMantle
+  category: Neck
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingNeckOldMantle
+
+- type: loadout
+  id: LoadoutNeckUnathiMantle
+  category: Neck
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingNeckUnathiMantle
+
 # Scarves
 - type: loadout
   id: LoadoutNeckScarfStripedRed
@@ -120,79 +144,78 @@
   items:
     - ClothingNeckTieGreen
 
+# #Pride Accessories
+# - type: loadout
+#   id: LoadoutItemsPrideLGBTPin
+#   category: Neck
+#   cost: 1
+#   exclusive: true
+#   items:
+#     - ClothingNeckLGBTPin
 
-#Pride Accessories
-- type: loadout
-  id: LoadoutItemsPrideLGBTPin
-  category: Neck
-  cost: 1
-  exclusive: true
-  items:
-    - ClothingNeckLGBTPin
+# - type: loadout
+#   id: LoadoutItemsPrideAromanticPin
+#   category: Neck
+#   cost: 1
+#   exclusive: true
+#   items:
+#     - ClothingNeckAromanticPin
 
-- type: loadout
-  id: LoadoutItemsPrideAromanticPin
-  category: Neck
-  cost: 1
-  exclusive: true
-  items:
-    - ClothingNeckAromanticPin
+# - type: loadout
+#   id: LoadoutItemsPrideAsexualPin
+#   category: Neck
+#   cost: 1
+#   exclusive: true
+#   items:
+#     - ClothingNeckAsexualPin
 
-- type: loadout
-  id: LoadoutItemsPrideAsexualPin
-  category: Neck
-  cost: 1
-  exclusive: true
-  items:
-    - ClothingNeckAsexualPin
+# - type: loadout
+#   id: LoadoutItemsPrideBisexualPin
+#   category: Neck
+#   cost: 1
+#   exclusive: true
+#   items:
+#     - ClothingNeckBisexualPin
 
-- type: loadout
-  id: LoadoutItemsPrideBisexualPin
-  category: Neck
-  cost: 1
-  exclusive: true
-  items:
-    - ClothingNeckBisexualPin
+# - type: loadout
+#   id: LoadoutItemsPrideIntersexPin
+#   category: Neck
+#   cost: 1
+#   exclusive: true
+#   items:
+#     - ClothingNeckIntersexPin
 
-- type: loadout
-  id: LoadoutItemsPrideIntersexPin
-  category: Neck
-  cost: 1
-  exclusive: true
-  items:
-    - ClothingNeckIntersexPin
+# - type: loadout
+#   id: LoadoutItemsPrideLesbianPin
+#   category: Neck
+#   cost: 1
+#   exclusive: true
+#   items:
+#     - ClothingNeckLesbianPin
 
-- type: loadout
-  id: LoadoutItemsPrideLesbianPin
-  category: Neck
-  cost: 1
-  exclusive: true
-  items:
-    - ClothingNeckLesbianPin
+# - type: loadout
+#   id: LoadoutItemsPrideNonBinaryPin
+#   category: Neck
+#   cost: 1
+#   exclusive: true
+#   items:
+#     - ClothingNeckNonBinaryPin
 
-- type: loadout
-  id: LoadoutItemsPrideNonBinaryPin
-  category: Neck
-  cost: 1
-  exclusive: true
-  items:
-    - ClothingNeckNonBinaryPin
+# - type: loadout
+#   id: LoadoutItemsPridePansexualPin
+#   category: Neck
+#   cost: 1
+#   exclusive: true
+#   items:
+#     - ClothingNeckPansexualPin
 
-- type: loadout
-  id: LoadoutItemsPridePansexualPin
-  category: Neck
-  cost: 1
-  exclusive: true
-  items:
-    - ClothingNeckPansexualPin
-
-- type: loadout
-  id: LoadoutItemsPrideTransPin
-  category: Neck
-  cost: 1
-  exclusive: true
-  items:
-    - ClothingNeckTransPin
+# - type: loadout
+#   id: LoadoutItemsPrideTransPin
+#   category: Neck
+#   cost: 1
+#   exclusive: true
+#   items:
+#     - ClothingNeckTransPin
 
 # Bedsheets
 - type: loadout

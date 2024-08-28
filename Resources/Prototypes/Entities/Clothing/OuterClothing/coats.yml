@@ -8,6 +8,9 @@
     sprite: Clothing/OuterClothing/Coats/bomber.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/bomber.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -30,6 +33,9 @@
         Slash: 0.70
         Piercing: 0.70
         Heat: 0.80
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -41,6 +47,9 @@
     sprite: Clothing/OuterClothing/Coats/gentlecoat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/gentlecoat.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -62,6 +71,9 @@
         Caustic: 0.75 #not the full 90% from ss13 because of the head
   - type: ExplosionResistance
     damageCoefficient: 0.90
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -73,6 +85,9 @@
     sprite: Clothing/OuterClothing/Coats/insp_coat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/insp_coat.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageToggleableBase
@@ -86,6 +101,9 @@
     sprite: Clothing/OuterClothing/Coats/jensencoat.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodChaplainHood
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -112,6 +130,9 @@
         reagents:
         - ReagentId: Fiber
           Quantity: 20
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
@@ -127,6 +148,9 @@
     modifiers:
       coefficients:
         Caustic: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLab]
@@ -147,6 +171,9 @@
     modifiers:
       coefficients:
         Caustic: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabChem]
@@ -167,6 +194,9 @@
     modifiers:
       coefficients:
         Caustic: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabViro]
@@ -187,6 +217,9 @@
     modifiers:
       coefficients:
         Caustic: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabGene]
@@ -207,6 +240,9 @@
     modifiers:
       coefficients:
         Caustic: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabCmo]
@@ -227,6 +263,9 @@
     modifiers:
       coefficients:
         Caustic: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRnd]
@@ -247,6 +286,9 @@
     modifiers:
       coefficients:
         Caustic: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRobo]
@@ -268,6 +310,9 @@
       coefficients:
         Caustic: 0.75
         Radiation: 0.9
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRD]
@@ -284,6 +329,9 @@
     sprite: Clothing/OuterClothing/Coats/pirate.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/pirate.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -304,6 +352,9 @@
         Heat: 0.70
   - type: ExplosionResistance
     damageCoefficient: 0.90
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -315,6 +366,9 @@
     sprite: Clothing/OuterClothing/Coats/damedanecoat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/damedanecoat.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -326,6 +380,9 @@
     sprite: Clothing/OuterClothing/Coats/clownpriest.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/clownpriest.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -343,6 +400,9 @@
         Blunt: 0.8
         Slash: 0.65
         Piercing: 0.85
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -354,6 +414,9 @@
     sprite: Clothing/OuterClothing/Coats/windbreaker_paramedic.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/windbreaker_paramedic.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -365,6 +428,9 @@
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecap.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecap.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterCoatHoSTrench
@@ -376,6 +442,9 @@
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecaparmored.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecaparmored.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -395,6 +464,9 @@
         Piercing: 0.85
         Heat: 0.75
         Caustic: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -410,6 +482,9 @@
     modifiers:
       coefficients:
         Caustic: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -425,6 +500,9 @@
     modifiers:
       coefficients:
         Caustic: 0.75
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -436,6 +514,9 @@
     sprite: Clothing/OuterClothing/Coats/space_asshole.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/space_asshole.rsi
+  - type: Tag
+    tags:
+      - CoatRack
 
 - type: entity
   parent: ClothingOuterStorageBase
@@ -447,3 +528,6 @@
     sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi
+  - type: Tag
+    tags:
+      - CoatRack

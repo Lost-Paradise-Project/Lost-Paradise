@@ -1,2 +1,2 @@
-ent-KitchenDeepFryer = deep fryer
-    .desc = An industrial deep fryer. A big hit at state fairs!
+ent-KitchenDeepFryer = фритюрница
+    .desc = Промышленная фритюрница для разного фастфуда, а также.. крыс?

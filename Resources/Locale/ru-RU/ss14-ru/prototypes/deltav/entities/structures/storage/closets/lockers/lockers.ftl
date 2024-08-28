@@ -1,4 +1,4 @@
-ent-LockerChiefJustice = chief justice's locker
+ent-LockerChiefJustice = шкаф ведущего судьи
     .desc = { ent-LockerBaseSecure.desc }
-ent-LockerClerk = clerk's locker
+ent-LockerClerk = шкаф судьи
     .desc = { ent-LockerBaseSecure.desc }

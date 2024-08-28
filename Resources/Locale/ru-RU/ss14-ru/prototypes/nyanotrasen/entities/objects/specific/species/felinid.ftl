@@ -1,2 +1,2 @@
-ent-Hairball = hairball
-    .desc = Felinids, man... Placeholder sprite.
+ent-Hairball = волосяной шарик
+    .desc = Иу.. фелиниды...

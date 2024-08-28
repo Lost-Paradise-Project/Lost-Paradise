@@ -1,7 +1,7 @@
 - type: tile
   id: LPPWoodLarge
   name: wood-large
-  sprite: /Textures/_LostParadise/Tiles/wood_large.png
+  sprite: /Textures/_LostParadise/Tiles/tiles/wood_large.png
   baseTurf: Plating
   isSubfloor: false
   canCrowbar: true
@@ -16,7 +16,7 @@
 - type: tile
   id: LPPFloorShuttleBlak
   name: tiles-blak-shuttle-floor
-  sprite: /Textures/_LostParadise/Tiles/plastitanium.png
+  sprite: /Textures/_LostParadise/Tiles/tiles/plastitanium.png
   baseTurf: Plating
   isSubfloor: false
   canCrowbar: true
@@ -31,7 +31,7 @@
 - type: tile
   id: LPPKitchenDiagonal
   name: kitchen-diagonal
-  sprite: /Textures/_LostParadise/Tiles/kitchen.rsi/kitchen_diagonal.png
+  sprite: /Textures/_LostParadise/Tiles/kitchen/kitchen_diagonal.png
   baseTurf: Plating
   isSubfloor: false
   canCrowbar: true
@@ -44,7 +44,7 @@
 - type: tile
   id: LPPKitchenHerringbone
   name: kitchen-herringbone
-  sprite: /Textures/_LostParadise/Tiles/kitchen.rsi/kitchen_herringbone.png
+  sprite: /Textures/_LostParadise/Tiles/kitchen/kitchen_herringbone.png
   baseTurf: Plating
   isSubfloor: false
   canCrowbar: true
@@ -57,7 +57,7 @@
 - type: tile
   id: LPPKitchenSmall
   name: kitchen-small
-  sprite: /Textures/_LostParadise/Tiles/kitchen.rsi/kitchen_small.png
+  sprite: /Textures/_LostParadise/Tiles/kitchen/kitchen_small.png
   baseTurf: Plating
   isSubfloor: false
   canCrowbar: true
@@ -71,7 +71,7 @@
 - type: tile
   id: LPPKitchenDiagonalS
   name: kitchen-diagonal
-  sprite: /Textures/_LostParadise/Tiles/kitchen.rsi/kitchen_diagonal_s.png
+  sprite: /Textures/_LostParadise/Tiles/kitchen/kitchen_diagonal_s.png
   baseTurf: Plating
   isSubfloor: false
   canCrowbar: true
@@ -84,7 +84,7 @@
 - type: tile
   id: LPPKitchenHerringboneS
   name: kitchen-herringbone
-  sprite: /Textures/_LostParadise/Tiles/kitchen.rsi/kitchen_herringbone_s.png
+  sprite: /Textures/_LostParadise/Tiles/kitchen/kitchen_herringbone_s.png
   baseTurf: Plating
   isSubfloor: false
   canCrowbar: true
@@ -97,7 +97,7 @@
 - type: tile
   id: LPPKitchenSmallS
   name: kitchen-small
-  sprite: /Textures/_LostParadise/Tiles/kitchen.rsi/kitchen_small_s.png
+  sprite: /Textures/_LostParadise/Tiles/kitchen/kitchen_small_s.png
   baseTurf: Plating
   isSubfloor: false
   canCrowbar: true
@@ -116,7 +116,7 @@
 - type: tile
   id: LPPTerracotta
   name: terracotta
-  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta.png
+  sprite: /Textures/_LostParadise/Tiles/terracotta/terracotta.png
   variants: 4
   placementVariants:
   - 1.0
@@ -135,7 +135,7 @@
 - type: tile
   id: LPPTerracottaDiagonal
   name: terracotta_diagonal
-  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_diagonal.png
+  sprite: /Textures/_LostParadise/Tiles/terracotta/terracotta_diagonal.png
   variants: 4
   placementVariants:
   - 1.0
@@ -154,7 +154,7 @@
 - type: tile
   id: LPPTerracottaHerringbone
   name: terracotta_herringbone
-  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_herringbone.png
+  sprite: /Textures/_LostParadise/Tiles/terracotta/terracotta_herringbone.png
   variants: 4
   placementVariants:
   - 1.0
@@ -173,7 +173,7 @@
 - type: tile
   id: LPPTerracottaSmall
   name: terracotta_small
-  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_small.png
+  sprite: /Textures/_LostParadise/Tiles/terracotta/terracotta_small.png
   variants: 4
   placementVariants:
   - 1.0
@@ -195,7 +195,7 @@
 - type: tile
   id: LPPTerracottaS
   name: terracotta
-  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_s.png
+  sprite: /Textures/_LostParadise/Tiles/terracotta/terracotta_s.png
   variants: 4
   placementVariants:
   - 1.0
@@ -214,7 +214,7 @@
 - type: tile
   id: LPPTerracottaDiagonalS
   name: terracotta_diagonal
-  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_diagonal_s.png
+  sprite: /Textures/_LostParadise/Tiles/terracotta/terracotta_diagonal_s.png
   variants: 4
   placementVariants:
   - 1.0
@@ -233,7 +233,7 @@
 - type: tile
   id: LPPTerracottaHerringboneS
   name: terracotta_herringbone
-  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_herringbone_s.png
+  sprite: /Textures/_LostParadise/Tiles/terracotta/terracotta_herringbone_s.png
   variants: 4
   placementVariants:
   - 1.0
@@ -252,7 +252,7 @@
 - type: tile
   id: LPPTerracottaSmallS
   name: terracotta_small
-  sprite: /Textures/_LostParadise/Tiles/terracotta.rsi/terracotta_small_s.png
+  sprite: /Textures/_LostParadise/Tiles/terracotta/terracotta_small_s.png
   variants: 4
   placementVariants:
   - 1.0
@@ -275,7 +275,7 @@
 - type: tile
   id: LPPFloorDarkS
   name: tiles-dark-floor
-  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark.png
+  sprite: /Textures/_LostParadise/Tiles/dark-s/dark.png
   variants: 4
   placementVariants:
   - 1.0
@@ -294,7 +294,7 @@
 - type: tile
   id: LPPFloorDarkDiagonalS
   name: tiles-dark-floor-diagonal
-  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_diagonal.png
+  sprite: /Textures/_LostParadise/Tiles/dark-s/dark_diagonal.png
   variants: 4
   placementVariants:
   - 1.0
@@ -314,7 +314,7 @@
 - type: tile
   id: LPPFloorDarkHerringboneS
   name: tiles-dark-floor-herringbone
-  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_herringbone.png
+  sprite: /Textures/_LostParadise/Tiles/dark-s/dark_herringbone.png
   variants: 4
   placementVariants:
   - 1.0
@@ -333,7 +333,7 @@
 - type: tile
   id: LPPFloorDarkDiagonalMiniS
   name: tiles-dark-floor-diagonal-mini
-  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_diagonal_mini.png
+  sprite: /Textures/_LostParadise/Tiles/dark-s/dark_diagonal_mini.png
   variants: 4
   placementVariants:
   - 1.0
@@ -352,7 +352,7 @@
 - type: tile
   id: LPPFloorDarkMiniS
   name: tiles-dark-floor-mini
-  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_mini.png
+  sprite: /Textures/_LostParadise/Tiles/dark-s/dark_mini.png
   variants: 4
   placementVariants:
   - 1.0
@@ -371,7 +371,7 @@
 - type: tile
   id: LPPFloorDarkMonoS
   name: tiles-dark-floor-mono
-  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_mono.png
+  sprite: /Textures/_LostParadise/Tiles/dark-s/dark_mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -390,7 +390,7 @@
 - type: tile
   id: LPPFloorDarkOffsetS
   name: tiles-dark-floor-offset
-  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_offset.png
+  sprite: /Textures/_LostParadise/Tiles/dark-s/dark_offset.png
   variants: 4
   placementVariants:
   - 1.0
@@ -409,7 +409,7 @@
 - type: tile
   id: LPPFloorDarkPavementS
   name: tiles-dark-floor-pavement
-  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_pavement.png
+  sprite: /Textures/_LostParadise/Tiles/dark-s/dark_pavement.png
   variants: 4
   placementVariants:
   - 1.0
@@ -428,7 +428,7 @@
 - type: tile
   id: LPPFloorDarkPavementVerticalS
   name: tiles-dark-floor-pavement-vertical
-  sprite: /Textures/_LostParadise/Tiles/dark-s.rsi/dark_pavement_vertical.png
+  sprite: /Textures/_LostParadise/Tiles/dark-s/dark_pavement_vertical.png
   variants: 4
   placementVariants:
   - 1.0
@@ -450,7 +450,7 @@
 - type: tile
   id: LPPFloorSteelS
   name: tiles-steel-floor
-  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel.png
+  sprite: /Textures/_LostParadise/Tiles/steel-s/steel.png
   variants: 4
   placementVariants:
   - 1.0
@@ -469,7 +469,7 @@
 - type: tile
   id: LPPFloorSteelDiagonalS
   name: tiles-steel-floor-diagonal
-  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_diagonal.png
+  sprite: /Textures/_LostParadise/Tiles/steel-s/steel_diagonal.png
   variants: 4
   placementVariants:
   - 1.0
@@ -489,7 +489,7 @@
 - type: tile
   id: LPPFloorSteelHerringboneS
   name: tiles-steel-floor-herringbone
-  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_herringbone.png
+  sprite: /Textures/_LostParadise/Tiles/steel-s/steel_herringbone.png
   variants: 4
   placementVariants:
   - 1.0
@@ -508,7 +508,7 @@
 - type: tile
   id: LPPFloorSteelDiagonalMiniS
   name: tiles-steel-floor-diagonal-mini
-  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_diagonal_mini.png
+  sprite: /Textures/_LostParadise/Tiles/steel-s/steel_diagonal_mini.png
   variants: 4
   placementVariants:
   - 1.0
@@ -527,7 +527,7 @@
 - type: tile
   id: LPPFloorSteelMiniS
   name: tiles-steel-floor-mini
-  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_mini.png
+  sprite: /Textures/_LostParadise/Tiles/steel-s/steel_mini.png
   variants: 4
   placementVariants:
   - 1.0
@@ -546,7 +546,7 @@
 - type: tile
   id: LPPFloorSteelMonoS
   name: tiles-steel-floor-mono
-  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_mono.png
+  sprite: /Textures/_LostParadise/Tiles/steel-s/steel_mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -565,7 +565,7 @@
 - type: tile
   id: LPPFloorSteelOffsetS
   name: tiles-steel-floor-offset
-  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_offset.png
+  sprite: /Textures/_LostParadise/Tiles/steel-s/steel_offset.png
   variants: 4
   placementVariants:
   - 1.0
@@ -584,7 +584,7 @@
 - type: tile
   id: LPPFloorSteelPavementS
   name: tiles-steel-floor-pavement
-  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_pavement.png
+  sprite: /Textures/_LostParadise/Tiles/steel-s/steel_pavement.png
   variants: 4
   placementVariants:
   - 1.0
@@ -603,7 +603,7 @@
 - type: tile
   id: LPPFloorSteelPavementVerticalS
   name: tiles-steel-floor-pavement-vertical
-  sprite: /Textures/_LostParadise/Tiles/steel-s.rsi/steel_pavement_vertical.png
+  sprite: /Textures/_LostParadise/Tiles/steel-s/steel_pavement_vertical.png
   variants: 4
   placementVariants:
   - 1.0
@@ -625,7 +625,7 @@
 - type: tile
   id: LPPFloorWhiteS
   name: tiles-white-floor
-  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white.png
+  sprite: /Textures/_LostParadise/Tiles/white-s/white.png
   variants: 4
   placementVariants:
   - 1.0
@@ -644,7 +644,7 @@
 - type: tile
   id: LPPFloorWhiteDiagonalS
   name: tiles-white-floor-diagonal
-  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_diagonal.png
+  sprite: /Textures/_LostParadise/Tiles/white-s/white_diagonal.png
   variants: 4
   placementVariants:
   - 1.0
@@ -664,7 +664,7 @@
 - type: tile
   id: LPPFloorWhiteHerringboneS
   name: tiles-white-floor-herringbone
-  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_herringbone.png
+  sprite: /Textures/_LostParadise/Tiles/white-s/white_herringbone.png
   variants: 4
   placementVariants:
   - 1.0
@@ -683,7 +683,7 @@
 - type: tile
   id: LPPFloorWhiteDiagonalMiniS
   name: tiles-white-floor-diagonal-mini
-  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_diagonal_mini.png
+  sprite: /Textures/_LostParadise/Tiles/white-s/white_diagonal_mini.png
   variants: 4
   placementVariants:
   - 1.0
@@ -702,7 +702,7 @@
 - type: tile
   id: LPPFloorWhiteMiniS
   name: tiles-white-floor-mini
-  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_mini.png
+  sprite: /Textures/_LostParadise/Tiles/white-s/white_mini.png
   variants: 4
   placementVariants:
   - 1.0
@@ -721,7 +721,7 @@
 - type: tile
   id: LPPFloorWhiteMonoS
   name: tiles-white-floor-mono
-  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_mono.png
+  sprite: /Textures/_LostParadise/Tiles/white-s/white_mono.png
   variants: 4
   placementVariants:
   - 1.0
@@ -740,7 +740,7 @@
 - type: tile
   id: LPPFloorWhiteOffsetS
   name: tiles-white-floor-offset
-  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_offset.png
+  sprite: /Textures/_LostParadise/Tiles/white-s/white_offset.png
   variants: 4
   placementVariants:
   - 1.0
@@ -759,7 +759,7 @@
 - type: tile
   id: LPPFloorWhitePavementS
   name: tiles-white-floor-pavement
-  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_pavement.png
+  sprite: /Textures/_LostParadise/Tiles/white-s/white_pavement.png
   variants: 4
   placementVariants:
   - 1.0
@@ -778,7 +778,7 @@
 - type: tile
   id: LPPFloorWhitePavementVerticalS
   name: tiles-white-floor-pavement-vertical
-  sprite: /Textures/_LostParadise/Tiles/white-s.rsi/white_pavement_vertical.png
+  sprite: /Textures/_LostParadise/Tiles/white-s/white_pavement_vertical.png
   variants: 4
   placementVariants:
   - 1.0

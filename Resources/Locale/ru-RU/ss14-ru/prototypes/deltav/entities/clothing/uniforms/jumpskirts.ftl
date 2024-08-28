@@ -17,7 +17,7 @@ ent-ClothingUniformJumpskirtCentcomDirector = юбка-комбинезон ди
 ent-ClothingUniformJumpskirtChiefJustice = юбка-комбинезон верховного судьи
     .desc =
         Деловой наряд в сочетании с кружевным галстуком. Его носят лишь самые деловые личности.
-        ent-ClothingUniformJumpskirtClerk = юбка-комбинезон судьи
+ent-ClothingUniformJumpskirtClerk = юбка-комбинезон судьи
     .desc = Скромная юбка для тех, кто может записать любую информацию.
 ent-ClothingUniformJumpskirtProsecutor = юбка-комбинезон прокурора
     .desc = Красная юбка в сочетании с костюмом и деловым галстуком. Идеальный вариант для прокурора.

@@ -1,2 +1,2 @@
-ent-WeaponSubMachineGunTypewriter = Typewriter
-    .desc = A modern take on the classic design used by mobsters throughout space and time. Types .35 auto ammo.
+ent-WeaponSubMachineGunTypewriter = Пишущяя машина
+    .desc = Новый взгляд на классический дизайн используемый работниками ножа и топора на протяжении истории. Печатает .35 auto ammo.

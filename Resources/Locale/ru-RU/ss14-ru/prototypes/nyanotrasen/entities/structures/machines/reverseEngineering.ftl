@@ -1,2 +1,2 @@
-ent-ReverseEngineeringMachine = reverse engineering machine
-    .desc = Destructively analyses pieces of technology in the hopes that we can retrieve information from them.
+ent-ReverseEngineeringMachine = анализатор технологий
+    .desc = Методом подробного изучения получает важные технологии из разрушаемых предметов.

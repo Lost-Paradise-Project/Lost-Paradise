@@ -1,2 +1,2 @@
-﻿ent-WeaponLightMachineGunL6Borg = экспериментальный L6 SAW
+ent-WeaponLightMachineGunL6Borg = экспериментальный L6 SAW
     .desc = Традиционный пулемёт с приделанной деревянной ручкой. С помощью энергии своевременно воссоздаёт боезапас.

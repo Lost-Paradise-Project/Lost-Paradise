@@ -1,2 +1,2 @@
-ent-BibleMystagogue = book of mysteries
-    .desc = The mystagogue's holy book.
+ent-BibleMystagogue = книга тайн
+    .desc = Священная книга под владением научного директора.

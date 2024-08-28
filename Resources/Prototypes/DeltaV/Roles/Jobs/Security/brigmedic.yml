@@ -35,7 +35,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitBrigmedic
     outerClothing: ClothingOuterArmorPlateCarrier
-    back: ClothingBackpackBrigmedicDeltaVFilled
+    back: ClothingBackpackBrigmedicFilled 
     shoes: ClothingShoesBootsCombatFilled
     gloves: ClothingHandsGlovesNitrile
     eyes: ClothingEyesHudMedical
@@ -44,10 +44,10 @@
     ears: ClothingHeadsetBrigmedic
     belt: ClothingBeltCorpsmanWebbingFilled
     pocket1: WeaponPistolMk58Nonlethal
-  innerClothingSkirt: ClothingUniformJumpskirtBrigmedic
-  satchel: ClothingBackpackSatchelBrigmedicDeltaVFilled
-  duffelbag: ClothingBackpackDuffelBrigmedicDeltaVFilled
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
   underwear: LPPBriefs
   breast: LPPBraAltWhite
+  innerClothingSkirt: ClothingUniformJumpskirtBrigmedic
+  satchel: ClothingBackpackSatchelBrigmedicFilled
+  duffelbag: ClothingBackpackDuffelBrigmedicFilled

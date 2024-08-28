@@ -1,0 +1,99 @@
+{
+    "version": 2,
+    "license": "AGPL 3.0",
+    "copyright": "Draw by Hqlle (Github)",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+    {
+      "name": "B"
+    },
+    {
+      "name": "C"
+    },
+    {
+      "name": "D"
+    },
+    {
+      "name": "E"
+    },
+    {
+      "name": "F"
+    },
+    {
+      "name": "G"
+    },
+    {
+      "name": "H"
+    },
+    {
+      "name": "I"
+    },
+    {
+      "name": "J"
+    },
+    {
+      "name": "K"
+    },
+    {
+      "name": "L"
+    },
+    {
+      "name": "M"
+    },
+    {
+      "name": "N"
+    },
+    {
+      "name": "O"
+    },
+    {
+      "name": "P"
+    },
+    {
+      "name": "Q"
+    },
+    {
+      "name": "R"
+    },
+    {
+      "name": "S"
+    },
+    {
+      "name": "T"
+    },
+    {
+      "name": "U"
+    },
+    {
+      "name": "V"
+    },
+    {
+      "name": "W"
+    },
+    {
+      "name": "X"
+    },
+    {
+      "name": "Y"
+    },
+    {
+      "name": "Z"
+    },
+    {
+      "name": "Ä"
+    },
+    {
+      "name": "Ö"
+    },
+    {
+      "name": "Ü"
+    },
+    {
+      "name": "Õ"
+    }
+
+  ]
+}

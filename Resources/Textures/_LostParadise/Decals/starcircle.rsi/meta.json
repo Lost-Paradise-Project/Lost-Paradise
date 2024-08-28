@@ -1,0 +1,35 @@
+{
+    "version": 2,
+    "license": "AGPL 3.0",
+    "copyright": "Draw by Hqlle (Github)",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "starcircle1"
+        },
+        {
+            "name": "starcircle2"
+        },
+        {
+            "name": "starcircle3"
+        },
+        {
+            "name": "starcircle4"
+        },
+        {
+            "name": "starcircle6"
+        },
+        {
+            "name": "starcircle7"
+        },
+        {
+            "name": "starcircle8"
+        },
+        {
+            "name": "starcircle9"
+        }
+    ]
+}

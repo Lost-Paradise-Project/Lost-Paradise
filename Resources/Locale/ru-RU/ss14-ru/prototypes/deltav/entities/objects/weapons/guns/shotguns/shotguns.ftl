@@ -1,5 +1,5 @@
-ent-WeaponShotgunAdjutant = adjutant
-    .desc = Sold as a "riot" shotgun, this shotgun has a special gas-operated mechanism that makes it highly effective for CQC and suppressive fire.
-ent-WeaponShotgunKammererNonLethal = Kammerer
-    .desc = When an old Remington design meets modern materials, this is the result. A favourite weapon of militia forces throughout many worlds. Uses .50 shotgun shells.
-    .suffix = Beanbag
+ent-WeaponShotgunAdjutant = адъютант
+    .desc = Продовавшийся как "оборонительный", этот дробовик имеет особую газовую систему, делающую его крайне эффективным для боя в замкнутом пространстве и огня на подавление.
+ent-WeaponShotgunKammererNonLethal = Каммерер
+    .desc = Результат встречи старого Ремингтона и современных материалов. Любимое оружие ополчений по всему космосу. Использует патрон .50
+    .suffix = Нелетальный

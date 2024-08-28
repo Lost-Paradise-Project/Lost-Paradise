@@ -1,8 +1,8 @@
-ent-SignDirectionalLogistics = logistics sign
-    .desc = A direction sign, pointing out which way the Logistics department is.
-ent-SignDirectionalMail = mailroom sign
-    .desc = A direction sign, pointing out which way the mailroom is.
-ent-SignDirectionalJustice = justice department sign
-    .desc = A direction sign, pointing out which way the Justice department is.
-ent-SignDirectionaCourt = court room sign
-    .desc = A direction sign, pointing out which way the court room is.
+ent-SignDirectionalLogistics = указательный знак - логистика
+    .desc = Указательный знак, указывающий направление к отделу логистики.
+ent-SignDirectionalMail = указательный знак - почта
+    .desc = Указательный знак, указывающий направление к почте.
+ent-SignDirectionalJustice = указательный знак - юр. отдел
+    .desc = Указательный знак, указывающий направление к юридическому отделу.
+ent-SignDirectionaCourt = указательный знак - суд
+    .desc = Указательный знак, указывающий направление к суду.

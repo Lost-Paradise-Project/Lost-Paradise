@@ -1,3 +1,3 @@
-ent-RubberStampMantis = psionic mantis' seal
-    .desc = An old-fashioned seal for marking important documents, made of polished bronze.
+ent-RubberStampMantis = печать мантиса
+    .desc = Старомодная печать сделанная из чистого сплава бронзы.
     .suffix = НЕ МАППИТЬ

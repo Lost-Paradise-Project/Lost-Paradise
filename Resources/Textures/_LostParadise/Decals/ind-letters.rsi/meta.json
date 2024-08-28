@@ -1,0 +1,23 @@
+{
+    "version": 2,
+    "license": "AGPL 3.0",
+    "copyright": "Draw by Hqlle (Github)",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+      {
+        "name": "A"
+      },
+      {
+        "name": "B"
+      },
+      {
+        "name": "C"
+      },
+      {
+        "name": "D"
+      }
+    ]
+}

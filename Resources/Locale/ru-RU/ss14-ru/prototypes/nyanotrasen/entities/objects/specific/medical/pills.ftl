@@ -1,4 +1,4 @@
-ent-PillMindbreakerToxin = mindbreaker toxin
-    .desc = Removes psionics when ingested. Mildly poisonous.
-ent-PillCryptobiolin = cryptobiolin
-    .desc = A long-lasting drug which causes mild confusion, but renders you psionically insulated.
+ent-PillMindbreakerToxin = майндбрейкер
+    .desc = Подавляет силы псионика. Слегка ядовит.
+ent-PillCryptobiolin = криптобиолин
+    .desc = Долгодействующий наркотик, который заставляет вас входить в замешательство, но повышает потенциал псионических способностей.
