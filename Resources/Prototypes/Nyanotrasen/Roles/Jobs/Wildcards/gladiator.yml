@@ -32,4 +32,8 @@
     id: GladiatorPDA
     ears: ClothingHeadsetGrey
   innerClothingSkirt: UniformShortsRedWithTop
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
   #any other possessions, spawn in cell

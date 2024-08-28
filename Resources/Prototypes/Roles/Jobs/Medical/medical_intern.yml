@@ -33,3 +33,7 @@
   # innerClothingSkirt: ClothingUniformJumpskirtColorWhite # DeltaV
   satchel: ClothingBackpackSatchelMedicalFilled
   duffelbag: ClothingBackpackDuffelMedicalFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite

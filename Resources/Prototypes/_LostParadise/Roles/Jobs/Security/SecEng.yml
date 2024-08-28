@@ -35,6 +35,10 @@
     outerClothing: ClothingOuterVestHazard
     ears: LPPClothingHeadsetSecurityEngineer
     belt: LPPClothingMilitaryWebbingSecEng
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
   storage:
     back:
     - SheetSteel10

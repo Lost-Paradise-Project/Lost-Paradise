@@ -34,3 +34,7 @@
     id: SecPilotPDA
     ears: ClothingHeadsetSecurity
     pocket1: WeaponPistolMk58
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite

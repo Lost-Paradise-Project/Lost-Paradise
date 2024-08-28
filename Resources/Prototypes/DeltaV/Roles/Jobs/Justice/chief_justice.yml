@@ -55,5 +55,8 @@
   innerClothingSkirt: ClothingUniformJumpskirtChiefJustice
   satchel: ClothingBackpackSatchelFilled # TODO- make Justice departmebt bags
   duffelbag: ClothingBackpackDuffelFilled
-
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
 

@@ -30,3 +30,7 @@
   innerClothingSkirt: ClothingUniformJumpskirtColorDarkGreen # DeltaV
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
