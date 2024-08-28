@@ -81,7 +81,7 @@
     - id: mouseMigration # Several mice have appeared in a random place
       path: events/mouse_migration.ogg
     - id: cockroachMigration # Several cockroaches have appeared in a random place
-      path: events/cockroach_migration.ogg
+      path: events/migration.ogg
     - id: powerGridCheck # The station's power is offline for some moments
       path: events/power_grid_check.ogg
     - id: powerGridCheckComplete # The station's power is online again
@@ -94,10 +94,10 @@
       path: events/solar_flare-complete.ogg
     - id: ventClog # A random reagent is coming out of a scrubber
       path: events/vent_clog.ogg
-#    - id: slimesSpawn # Some simple slimes are appearing in vents
-#      path: events/slimes_spawn.ogg
-#    - id: spiderSpawn # Some simple spiders are appearing in vents
-#      path: events/spider_spawn.ogg
+    - id: slimesSpawn # Some simple slimes are appearing in vents
+      path: events/migration.ogg
+    - id: spiderSpawn # Some simple spiders are appearing in vents
+      path: events/migration.ogg
     - id: immovableRodSpawn # The station is moving into an immovable rod, don't die or something, ask Engineering for help repairing it
       path: events/immovable_rod_spawn.ogg
     - id: ionStorm # AI-controlled equipment are now weird, check their laws
