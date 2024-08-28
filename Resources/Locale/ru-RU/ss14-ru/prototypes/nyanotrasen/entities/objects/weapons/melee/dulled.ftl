@@ -1,6 +1,6 @@
-ent-KatanaDulled = katana
-    .desc = Ancient craftwork made with not so ancient plasteel. This one has been dulled.
-    .suffix = Dulled
-ent-ClaymoreDulled = claymore
-    .desc = An ancient war blade. This one has been dulled.
-    .suffix = Dulled
+ent-KatanaDulled = катана
+    .desc = Древнее мастерство передалось и до наших дней, теперь этот меч - наследие истории и культуры.
+    .suffix = Тупой
+ent-ClaymoreDulled = клеймор
+    .desc = Древний меч, который ныне просто затупился.
+    .suffix = Тупой

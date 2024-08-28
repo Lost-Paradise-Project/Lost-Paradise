@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Made by PuroSlavKing (github) for SS14, harpy by VMSolidus",
+  "copyright": "Made by PuroSlavKing (github) for SS14",
   "size": {
     "x": 32,
     "y": 32
@@ -15,8 +15,20 @@
       "directions": 4
     },
     {
-        "name": "equipped-OUTERCLOTHING-harpy",
-        "directions": 4
+      "name": "equipped-OUTERCLOTHING-vulpkanin",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-tajaran",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-reptilian",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-shark",
+      "directions": 4
     },
     {
       "name": "inhand-left",
@@ -24,6 +36,10 @@
     },
     {
       "name": "inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-harpy",
       "directions": 4
     }
   ]

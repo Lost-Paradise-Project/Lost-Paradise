@@ -340,3 +340,21 @@
   - type: Construction
     graph: Muzzle
     node: muzzle
+
+- type: entity
+  parent: ClothingMaskGas
+  id: LPPClothingBalaclavawide
+  name: балаклава с широким вырезом для глаз
+  description: Почувствуйте себя крайне тактикульным с этой кевларовой балаклавой, что защитит всё ваше лицо, кроме глаз, так что рекомендуется испоьзовать очки для защиты глаз от страйкбольных шариков (От реальных пуль вряд ли спасёт).
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/widebalaclava.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/widebalaclava.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95

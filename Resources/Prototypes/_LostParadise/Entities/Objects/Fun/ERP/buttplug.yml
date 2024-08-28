@@ -133,13 +133,6 @@
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Underwear/buttplugtail/big.rsi
-    scale: 1.0, 1.0
-    layers:
-      - state: equipped-NECK
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/buttplugtail/big.rsi
-  - type: Item
-    size: Tiny
 
 - type: entity
   name: Medium tail buttplug
@@ -149,13 +142,6 @@
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Underwear/buttplugtail/medium.rsi
-    scale: 1.0, 1.0
-    layers:
-      - state: equipped-NECK
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/buttplugtail/medium.rsi
-  - type: Item
-    size: Tiny
 
 - type: entity
   name: Small tail buttplug
@@ -165,13 +151,6 @@
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Underwear/buttplugtail/small.rsi
-    scale: 1.0, 1.0
-    layers:
-      - state: equipped-NECK
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/buttplugtail/small.rsi
-  - type: Item
-    size: Tiny
 
 - type: entity
   name: big teal buttplug

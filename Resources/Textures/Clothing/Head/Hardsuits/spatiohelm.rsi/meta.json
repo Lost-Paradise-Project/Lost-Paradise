@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Original by Emisse, modified by EmoGarbage404 | vulpkanin version made by Floofers",
+  "copyright": "Original by Emisse, modified by EmoGarbage404",
 
   "size": {
     "x": 32,
@@ -21,43 +21,71 @@
       "name": "light-overlay"
     },
     {
-      "name": "equipped-head",
+      "name": "equipped-HELMET",
       "directions": 4
     },
     {
-      "name": "equipped-head-light",
+      "name": "equipped-HELMET-vulpkanin",
       "directions": 4
     },
     {
-      "name": "equipped-head-unshaded",
+      "name": "equipped-HELMET-tajaran",
       "directions": 4
     },
     {
-      "name": "inhand-left",
+      "name": "equipped-HELMET-shark",
       "directions": 4
     },
     {
-      "name": "inhand-left-unshaded",
+      "name": "equipped-HELMET-reptilian",
       "directions": 4
     },
     {
-      "name": "inhand-left-light",
+      "name": "off-equipped-HELMET",
       "directions": 4
     },
     {
-      "name": "inhand-right",
+      "name": "off-equipped-HELMET-vulpkanin",
       "directions": 4
     },
     {
-      "name": "inhand-right-unshaded",
+      "name": "off-equipped-HELMET-tajaran",
       "directions": 4
     },
     {
-      "name": "inhand-right-light",
+      "name": "off-equipped-HELMET-shark",
       "directions": 4
     },
     {
-      "name": "equipped-head-vulpkanin",
+      "name": "off-equipped-HELMET-reptilian",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-HELMET",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-HELMET-vulpkanin",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-HELMET-tajaran",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-HELMET-shark",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-HELMET-reptilian",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-light",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-unshaded",
       "directions": 4
     }
   ]

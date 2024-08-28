@@ -1,8 +1,8 @@
-ent-MetempsychoticMachineCircuitboard = metempsychotic machine machine board
-    .desc = A machine printed circuit board for a cloning pod
-ent-ReverseEngineeringMachineCircuitboard = reverse engineering machine machine board
-    .desc = A machine printed circuit board for a reverse engineering machine
-ent-DeepFryerMachineCircuitboard = deep fryer machine board
+ent-MetempsychoticMachineCircuitboard = плата машины для метампсихоза
+    .desc = Печатная плата для машины метампсихоза.
+ent-ReverseEngineeringMachineCircuitboard = плата машины анализатора технологий
+    .desc = Печатная плата для машины обратной разработки.
+ent-DeepFryerMachineCircuitboard = плата фритюрницы
     .desc = { ent-BaseMachineCircuitboard.desc }
-ent-MailTeleporterMachineCircuitboard = mail teleporter machine board
+ent-MailTeleporterMachineCircuitboard = плата почтового телепортера
     .desc = { ent-BaseMachineCircuitboard.desc }

@@ -1,2 +1,2 @@
 ent-PlayerSiliconHumanoidBase = { ent-BaseMob }
-  .desc = { ent-BaseMob.desc }
+    .desc = { ent-BaseMob.desc }

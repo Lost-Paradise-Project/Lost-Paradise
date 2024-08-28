@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Sprite made by Gtheglorious based on the sprite made by Alekshhh for SS14",
+  "copyright": "Sprite made by Gtheglorious based on the sprite made by Alekshhh for SS14. Vox state made by Flareguy for SS14",
   "size": {
     "x": 32,
     "y": 32
@@ -12,6 +12,26 @@
     },
     {
       "name": "equipped-OUTERCLOTHING",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-reptilian",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-shark",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-tajaran",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-vox",
+      "directions": 4
+    },
+    {
+      "name": "equipped-OUTERCLOTHING-vulpkanin",
       "directions": 4
     },
     {

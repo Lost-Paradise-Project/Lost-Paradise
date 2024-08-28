@@ -205,3 +205,13 @@
   components:
     - type: Sprite
       sprite: _LostParadise/Clothing/Neck/NPZ/upgneckadmiral.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakJapaneese
+  suffix: СПОНСОР
+  name: накидка в японском стиле
+  description: Kore yon deru hito wa bakadayo.
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Clothing/Neck/Cloaks/Monorich.rsi

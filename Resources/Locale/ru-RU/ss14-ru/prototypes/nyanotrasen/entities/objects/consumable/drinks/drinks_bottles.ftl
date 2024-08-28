@@ -1,11 +1,8 @@
-ent-DrinkSakeBottleFull = sake bottle
-    .desc =
-        Clear, or sometimes foggy
-        Chilled like ice cream alcohol
-        Fill a cup, drink up!
-ent-DrinkSojuBottleFull = soju bottle
-    .desc = It's like sake but if you're trying to get FUCKED. UP.
-ent-DrinkTokkuri = tokkuri
-    .desc = Floral and full of osake!
-ent-DrinkHolyWaterFull = flask of holy water
-    .desc = A flask of holy water.
+ent-DrinkSakeBottleFull = бутылка саке
+    .desc = Пойло для истинных самураев.
+ent-DrinkSojuBottleFull = бутылка соджу
+    .desc = Это как саке, но в этот раз вы реально хотите напиться.
+ent-DrinkTokkuri = токкури
+    .desc = На вкус свежо. Напоминает холодный климат.
+ent-DrinkHolyWaterFull = фляга святой воды
+    .desc = Фляга, полная святой воды.

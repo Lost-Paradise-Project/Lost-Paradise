@@ -570,6 +570,12 @@
     },
     {
       "name": "representative_door"
+    },
+    {
+        "name": "sec_engi"
+    },
+    {
+        "name": "sec_eng_door"
     }
   ]
 }

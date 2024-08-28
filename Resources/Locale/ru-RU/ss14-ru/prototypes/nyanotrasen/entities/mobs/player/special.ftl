@@ -1,2 +1,2 @@
-ent-MobObserverTelegnostic = telegnostic projection
-    .desc = Ominous. Placeholder sprite.
+ent-MobObserverTelegnostic = телегностическая проекция
+    .desc = Великолепно.

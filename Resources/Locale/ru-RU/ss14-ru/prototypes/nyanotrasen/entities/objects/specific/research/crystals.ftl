@@ -1,2 +1,2 @@
-ent-CrystalNormality = normality crystal
-    .desc = It looks... normal. Placeholder sprite.
+ent-CrystalNormality = кристалл обыкновенности
+    .desc = Выглядит.. обыкновенно.

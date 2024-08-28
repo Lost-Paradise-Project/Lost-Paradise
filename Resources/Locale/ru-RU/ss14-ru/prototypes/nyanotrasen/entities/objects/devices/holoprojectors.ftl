@@ -1,2 +1,2 @@
-ent-HoloprojectorEngineering = engineering holoprojector
-    .desc = Displays a warning sign.
+ent-HoloprojectorEngineering = инженерный голопроектор
+    .desc = Выводит табличку с предупреждением.

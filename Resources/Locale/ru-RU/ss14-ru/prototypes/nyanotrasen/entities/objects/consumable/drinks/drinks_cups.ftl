@@ -1,2 +1,2 @@
-ent-DrinkSakeCup = sakazuki
-    .desc = A ceremonial white cup for drinking sake.
+ent-DrinkSakeCup = сакадзуки
+    .desc = Церемониальная чаша, для распития саке.

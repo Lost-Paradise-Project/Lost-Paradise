@@ -2,6 +2,7 @@
   parent: ClothingNeckBase
   id: LPPClothingWindyScarf
   name: windy scarf
+  suffix: СПОНСОР
   description: Cool scarf for cool people
   components:
   - type: Sprite

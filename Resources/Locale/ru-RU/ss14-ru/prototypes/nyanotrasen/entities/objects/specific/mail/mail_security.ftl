@@ -1,12 +1,12 @@
 ent-MailSecurityDonuts = { ent-BaseMail }
-    .suffix = donuts
+    .suffix = Пончики
     .desc = { ent-BaseMail.desc }
 ent-MailSecurityFlashlight = { ent-BaseMail }
-    .suffix = seclite
+    .suffix = Фонарик
     .desc = { ent-BaseMail.desc }
 ent-MailSecurityNonlethalsKit = { ent-BaseMail }
-    .suffix = nonlethalskit
+    .suffix = Нелетал
     .desc = { ent-BaseMail.desc }
 ent-MailWardenCrowdControl = { ent-BaseMail }
-    .suffix = crowdcontrol
+    .suffix = Беспорядки
     .desc = { ent-BaseMail.desc }
