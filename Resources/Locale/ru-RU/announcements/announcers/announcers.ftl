@@ -3,4 +3,4 @@ announcer-MedBot-name = Автоматическое
 announcer-Michael-name = Майкл
 announcer-NEIL-name = N.E.I.L.
 announcer-VoxFem-name = Автоматическое
-announcer-NTH-name = N.T.H.
+announcer-NTH-name = N.T.H
