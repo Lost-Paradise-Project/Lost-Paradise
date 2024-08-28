@@ -76,7 +76,7 @@ ent-ClothingOuterHardsuitRd = Научный скафандр NT-45e - "Sophia"
     .desc =
         Новейшый продукт отдела разработок Nanotrasen. Отметки на скафандре соответствуют высшей степени защиты от взрывов, нагрева и радиации.
         Способен складываться для переноса в рюкзаке. Выглядит крайне тяжёлым.
-ent-ClothingOuterHardsuitMystagogue = NT-45e - "Sophia" research hardsuit
+ent-ClothingOuterHardsuitMystagogue = скафандр Научного Директора
     .desc = { ent-ClothingOuterHardsuitRd.desc }
 ent-ClothingOuterHardsuitSecurityRed = Тактический скафандр FPA-98s - "Dayicin"
     .desc =

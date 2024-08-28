@@ -1,3 +1,2 @@
-ent-LockerForensicMantis = psionic mantis' cabinet
-    .desc = You'll never know what's inside until you collapse the quantum superposition of all possible mysteries.
-    .suffix = Empty
+ent-LockerForensicMantis = шкаф мантиса
+    .desc = Вы никогда не узнаете, что находится внутри, пока не разрушите квантовую суперпозицию всех возможных тайн.    .suffix = Empty

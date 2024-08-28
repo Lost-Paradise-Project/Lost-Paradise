@@ -71,3 +71,7 @@ ent-LockerCaptainSyndicate = Шкафчик капитана
     .desc = Шкафчик, предназначенный для хранения гильз от пуль и вещей подозреваемых
 ent-LockerCaptainSyndicateFilledHardsuit = Шкафчик капитана
     .desc = Шкафчик, предназначенный для хранения гильз от пуль и вещей подозреваемых
+ent-LockerHeadOfSecuritySyndicate = шкаф Главы службы безопасности
+    .desc = Для хранения мешков с гильзами и вещами задержанного.
+ent-LockerHeadOfSecuritySyndicateFilledHardsuit = шкаф Главы службы безопасности
+    .desc = Для хранения мешков с гильзами и вещами задержанного.
