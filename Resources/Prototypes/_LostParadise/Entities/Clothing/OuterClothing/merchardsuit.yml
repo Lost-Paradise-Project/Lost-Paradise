@@ -28,6 +28,8 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitMerc
+  - type: StaminaDamageResistance
+    coefficient: 0.5
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase

@@ -36,13 +36,15 @@
     clothingPrototype: LPPClothingOuterHardsuitHelmetLeaderNFSD
   - type: StaticPrice
     price: 350
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingOuterHardsuitHelmetLeaderNFSD
   name: шлем элитного скафандра шерифа
   description: Пархай как бабочка, жаль, что ты уже мёртв, жалкий ксенос!
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: BreathMask
   - type: Sprite
@@ -82,6 +84,8 @@
         Heat: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.8
+  - type: StaminaDamageResistance
+    coefficient: 0.8
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -117,13 +121,15 @@
     clothingPrototype: LPPClothingOuterHardsuitHelmetNPZ
   - type: StaticPrice
     price: 350
+  - type: StaminaDamageResistance
+    coefficient: 0.7
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingOuterHardsuitHelmetNPZ
   name: шлем скафандра НПЗ
   description: Пархай как бабочка, жаль, что ты уже мёртв, жалкий ксенос!
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: BreathMask
   - type: Sprite
@@ -182,13 +188,15 @@
     clothingPrototype: LPPClothingOuterHardsuitHelmetSpecopsNPZ
   - type: StaticPrice
     price: 350
+  - type: StaminaDamageResistance
+    coefficient: 0.55
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingOuterHardsuitHelmetSpecopsNPZ
   name: шлем спецподразделения НПЗ
   description: Пархай как бабочка, жаль, что ты уже мёртв, жалкий ксенос!
-  categories: [ HideSpawnMenu ]
+  noSpawn: true
   components:
   - type: BreathMask
   - type: Sprite
