@@ -18,8 +18,8 @@
   - type: EncryptionHolderRequiresLock
   - type: SiliconEmitSoundOnDrained
     sound: "/Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg"
-    minInterval: 15
-    maxInterval: 30
+    minInterval: 20
+    maxInterval: 40
     popUp: "silicon-power-low"
   - type: Lock
     locked: true
@@ -69,9 +69,6 @@
   - type: SiliconDownOnDead
   - type: Inventory
     templateId: ipc
-  - type: GuideHelp
-    guides:
-      - IPC
   - type: Silicon
     entityType: enum.SiliconType.Player
     batteryPowered: true
@@ -86,7 +83,14 @@
       1: 0.45
       0: 0.00
   - type: BatteryDrinker
-  - type: Carriable
+  - type: EncryptionKeyHolder
+    keySlots: 4
+    examineWhileLocked: false
+    keysExtractionMethod: Cutting
+    keysUnlocked: false
+  - type: ActiveRadio
+  - type: IntrinsicRadioReceiver
+  - type: IntrinsicRadioTransmitter
   - type: DeadStartupButton
     sound:
       path: /Audio/Effects/Silicon/startup.ogg
@@ -113,6 +117,7 @@
     - RobotTalk
   - type: WeldingHealable
   - type: PsionicInsulation
+  - type: Carriable
 
 - type: entity
   save: false
