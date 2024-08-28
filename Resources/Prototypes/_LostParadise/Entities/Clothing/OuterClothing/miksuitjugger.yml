@@ -2,7 +2,7 @@
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitMiksuitJugger
   name: обесцвеченный скафандр "Панцирь"
-  description: Отреставрированный скафаднр старых моделей джагернаутов синдиката, слегка видоизменённый под хотелки нынешнего владельца.
+  description: Отреставрированный скафандр старых моделей джаггернаутов Киберсана, видоизменённый под хотелки нынешнего владельца.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/miksuitjugger.rsi

@@ -1,0 +1,135 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckShemagGreen
+  name: зелёный шемаг
+  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/greendown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/greendown.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingMaskShemagGreen
+    requiredSlot:
+    - neck
+    slot: mask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskShemagGreen
+  categories: [ HideSpawnMenu ]
+  name: зелёный шемаг
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/greenup.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/greenup.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckShemagRed
+  name: красный шемаг
+  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/reddown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/reddown.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingMaskShemagRed
+    requiredSlot:
+    - neck
+    slot: mask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskShemagRed
+  categories: [ HideSpawnMenu ]
+  name: красный шемаг
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/redup.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/redup.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckShemagBlue
+  name: синий шемаг
+  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/bluedown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/bluedown.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingMaskShemagBlue
+    requiredSlot:
+    - neck
+    slot: mask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskShemagBlue
+  categories: [ HideSpawnMenu ]
+  name: синий шемаг
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/blueup.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/blueup.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckShemagBrown
+  name: коричневый шемаг
+  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/browndown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/browndown.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingMaskShemagBrown
+    requiredSlot:
+    - neck
+    slot: mask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskShemagBrown
+  categories: [ HideSpawnMenu ]
+  name: коричневый шемаг
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/brownup.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/brownup.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckShemagPurple
+  name: фиолетовый шемаг
+  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/purpledown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/purpledown.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingMaskShemagPurple
+    requiredSlot:
+    - neck
+    slot: mask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskShemagPurple
+  categories: [ HideSpawnMenu ]
+  name: фиолетовый шемаг
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/purpleup.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/purpleup.rsi
+

@@ -100,7 +100,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPClothingHeadHatMaid
-  name: ободок горничной
+  name: чепчик горничной
   description: Элемент одежды, который является неотъемлимой частью любой элитной горничной.
   components:
   - type: Sprite
