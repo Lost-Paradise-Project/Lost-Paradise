@@ -88,6 +88,10 @@
       inverted: true
       species:
         - IPC
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Muted
   components:
     - type: FrontalLisp
 

@@ -1,6 +1,11 @@
 - type: trait
   id: PirateAccent
   category: Speech
+  requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Muted
   components:
     - type: PirateAccent
 
@@ -14,6 +19,10 @@
       jobs:
         - Borg
         - MedicalBorg
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Muted
   components:
     - type: Accentless
       removes:

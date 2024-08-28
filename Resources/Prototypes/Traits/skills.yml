@@ -97,6 +97,8 @@
       inverted: true
       species:
         - Felinid
+        - Borg
+        - MedicalBorg
 
 - type: trait
   id: SignLanguage
@@ -123,6 +125,8 @@
       species:
         - Vulpkanin
         - IPC
+        - Borg
+        - MedicalBorg
 
 - type: trait
   id: ParkourTraining
@@ -138,6 +142,8 @@
       inverted: true
       species:
         - Diona
+        - Borg
+        - MedicalBorg
   components:
     - type: ClimbDelayModifier
       climbDelayMultiplier: 0.70

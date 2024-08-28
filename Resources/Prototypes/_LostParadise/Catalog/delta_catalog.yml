@@ -89,26 +89,6 @@
   categories:
   - LPPDeltaWeapon
 
-#- type: listing
-#  id: LPPDeltaCatalogWeaponIonGunAuto
-#  name: delta-catalog-weapon-iongunauto-name
-#  description: delta-catalog-weapon-iongunauto-desc
-#  productEntity: LPPIonGunAutoUI80
-#  cost:
-#    Telecrystal: 7
-#  categories:
-#  - LPPDeltaWeapon
-
-#- type: listing
-#  id: LPPDeltaCatalogWeaponIonGun
-#  name: delta-catalog-weapon-iongunauto-name
-#  description: delta-catalog-weapon-iongunauto-desc
-#  productEntity: LPPIonGunLV12
-#  cost:
-#    Telecrystal: 7
-#  categories:
-#  - LPPDeltaWeapon
-
 - type: listing
   id: LPPDeltaCatalogWeaponEnergySwordDouble
   name: delta-catalog-weapon-energy-sword-double-name
