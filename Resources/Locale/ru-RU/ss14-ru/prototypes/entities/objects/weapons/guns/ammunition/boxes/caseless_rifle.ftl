@@ -10,3 +10,5 @@ ent-MagazineBoxCaselessRifle = коробка патронов (.25 безгил
     .desc = { ent-BaseMagazineBoxCaselessRifle.desc }
 ent-MagazineBoxCaselessRiflePractice = коробка патронов (.25 безгильзовые учебные)
     .desc = { ent-BaseMagazineBoxCaselessRifle.desc }
+ent-MagazineBoxCaselessRifleRubber = коробка патронов (.25 безгильзовые резиновые)
+    .desc = { ent-BaseMagazineBoxCaselessRifle.desc }

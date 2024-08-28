@@ -1,8 +1,8 @@
 ent-MobXeno = Бурильщик
     .desc = Обычно они приходят ночью. Обычно.
-ent-MobXenoPraetorian = Преторианец
+ent-MobXenoPraetorianNPC = Преторианец
     .desc = { ent-MobXeno.desc }
-ent-MobXenoDrone = Дрон
+ent-MobXenoDroneNPC = Дрон
     .desc = { ent-MobXeno.desc }
 ent-MobXenoQueenNPC = Королева
     .desc = { ent-MobXeno.desc }

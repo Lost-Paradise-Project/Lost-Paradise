@@ -1,3 +1,3 @@
 department-Epistemics = Научный отдел
-department-Logistics = Отдел Логистики
-department-Justice = Отдел Юстиции
+department-Logistics = Отдел логистики
+department-Justice = Отдел юстиции

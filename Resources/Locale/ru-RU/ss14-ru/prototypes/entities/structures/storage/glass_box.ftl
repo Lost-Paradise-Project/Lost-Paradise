@@ -20,6 +20,6 @@ ent-GlassBoxFrame = каркас стеклянного короба
 ent-GlassBoxBroken = разбитый стеклянный короб
     .desc = Разбитая витрина для дорогостоящего экспоната.
     .suffix = Разбитый
-ent-ent-GlassBoxLaserBroken = разбитый стеклянный короб
+ent-GlassBoxLaserBroken = разбитый стеклянный короб
     .desc = Разбитая витрина для дорогостоящего экспоната.
     .suffix = Разбитый
