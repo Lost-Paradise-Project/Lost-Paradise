@@ -10,7 +10,7 @@
 <GuideEntityEmbed Entity="ChemDispenser"/>
 <GuideEntityEmbed Entity="ChemBag"/>
 <GuideEntityEmbed Entity="KitchenReagentGrinder"/>
-<GuideEntityEmbed Entity="ChemMaster"/>
+<GuideEntityEmbed Entity="chem_master"/>
 </Box>
 <Box>
 <GuideEntityEmbed Entity="LargeBeaker"/>

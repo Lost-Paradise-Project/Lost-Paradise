@@ -131,6 +131,7 @@
 <Box>
   <GuideEntityEmbed Entity="ClothingOuterHardsuitEngineering"/>
   <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
+  <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
 </Box>
 
 <Box>
