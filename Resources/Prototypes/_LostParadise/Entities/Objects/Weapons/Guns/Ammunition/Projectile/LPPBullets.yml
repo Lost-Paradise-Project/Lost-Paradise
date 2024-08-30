@@ -114,7 +114,7 @@
   id: LPPBulletLightRifleHunting
   name: Huntingbullet (.30 rifle)
   parent: BaseBullet
-  categories: [ HideSpawnMenu ]
+  nospawn: true
   components:
   - type: Projectile
     damage:

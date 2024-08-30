@@ -42,6 +42,7 @@
       sprite: Mobs/Customization/anytaur_masking_helpers.rsi
       state: unisex_full
       visible: false
+    - map: [ "breast" ]
     - map: [ "jumpsuit" ]
     - map: [ "enum.HumanoidVisualLayers.LHand" ]
       color: "#e8b59b"

@@ -1,6 +1,7 @@
 using Content.Shared.DeltaV.Harpy;
 using Content.Shared.Preferences;
 using Robust.Shared.Prototypes;
+using Content.Shared.Humanoid;
 
 namespace Content.Shared.Roles;
 
@@ -31,6 +32,12 @@ public sealed partial class StartingGearPrototype : IPrototype
     [DataField]
     public Dictionary<string, List<EntProtoId>> Storage = new();
 
+    [DataField("underwear")]
+    private string _underwear = string.Empty;
+
+    [DataField("breast")]
+    private string _breast = string.Empty;
+
     [ViewVariables]
     [IdDataField]
     public string ID { get; private set; } = string.Empty;
@@ -48,6 +55,10 @@ public sealed partial class StartingGearPrototype : IPrototype
                     return Satchel;
                 case "back" when profile.Backpack == BackpackPreference.Duffelbag && !string.IsNullOrEmpty(Duffelbag):
                     return Duffelbag;
+                case "underwear" when profile.Sex == Sex.Female && !string.IsNullOrEmpty(_underwear):
+                    return _underwear;
+                case "breast" when profile.Sex == Sex.Female && !string.IsNullOrEmpty(_breast):
+                    return _breast;
             }
         }
 

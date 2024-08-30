@@ -15,7 +15,6 @@
         Male: MaleTajaran
         Female: FemaleTajaran
         Unsexed: FemaleTajaran
-#    - type: PotentialPsionic
     - type: Carriable
     - type: Hunger
       starvationDamage:

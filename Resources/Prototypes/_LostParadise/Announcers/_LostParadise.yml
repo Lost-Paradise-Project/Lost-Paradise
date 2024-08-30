@@ -1,6 +1,6 @@
 ﻿- type: announcer
   id: NTH # Localized as "announcer-<id>-name" in chat
-  basePath: /Audio/Announcers/_LostParadise # Where to start looking for audio files
+  basePath: /Audio/Announcers/_LostParadise1 # Where to start looking for audio files
   baseAudioParams: # Default audio parameters for all announcements, all options explained in the template announcement
     volume: -7 # If this announcer is really loud, lower it to match the others' volume #? Default is 3
   announcements: # List of all announcements this announcer has audio for #! Comment out unused announcements, don't remove them
@@ -47,10 +47,10 @@
     # Events
     ## Wizard's Den
     ### Mid-Round Antagonists
-#    - id: ninjaHacking # A Ninja is hacking something
-#      path: comms/ninja_hacking.ogg
-#    - id: powersinkExplosion # A power sink is about to overcharge and explode
-#      path: comms/powersink_explosion.ogg
+    - id: ninjaHacking # A Ninja is hacking something
+      path: comms/ninja_hacking.ogg
+    - id: powersinkExplosion # A power sink is about to overcharge and explode
+      path: comms/powersink_explosion.ogg
     ### Events
     - id: anomalySpawn # An anomaly has spawned in a random place
       path: events/anomaly.ogg
@@ -64,10 +64,10 @@
       path: events/bureaucratic_error.ogg
     - id: clericalError # Random crew are removed from the manifest
       path: events/clerical_error.ogg
-#    - id: carpRift # A dragon's carp rift is active
-#      path: events/carp_rift.ogg
-#    - id: revenantSpawn # A revenant has spawned (by a prober?)
-#      path: events/revenant_spawn.ogg
+    - id: carpRift # A dragon's carp rift is active
+      path: events/carp_rift.ogg
+    - id: revenantSpawn # A revenant has spawned (by a prober?)
+      path: events/revenant_spawn.ogg
     - id: gasLeak # A random gas is coming out of a random vent
       path: events/gas_leak.ogg
     - id: gasLeakComplete # Gas has stopped coming out of a vent
@@ -86,8 +86,8 @@
       path: events/power_grid_check.ogg
     - id: powerGridCheckComplete # The station's power is online again
       path: events/power_grid_check-complete.ogg
-#    - id: randomSentience # A random few animals have become sentient
-#      path: events/random_sentience.ogg
+    - id: randomSentience # A random few animals have become sentient
+      path: events/random_sentience.ogg
     - id: solarFlare # A solar flare is nearby, may mess with comms and electronics
       path: events/solar_flare.ogg
     - id: solarFlareComplete # The solar flare has passed
@@ -105,9 +105,9 @@
     ## Delta-V
     - id: xenoVents # Xenomorphs are coming out of vents
       path: events/aliens.ogg
-#    ## NyanoTrasen
-#    - id: noosphericStorm # A large amount of glimmer has joined the station and made people psionic
-#      path: events/noospheric_storm.ogg
+    ## NyanoTrasen
+    - id: noosphericStorm # A large amount of glimmer has joined the station and made people psionic
+      path: events/noospheric_storm.ogg
 
     # Shuttle
     - id: shuttleCalled # The shuttle is on its way

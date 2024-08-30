@@ -110,3 +110,13 @@
       uiWindowPos: 3,0
       strippingWindowPos: 0,4
       displayName: Back
+    - name: breast #LPP slot breast
+      slotTexture: breast
+      slotFlags: BREAST
+      stripTime: 6
+      uiWindowPos: 3,3
+      strippingWindowPos: 3,1
+      displayName: Breast
+      whitelist:
+        tags:
+        - breast
