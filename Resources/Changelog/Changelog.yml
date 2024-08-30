@@ -5701,3 +5701,26 @@ Entries:
         actually block radiation.
   id: 6300
   time: '2024-08-30T14:10:02.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Glacier Returns.
+  id: 6301
+  time: '2024-08-30T14:13:04.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Saltern has been added to the map rotation. Now featuring a compact
+        Supermatter engine, full Epistemics department, and a significantly
+        expanded Chapel and Library.
+  id: 6302
+  time: '2024-08-30T14:24:49.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Core has been added to the list of maps in rotation. This time featuring
+        a custom Supermatter Engine
+  id: 6303
+  time: '2024-08-30T14:42:12.0000000+00:00'
