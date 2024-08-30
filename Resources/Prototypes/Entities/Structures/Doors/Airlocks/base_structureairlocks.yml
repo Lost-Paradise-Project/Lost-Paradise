@@ -109,7 +109,7 @@
   - type: Airtight
     noAirWhenFullyAirBlocked: false
   - type: RadiationBlocker
-    resistance: 3
+    resistance: 5
   - type: Occluder
   - type: Damageable
     damageContainer: StructuralInorganic
@@ -150,6 +150,9 @@
       # This tag is used to nagivate the Airlock construction graph. It's needed because the construction graph is shared between Airlock, AirlockGlass, and HighSecDoor
   - type: PryUnpowered
   - type: BlockWeather
+  - type: InteractionVerbs
+    allowedVerbs:
+    - KnockOn
   placement:
     mode: SnapgridCenter
 
@@ -197,7 +200,7 @@
   - type: PaintableAirlock
     group: Glass
   - type: RadiationBlocker
-    resistance: 2
+    resistance: 1
   - type: Tag
     tags:
       - GlassAirlock
