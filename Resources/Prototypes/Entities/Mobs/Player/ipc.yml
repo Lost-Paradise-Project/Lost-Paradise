@@ -83,6 +83,9 @@
       1: 0.45
       0: 0.00
   - type: BatteryDrinker
+  - type: GuideHelp
+    guides:
+    - IPCs
   - type: EncryptionKeyHolder
     keySlots: 4
     examineWhileLocked: false
