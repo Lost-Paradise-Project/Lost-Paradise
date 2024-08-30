@@ -29,8 +29,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "Laika"
-    description: "Security's resident she-dog. Badger the officers for headpats and nip at the heels of violent offenders."
+    name: "Лайка"
+    description: "Лайка - представитель неопределенной породы, только что появившийся на улице и готовый к драке."
     requirements:
     - !type:DepartmentTimeRequirement
       department: Security

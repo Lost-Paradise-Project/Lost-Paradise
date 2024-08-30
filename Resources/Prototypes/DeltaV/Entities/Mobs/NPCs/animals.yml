@@ -82,8 +82,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "sentient security dog"
-    description: "Help out the security team by biting the baddies and barking at everything that moves."
+    name: "охранная собака"
+    description: "Как ни странно, эта свинья на самом деле собака."
   - type: GhostTakeoverAvailable
   - type: CombatMode
   - type: MovementSpeedModifier

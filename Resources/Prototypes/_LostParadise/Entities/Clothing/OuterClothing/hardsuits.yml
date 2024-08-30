@@ -578,9 +578,9 @@
   description: Научно исследовательский скафандр, разработанный для работы учёных НПЗ, а так же техников в открытом космосе и тяжёлых условиях планет.
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Hardsuits/NPZsciense/body.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/body.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Hardsuits/NPZsciense/body.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/body.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000

@@ -576,6 +576,15 @@
     },
     {
         "name": "sec_eng_door"
+    },
+    {
+        "name": "expeditor_open"
+    },
+    {
+        "name": "expeditor"
+    },
+    {
+          "name": "expeditor_door"
     }
   ]
 }

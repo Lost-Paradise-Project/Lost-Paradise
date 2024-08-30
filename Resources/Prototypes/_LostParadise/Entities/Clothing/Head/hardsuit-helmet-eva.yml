@@ -98,9 +98,9 @@
   description: Шлем от скафандра, довольно полезен и имеет встроенный функционал, по типу определения жидкостей и защиту от сварки.
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Hardsuits/NPZsciense/head.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/head.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Hardsuits/NPZsciense/head.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/head.rsi
   - type: BreathMask
   - type: EyeProtection
   - type: SolutionScanner
