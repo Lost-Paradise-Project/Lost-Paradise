@@ -746,7 +746,7 @@
 
 - type: emote
   id: Whirr # uncategorized as it is generic
-  chatMessages: [ жужжит ]
+  chatMessages: [ жужит ]
   chatTriggers:
     - whirrs
-    - жужжит
+    - жужит
