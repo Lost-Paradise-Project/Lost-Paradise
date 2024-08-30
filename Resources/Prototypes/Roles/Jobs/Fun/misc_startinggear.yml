@@ -35,9 +35,9 @@
     pocket1: SpiderCharge
     pocket2: PinpointerStation
     belt: EnergyKatana
-    suitstorage: OxygenTankFilled
+    suitstorage: JetpackBlackFilled
   inhand:
-    - JetpackBlackFilled
+    - OxygenTankFilled
 
 #Deathsquad Outfit
 - type: startingGear
