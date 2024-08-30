@@ -8,6 +8,9 @@
     },
     "states": [
     {
+      "name": "A"
+    },
+    {
       "name": "B"
     },
     {
@@ -83,17 +86,16 @@
       "name": "Z"
     },
     {
-      "name": "Ä"
+      "name": "AA"
     },
     {
-      "name": "Ö"
+      "name": "OO"
     },
     {
-      "name": "Ü"
+      "name": "UU"
     },
     {
-      "name": "Õ"
+      "name": "OOO"
     }
-
   ]
 }

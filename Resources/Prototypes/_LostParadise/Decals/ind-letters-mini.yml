@@ -1,9 +1,9 @@
-# - type: decal
-#   id: LPPindletterA
-#   tags: ["letter"]
-#   sprite:
-#     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-#     state: A
+- type: decal
+  id: LPPindletterA
+  tags: ["letter"]
+  sprite:
+    sprite: _LostParadise/Decals/ind-letters-mini.rsi
+    state: A
 
 - type: decal
   id: LPPindletterB
@@ -174,30 +174,29 @@
     state: Z
 
 - type: decal
-  id: LPPindletterÜ
+  id: LPPindletterUU
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
     state: Ü
 
 - type: decal
-  id: LPPindletterÕ
+  id: LPPindletterOO
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: Õ
+    state: OO
 
 - type: decal
-  id: LPPindletterÖ
+  id: LPPindletterOOO
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: Ö
+    state: OOO
 
 - type: decal
-  id: LPPindletterÄ
+  id: LPPindletterAA
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: Ä
-
+    state: AA

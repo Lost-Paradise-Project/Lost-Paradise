@@ -29,3 +29,11 @@
 - type: lobbyBackground
   id: Kirashet
   background: /Textures/_LostParadise/LobbyScreens/kirashet.png
+
+- type: lobbyBackground
+  id: DarkMoon
+  background: /Textures/_LostParadise/LobbyScreens/darkmoon.png
+
+- type: lobbyBackground
+  id: BreaddotNukies
+  background: /Textures/_LostParadise/LobbyScreens/breaddot_nukies.png
