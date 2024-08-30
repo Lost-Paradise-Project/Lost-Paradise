@@ -1,3 +1,3 @@
-ent-SyndicateMonitoringServer = { ent.CrewMonitoringServer }
+ent-SyndicateMonitoringServer = { ent-CrewMonitoringServer }
     .suffix = Синдикат
-    .desc = { ent.CrewMonitoringServer.desc }
+    .desc = { ent-CrewMonitoringServer.desc }

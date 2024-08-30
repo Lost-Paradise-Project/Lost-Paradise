@@ -1,64 +1,64 @@
 - type: emote
   id: HarpyRing
   category: Vocal
-  chatMessages: [ rings ]
+  chatMessages: [ журчит ]
   chatTriggers:
-    - rings
+  - rings
 
 - type: emote
   id: HarpyPew
   category: Vocal
-  chatMessages: [ pews ]
+  chatMessages: [ вижит ]
   chatTriggers:
-    - pews
-    - pewpews
+  - pews
+  - pewpews
 
 - type: emote
   id: HarpyBang
   category: Vocal
-  chatMessages: [ bangs ]
+  chatMessages: [ грохочет ]
   chatTriggers:
-    - bangs
+  - bangs
 
 - type: emote
   id: HarpyRev
   category: Vocal
-  chatMessages: [ revs ]
+  chatMessages: [ ревёт ]
   chatTriggers:
-    - revs
+  - revs
 
 - type: emote
   id: HarpyCaw
   category: Vocal
-  chatMessages: [ caws ]
+  chatMessages: [ каркает ]
   chatTriggers:
-    - caws
+  - caws
 
 #Vulpkanin
 - type: emote
   id: Bark
   category: Vocal
-  chatMessages: [ barks ]
+  chatMessages: [ лает ]
   chatTriggers:
-    - barks
+  - barks
 
 - type: emote
   id: Snarl
   category: Vocal
-  chatMessages: [ snarls ]
+  chatMessages: [ рычит ]
   chatTriggers:
-    - snarls
+  - snarls
 
 - type: emote
   id: Whine
   category: Vocal
-  chatMessages: [ whines ]
+  chatMessages: [ скулит ]
   chatTriggers:
-    - whines
+  - whines
 
 - type: emote
   id: Howl
   category: Vocal
-  chatMessages: [ howls ]
+  chatMessages: [ воет ]
   chatTriggers:
-    - howls
+  - howls

@@ -614,6 +614,14 @@
 #     # Corvax-Localization-End
 
 - type: emote
+  id: Boop
+  category: Vocal
+  chatMessages: [ Буп ]
+  chatTriggers:
+    - boops
+    - буп
+
+- type: emote
   id: Chime
   name: chat-emote-name-chime
   category: Vocal
@@ -735,3 +743,10 @@
   - пинг.
   - пинг!
   # Corvax-Localization-End
+
+- type: emote
+  id: Whirr # uncategorized as it is generic
+  chatMessages: [ жужит ]
+  chatTriggers:
+    - whirrs
+    - жужит
