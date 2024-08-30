@@ -44273,8 +44273,6 @@ entities:
       parent: 2
   - uid: 4028
     components:
-    - type: MetaData
-      desc: A pump for removing any gases from the chamber. It would behoove you to remove any N2O from the chamber before opening it.
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -43.5,6.5
@@ -56628,8 +56626,6 @@ entities:
   entities:
   - uid: 2111
     components:
-    - type: MetaData
-      desc: A sign designating the Chief Engineer's office.
     - type: Transform
       pos: 35.5,10.5
       parent: 2

@@ -22,5 +22,6 @@ ent-ReinforcementRadioSyndicateMonkey = рация подкрепления
     .desc = Позовите на помощь специально обученную обезьяну.
 ent-ReinforcementRadioSyndicateMonkeyNukeops = { ent-ReinforcementRadioSyndicateMonkey }
     .desc = { ent-ReinforcementRadioSyndicateMonkey.desc }
+
 # Corvax-HiddenDesc-End
 

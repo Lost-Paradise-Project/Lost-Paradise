@@ -68,8 +68,6 @@
   components:
   - type: StorageFill
     contents:
-      - id: LPPSyringeSpaceacillin
-        amount: 10
 
 - type: entity
   id: LPPClothingBackpackDuffelVirologyCBURNSpaceacillinPill

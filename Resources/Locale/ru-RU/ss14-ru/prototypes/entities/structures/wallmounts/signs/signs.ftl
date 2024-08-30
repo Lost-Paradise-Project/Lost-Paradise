@@ -328,5 +328,5 @@ ent-SignDrones = знак "Дроны"
     .desc = Знак. На нём написано "Дроны".
 ent-SignMinerDock = знак "Док копателей"
     .desc = Знак. На нём написано "Док шахтёров".
-ent-SignShield  = знак щита
+ent-SignShield = знак щита
     .desc = Плакат со щитом.

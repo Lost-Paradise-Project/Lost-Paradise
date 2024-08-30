@@ -48,6 +48,7 @@ petting-failure-raccoon = Вы тянетесь погладить { $target }, 
 petting-failure-dragon = Вы поднимаете руку, но { $target } издаёт рёв, и вы решаете, что не хотите стать кормом для карпов.
 petting-failure-hamster = Вы тянетесь погладить { $target }, но { $target } пытается укусить вас за палец, и только ваши молниеносные рефлексы спасают вас от почти смертельной травмы.
 petting-failure-bear = Вы думаете погладить { $target }, но { $target } рычит, заставляя вас подумать ещё раз.
+petting-failure-pibble = Вы тянетесь погладить { THE($target) }, но { SUBJECT($target) } бросается на тебя!
 
 ## Knocking on windows
 

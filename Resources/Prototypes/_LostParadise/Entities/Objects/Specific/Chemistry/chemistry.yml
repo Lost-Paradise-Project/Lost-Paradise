@@ -36,16 +36,3 @@
         reagents:
         - ReagentId: AmbuzolPlus
           Quantity: 15
-
-- type: entity
-  id: LPPSyringeSpaceacillin
-  name: шприц космоцилинна
-  parent: PrefilledSyringe
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      injector: # This solution name and target volume is hard-coded in ChemMasterComponent
-        maxVol: 15
-        reagents:
-        - ReagentId: Spaceacillin
-          Quantity: 15
