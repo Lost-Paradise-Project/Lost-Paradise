@@ -12,19 +12,6 @@
           Quantity: 30
 
 - type: entity
-  id: PillSpaceacillin
-  name: таблетка космоциллина
-  parent: Pill
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      food: # This solution name and target volume is hard-coded in ChemMasterComponent
-        maxVol: 20
-        reagents:
-        - ReagentId: Spaceacillin
-          Quantity: 20
-
-- type: entity
   id: LPPSyringeAmbuzolPlus
   name: шприц амбузола плюс
   parent: PrefilledSyringe

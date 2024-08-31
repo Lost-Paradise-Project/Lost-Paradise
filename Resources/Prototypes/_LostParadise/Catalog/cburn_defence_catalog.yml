@@ -424,26 +424,6 @@
   - LPPCBURNMedicine
 
 - type: listing
-  id: LPPCBURNCatalogMedicineSpaceacillinSyringe
-  name: cburn-catalog-medicine-spaceacillin-syringe-name
-  description: cburn-catalog-medicine-spaceacillin-syringe-desc
-  productEntity: LPPClothingBackpackDuffelVirologyCBURNSpaceacillinSyringe
-  cost:
-    Telecrystal: 4
-  categories:
-  - LPPCBURNMedicine
-
-- type: listing
-  id: LPPCBURNCatalogMedicineSpaceacillinPill
-  name: cburn-catalog-medicine-spaceacillin-pill-name
-  description: cburn-catalog-medicine-spaceacillin-pill-desc
-  productEntity: LPPClothingBackpackDuffelVirologyCBURNSpaceacillinPill
-  cost:
-    Telecrystal: 5
-  categories:
-  - LPPCBURNMedicine
-
-- type: listing
   id: LPPCBURNCatalogMedicineBiomass
   name: cburn-catalog-medicine-biomass-name
   description: cburn-catalog-medicine-biomass-desc

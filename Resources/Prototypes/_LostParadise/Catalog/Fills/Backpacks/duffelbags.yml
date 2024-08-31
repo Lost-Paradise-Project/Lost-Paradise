@@ -62,24 +62,6 @@
         amount: 5
 
 - type: entity
-  id: LPPClothingBackpackDuffelVirologyCBURNSpaceacillinSyringe
-  name: Вирусологический вещмешок
-  parent: ClothingBackpackDuffelVirology
-  components:
-  - type: StorageFill
-    contents:
-
-- type: entity
-  id: LPPClothingBackpackDuffelVirologyCBURNSpaceacillinPill
-  name: Вирусологический вещмешок
-  parent: ClothingBackpackDuffelVirology
-  components:
-  - type: StorageFill
-    contents:
-      - id: PillSpaceacillin
-        amount: 5
-
-- type: entity
   id: LPPBackpackDuffelC4Delta
   name: Вещмешок с С4
   description: Содержит 9 единиц взрывчатки типа С4
