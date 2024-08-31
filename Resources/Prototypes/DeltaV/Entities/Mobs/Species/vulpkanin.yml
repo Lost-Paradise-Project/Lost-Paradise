@@ -101,6 +101,9 @@
       Female: FemaleVulpkanin
       Unsexed: MaleVulpkanin
   - type: DogVision
+  - type: Tag
+    tags:
+    - HidesTail
   - type: ScentTracker
   - type: Flashable
     eyeDamageChance: 0.3

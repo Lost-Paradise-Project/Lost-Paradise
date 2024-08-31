@@ -15,6 +15,7 @@
     - MonkeyWearable
     - WhitelistChameleon
     - HidesHarpyWings
+    - HidesTail
 
 #Syndicate EVA
 - type: entity
@@ -33,6 +34,7 @@
     - MonkeyWearable
     - WhitelistChameleon
     - HidesHarpyWings
+    - HidesTail
 
 #Emergency EVA
 - type: entity
@@ -75,6 +77,7 @@
     - MonkeyWearable
     - WhitelistChameleon
     - HidesHarpyWings
+    - HidesTail
 
 #NTSRA Voidsuit / Ancient Voidsuit
 - type: entity

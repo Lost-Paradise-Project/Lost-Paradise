@@ -450,6 +450,7 @@
     tags:
     - WhitelistChameleon
     - HighRiskItem
+    - HidesTail
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitRd
   - type: StaticPrice
@@ -568,6 +569,7 @@
     - Hardsuit
     - WhitelistChameleon
     - HidesHarpyWings
+    - HidesTail
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 
@@ -589,6 +591,7 @@
     - Hardsuit
     - WhitelistChameleon
     - HidesHarpyWings
+    - HidesTail
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 
@@ -911,6 +914,7 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
+    - HidesTail
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 

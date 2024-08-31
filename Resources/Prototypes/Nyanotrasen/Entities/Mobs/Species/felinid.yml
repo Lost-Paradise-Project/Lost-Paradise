@@ -65,6 +65,9 @@
       Unsexed: MaleFelinid
   - type: Felinid
   - type: NoShoesSilentFootsteps
+  - type: Tag
+    tags:
+    - HidesTail
   - type: LanguageKnowledge
     speaks:
     - GalacticCommon
