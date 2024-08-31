@@ -32,7 +32,7 @@ interaction-WaveAt-success-self-popup =
     }
 interaction-WaveAt-success-target-popup =
     { THE($user) } машет { $hasUsed ->
-        [false] at youвам.
+        [false] вам.
        *[true] { POSS-PRONOUN($user) } { $used } вам.
     }
 interaction-WaveAt-success-others-popup =

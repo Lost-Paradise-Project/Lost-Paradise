@@ -1,5 +1,5 @@
 ﻿- type: soundCollection
   id: NTHWelcome
   files:
-    - /Audio/Announcers/_LostParadise1/comms/welcome1.ogg
-    - /Audio/Announcers/_LostParadise1/comms/welcome2.ogg
+    - /Audio/Announcers/_NTH/comms/welcome1.ogg
+    - /Audio/Announcers/_NTH/comms/welcome2.ogg

@@ -1,6 +1,6 @@
 ﻿- type: announcer
   id: NTH # Localized as "announcer-<id>-name" in chat
-  basePath: /Audio/Announcers/_LostParadise1 # Where to start looking for audio files
+  basePath: /Audio/Announcers/_NTH # Where to start looking for audio files
   baseAudioParams: # Default audio parameters for all announcements, all options explained in the template announcement
     volume: -7 # If this announcer is really loud, lower it to match the others' volume #? Default is 3
   announcements: # List of all announcements this announcer has audio for #! Comment out unused announcements, don't remove them
