@@ -1,6 +1,6 @@
-ent-LPPHardsuitAssaultParamedic = Скафандр штурмового медицинского офицера
+ent-LPPHardsuitAssaultParamedic = Скафандр штурмового парамедика
     .desc = Защитный скафандр, используемый штурмовыми парамедиками в спасательных операциях. Произведен корпорацией Paradise inc совместно с Nanotrasen в рамках контракта по улучшению здравоохранения сотрудников NT.
-ent-LPPHardsuitHelmetAssaultParamedic = Шлем cкафандра штурмового медицинского офицера
+ent-LPPHardsuitHelmetAssaultParamedic = Шлем cкафандра штурмового парамедика
 ent-LPPHardsuitSuppressor = Улучшенная силовая броня
     .desc = Улучшенная силовая броня созданная корпорацией Red Metal Machine совместно с NanoTrasen для нового поколения космодесанта ТСФ.Очень дорогой, очень тяжелый, очень робастный.
 ent-LPPHardsuitHelmetSuppressor = Шлем улучшенной силовой брони
