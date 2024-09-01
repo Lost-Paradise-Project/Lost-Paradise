@@ -1,5 +1,5 @@
-ent-ClothingShoesBootsRyuzo = rugged fur boots
-    .desc = These would be perfect for chilly winter walks out in the forests - if they still existed, that is.
+ent-ClothingShoesBootsRyuzo = массивные меховые сапоги
+    .desc = Они идеально подойдут для зимних прогулок по лесам - если бы они еще существовали.
     .suffix = АДМЕМЫ, НЕ МАППИТЬ
 ent-ClothingShoesBootsFishing = рыболовные сапоги
     .desc = Воняют рыбой!

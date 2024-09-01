@@ -156,3 +156,5 @@ ent-ReagentGrinderIndustrialMachineCircuitboard = промышленный из�
     .desc = { ent-BaseMachineCircuitboard.desc }
 ent-CutterMachineCircuitboard = плиткорез (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
+ent-TraversalDistorterMachineCircuitboard = плата устройства искажающего обхода
+    .desc = Машинная печатная плата для устройства искажающего обхода.

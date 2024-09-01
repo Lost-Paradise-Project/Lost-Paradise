@@ -26,6 +26,8 @@
         Radiation: 0.10
   - type: ToggleableClothing
     clothingPrototype: LPPArmorMovementHead
+  - type: StaminaDamageResistance
+    coefficient: 0.7
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -54,8 +56,14 @@
         Caustic: 0.1
         Shock: 0.1
         Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitIIC
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -86,6 +94,8 @@
     damageCoefficient: 0.2
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitNightGuard
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -101,8 +111,8 @@
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 10000
   - type: ClothingSpeedModifier
-    walkModifier: 0.6
-    sprintModifier: 0.55
+    walkModifier: 0.85
+    sprintModifier: 0.7
   - type: Armor
     modifiers:
       coefficients:
@@ -116,6 +126,8 @@
     damageCoefficient: 0.4
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitSWAT
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -131,8 +143,8 @@
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 10000
   - type: ClothingSpeedModifier
-    walkModifier: 1.
-    sprintModifier: 1.
+    walkModifier: 1.0
+    sprintModifier: 1.0
   - type: Armor
     modifiers:
       coefficients:
@@ -142,6 +154,8 @@
     damageCoefficient: 0.95
   - type: ToggleableClothing
     clothingPrototype: LPPHardsuitHelmetAssaultParamedic
+  - type: StaminaDamageResistance
+    coefficient: 0.95
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -181,6 +195,8 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitLoneMercenary
   - type: BiocodedClothing
+  - type: StaminaDamageResistance
+    coefficient: 0.5
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -209,6 +225,8 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitSecurityPilot
+  - type: StaminaDamageResistance
+    coefficient: 0.7
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -239,6 +257,8 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSecurity
+  - type: StaminaDamageResistance
+    coefficient: 0.7
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -268,6 +288,8 @@
     damageCoefficient: 0.4
   - type: ToggleableClothing
     clothingPrototype: LPPHardsuitHelmetSuppressor
+  - type: StaminaDamageResistance
+    coefficient: 0.2
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -301,6 +323,8 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetMikhelm
+  - type: StaminaDamageResistance
+    coefficient: 0.8
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -331,6 +355,8 @@
     damageCoefficient: 0.2
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitChrono
+  - type: StaminaDamageResistance
+    coefficient: 0.05
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -360,6 +386,8 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.85
+  - type: StaminaDamageResistance
+    coefficient: 0.65
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -388,11 +416,15 @@
         Caustic: 0.1
         Shock: 0.1
         Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
   - type: ExplosionResistance
-    damageCoefficient: 0.15
+    damageCoefficient: 0.2
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitIICPyrotech
   - type: BiocodedClothing
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -421,9 +453,15 @@
         Caustic: 0.1
         Shock: 0.1
         Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitIICMedic
   - type: BiocodedClothing
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -452,9 +490,15 @@
         Caustic: 0.1
         Shock: 0.1
         Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitIICCommand
   - type: BiocodedClothing
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -483,14 +527,20 @@
         Caustic: 0.1
         Shock: 0.1
         Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitIICEngineer
   - type: BiocodedClothing
+  - type: StaminaDamageResistance
+    coefficient: 0.3
 
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitRND
-  name: Научно Исследовательский Скафандр "НИС"
+  name: Научно Исследовательский Скафандр НИС
   description: Защитный скафандр, разработанный головастиками из отдела НИО, лёгкий для производства, а так же предоставляющий, в целом, хорошую защиту от разных внешних факторов, что можно встретить при работе в НИО.
   components:
   - type: Sprite
@@ -512,9 +562,45 @@
         Radiation: 0.25
         Shock: 0.5
         Cold: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetRND
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitScienceNPZ
+  name: НИС НПЗ
+  description: Научно исследовательский скафандр, разработанный для работы учёных НПЗ, а так же техников в открытом космосе и тяжёлых условиях планет.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/body.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/body.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Caustic: 0.2
+        Heat: 0.7
+        Radiation: 0.1
+        Shock: 0.5
+        Cold: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetScienceNPZ

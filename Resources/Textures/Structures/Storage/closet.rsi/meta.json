@@ -32,12 +32,6 @@
       "name": "brigmedic_door"
     },
     {
-      "name": "sec_engi"
-    },
-    {
-      "name": "sec_eng_door"
-    },
-    {
       "name": "brigmedic"
     },
     {
@@ -576,6 +570,21 @@
     },
     {
       "name": "representative_door"
+    },
+    {
+        "name": "sec_engi"
+    },
+    {
+        "name": "sec_eng_door"
+    },
+    {
+        "name": "expeditor_open"
+    },
+    {
+        "name": "expeditor"
+    },
+    {
+          "name": "expeditor_door"
     }
   ]
 }

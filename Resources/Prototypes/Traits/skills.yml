@@ -97,6 +97,11 @@
       inverted: true
       species:
         - Felinid
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Borg
+        - MedicalBorg
 
 - type: trait
   id: SignLanguage
@@ -123,6 +128,11 @@
       species:
         - Vulpkanin
         - IPC
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Borg
+        - MedicalBorg
 
 - type: trait
   id: ParkourTraining
@@ -138,6 +148,11 @@
       inverted: true
       species:
         - Diona
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Borg
+        - MedicalBorg
   components:
     - type: ClimbDelayModifier
       climbDelayMultiplier: 0.70
@@ -175,7 +190,7 @@
 - type: trait
   id: LatentPsychic
   category: Mental
-  points: -6
+  points: -4
   components:
     - type: Psionic
   requirements:
@@ -192,3 +207,52 @@
       inverted: true
       species:
         - IPC
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - PsionicInsulation
+
+- type: trait
+  id: PsionicInsulation
+  category: Mental
+  points: -14 #Buy a significant disability to get this.
+  components:
+    - type: PsionicInsulation
+    - type: Mindbroken
+  requirements:
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Borg
+        - MedicalBorg
+        - ResearchDirector
+        - ForensicMantis
+        - Chaplain
+        - Librarian
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Uncloneable
+        - LatentPsychic
+
+- type: trait
+  id: NaturalTelepath
+  category: Mental
+  points: -2
+  psionicPowers:
+    - TelepathyPower
+  requirements:
+    - !type:CharacterTraitRequirement
+      traits:
+        - LatentPsychic
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+        - ForensicMantis
+        - Chaplain
+        - Librarian

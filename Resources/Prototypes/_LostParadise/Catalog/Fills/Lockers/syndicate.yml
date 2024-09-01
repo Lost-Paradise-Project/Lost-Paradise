@@ -23,8 +23,8 @@
         amount: 3
       - id: ClothingHeadsetAltSyndicate
         amount: 3
-      - id: LPPBoxFolderSyndicate
-        amount: 3
+#      - id: LPPBoxFolderSyndicate
+#        amount: 3
 
 - type: entity
   id: LockerHeadOfSecuritySyndicateFilledHardsuit
@@ -217,5 +217,5 @@
       - id: ClothingEyesHudSecurity
       - id: HoloprojectorSecurity
         prob: 0.6
-      - id: BookSpaceLaw
-        prob: 0.5
+#      - id: BookSpaceLaw
+#        prob: 0.5

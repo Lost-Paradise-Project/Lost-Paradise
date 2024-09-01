@@ -1,0 +1,254 @@
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitLeaderNFSD
+  name: элитный скафандр НПЗ
+  description: Прототип новой линейки скафандров НПЗ. Мобильность, отражение пуль, защита от крайне высокого давления и всё это в ВАШИХ руках. Ксенофобия идёт в комплекте.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/upgradednfsd/upgrlead.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/upgradednfsd/upgrlead.rsi
+  - type: Item
+    size: Huge
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.35
+        Slash: 0.35
+        Piercing: 0.4
+        Caustic: 0.2
+        Heat: 0.5
+        Radiation: 0.2
+  - type: Reflect
+    enabled: true
+    reflectProb: 0.15
+    spread: 100
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingOuterHardsuitHelmetLeaderNFSD
+  - type: StaticPrice
+    price: 350
+  - type: StaminaDamageResistance
+    coefficient: 0.3
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: LPPClothingOuterHardsuitHelmetLeaderNFSD
+  name: шлем элитного скафандра шерифа
+  description: Пархай как бабочка, жаль, что ты уже мёртв, жалкий ксенос!
+  noSpawn: true
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/upgradednfsd/upgrleadhelmet.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/upgradednfsd/upgrleadhelmet.rsi
+  - type: PointLight
+    color: white
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.8
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: LPPClothingOuterArmoradvancedNPZ
+  name: комплект защиты НПЗ
+  description: Комплект из бронеэлементов, защищающие жизненно важные органы, а так же конечности носителя.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/upgbulletproof.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/upgbulletproof.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.55
+        Piercing: 0.4
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: StaminaDamageResistance
+    coefficient: 0.8
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitNPZ
+  name: скафандр НПЗ
+  description: Стандартный скафандр войск Нового Правительства Земли, удобен и надёжен.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZtrooper/hard.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZtrooper/hard.rsi
+  - type: Item
+    size: Huge
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Caustic: 0.5
+        Heat: 0.55
+        Radiation: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingOuterHardsuitHelmetNPZ
+  - type: StaticPrice
+    price: 350
+  - type: StaminaDamageResistance
+    coefficient: 0.7
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: LPPClothingOuterHardsuitHelmetNPZ
+  name: шлем скафандра НПЗ
+  description: Пархай как бабочка, жаль, что ты уже мёртв, жалкий ксенос!
+  noSpawn: true
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZtrooper/helm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZtrooper/helm.rsi
+  - type: PointLight
+    color: white
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+        Radiation: 0.8
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitSpecopsNPZ
+  name: скафандр спецподразделения НПЗ
+  description: Модифицированный вариант стандартного скафандра НПЗ, предоставляет мобильность, крепкость, а так же хорошую защиту от всевозможных видов урона.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZspecops/hard.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZspecops/hard.rsi
+  - type: Item
+    size: Huge
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.35
+        Caustic: 0.2
+        Heat: 0.4
+        Radiation: 0.2
+  - type: Reflect
+    enabled: true
+    reflectProb: 0.1
+    spread: 100
+  - type: ClothingSpeedModifier
+    walkModifier: 1.1
+    sprintModifier: 1.05
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingOuterHardsuitHelmetSpecopsNPZ
+  - type: StaticPrice
+    price: 350
+  - type: StaminaDamageResistance
+    coefficient: 0.55
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: LPPClothingOuterHardsuitHelmetSpecopsNPZ
+  name: шлем спецподразделения НПЗ
+  description: Пархай как бабочка, жаль, что ты уже мёртв, жалкий ксенос!
+  noSpawn: true
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZspecops/helm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZspecops/helm.rsi
+  - type: PointLight
+    color: white
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.8
+        Radiation: 0.6
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterCoatNPZ
+  name: куртка с символикой НПЗ
+  description: Лёгкая нейлоновая куртка с яркими неоновыми полосками и принтом на спине, а так же карманами.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/NPZcoat.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/NPZcoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: LPPClothingOuterArmorNPZ
+  name: бронежилет с символикой НПЗ
+  description: Бронежилет с опознавательными элементами НПЗ.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/NPZarmorvest.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/NPZarmorvest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Heat: 0.65
+  - type: ExplosionResistance
+    damageCoefficient: 0.7

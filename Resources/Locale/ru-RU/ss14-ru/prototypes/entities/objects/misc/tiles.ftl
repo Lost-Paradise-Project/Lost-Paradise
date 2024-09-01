@@ -194,3 +194,7 @@ ent-FloorTileItemAstroSnow = астро-снег
     .desc = Искусственный снег, такой же пушистый, как настоящий, и при этом легко снимается!
 ent-FloorTileItemWoodLarge = большой деревянный пол
     .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemReinforced = армированная плитка
+    .desc = { ent-FloorTileItemBase.desc }
+ent-FloorTileItemPavementVertical = белая плитка в белую клетку
+    .desc = { ent-FloorTileItemBase.desc }

@@ -7,5 +7,3 @@ ghost-role-information-listeningop-rules = Вы - оперативник Син�
 ghost-role-information-paradox-anomaly-name = Парадоксальная аномалия
 ghost-role-information-paradox-anomaly-description = Замените своего двойника или подружитесь с ним.
 ghost-role-information-paradox-anomaly-rules = Попробуйте заменить своего близнеца этим забавным ролевым антагом, вместо того чтобы заливать станцию плазмой или что-то в этом роде. Вы также можете просто подружиться с ними.ghost-role-information-paradox-anomaly-name = Paradox Anomaly
-ghost-role-information-paradox-anomaly-description = Replace your double, or befriend them.
-ghost-role-information-paradox-anomaly-rules = Try and replace your twin with this funny roleplay antag rather than plasma flooding the station or something. You can also just befriend them.

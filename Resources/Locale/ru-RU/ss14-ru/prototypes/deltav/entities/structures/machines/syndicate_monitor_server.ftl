@@ -1,2 +1,3 @@
-ent-SyndicateMonitoringServer = подозрительный сервер мониторинга экипажа
-    .desc = Получает и передает статус всех активных сэнсоров.
+ent-SyndicateMonitoringServer = { ent-CrewMonitoringServer }
+    .suffix = Синдикат
+    .desc = { ent-CrewMonitoringServer.desc }

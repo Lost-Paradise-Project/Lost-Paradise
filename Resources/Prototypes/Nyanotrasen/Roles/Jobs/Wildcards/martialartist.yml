@@ -35,5 +35,9 @@
     ears: ClothingHeadsetService
     shoes: ClothingShoesGeta
     gloves: ClothingHandsGlovesBoxingRed
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

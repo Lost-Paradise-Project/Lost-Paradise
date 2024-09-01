@@ -232,6 +232,14 @@
   - type: Thieving
     stripTimeReduction: 1
   - type: NinjaGloves
+  # Corvax-HiddenDesc-Start
+  - type: HiddenDescription
+    entries:
+    - label: corvax-hidden-desc-ThievingGloves-thief
+      whitelistMind:
+        components:
+        - ThiefRole
+# Corvax-HiddenDesc-End
 
 - type: entity
   parent: ClothingHandsGlovesColorBlack
@@ -239,6 +247,8 @@
   name: combat gloves
   description: These tactical gloves are fireproof and shock resistant.
   components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/combat.rsi
   - type: Insulated
   - type: Fiber
     fiberMaterial: fibers-insulative
@@ -331,6 +341,19 @@
     tags: [] # ignore "WhitelistChameleon" tag
   - type: Thieving
     stripTimeReduction: 1.5
+  # Corvax-HiddenDesc-Start
+  - type: HiddenDescription
+    entries:
+    - label: corvax-hidden-desc-ThievingGloves-syndicate
+      whitelistMind:
+        components:
+        - TraitorRole
+        - NukeOperative
+    - label: corvax-hidden-desc-ThievingGloves-thief
+      whitelistMind:
+        components:
+        - ThiefRole
+# Corvax-HiddenDesc-End
 
 - type: entity
   parent: ClothingHandsGlovesColorWhite

@@ -31,6 +31,8 @@
     clothingPrototype: LPPClothingHeadHelmetDetectiveHardsuit
   - type: StaticPrice
     price: 350
+  - type: StaminaDamageResistance
+    coefficient: 0.7
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase

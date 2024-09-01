@@ -708,6 +708,9 @@
   id: HidesBeard # for full coverage helmet / masks where beard shouldn't show
 
 - type: Tag
+  id: HidesTail # Protecc the tails!
+
+- type: Tag
   id: HighRiskItem
 
 - type: Tag

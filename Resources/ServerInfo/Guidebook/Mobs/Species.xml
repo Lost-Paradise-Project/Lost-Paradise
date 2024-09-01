@@ -15,9 +15,8 @@
   <GuideEntityEmbed Entity="MobVulpkanin" Caption="Вульпканин"/>
   <GuideEntityEmbed Entity="MobSlimePerson" Caption="Слаймолюд"/>
   </Box>
-  
-  # Parkstation specific species
+
   <Box>
-  <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
+  <GuideEntityEmbed Entity="MobIPCDummy" Caption="К.П.Б."/>
   </Box>
 </Document>

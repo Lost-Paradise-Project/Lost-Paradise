@@ -1,2 +1,2 @@
-ent-Gavel = gavel
-    .desc = A hardwood mallet made to keep order in the court.
+ent-Gavel = Молоток правосудия
+    .desc = Молоток из твердой древесины, предназначенный для поддержания порядка во дворе.

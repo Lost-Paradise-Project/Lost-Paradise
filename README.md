@@ -62,3 +62,5 @@
 [Пример](./Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 
 Обратите внимание, что некоторый контент лицензирован в соответствии с некоммерческой лицензией. [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) или аналогичные некоммерческие лицензии, и их необходимо будет удалить, если вы захотите использовать этот проект в коммерческих целях.
+
+Please read the [LEGAL.md](./LEGAL.md) file for information on the licenses of the code and assets in this repository.

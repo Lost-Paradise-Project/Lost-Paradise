@@ -1,2 +1,2 @@
-ent-ShellSoulbreaker = патрон (.50 подавитель души)
+ent-ShellSoulbreaker = патрон (.50 душегуб)
     .desc = { ent-BaseShellShotgun.desc }

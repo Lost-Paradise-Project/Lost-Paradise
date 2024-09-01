@@ -10,6 +10,7 @@
   - type: Clothing
     sprite: _LostParadise/Clothing/Head/Helmets/acienthelmsyndieeva.rsi
   - type: BreathMask
+  - type: EyeProtection
   - type: PointLight
     color: "green"
   - type: PressureProtection
@@ -33,7 +34,7 @@
   id: LPPClothingHeadHelmetHunter
   noSpawn: true
   name: шлем древнего скафандра Охотника (защитный)
-  description: Крайне комфорнтый шлем, что позволяет вам защититься от морозной погоды. он в защитном.
+  description: Крайне комфорнтый шлем, что позволяет вам защититься от морозной погоды. он в защитном режиме.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Helmets/winterhardsuithelm.rsi
@@ -62,7 +63,7 @@
   parent: ClothingHeadHardsuitBase
   id: LPPClothingHeadHelmetRND
   noSpawn: true
-  name: шлем "НИС"
+  name: шлем НИС
   description: Шлем от скафандра НИС, довольно полезен и имеет встроенный функционал, по типу определения жидкостей и защиту от сварки, из-за чего довольно громозок.
   components:
   - type: Sprite
@@ -86,5 +87,33 @@
         Piercing: 0.95
         Heat: 0.95
         Radiation: 0.8
+  - type: TemperatureProtection
+    coefficient: 0.005
+
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: LPPClothingHeadHelmetScienceNPZ
+  noSpawn: true
+  name: шлем научного скафандра НПЗ
+  description: Шлем от скафандра, довольно полезен и имеет встроенный функционал, по типу определения жидкостей и защиту от сварки.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/head.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/head.rsi
+  - type: BreathMask
+  - type: EyeProtection
+  - type: SolutionScanner
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
+        Radiation: 0.3
   - type: TemperatureProtection
     coefficient: 0.005

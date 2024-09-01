@@ -6,4 +6,4 @@ ent-LPPSpawnPointVirologist = спавнер вирусолога
     .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnLPPParamdedic = спавн медицинского офицера
     .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = { "job Spawn" }
+    .suffix = { "спавнер роли" }

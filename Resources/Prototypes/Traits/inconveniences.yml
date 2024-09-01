@@ -46,6 +46,7 @@
       inverted: true
       traits:
         - Foreigner
+        - Muted
   components:
     - type: ForeignerTrait
       cantUnderstand: false # Allows to understand
@@ -60,6 +61,7 @@
       inverted: true
       traits:
         - ForeignerLight
+        - Muted
   components:
     - type: ForeignerTrait
       baseTranslator: TranslatorForeigner

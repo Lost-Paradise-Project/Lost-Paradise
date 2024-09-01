@@ -23,3 +23,7 @@ ent-DrinkOatMilkCarton = овсяное молоко
     .desc = Бежевое и питательное удовольствие!
 ent-DrinkJuiceLemonCarton = лимонный сок
     .desc = На первый глоток он кислит, а затем всё равно кислит.
+ent-DrinkMilkCartonMini = Мини молоко
+    .desc = Жидкость, произведённая заботливой мамочкой :3
+ent-DrinkMilkCartonMiniChocolate = Мини шоколадное молоко
+    .desc = Молоко со вкусом какао, прямо из чернокожей коровки! Или бычка...

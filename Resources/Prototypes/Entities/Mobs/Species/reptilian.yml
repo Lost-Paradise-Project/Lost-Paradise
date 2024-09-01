@@ -59,6 +59,9 @@
       types:
         Heat : 1.5 #per second, scales with temperature & other constants
   - type: Wagging
+  - type: Tag
+    tags:
+    - HidesTail
   - type: LanguageKnowledge
     speaks:
     - GalacticCommon

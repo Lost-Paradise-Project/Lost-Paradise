@@ -19,7 +19,10 @@
     pocket1: Brutepack
     pocket2: GlowstickBase
     belt: ClothingBeltMedical
-
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
 
 - type: startingGear
   id: OldstationGuard
@@ -29,6 +32,10 @@
     id: SecurityIDCard
     pocket1: Flash
     pocket2: GlowstickBase
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
 
 - type: startingGear
   id: OldstationEngi
@@ -41,6 +48,10 @@
     pocket1: EmergencyOxygenTankFilled
     pocket2: GlowstickBase
     belt: ClothingBeltUtility
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
 
 - type: startingGear
   id: OldstationScientist
@@ -50,6 +61,10 @@
     id: ResearchIDCard
     pocket1: Pen
     pocket2: GlowstickBase
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
 
 #Syndicate Pirate Radio Listener
 
@@ -62,6 +77,10 @@
     gloves: ClothingHandsGlovesCombat
     shoes: ClothingShoesSlippers
     id: SyndiListeningPostPDA
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
   innerClothingSkirt: ClothingUniformJumpsuitPyjamaSyndicatePink
 
 # Mobsters
@@ -77,6 +96,10 @@
     outerClothing: ClothingOuterArmorBasicSlim
     id: PassengerPDA
     belt: ClothingBeltHolster
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
   innerClothingSkirt: ClothingUniformJumpsuitSuitBlackMob
   satchel: ClothingBackpackMafiaFilled
   duffelbag: ClothingBackpackMafiaFilled
@@ -93,6 +116,10 @@
     id: PassengerPDA
     belt: ClothingBeltSuspendersBlack
     pocket1: CombatKnife
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
   innerClothingSkirt: ClothingUniformJumpsuitSuitBrown
   satchel: ClothingBackpackMafiaFilled
   duffelbag: ClothingBackpackMafiaFilled

@@ -18,6 +18,10 @@ ent-ReinforcementRadioSyndicateCyborgAssault = { ent-ReinforcementRadioSyndicate
     .suffix = радио подкрепления штурмового киборга Синдиката
     .desc = Призовите хорошо вооружённого штурмового киборга, немедленно!
     .suffix = Ядерные оперативники
+ent-ReinforcementRadioSyndicateMonkey = рация подкрепления
+    .desc = Позовите на помощь специально обученную обезьяну.
+ent-ReinforcementRadioSyndicateMonkeyNukeops = { ent-ReinforcementRadioSyndicateMonkey }
+    .desc = { ent-ReinforcementRadioSyndicateMonkey.desc }
 
 # Corvax-HiddenDesc-End
 

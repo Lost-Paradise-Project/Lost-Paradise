@@ -8,6 +8,10 @@
     id: MailCarrierPDA
     ears: ClothingHeadsetCargo
     belt: CourierBag
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
   innerClothingSkirt: ClothingUniformSkirtCourier
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

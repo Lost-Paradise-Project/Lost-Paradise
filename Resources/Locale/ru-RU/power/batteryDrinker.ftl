@@ -1,2 +1,2 @@
-battery-drinker-verb-drink = Слить
-battery-drinker-empty = { CAPATALIZE(THE($target)) } уже заряжен!
+battery-drinker-verb-drink = Высосать энергию
+battery-drinker-empty = { CAPATALIZE(THE($target)) } уже пуст!

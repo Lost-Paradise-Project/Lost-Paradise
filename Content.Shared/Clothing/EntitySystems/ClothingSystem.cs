@@ -21,6 +21,7 @@ public abstract class ClothingSystem : EntitySystem
     [Dependency] private readonly InventorySystem _invSystem = default!;
     [Dependency] private readonly SharedHandsSystem _handsSystem = default!;
     [Dependency] private readonly SharedContainerSystem _containerSys = default!;
+    [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
 
     [ValidatePrototypeId<TagPrototype>]
     private const string HairTag = "HidesHair";
@@ -31,6 +32,9 @@ public abstract class ClothingSystem : EntitySystem
     [ValidatePrototypeId<TagPrototype>]
 
     private const string BeardTag = "HidesBeard";
+
+    [ValidatePrototypeId<TagPrototype>]
+    private const string TailTag = "HidesTail";
 
     public override void Initialize()
     {
@@ -145,6 +149,11 @@ public abstract class ClothingSystem : EntitySystem
             ToggleVisualLayer(args.Equipee, HumanoidVisualLayers.Snout, NoseTag);
         if ((new string[] { "mask", "head" }).Contains(args.Slot) && _tagSystem.HasTag(args.Equipment, BeardTag))
             ToggleVisualLayer(args.Equipee, HumanoidVisualLayers.FacialHair, BeardTag);
+        if ((new string[] { "outerClothing" }).Contains(args.Slot) && _tagSystem.HasTag(args.Equipee, TailTag) && _tagSystem.HasTag(args.Equipment, TailTag))
+        {
+            _humanoidSystem.SetLayerVisibility(args.Equipee, HumanoidVisualLayers.Tail, false);
+            TryComp(args.Equipee, out AppearanceComponent? appearance);
+        }
     }
 
     protected virtual void OnGotUnequipped(EntityUid uid, ClothingComponent component, GotUnequippedEvent args)
@@ -156,6 +165,11 @@ public abstract class ClothingSystem : EntitySystem
             ToggleVisualLayer(args.Equipee, HumanoidVisualLayers.Snout, NoseTag);
         if ((new string[] { "mask", "head" }).Contains(args.Slot) && _tagSystem.HasTag(args.Equipment, BeardTag))
             ToggleVisualLayer(args.Equipee, HumanoidVisualLayers.FacialHair, BeardTag);
+        if ((new string[] { "outerClothing" }).Contains(args.Slot) && _tagSystem.HasTag(args.Equipee, TailTag) && _tagSystem.HasTag(args.Equipment, TailTag))
+        {
+            _humanoidSystem.SetLayerVisibility(args.Equipee, HumanoidVisualLayers.Tail, true);
+            TryComp(args.Equipee, out AppearanceComponent? appearance);
+        }
     }
 
     private void OnGetState(EntityUid uid, ClothingComponent component, ref ComponentGetState args)

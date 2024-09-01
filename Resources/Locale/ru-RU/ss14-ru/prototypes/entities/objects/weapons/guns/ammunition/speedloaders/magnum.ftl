@@ -12,3 +12,5 @@ ent-SpeedLoaderMagnumAP = спидлоадер (.45 магнум бронебо�
     .desc = { ent-BaseSpeedLoaderMagnum.desc }
 ent-SpeedLoaderMagnumUranium = спидлоадер (.45 магнум урановые)
     .desc = { ent-BaseSpeedLoaderMagnum.desc }
+ent-SpeedLoaderMagnumRubber = спидлоадер (.45 магнум резиновые)
+    .desc = { ent-BaseSpeedLoaderMagnum.desc }

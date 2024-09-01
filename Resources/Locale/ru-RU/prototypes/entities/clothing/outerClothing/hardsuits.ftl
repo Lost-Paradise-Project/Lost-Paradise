@@ -76,7 +76,7 @@ ent-ClothingOuterHardsuitRd = Научный скафандр NT-45e - "Sophia"
     .desc =
         Новейшый продукт отдела разработок Nanotrasen. Отметки на скафандре соответствуют высшей степени защиты от взрывов, нагрева и радиации.
         Способен складываться для переноса в рюкзаке. Выглядит крайне тяжёлым.
-ent-ClothingOuterHardsuitMystagogue = NT-45e - "Sophia" research hardsuit
+ent-ClothingOuterHardsuitMystagogue = скафандр Научного Директора
     .desc = { ent-ClothingOuterHardsuitRd.desc }
 ent-ClothingOuterHardsuitSecurityRed = Тактический скафандр FPA-98s - "Dayicin"
     .desc =
@@ -142,7 +142,7 @@ ent-ClothingOuterHardsuitERTLeader = Тактический скафандр NT-
     .desc =
         Крайне продвинутый тактический скафандр предназначенный для командования ОБР, имеет логотип Nanotrasen и серийный номер.
         Броня скафандра укреплена сверхпрочным сплавом, помимо этого он почти ничего не весит.
-ent-ClothingOuterHardsuitERTEngineer =Скафандр NT-444e - "Uriel"
+ent-ClothingOuterHardsuitERTEngineer = Скафандр NT-444e - "Uriel"
     .desc =
         Крайне продвинутый скафандр предназначенный для инженеров ОБР, имеет логотип Nanotrasen и серийный номер.
         Броня скафандра укреплена сверхпрочным сплавом, помимо этого он почти ничего не весит.

@@ -21,4 +21,8 @@
     shoes: ClothingShoesColorBlack
     id: PrisonerPDA
     ears: ClothingHeadsetPrison #deltaV
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
   innerClothingSkirt: ClothingUniformJumpsuitPrisoner

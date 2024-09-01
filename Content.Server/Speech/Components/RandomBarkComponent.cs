@@ -42,22 +42,7 @@ public sealed partial class RandomBarkComponent : Component
     [DataField]
     public IReadOnlyList<string> Barks = new[]
     {
-        "Bark",
-        "Boof",
-        "Woofums",
-        "Rawrl",
-        "Eeeeeee",
-        "Barkums",
-        "Awooooooooooooooooooo awoo awoooo",
-        "Grrrrrrrrrrrrrrrrrr",
-        "Rarrwrarrwr",
-        "Goddamn I love gold fish crackers",
-        "Bork bork boof boof bork bork boof boof boof bork",
-        "Bark",
-        "Boof",
-        "Woofums",
-        "Rawrl",
-        "Eeeeeee",
-        "Barkums",
+        "Авууу...",
+        "Иииуиуиуиииуи",
     };
 }

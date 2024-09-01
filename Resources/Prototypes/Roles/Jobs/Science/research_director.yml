@@ -38,6 +38,7 @@
         powersToAdd:
           - DispelPower
           - MetapsionicPower
+          - TelepathyPower
 
 - type: startingGear
   id: ResearchDirectorGear
@@ -48,6 +49,10 @@
     id: RnDPDA
     ears: ClothingHeadsetRD
     belt: BibleMystagogue # Nyanotrasen - Mystagogue book for their Ifrit
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
   innerClothingSkirt: ClothingUniformJumpskirtResearchDirector
   satchel: ClothingBackpackSatchelResearchDirectorFilled
   duffelbag: ClothingBackpackDuffelResearchDirectorFilled

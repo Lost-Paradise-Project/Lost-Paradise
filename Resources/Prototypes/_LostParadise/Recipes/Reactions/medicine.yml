@@ -22,13 +22,3 @@
       catalyst: true
   products:
     Neclanox: 3
-
-- type: reaction
-  id: Spaceacillin
-  reactants:
-    Cryptobiolin:
-      amount: 1
-    Inaprovaline:
-      amount: 1
-  products:
-    Spaceacillin: 2

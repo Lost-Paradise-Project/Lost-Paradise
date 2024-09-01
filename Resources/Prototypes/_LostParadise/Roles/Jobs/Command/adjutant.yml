@@ -47,3 +47,7 @@
   equipment:
     id: LPPAdjutantPDA
     ears: ClothingHeadsetCommand
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite

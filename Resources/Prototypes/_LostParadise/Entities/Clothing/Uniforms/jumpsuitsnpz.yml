@@ -27,3 +27,18 @@
     modifiers:
       coefficients:
         Piercing: 0.95
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitOverallsNPZ
+  name: комбинезон техника НПЗ
+  description: Свитер и брюки на лямках, не испачкайте рубашку!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/NPZ/NPZoverall.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/NPZ/NPZoverall.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.9

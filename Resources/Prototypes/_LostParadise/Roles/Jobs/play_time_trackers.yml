@@ -13,8 +13,8 @@
 - type: playTimeTracker
   id: LPPCentralCommandRepresentative
 
-- type: playTimeTracker
-  id: JobLPPBrigmedic
+#- type: playTimeTracker
+#  id: JobLPPBrigmedic
 
 - type: playTimeTracker
   id: JobRoboticist
