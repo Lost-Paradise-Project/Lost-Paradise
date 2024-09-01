@@ -154,16 +154,6 @@ public abstract class SharedMindSystem : EntitySystem
             return;
 
         var dead = _mobState.IsDead(uid);
-
-        // start _Backmen: AI
-        var mind = CompOrNull<MindComponent>(mindContainer.Mind);
-        var remoteMind = CompOrNull<VisitingMindComponent>(uid);
-        if (remoteMind != null)
-        {
-            mind = CompOrNull<MindComponent>(remoteMind.MindId);
-        }
-        // end _Backmen: AI
-
         var hasUserId = CompOrNull<MindComponent>(mindContainer.Mind)?.UserId;
         var hasSession = CompOrNull<MindComponent>(mindContainer.Mind)?.Session;
 
@@ -177,8 +167,6 @@ public abstract class SharedMindSystem : EntitySystem
             args.PushMarkup($"[color=mediumpurple]{Loc.GetString("comp-mind-examined-catatonic", ("ent", uid))}[/color]");
         else if (hasSession == null)
             args.PushMarkup($"[color=yellow]{Loc.GetString("comp-mind-examined-ssd", ("ent", uid))}[/color]");
-
-        if (remoteMind != null) args.PushMarkup($"[color=red]{Loc.GetString("comp-mind-examined-remote-controlled")}[/color]"); // _Backmen: AI
     }
 
     private void OnSuicide(EntityUid uid, MindContainerComponent component, SuicideEvent args)

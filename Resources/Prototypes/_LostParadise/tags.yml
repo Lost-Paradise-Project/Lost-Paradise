@@ -150,14 +150,6 @@
 - type: Tag
   id: MagazineRifleM41A
 
-# [ИИ Станции и его Модули]
-
-- type: Tag
-  id: AIModule
-
-- type: Tag
-  id: AIRebutModule
-
 # [Тэги Конструкции крафта]
 
 - type: Tag

@@ -178,7 +178,7 @@
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: Ü
+    state: UU
 
 - type: decal
   id: LPPindletterOO

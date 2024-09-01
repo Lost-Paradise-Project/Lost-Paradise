@@ -35,6 +35,11 @@ namespace Content.Shared.Humanoid.Markings
         [DataField("sprites", required: true)]
         public List<SpriteSpecifier> Sprites { get; private set; } = default!;
 
+        // LostParadise-Sponsors-Start
+        [DataField("sponsorTier")]
+        public int SponsorTier = 0;   //0 - для всех
+        // LostParadise-Sponsors-End
+
         public Marking AsMarking()
         {
             return new Marking(ID, Sprites.Count);

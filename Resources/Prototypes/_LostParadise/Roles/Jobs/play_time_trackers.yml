@@ -73,9 +73,3 @@
 
 - type: playTimeTracker # Заключёный
   id: JobPrisonerSyndicate
-
-
-# Silicons
-
-- type: playTimeTracker # ИИ СТАНЦИИ
-  id: JobSAI
