@@ -57,6 +57,9 @@ namespace Content.Client.IoC
             collection.Register<ISharedPlaytimeManager, JobRequirementsManager>();
             IoCManager.Register<JoinQueueManager>();
             IoCManager.Register<DiscordAuthManager>();
+            #if LPP_Sponsors  // _LostParadise-Sponsors
+              collection.Register<SponsorsManager>();
+            #endif
         }
     }
 }

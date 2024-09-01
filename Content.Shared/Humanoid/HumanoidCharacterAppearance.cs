@@ -219,10 +219,28 @@ namespace Content.Shared.Humanoid
                 hairStyleId = HairStyles.DefaultHairStyle;
             }
 
+            #if LPP_Sponsors  // _LostParadise-Sponsors
+                if (proto.TryIndex(hairStyleId, out MarkingPrototype? hairProto) &&
+                  hairProto.SponsorOnly &&
+                  !sponsorPrototypes.Contains(hairStyleId))
+                {
+                  hairStyleId = HairStyles.DefaultHairStyle;
+                }
+            #endif
+
             if (!markingManager.MarkingsByCategory(MarkingCategories.FacialHair).ContainsKey(facialHairStyleId))
             {
                 facialHairStyleId = HairStyles.DefaultFacialHairStyle;
             }
+
+            #if LPP_Sponsors  // _LostParadise-Sponsors
+                if (proto.TryIndex(facialHairStyleId, out MarkingPrototype? facialHairProto) &&
+                  facialHairProto.SponsorOnly &&
+                  !sponsorPrototypes.Contains(facialHairStyleId))
+                {
+                  facialHairStyleId = HairStyles.DefaultFacialHairStyle;
+                }
+            #endif
 
             var markingSet = new MarkingSet();
             var skinColor = appearance.SkinColor;
@@ -238,6 +256,9 @@ namespace Content.Shared.Humanoid
 
                 markingSet.EnsureSpecies(species, skinColor, markingManager);
                 markingSet.EnsureSexes(sex, markingManager);
+                #if LPP_Sponsors  // _LostParadise-Sponsors
+                    markingSet.FilterSponsor(sponsorPrototypes, markingManager);
+                #endif
             }
 
             return new HumanoidCharacterAppearance(

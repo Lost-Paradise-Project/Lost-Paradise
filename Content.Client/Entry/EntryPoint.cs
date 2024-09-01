@@ -74,6 +74,9 @@ namespace Content.Client.Entry
         [Dependency] private readonly ILogManager _logManager = default!;
         [Dependency] private readonly JoinQueueManager _joinQueue = default!;
         [Dependency] private readonly DiscordAuthManager _discordAuth = default!;
+        #if LPP_Sponsors  // _LostParadise-Sponsors
+          [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+        #endif
 
         public override void Init()
         {
@@ -165,6 +168,11 @@ namespace Content.Client.Entry
             _voteManager.Initialize();
             _userInterfaceManager.SetDefaultTheme("SS14DefaultTheme");
             _userInterfaceManager.SetActiveTheme(_configManager.GetCVar(CVars.InterfaceTheme));
+
+            #if LPP_Sponsors
+              _sponsorsManager.Initialize(); // _LostParadise-Sponsors
+            #endif
+
             _documentParsingManager.Initialize();
             _joinQueue.Initialize();
             _discordAuth.Initialize();
