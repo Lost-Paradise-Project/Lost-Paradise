@@ -1,10 +1,10 @@
-"Changes: Audio":
+"Изменения: Звуки":
   - "**/*.ogg"
- 
-"Changes: C#":
+
+"Изменения: C#":
   - "**/*.cs"
 
-"Changes: Config":
+"Изменения: Конфиг":
   - "**/*.toml"
   - "**/*.config"
   - "*.json"
@@ -13,27 +13,27 @@
   - ".vscode/*.json"
   - ".editorconfig"
 
-"Changes: Documentation":
+"Изменения: Документация":
   - "**/*.xml"
   - "**/*.md"
 
-"Changes: Localization":
+"Изменения: Локализация":
 - 'Resources/Locale/**/*.ftl'
 
-"Changes: Map":
+"Изменения: Карта":
   - "Resources/Maps/**/*.yml"
   - "Resources/Prototypes/Maps/**/*.yml"
 
-"Changes: Sprite":
+"Изменения: Спрайт":
   - "**/*.rsi/*.png"
   - "**/*.rsi/*.json"
 
-"Changes: UI":
+"Изменения: Интерфейс":
   - "**/*.xaml*"
 
-"Changes: YML":
+"Изменения: YML":
   - any: ["**/*.yml"]
     all: ["!Resources/Maps/**/*.yml", "!Resources/Prototypes/Maps/**/*.yml"]
 
-"Changes: Workflow":
+"Изменения: Github":
   - ".github/workflows/*.yml"

@@ -23,7 +23,7 @@
 Вы не можете использовать имя нашего проекта, все права на франшизу "Lost Paradise" принадлежат @Flybik.
 Обратите внимание, что любое использования нашего контента должно соответствовать лицензии [LICENSE-AGPLv3](./LICENSE-AGPLv3.txt).
 Что значит вы должны делится улучшениями этого контента даже если он значительно изменён.
-Если вы используете этот репозиторий как основновной, вы должны указать его как источник.
+Если вы используете этот репозиторий как основной, вы должны указать его как источник.
 
 Если вы нашли неточности или неправомерное использование вашего контента свяжитесь с `jay_jacobs` в личных сообщениях, его можно найти на [Discord сервере](https://discord.gg/v5mGmMzAdB) / If you find any inaccuracies or misuse of your content, please contact `jay_jacobs` via private messages, he can be found on the [Discord server](https://discord.gg/v5mGmMzAdB).
 
@@ -46,21 +46,9 @@
 
 > 1. Клонируйте репо `git clone`
 > 2. Запустите `git submodule update --init --recursive` в терминале для скачивания движка.
-> 3. Запустите `Scripts/sh/buildAllDebug.sh` после каждого измения.
+> 3. Запустите `Scripts/sh/buildAllDebug.sh` после каждого изменения. (После изменения папки Resources не требуется)
 > 4. Запустите `Scripts/sh/runQuickAll.sh` для запуска клиента и сервера.
 > 5. Подключитесь к "localhost" в клиенте.
 
-## Лицензия
-
-Контент добавленный в этот репозиторий после коммита 87c70a89a67d0521a56388e6b1c3f2cb947943e4 (`17 February 2024 23:00:00 UTC`) имеет лицензию "GNU Affero General Public License version 3.0".
-Посмотреть [LICENSE-AGPLv3](./LICENSE-AGPLv3.txt).
-
-Контент добавленный в этот репозиторий до коммита 87c70a89a67d0521a56388e6b1c3f2cb947943e4 (`17 February 2024 23:00:00 UTC`) имеет лицензию "MIT license".
-Посмотреть [LICENSE-MIT](./LICENSE-MIT.txt).
-
-Большинство контента под лицензией [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) если не указано иное. Контент имеет лицензию в файле метаданных.
-[Пример](./Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
-
-Обратите внимание, что некоторый контент лицензирован в соответствии с некоммерческой лицензией. [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) или аналогичные некоммерческие лицензии, и их необходимо будет удалить, если вы захотите использовать этот проект в коммерческих целях.
-
-Please read the [LEGAL.md](./LEGAL.md) file for information on the licenses of the code and assets in this repository.
+# Лицензия
+Пожалуйста прочитайте файл [LEGAL.md](./LEGAL.md) для получения информации о лицензиях на все ресурсы в этом репозитории.

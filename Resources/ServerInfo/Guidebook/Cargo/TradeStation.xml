@@ -1,10 +1,10 @@
 <Document>
-  # Trade Station
-  The Trade Station is seperate from the station, usually floating around in space visible on the scanner and shuttle computer. It is self maintaining, and self powered with solar pannels, so cargo doesn't need to do anything for it to work.
- 
-  ## Selling
-  Using the [color=#a4885c]cargo shuttle[/color], you are able to transport items and bounties to sell at the trade station by flying the shuttle (explained in [textlink="cargo" link="Cargo"]) and docking it to the trade station. Then you bring the objects to sell over the cargo pallets, go to the computer inbetween the 2 sets of pallets and sell what can be sold. Dont worry, you can't sell yourself! Then [color=#118C4F]Spessos[/color] should come out of the computer, and can be inserted into the Quartermasters Digiboard or the Cargo Computer to be added to the Bank.  
-  
-  ## Collecting Orders
-  All cargo orders are sent to the [color=#a4885c]Trade Station[/color] to be [color=#a4885c]collected[/color], this includes items sent by centcom. To collect them you have to travel to the Trade station and they should be there on the cargo pallets in a crate, ready to be taken back to the station.
+  # Станция Торговли
+  Торговая станция отделена от станции и обычно парит в космосе, видимая на сканере и консоли шаттла. Она самоподдерживается и питается от солнечных батарей, поэтому отделу Снабжения не нужно ничего делать, чтобы она работала.
+
+  ## Продажа
+  Используя [color=#a4885c]шаттл отдела Снабжения[/color], вы можете перевозить вещи и запросы для продажи на торговой станции, управляя шаттлом (описано в [textlink="логистике", link="Cargo"]) и пристыковывая его к торговой станции. Затем вы переносите предметы для продажи на грузовые поддоны, открываете интерфейс компьютера, расположенного между поддонов, и продаёте то, что можно продать. Не волнуйтесь, вы не можете продать себя! Затем [color=#118C4F]Деньги[/color] должны выйти из компьютера, они в свою очередь могут быть вставлены в планшет Квартирмейстера или консоль заказов, после чего они будут добавлены в Банк.
+
+  ## Сбор заказов
+  Все заказы грузов отправляются на [color=#a4885c]торговую станцию [/color] для того что-бы вы их оттуда [color=#a4885c]забрали[/color], включая товары, отправленные Центральным Командованием. Чтобы забрать их, вам нужно отправиться на торговую станцию, где они будут лежать на грузовых поддонах в ящиках, готовые к отправке обратно на станцию.
 </Document>
