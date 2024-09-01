@@ -1,6 +1,6 @@
 <!-- ЭТО ШАБЛОН ВАШЕГО PULL REQUEST. Текст между стрелками - это комментарии - они не будут видны в PR. -->
 # VIVA LA LOST PARADISE!
-![image]([https://i.imgur.com/3ALofgA.png](https://i.imgur.com/9wmH86O.png))
+![image](https://i.imgur.com/hLEDvQY.png)
 
 ## Описание обновления:
 <!--                         Например.
