@@ -13,14 +13,4 @@ public sealed partial class AccVars
     /// </summary>
     public static readonly CVarDef<string> SponsorsApiUrl =
     CVarDef.Create("sponsor.api_url", "", CVar.SERVERONLY);
-
-    /*
-     * Queue
-    */
-
-    /// <summary>
-    ///     Controls if the connections queue is enabled. If enabled stop kicking new players after `SoftMaxPlayers` cap and instead add them to queue.
-    /// </summary>
-    public static readonly CVarDef<bool>
-    QueueEnabled = CVarDef.Create("queue.enabled", false, CVar.SERVERONLY);
 }
