@@ -40,6 +40,7 @@ namespace Content.Server.Database
         public DbSet<AdminNote> AdminNotes { get; set; } = null!;
         public DbSet<AdminWatchlist> AdminWatchlists { get; set; } = null!;
         public DbSet<AdminMessage> AdminMessages { get; set; } = null!;
+        public DbSet<Sponsor> Sponsors { get; set; } = null!;   // _LostParadise-Sponsors
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -1024,5 +1025,18 @@ namespace Content.Server.Database
         /// Whether the message has been dismissed permanently by the player.
         /// </summary>
         public bool Dismissed { get; set; }
+    }
+
+    [Table("sponsors")]     // _LostParadise-Sponsors
+    public class Sponsor
+    {
+        [Required, Key] public Guid UserId { get; set; }
+        public int Tier { get; set; }
+        public string OOCColor { get; set; } = "#00FF00";
+        public bool HavePriorityJoin { get; set; }
+        public string AllowedMarkings { get; set; } = null!;
+        public int ExtraSlots { get; set; }
+        public DateTime ExpireDate {get;set;}
+        public bool AllowJob { get; set; } = false;
     }
 }
