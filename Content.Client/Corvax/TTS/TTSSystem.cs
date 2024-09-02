@@ -75,6 +75,9 @@ public sealed class TTSSystem : EntitySystem
 
     private void OnPlayTTS(PlayTTSEvent ev)
     {
+        #if !LPP_TTS_play   //это предназначено для того, чтобы в случае отсутствия ссылки на ТТС, игра не пыталась выполнить обработку звука
+        return;
+        #endif
         _sawmill.Debug($"Play TTS audio {ev.Data.Length} bytes from {ev.SourceUid} entity");
 
         var volume = AdjustVolume(ev.IsWhisper);
