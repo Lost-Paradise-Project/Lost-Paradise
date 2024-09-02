@@ -106,7 +106,7 @@
   - type: RCDDeconstructable
     cost: 4
     delay: 4
-    fx: EffectRCDDeconstruct4  
+    fx: EffectRCDDeconstruct4
   - type: Destructible
     thresholds:
     - trigger:
