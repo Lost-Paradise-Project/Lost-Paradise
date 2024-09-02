@@ -1,33 +1,33 @@
 <Document>
-# Reverse Engineering
+  # Обратный инжиниринг
 
-<GuideEntityEmbed Entity="ReverseEngineeringMachine"/>
+  <GuideEntityEmbed Entity="ReverseEngineeringMachine"/>
 
-The reverse engineering machine allows salvage to bootstrap their way into unlocking powerful lathe recipes that are otherwise unacquirable.
+  Станок для реверс-инжиниринга позволяет компании утилизаторов самостоятельно разрабатывать мощные решения, которые в противном случае были бы недоступны.
 
-The machine's power is very limited without upgrades to its matter bin and manipulator.
-The matter bin increases its analysis power and the manipulator decreases the chance of destruction with safety turned off.
+  Мощность станка очень ограничена без модернизации бункера для материалов и манипулятора.
+  При повышении уровня ёмкости материи повышаетя эффективность анализа, а манипулятора - снижает вероятность разрушения.
 
-## Operation
+  ## Реинжениринг
 
-The machine will only accept items it can reverse engineer. Currently this is most circuit boards and machine parts, but it accepts quite a variety of objects.
+  Машина будет принимать только те предметы, которые она может перепроектировать. В настоящее время это большинство печатных плат и деталей машин, но она принимает и другие предметы.
 
-It does not accept firearms and never will.
+  Огнестрельное оружие не принимается и никогда не будет приниматься.
 
-To use the machine, insert an item and use the buttons on the left.
+  Чтобы использовать машину, вставьте предмет и используйте кнопки на самом реконструкторе.
 
-- [color=#a4885c]Analyze:[/color]
-This starts a new reverse engineering attempt.
+  - [color=#a4885c]Анализ:[/color]
+  Это запускает попытку обратного проектирования.
 
-- [color=#a4885c]Safety:[/color]
-With safety off, you have more analysis power, but there is a chance to destroy the item.
+  - [color=#a4885c]Безопасный:[/color]
+  Позволяет разрушить предмет, сняв предохранитель давая больше возможностей для анализа, но есть шанс уничтожить предмет.
 
-- [color=#a4885c]AutoProbe:[/color]
-This will automatically start a new attempt when the last one ends.
+  - [color=#a4885c]АвтоАнализ:[/color]
+  Это автоматически запустит новый процесс, когда закончится предыдущая.
 
-- [color=#a4885c]Stop:[/color]
-Stops the current attempt.
+  - [color=#a4885c]Стоп:[/color]
+  Останавливает текущий процесс.
 
-- [color=#a4885c]Item:[/color]
-Ejects the item.
+  - [color=#a4885c]объъект:[/color]
+  Извлекает предмет.
 </Document>

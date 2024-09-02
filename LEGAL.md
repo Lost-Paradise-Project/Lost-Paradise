@@ -1,29 +1,30 @@
-﻿# Legal Info
+﻿# Юридическая информация
 
-## Copyright
+## Авторское право
 
-The Authors retain all copyright to their respective work submitted here.
+Авторы сохраняют за собой все авторские права на свои соответствующие работы, представленные здесь.
 
-## Licenses
+## Лицензии
 
-### Code
+### Код
 
-> [!NOTE]
-> If you want MIT-licensed code, please visit the Space Wizards' repository [here](https://github.com/space-wizards/space-station-14/) instead.
-> If they do not have something you want as MIT but we do as AGPLv3, you may ask the authors of the code to relicense it for you.
-> 
-> If you can not figure out the license of something, or who the author(s) of a feature are, please ask in our [Discord](https://discord.gg/X4QEXxUrsJ).
+> [!ПРИМЕЧАНИЕ]
+> Если вам нужен код, лицензированный MIT, пожалуйста, посетите репозиторий [Space Wizards](https://github.com/space-wizards/space-station-14/).
+> Если у них нет того, что нужно от MIT, а у нас есть от AGPLv3, вы можете попросить авторов кода повторно лицензировать это для вас.
+>
+> Если вы не можете определить лицензию на что-либо или кто является автором той или иной функции, пожалуйста, спросите в [Discord](https://discord.gg/X4QEXxUrsJ) Einstein Engines.
 
-Content contributed to this repository after commit [87c70a8](https://github.com/Simple-Station/Einstein-Engines/commit/87c70a89a67d0521a56388e6b1c3f2cb947943e4) is licensed under the GNU Affero General Public License version 3.0 unless otherwise stated.
-See [LICENSE-AGPLv3](./LICENSE-AGPLv3.txt).
-Content contributed to this repository before the aforementioned commit is MIT-licensed unless otherwise stated.
-See [LICENSE-MIT](./LICENSE-MIT.txt).
+Контент добавленный в этот репозиторий после коммита 87c70a89a67d0521a56388e6b1c3f2cb947943e4 (`17 февраля 2024 года в 21:48 UTC`) имеет лицензию "GNU Affero General Public License version 3.0".
+Посмотреть [LICENSE-AGPLv3](./LICENSE-AGPLv3.txt).
 
-[87c70a8](https://github.com/Simple-Station/Einstein-Engines/commit/87c70a89a67d0521a56388e6b1c3f2cb947943e4) was pushed on February 17th 2024 at 21:48 UTC.
+Контент добавленный в этот репозиторий до коммита 87c70a89a67d0521a56388e6b1c3f2cb947943e4 (`17 февраля 2024 года в 21:48 UTC`) имеет лицензию "MIT license".
+Посмотреть [LICENSE-MIT](./LICENSE-MIT.txt).
 
-### Assets
+[87c70a8](https://github.com/Simple-Station/Einstein-Engines/commit/87c70a89a67d0521a56388e6b1c3f2cb947943e4) был перенесен 17 февраля 2024 года в 21:48 UTC.
 
-Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise.
-Assets have their license and the copyright in the metadata file.
-[Example](./Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
-Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+### Активы
+
+Большинство контента под лицензией [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) если не указано иное. Контент имеет лицензию в файле метаданных.
+[Пример](./Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+
+Обратите внимание, что некоторый контент лицензирован в соответствии с некоммерческой лицензией. [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) или аналогичные некоммерческие лицензии, и их необходимо будет удалить, если вы захотите использовать этот проект в коммерческих целях.

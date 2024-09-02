@@ -1,7 +1,8 @@
 ﻿name: "Labels: Review"
 
 on:
-  workflow_dispatch:
+  pull_request_target:
+    types: [review_requested]
 
 jobs:
   add_label:
@@ -9,9 +10,9 @@ jobs:
     steps:
     - uses: actions-ecosystem/action-add-labels@v1
       with:
-        labels: "Status: Needs Review"
+        labels: "Статус: Требуется одобрение"
         repo-token: "${{ secrets.BOT_TOKEN }}"
     - uses: actions-ecosystem/action-remove-labels@v1
       with:
-        labels: "Status: Awaiting Changes"
+        labels: "Статус: Ожидание изменений"
         repo-token: "${{ secrets.BOT_TOKEN }}"

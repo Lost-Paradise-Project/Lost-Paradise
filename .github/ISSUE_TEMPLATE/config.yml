@@ -1,4 +1,7 @@
 contact_links:
-  - name: Report a Security Vulnerability
+  - name: Сообщить об уязвимости
     url: https://github.com/space-wizards/space-station-14/blob/master/SECURITY.md
-    about: Please report security vulnerabilities to the Space Wizards privately so they can fix them before they are publicly disclosed.
+    about: Пожалуйста, сообщайте о серьезных эксплойтах и уязвимостях безопасности.
+  - name: Предложение
+    url: https://discord.gg/v5mGmMzAdB
+    about: Свои предложения можете оставлять в соответствующем канале Discord.

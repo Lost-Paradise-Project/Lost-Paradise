@@ -1,52 +1,51 @@
 <Document>
-  # I.P.C.
+  # К.П.Б.
   <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
-  An IPC (short for Integrated Positronic Chassis) is a type of sentient robot and is considered an [color=yellow]independent individual[/color], meaning [color=red]they are not guided by any laws of robotics[/color]. IPCs cannot be hacked by Emags because they do not have to follow any predefined directives in their system. [color=red]IPCs are silicon-based beings, so doctors do not have the skills to repair them.[/color]
+  КПБ (сокращение от Комплексный Позитронный Блок) это тип разумного робота, который считается [color=yellow]независимым индивидуумом[/color], что означает [color=red]что он не руководствуется никакими законами робототехники[/color]. КПБ не могут взломать поскольку они не обязаны следовать каким-либо предопределенным директивам в своей системе. [color=red]КПБ состоят из кремния и стали, поэтому у врачей нет возможности их ремонтировать[/color]
 
   <Box>
     <GuideEntityEmbed Entity="PositronicBrain" Caption="Positronic Brain"/>
   </Box>
-  Like borgs, IPCs have a positronic brain as their processing source. However, unlike them, IPCs can't be assembled. "It's cheaper to create a shell that obeys you than one that doesn't! *wink*"
-  ## Recharging an IPC
-   <Box>
+  Как и у боргов, у КПБ есть позитронный мозг в качестве средства обработки данных. Однако, в отличие от них, КПБ нельзя собрать. "Проще написать код заново, нежели пытатся расплести клубок строк двоичного кода"
+  ## Подзарядка КПБ
+  <Box>
     <GuideEntityEmbed Entity="APCBasic" Caption="APC Terminal"/>
     <GuideEntityEmbed Entity="BorgCharger" Caption="Borg Charger"/>
     <GuideEntityEmbed Entity="PowerCellMedium" Caption="Power Cell"/>
   </Box>
-  IPCs can be recharged in three different ways:
+  Аккумуляторы КПБ можно подзаряжать тремя различными способами:
 
-  APC Terminal: IPCs can use APC terminals to recharge. Press [color=yellow]Alt + left click[/color] on a terminal as many times as needed to fully recharge.
+  ЛКП Терминал: КПБ Могут использовать ЛКП для подзарядки. Нажмите  [color=yellow]Alt + Левая кнопка мышы[/color] на терминале столько раз, сколько необходимо для полной подзарядки..
 
-  Borg Rechargers: IPCs can use borg rechargers to recharge. Always prioritize the ones outside of the Sci area to avoid headaches.
+  Зарядка киборгов: КПБ могут использовать зарядные устройства Боргов для подзарядки. Всегда выбирайте те, которые находятся за пределами зоны электромагнетизма, чтобы избежать головной боли.
 
-  Power Cell: IPCs have an internal power cell that serves as their battery. They can simply swap it out by opening the hatch and manually replacing it.
+  Батарейки: КПБ имеет внутренний элемент питания, который служит в качестве аккумулятора. Вы можете просто заменить его, открыв крышку и установив новый вручную.
 
-  ## Integrated Radio
+  ## Интегрированное радио
   <Box>
     <GuideEntityEmbed Entity="EncryptionKeyScience" Caption="Encryption key"/>
   </Box>
 
-  IPCs do [bold]not[/bold] use external radios because they already have one built in. They only need to get an encryption key from a radio. By clicking on an IPC with a [color=yellow]wire cutter[/color], you can remove their keys.
-  You can find new keys around the station or remove one from a sector radio using a [color=yellow]screwdriver[/color].
+  КПБ do [bold]not[/bold] е использует внешние радиостанции, потому что у них уже есть встроенная радиостанция. Им нужно только получить ключ шифрования от радиостанции щёлкнув по КПБ [color=yellow]кусачками[/color],вы можете удалить их ключи.
+  Вы можете найти новые ключи по всей станции или извлечь один из секторных радиоприемников с помощью банальной [color=yellow]отвертки[/color].
 
-  ## Repairing
+  ## Ремонт
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="WelderIndustrialAdvanced" Caption="Welder"/>
-    Welders can be used to repair [color=yellow]Brute[/color] damage.
+    Сварочные аппараты можно использовать для устранения [color=yellow]тупых[/color] поврежений.
   </Box>
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="CableApcStack" Caption="Cables (any type)"/>
-    Cables can be used to repair [color=yellow]Burns[/color].
+    Кабели можно использовать для ремонта [color=yellow]ожогов[/color].
   </Box>
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="SheetGlass" Caption="Glass Sheets (any type)"/>
-    Glass Sheets can be used to repair [color=yellow]Blindness[/color].
+    Листы стекла можно использовать для ремонта [color=yellow]слепоты[/color].
   </Box>
   <Box HorizontalAlignment="Stretch">
-    In the event an IPC dies, after being fully repaired, it should be restarted using the [color=yellow]"Restart"[/color] button (located by right-clicking).
+    В случае выхода из строя КПБ, после полного восстановления его следует перезапустить с помощью кнопки [color=yellow]"Перезапустить"[/color] (которую можно щелкнуть правой кнопкой мыши).
 
-    [color=red]NEVER ELECTROCUTE AN IPC with a defibrillator or in any other way while it is dead, as this will cause the battery to discharge energy rays outward![/color]
+    [color=red]НИКОГДА НЕ ПЫТАЙТЕ КПБ электрическим током с помощью дефибриллятора или каким-либо другим способом, пока он не заряжен, так как это приведет к выбросу энергии из аккумулятора наружу![/color]
   </Box>
 
 </Document>
-
