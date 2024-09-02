@@ -146,7 +146,7 @@ function writeChangelog(entry) {
     fs.writeFileSync(
         `../../${process.env.CHANGELOG_DIR}`,
         "Entries:\n" +
-            yaml.dump(data.Entries, { indent: 2 }).replace(/^---/, "")
+        yaml.dump(data.Entries, { indent: 2 }).replace(/^---/, "")
     );
 }
 
