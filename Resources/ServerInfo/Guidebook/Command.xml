@@ -1,9 +1,9 @@
 ﻿<Document>
-# Command
-The heads of each department come together to form the [color=#1b67a5]Command[/color] department, a force to be reckoned with and the handlers of the station. They usually have access to special equipment and their own rooms. They are often wanted dead.
+  # Командование
+  Руководители каждого отдела объединяются, чтобы сформировать  [color=#1b67a5]Командный[/color] отдел. Силу, с которой нужно считаться. Силу, которая руководит станцией. Обычно они имеют доступ к специальному оборудованию и особым комнатам. Их часто хотят убить.
 
-## Personnel
-[color=#1b67a5]Command[/color] is made up of the heads of each department, being the [color=#9fed58]Head of Personnel[/color], the [color=#cb0000]Head of Security[/color], the [color=#5b97bc]Chief Medical Officer[/color], the [color=#f39f27]Chief Engineer[/color], the [color=#c96dbf]Research Director[/color], the [color=#b18644]Quartermaster[/color] and above all else, the [color=#1b67a5]Captain[/color].
+  ## Персонал
+  [color=#1b67a5]Команда[/color] состоит из руководителей каждого отдела, таких как [color=#9fed58]Глава Персонала[/color], [color=#cb0000]Глава Службы Безопасности[/color], [color=#5b97bc]Главный Врач[/color], [color=#f39f27]Главный Инженер[/color], [color=#c96dbf]Научный Директор[/color], [color=#b18644]Офицер Логистики[/color] и, главнее всех, [color=#1b67a5]Капитан[/color].
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineCaptain" Caption="Captain"/>
   </Box>
@@ -18,38 +18,38 @@ The heads of each department come together to form the [color=#1b67a5]Command[/c
     <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="QM"/>
   </Box>
 
-## Taking Charge
-Congratulations on your promotion! Besides all the extra paperwork, your new [color=#a4885c]responsibilities[/color] include running your department, making changes and choosing priorities, keeping personnel and equipment safe as well as slacking off while your cronies do all the work.
+  ## Берем на себя ответственность
+  Поздравляем вас с повышением! Помимо дополнительной бумажной работы, в ваши новые [color=#a4885c]обязанности[/color] входит управление отделом, внесение изменений и выбор приоритетов, обеспечение безопасности персонала и оборудования, а также отдых, пока ваши друзья выполняют всю работу.
 
-Don't forget, you still have a job! Your fancy tools don't earn you a day off, you still have to fill in for any staffing shortages, helping out struggling workers and teaching the newbies.
+  Не забывайте, что у вас все еще есть работа! Ваши навороченные инструменты не дают вам отпуск, но они по-прежнему приходится при восполнении нехватки персонала, помощи работникам, испытывающим трудности, и обучении новичков.
 
-You might get away with just sitting around and letting people resent you, but it's wiser to get active and work alongside them.
-Remember to move your workers around to have them do what they like doing or what they do best.
+  Возможно, вам сойдет с рук сидеть сложа руки и позволять людям обижаться на вас, но разумнее проявить активность и работать вместе с ними.
+  Не забывайте перенапровлять своих сотрудников, чтобы они всегда были заняты тем, что им нравится, или тем, что у них получается лучше всего.
 
-## Your Locker
+  ## Ваш шкафчик
 
-To deal with your new soul-crushing tasks, every head is given special items to lead your subordinates. Most of your new shiny tools can be found in your [color=#a4885c]locker[/color].
+  Чтобы справиться с новыми трудными задачами, каждому руководителю выдаются специальные предметы, позволяющие руководить подчиненными. Большинство ваших новых блестящих инструментов можно найти в вашем [color=#a4885c]шкафчике[/color].
   <Box>
     <GuideEntityEmbed Entity="LockerCaptain"/>
   </Box>
 
-Your [color=#a4885c]remote[/color] is very simple but profoundly underestimated. A small but mighty force, your remote can open and close [color=#a4885c]airlocks[/color], spin the [color=#a4885c]bolts[/color] to lock them, or toggle [color=#a4885c]emergency access[/color]. It can do this from a distance.
+  Ваш [color=#a4885c]Пульт[/color] очень прост, но его сильно недооценивают. С помощью небольшого, но мощного пульта дистанционного управления вы можете открывать и закрывать [color=#a4885c]Шлюзы[/color], так же ставить их на [color=#a4885c]"Болты"[/color]чтобы заблокировать их, или выставлять [color=#a4885c]аварийный доступ[/color]. Всё это в одной коробочке, которая сопособна это делать на РАСТОЯНИИ!
   <Box>
     <GuideEntityEmbed Entity="DoorRemoteCommand"/>
   </Box>
-The remote influences where people move around. Heads can lock personnel out of dangerous areas or let people in to grab something really quickly.
+  Констроль шлюзов в отделе влияет на области передвижения персонала. Руководители могут не пускать персонал в опасные зоны или позволить людям иметь быстрый и безпрепятственный доступ в определённые зоны.
 
-You also have access to your very own [color=#1b67a5]Command[/color] channel, like every other department. However, yours is particularly special as the people who can hear you have [color=#a4885c]entire departments[/color] at their fingertips.
-Use this to communicate with other heads and be a representative of what your workers want or need.
+  У вас также есть доступ к каналу [color=#1b67a5]Командования[/color] как и любой глава другого отдела. Данный инструмент имеет особую силу, поскольку люди, которые могут вас слышать, имеют в своем распоряжении[color=#a4885c]целые отделы[/color].
+  Используйте это, чтобы общаться с другими руководителями и главами. Обычно они чего хотят или сообщают вам, в чем нуждаются ваши сотрудники.
 
-The [color=#1b67a5]Captain[/color] and the [color=#9fed58]Head of Personnel[/color] get access to the lucrative [color=#a4885c]master encryption key[/color], letting them tune into every radio channel on the station. This is extremly valuable, as you can coordinate between departments yourself.
-[color=#a4885c]Don't waste this vital advantage![/color]
+  [color=#1b67a5]Капитан[/color] и [color=#9fed58]Глава Персонала[/color] имеют доступ к [color=#a4885c]командному ключу шифрования[/color], позволяющий им слышать все радиоканалы станции. Это чрезвычайно ценный предмет, поскольку вы можете самостоятельно координировать работу любого отдела.
+  [color=#a4885c]Не забывайте про это важное преимущество![/color]
   <Box>
     <GuideEntityEmbed Entity="ClothingHeadsetCommand"/>
     <GuideEntityEmbed Entity="EncryptionKeyStationMaster"/>
   </Box>
 
-To make the swamp of paperwork (that will definitely overwhelm you) even harder to deal with, you have generously been given a [color=#a4885c]stamp[/color] in your locker. Use this to sign paperwork. After you stamp it, it can't be edited. Look it over first.
+  Чтобы еще больше усложнить вам работу с бумагами (которая, безусловно, вас захлестнет), в вашем шкафчике, специально для ваших документов, любезно предоставили  [color=#a4885c]печать[/color]. Используйте ее для подтвержение документов. После того, как вы поставите на нем печать, редактировать его будет невозможно. Сначала просмотрите его, так как придирчивый юрист может заставить вас его переделывать...
   <Box>
     <GuideEntityEmbed Entity="RubberStampCaptain"/>
   </Box>
