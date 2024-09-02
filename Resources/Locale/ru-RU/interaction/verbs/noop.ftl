@@ -1,4 +1,4 @@
-﻿interaction-LookAt-name = Осмотреть
+interaction-LookAt-name = Осмотреть
 interaction-LookAt-description = Смотри в пустоту и смотри, как она смотрит в ответ..
 interaction-LookAt-success-self-popup = Вы смотрите на { THE($target) }.
 interaction-LookAt-success-target-popup = Вы чуствуете как { THE($user) } смотрит на...
