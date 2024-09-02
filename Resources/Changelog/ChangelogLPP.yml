@@ -5,3 +5,15 @@ Entries:
       type: Add
   id: 1
   time: '2024-08-02T01:29:00.0000000+00:00'
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Перенесена спонсорка 1.4
+    - type: Tweak
+      message: Скорректирован ТТС при работе без АПИ
+    - type: Fix
+      message: Починен баг с одеванием трусов на слот перчаток
+    - type: Remove
+      message: удален старый ИИ
+  id: 2
+  time: '2024-09-02T15:43:20.0000000+00:00'

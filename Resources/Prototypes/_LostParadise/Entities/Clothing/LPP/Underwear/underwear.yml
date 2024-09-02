@@ -9,7 +9,7 @@
   - type: Item
     size: Tiny
   - type: Clothing
-    slots: [underwear]
+    slots: UNDERWEAR
   - type: Tag
     tags:
       - underwear
