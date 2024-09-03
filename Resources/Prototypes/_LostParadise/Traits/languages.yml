@@ -1,15 +1,13 @@
 ﻿- type: trait
   id: ElfLanguage
-  category: Visual
+  category: Speech
   points: 0
   components:
   - type: LanguageKnowledgeModifier
     speaks:
     - Elf
-    - GalacticCommon
     understands:
     - Elf
-    - GalacticCommon
   requirements:
   - !type:CharacterSpeciesRequirement
     inverted: false
@@ -19,23 +17,20 @@
     inverted: true
     traits:
     - DwarfLanguage
-    - SolLanguage
     - ForeignerLight
     - Foreigner
     - SignLanguage
 
 - type: trait
   id: DwarfLanguage
-  category: Visual
+  category: Speech
   points: 0
   components:
   - type: LanguageKnowledgeModifier
     speaks:
     - Dwarf
-    - GalacticCommon
     understands:
     - Dwarf
-    - GalacticCommon
   requirements:
   - !type:CharacterSpeciesRequirement
     inverted: false
@@ -45,33 +40,6 @@
     inverted: true
     traits:
     - ElfLanguage
-    - SolLanguage
-    - ForeignerLight
-    - Foreigner
-    - SignLanguage
-
-- type: trait
-  id: SolLanguage
-  category: Visual
-  points: 0
-  components:
-  - type: LanguageKnowledgeModifier
-    speaks:
-    - SolCommon
-    - GalacticCommon
-    understands:
-    - SolCommon
-    - GalacticCommon
-  requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: false
-    species:
-    - Human
-  - !type:CharacterTraitRequirement
-    inverted: true
-    traits:
-    - ElfLanguage
-    - DwarfLanguage
     - ForeignerLight
     - Foreigner
     - SignLanguage
