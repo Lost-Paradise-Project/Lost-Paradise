@@ -1,3 +1,4 @@
+#define LPP_Sponsors    //комментировать при ошибках
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -19,7 +20,7 @@ using Robust.Shared.Replays;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 #if LPP_Sponsors  // _LostParadise-Sponsors
-  using Content.Server._LostParadise.Sponsors;
+using Content.Server._LostParadise.Sponsors;
 #endif
 
 namespace Content.Server.Chat.Managers
@@ -48,9 +49,9 @@ namespace Content.Server.Chat.Managers
         [Dependency] private readonly IEntityManager _entityManager = default!;
         [Dependency] private readonly IGameTiming _gameTiming = default!;
         [Dependency] private readonly IPlayerManager _playerManager = default!;
-        #if LPP_Sponsors  // _LostParadise-Sponsors
-          [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
-        #endif
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
 
         /// <summary>
         /// The maximum length a player-sent message can be sent
@@ -255,12 +256,12 @@ namespace Content.Server.Chat.Managers
                 wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", patronColor),("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
             }
 
-            #if LPP_Sponsors  // _LostParadise-Sponsors
-              if (_sponsorsManager.TryGetInfo(player.UserId, out var sponsorData) && sponsorData.OOCColor != null)
-              {
-                  wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", sponsorData.OOCColor),("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
-              }
-            #endif
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            if (_sponsorsManager.TryGetInfo(player.UserId, out var sponsorData) && sponsorData.OOCColor != null)
+            {
+                wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", sponsorData.OOCColor),("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+            }
+#endif
 
             //TODO: player.Name color, this will need to change the structure of the MsgChatMessage
             ChatMessageToAll(ChatChannel.OOC, message, wrappedMessage, EntityUid.Invalid, hideChat: false, recordReplay: true, colorOverride: colorOverride, author: player.UserId);

@@ -32,6 +32,11 @@ public sealed partial class SpeciesPrototype : IPrototype
     [DataField(required: true)]
     public bool RoundStart { get; private set; } = false;
 
+    // LostParadise-Sponsors-Start
+    [DataField("sponsorOnly")]
+    public bool SponsorOnly = false;
+    // LostParadise-Sponsors-End
+
     // The below two are to avoid fetching information about the species from the entity
     // prototype.
 
