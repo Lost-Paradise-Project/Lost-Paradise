@@ -12,16 +12,16 @@ import requests
 import yaml
 from typing import Any, Iterable
 
-GITHUB_API_URL    = os.environ.get("GITHUB_API_URL", "https://api.github.com")
-GITHUB_REPOSITORY = os.environ["GITHUB_REPOSITORY"]
-GITHUB_RUN        = os.environ["GITHUB_RUN_ID"]
-BOT_TOKEN         = os.environ["BOT_TOKEN"]
+GITHUB_API_URL            = os.environ.get("GITHUB_API_URL", "https://api.github.com")
+GITHUB_REPOSITORY         = os.environ["GITHUB_REPOSITORY"]
+GITHUB_RUN                = os.environ["GITHUB_RUN_ID"]
+GITHUB_TOKEN              = os.environ["GITHUB_TOKEN"]
+CHANGELOG_DIR             = os.environ["CHANGELOG_DIR"]
+CHANGELOG_DISCORD_WEBHOOK = os.environ["CHANGELOG_DISCORD_WEBHOOK"]
+PR_NUMBER                 = os.environ["PR_NUMBER"]
 
 # https://discord.com/developers/docs/resources/webhook
 DISCORD_SPLIT_LIMIT = 2000
-CHANGELOG_DISCORD_WEBHOOK = os.environ.get("CHANGELOG_DISCORD_WEBHOOK")
-
-CHANGELOG_FILES = ["Resources/Changelog/Changelog.yml", "Resources/Changelog/ChangelogLPP.yml"] # Corvax-MultiChangelog
 
 TYPES_TO_EMOJI = {
     "Fix":    "🐛",
@@ -37,23 +37,32 @@ def main():
         return
 
     session = requests.Session()
-    session.headers["Authorization"]        = f"Bearer {BOT_TOKEN}"
+    session.headers["Authorization"]        = f"Bearer {GITHUB_TOKEN}"
     session.headers["Accept"]               = "Accept: application/vnd.github+json"
     session.headers["X-GitHub-Api-Version"] = "2022-11-28"
 
+    resp = session.get(f"{GITHUB_API_URL}/repos/{GITHUB_REPOSITORY}/pulls/{PR_NUMBER}")
+    resp.raise_for_status()
+    last_sha = resp.json()["merge_commit_sha"]
+
+    index = int(PR_NUMBER)
+    while True:
+        index -= 1
+        resp = session.get(f"{GITHUB_API_URL}/repos/{GITHUB_REPOSITORY}/pulls/{index}")
+        resp.raise_for_status()
+        merge_info = resp.json()
+        if merge_info["merged_at"]:
+            last_sha = merge_info["merge_commit_sha"]
+            break
+
     most_recent = get_most_recent_workflow(session)
-    last_sha = most_recent['head_commit']['id']
     print(f"Last successful publish job was {most_recent['id']}: {last_sha}")
+    last_changelog = yaml.safe_load(get_last_changelog(session, last_sha))
+    with open(CHANGELOG_DIR, "r") as f:
+        cur_changelog = yaml.safe_load(f)
 
-    # Corvax-MultiChangelog-Start
-    for changelog_file in CHANGELOG_FILES:
-        last_changelog = yaml.safe_load(get_last_changelog(session, last_sha, changelog_file))
-        with open(changelog_file, "r") as f:
-            cur_changelog = yaml.safe_load(f)
-
-        diff = diff_changelog(last_changelog, cur_changelog)
-        send_to_discord(diff)
-    # Corvax-MultiChangelog-End
+    diff = diff_changelog(last_changelog, cur_changelog)
+    send_to_discord(diff)
 
 
 def get_most_recent_workflow(sess: requests.Session) -> Any:
@@ -86,7 +95,7 @@ def get_past_runs(sess: requests.Session, current_run: Any) -> Any:
     return resp.json()
 
 
-def get_last_changelog(sess: requests.Session, sha: str, changelog_file: str) -> str:
+def get_last_changelog(sess: requests.Session, sha: str) -> str:
     """
     Use GitHub API to get the previous version of the changelog YAML (Actions builds are fetched with a shallow clone)
     """
@@ -97,7 +106,7 @@ def get_last_changelog(sess: requests.Session, sha: str, changelog_file: str) ->
         "Accept": "application/vnd.github.raw"
     }
 
-    resp = sess.get(f"{GITHUB_API_URL}/repos/{GITHUB_REPOSITORY}/contents/{changelog_file}", headers=headers, params=params)
+    resp = sess.get(f"{GITHUB_API_URL}/repos/{GITHUB_REPOSITORY}/contents/{CHANGELOG_DIR}", headers=headers, params=params)
     resp.raise_for_status()
     return resp.text
 
@@ -142,28 +151,17 @@ def send_to_discord(entries: Iterable[ChangelogEntry]) -> None:
     for name, group in itertools.groupby(entries, lambda x: x["author"]):
         # Need to split text to avoid discord character limit
         group_content = io.StringIO()
-        group_content.write(f"**{name}** обновил(а):\n")
+        group_content.write(f"## {name}:\n")
 
         for entry in group:
             for change in entry["changes"]:
                 emoji = TYPES_TO_EMOJI.get(change['type'], "❓")
                 message = change['message']
                 url = entry.get("url")
-                # Corvax-Localization-Start
-                TRANSLATION_API_URL = os.environ.get("TRANSLATION_API_URL")
-                if TRANSLATION_API_URL:
-                    resp = requests.post(TRANSLATION_API_URL, json={
-                        "text": message,
-                        "source_lang": "EN",
-                        "target_lang": "RU"
-                    })
-                    message = resp.json()['data']
-                # Corvax-Localization-End
                 if url and url.strip():
                     group_content.write(f"{emoji} [-]({url}) {message}\n")
                 else:
                     group_content.write(f"{emoji} - {message}\n")
-        group_content.write(f"\n") # Corvax: Better formatting
 
         group_text = group_content.getvalue()
         message_text = message_content.getvalue()
@@ -172,7 +170,7 @@ def send_to_discord(entries: Iterable[ChangelogEntry]) -> None:
 
         # If adding the text would bring it over the group limit then send the message and start a new one
         if message_length + group_length >= DISCORD_SPLIT_LIMIT:
-            print("Split changelog  and sending to discord")
+            print("Split changelog and sending to discord")
             send_discord(message_text)
 
             # Reset the message
@@ -185,9 +183,7 @@ def send_to_discord(entries: Iterable[ChangelogEntry]) -> None:
     message_text = message_content.getvalue()
     if len(message_text) > 0:
         print("Sending final changelog to discord")
-        content.seek(0) # Corvax
-        for chunk in iter(lambda: content.read(2000), ''): # Corvax: Split big changelogs messages
-            send_discord(chunk)
+        send_discord(message_text)
 
 
 main()

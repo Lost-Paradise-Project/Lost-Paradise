@@ -99,7 +99,7 @@ public sealed class StationGoalPaperSystem : EntitySystem
 
             var printout = new FaxPrintout(
                 Loc.GetString("station-goal-fax-paper-header",
-                    ("date", DateTime.Now.AddYears(544).ToString("yyyy MMMM dd")),
+                    ("date", DateTime.Now.AddYears(544).ToString("dd MMMM yyyy")),
                     ("station", string.IsNullOrEmpty(stationId) ? "???" : stationId),
                     ("content", goal.Text),
                     ("name", _random.Pick(signerName.Values))

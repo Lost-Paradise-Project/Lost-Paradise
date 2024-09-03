@@ -1,28 +1,31 @@
 <Document>
-  # Zombies
+  # Зомби
 
   <Box>
     <GuideEntityEmbed Entity="SignBiohazard" Caption=""/>
   </Box>
 
-  - Zombies are antagonist that infect all beings that they bite.
+  - Зомби - это антагонисты, которые заражают почти всех существ, которых они кусают.
 
-  ## Infection
+  ## Инфекция
 
-  - Three ways of getting infected are by starting out as the intial infected, being bitten by a zombified being, or being injected by [color=#a4885c]Romerol[/color].
+  - Заразиться можно тремя способами: начать с самого начала, быть укушенным зомбированным существом или получить инъекцию  [color=#a4885c]Ромерола[/color].
 
   <Box>
     <GuideReagentEmbed Reagent="Romerol"></GuideReagentEmbed>
   </Box>
 
-  ## Objectives
+  ## Цель
 
-  - The objective for zombies is to infect the entire station's crew.
+  - Цель зомби - заразить весь экипаж станции.
 
-  ## Cure
+  ## Лечение
 
-  - If you are already zombified, the only cure is death.
-  - If you are not zombified yet, using [color=#a4885c]Ambuzol[/color] will stop the infection from ensuing your timely demise but you may still get reinfected if not too careful. [color=#a4885c]Ambuzol Plus[/color] will prevent the infection continuously only while alive.
+  - Если вы уже зомбированы, единственное лекарство - это смерть.
+  - Если вы еще не зомбированы, используйте [color=#a4885c]Амбузол[/color] что бы предотвратит заражение, которое приведет к вашей своевременной смерти, но вы все равно можете заразиться повторно, если не будете слишком осторожны. [color=#a4885c]Амбузол Плюс[/color] будет постоянно предотвращать заражение только при жизни.
+
+  Помните - Если вы умрёте, пока заражены, вы зомбируетесь!
+  Так же, если труб не был зомбифицирован, то его укус превраттит его в зомби. Если вы нулевой пациент в медицинсом отделе, загляните в морг. Возможно, вы сможете создать свою личную армию!
 
   <Box>
     <GuideReagentEmbed Reagent="Ambuzol"></GuideReagentEmbed>
@@ -33,3 +36,4 @@
   </Box>
 
 </Document>
+
