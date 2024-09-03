@@ -6,10 +6,10 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security
-      time: 36000
+      min: 36000
     - !type:CharacterDepartmentTimeRequirement
       department: Engineering
-      time: 72000
+      min: 72000
   startingGear: LPPSecurityEngineerGear
   icon: "LPPJobIconSecurityEnginer"
   supervisors: job-supervisors-hos
