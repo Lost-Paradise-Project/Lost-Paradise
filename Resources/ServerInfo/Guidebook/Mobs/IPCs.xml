@@ -1,17 +1,19 @@
 <Document>
   # К.П.Б.
-  <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
+  <GuideEntityEmbed Entity="MobIPCDummy" Caption="КПБ"/>
   КПБ (сокращение от Комплексный Позитронный Блок) это тип разумного робота, который считается [color=yellow]независимым индивидуумом[/color], что означает [color=red]что он не руководствуется никакими законами робототехники[/color]. КПБ не могут взломать поскольку они не обязаны следовать каким-либо предопределенным директивам в своей системе. [color=red]КПБ состоят из кремния и стали, поэтому у врачей нет возможности их ремонтировать[/color]
 
   <Box>
-    <GuideEntityEmbed Entity="PositronicBrain" Caption="Positronic Brain"/>
+    <GuideEntityEmbed Entity="PositronicBrain" Caption="Позитронный мозг"/>
   </Box>
   Как и у боргов, у КПБ есть позитронный мозг в качестве средства обработки данных. Однако, в отличие от них, КПБ нельзя собрать. "Проще написать код заново, нежели пытатся расплести клубок строк двоичного кода"
+
   ## Подзарядка КПБ
+
   <Box>
-    <GuideEntityEmbed Entity="APCBasic" Caption="APC Terminal"/>
-    <GuideEntityEmbed Entity="BorgCharger" Caption="Borg Charger"/>
-    <GuideEntityEmbed Entity="PowerCellMedium" Caption="Power Cell"/>
+    <GuideEntityEmbed Entity="APCBasic" Caption="ЛКП"/>
+    <GuideEntityEmbed Entity="BorgCharger" Caption="Зарядка боргов"/>
+    <GuideEntityEmbed Entity="PowerCellMedium" Caption="Батарейка"/>
   </Box>
   Аккумуляторы КПБ можно подзаряжать тремя различными способами:
 
@@ -22,24 +24,26 @@
   Батарейки: КПБ имеет внутренний элемент питания, который служит в качестве аккумулятора. Вы можете просто заменить его, открыв крышку и установив новый вручную.
 
   ## Интегрированное радио
+
   <Box>
-    <GuideEntityEmbed Entity="EncryptionKeyScience" Caption="Encryption key"/>
+    <GuideEntityEmbed Entity="EncryptionKeyScience" Caption="Ключь шифрования"/>
   </Box>
 
-  КПБ do [bold]not[/bold] е использует внешние радиостанции, потому что у них уже есть встроенная радиостанция. Им нужно только получить ключ шифрования от радиостанции щёлкнув по КПБ [color=yellow]кусачками[/color],вы можете удалить их ключи.
+  КПБ [bold]не[/bold] использует гарнитуры, потому что у них уже есть встроенная радиостанция. Им нужно только получить ключ шифрования и вставить его в себя. От ключа шифрования можно избавить КПБ, щёлкнув по КПБ [color=yellow]кусачками[/color].
   Вы можете найти новые ключи по всей станции или извлечь один из секторных радиоприемников с помощью банальной [color=yellow]отвертки[/color].
 
   ## Ремонт
+
   <Box HorizontalAlignment="Stretch">
-    <GuideEntityEmbed Entity="WelderIndustrialAdvanced" Caption="Welder"/>
+    <GuideEntityEmbed Entity="WelderIndustrialAdvanced" Caption="Сварка"/>
     Сварочные аппараты можно использовать для устранения [color=yellow]тупых[/color] поврежений.
   </Box>
   <Box HorizontalAlignment="Stretch">
-    <GuideEntityEmbed Entity="CableApcStack" Caption="Cables (any type)"/>
+    <GuideEntityEmbed Entity="CableApcStack" Caption="Кабеля"/>
     Кабели можно использовать для ремонта [color=yellow]ожогов[/color].
   </Box>
   <Box HorizontalAlignment="Stretch">
-    <GuideEntityEmbed Entity="SheetGlass" Caption="Glass Sheets (any type)"/>
+    <GuideEntityEmbed Entity="SheetGlass" Caption="Лист стекла"/>
     Листы стекла можно использовать для ремонта [color=yellow]слепоты[/color].
   </Box>
   <Box HorizontalAlignment="Stretch">
