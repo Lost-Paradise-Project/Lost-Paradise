@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <ServerGarbageCollection>true</ServerGarbageCollection>
   </PropertyGroup>
+  <Import Project="../Content.Shared/_PrivateShared/LPP_GlobalDefines.props" Condition="Exists('../Content.Shared/_PrivateShared/LPP_GlobalDefines.props')" />
 
   <ItemGroup>
     <ProjectReference Include="..\Content.IntegrationTests\Content.IntegrationTests.csproj" />

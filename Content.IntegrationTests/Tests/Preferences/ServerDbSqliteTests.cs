@@ -1,4 +1,3 @@
-#define LPP_Sponsors    //комментировать при ошибках
 using System.Collections.Generic;
 using System.Linq;
 using Content.Server.Database;

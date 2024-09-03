@@ -1,4 +1,3 @@
-#define LPP_Sponsors    //комментировать при ошибках
 using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
 using Content.Client.Chat.Managers;

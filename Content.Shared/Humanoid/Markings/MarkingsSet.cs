@@ -1,4 +1,3 @@
-#define LPP_Sponsors    //комментировать при ошибках
 using System.Collections;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;

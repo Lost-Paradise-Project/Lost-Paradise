@@ -1,4 +1,3 @@
-#define LPP_Sponsors    //комментировать при ошибках
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading;

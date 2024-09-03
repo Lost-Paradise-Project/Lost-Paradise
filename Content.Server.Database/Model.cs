@@ -1,4 +1,3 @@
-#define LPP_Sponsors    //комментировать при ошибках
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -41,7 +40,9 @@ namespace Content.Server.Database
         public DbSet<AdminNote> AdminNotes { get; set; } = null!;
         public DbSet<AdminWatchlist> AdminWatchlists { get; set; } = null!;
         public DbSet<AdminMessage> AdminMessages { get; set; } = null!;
-        public DbSet<Sponsor> Sponsors { get; set; } = null!;   // _LostParadise-Sponsors
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        public DbSet<Sponsor> Sponsors { get; set; } = null!;
+#endif
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -64,12 +65,11 @@ namespace Content.Server.Database
             modelBuilder.Entity<Loadout>()
                 .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.LoadoutName})
                 .IsUnique();
-
+#if LPP_Sponsors
             modelBuilder.Entity<Sponsor>()          // _LostParadise-Sponsors
                 .HasIndex(p => p.UserId)
                 .IsUnique();
 
-#if LPP_Sponsors  // _LostParadise-Sponsors
             modelBuilder.Entity<Donate>()
                 .HasIndex(p => new { HumanoidProfileId = p.ProfileId, p.DonateName })
                 .IsUnique();
@@ -1051,7 +1051,8 @@ namespace Content.Server.Database
         public bool Dismissed { get; set; }
     }
 
-    [Table("sponsors")]     // _LostParadise-Sponsors
+#if LPP_Sponsors  // _LostParadise-Sponsors
+    [Table("sponsors")] 
     public class Sponsor
     {
         [Required, Key] public Guid UserId { get; set; }
@@ -1063,4 +1064,5 @@ namespace Content.Server.Database
         public DateTime ExpireDate {get;set;}
         public bool AllowJob { get; set; } = false;
     }
+#endif
 }

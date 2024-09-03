@@ -1,4 +1,3 @@
-#define LPP_Sponsors    //комментировать при ошибках
 using System.Collections.Immutable;
 using System.Runtime.InteropServices;
 using System.Text.Json.Nodes;
