@@ -1,4 +1,3 @@
-#define LPP_Sponsors    //комментировать при ошибках
 using System.Collections.Immutable;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
@@ -1601,7 +1600,7 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
 
             public abstract ValueTask DisposeAsync();
         }
-
+#if LPP_Sponsors
         #region Sponsors
         public async Task<Sponsor?> GetSponsorInfo(NetUserId userId)   // _LostParadise-Sponsors
         {
@@ -1615,5 +1614,6 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
             return await db.DbContext.Sponsors.AsNoTracking().ToArrayAsync();
         }
         #endregion
+#endif
     }
 }

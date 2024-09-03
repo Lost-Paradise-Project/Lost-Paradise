@@ -1,4 +1,3 @@
-#define LPP_Sponsors    //комментировать при ошибках
 using Content.Server.Acz;
 using Content.Server.Administration;
 using Content.Server.Administration.Logs;

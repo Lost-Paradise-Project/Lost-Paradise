@@ -1,4 +1,3 @@
-#define LPP_Sponsors    //комментировать при ошибках
 using System.Linq;
 using System.Text.RegularExpressions;
 using Content.Shared.CCVar;

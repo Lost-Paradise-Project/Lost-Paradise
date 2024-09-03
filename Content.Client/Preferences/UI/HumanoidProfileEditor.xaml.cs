@@ -1,4 +1,3 @@
-#define LPP_Sponsors    //комментировать при ошибках
 using System.Linq;
 using System.Numerics;
 using Content.Client.Guidebook;

@@ -1,4 +1,3 @@
-#define LPP_Sponsors    //комментировать при ошибках
 using Content.Shared.Humanoid;
 using Robust.Shared.Player;
 
