@@ -5,7 +5,7 @@ on:
     types: [closed]
 
 env:
-  GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+  BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
   CHANGELOG_DIR: Resources/Changelog/ChangelogLPP.yml
   PR_NUMBER: ${{ github.event.number }}
   CHANGELOG_DISCORD_WEBHOOK: ${{ secrets.CHANGELOG_DISCORD_WEBHOOK }}
