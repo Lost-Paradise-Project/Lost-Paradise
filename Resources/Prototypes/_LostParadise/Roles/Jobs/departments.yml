@@ -1,0 +1,8 @@
+- type: department
+  id: CentralCommand
+  description: department-CentralCommand-description
+  color: "#49C423"
+  roles:
+  - LPPBlueShieldOfficer
+  primary: false
+  weight: 101

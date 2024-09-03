@@ -105,25 +105,16 @@
   # - Chaplain # Lost Paradise - move to Service
   - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
 
-- type: department
-  id: Specific
-  description: department-Specific-description
-  color: "#9FED58"
-  weight: 10
-  roles:
-  - Boxer
-  - Reporter
-  - Zookeeper
-  - Psychologist
-  - MartialArtist # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
-  - Gladiator # Nyanotrasen - Gladiator, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/gladiator.yml
-  primary: false
-
-- type: department
-  id: CentralCommand
-  description: department-CentralCommand-description
-  color: "#49C423"
-  roles:
-  - LPPBlueShieldOfficer
-  primary: false
-  weight: 101
+# - type: department
+  # id: Specific
+  # description: department-Specific-description
+  # color: "#9FED58"
+  # weight: 10
+  # roles:
+  # - Boxer
+  # - Reporter
+  # - Zookeeper
+  # - Psychologist
+  # - MartialArtist # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
+  # - Gladiator # Nyanotrasen - Gladiator, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/gladiator.yml
+  # primary: false

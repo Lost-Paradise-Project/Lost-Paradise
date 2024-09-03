@@ -7,10 +7,6 @@
   background: /Textures/_LostParadise/LobbyScreens/teftelka.png
 
 - type: lobbyBackground
-  id: Penisher
-  background: /Textures/_LostParadise/LobbyScreens/penisher.png
-
-- type: lobbyBackground
   id: Amina
   background: /Textures/_LostParadise/LobbyScreens/amina.png
 
