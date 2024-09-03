@@ -26,3 +26,10 @@ Entries:
   id: 3
   time: '2024-09-03T05:16:39.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/55
+- author: SpicyDarkFox
+  changes:
+    - type: Fix
+      message: Исправлены настройки сборки
+  id: 4
+  time: '2024-09-03T16:18:28.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/56
