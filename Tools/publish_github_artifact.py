@@ -4,7 +4,7 @@ import requests
 import os
 import subprocess
 
-GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 PUBLISH_TOKEN = os.environ["PUBLISH_TOKEN"]
 ARTIFACT_ID = os.environ["ARTIFACT_ID"]
 GITHUB_REPOSITORY = os.environ["GITHUB_REPOSITORY"]
@@ -14,8 +14,8 @@ VERSION = os.environ['GITHUB_SHA']
 # CONFIGURATION PARAMETERS
 # Forks should change these to publish to their own infrastructure.
 #
-ROBUST_CDN_URL = "https://wizards.cdn.spacestation14.com/"
-FORK_ID = "wizards"
+ROBUST_CDN_URL = "https://wiki.lost-paradise.space/cdn/"
+FORK_ID = "LPP"
 
 def main():
     print("Fetching artifact URL from API...")
@@ -37,7 +37,7 @@ def main():
 
 def get_artifact_url() -> str:
     headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
+        "Authorization": f"Bearer {BOT_TOKEN}",
         "X-GitHub-Api-Version": "2022-11-28"
     }
     resp = requests.get(f"https://api.github.com/repos/{GITHUB_REPOSITORY}/actions/artifacts/{ARTIFACT_ID}/zip", allow_redirects=False, headers=headers)
