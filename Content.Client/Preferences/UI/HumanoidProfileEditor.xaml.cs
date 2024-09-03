@@ -555,7 +555,7 @@ namespace Content.Client.Preferences.UI
             #endregion Save
 
             #region Markings
-            _tabContainer.SetTabTitle(5, Loc.GetString("humanoid-profile-editor-markings-tab"));
+            _tabContainer.SetTabTitle(6, Loc.GetString("humanoid-profile-editor-markings-tab"));
 
             CMarkings.OnMarkingAdded += OnMarkingChange;
             CMarkings.OnMarkingRemoved += OnMarkingChange;

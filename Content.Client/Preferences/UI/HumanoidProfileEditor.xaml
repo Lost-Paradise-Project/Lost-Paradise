@@ -191,12 +191,6 @@
 
                 <TabContainer Name="CLoadoutsTabs" VerticalExpand="True" />
             </BoxContainer>
-            <BoxContainer Name="CMarkingsTab" Orientation="Vertical" Margin="10">
-                <!-- Markings -->
-                <ScrollContainer VerticalExpand="True">
-                    <humanoid:MarkingPicker Name="CMarkings" IgnoreCategories="Hair,FacialHair" />
-                </ScrollContainer>
-            </BoxContainer>
             <!-- Lost Paradise Donate Preferences Begin -->
             <BoxContainer Orientation="Vertical" Margin="10" Name="LPPDonate">
                 <!-- Donate -->
@@ -205,6 +199,12 @@
                 </ScrollContainer>
             </BoxContainer>
             <!-- Lost Paradise Donate Preferences End -->
+            <BoxContainer Name="CMarkingsTab" Orientation="Vertical" Margin="10">
+                <!-- Markings -->
+                <ScrollContainer VerticalExpand="True">
+                    <humanoid:MarkingPicker Name="CMarkings" IgnoreCategories="Hair,FacialHair" />
+                </ScrollContainer>
+            </BoxContainer>
         </TabContainer>
     </BoxContainer>
     <!-- Right side -->
