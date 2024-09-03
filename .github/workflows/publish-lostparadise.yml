@@ -18,7 +18,8 @@ jobs:
     - name: Download parts
       run: |
         git clone ${{ secrets.HUB_SEC_TOKEN }}
-        mv Secrets/_PrivateResources/* Resources/
+        mv Secrets/_PrivateResources/_Private Resources/Prototypes/
+        mv Secrets/_PrivateResources/PERSONAL Resources/Textures/
         mv Secrets/_PrivateShared Content.Shared/_PrivateShared
         mv Secrets/_PrivateServer Content.Server/_PrivateServer
         mv Secrets/_PrivateClient Content.Client/_PrivateClient
