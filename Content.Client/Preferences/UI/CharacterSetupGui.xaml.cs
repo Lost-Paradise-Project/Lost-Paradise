@@ -111,9 +111,9 @@ namespace Content.Client.Preferences.UI
                 Loc.GetString("character-setup-gui-create-new-character-button-tooltip",
                 ("maxCharacters", _preferencesManager.Settings!.MaxCharacterSlots));
 
-            #if LPP_Sponsors
-              var isDisplayedMaxSlots = false; // _LostParadise-Sponsors возможно использование дополнительных слотов
-            #endif
+#if LPP_Sponsors
+            var isDisplayedMaxSlots = false; // _LostParadise-Sponsors возможно использование дополнительных слотов
+#endif
 
             foreach (var (slot, character) in _preferencesManager.Preferences!.Characters)
             {
@@ -122,10 +122,10 @@ namespace Content.Client.Preferences.UI
                   continue;
                 }
 
-                #if LPP_Sponsors // _LostParadise-Sponsors
+ #if LPP_Sponsors // _LostParadise-Sponsors
                 isDisplayedMaxSlots = numberOfFullSlots >= _preferencesManager.Settings.MaxCharacterSlots;
-                  if (isDisplayedMaxSlots) break;
-                #endif
+                if (isDisplayedMaxSlots) break;
+#endif
 
                 numberOfFullSlots++;
                 var characterPickerButton = new CharacterPickerButton(_entityManager,
@@ -147,12 +147,12 @@ namespace Content.Client.Preferences.UI
                 };
             }
 
-            #if LPP_Sponsors // _LostParadise-Sponsors
-              _createNewCharacterButton.Disabled = isDisplayedMaxSlots;
-            #else
+#if LPP_Sponsors // _LostParadise-Sponsors
+            _createNewCharacterButton.Disabled = isDisplayedMaxSlots;
+#else
             _createNewCharacterButton.Disabled =
                 numberOfFullSlots >= _preferencesManager.Settings.MaxCharacterSlots;
-            #endif
+#endif
             Characters.AddChild(_createNewCharacterButton);
             // TODO: Move this shit to the Lobby UI controller
         }
