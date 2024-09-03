@@ -17,3 +17,12 @@ Entries:
       message: удален старый ИИ
   id: 2
   time: '2024-09-02T15:43:20.0000000+00:00'
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Добавлена дата в кпк.
+    - type: Fix
+      message: Исправлена спонсорка.
+  id: 3
+  time: '2024-09-03T05:16:39.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/55
