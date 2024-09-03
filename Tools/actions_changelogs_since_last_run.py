@@ -25,7 +25,7 @@ CHANGELOG_FILE = "Resources/Changelog/ChangelogLPP.yml"
 
 TYPES_TO_EMOJI = {
     "Fix":    "🐛",
-    "Add":    "🆕",
+    "Add":    "✨",
     "Remove": "❌",
     "Tweak":  "⚒️"
 }
