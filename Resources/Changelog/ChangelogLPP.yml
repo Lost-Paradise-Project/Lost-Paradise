@@ -47,3 +47,10 @@ Entries:
   id: 6
   time: '2024-09-03T16:50:46.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/57
+- author: SpicyDarkFox
+  changes:
+    - type: Fix
+      message: Исправлена выдача маркингов в редакторе персонаа
+  id: 7
+  time: '2024-09-03T18:32:17.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/59
