@@ -68,6 +68,6 @@ jobs:
 
     - name: Publish changelog
       run: Tools/actions_changelogs_since_last_run.py
-      with:
+      env:
         BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
         CHANGELOG_DISCORD_WEBHOOK: ${{ secrets.CHANGELOG_DISCORD_WEBHOOK }}
