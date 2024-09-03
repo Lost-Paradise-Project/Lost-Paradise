@@ -197,6 +197,14 @@
                     <humanoid:MarkingPicker Name="CMarkings" IgnoreCategories="Hair,FacialHair" />
                 </ScrollContainer>
             </BoxContainer>
+            <!-- Lost Paradise Donate Preferences Begin -->
+            <BoxContainer Orientation="Vertical" Margin="10" Name="LPPDonate">
+                <!-- Donate -->
+                <ScrollContainer VerticalExpand="True">
+                    <BoxContainer Name="DonateList" Orientation="Vertical" />
+                </ScrollContainer>
+            </BoxContainer>
+            <!-- Lost Paradise Donate Preferences End -->
         </TabContainer>
     </BoxContainer>
     <!-- Right side -->

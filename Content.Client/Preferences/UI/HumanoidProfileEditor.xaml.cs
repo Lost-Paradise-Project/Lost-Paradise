@@ -1,3 +1,4 @@
+#define LPP_Sponsors    //комментировать при ошибках
 using System.Linq;
 using System.Numerics;
 using Content.Client.Guidebook;
@@ -83,6 +84,11 @@ namespace Content.Client.Preferences.UI
         private Button _loadoutsShowUnusableButton => LoadoutsShowUnusableButton;
         private BoxContainer _loadoutsTab => CLoadoutsTab;
         private TabContainer _loadoutsTabs => CLoadoutsTabs;
+
+        private BoxContainer _donateList => DonateList; // Lost Paradise Donate Preferences
+#if LPP_Sponsors
+        private List<_LostParadise.Donate.DonatePreferenceSelector> _donatePreferences;     // Lost Paradise Donate Preferences
+#endif
         private readonly List<JobPrioritySelector> _jobPriorities;
         private OptionButton _preferenceUnavailableButton => CPreferenceUnavailableButton;
         private readonly Dictionary<string, BoxContainer> _jobCategories;
@@ -588,6 +594,43 @@ namespace Content.Client.Preferences.UI
 
             #endregion Dummy
 
+#if LPP_Sponsors            // Lost Paradise Donate Preferences
+            #region Donate
+
+            var donate = prototypeManager.EnumeratePrototypes<Shared._LostParadise.Donate.DonatePrototype>().OrderBy(t => Loc.GetString(t.Name)).ToList();
+            _donatePreferences = new List<_LostParadise.Donate.DonatePreferenceSelector>();
+            _tabContainer.SetTabTitle(5, Loc.GetString("lost-donate-editor"));
+            var granted = false;
+            if (donate.Count > 0)
+            {
+                foreach (var donatet in donate)
+                {
+                    var selector = new _LostParadise.Donate.DonatePreferenceSelector(donatet);
+                    _donateList.AddChild(selector);
+                    _donatePreferences.Add(selector);
+
+                    selector.PreferenceChanged += preference =>
+                    {
+                        Profile = Profile?.WithDonatePreference(donatet.ID, preference);
+                    };
+                    if (selector.Gave)
+                        granted = true;
+                }
+            }
+            if (!granted)
+            {
+                _donateList.AddChild(new Label
+                {
+                    Text = Loc.GetString("lost-nodonate"),
+                    FontColorOverride = Color.Gray,
+                });
+            }
+            // Lost Paradise Donate Preferences End
+            #endregion
+
+#else
+            LPPDonate.Dispose();
+#endif
             #endregion Left
 
             if (preferencesManager.ServerDataLoaded)

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
@@ -18,6 +18,7 @@ namespace Content.Server.Database.Migrations.Postgres       // _LostParadise-Spo
                     ooccolor = table.Column<string>(type: "text", nullable: false),
                     have_priority_join = table.Column<bool>(type: "boolean", nullable: false),
                     allowed_markings = table.Column<string>(type: "text", nullable: false),
+                    expire_date = table.Column<DateTime>(type: "TEXT", nullable: false),
                     extra_slots = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>

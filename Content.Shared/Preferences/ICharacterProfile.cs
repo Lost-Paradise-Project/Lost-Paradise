@@ -1,3 +1,4 @@
+#define LPP_Sponsors    //комментировать при ошибках
 using Content.Shared.Humanoid;
 using Robust.Shared.Player;
 
@@ -14,11 +15,21 @@ namespace Content.Shared.Preferences
         /// <summary>
         ///     Makes this profile valid so there's no bad data like negative ages.
         /// </summary>
-        void EnsureValid(ICommonSession session, IDependencyCollection collection);
+        void EnsureValid(
+            ICommonSession session, IDependencyCollection collection
+#if LPP_Sponsors  // _LostParadise-Sponsors
+                    , string[] sponsorPrototypes
+#endif
+            );
 
         /// <summary>
         /// Gets a copy of this profile that has <see cref="EnsureValid"/> applied, i.e. no invalid data.
         /// </summary>
-        ICharacterProfile Validated(ICommonSession session, IDependencyCollection collection);
+        ICharacterProfile Validated(
+            ICommonSession session, IDependencyCollection collection
+#if LPP_Sponsors  // _LostParadise-Sponsors
+                    , string[] sponsorPrototypes
+#endif
+            );
     }
 }

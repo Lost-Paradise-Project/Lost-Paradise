@@ -1,3 +1,4 @@
+#define LPP_TTS_play    //комментировать при ошибках
 using Content.Shared.Chat;
 using Content.Shared.Corvax.CCCVars;
 using Content.Shared.Corvax.TTS;

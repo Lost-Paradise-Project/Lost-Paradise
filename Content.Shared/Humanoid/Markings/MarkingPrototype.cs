@@ -36,8 +36,8 @@ namespace Content.Shared.Humanoid.Markings
         public List<SpriteSpecifier> Sprites { get; private set; } = default!;
 
         // LostParadise-Sponsors-Start
-        [DataField("sponsorTier")]
-        public int SponsorTier = 0;   //0 - для всех
+        [DataField("sponsorOnly")]
+        public bool SponsorOnly = false;
         // LostParadise-Sponsors-End
 
         public Marking AsMarking()

@@ -1,8 +1,7 @@
 name: Close PRs on master
 
 on:
-  pull_request_target:
-    types: [ opened, ready_for_review ]
+  workflow_dispatch:
 
 jobs:
   run:
