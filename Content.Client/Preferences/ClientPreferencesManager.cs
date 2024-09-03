@@ -1,3 +1,4 @@
+#define LPP_Sponsors    //комментировать при ошибках
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 #if LPP_Sponsors  // _LostParadise-Sponsors
-  using Content.Client._LostParadise.Sponsors;
+using Content.Client._LostParadise.Sponsors;
 #endif
 
 namespace Content.Client.Preferences
@@ -27,9 +28,9 @@ namespace Content.Client.Preferences
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         [Dependency] private readonly IPrototypeManager _prototypes = default!;
         [Dependency] private readonly IPlayerManager _playerManager = default!;
-        #if LPP_Sponsors  // _LostParadise-Sponsors
-          [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
-        #endif
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
 
         public event Action? OnServerDataLoaded;
 
@@ -74,13 +75,13 @@ namespace Content.Client.Preferences
         {
             var collection = IoCManager.Instance!;
 
-            #if LPP_Sponsors  // _LostParadise-Sponsors
-              var allowedMarkings = _sponsorsManager.TryGetInfo(out var sponsor) ? sponsor.AllowedMarkings : [];
-              var session = _playerManager.LocalSession!;
-              profile.EnsureValid(session, collection, allowedMarkings);
-            #endif
-
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            var allowedMarkings = _sponsorsManager.TryGetInfo(out var sponsor) ? sponsor.AllowedMarkings : [];
+            var session = _playerManager.LocalSession!;
+            profile.EnsureValid(session, collection, allowedMarkings);
+#else
             profile.EnsureValid(_playerManager.LocalSession!, collection);
+#endif
             var characters = new Dictionary<int, ICharacterProfile>(Preferences.Characters) {[slot] = profile};
             Preferences = new PlayerPreferences(characters, Preferences.SelectedCharacterIndex, Preferences.AdminOOCColor);
             var msg = new MsgUpdateCharacter

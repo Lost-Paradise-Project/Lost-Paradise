@@ -1,3 +1,4 @@
+#define LPP_Sponsors    //комментировать при ошибках
 using System.Collections.Immutable;
 using System.Runtime.InteropServices;
 using System.Text.Json.Nodes;
@@ -13,8 +14,8 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Network;
 using Robust.Shared.Timing;
 #if LPP_Sponsors  // _LostParadise-Sponsors
-  using Content.Server._LostParadise.Sponsors;
-  using Content.Shared._LostParadise.CCVar;
+using Content.Server._LostParadise.Sponsors;
+using Content.Shared._LostParadise.CCVar;
 #endif
 
 
@@ -53,9 +54,9 @@ namespace Content.Server.Connection
         [Dependency] private readonly ServerDbEntryManager _serverDbEntry = default!;
         [Dependency] private readonly IGameTiming _gameTiming = default!;
         [Dependency] private readonly ILogManager _logManager = default!;
-        #if LPP_Sponsors  // _LostParadise-Sponsors
-          [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
-        #endif
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
 
         private readonly Dictionary<NetUserId, TimeSpan> _temporaryBypasses = [];
         private ISawmill _sawmill = default!;
@@ -164,12 +165,13 @@ namespace Content.Server.Connection
 
             var adminData = await _dbManager.GetAdminDataForAsync(e.UserId);
 
-            #if LPP_Sponsors  // _LostParadise-Sponsors
-                var isPrivileged = await HavePrivilegedJoin(e.UserId);
-                if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null && !isPrivileged)
-            #else
-                if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null)
-            #endif
+            bool isPrivileged;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            isPrivileged = await HasPrivilegedJoin(e.UserId);
+            if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null && !isPrivileged)
+#else
+            if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null)
+#endif
             {
                 var showReason = _cfg.GetCVar(CCVars.PanicBunkerShowReason);
                 var customReason = _cfg.GetCVar(CCVars.PanicBunkerCustomReason);
@@ -217,7 +219,7 @@ namespace Content.Server.Connection
             }
 
 
-            var isPrivileged = await HasPrivilegedJoin(userId);
+            isPrivileged = await HasPrivilegedJoin(userId);
             var isQueueEnabled = _cfg.GetCVar(CCVars.QueueEnabled);
 
             if (_plyMgr.PlayerCount >= _cfg.GetCVar(CCVars.SoftMaxPlayers) && !isPrivileged && !isQueueEnabled)
@@ -323,14 +325,14 @@ namespace Content.Server.Connection
                             ticker.PlayerGameStatuses.TryGetValue(userId, out var status) &&
                             status == PlayerGameStatus.JoinedGame;
 
-            #if LPP_Sponsors  // _LostParadise-Sponsors
-                var havePriorityJoin = _sponsorsManager.TryGetInfo(userId, out var sponsor) && sponsor.HavePriorityJoin;
-            #endif
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            var havePriorityJoin = _sponsorsManager.TryGetInfo(userId, out var sponsor) && sponsor.HavePriorityJoin;
+#endif
 
             return isAdmin ||
-                   #if LPP_Sponsors  // _LostParadise-Sponsors
+#if LPP_Sponsors                            // _LostParadise-Sponsors
                      havePriorityJoin ||
-                   #endif
+#endif
                    wasInGame;
         }
     }

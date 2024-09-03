@@ -1,3 +1,4 @@
+#define LPP_Sponsors    //комментировать при ошибках
 using System.Linq;
 using System.Numerics;
 using Content.Client.Humanoid;
@@ -122,8 +123,8 @@ namespace Content.Client.Preferences.UI
                   continue;
                 }
 
-                #if LPP_SUBS // _LostParadise-Sponsors
-                  isDisplayedMaxSlots = numberOfFullSlots >= _preferencesManager.Settings.MaxCharacterSlots;
+                #if LPP_Sponsors // _LostParadise-Sponsors
+                isDisplayedMaxSlots = numberOfFullSlots >= _preferencesManager.Settings.MaxCharacterSlots;
                   if (isDisplayedMaxSlots) break;
                 #endif
 

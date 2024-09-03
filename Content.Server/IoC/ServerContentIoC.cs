@@ -1,3 +1,4 @@
+#define LPP_Sponsors    //комментировать при ошибках
 using Content.Server.Administration;
 using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
@@ -26,6 +27,9 @@ using Content.Shared.Administration.Logs;
 using Content.Shared.Administration.Managers;
 using Content.Shared.Kitchen;
 using Content.Shared.Players.PlayTimeTracking;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+using Content.Server._LostParadise.Sponsors;
+#endif
 
 namespace Content.Server.IoC
 {
@@ -67,6 +71,9 @@ namespace Content.Server.IoC
             IoCManager.Register<DiscordAuthManager>();
             IoCManager.Register<ISharedPlaytimeManager, PlayTimeTrackingManager>();
             IoCManager.Register<ServerApi>();
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            IoCManager.Register<SponsorsManager>();
+#endif
         }
     }
 }

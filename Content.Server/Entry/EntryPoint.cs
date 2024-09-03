@@ -1,3 +1,4 @@
+#define LPP_Sponsors    //комментировать при ошибках
 using Content.Server.Acz;
 using Content.Server.Administration;
 using Content.Server.Administration.Logs;
@@ -33,7 +34,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 #if LPP_Sponsors  // _LostParadise-Sponsors
-  using Content.Server._LostParadise.Sponsors;
+using Content.Server._LostParadise.Sponsors;
 #endif
 
 namespace Content.Server.Entry
@@ -112,9 +113,9 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<JoinQueueManager>().Initialize();
                 IoCManager.Resolve<DiscordAuthManager>().Initialize();
                 IoCManager.Resolve<ServerApi>().Initialize();
-                #if LPP_Sponsors  // _LostParadise-Sponsors
-                  IoCManager.Resolve<SponsorsManager>().Initialize();
-                #endif
+#if LPP_Sponsors  // _LostParadise-Sponsors
+                IoCManager.Resolve<SponsorsManager>().Initialize();
+#endif
 
                 _voteManager.Initialize();
                 _updateManager.Initialize();
