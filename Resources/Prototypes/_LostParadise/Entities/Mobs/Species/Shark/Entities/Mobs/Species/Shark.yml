@@ -56,7 +56,7 @@
         Unsexed: FemaleHuman
     - type: Inventory
       speciesId: shark
-    - type: LanguageSpeaker
+    - type: LanguageKnowledge
       speaks:
       - GalacticCommon
       understands:

@@ -48,7 +48,7 @@
   - type: ShortExamine
   - type: RequireProjectileTarget
     active: False
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     understands:
     - GalacticCommon
 
