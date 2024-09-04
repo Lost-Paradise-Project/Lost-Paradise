@@ -4,10 +4,3 @@
   speechVerbStrings:
   - chat-speech-verb-tajaran-1
   - chat-speech-verb-tajaran-2
-
-# - type: speechVerb
-#   id: Vulpkanin
-#   name: chat-speech-verb-name-vulpkanin
-#   speechVerbStrings:
-#   - chat-speech-verb-canine-1
-#   - chat-speech-verb-canine-2

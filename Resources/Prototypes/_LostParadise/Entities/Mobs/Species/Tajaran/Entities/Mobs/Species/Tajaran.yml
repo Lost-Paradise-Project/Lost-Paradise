@@ -58,7 +58,7 @@
       speciesId: tajaran
     # - type: EmotePanel
       race: Tajar
-    - type: LanguageSpeaker
+    - type: LanguageKnowledge
       speaks:
       - GalacticCommon
       - SikTaj

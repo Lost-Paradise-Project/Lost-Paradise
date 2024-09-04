@@ -4,7 +4,6 @@
   desc: Результат гниения
   physicalDesc: гниющее
   color: "#2F4F4F"
-  hideFromGuide: true
   metabolisms:
     Poison:
       effects:

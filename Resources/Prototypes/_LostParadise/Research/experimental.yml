@@ -9,12 +9,6 @@
   tier: 2
   cost: 12000
   recipeUnlocks:
-    - LPPLeftArmBorgScience
-    - LPPRightArmBorgScience
-    - LPPLeftLegBorgScience
-    - LPPRightLegBorgScience
-    - LPPHeadBorgScience
-    - LPPTorsoBorgScience
     - BorgModuleArtifact
     - BorgModuleAnomaly
 

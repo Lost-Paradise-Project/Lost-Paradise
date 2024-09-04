@@ -203,7 +203,7 @@
       - Cyborgs
   - type: TTS # Corvax-TTS
     voice: Vally
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - GalacticCommon
     - LPPSynt

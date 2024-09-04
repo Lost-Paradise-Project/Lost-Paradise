@@ -1758,7 +1758,7 @@
   id: LPPUplinkhelmetswat
   name: шлем спецназа синдиката
   description: Крепкий шлем, что защитит вашу голову от ненужных свинцовых, а так же лазерных выстрелов.
-  icon: { sprite: Textures/Clothing/Head/Helmets/swat_syndicate.rsi, state: icon }
+  icon: { sprite: Clothing/Head/Helmets/swat_syndicate.rsi, state: icon }
   productEntity: ClothingHeadHelmetSwatSyndicate
   cost:
     Telecrystal: 2

@@ -5,7 +5,6 @@
   physicalDesc: концентрированное зло
   group: Narcotics
   color: "#000000"
-  hideFromGuide: true
   metabolisms:
     Narcotic:
       effects:
