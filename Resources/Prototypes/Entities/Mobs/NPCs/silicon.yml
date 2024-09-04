@@ -116,7 +116,7 @@
     - GalacticCommon
     - RobotTalk
   - type: PsionicInsulation
-  - type: LanguageKnowledge   #для ТТС
+  - type: LanguageSpeaker   #для ТТС
     speaks:
     - GalacticCommon
 
