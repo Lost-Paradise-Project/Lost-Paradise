@@ -1,5 +1,5 @@
 using Content.Server.GameTicking;
-﻿using Content.Server.GameTicking.Rules.Components;
+using Content.Server.GameTicking.Rules.Components;
 using Content.Server.Mind;
 using Content.Server.Shuttles.Systems;
 using Content.Shared.Cuffs.Components;
