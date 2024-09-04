@@ -215,3 +215,12 @@
   components:
     - type: Sprite
       sprite: _LostParadise/Clothing/Neck/Cloaks/Monorich.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakMantleNPZ
+  name: накидка НПЗ
+  description: Мы торопимся или действуем скрытно?
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Clothing/Neck/NPZ/NPZmantle.rsi
