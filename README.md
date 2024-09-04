@@ -1,6 +1,6 @@
 # Lost Paradise
 
-![image](https://github.com/user-attachments/assets/7c153f93-30d1-4231-8f9b-d23da0420699)
+![image](https://wiki.lost-paradise.space/images/3/31/Lost-Paradise-title.png)
 
 ---
 

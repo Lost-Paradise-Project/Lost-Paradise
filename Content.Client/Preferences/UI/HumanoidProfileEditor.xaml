@@ -191,6 +191,14 @@
 
                 <TabContainer Name="CLoadoutsTabs" VerticalExpand="True" />
             </BoxContainer>
+            <!-- Lost Paradise Donate Preferences Begin -->
+            <BoxContainer Orientation="Vertical" Margin="10" Name="LPPDonate">
+                <!-- Donate -->
+                <ScrollContainer VerticalExpand="True">
+                    <BoxContainer Name="DonateList" Orientation="Vertical" />
+                </ScrollContainer>
+            </BoxContainer>
+            <!-- Lost Paradise Donate Preferences End -->
             <BoxContainer Name="CMarkingsTab" Orientation="Vertical" Margin="10">
                 <!-- Markings -->
                 <ScrollContainer VerticalExpand="True">

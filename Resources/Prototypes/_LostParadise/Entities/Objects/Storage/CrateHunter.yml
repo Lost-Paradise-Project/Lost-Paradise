@@ -22,5 +22,5 @@
        - id: LPPweaponPibodi
        - id: LPPMagazineBoxHunting
        - id: LPPClothingOuterHardsuitHunter
-       - id: LPPWeaponBattleCutter
+#       - id: LPPWeaponBattleCutter
        - id: LPPWeaponCutterMagazine

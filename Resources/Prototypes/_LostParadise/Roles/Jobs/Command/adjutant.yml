@@ -6,12 +6,12 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Engineering
-      time: 36000
+      min: 36000
     - !type:CharacterDepartmentTimeRequirement
       department: Medical
-      time: 36000
+      min: 36000
     - !type:CharacterOverallTimeRequirement
-      time: 72000
+      min: 72000
   startingGear: AdjutantGear
   icon: "JobIconAdjutant"
   requireAdminNotify: true

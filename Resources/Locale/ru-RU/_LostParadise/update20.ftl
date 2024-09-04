@@ -1,4 +1,4 @@
-﻿ent-LPPCentralCommandRepresentativeIDCard = ID карта представителя ЦентКом
+ent-LPPCentralCommandRepresentativeIDCard = ID карта представителя ЦентКом
     .desc = Выглядит страшно...
 ent-LPPKirasCloakn = Плащ Киры
     .desc = Прекрасный плащ с прекрасным капюшоном

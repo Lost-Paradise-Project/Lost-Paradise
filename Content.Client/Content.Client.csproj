@@ -12,6 +12,7 @@
     <Configurations>Debug;Release;Tools;DebugOpt</Configurations>
     <Platforms>AnyCPU</Platforms>
   </PropertyGroup>
+  <Import Project="../Content.Shared/_PrivateShared/LPP_GlobalDefines.props" Condition="Exists('../Content.Shared/_PrivateShared/LPP_GlobalDefines.props')" />
   <ItemGroup>
     <PackageReference Include="Nett" />
     <PackageReference Include="JetBrains.Annotations" PrivateAssets="All" />

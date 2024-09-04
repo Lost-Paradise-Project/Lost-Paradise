@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ServerGarbageCollection>True</ServerGarbageCollection>
   </PropertyGroup>
+  <Import Project="../Content.Shared/_PrivateShared/LPP_GlobalDefines.props" Condition="Exists('../Content.Shared/_PrivateShared/LPP_GlobalDefines.props')" />
 
   <ItemGroup>
     <ProjectReference Include="..\RobustToolbox\Robust.Packaging\Robust.Packaging.csproj" />

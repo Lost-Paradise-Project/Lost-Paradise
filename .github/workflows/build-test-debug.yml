@@ -1,7 +1,12 @@
 name: Build & Test Debug
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [ master, staging, trying ]
+  merge_group:
+  pull_request:
+    types: [ opened, reopened, synchronize, ready_for_review ]
+    branches: [ master ]
 
 jobs:
   build:

@@ -5,10 +5,10 @@
 #   playTimeTracker: JobBorgSecurity
 #   requirements:
 #     - !type:OverallPlaytimeRequirement
-#       time: 36000 #10 hrs
+#       min: 36000 #10 hrs
 #     - !type:CharacterDepartmentTimeRequirement
 #       department: Security
-#       time: 720
+#       min: 720
 #   canBeAntag: false
 #   icon: JobIconBorgSec
 #   supervisors: job-supervisors-hos
@@ -21,10 +21,10 @@
 #   playTimeTracker: JobDroneSecurity
 #   requirements:
 #     - !type:OverallPlaytimeRequirement
-#       time: 36000 #10 hrs
+#       min: 36000 #10 hrs
 #     - !type:CharacterDepartmentTimeRequirement
 #       department: Security
-#       time: 7200 #2 hrs
+#       min: 7200 #2 hrs
 #   canBeAntag: false
 #   icon: JobIconDroneSec
 #   supervisors: job-supervisors-hos

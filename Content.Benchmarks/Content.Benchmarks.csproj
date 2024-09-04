@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <Import Project="..\RobustToolbox\MSBuild\Robust.Properties.targets" />
   <PropertyGroup>
     <!-- Work around https://github.com/dotnet/project-system/issues/4314 -->
@@ -10,6 +10,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>12</LangVersion>
   </PropertyGroup>
+  <Import Project="../Content.Shared/_PrivateShared/LPP_GlobalDefines.props" Condition="Exists('../Content.Shared/_PrivateShared/LPP_GlobalDefines.props')" />
   <ItemGroup>
     <PackageReference Include="BenchmarkDotNet" />
   </ItemGroup>

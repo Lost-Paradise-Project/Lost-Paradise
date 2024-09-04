@@ -1,28 +1,28 @@
 <Document>
-  # Radio
+  # Радио
 
-  Your radio allows you to communicate across the entire station and to your specific [color=#a4885c]department[/color].
+  С помощью вашей гарнитуры вы можете поддерживать связь со всей станцией и с конкретным [color=#a4885c]отделом[/color].
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
   </Box>
 
-  To send a station-wide message over the radio preface your text with [color=#a4885c]semi-colon (;)[/color].
+  Чтобы отправить сообщение по радио на всю станцию, укажите в начале текста [color=#a4885c] точку с запятой (;)[/color].
 
-  ## Departmental Radio
+  ## Радио различных отделов
 
-  You are able to send messages over your departmental radio channels using [color=#a4885c]colon (:)[/color] followed by the
-  department letter as long as you're wearing a headset with your department's encryption key.
+  Вы можете отправлять сообщения по каналам радиосвязи вашего отдела, используя [color=#a4885c]двоеточие (:)[/color], за которым следует
+  буква отдела, если на вас надета гарнитура с ключом шифрования вашего отдела.
 
-  Examine your headset to see the department channels available to you.
+  Проверьте свою гарнитуру, чтобы увидеть доступные вам каналы отдела.
 
-<Box>
-  <GuideEntityEmbed Entity="ClothingHeadsetEngineering"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHeadsetEngineering"/>
+  </Box>
 
-  Examining a default engineering headset would show you the prefixes for the [color=#32cd32]Common[/color] and [color=#f37746]Engineering[/color]
-  channels.
-  
-  It is also possible to use [color=#a4885c]:h[/color]. This hotkey will automatically default to your department radio channel. For an example if you're Captain, then [color=#a4885c]:h[/color] will default to [color=#a4885c]:c[/color]
+  Если вы изучите стандартную инженерную гарнитуру, то увидите префиксы для [color=#32cd32]Общего[/color] и [color=#f37746]Инженерного[/color].
+  каналов.
+
+  Также можно использовать [color=#a4885c]:р[/color]. Эта горячая клавиша автоматически настроит радиоканал вашего отдела по умолчанию. Например, если вы капитан,   то [color=#a4885c]:р[/color] по умолчанию будет [color=#a4885c]:к[/color]
 
 </Document>

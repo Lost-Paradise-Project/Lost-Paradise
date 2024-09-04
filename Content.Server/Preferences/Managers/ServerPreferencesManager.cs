@@ -13,6 +13,9 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+using Content.Server._LostParadise.Sponsors;
+#endif
 
 
 namespace Content.Server.Preferences.Managers
@@ -28,6 +31,9 @@ namespace Content.Server.Preferences.Managers
         [Dependency] private readonly IServerDbManager _db = default!;
         [Dependency] private readonly IPlayerManager _playerManager = default!;
         [Dependency] private readonly IPrototypeManager _protos = default!;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        [Dependency] private readonly SponsorsManager _sponsors = default!;
+#endif
 
         // Cache player prefs on the server so we don't need as much async hell related to them.
         private readonly Dictionary<NetUserId, PlayerPrefData> _cachedPlayerPrefs =
@@ -54,7 +60,13 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (index < 0 || index >= MaxCharacterSlots)
+            if (index < 0 || index >=
+#if LPP_Sponsors  // _LostParadise-Sponsors
+                GetMaxUserCharacterSlots(userId)
+#else
+                MaxCharacterSlots
+#endif
+                )
             {
                 return;
             }
@@ -94,7 +106,13 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (slot < 0 || slot >= MaxCharacterSlots)
+            if (slot < 0 || slot >=
+#if LPP_Sponsors  // _LostParadise-Sponsors
+                GetMaxUserCharacterSlots(userId)
+#else
+                MaxCharacterSlots
+#endif
+                )
             {
                 return;
             }
@@ -103,7 +121,12 @@ namespace Content.Server.Preferences.Managers
             var session = _playerManager.GetSessionById(userId);
             var collection = IoCManager.Instance!;
 
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            var allowedMarkings = _sponsors.TryGetInfo(userId, out var sponsor) ? sponsor.AllowedMarkings : new string[] { };
+            profile.EnsureValid(session, collection, allowedMarkings);
+#else
             profile.EnsureValid(session, collection);
+#endif
 
             var profiles = new Dictionary<int, ICharacterProfile>(curPrefs.Characters)
             {
@@ -129,7 +152,13 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (slot < 0 || slot >= MaxCharacterSlots)
+            if (slot < 0 || slot >=
+#if LPP_Sponsors  // _LostParadise-Sponsors
+                GetMaxUserCharacterSlots(userId)
+#else
+                MaxCharacterSlots
+#endif
+                )
             {
                 return;
             }
@@ -216,6 +245,15 @@ namespace Content.Server.Preferences.Managers
             _cachedPlayerPrefs.Remove(session.UserId);
         }
 
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        private int GetMaxUserCharacterSlots(NetUserId userId)
+        {
+            var maxSlots = _cfg.GetCVar(CCVars.GameMaxCharacterSlots);
+            var extraSlots = _sponsors.TryGetInfo(userId, out var sponsor) ? sponsor.ExtraSlots : 0;
+            return maxSlots + extraSlots;
+        }
+#endif
+
         public bool HavePreferencesLoaded(ICommonSession session)
         {
             return _cachedPlayerPrefs.ContainsKey(session.UserId);
@@ -273,11 +311,20 @@ namespace Content.Server.Preferences.Managers
         private PlayerPreferences SanitizePreferences(ICommonSession session, PlayerPreferences prefs,
             IDependencyCollection collection)
         {
+
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            var allowedMarkings = _sponsors.TryGetInfo(session.UserId, out var sponsor) ? sponsor.AllowedMarkings : new string[] { };
+#endif
             // Clean up preferences in case of changes to the game,
             // such as removed jobs still being selected.
             return new PlayerPreferences(prefs.Characters.Select(p =>
             {
-                return new KeyValuePair<int, ICharacterProfile>(p.Key, p.Value.Validated(session, collection));
+                return new KeyValuePair<int, ICharacterProfile>(p.Key, p.Value.Validated(
+                    session, collection
+#if LPP_Sponsors  // _LostParadise-Sponsors
+                    , allowedMarkings
+#endif
+                    ));
             }), prefs.SelectedCharacterIndex, prefs.AdminOOCColor);
         }
 

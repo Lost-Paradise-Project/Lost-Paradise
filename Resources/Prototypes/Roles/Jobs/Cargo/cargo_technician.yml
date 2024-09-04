@@ -6,7 +6,7 @@
   antagAdvantage: 2 # DeltaV - Reduced TC: External Access
   requirements:
     - !type:CharacterOverallTimeRequirement
-      time: 7200
+      min: 7200
   startingGear: CargoTechGear
   icon: "JobIconCargoTechnician"
   supervisors: job-supervisors-qm

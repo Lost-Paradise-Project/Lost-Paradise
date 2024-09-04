@@ -30,7 +30,7 @@
   icon:
     sprite: _LostParadise/Objects/Specific/Chemistry/chem_bag_bluespace.rsi
     state: icon
-  discipline: Biochemical
+  discipline: Industrial
   tier: 2
   cost: 7500
   recipeUnlocks:

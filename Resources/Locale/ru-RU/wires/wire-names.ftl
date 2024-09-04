@@ -21,6 +21,7 @@ wires-board-name-anomalygenerator = Генератор аномалий
 wires-board-name-cloningpod = Капсула клонирования
 wires-board-name-cryopod = Криокапсула
 wires-board-name-chemdispenser = Раздатчик химикатов
+wires-board-name-chemmaster = ChemMaster
 wires-board-name-chem_master = Мастер химикатов
 wires-board-name-generator = Генератор
 wires-board-name-vendingmachine = Торгомат

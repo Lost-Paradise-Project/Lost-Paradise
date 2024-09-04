@@ -61,7 +61,7 @@
     wideAnimationRotation: -90
     soundHit:
       path: "/Audio/Items/drill_hit.ogg"
-    attackRate: 0.5
+    attackRate: 1.5
     range: 1.4
     damage:
       types:
@@ -72,7 +72,7 @@
     heavyRateModifier: 1
     heavyRangeModifier: 2
     heavyDamageBaseModifier: 1
-    heavyStaminaCost: 10
+    heavyStaminaCost: 2
     maxTargets: 3
     angle: 20
 

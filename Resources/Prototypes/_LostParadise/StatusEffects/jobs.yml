@@ -14,13 +14,6 @@
 
 - type: statusIcon
   parent: JobIcon
-  id: JobIconMagistrate
-  icon:
-    sprite: /Textures/_LostParadise/Interface/Misc/lpp_job_icons.rsi
-    state: Magistrate
-
-- type: statusIcon
-  parent: JobIcon
   id: JobIconSecPilot
   icon:
     sprite: /Textures/_LostParadise/Interface/Misc/lpp_job_icons.rsi
