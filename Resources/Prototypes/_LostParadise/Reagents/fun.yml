@@ -166,34 +166,3 @@
           reagent: LPPAphrodisiacReduced
           min: 20
         boozePower: 1
-
-- type: reagent
-  id: LPPCondensedMilk
-  name: reagent-name-condensed-milk
-  desc: reagent-desc-condensed-milk
-  physicalDesc: reagent-physical-desc-sticky
-  flavor: sweet
-  color: "#FFFACD"
-  boilingPoint: 250.0
-  meltingPoint: 380.0
-  viscosity: 0.5
-  tileReactions:
-    - !type:SpillTileReaction
-  reactiveEffects:
-    Acidic:
-      methods: [ Touch ]
-      effects:
-      # pva glue? no, antibiotic glue for sealing wounds
-      - !type:ModifyBleedAmount
-        amount: -1.5
-  metabolisms:
-    Food:
-      effects:
-        - !type:AdjustReagent
-          reagent: Nutriment
-          amount: 0.5
-  footstepSound:
-    collection: FootstepSticky
-    params:
-      volume: 6
-
