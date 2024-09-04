@@ -25,7 +25,7 @@
         reagent: SpaceDrugs
         quantity: 25
   - type: Sprite
-    sprite: _LostParadise/Mobs/Silicon/medibot_syndicat.rsi
+    sprite: _LostParadise/Mobs/Silicon/medibot_cat.rsi
     state: medibot1
   - type: HTN
     rootTask:

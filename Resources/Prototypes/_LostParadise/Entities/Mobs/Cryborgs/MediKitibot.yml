@@ -4,7 +4,7 @@
   name: medical cyborg
   components:
   - type: Sprite
-    sprite: _LostParadise/Mobs/Silicon/medibot_syndicat.rsi
+    sprite: _LostParadise/Mobs/Silicon/medibot_cat.rsi
     layers:
     - state: medibot1
       map: ["movement"]

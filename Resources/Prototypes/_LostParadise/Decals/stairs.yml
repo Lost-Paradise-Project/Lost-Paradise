@@ -146,72 +146,6 @@
     sprite: _LostParadise/Decals/stairs.rsi
     state: wooden-r
 
-#-------------------------------------------#
-#-----synd-mini---synd-mini---synd-mini-----#
-#-------------------------------------------#
-- type: decal
-  id: LPPsyndMini1
-  tags: ["stairs"]
-  sprite:
-    sprite: _LostParadise/Decals/synd-mini.rsi
-    state: synd-mini1
-
-- type: decal
-  id: LPPsyndMini2
-  tags: ["stairs"]
-  sprite:
-    sprite: _LostParadise/Decals/synd-mini.rsi
-    state: synd-mini2
-
-- type: decal
-  id: LPPsyndMini3
-  tags: ["stairs"]
-  sprite:
-    sprite: _LostParadise/Decals/synd-mini.rsi
-    state: synd-mini3
-
-- type: decal
-  id: LPPsyndMini4
-  tags: ["stairs"]
-  sprite:
-    sprite: _LostParadise/Decals/synd-mini.rsi
-    state: synd-mini4
-
-- type: decal
-  id: LPPsyndMini5
-  tags: ["stairs"]
-  sprite:
-    sprite: _LostParadise/Decals/synd-mini.rsi
-    state: synd-mini5
-
-- type: decal
-  id: LPPsyndMini6
-  tags: ["stairs"]
-  sprite:
-    sprite: _LostParadise/Decals/synd-mini.rsi
-    state: synd-mini6
-
-- type: decal
-  id: LPPsyndMini7
-  tags: ["stairs"]
-  sprite:
-    sprite: _LostParadise/Decals/synd-mini.rsi
-    state: synd-mini7
-
-- type: decal
-  id: LPPsyndMini8
-  tags: ["stairs"]
-  sprite:
-    sprite: _LostParadise/Decals/synd-mini.rsi
-    state: synd-mini8
-
-- type: decal
-  id: LPPsyndMini9
-  tags: ["stairs"]
-  sprite:
-    sprite: _LostParadise/Decals/synd-mini.rsi
-    state: synd-mini9
-
 #----------------------------------------------#
 #-----wheelchair---wheelchair---wheelchair-----#
 #----------------------------------------------#
@@ -396,4 +330,3 @@
   sprite:
     sprite: _LostParadise/Decals/threshold.rsi
     state: threshold12
-
