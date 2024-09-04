@@ -1,21 +1,3 @@
-
-- type: entity
-  parent: DoorRemoteDefault
-  id: DoorRemoteCC
-  name: Пульт ЦК
-  suffix: Cenctom
-  components:
-    - type: Sprite
-      layers:
-        - state: door_remotebase
-        - state: door_remotelightscolour
-          color: "#2eba22"
-        - state: door_remotescreencolour
-          color: "#22871a"
-    - type: Access
-      groups:
-        - CentCom
-
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteFull
