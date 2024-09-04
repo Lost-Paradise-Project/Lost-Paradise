@@ -1,7 +1,31 @@
 ﻿name: Test Packaging
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [ master, staging, trying ]
+    paths:
+    - '**.cs'
+    - '**.csproj'
+    - '**.sln'
+    - '**.git**'
+    - '**.yml'
+    # no docs on which one of these is supposed to work, so
+    # why not just do both
+    - 'RobustToolbox'
+    - 'RobustToolbox/**'
+  merge_group:
+  pull_request:
+    types: [ opened, reopened, synchronize, ready_for_review ]
+    branches: [ master ]
+    paths:
+    - '**.cs'
+    - '**.csproj'
+    - '**.sln'
+    - '**.git**'
+    - '**.yml'
+    - 'RobustToolbox'
+    - 'RobustToolbox/**'
+
 
 jobs:
   build:

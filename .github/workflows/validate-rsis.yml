@@ -1,7 +1,12 @@
 name: RSI Validator
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [ staging, trying ]
+  merge_group:
+  pull_request:
+    paths:
+    - '**.rsi/**'
 
 jobs:
   validate_rsis:
