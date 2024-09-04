@@ -8,15 +8,6 @@
     sprite: _LostParadise/Clothing/Back/Satchels/hop.rsi
 
 - type: entity
-  parent: ClothingBackpackSatchel
-  id: LPPClothingBackpackSatchelRobotics
-  name: robotics satchel
-  description: A red-striped satchel useful for holding spare parts and materials.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Back/Satchels/roboticist.rsi
-
-- type: entity
   parent: LPPClothingSatchelSmugglerAbstract
   id: LPPClothingSatchelSmuggler
   name: Smuggling Satchel

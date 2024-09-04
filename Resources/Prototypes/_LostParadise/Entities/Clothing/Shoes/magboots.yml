@@ -72,3 +72,27 @@
     - HighRiskItem
   - type: StaticPrice
     price: 450
+
+- type: entity
+  parent: ClothingShoesBootsMag
+  id: LPPClothingShoesBootsMagNPZ
+  name: магитные сапоги НПЗ
+  description: Стандартизированные магнитные сапоги от военно-исследовательских сил Независимого Правительства Земли.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/NPZmagboots.rsi
+    state: icon
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/NPZmagboots.rsi
+  - type: Magboots
+    toggleAction: ActionToggleMagbootsAdvanced
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+    enabled: false
+  - type: NoSlip
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: StaticPrice
+    price: 450

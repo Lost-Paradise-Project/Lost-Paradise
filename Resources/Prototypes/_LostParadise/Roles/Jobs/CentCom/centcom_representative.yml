@@ -6,10 +6,10 @@
   requirements:
    - !type:CharacterDepartmentTimeRequirement
      department: Command
-     time: 108000
+     min: 108000
    - !type:CharacterPlaytimeRequirement
      tracker: JobCaptain
-     time: 54000
+     min: 54000
   setPreference: false
   startingGear: CentcomRepresentativeGear
   icon: "JobIconNanotrasen"

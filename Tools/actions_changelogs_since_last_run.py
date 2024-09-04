@@ -12,16 +12,16 @@ import requests
 import yaml
 from typing import Any, Iterable
 
-GITHUB_API_URL            = os.environ.get("GITHUB_API_URL", "https://api.github.com")
-GITHUB_REPOSITORY         = os.environ["GITHUB_REPOSITORY"]
-GITHUB_RUN                = os.environ["GITHUB_RUN_ID"]
-GITHUB_TOKEN              = os.environ["GITHUB_TOKEN"]
-CHANGELOG_DIR             = os.environ["CHANGELOG_DIR"]
-CHANGELOG_DISCORD_WEBHOOK = os.environ["CHANGELOG_DISCORD_WEBHOOK"]
-PR_NUMBER                 = os.environ["PR_NUMBER"]
+GITHUB_API_URL    = os.environ.get("GITHUB_API_URL", "https://api.github.com")
+GITHUB_REPOSITORY = os.environ["GITHUB_REPOSITORY"]
+GITHUB_RUN        = os.environ["GITHUB_RUN_ID"]
+BOT_TOKEN         = os.environ["BOT_TOKEN"]
 
 # https://discord.com/developers/docs/resources/webhook
 DISCORD_SPLIT_LIMIT = 2000
+CHANGELOG_DISCORD_WEBHOOK = os.environ.get("CHANGELOG_DISCORD_WEBHOOK")
+
+CHANGELOG_FILE = "Resources/Changelog/ChangelogLPP.yml"
 
 TYPES_TO_EMOJI = {
     "Fix":    "🐛",
@@ -37,28 +37,15 @@ def main():
         return
 
     session = requests.Session()
-    session.headers["Authorization"]        = f"Bearer {GITHUB_TOKEN}"
+    session.headers["Authorization"]        = f"Bearer {BOT_TOKEN}"
     session.headers["Accept"]               = "Accept: application/vnd.github+json"
     session.headers["X-GitHub-Api-Version"] = "2022-11-28"
 
-    resp = session.get(f"{GITHUB_API_URL}/repos/{GITHUB_REPOSITORY}/pulls/{PR_NUMBER}")
-    resp.raise_for_status()
-    last_sha = resp.json()["merge_commit_sha"]
-
-    index = int(PR_NUMBER)
-    while True:
-        index -= 1
-        resp = session.get(f"{GITHUB_API_URL}/repos/{GITHUB_REPOSITORY}/pulls/{index}")
-        resp.raise_for_status()
-        merge_info = resp.json()
-        if merge_info["merged_at"]:
-            last_sha = merge_info["merge_commit_sha"]
-            break
-
     most_recent = get_most_recent_workflow(session)
+    last_sha = most_recent['head_commit']['id']
     print(f"Last successful publish job was {most_recent['id']}: {last_sha}")
     last_changelog = yaml.safe_load(get_last_changelog(session, last_sha))
-    with open(CHANGELOG_DIR, "r") as f:
+    with open(CHANGELOG_FILE, "r") as f:
         cur_changelog = yaml.safe_load(f)
 
     diff = diff_changelog(last_changelog, cur_changelog)
@@ -106,7 +93,7 @@ def get_last_changelog(sess: requests.Session, sha: str) -> str:
         "Accept": "application/vnd.github.raw"
     }
 
-    resp = sess.get(f"{GITHUB_API_URL}/repos/{GITHUB_REPOSITORY}/contents/{CHANGELOG_DIR}", headers=headers, params=params)
+    resp = sess.get(f"{GITHUB_API_URL}/repos/{GITHUB_REPOSITORY}/contents/{CHANGELOG_FILE}", headers=headers, params=params)
     resp.raise_for_status()
     return resp.text
 
@@ -159,7 +146,7 @@ def send_to_discord(entries: Iterable[ChangelogEntry]) -> None:
                 message = change['message']
                 url = entry.get("url")
                 if url and url.strip():
-                    group_content.write(f"{emoji} [-]({url}) {message}\n")
+                    group_content.write(f"{emoji} - [{message}]({url})\n")
                 else:
                     group_content.write(f"{emoji} - {message}\n")
 

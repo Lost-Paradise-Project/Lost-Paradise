@@ -6,13 +6,13 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Command
-      time: 108000
+      min: 108000
     - !type:CharacterDepartmentTimeRequirement
       department: Security
-      time: 108000
+      min: 108000
     - !type:CharacterDepartmentTimeRequirement
       department: Medical
-      time: 72000
+      min: 72000
   startingGear: LPPBlueShieldOfficerGear
   icon: "JobIconBlueshield"
   supervisors: job-supervisors-centcom
