@@ -84,3 +84,16 @@ Entries:
   id: 9
   time: '2024-09-04T11:55:47.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/61
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Разделение маркингов по уровням спонсорки
+    - type: Tweak
+      message: >-
+        У людей изменены очки внешности: по 1 на уши и хвост, и по 4 на руки и
+        ноги вместо 6
+    - type: Fix
+      message: Исправлены кнопки в редакторе персонажа, снимающие одежду
+  id: 10
+  time: '2024-09-04T15:33:10.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/62
