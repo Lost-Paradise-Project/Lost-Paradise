@@ -19,5 +19,5 @@
         - to: start
           completed:
           - !type:SpawnPrototype
-                prototype: Plasteel
-                amount: 10
+            prototype: SheetPlasteel10
+            amount: 1

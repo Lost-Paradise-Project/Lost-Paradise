@@ -31,7 +31,7 @@
       - BorgModuleMedical
     hasMindState: medibot1
     noMindState: medibot1
-    name: киборг-доктор
+    # name: киборг-доктор
   - type: Construction
     node: medical
   - type: IntrinsicRadioTransmitter

@@ -6,7 +6,8 @@
   - type: Item
     size: Huge
   - type: Storage
-    capacity: 16
+      grid:
+      - 1,1,3,3   # я хз как это работает, потому пусть будет так
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
