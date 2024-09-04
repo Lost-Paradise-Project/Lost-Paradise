@@ -58,9 +58,6 @@
     templateId: borgDutch
   - type: TTS # Corvax-TTS
     voice: Vally
-  - type: FootstepModifier
-    footstepSoundCollection:
-      collection: FootstepHoverBorg
   - type: InteractionPopup
     interactSuccessString: petting-success-generic
     interactFailureString: petting-failure-generic
