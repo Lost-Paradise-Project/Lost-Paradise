@@ -16,7 +16,7 @@
   canBeAntag: false
   access:
   - Security
-  - Brig
+#  - Brig
   - Maintenance
   - External
   - Engineering
