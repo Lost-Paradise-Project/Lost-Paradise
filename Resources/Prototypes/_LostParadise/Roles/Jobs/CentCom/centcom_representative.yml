@@ -27,7 +27,6 @@
     jumpsuit: ClothingUniformJumpsuitCentcomOfficer
     back: ClothingBackpackHOPFilled
     shoes: ClothingShoesBootsLaceup
-    head: ClothingHeadHatBeretCentcomNaval
     eyes: ClothingEyesGlassesSunglasses
     gloves: ClothingHandsGlovesColorGray
     outerClothing: ClothingOuterVest
@@ -40,7 +39,6 @@
     underwear: LPPBoxerGreen
   underwear: LPPBriefsGreen
   breast: LPPBraAltGreen
-  innerClothingSkirt: ClothingUniformJumpskirtCentcomOfficer
   satchel: ClothingBackpackSatchelHOPFilled
   duffelbag: ClothingBackpackDuffelHOPFilled
 

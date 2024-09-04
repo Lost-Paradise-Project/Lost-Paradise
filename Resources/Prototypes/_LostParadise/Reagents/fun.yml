@@ -5,7 +5,6 @@
   physicalDesc: ароматное
   group: Narcotics
   color: "#FF1493"
-  hideFromGuide: true
   metabolisms:
     Poison:
       effects:
@@ -98,7 +97,6 @@
   physicalDesc: ароматное
   group: Narcotics
   color: "#F50ACE"
-  hideFromGuide: true
   metabolisms:
     Poison:
       effects:
