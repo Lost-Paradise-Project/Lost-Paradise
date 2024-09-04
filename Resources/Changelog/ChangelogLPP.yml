@@ -5,3 +5,95 @@ Entries:
       type: Add
   id: 1
   time: '2024-08-02T01:29:00.0000000+00:00'
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Перенесена спонсорка 1.4
+    - type: Tweak
+      message: Скорректирован ТТС при работе без АПИ
+    - type: Fix
+      message: Починен баг с одеванием трусов на слот перчаток
+    - type: Remove
+      message: удален старый ИИ
+  id: 2
+  time: '2024-09-02T15:43:20.0000000+00:00'
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Добавлена дата в кпк.
+    - type: Fix
+      message: Исправлена спонсорка.
+  id: 3
+  time: '2024-09-03T05:16:39.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/55
+- author: SpicyDarkFox
+  changes:
+    - type: Fix
+      message: Исправлены настройки сборки
+  id: 4
+  time: '2024-09-03T16:18:28.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/56
+- author: SpicyDarkFox
+  changes:
+    - type: Fix
+      message: Исправлены настройки сборки
+  id: 5
+  time: '2024-09-03T16:18:28.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/56
+- author: JayJacobs
+  changes:
+    - type: Tweak
+      message: Изменил иконки статусов интерфейса
+  id: 6
+  time: '2024-09-03T16:50:46.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/57
+- author: SpicyDarkFox
+  changes:
+    - type: Fix
+      message: Исправлена выдача маркингов в редакторе персонаа
+  id: 7
+  time: '2024-09-03T18:32:17.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/59
+- author: JayJacobs
+  changes:
+    - type: Tweak
+      message: Поправил прототипы департаментов.
+    - type: Tweak
+      message: Изменены иконки настроения.
+    - type: Tweak
+      message: Русифицировал иконки криминалистической консоли.
+    - type: Fix
+      message: Исправлена ошибка иконки передачи предметов.
+    - type: Fix
+      message: Иконки ролей теперь стандартизированы.
+  id: 8
+  time: '2024-09-03T19:18:56.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/60
+- author: MegaDaimond
+  changes:
+    - type: Add
+      message: Добавлены спрайты ко многим скафандрам и их шлемам под расы
+    - type: Add
+      message: Банданы теперь нормально смотрятся на мордах других рас
+    - type: Add
+      message: Больше кастома для НПЗ (На будущие обновления)
+    - type: Tweak
+      message: Изменены характеристики скафандра детектива
+    - type: Fix
+      message: Исправлены meta для некоторых шлемов скафандров
+  id: 9
+  time: '2024-09-04T11:55:47.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/61
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Разделение маркингов по уровням спонсорки
+    - type: Tweak
+      message: >-
+        У людей изменены очки внешности: по 1 на уши и хвост, и по 4 на руки и
+        ноги вместо 6
+    - type: Fix
+      message: Исправлены кнопки в редакторе персонажа, снимающие одежду
+  id: 10
+  time: '2024-09-04T15:33:10.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/62

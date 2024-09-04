@@ -12,6 +12,41 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
     private static readonly Dictionary<string, string> SmileyToEmote = new()
     {
         // I could've done this with regex, but felt it wasn't the right idea.
+        { "хд", "chatsan-laughs" },
+        { "о-о", "chatsan-wide-eyed" }, // cyrillic о
+        { "о.о", "chatsan-wide-eyed" }, // cyrillic о
+        { "0_о", "chatsan-wide-eyed" }, // cyrillic о
+        { "о/", "chatsan-waves" }, // cyrillic о
+        { "о7", "chatsan-salutes" }, // cyrillic о
+        { "0_o", "chatsan-wide-eyed" },
+        { "лмао", "chatsan-laughs" },
+        { "рофл", "chatsan-laughs" },
+        { "яхз", "chatsan-shrugs" },
+        { ":0", "chatsan-surprised" },
+        { ":р", "chatsan-stick-out-tongue" }, // cyrillic р
+        { "кек", "chatsan-laughs" },
+        { "T_T", "chatsan-cries" },
+        { "Т_Т", "chatsan-cries" }, // cyrillic T
+        { "=_(", "chatsan-cries" },
+        { "!с", "chatsan-laughs" },
+        { "!в", "chatsan-sighs" },
+        { "!х", "chatsan-claps" },
+        { "!щ", "chatsan-snaps" },
+        { "))", "chatsan-smiles-widely" },
+        { ")", "chatsan-smiles" },
+        { "((", "chatsan-frowns-deeply" },
+        { "(", "chatsan-frowns" },
+        // Corvax-Localization-End
+		// Lost-Paradise-Localization-Start
+		{ "орууу", "chatsan-laughs" },
+		{ "хз", "chatsan-shrugs" },
+		{ "хсс", "chatsan-shrugs" },
+		{ "хссс", "chatsan-shrugs" },
+		{ "шшш", "chatsan-hiss" },
+		{ "авууу", "chatsan-awoo" },
+		{ "няяя", "chatsan-nyaaa" },
+		// Lost-Paradise-Localization-End
+        // I could've done this with regex, but felt it wasn't the right idea.
         { ":)", "chatsan-smiles" },
         { ":]", "chatsan-smiles" },
         { "=)", "chatsan-smiles" },
@@ -68,19 +103,19 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "^^/", "chatsan-waves" },
         { ":/", "chatsan-uncertain" },
         { ":\\", "chatsan-uncertain" },
-        { "лмао", "chatsan-laughs" },
-        { "лмао.", "chatsan-laughs" },
-        { "лол", "chatsan-laughs" },
-        { "лол.", "chatsan-laughs" },
-        { "хД", "chatsan-laughs" },
-        { "хД.", "chatsan-laughs" },
-        { "кек", "chatsan-laughs" },
-        { "кек.", "chatsan-laughs" },
-        { "рофл", "chatsan-laughs" },
-        { "о7", "chatsan-salutes" },
+        { "lmao", "chatsan-laughs" },
+        { "lmao.", "chatsan-laughs" },
+        { "lol", "chatsan-laughs" },
+        { "lol.", "chatsan-laughs" },
+        { "lel", "chatsan-laughs" },
+        { "lel.", "chatsan-laughs" },
+        { "kek", "chatsan-laughs" },
+        { "kek.", "chatsan-laughs" },
+        { "rofl", "chatsan-laughs" },
+        { "o7", "chatsan-salutes" },
         { ";_;7", "chatsan-tearfully-salutes"},
-        { "хз", "chatsan-shrugs" },
-        { "хз.", "chatsan-shrugs" },
+        { "idk", "chatsan-shrugs" },
+        { "idk.", "chatsan-shrugs" },
         { ";)", "chatsan-winks" },
         { ";]", "chatsan-winks" },
         { "(;", "chatsan-winks" },

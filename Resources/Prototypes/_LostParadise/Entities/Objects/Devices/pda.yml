@@ -1,39 +1,5 @@
 - type: entity
   parent: BasePDA
-  id: RoboticsPDA
-  name: robotics PDA
-  description: It's covered with scratches all over it.
-  components:
-  - type: Pda
-    id: RoboticsIDCard
-    state: pda-roboticist
-  - type: PdaBorderColor
-    borderColor: "#484848"
-    accentVColor: "#d33725"
-  - type: Icon
-    state: pda-roboticist
-
-- type: entity
-  parent: BasePDA
-  id: LPPVirologistPDA
-  name: virologist PDA
-  description: Shiny and sterile. Has a built-in rapid health analyzer.
-  components:
-  - type: Pda
-    id: LPPVirologistIDCard
-    state: pda-virology
-  - type: PdaBorderColor
-    borderColor: "#B1B5BF"
-    accentVColor: "#4E6B50"
-  - type: Icon
-    state: pda-virology
-  - type: HealthAnalyzer
-    scanDelay: 1
-    scanningEndSound:
-      path: "/Audio/Items/Medical/healthscanner.ogg"
-
-- type: entity
-  parent: BasePDA
   id: LPPSecurityEnginerPDA
   name: security PDA
   description: Red to hide the stains of passenger blood.
@@ -74,18 +40,6 @@
     state: pda-clear
   - type: Icon
     state: pda-clear
-
-- type: entity
-  parent: BasePDA
-  id: MagistratePDA
-  name: magistrate PDA
-  description: magistrate PDA
-  components:
-  - type: Pda
-    id: MagistrateIDCard
-    state: pda-lawyer
-  - type: Icon
-    state: pda-lawyer
 
 - type: entity
   parent: BasePDA

@@ -11,6 +11,8 @@
     <NoWarn>RA0003</NoWarn>
   </PropertyGroup>
 
+  <Import Project="../Content.Shared/_PrivateShared/LPP_GlobalDefines.props" Condition="Exists('../Content.Shared/_PrivateShared/LPP_GlobalDefines.props')" />
+
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

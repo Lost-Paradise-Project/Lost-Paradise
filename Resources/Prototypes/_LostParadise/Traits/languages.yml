@@ -1,0 +1,45 @@
+﻿- type: trait
+  id: ElfLanguage
+  category: Speech
+  points: 0
+  components:
+  - type: LanguageKnowledgeModifier
+    speaks:
+    - Elf
+    understands:
+    - Elf
+  requirements:
+  - !type:CharacterSpeciesRequirement
+    inverted: false
+    species:
+    - Human
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - DwarfLanguage
+    - ForeignerLight
+    - Foreigner
+    - SignLanguage
+
+- type: trait
+  id: DwarfLanguage
+  category: Speech
+  points: 0
+  components:
+  - type: LanguageKnowledgeModifier
+    speaks:
+    - Dwarf
+    understands:
+    - Dwarf
+  requirements:
+  - !type:CharacterSpeciesRequirement
+    inverted: false
+    species:
+    - Human
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - ElfLanguage
+    - ForeignerLight
+    - Foreigner
+    - SignLanguage

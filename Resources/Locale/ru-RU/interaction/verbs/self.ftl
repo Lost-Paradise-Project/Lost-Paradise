@@ -1,4 +1,4 @@
-﻿# Interactions here don't have target popups because the target is always the user itself.
+# Interactions here don't have target popups because the target is always the user itself.
 # Why would you do this?
 interaction-PinchSelf-name = Ущипнуть себя
 interaction-PinchSelf-description = Говорят, это помогает тебе убедиться в том, что ад, который творится вокруг тебя, - это не сон.

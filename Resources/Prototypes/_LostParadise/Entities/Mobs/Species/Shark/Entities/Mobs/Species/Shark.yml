@@ -46,6 +46,9 @@
       baseWalkSpeed : 3.0
       baseSprintSpeed : 4.9
     - type: Perishable
+    - type: Tag
+      tags:
+      - HidesTail
     - type: Vocal
       sounds:
         Male: MaleHuman

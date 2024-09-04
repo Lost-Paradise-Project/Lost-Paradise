@@ -10,6 +10,9 @@ using Robust.Client.Utility;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.Humanoid;
 
@@ -18,6 +21,9 @@ public sealed partial class MarkingPicker : Control
 {
     [Dependency] private readonly MarkingManager _markingManager = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+    [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
 
     public Action<MarkingSet>? OnMarkingAdded;
     public Action<MarkingSet>? OnMarkingRemoved;
@@ -224,6 +230,19 @@ public sealed partial class MarkingPicker : Control
 
             var item = CMarkingsUnused.AddItem($"{GetMarkingName(marking)}", marking.Sprites[0].Frame0());
             item.Metadata = marking;
+
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            if (marking.SponsorOnly)
+            {
+                item.Disabled = true;
+                if (_sponsorsManager.TryGetInfo(out var sponsor))
+                {
+                    var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier; //если уровень выше максимального, ставится максимальный
+                    var marks = Loc.GetString($"sponsor-markings-tier-{tier}").Split(";", StringSplitOptions.RemoveEmptyEntries);
+                    item.Disabled = !(sponsor.AllowedMarkings.Contains(marking.ID) || sponsor.AllowedMarkings.Contains("ALL") || marks.Contains(marking.ID));
+                }
+            }
+#endif
         }
 
         CMarkingPoints.Visible = _currentMarkings.PointsLeft(_selectedMarkingCategory) != -1;

@@ -5,7 +5,7 @@
   description: It opens, it closes, it might crush you, and there might be only space behind it. Has to be manually activated.
   components:
   - type: Door
-    bumpOpen: false
+    bumpOpen: true
     crushDamage:
       types:
         Blunt: 15

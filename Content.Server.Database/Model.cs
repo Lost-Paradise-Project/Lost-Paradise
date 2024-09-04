@@ -40,6 +40,9 @@ namespace Content.Server.Database
         public DbSet<AdminNote> AdminNotes { get; set; } = null!;
         public DbSet<AdminWatchlist> AdminWatchlists { get; set; } = null!;
         public DbSet<AdminMessage> AdminMessages { get; set; } = null!;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        public DbSet<Sponsor> Sponsors { get; set; } = null!;
+#endif
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -62,6 +65,15 @@ namespace Content.Server.Database
             modelBuilder.Entity<Loadout>()
                 .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.LoadoutName})
                 .IsUnique();
+#if LPP_Sponsors
+            modelBuilder.Entity<Sponsor>()          // _LostParadise-Sponsors
+                .HasIndex(p => p.UserId)
+                .IsUnique();
+
+            modelBuilder.Entity<Donate>()
+                .HasIndex(p => new { HumanoidProfileId = p.ProfileId, p.DonateName })
+                .IsUnique();
+#endif
 
             modelBuilder.Entity<Job>()
                 .HasIndex(j => j.ProfileId);
@@ -350,6 +362,9 @@ namespace Content.Server.Database
         public List<Job> Jobs { get; } = new();
         public List<Antag> Antags { get; } = new();
         public List<Trait> Traits { get; } = new();
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        public List<Donate> Donate { get; } = new();
+#endif
         public List<Loadout> Loadouts { get; } = new();
 
         [Column("pref_unavailable")] public DbPreferenceUnavailableMode PreferenceUnavailable { get; set; }
@@ -394,6 +409,16 @@ namespace Content.Server.Database
 
         public string TraitName { get; set; } = null!;
     }
+
+#if LPP_Sponsors  // _LostParadise-Sponsors
+    public class Donate
+    {
+        public int Id { get; set; }
+        public Profile Profile { get; set; } = null!;
+        public int ProfileId { get; set; }
+        public string DonateName { get; set; } = null!;
+    }
+#endif
 
     public class Loadout
     {
@@ -1025,4 +1050,19 @@ namespace Content.Server.Database
         /// </summary>
         public bool Dismissed { get; set; }
     }
+
+#if LPP_Sponsors  // _LostParadise-Sponsors
+    [Table("sponsors")] 
+    public class Sponsor
+    {
+        [Required, Key] public Guid UserId { get; set; }
+        public int Tier { get; set; }
+        public string OOCColor { get; set; } = "#00FF00";
+        public bool HavePriorityJoin { get; set; }
+        public string AllowedMarkings { get; set; } = null!;
+        public int ExtraSlots { get; set; }
+        public DateTime ExpireDate {get;set;}
+        public bool AllowJob { get; set; } = false;
+    }
+#endif
 }

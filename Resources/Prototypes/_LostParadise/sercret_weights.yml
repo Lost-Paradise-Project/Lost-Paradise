@@ -1,0 +1,8 @@
+﻿- type: weightedRandom
+  id: LPPSecret
+  weights:
+    LPPSurvival: 0.10
+    Nukeops: 0.25
+    Zombie: 0.20
+    Traitor: 0.30
+    LPPExtended: 0.15

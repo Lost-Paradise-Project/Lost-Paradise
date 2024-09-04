@@ -52,15 +52,6 @@
 
 - type: entity
   parent: ClothingBackpack
-  id: LPPClothingBackpackRobotics
-  name: robotics backpack
-  description: A red-striped backpack specially designed for holding spare parts and materials.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Back/Backpacks/roboticist.rsi
-
-- type: entity
-  parent: ClothingBackpack
   id: LPPClothingBackpackSecurityEngineer
   name: hop duffel bag
   description: Twice as many handcuffs!

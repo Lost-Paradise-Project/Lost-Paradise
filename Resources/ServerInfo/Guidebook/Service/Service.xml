@@ -1,9 +1,9 @@
 ﻿<Document>
-# Service
-[color=#9fed58]Service[/color] keeps the station clean, efficient and sane so that all other departments can do their jobs better and keep their staff happy. They also end up doing most of the paperwork on the station.
+  # Сервис
+  [color=#9fed58]Сервис[/color] поддерживает чистоту, эффективность и порядок на станции, чтобы все другие отделы могли лучше выполнять свою работу и радовать своих сотрудников. В конечном итоге, они также выполняют большую часть бумажной работы на станции.
 
-## Personnel
-[color=#9fed58]Service[/color]'s staff is made up of Service Workers, Chefs, Botanists, Bartenders, Janitors, Chaplains, Clowns, Mimes, Musicians, Lawyers, Librarians and Passengers. Service is run by the Head of Personnel.
+  ## Персонал
+  [color=#9fed58]Сервис[/color] состоит из работников сферы обслуживания, шеф-поваров, ботаников, барменов, уборщиков, священников, клоунов, мимов, музыкантов, юристов, библиотекарей и пассажиров. Сервисом руководит начальник отдела кадров - Глава Персонала.
 
   <Box>
     <GuideEntityEmbed Entity="ToyFigurineChef" Caption="Chef"/>
@@ -24,11 +24,11 @@
     <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="HoP"/>
   </Box>
 
-## Working Together
-[color=#9fed58]Service[/color], despite being the most diverse, tends to be the most [color=#a4885c]interlinked[/color] department by far.
-Most [color=#9fed58]Service[/color] jobs require [color=#a4885c]cooperation[/color] between workers.
-Chefs often need ingredients that only botanists can grow efficiently. The bartender may request bananas that only clowns carry in abundance.
-The lawyer may invite the mime to play charades to convince the judge that their client is innocent.
+  ## Работайте вместе!
+  [color=#9fed58]Сервис[/color],несмотря на то, что он является самым разнообразным отделом, очень сильно держита на [color=#a4885c]комуникации между работниками[/color].
+  Большинство  [color=#9fed58]Сервисной[/color] работы требует [color=#a4885c]кооперации[/color] между работниками.
+  Шеф-поварам часто требуются ингредиенты, которые могут эффективно выращивать только ботаники. Бармен может попросить бананы, которые в изобилии приносят только клоуны.
+  Адвокат может пригласить мима разыграть шарады, чтобы убедить судью в невиновности своего клиента.
 
-A lot of [color=#a4885c]collaboration[/color] is necessary within and without [color=#9fed58]Service[/color]. Often times, [color=#9fed58]Service[/color] is required by other departments, so be on your toes.
+  [color=#a4885c]Сотрудничниство[/color] необходимо не только в  [color=#9fed58]Сервисе[/color]. Довольно часто помощь [color=#9fed58]Сервиса[/color] требуется другим отделам, так что будьте начеку.
 </Document>

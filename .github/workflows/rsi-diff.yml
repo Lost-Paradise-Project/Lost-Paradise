@@ -1,7 +1,9 @@
 name: Diff RSIs
 
 on:
-  workflow_dispatch:
+  pull_request_target:
+    paths:
+    - '**.rsi/**.png'
 
 jobs:
   diff:
@@ -42,6 +44,7 @@ jobs:
         uses: peter-evans/create-or-update-comment@v1
         with:
           issue-number: ${{ github.event.number }}
+          token: ${{ secrets.BOT_TOKEN }}
           body: |
             ${{ steps.diff.outputs.summary-details }}
 
@@ -50,6 +53,7 @@ jobs:
         uses: peter-evans/create-or-update-comment@v1
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
+          token: ${{ secrets.BOT_TOKEN }}
           edit-mode: replace
           body: |
             ${{ steps.diff.outputs.summary-details }}
@@ -59,6 +63,7 @@ jobs:
         uses: peter-evans/create-or-update-comment@v1
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
+          token: ${{ secrets.BOT_TOKEN }}
           edit-mode: append
           body: |
             Edit: diff updated after ${{ github.event.pull_request.head.sha }}
