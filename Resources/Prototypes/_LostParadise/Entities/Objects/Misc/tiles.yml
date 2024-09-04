@@ -235,51 +235,6 @@
   - type: Construction #крафт
     graph: LPPLEDDiscoFloorMatrix1Ojects
     node: icon
-#-----------------------------------------------------#
-#---------остольное----остольное----остольное---------#
-#-----------------------------------------------------#
-
-# - type: entity
-#  id: LPPFloorTileItemWoodLarge
-#  parent: FloorTileItemSteel
-#  name: steel dark checker tile
-#  components:
-#  - type: Sprite
-#    sprite: _LostParadise/Objects/Tiles/tiles.rsi
-#    state: wood
-#  - type: FloorTile
-#    outputs:
-#      - Plating
-#      - LPPWoodLarge
-#
-# - type: entity
-#  id: LPPFloorTileItemShuttleBlak
-#  parent: FloorTileItemSteel
-#  name: steel dark checker tile
-#  components:
-#  - type: Sprite
-#    sprite: _LostParadise/Objects/Tiles/tiles.rsi
-#    state: wood
-#  - type: FloorTile
-#    outputs:
-#      - Plating
-#      - LPPFloorShuttleBlak
-#
-# - type: entity
-#  id: FloorTileItemShuttleBlak
-#  parent: FloorTileItemSteel
-#  name: steel dark checker tile
-#  components:
-#  - type: Sprite
-#    sprite: _LostParadise/Objects/Tiles/tiles.rsi
-#    state: shuttlered
-#  - type: FloorTile
-#    outputs:
-#      - Plating
-#      - LPPFloorShuttleBlak
-
-
-
 
 #------------------------------------------------------#
 #---------dark----dark----dark----dark----dark---------#

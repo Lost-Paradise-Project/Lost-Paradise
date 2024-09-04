@@ -624,16 +624,6 @@
   - LPPERTEngineering
 
 - type: listing
-  id: LPPERTCatalogEngineeringCratePlasteel
-  name: ert-catalog-engineering-crate-plasteel-name
-  description: ert-catalog-engineering-crate-plasteel-desc
-  productEntity: CrateMaterialPlasteel
-  cost:
-    Telecrystal: 2
-  categories:
-  - LPPERTEngineering
-
-- type: listing
   id: LPPERTCatalogEngineeringBelt
   name: ert-catalog-engineering-belt-name
   description: ert-catalog-engineering-belt-desc
