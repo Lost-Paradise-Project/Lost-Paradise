@@ -69,3 +69,18 @@ Entries:
   id: 8
   time: '2024-09-03T19:18:56.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/60
+- author: MegaDaimond
+  changes:
+    - type: Add
+      message: Добавлены спрайты ко многим скафандрам и их шлемам под расы
+    - type: Add
+      message: Банданы теперь нормально смотрятся на мордах других рас
+    - type: Add
+      message: Больше кастома для НПЗ (На будущие обновления)
+    - type: Tweak
+      message: Изменены характеристики скафандра детектива
+    - type: Fix
+      message: Исправлены meta для некоторых шлемов скафандров
+  id: 9
+  time: '2024-09-04T11:55:47.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/61
