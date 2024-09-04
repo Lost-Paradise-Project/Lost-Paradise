@@ -3,25 +3,25 @@
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters.rsi
-    state: A
+    state: letter_A
 
 - type: decal
   id: LPPindletterBB
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters.rsi
-    state: B
+    state: letter_B
 
 - type: decal
   id: LPPindletterCB
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters.rsi
-    state: C
+    state: letter_C
 
 - type: decal
   id: LPPindletterDB
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters.rsi
-    state: D
+    state: letter_D

@@ -8,16 +8,16 @@
     },
     "states": [
       {
-        "name": "A"
+        "name": "letter_A"
       },
       {
-        "name": "B"
+        "name": "letter_B"
       },
       {
-        "name": "C"
+        "name": "letter_C"
       },
       {
-        "name": "D"
+        "name": "letter_D"
       }
     ]
 }

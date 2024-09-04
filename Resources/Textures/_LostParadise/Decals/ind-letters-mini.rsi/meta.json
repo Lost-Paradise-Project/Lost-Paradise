@@ -8,94 +8,94 @@
     },
     "states": [
     {
-      "name": "A"
+      "name": "letter_A"
     },
     {
-      "name": "B"
+      "name": "letter_B"
     },
     {
-      "name": "C"
+      "name": "letter_C"
     },
     {
-      "name": "D"
+      "name": "letter_D"
     },
     {
-      "name": "E"
+      "name": "letter_E"
     },
     {
-      "name": "F"
+      "name": "letter_F"
     },
     {
-      "name": "G"
+      "name": "letter_G"
     },
     {
-      "name": "H"
+      "name": "letter_H"
     },
     {
-      "name": "I"
+      "name": "letter_I"
     },
     {
-      "name": "J"
+      "name": "letter_J"
     },
     {
-      "name": "K"
+      "name": "letter_K"
     },
     {
-      "name": "L"
+      "name": "letter_L"
     },
     {
-      "name": "M"
+      "name": "letter_M"
     },
     {
-      "name": "N"
+      "name": "letter_N"
     },
     {
-      "name": "O"
+      "name": "letter_O"
     },
     {
-      "name": "P"
+      "name": "letter_P"
     },
     {
-      "name": "Q"
+      "name": "letter_Q"
     },
     {
-      "name": "R"
+      "name": "letter_R"
     },
     {
-      "name": "S"
+      "name": "letter_S"
     },
     {
-      "name": "T"
+      "name": "letter_T"
     },
     {
-      "name": "U"
+      "name": "letter_U"
     },
     {
-      "name": "V"
+      "name": "letter_V"
     },
     {
-      "name": "W"
+      "name": "letter_W"
     },
     {
-      "name": "X"
+      "name": "letter_X"
     },
     {
-      "name": "Y"
+      "name": "letter_Y"
     },
     {
-      "name": "Z"
+      "name": "letter_Z"
     },
     {
-      "name": "AA"
+      "name": "letter_AA"
     },
     {
-      "name": "OO"
+      "name": "letter_OO"
     },
     {
-      "name": "UU"
+      "name": "letter_UU"
     },
     {
-      "name": "OOO"
+      "name": "letter_OOO"
     }
   ]
 }
