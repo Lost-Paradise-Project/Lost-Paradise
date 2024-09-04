@@ -11826,7 +11826,7 @@ entities:
       content: >
         КОДЕКС ПОВЕДЕНИЯ КЛОУНОВ:
 
-        0. ХОНК! 
+        0. ХОНК!
 
         1. Быть весёлым и смешным(Самое важное у клоунов!)
 
@@ -11838,7 +11838,7 @@ entities:
 
         5. Воровать-плохо! (Не воруйте со станции вещи. А если взяли на время, то возвращайте через 10 минут максимум. Есть исключения если это экстренная ситуация. )
 
-        6. Не обижать людей на выступлениях! 
+        6. Не обижать людей на выступлениях!
 
         7. Будь креативным! (придумывай свои безопасные приколы, шутки, а может даже устраивай конкурсы, люди это любят.)
 
@@ -70272,20 +70272,6 @@ entities:
     - type: Transform
       pos: 18.665314,8.550899
       parent: 2
-- proto: LPPSpawnPointLawyer
-  entities:
-  - uid: 7196
-    components:
-    - type: Transform
-      pos: -7.5,-5.5
-      parent: 2
-- proto: LPPSpawnPointPrisoner
-  entities:
-  - uid: 7197
-    components:
-    - type: Transform
-      pos: -45.5,6.5
-      parent: 2
 - proto: LPPSpawnPointSecurityEngineer
   entities:
   - uid: 12991
@@ -70297,13 +70283,6 @@ entities:
     components:
     - type: Transform
       pos: -31.5,2.5
-      parent: 2
-- proto: LPPSpawnPointVirologist
-  entities:
-  - uid: 13096
-    components:
-    - type: Transform
-      pos: 55.5,-24.5
       parent: 2
   - uid: 13097
     components:
@@ -72893,7 +72872,7 @@ entities:
       parent: 2
     - type: Paper
       content: >-
-        Я отправил фотографии начальству, мне остаётся только надеется, что меня спасут... на случай худшего исхода я оставил в одном из хвостовых оперений ресурсы для агентов... 
+        Я отправил фотографии начальству, мне остаётся только надеется, что меня спасут... на случай худшего исхода я оставил в одном из хвостовых оперений ресурсы для агентов...
 
 
         ответа нет уже около 12 часов... Кажется мне крышка... блять.....
@@ -84345,13 +84324,6 @@ entities:
     components:
     - type: Transform
       pos: -36.5,6.5
-      parent: 2
-- proto: SpawnRoboticist
-  entities:
-  - uid: 13084
-    components:
-    - type: Transform
-      pos: 48.5,12.5
       parent: 2
   - uid: 13085
     components:
