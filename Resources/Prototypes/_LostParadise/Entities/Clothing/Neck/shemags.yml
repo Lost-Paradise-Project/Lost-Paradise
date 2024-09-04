@@ -133,3 +133,30 @@
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/shemags/purpleup.rsi
 
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckShemagNPZ
+  name: урбан шемаг
+  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю. Теперь в цветах НПЗ!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/NPZdown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/NPZdown.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingMaskShemagNPZ
+    requiredSlot:
+    - neck
+    slot: mask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskShemagNPZ
+  noSpawn: true
+  name: урбан шемаг
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/NPZup.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/NPZup.rsi
+
