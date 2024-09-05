@@ -20,13 +20,13 @@
           Quantity: 15
         - ReagentId: Vitamin
           Quantity: 5
-    metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        damage:
-          groups:
-            Blunt: -2
+      metabolisms:
+        Medicine:
+          effects:
+          - !type:HealthChange
+            damage:
+              groups:
+                Blunt: -2
 
 - type: entity
   name: пвяник
@@ -50,11 +50,11 @@
           Quantity: 228
         - ReagentId: Vitamin
           Quantity: 1337
-    metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        damage:
-          groups:
-            Radiaton: -20
-            Cell: -20
+      metabolisms:
+        Medicine:
+          effects:
+          - !type:HealthChange
+            damage:
+              groups:
+                Radiaton: -20
+                Cell: -20

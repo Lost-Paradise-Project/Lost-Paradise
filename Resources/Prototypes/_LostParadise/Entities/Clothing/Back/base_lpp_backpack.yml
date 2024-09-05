@@ -9,7 +9,6 @@
     tags: [] # ignore "WhitelistChameleon" tag
   - type: Storage
     maxItemSize: Large
-    maxTotalWeight: 14
   - type: Sprite
     sprite: Clothing/Back/Satchels/satchel.rsi
     visible: false

@@ -28,15 +28,15 @@
 
 # Expeditor
 
-# - type: entity
-#   id: LockerExpeditor
-#   parent: LockerBaseSecure
-#   name: Expeditor Locker
-#   components:
-#   - type: Appearance
-#   - type: EntityStorageVisuals
-#     stateBaseClosed: expeditor
-#     stateDoorOpen:  expeditor_open
-#     stateDoorClosed: expeditor_door
-#   - type: AccessReader
-#     access: [["Gateway"]]
+- type: entity
+  id: LockerExpeditor
+  parent: LockerBaseSecure
+  name: Expeditor Locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: expeditor
+    stateDoorOpen:  expeditor_open
+    stateDoorClosed: expeditor_door
+  - type: AccessReader
+    access: [["Gateway"]]

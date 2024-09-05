@@ -8,7 +8,6 @@
     sprite: _LostParadise/Clothing/Mask/BlueShieldGasMask.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Mask/BlueShieldGasMask.rsi
-    hideOnToggle: true
   - type: Armor
     modifiers:
       coefficients:

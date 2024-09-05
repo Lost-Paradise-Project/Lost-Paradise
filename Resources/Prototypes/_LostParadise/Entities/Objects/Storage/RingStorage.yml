@@ -25,8 +25,11 @@
     - id: ClothingHandsRingTurk
       amount: 1
   - type: Appearance
+  - type: GenericVisualizer
     visuals:
-    - type: BagOpenCloseVisualizer
-      openIcon: box-open
+     enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: box-open}
+          False: {state: box}
   - type: StaticPrice
     price: 500
