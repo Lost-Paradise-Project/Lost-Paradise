@@ -6,6 +6,7 @@
   - Forensics
   - Defusal
   - CriminalRecords
+  - LPPTenCodes
 
 - type: guideEntry
   id: Forensics
@@ -21,3 +22,8 @@
   id: CriminalRecords
   name: guide-entry-criminal-records
   text: "/ServerInfo/Guidebook/Security/CriminalRecords.xml"
+
+- type: guideEntry
+  id: LPPTenCodes
+  name: lppguide-entry-criminal-records
+  text: "/ServerInfo/Guidebook/Security/TenCodes.xml"

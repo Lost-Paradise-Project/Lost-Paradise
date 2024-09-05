@@ -97,3 +97,10 @@ Entries:
   id: 10
   time: '2024-09-04T15:33:10.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/62
+- author: BL02DL
+  changes:
+    - type: Add
+      message: Добавлен руководство по Тэн-кодам в игру
+  id: 11
+  time: '2024-09-05T12:18:27.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/69
