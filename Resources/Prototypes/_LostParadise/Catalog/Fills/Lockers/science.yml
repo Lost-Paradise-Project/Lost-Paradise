@@ -1,20 +1,20 @@
-- type: entity
-  id: LockerExpeditorFilled
-  suffix: Expeditor, Filled
-  parent: LockerExpeditor
-  components:
-  - type: StorageFill
-    contents:
-      - id: LPPGatewayGun
-      - id: ClothingHeadsetScience
-      - id: LPPClothingUniformJumpsuitExpeditor
-      - id: ClothingHandsGlovesCombat
-      - id: MedkitFilled
-        amount: 2
-      - id: WeaponCrusher
-      - id: LPPExpeditorCoat
-      - id: BoxMRE
-        amount: 2
-      - id: OreBag
-      - id: RadioHandheld
-      - id: ClothingBeltUtilityFilled
+# - type: entity
+#   id: LockerExpeditorFilled
+#   suffix: Expeditor, Filled
+#   parent: LockerExpeditor
+#   components:
+#   - type: StorageFill
+#     contents:
+#       - id: LPPGatewayGun
+#       - id: ClothingHeadsetScience
+#       - id: LPPClothingUniformJumpsuitExpeditor
+#       - id: ClothingHandsGlovesCombat
+#       - id: MedkitFilled
+#         amount: 2
+#       - id: WeaponCrusher
+#       - id: LPPExpeditorCoat
+#       - id: BoxMRE
+#         amount: 2
+#       - id: OreBag
+#       - id: RadioHandheld
+#       - id: ClothingBeltUtilityFilled

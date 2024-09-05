@@ -8,8 +8,8 @@
     sprite: _LostParadise/Objects/Misc/RingBox.rsi
     state: box
   - type: Storage
-      grid:
-      - 1,1,3,3
+    grid:
+    - 1,1,3,3
   - type: Item
     sprite: _LostParadise/Objects/Misc/RingBox.rsi
     size: Normal
