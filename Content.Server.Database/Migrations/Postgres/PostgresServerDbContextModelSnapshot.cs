@@ -1213,42 +1213,46 @@ namespace Content.Server.Database.Migrations.Postgres
                 });
 #if LPP_Sponsors
             modelBuilder.Entity("Content.Server.Database.Sponsor", b =>
-                {
-                    b.Property<Guid>("UserId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid")
-                        .HasColumnName("user_id");
+            {
+                b.Property<Guid>("UserId")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("uuid")
+                    .HasColumnName("user_id");
 
-                    b.Property<string>("AllowedMarkings")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("allowed_markings");
+                b.Property<bool>("AllowJob")
+                    .HasColumnType("boolean")
+                    .HasColumnName("allow_job");
 
-                    b.Property<int>("ExtraSlots")
-                        .HasColumnType("integer")
-                        .HasColumnName("extra_slots");
+                b.Property<string>("AllowedMarkings")
+                    .IsRequired()
+                    .HasColumnType("text")
+                    .HasColumnName("allowed_markings");
 
-                    b.Property<bool>("HavePriorityJoin")
-                        .HasColumnType("boolean")
-                        .HasColumnName("have_priority_join");
+                b.Property<int>("ExtraSlots")
+                    .HasColumnType("integer")
+                    .HasColumnName("extra_slots");
 
-                    b.Property<string>("OOCColor")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("ooccolor");
+                b.Property<bool>("HavePriorityJoin")
+                    .HasColumnType("boolean")
+                    .HasColumnName("have_priority_join");
 
-                    b.Property<int>("Tier")
-                        .HasColumnType("integer")
-                        .HasColumnName("tier");
+                b.Property<string>("OOCColor")
+                    .IsRequired()
+                    .HasColumnType("text")
+                    .HasColumnName("ooccolor");
 
-                    b.HasKey("UserId")
-                        .HasName("PK_sponsors");
+                b.Property<int>("Tier")
+                    .HasColumnType("integer")
+                    .HasColumnName("tier");
 
-                    b.HasIndex("UserId")
-                        .IsUnique();
+                b.HasKey("UserId")
+                    .HasName("PK_sponsors");
 
-                    b.ToTable("sponsors", (string)null);
-                });
+                b.HasIndex("UserId")
+                    .IsUnique();
+
+                b.ToTable("sponsors", (string)null);
+            });
 #endif
             modelBuilder.Entity("Content.Server.Database.Trait", b =>
                 {
