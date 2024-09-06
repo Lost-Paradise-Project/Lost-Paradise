@@ -1,0 +1,21 @@
+#=======================================================================
+#                         Lost Paradise 2.0 Era
+#=======================================================================
+
+#06-09-2024
+LPPCondensedMilkCan: null
+LPPCondensedMilkCanTrash: null
+LPPFloorBlueCircuit: null
+LPPFloorGreenCircuit: null
+LPPTitanium: null
+LPPTitaniumGlass: null
+SheetPlastitanium: null
+SheetTitanium: null
+LPPBlackPlasTitanium: Table
+LPPBlackPlasTitaniumPlasma: TablePlasmaGlass
+LPPBlackPlasTitaniumTitanium: TableReinforced
+LPPBlackPlasTitaniumWood: TableWood
+LPPFlagPoleSYND: null
+LPPLockerElectricalSuppliesSynFilled: null
+LPPRusUnder: null
+PlastitaniumPwindow: ReinforcedPlasmaWindow
