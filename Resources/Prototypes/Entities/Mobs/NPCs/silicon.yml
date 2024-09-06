@@ -108,13 +108,6 @@
   - type: ZombieImmune
   - type: TTS
     voice: Jarvis
-  - type: LanguageKnowledge
-    speaks:
-    - GalacticCommon
-    - RobotTalk
-    understands:
-    - GalacticCommon
-    - RobotTalk
   - type: PsionicInsulation
   - type: LanguageKnowledge   #для ТТС
     speaks:
