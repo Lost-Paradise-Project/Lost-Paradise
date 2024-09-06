@@ -1,4 +1,4 @@
-#if LPP_Sponsors
+﻿#if LPP_Sponsors
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable

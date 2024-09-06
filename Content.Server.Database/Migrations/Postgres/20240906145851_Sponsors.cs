@@ -1,13 +1,15 @@
-#if LPP_Sponsors
+﻿#if LPP_Sponsors
 using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Content.Server.Database.Migrations.Postgres       // _LostParadise-Sponsors
+namespace Content.Server.Database.Migrations.Postgres
 {
+    /// <inheritdoc />
     public partial class Sponsors : Migration
     {
+        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -35,10 +37,9 @@ namespace Content.Server.Database.Migrations.Postgres       // _LostParadise-Spo
                 unique: true);
         }
 
+        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "sponsors");
 
         }
     }

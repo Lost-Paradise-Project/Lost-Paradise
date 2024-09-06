@@ -1,13 +1,15 @@
-#if LPP_Sponsors
+﻿#if LPP_Sponsors
 using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Content.Server.Database.Migrations.Sqlite   // _LostParadise-Sponsors
+namespace Content.Server.Database.Migrations.Sqlite
 {
+    /// <inheritdoc />
     public partial class Sponsors : Migration
     {
+        /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -34,10 +36,9 @@ namespace Content.Server.Database.Migrations.Sqlite   // _LostParadise-Sponsors
                 unique: true);
         }
 
+        /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "sponsors");
 
         }
     }
