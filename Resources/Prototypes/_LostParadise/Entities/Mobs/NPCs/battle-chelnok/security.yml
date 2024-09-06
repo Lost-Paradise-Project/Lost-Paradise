@@ -34,7 +34,7 @@
     hasMindState: robot_e
     noMindState: robot_e_r
     # name: security chellnock
-  - type: Construction
-    node: security
+  # - type: Construction
+  #   node: security
   - type: Speech
     speechVerb: Robotic
