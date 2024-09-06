@@ -1,0 +1,318 @@
+# ============================================================
+#
+#                   [Части киборгов LPP]
+#
+# ============================================================
+
+# [Киборг службы безопасности]
+
+- type: latheRecipe
+  id: LPPLeftArmBorgSecurity
+  result: LPPLeftArmBorgSecurity
+  category: Robotics
+  completetime: 4
+  materials:
+    Steel: 350
+    Glass: 200
+
+- type: latheRecipe
+  id: LPPRightArmBorgSecurity
+  result: LPPRightArmBorgSecurity
+  category: Robotics
+  completetime: 4
+  materials:
+    Steel: 350
+    Glass: 200
+
+- type: latheRecipe
+  id: LPPLeftLegBorgSecurity
+  result: LPPLeftLegBorgSecurity
+  category: Robotics
+  completetime: 4
+  materials:
+    Steel: 350
+    Glass: 200
+
+- type: latheRecipe
+  id: LPPRightLegBorgSecurity
+  result: LPPRightLegBorgSecurity
+  category: Robotics
+  completetime: 4
+  materials:
+    Steel: 350
+    Glass: 200
+
+- type: latheRecipe
+  id: LPPHeadBorgSecurity
+  result: LPPHeadBorgSecurity
+  category: Robotics
+  completetime: 4
+  materials:
+    Steel: 350
+    Glass: 200
+
+- type: latheRecipe
+  id: LPPTorsoBorgSecurity
+  result: LPPTorsoBorgSecurity
+  category: Robotics
+  completetime: 4
+  materials:
+    Steel: 350
+    Glass: 200
+
+# [Эротический киборг]
+- type: latheRecipe
+  id: LPPLeftArmBorgErotic
+  result: LPPLeftArmBorgErotic
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 350
+
+- type: latheRecipe
+  id: LPPRightArmBorgErotic
+  result: LPPRightArmBorgErotic
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 350
+
+- type: latheRecipe
+  id: LPPLeftLegBorgErotic
+  result: LPPLeftLegBorgErotic
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 350
+
+- type: latheRecipe
+  id: LPPRightLegBorgErotic
+  result: LPPRightLegBorgErotic
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 350
+
+- type: latheRecipe
+  id: LPPHeadBorgErotic
+  result: LPPHeadBorgErotic
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 350
+
+- type: latheRecipe
+  id: LPPTorsoBorgErotic
+  result: LPPTorsoBorgErotic
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 350
+# [Шахтёрский киборг]
+- type: latheRecipe
+  id: LPPLeftArmBorgMining
+  result: LPPLeftArmBorgMining
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 350
+    Glass: 100
+
+- type: latheRecipe
+  id: LPPRightArmBorgMining
+  result: LPPRightArmBorgMining
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 350
+    Glass: 100
+
+- type: latheRecipe
+  id: LPPLeftLegBorgMining
+  result: LPPLeftLegBorgMining
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 350
+    Glass: 100
+
+- type: latheRecipe
+  id: LPPRightLegBorgMining
+  result: LPPRightLegBorgMining
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 350
+    Glass: 100
+
+- type: latheRecipe
+  id: LPPHeadBorgMining
+  result: LPPHeadBorgMining
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 350
+    Glass: 100
+
+- type: latheRecipe
+  id: LPPTorsoBorgMining
+  result: LPPTorsoBorgMining
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 350
+    Glass: 100
+# [РНД киборг]
+- type: latheRecipe
+  id: LPPLeftArmBorgScience
+  result: LPPLeftArmBorgScience
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 200
+
+- type: latheRecipe
+  id: LPPRightArmBorgScience
+  result: LPPRightArmBorgScience
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 200
+
+- type: latheRecipe
+  id: LPPLeftLegBorgScience
+  result: LPPLeftLegBorgScience
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 200
+
+- type: latheRecipe
+  id: LPPRightLegBorgScience
+  result: LPPRightLegBorgScience
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 200
+
+- type: latheRecipe
+  id: LPPHeadBorgScience
+  result: LPPHeadBorgScience
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 200
+
+- type: latheRecipe
+  id: LPPTorsoBorgScience
+  result: LPPTorsoBorgScience
+  category: Robotics
+  completetime: 2
+  materials:
+    Steel: 250
+    Glass: 100
+    Plastic: 200
+
+# ============================================================
+#
+#                   [Модули киборгов LPP]
+#
+# ============================================================
+
+- type: latheRecipe
+  id: LPPERPModuleBorg
+  result: LPPERPModuleBorg
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 250
+    Glass: 250
+    Plastic: 350
+
+- type: latheRecipe
+  id: LPPBorgModuleLaserWeaponAdvanced
+  result: LPPBorgModuleLaserWeaponAdvanced
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 500
+    Glass: 500
+    Plastic: 200
+    Silver: 200
+
+- type: latheRecipe
+  id: LPPBorgModuleLaserWeapon
+  result: LPPBorgModuleLaserWeapon
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 400
+    Glass: 400
+    Plastic: 100
+    Silver: 100
+
+- type: latheRecipe
+  id: LPPDroneModuleSecurityTaser
+  result: LPPDroneModuleSecurityTaser
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 200
+    Glass: 400
+    Plastic: 100
+    Silver: 100
+
+- type: latheRecipe
+  id: LPPBorgModuleAresst
+  result: LPPBorgModuleAresst
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 500
+    Glass: 100
+    Plastic: 100
+    Silver: 100
+
+- type: latheRecipe
+  id: LPPBattleBorgModule
+  result: LPPBattleBorgModule
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 500
+    Glass: 500
+    Plastic: 100
+    Silver: 100
+
+- type: latheRecipe
+  id: LPPModuleBorgHands
+  result: LPPModuleBorgHands
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 500
+    Glass: 500
+    Plastic: 500
+    Silver: 200

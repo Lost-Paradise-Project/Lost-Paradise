@@ -17,6 +17,21 @@
       "name": "frame"
     },
     {
+      "name": "extinguisher-mini"
+    },
+    {
+      "name": "extinguisher_empty"
+    },
+    {
+      "name": "extinguisher_mini"
+    },
+    {
+      "name": "extinguisher_full"
+    },
+    {
+      "name": "extinguisher_closed"
+    },
+    {
       "name": "open"
     }
   ]

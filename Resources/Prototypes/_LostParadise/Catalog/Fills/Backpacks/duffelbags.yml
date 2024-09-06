@@ -1,27 +1,4 @@
 - type: entity
-  parent: LPPClothingBackpackDuffelLoneMercenary
-  id: LPPClothingBackpackDuffelLoneMercenaryFull
-  name: Mercenary duffelbag
-  components:
-  - type: StorageFill
-    contents:
-      - id: BoxSurvivalSyndicate
-      - id: LPPWeaponRevolverOC-38
-      - id: PinpointerNuclear
-      - id: DeathAcidifierImplanter
-      - id: EmagUnlimited
-      - id: MagazineBoxMagnum
-      - id: SpeedLoaderMagnum
-        amount: 2
-      - id: Brutepack
-      - id: Ointment
-      - id: StimpackMini
-        amount: 4
-      - id: SyndicateJawsOfLife
-      - id: MagazinePistolHighCapacity
-        amount: 3
-
-- type: entity
   id: LPPClothingBackpackDuffelVirologyCBURNAmbuzolSyringe
   name: Вирусологический вещмешок
   parent: ClothingBackpackDuffelVirology

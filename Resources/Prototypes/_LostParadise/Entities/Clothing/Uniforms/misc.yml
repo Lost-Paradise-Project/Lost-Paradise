@@ -170,28 +170,6 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: LPPCamogreen
-  name: camogreen
-  description:
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/Sundicate/camogreen.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/Sundicate/camogreen.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: LPPRusUnder
-  name: rus under
-  description:
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/Sundicate/rus_under.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/Sundicate/rus_under.rsi
-
-- type: entity
-  parent: ClothingUniformBase
   id: LPPJanimaid
   name: Janimaid
   description:

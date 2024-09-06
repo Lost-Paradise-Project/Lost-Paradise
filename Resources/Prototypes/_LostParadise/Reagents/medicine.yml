@@ -1,0 +1,63 @@
+- type: reagent
+  id: Rubrine
+  name: Рубрин
+  group: Medicine
+  desc: Рассеивающее вещество
+  physicalDesc: испаряющее
+  flavor: medicine
+  color: "#ed0e37"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Asphyxiation: -1
+            Bloodloss: -1
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
+          reagent: LPPAphrodisiac
+          min: 1
+        reagent: LPPAphrodisiac
+        amount: -3
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          min: 1
+        reagent: Lucipherium
+        amount: -5
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
+          reagent: LPPAphrodisiacReduced
+          min: 1
+        reagent: LPPAphrodisiacReduced
+        amount: -8
+
+- type: reagent
+  id: Neclanox
+  name: Некланокс
+  group: Medicine
+  desc: Данный препарат способен остановить некроз, однако не без вреда для организма.
+  physicalDesc: оживляющее
+  flavor: medicine
+  color: "#ed0e37"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Asphyxiation: -1
+            Bloodloss: -1
+            Cellular: -0.5
+            Poison: 1
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Necrotoxins
+          min: 1
+        reagent: Necrotoxins
+        amount: -2

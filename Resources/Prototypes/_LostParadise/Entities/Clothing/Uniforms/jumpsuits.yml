@@ -55,17 +55,6 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: LPPQmsyndCargo
-  name: Qmsynd
-  description:
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/Cargo/qmsynd.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/Cargo/qmsynd.rsi
-
-- type: entity
-  parent: ClothingUniformBase
   id: LPPSupplyChiefCargo
   name: supply chief
   description:
@@ -215,17 +204,6 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: LPPQmsyndAtmos
-  name: Qmsynd atmos
-  description:
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/qmsynd.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/atmos/qmsynd.rsi
-
-- type: entity
-  parent: ClothingUniformBase
   id: LPPSupplyChiefAtmos
   name: supply chief atmos
   description:
@@ -300,17 +278,6 @@
     sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/qmc.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/qmc.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: LPPQmsyndEngi
-  name: Qmsynd engi
-  description:
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/qmsynd.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/Engineering_department/engineers/qmsynd.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -506,17 +473,6 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: LPPQmsyndMedic
-  name: Qmsynd
-  description:
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/medic/qmsynd.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/medic/qmsynd.rsi
-
-- type: entity
-  parent: ClothingUniformBase
   id: LPPSupplyChiefMedic
   name: supply chief
   description:
@@ -580,17 +536,6 @@
     sprite: _LostParadise/Clothing/Uniforms/medic/virology/qmc_virology.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/medic/virology/qmc_virology.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: LPPQmcSyndVirology
-  name: Qmc Synd Vorology
-  description:
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/medic/virology/qm_synd_virology.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/medic/virology/qm_synd_virology.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -682,17 +627,6 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: LPPQmsyndRnd
-  name: Qmsynd
-  description:
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/rnd/qmsynd.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/rnd/qmsynd.rsi
-
-- type: entity
-  parent: ClothingUniformBase
   id: LPPSupplyChiefRnd
   name: supply chief
   description:
@@ -767,17 +701,6 @@
     sprite: _LostParadise/Clothing/Uniforms/Sec/qmc.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Sec/qmc.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: LPPQmsyndSec
-  name: Qmsynd
-  description:
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/Sec/qmsynd.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/Sec/qmsynd.rsi
 
 - type: entity
   parent: ClothingUniformBase
