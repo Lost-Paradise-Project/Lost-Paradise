@@ -3,200 +3,200 @@
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: A
+    state: letter_A
 
 - type: decal
   id: LPPindletterB
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: B
+    state: letter_B
 
 - type: decal
   id: LPPindletterC
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: C
+    state: letter_C
 
 - type: decal
   id: LPPindletterD
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: D
+    state: letter_D
 
 - type: decal
   id: LPPindletterE
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: E
+    state: letter_E
 
 - type: decal
   id: LPPindletterF
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: F
+    state: letter_F
 
 - type: decal
   id: LPPindletterG
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: G
+    state: letter_G
 
 - type: decal
   id: LPPindletterH
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: H
+    state: letter_H
 
 - type: decal
   id: LPPindletterI
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: I
+    state: letter_I
 
 - type: decal
   id: LPPindletterJ
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: J
+    state: letter_J
 
 - type: decal
   id: LPPindletterK
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: K
+    state: letter_K
 
 - type: decal
   id: LPPindletterL
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: L
+    state: letter_L
 
 - type: decal
   id: LPPindletterM
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: M
+    state: letter_M
 
 - type: decal
   id: LPPindletterO
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: O
+    state: letter_O
 
 - type: decal
   id: LPPindletterP
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: P
+    state: letter_P
 
 - type: decal
   id: LPPindletterQ
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: Q
+    state: letter_Q
 
 - type: decal
   id: LPPindletterR
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: R
+    state: letter_R
 
 - type: decal
   id: LPPindletterS
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: S
+    state: letter_S
 
 - type: decal
   id: LPPindletterT
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: T
+    state: letter_T
 
 - type: decal
   id: LPPindletterU
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: U
+    state: letter_U
 
 - type: decal
   id: LPPindletterV
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: V
+    state: letter_V
 
 - type: decal
   id: LPPindletterW
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: W
+    state: letter_W
 
 - type: decal
   id: LPPindletterX
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: X
+    state: letter_X
 
 - type: decal
   id: LPPindletterY
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: Y
+    state: letter_Y
 
 - type: decal
   id: LPPindletterZ
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: Z
+    state: letter_Z
 
 - type: decal
   id: LPPindletterUU
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: UU
+    state: letter_UU
 
 - type: decal
   id: LPPindletterOO
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: OO
+    state: letter_OO
 
 - type: decal
   id: LPPindletterOOO
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: OOO
+    state: letter_OOO
 
 - type: decal
   id: LPPindletterAA
   tags: ["letter"]
   sprite:
     sprite: _LostParadise/Decals/ind-letters-mini.rsi
-    state: AA
+    state: letter_AA

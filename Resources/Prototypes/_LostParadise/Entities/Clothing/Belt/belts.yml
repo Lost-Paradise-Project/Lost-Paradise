@@ -11,7 +11,8 @@
   - type: Item
     size: Large
   - type: Storage
-    capacity: 120
+    grid:
+    - 0,0,7,3
 
 - type: entity
   parent: ClothingBeltStorageBase

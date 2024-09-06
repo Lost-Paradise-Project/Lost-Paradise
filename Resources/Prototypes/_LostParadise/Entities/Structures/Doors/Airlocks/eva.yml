@@ -11,3 +11,11 @@
     department: Command
   - type: AccessReader
     access: [["EVA"]]
+
+- type: accessLevel
+  id: EVA
+  name: EVA
+
+- type: accessLevel
+  id: Gateway
+  name: Gate acces

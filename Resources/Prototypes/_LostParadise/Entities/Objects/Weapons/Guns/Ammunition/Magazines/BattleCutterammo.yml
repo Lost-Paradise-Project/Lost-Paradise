@@ -34,5 +34,5 @@
   - type: PowerCellVisuals
   - type: Riggable
   - type: ProjectileBatteryAmmoProvider
-    proto: battlecuttershot
+    proto: BulletCutter
     fireCost: 125

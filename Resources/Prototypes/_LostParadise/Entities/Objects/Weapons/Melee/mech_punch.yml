@@ -90,4 +90,6 @@
     items:
     - LPPMechPunch
     - LPPWeaponVulcan
+  - type: Tag
+    tags:
     - DoorBumpOpener

@@ -3,6 +3,9 @@
   name: job-name-janitor
   description: job-description-janitor
   playTimeTracker: JobJanitor
+  requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 1800 # LostParadise - 30 min
   startingGear: JanitorGear
   icon: "JobIconJanitor"
   supervisors: job-supervisors-hop

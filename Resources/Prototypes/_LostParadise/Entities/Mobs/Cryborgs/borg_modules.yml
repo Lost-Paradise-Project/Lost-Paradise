@@ -147,7 +147,7 @@
   - type: ItemBorgModule
     items:
     - LPPClothingBackpackBorgs
-    hands: 1
+    # hands: 1
 
 - type: entity
   parent: ClothingBackpack

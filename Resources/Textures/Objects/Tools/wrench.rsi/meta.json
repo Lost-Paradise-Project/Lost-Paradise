@@ -11,6 +11,9 @@
       "name": "icon"
     },
     {
+      "name": "wrench"
+    },
+    {
       "name": "inhand-left",
       "directions": 4
     },

@@ -576,16 +576,6 @@
   - LPPDeltaEngineering
 
 - type: listing
-  id: LPPDeltaCatalogEngineeringCratePlasteel
-  name: delta-catalog-engineering-crate-plasteel-name
-  description: delta-catalog-engineering-crate-plasteel-desc
-  productEntity: CrateMaterialPlasteel
-  cost:
-    Telecrystal: 4
-  categories:
-  - LPPDeltaEngineering
-
-- type: listing
   id: LPPDeltaCatalogEngineeringBelt
   name: delta-catalog-engineering-belt-name
   description: delta-catalog-engineering-belt-desc

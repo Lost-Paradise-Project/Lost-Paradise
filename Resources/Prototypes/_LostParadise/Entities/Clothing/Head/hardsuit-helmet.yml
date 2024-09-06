@@ -121,29 +121,6 @@
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  id: LPPClothingHeadHelmetHardsuitLoneMercenary
-  name: LoneMercenary hardsuit helmet
-  noSpawn: true
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Head/Hardsuits/loneMercenary-syndicate_helmet.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Head/Hardsuits/loneMercenary-syndicate_helmet.rsi
-  - type: PointLight
-    color: red
-  - type: PressureProtection
-    highPressureMultiplier: 0.08
-    lowPressureMultiplier: 1000
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Heat: 0.9
-
-- type: entity
-  parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetMikhelm
   name: обесцвеченный шлем скафандра
   description: Шлем от скафандра, дисплей слегка побит, но работать можно...

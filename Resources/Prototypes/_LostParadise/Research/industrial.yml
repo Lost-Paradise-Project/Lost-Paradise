@@ -60,3 +60,22 @@
   cost: 7500
   recipeUnlocks:
   - WeaponCutterAdv
+
+# Tier 2
+- type: technology
+  id: LPPRoboticsIndustrial
+  name: research-technology-robotics-mining
+  icon:
+    sprite: Objects/Weapons/Melee/survival_knife.rsi
+    state: icon
+  discipline: Industrial
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+    - LPPLeftArmBorgMining
+    - LPPRightArmBorgMining
+    - LPPLeftLegBorgMining
+    - LPPRightLegBorgMining
+    - LPPHeadBorgMining
+    - LPPTorsoBorgMining
+    - BorgModuleMining

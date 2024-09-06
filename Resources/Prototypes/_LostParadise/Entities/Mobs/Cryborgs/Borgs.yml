@@ -216,7 +216,7 @@
       - BorgModuleService
     hasMindState: robot_e
     noMindState: robot_e_r
-    name: киборг-эротический
+    # name: киборг-эротический
   - type: PointLight
     enabled: false
     color: "#A83AAE"
@@ -298,4 +298,3 @@
         startingItem: PowerCellMedium
   - type: RandomMetadata
     nameSegments: [names_borg]
-
