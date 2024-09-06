@@ -609,10 +609,10 @@ namespace Content.Client.Preferences.UI
 
 #if LPP_Sponsors            // Lost Paradise Donate Preferences
             #region Donate
-
+            LPPDonates.Orphan();
             var donate = prototypeManager.EnumeratePrototypes<Shared._LostParadise.Donate.DonatePrototype>().OrderBy(t => Loc.GetString(t.Name)).ToList();
             _donatePreferences = new List<_LostParadise.Donate.DonatePreferenceSelector>();
-            _tabContainer.SetTabTitle(5, Loc.GetString("lost-donate-editor"));
+            _tabContainer.AddTab(LPPDonates, Loc.GetString("lost-donate-editor"));
             var granted = false;
             if (donate.Count > 0)
             {
