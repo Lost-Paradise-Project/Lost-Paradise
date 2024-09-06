@@ -27,3 +27,28 @@
     ClothingShoesBootsWinterSec: 2
     ClothingShoesBootsCowboyBlack: 1
     ClothingHeadHatCowboyBlack: 1
+##LPP
+    LPPSecBlackSkirt: 3
+    LPPSectechjean: 3
+    LPPGorkaSec: 3
+    LPPGorkaSecVarg: 3
+    LPPQmcSec: 3
+    LPPQmsyndSec: 3
+    LPPSkirtleneckSec: 3
+    LPPSkirtleneckQMSec: 3
+    LPPSupplyChiefSec: 3
+    LPPSupplyChiefSkirtSec: 3
+    LPPTurtleneckQmSec: 3
+    LPPUtilSec: 3
+    LPPTacticoolSec: 3
+    ClothingEyesHudSecurity: 2
+    ClothingMaskNeckGaiter: 2
+    LPPClothingMaskBandageBlack: 2
+    LPPClothingMaskBandageRed: 1
+    LPPClothingHeadHatRedBandana: 1
+    LPPClothingMaskBandageSkull: 1
+    ClothingHeadBandBlack: 2
+    ClothingHeadBandSkull: 1
+    LPPClothingHeadSecHat: 2
+  ContrabandInventory:
+    ClothingMaskClownSecurity: 1

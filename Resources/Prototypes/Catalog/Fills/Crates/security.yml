@@ -8,6 +8,9 @@
     contents:
       - id: ClothingOuterArmorPlateCarrier # DeltaV - ClothingOuterArmorBulletproof replaced in favour of plate carrier
         amount: 3
+#LPP
+      - id: LPPClothingOuterHardsuitReflectivepatrolsec
+        prob: 0.3
 
 - type: entity
   id: CrateSecurityHelmet
