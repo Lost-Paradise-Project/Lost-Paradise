@@ -566,7 +566,32 @@ namespace Content.Server.Database.Migrations.Postgres
                             t.HasCheckConstraint("AddressNotIPv6MappedIPv4", "NOT inet '::ffff:0.0.0.0/96' >>= address");
                         });
                 });
+#if LPP_Sponsors
+            modelBuilder.Entity("Content.Server.Database.Donate", b =>
+            {
+                b.Property<int>("Id")
+                    .ValueGeneratedOnAdd()
+                    .HasColumnType("integer")
+                    .HasColumnName("donate_id");
 
+                b.Property<string>("DonateName")
+                    .IsRequired()
+                    .HasColumnType("text")
+                    .HasColumnName("donate_name");
+
+                b.Property<int>("ProfileId")
+                    .HasColumnType("integer")
+                    .HasColumnName("profile_id");
+
+                b.HasKey("Id")
+                    .HasName("PK_donate");
+
+                b.HasIndex("ProfileId", "DonateName")
+                    .IsUnique();
+
+                b.ToTable("donate", (string)null);
+            });
+#endif
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
                     b.Property<int>("Id")
