@@ -41,18 +41,7 @@
     layers:
     - state: flagpole
     - state: flagpole-nt
-
-- type: entity
-  parent: LPPFlagPoleBase
-  id: LPPFlagPoleSYND
-  suffix: Syndicate
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Structures/Decoration/flagpole.rsi
-    layers:
-    - state: flagpole
-    - state: flagpole-synd
-
+    
 - type: entity
   parent: LPPFlagPoleBase
   id: LPPFlagPoleCC

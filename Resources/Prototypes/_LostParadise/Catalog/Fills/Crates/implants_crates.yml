@@ -9,18 +9,6 @@
       - id: FreedomImplanter
         amount: 5
 
-
-- type: entity
-  id: LPPCrateLanguageImplants
-  name: ящик имплантов языкового анализа
-  description: Содержит 5 имплантов языкового анализа, позволяющие понимать неизвестные языки.
-  parent: CrateSecgear
-  components:
-  - type: StorageFill
-    contents:
-      - id: SyndUniversalTranslatorImplanter
-        amount: 5
-
 - type: entity
   id: LPPCrateAcidifierImplants
   name: ящик имплантов "Растворитель"

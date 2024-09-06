@@ -552,26 +552,6 @@
     - HidesHair
 
 
-#- type: entity
-#  parent: ClothingHeadBase
-#  id: LPPHelmetHardsuitHoodWinter
-#  noSpawn: true
-#  name: Hood winter
-#  description:
-#  components:
-#  - type: Sprite
-#    sprite: _LostParadise/Clothing/Head/Winterhood/hood_winter.rsi
-#  - type: Clothing
-#    sprite: _LostParadise/Clothing/Head/Winterhood/hood_winter.rsi
-#  - type: PressureProtection
-#    highPressureMultiplier: 0.08
-#    lowPressureMultiplier: 50
-#  - type: TemperatureProtection
-#    coefficient: 0.005
-#  - type: Tag
-#    tags:
-#    - HidesHair
-
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetHardsuitHoodWinter
@@ -583,46 +563,6 @@
     sprite: _LostParadise/Clothing/Head/Winterhood/hood_winter.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Head/Winterhood/hood_winter.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.08
-    lowPressureMultiplier: 50
-  - type: TemperatureProtection
-    coefficient: 0.005
-  - type: Tag
-    tags:
-    - HidesHair
-
-- type: entity
-  parent: ClothingHeadBase
-  id: LPPHelmetHardsuitHoodSyndicate
-  noSpawn: true
-  name: Hood syndicate
-  description:
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Head/Winterhood/hood_syndicate.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Head/Winterhood/hood_syndicate.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.08
-    lowPressureMultiplier: 50
-  - type: TemperatureProtection
-    coefficient: 0.005
-  - type: Tag
-    tags:
-    - HidesHair
-
-- type: entity
-  parent: ClothingHeadBase
-  id: LPPHelmetHardsuitHoodSyndicates
-  noSpawn: true
-  name: Hood Syndicates
-  description:
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Head/Winterhood/hood_syndicates.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Head/Winterhood/hood_syndicates.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50

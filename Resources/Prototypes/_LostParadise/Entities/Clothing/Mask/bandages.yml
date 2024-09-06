@@ -84,18 +84,6 @@
 
 - type: entity
   parent: ClothingMaskBase
-  id: LPPClothingMaskBandageMercenary
-  name: mercenary face bandage
-  description: Mercenary bandage, for your pretty face.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Mask/Bandage/merc.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Mask/Bandage/merc.rsi
-  - type: BreathMask
-
-- type: entity
-  parent: ClothingMaskBase
   id: LPPClothingMaskBandageRed
   name: red face bandage
   description: Red bandage, for your pretty face.

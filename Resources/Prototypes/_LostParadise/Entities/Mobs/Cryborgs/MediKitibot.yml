@@ -4,7 +4,7 @@
   name: medical cyborg
   components:
   - type: Sprite
-    sprite: _LostParadise/Mobs/Silicon/medibot_syndicat.rsi
+    sprite: _LostParadise/Mobs/Silicon/medibot_cat.rsi
     layers:
     - state: medibot1
       map: ["movement"]
@@ -31,7 +31,7 @@
       - BorgModuleMedical
     hasMindState: medibot1
     noMindState: medibot1
-    name: киборг-доктор
+    # name: киборг-доктор
   - type: Construction
     node: medical
   - type: IntrinsicRadioTransmitter

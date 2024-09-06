@@ -172,15 +172,6 @@
 
 - type: entity
   parent: ClothingNeckBase
-  id: LPPZulieSyndicate
-  name: zulie syndicate
-  description:
-  components:
-    - type: Sprite
-      sprite: _LostParadise/Clothing/Neck/Cloaks/zulie_syndicate.rsi
-
-- type: entity
-  parent: ClothingNeckBase
   id: LPPCloakLeaderNPZ
   name: плащ лидера НПЗ
   description: И пусть ваш плащ не замарается в крови ксеносов, стирка дорого обходится между прочем.

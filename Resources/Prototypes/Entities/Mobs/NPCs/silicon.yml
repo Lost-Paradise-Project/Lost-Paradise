@@ -117,8 +117,9 @@
     - RobotTalk
   - type: PsionicInsulation
   - type: LanguageSpeaker   #для ТТС
-    speaks:
+    SpokenLanguages:
     - GalacticCommon
+    - RobotTalk
 
 - type: entity
   parent: MobSiliconBase

@@ -9,24 +9,6 @@
 
 - type: entity
   parent: ClothingBackpackDuffel
-  id: LPPClothingBackpackDuffelLoneMercenary
-  name: Duffel loneMercenary
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Back/Duffels/loneMercenary.rsi
-    state: icon
-    layers:
-    - state: icon
-  - type: Item
-    size: Ginormous
-  - type: Storage
-    maxItemSize: Huge
-    grid:
-    - 0,0,9,5
-  - type: HeldSpeedModifier
-
-- type: entity
-  parent: ClothingBackpackDuffel
   id: LPPClothingBackpackDuffelSecurityEngineer
   name: hop duffel bag
   description: Twice as many handcuffs!
