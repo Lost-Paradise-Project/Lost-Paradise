@@ -257,7 +257,7 @@
     contents:
         - id: NitrogenTankFilled
         - id: OxygenTankFilled
-        - id: ClothingOuterHardsuitVoidParamed
+        - id: LPPHardsuitAssaultParamedic #Изменение от LPP
         - id: ClothingMaskBreathMedical
   - type: AccessReader
     access: [ [ "Paramedic" ] ]
