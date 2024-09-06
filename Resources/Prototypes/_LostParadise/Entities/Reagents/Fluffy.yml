@@ -47,7 +47,7 @@
 - type: reagent
   id: FluffyEnergy
   name: reagent-name-fluffyenergy
-  desc: reagent-desc-fluffyenergy
+  desc: reagent-desc-space-fluffyenergy
   physicalDesc: reagent-desc-physical-fluffyenergy
   flavor: EnergyFluffy
   color: "#BA55D3"

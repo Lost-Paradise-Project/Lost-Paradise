@@ -47,7 +47,7 @@
     - state: icon-arest
   - type: ItemBorgModule
     items:
-    - LPPDisbalerBorg
+    # - LPPDisbalerBorg
     - LPPPoliceBatonNonLethal
     - SecurityWhistle
     - LPPZipties10Lingering
@@ -67,7 +67,7 @@
     - state: icon-battle
   - type: ItemBorgModule
     items:
-    - LPPBorgLaser
+    # - LPPBorgLaser
     - CombatKnife
 
 
@@ -91,7 +91,7 @@
     - state: icon-laser-y
   - type: ItemBorgModule
     items:
-    - LPPBorgLaser
+    # - LPPBorgLaser
 # [Модуль продвинутый лазер киборга]
 
 - type: entity
@@ -106,7 +106,7 @@
     - state: icon-laser-r
   - type: ItemBorgModule
     items:
-    - LPPBorgLaserAdvanced
+    # - LPPBorgLaserAdvanced
 
 # ============================================================
 #
