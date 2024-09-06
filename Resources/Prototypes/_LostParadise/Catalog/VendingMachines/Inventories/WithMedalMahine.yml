@@ -1,7 +1,6 @@
 - type: vendingMachineInventory
   id: MedalMachineServitorInventory
   startingInventory:
-    startingInventory: 5
     ClothingNeckBronzeheart: 5
     ClothingNeckGoldmedal: 5
     ClothingNeckCargomedal: 5
