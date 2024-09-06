@@ -4,6 +4,9 @@
   description: job-description-mail-carrier
   startingGear: CourierGear
   playTimeTracker: JobMailCarrier
+  requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 3600 # LostParadise - 1 hour
   icon: "JobIconMailCarrier"
   supervisors: job-supervisors-qm
   access:
