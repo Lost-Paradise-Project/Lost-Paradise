@@ -147,3 +147,14 @@ Entries:
   id: 16
   time: '2024-09-06T18:38:28.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/78
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Добавлена измененная карта Нормандия
+    - type: Fix
+      message: Исправлены ошибки
+    - type: Fix
+      message: Исправлен КПК у админ-гостов - поставлена карта капитана
+  id: 17
+  time: '2024-09-06T22:28:13.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/79
