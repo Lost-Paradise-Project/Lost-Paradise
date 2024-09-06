@@ -64,7 +64,7 @@
             - Brain
 
 - type: entity
-  parent: BaseItem
+  parent: [BaseItem, OrganHumanBrain]
   id: PositronicBrain
   name: positronic brain
   description: An artificial brain capable of spontaneous neural activity.
@@ -77,8 +77,6 @@
     - type: Input
       context: human
     - type: Brain
-    - type: Body
-      prototype: IPC
     - type: BlockMovement
     - type: ToggleableGhostRole
       examineTextMindPresent: positronic-brain-installed
