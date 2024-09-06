@@ -18,7 +18,6 @@
 <GuideEntityEmbed Entity="DrinkGlass" Caption="Стакан"/>
 <GuideEntityEmbed Entity="DrinkGlassCoupeShaped"/>
 <GuideEntityEmbed Entity="DrinkShaker"/>
-<GuideEntityEmbed Entity="DrinkJigger"/>
 </Box>
 
 ## Напитки
