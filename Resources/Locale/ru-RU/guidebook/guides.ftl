@@ -65,6 +65,7 @@ guide-entry-ss14 = Станции и смены
 guide-entry-robotics = Робототехника
 guide-entry-cyborgs = Киборги
 guide-entry-security = Безопасность станции
+lppguide-entry-criminal-records = Тэн-коды
 guide-entry-forensics = Криминалистика
 guide-entry-defusal = Обезвреживание крупной бомбы
 guide-entry-criminal-records = Криминальные записи
