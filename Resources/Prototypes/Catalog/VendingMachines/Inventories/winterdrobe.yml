@@ -18,7 +18,16 @@
     ClothingOuterCoatBomber: 3
     ClothingHeadHatSantahat: 2
     ClothingHeadHatXmasCrown: 2
-
+#LPP
+    LPPClothingHeadHatBlackBeanie: 2
+    LPPClothingHeadHatBlueBeanie: 2
+    LPPClothingHeadHatGreenBeanie: 2
+    LPPClothingHeadHatRedBeanie: 2
+    LPPClothingOuterCoatBomber1: 3
+    LPPClothingOuterCoatBomber2: 3
+    LPPClothingOuterCoatBomber3: 3
+    LPPClothingOuterCoatBomber4: 3
+    LPPClothingOuterCoatBomber5: 3
   emaggedInventory:
     ClothingNeckScarfStripedSyndieGreen: 3
     ClothingNeckScarfStripedSyndieRed: 3

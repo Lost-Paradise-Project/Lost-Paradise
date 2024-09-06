@@ -6,7 +6,7 @@
   antagAdvantage: 3 # DeltaV - Reduced TC: External Access + Engineering
   requirements:
     - !type:CharacterOverallTimeRequirement # DeltaV - to prevent griefers from taking the role.
-      min: 14400 # 4 hours
+      min: 1800 # LostParadise - 30 min
     # - !type:DepartmentTimeRequirement # Lost Paradise - return time limit
     #   department: Engineering
     #   time: 54000 #15 hrs

@@ -104,3 +104,10 @@ Entries:
   id: 11
   time: '2024-09-05T12:18:27.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/69
+- author: JayJacobs
+  changes:
+    - type: Tweak
+      message: Изменено время начальных ролей.
+  id: 12
+  time: '2024-09-06T12:30:02.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/74
