@@ -6,7 +6,7 @@
   antagAdvantage: 2 # DeltaV - Reduced TC: External Access
   requirements:
     - !type:CharacterOverallTimeRequirement
-      min: 7200
+      min: 1800 # LostParadise - 30 min
   startingGear: CargoTechGear
   icon: "JobIconCargoTechnician"
   supervisors: job-supervisors-qm
