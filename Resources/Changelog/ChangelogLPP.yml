@@ -138,3 +138,12 @@ Entries:
   id: 15
   time: '2024-09-06T16:26:31.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/75
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Добавлены миграции прототипов
+    - type: Fix
+      message: Исправлены основные проблемы в картах (maps)
+  id: 16
+  time: '2024-09-06T18:38:28.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/78
