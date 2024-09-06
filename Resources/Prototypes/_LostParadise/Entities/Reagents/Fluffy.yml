@@ -480,3 +480,15 @@
     radius: 1.5
     energy: 1.6
     color: "#FC0FC0"
+
+
+- type: messagePack
+  id: FluffyAds
+  advertisements:
+  - advertisement-Fluffy-1
+  - advertisement-Fluffy-2
+  - advertisement-Fluffy-3
+  - advertisement-Fluffy-4
+  - advertisement-Fluffy-5
+  - advertisement-Fluffy-6
+  - advertisement-Fluffy-7

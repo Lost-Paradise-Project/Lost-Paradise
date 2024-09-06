@@ -20,13 +20,12 @@
           Quantity: 15
         - ReagentId: Vitamin
           Quantity: 5
-      metabolisms:
-        Medicine:
-          effects:
-          - !type:HealthChange
-            damage:
-              groups:
-                Blunt: -2
+      medicine:
+        effects:
+        - !type:HealthChange
+          damage:
+            groups:
+              Piercing: -2
 
 - type: entity
   name: пвяник
