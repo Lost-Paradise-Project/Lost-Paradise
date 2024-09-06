@@ -34,7 +34,6 @@
 
 - type: emoteSounds
   id: FemaleTajaran
-  parent: FemaleHuman
   params:
     variation: 0.125
   sounds:
