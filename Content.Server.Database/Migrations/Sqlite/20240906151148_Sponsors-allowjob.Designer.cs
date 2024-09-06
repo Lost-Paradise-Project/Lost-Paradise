@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Content.Server.Database.Migrations.Sqlite
 {
     [DbContext(typeof(SqliteServerDbContext))]
-    [Migration("20240906152019_Donate")]
-    partial class Donate
+    [Migration("20240906151148_Sponsors-allowjob")]
+    partial class Sponsorsallowjob
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -536,31 +536,6 @@ namespace Content.Server.Database.Migrations.Sqlite
 
                     b.ToTable("connection_log", (string)null);
                 });
-
-            modelBuilder.Entity("Content.Server.Database.Donate", b =>
-            {
-                b.Property<int>("Id")
-                    .ValueGeneratedOnAdd()
-                    .HasColumnType("INTEGER")
-                    .HasColumnName("donate_id");
-
-                b.Property<string>("DonateName")
-                    .IsRequired()
-                    .HasColumnType("TEXT")
-                    .HasColumnName("donate_name");
-
-                b.Property<int>("ProfileId")
-                    .HasColumnType("INTEGER")
-                    .HasColumnName("profile_id");
-
-                b.HasKey("Id")
-                    .HasName("PK_donate");
-
-                b.HasIndex("ProfileId", "DonateName")
-                    .IsUnique();
-
-                b.ToTable("donate", (string)null);
-            });
 
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {

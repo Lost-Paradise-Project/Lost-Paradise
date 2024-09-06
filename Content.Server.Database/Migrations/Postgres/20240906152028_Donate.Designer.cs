@@ -1248,6 +1248,10 @@ namespace Content.Server.Database.Migrations.Postgres
                     .HasColumnType("uuid")
                     .HasColumnName("user_id");
 
+                b.Property<bool>("AllowJob")
+                    .HasColumnType("boolean")
+                    .HasColumnName("allow_job");
+
                 b.Property<string>("AllowedMarkings")
                     .IsRequired()
                     .HasColumnType("text")
