@@ -298,3 +298,10 @@
   locKeyDescription: "crime-assist-crimedetail-sexualharassment"
   locKeySeverity: "crime-assist-crimetype-misdemeanour"
   locKeyPunishment: "crime-assist-crimepunishment-sexualharassment"
+
+- type: crimeAssistPage
+  id: "resultTrespass"
+  locKeyTitle: "crime-assist-crime-trespass"
+  locKeyDescription: "crime-assist-crimedetail-trespass"
+  locKeySeverity: "crime-assist-crimetype-misdemeanour"
+  locKeyPunishment: "crime-assist-crimepunishment-trespass"

@@ -61,7 +61,11 @@ namespace Content.IntegrationTests.Tests
             "TheHive", //DeltaV
             "Hammurabi", //DeltaV
             "Lighthouse", //DeltaV
-			"Submarine" //DeltaV
+			"Submarine", //DeltaV
+            "LPPAsterisk", //LPP
+            "LPPNormandy", //LPP
+            "LPPPebble", //LPP
+            "LPPSubmarine" //LPP
         };
 
         /// <summary>
