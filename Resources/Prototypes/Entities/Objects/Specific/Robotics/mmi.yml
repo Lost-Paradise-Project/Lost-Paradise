@@ -77,6 +77,8 @@
     - type: Input
       context: human
     - type: Brain
+    - type: Body
+      prototype: IPC
     - type: BlockMovement
     - type: ToggleableGhostRole
       examineTextMindPresent: positronic-brain-installed

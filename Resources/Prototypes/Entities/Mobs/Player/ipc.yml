@@ -4,8 +4,6 @@
   name: Urist McPositronic
   description: A positronic brain in a metal body.
   components:
-  - type: Body
-    prototype: IPC
   - type: PowerCellSlot
     cellSlotId: cell_slot
     fitsInCharger: true
