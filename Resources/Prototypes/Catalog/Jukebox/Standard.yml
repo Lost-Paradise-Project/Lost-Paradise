@@ -33,3 +33,9 @@
   name: Qwertyquerty - Starlight
   path:
     path: /Audio/Jukebox/starlight.ogg
+
+- type: jukebox
+  id: LPPPivoDance
+  name: Pivo Dance - BL02DL
+  path:
+    path: /Audio/Jukebox/PivoDance.ogg
