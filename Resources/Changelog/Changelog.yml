@@ -5889,3 +5889,53 @@ Entries:
   id: 6317
   time: '2024-09-05T00:19:49.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/848
+- author: ShatteredSwords
+  changes:
+    - type: Tweak
+      message: The cost of many traits have been updated
+    - type: Tweak
+      message: A few traits have been tweaked
+  id: 6318
+  time: '2024-09-06T20:08:38.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/842
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        A new Roboticist job has been added. The job does not offer any new
+        accesses, but lets you distinguish yourself from scientists. Existing
+        maps will need to be updated to support the new job.
+    - type: Add
+      message: >-
+        Added new PDA, ID, and bag variants for roboticists. The mystagogue will
+        now also find a roboticist PDA in their office.
+  id: 6319
+  time: '2024-09-06T20:17:31.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/801
+- author: DEATHB4DEFEAT
+  changes:
+    - type: Fix
+      message: The loadout/trait editors' performance has been improved by 100~1000x
+    - type: Tweak
+      message: The character editor's tabs look, feel, and function much better
+    - type: Fix
+      message: Unusable loadouts/traits have an orange color when selected
+    - type: Tweak
+      message: Loadout previews are now inside the button
+    - type: Add
+      message: >-
+        Added a button to remove any unusable loadouts (or traits) you have
+        selected
+    - type: Add
+      message: >-
+        Loadouts and traits can have subcategories, though only Command loadouts
+        use them at the moment
+    - type: Fix
+      message: Fixed empty loadout categories not hiding
+    - type: Fix
+      message: Fixed spacing on some loadout requirements' reason text
+    - type: Fix
+      message: Fixed traits not updating after saving
+  id: 6320
+  time: '2024-09-06T21:59:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/736
