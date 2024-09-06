@@ -26,6 +26,11 @@
       - id: BoxEncryptionKeyPrisoner #Delta-V
       - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
         prob: 0.3
+#LPP
+      - id: LPPWeaponPistolPF20
+      - id: LPPMagazinePistolPF20lethal
+      - id: LPPMagazinePistolPF20Rubber
+        prob: 0.5 #Кибербуллинг метаюзеров :D
 
 - type: entity
   id: LockerWardenFilled
@@ -54,6 +59,11 @@
       - id: BoxEncryptionKeyPrisoner #Delta-V
       - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
         prob: 0.3
+#LPP
+      - id: LPPWeaponPistolPF20
+      - id: LPPMagazinePistolPF20lethal
+      - id: LPPMagazinePistolPF20Rubber
+        prob: 0.5 #Кибербуллинг метаюзеров :D
 
 - type: entity
   id: LockerSecurityFilled
@@ -99,6 +109,13 @@
         prob: 0.6
       - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
         prob: 0.3
+#LPP
+      - id: ClothingOuterHardsuitSanta
+        prob: 0.01
+      - id: ClothingOuterHardsuitClown
+        prob: 0.01
+      - id: ClothingMaskClown
+        prob: 0.1
 
 - type: entity
   id: LockerBrigmedicFilled
@@ -197,6 +214,8 @@
       - id: BoxEvidenceMarkers
       - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
         prob: 0.3
+#LPP
+      - id: LPPClothingOuterDetectiveHardsuit
 
 - type: entity
   id: ClosetBombFilled

@@ -5,7 +5,7 @@
   playTimeTracker: JobResearchAssistant
   requirements:
     - !type:CharacterOverallTimeRequirement
-      min: 7200
+      min: 1800 # LostParadise - 30 min
     # - !type:DepartmentTimeRequirement # Lost Paradise - return time limit
     #   department: Science
     #   time: 54000 #15 hrs
