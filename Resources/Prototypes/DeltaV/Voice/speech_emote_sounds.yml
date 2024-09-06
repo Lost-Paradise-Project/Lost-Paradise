@@ -36,8 +36,8 @@
       collection: HarpyPews
     HarpyBang:
       collection: HarpyBangs
-    HarpyBeep:
-      collection: HarpyBeeps
+    # HarpyBeep:
+    #   collection: HarpyBeeps
     HarpyRev:
       collection: HarpyRevs
     Click:

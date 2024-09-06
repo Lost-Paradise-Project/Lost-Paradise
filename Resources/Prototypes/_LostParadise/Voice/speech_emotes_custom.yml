@@ -5,7 +5,7 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/LPP/Voice/Tajaran/tajarahiss.ogg
+      path: /Audio/_LostParadise/Voice/Tajaran/tajarahiss.ogg
     Laugh:
       collection: MaleLaugh
     Sneeze:

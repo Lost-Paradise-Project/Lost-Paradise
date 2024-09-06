@@ -484,7 +484,7 @@
 
 - type: messagePack
   id: FluffyAds
-  advertisements:
+  messages:
   - advertisement-Fluffy-1
   - advertisement-Fluffy-2
   - advertisement-Fluffy-3

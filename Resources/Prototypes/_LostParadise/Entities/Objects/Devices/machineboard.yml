@@ -82,6 +82,7 @@
     requirements:
       MatterBin: 8
       Manipulator: 6
+    materialRequirements:
       Glass: 10
       Steel: 5
     tagRequirements:

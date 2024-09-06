@@ -9,6 +9,7 @@
       - torso
       organs:
         eyes: OrganIPCEyes
+        brain: PositronicBrain
     torso:
       part: TorsoIPC
       connections:
@@ -17,7 +18,6 @@
       - left leg
       - right leg
       organs:
-        brain: PositronicBrain
         heart: OrganIPCPump
     right arm:
       part: RightArmIPC

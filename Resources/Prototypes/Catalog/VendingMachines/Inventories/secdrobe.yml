@@ -49,5 +49,5 @@
     ClothingHeadBandBlack: 2
     ClothingHeadBandSkull: 1
     LPPClothingHeadSecHat: 2
-  contrabandInventory:
-    ClothingMaskClownSecurity: 1
+  # contrabandInventory:
+  #   ClothingMaskClownSecurity: 1

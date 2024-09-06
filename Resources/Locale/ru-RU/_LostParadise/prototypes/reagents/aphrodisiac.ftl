@@ -21,3 +21,7 @@ reagent-physdesc-Lucipherium = концентрированное зло
 reagent-name-Necrotoxins = Некротоксин
 reagent-desc-Necrotoxins = Результат гниения
 reagent-physdesc-Necrotoxins = гниющее
+
+reagent-name-Heamotoxic = Гемотоксин
+reagent-desc-Heamotoxic = Кислотное вещество
+reagent-physdesc-Heamotoxic = токсичное
