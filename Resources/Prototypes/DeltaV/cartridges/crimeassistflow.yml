@@ -300,8 +300,50 @@
   locKeyPunishment: "crime-assist-crimepunishment-sexualharassment"
 
 - type: crimeAssistPage
+  id: "resultInnocent"
+  locKeyTitle: "crime-assist-crime-innocent"
+  locKeyDescription: "crime-assist-crimedetail-innocent"
+  locKeySeverity: "crime-assist-crimetype-innocent"
+  locKeyPunishment: "crime-assist-crimepunishment-innocent"
+
+- type: crimeAssistPage
+  id: "resultAnimalCruelty"
+  locKeyTitle: "crime-assist-crime-animalcruelty"
+  locKeyDescription: "crime-assist-crimedetail-animalcruelty"
+  locKeySeverity: "crime-assist-crimetype-misdemeanour"
+  locKeyPunishment: "crime-assist-crimepunishment-animalcruelty"
+
+- type: crimeAssistPage
+  id: "resultTheft"
+  locKeyTitle: "crime-assist-crime-theft"
+  locKeyDescription: "crime-assist-crimedetail-theft"
+  locKeySeverity: "crime-assist-crimetype-misdemeanour"
+  locKeyPunishment: "crime-assist-crimepunishment-theft"
+
+- type: crimeAssistPage
   id: "resultTrespass"
   locKeyTitle: "crime-assist-crime-trespass"
   locKeyDescription: "crime-assist-crimedetail-trespass"
   locKeySeverity: "crime-assist-crimetype-misdemeanour"
   locKeyPunishment: "crime-assist-crimepunishment-trespass"
+
+- type: crimeAssistPage
+  id: "resultVandalism"
+  locKeyTitle: "crime-assist-crime-vandalism"
+  locKeyDescription: "crime-assist-crimedetail-vandalism"
+  locKeySeverity: "crime-assist-crimetype-misdemeanour"
+  locKeyPunishment: "crime-assist-crimepunishment-vandalism"
+
+- type: crimeAssistPage
+  id: "resultHooliganism"
+  locKeyTitle: "crime-assist-crime-hooliganism"
+  locKeyDescription: "crime-assist-crimedetail-hooliganism"
+  locKeySeverity: "crime-assist-crimetype-misdemeanour"
+  locKeyPunishment: "crime-assist-crimepunishment-hooliganism"
+
+- type: crimeAssistPage
+  id: "resultManslaughter"
+  locKeyTitle: "crime-assist-crime-manslaughter"
+  locKeyDescription: "crime-assist-crimedetail-manslaughter"
+  locKeySeverity: "crime-assist-crimetype-felony"
+  locKeyPunishment: "crime-assist-crimepunishment-manslaughter"

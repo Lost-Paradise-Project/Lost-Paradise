@@ -1,4 +1,4 @@
-﻿p-descriptor-mysterious = мистический
+p-descriptor-mysterious = мистический
 p-descriptor-male = мужчина
 p-descriptor-female = женщина
 p-descriptor-young = молодой
