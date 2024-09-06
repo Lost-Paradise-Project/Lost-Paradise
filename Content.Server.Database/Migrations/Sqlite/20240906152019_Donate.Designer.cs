@@ -1181,10 +1181,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("user_id");
 
-                    b.Property<bool>("AllowJob")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("allow_job");
-
                     b.Property<string>("AllowedMarkings")
                         .IsRequired()
                         .HasColumnType("TEXT")
