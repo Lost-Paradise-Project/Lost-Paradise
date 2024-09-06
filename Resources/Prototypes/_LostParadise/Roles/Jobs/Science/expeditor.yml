@@ -17,8 +17,8 @@
   access:
   - Research
   - Maintenance
-  - Gateway
-  - EVA
+#  - Gateway
+#  - EVA
 
 - type: startingGear
   id: ExpeditorGear

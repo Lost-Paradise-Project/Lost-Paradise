@@ -11,7 +11,7 @@
     ears: ClothingHeadsetCentCom
     pocket1: ChronoKnife
     pocket2: BlinkBook
-  innerclothingskirt: ClothingUniformJumpsuitNanotrasen
+  innerClothingSkirt: ClothingUniformJumpsuitNanotrasen
   satchel: LPPClothingBackpackHoldingChrono
   duffelbag: LPPClothingBackpackHoldingChrono
 

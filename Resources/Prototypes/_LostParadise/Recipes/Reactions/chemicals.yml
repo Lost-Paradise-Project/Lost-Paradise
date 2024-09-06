@@ -26,7 +26,6 @@
 
 - type: reaction
   id: Necrotoxins
-  hideFromGuide: true
   reactants:
     Heamotoxic:
       amount: 1

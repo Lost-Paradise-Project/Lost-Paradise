@@ -100,15 +100,15 @@
   categories:
   - LPPCBURNArmor
 
-- type: listing
-  id: LPPCBURNCatalogArmorExosuitCommander
-  name: cburn-catalog-armor-exosuit-com-name
-  description: cburn-catalog-armor-exosuit-com-desc
-  productEntity: ClothingOuterHardsuitCBURNLeader
-  cost:
-    Telecrystal: 10
-  categories:
-  - LPPCBURNArmor
+#- type: listing
+#  id: LPPCBURNCatalogArmorExosuitCommander
+#  name: cburn-catalog-armor-exosuit-com-name
+#  description: cburn-catalog-armor-exosuit-com-desc
+#  productEntity: ClothingOuterHardsuitCBURNLeader
+#  cost:
+#    Telecrystal: 10
+#  categories:
+#  - LPPCBURNArmor
 
 - type: listing
   id: LPPCBURNCatalogArmorGasMask

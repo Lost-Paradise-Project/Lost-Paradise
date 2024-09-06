@@ -1,6 +1,5 @@
 - type: reaction
   id: LPPAphrodisiac
-  hideFromGuide: true
   reactants:
     Necrotoxins:
       amount: 1

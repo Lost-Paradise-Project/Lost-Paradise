@@ -97,25 +97,3 @@
       collection: FemaleSigh
     Weh:
       collection: Weh
-
-- type: emoteSounds
-  id: LPPUnisexIPC
-  sounds:
-    RobotBeep:
-      collection: RobotBeeps
-    LPPSynthYes:
-      path: /Audio/_LostParadise/IPC/synth_yes.ogg
-    LPPSynthNo:
-      path: /Audio/_LostParadise/IPC/synth_no.ogg
-    LPPPing:
-      path: /Audio/_LostParadise/IPC/ping.ogg
-    LPPBuzz:
-      path: /Audio/_LostParadise/IPC/buzz-sigh.ogg
-    LPPSighBuzz:
-      path: /Audio/_LostParadise/IPC/buzz-two.ogg
-    LPPSigh:
-      path: /Audio/_LostParadise/IPC/buzz-two.ogg
-    Scream:
-      path: /Audio/_LostParadise/IPC/synth_scream.ogg
-  params:
-    variation: 0.125

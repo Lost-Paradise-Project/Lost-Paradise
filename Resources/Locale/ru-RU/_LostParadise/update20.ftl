@@ -395,3 +395,4 @@ ent-LPPClothingUnderSocksThighOrange = носки
 ent-SpawnSecPilot = спавн пилота службы безопансоти
 ent-LockerWoCSyndicate = Шкафчик для хранения улик
     .desc = Для хранения мешков с гильзами и вещами задержанного.
+lathe-category-hardsuit = Скафандры
