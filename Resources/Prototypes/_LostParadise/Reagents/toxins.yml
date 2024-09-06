@@ -1,8 +1,8 @@
 - type: reagent
   id: Necrotoxins
-  name: Некротоксин
-  desc: Результат гниения
-  physicalDesc: гниющее
+  name: reagent-name-Necrotoxins
+  desc: reagent-desc-Necrotoxins
+  physicalDesc: reagent-physdesc-Necrotoxins
   color: "#2F4F4F"
   metabolisms:
     Poison:
@@ -42,9 +42,9 @@
 
 - type: reagent
   id: Heamotoxic
-  name: Гемотоксин
-  desc: Кислотное вещество
-  physicalDesc: токсичное
+  name: reagent-name-Heamotoxic
+  desc: reagent-desc-Heamotoxic
+  physicalDesc: reagent-physdesc-Heamotoxic
   color: "#FF7F50"
   metabolisms:
     Poison:

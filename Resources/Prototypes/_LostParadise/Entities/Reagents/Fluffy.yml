@@ -47,7 +47,7 @@
 - type: reagent
   id: FluffyEnergy
   name: reagent-name-fluffyenergy
-  desc: reagent-desc-fluffyenergy
+  desc: reagent-desc-space-fluffyenergy
   physicalDesc: reagent-desc-physical-fluffyenergy
   flavor: EnergyFluffy
   color: "#BA55D3"
@@ -484,7 +484,7 @@
 
 - type: messagePack
   id: FluffyAds
-  advertisements:
+  messages:
   - advertisement-Fluffy-1
   - advertisement-Fluffy-2
   - advertisement-Fluffy-3

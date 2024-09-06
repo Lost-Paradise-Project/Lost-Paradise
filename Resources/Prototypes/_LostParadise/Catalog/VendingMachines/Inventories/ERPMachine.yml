@@ -42,11 +42,10 @@
     LPPVibratorTeal: 3
     LPPVibratorYellow: 3
     LPPWhips: 3
-    BaseWhips: 3
     LPPHypnogogglesPink: 3
     LPPHypnogogglesTeal: 3
-    LPPKblindfoldPink: 3
-    LPPKblindfoldTeal: 3
+    ClothingLPPKblindfoldPink: 3
+    ClothingLPPKblindfoldTeal: 3
     LPPMaskCyan: 3
     LPPMaskPink: 3
     LPPJanimaid: 3

@@ -21,7 +21,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: Pulse
+    proto: RedMediumLaser
     fireCost: 200
   - type: Battery
     maxCharge: 2000
@@ -211,7 +211,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: PurplePulse
+    proto: RedLaser
     fireCost: 200
   - type: Battery
     maxCharge: 4000

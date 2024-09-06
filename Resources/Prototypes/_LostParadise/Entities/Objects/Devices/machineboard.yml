@@ -6,13 +6,14 @@
   components:
     - type: MachineBoard
       prototype: LPPprotolatheENG
-      stackRequirements:
+      requirements:
         MatterBin: 2
         Manipulator: 2
       tagRequirements:
         GlassBeaker:
-          amount: 2
-          defaultPrototype: Beaker
+          Amount: 2
+          DefaultPrototype: Beaker
+          ExamineName: Glass Beaker
 
 - type: entity
   id: LPPProtolatheRnDMachineCircuitboard
@@ -22,13 +23,14 @@
   components:
     - type: MachineBoard
       prototype: LPPprotolatheRnD
-      stackRequirements:
+      requirements:
         MatterBin: 2
         Manipulator: 2
       tagRequirements:
         GlassBeaker:
-          amount: 2
-          defaultPrototype: Beaker
+          Amount: 2
+          DefaultPrototype: Beaker
+          ExamineName: Glass Beaker
 
 - type: entity
   id: LPPProtolatheSUPMachineCircuitboard
@@ -38,13 +40,14 @@
   components:
     - type: MachineBoard
       prototype: LPPSupProtolathe
-      stackRequirements:
+      requirements:
         MatterBin: 2
         Manipulator: 2
       tagRequirements:
         GlassBeaker:
-          amount: 2
-          defaultPrototype: Beaker
+          Amount: 2
+          DefaultPrototype: Beaker
+          ExamineName: Glass Beaker
 
 - type: entity
   id: LPPProtolatheServiceMachineCircuitboard
@@ -54,13 +57,14 @@
   components:
     - type: MachineBoard
       prototype: LPPServiceProtolathe
-      stackRequirements:
+      requirements:
         MatterBin: 2
         Manipulator: 2
       tagRequirements:
         GlassBeaker:
-          amount: 2
-          defaultPrototype: Beaker
+          Amount: 2
+          DefaultPrototype: Beaker
+          ExamineName: Glass Beaker
 
 - type: entity
   id: LPPSpaceForgeBoard
@@ -75,16 +79,17 @@
     stealGroup: LPPSpaceForgeBoard
   - type: MachineBoard
     prototype: LPPthespaceforge
-    stackRequirements:
+    requirements:
       MatterBin: 8
       Manipulator: 6
+    materialRequirements:
       Glass: 10
       Steel: 5
     tagRequirements:
       GlassBeaker:
-        amount: 2
-        defaultPrototype: Beaker
-        examineName: Glass Beaker
+        Amount: 2
+        DefaultPrototype: Beaker
+        ExamineName: Glass Beaker
 
 - type: entity
   id: LPPUniformPrinterMachineCircuitboard
@@ -94,7 +99,7 @@
   components:
   - type: MachineBoard
     prototype: LPPUniformPrinter
-    stackRequirements:
+    requirements:
       MatterBin: 2
       Manipulator: 2
 

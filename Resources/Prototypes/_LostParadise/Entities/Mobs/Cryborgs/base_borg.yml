@@ -210,16 +210,14 @@
     understands:
     - GalacticCommon
     - LPPSynt
-    - LPPCanilunzt
+    - Canilunzt
     - LPPSikTaj
-    - LPPCintaTaj
-    - LPPBubblish
-    - LPPDraconic
-    - LPPNian
-    - LPPSolCommon
-    - LPPDwarf
-    - LPPRootSpeak
-    - LPPMoffic
+    - Bubblish
+    - Draconic
+    - SolCommon
+    - Nekomimetic
+    - RootSpeak
+    - Moffic
     - LPPElfLang
   - type: Vocal
     sounds:

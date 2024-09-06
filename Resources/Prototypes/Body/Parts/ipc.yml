@@ -17,7 +17,7 @@
 - type: entity
   id: TorsoIPC
   name: "ipc torso"
-  parent: PartIPC
+  parent: [PartIPC, BaseTorso]
   components:
   - type: Sprite
     netsync: false
