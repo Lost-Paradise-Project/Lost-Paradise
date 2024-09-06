@@ -39,8 +39,8 @@
       - LPPAIMechPunchAndVulcan
     hasMindState: robot_e
     noMindState: robot_e_r
-  - type: Construction
-    node: security
+  # - type: Construction
+  #   node: security
   - type: Speech
     speechVerb: Robotic
   - type: Destructible
