@@ -89,4 +89,3 @@
     sprite: _LostParadise/Clothing/Eyes/HUD/magistrate.rsi
   - type: FlashImmunity
   - type: EyeProtection
-    protectionTime: 5
