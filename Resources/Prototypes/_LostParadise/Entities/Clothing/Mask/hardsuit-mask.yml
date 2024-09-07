@@ -20,6 +20,4 @@
         Heat: 0.95
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHunter
-    requiredSlot:
-    - mask
     slot: head

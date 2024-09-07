@@ -29,6 +29,4 @@
     damageCoefficient: 0.8
   - type: ToggleableClothing
     clothingPrototype: LPPClothingMaskHunter
-    requiredSlot:
-    - outerclothing
     slot: mask

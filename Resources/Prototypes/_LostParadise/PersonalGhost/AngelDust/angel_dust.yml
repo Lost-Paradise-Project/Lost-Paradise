@@ -1,0 +1,140 @@
+- type: entity
+  name: Ангельская Пыль
+  description: Твой ангел хранитель и твоя совесть.
+  parent: BaseMob
+  id: LPPAngelDustYuki
+  suffix: "Личные вещи, JayJacobs"
+  components:
+  - type: AngelDust
+    morph: LPPAngelDustYukiMorph
+  - type: CargoSellBlacklist
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: LPP/PersonalGhost/AngelDust/mob.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: angel
+  - type: Icon
+    sprite: LPP/PersonalGhost/AngelDust/mob.rsi
+    state: icon
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: angel
+      Dead:
+        Base: dead
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      200: Dead
+  - type: NpcFactionMember
+    factions:
+      - NanoTrasen
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 50
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: TTS
+    voice: Eugene
+  - type: Speech
+    speechVerb: Vulpkanin
+  - type: TypingIndicator
+    proto: default
+    #proto: holo
+    #proto: guardian
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Common
+  - type: ActiveRadio
+    channels:
+    - Common
+  - type: IntrinsicRadioReceiver
+  - type: LanguageSpeaker
+    speaks:
+    - GalacticCommon
+    - LPPCanilunzt
+    - LPPElfLang
+    - LPPSolCommon
+    - LPPDev
+    understands:
+    - GalacticCommon
+    - LPPCanilunzt
+    - LPPSikTaj
+    - LPPCintaTaj
+    - LPPBubblish
+    - LPPDraconic
+    - LPPNian
+    - LPPSolCommon
+    - LPPDwarf
+    - LPPRootSpeak
+    - LPPMoffic
+    - LPPElfLang
+    - LPPDev
+  - type: CrewMonitoringConsole
+    snap: false
+    precision: 3
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: CrewMonitor
+  - type: WirelessNetworkConnection
+    range: 500
+  - type: UserInterface
+    interfaces:
+      enum.CrewMonitoringUIKey.Key:
+        type: CrewMonitoringBoundUserInterface
+  - type: IntrinsicUI
+    uis:
+      enum.CrewMonitoringUIKey.Key:
+        toggleAction: ActionAGhostShowCrewMonitoring
+  ##- type: NoSlip
+  ##- type: MovementIgnoreGravity
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 3.0
+    baseSprintSpeed : 4.9
+  - type: StepTriggerImmune
+  - type: Tag
+    tags:
+      - DoorBumpOpener
+  - type: Puller
+    needsHands: false
+  - type: ContentEye
+    maxZoom: 1.44,1.44
+  - type: Physics
+    bodyType: KinematicController
+    bodyStatus: InAir
+  - type: CanMoveInAir
+  - type: MovementAlwaysTouching
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: male
+  - type: Inventory
+    templateId: aghost
+  - type: InventorySlots
+  - type: Hands
+  - type: Body
+    prototype: Human
+  - type: MobMover
+  - type: InputMover
+  - type: Input
+    context: "human"
+  - type: Anomaly
+    pulseSound:
+      collection: ChurchBell
+      params:
+        volume: 0
+    anomalyContactDamage:
+      types:
+        Cold: -5
+  - type: BibleUser

@@ -17,12 +17,7 @@
     sprite: _LostParadise/Clothing/OuterClothing/Cloak/scientificcloak.rsi
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHatHoodScientificCloak
-    requiredSlot:
-    - neck
     slot: head
-  - type: ContainerContainer
-    containers:
-      toggleable-clothing: !type:ContainerSlot {}
 
 - type: entity
   parent: ClothingHeadBase
@@ -72,12 +67,7 @@
     sprite: _LostParadise/Clothing/OuterClothing/Cloak/arbitercloak.rsi
   - type: ToggleableClothing
     clothingPrototype: LPParbitermask
-    requiredSlot:
-    - neck
     slot: mask
-  - type: ContainerContainer
-    containers:
-      toggleable-clothing: !type:ContainerSlot {}
 
 - type: entity
   parent: ClothingNeckBase
@@ -122,8 +112,8 @@
         Radiation: 0.5
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitKiravaHoodsec
-    requiredSlot:
-    - neck
+    # requiredSlot:
+    # - neck
 
 - type: entity
   parent: ClothingNeckBase
