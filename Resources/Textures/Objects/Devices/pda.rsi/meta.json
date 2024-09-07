@@ -142,7 +142,7 @@
       "name": "pda-rd"
     },
     {
-      "name": "pda-roboticist"
+      "name": "pda-robotics"
     },
     {
       "name": "pda-science"
@@ -228,6 +228,9 @@
     },
     {
       "name":  "pda-expeditor"
+    },
+    {
+      "name": "pda-security-enginer"
     },
     {
       "name": "equipped-IDCARD",

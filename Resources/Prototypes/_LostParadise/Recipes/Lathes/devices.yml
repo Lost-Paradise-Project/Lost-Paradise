@@ -10,17 +10,17 @@
     Plasma: 500
     Uranium: 250
 
-- type: latheRecipe
-  id: OreBagBluespace
-  result: OreBagBluespace
-  completetime: 12
-  materials:
-    Steel: 1700
-    Glass: 1900
-    Silver: 1500
-    Gold: 2000
-    Plasma: 1250
-    Uranium: 150
+# - type: latheRecipe
+#   id: OreBagBluespace
+#   result: OreBagBluespace
+#   completetime: 12
+#   materials:
+#     Steel: 1700
+#     Glass: 1900
+#     Silver: 1500
+#     Gold: 2000
+#     Plasma: 1250
+#     Uranium: 150
 
 - type: latheRecipe
   id: WeaponCutterAdv
@@ -46,17 +46,17 @@
     Plasma: 950
     Uranium: 50
 
-- type: latheRecipe
-  id: AdvWateringCan
-  result: AdvWateringCan
-  completetime: 5
-  materials:
-    Steel: 1450
-    Glass: 1100
-    Silver: 1050
-    Gold: 550
-    Plasma: 750
-    Uranium: 25
+# - type: latheRecipe
+#   id: AdvWateringCan
+#   result: AdvWateringCan
+#   completetime: 5
+#   materials:
+#     Steel: 1450
+#     Glass: 1100
+#     Silver: 1050
+#     Gold: 550
+#     Plasma: 750
+#     Uranium: 25
 
 - type: latheRecipe
   id: BluespaceChemBag
@@ -70,14 +70,14 @@
     Plasma: 950
     Uranium: 50
 
-- type: latheRecipe
-  id: LPPIndustrialChargerCircuitboard
-  result: LPPIndustrialChargerCircuitboard
-  completetime: 2
-  materials:
-    Steel: 900
-    Plastic: 100
-    Gold: 100
+# - type: latheRecipe
+#   id: LPPIndustrialChargerCircuitboard
+#   result: LPPIndustrialChargerCircuitboard
+#   completetime: 2
+#   materials:
+#     Steel: 900
+#     Plastic: 100
+#     Gold: 100
 
 # - type: latheRecipe
 #   id: LPPTricorder

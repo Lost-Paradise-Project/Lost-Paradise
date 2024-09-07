@@ -17,12 +17,12 @@
     sprite: _LostParadise/Clothing/OuterClothing/Cloak/scientificcloak.rsi
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHatHoodScientificCloak
-    requiredSlot:
-    - neck
     slot: head
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingHeadBase
@@ -72,12 +72,12 @@
     sprite: _LostParadise/Clothing/OuterClothing/Cloak/arbitercloak.rsi
   - type: ToggleableClothing
     clothingPrototype: LPParbitermask
-    requiredSlot:
-    - neck
     slot: mask
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingNeckBase
@@ -122,8 +122,12 @@
         Radiation: 0.5
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitKiravaHoodsec
-    requiredSlot:
-    - neck
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingNeckBase
@@ -169,15 +173,6 @@
   components:
     - type: Sprite
       sprite: _LostParadise/Clothing/Neck/Cloaks/zulie_paramedic_gif.rsi
-
-- type: entity
-  parent: ClothingNeckBase
-  id: LPPZulieSyndicate
-  name: zulie syndicate
-  description:
-  components:
-    - type: Sprite
-      sprite: _LostParadise/Clothing/Neck/Cloaks/zulie_syndicate.rsi
 
 - type: entity
   parent: ClothingNeckBase

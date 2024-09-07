@@ -253,15 +253,6 @@
     state: sheetred
 
 - type: entity
-  id: LPPBedsheetSyndie
-  parent: LPPBedsheetBase
-  name: Syndie bedsheet
-  description: It has a syndicate emblem and it has an aura of evil.
-  components:
-  - type: Sprite
-    state: sheetsyndie
-
-- type: entity
   id: LPPBedsheetWhite
   parent: LPPBedsheetBase
   name: white bedsheet

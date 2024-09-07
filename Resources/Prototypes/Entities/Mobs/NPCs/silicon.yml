@@ -108,17 +108,14 @@
   - type: ZombieImmune
   - type: TTS
     voice: Jarvis
-  - type: LanguageKnowledge
+  - type: PsionicInsulation
+  - type: LanguageKnowledge   #для ТТС
     speaks:
     - GalacticCommon
     - RobotTalk
     understands:
     - GalacticCommon
     - RobotTalk
-  - type: PsionicInsulation
-  - type: LanguageSpeaker   #для ТТС
-    speaks:
-    - GalacticCommon
 
 - type: entity
   parent: MobSiliconBase

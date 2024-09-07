@@ -1052,7 +1052,7 @@ namespace Content.Server.Database
     }
 
 #if LPP_Sponsors  // _LostParadise-Sponsors
-    [Table("sponsors")] 
+    [Table("sponsors")]
     public class Sponsor
     {
         [Required, Key] public Guid UserId { get; set; }

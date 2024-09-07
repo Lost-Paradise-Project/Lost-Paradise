@@ -47,7 +47,7 @@
 - type: reagent
   id: FluffyEnergy
   name: reagent-name-fluffyenergy
-  desc: reagent-desc-fluffyenergy
+  desc: reagent-desc-space-fluffyenergy
   physicalDesc: reagent-desc-physical-fluffyenergy
   flavor: EnergyFluffy
   color: "#BA55D3"
@@ -480,3 +480,15 @@
     radius: 1.5
     energy: 1.6
     color: "#FC0FC0"
+
+
+- type: messagePack
+  id: FluffyAds
+  messages:
+  - advertisement-Fluffy-1
+  - advertisement-Fluffy-2
+  - advertisement-Fluffy-3
+  - advertisement-Fluffy-4
+  - advertisement-Fluffy-5
+  - advertisement-Fluffy-6
+  - advertisement-Fluffy-7

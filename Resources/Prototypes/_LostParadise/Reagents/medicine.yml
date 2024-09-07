@@ -1,0 +1,63 @@
+- type: reagent
+  id: Rubrine
+  name: reagent-name-Rubrine
+  desc: reagent-desc-Rubrine
+  physicalDesc: reagent-physdesc-Rubrine
+  group: Medicine
+  flavor: medicine
+  color: "#ed0e37"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Asphyxiation: -1
+            Bloodloss: -1
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
+          reagent: LPPAphrodisiac
+          min: 1
+        reagent: LPPAphrodisiac
+        amount: -3
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Lucipherium
+          min: 1
+        reagent: Lucipherium
+        amount: -5
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
+          reagent: LPPAphrodisiacReduced
+          min: 1
+        reagent: LPPAphrodisiacReduced
+        amount: -8
+
+- type: reagent
+  id: Neclanox
+  name: reagent-name-Neclanox
+  desc: reagent-desc-Neclanox
+  physicalDesc: reagent-physdesc-Neclanox
+  group: Medicine
+  flavor: medicine
+  color: "#ed0e37"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Asphyxiation: -1
+            Bloodloss: -1
+            Cellular: -0.5
+            Poison: 1
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
+          reagent: Necrotoxins
+          min: 1
+        reagent: Necrotoxins
+        amount: -2

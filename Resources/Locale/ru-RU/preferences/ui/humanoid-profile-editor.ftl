@@ -63,6 +63,10 @@ humanoid-profile-editor-traits-show-unusable-button-tooltip =
     Если этот параметр включен, черты, которые не могут быть использованы в текущей настройке персонажа, будут выделены красным цветом.
     Вы по-прежнему не сможете использовать недопустимые черты, пока настройки вашего персонажа не изменятся в соответствии с требованиями.
     Скорее всего, это полезно только в том случае, если есть ошибка, скрывающая черты, которые вы действительно можете использовать, или если вы хотите увидеть признаки других видов или что-то в этом роде.
+humanoid-profile-editor-traits-remove-unusable-button = Убрать { $count } неиспользуемых черт
+humanoid-profile-editor-traits-remove-unusable-button-tooltip =
+    Если вы нажмете на эту кнопку, все черты, которые не могут быть использованы в вашей текущей настройке персонажа, будут удалены.
+    Перед удалением этих черт вас попросят подтвердить.
 humanoid-profile-editor-traits-no-traits = Не найдено черт
 humanoid-profile-editor-antag-preference-yes-button = Да
 humanoid-profile-editor-antag-preference-no-button = Нет
@@ -76,6 +80,14 @@ humanoid-profile-editor-loadouts-show-unusable-button-tooltip =
     Если эта опция включена, атрибуты, которые не могут быть использованы в текущей настройке персонажа, будут выделены красным цветом.
     Вы все равно не сможете использовать недопустимые атрибуты, пока настройки вашего персонажа не изменятся в соответствии с требованиями.
     Это может быть полезно, если вам нравится переключаться между несколькими работами и вы не хотите каждый раз выбирать своё снаряжение
+humanoid-profile-editor-loadouts-remove-unusable-button =
+    Remove { $count ->
+        [1] { $count } Unusable Loadout
+       *[other] { $count } Unusable Loadouts
+    }
+humanoid-profile-editor-loadouts-remove-unusable-button-tooltip =
+    If you click this button, all loadouts that your current character setup cannot use will be removed.
+    You will be asked for confirmation before the loadouts are removed.
 humanoid-profile-editor-loadouts-no-loadouts = Не нашлось снаряжений.
 humanoid-profile-editor-job-priority-never-button = Никогда
 humanoid-profile-editor-naming-rules-warning = Внимание: Оскорбительные или странные имена и описания могут повлечь за собой беседу с администрацией. Прочитайте \[Правила\].

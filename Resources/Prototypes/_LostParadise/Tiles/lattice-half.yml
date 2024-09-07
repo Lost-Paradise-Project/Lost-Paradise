@@ -4,7 +4,7 @@
   sprite: /Textures/_LostParadise/Tiles/CornerFloors/lattice-half/lattice-half1.png
   baseTurf: Lattice
   isSubfloor: true
-  canCrowbar: false
+  #canCrowbar: false
   isSpace: true
   footstepSounds:
     collection: FootstepPlating
@@ -18,7 +18,7 @@
   sprite: /Textures/_LostParadise/Tiles/CornerFloors/lattice-half/lattice-half2.png
   baseTurf: Lattice
   isSubfloor: true
-  canCrowbar: false
+  #canCrowbar: false
   isSpace: true
   footstepSounds:
     collection: FootstepPlating
@@ -32,7 +32,7 @@
   sprite: /Textures/_LostParadise/Tiles/CornerFloors/lattice-half/lattice-half3.png
   baseTurf: Lattice
   isSubfloor: true
-  canCrowbar: false
+  #canCrowbar: false
   isSpace: true
   footstepSounds:
     collection: FootstepPlating
@@ -46,7 +46,7 @@
   sprite: /Textures/_LostParadise/Tiles/CornerFloors/lattice-half/lattice-half4.png
   baseTurf: Lattice
   isSubfloor: true
-  canCrowbar: false
+  #canCrowbar: false
   isSpace: true
   footstepSounds:
     collection: FootstepPlating

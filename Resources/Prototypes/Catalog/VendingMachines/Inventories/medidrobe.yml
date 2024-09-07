@@ -18,10 +18,22 @@
     UniformScrubsColorGreen: 4
     UniformScrubsColorBlue: 4
     UniformScrubsColorPurple: 4
-    ClothingHeadHatSurgcapGreen: 4 
+    ClothingHeadHatSurgcapGreen: 4
     ClothingHeadHatSurgcapBlue: 4
     ClothingHeadHatSurgcapPurple: 4
     ClothingShoesBootsWinterMed: 2
+#LPP
+    LPPMedicBlackSkirt: 4
+    LPPMedictechjean: 4
+    LPPGorkaMedic: 4
+    LPPGorkaMedicVarg: 4
+    LPPQmcMedic: 4
+    LPPSkirtleneckMedic: 4
+    LPPSkirtleneckQMMedic: 4
+    LPPSupplyChiefMedic: 4
+    LPPSupplyChiefSkirtMedic: 4
+    LPPTurtleneckQmMedic: 4
+    LPPUtilMedic: 4
   contrabandInventory: #DeltaV
     UniformScrubsColorCybersun: 1 #DeltaV
     ClothingHeadHatSurgcapCybersun: 1 #DeltaV

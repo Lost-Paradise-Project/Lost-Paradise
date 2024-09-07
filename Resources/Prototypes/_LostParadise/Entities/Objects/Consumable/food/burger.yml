@@ -19,13 +19,12 @@
           Quantity: 5
         - ReagentId: Vitamin
           Quantity: 5
-    metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        damage:
-          groups:
-            Piercing: -2
+      # medicine:
+      #   effects:
+      #   - !type:HealthChange
+      #     damage:
+      #       groups:
+      #         Piercing: -2
   - type: Tag
     tags:
       - Meat

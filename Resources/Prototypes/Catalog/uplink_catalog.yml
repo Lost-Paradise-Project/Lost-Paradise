@@ -1711,17 +1711,6 @@
 # LPP
 
 - type: listing
-  id: LPPUplinkGlaive
-  name: Кроваво красная глефа
-  description: Модифицированная версия глефы, усовершенствованная каким-то больным утилизатором...
-  icon: { sprite: /Textures/_LostParadise/Objects/Weapons/Melee/syndie_glaive.rsi, state: icon }
-  productEntity: LPPWeaponSyndieGlaive
-  cost:
-    Telecrystal: 8
-  categories:
-  - UplinkWeapons
-
-- type: listing
   id: LPPUplinkupgrwebbing
   name: разгрузочный жилет "Хомяк"
   description: Комплект из карманов, сумок и прочей лабуды предоставляет кучу места для ваших всевозможных вещей, что вы сюда запихнёте. Выглядит крайне громоздко однако.
@@ -1731,17 +1720,6 @@
     Telecrystal: 2
   categories:
     - UplinkArmor
-
-- type: listing
-  id: LPPUplinkAcientHardsuitSyndie
-  name: древний скафандр Синдиката
-  description: Очень странная модель скафандра Ядерных Оперативников, явно нестандартной конфигурации
-  icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi, state: icon }
-  productEntity: LPPClothingOuterHardsuitAcientSyndie
-  cost:
-    Telecrystal: 11
-  categories:
-  - UplinkArmor
 
 - type: listing
   id: LPPUplinkEcbow

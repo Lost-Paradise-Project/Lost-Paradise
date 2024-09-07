@@ -287,13 +287,6 @@
     Cloth: 300
 
 - type: latheRecipe
-  id: LPPQmsyndCargo
-  result: LPPQmsyndCargo
-  completetime: 4
-  materials:
-    Cloth: 300
-
-- type: latheRecipe
   id: LPPSupplyChiefCargo
   result: LPPSupplyChiefCargo
   completetime: 4
@@ -385,13 +378,6 @@
     Cloth: 300
 
 - type: latheRecipe
-  id: LPPQmsyndAtmos
-  result: LPPQmsyndAtmos
-  completetime: 4
-  materials:
-    Cloth: 300
-
-- type: latheRecipe
   id: LPPSupplyChiefAtmos
   result: LPPSupplyChiefAtmos
   completetime: 4
@@ -436,13 +422,6 @@
 - type: latheRecipe
   id: LPPQmcEngi
   result: LPPQmcEngi
-  completetime: 4
-  materials:
-    Cloth: 300
-
-- type: latheRecipe
-  id: LPPQmsyndEngi
-  result: LPPQmsyndEngi
   completetime: 4
   materials:
     Cloth: 300
@@ -532,13 +511,6 @@
     Cloth: 300
 
 - type: latheRecipe
-  id: LPPQmsyndMedic
-  result: LPPQmsyndMedic
-  completetime: 4
-  materials:
-    Cloth: 300
-
-- type: latheRecipe
   id: LPPSupplyChiefMedic
   result: LPPSupplyChiefMedic
   completetime: 4
@@ -576,13 +548,6 @@
 - type: latheRecipe
   id: LPPQmcVirology
   result: LPPQmcVirology
-  completetime: 4
-  materials:
-    Cloth: 300
-
-- type: latheRecipe
-  id: LPPQmcSyndVirology
-  result: LPPQmcSyndVirology
   completetime: 4
   materials:
     Cloth: 300
@@ -644,13 +609,6 @@
     Cloth: 300
 
 - type: latheRecipe
-  id: LPPQmsyndRnd
-  result: LPPQmsyndRnd
-  completetime: 4
-  materials:
-    Cloth: 300
-
-- type: latheRecipe
   id: LPPSupplyChiefRnd
   result: LPPSupplyChiefRnd
   completetime: 4
@@ -695,13 +653,6 @@
 - type: latheRecipe
   id: LPPQmcSec
   result: LPPQmcSec
-  completetime: 4
-  materials:
-    Cloth: 300
-
-- type: latheRecipe
-  id: LPPQmsyndSec
-  result: LPPQmsyndSec
   completetime: 4
   materials:
     Cloth: 300

@@ -1,8 +1,8 @@
 - type: reagent
   id: Lucipherium
-  name: Люцифериум
-  desc: Зловещий препарат, наполненный частичкой Ада.
-  physicalDesc: концентрированное зло
+  name: reagent-name-Lucipherium
+  desc: reagent-desc-Lucipherium
+  physicalDesc: reagent-physdesc-Lucipherium
   group: Narcotics
   color: "#000000"
   metabolisms:

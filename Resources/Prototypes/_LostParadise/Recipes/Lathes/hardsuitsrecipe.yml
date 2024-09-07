@@ -93,34 +93,6 @@
     Uranium: 425
 
 - type: latheRecipe
-  id: ClothingOuterHardsuitSyndie
-  result: ClothingOuterHardsuitSyndie
-  category: hardsuit
-  completetime: 40
-  materials:
-    Steel: 1700
-    Plasteel: 1275
-    Glass: 850
-    Silver: 850
-    Gold: 850
-    Plasma: 680
-    Uranium: 425
-
-- type: latheRecipe
-  id: ClothingOuterHardsuitSyndieMedic
-  result: ClothingOuterHardsuitSyndieMedic
-  category: hardsuit
-  completetime: 40
-  materials:
-    Steel: 1445
-    Plasteel: 1275
-    Glass: 1105
-    Silver: 1190
-    Gold: 850
-    Plasma: 425
-    Uranium: 255
-
-- type: latheRecipe
   id: ClothingOuterHardsuitSecurity
   result: ClothingOuterHardsuitSecurity
   category: hardsuit
@@ -130,19 +102,6 @@
     Plasteel: 1700
     Silver: 1020
     Gold: 425
-
-#- type: latheRecipe
-#  id: ClothingOuterHardsuitBrigmedic
-#  result: ClothingOuterHardsuitBrigmedic
-#  category: hardsuit
-#  completetime: 32
-#  materials:
-#    Steel: 1275
-#    Plasteel: 1190
-#    Silver: 1190
-#    Gold: 1105
-#    Plasma: 680
-#    Uranium: 170
 
 - type: latheRecipe
   id: ClothingOuterHardsuitEngineeringWhite
@@ -218,18 +177,6 @@
     Uranium: 425
 
 - type: latheRecipe
-  id: LPPClothingOuterHardsuitLoneMercenary
-  result: LPPClothingOuterHardsuitLoneMercenary
-  category: hardsuit
-  completetime: 50
-  materials:
-    Steel: 1700
-    Plasteel: 2125
-    Gold: 1275
-    Silver: 1275
-    Glass: 2550
-
-- type: latheRecipe
   id: ClothingOuterHardsuitRd
   result: ClothingOuterHardsuitRd
   category: hardsuit
@@ -267,17 +214,6 @@
     Gold: 425
     Silver: 1360
     Glass: 3910
-    Plastic: 1615
-
-- type: latheRecipe
-  id: ClothingShoesBootsMagSyndie
-  result: ClothingShoesBootsMagSyndie
-  completetime: 50
-  materials:
-    Steel: 1190
-    Glass: 1530
-    Plasma: 1530
-    Uranium: 595
     Plastic: 1615
 
 - type: latheRecipe

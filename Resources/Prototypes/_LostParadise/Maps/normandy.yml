@@ -1,7 +1,7 @@
 - type: gameMap
   id: LPPNormandy
   mapName: 'LP N7 Нормандия'
-  mapPath: /Maps/_LostParadise/normandy.yml
+  mapPath: /Maps/_LostParadise/LP_Normandy.yml
   minPlayers: 20
   stations:
     Core:
