@@ -165,3 +165,12 @@ Entries:
   id: 18
   time: '2024-09-06T23:58:16.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/81
+- author: JayJacobs
+  changes:
+    - type: Add
+      message: Добавил отдел юстиции в Гайдбук.
+    - type: Tweak
+      message: Изменены названия в переводах.
+  id: 19
+  time: '2024-09-07T09:27:50.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/83
