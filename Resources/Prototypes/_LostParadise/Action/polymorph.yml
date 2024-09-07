@@ -15,6 +15,6 @@
   - type: InstantAction
     useDelay: 0.2
     icon:
-      sprite: LPP/PersonalGhost/AngelDust/ghost.rsi
+      sprite: _LostParadise/PersonalGhost/AngelDust/ghost.rsi
       state: icon
     event: !type:AngelDustPolyEvent
