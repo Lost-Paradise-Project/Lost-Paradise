@@ -1,0 +1,983 @@
+- type: marking
+  id: LizardFrillsAquatic
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/ears.rsi
+    state: frills_aquatic
+
+- type: marking
+  id: LizardFrillsDivinity
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/ears.rsi
+    state: frills_divinity
+
+- type: marking
+  id: LizardFrillsBig
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/ears.rsi
+    state: frills_big
+
+- type: marking
+  id: LizardFrillsAxolotl
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/ears.rsi
+    state: frills_axolotl
+
+- type: marking
+  id: LizardFrillsHood
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/ears.rsi
+    state: frills_hood_primary
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/ears.rsi
+    state: frills_hood_secondary
+
+- type: marking
+  id: LizardFrillsShort
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/ears.rsi
+    state: frills_short
+
+- type: marking
+  id: LizardEarsSimple
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/ears.rsi
+    state: ear_simple
+
+- type: marking
+  id: LizardEarsDevoted
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/ears.rsi
+    state: ear_devoted
+
+- type: marking
+  id: LizardEarsPointed
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/ears.rsi
+    state: ear_pointed
+
+- type: marking
+  id: LizardEarsRaised
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/ears.rsi
+    state: ear_raised
+
+- type: marking
+  id: LizardEarsSticking
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/ears.rsi
+    state: ear_sticking
+
+
+
+- type: marking
+  id: LizardEyelash1
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/eyes.rsi
+    state: eyes_eyelash
+
+- type: marking
+  id: LizardEyelash2
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/eyes.rsi
+    state: eyes_eyelash_2
+
+- type: marking
+  id: LizardEyesBiggerSclera
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/eyes.rsi
+    state: eyes_bigger_sclera
+
+- type: marking
+  id: LizardEyesLarge
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/eyes.rsi
+    state: eyes_large_puppil
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/eyes.rsi
+    state: eyes_large_sclera
+
+
+
+- type: marking
+  id: LizardHornsAirshir
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state:
+
+- type: marking
+  id: LizardHornsArgali
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state:
+
+- type: marking
+  id: LizardHornsAngler
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state:
+
+- type: marking
+  id: LizardHornsCurled
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state: horns_curled
+
+- type: marking
+  id: LizardHornsRam
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state: horns_ram
+
+- type: marking
+  id: LizardHornsRoyal
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state: horns_royal
+
+- type: marking
+  id: LizardHornsShort
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state: horns_short
+
+- type: marking
+  id: LizardHornsLong
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state: horns_long
+
+- type: marking
+  id: LizardHornsSimple
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state: horns_simple
+
+- type: marking
+  id: LizardHornsKobold
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state: horns_kobold
+
+- type: marking
+  id: LizardHornsBig
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state: horns_bighorn
+
+- type: marking
+  id: LizardHornsBigDouble
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state: horns_bigdouble
+
+- type: marking
+  id: LizardHornsBigSimple
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
+    state: horns_bigsimple
+
+- type: marking
+  id: LizardSnoutShort
+  bodyPart: Snout
+  markingCategory: Snout
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/muzzle.rsi
+    state: snout_short
+
+- type: marking
+  id: LizardSnoutBig
+  bodyPart: Snout
+  markingCategory: Snout
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/muzzle.rsi
+    state: snout_big
+
+- type: marking
+  id: LizardSnoutLong1
+  bodyPart: Snout
+  markingCategory: Snout
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/muzzle.rsi
+    state: snout_long1
+
+- type: marking
+  id: LizardHeadFront
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/plates.rsi
+    state: head_plate_front
+
+- type: marking
+  id: LizardHeadScales
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/plates.rsi
+    state: head_plate_scales
+
+- type: marking
+  id: LizardHeadAsymetric
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/plates.rsi
+    state: head_plate_asymetric
+
+- type: marking
+  id: LizardHeadHeavyAsymetric
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/plates.rsi
+    state: head_plate_heavy_asymetric
+
+- type: marking
+  id: LizardHeadSymetric
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/plates.rsi
+    state: head_plate_symetric
+
+- type: marking
+  id: LizardHeadHeavySymetric
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/plates.rsi
+    state: head_plate_heavy_symetric
+
+- type: marking
+  id: LizardDecorTiger
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/decoration.rsi
+    state: head_tiger
+
+- type: marking
+  id: LizardDecorLilis
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/decoration.rsi
+    state: head_lilis
+
+- type: marking
+  id: LizardDecorSpots
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/decoration.rsi
+    state: head_spots
+
+- type: marking
+  id: LizardAddColorFLong
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/additional_color.rsi
+    state: head_f_second_colour_long
+
+- type: marking
+  id: LizardAddColorFShort
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/additional_color.rsi
+    state: head_f_second_colour_short
+
+- type: marking
+  id: LizardAddColorMLong
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/additional_color.rsi
+    state: head_m_second_colour_long
+
+- type: marking
+  id: LizardAddColorFShort
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/additional_color.rsi
+    state: head_m_second_colour_short
+
+- type: marking
+  id: LizardAddColorThird
+  bodyPart: Head
+  markingCategory: Head
+  forcedColoring: true
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/additional_color.rsi
+    state: head_third_color
+
+
+
+- type: marking
+  id: LizardLArmTigerBright
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/L_arm.rsi
+    state: l_arm_tiger_bright
+
+- type: marking
+  id: LizardLArmTigerDark
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/L_arm.rsi
+    state: l_arm_tiger_dark
+
+- type: marking
+  id: LizardLArmSpotsDark
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/L_arm.rsi
+    state: l_arm_spots_dark
+
+- type: marking
+  id: LizardLArmSpotsBrig
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/L_arm.rsi
+    state: l_arm_spots_brig
+
+- type: marking
+  id: LizardLArmSpotsMix
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/L_arm.rsi
+    state: l_arm_spots_mix
+
+- type: marking
+  id: LizardLArmLilis
+  bodyPart: LArm
+  markingCategory: Arms
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/L_arm.rsi
+    state: l_arm_lilis
+
+
+
+- type: marking
+  id: LizardRArmTigerBright
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/R_arm.rsi
+    state: r_arm_tiger_bright
+
+- type: marking
+  id: LizardRArmTigerDark
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/R_arm.rsi
+    state: r_arm_tiger_dark
+
+- type: marking
+  id: LizardRArmSpotsDark
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/R_arm.rsi
+    state: r_arm_spots_dark
+
+- type: marking
+  id: LizardRArmSpotsBright
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/R_arm.rsi
+    state: r_arm_spots_bright
+
+- type: marking
+  id: LizardRArmSpotsMix
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/R_arm.rsi
+    state: r_arm_spots_mix
+
+- type: marking
+  id: LizardRArmLilis
+  bodyPart: RArm
+  markingCategory: Arms
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/R_arm.rsi
+    state: r_arm_lilis
+
+
+
+- type: marking
+  id: LizardLLegTigerBright
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/L_leg.rsi
+    state: l_leg_tiger_bright
+
+- type: marking
+  id: LizardLLegTigerDark
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/L_leg.rsi
+    state: l_leg_tiger_dark
+
+- type: marking
+  id: LizardLLegSpotsDark
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/L_leg.rsi
+    state: l_leg_spots_dark
+
+- type: marking
+  id: LizardLLegSpotsBrig
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/L_leg.rsi
+    state: l_leg_spots_brig
+
+- type: marking
+  id: LizardLLegSpotsMix
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/L_leg.rsi
+    state: l_leg_spots_mix
+
+- type: marking
+  id: LizardLLegLilis
+  bodyPart: LLeg
+  markingCategory: Legs
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/L_leg.rsi
+    state: l_leg_lilis
+
+
+
+- type: marking
+  id: LizardRLegTigerBright
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/R_leg.rsi
+    state: r_leg_tiger_bright
+
+- type: marking
+  id: LizardRLegTigerDark
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/R_leg.rsi
+    state: r_leg_tiger_dark
+
+- type: marking
+  id: LizardRLegSpotsDark
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/R_leg.rsi
+    state: r_leg_spots_dark
+
+- type: marking
+  id: LizardRLegSpotsBrig
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/R_leg.rsi
+    state: r_leg_spots_brig
+
+- type: marking
+  id: LizardRLegSpotsMix
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/R_leg.rsi
+    state: r_leg_spots_mix
+
+- type: marking
+  id: LizardRLegLilis
+  bodyPart: RLeg
+  markingCategory: Legs
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/R_leg.rsi
+    state: r_leg_lilis
+
+
+
+- type: marking
+  id: LizardChestCroc
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/plates.rsi
+    state: body_plates_croc
+
+- type: marking
+  id: LizardChestScales
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/plates.rsi
+    state: body_plates_scales
+
+- type: marking
+  id: LizardChestSnake
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/plates.rsi
+    state: body_plates_snake
+
+- type: marking
+  id: LizardChestAsymetric
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/plates.rsi
+    state: body_plates_asymetric
+
+- type: marking
+  id: LizardChestSymetric
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/plates.rsi
+    state: body_plates_symetric
+
+- type: marking
+  id: LizardChestHeavyAsymetric
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/plates.rsi
+    state: body_plates_heavy
+
+- type: marking
+  id: LizardChestHeavySymetric
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/plates.rsi
+    state: body_plates_heavy_symetric
+
+- type: marking
+  id: LizardChestHeavyHips
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/plates.rsi
+    state: body_plates_heavy_hips
+
+
+
+- type: marking
+  id: LizardChestDecorLilis
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/decoration.rsi
+    state: body_lilis
+
+- type: marking
+  id: LizardChestDecorSpotsBright
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/decoration.rsi
+    state: body_lilis_spots_bright
+
+- type: marking
+  id: LizardChestDecorSpotsDark
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/decoration.rsi
+    state: body_lilis_spots_dark
+
+- type: marking
+  id: LizardChestDecorSpotsMix
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/decoration.rsi
+    state: body_lilis_spots_mix
+
+- type: marking
+  id: LizardChestDecorTigerBright
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/decoration.rsi
+    state: body_lilis_tiger_bright
+
+- type: marking
+  id: LizardChestDecorTigerDark
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/decoration.rsi
+    state: body_lilis_tiger_dark
+
+
+
+- type: marking
+  id: LizardChestAddColorFSecond
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Chest/additional_color.rsi
+    state: torso_f_second_colour
+
+- type: marking
+  id: LizardChestAddColorMSecond
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: Mobs/Customization/reptilian/Chest/additional_color.rsi
+    state: torso_m_second_colour
+
+- type: marking
+  id: LizardChestAddColorThird
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: Mobs/Customization/reptilian/Chest/additional_color.rsi
+    state: torso_third_colour
+
+- type: marking
+  id: LizardChestAddColorThird
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: Mobs/Customization/reptilian/Chest/additional_color.rsi
+    state: torso_third_colour
+
+- type: marking
+  id: LizardChestBig
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: Mobs/Customization/reptilian/Chest/additional_color.rsi
+    state: torso_breast_big
+
+- type: marking
+  id: LizardChestFlat
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: Mobs/Customization/reptilian/Chest/additional_color.rsi
+    state: torso_breast_flat
+
+
+
+- type: marking
+  id: LizardTailTipLong
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/plates.rsi
+    state: tail_tip_long
+
+- type: marking
+  id: LizardTailTipShort
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/plates.rsi
+    state: tail_tip_short
+
+- type: marking
+  id: LizardTailTipBig
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/plates.rsi
+    state: tail_tip_big
+
+- type: marking
+  id: LizardTailTipSpear
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/plates.rsi
+    state: tail_tip_spear
+
+- type: marking
+  id: LizardTailPlateSimple
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/plates.rsi
+    state: tail_plate_simple
+
+- type: marking
+  id: LizardTailPlateSnake
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/plates.rsi
+    state: tail_plate_snake
+
+- type: marking
+  id: LizardTailPlateAsymetric
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/plates.rsi
+    state: tail_plate_heavy_asymetric
+
+- type: marking
+  id: LizardTailPlateSymetrcic
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/plates.rsi
+    state: tail_plate_heavy_symetric
+
+- type: marking
+  id: LizardTailDecorLilis
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/decoration.rsi
+    state: tail_lilis
+
+- type: marking
+  id: LizardTailDecorTigerDark
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/decoration.rsi
+    state: tail_tiger_dark
+
+- type: marking
+  id: LizardTailDecorTigerBright
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/decoration.rsi
+    state:
+
+- type: marking
+  id: LizardTailDecorSpotsDark
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/decoration.rsi
+    state: tail_spots_dark
+
+- type: marking
+  id: LizardTailDecorSpotsBright
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/decoration.rsi
+    state: tail_spots_bright
+
+- type: marking
+  id: LizardTailDecorSpotsMix
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/decoration.rsi
+    state: tail_spots_mix
+
+- type: marking
+  id: LizardTailAddColorSecond
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/additional_color.rsi
+    state: tail_second_colour
+
+- type: marking
+  id: LizardTailAddColorThird
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Tail/additional_color.rsi
+    state: tail_third_colour
