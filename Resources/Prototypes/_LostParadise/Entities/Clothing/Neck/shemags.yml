@@ -10,9 +10,12 @@
     sprite: _LostParadise/Clothing/Neck/shemags/greendown.rsi
   - type: ToggleableClothing
     clothingPrototype: LPPClothingMaskShemagGreen
-    # requiredSlot:
-    # - neck
-    # slot: mask
+    slot: mask
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingMaskBase
@@ -38,6 +41,11 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingMaskShemagRed
     slot: mask
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingMaskBase
@@ -63,6 +71,11 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingMaskShemagBlue
     slot: mask
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingMaskBase
@@ -88,6 +101,11 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingMaskShemagBrown
     slot: mask
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingMaskBase
@@ -113,6 +131,11 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingMaskShemagPurple
     slot: mask
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingMaskBase
@@ -138,6 +161,11 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingMaskShemagNPZ
     slot: mask
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingMaskBase

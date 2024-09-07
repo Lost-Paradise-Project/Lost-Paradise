@@ -6826,7 +6826,7 @@ entities:
     - type: RadiationGridResistance
     - type: NavMap
     - type: BecomesStation
-      id: Normandy
+      id: LPPNormandy
 - proto: AcousticGuitarInstrument
   entities:
   - uid: 3
