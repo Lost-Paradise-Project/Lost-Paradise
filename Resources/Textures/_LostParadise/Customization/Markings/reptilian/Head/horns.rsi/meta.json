@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "All sprites are developed by Lost Paradise",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+        {
+            "name": "horns_airshir",
+            "directions": 4
+        },
+        {
+            "name": "horns_argali",
+            "directions": 4
+        },
+        {
+            "name": "horns_big_double",
+            "directions": 4
+        },
+        {
+            "name": "horns_big_simple",
+            "directions": 4
+        },
+        {
+            "name": "horns_bighorn",
+            "directions": 4
+        },
+        {
+            "name": "horns_curled",
+            "directions": 4
+        },
+        {
+            "name": "horns_long",
+            "directions": 4
+        },
+        {
+            "name": "horns_ram",
+            "directions": 4
+        },
+        {
+            "name": "horns_royal",
+            "directions": 4
+        },
+        {
+            "name": "horns_short",
+            "directions": 4
+        },
+        {
+            "name": "horns_simple",
+            "directions": 4
+        }
+    ]
+}

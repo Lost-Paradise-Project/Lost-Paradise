@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "All sprites are developed by Lost Paradise",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+        {
+            "name": "head_plate_scales",
+            "directions": 4
+        },
+        {
+            "name": "head_plate_front",
+            "directions": 4
+        },
+        {
+            "name": "head_plate_symetric",
+            "directions": 4
+        },
+        {
+            "name": "head_plate_asymetric",
+            "directions": 4
+        },
+        {
+            "name": "head_plate_heavy_symetric",
+            "directions": 4
+        },
+        {
+            "name": "head_plate_heavy_asymetric",
+            "directions": 4
+        }
+    ]
+}

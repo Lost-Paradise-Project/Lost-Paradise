@@ -148,7 +148,7 @@
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
-    state:
+    state: horns_airshir
 
 - type: marking
   id: LizardHornsArgali
@@ -157,16 +157,7 @@
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
-    state:
-
-- type: marking
-  id: LizardHornsAngler
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Reptilian]
-  sprites:
-  - sprite: _LostParadise/Mobs/Customization/Markings/reptilian/Head/horns.rsi
-    state:
+    state: horns_argali
 
 - type: marking
   id: LizardHornsCurled
@@ -407,7 +398,7 @@
     state: head_m_second_colour_long
 
 - type: marking
-  id: LizardAddColorFShort
+  id: LizardAddColorMShort
   bodyPart: Head
   markingCategory: Head
   forcedColoring: true
@@ -799,15 +790,6 @@
   sprites:
   - sprite: Mobs/Customization/reptilian/Chest/additional_color.rsi
     state: torso_m_second_colour
-
-- type: marking
-  id: LizardChestAddColorThird
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [Reptilian]
-  sprites:
-  - sprite: Mobs/Customization/reptilian/Chest/additional_color.rsi
-    state: torso_third_colour
 
 - type: marking
   id: LizardChestAddColorThird

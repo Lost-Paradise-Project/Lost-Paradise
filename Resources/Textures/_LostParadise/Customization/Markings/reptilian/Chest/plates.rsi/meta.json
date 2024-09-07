@@ -1,0 +1,43 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "All sprites are developed by Lost Paradise",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+        {
+            "name": "body_plates_croc",
+            "directions": 4
+        },
+        {
+            "name": "body_plates_snake",
+            "directions": 4
+        },
+        {
+            "name": "body_plates_scales",
+            "directions": 4
+        },
+        {
+            "name": "body_plates_hips",
+            "directions": 4
+        },
+        {
+            "name": "body_plates_symetric",
+            "directions": 4
+        },
+        {
+            "name": "body_plates_asymetric",
+            "directions": 4
+        },
+        {
+            "name": "body_plates_heavy_symetric",
+            "directions": 4
+        },
+        {
+            "name": "body_plates_heavy_asymetric",
+            "directions": 4
+        }
+    ]
+}

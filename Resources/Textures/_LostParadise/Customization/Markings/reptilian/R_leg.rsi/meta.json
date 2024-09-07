@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "All sprites are developed by Lost Paradise",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+        {
+            "name": "r_leg_lilis",
+            "directions": 4
+        },
+        {
+            "name": "r_leg_tiger_bright",
+            "directions": 4
+        },
+        {
+            "name": "r_leg_tiger_dark",
+            "directions": 4
+        },
+        {
+            "name": "r_leg_spots_bright",
+            "directions": 4
+        },
+        {
+            "name": "r_leg_spots_dark",
+            "directions": 4
+        },
+        {
+            "name": "r_leg_spots_mix",
+            "directions": 4
+        }
+    ]
+}

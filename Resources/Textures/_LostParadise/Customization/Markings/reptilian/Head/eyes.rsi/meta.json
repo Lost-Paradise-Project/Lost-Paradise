@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "All sprites are developed by Lost Paradise",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+        {
+            "name": "eyes_bigger_sclera",
+            "directions": 4
+        },
+        {
+            "name": "eyes_eyelash",
+            "directions": 4
+        },
+        {
+            "name": "eyes_eyelash_2",
+            "directions": 4
+        },
+        {
+            "name": "eyes_large_puppil",
+            "directions": 4
+        },
+        {
+            "name": "eyes_large_sclera",
+            "directions": 4
+        }
+    ]
+}

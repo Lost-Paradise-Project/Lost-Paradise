@@ -1,0 +1,59 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "All sprites are developed by Lost Paradise",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+        {
+            "name": "ear_devoted",
+            "directions": 4
+        },
+        {
+            "name": "ear_pointed",
+            "directions": 4
+        },
+        {
+            "name": "ear_raised",
+            "directions": 4
+        },
+        {
+            "name": "ear_simple",
+            "directions": 4
+        },
+        {
+            "name": "ear_sticking",
+            "directions": 4
+        },
+        {
+            "name": "frills_aquatic",
+            "directions": 4
+        },
+        {
+            "name": "frills_axolotl",
+            "directions": 4
+        },
+        {
+            "name": "frills_big",
+            "directions": 4
+        },
+        {
+            "name": "frills_divinity",
+            "directions": 4
+        },
+        {
+            "name": "frills_short",
+            "directions": 4
+        },
+        {
+            "name": "frills_hood_primary",
+            "directions": 4
+        },
+        {
+            "name": "frills_hood_secondary",
+            "directions": 4
+        }
+    ]
+}

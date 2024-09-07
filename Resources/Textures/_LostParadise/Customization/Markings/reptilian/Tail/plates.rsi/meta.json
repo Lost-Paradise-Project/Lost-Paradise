@@ -1,0 +1,43 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "All sprites are developed by Lost Paradise",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+        {
+            "name": "tail_tip_big",
+            "directions": 4
+        },
+        {
+            "name": "tail_tip_small",
+            "directions": 4
+        },
+        {
+            "name": "tail_tip_long",
+            "directions": 4
+        },
+        {
+            "name": "tail_tip_spear",
+            "directions": 4
+        },
+        {
+            "name": "tail_plate_simple",
+            "directions": 4
+        },
+        {
+            "name": "tail_plate_snake",
+            "directions": 4
+        },
+        {
+            "name": "tail_plate_heavy_symetric",
+            "directions": 4
+        },
+        {
+            "name": "tail_plate_heavy_asymetric",
+            "directions": 4
+        }
+    ]
+}
