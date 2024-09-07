@@ -105,7 +105,7 @@
 
 - type: entity
   id: LPPCECommsComputerCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseComputerCircuitboard
   name: chief engineer communications computer board
   description: ent-BaseComputerCircuitboard.desc
   components:
@@ -116,7 +116,7 @@
 
 - type: entity
   id: LPPCapCommsComputerCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseComputerCircuitboard
   name: captain communications computer board
   description: ent-BaseComputerCircuitboard.desc
   components:
@@ -127,7 +127,7 @@
 
 - type: entity
   id: LPPHopCommsComputerCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseComputerCircuitboard
   name: head of personnel communications computer board
   description: ent-BaseComputerCircuitboard.desc
   components:
@@ -138,7 +138,7 @@
 
 - type: entity
   id: LPPHosCommsComputerCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseComputerCircuitboard
   name: head of security communications computer board
   description: ent-BaseComputerCircuitboard.desc
   components:
@@ -149,7 +149,7 @@
 
 - type: entity
   id: LPPRDCommsComputerCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseComputerCircuitboard
   name: research director communications computer board
   description: ent-BaseComputerCircuitboard.desc
   components:
@@ -160,7 +160,7 @@
 
 - type: entity
   id: LPPCmoCommsComputerCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: BaseComputerCircuitboard
   name: chief medical officer communications computer board
   description: ent-BaseComputerCircuitboard.desc
   components:
