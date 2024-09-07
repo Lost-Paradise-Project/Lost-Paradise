@@ -158,3 +158,10 @@ Entries:
   id: 17
   time: '2024-09-06T22:28:13.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/79
+- author: SpicyDarkFox
+  changes:
+    - type: Fix
+      message: Исправлены очередные ошибки
+  id: 18
+  time: '2024-09-06T23:58:16.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/81

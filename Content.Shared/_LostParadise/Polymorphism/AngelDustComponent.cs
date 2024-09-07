@@ -15,10 +15,10 @@ namespace Content.Shared._LostParadise.AngelDust.Components;
 public sealed partial class AngelDustComponent : Component
 {
     [DataField]
-    public EntProtoId TestAction = "LPPAngelDustPolymorph";
+    public EntProtoId TestAction = "";//"LPPAngelDustPolymorph";
 
     [DataField("morph")]
-    public ProtoId<PolymorphPrototype> AngelDustPolymorphId = "LPPAngelDustYukiDeMorph";
+    public ProtoId<PolymorphPrototype> AngelDustPolymorphId = "";//"LPPAngelDustYukiDeMorph";
 
     [DataField]
     public EntityUid? Action;

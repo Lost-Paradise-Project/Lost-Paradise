@@ -6,13 +6,13 @@
     Plastic: 500
     Glass: 300
 
-- type: latheRecipe
-  id: LPPSecHud
-  result: ClothingEyesHudSecurity
-  completetime: 10
-  materials:
-    Plastic: 500
-    Glass: 300
+# - type: latheRecipe
+#   id: LPPSecHud
+#   result: ClothingEyesHudSecurity
+#   completetime: 10
+#   materials:
+#     Plastic: 500
+#     Glass: 300
 
 - type: latheRecipe
   id: LPPRedHudGlasses
