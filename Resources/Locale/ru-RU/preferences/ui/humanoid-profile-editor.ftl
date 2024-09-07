@@ -81,13 +81,13 @@ humanoid-profile-editor-loadouts-show-unusable-button-tooltip =
     Вы все равно не сможете использовать недопустимые атрибуты, пока настройки вашего персонажа не изменятся в соответствии с требованиями.
     Это может быть полезно, если вам нравится переключаться между несколькими работами и вы не хотите каждый раз выбирать своё снаряжение
 humanoid-profile-editor-loadouts-remove-unusable-button =
-    Remove { $count ->
-        [1] { $count } Unusable Loadout
-       *[other] { $count } Unusable Loadouts
+    Убрать { $count ->
+        [1] { $count } Неиспользуемое снаряжение
+       *[other] { $count } Неиспользуемых снаряжений
     }
 humanoid-profile-editor-loadouts-remove-unusable-button-tooltip =
-    If you click this button, all loadouts that your current character setup cannot use will be removed.
-    You will be asked for confirmation before the loadouts are removed.
+    Если вы нажмете на эту кнопку, все атрибуты, которые не могут быть использованы в текущей настройке персонажа, будут удалены.
+    Перед удалением атрибутов вам будет предложено подтвердить их использование.
 humanoid-profile-editor-loadouts-no-loadouts = Не нашлось снаряжений.
 humanoid-profile-editor-job-priority-never-button = Никогда
 humanoid-profile-editor-naming-rules-warning = Внимание: Оскорбительные или странные имена и описания могут повлечь за собой беседу с администрацией. Прочитайте \[Правила\].
