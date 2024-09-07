@@ -140,6 +140,11 @@
     sprite: _LostParadise/Clothing/OuterClothing/Coats/garfield/costume.rsi
   - type: ToggleableClothing
     clothingPrototype: LPPHelmetGarfiled
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
   - type: Food
     requiresSpecialDigestion: true
   - type: SolutionContainerManager

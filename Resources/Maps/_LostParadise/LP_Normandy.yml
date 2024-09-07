@@ -82598,7 +82598,7 @@ entities:
     - type: Transform
       pos: 18.5,-3.5
       parent: 2
-- proto: SpawnPointCourier
+- proto: SpawnPointMailCarrier
   entities:
   - uid: 13001
     components:
@@ -82719,7 +82719,7 @@ entities:
     - type: Transform
       pos: 34.5,5.5
       parent: 2
-- proto: SpawnPointLocationMidRoundAntag
+- proto: SpawnPointPrisoner
   entities:
   - uid: 12328
     components:
