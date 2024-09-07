@@ -29,29 +29,6 @@
     {
         "name": "wood-inhand-right",
         "directions": 4
-    },
-    {
-        "name": "LED-disco-floor-Item-1"
-    },
-    {
-        "name": "LED-disco-floor-Item-2"
-    },
-    {
-        "name": "LED-disco-floor-Item-3"
-    },
-    {
-        "name": "disco-inhand-left",
-        "directions": 4
-    },
-    {
-        "name": "disco-inhand-right",
-        "directions": 4
-    },
-    {
-        "name": "rgb_circuit-4-mix"
-    },
-    {
-        "name": "rgb_circuit-5-mix"
     }
 ]
 }

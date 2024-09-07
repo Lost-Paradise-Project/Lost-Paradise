@@ -9,6 +9,11 @@
   chatMessages: [ coughs ]
   chatTriggers:
     - coughs
+    # Corvax-Localization-Start
+    - кашель
+    - кашляет
+    - кашлянул
+    # Corvax-Localization-End
 
 - type: emote
   id: CatMeow
@@ -36,6 +41,10 @@
   chatMessages: [ yawns ]
   chatTriggers:
     - yawns
+  # Corvax-Localization-Start
+    - зевок
+    - зевает
+  # Corvax-Localization-End
 
 - type: emote
   id: Snore
