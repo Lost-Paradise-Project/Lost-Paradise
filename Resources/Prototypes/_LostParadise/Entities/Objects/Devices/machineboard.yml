@@ -111,7 +111,7 @@
   components:
   - type: Sprite
     state: cpu_command
-  - type: MachineBoard
+  - type: ComputerBoard
     prototype: LPPCEComputerComms
 
 - type: entity
@@ -122,7 +122,7 @@
   components:
    - type: Sprite
      state: cpu_command
-   - type: MachineBoard
+   - type: ComputerBoard
      prototype: LPPCapComputerComms
 
 - type: entity
@@ -133,7 +133,7 @@
   components:
   - type: Sprite
     state: cpu_command
-  - type: MachineBoard
+  - type: ComputerBoard
     prototype: LPPHopComputerComms
 
 - type: entity
@@ -144,7 +144,7 @@
   components:
   - type: Sprite
     state: cpu_command
-  - type: MachineBoard
+  - type: ComputerBoard
     prototype: LPPHosComputerComms
 
 - type: entity
@@ -155,7 +155,7 @@
   components:
   - type: Sprite
     state: cpu_command
-  - type: MachineBoard
+  - type: ComputerBoard
     prototype: LPPRDComputerComms
 
 - type: entity
@@ -166,5 +166,5 @@
   components:
   - type: Sprite
     state: cpu_command
-  - type: MachineBoard
+  - type: ComputerBoard
     prototype: LPPCmoComputerComms
