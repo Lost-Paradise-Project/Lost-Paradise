@@ -18,6 +18,11 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHatHoodScientificCloak
     slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingHeadBase
@@ -68,6 +73,11 @@
   - type: ToggleableClothing
     clothingPrototype: LPParbitermask
     slot: mask
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingNeckBase
@@ -112,8 +122,12 @@
         Radiation: 0.5
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitKiravaHoodsec
-    # requiredSlot:
-    # - neck
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingNeckBase

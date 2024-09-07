@@ -37,9 +37,7 @@
     sprite: _LostParadise/Clothing/Neck/shemags/reddown.rsi
   - type: ToggleableClothing
     clothingPrototype: LPPClothingMaskShemagRed
-    # requiredSlot:
-    # - neck
-    # slot: mask
+    slot: mask
 
 - type: entity
   parent: ClothingMaskBase
@@ -64,9 +62,7 @@
     sprite: _LostParadise/Clothing/Neck/shemags/bluedown.rsi
   - type: ToggleableClothing
     clothingPrototype: LPPClothingMaskShemagBlue
-    # requiredSlot:
-    # - neck
-    # slot: mask
+    slot: mask
 
 - type: entity
   parent: ClothingMaskBase
@@ -91,9 +87,7 @@
     sprite: _LostParadise/Clothing/Neck/shemags/browndown.rsi
   - type: ToggleableClothing
     clothingPrototype: LPPClothingMaskShemagBrown
-    # requiredSlot:
-    # - neck
-    # slot: mask
+    slot: mask
 
 - type: entity
   parent: ClothingMaskBase
@@ -118,9 +112,7 @@
     sprite: _LostParadise/Clothing/Neck/shemags/purpledown.rsi
   - type: ToggleableClothing
     clothingPrototype: LPPClothingMaskShemagPurple
-    # requiredSlot:
-    # - neck
-    # slot: mask
+    slot: mask
 
 - type: entity
   parent: ClothingMaskBase

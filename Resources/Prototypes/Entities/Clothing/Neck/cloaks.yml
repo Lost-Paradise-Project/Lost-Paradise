@@ -154,9 +154,7 @@
     sprite: Clothing/Neck/Cloaks/goliathcloak.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodGoliathCloak
-    # requiredSlot:
-    # - neck
-    # slot: head
+    slot: head
 
 - type: entity
   parent: ClothingNeckBase
