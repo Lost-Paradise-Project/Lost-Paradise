@@ -69,7 +69,7 @@ tilemap:
   36: LPPKitchenHerringbone
   59: LPPKitchenHerringboneS
   68: LPPKitchenSmall
-  15: FloorWood
+  15: LPPWoodLarge
   180: Lattice
   181: Plating
   37: PlatingAsteroid

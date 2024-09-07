@@ -44,6 +44,19 @@
       types:
         Blunt: 5
 
+- type: entity
+  id: LPPFloorTileItemWoodLarge
+  parent: FloorTileItemSteel
+  name: steel dark checker tile
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Tiles/tiles.rsi
+    state: wood
+  - type: FloorTile
+    outputs:
+      - Plating
+      - LPPWoodLarge
+
 #------------------------------------------------------#
 #---------dark----dark----dark----dark----dark---------#
 #------------------------------------------------------#
