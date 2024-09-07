@@ -46,8 +46,6 @@
       - !type:PlaySoundBehavior
         sound:
           path: /Audio/Effects/metal_break1.ogg
-  - type: StaticPrice
-    price: 10
 #_________________________________________
 #                 Bench
 #                Скамейка

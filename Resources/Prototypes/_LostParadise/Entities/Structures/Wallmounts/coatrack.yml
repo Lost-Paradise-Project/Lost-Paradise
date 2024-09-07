@@ -22,6 +22,10 @@
       whitelist:
        tags:
        - CoatRack
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+          ents: []
     - type: StorageContainerVisuals
       maxFillLevels: 3
       fillBaseName: fill-

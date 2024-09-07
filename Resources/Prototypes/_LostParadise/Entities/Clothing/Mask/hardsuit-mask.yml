@@ -20,6 +20,9 @@
         Heat: 0.95
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHunter
-    requiredSlot:
-    - mask
     slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []

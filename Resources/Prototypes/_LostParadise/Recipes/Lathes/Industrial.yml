@@ -1,10 +1,10 @@
-- type: latheRecipe
-  id: LPPMedHud
-  result: ClothingEyesHudMedical
-  completetime: 10
-  materials:
-    Plastic: 500
-    Glass: 300
+# - type: latheRecipe
+#   id: LPPMedHud
+#   result: ClothingEyesHudMedical
+#   completetime: 10
+#   materials:
+#     Plastic: 500
+#     Glass: 300
 
 # - type: latheRecipe
 #   id: LPPSecHud
