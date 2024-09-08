@@ -15,5 +15,4 @@ jobs:
         uses: ike709/actions-label-merge-conflict@9eefdd17e10566023c46d2dc6dc04fcb8ec76142
         with:
           dirtyLabel: "Статус: Конфликт"
-          repoToken: "${{ secrets.BOT_TOKEN }}"
           commentOnDirty: "В этом ПР'е есть конфликты, пожалуйста, устраните их, прежде чем мы сможем оценить ваш ПР."
