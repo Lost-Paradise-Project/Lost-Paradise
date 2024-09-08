@@ -1,4 +1,4 @@
-﻿#if LPP_Sponsors
+//#if LPP_Sponsors
 using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
@@ -44,4 +44,4 @@ namespace Content.Server.Database.Migrations.Postgres
         }
     }
 }
-#endif
+//#endif
