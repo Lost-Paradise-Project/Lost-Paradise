@@ -59,6 +59,7 @@
             MailCarrier: [ 1, 2 ]
             SalvageSpecialist: [ 4, 4 ]
             # Civilian
+            Passenger: [ -1, -1 ]
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 3 ]
