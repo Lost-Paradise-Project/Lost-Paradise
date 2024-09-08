@@ -303,8 +303,8 @@
   params:
     variation: 0.05
   sounds:
-    Beep:
-      path: /Audio/Machines/twobeep.ogg
+    # Beep:
+    #   path: /Audio/Machines/twobeep.ogg
     Chime:
       path: /Audio/Machines/chime.ogg
     Buzz:
@@ -447,8 +447,8 @@
       path: /Audio/Effects/tesla_consume.ogg
       params:
         variation: 0.125
-    Beep:      # normal
-      path: /Audio/Voice/IPC/beep_2000.ogg
+    # Beep:      # normal
+    #   path: /Audio/Voice/IPC/beep_2000.ogg
     Boop:
       path: /Audio/Voice/IPC/beep_500.ogg
     Buzz:

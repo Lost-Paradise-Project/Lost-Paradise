@@ -1,0 +1,36 @@
+
+    # - type: UserInterface
+    # interfaces:
+    # - key: enum.StorageUiKey.Key
+      # type: StorageBoundUserInterface
+    # - key: enum.VoiceMaskUIKey.Key
+      # type: VoiceMaskBoundUserInterface
+    # - key: enum.HumanoidMarkingModifierKey.Key
+      # type: HumanoidMarkingModifierBoundUserInterface
+    # - key: enum.StrippingUiKey.Key
+      # type: StrippableBoundUserInterface
+      
+      
+- type: polymorph
+  id: LPPAngelDustSwitcherToGhostYuki
+  configuration:
+    entity: LPPAngelDustYukiGhost
+    transferName: true
+    transferHumanoidAppearance: true
+    inventory: Transfer
+    #inventory: None
+    transferDamage: false
+    revertOnDeath: true
+    revertOnCrit: true
+
+- type: polymorph
+  id: LPPAngelDustSwitcherToPersonYuki
+  configuration:
+    entity: LPPAngelDustYuki
+    transferName: true
+    transferHumanoidAppearance: true
+    inventory: Transfer
+    #inventory: None
+    transferDamage: false
+    revertOnDeath: true
+    revertOnCrit: true

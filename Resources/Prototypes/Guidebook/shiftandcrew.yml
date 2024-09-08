@@ -13,6 +13,7 @@
   - Cargo
   - Salvage
   - Medical
+  - Justice  # DeltaV additions
 
 - type: guideEntry
   id: Survival

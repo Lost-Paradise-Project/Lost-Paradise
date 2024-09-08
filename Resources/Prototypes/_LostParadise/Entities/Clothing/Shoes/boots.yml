@@ -72,10 +72,6 @@
     sprite: _LostParadise/Clothing/Shoes/Boots/pg-boots.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Shoes/Boots/pg-boots.rsi
-  - type: Storage
-    whitelist:
-      tags:
-        - Knife
 
 - type: entity
   parent: ClothingShoesBaseButcherable

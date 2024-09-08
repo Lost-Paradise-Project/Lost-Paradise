@@ -94357,7 +94357,6 @@ entities:
   - uid: 11215
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
       pos: -24.5,45.5
       parent: 2
   - uid: 13643

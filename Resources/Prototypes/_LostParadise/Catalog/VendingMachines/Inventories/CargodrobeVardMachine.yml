@@ -2,15 +2,8 @@
   id: CargodrobeVardVendingMachineServitorInventory
   startingInventory:
     LPPCargoBlackSkirt: 3
-    LPPCargoCargotechjean: 3
     LPPGorkaCargo: 3
     LPPGorkaCargoVarg: 3
-    LPPQmc: 3
-    LPPSkirtleneck: 3
-    LPPSkirtleneckQM: 3
-    LPPSupplyChief: 3
-    LPPSupplyChiefSkirt: 3
-    LPPTurtleneckQm: 3
     LPPUtilCargo: 3
 
   emaggedInventory:

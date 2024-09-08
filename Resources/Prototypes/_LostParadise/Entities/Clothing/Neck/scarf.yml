@@ -20,9 +20,9 @@
     sprite: _LostParadise/Clothing/Neck/Scarfs/pg-scarf.rsi
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHatHoodPGShemag
-    requiredSlot:
-    - neck
+    slot: head
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:ContainerSlot {}
-
+      storagebase: !type:Container
+        ents: []

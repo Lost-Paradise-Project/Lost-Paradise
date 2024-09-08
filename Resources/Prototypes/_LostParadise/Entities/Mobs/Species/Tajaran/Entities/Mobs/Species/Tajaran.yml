@@ -57,16 +57,14 @@
     - type: Inventory
       speciesId: tajaran
     # - type: EmotePanel
-      race: Tajar
+      # race: Tajar
     - type: LanguageKnowledge
       speaks:
       - GalacticCommon
-      - SikTaj
-      - CintaTaj
+      - LPPSikTaj
       understands:
       - GalacticCommon
-      - SikTaj
-      - CintaTaj
+      - LPPSikTaj
 
 - type: entity
   save: false

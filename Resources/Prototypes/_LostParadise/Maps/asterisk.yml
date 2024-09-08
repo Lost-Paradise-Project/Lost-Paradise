@@ -29,7 +29,7 @@
             Botanist: [ 2, 3 ]
             Chef: [ 1, 2 ]
             Clown: [ 1, 1 ]
-            Lawyer: [ 1, 1 ]
+            Lawyer: [ 2, 2 ]
             Reporter: [ 1, 1 ]
             Musician: [ 1, 1 ]
             Janitor: [ 1, 2 ]
@@ -68,8 +68,9 @@
           #civilian
             Passenger: [ -1, -1 ]
           #justice
-            Prosecutor: [1, 1]
-            Clerk: [1, 1]
+            Prosecutor: [ 1, 1 ]
+            Clerk: [ 1, 1 ]
+            ChiefJustice: [ 1, 1 ]
           #LOST PARADISE
             LPPBlueShieldOfficer: [ 1, 1 ]
             LPPAdjutant: [ 1, 1 ]

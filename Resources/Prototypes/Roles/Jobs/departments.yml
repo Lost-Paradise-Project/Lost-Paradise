@@ -33,6 +33,7 @@
   - Zookeeper
   - ServiceWorker
   - MartialArtist # Nyanotrasen - MartialArtist, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/martialartist.yml
+  - Prisoner # Nyanotrasen - Prisoner, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/prisoner.yml
   - Gladiator # Nyanotrasen - Gladiator, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Wildcards/gladiator.yml
 
 - type: department
@@ -89,9 +90,9 @@
   - SeniorOfficer
   - Detective
   - Warden
+  - LPPSecurityEnginer
   - PrisonGuard # Nyanotrasen - PrisonGuard, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Security/prisonguard.yml
-  - Brigmedic # Lost Paradise - Move Brigmedic to Security
-  - Prisoner # Lost Paradise - Move Prisoner to Security
+  - Brigmedic # DeltaV - Brigmedic, see Resources/Prototypes/DeltaV/Roles/Jobs/Security/brigmedic.yml
 
 - type: department
   id: Epistemics # DeltaV - Epistemics Department replacing Science
@@ -104,6 +105,7 @@
   - ResearchAssistant
   # - Chaplain # Lost Paradise - move to Service
   - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
+  - Roboticist
 
 # - type: department
   # id: Specific
