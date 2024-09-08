@@ -15,5 +15,6 @@
     Fulton: 2
 #LPP
     WeaponCrusherDagger: 2
-  emaggedInventory:
+  contrabandInventory:
+    LPPWeaponSyndieGlaive: 1
     ClothingBackpackDuffelSyndicate: 1
