@@ -12,33 +12,7 @@
       "name": "icon"
     },
     {
-      "name": "icon-unshaded"
-    },
-    {
       "name": "icon-flash"
-    },
-    {
-      "name": "light-overlay"
-    },
-    {
-      "name": "equipped-HELMET",
-      "directions": 4
-    },
-    {
-      "name": "equipped-HELMET-vulpkanin",
-      "directions": 4
-    },
-    {
-      "name": "equipped-HELMET-tajaran",
-      "directions": 4
-    },
-    {
-      "name": "equipped-HELMET-shark",
-      "directions": 4
-    },
-    {
-      "name": "equipped-HELMET-reptilian",
-      "directions": 4
     },
     {
       "name": "off-equipped-HELMET",
@@ -78,14 +52,6 @@
     },
     {
       "name": "on-equipped-HELMET-reptilian",
-      "directions": 4
-    },
-    {
-      "name": "equipped-HELMET-light",
-      "directions": 4
-    },
-    {
-      "name": "equipped-HELMET-unshaded",
       "directions": 4
     }
   ]

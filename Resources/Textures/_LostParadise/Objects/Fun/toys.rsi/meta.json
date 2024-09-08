@@ -238,6 +238,22 @@
     {
       "name": "pebbles-inhand-right",
       "directions": 4
+    },
+    {
+      "name": "amina-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "amina-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "crab-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "crab-inhand-right",
+      "directions": 4
     }
   ]
 }

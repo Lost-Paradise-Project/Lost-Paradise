@@ -47,3 +47,12 @@
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Back/Satchels/expeditor.rsi
+
+- type: entity
+  parent: LPPClothingBackpackSatchelBlueshield
+  id: LPPClothingBackpackSatchelBlueshieldFilled
+  components:
+  - type: StorageFill
+    contents:
+    - id: Flash
+    - id: LPPClothingOuterHardsuitBlueshield
