@@ -195,3 +195,10 @@ Entries:
   id: 22
   time: '2024-09-08T17:38:07.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/100
+- author: SpicyDarkFox
+  changes:
+    - type: Fix
+      message: Исправлен недочет в ДБ
+  id: 23
+  time: '2024-09-08T18:48:58.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/104
