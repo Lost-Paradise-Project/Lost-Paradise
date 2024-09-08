@@ -1742,14 +1742,3 @@
     Telecrystal: 2
   categories:
     - UplinkArmor
-
-- type: listing
-  id: LPPUplinkAcientHardsuit
-  name: древний скафандр синдиката
-  description: Странный скафандр, по характеристикам что-то среднее между элитным и скафандром джаггернаута. Шлем имеет боевой и EVA режмиы!
-  icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi, state: icon }
-  productEntity: LPPClothingOuterHardsuitAcientSyndie
-  cost:
-    Telecrystal: 9
-  categories:
-    - UplinkArmor
