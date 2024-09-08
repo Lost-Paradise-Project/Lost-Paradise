@@ -11,8 +11,6 @@ jobs:
     - uses: actions-ecosystem/action-add-labels@v1
       with:
         labels: "Статус: Требуется одобрение"
-        repo-token: "${{ secrets.BOT_TOKEN }}"
     - uses: actions-ecosystem/action-remove-labels@v1
       with:
         labels: "Статус: Ожидание изменений"
-        repo-token: "${{ secrets.BOT_TOKEN }}"

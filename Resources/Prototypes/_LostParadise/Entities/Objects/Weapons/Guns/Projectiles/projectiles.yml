@@ -128,7 +128,7 @@
   # Короткий срок пули
   - type: TimedDespawn
     lifetime: 0.2
-#
+
 # - type: entity
 #   name : Cutter bolt
 #   id: BulletCutter2
@@ -161,22 +161,22 @@
 #         - Impassable
 #         - BulletImpassable
 #       fly-by: *flybyfixture
-  # - type: Ammo
-  # - type: StaminaDamageOnCollide
-  #   damage: 13
-  # - type: Projectile
-  #   impactEffect: BulletImpactEffectDisabler
-  #   # deleteOnCollide: false
-  #   damage:
-  #     types:
-  #       Heat: 5
-  #       Slash: 8
-    # soundHit:
-    #   path: "/Audio/_LostParadise/Weapons/Guns/Gunshots/ion_hit_1.ogg"
-  # - type: TimedDespawn
-  #   lifetime: 0.4
-  # - type: GatheringProjectile
-#
+#   - type: Ammo
+#   - type: StaminaDamageOnCollide
+#     damage: 13
+#   - type: Projectile
+#     impactEffect: BulletImpactEffectDisabler
+#     # deleteOnCollide: false
+#     damage:
+#       types:
+#         Heat: 5
+#         Slash: 8
+#     soundHit:
+#       path: "/Audio/_LostParadise/Weapons/Guns/Gunshots/ion_hit_1.ogg"
+#   - type: TimedDespawn
+#     lifetime: 0.4
+#   - type: GatheringProjectile
+
 # - type: entity
 #   name : battlecutter1
 #   id: battlecuttershot
@@ -190,11 +190,11 @@
 #     sound:
 #       collection: EnergyMiss
 #       params:
-#         volume: 5
+#         volume: 6
 #   - type: Sprite
 #     sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/battlecutter.rsi
 #     layers:
-#     - state: ion
+#     - state: omnilaser
 #       shader: unshaded
 #   - type: Physics
 #   - type: Fixtures
@@ -215,3 +215,7 @@
 #       types:
 #         Blunt: 5
 #         Slash: 10
+#     soundHit:
+#       collection: WeakHit
+#   - type: IgniteOnCollide
+#     fireStacks: 0.2

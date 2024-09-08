@@ -1,4 +1,13 @@
 - type: entity
+  parent: LPPClothingBackpackBlueshield
+  id: LPPClothingBackpackBlueshieldFilled
+  components:
+  - type: StorageFill
+    contents:
+    - id: Flash
+    - id: LPPClothingOuterHardsuitBlueshield
+
+- type: entity
   parent: ClothingBackpackERTLeader
   id: LPPClothingBackpackIIC
   name: IIC Backpack 'Delta'

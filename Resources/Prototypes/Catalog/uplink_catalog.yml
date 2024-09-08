@@ -1736,9 +1736,31 @@
   id: LPPUplinkhelmetswat
   name: шлем спецназа синдиката
   description: Крепкий шлем, что защитит вашу голову от ненужных свинцовых, а так же лазерных выстрелов.
-  icon: { sprite: Clothing/Head/Helmets/swat_syndicate.rsi, state: icon }
+  icon: { sprite: /Textures/Clothing/Head/Helmets/swat_syndicate.rsi, state: icon }
   productEntity: ClothingHeadHelmetSwatSyndicate
   cost:
     Telecrystal: 2
   categories:
     - UplinkArmor
+
+- type: listing
+  id: LPPUplinkGlaive
+  name: Кроваво красная глефа
+  description: Модифицированная версия глефы, усовершенствованная каким-то больным утилизатором...
+  icon: { sprite: /Textures/_LostParadise/Objects/Weapons/Melee/syndie_glaive.rsi, state: icon }
+  productEntity: LPPWeaponSyndieGlaive
+  cost:
+    Telecrystal: 8
+  categories:
+  - UplinkWeapons
+
+- type: listing
+  id: LPPUplinkAcientHardsuitSyndie
+  name: древний скафандр Синдиката
+  description: Очень странная модель скафандра Ядерных Оперативников, явно нестандартной конфигурации
+  icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi, state: icon }
+  productEntity: LPPClothingOuterHardsuitAcientSyndie
+  cost:
+    Telecrystal: 11
+  categories:
+  - UplinkArmor

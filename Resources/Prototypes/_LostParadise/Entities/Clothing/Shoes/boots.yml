@@ -88,7 +88,7 @@
   parent: ClothingShoesMilitaryBase
   id: LPPClothingShoesBootsNPZ
   name: Сапоги НПЗ
-  description: Нет, вы не перепутали обувь цветами, это такой стиль.
+  description: Крепкие берцы для любой труднопроходимой местности.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Shoes/Boots/upgjackboots.rsi

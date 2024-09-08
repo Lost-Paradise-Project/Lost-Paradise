@@ -8,6 +8,15 @@
     sprite: _LostParadise/Clothing/Back/Duffels/hop.rsi
 
 - type: entity
+  parent: LPPClothingBackpackDuffelBlueshield
+  id: LPPClothingBackpackDuffelBlueshieldFilled
+  components:
+  - type: StorageFill
+    contents:
+    - id: Flash
+    - id: LPPClothingOuterHardsuitBlueshield
+
+- type: entity
   parent: ClothingBackpackDuffel
   id: LPPClothingBackpackDuffelSecurityEngineer
   name: hop duffel bag
