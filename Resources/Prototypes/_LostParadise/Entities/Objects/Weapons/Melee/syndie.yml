@@ -1,0 +1,64 @@
+- type: entity
+  parent: WeaponCrusher
+  id: LPPWeaponSyndieGlaive
+  name: Кроваво-красная глефа
+  description: Модифицированная версия глефы, усовершенствованная каким-то больным утилизатором...
+  components:
+  - type: Tag
+    tags:
+      - Pickaxe
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Melee/syndie_glaive.rsi
+    state: icon
+  - type: AmmoCounter
+  - type: UseDelayOnShoot
+  - type: UseDelay
+    delay: 0.9
+  - type: LeechOnMarker
+    leech:
+      groups:
+        Brute: -10
+  - type: Gun
+    soundGunshot: /Audio/Weapons/plasma_cutter.ogg
+    fireRate: 1.0
+    useKey: false
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 0.5
+    rechargeSound:
+      path: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
+  - type: BasicEntityAmmoProvider
+    proto: LPPBulletCharge
+    capacity: 1
+    count: 1
+  - type: MeleeWeapon
+    attackRate: 1.2
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Blunt: 4.5
+        Slash: 4.5
+        Radiation: 2.5
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 7.5
+        Slash: 7.5
+        Radiation: 2.5
+        Structural: 75
+  - type: GunRequiresWield
+  - type: Item
+    size: Huge
+  - type: DisarmMalus
+  - type: Tool
+    qualities:
+      - Prying
+    speed: 3
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
+  - type: Prying
+    speed: 3
+    pryPowered: true

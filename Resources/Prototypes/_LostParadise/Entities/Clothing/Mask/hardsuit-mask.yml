@@ -1,5 +1,32 @@
 - type: entity
   parent: ClothingMaskBase
+  id: LPPClothingMaskAcientSyndie
+  noSpawn: true
+  name: шлем древнего скафандра Синдиката (боевой режим)
+  description: Шлем от странного скафандра Синдиката, он в боевом режиме.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/acienthelmsyndiebattle.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/acienthelmsyndiebattle.rsi
+    equipSound: /Audio/Mecha/mechmove03.ogg
+    unequipSound: /Audio/Mecha/mechmove03.ogg
+  - type: FlashImmunity
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetAcientSyndieEVA
+    requiredSlot:
+    - mask
+    slot: head
+
+- type: entity
+  parent: ClothingMaskBase
   id: LPPClothingMaskHunter
   noSpawn: true
   name: шлем скафандра охотника (походный)
@@ -20,9 +47,6 @@
         Heat: 0.95
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHunter
+    requiredSlot:
+    - mask
     slot: head
-  - type: ContainerContainer
-    containers:
-      toggleable-clothing: !type:ContainerSlot {}
-      storagebase: !type:Container
-        ents: []
