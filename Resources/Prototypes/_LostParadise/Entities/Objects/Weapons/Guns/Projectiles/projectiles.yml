@@ -210,6 +210,7 @@
       fly-by: *flybyfixture
   - type: Ammo
   - type: Projectile
+    impactEffect: BulletImpactEffectDisabler
     damage:
       types:
         Blunt: 5

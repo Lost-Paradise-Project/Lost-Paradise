@@ -17,15 +17,14 @@
     angleDecay: 45
     minAngle: 44
     maxAngle: 45
-    useKey: false
-  - type: GunWieldBonus
-    minAngle: -43
-    maxAngle: -43
     availableModes:
     - SemiAuto
     soundGunshot:
       path: /Audio/_LostParadise/Weapons/Guns/Gunshots/latogunshot.ogg
     useKey: false
+  - type: GunWieldBonus
+    minAngle: -43
+    maxAngle: -43
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 2.5
     rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg

@@ -7,7 +7,7 @@ ent-GrenadeFlashBang = светошумовая граната
 ent-GrenadeFlashEffect = { "" }
     .desc = { "" }
 # Corvax-HiddenDesc-Start
-ent-SyndieMiniBomb = минибомба с таймером
+ent-SyndieMiniBomb = Минибомба Синдиката
     .suffix = Синдикат
     .desc = Аккуратное, стильное взрывное устройство с приятно-потрескивающим таймером, предназначенное сеять хаос и разрушение.
 ent-SelfDestructSeq = Самоуничтожение

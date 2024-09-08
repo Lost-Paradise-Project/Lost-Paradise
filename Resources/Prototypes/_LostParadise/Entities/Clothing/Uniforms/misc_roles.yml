@@ -10,12 +10,12 @@
     sprite: _LostParadise/Clothing/Uniforms/WTF/arbiterclothing.rsi
   - type: ToggleableClothing
     clothingPrototype: LPParbitercloak
-    requiredSlot:
-    - innerclothing
     slot: neck
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingUniformBase

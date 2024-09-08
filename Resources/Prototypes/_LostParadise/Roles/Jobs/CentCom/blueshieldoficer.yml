@@ -31,6 +31,8 @@
   equipment:
     jumpsuit: LPPClothingUniformJumpsuitBlueshield
     head: LPPClothingHeadHatBeretBlueshield
+    back: LPPClothingBackpackBlueshieldFilled
+    shoes: ClothingShoesBootsCombatFilled
     eyes: LPPBlueHudGlasses
     gloves: ClothingHandsGlovesCombat
     outerClothing: LPPClothingOuterArmorBlueshield
@@ -43,6 +45,8 @@
     underwear: LPPBoxer
   underwear: LPPBriefs
   breast: LPPBraAltWhite
+  satchel: LPPClothingBackpackSatchelBlueshieldFilled
+  duffelbag: LPPClothingBackpackDuffelBlueshieldFilled
   storage:
     back:
     - Flash

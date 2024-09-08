@@ -1,8 +1,8 @@
 - type: reagent
   id: LPPAphrodisiac
-  name: Афродизиак
-  desc: Концентрированный препарат прямиком из Ада, повышающий либидо любого, кто его примет.
-  physicalDesc: ароматное
+  name: reagent-name-LPPAphrodisiac
+  desc: reagent-desc-LPPAphrodisiac
+  physicalDesc: reagent-physdesc-LPPAphrodisiac
   group: Narcotics
   color: "#FF1493"
   metabolisms:
@@ -92,9 +92,9 @@
 
 - type: reagent
   id: LPPAphrodisiacReduced
-  name: Разбавленный афродизиак
-  desc: Ослабленный препарат, повышающий либидо любого, кто его примет.
-  physicalDesc: ароматное
+  name: reagent-name-LPPAphrodisiacReduced
+  desc: reagent-desc-LPPAphrodisiacReduced
+  physicalDesc: reagent-physdesc-LPPAphrodisiacReduced
   group: Narcotics
   color: "#F50ACE"
   metabolisms:

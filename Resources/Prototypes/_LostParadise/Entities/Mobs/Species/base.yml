@@ -5,7 +5,7 @@
   id: LPPBaseMob
   abstract: true
   components:
-  - type: CanBeBorgNTEnemy
+  # - type: CanBeBorgNTEnemy
   - type: Sprite
     noRot: true
     drawdepth: Mobs
@@ -45,7 +45,7 @@
   - type: Polymorphable
   - type: StatusIcon
   - type: TTS # Corvax-TTS
-  - type: ShortExamine
+  # - type: ShortExamine
   - type: RequireProjectileTarget
     active: False
   - type: LanguageKnowledge

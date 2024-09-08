@@ -15,13 +15,12 @@ from typing import Any, Iterable
 GITHUB_API_URL    = os.environ.get("GITHUB_API_URL", "https://api.github.com")
 GITHUB_REPOSITORY = os.environ["GITHUB_REPOSITORY"]
 GITHUB_RUN        = os.environ["GITHUB_RUN_ID"]
-BOT_TOKEN         = os.environ["BOT_TOKEN"]
+GITHUB_TOKEN      = os.environ["GITHUB_TOKEN"]
+CHANGELOG_DIR     = os.environ["CHANGELOG_DIR"]
+CHANGELOG_WEBHOOK = os.environ["CHANGELOG_WEBHOOK"]
 
 # https://discord.com/developers/docs/resources/webhook
 DISCORD_SPLIT_LIMIT = 2000
-CHANGELOG_DISCORD_WEBHOOK = os.environ.get("CHANGELOG_DISCORD_WEBHOOK")
-
-CHANGELOG_FILE = "Resources/Changelog/ChangelogLPP.yml"
 
 TYPES_TO_EMOJI = {
     "Fix":    "🐛",
@@ -33,11 +32,11 @@ TYPES_TO_EMOJI = {
 ChangelogEntry = dict[str, Any]
 
 def main():
-    if not CHANGELOG_DISCORD_WEBHOOK:
+    if not CHANGELOG_WEBHOOK:
         return
 
     session = requests.Session()
-    session.headers["Authorization"]        = f"Bearer {BOT_TOKEN}"
+    session.headers["Authorization"]        = f"Bearer {GITHUB_TOKEN}"
     session.headers["Accept"]               = "Accept: application/vnd.github+json"
     session.headers["X-GitHub-Api-Version"] = "2022-11-28"
 
@@ -45,7 +44,7 @@ def main():
     last_sha = most_recent['head_commit']['id']
     print(f"Last successful publish job was {most_recent['id']}: {last_sha}")
     last_changelog = yaml.safe_load(get_last_changelog(session, last_sha))
-    with open(CHANGELOG_FILE, "r") as f:
+    with open(CHANGELOG_DIR, "r") as f:
         cur_changelog = yaml.safe_load(f)
 
     diff = diff_changelog(last_changelog, cur_changelog)
@@ -93,7 +92,7 @@ def get_last_changelog(sess: requests.Session, sha: str) -> str:
         "Accept": "application/vnd.github.raw"
     }
 
-    resp = sess.get(f"{GITHUB_API_URL}/repos/{GITHUB_REPOSITORY}/contents/{CHANGELOG_FILE}", headers=headers, params=params)
+    resp = sess.get(f"{GITHUB_API_URL}/repos/{GITHUB_REPOSITORY}/contents/{CHANGELOG_DIR}", headers=headers, params=params)
     resp.raise_for_status()
     return resp.text
 
@@ -121,12 +120,12 @@ def get_discord_body(content: str):
 def send_discord(content: str):
     body = get_discord_body(content)
 
-    response = requests.post(CHANGELOG_DISCORD_WEBHOOK, json=body)
+    response = requests.post(CHANGELOG_WEBHOOK, json=body)
     response.raise_for_status()
 
 
 def send_to_discord(entries: Iterable[ChangelogEntry]) -> None:
-    if not CHANGELOG_DISCORD_WEBHOOK:
+    if not CHANGELOG_WEBHOOK:
         print(f"No discord webhook URL found, skipping discord send")
         return
 

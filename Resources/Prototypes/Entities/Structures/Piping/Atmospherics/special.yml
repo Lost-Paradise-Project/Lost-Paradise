@@ -22,6 +22,9 @@
   - type: Airtight
     noAirWhenFullyAirBlocked: false
   - type: Clickable
+  - type: Construction
+    graph: AtmosDeviceFanTiny
+    node: AtmosDeviceFanTiny
   - type: Tag
     tags:
       - SpreaderIgnore

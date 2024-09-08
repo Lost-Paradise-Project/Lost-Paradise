@@ -45,9 +45,15 @@
 - type: startingGear
   id: AdjutantGear
   equipment:
+    jumpsuit: ClothingUniformJumpsuitAdjutant
+    back: ClothingBackpackHOPFilled
+    shoes: ClothingShoesColorBlack
     id: LPPAdjutantPDA
     ears: ClothingHeadsetCommand
-    socks: LPPClothingUnderSocksNorm
-    underwear: LPPBoxer
-  underwear: LPPBriefs
-  breast: LPPBraAltWhite
+    socks: LPPClothingUnderSocksNormBlue
+    underwear: LPPBoxerBlue
+  underwear: LPPBriefsBlue
+  breast: LPPBraAltBlue
+  innerClothingSkirt: ClothingUniformJumpskirtAdjutant
+  satchel: ClothingBackpackSatchelHOPFilled
+  duffelbag: ClothingBackpackDuffelHOPFilled

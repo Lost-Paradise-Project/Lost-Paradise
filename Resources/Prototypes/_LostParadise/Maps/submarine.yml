@@ -52,7 +52,7 @@
             Clown: [ 1, 2 ]
             HeadOfPersonnel: [ 1, 1 ]
             Janitor: [ 2, 3 ]
-            Lawyer: [ 2, 2 ]
+            Lawyer: [ 2, 3 ]
             MartialArtist: [ 2, 2 ]
             Mime: [ 1, 2 ]
             Musician: [ 2, 2 ]
@@ -74,6 +74,7 @@
           #justice
             Prosecutor: [ 1, 1 ]
             Clerk: [ 1, 1 ]
+            ChiefJustice: [ 1, 1 ]
           #LOST PARADISE
             LPPBlueShieldOfficer: [ 1, 1 ]
             LPPAdjutant: [ 1, 1 ]

@@ -20,6 +20,9 @@
     - type: Physics
       bodyType: Static
       canCollide: false
+    - type: Construction
+      graph: FloorDrain
+      node: FloorDrain
     - type: AmbientSound
       enabled: false
       volume: -8

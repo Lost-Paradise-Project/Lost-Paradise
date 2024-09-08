@@ -1,0 +1,23 @@
+- type: polymorph
+  id: LPPAngelDustYukiMorph
+  configuration:
+    entity: LPPAngelDustYukiGhost
+    transferName: true
+    # transferHumanoidAppearance: true
+    inventory: Transfer
+    #inventory: None
+    transferDamage: false
+    revertOnDeath: true
+    revertOnCrit: true
+
+- type: polymorph
+  id: LPPAngelDustYukiDeMorph
+  configuration:
+    entity: LPPAngelDustYuki
+    transferName: true
+    # transferHumanoidAppearance: true
+    inventory: Transfer
+    #inventory: None
+    transferDamage: false
+    revertOnDeath: true
+    revertOnCrit: true
