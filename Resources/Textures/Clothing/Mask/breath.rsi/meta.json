@@ -93,6 +93,14 @@
     {
       "name": "equipped-MASK-kangaroo",
       "directions": 4
+    },
+    {
+      "name": "equipped-MASK-secdog",
+      "directions": 4
+    },
+    {
+      "name": "up-equipped-MASK-vulpkanin",
+      "directions": 4
     }
   ]
 }
