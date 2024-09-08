@@ -202,3 +202,10 @@ Entries:
   id: 23
   time: '2024-09-08T18:48:58.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/104
+- author: Evgencheg
+  changes:
+    - type: Fix
+      message: Исправлена база данных!
+  id: 24
+  time: '2024-09-08T19:52:17.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/107
