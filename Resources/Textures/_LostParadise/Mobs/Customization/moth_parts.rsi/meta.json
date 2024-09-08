@@ -26,6 +26,18 @@
     {
       "name": "antenna_default",
       "directions": 4
+    },
+    {
+      "name": "moth_markings",
+      "directions": 4
+    },
+    {
+      "name": "moth_antenna",
+      "directions": 4
+    },
+    {
+      "name": "moth_wings",
+      "directions": 4
     }
   ]
 }
