@@ -2250,12 +2250,6 @@ namespace Content.Shared.CCVar
             CVarDef.Create("worldgen.worldgen_config", "Default", CVar.SERVERONLY);
 
         /// <summary>
-        ///     The amount of time between NPC Silicons draining their battery in seconds. - Estacao Pirata
-        /// </summary>
-        public static readonly CVarDef<float> SiliconNpcUpdateTime =
-            CVarDef.Create("silicon.npcupdatetime", 1.5f, CVar.SERVERONLY);
-
-        /// <summary>
         ///     The maximum amount of time the entity GC can process, in ms.
         /// </summary>
         public static readonly CVarDef<int> GCMaximumTimeMs =

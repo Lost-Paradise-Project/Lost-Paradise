@@ -22,6 +22,7 @@ mood-effect-MobHighPressure = У меня такое чувство, будто 
 mood-effect-TraitSaturnine = Все как-то отстойно. Ненавижу эту работу.
 mood-effect-Dead = Ты мертв.
 mood-effect-BeingHugged = Объятия — это приятно.
+mood-effect-BeingPet = Кто-то погладил меня!
 mood-effect-ArcadePlay = Мне было весело играть в интересную аркадную игру.
 mood-effect-GotBlessed = Я был благословлен.
 mood-effect-PetAnimal = Животные такие милые, я не могу перестать их гладить!
