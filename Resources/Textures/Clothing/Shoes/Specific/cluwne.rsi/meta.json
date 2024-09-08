@@ -13,10 +13,6 @@
     {
       "name": "equipped-FEET",
       "directions": 4
-    },
-    {
-      "name": "equipped-FEET-reptilian",
-      "directions": 4
     }
   ]
 }

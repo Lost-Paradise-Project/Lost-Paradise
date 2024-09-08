@@ -50,6 +50,5 @@
     ClothingHeadBandSkull: 1
     LPPClothingHeadSecHat: 2
     LPPClothingBalaclavawide: 4
-  ContrabandInventory:
-    ClothingMaskClownSecurity: 1
+  contrabandInventory:
     LPPClothingMaskKinkyMuzzle: 1
