@@ -40,9 +40,9 @@ namespace Content.Server.Database
         public DbSet<AdminNote> AdminNotes { get; set; } = null!;
         public DbSet<AdminWatchlist> AdminWatchlists { get; set; } = null!;
         public DbSet<AdminMessage> AdminMessages { get; set; } = null!;
-#if LPP_Sponsors  // _LostParadise-Sponsors
+//#if LPP_Sponsors  // _LostParadise-Sponsors
         public DbSet<Sponsor> Sponsors { get; set; } = null!;
-#endif
+//#endif
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -65,7 +65,7 @@ namespace Content.Server.Database
             modelBuilder.Entity<Loadout>()
                 .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.LoadoutName})
                 .IsUnique();
-#if LPP_Sponsors
+//#if LPP_Sponsors
             modelBuilder.Entity<Sponsor>()          // _LostParadise-Sponsors
                 .HasIndex(p => p.UserId)
                 .IsUnique();
@@ -73,7 +73,7 @@ namespace Content.Server.Database
             modelBuilder.Entity<Donate>()
                 .HasIndex(p => new { HumanoidProfileId = p.ProfileId, p.DonateName })
                 .IsUnique();
-#endif
+//#endif
 
             modelBuilder.Entity<Job>()
                 .HasIndex(j => j.ProfileId);
@@ -410,7 +410,7 @@ namespace Content.Server.Database
         public string TraitName { get; set; } = null!;
     }
 
-#if LPP_Sponsors  // _LostParadise-Sponsors
+//#if LPP_Sponsors  // _LostParadise-Sponsors
     public class Donate
     {
         public int Id { get; set; }
@@ -418,7 +418,7 @@ namespace Content.Server.Database
         public int ProfileId { get; set; }
         public string DonateName { get; set; } = null!;
     }
-#endif
+//#endif
 
     public class Loadout
     {
@@ -1051,7 +1051,7 @@ namespace Content.Server.Database
         public bool Dismissed { get; set; }
     }
 
-#if LPP_Sponsors  // _LostParadise-Sponsors
+//#if LPP_Sponsors  // _LostParadise-Sponsors
     [Table("sponsors")]
     public class Sponsor
     {
@@ -1064,5 +1064,5 @@ namespace Content.Server.Database
         public DateTime ExpireDate {get;set;}
         public bool AllowJob { get; set; } = false;
     }
-#endif
+//#endif
 }
