@@ -39,4 +39,4 @@
   - ".github/workflows/*.yml"
 
 "СВЯТЫЕ УГОДНИКИ":
-- "/Content.Server.Database/*"
+- "Content.Server.Database/*"
