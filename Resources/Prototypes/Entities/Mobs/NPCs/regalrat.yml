@@ -172,7 +172,7 @@
   noSpawn: true #Must be configured to a King or the AI breaks.
   components:
   #- type: Carriable
-    freeHandsRequired: 1
+  #  freeHandsRequired: 1
   - type: CombatMode
   - type: MovementSpeedModifier
     baseWalkSpeed : 3.5

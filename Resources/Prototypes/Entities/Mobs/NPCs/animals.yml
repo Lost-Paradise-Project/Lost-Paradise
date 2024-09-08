@@ -190,7 +190,7 @@
       movement:
         state: chicken-0
   #- type: Carriable
-    freeHandsRequired: 1
+  #  freeHandsRequired: 1
   - type: Fixtures
     fixtures:
       fix1:
@@ -590,7 +590,7 @@
         layer:
         - MobLayer
   #- type: Carriable
-    freeHandsRequired: 1
+  #  freeHandsRequired: 1
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -851,7 +851,7 @@
       movement:
         state: crab
   #- type: Carriable
-    freeHandsRequired: 1
+  #  freeHandsRequired: 1
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -1840,7 +1840,7 @@
       state: slug
       sprite: Mobs/Animals/slug.rsi
   #- type: Carriable
-    freeHandsRequired: 1
+  #  freeHandsRequired: 1
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -1958,7 +1958,7 @@
       state: parrot
       sprite: Mobs/Animals/parrot.rsi
   #- type: Carriable
-    freeHandsRequired: 1
+  #  freeHandsRequired: 1
   - type: Fixtures
     fixtures:
       fix1:
@@ -2979,7 +2979,7 @@
       Dead:
         Base: kitten_dead
   #- type: Carriable
-    freeHandsRequired: 1
+  #  freeHandsRequired: 1
   - type: Butcherable
     spawned:
     - id: FoodMeat
