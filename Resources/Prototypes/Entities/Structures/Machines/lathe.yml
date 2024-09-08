@@ -1416,6 +1416,7 @@
       - SingularityToy
       - TeslaToy
       - ToySword
+      - BwoinkHammer
       - ThronglerToy
   - type: MaterialStorage
     whitelist:

@@ -178,28 +178,37 @@ namespace Content.Shared.CCVar
         ///     Minimum time between Basic station events in seconds
         /// </summary>
         public static readonly CVarDef<int> // 5 Minutes
-            GameEventsBasicMinimumTime = CVarDef.Create("game.events_basic_minimum_time", 300, CVar.SERVERONLY);
+            GameEventsBasicMinimumTime = CVarDef.Create("game.events_basic_minimum_time", 300, CVar.SERVERONLY | CVar.ARCHIVE);
 
         /// <summary>
         ///     Maximum time between Basic station events in seconds
         /// </summary>
         public static readonly CVarDef<int> // 25 Minutes
-            GameEventsBasicMaximumTime = CVarDef.Create("game.events_basic_maximum_time", 1500, CVar.SERVERONLY);
+            GameEventsBasicMaximumTime = CVarDef.Create("game.events_basic_maximum_time", 1500, CVar.SERVERONLY | CVar.ARCHIVE);
 
         /// <summary>
         ///     Minimum time between Ramping station events in seconds
         /// </summary>
         public static readonly CVarDef<int> // 6 Minutes
-            GameEventsRampingMinimumTime = CVarDef.Create("game.events_ramping_minimum_time", 360, CVar.SERVERONLY);
+            GameEventsRampingMinimumTime = CVarDef.Create("game.events_ramping_minimum_time", 360, CVar.SERVERONLY | CVar.ARCHIVE);
 
         /// <summary>
         ///     Maximum time between Ramping station events in seconds
         /// </summary>
         public static readonly CVarDef<int> // 12 Minutes
-            GameEventsRampingMaximumTime = CVarDef.Create("game.events_ramping_maximum_time", 720, CVar.SERVERONLY);
+            GameEventsRampingMaximumTime = CVarDef.Create("game.events_ramping_maximum_time", 720, CVar.SERVERONLY | CVar.ARCHIVE);
 
         /// <summary>
-        ///
+        ///     Minimum time between Oscillating station events in seconds. This is the bare minimum which will never be violated, unlike with ramping events.
+        /// </summary>
+        public static readonly CVarDef<int> // 40 seconds
+            GameEventsOscillatingMinimumTime = CVarDef.Create("game.events_oscillating_minimum_time", 40, CVar.SERVERONLY | CVar.ARCHIVE);
+
+        /// <summary>
+        ///     Time between Oscillating station events in seconds at 1x chaos level. Events may occur at larger intervals if current chaos is lower than that.
+        /// </summary>
+        public static readonly CVarDef<int> // 20 Minutes - which constitutes a minimum of 120 seconds between events in Irregular and 280 seconds in Extended Irregular
+            GameEventsOscillatingAverageTime = CVarDef.Create("game.events_oscillating_average_time", 1200, CVar.SERVERONLY | CVar.ARCHIVE);
 
         /// <summary>
         ///     Controls the maximum number of character slots a player is allowed to have.
@@ -401,6 +410,12 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<bool> GamePressToSprint =
             CVarDef.Create("game.press_to_sprint", true, CVar.REPLICATED);
+
+        /// <summary>
+        ///     Whether item slots, such as power cell slots or AME fuel cell slots, should support quick swap if it is not otherwise specified in their YAML prototype.
+        /// </summary>
+        public static readonly CVarDef<bool> AllowSlotQuickSwap =
+            CVarDef.Create("game.slot_quick_swap", true, CVar.REPLICATED);
 
 #if EXCEPTION_TOLERANCE
         /// <summary>
@@ -2286,6 +2301,13 @@ namespace Content.Shared.CCVar
             CVarDef.Create("replay.auto_record_temp_dir", "", CVar.SERVERONLY);
 
 
+        /// <summary>
+        ///     The amount of time between NPC Silicons draining their battery in seconds.
+        /// </summary>
+        public static readonly CVarDef<float> SiliconNpcUpdateTime =
+            CVarDef.Create("silicon.npcupdatetime", 1.5f, CVar.SERVERONLY);
+
+
         /*
          * Miscellaneous
          */
@@ -2339,6 +2361,15 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<bool> HeightAdjustModifiesZoom =
             CVarDef.Create("heightadjust.modifies_zoom", false, CVar.SERVERONLY);
+
+        /// <summary>
+        ///     Whether height & width sliders adjust a player's bloodstream volume.
+        /// </summary>
+        /// <remarks>
+        ///     This can be configured more precisely by modifying BloodstreamAffectedByMassComponent.
+        /// </remarks>
+        public static readonly CVarDef<bool> HeightAdjustModifiesBloodstream =
+            CVarDef.Create("heightadjust.modifies_bloodstream", true, CVar.SERVERONLY);
 
         /// <summary>
         ///     Enables station goals
@@ -2515,6 +2546,16 @@ namespace Content.Shared.CCVar
 
         public static readonly CVarDef<bool> MoodDecreasesSpeed =
             CVarDef.Create("mood.decreases_speed", true, CVar.SERVER);
+
+        #endregion
+
+        #region Material Reclaimer
+
+        /// <summary>
+        ///     Whether or not a Material Reclaimer is allowed to eat people when emagged.
+        /// </summary>
+        public static readonly CVarDef<bool> ReclaimerAllowGibbing =
+            CVarDef.Create("reclaimer.allow_gibbing", true, CVar.SERVER);
 
         #endregion
     }

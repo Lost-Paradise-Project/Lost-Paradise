@@ -22,17 +22,37 @@
     - BasicRoundstartVariation
     - SubGamemodesRule
 
-#- type: gamePreset
-#  id: AllAtOnce
-#  name: all-at-once-title
-#  description: all-at-once-description
-#  showInVote: false
-#  rules:
-#    - Nukeops
-#    - Traitor
-#    - Revolutionary
-#    - Zombie
-#    - RampingStationEventScheduler
+- type: gamePreset
+  id: SurvivalIrregular
+  alias: [irregular]
+  showInVote: false
+  name: irregular-title
+  description: irregular-description
+  rules:
+    - IrregularStationEventScheduler
+    - BasicRoundstartVariation
+
+- type: gamePreset
+  id: SurvivalIrregularExtended
+  alias: [irregular-extended]
+  showInVote: false
+  name: irregular-extended-title
+  description: irregular-extended-description
+  rules:
+    - IrregularExtendedStationEventScheduler
+    - BasicRoundstartVariation
+
+- type: gamePreset
+  id: AllAtOnce
+  name: all-at-once-title
+  description: all-at-once-description
+  showInVote: false
+  rules:
+    - Nukeops
+    - Traitor
+    - Revolutionary
+    - Zombie
+    - RampingStationEventScheduler
 
 - type: gamePreset
   id: Extended
