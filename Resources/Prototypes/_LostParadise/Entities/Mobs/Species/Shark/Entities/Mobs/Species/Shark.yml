@@ -63,7 +63,7 @@
       - GalacticCommon
     # # - type: EmotePanel
     #   race: Shark
-    - type: Carriable
+    #- type: Carriable
 
 - type: entity
   save: false
