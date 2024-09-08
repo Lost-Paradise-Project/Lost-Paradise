@@ -1256,7 +1256,7 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnName("allowed_markings");
 
                     b.Property<DateTime>("ExpireDate")
-                        .HasColumnType("timestamp with time zone")
+                        .HasColumnType("text")
                         .HasColumnName("expire_date");
 
                     b.Property<int>("ExtraSlots")
