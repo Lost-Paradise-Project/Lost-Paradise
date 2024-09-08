@@ -24,6 +24,7 @@
     sprite: _LostParadise/Clothing/Neck/shemags/greenup.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/shemags/greenup.rsi
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingNeckBase
@@ -51,6 +52,7 @@
     sprite: _LostParadise/Clothing/Neck/shemags/redup.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/shemags/redup.rsi
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingNeckBase
@@ -78,6 +80,7 @@
     sprite: _LostParadise/Clothing/Neck/shemags/blueup.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/shemags/blueup.rsi
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingNeckBase
@@ -105,6 +108,7 @@
     sprite: _LostParadise/Clothing/Neck/shemags/brownup.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/shemags/brownup.rsi
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingNeckBase
@@ -132,6 +136,7 @@
     sprite: _LostParadise/Clothing/Neck/shemags/purpleup.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/shemags/purpleup.rsi
+  - type: IdentityBlocker
 
 - type: entity
   parent: ClothingNeckBase
@@ -159,4 +164,33 @@
     sprite: _LostParadise/Clothing/Neck/shemags/NPZup.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/shemags/NPZup.rsi
+  - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckShemagWhite
+  name: белый шемаг
+  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/whitedown.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/whitedown.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingMaskShemagWhite
+    requiredSlot:
+    - neck
+    slot: mask
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingMaskShemagWhite
+  noSpawn: true
+  name: белый шемаг
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/shemags/whiteup.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/shemags/whiteup.rsi
+  - type: IdentityBlocker
 

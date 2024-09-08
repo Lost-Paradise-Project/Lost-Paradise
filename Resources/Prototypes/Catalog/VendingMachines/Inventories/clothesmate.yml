@@ -61,10 +61,16 @@
     LPPClothingUniformBlackTracksuit: 4
     LPPClothingUniformBlueTracksuit: 4
     LPPClothingUniformRedTracksuit: 4
+    LPPClothingNeckShemagGreen: 4
+    LPPClothingNeckShemagRed: 4
+    LPPClothingNeckShemagBrown: 4
+    LPPClothingNeckShemagPurple: 4
+    LPPClothingNeckShemagBlue: 4
+    LPPClothingNeckShemagWhite: 4
   contrabandInventory:
     ClothingMaskNeckGaiter: 2
-    ClothingUniformJumpsuitTacticool: 1
-    ClothingUniformJumpskirtTacticool: 1
+    ClothingUniformJumpsuitTacticool: 2
+    ClothingUniformJumpskirtTacticool: 2
     ClothingEyesGlassesSunglasses: 2
     ClothingHandsGlovesColorBlack: 4
     ClothingHandsGlovesColorGray: 4
@@ -75,3 +81,4 @@
     ClothingHandsGlovesColorGreen: 2
     ClothingHandsGlovesColorOrange: 2
     ClothingHandsGlovesColorPurple: 2
+    LPPClothingNeckShemagNPZ: 4

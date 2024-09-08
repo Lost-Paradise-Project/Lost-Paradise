@@ -360,6 +360,32 @@
         Heat: 0.95
   - type: Tag
     tags:
-    - HidesHair
+ #   - HidesHair
     - WhitelistChameleon
-    - HidesNose
+ #   - HidesNose
+
+- type: entity
+  parent: ClothingMaskGas
+  id: LPPClothingMaskNPZGasmask
+  name: противогаз спецназа НПЗ
+  description: Усовершенствованная модель противогаза спецназа из далёких корпоративных воин. Сможет защитить лицо от различных осколков. Защита глаз от вспышек и сварки гарантирована.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Mask/NPZgas.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Mask/NPZgas.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: Tag
+    tags:
+ #   - HidesHair
+    - WhitelistChameleon
+#    - HidesNose
+  - type: IdentityBlocker
+  - type: FlashImmunity
+  - type: EyeProtection
