@@ -21,7 +21,7 @@ namespace Content.Server.Database.Migrations.Postgres
                     ooccolor = table.Column<string>(type: "text", nullable: false),
                     have_priority_join = table.Column<bool>(type: "boolean", nullable: false),
                     allowed_markings = table.Column<string>(type: "text", nullable: false),
-                    expire_date = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    expire_date = table.Column<DateTime>(type: "text", nullable: false),
                     extra_slots = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
