@@ -188,3 +188,10 @@ Entries:
   id: 21
   time: '2024-09-08T11:38:09.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/90
+- author: Evgencheg
+  changes:
+    - type: Add
+      message: Апстрим
+  id: 22
+  time: '2024-09-08T17:38:07.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/100
