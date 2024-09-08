@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+#if LPP_Sponsors
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -27,3 +28,4 @@ namespace Content.Server.Database.Migrations.Sqlite
         }
     }
 }
+#endif
