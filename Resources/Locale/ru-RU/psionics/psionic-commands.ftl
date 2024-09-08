@@ -4,3 +4,7 @@ command-glimmerset-description = Установите глиммер на опр
 command-glimmerset-help = Установить глиммер (целое число)
 command-lspsionic-description = Список псиоников.
 command-lspsionic-help = Да поебать мне xD
+command-addpsionicpower-description = Инициализируйте объект как псионический с заданным прототипом мощности
+command-addpsionicpower-help = Аргументом 1 должен быть Uid объекта, а аргументом 2 должна быть строка, соответствующая идентификатору прототипа псионической силы.
+addpsionicpower-args-one-error = Аргументом 1 должен быть Uid объекта
+addpsionicpower-args-two-error = Аргумент 2 должен соответствовать идентификатору прототипа псионической силы

@@ -5,8 +5,17 @@
   playTimeTracker: JobChaplain
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Civilian
-      min: 14400 #Lost Paradise 4 hour
+      department: Civilian # DeltaV - Epistemics Department replacing Science
+      min: 14400 #DeltaV 4 hours
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - IPC
+        - !type:CharacterTraitRequirement
+          traits:
+            - AnomalousPositronics
   startingGear: ChaplainGear
   icon: "JobIconChaplain"
   supervisors: job-supervisors-hop
