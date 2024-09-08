@@ -1744,7 +1744,7 @@
     - UplinkArmor
 
 - type: listing
-  id: LPPUplinkhelmetswat
+  id: LPPUplinkAcientHardsuit
   name: древний скафандр синдиката
   description: Странный скафандр, по характеристикам что-то среднее между элитным и скафандром джаггернаута. Шлем имеет боевой и EVA режмиы!
   icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi, state: icon }
