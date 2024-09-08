@@ -15,7 +15,7 @@
         Male: MaleTajaran
         Female: FemaleTajaran
         Unsexed: FemaleTajaran
-    - type: Carriable
+    #- type: Carriable
     - type: Hunger
       starvationDamage:
         types:
