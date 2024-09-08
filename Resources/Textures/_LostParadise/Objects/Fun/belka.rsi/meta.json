@@ -9,6 +9,14 @@
   "states": [
     {
       "name": "belka-toy"
+    },
+    {
+      "name": "belka-toy-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "belka-toy-inhand-left",
+      "directions": 4
     }
   ]
 }
