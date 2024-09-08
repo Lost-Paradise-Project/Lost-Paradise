@@ -60,5 +60,5 @@
     - back
     - suitStorage
   - type: Prying
-    speed: 3
+    # speed: 3
     pryPowered: true
