@@ -37,3 +37,6 @@
 
 "Изменения: Github":
   - ".github/workflows/*.yml"
+
+"СВЯТЫЕ УГОДНИКИ":
+- "/Content.Server.Database/*"
