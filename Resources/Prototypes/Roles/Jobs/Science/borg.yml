@@ -4,8 +4,8 @@
   description: job-description-borg
   playTimeTracker: JobBorg
   requirements:
-    - !type:CharacterOverallTimeRequirement
-      min: 216000 #60 hrs
+#    - !type:CharacterOverallTimeRequirement
+#      min: 21600 #
   canBeAntag: false
   icon: JobIconBorg
   supervisors: job-supervisors-rd
