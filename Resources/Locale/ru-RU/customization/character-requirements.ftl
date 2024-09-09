@@ -41,7 +41,7 @@ character-logic-or-requirement =
     Вы должны{ $inverted ->
         [true] { " " }не
        *[other] { "" }
-    } подходить [color=red]хотябы одному[/color] из [color=white]требований[/color]: { $options }
+    } подходить [color=red]хотя бы одному[/color] из [color=white]требований[/color]: { $options }
 character-logic-xor-requirement-listprefix =
     { "" }
     { $indent }[color=white]Х[/color]{ " " }
@@ -117,7 +117,7 @@ character-width-requirement =
             }
        *[other]
             { $max ->
-                [2147483648] шыре [color={ $color }]{ $min }[/color]см
+                [2147483648] шире [color={ $color }]{ $min }[/color]см
                *[other] между [color={ $color }]{ $min }[/color] и [color={ $color }]{ $max }[/color]см в ширину
             }
     }
