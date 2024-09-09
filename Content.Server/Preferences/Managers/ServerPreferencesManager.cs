@@ -107,7 +107,6 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (slot < 0 || slot >= MaxCharacterSlots)
             if (slot < 0 || slot >=
 #if LPP_Sponsors  // _LostParadise-Sponsors
                 GetMaxUserCharacterSlots(userId)
@@ -117,6 +116,7 @@ namespace Content.Server.Preferences.Managers
                 )
             {
                 return;
+            }
 
             var curPrefs = prefsData.Prefs!;
             var session = _playerManager.GetSessionById(userId);
