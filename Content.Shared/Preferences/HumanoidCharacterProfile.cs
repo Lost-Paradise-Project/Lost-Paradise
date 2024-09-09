@@ -609,7 +609,7 @@ namespace Content.Shared.Preferences
 
             if (configManager.GetCVar(CCVars.RestrictedNames))
             {
-                name = Regex.Replace(name, @"[^А-Я,а-я,A-Z,a-z,0-9, -]", string.Empty); // Theta: All the names pew-pew!
+                name = Regex.Replace(name, @"[^А-Яа-яёЁ0-9' -]", string.Empty); // Theta: All the names pew-pew!
                 /*
                  * 0030-0039  Basic Latin: ASCII Digits
                  * 0041-005A  Basic Latin: Uppercase Latin Alphabet
