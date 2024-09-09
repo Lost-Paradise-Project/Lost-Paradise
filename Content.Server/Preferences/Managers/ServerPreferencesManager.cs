@@ -3,11 +3,8 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Content.Server.Database;
-using Content.Server.Humanoid;
 using Content.Shared.CCVar;
-using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Preferences;
-using Content.Shared.Roles;
 using Robust.Server.Player;
 using Robust.Shared.Configuration;
 using Robust.Shared.Network;
@@ -30,6 +27,7 @@ namespace Content.Server.Preferences.Managers
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         [Dependency] private readonly IServerDbManager _db = default!;
         [Dependency] private readonly IPlayerManager _playerManager = default!;
+        [Dependency] private readonly ILogManager _log = default!;
         [Dependency] private readonly IPrototypeManager _protos = default!;
 #if LPP_Sponsors  // _LostParadise-Sponsors
         [Dependency] private readonly SponsorsManager _sponsors = default!;
@@ -39,6 +37,8 @@ namespace Content.Server.Preferences.Managers
         private readonly Dictionary<NetUserId, PlayerPrefData> _cachedPlayerPrefs =
             new();
 
+        private ISawmill _sawmill = default!;
+
         private int MaxCharacterSlots => _cfg.GetCVar(CCVars.GameMaxCharacterSlots);
 
         public void Init()
@@ -47,6 +47,7 @@ namespace Content.Server.Preferences.Managers
             _netManager.RegisterNetMessage<MsgSelectCharacter>(HandleSelectCharacterMessage);
             _netManager.RegisterNetMessage<MsgUpdateCharacter>(HandleUpdateCharacterMessage);
             _netManager.RegisterNetMessage<MsgDeleteCharacter>(HandleDeleteCharacterMessage);
+            _sawmill = _log.GetSawmill("prefs");
         }
 
         private async void HandleSelectCharacterMessage(MsgSelectCharacter message)
@@ -89,20 +90,20 @@ namespace Content.Server.Preferences.Managers
 
         private async void HandleUpdateCharacterMessage(MsgUpdateCharacter message)
         {
-            var slot = message.Slot;
-            var profile = message.Profile;
             var userId = message.MsgChannel.UserId;
 
-            if (profile == null)
-            {
-                Logger.WarningS("prefs",
-                    $"User {userId} sent a {nameof(MsgUpdateCharacter)} with a null profile in slot {slot}.");
-                return;
-            }
+            // ReSharper disable once ConditionIsAlwaysTrueOrFalseAccordingToNullableAPIContract
+            if (message.Profile == null)
+                _sawmill.Error($"User {userId} sent a {nameof(MsgUpdateCharacter)} with a null profile in slot {message.Slot}.");
+            else
+                await SetProfile(userId, message.Slot, message.Profile);
+        }
 
+        public async Task SetProfile(NetUserId userId, int slot, ICharacterProfile profile)
+        {
             if (!_cachedPlayerPrefs.TryGetValue(userId, out var prefsData) || !prefsData.PrefsLoaded)
             {
-                Logger.WarningS("prefs", $"User {userId} tried to modify preferences before they loaded.");
+                _sawmill.Error($"Tried to modify user {userId} preferences before they loaded.");
                 return;
             }
 
@@ -135,10 +136,8 @@ namespace Content.Server.Preferences.Managers
 
             prefsData.Prefs = new PlayerPreferences(profiles, slot, curPrefs.AdminOOCColor);
 
-            if (ShouldStorePrefs(message.MsgChannel.AuthType))
-            {
-                await _db.SaveCharacterSlotAsync(message.MsgChannel.UserId, message.Profile, message.Slot);
-            }
+            if (ShouldStorePrefs(session.Channel.AuthType))
+                await _db.SaveCharacterSlotAsync(userId, profile, slot);
         }
 
         private async void HandleDeleteCharacterMessage(MsgDeleteCharacter message)
@@ -171,7 +170,7 @@ namespace Content.Server.Preferences.Managers
             if (curPrefs.SelectedCharacterIndex == slot)
             {
                 // That ! on the end is because Rider doesn't like .NET 5.
-                var (ns, profile) = curPrefs.Characters.FirstOrDefault(p => p.Key != message.Slot)!;
+                var (ns, profile) = curPrefs.Characters.FirstOrDefault(p => p.Key != message.Slot);
                 if (profile == null)
                 {
                     // Only slot left, can't delete.
@@ -186,16 +185,18 @@ namespace Content.Server.Preferences.Managers
 
             prefsData.Prefs = new PlayerPreferences(arr, nextSlot ?? curPrefs.SelectedCharacterIndex, curPrefs.AdminOOCColor);
 
-            if (ShouldStorePrefs(message.MsgChannel.AuthType))
+            if (!ShouldStorePrefs(message.MsgChannel.AuthType))
             {
-                if (nextSlot != null)
-                {
-                    await _db.DeleteSlotAndSetSelectedIndex(userId, slot, nextSlot.Value);
-                }
-                else
-                {
-                    await _db.SaveCharacterSlotAsync(userId, null, slot);
-                }
+                return;
+            }
+
+            if (nextSlot != null)
+            {
+                await _db.DeleteSlotAndSetSelectedIndex(userId, slot, nextSlot.Value);
+            }
+            else
+            {
+                await _db.SaveCharacterSlotAsync(userId, null, slot);
             }
         }
 
@@ -229,11 +230,13 @@ namespace Content.Server.Preferences.Managers
                     prefsData.Prefs = prefs;
                     prefsData.PrefsLoaded = true;
 
-                    var msg = new MsgPreferencesAndSettings();
-                    msg.Preferences = prefs;
-                    msg.Settings = new GameSettings
+                    var msg = new MsgPreferencesAndSettings
                     {
-                        MaxCharacterSlots = MaxCharacterSlots
+                        Preferences = prefs,
+                        Settings = new GameSettings
+                        {
+                            MaxCharacterSlots = MaxCharacterSlots
+                        }
                     };
                     _netManager.ServerSendMessage(msg, session.Channel);
                 }
@@ -258,7 +261,6 @@ namespace Content.Server.Preferences.Managers
         {
             return _cachedPlayerPrefs.ContainsKey(session.UserId);
         }
-
 
         /// <summary>
         /// Tries to get the preferences from the cache
@@ -294,6 +296,20 @@ namespace Content.Server.Preferences.Managers
             return prefs;
         }
 
+        /// <summary>
+        /// Retrieves preferences for the given username from storage or returns null.
+        /// Creates and saves default preferences if they are not found, then returns them.
+        /// </summary>
+        public PlayerPreferences? GetPreferencesOrNull(NetUserId? userId)
+        {
+            if (userId == null)
+                return null;
+
+            if (_cachedPlayerPrefs.TryGetValue(userId.Value, out var pref))
+                return pref.Prefs;
+            return null;
+        }
+
         private async Task<PlayerPreferences> GetOrCreatePreferencesAsync(NetUserId userId)
         {
             var prefs = await _db.GetPlayerPreferencesAsync(userId);
@@ -317,15 +333,12 @@ namespace Content.Server.Preferences.Managers
 #endif
             // Clean up preferences in case of changes to the game,
             // such as removed jobs still being selected.
-            return new PlayerPreferences(prefs.Characters.Select(p =>
-            {
-                return new KeyValuePair<int, ICharacterProfile>(p.Key, p.Value.Validated(
-                    session, collection
+            return new PlayerPreferences(prefs.Characters.Select(p => new KeyValuePair<int, ICharacterProfile>(p.Key,
+                    p.Value.Validated(session, collection
 #if LPP_Sponsors  // _LostParadise-Sponsors
                     , allowedMarkings
 #endif
-                    ));
-            }), prefs.SelectedCharacterIndex, prefs.AdminOOCColor);
+                        ))), prefs.SelectedCharacterIndex, prefs.AdminOOCColor);
         }
 
         public IEnumerable<KeyValuePair<NetUserId, ICharacterProfile>> GetSelectedProfilesForPlayers(
