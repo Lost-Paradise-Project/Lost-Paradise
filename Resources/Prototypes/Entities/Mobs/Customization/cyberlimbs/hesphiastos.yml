@@ -36,7 +36,7 @@
 - type: marking
   id: CyberLimbsMarkingHesphiastosLArm
   bodyPart: LArm
-  markingCategory: Arms
+  markingCategory: LeftArm
   speciesRestriction: [IPC]
   sprites:
   - sprite: Mobs/Customization/cyberlimbs/hesphiastos/hesphiastos_main.rsi
@@ -47,7 +47,7 @@
 - type: marking
   id: CyberLimbsMarkingHesphiastosLHand
   bodyPart: LHand
-  markingCategory: Arms
+  markingCategory: LeftHand
   speciesRestriction: [IPC]
   sprites:
   - sprite: Mobs/Customization/cyberlimbs/hesphiastos/hesphiastos_main.rsi
@@ -58,7 +58,7 @@
 - type: marking
   id: CyberLimbsMarkingHesphiastosLLeg
   bodyPart: LLeg
-  markingCategory: Legs
+  markingCategory: LeftLeg
   speciesRestriction: [IPC]
   sprites:
   - sprite: Mobs/Customization/cyberlimbs/hesphiastos/hesphiastos_main.rsi
@@ -70,7 +70,7 @@
 - type: marking
   id: CyberLimbsMarkingHesphiastosLFoot
   bodyPart: LFoot
-  markingCategory: Legs
+  markingCategory: LeftFoot
   speciesRestriction: [IPC]
   sprites:
   - sprite: Mobs/Customization/cyberlimbs/hesphiastos/hesphiastos_main.rsi
@@ -83,7 +83,7 @@
 - type: marking
   id: CyberLimbsMarkingHesphiastosRArm
   bodyPart: RArm
-  markingCategory: Arms
+  markingCategory: RightArm
   speciesRestriction: [IPC]
   sprites:
   - sprite: Mobs/Customization/cyberlimbs/hesphiastos/hesphiastos_main.rsi
@@ -95,7 +95,7 @@
 - type: marking
   id: CyberLimbsMarkingHesphiastosRHand
   bodyPart: RHand
-  markingCategory: Arms
+  markingCategory: RightHand
   speciesRestriction: [IPC]
   sprites:
   - sprite: Mobs/Customization/cyberlimbs/hesphiastos/hesphiastos_main.rsi
@@ -107,7 +107,7 @@
 - type: marking
   id: CyberLimbsMarkingHesphiastosRLeg
   bodyPart: RLeg
-  markingCategory: Legs
+  markingCategory: RightLeg
   speciesRestriction: [IPC]
   sprites:
   - sprite: Mobs/Customization/cyberlimbs/hesphiastos/hesphiastos_main.rsi
@@ -119,7 +119,7 @@
 - type: marking
   id: CyberLimbsMarkingHesphiastosRFoot
   bodyPart: RFoot
-  markingCategory: Legs
+  markingCategory: RightFoot
   speciesRestriction: [IPC]
   sprites:
   - sprite: Mobs/Customization/cyberlimbs/hesphiastos/hesphiastos_main.rsi
