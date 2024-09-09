@@ -1490,6 +1490,12 @@
   id: FloorGrass
   name: tiles-planet-grass-floor
   sprite: /Textures/Tiles/grass.png
+  variants: 4 #Corvax
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: FloorDirt
   isSubfloor: false
   canShovel: true #DV
@@ -1503,14 +1509,20 @@
   id: FloorGrassJungle
   name: tiles-jungle-grass-floor
   sprite: /Textures/Tiles/grassjungle.png
-  baseTurf: FloorDirt
+  variants: 4 #Corvax
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: FloorPlanetDirt
   isSubfloor: false
-  canShovel: true # Delta V
   footstepSounds:
     collection: FootstepGrass
   itemDrop: FloorTileItemGrassJungle
   heatCapacity: 10000
   weather: true
+  indestructible: true
 
 - type: tile
   id: FloorGrassDark
@@ -1927,7 +1939,8 @@
     East: /Textures/Tiles/Planet/Grass/double_edge.png
     North: /Textures/Tiles/Planet/Grass/double_edge.png
     West: /Textures/Tiles/Planet/Grass/double_edge.png
-  baseTurf: Plating
+  baseTurf: FloorDirt
+  canShovel: true #Lost-Paradise
   isSubfloor: false
   deconstructTools: [ Cutting ]
   footstepSounds:
@@ -1940,7 +1953,15 @@
   id: FloorMowedAstroGrass
   name: tiles-mowed-astro-grass
   parent: FloorGrass
-  baseTurf: Plating
+  sprite: /Textures/Corvax/Tiles/mowed_grass.png #Corvax
+  variants: 4 
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: FloorDirt
+  canShovel: true #Lost-Paradise
   isSubfloor: false
   deconstructTools: [ Cutting ]
   itemDrop: FloorTileItemMowedAstroGrass
@@ -1950,7 +1971,8 @@
   id: FloorJungleAstroGrass
   name: tiles-jungle-astro-grass
   parent: FloorGrassJungle
-  baseTurf: Plating
+  baseTurf: FloorDirt
+  canShovel: true #Lost-Paradise
   isSubfloor: false
   deconstructTools: [ Cutting ]
   itemDrop: FloorTileItemJungleAstroGrass
