@@ -1161,9 +1161,9 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("allowed_markings");
 
-                    b.Property<DateTime>("ExpireDate")
-                        .HasColumnType("TEXT")
-                        .HasColumnName("expire_date");
+                    // b.Property<DateTime>("ExpireDate")
+                    //     .HasColumnType("TEXT")
+                    //     .HasColumnName("expire_date");
 
                     b.Property<int>("ExtraSlots")
                         .HasColumnType("INTEGER")

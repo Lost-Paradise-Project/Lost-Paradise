@@ -209,3 +209,23 @@ Entries:
   id: 24
   time: '2024-09-08T19:52:17.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/107
+- author: Ko4erga
+  changes:
+    - type: Add
+      message: Добавлен газон.
+    - type: Tweak
+      message: Заменены спрайты трав. Трава джунглей теперь считается планетарной.
+    - type: Fix
+      message: Все виды травы, кроме планетарных, выкапываются лопатой.
+  id: 25
+  time: '2024-09-09T14:18:15.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/101
+- author: Evgencheg
+  changes:
+    - type: Tweak
+      message: Выполнен апстрим!
+    - type: Fix
+      message: Исправлены все баги из канала - баги!
+  id: 26
+  time: '2024-09-09T14:43:02.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/115

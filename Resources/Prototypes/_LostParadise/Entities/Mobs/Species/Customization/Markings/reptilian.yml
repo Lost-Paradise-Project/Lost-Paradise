@@ -347,7 +347,7 @@
 - type: marking
   id: LPPLArmLilis
   bodyPart: LArm
-  markingCategory: Arms
+  markingCategory: LeftArm
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -356,7 +356,7 @@
 - type: marking
   id: LPPLArmSpotsBright
   bodyPart: LArm
-  markingCategory: Arms
+  markingCategory: LeftArm
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -365,7 +365,7 @@
 - type: marking
   id: LPPLArmSpotsDark
   bodyPart: LArm
-  markingCategory: Arms
+  markingCategory: LeftArm
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -374,7 +374,7 @@
 - type: marking
   id: LPPLArmSpotsMix
   bodyPart: LArm
-  markingCategory: Arms
+  markingCategory: LeftArm
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -383,7 +383,7 @@
 - type: marking
   id: LPPRArmLilis
   bodyPart: RArm
-  markingCategory: Arms
+  markingCategory: RightArm
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -392,7 +392,7 @@
 - type: marking
   id: LPPRArmSpotsBright
   bodyPart: RArm
-  markingCategory: Arms
+  markingCategory: RightArm
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -401,7 +401,7 @@
 - type: marking
   id: LPPRArmSpotsDark
   bodyPart: RArm
-  markingCategory: Arms
+  markingCategory: RightArm
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -410,7 +410,7 @@
 - type: marking
   id: LPPRArmSpotsMix
   bodyPart: RArm
-  markingCategory: Arms
+  markingCategory: RightArm
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -419,7 +419,7 @@
 - type: marking
   id: LPPLLegsLilis
   bodyPart: LLeg
-  markingCategory: Legs
+  markingCategory: LeftLeg
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -428,7 +428,7 @@
 - type: marking
   id: LPPLLegsSpotsBright
   bodyPart: LLeg
-  markingCategory: Legs
+  markingCategory: LeftLeg
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -437,7 +437,7 @@
 - type: marking
   id: LPPLLegsSpotsDark
   bodyPart: LLeg
-  markingCategory: Legs
+  markingCategory: LeftLeg
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -446,7 +446,7 @@
 - type: marking
   id: LPPLLegsSpotsMix
   bodyPart: LLeg
-  markingCategory: Legs
+  markingCategory: LeftLeg
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -455,7 +455,7 @@
 - type: marking
   id: LPPRLegsLilis
   bodyPart: RLeg
-  markingCategory: Legs
+  markingCategory: RightLeg
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -464,7 +464,7 @@
 - type: marking
   id: LPPRLegsSpotsBright
   bodyPart: RLeg
-  markingCategory: Legs
+  markingCategory: RightLeg
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -473,7 +473,7 @@
 - type: marking
   id: LPPRLegsSpotsDark
   bodyPart: RLeg
-  markingCategory: Legs
+  markingCategory: RightLeg
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi
@@ -482,7 +482,7 @@
 - type: marking
   id: LPPRLegsSpotsMix
   bodyPart: RLeg
-  markingCategory: Legs
+  markingCategory: RightLeg
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _LostParadise/Mobs/Customization/allreptil.rsi

@@ -55,7 +55,7 @@
 - type: marking
   id: LPPProsthesisLLeg
   bodyPart: LLeg
-  markingCategory: Legs
+  markingCategory: LeftLeg
   sponsorOnly: true
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -64,7 +64,7 @@
 - type: marking
   id: LPPProsthesisRLeg
   bodyPart: RLeg
-  markingCategory: Legs
+  markingCategory: RightLeg
   sponsorOnly: true
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -73,7 +73,7 @@
 - type: marking
   id: LPPProsthesisLHand
   bodyPart: LArm
-  markingCategory: Arms
+  markingCategory: LeftHand
   sponsorOnly: true
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -82,7 +82,7 @@
 - type: marking
   id: LPPProsthesisRHand
   bodyPart: RArm
-  markingCategory: Arms
+  markingCategory: RightHand
   sponsorOnly: true
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -91,7 +91,7 @@
 - type: marking
   id: LPPProsthesisLWrist
   bodyPart: LHand
-  markingCategory: Arms
+  markingCategory: LeftHand
   sponsorOnly: true
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -100,7 +100,7 @@
 - type: marking
   id: LPPProsthesisRWrist
   bodyPart: RHand
-  markingCategory: Arms
+  markingCategory: RightHand
   sponsorOnly: true
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
