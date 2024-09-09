@@ -1,4 +1,5 @@
 ### Generic, general words, which fit into multiple contexts
+
 generic-not-yet-implemented = Н/Д
 generic-not-available-shorthand = Н/Д
 generic-article-a = это
