@@ -206,10 +206,10 @@
   - type: LanguageKnowledge
     speaks:
     - GalacticCommon
-    - LPPSynt
+    - RobotTalk
     understands:
     - GalacticCommon
-    - LPPSynt
+    - RobotTalk
     - Canilunzt
     - LPPSikTaj
     - Bubblish
@@ -218,7 +218,7 @@
     - Nekomimetic
     - RootSpeak
     - Moffic
-    - LPPElfLang
+    - ElfLang
   - type: Vocal
     sounds:
       Unsexed: UnisexSilicon
