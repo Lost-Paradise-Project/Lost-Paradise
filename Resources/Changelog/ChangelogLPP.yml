@@ -254,3 +254,10 @@ Entries:
   id: 29
   time: '2024-09-10T16:09:06.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/126
+- author: Evgencheg
+  changes:
+    - type: Fix
+      message: Исправлены флагштоки!
+  id: 30
+  time: '2024-09-10T17:09:47.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/128
