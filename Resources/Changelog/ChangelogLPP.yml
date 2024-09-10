@@ -261,3 +261,12 @@ Entries:
   id: 30
   time: '2024-09-10T17:09:47.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/128
+- author: Evgencheg
+  changes:
+    - type: Tweak
+      message: Улучшена карта нормандия!
+    - type: Fix
+      message: Исправлен шаттл!
+  id: 31
+  time: '2024-09-10T18:12:57.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/129
