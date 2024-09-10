@@ -129,7 +129,3 @@
     - WhitelistChameleon
   - type: StaticPrice
     price: 450
-  - type: ContainerContainer
-    containers:
-      storagebase: !type:Container
-        ents: []
