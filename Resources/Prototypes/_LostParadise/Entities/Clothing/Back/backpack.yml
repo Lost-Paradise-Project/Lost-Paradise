@@ -94,3 +94,15 @@
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Back/Backpacks/upgbacpacks.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackHunter
+  name: туристический рюкзак
+  description: Прочный рюкзак с дополнительными карманами, что значительно повышает вместимость и при этом никак не сковывает движения носителя.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Backpacks/backhunter.rsi
+  - type: Storage
+    grid:
+    - 0,0,7,3

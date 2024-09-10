@@ -1,26 +1,45 @@
  - type: entity
-   id: LPPCratehunter
+   id: LPPCratecivdef
    parent: CrateSecgear
-   name: набор охотника
-   description: Содержит набор оружия, а так же скафандр, самое то для охотны на космическу фауну. Требует доступ службы безопасности для открытия.
+   name: набор гражданской обороны
+   description: Ооооо моя оборона... Содержит оружие не самого высокого качества, но зато в большом количестве для вооружения гражданских лиц в случае ЧС. Ящик какой-то хлипкий... Требует доступ службы безопасности для открытия.
    components:
    - type: Destructible
      thresholds:
      - trigger:
         !type:DamageTrigger
-        damage: 3000
-       behaviors:
-       - !type:DoActsBehavior
-         acts: ["Destruction"]
-       - !type:PlaySoundBehavior
-         sound:
-           collection: MetalBreak
+        damage: 250
    - type: StorageFill
      contents:
        - id: LPPWeaponMarsRifle
+         amount: 3
        - id: LPPMagazineRifleMars
-       - id: LPPweaponPibodi
+         amount: 9
        - id: LPPMagazineBoxHunting
+         amount: 3
+       - id: MagazineBoxMagnum
+       - id: LPPWeaponSniperLeverPravoved
+
+ - type: entity
+   id: LPPCratehunter
+   parent: CratePrivateSecure
+   name: набор охотника
+   description: Содержит набор оружия, а так же скафандр, самое то для охоты на космическу фауну.
+   components:
+   - type: Destructible
+     thresholds:
+     - trigger:
+        !type:DamageTrigger
+        damage: 250
+   - type: StorageFill
+     contents:
+       - id: LPPweaponPibodi
        - id: LPPClothingOuterHardsuitHunter
-      #  - id: LPPWeaponBattleCutter
-      #  - id: LPPWeaponCutterMagazine
+       - id: LPPClothingBackpackHunter
+       - id: LPPClothingShoesBootsMagHunter
+       - id: JetpackVoidFilled
+       - id: ClothingHandsGlovesCombat
+       - id: DoubleEmergencyOxygenTank
+       - id: WeaponLaserSvalinn
+       - id: ClothingBeltSalvageWebbing
+       - id: MedkitFilled
