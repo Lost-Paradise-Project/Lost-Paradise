@@ -33582,14 +33582,14 @@ entities:
       pos: 12.5,0.5
       parent: 2
     - type: FaxMachine
-      name: Логистика
+      name: Снабжение
   - uid: 5181
     components:
     - type: Transform
       pos: 16.5,-6.5
       parent: 2
     - type: FaxMachine
-      name: Офицер Логистики
+      name: Квартирмейстер
   - uid: 5182
     components:
     - type: Transform
@@ -60848,7 +60848,7 @@ entities:
       pos: 26.5,2.5
       parent: 2
     - type: SurveillanceCamera
-      id: Док логистики
+      id: Док снабжения
   - uid: 9107
     components:
     - type: Transform
@@ -60856,14 +60856,14 @@ entities:
       pos: 9.5,1.5
       parent: 2
     - type: SurveillanceCamera
-      id: Холл Логистики
+      id: Холл снабжения
   - uid: 9108
     components:
     - type: Transform
       pos: 15.5,-2.5
       parent: 2
     - type: SurveillanceCamera
-      id: Главная комната логистики
+      id: Главная комната снабжения
   - uid: 10998
     components:
     - type: Transform
@@ -60874,7 +60874,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSupply
       nameSet: True
-      id: Комната Офицера Логистики
+      id: Комната Квартирмейстера
   - uid: 10999
     components:
     - type: Transform
@@ -69230,7 +69230,7 @@ entities:
       pos: 18.5,0.5
       parent: 2
     - type: WarpPoint
-      location: Логистика
+      location: Снабжение
   - uid: 10853
     components:
     - type: Transform

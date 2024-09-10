@@ -1,5 +1,30 @@
-﻿- type: entity
+﻿# < Made by DarkSide
+- type: entity
   parent: BaseStructure
+  id: LPPFlagWallBase
+  abstract: true
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: true
+  - type: Clickable
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.5
+        density: 100
+        mask:
+        - TableMask
+  - type: Pullable
+# < End
+
+- type: entity
+  parent: LPPFlagWallBase # < Edit DarkSide
   id: LPPFlagPoleBase
   name: flag pole
   description: Metal flagpole with a flag hanging from it.
@@ -41,7 +66,7 @@
     layers:
     - state: flagpole
     - state: flagpole-nt
-    
+
 - type: entity
   parent: LPPFlagPoleBase
   id: LPPFlagPoleCC

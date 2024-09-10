@@ -30093,7 +30093,7 @@ entities:
       pos: -1.5,7.5
       parent: 2
     - type: FaxMachine
-      name: Логистика
+      name: Снабжение
   - uid: 2374
     components:
     - type: Transform
@@ -60585,7 +60585,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSupply
       nameSet: True
-      id: Логистика регистратура
+      id: Снабжение регистратура
   - uid: 9626
     components:
     - type: Transform
@@ -60596,7 +60596,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSupply
       nameSet: True
-      id: Логистика публичная часть
+      id: Снабжение публичная часть
   - uid: 9627
     components:
     - type: Transform
@@ -60607,7 +60607,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSupply
       nameSet: True
-      id: Логистика передняя часть
+      id: Снабжение передняя часть
   - uid: 9628
     components:
     - type: Transform
@@ -70037,7 +70037,7 @@ entities:
       pos: 5.5,27.5
       parent: 2
     - type: WarpPoint
-      location: Док логистики
+      location: Док Снабжения
   - uid: 10369
     components:
     - type: Transform

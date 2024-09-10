@@ -230,19 +230,43 @@ Entries:
   time: '2024-09-09T14:43:02.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/115
 - author: Ko4ergaPunk
-  changes: []
-  id: 27
-  time: '2024-09-10T06:03:37.0000000+00:00'
-  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/118
-- author: Ko4ergaPunk
-  changes: []
-  id: 28
-  time: '2024-09-10T06:03:56.0000000+00:00'
-  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/119
-- author: Ko4erga
   changes:
     - type: Tweak
       message: Перерисованы люди.
-  id: 29
+  id: 27
   time: '2024-09-10T06:18:21.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/117
+- author: BL02DL
+  changes:
+    - type: Tweak
+      message: >-
+        Изменено логистика теперь старое, доброе снабжение, а юстиция
+        Юридический отдел!
+  id: 28
+  time: '2024-09-10T12:35:39.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/124
+- author: Evgencheg
+  changes:
+    - type: Remove
+      message: Убран космический ветер!
+    - type: Fix
+      message: Исправлена кастомизация чуть чуть.
+  id: 29
+  time: '2024-09-10T16:09:06.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/126
+- author: Evgencheg
+  changes:
+    - type: Fix
+      message: Исправлены флагштоки!
+  id: 30
+  time: '2024-09-10T17:09:47.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/128
+- author: Evgencheg
+  changes:
+    - type: Tweak
+      message: Улучшена карта нормандия!
+    - type: Fix
+      message: Исправлен шаттл!
+  id: 31
+  time: '2024-09-10T18:12:57.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/129
