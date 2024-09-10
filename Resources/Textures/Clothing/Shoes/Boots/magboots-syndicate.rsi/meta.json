@@ -20,7 +20,15 @@
             "directions": 4
         },
         {
+            "name": "equipped-FEET-vulpkanin",
+            "directions": 4
+        },
+        {
             "name": "on-equipped-FEET-vox",
+            "directions": 4
+        },
+        {
+            "name": "on-equipped-FEET-vulpkanin",
             "directions": 4
         },
         {

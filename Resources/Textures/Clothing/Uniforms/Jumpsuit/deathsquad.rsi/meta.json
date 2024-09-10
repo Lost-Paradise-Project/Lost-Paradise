@@ -13,7 +13,11 @@
     {
       "name": "equipped-INNERCLOTHING",
       "directions": 4
-    },    
+    },
+    {
+      "name": "equipped-INNERCLOTHING-vulpkanin",
+      "directions": 4
+    },
     {
       "name": "inhand-left",
       "directions": 4
