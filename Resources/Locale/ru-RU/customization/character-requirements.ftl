@@ -9,12 +9,12 @@ character-department-requirement =
         [true] не быть
        *[other] быть
     } в одном из этих департаментов: { $departments }
-character-timer-department-insufficient = Вам нужно [color=yellow]{ TOSTRING($time, "0") }[/color] больше минут игры на [color={ $departmentColor }]{ $department }[/color] департаменте
-character-timer-department-too-high = Вам нужно [color=yellow]{ TOSTRING($time, "0") }[/color] меньше минут игры на [color={ $departmentColor }]{ $department }[/color] департаменте
-character-timer-overall-insufficient = Вам нужно [color=yellow]{ TOSTRING($time, "0") }[/color] больше общих минут игры
-character-timer-overall-too-high = Вам нужно [color=yellow]{ TOSTRING($time, "0") }[/color] меньше общих минут игры
-character-timer-role-insufficient = Вам нужно [color=yellow]{ TOSTRING($time, "0") }[/color] больше минут игры на [color={ $departmentColor }]{ $job }[/color]
-character-timer-role-too-high = Вам нужно [color=yellow] { TOSTRING($time, "0") }[/color] меньше минут игры на [color={ $departmentColor }]{ $job }[/color]
+character-timer-department-insufficient = Вам нужно на [color=yellow]{ TOSTRING($time, "0") }[/color] больше минут игры на [color={ $departmentColor }]{ $department }[/color] департаменте
+character-timer-department-too-high = Вам нужно на [color=yellow]{ TOSTRING($time, "0") }[/color] меньше минут игры на [color={ $departmentColor }]{ $department }[/color] департаменте
+character-timer-overall-insufficient = Вам нужно на [color=yellow]{ TOSTRING($time, "0") }[/color] больше общих минут игры
+character-timer-overall-too-high = Вам нужно на [color=yellow]{ TOSTRING($time, "0") }[/color] меньше общих минут игры
+character-timer-role-insufficient = Вам нужно на [color=yellow]{ TOSTRING($time, "0") }[/color] больше минут игры на [color={ $departmentColor }]{ $job }[/color]
+character-timer-role-too-high = Вам нужно на [color=yellow] { TOSTRING($time, "0") }[/color] меньше минут игры на [color={ $departmentColor }]{ $job }[/color]
 # Profile
 character-age-requirement =
     Вы должны { $inverted ->

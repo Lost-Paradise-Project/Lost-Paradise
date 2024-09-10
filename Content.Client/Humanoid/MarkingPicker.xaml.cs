@@ -431,7 +431,7 @@ public sealed partial class MarkingPicker : Control
             ColorSelectorSliders colorSelector = new ColorSelectorSliders();
             colorSliders.Add(colorSelector);
 
-            colorContainer.AddChild(new Label { Text = $"{stateNames[i]} color:" });
+            colorContainer.AddChild(new Label { Text = $"{stateNames[i]} цвет:" });
             colorContainer.AddChild(colorSelector);
 
             var listing = _currentMarkings.Markings[_selectedMarkingCategory];
