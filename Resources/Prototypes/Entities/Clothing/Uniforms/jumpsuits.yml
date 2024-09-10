@@ -436,28 +436,15 @@
   description: Busted.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/color.rsi
-    layers:
-    - state: icon
-      color: "#ff8300"
-    - state: prisoner-icon
+    sprite: Clothing/Uniforms/Jumpsuit/prisoner.rsi
   - type: Item
     inhandVisuals:
       left:
       - state: inhand-left
-        color: "#ff8300"
-      - state: prisoner-inhand-left
       right:
       - state: inhand-right
-        color: "#ff8300"
-      - state: prisoner-inhand-right
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/color.rsi
-    clothingVisuals:
-      jumpsuit:
-      - state: equipped-INNERCLOTHING
-        color: "#ff8300"
-      - state: prisoner-equipped-INNERCLOTHING
+    sprite: Clothing/Uniforms/Jumpsuit/prisoner.rsi
   - type: SuitSensor
     controlsLocked: true
     randomMode: false
