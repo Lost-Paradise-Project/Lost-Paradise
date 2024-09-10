@@ -1,8 +1,8 @@
 station-beacon-epistemics = Научный отдел
 station-beacon-mystagogue = Научный Директор
-station-beacon-logistics = Логистика
-station-beacon-logistics-reception = Логистика
-station-beacon-lo = Офицер логистики
+station-beacon-logistics = Снабжение
+station-beacon-logistics-reception = Снабжение
+station-beacon-lo = Квартирмейстер
 station-beacon-conference-room = Конференц-зал
 station-beacon-virology = Вирусология
 station-beacon-metempsychosis = Метемпсихоз

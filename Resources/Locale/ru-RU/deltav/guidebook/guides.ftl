@@ -1,1 +1,1 @@
-guide-entry-justice = Отдел Юстиции
+guide-entry-justice = Юридический отдел
