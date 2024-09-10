@@ -35,7 +35,6 @@ cargo-console-paper-print-name = Заказ #{ $orderNumber }
 cargo-console-paper-print-text =
     Заказ #{ $orderNumber }
     Товар: { $itemName }
-    Кол-во: { $orderQuantity }
     Запросил: { $requester }
     Причина: { $reason }
     Одобрил: { $approver }

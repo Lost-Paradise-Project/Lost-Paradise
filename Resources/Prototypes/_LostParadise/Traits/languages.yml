@@ -5,9 +5,9 @@
   components:
   - type: LanguageKnowledgeModifier
     speaks:
-    - Elf
+    - ElfLang
     understands:
-    - Elf
+    - ElfLang
   requirements:
   - !type:CharacterSpeciesRequirement
     inverted: false
@@ -28,9 +28,9 @@
   components:
   - type: LanguageKnowledgeModifier
     speaks:
-    - Dwarf
+    - DwarfLang
     understands:
-    - Dwarf
+    - DwarfLang
   requirements:
   - !type:CharacterSpeciesRequirement
     inverted: false
