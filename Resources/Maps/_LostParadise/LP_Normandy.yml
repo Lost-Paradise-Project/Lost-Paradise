@@ -42373,14 +42373,14 @@ entities:
       pos: 82.5,-25.5
       parent: 2
     - type: FaxMachine
-      name: Офицер Логистики\КМ
+      name: Квартирмейстер\КМ
   - uid: 12975
     components:
     - type: Transform
       pos: 83.5,-19.5
       parent: 2
     - type: FaxMachine
-      name: Отдел логистики
+      name: Отдел снабжения
   - uid: 14495
     components:
     - type: Transform
@@ -85007,7 +85007,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
       nameSet: True
-      id: Коридор Логистика
+      id: Коридор снабжения
   - uid: 15957
     components:
     - type: Transform
