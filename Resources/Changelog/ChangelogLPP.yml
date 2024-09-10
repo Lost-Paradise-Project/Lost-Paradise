@@ -239,3 +239,10 @@ Entries:
   id: 28
   time: '2024-09-10T06:03:56.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/119
+- author: Ko4erga
+  changes:
+    - type: Tweak
+      message: Перерисованы люди.
+  id: 29
+  time: '2024-09-10T06:18:21.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/117
