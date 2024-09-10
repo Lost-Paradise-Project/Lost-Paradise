@@ -13,6 +13,10 @@
     {
       "name": "equipped-SOCKS",
       "directions": 4
+    },
+    {
+      "name": "equipped-SOCKS-vulpkanin",
+      "directions": 4
     }
   ]
 }
