@@ -1,4 +1,4 @@
-﻿using Content.Client.Corvax.TTS;
+using Content.Client.Corvax.TTS;
 using Content.Shared.Preferences;
 using Robust.Client.UserInterface;
 using Robust.Shared.Random;
@@ -9,8 +9,6 @@ public sealed partial class LobbyUIController
 {
     [Dependency] private readonly IRobustRandom _rng = default!;
     [UISystemDependency] private readonly TTSSystem _tts = default!;
-
-    private HumanoidCharacterProfile? _profile;
 
     private readonly List<string> _sampleText =
         new()
@@ -23,6 +21,7 @@ public sealed partial class LobbyUIController
 
     public void PlayTTS()
     {
+        var _profile = _profileEditor?.Profile ?? (HumanoidCharacterProfile) _preferencesManager.Preferences!.SelectedCharacter;
         // Test moment
         if (_profile == null || _stateManager.CurrentState is not LobbyState)
             return;
