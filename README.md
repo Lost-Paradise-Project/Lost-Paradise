@@ -36,16 +36,14 @@
 
 ### Windows
 
-> 1. Клонируйте репо `git clone`
-> 2. Запустите `git submodule update --init --recursive` в терминале для скачивания движка.
+> 1. Клонируйте репо `git clone https://github.com/Lost-Paradise-Project/Lost-Paradise.git`
 > 3. Запустите `Scripts/bat/buildAllDebug.bat` после каждого измения.
 > 4. Запустите `Scripts/bat/runQuickAll.bat` для запуска клиента и сервера.
 > 5. Подключитесь к "localhost" в клиенте.
 
 ### Linux
 
-> 1. Клонируйте репо `git clone`
-> 2. Запустите `git submodule update --init --recursive` в терминале для скачивания движка.
+> 1. Клонируйте репо `git clone https://github.com/Lost-Paradise-Project/Lost-Paradise.git`
 > 3. Запустите `Scripts/sh/buildAllDebug.sh` после каждого изменения. (После изменения папки Resources не требуется)
 > 4. Запустите `Scripts/sh/runQuickAll.sh` для запуска клиента и сервера.
 > 5. Подключитесь к "localhost" в клиенте.

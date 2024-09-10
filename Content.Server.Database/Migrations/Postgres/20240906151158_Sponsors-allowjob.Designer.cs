@@ -1232,6 +1232,10 @@ namespace Content.Server.Database.Migrations.Postgres
                     .HasColumnType("text")
                     .HasColumnName("allowed_markings");
 
+                // b.Property<DateTime>("ExpireDate")
+                //     .HasColumnType("text")
+                //     .HasColumnName("expire_date");
+
                 b.Property<int>("ExtraSlots")
                     .HasColumnType("integer")
                     .HasColumnName("extra_slots");

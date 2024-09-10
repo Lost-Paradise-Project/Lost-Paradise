@@ -568,29 +568,31 @@ namespace Content.Server.Database.Migrations.Postgres
                 });
 #if LPP_Sponsors
             modelBuilder.Entity("Content.Server.Database.Donate", b =>
-            {
-                b.Property<int>("Id")
-                    .ValueGeneratedOnAdd()
-                    .HasColumnType("integer")
-                    .HasColumnName("donate_id");
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("donate_id");
 
-                b.Property<string>("DonateName")
-                    .IsRequired()
-                    .HasColumnType("text")
-                    .HasColumnName("donate_name");
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                b.Property<int>("ProfileId")
-                    .HasColumnType("integer")
-                    .HasColumnName("profile_id");
+                    b.Property<string>("DonateName")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("donate_name");
 
-                b.HasKey("Id")
-                    .HasName("PK_donate");
+                    b.Property<int>("ProfileId")
+                        .HasColumnType("integer")
+                        .HasColumnName("profile_id");
 
-                b.HasIndex("ProfileId", "DonateName")
-                    .IsUnique();
+                    b.HasKey("Id")
+                        .HasName("PK_donate");
 
-                b.ToTable("donate", (string)null);
-            });
+                    b.HasIndex("ProfileId", "DonateName")
+                        .IsUnique();
+
+                    b.ToTable("donate", (string)null);
+                });
 #endif
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
@@ -1238,46 +1240,50 @@ namespace Content.Server.Database.Migrations.Postgres
                 });
 #if LPP_Sponsors
             modelBuilder.Entity("Content.Server.Database.Sponsor", b =>
-            {
-                b.Property<Guid>("UserId")
-                    .ValueGeneratedOnAdd()
-                    .HasColumnType("uuid")
-                    .HasColumnName("user_id");
+                {
+                    b.Property<Guid>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_id");
 
-                b.Property<bool>("AllowJob")
-                    .HasColumnType("boolean")
-                    .HasColumnName("allow_job");
+                    b.Property<bool>("AllowJob")
+                        .HasColumnType("boolean")
+                        .HasColumnName("allow_job");
 
-                b.Property<string>("AllowedMarkings")
-                    .IsRequired()
-                    .HasColumnType("text")
-                    .HasColumnName("allowed_markings");
+                    b.Property<string>("AllowedMarkings")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("allowed_markings");
 
-                b.Property<int>("ExtraSlots")
-                    .HasColumnType("integer")
-                    .HasColumnName("extra_slots");
+                    // b.Property<DateTime>("ExpireDate")
+                    //     .HasColumnType("text")
+                    //     .HasColumnName("expire_date");
 
-                b.Property<bool>("HavePriorityJoin")
-                    .HasColumnType("boolean")
-                    .HasColumnName("have_priority_join");
+                    b.Property<int>("ExtraSlots")
+                        .HasColumnType("integer")
+                        .HasColumnName("extra_slots");
 
-                b.Property<string>("OOCColor")
-                    .IsRequired()
-                    .HasColumnType("text")
-                    .HasColumnName("ooccolor");
+                    b.Property<bool>("HavePriorityJoin")
+                        .HasColumnType("boolean")
+                        .HasColumnName("have_priority_join");
 
-                b.Property<int>("Tier")
-                    .HasColumnType("integer")
-                    .HasColumnName("tier");
+                    b.Property<string>("OOCColor")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("ooccolor");
 
-                b.HasKey("UserId")
-                    .HasName("PK_sponsors");
+                    b.Property<int>("Tier")
+                        .HasColumnType("integer")
+                        .HasColumnName("tier");
 
-                b.HasIndex("UserId")
-                    .IsUnique();
+                    b.HasKey("UserId")
+                        .HasName("PK_sponsors");
 
-                b.ToTable("sponsors", (string)null);
-            });
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("sponsors", (string)null);
+                });
 #endif
             modelBuilder.Entity("Content.Server.Database.Trait", b =>
                 {
@@ -1601,7 +1607,19 @@ namespace Content.Server.Database.Migrations.Postgres
 
                     b.Navigation("Server");
                 });
+#if LPP_Sponsors
+            modelBuilder.Entity("Content.Server.Database.Donate", b =>
+                {
+                    b.HasOne("Content.Server.Database.Profile", "Profile")
+                        .WithMany("Donate")
+                        .HasForeignKey("ProfileId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_donate_profile_profile_id");
 
+                    b.Navigation("Profile");
+                });
+#endif
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
                     b.HasOne("Content.Server.Database.Profile", "Profile")
@@ -1847,7 +1865,9 @@ namespace Content.Server.Database.Migrations.Postgres
             modelBuilder.Entity("Content.Server.Database.Profile", b =>
                 {
                     b.Navigation("Antags");
-
+#if LPP_Sponsors
+                    b.Navigation("Donate");
+#endif
                     b.Navigation("Jobs");
 
                     b.Navigation("Loadouts");

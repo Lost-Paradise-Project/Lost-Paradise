@@ -6065,3 +6065,68 @@ Entries:
   id: 6334
   time: '2024-09-08T15:16:29.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/807
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Glacier, Core, and Saltern now have assistant job slots.
+    - type: Add
+      message: >-
+        Glacier, Core, and Saltern are now able to be voted on for map
+        selection.
+  id: 6335
+  time: '2024-09-09T04:13:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/838
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Wide Swing is no longer possible as a default on all weapons, the
+        default is now Power Attack (10 stamina spent, for 20% bonus damage to
+        single target only). Only a small number of weapons designed to
+        "Cleave", still have their wide swing functionality.
+  id: 6336
+  time: '2024-09-09T04:13:14.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/866
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Arrivals has been re-enabled. I feel sorry for all the people who
+        thought we had disabled it. This was a legacy toggle that was leftover
+        from when we forked DeltaV
+  id: 6337
+  time: '2024-09-09T04:13:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/871
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Felinids and Harpies will now correctly never set off floor traps, such
+        as landmines and mouse traps.
+    - type: Add
+      message: >-
+        Trap Avoider has been added as a new trait, allowing characters to buy
+        the innate ability to avoid floor traps. I would have named this "Light
+        Step", after the trait from Fallout that shares its name and effect, but
+        someone already gave that name to a different trait entirely.
+  id: 6338
+  time: '2024-09-09T04:14:44.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/884
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Arm and Leg markings are now split between individual arms, hands, legs,
+        and feet.
+  id: 6339
+  time: '2024-09-09T05:30:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/870
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        The Antag Refactor has been once again added back in. More antags will
+        be coming soon. 
+  id: 6340
+  time: '2024-09-09T14:21:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/794

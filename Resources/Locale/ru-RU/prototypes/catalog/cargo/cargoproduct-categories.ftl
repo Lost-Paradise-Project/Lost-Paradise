@@ -1,6 +1,6 @@
 cargoproduct-category-name-armory = Оружейная
 cargoproduct-category-name-atmospherics = Атмосферика
-cargoproduct-category-name-cargo = Логистика
+cargoproduct-category-name-cargo = Снабжение
 cargoproduct-category-name-circuitboards = Платы и схемы
 cargoproduct-category-name-emergency = Аварийное снаряжение
 cargoproduct-category-name-engineering = Инженерия

@@ -3,7 +3,7 @@
   alias:
   - lppsurvival
   name: heavy-title
-  showInVote: true # secret # DeltaV - Me when the survival. Used for periapsis.
+  showInVote: true
   description: heavy-description
   minPlayers: 40
   rules:
@@ -16,7 +16,7 @@
   alias:
   - lppextended
   name: easy-title
-  showInVote: true #2boring2vote # DeltaV - I'd like to disagree, used for periapsis.
+  showInVote: true
   description: easy-description
   rules:
   - BasicStationEventScheduler

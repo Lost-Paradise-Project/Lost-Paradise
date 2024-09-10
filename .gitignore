@@ -314,4 +314,4 @@ Resources/MapImages
 .direnv/
 
 # locale fix
-!/Resources/Locale/*
+!Resources/Locale/**

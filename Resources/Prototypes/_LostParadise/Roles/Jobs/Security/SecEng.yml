@@ -27,6 +27,8 @@
 - type: startingGear
   id: LPPSecurityEngineerGear
   equipment:
+    jumpsuit: LPPClothingUniformJumpsuitSecEngineer
+    back: LPPClothingBackpackSecurityEngineer
     shoes: LPPClothingShoesBootsJackSecEnginer
     eyes: LPPClothingEyesHudSecEng
     gloves: ClothingHandsGlovesColorYellow
@@ -38,6 +40,7 @@
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
   underwear: LPPBriefs
+  innerClothingSkirt: LPPClothingUniformJumpSkirtSecEngineer
   breast: LPPBraAltWhite
   storage:
     back:
