@@ -270,3 +270,20 @@ Entries:
   id: 31
   time: '2024-09-10T18:12:57.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/129
+- author: MegaDaimond
+  changes:
+    - type: Add
+      message: >-
+        Добавлен туристический рюкзак (Чуть больше по размерам чем обычный
+        рюкзак)
+    - type: Add
+      message: Добавлены магнитные сапоги охотника
+    - type: Add
+      message: Добавлен набор гражданской обороны (Много пушек плохого качества)
+    - type: Tweak
+      message: Изменён набор охотника
+    - type: Tweak
+      message: Цены на новые оружейные ящики были изменены
+  id: 32
+  time: '2024-09-10T21:07:33.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/113
