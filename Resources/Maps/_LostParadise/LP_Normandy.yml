@@ -45512,7 +45512,6 @@ entities:
       pos: 59.5,1.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
       deviceLists:
       - 15401
       - 15400
