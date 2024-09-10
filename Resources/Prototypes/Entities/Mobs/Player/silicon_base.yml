@@ -36,8 +36,8 @@
     - type: Examiner
     # - type: Recyclable
     #   safe: false
-    # - type: EyeProtection # You'll want this if your robot can't wear glasses, like an IPC.
-    #   protectionTime: 12
+    - type: EyeProtection # You'll want this if your robot can't wear glasses, like an IPC.
+      protectionTime: 12
     - type: Silicon
       entityType: enum.SiliconType.Player
       batteryPowered: false # Needs to also have a battery!
