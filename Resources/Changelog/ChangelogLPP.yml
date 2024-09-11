@@ -287,3 +287,36 @@ Entries:
   id: 32
   time: '2024-09-10T21:07:33.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/113
+- author: Evgencheg
+  changes:
+    - type: Tweak
+      message: adminwho ВСЕМ!
+    - type: Tweak
+      message: Изменены количества кувшинов!
+    - type: Tweak
+      message: Собака может использовать нюх!
+    - type: Tweak
+      message: Шива теперь знает общегалактический!
+    - type: Fix
+      message: Исправлены переводы!
+  id: 33
+  time: '2024-09-11T16:43:16.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/134
+- author: Ko4erga
+  changes:
+    - type: Tweak
+      message: Перерисованы вульпы.
+    - type: Fix
+      message: Исправлено отображение ног людей.
+  id: 34
+  time: '2024-09-11T16:43:26.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/133
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Добавлены переводы парочки вещей
+    - type: Fix
+      message: Исправлено веселье!
+  id: 35
+  time: '2024-09-11T16:50:27.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/135
