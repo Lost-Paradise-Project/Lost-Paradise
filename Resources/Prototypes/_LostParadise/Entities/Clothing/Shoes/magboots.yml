@@ -96,3 +96,27 @@
     - WhitelistChameleon
   - type: StaticPrice
     price: 450
+
+- type: entity
+  parent: ClothingShoesBootsMag
+  id: LPPClothingShoesBootsMagHunter
+  name: магнитные сапоги охотника на карпов
+  description: Коммерческие магнитные сапоги дли тех, кто предпочитает охотиться в невесомости либо при слабой гравитации.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/huntermagboots.rsi
+    state: icon
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/huntermagboots.rsi
+  - type: Magboots
+    toggleAction: ActionToggleMagbootsAdvanced
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+    enabled: false
+  - type: NoSlip
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: StaticPrice
+    price: 450

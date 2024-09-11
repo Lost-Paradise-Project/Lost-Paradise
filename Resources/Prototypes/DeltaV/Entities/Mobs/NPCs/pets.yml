@@ -38,6 +38,7 @@
   - type: GhostTakeoverAvailable
   - type: InteractionPopup
     successChance: 1
+  - type: ScentTracker
   - type: Butcherable
     spawned:
     - id: FoodMeat

@@ -11,10 +11,10 @@
 - type: cargoProduct
   id: LPPCratehunterHasLanded
   icon:
-    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/marsrifle.rsi
+    sprite: _LostParadise/Clothing/Head/Helmets/winterhardsuithelm.rsi
     state: icon
   product: LPPCratehunter
-  cost: 15000
+  cost: 10500
   category: cargoproduct-category-name-security
   group: market
 
@@ -25,5 +25,15 @@
     state: icon
   product: LPPCrateVintageDEMOCRACY
   cost: 19000
+  category: cargoproduct-category-name-security
+  group: market
+
+- type: cargoProduct
+  id: LPPCrateCrateCivilianDefensehasLanded
+  icon:
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/marsrifle.rsi
+    state: icon
+  product: LPPCratecivdef
+  cost: 10000
   category: cargoproduct-category-name-security
   group: market
