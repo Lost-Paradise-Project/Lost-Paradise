@@ -302,3 +302,12 @@ Entries:
   id: 33
   time: '2024-09-11T16:43:16.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/134
+- author: Ko4erga
+  changes:
+    - type: Tweak
+      message: Перерисованы вульпы.
+    - type: Fix
+      message: Исправлено отображение ног людей.
+  id: 34
+  time: '2024-09-11T16:43:26.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/133
