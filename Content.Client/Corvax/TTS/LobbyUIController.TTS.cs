@@ -21,11 +21,11 @@ public sealed partial class LobbyUIController
 
     public void PlayTTS()
     {
-        var _profile = _profileEditor?.Profile ?? (HumanoidCharacterProfile) _preferencesManager.Preferences!.SelectedCharacter;
+        var profile = _profileEditor?.Profile ?? (HumanoidCharacterProfile) _preferencesManager.Preferences!.SelectedCharacter;
         // Test moment
-        if (_profile == null || _stateManager.CurrentState is not LobbyState)
+        if (profile == null || _stateManager.CurrentState is not LobbyState)
             return;
 
-        _tts.RequestGlobalTTS(_rng.Pick(_sampleText), _profile.Voice);
+        _tts.RequestGlobalTTS(_rng.Pick(_sampleText), profile.Voice);
     }
 }

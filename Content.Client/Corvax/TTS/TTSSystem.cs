@@ -47,6 +47,7 @@ public sealed class TTSSystem : EntitySystem
 
     private float _volume = 0f;
     private int _fileIdx = 0;
+    private Dictionary<ResPath, float> _filesToDelete = new();
 
     public override void Initialize()
     {
@@ -54,6 +55,21 @@ public sealed class TTSSystem : EntitySystem
         _resourceCache.AddRoot(Prefix, _contentRoot);
         _cfg.OnValueChanged(CCCVars.TTSVolume, OnTtsVolumeChanged, true);
         SubscribeNetworkEvent<PlayTTSEvent>(OnPlayTTS);
+    }
+
+    public override void Update(float frameTime)
+    {
+        base.Update(frameTime);
+
+        if (_filesToDelete.Count > 0)
+            foreach (var key in _filesToDelete.Keys)
+            {
+                _filesToDelete[key] -= frameTime;
+                if (_filesToDelete[key] <= 0)
+                {
+                    _filesToDelete.Remove(key);
+                }
+            }
     }
 
     public override void Shutdown()
@@ -81,7 +97,7 @@ public sealed class TTSSystem : EntitySystem
 #endif
         if (!canPlay)
             return;
-        _sawmill.Debug($"Play TTS audio {ev.Data.Length} bytes from {ev.SourceUid} entity");
+        //_sawmill.Debug($"Play TTS audio {ev.Data.Length} bytes from {ev.SourceUid} entity");
 
         var volume = AdjustVolume(ev.IsWhisper);
 
@@ -114,7 +130,8 @@ public sealed class TTSSystem : EntitySystem
             _audio.PlayGlobal(soundPath, Filter.Local(), false);
         }
 
-        _contentRoot.RemoveFile(filePath);
+        _filesToDelete.Add(filePath, 50);    //удаление файла отложено на 50 секунд (приблизительно)
+        //_contentRoot.RemoveFile(filePath);
     }
 
     private float AdjustVolume(bool isWhisper)
