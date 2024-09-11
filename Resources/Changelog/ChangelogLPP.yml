@@ -311,3 +311,12 @@ Entries:
   id: 34
   time: '2024-09-11T16:43:26.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/133
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Добавлены переводы парочки вещей
+    - type: Fix
+      message: Исправлено веселье!
+  id: 35
+  time: '2024-09-11T16:50:27.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/135
