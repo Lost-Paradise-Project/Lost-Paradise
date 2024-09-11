@@ -20,3 +20,4 @@ marking-LPPAlloldpain = Лорд Боли
 marking-LPPAlltavrhorn = Минотавр
 marking-LPPAlltelehorn = Телерог
 marking-LPPAllvampirehorn = Рога Вампира
+marking-LPPInariFoxStuff = Лисиьи штучки Инари
