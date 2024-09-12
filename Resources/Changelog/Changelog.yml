@@ -6229,3 +6229,45 @@ Entries:
   id: 6350
   time: '2024-09-11T21:03:37.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/907
+- author: Squishy77
+  changes:
+    - type: Add
+      message: >-
+        added rcds to the list of possible re and ported over the re update from
+        delta 
+    - type: Tweak
+      message: >-
+        tweaked the costs of boards re-machine boards to be more consistent with
+        their post hyper lathe update counter parts
+  id: 6351
+  time: '2024-09-12T00:12:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/910
+- author: SleepyScarecrow
+  changes:
+    - type: Tweak
+      message: Ethanol Contents
+    - type: Fix
+      message: SnowWhite Recipe
+    - type: Tweak
+      message: Ethanol overdose changed from 15 to 45
+  id: 6352
+  time: '2024-09-12T00:14:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/911
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: Ported a number of jukebox songs from Delta-V.
+  id: 6353
+  time: '2024-09-12T00:14:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/912
+- author: Skubman
+  changes:
+    - type: Fix
+      message: >-
+        Blood Deficiency now makes you lose a consistent percentage of blood
+        regardless of your blood volume, which is dictated by size. This makes
+        the time to low blood and death consistent for every character of all
+        sizes with this trait.
+  id: 6354
+  time: '2024-09-12T00:15:18.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/895
