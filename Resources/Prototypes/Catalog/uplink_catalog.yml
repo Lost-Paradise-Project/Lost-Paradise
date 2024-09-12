@@ -1354,7 +1354,7 @@
   icon: { sprite: /Textures/Structures/Storage/Crates/syndicate.rsi, state: icon }
   productEntity: CrateCybersunJuggernautBundle
   cost:
-    Telecrystal: 12
+    Telecrystal: 11
   categories:
   - UplinkArmor
 
@@ -1761,6 +1761,6 @@
   icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi, state: icon }
   productEntity: LPPClothingOuterHardsuitAcientSyndie
   cost:
-    Telecrystal: 11
+    Telecrystal: 12
   categories:
   - UplinkArmor
