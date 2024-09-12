@@ -90,7 +90,7 @@ namespace Content.Client.Preferences.UI
         private Button _loadoutsRemoveUnusableButton => LoadoutsRemoveUnusableButton;
         private NeoTabContainer _loadoutsTabs => CLoadoutsTabs;
 
-        private BoxContainer _donateList => DonateList; // Lost Paradise Donate Preferences
+        private BoxContainer _donateList => LPPDonateTab; // Lost Paradise Donate Preferences
 #if LPP_Sponsors
         private List<_LostParadise.Donate.DonatePreferenceSelector> _donatePreferences;     // Lost Paradise Donate Preferences
 #endif
@@ -609,25 +609,27 @@ namespace Content.Client.Preferences.UI
 
 #if LPP_Sponsors            // Lost Paradise Donate Preferences
             #region Donate
-            LPPDonates.Orphan();
+            LPPDonateTab.Orphan();
+            _tabContainer.AddTab(LPPDonateTab, Loc.GetString("lost-donate-editor"));
             var donate = prototypeManager.EnumeratePrototypes<Shared._LostParadise.Donate.DonatePrototype>().OrderBy(t => Loc.GetString(t.Name)).ToList();
             _donatePreferences = new List<_LostParadise.Donate.DonatePreferenceSelector>();
-            _tabContainer.AddTab(LPPDonates, Loc.GetString("lost-donate-editor"));
             var granted = false;
+            _donateList.DisposeAllChildren();
             if (donate.Count > 0)
             {
                 foreach (var donatet in donate)
                 {
                     var selector = new _LostParadise.Donate.DonatePreferenceSelector(donatet);
-                    _donateList.AddChild(selector);
-                    _donatePreferences.Add(selector);
-
                     selector.PreferenceChanged += preference =>
                     {
                         Profile = Profile?.WithDonatePreference(donatet.ID, preference);
+                        SetDirty();
                     };
                     if (selector.Gave)
                         granted = true;
+
+                    _donateList.AddChild(selector);
+                    _donatePreferences.Add(selector);
                 }
             }
             if (!granted)
