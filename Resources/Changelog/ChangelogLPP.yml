@@ -327,3 +327,10 @@ Entries:
   id: 36
   time: '2024-09-12T15:23:51.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/138
+- author: PowerKAT1
+  changes:
+    - type: Fix
+      message: N7 Нормандия
+  id: 37
+  time: '2024-09-12T19:00:26.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/139
