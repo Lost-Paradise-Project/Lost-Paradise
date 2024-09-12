@@ -320,3 +320,17 @@ Entries:
   id: 35
   time: '2024-09-11T16:50:27.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/135
+- author: KARTOXA_LAND
+  changes:
+    - type: Fix
+      message: Исправлена одна игрушка. Вам лучше не знать какая и зачем.
+  id: 36
+  time: '2024-09-12T15:23:51.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/138
+- author: PowerKAT1
+  changes:
+    - type: Fix
+      message: N7 Нормандия
+  id: 37
+  time: '2024-09-12T19:00:26.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/139
