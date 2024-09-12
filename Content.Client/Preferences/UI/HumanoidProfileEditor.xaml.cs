@@ -623,7 +623,6 @@ namespace Content.Client.Preferences.UI
                     selector.PreferenceChanged += preference =>
                     {
                         Profile = Profile?.WithDonatePreference(donatet.ID, preference);
-                        SetDirty();
                     };
                     if (selector.Gave)
                         granted = true;
@@ -660,6 +659,19 @@ namespace Content.Client.Preferences.UI
             IsDirty = false;
         }
 
+#if LPP_Sponsors        // Lost Paradise Donate Preferences
+        private void RefreshDonatePreferences()
+        {
+            _donatePreferences = new List<_LostParadise.Donate.DonatePreferenceSelector>();
+            foreach (var preferenceSelector in _donatePreferences)
+            {
+                var donateId = preferenceSelector.Donate.ID;
+                var preference = Profile?.DonatePreferences.Contains(donateId) ?? false;
+
+                preferenceSelector.Preference = preference;
+            }
+        }
+#endif
 
         private void LoadoutsChanged(bool enabled)
         {
