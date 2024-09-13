@@ -8,6 +8,14 @@
   },
   "states": [
     {
+      "name": "snout_splotch_primary",
+      "directions": 4
+    },
+    {
+      "name": "snout_splotch_secondary",
+      "directions": 4
+    },
+    {
       "name": "tail_smooth_front",
       "directions": 4
     },
