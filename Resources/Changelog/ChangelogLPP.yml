@@ -334,3 +334,24 @@ Entries:
   id: 37
   time: '2024-09-12T19:00:26.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/139
+- author: MegaDaimond
+  changes:
+    - type: Tweak
+      message: >-
+        Изменены древний и охотничий скафандры (Теперь они работают как обычные
+        скафандры из-за бага :( )
+    - type: Tweak
+      message: Изменена цена на древний скафандр (12 ТК)
+    - type: Tweak
+      message: Изменена цена на скафандр джаггернаута синдиката (11 ТК)
+    - type: Tweak
+      message: Коэффициент стамина резиста для скафандров ОБР/ЯО/ЭС был увеличен
+    - type: Tweak
+      message: >-
+        Спрайты ножей, бутылочек, баночки для таблеток, мензурок и кувшинов был
+        изменён
+    - type: Fix
+      message: Скафандры ОБР, ЯО и ЭС теперь имеют биокодинг
+  id: 38
+  time: '2024-09-13T21:38:21.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/137
