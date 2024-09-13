@@ -643,7 +643,7 @@ namespace Content.Client.Preferences.UI
             #endregion
 
 #else
-            LPPDonate.Dispose();
+            LPPDonateTab.Dispose();
 #endif
             #endregion Left
 
