@@ -4,6 +4,9 @@ using Content.Shared.Preferences;
 using Content.Shared.Roles;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
+#if LPP_Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.Preferences.UI;
 
@@ -40,6 +43,13 @@ public sealed class AntagPreferenceSelector : RequirementsSelector<AntagPrototyp
         var protoMan = IoCManager.Resolve<IPrototypeManager>();
         var configMan = IoCManager.Resolve<IConfigurationManager>();
 
+#if LPP_Sponsors
+        var sys = IoCManager.Resolve<IEntitySystemManager>();
+        var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+        checkSponsorSystem.GoCheckSponsor();
+        var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
+#endif
+
         if (proto.Requirements != null
             && !characterReqs.CheckRequirementsValid(
                 proto.Requirements,
@@ -51,7 +61,11 @@ public sealed class AntagPreferenceSelector : RequirementsSelector<AntagPrototyp
                 entMan,
                 protoMan,
                 configMan,
-                out var reasons))
+                out var reasons
+#if LPP_Sponsors
+                , 0, sponsorTier
+#endif
+                ))
             LockRequirements(characterReqs.GetRequirementsText(reasons));
     }
 }

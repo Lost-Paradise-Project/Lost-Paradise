@@ -20,6 +20,9 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+#if LPP_Sponsors
+using Content.Server._LostParadise.Sponsors;
+#endif
 
 namespace Content.Server.Players.PlayTimeTracking;
 
@@ -37,7 +40,9 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
     [Dependency] private readonly CharacterRequirementsSystem _characterRequirements = default!;
     [Dependency] private readonly IServerPreferencesManager _prefs = default!;
     [Dependency] private readonly IConfigurationManager _config = default!;
-
+#if LPP_Sponsors
+    [Dependency] private readonly CheckSponsorSystem _checkSponsor = default!;
+#endif
 
     public override void Initialize()
     {
@@ -180,6 +185,10 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
         var isWhitelisted = player.ContentData()?.Whitelisted ?? false; // DeltaV - Whitelist requirement
 
+#if LPP_Sponsors
+        var sponsorTier = _checkSponsor.CheckUser(player.UserId).Item2 ?? 0;
+#endif
+
         return _characterRequirements.CheckRequirementsValid(
             job.Requirements,
             job,
@@ -190,7 +199,11 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
             EntityManager,
             _prototypes,
             _config,
-            out _);
+            out _
+#if LPP_Sponsors
+            , 0, sponsorTier
+#endif
+            );
     }
 
     public HashSet<string> GetDisallowedJobs(ICommonSession player)
@@ -207,6 +220,10 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
         var isWhitelisted = player.ContentData()?.Whitelisted ?? false; // DeltaV - Whitelist requirement
 
+#if LPP_Sponsors
+        var sponsorTier = _checkSponsor.CheckUser(player.UserId).Item2 ?? 0;
+#endif
+
         foreach (var job in _prototypes.EnumeratePrototypes<JobPrototype>())
         {
             if (job.Requirements != null)
@@ -221,7 +238,11 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
                         EntityManager,
                         _prototypes,
                         _config,
-                        out _))
+                        out _
+#if LPP_Sponsors
+            , 0, sponsorTier
+#endif
+                        ))
                     continue;
 
                 goto NoRole;
@@ -249,6 +270,10 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
         var isWhitelisted = player.ContentData()?.Whitelisted ?? false; // DeltaV - Whitelist requirement
 
+#if LPP_Sponsors
+        var sponsorTier = _checkSponsor.CheckUser(player.UserId).Item2 ?? 0;
+#endif
+
         for (var i = 0; i < jobs.Count; i++)
         {
             var job = jobs[i];
@@ -268,7 +293,11 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
                 EntityManager,
                 _prototypes,
                 _config,
-                out _))
+                out _
+#if LPP_Sponsors
+            , 0, sponsorTier
+#endif
+                ))
             {
                 jobs.RemoveSwap(i);
                 i--;
