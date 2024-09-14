@@ -331,6 +331,12 @@ reagent-effect-guidebook-chem-reroll-psionic =
         [1] Даёт
        *[other] Даёт
     } шанс получить другую псионическую силу
+reagent-effect-guidebook-add-moodlet =
+    увеличивает настроение на { $amount }
+    { $timeout ->
+        [0] бесконечность
+       *[other] { $timeout } секунд
+    }
 reagent-effect-guidebook-innoculate-zombie-infection =
     { $chance ->
         [1] Лечит
