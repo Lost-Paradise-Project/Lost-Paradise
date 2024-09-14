@@ -20,6 +20,10 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
+using Robust.Shared.Player;
+#if LPP_Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.LateJoin
 {
@@ -85,6 +89,13 @@ namespace Content.Client.LateJoin
             _jobLists.Clear();
             _jobButtons.Clear();
             _jobCategories.Clear();
+
+#if LPP_Sponsors
+            var sys = IoCManager.Resolve<IEntitySystemManager>();
+            var _checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+            _checkSponsorSystem.GoCheckSponsor();
+            var sponsorTier = _checkSponsorSystem.GetSponsorStatus().Item2;
+#endif
 
             if (!_gameTicker.DisallowedLateJoin && _gameTicker.StationNames.Count == 0)
                 Logger.Warning("No stations exist, nothing to display in late-join GUI");
@@ -273,7 +284,11 @@ namespace Content.Client.LateJoin
                                 _entityManager,
                                 _prototypeManager,
                                 _configManager,
-                                out var reasons))
+                                out var reasons
+#if LPP_Sponsors
+                                , 0, sponsorTier
+#endif
+                                ))
                         {
                             jobButton.Disabled = true;
 

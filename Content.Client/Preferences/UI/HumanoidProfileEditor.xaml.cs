@@ -38,6 +38,9 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using static Content.Client.Stylesheets.StyleBase;
 using Direction = Robust.Shared.Maths.Direction;
+#if LPP_Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.Preferences.UI
 {
@@ -751,6 +754,14 @@ namespace Content.Client.Preferences.UI
             _jobCategories.Clear();
             var firstCategory = true;
 
+#if LPP_Sponsors
+            Logger.Error("SPONSOR: go check sponsor - HPE - UpdateRole");
+            var sys = IoCManager.Resolve<IEntitySystemManager>();
+            var _checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+            _checkSponsorSystem.GoCheckSponsor();
+            var sponsorTier = _checkSponsorSystem.GetSponsorStatus().Item2;
+#endif
+
             var departments = _prototypeManager.EnumeratePrototypes<DepartmentPrototype>().ToArray();
             Array.Sort(departments, DepartmentUIComparer.Instance);
 
@@ -817,7 +828,11 @@ namespace Content.Client.Preferences.UI
                         _entityManager,
                         _prototypeManager,
                         _configurationManager,
-                        out var reasons))
+                        out var reasons
+#if LPP_Sponsors
+                        , 0, sponsorTier
+#endif
+                        ))
                         selector.LockRequirements(_characterRequirementsSystem.GetRequirementsText(reasons));
 
                     category.AddChild(selector);
@@ -860,6 +875,13 @@ namespace Content.Client.Preferences.UI
         /// </summary>
         private void EnsureJobRequirementsValid()
         {
+#if LPP_Sponsors
+            Logger.Error("SPONSOR: go check sponsor - HPE - EnsureJob");
+            var sys = IoCManager.Resolve<IEntitySystemManager>();
+            var _checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+            _checkSponsorSystem.GoCheckSponsor();
+            var sponsorTier = _checkSponsorSystem.GetSponsorStatus().Item2;
+#endif
             foreach (var selector in _jobPriorities)
             {
                 if (selector.Priority == JobPriority.Never
@@ -873,7 +895,11 @@ namespace Content.Client.Preferences.UI
                         _entityManager,
                         _prototypeManager,
                         _configurationManager,
-                        out _))
+                        out _
+#if LPP_Sponsors
+                        , 0, sponsorTier
+#endif
+                        ))
                     continue;
 
                 selector.Priority = JobPriority.Never;
@@ -1520,6 +1546,14 @@ namespace Content.Client.Preferences.UI
             // Get the highest priority job to use for trait filtering
             var highJob = _controller.GetPreferredJob(Profile ?? HumanoidCharacterProfile.DefaultWithSpecies());
 
+#if LPP_Sponsors
+            Logger.Error("SPONSOR: go check sponsor - HPE - UpdateTraits");
+            var sys = IoCManager.Resolve<IEntitySystemManager>();
+            var _checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+            _checkSponsorSystem.GoCheckSponsor();
+            var sponsorTier = _checkSponsorSystem.GetSponsorStatus().Item2;
+#endif
+
             _traits.Clear();
             foreach (var trait in _prototypeManager.EnumeratePrototypes<TraitPrototype>())
             {
@@ -1534,6 +1568,9 @@ namespace Content.Client.Preferences.UI
                     _prototypeManager,
                     _configurationManager,
                     out _
+#if LPP_Sponsors
+                        , 0, sponsorTier
+#endif
                 );
                 _traits.Add(trait, usable);
 
@@ -1826,6 +1863,13 @@ namespace Content.Client.Preferences.UI
             _loadoutPointsBar.MaxValue = points;
             _loadoutPointsBar.Value = points;
 
+#if LPP_Sponsors
+            Logger.Error("SPONSOR: go check sponsor - HPE - UpdateLoadouts");
+            var sys = IoCManager.Resolve<IEntitySystemManager>();
+            var _checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+            _checkSponsorSystem.GoCheckSponsor();
+            var sponsorTier = _checkSponsorSystem.GetSponsorStatus().Item2;
+#endif
 
             // Get the highest priority job to use for loadout filtering
             var highJob = _controller.GetPreferredJob(Profile ?? HumanoidCharacterProfile.DefaultWithSpecies());
@@ -1844,6 +1888,9 @@ namespace Content.Client.Preferences.UI
                     _prototypeManager,
                     _configurationManager,
                     out _
+#if LPP_Sponsors
+                    , 0, sponsorTier
+#endif
                 );
                 _loadouts.Add(loadout, usable);
 

@@ -38,4 +38,20 @@ public abstract partial class CharacterRequirement
         out FormattedMessage? reason,
         int depth = 0
     );
+
+#if LPP_Sponsors
+    public abstract bool IsValid(
+        JobPrototype job,
+        HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes,
+        bool whitelisted,
+        IPrototype prototype,
+        IEntityManager entityManager,
+        IPrototypeManager prototypeManager,
+        IConfigurationManager configManager,
+        out FormattedMessage? reason,
+        int depth = 0,
+        int sponsorTier = 0
+        );
+#endif
 }

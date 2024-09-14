@@ -1062,7 +1062,7 @@ namespace Content.Server.Database
         public string AllowedMarkings { get; set; } = null!;
         public int ExtraSlots { get; set; }
         //public DateTime ExpireDate {get;set;}
-        public bool AllowJob { get; set; } = false;
+        //public bool AllowJob { get; set; } = false;
     }
 #endif
 }
