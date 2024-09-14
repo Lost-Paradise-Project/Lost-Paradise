@@ -68,6 +68,9 @@
   - type: Tag
     tags:
     - HidesTail
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
   - type: LanguageKnowledge
     speaks:
     - GalacticCommon

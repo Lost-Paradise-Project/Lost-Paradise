@@ -104,6 +104,9 @@
   - type: Tag
     tags:
     - HidesTail
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
   - type: ScentTracker
   - type: Flashable
     eyeDamageChance: 0.3
