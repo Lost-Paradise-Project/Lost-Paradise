@@ -28,5 +28,5 @@
   - type: ExplosionResistance
     damageCoefficient: 0.8
   - type: ToggleableClothing
-    clothingPrototype: LPPClothingMaskHunter
-    slot: mask
+    clothingPrototype: LPPClothingHeadHelmetHunter
+    slot: head

@@ -1,4 +1,5 @@
 penlight-off = Свет фонарика выключен
+penlight-cannot-examine-self = Вы не можете осмотреть себя.
 pen-light-exam-title = Диагностический фонарик
 pen-light-window-entity-eyes-text = { $entityName }'s conditions:
 pen-light-window-no-patient-data-text = Нет данных о пациенте.
