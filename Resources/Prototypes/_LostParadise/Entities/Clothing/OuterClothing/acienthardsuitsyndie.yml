@@ -29,9 +29,9 @@
     damageCoefficient: 0.2
   - type: BiocodedClothing
   - type: ToggleableClothing
-    clothingPrototype: LPPClothingMaskAcientSyndie
+    clothingPrototype: LPPClothingHeadHelmetAcientSyndieEVA
     requiredSlot:
     - outerclothing
-    slot: mask
+    slot: head
   - type: StaminaDamageResistance
-    coefficient: 0.4
+    coefficient: 0.35

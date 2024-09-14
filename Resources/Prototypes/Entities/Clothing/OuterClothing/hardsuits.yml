@@ -572,6 +572,7 @@
     - HidesTail
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: BiocodedClothing #LPP
 
 # Syndicate Medic Hardsuit
 - type: entity
@@ -594,6 +595,7 @@
     - HidesTail
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: BiocodedClothing #LPP
 
 #Syndicate Elite Hardsuit
 - type: entity
@@ -632,6 +634,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieElite
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: BiocodedClothing #LPP
 
 #Syndicate Commander Hardsuit
 - type: entity
@@ -666,6 +669,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieCommander
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: BiocodedClothing #LPP
 
 #Cybersun Juggernaut Hardsuit
 - type: entity
@@ -699,7 +703,8 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCybersun
   - type: StaminaDamageResistance
-    coefficient: 0.5 # 50%
+    coefficient: 0.2 # 50%
+  - type: BiocodedClothing #LPP
 
 #Wizard Hardsuit
 - type: entity
@@ -734,6 +739,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitWizard
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: BiocodedClothing #LPP
 
 #Ling Space Suit
 - type: entity
@@ -847,7 +853,8 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTLeader
   - type: StaminaDamageResistance
-    coefficient: 0.5 # 50%
+    coefficient: 0.2 # 50%
+  - type: BiocodedClothing #LPP
 
 #ERT Chaplain Hardsuit
 - type: entity
@@ -864,6 +871,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitERTChaplain
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: BiocodedClothing #LPP
 
 #ERT Engineer Hardsuit
 - type: entity
@@ -880,6 +888,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitERTEngineer
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: BiocodedClothing #LPP
 
 #ERT Medic Hardsuit
 - type: entity
@@ -896,6 +905,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitERTMedical
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: BiocodedClothing #LPP
 
 #ERT Security Hardsuit
 - type: entity
@@ -917,6 +927,7 @@
     - HidesTail
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: BiocodedClothing #LPP
 
 #ERT Janitor Hardsuit
 - type: entity
@@ -933,6 +944,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitERTJanitor
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
+  - type: BiocodedClothing #LPP
 
 #Deathsquad
 - type: entity
@@ -968,7 +980,8 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitDeathsquad
   - type: StaminaDamageResistance
-    coefficient: 0.1 # 90%
+    coefficient: 0.05 # 95%
+  - type: BiocodedClothing #LPP
 
 #CBURN Hardsuit
 - type: entity
@@ -1005,6 +1018,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetCBURN
+  - type: BiocodedClothing #LPP
 
 #MISC. HARDSUITS
 #Clown Hardsuit
