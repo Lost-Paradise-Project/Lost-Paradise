@@ -1,0 +1,200 @@
+- type: guideEntry
+  id: LPPSpaceLaw
+  name: lppguide-entry-spacelaw
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/SpaceLaw.xml"
+  children:
+  - LPPRights
+  - LPPArticlesOfTheCorporateLaw
+  - LPPArrestProcedure
+  - LPPListOfProhibitedSubstances
+  - LPPLevelsOfForceApplication
+  - LPPNecessaryDefense
+  - LPPPunishments
+  - LPPSentenceModifiers
+  - LPPAdditionally
+
+- type: guideEntry
+  id: LPPAdditionally
+  name: lppguide-entry-additionally
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/Additionally.xml"
+
+- type: guideEntry
+  id: LPPRights
+  name: lppguide-entry-rights
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/Rights.xml"
+  children:
+  - LPPBRIB
+  - LPPRightsPrisoners
+
+- type: guideEntry
+  id: LPPSentenceModifiers
+  name: lppguide-entry-sentencemodifiers
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/SentenceModifiers.xml"
+  children:
+  - LPPIndulgences
+  - LPPAggravatingCircumstances
+
+- type: guideEntry
+  id: LPPIndulgences
+  name: lppguide-entry-indulgences
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/Indulgences.xml"
+
+- type: guideEntry
+  id: LPPAggravatingCircumstances
+  name: lppguide-entry-aggravatingcircumstances
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/AggravatingCircumstances.xml"
+
+- type: guideEntry
+  id: LPPPunishments
+  name: lppguide-entry-punishments
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/Punishments.xml"
+  children:
+  - LPPTheSeverityOfTheViolationAndTheAppropriatePenalties
+  - LPPTheRatioOfTheSeverityOfTheViolationAndThePositionsAuthorizedToCarryOutPunishments
+  - LPPRulesForIssuingWarnings
+  - LPPRelapse
+  - LPPExecution
+  - LPPPunishmentsAgainstConfirmedEnemiesOfTheCorporation
+  - LPPAdministrativeBan
+  - LPPAdditionalRulesForSentencing
+
+- type: guideEntry
+  id: LPPTheSeverityOfTheViolationAndTheAppropriatePenalties
+  name: lppguide-entry-theseverityoftheviolationandtheappropriatepenalties
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/TheSeverityOfTheViolationAndTheAppropriatePenalties.xml"
+
+- type: guideEntry
+  id: LPPTheRatioOfTheSeverityOfTheViolationAndThePositionsAuthorizedToCarryOutPunishments
+  name: lppguide-entry-theratiooftheseverityoftheviolationandthepositionsauthorizedtocarryoutpunishments
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/TheRatioOfTheSeverityOfTheViolationAndThePositionsAuthorizedToCarryOutPunishments.xml"
+
+- type: guideEntry
+  id: LPPRulesForIssuingWarnings
+  name: lppguide-entry-rulesforissuingwarnings
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/RulesForIssuingWarnings.xml"
+
+- type: guideEntry
+  id: LPPRelapse
+  name: lppguide-entry-relapse
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/Relapse.xml"
+
+- type: guideEntry
+  id: LPPExecution
+  name: lppguide-entry-execution
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/Execution.xml"
+
+- type: guideEntry
+  id: LPPPunishmentsAgainstConfirmedEnemiesOfTheCorporation
+  name: lppguide-entry-punishmentsagainstconfirmedenemiesofthecorporation
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/PunishmentsAgainstConfirmedEnemiesOfTheCorporation.xml"
+
+- type: guideEntry
+  id: LPPAdministrativeBan
+  name: lppguide-entry-administrativeban
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/AdministrativeBan.xml"
+
+- type: guideEntry
+  id: LPPAdditionalRulesForSentencing
+  name: lppguide-entry-additionalrulesforsentencing
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/AdditionalRulesForSentencing.xml"
+
+- type: guideEntry
+  id: LPPBRIB
+  name: lppguide-entry-brib
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/BRIB.xml"
+
+- type: guideEntry
+  id: LPPRightsPrisoners
+  name: lppguide-entry-rightsprisoners
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/RightsPrisoners.xml"
+
+- type: guideEntry
+  id: LPPArticlesOfTheCorporateLaw
+  name: lppguide-entry-articlesofthecorporatelaw
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/ArticlesOfTheCorporateLaw.xml"
+  children:
+  - LPPMinorViolations
+  - LPPAverageViolations
+  - LPPSeriousViolations
+  - LPPSuperSevereViolations
+  - LPPCriticalViolations
+
+- type: guideEntry
+  id: LPPMinorViolations
+  name: lppguide-entry-minorviolations
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/MinorViolations.xml"
+  children:
+  - LPPExplanationOfLightArticles
+
+- type: guideEntry
+  id: LPPExplanationOfLightArticles
+  name: lppguide-entry-explanationoflightarticles
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/ExplanationOfLightArticles.xml"
+
+- type: guideEntry
+  id: LPPAverageViolations
+  name: lppguide-entry-averageviolations
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/AverageViolations.xml"
+  children:
+  - LPPExplanationOfAverageArticles
+
+- type: guideEntry
+  id: LPPExplanationOfAverageArticles
+  name: lppguide-entry-explanationofaveragearticles
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/ExplanationOfAverageArticles.xml"
+
+- type: guideEntry
+  id: LPPSeriousViolations
+  name: lppguide-entry-seriousviolations
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/SeriousViolations.xml"
+  children:
+  - LPPExplanationOfSeriousArticles
+
+- type: guideEntry
+  id: LPPExplanationOfSeriousArticles
+  name: lppguide-entry-explanationofseriousarticles
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/ExplanationOfSeriousArticles.xml"
+
+- type: guideEntry
+  id: LPPSuperSevereViolations
+  name: lppguide-entry-supersevereviolations
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/SuperSevereViolations.xml"
+  children:
+  - LPPExplanationOfSuperSevereArticles
+
+- type: guideEntry
+  id: LPPExplanationOfSuperSevereArticles
+  name: lppguide-entry-explanationofsuperseverearticles
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/ExplanationOfSuperSevereArticles.xml"
+
+- type: guideEntry
+  id: LPPCriticalViolations
+  name: lppguide-entry-criticalviolations
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/CriticalViolations.xml"
+  children:
+  - LPPExplanationOfCriticalArticles
+
+- type: guideEntry
+  id: LPPExplanationOfCriticalArticles
+  name: lppguide-entry-explanationofcriticalarticles
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/ExplanationOfCriticalArticles.xml"
+
+- type: guideEntry
+  id: LPPArrestProcedure
+  name: lppguide-entry-arrestprocedure
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/ArrestProcedure.xml"
+
+- type: guideEntry
+  id: LPPListOfProhibitedSubstances
+  name: lppguide-entry-listofprohibitedsubstances
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/ListOfProhibitedSubstances.xml"
+
+- type: guideEntry
+  id: LPPLevelsOfForceApplication
+  name: lppguide-entry-levelsofforceapplication
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/LevelsOfForceApplication.xml"
+
+- type: guideEntry
+  id: LPPNecessaryDefense
+  name: lppguide-entry-necessarydefense
+  text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/NecessaryDefense.xml"
