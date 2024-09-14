@@ -106,7 +106,7 @@ public sealed partial class CharacterLogicOrRequirement : CharacterRequirement
                 entityManager, prototypeManager, configManager, out raisin, depth + 1);
 #else
             validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager, out var raisin, depth + 1);
+                entityManager, prototypeManager, configManager, out raisin, depth + 1);
 #endif
 
             if (validation)
@@ -181,7 +181,7 @@ public sealed partial class CharacterLogicXorRequirement : CharacterRequirement
                 entityManager, prototypeManager, configManager, out raisin, depth + 1);
 #else
             validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager, out var raisin, depth + 1);
+                entityManager, prototypeManager, configManager, out raisin, depth + 1);
 #endif
             if (validation)
             {
