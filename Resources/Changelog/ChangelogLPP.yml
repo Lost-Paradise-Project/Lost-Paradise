@@ -371,3 +371,14 @@ Entries:
   id: 40
   time: '2024-09-14T12:00:48.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/144
+- author: SpicyDarkFox
+  changes:
+    - type: Fix
+      message: Исправлена выдача личных вещей
+    - type: Fix
+      message: Исправлена вкладка внешних черт
+    - type: Fix
+      message: Исправлены недочеты ТТС
+  id: 41
+  time: '2024-09-14T17:52:51.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/140
