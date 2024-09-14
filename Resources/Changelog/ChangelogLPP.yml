@@ -382,3 +382,12 @@ Entries:
   id: 41
   time: '2024-09-14T17:52:51.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/140
+- author: Evgencheg
+  changes:
+    - type: Add
+      message: Проведён АПСТРИМ(Маленький)!
+    - type: Fix
+      message: Исправлены все ксено расы!
+  id: 42
+  time: '2024-09-14T19:10:56.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/145
