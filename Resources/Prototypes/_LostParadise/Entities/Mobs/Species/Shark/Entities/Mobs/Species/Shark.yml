@@ -49,6 +49,9 @@
     - type: Tag
       tags:
       - HidesTail
+      - CanPilot
+      - FootstepSound
+      - DoorBumpOpener
     - type: Vocal
       sounds:
         Male: MaleHuman
