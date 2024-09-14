@@ -362,3 +362,12 @@ Entries:
   id: 39
   time: '2024-09-14T06:49:12.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/142
+- author: Ko4erga
+  changes:
+    - type: Tweak
+      message: Немного изменена морда "Вульпий".
+    - type: Fix
+      message: Удлинена мордочка у Вульп.
+  id: 40
+  time: '2024-09-14T12:00:48.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/144
