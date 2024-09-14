@@ -148,11 +148,10 @@ public sealed class LoadoutPreferenceSelector : Control
             tooltip.Append($"{Loc.GetString(desc)}");
 
 #if LPP_Sponsors
-        Logger.Error("SPONSOR: go check sponsor - Loadout");
         var sys = IoCManager.Resolve<IEntitySystemManager>();
-        var _checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
-        _checkSponsorSystem.GoCheckSponsor();
-        var sponsorTier = _checkSponsorSystem.GetSponsorStatus().Item2;
+        var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+        checkSponsorSystem.GoCheckSponsor();
+        var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
 #endif
 
         // Get requirement reasons

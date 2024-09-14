@@ -85,7 +85,7 @@ public sealed class TraitPreferenceSelector : Control
             tooltip.Append(desc);
 
 #if LPP_Sponsors
-        Logger.Error("SPONSOR: go check sponsor - Trait");
+        //Logger.Error("SPONSOR: go check sponsor - Trait");
         var sys = IoCManager.Resolve<IEntitySystemManager>();
         var _checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
         _checkSponsorSystem.GoCheckSponsor();

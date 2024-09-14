@@ -44,11 +44,10 @@ public sealed class AntagPreferenceSelector : RequirementsSelector<AntagPrototyp
         var configMan = IoCManager.Resolve<IConfigurationManager>();
 
 #if LPP_Sponsors
-        Logger.Error("SPONSOR: go check sponsor - Antag");
         var sys = IoCManager.Resolve<IEntitySystemManager>();
-        var _checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
-        _checkSponsorSystem.GoCheckSponsor();
-        var sponsorTier = _checkSponsorSystem.GetSponsorStatus().Item2;
+        var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+        checkSponsorSystem.GoCheckSponsor();
+        var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
 #endif
 
         if (proto.Requirements != null

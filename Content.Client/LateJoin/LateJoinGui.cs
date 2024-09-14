@@ -92,9 +92,9 @@ namespace Content.Client.LateJoin
 
 #if LPP_Sponsors
             var sys = IoCManager.Resolve<IEntitySystemManager>();
-            var _checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
-            _checkSponsorSystem.GoCheckSponsor();
-            var sponsorTier = _checkSponsorSystem.GetSponsorStatus().Item2;
+            var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+            checkSponsorSystem.GoCheckSponsor();
+            var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
 #endif
 
             if (!_gameTicker.DisallowedLateJoin && _gameTicker.StationNames.Count == 0)
