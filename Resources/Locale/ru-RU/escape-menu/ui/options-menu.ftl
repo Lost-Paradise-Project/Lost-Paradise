@@ -116,6 +116,7 @@ ui-options-header-misc = Разное
 ui-options-header-hotbar = Хотбар
 ui-options-header-shuttle = Шаттл
 ui-options-header-map-editor = Редактор карт
+ui-options-hotkey-default-walk = Ходить по умолчанию
 ui-options-header-dev = Разработка
 ui-options-header-general = Основное
 ui-options-hotkey-keymap = Использовать клавиши QWERTY (США)

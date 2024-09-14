@@ -17,6 +17,7 @@
   access:
   - Medical
   - Security
+  - Service
 #  - Brig
   - Maintenance
   - External
