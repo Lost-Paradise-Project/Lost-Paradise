@@ -6271,3 +6271,57 @@ Entries:
   id: 6354
   time: '2024-09-12T00:15:18.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/895
+- author: stellar-novas
+  changes:
+    - type: Add
+      message: Airlocks once again have access wires. Happy hacking!
+  id: 6355
+  time: '2024-09-14T00:48:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/916
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Science Job related items are now part of a Science loadout group, and
+        have all been significantly discounted.
+    - type: Add
+      message: Added more clothing to the science section in loadouts.
+    - type: Tweak
+      message: Adjusted command loadout item pricing.
+    - type: Tweak
+      message: Added localization strings for the new loadout groups.
+  id: 6356
+  time: '2024-09-14T01:00:26.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/914
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Added missing Localizations for Departments, Jobs, and Loadout Item
+        Groups.
+    - type: Add
+      message: >-
+        Bartender-Specific loadouts! Bartenders can now choose to spawn with
+        either their classic shotgun, or a Mosin Nagant that comes preloaded
+        with rubber bullets.
+  id: 6357
+  time: '2024-09-14T01:12:40.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/915
+- author: CilliePaint
+  changes:
+    - type: Tweak
+      message: Stuffed Lawyer's Pockets with Space Law guides!
+    - type: Remove
+      message: Took away Atmos backpacks as Starting equipment.
+  id: 6358
+  time: '2024-09-14T05:41:40.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/897
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        You can now choose whether you want to walk or run by default in the
+        settings.
+  id: 6359
+  time: '2024-09-14T05:44:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/889
