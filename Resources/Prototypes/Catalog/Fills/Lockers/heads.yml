@@ -296,6 +296,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: LPPBookSpaceLaw
       - id: ClothingEyesHudSecurity
       - id: WeaponDisabler
       - id: ClothingOuterCoatHoSTrench
@@ -327,6 +328,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: LPPBookSpaceLaw
       - id: ClothingEyesHudSecurity
       - id: WeaponDisabler
       - id: ClothingOuterCoatHoSTrench

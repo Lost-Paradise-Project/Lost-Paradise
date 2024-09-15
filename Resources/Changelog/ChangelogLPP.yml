@@ -355,3 +355,48 @@ Entries:
   id: 38
   time: '2024-09-13T21:38:21.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/137
+- author: Ko4erga
+  changes:
+    - type: Tweak
+      message: Обновлена станция Submarine.
+  id: 39
+  time: '2024-09-14T06:49:12.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/142
+- author: Ko4erga
+  changes:
+    - type: Tweak
+      message: Немного изменена морда "Вульпий".
+    - type: Fix
+      message: Удлинена мордочка у Вульп.
+  id: 40
+  time: '2024-09-14T12:00:48.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/144
+- author: SpicyDarkFox
+  changes:
+    - type: Fix
+      message: Исправлена выдача личных вещей
+    - type: Fix
+      message: Исправлена вкладка внешних черт
+    - type: Fix
+      message: Исправлены недочеты ТТС
+  id: 41
+  time: '2024-09-14T17:52:51.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/140
+- author: Evgencheg
+  changes:
+    - type: Add
+      message: Проведён АПСТРИМ(Маленький)!
+    - type: Fix
+      message: Исправлены все ксено расы!
+  id: 42
+  time: '2024-09-14T19:10:56.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/145
+- author: BL02DL
+  changes:
+    - type: Add
+      message: Добавлено руководство "Корпоративный закон"!
+    - type: Add
+      message: Добавлено Книга "Корпоративный закон" в шкафы Офицеров и ГСБ, и Вардена
+  id: 43
+  time: '2024-09-14T20:13:05.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/146

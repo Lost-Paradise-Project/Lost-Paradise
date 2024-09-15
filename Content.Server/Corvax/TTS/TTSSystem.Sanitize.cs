@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 using System.Text.RegularExpressions;
 using Content.Server.Chat.Systems;
 
@@ -10,7 +10,7 @@ public sealed partial class TTSSystem
     private void OnTransformSpeech(TransformSpeechEvent args)
     {
         if (!_isEnabled) return;
-        args.Message = args.Message.Replace("+", "");
+        args.Message = args.Message.Replace("+", " ");
     }
 
     private string Sanitize(string text)

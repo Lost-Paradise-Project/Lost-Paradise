@@ -15,9 +15,11 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+#if LPP_Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.Preferences.UI;
-
 
 public sealed class LoadoutPreferenceSelector : Control
 {
@@ -145,13 +147,23 @@ public sealed class LoadoutPreferenceSelector : Control
         if (!string.IsNullOrEmpty(desc))
             tooltip.Append($"{Loc.GetString(desc)}");
 
+#if LPP_Sponsors
+        var sys = IoCManager.Resolve<IEntitySystemManager>();
+        var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+        checkSponsorSystem.GoCheckSponsor();
+        var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
+#endif
 
         // Get requirement reasons
         characterRequirementsSystem.CheckRequirementsValid(
             loadout.Requirements, highJob, profile, new Dictionary<string, TimeSpan>(),
             jobRequirementsManager.IsWhitelisted(), loadout,
             entityManager, prototypeManager, configManager,
-            out var reasons);
+            out var reasons
+#if LPP_Sponsors
+                        , 0, sponsorTier
+#endif
+            );
 
         // Add requirement reasons to the tooltip
         foreach (var reason in reasons)

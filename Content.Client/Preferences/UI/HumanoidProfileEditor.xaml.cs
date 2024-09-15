@@ -38,6 +38,9 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using static Content.Client.Stylesheets.StyleBase;
 using Direction = Robust.Shared.Maths.Direction;
+#if LPP_Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.Preferences.UI
 {
@@ -90,7 +93,7 @@ namespace Content.Client.Preferences.UI
         private Button _loadoutsRemoveUnusableButton => LoadoutsRemoveUnusableButton;
         private NeoTabContainer _loadoutsTabs => CLoadoutsTabs;
 
-        private BoxContainer _donateList => DonateList; // Lost Paradise Donate Preferences
+        private BoxContainer _donateList => LPPDonateTab; // Lost Paradise Donate Preferences
 #if LPP_Sponsors
         private List<_LostParadise.Donate.DonatePreferenceSelector> _donatePreferences;     // Lost Paradise Donate Preferences
 #endif
@@ -609,25 +612,26 @@ namespace Content.Client.Preferences.UI
 
 #if LPP_Sponsors            // Lost Paradise Donate Preferences
             #region Donate
-            LPPDonates.Orphan();
+            LPPDonateTab.Orphan();
+            _tabContainer.AddTab(LPPDonateTab, Loc.GetString("lost-donate-editor"));
             var donate = prototypeManager.EnumeratePrototypes<Shared._LostParadise.Donate.DonatePrototype>().OrderBy(t => Loc.GetString(t.Name)).ToList();
             _donatePreferences = new List<_LostParadise.Donate.DonatePreferenceSelector>();
-            _tabContainer.AddTab(LPPDonates, Loc.GetString("lost-donate-editor"));
             var granted = false;
+            _donateList.DisposeAllChildren();
             if (donate.Count > 0)
             {
                 foreach (var donatet in donate)
                 {
                     var selector = new _LostParadise.Donate.DonatePreferenceSelector(donatet);
-                    _donateList.AddChild(selector);
-                    _donatePreferences.Add(selector);
-
                     selector.PreferenceChanged += preference =>
                     {
                         Profile = Profile?.WithDonatePreference(donatet.ID, preference);
                     };
                     if (selector.Gave)
                         granted = true;
+
+                    _donateList.AddChild(selector);
+                    _donatePreferences.Add(selector);
                 }
             }
             if (!granted)
@@ -642,7 +646,7 @@ namespace Content.Client.Preferences.UI
             #endregion
 
 #else
-            LPPDonate.Dispose();
+            LPPDonateTab.Dispose();
 #endif
             #endregion Left
 
@@ -658,6 +662,19 @@ namespace Content.Client.Preferences.UI
             IsDirty = false;
         }
 
+#if LPP_Sponsors        // Lost Paradise Donate Preferences
+        private void RefreshDonatePreferences()
+        {
+            _donatePreferences = new List<_LostParadise.Donate.DonatePreferenceSelector>();
+            foreach (var preferenceSelector in _donatePreferences)
+            {
+                var donateId = preferenceSelector.Donate.ID;
+                var preference = Profile?.DonatePreferences.Contains(donateId) ?? false;
+
+                preferenceSelector.Preference = preference;
+            }
+        }
+#endif
 
         private void LoadoutsChanged(bool enabled)
         {
@@ -737,6 +754,13 @@ namespace Content.Client.Preferences.UI
             _jobCategories.Clear();
             var firstCategory = true;
 
+#if LPP_Sponsors
+            var sys = IoCManager.Resolve<IEntitySystemManager>();
+            var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+            checkSponsorSystem.GoCheckSponsor();
+            var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
+#endif
+
             var departments = _prototypeManager.EnumeratePrototypes<DepartmentPrototype>().ToArray();
             Array.Sort(departments, DepartmentUIComparer.Instance);
 
@@ -803,7 +827,11 @@ namespace Content.Client.Preferences.UI
                         _entityManager,
                         _prototypeManager,
                         _configurationManager,
-                        out var reasons))
+                        out var reasons
+#if LPP_Sponsors
+                        , 0, sponsorTier
+#endif
+                        ))
                         selector.LockRequirements(_characterRequirementsSystem.GetRequirementsText(reasons));
 
                     category.AddChild(selector);
@@ -846,6 +874,12 @@ namespace Content.Client.Preferences.UI
         /// </summary>
         private void EnsureJobRequirementsValid()
         {
+#if LPP_Sponsors
+            var sys = IoCManager.Resolve<IEntitySystemManager>();
+            var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+            checkSponsorSystem.GoCheckSponsor();
+            var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
+#endif
             foreach (var selector in _jobPriorities)
             {
                 if (selector.Priority == JobPriority.Never
@@ -859,7 +893,11 @@ namespace Content.Client.Preferences.UI
                         _entityManager,
                         _prototypeManager,
                         _configurationManager,
-                        out _))
+                        out _
+#if LPP_Sponsors
+                        , 0, sponsorTier
+#endif
+                        ))
                     continue;
 
                 selector.Priority = JobPriority.Never;
@@ -1506,6 +1544,13 @@ namespace Content.Client.Preferences.UI
             // Get the highest priority job to use for trait filtering
             var highJob = _controller.GetPreferredJob(Profile ?? HumanoidCharacterProfile.DefaultWithSpecies());
 
+#if LPP_Sponsors
+            var sys = IoCManager.Resolve<IEntitySystemManager>();
+            var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+            checkSponsorSystem.GoCheckSponsor();
+            var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
+#endif
+
             _traits.Clear();
             foreach (var trait in _prototypeManager.EnumeratePrototypes<TraitPrototype>())
             {
@@ -1520,6 +1565,9 @@ namespace Content.Client.Preferences.UI
                     _prototypeManager,
                     _configurationManager,
                     out _
+#if LPP_Sponsors
+                        , 0, sponsorTier
+#endif
                 );
                 _traits.Add(trait, usable);
 
@@ -1812,6 +1860,12 @@ namespace Content.Client.Preferences.UI
             _loadoutPointsBar.MaxValue = points;
             _loadoutPointsBar.Value = points;
 
+#if LPP_Sponsors
+            var sys = IoCManager.Resolve<IEntitySystemManager>();
+            var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+            checkSponsorSystem.GoCheckSponsor();
+            var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
+#endif
 
             // Get the highest priority job to use for loadout filtering
             var highJob = _controller.GetPreferredJob(Profile ?? HumanoidCharacterProfile.DefaultWithSpecies());
@@ -1830,6 +1884,9 @@ namespace Content.Client.Preferences.UI
                     _prototypeManager,
                     _configurationManager,
                     out _
+#if LPP_Sponsors
+                    , 0, sponsorTier
+#endif
                 );
                 _loadouts.Add(loadout, usable);
 
