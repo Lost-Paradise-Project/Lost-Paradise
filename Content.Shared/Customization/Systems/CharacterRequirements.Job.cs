@@ -148,7 +148,7 @@ public sealed partial class CharacterDepartmentTimeRequirement : CharacterRequir
         }
 
 #if LPP_Sponsors
-        if (sponsorTier >= 5 !whitelisted)
+        if (sponsorTier >= 5 && !whitelisted)
         {
             reason = null;
             return true;
@@ -232,7 +232,7 @@ public sealed partial class CharacterOverallTimeRequirement : CharacterRequireme
         }
 
 #if LPP_Sponsors
-        if (sponsorTier >= 5 !whitelisted)
+        if (sponsorTier >= 5 && !whitelisted)
         {
             reason = null;
             return true;
