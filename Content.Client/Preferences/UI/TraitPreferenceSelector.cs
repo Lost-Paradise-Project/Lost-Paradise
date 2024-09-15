@@ -11,9 +11,11 @@ using Robust.Client.UserInterface.CustomControls;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+#if LPP_Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.Preferences.UI;
-
 
 public sealed class TraitPreferenceSelector : Control
 {
@@ -82,13 +84,24 @@ public sealed class TraitPreferenceSelector : Control
         if (!string.IsNullOrEmpty(desc) && desc != $"trait-description-{trait.ID}")
             tooltip.Append(desc);
 
+#if LPP_Sponsors
+        //Logger.Error("SPONSOR: go check sponsor - Trait");
+        var sys = IoCManager.Resolve<IEntitySystemManager>();
+        var _checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
+        _checkSponsorSystem.GoCheckSponsor();
+        var sponsorTier = _checkSponsorSystem.GetSponsorStatus().Item2;
+#endif
 
         // Get requirement reasons
         characterRequirementsSystem.CheckRequirementsValid(
             trait.Requirements, highJob, profile, new Dictionary<string, TimeSpan>(),
             jobRequirementsManager.IsWhitelisted(), trait,
             entityManager, prototypeManager, configManager,
-            out var reasons);
+            out var reasons
+#if LPP_Sponsors
+            , 0, sponsorTier
+#endif
+            );
 
         // Add requirement reasons to the tooltip
         foreach (var reason in reasons)

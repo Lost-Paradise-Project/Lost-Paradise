@@ -30,6 +30,12 @@ public sealed partial class CharacterAgeRequirement : CharacterRequirement
     [DataField(required: true)]
     public int Max;
 
+#if LPP_Sponsors
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
@@ -51,6 +57,12 @@ public sealed partial class CharacterBackpackTypeRequirement : CharacterRequirem
     [DataField(required: true)]
     public BackpackPreference Preference;
 
+#if LPP_Sponsors
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
@@ -73,6 +85,12 @@ public sealed partial class CharacterClothingPreferenceRequirement : CharacterRe
     [DataField(required: true)]
     public ClothingPreference Preference;
 
+#if LPP_Sponsors
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
@@ -95,6 +113,12 @@ public sealed partial class CharacterGenderRequirement : CharacterRequirement
     [DataField(required: true)]
     public Gender Gender;
 
+#if LPP_Sponsors
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
@@ -117,6 +141,12 @@ public sealed partial class CharacterSexRequirement : CharacterRequirement
     [DataField(required: true)]
     public Sex Sex;
 
+#if LPP_Sponsors
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
@@ -139,6 +169,12 @@ public sealed partial class CharacterSpeciesRequirement : CharacterRequirement
     [DataField(required: true)]
     public List<ProtoId<SpeciesPrototype>> Species;
 
+#if LPP_Sponsors
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
@@ -173,6 +209,12 @@ public sealed partial class CharacterHeightRequirement : CharacterRequirement
     [DataField]
     public float Max = int.MaxValue;
 
+#if LPP_Sponsors
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
@@ -208,6 +250,12 @@ public sealed partial class CharacterWidthRequirement : CharacterRequirement
     [DataField]
     public float Max = int.MaxValue;
 
+#if LPP_Sponsors
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
@@ -243,6 +291,12 @@ public sealed partial class CharacterWeightRequirement : CharacterRequirement
     [DataField]
     public float Max = int.MaxValue;
 
+#if LPP_Sponsors
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
@@ -282,6 +336,12 @@ public sealed partial class CharacterTraitRequirement : CharacterRequirement
     [DataField(required: true)]
     public List<ProtoId<TraitPrototype>> Traits;
 
+#if LPP_Sponsors
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
@@ -307,6 +367,12 @@ public sealed partial class CharacterLoadoutRequirement : CharacterRequirement
     [DataField(required: true)]
     public List<ProtoId<LoadoutPrototype>> Loadouts;
 
+#if LPP_Sponsors
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
@@ -332,6 +398,12 @@ public sealed partial class CharacterItemGroupRequirement : CharacterRequirement
     [DataField(required: true)]
     public ProtoId<CharacterItemGroupPrototype> Group;
 
+#if LPP_Sponsors
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
