@@ -755,10 +755,10 @@ namespace Content.Client.Preferences.UI
             var firstCategory = true;
 
 #if LPP_Sponsors
-            var sys = IoCManager.Resolve<IEntitySystemManager>();
-            var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
-            checkSponsorSystem.GoCheckSponsor();
-            var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
+            var sys = IoCManager.Resolve<SponsorsManager>();
+            var sponsorTier = 0;
+            if (sys.TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier ?? 0;
 #endif
 
             var departments = _prototypeManager.EnumeratePrototypes<DepartmentPrototype>().ToArray();
@@ -875,10 +875,10 @@ namespace Content.Client.Preferences.UI
         private void EnsureJobRequirementsValid()
         {
 #if LPP_Sponsors
-            var sys = IoCManager.Resolve<IEntitySystemManager>();
-            var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
-            checkSponsorSystem.GoCheckSponsor();
-            var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
+            var sys = IoCManager.Resolve<SponsorsManager>();
+            var sponsorTier = 0;
+            if (sys.TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier ?? 0;
 #endif
             foreach (var selector in _jobPriorities)
             {
@@ -1545,10 +1545,10 @@ namespace Content.Client.Preferences.UI
             var highJob = _controller.GetPreferredJob(Profile ?? HumanoidCharacterProfile.DefaultWithSpecies());
 
 #if LPP_Sponsors
-            var sys = IoCManager.Resolve<IEntitySystemManager>();
-            var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
-            checkSponsorSystem.GoCheckSponsor();
-            var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
+            var sys = IoCManager.Resolve<SponsorsManager>();
+            var sponsorTier = 0;
+            if (sys.TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier ?? 0;
 #endif
 
             _traits.Clear();
@@ -1861,10 +1861,10 @@ namespace Content.Client.Preferences.UI
             _loadoutPointsBar.Value = points;
 
 #if LPP_Sponsors
-            var sys = IoCManager.Resolve<IEntitySystemManager>();
-            var checkSponsorSystem = sys.GetEntitySystem<CheckSponsorClientSystem>();
-            checkSponsorSystem.GoCheckSponsor();
-            var sponsorTier = checkSponsorSystem.GetSponsorStatus().Item2;
+            var sys = IoCManager.Resolve<SponsorsManager>();
+            var sponsorTier = 0;
+            if (sys.TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier ?? 0;
 #endif
 
             // Get the highest priority job to use for loadout filtering

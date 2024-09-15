@@ -148,8 +148,7 @@ public sealed partial class CharacterDepartmentTimeRequirement : CharacterRequir
         }
 
 #if LPP_Sponsors
-        //Logger.Error($"SPONSOR: CharacterDepartmentTimeRequirement. Tier: {sponsorTier}, whitelisted: {whitelisted}");
-        if (sponsorTier >= 5)
+        if (sponsorTier >= 5 && !whitelisted)
         {
             reason = null;
             return true;
@@ -233,8 +232,7 @@ public sealed partial class CharacterOverallTimeRequirement : CharacterRequireme
         }
 
 #if LPP_Sponsors
-        //Logger.Error($"SPONSOR: CharacterOverallTimeRequirement. Tier: {sponsorTier}, whitelisted: {whitelisted}");
-        if  (sponsorTier >=5)
+        if (sponsorTier >= 5 && !whitelisted)
         {
             reason = null;
             return true;
@@ -308,8 +306,7 @@ public sealed partial class CharacterPlaytimeRequirement : CharacterRequirement
         }
 
 #if LPP_Sponsors
-        //Logger.Error($"SPONSOR: CharacterPlaytimeRequirement. Tier: {sponsorTier}, whitelisted: {whitelisted}");
-        if (sponsorTier >= 5)
+        if (sponsorTier >= 5 && !whitelisted)
         {
             reason = null;
             return true;
