@@ -400,3 +400,14 @@ Entries:
   id: 43
   time: '2024-09-14T20:13:05.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/146
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Добавлена возможность спонсорам 5 уровня заходить за любую роль кроме ВЛ
+    - type: Fix
+      message: Исправлена проблема с прическами унатхов
+    - type: Fix
+      message: Исправлены шемаги
+  id: 44
+  time: '2024-09-15T20:05:33.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/148
