@@ -3,6 +3,7 @@ handcuff-component-cuffs-broken-error = Наручники сломаны!
 handcuff-component-target-has-no-hands-error = { $targetName } не имеет рук!
 handcuff-component-target-has-no-free-hands-error = { $targetName } не имеет свободных рук!
 handcuff-component-too-far-away-error = Вы слишком далеко, чтобы использовать наручники!
+handcuff-component-target-flying-error = Вы не можете достать до рук { $targetName }!
 handcuff-component-start-cuffing-observer = { $user } начинает заковывать { $target }!
 handcuff-component-start-cuffing-target-message = Вы начинаете заковывать { $targetName }.
 handcuff-component-start-cuffing-by-other-message = { $otherName } начинает заковывать вас!

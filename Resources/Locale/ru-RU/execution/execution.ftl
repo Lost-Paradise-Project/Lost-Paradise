@@ -7,7 +7,7 @@ execution-verb-message = Используйте свое оружие, чтоб�
 # weapon (the weapon used for the execution)
 
 execution-popup-gun-initial-internal = Вы направляете дуло { THE($weapon) } на голову { $victim }.
-execution-popup-gun-initial-external = { $attacker } плжносит дуло { THE($weapon) } к глове { $victim }.
+execution-popup-gun-initial-external = { $attacker } подносит дуло { THE($weapon) } к глове { $victim }.
 execution-popup-gun-complete-internal = Вы стреляете в голову { $victim }!
 execution-popup-gun-complete-external = { $attacker } сьреляет в голову { $victim }!
 execution-popup-gun-clumsy-internal = Вы промахиваетесь мимо головы { $victim }, и стреляете себе в ногу!
