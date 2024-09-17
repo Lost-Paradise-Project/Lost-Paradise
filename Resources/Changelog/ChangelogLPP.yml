@@ -450,3 +450,18 @@ Entries:
   id: 47
   time: '2024-09-17T16:27:29.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/149
+- author: MegaDaimond
+  changes:
+    - type: Add
+      message: Добавлены новые предметы в планшете СБ
+    - type: Tweak
+      message: Изменены названия категорий в планшете СБ
+    - type: Tweak
+      message: >-
+        Были внесены балансные правки в планшет, некоторые вещи заменены, а так
+        же изменена цена на некоторые лоты.
+    - type: Fix
+      message: Исправлен RSI Доминатора
+  id: 48
+  time: '2024-09-17T19:36:10.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/153
