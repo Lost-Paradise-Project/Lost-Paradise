@@ -180,29 +180,6 @@
 
 # С СОБОЙ
 
-# Временно не работает с КПБ
-# - type: Interaction
-#   id: LPPMakeSleepIPC # Гибернация (Для КПБ и Боргов)
-#   parent: SelfInteractionBase
-#   priority: -6
-#   delay: 20
-#   icon: /Textures/Interface/Actions/malfunction.png # Иконка для синтетиков
-#   hideByRequirement: true # Спрятать если не подходят по параметрам
-#   requirement:
-#     !type:ComplexRequirement
-#     requirements:
-#       - !type:StandingStateRequirement
-#         allowLaying: true
-#         allowKnockedDown: true
-#       - !type:MobStateRequirement
-#         allowedStates: [Alive, Critical] # Гибернация возможна в состоянии
-#       - !type:EntityWhitelistRequirement
-#         whitelist:
-#           components: [Silicon, BorgChassis]
-#   action:
-#     !type:ToggleSleepingAction
-#     sleep: true
-
 - type: Interaction
   id: LPPCheckStatusSilicon # Проверка своего состояния / Состояние другого синтетика
   parent: SelfInteractionBase
