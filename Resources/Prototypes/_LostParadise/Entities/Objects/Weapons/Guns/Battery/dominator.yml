@@ -16,19 +16,19 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    quickEquip: false # Frontier
-    slots: # Frontier
-    - Back # Frontier
-    - suitStorage # Frontier
-    sprite: LPP/Objects/Weapons/Guns/Battery/dominator.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/dominator.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/DeltaV/Weapons/Guns/Gunshots/laser.ogg
     soundEmpty:
       path: /Audio/DeltaV/Weapons/Guns/Empty/dry_fire.ogg
   - type: Battery
-    maxCharge: 2500
-    startingCharge: 2500
+    maxCharge: 2600
+    startingCharge: 2600
   - type: ProjectileBatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 100
