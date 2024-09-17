@@ -173,6 +173,10 @@
   tier: 2
   cost: 10000
   recipeUnlocks:
+    - LPPRCDFAPDevice
+    - LPPRCDFAPAmmo
+    - RCD
+    - RCDAmmo
     - WelderExperimental
     - PowerDrill
     - JawsOfLife

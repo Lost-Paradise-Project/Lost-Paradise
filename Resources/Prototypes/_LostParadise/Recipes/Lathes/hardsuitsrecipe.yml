@@ -238,8 +238,8 @@
     Plastic: 850
 
 - type: latheRecipe
-  id: LPPhypospray
-  result: LPPhypospray
+  id: LPPHypospray
+  result: LPPHypospray
   completetime: 20
   materials:
     Steel: 425

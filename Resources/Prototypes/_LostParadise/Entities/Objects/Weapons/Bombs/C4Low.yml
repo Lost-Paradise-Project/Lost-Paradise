@@ -23,8 +23,8 @@
     - Trigger
   - type: Explosive
     explosionType: DemolitionCharge
-    totalIntensity: 5
-    intensitySlope: 2
-    maxIntensity: 30
+    totalIntensity: 10
+    intensitySlope: 10
+    maxIntensity: 10
     canCreateVacuum: false
   - type: ExplodeOnTrigger

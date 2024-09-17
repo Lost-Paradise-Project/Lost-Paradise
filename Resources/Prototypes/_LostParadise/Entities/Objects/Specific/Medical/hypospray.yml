@@ -1,6 +1,6 @@
 - type: entity
   parent: BaseItem
-  id: LPPhypospray
+  id: LPPHypospray
   name: гипоспрей 0.5
   description: Урезанная версия стерильного инъектора для быстрого введения лекарств пациентам. Слишком урезанная версия, но явно лучше шприцов. НЕ ДАВАТЬ В РУКИ ИНТЕРНАМ.
   components:

@@ -275,6 +275,8 @@
     - Dropper
     - ClothingEyesGlassesChemical
     dynamicRecipes:
+      - LPPRCDFAPDevice
+      - LPPRCDFAPAmmo
       - PowerDrill
       - MiningDrill
       - AnomalyScanner
@@ -718,6 +720,7 @@
     idleState: icon
     runningState: icon
     staticRecipes:
+      - LPPC4Low
       - ClothingEyesHudSecurity
       - CombatKnife
       - Flash
@@ -911,6 +914,7 @@
     idleState: icon
     runningState: icon
     staticRecipes:
+      - LPPHypospray
       - Brutepack
       - Ointment
       - Gauze
