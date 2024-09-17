@@ -125,7 +125,7 @@
   description: Лазерный пистолет службы безопасности, тепло любим ценителями компактности и убойности в одном оружии.
   productEntity: LPPWeaponLaserGun
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
     - LPPhosweapon
 
@@ -185,7 +185,7 @@
   description: Продовавшийся как "оборонительный", этот дробовик имеет особую газовую систему, делающую его крайне эффективным для боя в замкнутом пространстве и огня на подавление.
   productEntity: WeaponShotgunAdjutant
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 4
   categories:
     - LPPhosweapon
 
@@ -195,7 +195,7 @@
   description: Боевой дробовик премиум-класса, созданный на основе конструкции Каммерера, с увеличенной ёмкостью магазина. Использует патроны калибра .50 ружейный.
   productEntity: WeaponShotgunEnforcer
   cost:
-    LPPCentcoin: 4
+    LPPCentcoin: 5
   categories:
     - LPPhosweapon
 
@@ -205,7 +205,7 @@
   description: See you soon.. Space cowboy... Использует .50 ружейные.
   productEntity: LPPWeaponShotgunLemington
   cost:
-    LPPCentcoin: 4
+    LPPCentcoin: 5
   categories:
     - LPPhosweapon
 
@@ -275,7 +275,7 @@
   description: Одна из первых винтовок, модифицированных для использования в космосе. Эта винтовка была создана, для проделывания дырок в каргонских "боевых мехах". Использует патрон .30 винтовочный.
   productEntity: WeaponRifleVulcan
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
     - LPPhosweapon
 
@@ -285,7 +285,7 @@
   description: Старая модель карабина буллпап. Использует патрон .20 винтовочный.
   productEntity: WeaponRifleM90
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 5
   categories:
     - LPPhosweapon
 
@@ -295,7 +295,7 @@
   description: Первоклассная армейская штурмовая винтовка. Использует патроны калибра .20 винтовочный.
   productEntity: WeaponRifleLecter
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 5
   categories:
     - LPPhosweapon
 
@@ -345,7 +345,7 @@
   description: Превосходный тяжёлый пистолет-пулемёт. Использует патроны калибра .45 магнум. Чувствуется вкус ностальгии...
   productEntity: WeaponSubMachineGunVector
   cost:
-    LPPCentcoin: 9
+    LPPCentcoin: 12
   categories:
     - LPPhosweapon
 
@@ -375,7 +375,7 @@
   description: Стандартный гибрид энергетического вооружения. Имеет два режима работы- подавление и летальный урон.
   productEntity: WeaponEnergyGun
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 2
   categories:
     - LPPhosweapon
 
@@ -415,7 +415,7 @@
   description: Современный энергетический пистолет, предпочитаемый ГСБ в качестве личного оружия.
   productEntity: LPPWeaponHoSlaserPistol
   cost:
-    LPPCentcoin: 6
+    LPPCentcoin: 7
   categories:
     - LPPhosweapon
 
@@ -567,7 +567,7 @@
   description: Тяжело бронированный костюм с красными вставками, способный защитить от высокого урона.
   productEntity: ClothingOuterArmorHeavyRed
   cost:
-    LPPCentcoin: 8
+    LPPCentcoin: 9
   categories:
     - LPPhosarmor
 
@@ -658,6 +658,26 @@
   name: магазин ПП (.35 авто)
   description: Один магазин. Не густо, правда?
   productEntity: MagazinePistolSubMachineGun
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineShotgun
+  name: барабан (.50 дробь)
+  description: Один барабан. Не густо, правда?
+  productEntity: MagazineShotgun
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineShotgunSlug
+  name: барабан (.50 пуля)
+  description: Один барабан. Не густо, правда?
+  productEntity: MagazineShotgunSlug
   cost:
     LPPCentcoin: 1
   categories:
@@ -935,16 +955,6 @@
   categories:
     - LPPhosbrigmed
 
-- type: listing
-  id: LPPHosCataloghypospray
-  name: гипоспрей 0.5
-  description: Урезанная версия стерильного инъектора для быстрого введения лекарств пациентам. Слишком урезанная версия, но явно лучше шприцов. НЕ ДАВАТЬ В РУКИ ИНТЕРНАМ.
-  productEntity: LPPhypospray
-  cost:
-    LPPCentcoin: 4
-  categories:
-    - LPPhosbrigmed
-
 #memetech
 
 - type: listing
@@ -953,7 +963,7 @@
   description: 90 единиц стали.
   productEntity: CrateMaterialSteel
   cost:
-    LPPCentcoin: 1
+    LPPCentcoin: 2
   categories:
     - LPPhosbrigtech
 
@@ -963,7 +973,7 @@
   description: 90 единиц стекла, упакованных с заботой.
   productEntity: CrateMaterialGlass
   cost:
-    LPPCentcoin: 1
+    LPPCentcoin: 2
   categories:
     - LPPhosbrigtech
 
@@ -973,7 +983,7 @@
   description: 90 единиц пластика.
   productEntity: CrateMaterialPlastic
   cost:
-    LPPCentcoin: 1
+    LPPCentcoin: 2
   categories:
     - LPPhosbrigtech
 
@@ -983,7 +993,7 @@
   description: 90 единиц пластали.
   productEntity: CrateMaterialPlasteel
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
     - LPPhosbrigtech
 
@@ -1003,7 +1013,7 @@
   description: Стандартизированный перезаряжаемый микрореактор. Имеет пониженную ёмкость, но медленно заряжается сама по себе.
   productEntity: PowerCellMicroreactor
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
     - LPPhosbrigtech
 
@@ -1018,30 +1028,20 @@
     - LPPhosbrigtech
 
 - type: listing
+  id: LPPHosCatalogRCD
+  name: РСУ
+  description: Новейшее ручное строительное устройство, которое может быстро размещать и демонтировать стены, полы и шлюзы.2
+  productEntity: RCD
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
   id: LPPHosCatalogRCDAmmo
   name: картридж РСУ
   description: картридж для РСУ.
   productEntity: RCDAmmo
-  cost:
-    LPPCentcoin: 1
-  categories:
-    - LPPhosbrigtech
-
-- type: listing
-  id: LPPHosCatalogRCDRecharging
-  name: экспериментальный РСУ
-  description: Блюспейс-улучшенное РСУ, пассивно регенерирующий заряды.
-  productEntity: RCDRecharging
-  cost:
-    LPPCentcoin: 4
-  categories:
-    - LPPhosbrigtech
-
-- type: listing
-  id: LPPHosCatalogPowerDrill
-  name: электродрель
-  description: Простая дрель с электроприводом.
-  productEntity: PowerDrill
   cost:
     LPPCentcoin: 1
   categories:
@@ -1058,12 +1058,12 @@
     - LPPhosbrigtech
 
 - type: listing
-  id: LPPHosCatalogJawsOfLife
-  name: челюсти жизни
-  description: Набор челюстей жизни, скомпонованных при помощи магии науки.
-  productEntity: JawsOfLife
+  id: LPPHosCatalogToolboxMechanicalFilled
+  name: технический ящик для инструментов
+  description: Синий ящик для инструментов, укомплектованный механическими инструментами.
+  productEntity: ToolboxMechanicalFilled
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 1
   categories:
     - LPPhosbrigtech
 
@@ -1073,7 +1073,7 @@
   description: Лист армированной полупрозрачной плазмы.
   productEntity: SheetRPGlass
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
     - LPPhosbrigtech
 
@@ -1083,7 +1083,7 @@
   description: Лист армированного уранового стекла.
   productEntity: SheetRUGlass
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 4
   categories:
     - LPPhosbrigtech
 
@@ -1143,7 +1143,7 @@
   description: Прочный рюкзак с дополнительными карманами, что значительно повышает вместимость и при этом никак не сковывает движения носителя.
   productEntity: LPPClothingBackpackHunter
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
     - LPPmisc
 
@@ -1153,7 +1153,7 @@
   description: Комплект из карманов, сумок и прочей лабуды предоставляет кучу места для ваших всевозможных вещей, что вы сюда запихнёте. Выглядит крайне громоздко однако.
   productEntity: LPPClothingBeltMaximumWebbing
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
     - LPPmisc
 
@@ -1193,7 +1193,7 @@
   description: Молот предназначенный для быстрого проникновения сквозь стены, шлюзы, а также для крушения чьих то черепов. Он явно более робастный, чем обычные молоты.
   productEntity: LPPHammer
   cost:
-    LPPCentcoin: 4
+    LPPCentcoin: 5
   categories:
     - LPPhosbrigtech
 
@@ -1213,7 +1213,7 @@
   description: Только для хороших кадетов.
   productEntity: ClothingHeadHatDogEars
   cost:
-    LPPCentcoin: 12
+    LPPCentcoin: 6
   categories:
     - LPPmisc
 
@@ -1268,12 +1268,12 @@
     - LPPhosbrigtech
 
 - type: listing
-  id: LPPHosGeneratorBasic15kW
-  name: высокоэффективный термоэлектрический генератор 15KW
+  id: LPPHosGeneratorBasic
+  name: высокоэффективный термоэлектрический генератор 3KW
   description: Высокоэффективный термоэлектрический генератор.
-  productEntity: GeneratorBasic15kW
+  productEntity: GeneratorBasic
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 2
   categories:
     - LPPhosbrigtech
 
@@ -1292,6 +1292,16 @@
   name: боевые перчатки
   description: Эти тактические перчатки огнеупорны и ударопрочны.
   productEntity: ClothingHandsGlovesCombat
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPmisc
+
+- type: listing
+  id: LPPHosUniformJabroni
+  name: наряд Джаброни
+  description: Who is the Boss of this Brig?
+  productEntity: UniformJabroni
   cost:
     LPPCentcoin: 1
   categories:

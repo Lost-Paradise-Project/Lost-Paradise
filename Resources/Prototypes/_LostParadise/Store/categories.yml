@@ -141,12 +141,12 @@
 
 - type: storeCategory
   id: LPPhosbrigmed
-  name: Бригмед
+  name: Первая помощь
   priority: 3
 
 - type: storeCategory
   id: LPPhosbrigtech
-  name: Бригтех
+  name: Инструментарий
   priority: 4
 
 - type: storeCategory
