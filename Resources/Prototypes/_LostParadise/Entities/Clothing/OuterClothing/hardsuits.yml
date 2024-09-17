@@ -190,8 +190,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitSecurityEng
-  name: security hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  name: скафандр полевого инженера
+  description: Специальный костюм, защищающий от воздействия опасных сред с низким давлением. Имеет дополнительный слой брони.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/SecEng.rsi
