@@ -418,3 +418,12 @@ Entries:
   id: 45
   time: '2024-09-17T04:26:25.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/150
+- author: MegaDaimond
+  changes:
+    - type: Add
+      message: >-
+        Смотритель получает свой собственный планшет с каталогом оборудования
+        для СБ.
+  id: 46
+  time: '2024-09-17T16:07:24.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/151
