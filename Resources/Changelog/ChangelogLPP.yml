@@ -465,3 +465,20 @@ Entries:
   id: 48
   time: '2024-09-17T19:36:10.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/153
+- author: BL02DL
+  changes:
+    - type: Add
+      message: Добавлен Гипо 0.5!
+    - type: Add
+      message: Добавлен Боевой дефибриллятор!
+    - type: Tweak
+      message: Изменено Пробивной заряд больше не достать!
+    - type: Tweak
+      message: Изменено вернули РСУАП и РСУ в изучение и их рецепты в протолат!
+    - type: Tweak
+      message: Изменена характеристика взрыва C4Low!
+    - type: Fix
+      message: Исправлен перевод скафандра полевого инженера и C4Low!
+  id: 49
+  time: '2024-09-17T19:36:23.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/152
