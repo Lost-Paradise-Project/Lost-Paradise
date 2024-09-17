@@ -411,3 +411,10 @@ Entries:
   id: 44
   time: '2024-09-15T20:05:33.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/148
+- author: Farrellka
+  changes:
+    - type: Add
+      message: Добавлены эльфийские ушки людям!
+  id: 45
+  time: '2024-09-17T04:26:25.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/150
