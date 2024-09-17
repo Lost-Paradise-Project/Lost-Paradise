@@ -56,19 +56,19 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Blunt: 1
+        Blunt: 3
     bluntStaminaDamageFactor: 2.0
     angle: 60
     animation: WeaponArcSlash
   - type: StaminaDamageOnHit
-    damage: 20
+    damage: 37
   - type: StaminaDamageOnCollide
-    damage: 8
+    damage: 20
   - type: Item
     heldPrefix: off
     size: Normal
   - type: DisarmMalus
-    malus: 0.225
+    malus: 0.125
   - type: Appearance
   - type: StaticPrice
     price: 100

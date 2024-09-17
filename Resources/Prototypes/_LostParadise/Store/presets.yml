@@ -38,3 +38,16 @@
   - LPPDeltaImplants
   currencyWhitelist:
   - Telecrystal
+
+- type: storePreset
+  id: LPPStorePresetHOS
+  storeName: Head of Security additional supplies
+  categories:
+  - LPPhosweapon
+  - LPPhosarmor
+  - LPPhosammo
+  - LPPhosbrigmed
+  - LPPhosbrigtech
+  - LPPmisc
+  currencyWhitelist:
+  - LPPCentcoin

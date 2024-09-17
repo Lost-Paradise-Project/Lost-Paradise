@@ -21,11 +21,11 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: RedMediumLaser
-    fireCost: 200
+    proto: Pulse
+    fireCost: 400
   - type: Battery
-    maxCharge: 2000
-    startingCharge: 2000
+    maxCharge: 4800
+    startingCharge: 4800
 
 - type: entity
   name: Cutter
