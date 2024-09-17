@@ -34,9 +34,9 @@
       wideAnimationRotation: -135
       damage:
         types:
-          Blunt: 0
+          Blunt: 3
     - type: StaminaDamageOnHit
-      damage: 17
+      damage: 35
       sound: /Audio/Weapons/click.ogg
     - type: Sprite
       sprite: Objects/Weapons/Melee/truncheon.rsi
@@ -44,3 +44,45 @@
     - type: GuideHelp
       guides:
       - Security
+
+- type: entity
+  name: ЦентКоин
+  parent: BaseItem
+  id: LPPCentcoin
+  suffix: 10 Коинов
+  description: Монетка, содержащая в себе пару грамм блюспейс кристалла, а так же одноразовые модули для телепортации объектов.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Security/Centcoin.rsi
+    state: telecrystal
+  - type: Item
+    sprite: _LostParadise/Objects/Specific/Security/Centcoin.rsi
+    size: Tiny
+  - type: Stack
+    count: 10
+    stackType: Telecrystal
+  - type: StaticPrice
+    price: 0
+  - type: StackPrice
+    price: 200
+  - type: Currency
+    price:
+      LPPCentcoin: 1
+
+- type: entity
+  name: ЦентКоин
+  parent: BaseItem
+  id: LPPCentcoin1
+  description: Монетка, содержащая в себе пару грамм блюспейс кристалла, а так же одноразовые модули для телепортации объектов.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Security/Centcoin.rsi
+    state: telecrystal
+  - type: Item
+    sprite: _LostParadise/Objects/Specific/Security/Centcoin.rsi
+    size: Tiny
+  - type: StackPrice
+    price: 200
+  - type: Currency
+    price:
+      LPPCentcoin: 1
