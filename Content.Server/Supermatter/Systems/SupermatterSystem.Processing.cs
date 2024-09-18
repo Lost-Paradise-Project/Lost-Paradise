@@ -96,15 +96,18 @@ public sealed partial class SupermatterSystem
         sm.Power = Math.Max(absorbedGas.Temperature * tempFactor / Atmospherics.T0C * powerRatio + sm.Power, 0);
 
         // Irradiate stuff
-        if (TryComp<RadiationSourceComponent>(uid, out var rad))
-            rad.Intensity =
-                sm.Power
-                * Math.Max(0, 1f + transmissionBonus / 10f)
-                * 0.003f
-                * _config.GetCVar(CCVars.SupermatterRadsModifier);
 
+        // start _LostParadise
+
+        if (TryComp<RadiationSourceComponent>(uid, out var rad))
+        {
+            rad.Intensity = sm.Power * Math.Max(0, 1f + transmissionBonus / 10f) * 0.012f;
+            rad.Intensity = rad.Intensity > 30 ? 30 : rad.Intensity;
+        }
         // Power * 0.55 * 0.8~1
         var energy = sm.Power * sm.ReactionPowerModifier;
+
+        // end _LostParadise
 
         // Keep in mind we are only adding this temperature to (efficiency)% of the one tile the rock is on.
         // An increase of 4°C at 25% efficiency here results in an increase of 1°C / (#tilesincore) overall.
