@@ -482,3 +482,10 @@ Entries:
   id: 49
   time: '2024-09-17T19:36:23.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/152
+- author: BL02DL
+  changes:
+    - type: Tweak
+      message: Изменено КПД СМа, выработка стала больше и имеет предел до 30 радиации!
+  id: 50
+  time: '2024-09-18T17:25:34.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/159
