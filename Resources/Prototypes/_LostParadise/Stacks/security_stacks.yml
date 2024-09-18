@@ -19,7 +19,7 @@
 
 - type: stack
   id: LPPZipties
-  name: zipties
+  name: stack-name-LPPZipties
   icon: { sprite: "/Textures/Objects/Misc/zipties.rsi", state: cuff }
   spawn: Zipties
   maxCount: 10
