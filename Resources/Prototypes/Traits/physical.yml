@@ -1,7 +1,7 @@
 - type: trait
   id: WillToLive
   category: Physical
-  points: -1
+  points: -3
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -62,7 +62,7 @@
         - GlassJaw
   components:
     - type: CritModifier
-      critThresholdModifier: 5
+      critThresholdModifier: 10
 
 - type: trait
   id: GlassJaw
@@ -84,7 +84,7 @@
         - Tenacity
   components:
     - type: CritModifier
-      critThresholdModifier: -10
+      critThresholdModifier: -15
 
 - type: trait
   id: Vigor
