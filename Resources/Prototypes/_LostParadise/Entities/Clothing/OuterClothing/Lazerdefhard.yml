@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitReflectivepatrolsec
-  name: Шлем модифицированного скафандра
+  name: Шлем NFD-101p
   description: Хороший шлем...самое то чтобы устроить битву красных против синих!.
   components:
   - type: BreathMask
@@ -26,7 +26,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitReflectivepatrolsec
-  name: Отражающий модифицированный скафандр
+  name: Отражающий скафандр NFD-101p "Deflect"
   description: Скафандр, но в составе его брони были использованы отражающие лазеры материалы.
   components:
   - type: Sprite

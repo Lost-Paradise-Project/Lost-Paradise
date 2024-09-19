@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitMiksuitJugger
-  name: обесцвеченный скафандр "Панцирь"
+  name: обесцвеченный скафандр GRT-43h - "Teknő"
   description: Отреставрированный скафандр старых моделей джаггернаутов Киберсана, видоизменённый под хотелки нынешнего владельца.
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetMikhelmJugger
-  name: обесцвеченный шлем скафандра "Панцирь"
+  name: шлем GRT-43h
   description: Шлем от скафандра, дисплей слегка побит, но работать можно...
   noSpawn: true
   components:

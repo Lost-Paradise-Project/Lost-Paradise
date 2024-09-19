@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterDetectiveHardsuit
-  name: защитный костюм от давления детектива
+  name: защитный костюм от давления FDA-87d - "Watson"
   description: Лёгкий костюм, помогающий детективам NanoTrasen расследывать даже в космосе!
   components:
   - type: Sprite
@@ -37,7 +37,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetDetectiveHardsuit
-  name: защитный шлем детектива
+  name: шлем FDA-87d
   description: Жаль что нет отверствия под курительную трубку...
   noSpawn: true
   components:

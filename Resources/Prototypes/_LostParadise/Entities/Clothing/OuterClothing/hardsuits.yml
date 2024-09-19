@@ -100,7 +100,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitSWAT
-  name: скафандр для подавления массовых беспорядков
+  name: Тактический cкафандр FPA-56 - "Rhino"
   description: Специальный защитный комплект, защищающий от опасного воздействия окружающей среды с низким давлением. Он имеет инновационный дополнительный слой брони, используемый сотрудниками службы безопасности.
   components:
   - type: Sprite
@@ -190,8 +190,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitSecurityEng
-  name: скафандр полевого инженера
-  description: Специальный костюм, защищающий от воздействия опасных сред с низким давлением. Имеет дополнительный слой брони.
+  name: Тактический скафандр FPI-72 - "Artificer"
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/SecEng.rsi
@@ -253,7 +253,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitMiksuit
-  name: Обесцвеченный Скафандр
+  name: обесцвеченный скафандр GRT-21 "Támadó"
   description: Отреставрированный скафандр агентов синдиката, слегка видоизменённый под хотелки нынешнего владельца.
   components:
   - type: Sprite
@@ -499,7 +499,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitRND
-  name: Научно Исследовательский Скафандр НИС
+  name: скафандр RHS-14s - "Lambda"
   description: Защитный скафандр, разработанный головастиками из отдела НИО, лёгкий для производства, а так же предоставляющий, в целом, хорошую защиту от разных внешних факторов, что можно встретить при работе в НИО.
   components:
   - type: Sprite
@@ -533,7 +533,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitScienceNPZ
-  name: НИС НПЗ
+  name: скафандр NPZ-34r - "Gelehrt"
   description: Научно исследовательский скафандр, разработанный для работы учёных НПЗ, а так же техников в открытом космосе и тяжёлых условиях планет.
   components:
   - type: Sprite

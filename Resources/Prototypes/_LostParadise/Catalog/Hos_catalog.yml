@@ -345,7 +345,7 @@
   description: Превосходный тяжёлый пистолет-пулемёт. Использует патроны калибра .45 магнум. Чувствуется вкус ностальгии...
   productEntity: WeaponSubMachineGunVector
   cost:
-    LPPCentcoin: 12
+    LPPCentcoin: 11
   categories:
     - LPPhosweapon
 

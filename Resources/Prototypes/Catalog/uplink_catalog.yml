@@ -1759,7 +1759,7 @@
   name: древний скафандр Синдиката
   description: Очень странная модель скафандра Ядерных Оперативников, явно нестандартной конфигурации
   icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi, state: icon }
-  productEntity: LPPClothingOuterHardsuitAcientSyndie
+  productEntity: LPPClothingBackpackDuffelAcientSyndicateHardsuitBundle
   cost:
     Telecrystal: 12
   categories:
