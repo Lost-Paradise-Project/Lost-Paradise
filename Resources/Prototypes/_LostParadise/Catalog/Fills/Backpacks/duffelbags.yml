@@ -81,3 +81,17 @@
     contents:
       - id: GrenadeIncendiary
         amount: 5
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: LPPClothingBackpackDuffelAcientSyndicateHardsuitBundle
+  name: набор древнего скафандра
+  description: Содержит набор с древним скафандром.
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitAcientSyndie
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled

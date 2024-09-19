@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitHunter
-  name: охотничий скафандр
+  name: скафандр GRT-42w - "Vadász"
   description: Скафандр компании GreyTide co., недавно появившиеся на рынке скафандров для нужд гражданских, а так же военных. Серые тона- стиль!
   components:
   - type: Sprite
