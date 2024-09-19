@@ -1,7 +1,7 @@
 - type: trait
   id: WillToLive
   category: Physical
-  points: -1
+  points: -3
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -18,7 +18,7 @@
         - WillToDie
   components:
     - type: DeadModifier
-      deadThresholdModifier: 10
+      deadThresholdModifier: 15
 
 - type: trait
   id: WillToDie

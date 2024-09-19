@@ -62,7 +62,7 @@ namespace Content.Client.Construction.UI
                     else
                         _constructionView.OpenCentered();
 
-                    if(_selected != null)
+                    if (_selected != null)
                         PopulateInfo(_selected);
                 }
                 else
@@ -171,7 +171,7 @@ namespace Content.Client.Construction.UI
                     if (recipe.Category != category)
                         continue;
                 }
-
+                recipe.Name = Loc.TryGetString($"construction-graph-name-{recipe.ID}", out var name) ? name : recipe.Name;
                 recipes.Add(recipe);
             }
 
@@ -218,7 +218,9 @@ namespace Content.Client.Construction.UI
         {
             var spriteSys = _systemManager.GetEntitySystem<SpriteSystem>();
             _constructionView.ClearRecipeInfo();
-            _constructionView.SetRecipeInfo(prototype.Name, prototype.Description, spriteSys.Frame0(prototype.Icon), prototype.Type != ConstructionType.Item);
+            _constructionView.SetRecipeInfo(Loc.TryGetString($"construction-graph-name-{prototype.ID}", out var name) ? name : prototype.Name,
+                Loc.TryGetString($"construction-graph-desc-{prototype.ID}", out var desc) ? desc : prototype.Description,
+                spriteSys.Frame0(prototype.Icon), prototype.Type != ConstructionType.Item);
 
             var stepList = _constructionView.RecipeStepList;
             GenerateStepList(prototype, stepList);
@@ -236,7 +238,7 @@ namespace Content.Client.Construction.UI
                 var text = entry.Arguments != null
                     ? Loc.GetString(entry.Localization, entry.Arguments) : Loc.GetString(entry.Localization);
 
-                if (entry.EntryNumber is {} number)
+                if (entry.EntryNumber is { } number)
                 {
                     text = Loc.GetString("construction-presenter-step-wrapper",
                         ("step-number", number), ("text", text));

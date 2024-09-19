@@ -400,3 +400,103 @@ Entries:
   id: 43
   time: '2024-09-14T20:13:05.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/146
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Добавлена возможность спонсорам 5 уровня заходить за любую роль кроме ВЛ
+    - type: Fix
+      message: Исправлена проблема с прическами унатхов
+    - type: Fix
+      message: Исправлены шемаги
+  id: 44
+  time: '2024-09-15T20:05:33.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/148
+- author: Farrellka
+  changes:
+    - type: Add
+      message: Добавлены эльфийские ушки людям!
+  id: 45
+  time: '2024-09-17T04:26:25.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/150
+- author: MegaDaimond
+  changes:
+    - type: Add
+      message: >-
+        Смотритель получает свой собственный планшет с каталогом оборудования
+        для СБ.
+  id: 46
+  time: '2024-09-17T16:07:24.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/151
+- author: MrDarkSide
+  changes:
+    - type: Add
+      message: Добавлены новые действия в панель взаимодействия
+    - type: Add
+      message: >-
+        Список новых действий: Шлёпнуть, пощёчина, лизнуть, похлопать по плечу,
+        поцеловать, показать средний палец, поцелуй, поцелуй в щеку, диагностика
+        состояния системы (КПБ-борги).
+    - type: Add
+      message: >-
+        Также, были добавлены новые эффекты настроения: Легкое смущение,
+        облегчение(При нанесении пощечины), обида (При получении пощечины),
+        Ободрение, Любовь (При поцелуях и так далее)
+    - type: Tweak
+      message: >-
+        Изменены некоторые проблемы с переводом, иконками, действиями в панели
+        взаимодействий
+    - type: Fix
+      message: Исправлены пару ошибок перевода панели взаимодействия.
+  id: 47
+  time: '2024-09-17T16:27:29.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/149
+- author: MegaDaimond
+  changes:
+    - type: Add
+      message: Добавлены новые предметы в планшете СБ
+    - type: Tweak
+      message: Изменены названия категорий в планшете СБ
+    - type: Tweak
+      message: >-
+        Были внесены балансные правки в планшет, некоторые вещи заменены, а так
+        же изменена цена на некоторые лоты.
+    - type: Fix
+      message: Исправлен RSI Доминатора
+  id: 48
+  time: '2024-09-17T19:36:10.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/153
+- author: BL02DL
+  changes:
+    - type: Add
+      message: Добавлен Гипо 0.5!
+    - type: Add
+      message: Добавлен Боевой дефибриллятор!
+    - type: Tweak
+      message: Изменено Пробивной заряд больше не достать!
+    - type: Tweak
+      message: Изменено вернули РСУАП и РСУ в изучение и их рецепты в протолат!
+    - type: Tweak
+      message: Изменена характеристика взрыва C4Low!
+    - type: Fix
+      message: Исправлен перевод скафандра полевого инженера и C4Low!
+  id: 49
+  time: '2024-09-17T19:36:23.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/152
+- author: BL02DL
+  changes:
+    - type: Tweak
+      message: Изменено КПД СМа, выработка стала больше и имеет предел до 30 радиации!
+  id: 50
+  time: '2024-09-18T17:25:34.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/159
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Добавлены переводы для некоторых материалов в окне строительства
+    - type: Fix
+      message: Исправлены переводы в книгах со случайными историями
+    - type: Fix
+      message: Исправлены трудности с переводами в окне строительства
+  id: 51
+  time: '2024-09-18T23:07:40.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/160

@@ -91,7 +91,7 @@
       ignoreStripHidden: true
       stealth: Subtle
       stripTimeReduction: 0
-      stripTimeMultiplier: 0.667
+      stripTimeMultiplier: 0.7
   requirements:
     - !type:CharacterSpeciesRequirement
       inverted: true
@@ -120,8 +120,8 @@
   points: -2
   components:
     - type: ConsumeDelayModifier
-      foodDelayMultiplier: 0.5
-      drinkDelayMultiplier: 0.5
+      foodDelayMultiplier: 0.4
+      drinkDelayMultiplier: 0.4
   requirements:
     - !type:CharacterSpeciesRequirement
       inverted: true
@@ -158,7 +158,7 @@
       climbDelayMultiplier: 0.35
     - type: LayingDownModifier
       layingDownCooldownMultiplier: 0.5
-      downedSpeedMultiplierMultiplier: 1.65
+      downedSpeedMultiplierMultiplier: 1.7
 
 - type: trait
   id: LightStep
@@ -282,7 +282,7 @@
 - type: trait
   id: TrapAvoider
   category: Physical
-  points: -3
+  points: -2
   components:
     - type: StepTriggerImmune
       whitelist:

@@ -123,3 +123,33 @@
 #  id: DeltaAllies
 #  name: store-category-delta-allies
 #  priority: 7
+
+- type: storeCategory
+  id: LPPhosweapon
+  name: Вооружение
+  priority: 0
+
+- type: storeCategory
+  id: LPPhosarmor
+  name: Броня
+  priority: 1
+
+- type: storeCategory
+  id: LPPhosammo
+  name: Боеприпасы
+  priority: 2
+
+- type: storeCategory
+  id: LPPhosbrigmed
+  name: Первая помощь
+  priority: 3
+
+- type: storeCategory
+  id: LPPhosbrigtech
+  name: Инструментарий
+  priority: 4
+
+- type: storeCategory
+  id: LPPmisc
+  name: Разное
+  priority: 5

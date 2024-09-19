@@ -1,0 +1,1308 @@
+#weapon
+- type: listing
+  id: LPPHosCatalogWeaponHM34
+  name: HM34
+  description: Пистолет приемлемо-среднего качества, производимый дочерней компанией NanoTrasen. Использует патроны калибра .35 авто.
+  productEntity: LPPWeaponPistolninemile
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponPF20
+  name: PF20
+  description: Пистолет Фишера под патрон .20, предаствляющий компактность пистолета и мощь винтовочного патрона. Используется спец подразделениями по всей галактике.
+  productEntity: LPPWeaponPistolPF20
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponN1984
+  name: N1984
+  description: Запасное оружие любого уважающего себя офицера. Выпускается в калибре .45 магнум, самом богоугодном калибре.ктике.
+  productEntity: WeaponPistolN1984
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponDecard
+  name: Декард
+  description: Редкий, изготавливаемый на заказ револьвер. Используйте, когда нет времени на тест Войта-Кампфа. Использует патроны калибра .45 магнум.
+  productEntity: WeaponRevolverDeckard
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponMK32
+  name: МК-32 "Универсальный"
+  description: Дорогой и робастный пистолет с задатками револьвера. Использует калибр .45 магнум.
+  productEntity: WeaponPistolUniversal
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponGoldMK58
+  name: золотой MK-58
+  description: Теперь никто не скажет, что он дешевый и распространенный,производился дочерней компанией NanoTrasen в ограниченном колличестве в честь юбилея. Использует патроны калибра .35 авто. Просто ради понтов.
+  productEntity: LPPWeaponPistolGoldMk58
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponFitz
+  name: особый фитз
+  description: Компактный и подходящий для скрытого ношения укороченный револьвер. Использует патрон .38 спешл. (Заряжен резиновыми)
+  productEntity: WeaponRevolverFitz
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponSnub45
+  name: Укороченный .45
+  description: Старый и надёжный револьвер, модифицированный для скрытого ношения. Использует патрон .45 магнум.
+  productEntity: WeaponRevolverSnub
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponPanther
+  name: пантера
+  description: Быстрый револьвер для быстрых решений. Использует патроны .45 калибра.
+  productEntity: LPPWeaponRevolverPanther
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponSoleil
+  name: гибридный модуль S.O.L.E.I.L.
+  description: Прототип гибридного лазерного "пистолета", представляющего из себя устройство, что цепляется на локоть, имеет летальный и нелетальный режимы стрельбы.
+  productEntity: LPPWeaponEnergyGunSoleil
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponInspector
+  name: коллекционный инспектор
+  description: Обычно, его дают за заслуги перед законом и профессионализм. Использует патроны 45 калибра. Ради понтов.
+  productEntity: LPPWeaponRevolverInspectorCollection
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponJudge
+  name: судья
+  description: С этим револьвером приговор только один - смерть, отдача этого оружия настолько смертельная, что человек едва может стоять на ногах. Использует антиматериальные снаряды калибра .60.
+  productEntity: LPPWeaponRevolverJudge
+  cost:
+    LPPCentcoin: 5
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponDominator
+  name: Доминатор
+  description: Лазерный пистолет службы безопасности, тепло любим ценителями компактности и убойности в одном оружии.
+  productEntity: LPPWeaponLaserGun
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponPulsePistol
+  name: импульсный пистолет
+  description: Новейший энергетический пистолет, предпочитаемый оперативниками Nanotrasen в качестве запасного оружия.
+  productEntity: WeaponPulsePistol
+  cost:
+    LPPCentcoin: 7
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponPDW-9
+  name: энергетический пистолет PDW-9
+  description: Этот энергетический пистолет можно встретить на вооружении военизированных отрядов местного сектора.
+  productEntity: WeaponEnergyGunPistol
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponAdvancedLaser
+  name: продвинутый лазерный пистолет
+  description: Экспериментальный высокоэнергетический лазерный пистолет с самозаряжающейся ядерной батареей.
+  productEntity: WeaponEnergyGunPistol
+  cost:
+    LPPCentcoin: 6
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponShotgunSawn
+  name: обрез
+  description: Мистер Анджело? - Да… - Мистер Сальери передаёт вам поклон!
+  productEntity: WeaponShotgunSawn
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponShotgunKammerer
+  name: Каммерер
+  description: Вот что выходит, когда старый дизайн Ремингтона соединяется с современными материалами. Любимое оружие ополченцев на многих мирах. Использует патроны калибра .50 ружейный.
+  productEntity: WeaponShotgunKammerer
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponShotgunAdjutant
+  name: адъютант
+  description: Продовавшийся как "оборонительный", этот дробовик имеет особую газовую систему, делающую его крайне эффективным для боя в замкнутом пространстве и огня на подавление.
+  productEntity: WeaponShotgunAdjutant
+  cost:
+    LPPCentcoin: 4
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponShotgunEnforcer
+  name: Силовик
+  description: Боевой дробовик премиум-класса, созданный на основе конструкции Каммерера, с увеличенной ёмкостью магазина. Использует патроны калибра .50 ружейный.
+  productEntity: WeaponShotgunEnforcer
+  cost:
+    LPPCentcoin: 5
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponShotgunLemington
+  name: Лемингтон
+  description: See you soon.. Space cowboy... Использует .50 ружейные.
+  productEntity: LPPWeaponShotgunLemington
+  cost:
+    LPPCentcoin: 5
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponSniperGrand
+  name: Марк 1
+  description: Тяжелая, самозарядная винтовка с обновлённым дизайном. Использует калибр .30 винтовочные.
+  productEntity: WeaponSniperGrand
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponMarsRifle
+  name: винтовка XHA "Марс"
+  description: Охотничья винтовка компании XenoHuntingArmoury, использующая патроны .30 охотничие. Крайне популярная модель среди планетных и космических охотников на фауну.
+  productEntity: LPPWeaponMarsRifle
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponM1Garand
+  name: винтовка М1 Гаранд
+  description: Реплика классической винтовки Второй Мировой Войны от компании XenoHuntingArmoury, использующая патроны .30 охотничие. Пинг!
+  productEntity: LPPWeaponM1Garand
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponRifleM14
+  name: M14
+  description: Старая винтовка с далёких войн, от неё слегка пахнет джунглями. Использует .30 винтовочный.
+  productEntity: LPPWeaponRifleM14
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponRifleМ1A
+  name: М1A
+  description: Модифицированная версия старой винтовки, показатель смешения старого оружия и новых материалов, использует .30.
+  productEntity: LPPWeaponRifleM1A
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponSniperLeverPravoved
+  name: Правовед
+  description: See you soon.... Space cowboy... Использует патроны 45 магнума.
+  productEntity: LPPWeaponSniperLeverPravoved
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponRifleVulcan
+  name: Вулкан
+  description: Одна из первых винтовок, модифицированных для использования в космосе. Эта винтовка была создана, для проделывания дырок в каргонских "боевых мехах". Использует патрон .30 винтовочный.
+  productEntity: WeaponRifleVulcan
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponRifleM90
+  name: M-90
+  description: Старая модель карабина буллпап. Использует патрон .20 винтовочный.
+  productEntity: WeaponRifleM90
+  cost:
+    LPPCentcoin: 5
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponRifleLecter
+  name: Лектер
+  description: Первоклассная армейская штурмовая винтовка. Использует патроны калибра .20 винтовочный.
+  productEntity: WeaponRifleLecter
+  cost:
+    LPPCentcoin: 5
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponRifleМ4А1
+  name: М4А1
+  description: Знаменитый представитель классических винтовок. Великая и не сравнимая М4А1 или же как её называют некоторые индивиды.. Эмка. Магазины разной расцветки не предусмотрены. Использует патроны 5.56x45 калибра.
+  productEntity: LPPM4A1
+  cost:
+    LPPCentcoin: 5
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponRifleSTG144
+  name: STG-144
+  description: Самая распространённая винтовка войск Союза Объединённых Систем. Использует патроны .30 винтовочный.
+  productEntity: LPPWeaponRifleSTG144
+  cost:
+    LPPCentcoin: 5
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponSubMachineGunWt550
+  name: WT550
+  description: Отличный пистолет-пулемёт, производства NanoTrasen's Small Arms Division. Использует патроны калибра .35 авто.
+  productEntity: WeaponSubMachineGunWt550
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponSubMachineGunDrozd
+  name: Дрозд
+  description: Превосходный, полностью автоматический, тяжёлый пистолет-пулемёт. Использует патроны калибра .35 авто.
+  productEntity: WeaponSubMachineGunDrozd
+  cost:
+    LPPCentcoin: 4
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponSubMachineGunVector
+  name: Вектор
+  description: Превосходный тяжёлый пистолет-пулемёт. Использует патроны калибра .45 магнум. Чувствуется вкус ностальгии...
+  productEntity: WeaponSubMachineGunVector
+  cost:
+    LPPCentcoin: 12
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponLaserCarbine
+  name: лазерная винтовка
+  description: Предпочитается службой безопасности Nanotrasen за дешевизну и простоту использования.
+  productEntity: WeaponLaserCarbine
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponLaserGun
+  name: старомодный лазерный бластер
+  description: Оружие, использующее свет, усиленный излучением радиации.
+  productEntity: WeaponLaserGun
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponEnergyGun
+  name: энергетическая винтовка
+  description: Стандартный гибрид энергетического вооружения. Имеет два режима работы- подавление и летальный урон.
+  productEntity: WeaponEnergyGun
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponXrayCannon
+  name: рентгеновская пушка
+  description: Экспериментальное оружие, использующее сконцентрированную энергию рентгеновского излучения.
+  productEntity: WeaponXrayCannon
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponLaserCannon
+  name: лазерная пушка
+  description: Тяжёлое сверхмощное лазерное оружие.
+  productEntity: WeaponLaserCannon
+  cost:
+    LPPCentcoin: 4
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponGunLaserCarbineAutomatic
+  name: лазерный карабин IK-60
+  description: Лазерный полу-автоматический карабин с запасом в 20 выстрелов.
+  productEntity: WeaponGunLaserCarbineAutomatic
+  cost:
+    LPPCentcoin: 5
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosCatalogWeaponHoSlaserPistol
+  name: лазерный пистолет главы службы безопасности
+  description: Современный энергетический пистолет, предпочитаемый ГСБ в качестве личного оружия.
+  productEntity: LPPWeaponHoSlaserPistol
+  cost:
+    LPPCentcoin: 7
+  categories:
+    - LPPhosweapon
+
+#armor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterHardsuitBrigmedic
+  name: Тактический скафандр FPA-84m - "Tsagaan"
+  description: Укреплённый тактический скафандр массового производства фирмы Five-Points-Armory, используется медиками службы безопасности Nanotrasen. Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит тяжёлым.
+  productEntity: ClothingOuterHardsuitBrigmedic
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterHardsuitSecurityEng
+  name: Скафандр Бригтехника
+  description: Стандартный скафандр службы безопасности по характеристикам с знатно увеличиной защитой от теплового урона.
+  productEntity: LPPClothingOuterHardsuitSecurityEng
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterDetectiveHardsuit
+  name: защитный костюм от давления детектива
+  description: Лёгкий костюм, помогающий детективам NanoTrasen расследывать даже в космосе!
+  productEntity: LPPClothingOuterDetectiveHardsuit
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterHardsuitReflectivepatrolsec
+  name: Отражающий модифицированный скафандр
+  description: Скафандр, но в составе его брони были использованы отражающие лазеры материалы
+  productEntity: LPPClothingOuterHardsuitReflectivepatrolsec
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterHardsuitSecurity
+  name: Тактический скафандр FPA-83s - "Baghatur"
+  description: Укреплённый тактический скафандр массового производства фирмы Five-Points-Armory, используется службой безопасности Nanotrasen. Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит тяжёлым.
+  productEntity: ClothingOuterHardsuitSecurity
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterHardsuitSWAT
+  name: скафандр для подавления массовых беспорядков
+  description: Специальный комплект, защищающий от опасного воздействия окружающей среды с низким давлением. Он имеет инновационный дополнительный слой брони, используемый сотрудниками службы безопасности.
+  productEntity: LPPClothingOuterHardsuitSWAT
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterHardsuitPilotSecurity
+  name: скафандр для подавления массовых беспорядков
+  description: Я получил скафандр который и не снился моему отцу...
+  productEntity: LPPClothingOuterHardsuitPilotSecurity
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterHardsuitWarden
+  name: Тактический скафандр FPA-92s - "Sulde"
+  description: Специализированный тактический скафандр производства Five-Points-Armory, используется командирами низшего звена службы безопасности Nanotrasen. Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит крайне тяжёлым.
+  productEntity: ClothingOuterHardsuitWarden
+  cost:
+    LPPCentcoin: 4
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterHardsuitSecurityRed
+  name: Тактический скафандр FPA-98s - "Dayicin"
+  description: Продвинутый тактический скафандр производства Five-Points-Armory, закупается Nanotrasen для командиров службы безопасности. Имеет отметку, обозначующую что данная модель предоставляет средную защиту от физических повреждений и взрывов. Выглядит лёгким.
+  productEntity: ClothingOuterHardsuitSecurityRed
+  cost:
+    LPPCentcoin: 5
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterArmorReflective
+  name: отражающий бронежилет
+  description: Бронежилет с усовершенствованной защитой от энергетического оружия.
+  productEntity: ClothingOuterArmorReflective
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterArmorBulletproof
+  name: пуленепробиваемый жилет
+  description: Тяжёлый бронежилет типа III, способный защитить владельца от традиционного метательного оружия и взрывчатки в незначительной степени.
+  productEntity: ClothingOuterArmorBulletproof
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterArmorARC
+  name: РКББ
+  description: Расширенный костюм для борьбы с беспорядкам, или сокращенно РКББ, для большинства считается слишком громоздким и душным для ношения, но во время массовых беспорядков большинство офицеров неизменно берут именно его, благодаря его толстой защите и большой площади покрытия.
+  productEntity: ClothingOuterArmorARC
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterArmorRiot
+  name: противоударная броня
+  description: Костюм из полу-гибкого поликарбонатного бронежилета с тяжёлыми накладками для защиты от атак ближнего боя. Идеально подходит для борьбы с правонарушителями на станции.
+  productEntity: ClothingOuterArmorRiot
+  cost:
+    LPPCentcoin: 4
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterVestUrbanPG
+  name: бронежилет ПГ нейтральной расцветки
+  description: Оснащён стальной пластиной, хорошо защищающей от пуль. Также оснащен небольшими кармашками, в которых часто носят магазины.
+  productEntity: LPPClothingOuterVestUrbanPG
+  cost:
+    LPPCentcoin: 5
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingOuterArmorHeavyRed
+  name: красный тяжёлый бронекостюм
+  description: Тяжело бронированный костюм с красными вставками, способный защитить от высокого урона.
+  productEntity: ClothingOuterArmorHeavyRed
+  cost:
+    LPPCentcoin: 9
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingHeadHelmetBasic
+  name: шлем с фонариком
+  description: Стандартный шлем. Защищает от ударов и светит в технических тоннелях.
+  productEntity: LPPClothingHeadHelmetBasic
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingHeadHelmetRiot
+  name: лёгкий противоударный шлем
+  description: Это шлем был специально разработан для защиты в ближнем бою.
+  productEntity: ClothingHeadHelmetRiot
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingJudjeDreddHelmet
+  name: Шлем Судьи
+  description: Ты здесь закон!
+  productEntity: LPPJudjeDreddHelmet
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingMaskGasSwat
+  name: противогаз спецназа
+  description: Элитный противогаз Службы безопасности.
+  productEntity: ClothingMaskGasSwat
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingHeadHelmetSwat
+  name: шлем спецназа
+  description: Очень прочный шлем, широко используемый военизированными организациями. На его верхней части выгравирован логотип Nanotrasen.
+  productEntity: ClothingHeadHelmetSwat
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosarmor
+
+- type: listing
+  id: LPPHosCatalogClothingHeadUrbanHelmetPG
+  name: серый шлем ПГ
+  description: Шлем ПГ нейтральной расцветки. Когда не нужно выделяться.
+  productEntity: LPPClothingHeadUrbanHelmetPG
+  cost:
+    LPPCentcoin: 4
+  categories:
+    - LPPhosarmor
+
+#ammo
+
+- type: listing
+  id: LPPHosCatalogBoxMagazinePistol
+  name: коробка магазинов пистолетных .35 авто
+  description: Полная коробка пистолетных магазинов с патронами калибра .35 авто.
+  productEntity: BoxMagazinePistol
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazinePistolPF20lethal
+  name: пистолетный магазин (.20 винтовочные)
+  description: Магазин для PF20. Всего один. Не густо, правда?
+  productEntity: LPPMagazinePistolPF20lethal
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazinePistolSubMachineGun
+  name: магазин ПП (.35 авто)
+  description: Один магазин. Не густо, правда?
+  productEntity: MagazinePistolSubMachineGun
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineShotgun
+  name: барабан (.50 дробь)
+  description: Один барабан. Не густо, правда?
+  productEntity: MagazineShotgun
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineShotgunSlug
+  name: барабан (.50 пуля)
+  description: Один барабан. Не густо, правда?
+  productEntity: MagazineShotgunSlug
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineUniversalMagnum
+  name: универсальный магазин (.45 магнум)
+  description: Один магазин. Не густо, правда?
+  productEntity: MagazineUniversalMagnum
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogSpeedLoaderMagnum
+  name: спидлоадер (.45 магнум)
+  description: Один спидлоудер. Не густо, правда?
+  productEntity: SpeedLoaderMagnum
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogSpeedLoaderSpecial
+  name: спидлоадер (.38 специальные)
+  description: Один спидлоудер. Не густо, правда?
+  productEntity: SpeedLoaderSpecial
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineRifleMars
+  name: обойма винтовки "Марс"
+  description: Одна обойма. Не густо, правда?
+  productEntity: LPPMagazineRifleMars
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineRifleGarand
+  name: обойма "гаранда"
+  description: Одна обойма. Не густо, правда?
+  productEntity: LPPMagazineRifleGarand
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineRifle
+  name: магазин (.20 винтовочные)
+  description: Один магазин. Не густо, правда?
+  productEntity: MagazineRifle
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineLightRifle
+  name: магазин (.30 винтовочные)
+  description: Один магазин. Не густо, правда?
+  productEntity: MagazineLightRifle
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazinePistolSubMachineGunTopMounted
+  name: магазин WT550 (.35 авто, надствольный)
+  description: Один магазин. Не густо, правда?
+  productEntity: MagazinePistolSubMachineGunTopMounted
+  cost:
+    LPPCentcoin: 1
+  categories:
+  - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineRifleM4A1Lethal
+  name: магазин (калибр 5,56х45)
+  description: Один магазин. Не густо, правда?
+  productEntity: LPPMagazineRifleM4A1Lethal
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineBoxPistol
+  name: коробка патронов (.35 авто)
+  description: Коробка патронов, что не понятно? Зачем тебе вообще описание коробки патронов?
+  productEntity: MagazineBoxPistol
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineBoxSpecial
+  name: коробка патрон (.38 специальные)
+  description: Коробка патронов, что не понятно? Зачем тебе вообще описание коробки патронов?
+  productEntity: MagazineBoxSpecial
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineBoxMagnum
+  name: коробка патронов (.45 магнум)
+  description: Коробка патронов, что не понятно? Зачем тебе вообще описание коробки патронов?
+  productEntity: MagazineBoxMagnum
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineBoxRifle
+  name: коробка патронов (.20 винтовочные)
+  description: Коробка патронов, что не понятно? Зачем тебе вообще описание коробки патронов?
+  productEntity: MagazineBoxRifle
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineBoxHunting
+  name: коробка патрон (.30 охотничие)
+  description: Коробка патронов, что не понятно? Зачем тебе вообще описание коробки патронов?
+  productEntity: LPPMagazineBoxHunting
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineLightRiflePkBox
+  name: короб патронов (.30 винтовочные)
+  description: Короб патронов, что не понятно? Зачем тебе вообще описание короба патронов?
+  productEntity: MagazineLightRiflePkBox
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineBoxM4A1Lethal
+  name: коробка патрон (калибра 5.56х45)
+  description: Коробка патронов, что не понятно? Зачем тебе вообще описание коробки патронов?
+  productEntity: LPPMagazineBoxM4A1Lethal
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+- type: listing
+  id: LPPHosCatalogMagazineBoxAntiMateriel
+  name: коробка патронов (.60 крупнокалиберные)
+  description: Коробка патронов, что не понятно? Зачем тебе вообще описание коробки патронов?
+  productEntity: MagazineBoxAntiMateriel
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
+
+#brigmeme
+
+- type: listing
+  id: LPPHosCatalogMedkitFilled
+  name: аптечка первой помощи
+  description: Это экстренная аптечка для серьёзных бо-бо.
+  productEntity: MedkitFilled
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigmed
+
+- type: listing
+  id: LPPHosCatalogMedkitOxygenFilled
+  name: набор для лечения кислородного голодания
+  description: Коробка, полная кислородных лакомств.
+  productEntity: MedkitOxygenFilled
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigmed
+
+- type: listing
+  id: LPPHosCatalogMedkitBruteFilled
+  name: набор для лечения механических травм
+  description: Аптечка для оказания первой помощи избитым ящиком с инструментами.
+  productEntity: MedkitBruteFilled
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosbrigmed
+
+- type: listing
+  id: LPPHosCatalogMedkitToxinFilled
+  name: набор для лечения токсинов
+  description: Используется для лечения токсинов в крови.
+  productEntity: MedkitToxinFilled
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosbrigmed
+
+- type: listing
+  id: LPPHosCatalogMedkitBurnFilled
+  name: набор для лечения физических травм
+  description: Специализированная аптечка на случай, если лаборатория с токсинами *внезапно* сгорит.
+  productEntity: MedkitBurnFilled
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosbrigmed
+
+- type: listing
+  id: LPPHosCatalogMedkitAdvancedFilled
+  name: продвинутая аптечка первой помощи
+  description: Продвинутый набор для оказания помощи при продвинутых ранах.
+  productEntity: MedkitAdvancedFilled
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosbrigmed
+
+- type: listing
+  id: LPPHosCatalogMedkitCombatFilled
+  name: боевая аптечка
+  description: МЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕДИИИИИИИИИИИК!
+  productEntity: MedkitCombatFilled
+  cost:
+    LPPCentcoin: 4
+  categories:
+    - LPPhosbrigmed
+
+- type: listing
+  id: LPPHosCatalogEpinephrineChemistryBottle
+  name: бутылочка эпинефрина
+  description: Маленькая бутылочка.
+  productEntity: EpinephrineChemistryBottle
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigmed
+
+- type: listing
+  id: LPPHosCatalogEphedrineChemistryBottle
+  name: бутылочка эфедрина
+  description: Маленькая бутылочка.
+  productEntity: EphedrineChemistryBottle
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosbrigmed
+
+- type: listing
+  id: LPPHosCatalogOmnizineChemistryBottle
+  name: бутылочка омнизина
+  description: Почему омнизин на вкус как грудное молоко?
+  productEntity: OmnizineChemistryBottle
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosbrigmed
+
+#memetech
+
+- type: listing
+  id: LPPHosCatalogCrateMaterialSteel
+  name: ящик стали
+  description: 90 единиц стали.
+  productEntity: CrateMaterialSteel
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogCrateMaterialGlass
+  name: ящик стекла
+  description: 90 единиц стекла, упакованных с заботой.
+  productEntity: CrateMaterialGlass
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogCrateMaterialPlastic
+  name: ящик пластика
+  description: 90 единиц пластика.
+  productEntity: CrateMaterialPlastic
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogCrateMaterialPlasteel
+  name: ящик пластали
+  description: 90 единиц пластали.
+  productEntity: CrateMaterialPlasteel
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogPowerCellHyper
+  name: батарея гипер ёмкости
+  description: Стандартизированный перезаряжаемый элемент питания. Выглядит как редкий и мощный прототип.
+  productEntity: PowerCellHyper
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogPowerCellMicroreactor
+  name: микрореакторная батарея
+  description: Стандартизированный перезаряжаемый микрореактор. Имеет пониженную ёмкость, но медленно заряжается сама по себе.
+  productEntity: PowerCellMicroreactor
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogPowerCellAntiqueProto
+  name: прототип древней батареи
+  description: Маленький самозаряжающийся элемент питания. Использовался в старых разработках лазерного оружия.
+  productEntity: PowerCellAntiqueProto
+  cost:
+    LPPCentcoin: 5
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogRCD
+  name: РСУ
+  description: Новейшее ручное строительное устройство, которое может быстро размещать и демонтировать стены, полы и шлюзы.2
+  productEntity: RCD
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogRCDAmmo
+  name: картридж РСУ
+  description: картридж для РСУ.
+  productEntity: RCDAmmo
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogWelderIndustrialAdvanced
+  name: продвинутый промышленный сварочный аппарат
+  description: Продвинутый промышленный сварочный аппарат с увеличенным более чем вдвое запасом топлива и более мощным пламенем.
+  productEntity: WelderIndustrialAdvanced
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogToolboxMechanicalFilled
+  name: технический ящик для инструментов
+  description: Синий ящик для инструментов, укомплектованный механическими инструментами.
+  productEntity: ToolboxMechanicalFilled
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogSheetRPGlass
+  name: плазменное бронестекло
+  description: Лист армированной полупрозрачной плазмы.
+  productEntity: SheetRPGlass
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogSheetRUGlass
+  name: урановое бронестекло
+  description: Лист армированного уранового стекла.
+  productEntity: SheetRUGlass
+  cost:
+    LPPCentcoin: 4
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogClothingEyesHudSecEng
+  name: визор полевого инженера
+  description: Модель визора представляющая собой совмещение оптического мезонного сканера и визора службы безопасности. Защищает глаза.
+  productEntity: LPPClothingEyesHudSecEng
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogClothingEyesHudMedSec
+  name: мед-охранный визор
+  description: Окуляр с индикатором на стекле, напоминающий сочетание визора охраны с медицинским.
+  productEntity: ClothingEyesHudMedSec
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigmed
+
+- type: listing
+  id: LPPHosCatalogRedHudGlasses
+  name: красные солнцезащитные очки с визором
+  description: Полезно как для безопасности, так и для каргонии.
+  productEntity: LPPRedHudGlasses
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPmisc
+
+- type: listing
+  id: LPPHosCatalogClothingShoesBootsMagSci
+  name: магнитные сапоги
+  description: Магнитные сапоги, используемые во время работы вне корабля, чтобы оставаться надёжно прикреплённым к поверхности.
+  productEntity: ClothingShoesBootsMagSci
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPmisc
+
+- type: listing
+  id: LPPHosCatalogClothingShoesBootsMagHunter
+  name: магнитные сапоги охотника на карпов
+  description: Коммерческие магнитные сапоги дли тех, кто предпочитает охотиться в невесомости либо при слабой гравитации.
+  productEntity: LPPClothingShoesBootsMagHunter
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPmisc
+
+- type: listing
+  id: LPPHosCatalogClothingBackpackHunter
+  name: туристический рюкзак
+  description: Прочный рюкзак с дополнительными карманами, что значительно повышает вместимость и при этом никак не сковывает движения носителя.
+  productEntity: LPPClothingBackpackHunter
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPmisc
+
+- type: listing
+  id: LPPHosCatalogClothingBeltMaximumWebbing
+  name: разгрузочный жилет "Хомяк"
+  description: Комплект из карманов, сумок и прочей лабуды предоставляет кучу места для ваших всевозможных вещей, что вы сюда запихнёте. Выглядит крайне громоздко однако.
+  productEntity: LPPClothingBeltMaximumWebbing
+  cost:
+    LPPCentcoin: 3
+  categories:
+    - LPPmisc
+
+- type: listing
+  id: LPPHosCatalogMiningDrill
+  name: шахтёрский бур
+  description: Мощный инструмент, служащий для быстрого бурения горных пород. Либо же откапать СБ от бесячей рудовой аномалии.
+  productEntity: MiningDrill
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPmisc
+
+- type: listing
+  id: LPPHosCatalogCrateFoodMRE
+  name: ящик ИРП
+  description: Армейские обеды, которыми можно накормить целый отдел.
+  productEntity: CrateFoodMRE
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPmisc
+
+- type: listing
+  id: LPPHosCatalogFireAxe
+  name: пожарный топор
+  description: Воистину оружие безумца. Кому придёт в голову бороться с огнём с помощью топора?
+  productEntity: FireAxe
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosCatalogHammer
+  name: штурмовой молот
+  description: Молот предназначенный для быстрого проникновения сквозь стены, шлюзы, а также для крушения чьих то черепов. Он явно более робастный, чем обычные молоты.
+  productEntity: LPPHammer
+  cost:
+    LPPCentcoin: 5
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosPortableFlasher
+  name: переносная вспышка
+  description: Сверхъяркая лампочка с дистанционным триггером, полезная для создания зоны, только для СБ.
+  productEntity: PortableFlasher
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosClothingHeadHatDogEars
+  name: собачьи ушки
+  description: Только для хороших кадетов.
+  productEntity: ClothingHeadHatDogEars
+  cost:
+    LPPCentcoin: 6
+  categories:
+    - LPPmisc
+
+- type: listing
+  id: LPPHosC4Low
+  name: Слабая C4
+  description: Взрывпакет предназначенный для быстрого выламывания шлюзов или стен, но его взрыв довольно слабый в плане радиуса. Виднеется этикетка (ставьте прямо на объект).
+  productEntity: LPPC4Low
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosBreachingCharge
+  name: пробивной заряд
+  description: Экстренная взрывчатка, созданная для офицеров что-бы пробивать стены.
+  productEntity: BreachingCharge
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosHOSPanties
+  name: трусы главы службы безопасности
+  description: Даже трусы знают Космический Закон, в отличии от тебя...
+  productEntity: LPPHOSPanties
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPmisc
+
+- type: listing
+  id: LPPHosHoloprojectorSecurity
+  name: проектор голобарьера
+  description: Создаёт твёрдый но хрупкий барьер.
+  productEntity: HoloprojectorSecurity
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosDeployableBarrier
+  name: развёртываемый барьер
+  description: Развёртываемый барьер. Для блокировки/разблокировки проведите по нему ID-картой.
+  productEntity: DeployableBarrier
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosGeneratorBasic
+  name: высокоэффективный термоэлектрический генератор 3KW
+  description: Высокоэффективный термоэлектрический генератор.
+  productEntity: GeneratorBasic
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosbrigtech
+
+- type: listing
+  id: LPPHosRubberBaton
+  name: резиновая дубинка
+  description: Резиновая дубинка для выведения из строя людей. Не так больно, как электро-дубинка, но все равно неприятно, а ну и не требует зарядки конечно же.
+  productEntity: LPPRubberBaton
+  cost:
+    LPPCentcoin: 2
+  categories:
+    - LPPhosweapon
+
+- type: listing
+  id: LPPHosClothingHandsGlovesCombat
+  name: боевые перчатки
+  description: Эти тактические перчатки огнеупорны и ударопрочны.
+  productEntity: ClothingHandsGlovesCombat
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPmisc
+
+- type: listing
+  id: LPPHosUniformJabroni
+  name: наряд Джаброни
+  description: Who is the Boss of this Brig?
+  productEntity: UniformJabroni
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPmisc

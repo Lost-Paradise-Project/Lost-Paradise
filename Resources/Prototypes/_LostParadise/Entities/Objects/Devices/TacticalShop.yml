@@ -67,3 +67,30 @@
     balance:
       Telecrystal: 100
 
+- type: entity
+  parent: BaseItem
+  id: LPPHOSUplinkShop
+  name: Планшет закупа СБ
+  description: Планшет для смотрителя СБ, позволяющий закупиться снаряжением под себя.
+  suffix: Аплинк СБ
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Devices/HOSshop.rsi
+    state: icon
+  - type: UserInterface
+    interfaces:
+    - key: enum.StoreUiKey.Key
+      type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    preset: LPPStorePresetHOS
+    balance:
+      LPPCentcoin: 12
+
+- type: currency
+  id: LPPCentcoin
+  displayName: Центкоин
+  cash:
+    1: LPPCentcoin
+  canWithdraw: false

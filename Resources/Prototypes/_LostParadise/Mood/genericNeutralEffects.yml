@@ -1,0 +1,10 @@
+# Made DarkSide <
+# Нейтральные эффекты настроения (0)
+
+- type: moodEffect
+  id: LPPEmbarrassment
+  moodChange: 0
+  timeout: 300
+  category: NeutralInteraction
+
+# >
