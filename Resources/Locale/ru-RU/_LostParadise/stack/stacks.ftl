@@ -15,7 +15,6 @@ stack-name-GroundTobacco = измельчённый табак
 stack-name-GroundCannabis = измельчённая конопля
 stack-name-LeavesTobaccoDried = сушёные листья табака
 stack-name-LeavesCannabisDried = сушёные листья конопли
-
 # материалы
 stack-name-WoodPlank = деревяная доска
 stack-name-Biomass = биомасса
@@ -43,7 +42,6 @@ stack-name-ReinforcedGlass = бронестекло
 stack-name-PlasmaGlass = плазменное стекло
 stack-name-ReinforcedPlasmaGlass = плазменное бронестекло
 stack-name-UraniumGlass = урановое стекло
-
 # руды
 stack-name-GoldOre = золотая руда
 stack-name-SteelOre = железная руда
@@ -54,26 +52,24 @@ stack-name-UraniumOre = урановая руда
 stack-name-BananiumOre = бананиумовая руда
 stack-name-Coal = уголь
 stack-name-SaltOre = соль
-
 # кабели
 stack-name-Cable = НВ кабель
 stack-name-CableMV = СВ кабель
 stack-name-CableHV = ВВ кабель
-
 # Медикаменты
 stack-name-Ointment = мазь
 stack-name-AloeCream = алоэ крем
-stack-name-Gauze =  марлевый бинт
+stack-name-Gauze = марлевый бинт
 stack-name-Brutepack = набор для ушибов
 stack-name-Bloodpack = пакет крови
 stack-name-MedicatedSuture = медицинская нить
 stack-name-RegenerativeMesh = регенеративная сеть
-
 # тайлы
 stack-name-FloorTileGrassDark = плитка тёмной трава
 stack-name-FloorTileGrassLight = плитка светлой трава
 stack-name-FloorTileDirt = плитка грязи
 stack-name-FloorTileBedrock = плитка коренной породы
+
 # stack-name-FloorTileSteel
 # stack-name-FloorTileMetalDiamond
 # stack-name-FloorTileWood
@@ -147,3 +143,4 @@ stack-name-FloorTileBedrock = плитка коренной породы
 # stack-name-FloorTileAstroIce
 # stack-name-FloorTileAstroSnow
 # stack-name-FloorTileWoodLarge
+
