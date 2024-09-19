@@ -51,6 +51,7 @@ ui-options-interface-label = Интерфейс
 ui-options-show-held-item = Показать удерживаемый элемент рядом с курсором
 ui-options-show-combat-mode-indicators = Показать индикатор боевого режима рядом с курсором
 ui-options-opaque-storage-window = Непрозрачность окна хранилища
+ui-options-no-filters = Отключить фильтры зрения
 ui-options-show-ooc-patron-color = Цветной ник в OOC для патронов с Patreon
 ui-options-show-looc-on-head = Показывать LOOC-чат над головами персонажей
 ui-options-chat-window-opacity-percent = { TOSTRING($opacity, "P0") }
@@ -258,6 +259,9 @@ ui-options-net-pvs-leave-tooltip =
     сущности вне поля зрения. Снижение этого параметра может помочь
     уменьшить "захлёбывания" при ходьбе, но иногда может
     привести к неправильным предугадываниям и другим проблемам.
+ui-options-function-look-up = Присмотреться/Прицелиться
+ui-options-function-auto-get-up = Автоматически вставать после падения
+ui-options-function-hold-look-up = Удерживайте клавишу, чтобы прицелиться
 cmd-options-desc = Открывает меню опций, опционально с конкретно выбранной вкладкой.
 cmd-options-help = Использование: options [tab]
 ui-options-enable-color-name = Цветные имена персонажей

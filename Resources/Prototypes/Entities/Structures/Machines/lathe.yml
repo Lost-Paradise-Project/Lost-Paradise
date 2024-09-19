@@ -275,6 +275,8 @@
     - Dropper
     - ClothingEyesGlassesChemical
     dynamicRecipes:
+      - LPPRCDFAPDevice
+      - LPPRCDFAPAmmo
       - PowerDrill
       - MiningDrill
       - AnomalyScanner
@@ -629,8 +631,6 @@
     - HamtrRLeg
     - VimHarness
   # Begin Nyano additions
-    - ClothingOuterHardsuitJuggernautReverseEngineered
-    - ClothingOuterHardsuitSyndieReverseEngineered
     - JetpackBlue
     - JetpackMini
   # End Nyano additions
@@ -718,6 +718,7 @@
     idleState: icon
     runningState: icon
     staticRecipes:
+      - LPPC4Low
       - ClothingEyesHudSecurity
       - CombatKnife
       - Flash
@@ -911,6 +912,7 @@
     idleState: icon
     runningState: icon
     staticRecipes:
+      - LPPHypospray
       - Brutepack
       - Ointment
       - Gauze

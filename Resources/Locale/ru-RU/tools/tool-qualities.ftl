@@ -22,3 +22,5 @@ tool-quality-rolling-name = Раскатывание
 tool-quality-rolling-tool-name = Скалка
 tool-quality-digging-name = Копание
 tool-quality-digging-tool-name = Лопата
+tool-quality-axing-name = Вскрыть
+tool-quality-axing-tool-name = Пожарный топор
