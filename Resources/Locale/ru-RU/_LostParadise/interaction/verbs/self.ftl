@@ -3,7 +3,6 @@ interaction-LPPMakeSleepIPC-description = Перейти в режим "Гибе
 interaction-LPPMakeSleepIPC-fail-self-popup = Ты не можешь сейчас перейти в гибернацию
 interaction-LPPMakeSleepIPC-success-self-popup = Твоя система наконецто погружаешся в гибернацию.
 interaction-LPPMakeSleepIPC-success-others-popup = { THE($user) } переходит в состояние гибернации.
-
 # Действие между собой/другим
 interaction-LPPCheckStatusSilicon-name = Диагностика
 interaction-LPPCheckStatusSilicon-description = Выполните диагностику своей системы.

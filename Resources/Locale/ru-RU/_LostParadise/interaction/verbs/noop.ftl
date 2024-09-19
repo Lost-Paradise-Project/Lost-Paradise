@@ -3,7 +3,6 @@ interaction-LPPPatShoulder-description = Подбодрите кого-нибу�
 interaction-LPPPatShoulder-success-self-popup = Вы хлопаете по плечу { THE($target) }.
 interaction-LPPPatShoulder-success-target-popup = Вы чуствуете как { THE($user) } хлопает вам по плечу...
 interaction-LPPPatShoulder-success-others-popup = { THE($user) } хлопает по плечу { THE($target) }.
-
 interaction-LPPFuckYou-name = Показать средний палец
 interaction-LPPFuckYou-description = Покажите свое желание послать кого-то этим действием.
 interaction-LPPFuckYou-success-self-popup =
@@ -21,37 +20,31 @@ interaction-LPPFuckYou-success-others-popup =
         [false] { THE($target) }.
        *[true] { POSS-PRONOUN($user) } { $used } { THE($target) }.
     }
-
 interaction-LPPKisscheek-name = Поцеловать в щеку
 interaction-LPPKisscheek-description = Наконец-то вы можете поцеловать кого-то в щеку.
 interaction-LPPKisscheek-success-self-popup = Вы целуете { THE($target) }.
 interaction-LPPKisscheek-success-target-popup = Вы чуствуете как { THE($user) } целует вас в щеку...
 interaction-LPPKisscheek-success-others-popup = { THE($user) } целует в щеку { THE($target) }.
-
 interaction-LPPKiss-name = Поцеловать
 interaction-LPPKiss-description = Наконец-то вы можете поцеловать кого-то.
 interaction-LPPKiss-success-self-popup = Вы целуете { THE($target) }.
 interaction-LPPKiss-success-target-popup = Вы чуствуете как { THE($user) } целует вас...
 interaction-LPPKiss-success-others-popup = { THE($user) } целует { THE($target) }.
-
 interaction-LPPTickle-name = Щекотать
 interaction-LPPTickle-description = Пощекотайте кого-то.
 interaction-LPPTickle-success-self-popup = Вы щекочите { THE($target) }.
 interaction-LPPTickle-success-target-popup = { THE($user) } щекочет вас.
 interaction-LPPTickle-success-others-popup = { THE($user) } щекочет { THE($target) }.
-
 interaction-LPPSlap-name = Пощёчина
 interaction-LPPSlap-description = Как насчет оставить след на чужой щеке?
 interaction-LPPSlap-success-self-popup = Вы наносите пощёчину { THE($target) }.
 interaction-LPPSlap-success-target-popup = { THE($user) } наносит вам пощёчину.
 interaction-LPPSlap-success-others-popup = { THE($user) } наносит пощёчину { THE($target) }.
-
 interaction-LPPSlap2-name = Шлёпнуть
 interaction-LPPSlap2-description = Так прекрасно, хочу шлепнуть!
 interaction-LPPSlap2-success-self-popup = Вы наносите шлепок { THE($target) }.
 interaction-LPPSlap2-success-target-popup = { THE($user) } наносит вам легкий шлепок.
 interaction-LPPSlap2-success-others-popup = { THE($user) } наносит легкий шлепок { THE($target) }.
-
 interaction-LPPLick-name = Лизнуть
 interaction-LPPLick-description = Фрьх~...
 interaction-LPPLick-success-self-popup = Вы лизнули { THE($target) }.
