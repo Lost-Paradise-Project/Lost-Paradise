@@ -500,3 +500,16 @@ Entries:
   id: 51
   time: '2024-09-18T23:07:40.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/160
+- author: MegaDaimond
+  changes:
+    - type: Tweak
+      message: Скафандры были переименованы в одном стиле
+    - type: Tweak
+      message: Цена Вектора в планшете закупа СБ изменена (12>11 ЦентКоинов)
+    - type: Tweak
+      message: Древний скафандр теперь покупается с вещмешком
+    - type: Fix
+      message: Исправлен шлем скафандра капитана и скафандра эскадрона смерти
+  id: 52
+  time: '2024-09-19T19:50:37.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/162
