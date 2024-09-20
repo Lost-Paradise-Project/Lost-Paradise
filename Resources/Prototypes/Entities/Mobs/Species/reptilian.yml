@@ -67,10 +67,10 @@
     - DoorBumpOpener
   - type: LanguageKnowledge
     speaks:
-    - GalacticCommon
+    - TauCetiBasic
     - Draconic
     understands:
-    - GalacticCommon
+    - TauCetiBasic
     - Draconic
 
 - type: entity

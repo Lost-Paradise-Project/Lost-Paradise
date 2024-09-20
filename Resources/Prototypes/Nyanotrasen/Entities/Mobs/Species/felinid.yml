@@ -73,12 +73,10 @@
     - DoorBumpOpener
   - type: LanguageKnowledge
     speaks:
-    - GalacticCommon
-    - SolCommon
+    - TauCetiBasic
     - Nekomimetic
     understands:
-    - GalacticCommon
-    - SolCommon
+    - TauCetiBasic
     - Nekomimetic
   - type: Thieving
     ignoreStripHidden: true

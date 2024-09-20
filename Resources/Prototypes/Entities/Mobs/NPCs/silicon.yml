@@ -111,10 +111,10 @@
   - type: PsionicInsulation
   - type: LanguageKnowledge   #для ТТС
     speaks:
-    - GalacticCommon
+    - TauCetiBasic
     - RobotTalk
     understands:
-    - GalacticCommon
+    - TauCetiBasic
     - RobotTalk
 
 - type: entity
