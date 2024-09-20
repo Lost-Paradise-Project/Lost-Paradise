@@ -37,6 +37,7 @@ research-technology-concentrated-laser-weaponry = Концентрированн
 research-technology-wave-particle-harnessing = Применение волновых частиц
 lppresearch-technology-combat-utility = Боевая медицина
 lppresearch-technology-basic-administration-of-drugs = Базовое введение препаратов
+lppresearch-technology-basic-tracking = Базовое отслеживание
 research-technology-advanced-riot-control = Продвинутое противодействие беспорядкам
 research-technology-portable-microfusion-weaponry = Оруженый портативный микросинтез
 research-technology-experimental-battery-ammo = Экспериментальные батарейные боеприпасы
