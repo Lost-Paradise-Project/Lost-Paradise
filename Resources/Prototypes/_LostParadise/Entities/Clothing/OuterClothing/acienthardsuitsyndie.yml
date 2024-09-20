@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitAcientSyndie
-  name: древний скафандр Синдиката
+  name: Тактический скафандр CSA-21BM - "Tobinezumi"
   description: Очень странная модель скафандра Ядерных Оперативников, явно нестандартной конфигурации и будто бы не из нашей вселенной, на стопе красуется вырезанный текст- "Скафандр Мика, DS1, Дэесдвашники- руки прочь!".
   components:
   - type: Sprite

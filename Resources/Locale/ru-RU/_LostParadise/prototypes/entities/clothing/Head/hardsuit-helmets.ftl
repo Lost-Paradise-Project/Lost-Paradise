@@ -1,13 +1,13 @@
 ent-LPPArmorMovementHead = Силовой шлем
     .desc = Силовой шлем с новейшим сверхсекретным программным обеспечением NT-FAL.
     .suffix = { "силовая броня" }
-ent-ClothingHeadHelmetHardsuitSWAT = шлем скафандра подавителя беспорядков
+ent-ClothingHeadHelmetHardsuitSWAT = шлем FPA-56
     .desc = Специальный шлем скафандра службы безопасности, для всех нужд.
 ent-LPPClothingOuterHardsuitBlueshieldHelm = шлем скафандра офицера "Синий Щит"
-    .desc = Шлем скафандра офицера "Синий Щит".
+    .desc = Шлем NT-443bs
     .suffix = { "Синий Щит" }
-ent-ClothingHeadHelmetHardsuitChrono = шлем Хроно-Легионера
+ent-ClothingHeadHelmetHardsuitChrono = шлем ALT-4f
     .desc = "Чем бы не тешилось дитя, при виде вашего шлема его дела немедленно прекращатся."
     .suffix = { "ХРОНО" }
-ent-LPPClothingHeadHelmetHardsuitSecurityPilot = Шлем скафандра пилота службы безопасности
+ent-LPPClothingHeadHelmetHardsuitSecurityPilot = Шлем FPA-94
     .desc = Стиль, мощь, эстетичность вот что подчеркивает этот шлем

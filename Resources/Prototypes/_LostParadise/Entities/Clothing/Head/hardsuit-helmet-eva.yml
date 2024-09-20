@@ -2,7 +2,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetAcientSyndieEVA
   noSpawn: true
-  name: шлем древнего скафандра Синдиката (EVA режим)
+  name: шлем CSA-21BM
   description: Шлем от странного скафандра Синдиката, он в EVA режиме.
   components:
   - type: Sprite
@@ -31,7 +31,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHunter
   noSpawn: true
-  name: шлем древнего скафандра Охотника
+  name: шлем GRT-42w
   description: Крайне комфорнтый шлем, что позволяет вам защититься от морозной погоды.
   components:
   - type: Sprite
@@ -62,7 +62,7 @@
   parent: ClothingHeadHardsuitBase
   id: LPPClothingHeadHelmetRND
   noSpawn: true
-  name: шлем НИС
+  name: шлем RHS-14s
   description: Шлем от скафандра НИС, довольно полезен и имеет встроенный функционал, по типу определения жидкостей и защиту от сварки, из-за чего довольно громозок.
   components:
   - type: Sprite
@@ -93,8 +93,8 @@
   parent: ClothingHeadHardsuitBase
   id: LPPClothingHeadHelmetScienceNPZ
   noSpawn: true
-  name: шлем научного скафандра НПЗ
-  description: Шлем от скафандра, довольно полезен и имеет встроенный функционал, по типу определения жидкостей и защиту от сварки.
+  name: NPZ-34r
+  description: Шлем от скафандра, довольно полезен и имеет встроенную защиту глаз от сварки.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/head.rsi
@@ -102,7 +102,6 @@
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/head.rsi
   - type: BreathMask
   - type: EyeProtection
-  - type: SolutionScanner
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 10000
