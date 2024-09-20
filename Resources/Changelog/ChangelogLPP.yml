@@ -527,3 +527,12 @@ Entries:
   id: 54
   time: '2024-09-20T10:34:07.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/164
+- author: IAmLePacko
+  changes:
+    - type: Add
+      message: >-
+        Добавлено: теперь некоторые частовстречаемые НПС, мобы и антаги могут
+        открывать двери, втыкаясь в них.
+  id: 55
+  time: '2024-09-20T14:26:28.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/166
