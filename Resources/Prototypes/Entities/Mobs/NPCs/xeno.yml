@@ -165,7 +165,7 @@
         - MobLayer
   - type: Tag
     tags:
-    - DoorBumpOpener
+      - DoorBumpOpener
 
 - type: entity
   name: Drone
@@ -203,8 +203,8 @@
         - MobMask
         layer:
         - MobLayer
-    - type: Tag
-      tags:
+  - type: Tag
+    tags:
       - DoorBumpOpener
 
 - type: entity
@@ -290,8 +290,8 @@
         - MobMask
         layer:
         - MobLayer
-    - type: Tag
-      tags:
+  - type: Tag
+    tags:
       - DoorBumpOpener
 
 - type: entity
@@ -323,8 +323,8 @@
         - MobMask
         layer:
         - MobLayer
-    - type: Tag
-      tags:
+  - type: Tag
+    tags:
       - DoorBumpOpener
 
 - type: entity
@@ -341,8 +341,8 @@
     spawned:
     - id: FoodMeatRouny
       amount: 3
-    - type: Tag
-      tags:
+  - type: Tag
+    tags:
       - DoorBumpOpener
 
 - type: entity
@@ -391,9 +391,9 @@
         - MobMask
         layer:
         - MobLayer
-    - type: Tag
-      tags:
-      - DoorBumpOpener
+  - type: Tag
+    tags:
+    - DoorBumpOpener
 
 - type: entity
   name: space adder
@@ -483,6 +483,6 @@
         Base: dead_small_purple_snake
   - type: SolutionTransfer
     maxTransferAmount: 1
-    - type: Tag
-      tags:
-      - DoorBumpOpener
+  - type: Tag
+    tags:
+    - DoorBumpOpener
