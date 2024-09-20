@@ -579,3 +579,10 @@ Entries:
   id: 56
   time: '2024-09-20T14:51:04.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/167
+- author: Evgencheg
+  changes:
+    - type: Remove
+      message: Убраны улучшения действий.
+  id: 57
+  time: '2024-09-20T15:32:35.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/168
