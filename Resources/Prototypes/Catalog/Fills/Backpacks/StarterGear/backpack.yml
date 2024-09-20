@@ -32,7 +32,6 @@
     contents:
       - id: EmergencyRollerBedSpawnFolded
       - id: BodyBagFolded
-      - id: Portafib
       - id: BruteAutoInjector
         amount: 2
       - id: BurnAutoInjector

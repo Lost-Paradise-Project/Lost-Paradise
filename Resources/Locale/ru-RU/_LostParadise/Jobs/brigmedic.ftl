@@ -1,5 +1,5 @@
-ent-LCCClothingHeadHatCoatHoodBrigmed = капюшон куртки медицинского офицера
-ent-LCCClothingMaskGasBrigmedic = маска медицинского офицера
+ent-LCCClothingHeadHatCoatHoodBrigmed = капюшон куртки полевого врача
+ent-LCCClothingMaskGasBrigmedic = маска полевого врача
     .desc = Медицинская маска, модифицированная для использования в бою, так же защищает вас от случайно разлитых химикатов.
-ent-LCCClothingOuterCoatBrigmed = куртка медицинского офицера
+ent-LCCClothingOuterCoatBrigmed = куртка полевого врача
     .desc = Куртка, сделанная из плотного материала с небольшой защитой от разлитых химикатов, имеет красивые светоотражатели на плечах.

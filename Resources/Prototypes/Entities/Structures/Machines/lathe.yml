@@ -761,6 +761,8 @@
       - MagazinePistolSpecial
       # End of modified code
     dynamicRecipes:
+      - LPPCombatDefibrillator
+      - LPPCombatHypospray
       - EncryptionKeySyndie # Nyano
       - CartridgeLightRifleIncendiary
       - CartridgeMagnumIncendiary
@@ -912,7 +914,6 @@
     idleState: icon
     runningState: icon
     staticRecipes:
-      - LPPHypospray
       - Brutepack
       - Ointment
       - Gauze
@@ -925,9 +926,7 @@
       - DiseaseSwab
       - Beaker
       - LargeBeaker
-      - Dropper
       - Jug
-      - Syringe
       - Implanter
       - PillCanister
       - BodyBag
@@ -951,6 +950,9 @@
       - Hemostat
       - ClothingEyesGlassesChemical
     dynamicRecipes:
+      - Dropper
+      - Syringe
+      - LPPHypospray
       - ChemicalPayload
       - CryostasisBeaker
       - BluespaceBeaker

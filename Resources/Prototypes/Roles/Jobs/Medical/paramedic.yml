@@ -37,7 +37,7 @@
     id: ParamedicPDA
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalEMTFilled
-    pocket1: HandheldGPSBasic # DeltaV - Give Paramedics useful tools on spawn
+    pocket1: LPPHypospray # DeltaV - Give Paramedics useful tools on spawn
     pocket2: HandheldCrewMonitor # DeltaV - Give Paramedics useful tools on spawn
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
