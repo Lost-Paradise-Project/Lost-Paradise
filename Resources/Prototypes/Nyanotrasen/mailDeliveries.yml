@@ -23,7 +23,7 @@
     MailFigurine: 1
     MailFishingCap: 0.5
     MailFlashlight: 1
-    MailFlowers: 1
+    # MailFlowers: 1
     MailHighlander: 0.12
     MailHighlanderDulled: 1
     MailHoneyBuns: 1

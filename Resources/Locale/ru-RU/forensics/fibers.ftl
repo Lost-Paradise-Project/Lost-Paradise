@@ -6,6 +6,7 @@ fibers-leather = кожаные
 fibers-durathread = дюратканевые
 fibers-latex = латексные
 fibers-nitrile = нитриловые
+lppfibers-nitrile-insulative = нитрилово-изолирующие
 fibers-nanomachines = изолирующие наномашинные
 fibers-chameleon = голографические хамелеонные
 fibers-rubber = резиновые

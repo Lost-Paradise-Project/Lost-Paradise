@@ -140,6 +140,7 @@
 ##      - id: ClothingUniformJumpskirtOfLife # DeltaV - nah
 ##        prob: 0.1
       - id: HandheldGPSBasic # Delta V - added it for tracking the implant tracker pop up.
+      - id: HandheldCrewMonitor # He need it. LostParadise
       - id: MedkitFilled
       - id: MedkitCombatFilled
         prob: 0.6

@@ -1,9 +1,10 @@
 - type: entity
-  parent: [ClothingEyesBase, ShowSecurityIcons]
+  parent: ClothingEyesBase
   id: LPPClothingEyesHudSecEng
   name: визор полевого инженера
   description: Модель визора представляющая собой совмещение оптического мезонного сканера и визора службы безопасности. Защищает глаза.
   components:
+  - type: ShowSecurityIcons
   - type: Sprite
     sprite: _LostParadise/Clothing/Eyes/HUD/SecEngHUD.rsi
   - type: Clothing

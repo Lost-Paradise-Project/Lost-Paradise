@@ -60,6 +60,6 @@ ent-ClothingHeadHatBizarreSoft = кепка хулигана
 ent-ClothingHeadHatBizarreSoftFlipped = кепка хулигана
     .desc = { ent-ClothingHeadHeadHatBaseFlipped.desc }
 ent-ClothingHeadHatParamedicsoft = кепка парамедика
-    .desc = Бейсболка медицинского офицера с логотипом медицинского отдела.
+    .desc = Бейсболка полевого врача с логотипом медицинского отдела.
 ent-ClothingHeadHatParamedicsoftFlipped = кепка парамедика
     .desc = { ent-ClothingHeadHeadHatBaseFlipped.desc }

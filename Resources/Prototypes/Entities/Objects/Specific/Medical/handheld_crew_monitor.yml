@@ -28,17 +28,8 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: StationLimitedNetwork
-  - type: ReverseEngineering # Nyano
-    difficulty: 2
-    recipes:
-      - HandheldCrewMonitor
   - type: StaticPrice
     price: 500
-  - type: Tag
-    tags:
-    - HighRiskItem
-  - type: StealTarget
-    stealGroup: HandheldCrewMonitor
 
 - type: entity
   id: HandheldCrewMonitorEmpty
@@ -48,7 +39,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default 
+        name: power-cell-slot-component-slot-name-default
 
 - type: entity
   id: SpyCrewMonitor
@@ -74,7 +65,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default 
+        name: power-cell-slot-component-slot-name-default
 
 - type: entity
   id: SyndiCrewMonitor
@@ -98,5 +89,4 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: power-cell-slot-component-slot-name-default 
-  
+        name: power-cell-slot-component-slot-name-default

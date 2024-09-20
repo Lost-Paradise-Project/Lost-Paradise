@@ -513,3 +513,76 @@ Entries:
   id: 52
   time: '2024-09-19T19:50:37.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/162
+- author: Evgencheg
+  changes:
+    - type: Remove
+      message: Убраны кастомные режимы.
+  id: 53
+  time: '2024-09-19T19:51:40.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/163
+- author: Evgencheg
+  changes:
+    - type: Tweak
+      message: Изменена цена скила обхода ловушек!
+  id: 54
+  time: '2024-09-20T10:34:07.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/164
+- author: IAmLePacko
+  changes:
+    - type: Add
+      message: Добавлены компоненты открытия двери от столкновения.
+  id: 55
+  time: '2024-09-20T14:26:28.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/166
+- author: BL02DL
+  changes:
+    - type: Add
+      message: Добавлены Нитрил-боевые перчатки!
+    - type: Add
+      message: Добавлен боевой гипоспрей!
+    - type: Add
+      message: Добавлены рецепты боевого дефибриллятора и гипоспрея!
+    - type: Add
+      message: Добавлена новая технология Т2 арсенал "Боевая медицина"!
+    - type: Add
+      message: Добавлена новая технология Т1 сервис "Базовое введение препаратов"!
+    - type: Add
+      message: Добавлена новая технология Т1 сервис "Базовое отслеживание"!
+    - type: Add
+      message: Добавлен монитор датчиков в шкаф ПВ!
+    - type: Remove
+      message: Убран портативный дефибриллятор из рюкзака ПВ!
+    - type: Remove
+      message: Убрана цель антагонистов на монитор датчиков!
+    - type: Tweak
+      message: Изменён перевод Медицинского офицера в Полевого врача!
+    - type: Tweak
+      message: Изменён начальный визор ПВ с мед на мед-сб!
+    - type: Tweak
+      message: Изменён урон свалена с 7 до 13!
+    - type: Tweak
+      message: >-
+        Изменено: теперь гипо 0.5 требуется изучить для создания, также со
+        шприцами и пипетками!
+    - type: Tweak
+      message: Изменён спрайт визора мед-сб!
+    - type: Tweak
+      message: Изменён спрайт боевого дефиба!
+    - type: Tweak
+      message: Изменена стоимость крафта гипо 0.5!
+    - type: Tweak
+      message: ГСП в кармане у парамеда заменён на гипо 0.5, ГСП перемещён в ящик!
+    - type: Fix
+      message: Исправлен перевод вещей ПВ и прочих!
+    - type: Fix
+      message: 'Исправлен баг с отображением иконки роли визорам: Мед-сб, Инж-сб! '
+  id: 56
+  time: '2024-09-20T14:51:04.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/167
+- author: Evgencheg
+  changes:
+    - type: Remove
+      message: Убраны улучшения действий.
+  id: 57
+  time: '2024-09-20T15:32:35.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/168

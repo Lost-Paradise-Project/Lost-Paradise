@@ -38,8 +38,8 @@
     outerClothing: ClothingOuterArmorPlateCarrier
     back: ClothingBackpackBrigmedicFilled
     shoes: ClothingShoesBootsCombatFilled
-    gloves: ClothingHandsGlovesNitrile
-    eyes: ClothingEyesHudMedical
+    gloves: LPPClothingHandsGlovesCombatNitrile
+    eyes: ClothingEyesHudMedSec
     head: ClothingHeadHatBeretCorpsman
     id: CorpsmanPDA
     ears: ClothingHeadsetBrigmedic

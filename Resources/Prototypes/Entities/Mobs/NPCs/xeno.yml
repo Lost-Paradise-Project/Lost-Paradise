@@ -163,6 +163,9 @@
         - MobMask
         layer:
         - MobLayer
+  - type: Tag
+    tags:
+      - DoorBumpOpener
 
 - type: entity
   name: Drone
@@ -200,6 +203,9 @@
         - MobMask
         layer:
         - MobLayer
+  - type: Tag
+    tags:
+      - DoorBumpOpener
 
 - type: entity
   name: Queen
@@ -239,6 +245,7 @@
   - type: Tag
     tags:
     - CannotSuicide
+    - DoorBumpOpener
   - type: LanguageKnowledge
     speaks:
     - GalacticCommon
@@ -283,6 +290,9 @@
         - MobMask
         layer:
         - MobLayer
+  - type: Tag
+    tags:
+      - DoorBumpOpener
 
 - type: entity
   name: Runner
@@ -313,6 +323,9 @@
         - MobMask
         layer:
         - MobLayer
+  - type: Tag
+    tags:
+      - DoorBumpOpener
 
 - type: entity
   name: Rouny
@@ -328,6 +341,9 @@
     spawned:
     - id: FoodMeatRouny
       amount: 3
+  - type: Tag
+    tags:
+      - DoorBumpOpener
 
 - type: entity
   name: Spitter
@@ -375,6 +391,9 @@
         - MobMask
         layer:
         - MobLayer
+  - type: Tag
+    tags:
+    - DoorBumpOpener
 
 - type: entity
   name: space adder
@@ -464,3 +483,6 @@
         Base: dead_small_purple_snake
   - type: SolutionTransfer
     maxTransferAmount: 1
+  - type: Tag
+    tags:
+    - DoorBumpOpener
