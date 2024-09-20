@@ -175,6 +175,8 @@
   components:
   - type: StorageFill
     contents:
+      - id: HandheldGPSBasic
+      - id: HandheldCrewMonitor
       - id: ClothingOuterCoatParamedicWB
       - id: ClothingHeadHatParamedicsoft
       - id: ClothingUniformJumpsuitParamedic
