@@ -245,7 +245,7 @@
   - type: Tag
     tags:
     - CannotSuicide
-    - DoorBympOpener
+    - DoorBumpOpener
   - type: LanguageKnowledge
     speaks:
     - GalacticCommon
