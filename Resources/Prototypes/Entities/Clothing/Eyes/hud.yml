@@ -17,7 +17,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesHudMedical
   name: medical hud
-  description: A heads-up display that scans the humanoids in view and provides accurate data about their health status. 
+  description: A heads-up display that scans the humanoids in view and provides accurate data about their health status.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Hud/med.rsi
@@ -154,6 +154,9 @@
   - type: ShowHealthBars
     damageContainers:
     - Biological
+  - type: Tag
+    tags:
+    - HudSecurity
 
 - type: entity
   parent: ClothingEyesBase

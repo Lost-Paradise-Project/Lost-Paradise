@@ -145,9 +145,9 @@ loadout-group-detective-backpack = Багаж детектива
 loadout-group-detective-outerclothing = Верхняя одежда детектива
 loadout-group-brigtech-special = Униформа полевого инженера
 loadout-group-securityengineer-backpack = Багаж полевого инженера
-loadout-group-brigmedic-outerclothing = Верхняя одежда медицинского офицера
-loadout-group-brigmedic-special = Униформа медицинского офицера
-loadout-group-brigmedic-backpack = Багаж медицинского офицера
+loadout-group-brigmedic-outerclothing = Верхняя одежда полевого врача
+loadout-group-brigmedic-special = Униформа полевого врача
+loadout-group-brigmedic-backpack = Багаж полевого врача
 loadout-group-security-cadet-jumpsuit = Униформа кадета
 # Medical
 loadout-group-medical-gloves = Медицинские перчатки

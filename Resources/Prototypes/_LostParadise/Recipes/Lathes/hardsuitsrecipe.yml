@@ -177,20 +177,6 @@
     Uranium: 425
 
 - type: latheRecipe
-  id: ClothingOuterHardsuitRd
-  result: ClothingOuterHardsuitRd
-  category: hardsuit
-  completetime: 50
-  materials:
-    Steel: 1275
-    Plasteel: 850
-    Gold: 1530
-    Silver: 1190
-    Glass: 1020
-    Plasma: 1445
-    Uranium: 1360
-
-- type: latheRecipe
   id: ClothingOuterHardsuitMedical
   result: ClothingOuterHardsuitMedical
   category: hardsuit
@@ -203,29 +189,6 @@
     Glass: 1190
     Plasma: 1190
     Uranium: 1105
-
-- type: latheRecipe
-  id: ClothingShoesBootsMagAdv
-  result: ClothingShoesBootsMagAdv
-  completetime: 30
-  materials:
-    Steel: 1105
-    Plasteel: 255
-    Gold: 425
-    Silver: 1360
-    Glass: 3910
-    Plastic: 1615
-
-- type: latheRecipe
-  id: HandTeleporter
-  result: HandTeleporter
-  completetime: 40
-  materials:
-    Steel: 425
-    Glass: 1190
-    Plasma: 255
-    Uranium: 1530
-    Plastic: 2550
 
 - type: latheRecipe
   id: Hypospray
@@ -242,9 +205,28 @@
   result: LPPHypospray
   completetime: 20
   materials:
-    Steel: 425
-    Plastic: 1275
-    Glass: 510
+    Steel: 400
+    Plastic: 400
+    Glass: 500
+
+- type: latheRecipe
+  id: LPPCombatHypospray
+  result: LPPCombatHypospray
+  completetime: 10
+  materials:
+    Steel: 500
+    Plastic: 700
+    Glass: 200
+    Silver: 300
+
+- type: latheRecipe
+  id: LPPCombatDefibrillator
+  result: LPPCombatDefibrillator
+  completetime: 10
+  materials:
+    Steel: 200
+    Plasteel: 300
+    Silver: 200
 
 - type: latheRecipe
   id: ClothingOuterHardsuitRND

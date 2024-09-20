@@ -1,2 +1,2 @@
-ent-ClothingHeadHelmetSecurityMedic = шлем медицинского офицера
+ent-ClothingHeadHelmetSecurityMedic = шлем полевого врача
     .desc = Стандартный боевой шлем медиков службы безопасности. Имеет достойный предел прочности и броню. Не задирайте голову.

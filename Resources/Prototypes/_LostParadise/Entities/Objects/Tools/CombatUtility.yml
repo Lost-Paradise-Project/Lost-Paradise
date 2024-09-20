@@ -1,11 +1,11 @@
 - type: entity
   id: LPPCombatDefibrillator
-  parent: [ BaseDefibrillator, PowerCellSlotHighItem ]
+  parent: [ BaseItem, PowerCellSlotHighItem ]
   name: боевой дефибриллятор
-  description: Быстро. Надёжно. Эффективно.
+  description: Быстро. Надёжно. Эффективно. Имеет этикетку "BL CORP technology"
   components:
     - type: PowerCellDraw
-      useRate: 120
+      useRate: 100
     - type: Defibrillator
       zapHeal:
         types:
@@ -16,3 +16,58 @@
         cell_slot:
           name: power-cell-slot-component-slot-name-default
           startingItem: PowerCellHigh
+    - type: Sprite
+      sprite: _LostParadise/Objects/Specific/Medical/defib.rsi
+      layers:
+        - state: icon
+        - state: screen
+          map: [ "enum.ToggleVisuals.Layer" ]
+          visible: false
+          shader: unshaded
+        - state: ready
+          map: ["enum.PowerDeviceVisualLayers.Powered"]
+          shader: unshaded
+    - type: Item
+      size: Small
+      storedRotation: -90
+    - type: Appearance
+    - type: GenericVisualizer
+      visuals:
+        enum.ToggleVisuals.Toggled:
+          enum.ToggleVisuals.Layer:
+            True: { visible: true }
+            False: { visible: false }
+        enum.DefibrillatorVisuals.Ready:
+          enum.PowerDeviceVisualLayers.Powered:
+            True: { visible: true }
+            False: { visible: false }
+    - type: Speech
+      speechVerb: Robotic
+    - type: StaticPrice
+      price: 50
+
+- type: entity
+  parent: BaseItem
+  id: LPPCombatHypospray
+  name: боевой гипоспрей
+  description: Слегка урезанная версия стерильного инъектора для быстрого введения лекарств пациентам. Достаточно быстрая версия ввиду своего предназначения. НЕ ДАВАТЬ В РУКИ ОФИЦЕРАМ. Имеет этикетку "BL CORP technology"
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Medical/CombatHypospray.rsi
+    state: hypo
+  - type: Item
+    sprite: _LostParadise/Objects/Specific/Medical/CombatHypospray.rsi
+  - type: SolutionContainerManager
+    solutions:
+      hypospray:
+        maxVol: 10
+  - type: RefillableSolution
+    solution: hypospray
+  - type: ExaminableSolution
+    solution: hypospray
+  - type: Hypospray
+    onlyAffectsMobs: false
+  - type: UseDelay
+    delay: 0.25
+  - type: StaticPrice
+    price: 1000
