@@ -18,7 +18,6 @@
 - type: Interaction
   id: WaveAt
   parent: [BaseHands, BaseGlobal]
-  icon: /Textures/Interface/Alerts/mood.rsi/mood5.png # < Tweak MrDarkSide >
   priority: 3
   requiresCanInteract: false
   contactInteraction: false
@@ -37,7 +36,6 @@
 # Knocking on the target - windows, doors, etc.
 - type: Interaction
   id: KnockOn
-  icon: /Textures/Interface/Alerts/mood.rsi/mood5.png # < Tweak MrDarkSide >
   parent: BaseHands
   priority: 20
   effectSuccess:
@@ -50,7 +48,6 @@
 - type: Interaction
   id: Rattle
   parent: BaseHands
-  icon: /Textures/Interface/Alerts/mood.rsi/mood5.png # < Tweak MrDarkSide >
   priority: 20
   effectSuccess:
     popup: VisibleNoChat

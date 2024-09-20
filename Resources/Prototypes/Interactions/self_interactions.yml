@@ -16,7 +16,6 @@
 - type: Interaction
   id: PinchSelf
   parent: SelfInteractionBase
-  icon: /Textures/Interface/Alerts/mood.rsi/mood4.png # < Tweak MrDarkSide >
   delay: 1
   action:
     !type:ComplexAction
@@ -36,7 +35,6 @@
 # Sleeping on the floor is real
 - type: Interaction
   id: MakeSleepSelf
-  icon: /Textures/Interface/Alerts/mood.rsi/mood5.png # < Tweak MrDarkSide >
   parent: [SelfInteractionBase, MakeSleepOther]
   delay: 4.5
   requirement:
