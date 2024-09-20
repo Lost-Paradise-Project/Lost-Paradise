@@ -280,7 +280,7 @@
 - type: trait
   id: TrapAvoider
   category: Physical
-  points: -2
+  points: -6
   components:
     - type: StepTriggerImmune
       whitelist:
