@@ -530,9 +530,7 @@ Entries:
 - author: IAmLePacko
   changes:
     - type: Add
-      message: >-
-        Добавлено: теперь некоторые частовстречаемые НПС, мобы и антаги могут
-        открывать двери, втыкаясь в них.
+      message: Добавлены компоненты открытия двери от столкновения.
   id: 55
   time: '2024-09-20T14:26:28.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/166
