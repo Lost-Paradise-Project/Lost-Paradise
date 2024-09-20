@@ -170,6 +170,7 @@
   - type: Tag
     tags:
       - Oneirophage
+      - DoorBumpOpener
   - type: MovementAlwaysTouching
   - type: PsionicInvisibleContacts
     whitelist:
