@@ -597,3 +597,12 @@ Entries:
   id: 58
   time: '2024-09-21T16:25:13.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/175
+- author: IAmLePacko
+  changes:
+    - type: Tweak
+      message: Изменены параметры появления режимов.
+    - type: Tweak
+      message: 'Изменено: Вор потерял пацифизм в угоду РП и логики.'
+  id: 59
+  time: '2024-09-21T16:25:24.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/174
