@@ -306,7 +306,7 @@
 #  id: LPPCBURNCatalogEngineeringHammer
 #  name: cburn-catalog-engineering-hammer-name
 #  description: cburn-catalog-engineering-hammer-desc
-#  productEntity: SecBreachingHammer
+#  productEntity: LPPHammer
 #  cost:
 #    Telecrystal: 5
 #  categories:

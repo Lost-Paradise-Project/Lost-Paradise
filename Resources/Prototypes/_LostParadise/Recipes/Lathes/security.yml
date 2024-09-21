@@ -102,3 +102,11 @@
   completetime: 5
   materials:
     Steel: 1150
+
+- type: latheRecipe
+  id: LPPC4Low
+  result: LPPC4Low
+  completetime: 10
+  materials:
+    Plastic: 375
+    Plasma: 375
