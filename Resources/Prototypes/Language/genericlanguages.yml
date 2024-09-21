@@ -6,7 +6,7 @@
   obfuscation:
     !type:ReplacementObfuscation
     replacement:
-    - "*incomprehensible*" # Never actually used
+    - "*непонятно*" # Never actually used
 
 # Used by Robots.
 # TODO: Replace this with much better languages. Yes, robots can have languages.
@@ -39,7 +39,9 @@
   obfuscation:
     !type:ReplacementObfuscation
     replacement:
-    - something
-    - a cryptic message
-    - a signal
-    - a message
+    - что-то
+    - машет вам
+    - будто танцует
+    - криво показывает вам что-то
+    - указывает куда-то
+    - непонятливо крутит пальцами

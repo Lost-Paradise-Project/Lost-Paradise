@@ -2271,7 +2271,7 @@
     - Xeno
     understands:
     - Xeno
-    - GalacticCommon
+    - TauCetiBasic
   - type: InteractionPopup
     successChance: 0.5
     interactSuccessString: petting-success-tarantula

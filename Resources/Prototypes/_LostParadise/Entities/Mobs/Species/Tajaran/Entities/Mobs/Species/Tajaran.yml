@@ -60,10 +60,10 @@
       # race: Tajar
     - type: LanguageKnowledge
       speaks:
-      - GalacticCommon
+      - TauCetiBasic
       - LPPSikTaj
       understands:
-      - GalacticCommon
+      - TauCetiBasic
       - LPPSikTaj
 
 - type: entity

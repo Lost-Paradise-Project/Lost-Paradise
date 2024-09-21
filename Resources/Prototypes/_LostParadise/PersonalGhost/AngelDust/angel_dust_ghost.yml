@@ -49,13 +49,13 @@
   #       toggleAction: ActionAGhostShowCrewMonitoring
   # - type: LanguageSpeaker
   #   speaks:
-  #   - GalacticCommon
+  #   - TauCetiBasic
   #   - LPPCanilunzt
   #   - LPPElfLang
   #   - LPPSolCommon
   #   - LPPDev
   #   understands:
-  #   - GalacticCommon
+  #   - TauCetiBasic
   #   - LPPCanilunzt
   #   - LPPSikTaj
   #   - LPPCintaTaj

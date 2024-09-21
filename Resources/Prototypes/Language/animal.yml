@@ -6,10 +6,10 @@
     minSyllables: 1
     maxSyllables: 2
     replacement:
-    - murr
-    - meow
-    - purr
-    - mrow
+    - мурр
+    - мяу
+    - пурр
+    - мррмяу
 
 - type: language
   id: Dog
@@ -18,12 +18,12 @@
     minSyllables: 1
     maxSyllables: 2
     replacement:
-    - woof
-    - bark
-    - ruff
-    - bork
-    - raff
-    - garr
+    - вуф
+    - гаф
+    - рруф
+    - рраф
+    - ррар
+    - гррар
 
 - type: language
   id: Fox
@@ -32,12 +32,13 @@
     minSyllables: 1
     maxSyllables: 2
     replacement:
-    - ruff
-    - raff
-    - garr
-    - yip
-    - yap
-    - myah
+    - руфф
+    - рафф
+    - фрь
+    - гарр
+    - йип
+    - йап
+    - мьяах
 
 - type: language
   id: Xeno
@@ -46,8 +47,8 @@
     minSyllables: 1
     maxSyllables: 8 # I was crazy once
     replacement:
-    - s
-    - S
+    - С
+    - Р
 
 - type: language
   id: Monkey
@@ -56,8 +57,8 @@
     minSyllables: 1
     maxSyllables: 8 # They locked me in a room...
     replacement:
-    - o
-    - k
+    - у
+    - а
 
 - type: language
   id: Mouse
@@ -66,14 +67,14 @@
     minSyllables: 2
     maxSyllables: 3
     replacement:
-    - squ
-    - eak
-    - pi
-    - ep
-    - chuu
-    - ee
-    - fwi
-    - he
+    - ску
+    - иик
+    - пи
+    - еп
+    - чуу
+    - ии
+    - фии
+    - хи
 
 - type: language
   id: Chicken
@@ -82,9 +83,9 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - co
-    - coo
-    - ot
+    - ку
+    - кудах
+    - тах
 
 - type: language
   id: Duck
@@ -93,9 +94,9 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - qu
-    - ack
-    - quack
+    - кр
+    - як
+    - кряк
 
 - type: language
   id: Cow
@@ -104,8 +105,8 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - moo
-    - mooo
+    - му
+    - мууу
 
 - type: language
   id: Sheep
@@ -114,9 +115,9 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - ba
-    - baa
-    - aa
+    - беее
+    - бее
+    - ее
 
 - type: language
   id: Kangaroo
@@ -125,10 +126,10 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - shre
-    - ack
-    - chuu
-    - choo
+    - шре
+    - ак
+    - чууу
+    - чооо
 
 - type: language
   id: Pig
@@ -137,7 +138,8 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - oink # Please someone come up with something better
+    - хрю # Please someone come up with something better
+    - Йонкь
 
 - type: language
   id: Crab
@@ -146,13 +148,13 @@
     minSyllables: 1
     maxSyllables: 3
     replacement:
-    - click
-    - clack
-    - ti
-    - pi
-    - tap
-    - cli
-    - ick
+    - клик
+    - клак
+    - ти
+    - пи
+    - тык
+    - кл
+    - ик
 
 - type: language
   id: Kobold
@@ -161,17 +163,17 @@
     minSyllables: 2
     maxSyllables: 4
     replacement:
-    - yip
-    - yap
-    - gar
-    - grr
-    - ar
-    - scre
-    - et
-    - gronk
-    - hiss
-    - ss
-    - ee
+    - йифф
+    - ски
+    - гар
+    - грр
+    - ар
+    - скрик
+    - эт
+    - горнк
+    - хисс
+    - сс
+    - ии
 
 - type: language
   id: Hissing
@@ -180,7 +182,7 @@
     minSyllables: 2
     maxSyllables: 4
     replacement:
-    - hss
-    - iss
-    - ss
-    - is
+    - хсс
+    - хисс
+    - сс
+    - исс
