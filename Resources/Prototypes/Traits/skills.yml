@@ -104,15 +104,6 @@
         - MedicalBorg
 
 - type: trait
-  id: SignLanguage
-  category: Visual
-  points: -2
-  languagesSpoken:
-    - Sign
-  languagesUnderstood:
-    - Sign
-
-- type: trait
   id: Voracious
   category: Physical
   points: -2
@@ -280,7 +271,7 @@
 - type: trait
   id: TrapAvoider
   category: Physical
-  points: -6
+  points: -4
   components:
     - type: StepTriggerImmune
       whitelist:

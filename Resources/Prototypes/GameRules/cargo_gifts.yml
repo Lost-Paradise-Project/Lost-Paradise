@@ -46,7 +46,7 @@
     - type: StationEvent
       weight: 4
       startDelay: 10
-      duration: 240
+      duration: 180
       earliestStart: 30
       minimumPlayers: 10
     - type: CargoGiftsRule
@@ -67,11 +67,11 @@
   noSpawn: true
   components:
     - type: StationEvent
-      weight: 4
+      weight: 5
       startDelay: 10
       duration: 120
-      minimumPlayers: 40
-      earliestStart: 30
+      minimumPlayers: 30
+      earliestStart: 45
     - type: CargoGiftsRule
       description: cargo-gift-vending
       sender: cargo-gift-default-sender
@@ -90,7 +90,7 @@
   noSpawn: true
   components:
     - type: StationEvent
-      weight: 8
+      weight: 6
       startDelay: 10
       duration: 120
       minimumPlayers: 30

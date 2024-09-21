@@ -586,3 +586,23 @@ Entries:
   id: 57
   time: '2024-09-20T15:32:35.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/168
+- author: Kest
+  changes:
+    - type: Tweak
+      message: C4Low был заменён на пробивной заряд
+    - type: Remove
+      message: C4Low был удалён из игры
+    - type: Remove
+      message: Дубликат штурмового молота был удалён из игры
+  id: 58
+  time: '2024-09-21T16:25:13.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/175
+- author: IAmLePacko
+  changes:
+    - type: Tweak
+      message: Изменены параметры появления режимов.
+    - type: Tweak
+      message: 'Изменено: Вор потерял пацифизм в угоду РП и логики.'
+  id: 59
+  time: '2024-09-21T16:25:24.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/174

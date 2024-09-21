@@ -143,8 +143,6 @@
 - type: Tag
   id: LPPDrinkBottleAlko
 
-- type: Tag
-  id: LPPHammer
 # [Обоема для M41-A]
 
 - type: Tag

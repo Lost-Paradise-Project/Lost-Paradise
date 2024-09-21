@@ -1,28 +1,24 @@
 - type: trait
   id: PirateAccent
-  category: Speech
+  category: TraitsSpeechAccents
   requirements:
-    - !type:CharacterTraitRequirement
-      inverted: true
-      traits:
-        - Muted
+    - !type:CharacterItemGroupRequirement
+      group: TraitsAccents
   components:
     - type: PirateAccent
 
 - type: trait
   id: Accentless
-  category: Speech
-  points: -2
+  category: TraitsSpeechAccents
+  points: -1
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
       jobs:
         - Borg
         - MedicalBorg
-    - !type:CharacterTraitRequirement
-      inverted: true
-      traits:
-        - Muted
+    - !type:CharacterItemGroupRequirement
+      group: TraitsAccents
   components:
     - type: Accentless
       removes:
@@ -33,7 +29,10 @@
 
 #- type: trait
 #  id: Southern
-#  category: Speech
+#  category: TraitsSpeechAccents
+#  requirements:
+#    - !type:CharacterItemGroupRequirement
+#      group: TraitsAccents
 #  components:
 #    - type: SouthernAccent
 

@@ -29,8 +29,8 @@
   components:
   - type: StationEvent
     weight: 1
-    maxOccurrences: 4 # Very annoying, makes containers unusable
-    earliestStart: 1
+    maxOccurrences: 5 # Very annoying, makes containers unusable
+    earliestStart: 15
     reoccurrenceDelay: 15
     duration: 1
   - type: BluespaceLockerRule
@@ -43,7 +43,7 @@
   - type: StationEvent
     weight: 10
     duration: 1
-    minimumPlayers: 7
+    minimumPlayers: 10
     reoccurrenceDelay: 5
   - type: BreakerFlipRule
 
@@ -54,8 +54,8 @@
   components:
   - type: StationEvent
     startAnnouncement: true
-    minimumPlayers: 25
-    weight: 5
+    minimumPlayers: 35
+    weight: 4
     duration: 1
     reoccurrenceDelay: 5
   - type: BureaucraticErrorRule
@@ -67,8 +67,8 @@
   components:
   - type: StationEvent
     startAnnouncement: true
-    minimumPlayers: 15
-    weight: 5
+    minimumPlayers: 30
+    weight: 4
     duration: 1
     reoccurrenceDelay: 5
   - type: ClericalErrorRule
@@ -79,9 +79,9 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 10
+    weight: 9
     duration: 1
-    minimumPlayers: 15
+    minimumPlayers: 20
     reoccurrenceDelay: 25
   - type: RandomEntityStorageSpawnRule
     prototype: MobSkeletonCloset
@@ -96,7 +96,7 @@
     duration: 1
     earliestStart: 45
     reoccurrenceDelay: 60
-    minimumPlayers: 20
+    minimumPlayers: 35
   - type: RandomSpawnRule
     prototype: SpawnPointGhostDragon
 
@@ -110,7 +110,7 @@
     duration: 1
     earliestStart: 45
     reoccurrenceDelay: 45
-    minimumPlayers: 20
+    minimumPlayers: 25
   - type: NinjaSpawnRule
 
 # TODO there's already a glimmer revenant rule. One of them might be broken.
@@ -133,7 +133,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 10
+    weight: 9
     duration: 1
     reoccurrenceDelay: 4 # Please no 10 false alarms in a row.
   - type: FalseAlarmRule
@@ -175,8 +175,8 @@
   - type: StationEvent
     earliestStart: 30
     reoccurrenceDelay: 5
-    weight: 7.5
-    minimumPlayers: 7 #Enough to hopefully have at least one engineering guy
+    weight: 7
+    minimumPlayers: 15 #Enough to hopefully have at least one engineering guy
     startAnnouncement: true
     endAnnouncement: true
     duration: null #ending is handled by MeteorSwarmRule
@@ -267,7 +267,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    weight: 5
+    weight: 4
     duration: 1
     reoccurrenceDelay: 10
     maxOccurrences: 3 # Annoying and rarely if ever interesting
@@ -339,7 +339,7 @@
     startDelay: 10
     earliestStart: 20
     reoccurrenceDelay: 12
-    minimumPlayers: 15
+    minimumPlayers: 20
     weight: 5
     duration: 60
   - type: VentCrittersRule
@@ -361,7 +361,7 @@
     startDelay: 10
     earliestStart: 20
     reoccurrenceDelay: 15
-    minimumPlayers: 15
+    minimumPlayers: 20
     weight: 5
     duration: 60
   - type: VentCrittersRule
@@ -376,7 +376,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    minimumPlayers: 1
+    minimumPlayers: 7
   - type: VentCrittersRule
     entries:
     - id: MobAdultSlimesBlueAngry
@@ -392,7 +392,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    minimumPlayers: 1
+    minimumPlayers: 7
   - type: VentCrittersRule
     entries:
     - id: MobGiantSpiderAngry
@@ -423,9 +423,9 @@
   - type: StationEvent
     id: VentCritters
     earliestStart: 15
-    minimumPlayers: 15
+    minimumPlayers: 25
     weight: 4
-    duration: 60
+    duration: 45
   - type: VentCrittersRule
     entries:
     - id: MobGiantSpiderVampireAngry
@@ -439,7 +439,7 @@
   - type: StationEvent
     earliestStart: 60
     reoccurrenceDelay: 60
-    minimumPlayers: 15
+    minimumPlayers: 25
     weight: 2
     duration: 1
   - type: ZombieRule
@@ -474,7 +474,7 @@
   - type: StationEvent
     earliestStart: 60
     weight: 3
-    minimumPlayers: 15
+    minimumPlayers: 25
     reoccurrenceDelay: 45
     duration: 1
   - type: LoadMapRule
@@ -547,9 +547,9 @@
   noSpawn: true
   components:
     - type: StationEvent
-      earliestStart: 0
+      earliestStart: 10
       reoccurrenceDelay: 5
       minimumPlayers: 20
-      weight: 5
+      weight: 4
     - type: MobReplacementRule
       numberToReplace: 1

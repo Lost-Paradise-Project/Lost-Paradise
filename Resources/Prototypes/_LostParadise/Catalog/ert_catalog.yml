@@ -657,7 +657,7 @@
 #  id: LPPERTCatalogEngineeringHammer
 #  name: ert-catalog-engineering-hammer-name
 #  description: ert-catalog-engineering-hammer-desc
-#  productEntity: LPPHammer
+#  productEntity: SecBreachingHammer
 #  cost:
 #    Telecrystal: 5
 #  categories:
