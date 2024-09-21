@@ -1191,7 +1191,7 @@
   id: LPPHosCatalogHammer
   name: штурмовой молот
   description: Молот предназначенный для быстрого проникновения сквозь стены, шлюзы, а также для крушения чьих то черепов. Он явно более робастный, чем обычные молоты.
-  productEntity: SecBreachingHammer
+  productEntity: LPPHammer
   cost:
     LPPCentcoin: 5
   categories:
@@ -1221,7 +1221,7 @@
   id: LPPHosC4Low
   name: Слабая C4
   description: Взрывпакет предназначенный для быстрого выламывания шлюзов или стен, но его взрыв довольно слабый в плане радиуса. Виднеется этикетка (ставьте прямо на объект).
-  productEntity: BreachingCharge
+  productEntity: LPPC4Low
   cost:
     LPPCentcoin: 1
   categories:

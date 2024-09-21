@@ -94,7 +94,7 @@
 #         ejectOnInteract: true
 #         whitelist:
 #           tags:
-#           - SecBreachingHammer
+#           - LPPHammer
 #   - type: Lock
 #   - type: AccessReader
 #     access: [["Engineering"], ["Salvage"], ["Security"]]
@@ -107,4 +107,4 @@
 #   - type: ContainerFill
 #     containers:
 #       ItemCabinet:
-#       - SecBreachingHammer
+#       - LPPHammer

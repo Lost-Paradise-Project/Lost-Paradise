@@ -14,7 +14,7 @@
       - id: ToolboxMechanicalFilled
       - id: ClothingHandsGlovesCombat
       - id: LPPClothingOuterHardsuitSecurityEng
-      - id: BreachingCharge
-      - id: SecBreachingHammer
+      - id: LPPC4Low
+      - id: LPPHammer
       - id: RCD
       - id: RCDAmmo

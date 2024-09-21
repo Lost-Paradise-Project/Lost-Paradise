@@ -718,6 +718,7 @@
     idleState: icon
     runningState: icon
     staticRecipes:
+      - LPPC4Low
       - ClothingEyesHudSecurity
       - CombatKnife
       - Flash
