@@ -659,7 +659,7 @@
 #  id: LPPDeltaCatalogEngineeringHammer
 #  name: delta-catalog-engineering-hammer-name
 #  description: delta-catalog-engineering-hammer-desc
-#  productEntity: LPPHammer
+#  productEntity: SecBreachingHammer
 #  cost:
 #    Telecrystal: 3
 #  categories:
