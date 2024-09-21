@@ -395,6 +395,7 @@
       species:
         - Arachnid
         - Arachne
+        - IPC
   components:
     - type: Sericulture
       action: ActionSericulture
