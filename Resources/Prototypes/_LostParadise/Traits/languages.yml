@@ -1,6 +1,6 @@
 ﻿- type: trait
   id: ElfLanguage
-  category: Speech
+  category: TraitsSpeechLanguages
   points: 0
   languagesSpoken:
   - ElfLang
@@ -11,17 +11,12 @@
     inverted: false
     species:
     - Human
-  - !type:CharacterTraitRequirement
-    inverted: true
-    traits:
-    - DwarfLanguage
-    - ForeignerLight
-    - Foreigner
-    - SignLanguage
+  - !type:CharacterItemGroupRequirement
+    group: TraitsLanguagesBasic
 
 - type: trait
   id: DwarfLanguage
-  category: Speech
+  category: TraitsSpeechLanguages
   points: 0
   languagesSpoken:
   - DwarfLang
@@ -32,10 +27,5 @@
     inverted: false
     species:
     - Human
-  - !type:CharacterTraitRequirement
-    inverted: true
-    traits:
-    - ElfLanguage
-    - ForeignerLight
-    - Foreigner
-    - SignLanguage
+  - !type:CharacterItemGroupRequirement
+    group: TraitsLanguagesBasic
