@@ -3,6 +3,17 @@ import re
 import chardet
 from datetime import datetime
 
+def find_top_level_dir(start_dir):
+    marker_file = 'SpaceStation14.sln'
+    current_dir = start_dir
+    while True:
+        if marker_file in os.listdir(current_dir):
+            return current_dir
+        parent_dir = os.path.dirname(current_dir)
+        if parent_dir == current_dir:
+            print(f"Не удалось найти {marker_file} начиная с {start_dir}")
+            exit(-1)
+        current_dir = parent_dir
 def find_ftl_files(root_dir):
     ftl_files = []
     for root, dirs, files in os.walk(root_dir):
@@ -102,5 +113,7 @@ def remove_duplicates(root_dir):
     print(f"Лог удаленных дубликатов сохранен в файл: {log_filename}")
 
 if __name__ == "__main__":
-    root_dir = r"C:\Users\Evgeniy\RiderProjects\Lost-Paradise\Resources\Locale\ru-RU"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    main_folder = find_top_level_dir(script_dir)
+    root_dir = os.path.join(main_folder, "Resources\\Locale\\ru-RU")
     remove_duplicates(root_dir)

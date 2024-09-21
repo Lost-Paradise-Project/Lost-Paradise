@@ -2,6 +2,17 @@ import os
 import logging
 from datetime import datetime
 
+def find_top_level_dir(start_dir):
+    marker_file = 'SpaceStation14.sln'
+    current_dir = start_dir
+    while True:
+        if marker_file in os.listdir(current_dir):
+            return current_dir
+        parent_dir = os.path.dirname(current_dir)
+        if parent_dir == current_dir:
+            print(f"Не удалось найти {marker_file} начиная с {start_dir}")
+            exit(-1)
+        current_dir = parent_dir
 def setup_logging():
     log_filename = f"cleanup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
     logging.basicConfig(filename=log_filename, level=logging.INFO,
@@ -39,9 +50,11 @@ def remove_empty_files_and_folders(path):
     return removed_files, removed_folders
 
 if __name__ == "__main__":
-    root_dir = r"C:\Users\Evgeniy\RiderProjects\Lost-Paradise\Resources\Locale\ru-RU"
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    main_folder = find_top_level_dir(script_dir)
+    root_dir = os.path.join(main_folder, "Resources\\Locale\\ru-RU")
     log_file = setup_logging()
-    
+
     logging.info(f"Начало очистки в директории: {root_dir}")
     files_removed, folders_removed = remove_empty_files_and_folders(root_dir)
     logging.info(f"Очистка завершена. Удалено файлов: {files_removed}, удалено папок: {folders_removed}")
