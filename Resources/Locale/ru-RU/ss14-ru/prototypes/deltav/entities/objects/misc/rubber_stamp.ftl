@@ -1,6 +1,4 @@
-ent-RubberStampPsychologist = печать психолога
-    .suffix = НЕ МАППИТЬ
-    .desc = { ent-RubberStampBase.desc }
+
 ent-RubberStampLawyer = печать адвоката
     .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }

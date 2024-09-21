@@ -1,0 +1,47 @@
+# Spoken by the Vulpkanin race.
+# TODO: Replace this with a much better language.
+- type: language
+  id: Canilunzt
+  speech:
+    color: "#d69b3dcc"
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 4
+    replacement:
+    - рур
+    - йа
+    - цен
+    - равр
+    - ваф
+    - кьюк
+    - тек
+    - кват
+    - ук
+    - ву
+    - вух
+    - тах
+    - тч
+    - щз
+    - ауч
+    - ист
+    - еин
+    - енчт
+    - звисшч
+    - тут
+    - мир
+    - во
+    - бис
+    - ес
+    - вор
+    - ник
+    - гро
+    - енем
+    - зандт
+    - джс
+    - пруно # no porno
+    - йифф
+    - ищт
+    - фа
+    - ва
+    - вульф

@@ -113,10 +113,10 @@
         - MobLayer
   - type: LanguageKnowledge
     speaks:
-    - GalacticCommon
+    - TauCetiBasic
     - RobotTalk
     understands:
-    - GalacticCommon
+    - TauCetiBasic
     - RobotTalk
   - type: WeldingHealable
   - type: PsionicInsulation

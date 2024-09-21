@@ -61,9 +61,9 @@
       speciesId: shark
     - type: LanguageKnowledge
       speaks:
-      - GalacticCommon
+      - TauCetiBasic
       understands:
-      - GalacticCommon
+      - TauCetiBasic
     # # - type: EmotePanel
     #   race: Shark
     #- type: Carriable

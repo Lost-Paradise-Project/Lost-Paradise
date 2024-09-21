@@ -1,0 +1,33 @@
+- type: language
+  id: SolCommon
+  speech:
+    color: "#8282fbaa"
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 4
+    replacement:
+    - тао
+    - ши
+    - тзу
+    - йи
+    - ком
+    - би
+    - ис
+    - я
+    - оп
+    - ви
+    - эд
+    - лек
+    - мо
+    - кле
+    - те
+    - дис
+    - ее
+    - ку
+    - кле
+    - вае
+    - лой
+    - пой
+    - хау
+    - тсе

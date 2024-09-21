@@ -50,7 +50,7 @@
     active: False
   - type: LanguageKnowledge
     understands:
-    - GalacticCommon
+    - TauCetiBasic
 
 # Used for mobs that have health and can take damage.
 - type: entity

@@ -205,10 +205,10 @@
     voice: Vally
   - type: LanguageKnowledge
     speaks:
-    - GalacticCommon
+    - TauCetiBasic
     - RobotTalk
     understands:
-    - GalacticCommon
+    - TauCetiBasic
     - RobotTalk
     - Canilunzt
     - LPPSikTaj

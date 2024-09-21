@@ -1,0 +1,31 @@
+# The "Default Language" other than Universal.
+- type: language
+  id: TauCetiBasic
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement:
+    - Бла
+    - Бла
+    - Бла
+    - динг-донг
+    - динг
+    - донг
+    - жиббер-жаббер
+    - жуббр
+    - бле
+    - зиппти
+    - зуп
+    - виббл
+    - воббл
+    - виггл
+    - яда
+    - мех
+    - нех
+    - брэ
+    - буэ
+    - бам
+    - звен
+    - дун
+    - блон
