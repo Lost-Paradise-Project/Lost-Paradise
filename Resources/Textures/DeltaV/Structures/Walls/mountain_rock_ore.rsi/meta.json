@@ -41,6 +41,21 @@
         },
         {
             "name": "full"
+        },
+        {
+            "name": "rock_asteroid"
+        },
+        {
+            "name": "rock_asteroid_east"
+        },
+        {
+            "name": "rock_asteroid_north"
+        },
+        {
+            "name": "rock_asteroid_south"
+        },
+        {
+            "name": "rock_asteroid_west"
         }
     ]
 }

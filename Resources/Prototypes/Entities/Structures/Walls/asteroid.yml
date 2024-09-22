@@ -9,7 +9,6 @@
   description: A rocky asteroid.
   components:
   - type: Transform
-    noRot: true
   - type: IconSmooth
     key: walls
     mode: NoSprite
@@ -36,7 +35,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 120
+        damage: 250
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -367,35 +366,13 @@
 # Rocks and ore veins
 - type: entity
   id: WallRock
-  parent: BaseWall
+  parent: AsteroidRock
   name: rock
   suffix: planetmap
   components:
-    - type: Transform
-      noRot: true
-    - type: SoundOnGather
-    - type: Gatherable
-      whitelist:
-        tags:
-          - Pickaxe
-    - type: Damageable
-      damageContainer: Inorganic
-      damageModifierSet: Metallic
-    - type: Destructible
-      thresholds:
-        - trigger:
-            !type:DamageTrigger
-            damage: 150
-          behaviors:
-            - !type:DoActsBehavior
-              acts: ["Destruction"]
-    - type: IconSmooth
-      key: walls
-      mode: NoSprite
     - type: Icon
       sprite: Structures/Walls/rock.rsi
       state: rock
-    - type: SmoothEdge
     - type: Sprite
       sprite: Structures/Walls/rock.rsi
       layers:

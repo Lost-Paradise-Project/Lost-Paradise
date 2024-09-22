@@ -23,6 +23,7 @@
     areaInsert: true
     whitelist:
       tags:
+        - LPPProcessedDiamond
         - ArtifactFragment
         - Ore
   - type: Dumpable

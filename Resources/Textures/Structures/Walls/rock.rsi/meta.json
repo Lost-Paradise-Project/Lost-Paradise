@@ -214,6 +214,95 @@
         },
         {
             "name": "rock_andesite_west"
+        },
+        {
+            "name": "rock_0",
+            "directions": 4
+        },
+        {
+            "name": "rock_1",
+            "directions": 4
+        },
+        {
+            "name": "rock_2",
+            "directions": 4
+        },
+        {
+            "name": "rock_3",
+            "directions": 4
+        },
+        {
+            "name": "rock_4",
+            "directions": 4
+        },
+        {
+            "name": "rock_5",
+            "directions": 4
+        },
+        {
+            "name": "rock_6",
+            "directions": 4
+        },
+        {
+            "name": "rock_7",
+            "directions": 4
+        },
+        {
+            "name": "full"
+        },
+        {
+            "directions": 4,
+            "name": "rock_0_two"
+        },
+        {
+            "directions": 4,
+            "name": "rock_1_two"
+        },
+        {
+            "directions": 4,
+            "name": "rock_2_two"
+        },
+        {
+            "directions": 4,
+            "name": "rock_3_two"
+        },
+        {
+            "directions": 4,
+            "name": "rock_4_two"
+        },
+        {
+            "directions": 4,
+            "name": "rock_5_two"
+        },
+        {
+            "directions": 4,
+            "name": "rock_6_two"
+        },
+        {
+            "directions": 4,
+            "name": "rock_7_two"
+        },
+        {
+            "name": "full_two"
+        },
+        {
+            "name": "rock_ore_diamond",
+            "delays":[
+            [
+               0.2,
+               0.2,
+               0.2,
+               0.2,
+               0.2,
+               0.2,
+               0.2,
+               0.2,
+               0.2,
+               0.2,
+               0.2,
+               0.2
+            ]
+        ]
         }
     ]
 }

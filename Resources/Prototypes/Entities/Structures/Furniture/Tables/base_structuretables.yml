@@ -40,7 +40,7 @@
     footstepSoundCollection:
       collection: FootstepHull
   - type: RequireProjectileTarget
-  
+
 - type: entity
   id: CounterBase
   parent: TableBase

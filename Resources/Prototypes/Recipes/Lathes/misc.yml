@@ -131,6 +131,7 @@
   result: ClothingShoesBootsSpeed
   completetime: 2
   materials:
+    LPPDiamond: 2500
     Steel: 1500
     Plastic: 1000
     Silver: 500
