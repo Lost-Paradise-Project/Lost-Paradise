@@ -98,6 +98,9 @@
   - type: Loadout
     prototypes: [ MobAghostGear ]
   - type: SupermatterImmune
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 35
+    baseSprintSpeed : 25
 
 - type: entity
   id: ActionAGhostShowSolar
