@@ -65,5 +65,5 @@ ent-SuitStorageParamedic = { ent-SuitStorageBase }
     .suffix = Парамедик
     .desc = { ent-SuitStorageBase.desc }
 ent-SuitStorageCorpsman = { ent-SuitStorageBase }
-    .suffix = Морг
+    .suffix = Полевой Врач
     .desc = { ent-SuitStorageBase.desc }
