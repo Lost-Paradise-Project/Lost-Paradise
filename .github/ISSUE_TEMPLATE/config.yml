@@ -1,6 +1,6 @@
 contact_links:
   - name: Сообщить об уязвимости
-    url: https://github.com/space-wizards/space-station-14/blob/master/SECURITY.md
+    url: https://github.com/Lost-Paradise-Project/Lost-Paradise/blob/master/SECURITY.md
     about: Пожалуйста, сообщайте о серьезных эксплойтах и уязвимостях безопасности.
   - name: Предложение
     url: https://discord.gg/v5mGmMzAdB
