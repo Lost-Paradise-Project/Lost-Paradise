@@ -348,12 +348,21 @@
   name: refined diamond
   suffix: Full
   components:
+  - type: Tag
+    tags:
+    - Ingot
+    - LPPProcessedDiamond
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      LPPDiamond: 500
   - type: Stack
     stackType: Diamond
   - type: Sprite
     state: diamond
   - type: Item
     heldPrefix: diamond
+  - type: Appearance
   - type: Extractable
     grindableSolutionName: diamond
   - type: SolutionContainerManager

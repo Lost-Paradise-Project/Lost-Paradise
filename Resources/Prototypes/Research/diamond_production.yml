@@ -1,0 +1,46 @@
+# Tier 1
+
+- type: technology
+  id: LPPDiamondSalvageEquipment
+  name: lppresearch-technology-diamond-salvage-equipment
+  icon:
+    sprite: _LostParadise/Objects/Tools/DiamondHandDrill.rsi
+    state: handdrill
+  discipline: LPPDiamondProduction
+  tier: 1
+  cost: 1000
+  recipeUnlocks:
+  - LPPDiamondMiningDrill
+  - LPPDiamondPickaxe
+
+# Tier 2
+
+# - type: technology
+#   id: LPPLSpaceScanning
+#   name: research-technology-space-scanning
+#   icon:
+#     sprite: Objects/Tools/handheld_mass_scanner.rsi
+#     state: icon
+#   discipline: LPPDiamondProduction
+#   tier: 2
+#   cost: 7500
+#   recipeUnlocks:
+#   - RadarConsoleCircuitboard
+#   - HandHeldMassScanner
+#   - BorgModuleGPS
+
+# Tier 3
+
+# - type: technology
+#   id: LPPBluespaceStorage
+#   name: research-technology-bluespace-storage
+#   icon:
+#     sprite: Clothing/Back/Backpacks/holding.rsi
+#     state: holding
+#   discipline: LPPDiamondProduction
+#   tier: 3
+#   cost: 15000
+#   recipeUnlocks:
+#   - ClothingBackpackHolding
+#   - ClothingBackpackSatchelHolding
+#   - ClothingBackpackDuffelHolding

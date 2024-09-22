@@ -18,13 +18,14 @@
   id: LPPBasicTracking
   name: lppresearch-technology-basic-tracking
   icon:
-    sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
-    state: scanner
+    sprite: Structures/Machines/computers.rsi
+    state: tracking_icon
   discipline: CivilianServices
   tier: 1
-  cost: 2000
+  cost: 4000
   recipeUnlocks:
-  - HandheldCrewMonitor
+  - LPPCrewMonitoringServerMachineCircuitboard
+  - CrewMonitoringComputerCircuitboard
 
 - type: technology
   id: Hydroponics
@@ -126,6 +127,18 @@
   - BiomassReclaimerMachineCircuitboard
 
 # Tier 2
+
+- type: technology
+  id: LPPAdvancedTracking
+  name: lppresearch-technology-advanced-tracking
+  icon:
+    sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
+    state: scanner
+  discipline: CivilianServices
+  tier: 2
+  cost: 4000
+  recipeUnlocks:
+  - HandheldCrewMonitor
 
 - type: technology
   id: FauxAstroTiles

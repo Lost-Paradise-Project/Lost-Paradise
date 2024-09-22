@@ -235,10 +235,6 @@
   components:
     - type: ComputerBoard
       prototype: ComputerCrewMonitoring
-    - type: ReverseEngineering # Nyano
-      difficulty: 2
-      recipes:
-        - CrewMonitoringComputerCircuitboard
 
 - type: entity
   parent: BaseComputerCircuitboard

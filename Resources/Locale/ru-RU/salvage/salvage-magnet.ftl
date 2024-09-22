@@ -11,7 +11,7 @@ salvage-magnet-resources =
         [OreCoal] Уголь
         [OreQuartz] Кварц
         [OreGold] Золото
-        [OreDiamond] Алмазы
+        [LPPOreDiamond] Алмазы
         [OreSilver] Серебро
         [OrePlasma] Плазма
         [OreUranium] Уран

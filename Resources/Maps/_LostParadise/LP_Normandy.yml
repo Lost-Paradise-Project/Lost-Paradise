@@ -81580,13 +81580,6 @@ entities:
     - type: Transform
       pos: 58.739925,9.466386
       parent: 2
-- proto: SecBreachingHammer
-  entities:
-  - uid: 12985
-    components:
-    - type: Transform
-      pos: 66.52352,45.10759
-      parent: 2
 - proto: SecurityTechFab
   entities:
   - uid: 8142

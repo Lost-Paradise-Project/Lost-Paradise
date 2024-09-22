@@ -36,7 +36,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 120
+        damage: 250
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -367,35 +367,13 @@
 # Rocks and ore veins
 - type: entity
   id: WallRock
-  parent: BaseWall
+  parent: AsteroidRock
   name: rock
   suffix: planetmap
   components:
-    - type: Transform
-      noRot: true
-    - type: SoundOnGather
-    - type: Gatherable
-      whitelist:
-        tags:
-          - Pickaxe
-    - type: Damageable
-      damageContainer: Inorganic
-      damageModifierSet: Metallic
-    - type: Destructible
-      thresholds:
-        - trigger:
-            !type:DamageTrigger
-            damage: 150
-          behaviors:
-            - !type:DoActsBehavior
-              acts: ["Destruction"]
-    - type: IconSmooth
-      key: walls
-      mode: NoSprite
     - type: Icon
       sprite: Structures/Walls/rock.rsi
       state: rock
-    - type: SmoothEdge
     - type: Sprite
       sprite: Structures/Walls/rock.rsi
       layers:
@@ -1660,14 +1638,6 @@
     - type: Sprite
       layers:
         - state: rock_andesite
-        - map: [ "enum.EdgeLayer.South" ]
-          state: rock_andesite_south
-        - map: [ "enum.EdgeLayer.East" ]
-          state: rock_andesite_east
-        - map: [ "enum.EdgeLayer.North" ]
-          state: rock_andesite_north
-        - map: [ "enum.EdgeLayer.West" ]
-          state: rock_andesite_west
         - state: rock_gold
 
 - type: entity

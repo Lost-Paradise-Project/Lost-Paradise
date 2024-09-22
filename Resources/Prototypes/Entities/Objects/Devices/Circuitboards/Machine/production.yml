@@ -616,10 +616,6 @@
       materialRequirements:
         Steel: 1
         Cable: 2
-    - type: ReverseEngineering # Delta
-      difficulty: 3
-      recipes:
-        - CrewMonitoringServerMachineCircuitboard
 
 - type: entity
   id: CryoPodMachineCircuitboard
@@ -1407,6 +1403,7 @@
       materialRequirements:
         Steel: 5
         Bluespace: 2  #DeltaV Bluespace Exists
+        Diamond: 3  # LostParadise
     - type: ReverseEngineering # Delta
       difficulty: 3
       recipes:

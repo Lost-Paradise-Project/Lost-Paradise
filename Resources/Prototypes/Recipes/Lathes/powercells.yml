@@ -35,6 +35,7 @@
   category: Parts
   completetime: 10
   materials:
+    LPPDiamond: 2000
     Steel: 500
     Glass: 400
     Uranium: 200
@@ -63,6 +64,7 @@
   result: PowerCageHigh
   completetime: 10
   materials:
+    LPPDiamond: 2000
     Steel: 600
     Glass: 800
     Plastic: 400

@@ -70905,13 +70905,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -18.468266,3.9137797
       parent: 34
-- proto: SecBreachingHammer
-  entities:
-  - uid: 4922
-    components:
-    - type: Transform
-      pos: 32.493702,-9.347706
-      parent: 34
 - proto: SecurityTechFab
   entities:
   - uid: 4422

@@ -57822,13 +57822,6 @@ entities:
     - type: Transform
       pos: -26.5,-20.5
       parent: 2
-- proto: SecBreachingHammer
-  entities:
-  - uid: 8620
-    components:
-    - type: Transform
-      pos: 22.879267,-14.333235
-      parent: 2
 - proto: SecurityTechFab
   entities:
   - uid: 8621
