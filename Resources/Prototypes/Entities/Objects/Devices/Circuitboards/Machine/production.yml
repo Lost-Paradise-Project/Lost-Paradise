@@ -616,6 +616,10 @@
       materialRequirements:
         Steel: 1
         Cable: 2
+    - type: ReverseEngineering # Delta
+      difficulty: 3
+      recipes:
+        - CrewMonitoringServerMachineCircuitboard
 
 - type: entity
   id: CryoPodMachineCircuitboard
