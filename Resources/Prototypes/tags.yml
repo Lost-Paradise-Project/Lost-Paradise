@@ -23,6 +23,9 @@
   id: ArtifactFragment
 
 - type: Tag
+  id: LPPProcessedDiamond
+
+- type: Tag
   id: Arrow
 
 - type: Tag

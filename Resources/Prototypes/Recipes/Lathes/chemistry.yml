@@ -49,6 +49,7 @@
   result: BluespaceBeaker
   completetime: 2
   materials:
+    LPPDiamond: 2000
     Steel: 200  #Cheaper Due to Needing Bluespace
     Plastic: 200
     Plasma: 50
@@ -60,6 +61,7 @@
   result: SyringeBluespace
   completetime: 2
   materials:
+    LPPDiamond: 2000
     Steel: 100  #Cheaper Due to Needing Bluespace
     Plastic: 100
     Glass: 200

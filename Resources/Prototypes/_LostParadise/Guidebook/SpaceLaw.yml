@@ -198,3 +198,8 @@
   id: LPPNecessaryDefense
   name: lppguide-entry-necessarydefense
   text: "/ServerInfo/Guidebook/_LostParadise/SpaceLaw/NecessaryDefense.xml"
+
+- type: guideEntry
+  id: LPPTenCodes
+  name: lppguide-entry-criminal-records
+  text: "/ServerInfo/Guidebook/Security/TenCodes.xml"

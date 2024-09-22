@@ -117,19 +117,6 @@
 # Tier 2
 
 - type: technology
-  id: LPPCombatUtilitys
-  name: lppresearch-technology-combat-utility
-  icon:
-    sprite: _LostParadise/Objects/Specific/Medical/CombatHypospray.rsi
-    state: hypo
-  discipline: Arsenal
-  tier: 2
-  cost: 10000
-  recipeUnlocks:
-  - LPPCombatDefibrillator
-  - LPPCombatHypospray
-
-- type: technology
   id: ExplosiveTechnology
   name: research-technology-explosive-technology
   icon:

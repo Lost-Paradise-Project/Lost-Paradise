@@ -1,0 +1,11 @@
+- type: technology
+  id: LPPDiamondProcessing
+  name: lppresearch-technology-diamond-processing
+  icon:
+    sprite: _LostParadise/Structures/Machines/diamond_crusher.rsi
+    state: base
+  discipline: Experimental
+  tier: 2
+  cost: 2500
+  recipeUnlocks:
+  - LPPDiamondCrusherMachineCircuitboard
