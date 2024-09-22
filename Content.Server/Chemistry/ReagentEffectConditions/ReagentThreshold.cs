@@ -43,7 +43,7 @@ namespace Content.Server.Chemistry.ReagentEffectConditions
                 prototype.TryIndex(Reagent, out reagentProto);
 
             return Loc.GetString("reagent-effect-condition-guidebook-reagent-threshold",
-                ("reagent", reagentProto?.LocalizedName ?? "this reagent"),
+                ("reagent", reagentProto?.LocalizedName ?? "этого реагента"),
                 ("max", Max == FixedPoint2.MaxValue ? (float) int.MaxValue : Max.Float()),
                 ("min", Min.Float()));
         }
