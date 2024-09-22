@@ -109,10 +109,10 @@
     angle: 75
 
 - type: entity
-  name: pickaxe
+  name: алмазная кирка
   parent: BaseItem
   id: LPPDiamondPickaxe
-  description: Notched to perfection, for jamming it into rocks
+  description: Выточенный до совершенства, для забивания его в камни.
   components:
   - type: Tag
     tags:
