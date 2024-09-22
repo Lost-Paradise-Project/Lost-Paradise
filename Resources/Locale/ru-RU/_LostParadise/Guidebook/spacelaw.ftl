@@ -31,3 +31,4 @@ lppguide-entry-violationsoftheconditionsofdetention = Нарушения усл�
 lppguide-entry-indulgences = Послабления
 lppguide-entry-aggravatingcircumstances = Отягчающие обстоятельства
 lppguide-entry-additionally = Дополнительно
+lppguide-entry-criminal-records = Тэн-коды
