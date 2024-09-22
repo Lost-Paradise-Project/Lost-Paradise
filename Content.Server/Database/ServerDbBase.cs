@@ -86,31 +86,50 @@ namespace Content.Server.Database
                 throw new NotImplementedException();
             }
 
-            var oldProfile = db.DbContext.Profile
-                .Include(p => p.Preference)
-                .Where(p => p.Preference.UserId == userId.UserId)
-                .Include(p => p.Jobs)
-                .Include(p => p.Antags)
-                .Include(p => p.Traits)
-#if LPP_Sponsors
-                .Include(p => p.Donate)    // Lost Paradise Donate Preferences
-#endif
-                .Include(p => p.Loadouts)
-                .AsSplitQuery()
-                .SingleOrDefault(h => h.Slot == slot);
-
-            var newProfile = ConvertProfiles(humanoid, slot, oldProfile);
-            if (oldProfile == null)
+            using (var transaction = await db.DbContext.Database.BeginTransactionAsync())
             {
-                var prefs = await db.DbContext
-                    .Preference
-                    .Include(p => p.Profiles)
-                    .SingleAsync(p => p.UserId == userId.UserId);
+                var oldProfile = db.DbContext.Profile
+                    .Include(p => p.Preference)
+                    .Where(p => p.Preference.UserId == userId.UserId)
+                    .Include(p => p.Jobs)
+                    .Include(p => p.Antags)
+                    .Include(p => p.Traits)
+#if LPP_Sponsors
+                    .Include(p => p.Donate)    // Lost Paradise Donate Preferences
+#endif
+                    .Include(p => p.Loadouts)
+                    .AsSplitQuery()
+                    .SingleOrDefault(h => h.Slot == slot);
+                try
+                {
+                    if (oldProfile is not null)
+                    {
+                        oldProfile.Jobs.Clear();
+                        oldProfile.Antags.Clear();
+                        oldProfile.Traits.Clear();
+                        await db.DbContext.SaveChangesAsync(); // отдельно удаляем данные из ролей, антагов и traits, чем бы оно ни было.
+                                                               // Можно дальше убрать эти операции из ConvertProfiles, ибо они уже исполнены.
+                    }
 
-                prefs.Profiles.Add(newProfile);
+                    var newProfile = ConvertProfiles(humanoid, slot, oldProfile);
+                    if (oldProfile == null)
+                    {
+                        var prefs = await db.DbContext
+                            .Preference
+                            .Include(p => p.Profiles)
+                            .SingleAsync(p => p.UserId == userId.UserId);
+
+                        prefs.Profiles.Add(newProfile);
+                    }
+
+                    await db.DbContext.SaveChangesAsync(); // Сохраняем добавление данных.
+                }
+                catch (Exception ex)
+                {
+                    await transaction.RollbackAsync(); // при ошибке вернём всё обратно
+                    throw ex;
+                }
             }
-
-            await db.DbContext.SaveChangesAsync();
         }
 
         private static async Task DeleteCharacterSlot(ServerDbContext db, NetUserId userId, int slot)
