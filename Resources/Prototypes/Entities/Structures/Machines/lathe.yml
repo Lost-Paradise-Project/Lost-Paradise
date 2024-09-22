@@ -274,6 +274,8 @@
     - LargeBeaker
     - ClothingEyesGlassesChemical
     dynamicRecipes:
+      - LPPDiamondPickaxe
+      - LPPDiamondMiningDrill
       - Dropper
       - LPPRCDFAPDevice
       - LPPRCDFAPAmmo
