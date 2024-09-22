@@ -9,7 +9,6 @@
   description: A rocky asteroid.
   components:
   - type: Transform
-    noRot: true
   - type: IconSmooth
     key: walls
     mode: NoSprite
