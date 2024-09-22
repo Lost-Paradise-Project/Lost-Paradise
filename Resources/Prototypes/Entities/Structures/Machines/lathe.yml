@@ -506,6 +506,7 @@
       - MassMediaCircuitboard
       - ReagentGrinderIndustrialMachineCircuitboard
     # Begin Nyano additions
+      - LPPCrewMonitoringServerMachineCircuitboard
       - ReverseEngineeringMachineCircuitboard
       - CrewMonitoringComputerCircuitboard
       - DoorElectronics

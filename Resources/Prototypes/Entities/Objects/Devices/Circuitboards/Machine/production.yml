@@ -619,7 +619,7 @@
     - type: ReverseEngineering # Delta
       difficulty: 3
       recipes:
-        - CrewMonitoringServerMachineCircuitboard
+        - LPPCrewMonitoringServerMachineCircuitboard
 
 - type: entity
   id: CryoPodMachineCircuitboard
