@@ -146753,6 +146753,13 @@ entities:
     - type: Transform
       pos: 39.452625,-85.156075
       parent: 6747
+- proto: SecBreachingHammer
+  entities:
+  - uid: 3186
+    components:
+    - type: Transform
+      pos: -32.46227,10.543685
+      parent: 6747
 - proto: SecurityTechFab
   entities:
   - uid: 1223
