@@ -96,7 +96,8 @@ public sealed class TTSSystem : EntitySystem
             if ((_language.UnderstoodLanguages.Contains(ev.LanguageProtoId) || isadmin) && ev.LanguageProtoId != "Sign")
                 _contentRoot.AddOrUpdateFile(filePath, ev.Data);
             else
-                _contentRoot.AddOrUpdateFile(filePath, ev.LanguageData);
+                return; //временно отключена озвучка языков
+                //_contentRoot.AddOrUpdateFile(filePath, ev.LanguageData);
         }
         else
             _contentRoot.AddOrUpdateFile(filePath, ev.Data);
@@ -111,7 +112,7 @@ public sealed class TTSSystem : EntitySystem
         }
         else
         {
-            _audio.PlayGlobal(soundPath, Filter.Local(), false);
+            //_audio.PlayGlobal(soundPath, Filter.Local(), false);  // поскольку источника нет/не видно, то пусть молчит
         }
 
         _contentRoot.RemoveFile(filePath);

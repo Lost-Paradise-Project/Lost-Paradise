@@ -83,9 +83,9 @@ public sealed partial class TTSSystem : EntitySystem
         if (soundData is null) return;
 
         var languageSoundData = await GenerateTTS(_language.ObfuscateSpeech(message, language), speaker);     // Languages TTS support
-        if (languageSoundData is null) return;                                                                      // Languages TTS support
+        if (languageSoundData is null) return;                                                                // Languages TTS support
 
-        RaiseNetworkEvent(new PlayTTSEvent(soundData,languageSoundData, language, GetNetEntity(uid)), Filter.Pvs(uid));
+        RaiseNetworkEvent(new PlayTTSEvent(soundData, languageSoundData, language, GetNetEntity(uid)), Filter.Pvs(uid));
     }
 
     private async void HandleWhisper(EntityUid uid, string message, string obfMessage, string speaker, LanguagePrototype language)
