@@ -55,7 +55,6 @@ research-technology-advanced-parts = Продвинутые компоненты
 research-technology-anomaly-harnessing = Применение ядер аномалий
 research-technology-grappling = Технология захвата
 research-technology-abnormal-artifact-manipulation = Переработка артефактов
-lppresearch-technology-diamond-processing = Обработка алмазов
 research-technology-gravity-manipulation = Манипулирование гравитацией
 research-technology-quantum-leaping = Квантовые скачки
 research-technology-advanced-anomaly-research = Продвинутое изучение аномалий

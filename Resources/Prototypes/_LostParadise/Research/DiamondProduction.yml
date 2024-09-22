@@ -1,0 +1,11 @@
+- type: techDiscipline
+  id: LPPDiamondProduction
+  name: lppresearch-discipline-diamond-production
+  color: "#96EEFF"
+  icon:
+    sprite: Interface/Misc/research_disciplines.rsi
+    state: diamond_production
+  tierPrerequisites:
+    1: 0
+    2: 0.75
+    3: 1.0

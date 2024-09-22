@@ -17,3 +17,13 @@
     Steel: 1000
     Plastic: 500
     LPPDiamond: 2500
+
+- type: latheRecipe
+  id: LPPDiamondCrusherMachineCircuitboard
+  result: LPPDiamondCrusherMachineCircuitboard
+  category: Circuitry
+  completetime: 4
+  materials:
+    Steel: 100
+    Glass: 900
+    Gold: 100

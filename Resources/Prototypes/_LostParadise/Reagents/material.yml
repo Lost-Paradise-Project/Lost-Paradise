@@ -1,0 +1,15 @@
+- type: material
+  id: LPPRawDiamond
+  stackEntity: LPPProcessedDiamond1
+  name: materials-raw-diamond
+  unit: materials-unit-chunk
+  icon: { sprite: Objects/Materials/ingots.rsi, state: diamond }
+  price: 0.15
+
+- type: material
+  id: LPPDiamond
+  stackEntity: MaterialDiamond1
+  name: materials-diamond
+  unit: materials-unit-chunk
+  icon: { sprite: Objects/Materials/materials.rsi, state: diamond }
+  price: 0.15

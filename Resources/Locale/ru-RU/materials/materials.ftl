@@ -23,14 +23,12 @@ materials-meat = мясо
 materials-web = шёлк
 materials-bones = кости
 materials-coal = уголь
-materials-diamond = алмазы
 materials-gunpowder = чёрный порох
 # Ores
 materials-raw-iron = руда железа
 materials-raw-quartz = руда кварца
 materials-raw-gold = руда золота
 materials-raw-silver = руда серебра
-materials-raw-diamond = обработанный алмаз
 materials-raw-plasma = руда плазмы
 materials-raw-uranium = руда урана
 materials-raw-bananium = руда бананиума
