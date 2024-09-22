@@ -21,7 +21,7 @@
   supervisors: job-supervisors-hop
   access:
   - Chapel
-  - Research # DeltaV - Move Chaplain into Epistemics
+  - Research
   - Maintenance
   special:
   - !type:AddComponentSpecial
@@ -32,6 +32,7 @@
     - type: InnatePsionicPowers
       powersToAdd:
         - TelepathyPower
+        - HealingWordPower
 
 - type: startingGear
   id: ChaplainGear

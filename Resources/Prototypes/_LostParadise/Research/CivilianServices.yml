@@ -40,3 +40,16 @@
   cost: 4000
   recipeUnlocks:
   - HandheldCrewMonitor
+
+- type: technology
+  id: LPPCombatUtilitys
+  name: lppresearch-technology-combat-utility
+  icon:
+    sprite: _LostParadise/Objects/Specific/Medical/CombatHypospray.rsi
+    state: hypo
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - LPPCombatDefibrillator
+  - LPPCombatHypospray
