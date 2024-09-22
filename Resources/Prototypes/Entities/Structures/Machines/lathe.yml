@@ -272,9 +272,11 @@
     runningState: building
     staticRecipes:
     - LargeBeaker
-    - Dropper
     - ClothingEyesGlassesChemical
     dynamicRecipes:
+      - LPPDiamondPickaxe
+      - LPPDiamondMiningDrill
+      - Dropper
       - LPPRCDFAPDevice
       - LPPRCDFAPAmmo
       - PowerDrill
@@ -433,6 +435,7 @@
     - DeepFryerMachineCircuitboard #Nyano - Summary: adds deep fryer circuit board
     - SpaceHeaterMachineCircuitBoard
     dynamicRecipes:
+      - LPPDiamondCrusherMachineCircuitboard
       - ThermomachineFreezerMachineCircuitBoard
       - HellfireFreezerMachineCircuitBoard
       - PortableScrubberMachineCircuitBoard
@@ -503,6 +506,7 @@
       - MassMediaCircuitboard
       - ReagentGrinderIndustrialMachineCircuitboard
     # Begin Nyano additions
+      - LPPCrewMonitoringServerMachineCircuitboard
       - ReverseEngineeringMachineCircuitboard
       - CrewMonitoringComputerCircuitboard
       - DoorElectronics
@@ -1211,11 +1215,13 @@
       ignoreColor: true
       whitelist:
         tags:
+          - LPPProcessedDiamond
           - Ore
     - type: Lathe
       idleState: icon
       runningState: building
       staticRecipes:
+        - LPPMaterialDiamond
         - BluespaceCrystal #Nyano - Summary: Bluespace Crystals can be created here.
         - SheetSteel30
         - SheetGlass30
@@ -1245,6 +1251,8 @@
     materialUseMultiplier: 0.75
     timeMultiplier: 0.5
     staticRecipes:
+      - LPPMaterialDiamond
+      - BluespaceCrystal
       - SheetSteel30
       - SheetGlass30
       - SheetRGlass30

@@ -172,6 +172,7 @@
   category: Weapons
   completetime: 15
   materials:
+    LPPDiamond: 2500
     Steel: 2000
     Glass: 1000
     Plastic: 500
