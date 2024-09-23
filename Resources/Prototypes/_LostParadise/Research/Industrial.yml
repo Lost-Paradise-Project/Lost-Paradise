@@ -1,0 +1,28 @@
+- type: technology
+  id: LPPAdvancedDesignHardsuitEng
+  name: lppresearch-technology-advanced-design-hardsuit-eng
+  icon:
+    sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
+    state: icon
+  discipline: Industrial
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - LPPClothingOuterHardsuitEngineeringWhite
+  - LPPClothingOuterHardsuitAtmos
+  - LPPClothingOuterHardsuitEngineering
+
+
+- type: technology
+  id: LPPAdvancedDesignHardsuitCargo
+  name: lppresearch-technology-advanced-design-hardsuit-cargo
+  icon:
+    sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
+    state: icon
+  discipline: Industrial
+  tier: 2
+  cost: 11000
+  recipeUnlocks:
+  - LPPClothingOuterHardsuitSpatio
+  - LPPClothingOuterHardsuitLuxury
+  - LPPClothingOuterHardsuitSalvage

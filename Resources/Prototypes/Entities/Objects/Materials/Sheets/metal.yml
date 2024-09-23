@@ -186,6 +186,9 @@
   name: plasteel
   suffix: Full
   components:
+  - type: Tag
+    tags:
+      - Sheet
   - type: Material
   - type: PhysicalComposition
     materialComposition:

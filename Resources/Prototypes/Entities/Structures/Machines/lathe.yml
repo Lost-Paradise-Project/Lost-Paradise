@@ -274,6 +274,7 @@
     - LargeBeaker
     - ClothingEyesGlassesChemical
     dynamicRecipes:
+      - LPPSpaceForgeCircuitBoard
       - LPPDiamondPickaxe
       - LPPDiamondMiningDrill
       - Dropper
@@ -771,6 +772,8 @@
       - MagazinePistolSpecial
       # End of modified code
     dynamicRecipes:
+      - LPPSpaceForgeCircuitBoardCMDAndSec
+      - LPPRiotLaserShield
       - LPPCombatDefibrillator
       - LPPCombatHypospray
       - EncryptionKeySyndie # Nyano

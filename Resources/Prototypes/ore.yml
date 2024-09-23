@@ -102,7 +102,7 @@
     OreUranium: 1
     OreBananium: 0.5
     OreArtifactFragment: 0.5
-    LPPOreDiamond: 1
+    LPPOreDiamond: 3
 
 - type: weightedRandomOre
   id: OreCrab

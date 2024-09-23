@@ -35,6 +35,15 @@
     Uranium: 450
 
 - type: latheRecipe
+  id: LPPHypospray
+  result: LPPHypospray
+  completetime: 6
+  materials:
+    Plastic: 400
+    Steel: 200
+    Glass: 400
+
+- type: latheRecipe
   id: BluespacePlantBag
   result: BluespacePlantBag
   completetime: 7

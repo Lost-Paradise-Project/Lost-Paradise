@@ -8,26 +8,39 @@
     state: handdrill
   discipline: LPPDiamondProduction
   tier: 1
-  cost: 1000
+  cost: 10000
   recipeUnlocks:
   - LPPDiamondMiningDrill
   - LPPDiamondPickaxe
 
 # Tier 2
 
-# - type: technology
-#   id: LPPLSpaceScanning
-#   name: research-technology-space-scanning
-#   icon:
-#     sprite: Objects/Tools/handheld_mass_scanner.rsi
-#     state: icon
-#   discipline: LPPDiamondProduction
-#   tier: 2
-#   cost: 7500
-#   recipeUnlocks:
-#   - RadarConsoleCircuitboard
-#   - HandHeldMassScanner
-#   - BorgModuleGPS
+- type: technology
+  id: LPPAntiLaserDevices
+  name: lppresearch-technology-anti-laser-devices
+  icon:
+    sprite: Objects/Weapons/Melee/shields.rsi
+    state: riot_laser-icon
+  discipline: LPPDiamondProduction
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+  - LPPRiotLaserShield
+  - LPPClothingOuterArmorReflective
+  - LPPClothingOuterHardsuitReflectivepatrolsec
+
+- type: technology
+  id: LPPAdvancedDesign
+  name: lppresearch-technology-advanced-design
+  icon:
+    sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
+    state: icon
+  discipline: LPPDiamondProduction
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+  - LPPSpaceForgeCircuitBoard
+  - LPPSpaceForgeCircuitBoardCMDAndSec
 
 # Tier 3
 
