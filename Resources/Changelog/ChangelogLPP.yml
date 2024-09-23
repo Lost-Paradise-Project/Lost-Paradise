@@ -575,7 +575,7 @@ Entries:
     - type: Fix
       message: Исправлен перевод вещей ПВ и прочих!
     - type: Fix
-      message: Исправлен баг с отображением иконки роли визорам: Мед-сб, Инж-сб!
+      message: Исправлен баг с отображением иконки роли визорам Мед-сб, Инж-сб!
   id: 56
   time: '2024-09-20T14:51:04.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/167
@@ -602,7 +602,7 @@ Entries:
     - type: Tweak
       message: Изменены параметры появления режимов.
     - type: Tweak
-      message: Изменено: Вор потерял пацифизм в угоду РП и логики.
+      message: Изменен Вор, потерял пацифизм в угоду РП и логики.
   id: 59
   time: '2024-09-21T16:25:24.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/174
