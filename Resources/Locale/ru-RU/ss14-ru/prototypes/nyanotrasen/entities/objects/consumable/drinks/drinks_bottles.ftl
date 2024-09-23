@@ -1,4 +1,3 @@
-
 ent-DrinkSojuBottleFull = бутылка соджу
     .desc = Это как саке, но в этот раз вы реально хотите напиться.
 ent-DrinkTokkuri = токкури

@@ -1,16 +1,13 @@
 anomaly-component-contact-damage = Аномалия сдирает с вас кожу!
-
 anomaly-vessel-component-anomaly-assigned = Аномалия присвоена сосуду.
 anomaly-vessel-component-not-assigned = Этому сосуду не присвоена ни одна аномалия. Попробуйте использовать на нём сканер.
 anomaly-vessel-component-assigned = Этому сосуду уже присвоена аномалия.
 anomaly-vessel-component-upgrade-output = точка выхода
-
 anomaly-particles-delta = Дельта-частицы
 anomaly-particles-epsilon = Эпсилон-частицы
 anomaly-particles-zeta = Зета-частицы
 anomaly-particles-omega = Омега-частицы
 anomaly-particles-sigma = Сигма-частицы
-
 anomaly-scanner-component-scan-complete = Сканирование завершено!
 anomaly-scanner-ui-title = сканер аномалий
 anomaly-scanner-no-anomaly = Нет просканированной аномалии.

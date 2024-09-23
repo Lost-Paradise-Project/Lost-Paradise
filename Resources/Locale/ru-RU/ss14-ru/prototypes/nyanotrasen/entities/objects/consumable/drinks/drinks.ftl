@@ -1,4 +1,3 @@
-
 ent-DrinkOrangeCreamiceGlass = { ent-DrinkGlass }
     .desc = Апельсиново, кремово, божественно.
     .suffix = апельсиновый кремовик
