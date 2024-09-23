@@ -1,5 +1,2 @@
-
-
-ent-ClothingHeadHelmetHardsuitERTChaplain = ERT chaplain hardsuit helmet
-    .desc = A special hardsuit helmet worn by members of an emergency response team.
-
+ent-ClothingHeadHelmetHardsuitERTChaplain = шлем скафандра ОБР священника
+    .desc = Защитный костюм, который носят капитаны груп быстрого реагирования на чрезвычайные ситуации.

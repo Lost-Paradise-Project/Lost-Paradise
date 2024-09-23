@@ -1,5 +1,2 @@
-
-
-ent-ClothingOuterHardsuitERTChaplain = ERT chaplain's hardsuit
-    .desc = A protective hardsuit worn by the chaplains of an Emergency Response Team.
-
+ent-ClothingOuterHardsuitERTChaplain = скафандр ОБР священника
+    .desc = Защитный костюм, который носят капитаны груп быстрого реагирования на чрезвычайные ситуации.
