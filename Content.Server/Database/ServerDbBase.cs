@@ -34,7 +34,7 @@ namespace Content.Server.Database
         public async Task<PlayerPreferences?> GetPlayerPreferencesAsync(NetUserId userId)
         {
             await using var db = await GetDb();
-            Logger.Warning($"Get preferences for profile: {userId}"); //тест БД
+            _opsLog.Warning($"Get preferences for profile: {userId}"); //тест БД
             var prefs = await db.DbContext
                 .Preference
                 .Include(p => p.Profiles).ThenInclude(h => h.Jobs)
@@ -86,7 +86,7 @@ namespace Content.Server.Database
                 throw new NotImplementedException();
             }
 
-            Logger.Warning($"Saving Character Slot: {userId}/{profile.Name}");  //тест БД
+            _opsLog.Warning($"Saving Character Slot: {userId}/{profile.Name}");  //тест БД
 
             var oldProfile = db.DbContext.Profile
                 .Include(p => p.Preference)
