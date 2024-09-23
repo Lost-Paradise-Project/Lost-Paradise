@@ -274,7 +274,6 @@
     - LargeBeaker
     - ClothingEyesGlassesChemical
     dynamicRecipes:
-      - LPPSpaceForgeCircuitBoard
       - LPPDiamondPickaxe
       - LPPDiamondMiningDrill
       - Dropper
@@ -442,6 +441,7 @@
     - DeepFryerMachineCircuitboard #Nyano - Summary: adds deep fryer circuit board
     - SpaceHeaterMachineCircuitBoard
     dynamicRecipes:
+      - LPPSpaceForgeCircuitBoard
       - LPPDiamondCrusherMachineCircuitboard
       - ThermomachineFreezerMachineCircuitBoard
       - HellfireFreezerMachineCircuitBoard
