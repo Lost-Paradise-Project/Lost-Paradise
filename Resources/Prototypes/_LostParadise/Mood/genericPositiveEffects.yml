@@ -1,0 +1,22 @@
+﻿# Made DarkSide <
+# Положительные эффекты настроения
+
+- type: moodEffect
+  id: LPPEncouraged
+  moodChange: 3
+  timeout: 300
+  category: PositiveInteraction
+
+- type: moodEffect
+  id: LPPLoved
+  moodChange: 3
+  timeout: 480
+  category: PositiveInteraction
+
+- type: moodEffect
+  id: LPPSlapped
+  moodChange: 2
+  timeout: 300
+  category: PositiveInteraction
+
+# >
