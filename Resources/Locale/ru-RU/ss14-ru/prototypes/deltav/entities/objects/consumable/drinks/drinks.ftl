@@ -10,11 +10,9 @@ ent-DrinkLemonDropGlass = { ent-DrinkGlass }
 ent-DrinkGreenGrassGlass = { ent-DrinkGlass }
     .desc = Необычно зелёный коктейль приправленный льдом, долькой лемона и трубочкой для питья.
     .suffix = зелёная травка
-
 ent-DrinkArsonistsBrewGlass = { ent-DrinkGlass }
     .desc = Ничего обычного в том, что он дымится.. или светится.. Всё в норме.
     .suffix = отвар поджигателя
-
 ent-DrinkMothamphetamineGlass = { ent-DrinkGlass }
     .desc = На удивление газированный напиток.. От него веет аурой хаоса.
     .suffix = метамфетамин

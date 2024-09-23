@@ -1,4 +1,3 @@
-
 ent-RubberStampLawyer = печать адвоката
     .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
