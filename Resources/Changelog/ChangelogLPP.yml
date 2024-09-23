@@ -655,3 +655,10 @@ Entries:
   id: 60
   time: '2024-09-22T13:29:47.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/181
+- author: Evgencheg
+  changes:
+    - type: Fix
+      message: Исправлены переводы!
+  id: 61
+  time: '2024-09-23T13:03:59.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/186
