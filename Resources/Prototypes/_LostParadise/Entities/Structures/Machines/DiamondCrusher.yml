@@ -1,0 +1,152 @@
+- type: entity
+  id: LPPMachineDiamondCrusher
+  parent: [ ConstructibleMachine, BaseMachinePowered ]
+  name: дробитель алмазов
+  description: Лучше не совать туда пальцы...
+  components:
+  - type: PlaceableSurface
+  - type: DiamondCrusher
+    crushingWhitelist:
+      components:
+      - Diamond
+    crushingDamage:
+      types:
+        Blunt: 10
+  - type: Machine
+    board: LPPDiamondCrusherMachineCircuitboard
+  - type: WiresPanel
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/diamond_crusher.rsi
+    offset: 0,0.5
+    noRot: true
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: door-closed
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: piston
+      map: ["pistonlayer"]
+    - state: glass
+    - state: lights
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+      shader: unshaded
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.45,0.45,0.45"
+        density: 55
+        mask: # tables should collide with other tables
+        - TableMask
+        layer:
+        - TableLayer
+        - BulletImpassable
+  - type: EntityStorage
+    isCollidableWhenOpen: true
+    capacity: 1
+    whitelist:
+      components:
+      - Diamond
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.DiamondCrusherVisuals.Crushing:
+        pistonlayer:
+          True: {state: piston-push}
+          False: {state: piston}
+      enum.PowerDeviceVisuals.Powered:
+        enum.PowerDeviceVisualLayers.Powered:
+          True: { visible: true }
+          False: { visible: false }
+  - type: EntityStorageVisuals
+    stateDoorClosed: door-closed
+    openDrawDepth: 0
+    closedDrawDepth: 4
+  - type: Construction
+    containers:
+    - machine_board
+    - machine_parts
+    - entity_storage
+    - output_container
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      entity_storage: !type:Container
+      output_container: !type:Container
+
+- type: entity
+  id: LPPDiamondCrusherMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: дробитель алмазов (машинная плата)
+  description: Машинная плата для сборки дробителя алмазов.
+  components:
+  - type: Sprite
+    state: supply
+  - type: MachineBoard
+    prototype: LPPMachineDiamondCrusher
+    requirements:
+      Manipulator: 2
+    materialRequirements:
+      Glass: 1
+      Steel: 5
+
+- type: entity
+  parent: BaseItem
+  id: LPPOreDiamond
+  name: не обработанная жеода алмаза
+  description: Не обработанная жеода вся в пыли, грязи и прочих радостях шахтёрства.. явно надо обработать.
+  components:
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.90
+  - type: HeldSpeedModifier
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Mining/OreDiamond.rsi
+    state: icon
+  - type: Item
+    sprite: _LostParadise/Objects/Specific/Mining/OreDiamond.rsi
+    size: Huge
+  - type: MultiHandedItem
+  - type: Diamond
+
+- type: entity
+  id: LPPProcessedDiamond
+  parent: BaseItem
+  name: обработанный алмаз
+  description: Обработанный алмаз, очищенный от пыли и грязи, но не до идеала. Не пригоден для использования в таком виде..
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      LPPRawDiamond: 500
+  - type: Sprite
+    sprite: Objects/Materials/ingots.rsi
+    state: diamond
+  - type: Appearance
+  - type: Item
+    size: Normal
+  - type: Tag
+    tags:
+    - Ore
+    - LPPProcessedDiamond
+  - type: StaticPrice
+    price: 0
+  - type: Stack
+    stackType: LPPProcessedDiamond
+
+- type: entity
+  parent: LPPProcessedDiamond
+  id: LPPProcessedDiamond1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+
+- type: latheRecipe
+  id: LPPMaterialDiamond
+  result: MaterialDiamond
+  completetime: 2
+  materials:
+    LPPRawDiamond: 15000

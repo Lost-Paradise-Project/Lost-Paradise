@@ -575,7 +575,7 @@ Entries:
     - type: Fix
       message: Исправлен перевод вещей ПВ и прочих!
     - type: Fix
-      message: 'Исправлен баг с отображением иконки роли визорам: Мед-сб, Инж-сб! '
+      message: Исправлен баг с отображением иконки роли визорам Мед-сб, Инж-сб!
   id: 56
   time: '2024-09-20T14:51:04.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/167
@@ -602,7 +602,69 @@ Entries:
     - type: Tweak
       message: Изменены параметры появления режимов.
     - type: Tweak
-      message: 'Изменено: Вор потерял пацифизм в угоду РП и логики.'
+      message: Изменен Вор, потерял пацифизм в угоду РП и логики.
   id: 59
   time: '2024-09-21T16:25:24.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/174
+- author: BL02DL
+  changes:
+    - type: Add
+      message: Добавлен дробитель алмазов!
+    - type: Add
+      message: Добавлена не обработанная жеода алмаза!
+    - type: Add
+      message: Добавлен обработанный алмаз!
+    - type: Add
+      message: Добавлен очищенный алмаз!
+    - type: Add
+      message: Добавлена новая дисциплина РнД Алмазное производство!
+    - type: Add
+      message: >-
+        Добавлена новая технология Т1 алмазного производства Продвинутое
+        алмазное шахтёрское оборудование!
+    - type: Add
+      message: Добавлены алмазный бур и алмазная кирка!
+    - type: Add
+      message: Добавлена новая технология Т2 сервис Продвинутое отслеживание!
+    - type: Add
+      message: Добавлена плата дробителя алмазов!
+    - type: Add
+      message: Добавлена новая технология Т2 экспериментальная Обработка алмазов!
+    - type: Remove
+      message: Убран дубликат штурмового молота с карт!
+    - type: Tweak
+      message: Изменена система добычи и копания руды!
+    - type: Tweak
+      message: Теперь некоторые Т3 технологии требуют очищенный алмаз!
+    - type: Tweak
+      message: >-
+        Портативный монитор датчиков теперь в технологии Продвинутое отслеживание!
+    - type: Tweak
+      message: >-
+        Теперь  технология Базовое отслеживание открывает платы монитора и
+        сервера датчиков!
+    - type: Tweak
+      message: >-
+        Теперь для изучения любой Т3 технологии нужно изучить полностью Т2 её
+        дисциплины!
+    - type: Fix
+      message: Исправлены характеристики бура и кирки!
+    - type: Fix
+      message: Пипетку больше нельзя сделать до изучения на протолате!
+  id: 60
+  time: '2024-09-22T13:29:47.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/181
+- author: Evgencheg
+  changes:
+    - type: Fix
+      message: Исправлены переводы!
+  id: 61
+  time: '2024-09-23T13:03:59.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/186
+- author: PowerKAT1
+  changes:
+    - type: Fix
+      message: Исправлена карта Нормандия!
+  id: 62
+  time: '2024-09-23T13:14:50.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/185

@@ -1,4 +1,5 @@
 generic-power-initialization-feedback = Я проснулся.
+arleady-casting = Я не могу использовать более одной силы одновременно.
 # Dispel
 dispel-power-description = Рассеивайте вызванные сущности, такие как фамильяры или силовые стены.
 dispel-power-initialization-feedback = Силы судьбы для меня ничто. Я чувствую, что могу дотянуться до окружающих меня нитей и навязать реальность другим.
@@ -39,6 +40,26 @@ metapsionic-power-metapsionic-feedback = { CAPITALIZE($entity) } взирает 
 psionic-regeneration-power-description = Доведите свой метоболизм до предела что бы ускорить регенерацию.
 psionic-regeneration-power-initialization-feedback = Я смотрю внутрь себя и нахожу источник жизни.
 psionic-regeneration-power-metapsionic-feedback = { CAPITALIZE($entity) } обладает непреодолимой волей к жизни
+# Healing Word
+action-name-healing-word = Слово Исцеления
+action-description-healing-word = Произнесите Меньший Секрет Жизни и восстановите здоровье другого.
+healing-word-power-description = Произнесите Меньший Секрет Жизни и восстановите здоровье другого.
+healing-word-power-initialization-feedback =
+    В начале времен было произнесено слово, которое принесло жизнь в Сферы.
+    Хотя это тяжело для моего разума, этот Секрет теперь известен мне.
+    Мне нужно лишь произнести его.
+healing-word-power-metapsionic-feedback = { CAPITALIZE($entity) } хранит Меньший Секрет Жизни.
+healing-word-begin = { CAPITALIZE($entity) } произносит слово, которое приносит радость и боль тем, кто его слышит.
+# Revivify
+action-name-revivify = Дыхание Жизни
+action-description-revivify = Произнесите Большой Секрет Жизни и верните другого к жизни.
+revivify-power-description = Произнесите Большой Секрет Жизни и верните другого к жизни.
+revivify-power-initialization-feedback =
+    На мгновение моя душа путешествует сквозь время и пространство к началу всего, и там я слышу это.
+    Секрет Жизни во всей его полноте. Я чувствую, как вся моя сущность выгорает изнутри, просто зная это.
+    Сила течет через меня, как могучая река, прося высвободиться простым произнесением слова.
+revivify-power-metapsionic-feedback = { CAPITALIZE($entity) } хранит Большой Секрет Жизни.
+revivify-word-begin = { CAPITALIZE($entity) } произносит слово такой божественной силы, что те, кто его слышит, плачут от радости.
 # Telegnosis
 telegnosis-power-description = Создайте проекцию что бы удалённо осматривать местность.
 telegnosis-power-initialization-feedback =

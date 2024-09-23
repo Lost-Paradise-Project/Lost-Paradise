@@ -1,0 +1,10 @@
+﻿# Made DarkSide <
+# Негативные эффекты настроения
+
+
+- type: moodEffect
+  id: LPPGotSlap
+  moodChange: -3
+  timeout: 180
+
+# >

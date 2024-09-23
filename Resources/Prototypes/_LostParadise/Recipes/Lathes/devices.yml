@@ -39,6 +39,7 @@
   result: BluespacePlantBag
   completetime: 7
   materials:
+    LPPDiamond: 500
     Steel: 1300
     Glass: 1400
     Silver: 900
@@ -63,6 +64,7 @@
   result: BluespaceChemBag
   completetime: 6
   materials:
+    LPPDiamond: 500
     Steel: 1300
     Glass: 1400
     Silver: 900
@@ -88,3 +90,10 @@
 #     Glass: 85
 #     Silver: 640
 #     Gold: 950
+
+- type: latheRecipe
+  id: LPPCrewMonitoringServerMachineCircuitboard
+  result: CrewMonitoringServerMachineCircuitboard
+  completetime: 10
+  materials:
+    Steel: 100
