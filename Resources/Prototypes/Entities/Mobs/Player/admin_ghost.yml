@@ -99,7 +99,7 @@
     prototypes: [ MobAghostGear ]
   - type: SupermatterImmune
   - type: MovementSpeedModifier
-    baseWalkSpeed : 35
+    baseWalkSpeed : 8
     baseSprintSpeed : 25
 
 - type: entity
