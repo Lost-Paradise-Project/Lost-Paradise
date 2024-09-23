@@ -112,7 +112,7 @@ public sealed class TTSSystem : EntitySystem
         }
         else
         {
-            _audio.PlayGlobal(soundPath, Filter.Local(), false);
+            //_audio.PlayGlobal(soundPath, Filter.Local(), false);  // поскольку источника нет/не видно, то пусть молчит
         }
 
         _contentRoot.RemoveFile(filePath);

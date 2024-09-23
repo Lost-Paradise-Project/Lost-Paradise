@@ -34,7 +34,7 @@ namespace Content.Server.Database
         public async Task<PlayerPreferences?> GetPlayerPreferencesAsync(NetUserId userId)
         {
             await using var db = await GetDb();
-            _opsLog.Warning($"Get preferences for profile: {userId}"); //тест БД
+
             var prefs = await db.DbContext
                 .Preference
                 .Include(p => p.Profiles).ThenInclude(h => h.Jobs)
@@ -85,8 +85,6 @@ namespace Content.Server.Database
                 // TODO: Handle other ICharacterProfile implementations properly
                 throw new NotImplementedException();
             }
-
-            _opsLog.Warning($"Saving Character Slot: {userId}/{profile.Name}");  //тест БД
 
             var oldProfile = db.DbContext.Profile
                 .Include(p => p.Preference)
@@ -147,7 +145,7 @@ namespace Content.Server.Database
 
             await db.DbContext.SaveChangesAsync();
 
-            return new PlayerPreferences(new[] { new KeyValuePair<int, ICharacterProfile>(0, defaultProfile) }, 0, Color.FromHex(prefs.AdminOOCColor));
+            return new PlayerPreferences(new[] {new KeyValuePair<int, ICharacterProfile>(0, defaultProfile)}, 0, Color.FromHex(prefs.AdminOOCColor));
         }
 
         public async Task DeleteSlotAndSetSelectedIndex(NetUserId userId, int deleteSlot, int newSlot)
@@ -186,7 +184,6 @@ namespace Content.Server.Database
             var traits = profile.Traits.Select(t => t.TraitName);
             var loadouts = profile.Loadouts.Select(t => t.LoadoutName);
 #if LPP_Sponsors
-            Logger.Warning($"Selecting Donates for profile: {profile.Id}/{profile.CharacterName}"); //тест БД
             var donates = profile.Donate.Select(t => t.DonateName); // Lost Paradise Donate Preferences
 #endif
 
@@ -301,23 +298,22 @@ namespace Content.Server.Database
             profile.Jobs.AddRange(
                 humanoid.JobPriorities
                     .Where(j => j.Value != JobPriority.Never)
-                    .Select(j => new Job { JobName = j.Key, Priority = (DbJobPriority) j.Value })
+                    .Select(j => new Job {JobName = j.Key, Priority = (DbJobPriority) j.Value})
             );
 
             profile.Antags.Clear();
             profile.Antags.AddRange(
                 humanoid.AntagPreferences
-                    .Select(a => new Antag { AntagName = a })
+                    .Select(a => new Antag {AntagName = a})
             );
 
             profile.Traits.Clear();
             profile.Traits.AddRange(
                 humanoid.TraitPreferences
-                        .Select(t => new Trait { TraitName = t })
+                        .Select(t => new Trait {TraitName = t})
             );
 
 #if LPP_Sponsors
-            Logger.Warning($"Converting profile: {profile.Id}/{profile.CharacterName}");  //тест БД
             profile.Donate.Clear();             // Lost Paradise Donate Preferences
             profile.Donate.AddRange(
                 humanoid.DonatePreferences
@@ -328,7 +324,7 @@ namespace Content.Server.Database
             profile.Loadouts.Clear();
             profile.Loadouts.AddRange(
                 humanoid.LoadoutPreferences
-                    .Select(t => new Loadout { LoadoutName = t })
+                    .Select(t => new Loadout {LoadoutName = t})
             );
 
             return profile;
@@ -1265,7 +1261,7 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
                 ban.LastEditedAt,
                 ban.ExpirationTime,
                 ban.Hidden,
-                new[] { ban.RoleId.Replace(BanManager.JobPrefix, null) },
+                new [] { ban.RoleId.Replace(BanManager.JobPrefix, null) },
                 MakePlayerRecord(unbanningAdmin),
                 ban.Unban?.UnbanTime);
         }
@@ -1429,10 +1425,10 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
         protected async Task<List<AdminWatchlistRecord>> GetActiveWatchlistsImpl(DbGuard db, Guid player)
         {
             var entities = await (from watchlist in db.DbContext.AdminWatchlists
-                                  where watchlist.PlayerUserId == player &&
-                                  !watchlist.Deleted &&
-                                  (watchlist.ExpirationTime == null || DateTime.UtcNow < watchlist.ExpirationTime)
-                                  select watchlist)
+                          where watchlist.PlayerUserId == player &&
+                                !watchlist.Deleted &&
+                                (watchlist.ExpirationTime == null || DateTime.UtcNow < watchlist.ExpirationTime)
+                          select watchlist)
                 .Include(note => note.Round)
                 .ThenInclude(r => r!.Server)
                 .Include(note => note.CreatedBy)
@@ -1457,9 +1453,9 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
         protected async Task<List<AdminMessageRecord>> GetMessagesImpl(DbGuard db, Guid player)
         {
             var entities = await (from message in db.DbContext.AdminMessages
-                                  where message.PlayerUserId == player && !message.Deleted &&
-                                  (message.ExpirationTime == null || DateTime.UtcNow < message.ExpirationTime)
-                                  select message).Include(note => note.Round)
+                        where message.PlayerUserId == player && !message.Deleted &&
+                              (message.ExpirationTime == null || DateTime.UtcNow < message.ExpirationTime)
+                        select message).Include(note => note.Round)
                     .ThenInclude(r => r!.Server)
                     .Include(note => note.CreatedBy)
                     .Include(note => note.LastEditedBy)
@@ -1538,7 +1534,7 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
 
             // Client side query, as EF can't do groups yet
             var bansEnumerable = bansQuery
-                    .GroupBy(ban => new { ban.BanTime, CreatedBy = (Player?) ban.CreatedBy, ban.Reason, Unbanned = ban.Unban == null })
+                    .GroupBy(ban => new { ban.BanTime, CreatedBy = (Player?)ban.CreatedBy, ban.Reason, Unbanned = ban.Unban == null })
                     .Select(banGroup => banGroup)
                     .ToArray();
 
