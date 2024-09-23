@@ -638,7 +638,8 @@ Entries:
       message: Теперь некоторые Т3 технологии требуют очищенный алмаз!
     - type: Tweak
       message: >-
-        Портативный монитор датчиков теперь в технологии Продвинутое отслеживание!
+        Портативный монитор датчиков теперь в технологии Продвинутое
+        отслеживание!
     - type: Tweak
       message: >-
         Теперь  технология Базовое отслеживание открывает платы монитора и
@@ -668,3 +669,10 @@ Entries:
   id: 62
   time: '2024-09-23T13:14:50.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/185
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Добавлена возможность выбора анимированных кошачьих хвостиков
+  id: 63
+  time: '2024-09-23T18:30:37.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/193
