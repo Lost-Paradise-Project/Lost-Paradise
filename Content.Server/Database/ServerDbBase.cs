@@ -34,7 +34,7 @@ namespace Content.Server.Database
         public async Task<PlayerPreferences?> GetPlayerPreferencesAsync(NetUserId userId)
         {
             await using var db = await GetDb();
-            _opsLog.Error($"Get preferences for profile: {userId}"); //тест БД
+            _opsLog.Warning($"Get preferences for profile: {userId}"); //тест БД
             var prefs = await db.DbContext
                 .Preference
                 .Include(p => p.Profiles).ThenInclude(h => h.Jobs)
@@ -86,7 +86,7 @@ namespace Content.Server.Database
                 throw new NotImplementedException();
             }
 
-            _opsLog.Error($"Saving Character Slot: {userId}/{profile.Name}");  //тест БД
+            _opsLog.Warning($"Saving Character Slot: {userId}/{profile.Name}");  //тест БД
 
             var oldProfile = db.DbContext.Profile
                 .Include(p => p.Preference)
@@ -186,7 +186,7 @@ namespace Content.Server.Database
             var traits = profile.Traits.Select(t => t.TraitName);
             var loadouts = profile.Loadouts.Select(t => t.LoadoutName);
 #if LPP_Sponsors
-            Logger.Error($"Selecting Donates for profile: {profile.Id}/{profile.CharacterName}"); //тест БД
+            Logger.Warning($"Selecting Donates for profile: {profile.Id}/{profile.CharacterName}"); //тест БД
             var donates = profile.Donate.Select(t => t.DonateName); // Lost Paradise Donate Preferences
 #endif
 
@@ -317,7 +317,7 @@ namespace Content.Server.Database
             );
 
 #if LPP_Sponsors
-            Logger.Error($"Converting profile: {profile.Id}/{profile.CharacterName}");  //тест БД
+            Logger.Warning($"Converting profile: {profile.Id}/{profile.CharacterName}");  //тест БД
             profile.Donate.Clear();             // Lost Paradise Donate Preferences
             profile.Donate.AddRange(
                 humanoid.DonatePreferences
