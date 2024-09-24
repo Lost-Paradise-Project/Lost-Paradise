@@ -17,6 +17,7 @@
 - type: Interaction
   id: HelpUp
   parent: [BaseHelp, BaseGlobal]
+  icon: /Textures/Interface/Alerts/mood.rsi/mood6.png # < Tweak MrDarkSide >
   delay: 1.5
   cooldown: 0.5
   hideByRequirement: true
@@ -42,6 +43,7 @@
 - type: Interaction
   id: ForceDown
   parent: [BaseHelp, BaseGlobal]
+  icon: /Textures/Interface/Alerts/mood.rsi/mood4.png # < Tweak MrDarkSide >
   delay: 4.5
   hideByRequirement: true
   requirement:
@@ -54,6 +56,7 @@
 - type: Interaction
   id: MakeSleepOther
   parent: [BaseHelp, BaseGlobal]
+  icon: /Textures/Interface/Alerts/mood.rsi/mood4.png # < Tweak MrDarkSide >
   priority: -6
   delay: 10 # Should be long enough to be non-abusable, right?
   hideByRequirement: true
@@ -73,6 +76,7 @@
 - type: Interaction
   id: ShakeOther
   parent: [BaseHelp, BaseGlobal]
+  icon: /Textures/Interface/Alerts/mood.rsi/mood5.png # < Tweak MrDarkSide >
   priority: -5
   delay: 0.8
   cooldown: 10 # Slightly abusable

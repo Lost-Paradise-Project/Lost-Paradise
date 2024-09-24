@@ -61,13 +61,6 @@ jobs:
         ARTIFACT_ID: ${{ steps.artifact-upload-step.outputs.artifact-id }}
         GITHUB_REPOSITORY: ${{ vars.GITHUB_REPOSITORY }}
 
-    - name: Publish changelog
-      run: Tools/actions_changelogs_since_last_run.py
-      env:
-        CHANGELOG_DIR: ${{ vars.CHANGELOG_DIR }}
-        CHANGELOG_WEBHOOK: ${{ secrets.CHANGELOG_WEBHOOK }}
-        GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-
     - uses: geekyeggo/delete-artifact@v5
       if: always()
       with:
