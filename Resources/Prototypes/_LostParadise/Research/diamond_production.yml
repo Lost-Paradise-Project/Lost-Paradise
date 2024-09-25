@@ -26,8 +26,8 @@
   cost: 15000
   recipeUnlocks:
   - LPPRiotLaserShield
-  - LPPClothingOuterArmorReflective
-  - LPPClothingOuterHardsuitReflectivepatrolsec
+  # - LPPClothingOuterArmorReflective
+  # - LPPClothingOuterHardsuitReflectivepatrolsec
 
 # - type: technology
 #   id: LPPAdvancedDesign

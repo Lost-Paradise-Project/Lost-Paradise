@@ -1,15 +1,15 @@
-- type: latheRecipe # СБАЛАНСИРОВАННЫЙ
-  id: LPPClothingOuterHardsuitReflectivepatrolsec
-  result: LPPClothingOuterHardsuitReflectivepatrolsec
-  category: hardsuit
-  completetime: 20
-  materials:
-    Steel: 1200
-    Glass: 900
-    Silver: 500
-    Gold: 300
-    Plasteel: 500
-    LPPDiamond: 3500
+# - type: latheRecipe # СБАЛАНСИРОВАННЫЙ
+#   id: LPPClothingOuterHardsuitReflectivepatrolsec
+#   result: LPPClothingOuterHardsuitReflectivepatrolsec
+#   category: hardsuit
+#   completetime: 20
+#   materials:
+#     Steel: 1200
+#     Glass: 900
+#     Silver: 500
+#     Gold: 300
+#     Plasteel: 500
+#     LPPDiamond: 3500
 
 - type: latheRecipe # СБАЛАНСИРОВАННЫЙ
   id: LPPClothingOuterHardsuitEngineering

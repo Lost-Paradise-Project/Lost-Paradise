@@ -33,18 +33,18 @@
   result: RiotLaserShield
   completetime: 4
   materials:
-    Steel: 300
-    Glass: 900
+    Steel: 200
+    Glass: 200
     LPPDiamond: 2500
 
-- type: latheRecipe
-  id: LPPClothingOuterArmorReflective
-  result: ClothingOuterArmorReflective
-  completetime: 4
-  materials:
-    Steel: 300
-    Glass: 900
-    LPPDiamond: 3000
+# - type: latheRecipe
+#   id: LPPClothingOuterArmorReflective
+#   result: ClothingOuterArmorReflective
+#   completetime: 4
+#   materials:
+#     Steel: 300
+#     Glass: 900
+#     LPPDiamond: 3000
 
 # - type: latheRecipe
 #   id: LPPSpaceForgeCircuitBoard
