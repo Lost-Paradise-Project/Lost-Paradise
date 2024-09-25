@@ -731,3 +731,12 @@ Entries:
   id: 66
   time: '2024-09-25T21:28:53.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/197
+- author: SpicyDarkFox
+  changes:
+    - type: Tweak
+      message: Изменена система ТТС, чтобы предотвращать звуки вне слышимости
+    - type: Fix
+      message: Исправлена ошибка с ВЛом ролей и спонсоркой
+  id: 67
+  time: '2024-09-25T21:55:16.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/199
