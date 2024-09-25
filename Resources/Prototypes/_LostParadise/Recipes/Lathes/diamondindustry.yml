@@ -33,8 +33,8 @@
   result: RiotLaserShield
   completetime: 4
   materials:
-    Steel: 200
-    Glass: 200
+    Steel: 400
+    Glass: 400
     LPPDiamond: 2500
 
 # - type: latheRecipe
