@@ -194,9 +194,6 @@
     - id: ClothingHeadHatDogEars
       prob: 0.01
       orGroup: Clothes
-    - id: ClothingOuterArmorReflective
-      prob: 0.01
-      orGroup: Clothes
     - id: ClothingUniformJumpskirtSyndieFormalDress
       prob: 0.01
       orGroup: Clothes

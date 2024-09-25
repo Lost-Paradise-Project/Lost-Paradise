@@ -42,14 +42,14 @@
   - HandheldCrewMonitor
 
 - type: technology
-  id: LPPCombatUtilitys
-  name: lppresearch-technology-combat-utility
+  id: LPPAdvancedMedicalHardsuit
+  name: lppresearch-technology-advanced-medical-hardsuit
   icon:
-    sprite: _LostParadise/Objects/Specific/Medical/CombatHypospray.rsi
-    state: hypo
-  discipline: Arsenal
+    sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
+    state: icon
+  discipline: CivilianServices
   tier: 2
-  cost: 10000
+  cost: 7500
   recipeUnlocks:
-  - LPPCombatDefibrillator
-  - LPPCombatHypospray
+  - LPPClothingOuterHardsuitMedical
+  - LPPClothingOuterHardsuitVoidParamed

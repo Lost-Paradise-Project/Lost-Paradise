@@ -1,0 +1,38 @@
+- type: technology
+  id: LPPCombatUtilitys
+  name: lppresearch-technology-combat-utility
+  icon:
+    sprite: _LostParadise/Objects/Specific/Medical/CombatHypospray.rsi
+    state: hypo
+  discipline: Arsenal
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+  - LPPCombatDefibrillator
+  - LPPCombatHypospray
+  - LPPClothingOuterHardsuitCombatCorpsman
+  - LPPClothingOuterHardsuitCombatMedical
+  - LPPClothingOuterHardsuitBrigmedic
+  - LPPHardsuitAssaultParamedic
+
+- type: technology
+  id: LPPAdvancedDesignHardsuit
+  name: lppresearch-technology-advanced-design-hardsuit
+  icon:
+    sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 35000
+  recipeUnlocks:
+  - LPPClothingOuterHardsuitSecurityEng
+  - LPPClothingOuterHardsuitCombatHoS
+  - LPPClothingOuterHardsuitCombatAdvanced
+  - LPPClothingOuterHardsuitCombatWarden
+  - LPPClothingOuterHardsuitSecurityRed
+  - LPPClothingOuterHardsuitPilotSecurity
+  - LPPClothingOuterHardsuitWarden
+  - LPPClothingOuterHardsuitCombatRiot
+  - LPPClothingOuterHardsuitCombatStandard
+  - LPPClothingOuterHardsuitCombatOfficer
+  - LPPClothingOuterHardsuitSecurity

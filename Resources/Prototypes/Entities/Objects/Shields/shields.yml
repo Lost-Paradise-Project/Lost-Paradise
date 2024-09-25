@@ -89,7 +89,11 @@
         coefficients:
           Heat: 0.7
         flatReductions:
-          Heat: 2
+          Heat: 1.5
+    - type: Reflect
+      reflectProb: 1
+      reflects:
+        - Energy
 
 - type: entity
   name: riot bullet shield
