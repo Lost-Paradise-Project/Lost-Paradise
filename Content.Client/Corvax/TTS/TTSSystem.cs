@@ -85,6 +85,7 @@ public sealed class TTSSystem : EntitySystem
 #endif
         if (!canPlay)
             return;
+
         //_sawmill.Debug($"Play TTS audio {ev.Data.Length} bytes from {ev.SourceUid} entity");
 
         var volume = AdjustVolume(ev.IsWhisper);
@@ -112,11 +113,11 @@ public sealed class TTSSystem : EntitySystem
         if (ev.SourceUid != null)
         {
             var sourceUid = GetEntity(ev.SourceUid.Value);
-            Filter sources = Filter.Pvs(player ?? EntityUid.Invalid);
+            Filter sources = Filter.Pvs(sourceUid);
             var sourceExists = false;
             foreach (var src in sources.Recipients)
             {
-                if (src.AttachedEntity != null && src.AttachedEntity == sourceUid)
+                if (src.AttachedEntity != null && src.AttachedEntity == player)
                 {
                     sourceExists = true;
                     break;
