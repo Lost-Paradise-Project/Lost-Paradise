@@ -15,19 +15,19 @@
 
 # Tier 2
 
-- type: technology
-  id: LPPAntiLaserDevices
-  name: lppresearch-technology-anti-laser-devices
-  icon:
-    sprite: Objects/Weapons/Melee/shields.rsi
-    state: riot_laser-icon
-  discipline: LPPDiamondProduction
-  tier: 2
-  cost: 15000
-  recipeUnlocks:
-  - LPPRiotLaserShield
-  # - LPPClothingOuterArmorReflective
-  # - LPPClothingOuterHardsuitReflectivepatrolsec
+# - type: technology
+#   id: LPPAntiLaserDevices
+#   name: lppresearch-technology-anti-laser-devices
+#   icon:
+#     sprite: Objects/Weapons/Melee/shields.rsi
+#     state: riot_laser-icon
+#   discipline: LPPDiamondProduction
+#   tier: 2
+#   cost: 15000
+#   recipeUnlocks:
+#   - LPPRiotLaserShield
+#   - LPPClothingOuterArmorReflective
+#   - LPPClothingOuterHardsuitReflectivepatrolsec
 
 # - type: technology
 #   id: LPPAdvancedDesign

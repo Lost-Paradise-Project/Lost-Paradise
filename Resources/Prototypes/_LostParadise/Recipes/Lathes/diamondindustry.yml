@@ -28,14 +28,14 @@
     Glass: 900
     Gold: 100
 
-- type: latheRecipe
-  id: LPPRiotLaserShield
-  result: RiotLaserShield
-  completetime: 4
-  materials:
-    Steel: 246
-    Glass: 246
-    LPPDiamond: 2500
+# - type: latheRecipe
+#   id: LPPRiotLaserShield
+#   result: RiotLaserShield
+#   completetime: 4
+#   materials:
+#     Steel: 246
+#     Glass: 246
+#     LPPDiamond: 2500
 
 # - type: latheRecipe
 #   id: LPPClothingOuterArmorReflective
