@@ -6,6 +6,7 @@
   requirements:
     - !type:CharacterAgeRequirement
       min: 25
+      max: 80
     - !type:CharacterDepartmentTimeRequirement
       department: Command
       min: 108000

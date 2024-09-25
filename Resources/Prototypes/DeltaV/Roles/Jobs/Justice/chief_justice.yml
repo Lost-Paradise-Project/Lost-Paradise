@@ -6,6 +6,7 @@
   requirements:
     - !type:CharacterAgeRequirement
       min: 25
+      max: 80
     - !type:CharacterPlaytimeRequirement
       tracker: JobClerk
       min: 36000 # 10 hours

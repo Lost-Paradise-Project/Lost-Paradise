@@ -6,6 +6,7 @@
   requirements:
     - !type:CharacterAgeRequirement
       min: 25
+      max: 80
     - !type:CharacterDepartmentTimeRequirement
       department: Logistics # DeltaV - Logistics Department replacing Cargo
       min: 18000 # DeltaV - 5 hours
