@@ -27,7 +27,7 @@
   recipeUnlocks:
   - LPPRiotLaserShield
   - LPPClothingOuterArmorReflective
-#   - LPPClothingOuterHardsuitReflectivepatrolsec
+  - LPPClothingOuterHardsuitReflectivepatrolsec
 
 - type: technology
   id: LPPAdvancedDesign
