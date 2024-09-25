@@ -772,6 +772,7 @@
       - MagazinePistolSpecial
       # End of modified code
     dynamicRecipes:
+      - LPPRiotLaserShield
       # - LPPSpaceForgeCircuitBoardCMDAndSec
       - LPPRiotLaserShield
       - LPPCombatDefibrillator
