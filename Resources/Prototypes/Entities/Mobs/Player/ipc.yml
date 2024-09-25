@@ -224,7 +224,7 @@
   - type: PsionicInsulation
   - type: OfferItem
   - type: LayingDown
-  - type: Carriable
+#  - type: Carriable
   - type: StepTriggerImmune
     whitelist:
       types:
