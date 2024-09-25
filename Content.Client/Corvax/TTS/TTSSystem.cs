@@ -127,17 +127,17 @@ public sealed class TTSSystem : EntitySystem
             if (!sourceExists)      //если в диапазоне Pvs нет источника, то звук не проигрывается
                 return;
 
-            Logger.Warning($"Playing TTS on Entity {sourceUid}");
+            //Logger.Warning($"Playing TTS on Entity {sourceUid}");
             _audio.PlayEntity(soundPath, new EntityUid(), sourceUid); // recipient arg ignored on client
         }
         else
         {
-            Logger.Warning("Playing TTS Globally");
+            //Logger.Warning("Playing TTS Globally");
             _audio.PlayGlobal(soundPath, Filter.Local(), false);
         }
 
         _contentRoot.RemoveFile(filePath);
-        Logger.Warning($"TTS File successfully removed!");
+        //Logger.Warning($"TTS File successfully removed!");
     }
 
     private float AdjustVolume(bool isWhisper)
