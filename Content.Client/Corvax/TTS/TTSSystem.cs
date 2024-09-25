@@ -85,6 +85,7 @@ public sealed class TTSSystem : EntitySystem
 #endif
         if (!canPlay)
             return;
+
         //_sawmill.Debug($"Play TTS audio {ev.Data.Length} bytes from {ev.SourceUid} entity");
 
         var volume = AdjustVolume(ev.IsWhisper);
@@ -112,11 +113,11 @@ public sealed class TTSSystem : EntitySystem
         if (ev.SourceUid != null)
         {
             var sourceUid = GetEntity(ev.SourceUid.Value);
-            Filter sources = Filter.Pvs(player ?? EntityUid.Invalid);
+            Filter sources = Filter.Pvs(sourceUid);
             var sourceExists = false;
             foreach (var src in sources.Recipients)
             {
-                if (src.AttachedEntity != null && src.AttachedEntity == sourceUid)
+                if (src.AttachedEntity != null && src.AttachedEntity == player)
                 {
                     sourceExists = true;
                     break;
@@ -127,17 +128,17 @@ public sealed class TTSSystem : EntitySystem
             if (!sourceExists)      //если в диапазоне Pvs нет источника, то звук не проигрывается
                 return;
 
-            Logger.Warning($"Playing TTS on Entity {sourceUid}");
+            //Logger.Warning($"Playing TTS on Entity {sourceUid}");
             _audio.PlayEntity(soundPath, new EntityUid(), sourceUid); // recipient arg ignored on client
         }
         else
         {
-            Logger.Warning("Playing TTS Globally");
+            //Logger.Warning("Playing TTS Globally");
             _audio.PlayGlobal(soundPath, Filter.Local(), false);
         }
 
         _contentRoot.RemoveFile(filePath);
-        Logger.Warning($"TTS File successfully removed!");
+        //Logger.Warning($"TTS File successfully removed!");
     }
 
     private float AdjustVolume(bool isWhisper)
