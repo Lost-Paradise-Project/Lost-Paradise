@@ -88,6 +88,25 @@
         ExamineName: Glass Beaker
 
 - type: entity
+  id: LPPAdvResearchAndDevelopmentPointSourceCircuitBoard
+  parent: BaseMachineCircuitboard
+  name: Adv R&D point source ( Circuit Board )
+  description: lppdesc-adv-rnd-point-source-board.
+  components:
+  - type: Sprite
+    state: science
+  - type: MachineBoard
+    prototype: LPPAdvResearchAndDevelopmentPointSource
+    requirements:
+      MatterBin: 4
+      Manipulator: 4
+    materialRequirements:
+      Glass: 10
+      Steel: 5
+      Diamond: 3
+      Bluespace: 5
+
+- type: entity
   id: LPPSpaceForgeCircuitBoardCMDAndSec
   parent: BaseMachineCircuitboard
   name: космическая кузница командования (машинная плата)

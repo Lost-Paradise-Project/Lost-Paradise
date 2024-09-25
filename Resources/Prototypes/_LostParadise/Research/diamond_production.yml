@@ -44,16 +44,26 @@
 
 # Tier 3
 
-# - type: technology
-#   id: LPPBluespaceStorage
-#   name: research-technology-bluespace-storage
-#   icon:
-#     sprite: Clothing/Back/Backpacks/holding.rsi
-#     state: holding
-#   discipline: LPPDiamondProduction
-#   tier: 3
-#   cost: 15000
-#   recipeUnlocks:
-#   - ClothingBackpackHolding
-#   - ClothingBackpackSatchelHolding
-#   - ClothingBackpackDuffelHolding
+- type: technology
+  id: LPPAdditionalDisciplines
+  name: lppresearch-technology-additional-disciplines
+  icon:
+    sprite: Structures/Machines/server.rsi
+    state: serverRnD
+  discipline: LPPDiamondProduction
+  tier: 3
+  cost: 35000
+  recipeUnlocks:
+  - LPPResearchAndDevelopmentServerMachineCircuitboard
+
+- type: technology
+  id: LPPAdvancedResearchGeneration
+  name: lppresearch-technology-advanced-research-generation
+  icon:
+    sprite: Structures/Machines/rndpointsource.rsi
+    state: rndpointsource-off
+  discipline: LPPDiamondProduction
+  tier: 3
+  cost: 20000
+  recipeUnlocks:
+  - LPPAdvResearchAndDevelopmentPointSourceCircuitBoard

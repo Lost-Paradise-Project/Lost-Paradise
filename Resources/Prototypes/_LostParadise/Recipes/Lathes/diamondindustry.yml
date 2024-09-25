@@ -29,6 +29,26 @@
     Gold: 100
 
 - type: latheRecipe
+  id: LPPResearchAndDevelopmentServerMachineCircuitboard
+  result: ResearchAndDevelopmentServerMachineCircuitboard
+  category: Circuitry
+  completetime: 4
+  materials:
+    Steel: 100
+    Glass: 900
+    LPPDiamond: 2500
+
+- type: latheRecipe
+  id: LPPAdvResearchAndDevelopmentPointSourceCircuitBoard
+  result: LPPAdvResearchAndDevelopmentPointSourceCircuitBoard
+  category: Circuitry
+  completetime: 4
+  materials:
+    Steel: 100
+    Glass: 900
+    LPPDiamond: 2500
+
+- type: latheRecipe
   id: LPPRiotLaserShield
   result: RiotLaserShield
   completetime: 4
