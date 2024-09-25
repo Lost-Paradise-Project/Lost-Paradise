@@ -41,15 +41,15 @@
   recipeUnlocks:
   - HandheldCrewMonitor
 
-- type: technology
-  id: LPPAdvancedMedicalHardsuit
-  name: lppresearch-technology-advanced-medical-hardsuit
-  icon:
-    sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
-    state: icon
-  discipline: CivilianServices
-  tier: 2
-  cost: 7500
-  recipeUnlocks:
-  - LPPClothingOuterHardsuitMedical
-  - LPPClothingOuterHardsuitVoidParamed
+# - type: technology
+#   id: LPPAdvancedMedicalHardsuit
+#   name: lppresearch-technology-advanced-medical-hardsuit
+#   icon:
+#     sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
+#     state: icon
+#   discipline: CivilianServices
+#   tier: 2
+#   cost: 7500
+#   recipeUnlocks:
+#   - LPPClothingOuterHardsuitMedical
+#   - LPPClothingOuterHardsuitVoidParamed
