@@ -14,8 +14,6 @@
     - !type:CharacterPlaytimeRequirement
       tracker: JobProsecutor
       min: 36000 # 10 hours
-
-
   startingGear: ClerkGear
   icon: "JobIconClerk"
   requireAdminNotify: true
