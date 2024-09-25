@@ -8,11 +8,14 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;
 using Robust.Shared.ContentPack;
 using Robust.Shared.Player;
+using Robust.Client.Player;
 using Robust.Shared.Utility;
 using Content.Client.Language.Systems;
 using Content.Client.Administration.Managers;
 using Content.Shared.Administration;
 using Content.Shared.Ghost;
+using System.Linq;
+using JetBrains.Annotations;
 
 
 namespace Content.Client.Corvax.TTS;
@@ -28,6 +31,7 @@ public sealed class TTSSystem : EntitySystem
     [Dependency] private readonly IResourceCache _resourceCache = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly ISharedPlayerManager _playerManager = default!;
+    [Dependency] private readonly IPlayerManager _player = default!;
     [Dependency] private readonly LanguageSystem _language = default!;
     [Dependency] private readonly IClientAdminManager _adminMgr = default!;
 
@@ -108,14 +112,32 @@ public sealed class TTSSystem : EntitySystem
         if (ev.SourceUid != null)
         {
             var sourceUid = GetEntity(ev.SourceUid.Value);
+            Filter sources = Filter.Pvs(player ?? EntityUid.Invalid);
+            var sourceExists = false;
+            foreach (var src in sources.Recipients)
+            {
+                if (src.AttachedEntity != null && src.AttachedEntity == sourceUid)
+                {
+                    sourceExists = true;
+                    break;
+                }
+                else
+                    continue;
+            }
+            if (!sourceExists)      //если в диапазоне Pvs нет источника, то звук не проигрывается
+                return;
+
+            Logger.Warning($"Playing TTS on Entity {sourceUid}");
             _audio.PlayEntity(soundPath, new EntityUid(), sourceUid); // recipient arg ignored on client
         }
         else
         {
-            //_audio.PlayGlobal(soundPath, Filter.Local(), false);  // поскольку источника нет/не видно, то пусть молчит
+            Logger.Warning("Playing TTS Globally");
+            _audio.PlayGlobal(soundPath, Filter.Local(), false);
         }
 
         _contentRoot.RemoveFile(filePath);
+        Logger.Warning($"TTS File successfully removed!");
     }
 
     private float AdjustVolume(bool isWhisper)
