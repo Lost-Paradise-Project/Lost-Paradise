@@ -5,6 +5,8 @@
   playTimeTracker: JobHeadOfPersonnel
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   requirements:
+    - !type:CharacterAgeRequirement
+      min: 25
     - !type:CharacterPlaytimeRequirement
       tracker: JobChef
       min: 14400 # DeltaV - 4 hours

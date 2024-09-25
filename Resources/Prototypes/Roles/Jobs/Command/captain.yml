@@ -4,6 +4,8 @@
   description: job-description-captain
   playTimeTracker: JobCaptain
   requirements:
+    - !type:CharacterAgeRequirement
+      min: 25
     - !type:CharacterDepartmentTimeRequirement
       department: Logistics # DeltaV - Logistics Department replacing Cargo
       min: 18000 # DeltaV - 5 hours

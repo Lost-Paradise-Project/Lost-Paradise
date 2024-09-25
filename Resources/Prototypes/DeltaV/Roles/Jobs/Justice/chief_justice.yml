@@ -4,6 +4,8 @@
   description: job-description-chief-justice
   playTimeTracker: JobChiefJustice
   requirements:
+    - !type:CharacterAgeRequirement
+      min: 25
     - !type:CharacterPlaytimeRequirement
       tracker: JobClerk
       min: 36000 # 10 hours

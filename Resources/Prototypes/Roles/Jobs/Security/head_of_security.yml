@@ -7,6 +7,8 @@
     - !type:CharacterPlaytimeRequirement
       tracker: JobWarden
       min: 14400 #DeltaV 4 hrs
+    - !type:CharacterAgeRequirement
+      min: 25
   #  - !type:RoleTimeRequirement # DeltaV - No Security Officer time requirement - REIMPLEMENT WHEN MORE PEOPLE HAVE IT
   #    role: JobDetective
   #    time: 14400 #DeltaV 4 hrs

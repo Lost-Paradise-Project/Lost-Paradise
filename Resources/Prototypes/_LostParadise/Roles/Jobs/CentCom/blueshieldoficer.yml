@@ -4,6 +4,8 @@
   description: job-description-blueshieldofficer
   playTimeTracker: JobBlueShieldOfficer
   requirements:
+    - !type:CharacterAgeRequirement
+      min: 25
     - !type:CharacterDepartmentTimeRequirement
       department: Command
       min: 108000
