@@ -77,7 +77,7 @@
 
 - type: entity
   id: LPPAdvResearchAndDevelopmentPointSource
-  parent: BaseMachinePowered
+  parent: [ BaseMachinePowered, ConstructibleMachine ]
   name: "Adv R&D point source"
   components:
   - type: Machine
