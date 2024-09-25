@@ -46,22 +46,22 @@
     Glass: 900
     LPPDiamond: 3000
 
-- type: latheRecipe
-  id: LPPSpaceForgeCircuitBoard
-  result: LPPSpaceForgeCircuitBoard
-  category: Circuitry
-  completetime: 4
-  materials:
-     Steel: 100
-     Glass: 900
-     LPPDiamond: 500
+# - type: latheRecipe
+#   id: LPPSpaceForgeCircuitBoard
+#   result: LPPSpaceForgeCircuitBoard
+#   category: Circuitry
+#   completetime: 4
+#   materials:
+#      Steel: 100
+#      Glass: 900
+#      LPPDiamond: 500
 
-- type: latheRecipe
-  id: LPPSpaceForgeCircuitBoardCMDAndSec
-  result: LPPSpaceForgeCircuitBoardCMDAndSec
-  category: Circuitry
-  completetime: 4
-  materials:
-     Steel: 100
-     Glass: 900
-     LPPDiamond: 500
+# - type: latheRecipe
+#   id: LPPSpaceForgeCircuitBoardCMDAndSec
+#   result: LPPSpaceForgeCircuitBoardCMDAndSec
+#   category: Circuitry
+#   completetime: 4
+#   materials:
+#      Steel: 100
+#      Glass: 900
+#      LPPDiamond: 500

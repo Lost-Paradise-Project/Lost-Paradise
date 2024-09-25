@@ -1,91 +1,94 @@
-- type: entity
-  id: LPPSpaceForge
-  parent: BaseLathe
-  name: космическая кузница
-  description: Данный купол машины предназначен для печатания скафандров чтобы персонал мог спокойно выйти в космос, не боясь задохнуться. К слову, все характеристики схожи и с другими протолатами, однако его строение и сборка выглядит по-другому.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
-    snapCardinals: true
-    layers:
-    - state: icon
-      map: ["enum.LatheVisualLayers.IsRunning"]
-    - state: unlit
-      shader: unshaded
-      map: ["enum.PowerDeviceVisualLayers.Powered"]
-    - state: inserting
-      map: ["enum.MaterialStorageVisualLayers.Inserting"]
-    - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: MaterialStorage
-    whitelist:
-      tags:
-        - Sheet
-        - RawMaterial
-        - Ingot
-  - type: Machine
-    board: LPPSpaceForgeCircuitBoard
-  - type: Lathe
-    producingSound: /Audio/Machines/circuitprinter.ogg
-    idleState: icon
-    runningState: building
-    staticRecipes:
-      - LPPClothingOuterHardsuitBasic
-      - LPPClothingOuterHardsuitEVA
-      - LPPClothingHeadHelmetEVALarge
-    dynamicRecipes:
-      - LPPClothingOuterHardsuitVoidParamed # Отсортировано
-      - LPPClothingOuterHardsuitSpatio # Отсортировано
-      - LPPClothingOuterHardsuitLuxury # Отсортировано
-      - LPPClothingOuterHardsuitSalvage # Отсортировано
-      - LPPClothingOuterHardsuitAtmos # Отсортировано
-      - LPPClothingOuterHardsuitEngineering # Отсортировано
+# - type: entity
+#   id: LPPSpaceForge
+#   parent: BaseLathe
+#   name: космическая кузница
+#   description: Данный купол машины предназначен для печатания скафандров чтобы персонал мог спокойно выйти в космос, не боясь задохнуться. К слову, все характеристики схожи и с другими протолатами, однако его строение и сборка выглядит по-другому.
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
+#     snapCardinals: true
+#     layers:
+#     - state: icon
+#       map: ["enum.LatheVisualLayers.IsRunning"]
+#     - state: unlit
+#       shader: unshaded
+#       map: ["enum.PowerDeviceVisualLayers.Powered"]
+#     - state: inserting
+#       map: ["enum.MaterialStorageVisualLayers.Inserting"]
+#     - state: panel
+#       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+#   - type: MaterialStorage
+#     whitelist:
+#       tags:
+#         - Sheet
+#         - RawMaterial
+#         - Ingot
+#   - type: Machine
+#     board: LPPSpaceForgeCircuitBoard
+#   - type: Lathe
+#     producingSound: /Audio/Machines/circuitprinter.ogg
+#     idleState: icon
+#     runningState: building
+#     staticRecipes:
+#       - LPPClothingOuterHardsuitBasic
+#       - LPPClothingOuterHardsuitEVA
+#       - LPPClothingHeadHelmetEVALarge
+#     dynamicRecipes:
+#       - LPPClothingOuterHardsuitVoidParamed # Отсортировано
+#       - LPPClothingOuterHardsuitSpatio # Отсортировано
+#       - LPPClothingOuterHardsuitLuxury # Отсортировано
+#       - LPPClothingOuterHardsuitSalvage # Отсортировано
+#       - LPPClothingOuterHardsuitAtmos # Отсортировано
+#       - LPPClothingOuterHardsuitEngineering # Отсортировано
 
-- type: entity
-  id: LPPSpaceForgeCMDAndSec
-  parent: BaseLathe
-  name: космическая кузница командования
-  description: Данный купол машины предназначен для печатания скафандров чтобы персонал мог спокойно выйти в космос, не боясь задохнуться. К слову, все характеристики схожи и с другими протолатами, однако его строение и сборка выглядит по-другому.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
-    snapCardinals: true
-    layers:
-    - state: icon
-      map: ["enum.LatheVisualLayers.IsRunning"]
-    - state: inserting
-      map: ["enum.MaterialStorageVisualLayers.Inserting"]
-    - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: MaterialStorage
-    whitelist:
-      tags:
-        - Sheet
-        - RawMaterial
-        - Ingot
-  - type: Machine
-    board: LPPSpaceForgeCircuitBoardCMDAndSec
-  - type: Lathe
-    producingSound: /Audio/Machines/circuitprinter.ogg
-    idleState: icon
-    runningState: building
-    dynamicRecipes:
-      - LPPClothingOuterArmorReflective # Отсортировано
-      - LPPClothingOuterHardsuitSecurityEng # Отсортировано
-      - LPPClothingOuterHardsuitCombatHoS # Отсортировано
-      - LPPClothingOuterHardsuitCombatAdvanced # Отсортировано
-      - LPPClothingOuterHardsuitCombatWarden # Отсортировано
-      - LPPClothingOuterHardsuitSecurityRed # Отсортировано
-      - LPPClothingOuterHardsuitPilotSecurity # Отсортировано
-      - LPPClothingOuterHardsuitWarden # Отсортировано
-      - LPPClothingOuterHardsuitCombatCorpsman # Отсортировано
-      - LPPClothingOuterHardsuitCombatRiot # Отсортировано
-      - LPPClothingOuterHardsuitCombatStandard # Отсортировано
-      - LPPClothingOuterHardsuitCombatOfficer # Отсортировано
-      - LPPClothingOuterHardsuitCombatMedical # Отсортировано
-      - LPPClothingOuterHardsuitSecurity # Отсортировано
-      - LPPClothingOuterHardsuitBrigmedic # Отсортировано
-      - LPPHardsuitAssaultParamedic # Отсортировано
-      - LPPClothingOuterHardsuitMedical # Отсортировано
-      - LPPClothingOuterHardsuitEngineeringWhite # Отсортировано
-      - LPPClothingOuterHardsuitReflectivepatrolsec # Отсортировано
+# - type: entity
+#   id: LPPSpaceForgeCMDAndSec
+#   parent: BaseLathe
+#   name: космическая кузница командования
+#   description: Данный купол машины предназначен для печатания скафандров чтобы персонал мог спокойно выйти в космос, не боясь задохнуться. К слову, все характеристики схожи и с другими протолатами, однако его строение и сборка выглядит по-другому.
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
+#     snapCardinals: true
+#     layers:
+#     - state: icon
+#       map: ["enum.LatheVisualLayers.IsRunning"]
+#     - state: unlit
+#       shader: unshaded
+#       map: ["enum.PowerDeviceVisualLayers.Powered"]
+#     - state: inserting
+#       map: ["enum.MaterialStorageVisualLayers.Inserting"]
+#     - state: panel
+#       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+#   - type: MaterialStorage
+#     whitelist:
+#       tags:
+#         - Sheet
+#         - RawMaterial
+#         - Ingot
+#   - type: Machine
+#     board: LPPSpaceForgeCircuitBoardCMDAndSec
+#   - type: Lathe
+#     producingSound: /Audio/Machines/circuitprinter.ogg
+#     idleState: icon
+#     runningState: building
+#     dynamicRecipes:
+#       - LPPClothingOuterArmorReflective # Отсортировано
+#       - LPPClothingOuterHardsuitSecurityEng # Отсортировано
+#       - LPPClothingOuterHardsuitCombatHoS # Отсортировано
+#       - LPPClothingOuterHardsuitCombatAdvanced # Отсортировано
+#       - LPPClothingOuterHardsuitCombatWarden # Отсортировано
+#       - LPPClothingOuterHardsuitSecurityRed # Отсортировано
+#       - LPPClothingOuterHardsuitPilotSecurity # Отсортировано
+#       - LPPClothingOuterHardsuitWarden # Отсортировано
+#       - LPPClothingOuterHardsuitCombatCorpsman # Отсортировано
+#       - LPPClothingOuterHardsuitCombatRiot # Отсортировано
+#       - LPPClothingOuterHardsuitCombatStandard # Отсортировано
+#       - LPPClothingOuterHardsuitCombatOfficer # Отсортировано
+#       - LPPClothingOuterHardsuitCombatMedical # Отсортировано
+#       - LPPClothingOuterHardsuitSecurity # Отсортировано
+#       - LPPClothingOuterHardsuitBrigmedic # Отсортировано
+#       - LPPHardsuitAssaultParamedic # Отсортировано
+#       - LPPClothingOuterHardsuitMedical # Отсортировано
+#       - LPPClothingOuterHardsuitEngineeringWhite # Отсортировано
+#       - LPPClothingOuterHardsuitReflectivepatrolsec # Отсортировано

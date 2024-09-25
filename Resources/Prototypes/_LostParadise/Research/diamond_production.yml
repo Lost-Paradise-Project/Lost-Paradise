@@ -29,18 +29,18 @@
   - LPPClothingOuterArmorReflective
   - LPPClothingOuterHardsuitReflectivepatrolsec
 
-- type: technology
-  id: LPPAdvancedDesign
-  name: lppresearch-technology-advanced-design
-  icon:
-    sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
-    state: icon
-  discipline: LPPDiamondProduction
-  tier: 2
-  cost: 15000
-  recipeUnlocks:
-  - LPPSpaceForgeCircuitBoard
-  - LPPSpaceForgeCircuitBoardCMDAndSec
+# - type: technology
+#   id: LPPAdvancedDesign
+#   name: lppresearch-technology-advanced-design
+#   icon:
+#     sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
+#     state: icon
+#   discipline: LPPDiamondProduction
+#   tier: 2
+#   cost: 15000
+#   recipeUnlocks:
+#   - LPPSpaceForgeCircuitBoard
+#   - LPPSpaceForgeCircuitBoardCMDAndSec
 
 # Tier 3
 

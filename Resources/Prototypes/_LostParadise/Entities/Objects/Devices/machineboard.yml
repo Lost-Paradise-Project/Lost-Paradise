@@ -66,47 +66,47 @@
 #           DefaultPrototype: Beaker
 #           ExamineName: Glass Beaker
 #
-- type: entity
-  id: LPPSpaceForgeCircuitBoard
-  parent: BaseMachineCircuitboard
-  name: космическая кузница (машинная плата)
-  description: Плата для создания космической кузницы.
-  components:
-  - type: MachineBoard
-    prototype: LPPSpaceForge
-    requirements:
-      MatterBin: 2
-      Manipulator: 4
-    materialRequirements:
-      Glass: 10
-      Steel: 5
-      Diamond: 3
-    tagRequirements:
-      GlassBeaker:
-        Amount: 2
-        DefaultPrototype: Beaker
-        ExamineName: Glass Beaker
+# - type: entity
+#   id: LPPSpaceForgeCircuitBoard
+#   parent: BaseMachineCircuitboard
+#   name: космическая кузница (машинная плата)
+#   description: Плата для создания космической кузницы.
+#   components:
+#   - type: MachineBoard
+#     prototype: LPPSpaceForge
+#     requirements:
+#       MatterBin: 2
+#       Manipulator: 4
+#     materialRequirements:
+#       Glass: 10
+#       Steel: 5
+#       Diamond: 3
+#     tagRequirements:
+#       GlassBeaker:
+#         Amount: 2
+#         DefaultPrototype: Beaker
+#         ExamineName: Glass Beaker
 
-- type: entity
-  id: LPPSpaceForgeCircuitBoardCMDAndSec
-  parent: BaseMachineCircuitboard
-  name: космическая кузница командования (машинная плата)
-  description: Плата для создания космической кузницы командования.
-  components:
-  - type: MachineBoard
-    prototype: LPPSpaceForgeCMDAndSec
-    requirements:
-      MatterBin: 2
-      Manipulator: 4
-    materialRequirements:
-      Glass: 10
-      Steel: 5
-      Diamond: 3
-    tagRequirements:
-      GlassBeaker:
-        Amount: 2
-        DefaultPrototype: Beaker
-        ExamineName: Glass Beaker
+# - type: entity
+#   id: LPPSpaceForgeCircuitBoardCMDAndSec
+#   parent: BaseMachineCircuitboard
+#   name: космическая кузница командования (машинная плата)
+#   description: Плата для создания космической кузницы командования.
+#   components:
+#   - type: MachineBoard
+#     prototype: LPPSpaceForgeCMDAndSec
+#     requirements:
+#       MatterBin: 2
+#       Manipulator: 4
+#     materialRequirements:
+#       Glass: 10
+#       Steel: 5
+#       Diamond: 3
+#     tagRequirements:
+#       GlassBeaker:
+#         Amount: 2
+#         DefaultPrototype: Beaker
+#         ExamineName: Glass Beaker
 #
 # - type: entity
 #   id: LPPUniformPrinterMachineCircuitboard
