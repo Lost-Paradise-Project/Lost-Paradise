@@ -717,3 +717,17 @@ Entries:
   id: 64
   time: '2024-09-25T16:06:31.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/191
+- author: SpicyDarkFox
+  changes:
+    - type: Add
+      message: Добавлена механика анимированного кастома для призраков
+  id: 65
+  time: '2024-09-25T20:04:04.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/198
+- author: PowerKAT1
+  changes:
+    - type: Fix
+      message: Ботаника и мелкие фиксы на Нормандии
+  id: 66
+  time: '2024-09-25T21:28:53.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/197
