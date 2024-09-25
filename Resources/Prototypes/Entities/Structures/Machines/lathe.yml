@@ -773,7 +773,7 @@
       # End of modified code
     dynamicRecipes:
       # - LPPSpaceForgeCircuitBoardCMDAndSec
-      # - LPPRiotLaserShield
+      - LPPRiotLaserShield
       - LPPCombatDefibrillator
       - LPPCombatHypospray
       - EncryptionKeySyndie # Nyano
