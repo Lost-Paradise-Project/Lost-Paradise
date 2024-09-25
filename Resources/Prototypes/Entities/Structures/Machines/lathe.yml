@@ -441,7 +441,7 @@
     - DeepFryerMachineCircuitboard #Nyano - Summary: adds deep fryer circuit board
     - SpaceHeaterMachineCircuitBoard
     dynamicRecipes:
-      # - LPPSpaceForgeCircuitBoard
+      - LPPSpaceForgeCircuitBoard
       - LPPDiamondCrusherMachineCircuitboard
       - ThermomachineFreezerMachineCircuitBoard
       - HellfireFreezerMachineCircuitBoard
@@ -772,7 +772,7 @@
       - MagazinePistolSpecial
       # End of modified code
     dynamicRecipes:
-      # - LPPSpaceForgeCircuitBoardCMDAndSec
+      - LPPSpaceForgeCircuitBoardCMDAndSec
       - LPPRiotLaserShield
       - LPPCombatDefibrillator
       - LPPCombatHypospray
