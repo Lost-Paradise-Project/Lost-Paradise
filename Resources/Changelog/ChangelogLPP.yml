@@ -747,3 +747,10 @@ Entries:
   id: 68
   time: '2024-09-25T22:35:34.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/196
+- author: PowerKAT1
+  changes:
+    - type: Fix
+      message: Фикс Субмарина
+  id: 69
+  time: '2024-09-26T10:31:03.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/208
