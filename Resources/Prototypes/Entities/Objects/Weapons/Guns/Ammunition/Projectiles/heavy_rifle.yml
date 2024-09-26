@@ -18,4 +18,50 @@
   - type: Projectile
     damage:
       types:
+        Piercing: 8
+
+- type: entity
+  id: LPPBulletMinigunRubber
+  name: minigun bullet (.10 rifle rubber)
+  parent: BaseBulletRubber
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 1
+
+- type: entity
+  id: LPPBulletMinigunPractice
+  name: minigun bullet (.10 rifle practice)
+  parent: BaseBulletPractice
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 2
+
+- type: entity
+  id: LPPBulletMinigunAP
+  name: minigun bullet (.10 rifle AP)
+  parent: BulletHeavyRifle
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
         Piercing: 5
+    ignoreResistances: true
+
+- type: entity
+  id: LPPBulletMinigunUranium
+  name: minigun bullet (.10 rifle uranium)
+  parent: BaseBulletPractice
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 2
+        Radiation: 8
