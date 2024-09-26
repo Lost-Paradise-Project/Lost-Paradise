@@ -754,3 +754,10 @@ Entries:
   id: 69
   time: '2024-09-26T10:31:03.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/208
+- author: PowerKAT1
+  changes:
+    - type: Fix
+      message: Фиксы Астерикс
+  id: 70
+  time: '2024-09-26T11:07:41.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/209
