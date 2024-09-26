@@ -761,3 +761,10 @@ Entries:
   id: 70
   time: '2024-09-26T11:07:41.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/209
+- author: PowerKAT1
+  changes:
+    - type: Fix
+      message: Фиксы Пеббл
+  id: 71
+  time: '2024-09-26T11:41:24.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/211
