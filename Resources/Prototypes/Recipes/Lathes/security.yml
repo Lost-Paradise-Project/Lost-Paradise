@@ -668,15 +668,6 @@
     Plastic: 500
 
 - type: latheRecipe
-  id: LPPMagazineBoxMinigunUranium
-  result: LPPMagazineBoxRifleMinigunUranium
-  category: Ammo
-  completetime: 5
-  materials:
-    Plastic: 950
-    Uranium: 95
-
-- type: latheRecipe
   id: LPPMagazineBoxMinigunRubber
   result: LPPMagazineBoxRifleMinigunRubber
   category: Ammo

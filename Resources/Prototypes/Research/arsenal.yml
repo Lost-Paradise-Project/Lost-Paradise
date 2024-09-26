@@ -73,10 +73,7 @@
   - CartridgeSpecialRubber
   - MagazineBoxSpecialRubber
   - LPPMagazineBoxMinigunPractice
-  - LPPMagazineBoxMinigunUranium
   - LPPMagazineBoxMinigunRubber
-  - LPPMagazineBoxMinigun
-  - LPPMagazineMagnumSubMachineGun
   # End of modified code
 
 - type: technology
