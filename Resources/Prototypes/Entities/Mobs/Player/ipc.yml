@@ -18,8 +18,8 @@
   - type: EncryptionHolderRequiresLock
   - type: SiliconEmitSoundOnDrained
     sound: "/Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg"
-    minInterval: 20
-    maxInterval: 40
+    minInterval: 15
+    maxInterval: 30
     popUp: "silicon-power-low"
   - type: Lock
     locked: true
@@ -35,13 +35,13 @@
     messagePerceivedByOthers: hugging-success-generic-others
   - type: NpcFactionMember
     factions:
-      - NanoTrasen
+    - NanoTrasen
   - type: StandingState
   - type: MobState
     allowedStates:
-      - Alive
-      - Critical
-      - Dead
+    - Alive
+    - Critical
+    - Dead
   - type: MobThresholds
     thresholds:
       0: Alive
@@ -55,12 +55,12 @@
     proto: robot
   - type: Destructible
     thresholds:
-      - trigger:
-          !type:DamageTypeTrigger
-          damageType: Blunt
-          damage: 400
-        behaviors:
-          - !type:GibBehavior { }
+    - trigger:
+        !type:DamageTypeTrigger
+        damageType: Blunt
+        damage: 400
+      behaviors:
+      - !type:GibBehavior { }
   - type: SlowOnDamage
     speedModifierThresholds:
       60: 0.7
@@ -71,7 +71,7 @@
     templateId: ipc
   - type: GuideHelp
     guides:
-      - IPCs
+    - IPCs
   - type: Silicon
     entityType: enum.SiliconType.Player
     batteryPowered: true
@@ -99,6 +99,22 @@
       path: /Audio/Effects/Silicon/startup.ogg
   - type: EmitBuzzWhileDamaged
   - type: CanHostGuardian
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - RobotTalk
+    understands:
+    - TauCetiBasic
+    - RobotTalk
+  - type: WeldingHealable
+  - type: PsionicInsulation
+  - type: OfferItem
+  - type: LayingDown
+#  - type: Carriable
+  - type: StepTriggerImmune
+    whitelist:
+      types:
+      - Shard
   - type: Fixtures
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
@@ -111,22 +127,6 @@
         - MobMask
         layer:
         - MobLayer
-  - type: LanguageKnowledge
-    speaks:
-    - TauCetiBasic
-    - RobotTalk
-    understands:
-    - TauCetiBasic
-    - RobotTalk
-  - type: WeldingHealable
-  - type: PsionicInsulation
-  - type: OfferItem
-  - type: LayingDown
-  #- type: Carriable
-  - type: StepTriggerImmune
-    whitelist:
-      types:
-      - Shard
 
 - type: entity
   save: false
