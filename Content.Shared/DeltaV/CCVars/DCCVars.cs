@@ -14,5 +14,5 @@ public sealed class DCCVars
     /// Its not perfect, but gets the job done.
     /// </summary>
     public static readonly CVarDef<bool> RoundEndPacifist =
-        CVarDef.Create("game.round_end_pacifist", false, CVar.SERVERONLY);
+        CVarDef.Create("game.round_end_pacifist", true, CVar.SERVERONLY);
 }
