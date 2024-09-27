@@ -1,7 +1,7 @@
 - type: entity
   id: LPPCrateMedicalCloneMachine
   parent: CrateMedical
-  name: Набор клонирующей машины
+  name: Cloning Machine Kit
   components:
   - type: StorageFill
     contents:

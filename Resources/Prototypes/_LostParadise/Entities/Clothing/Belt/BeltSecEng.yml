@@ -1,8 +1,8 @@
 - type: entity
   id: LPPClothingMilitaryWebbingSecEng
   parent: ClothingBeltMilitaryWebbing
-  name: РПС полевого инженера
-  description: Ременно-плечевая система тактических ремней для полевого инженера.
+  name: Security engineer webbing
+  description: Webbing with a lot of straps for security engineer.
   suffix: Security
   components:
   - type: StorageFill

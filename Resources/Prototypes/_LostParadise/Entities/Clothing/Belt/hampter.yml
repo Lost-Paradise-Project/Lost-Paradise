@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: LPPClothingBeltMaximumWebbing
-  name: разгрузочный жилет "Хомяк"
-  description: Комплект из карманов, сумок и прочей лабуды предоставляет кучу места для ваших всевозможных вещей, что вы сюда запихнёте. Выглядит крайне громоздко однако.
+  name: Webbing "Hamster"
+  description: A set of pockets, bags and other rubbish provides a lot of space for your various things that you will stuff here. It looks extremely cumbersome, however.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Belt/upgrwebbing.rsi

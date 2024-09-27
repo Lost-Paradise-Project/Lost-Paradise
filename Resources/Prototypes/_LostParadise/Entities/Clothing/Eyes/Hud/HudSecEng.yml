@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: LPPClothingEyesHudSecEng
-  name: визор полевого инженера
-  description: Модель визора представляющая собой совмещение оптического мезонного сканера и визора службы безопасности. Защищает глаза.
+  name: Security Engineer HUD
+  description: The HUD model is a combination of an optical meson scanner and a security HUD. Protects the eyes.
   components:
   - type: ShowSecurityIcons
   - type: Sprite

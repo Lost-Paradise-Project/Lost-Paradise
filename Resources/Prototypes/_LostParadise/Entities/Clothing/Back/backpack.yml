@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingBackpackERTLeader
   id: LPPClothingBackpackBackPackNPZ
-  name: рюкзак НПЗ
-  description: Вместит всё, что надо.
+  name: NPZ backpack
+  description: It will contain everything you need.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Back/Backpacks/upgbacpacks.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: ClothingBackpack
   id: LPPClothingBackpackHunter
-  name: туристический рюкзак
-  description: Прочный рюкзак с дополнительными карманами, что значительно повышает вместимость и при этом никак не сковывает движения носителя.
+  name: Hunter backpack
+  description: A durable backpack with additional pockets, which significantly increases the capacity and at the same time does not restrict the movement of the wearer in any way.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Back/Backpacks/backhunter.rsi
