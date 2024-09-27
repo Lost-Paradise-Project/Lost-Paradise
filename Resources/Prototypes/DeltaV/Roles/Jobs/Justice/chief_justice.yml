@@ -60,6 +60,5 @@
   duffelbag: ClothingBackpackDuffelFilled
   storage:
     back:
-    - Flash
     - LPPTelebaton
 
