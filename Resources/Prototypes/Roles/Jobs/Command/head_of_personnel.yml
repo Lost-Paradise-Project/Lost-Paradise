@@ -96,3 +96,7 @@
   innerClothingSkirt: ClothingUniformJumpskirtHoP
   satchel: ClothingBackpackSatchelHOPFilled
   duffelbag: ClothingBackpackDuffelHOPFilled
+  storage:
+    back:
+    - Flash
+    - LPPTelebaton

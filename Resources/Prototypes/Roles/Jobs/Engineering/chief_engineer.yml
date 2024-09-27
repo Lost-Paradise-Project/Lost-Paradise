@@ -53,3 +53,7 @@
   innerClothingSkirt: ClothingUniformJumpskirtChiefEngineer
   satchel: ClothingBackpackSatchelChiefEngineerFilled
   duffelbag: ClothingBackpackDuffelChiefEngineerFilled
+  storage:
+    back:
+    - Flash
+    - LPPTelebaton
