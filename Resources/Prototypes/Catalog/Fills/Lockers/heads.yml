@@ -48,6 +48,10 @@
       - id: RubberStampCaptain
 #     - id: WeaponAntiqueLaser # DeltaV - Remove in favor of the glass box
       - id: JetpackCaptainFilled
+      # - < DarkSide
+      - id: LPPBoxFolderSecretCap
+      - id: LPPBoxFolderCap
+      # - >
       - id: MedalCase
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
@@ -67,6 +71,10 @@
       - id: CommsComputerCircuitboard
       - id: ClothingHeadsetAltCommand
       - id: SpaceCash1000
+      # - < DarkSide
+      - id: LPPBoxFolderSecretCap
+      - id: LPPBoxFolderCap
+      # - >
       - id: PlushieNuke
         prob: 0.1
       - id: CigarGoldCase
@@ -90,6 +98,10 @@
     contents:
       - id: ClothingOuterArmorCaptainCarapace
       - id: NukeDisk
+      # - < DarkSide
+      - id: LPPBoxFolderSecretCap
+      - id: LPPBoxFolderCap
+      # - >
       - id: PinpointerNuclear
 #      - id: CaptainIDCard # Delta V - Replaced by spare ID system. The funny biscuit that I cant even eat.
       - id: WeaponDisabler
@@ -139,6 +151,10 @@
       - id: ClothingHandsGlovesInspection # DeltaV - Add inspection gloves for HoP.
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+  # -< DarkSide
+      - id: LPPBoxFolderSecretBlue
+        prob: 0.6
+  # - >
 
 - type: entity
   id: LockerChiefEngineerFilledHardsuit

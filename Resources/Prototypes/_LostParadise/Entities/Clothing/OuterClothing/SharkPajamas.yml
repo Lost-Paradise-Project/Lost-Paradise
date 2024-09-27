@@ -1,0 +1,106 @@
+# - < DarkSide
+# Пижамы акул 
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: LPPClothingOuterCoatPajamsSharkPink
+  name: Розовая пижама акулы
+  description: А я рыба, я рыба, я рыба....
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Pajams/shark_pink.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Pajams/shark_pink.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+    - HidesHarpyWings
+    - HidesTail
+  - type: ToggleableClothing
+    clothingPrototype: LPPHelmetPajamsSharkPink
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPHelmetPajamsSharkPink
+  noSpawn: true
+  name: капюшон пижамы акулы
+  description: Милота :3
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Pajams/shark_pink.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Pajams/shark_pink.rsi
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: LPPClothingOuterCoatPajamsSharkBlue
+  name: Синия пижама акулы
+  description: А я рыба, я рыба, я рыба....
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Pajams/shark_blue.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Pajams/shark_blue.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+    - HidesHarpyWings
+    - HidesTail
+  - type: ToggleableClothing
+    clothingPrototype: LPPHelmetPajamsSharkBlue
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPHelmetPajamsSharkBlue
+  noSpawn: true
+  name: капюшон пижамы акулы
+  description: Милота :3
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Pajams/shark_blue.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Pajams/shark_blue.rsi
+  - type: Tag
+    tags:
+    - HidesHair
+  
+- type: entity
+  parent: ClothingOuterWinterCoat
+  id: LPPClothingOuterCoatPajamsSharkGray
+  name: Серая пижама акулы
+  description: А я рыба, я рыба, я рыба....
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Pajams/shark_gray.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Pajams/shark_gray.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+    - HidesHarpyWings
+    - HidesTail
+  - type: ToggleableClothing
+    clothingPrototype: LPPHelmetPajamsSharkGray
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPHelmetPajamsSharkGray
+  noSpawn: true
+  name: капюшон пижамы акулы
+  description: Милота :3
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Pajams/shark_gray.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Pajams/shark_gray.rsi
+  - type: Tag
+    tags:
+    - HidesHair
+
+# - >
