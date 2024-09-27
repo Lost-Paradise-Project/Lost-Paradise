@@ -33,3 +33,7 @@
 - type: lobbyBackground
   id: BreaddotNukies
   background: /Textures/_LostParadise/LobbyScreens/breaddot_nukies.png
+
+- type: lobbyBackground
+  id: OhShitWTF
+  background: /Textures/_LostParadise/LobbyScreens/ohshit.png

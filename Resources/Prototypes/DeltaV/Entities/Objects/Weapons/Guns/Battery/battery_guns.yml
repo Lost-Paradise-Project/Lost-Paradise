@@ -32,11 +32,11 @@
     fireModes:
     - proto: BulletDisabler
       fireCost: 50
-      name: disable
+      name: дизейблер
       state: disabler
     - proto: BulletEnergyGunLaser
       fireCost: 100
-      name: lethal
+      name: летальный
       state: lethal
   - type: MagazineVisuals
     magState: mag
@@ -85,11 +85,11 @@
     fireModes:
     - proto: BulletDisabler
       fireCost: 50
-      name: disable
+      name: дизейблер
       state: disabler
     - proto: BulletEnergyGunLaser
       fireCost: 100
-      name: lethal
+      name: летальный
       state: lethal
     # - proto: BulletEnergyGunIon
     #   fireCost: 250
@@ -147,11 +147,11 @@
     fireModes:
     - proto: BulletDisabler
       fireCost: 50
-      name: disable
+      name: дизейблер
       state: disabler
     - proto: BulletEnergyGunLaser
       fireCost: 100
-      name: lethal
+      name: летальный
       state: lethal
   - type: MagazineVisuals
     magState: mag
@@ -200,11 +200,11 @@
     fireModes:
     - proto: BulletDisabler
       fireCost: 50
-      name: disable
+      name: дизейблер
       state: disabler
     - proto: BulletEnergyGunLaser
       fireCost: 100
-      name: lethal
+      name: летальный
       state: lethal
   - type: MagazineVisuals
     magState: mag

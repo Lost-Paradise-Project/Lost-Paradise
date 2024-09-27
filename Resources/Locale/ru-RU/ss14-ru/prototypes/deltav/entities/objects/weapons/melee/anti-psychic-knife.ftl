@@ -1,2 +1,2 @@
-ent-AntiPsychicKnife = внти-псионический нож
+ent-AntiPsychicKnife = анти-псионический нож
     .desc = Специальный нож для убийства псиоников.
