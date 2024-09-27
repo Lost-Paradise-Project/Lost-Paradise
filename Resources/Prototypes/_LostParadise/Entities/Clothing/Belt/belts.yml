@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: LPPClothingBeltFlamingo
-  name: надувной фламинго
-  description: Хаппи хаппи хаппи. ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ.
+  name: inflatable flamingo
+  description: Happy happy happy! HAPPY HAPPY HAPPY HAPPY HAPPY HAPPY HAPPY HAPPY HAPPY!!!
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Belt/flamingo.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: LPPClothingBeltNPZWebbing
-  name: РПС НПЗ
-  description: Плотная дюратканевая РПС в расцветке войск НПЗ.
+  name: NPZ webbing
+  description: Dense durathread webbing in the colors of the NPZ troops.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Belt/NPZ.rsi

@@ -9,7 +9,7 @@
 
 - type: entity
   id: LPPAngelDustPolymorph
-  name: Сменить облик
+  name: Change Appearance
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

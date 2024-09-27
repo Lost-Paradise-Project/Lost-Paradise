@@ -8,8 +8,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
   id: LPPBlackHudGlasses
-  name: солнцезащитные очки с визором
-  description: Полезно как для безопасности, так и для каргонии.
+  name: Sunglasses with HUD
+  description: Useful for Security and Cargo.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Eyes/Glasses/blackhudglasses.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
   id: LPPRedHudGlasses
-  name: красные солнцезащитные очки с визором
-  description: Полезно как для безопасности, так и для каргонии.
+  name: Red sunglasses with HUD
+  description: Useful for Security and Cargo.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Eyes/Glasses/redhudglasses.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
   id: LPPBlueHudGlasses
-  name: синие солнцезащитные очки с визором
-  description: Полезно как для безопасности, так и для каргонии.
+  name: Blue sunglasses with HUD
+  description: Useful for Security and Cargo.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Eyes/Glasses/bluehudglasses.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
   id: LPPAVDEyeshud
-  name: визор АВД
-  description: Это визор АВД
+  name: IAA HUD
+  description: This is Agent of Internal Affairs HUD
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Eyes/HUD/avd.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
   id: LPPMagistrateEyeshud
-  name: визор Судьи
-  description: Это визор Судьи
+  name: Judge HUD
+  description: This is Judge HUD
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Eyes/HUD/magistrate.rsi
