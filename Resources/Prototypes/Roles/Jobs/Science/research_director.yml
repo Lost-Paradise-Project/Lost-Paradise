@@ -69,3 +69,6 @@
   innerClothingSkirt: ClothingUniformJumpskirtResearchDirector
   satchel: ClothingBackpackSatchelResearchDirectorFilled
   duffelbag: ClothingBackpackDuffelResearchDirectorFilled
+  storage:
+    back:
+    - LPPTelebaton
