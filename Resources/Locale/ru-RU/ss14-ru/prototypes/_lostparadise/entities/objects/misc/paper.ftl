@@ -1,0 +1,14 @@
+ent-LPPHosPen = HOS Pen
+    .desc = { ent-Pen.desc }
+ent-LPPCEPen = CE Pen
+    .desc = { ent-Pen.desc }
+ent-LPPQMPen = QM Pen
+    .desc = { ent-Pen.desc }
+ent-LPPCMOPen = CMO Pen
+    .desc = { ent-Pen.desc }
+ent-LPPRDPen = RD Pen
+    .desc = { ent-Pen.desc }
+ent-LPPStampDeny = another deny stamp
+    .desc = { ent-RubberStampMime.desc }
+ent-RubberStampMagistrate = magistrate rubber stamp
+    .desc = { ent-RubberStampMime.desc }

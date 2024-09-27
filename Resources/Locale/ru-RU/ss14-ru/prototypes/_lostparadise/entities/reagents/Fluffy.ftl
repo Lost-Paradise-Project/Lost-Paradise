@@ -1,0 +1,16 @@
+ent-FluffyApple = apple fluffy
+    .desc = SO CUTE
+ent-FluffyEnergy = energy fluffy
+    .desc = SO CUTE
+ent-FluffyHonk = honk fluffy
+    .desc = SO CUTE
+ent-FluffyLatte = latte fluffy
+    .desc = SO CUTE
+ent-FluffyMango = mango fluffy
+    .desc = SO CUTE
+ent-FluffyStan = stan fluffy
+    .desc = SO CUTE
+ent-FluffyWatermelon = watermelon fluffy
+    .desc = SO CUTE
+ent-VendingMachineFluffy = fluffy drinks
+    .desc = A softdrink vendor provided by Robust Industries, LLC.

@@ -1,0 +1,16 @@
+ent-LPPBaseMob = { "" }
+    .desc = { "" }
+ent-LPPMobDamageable = { "" }
+    .desc = { "" }
+ent-LPPMobCombat = { "" }
+    .desc = { "" }
+ent-LPPMobAtmosExposed = { "" }
+    .desc = { "" }
+ent-LPPMobAtmosStandard = { ent-LPPMobAtmosExposed }
+    .desc = { ent-LPPMobAtmosExposed.desc }
+ent-LPPMobFlammable = { "" }
+    .desc = { "" }
+ent-LPPMobRespirator = { "" }
+    .desc = { "" }
+ent-LPPMobBloodstream = { "" }
+    .desc = { "" }

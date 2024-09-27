@@ -1,0 +1,14 @@
+ent-LPPBaseBullet = BaseBullet
+    .desc = If you can see this you're probably dead!
+ent-LPPBulletM4A1 = пуля (5,56х45)
+    .desc = America! FUCK YEA!
+ent-LPPBulletRubberM4A1 = пуля (5,56х45 резиновая)
+    .desc = America! FUCK YEA!
+ent-LPPBulletPracticeM4A1 = пуля (5,56х45 учебная)
+    .desc = { ent-BaseBulletPractice.desc }
+ent-LPPBulletUraniumM4A1 = пуля (5,56х45 урановая)
+    .desc = { ent-BaseBulletUranium.desc }
+ent-LPPBulletIncendiaryM4A1 = пуля (5,56х45 зажигательная)
+    .desc = { ent-BaseBulletIncendiary.desc }
+ent-LPPBulletLightRifleHunting = Huntingbullet (.30 rifle)
+    .desc = { ent-BaseBullet.desc }

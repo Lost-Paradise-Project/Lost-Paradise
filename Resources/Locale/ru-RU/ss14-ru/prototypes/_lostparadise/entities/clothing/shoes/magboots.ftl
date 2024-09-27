@@ -1,0 +1,10 @@
+ent-LPPClothingShoesPowerBoots = power boots
+    .desc = Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+ent-LPPClothingShoesBootsMagParamed = advanced magboots
+    .desc = Magnetic boots paramed, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+ent-LPPClothingShoesBootsMagAtmos = magboots atmos
+    .desc = Magnetic boots atmos, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+ent-LPPClothingShoesBootsMagNPZ = магитные сапоги НПЗ
+    .desc = Стандартизированные магнитные сапоги от военно-исследовательских сил Независимого Правительства Земли.
+ent-LPPClothingShoesBootsMagHunter = магнитные сапоги охотника на карпов
+    .desc = Коммерческие магнитные сапоги дли тех, кто предпочитает охотиться в невесомости либо при слабой гравитации.
