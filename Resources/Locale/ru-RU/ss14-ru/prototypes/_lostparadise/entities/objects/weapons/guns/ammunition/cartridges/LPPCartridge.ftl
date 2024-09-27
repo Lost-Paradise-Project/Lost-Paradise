@@ -1,0 +1,16 @@
+ent-LPPBaseCartridgeRifle = патрон (калибр 5,56х45)
+    .desc = { ent-BaseCartridge.desc }
+ent-LPPCartridgeM4A1Lethal = патрон (калибр 5,56х45)
+    .desc = { ent-LPPBaseCartridgeRifle.desc }
+ent-LPPCartridgeRubberM4A1 = патрон (калибр 5,56х45 резиновый)
+    .desc = { ent-LPPBaseCartridgeRifle.desc }
+ent-LPPCartridgePracticeM4A1 = патрон (калибр 5,56х45 учебный)
+    .desc = { ent-LPPBaseCartridgeRifle.desc }
+ent-LPPCartridgeUraniumM4A1 = патрон (калибр 5,56х45 урановый)
+    .desc = { ent-LPPBaseCartridgeRifle.desc }
+ent-LPPCartridgeIncendiaryM4A1 = патрон (калибр 5,56х45 зажигательный)
+    .desc = { ent-LPPBaseCartridgeRifle.desc }
+ent-LPPBaseCartridgeLightRifleHunting = патрон (.30 охотничий)
+    .desc = { ent-BaseCartridge.desc }
+ent-LPPCartridgeLightRifleHunting = патрон (.30 охотничий)
+    .desc = { ent-LPPBaseCartridgeLightRifleHunting.desc }

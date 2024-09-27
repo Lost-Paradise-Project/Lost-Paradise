@@ -1,0 +1,16 @@
+ent-LPPJudjeDreddHelmet = judje dredd helmet
+    .desc = Yes.
+ent-LPPClothingHeadHelmetPG = PG helmet
+    .desc = Helmet for PG needs
+ent-LPPClothingHeadHatPGBeret = PG beret
+    .desc = It's a black beret.
+ent-LPPClothingNeckPGPin = PG pin
+    .desc = Mortuis gloria! viventibus fortuna!
+ent-LPPClothingHeadHatTacticalHelmet = PG tactical helmet
+    .desc = Tactical helmet, for special operations. got a flashlight.
+ent-LPPClothingHeadTSFHelmet = TSF helmet
+    .desc = Helmet for TSF needs
+ent-LPPClothingHeadUrbanHelmetPG = urban PG helmet
+    .desc = Helmet for PG needs
+ent-LPPClothingHeadHelmetNPZ = шлем НПЗ
+    .desc = Крепкий шлем из кевлара и пластали, защитит от мелкокалиберной пули, а так же шрапнели.

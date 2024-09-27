@@ -1,0 +1,12 @@
+ent-LPPWeaponHoSlaserPistol = hos laser pistol
+    .desc = A state of the art energy pistol favoured as a sidearm by the HoS.
+ent-WeaponCutter = Cutter
+    .desc = A self-defense weapon that exhausts organic targets, weakening them until they collapse.
+ent-WeaponCutterAdv = Advanced Cutter
+    .desc = A self-defense weapon that exhausts organic targets, weakening them until they collapse.
+ent-WeaponLaserChrono = chrono laser gun
+    .desc = Favoured by Nanotrasen Security for being cheap and easy to use.
+ent-LPPGatewayGun = gateway gun
+    .desc = A weapon that is almost as infamous as its users.
+ent-LPPWeaponEnergyGunSoleil = гибридный модуль S.O.L.E.I.L.
+    .desc = Прототип гибридного лазерного "пистолета", представляющего из себя устройство, что цепляется на локоть, имеет летальный и нелетальный режимы стрельбы.

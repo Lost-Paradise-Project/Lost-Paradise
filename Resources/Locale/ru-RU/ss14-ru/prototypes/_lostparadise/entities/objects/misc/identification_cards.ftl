@@ -1,0 +1,10 @@
+ent-LPPSecurityEnginerIDCard = security ID card
+    .desc = { ent-IDCardStandard.desc }
+ent-LPPBlueShieldOfficerIDCard = Blue Shield Officer ID card
+    .desc = { ent-IDCardStandard.desc }
+ent-LPPAdjutantIDCard = adjutant ID card
+    .desc = Adjutant ID card.
+ent-ExpeditorIDCard = expeditor ID card
+    .desc = { ent-IDCardStandard.desc }
+ent-SecPilotIDCard = security pilot ID card
+    .desc = magistrate ID card

@@ -1,0 +1,13 @@
+ent-LPPStunBatonSelfCharging = { ent-Stunbaton }
+    .suffix = Recharging, Do Not Map
+    .desc = { ent-Stunbaton.desc }
+ent-LPPFlashRecharging = { ent-Flash }
+    .suffix = Recharging, Do Not Map
+    .desc = { ent-Flash.desc }
+ent-LPPPoliceBatonNonLethal = non-lethal baton
+    .desc = First, do no harm.
+ent-LPPCentcoin = ЦентКоин
+    .desc = Монетка, содержащая в себе пару грамм блюспейс кристалла, а так же одноразовые модули для телепортации объектов.
+    .suffix = 10 Коинов
+ent-LPPCentcoin1 = ЦентКоин
+    .desc = Монетка, содержащая в себе пару грамм блюспейс кристалла, а так же одноразовые модули для телепортации объектов.
