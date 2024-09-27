@@ -84,7 +84,6 @@
     capacity: 5
     proto: CartridgeAntiMateriel
   - type: Telescope
-  - type: MultiHandedItem
 
 - type: entity
   name: musket
