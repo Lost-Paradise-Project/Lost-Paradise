@@ -60,3 +60,6 @@
   innerClothingSkirt: ClothingUniformJumpskirtAdjutant
   satchel: ClothingBackpackSatchelHOPFilled
   duffelbag: ClothingBackpackDuffelHOPFilled
+  storage:
+    back:
+    - LPPTelebaton
