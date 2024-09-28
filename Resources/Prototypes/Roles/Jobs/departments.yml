@@ -49,6 +49,7 @@
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
+  - ChiefJustice
   - LPPAdjutant # Lost Paradise - Added Adjutant in Command
   primary: false
   weight: 100

@@ -32,6 +32,7 @@
   - Security
   - Maintenance
   - External
+  - Lawyer
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]

@@ -24,10 +24,10 @@
   - type: Tool
     speed: 1.5
     qualities:
-      - Prying
+    - Prying
   - type: Prying
     pryPowered: !type:Bool
-        true
+      true
     force: !type:Bool
       true
     useSound:
@@ -58,13 +58,18 @@
         layer:
         - MobLayer
   - type: MobState
-    allowedStates:
-    - Alive
-    - Dead
+  - type: Deathgasp
+  - type: MobStateActions
+    actions:
+      Critical:
+      - ActionCritSuccumb
+      - ActionCritFakeDeath
+      - ActionCritLastWords
   - type: MobThresholds
     thresholds:
       0: Alive
-      50: Dead
+      50: Critical
+      100: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
       25: 0.5
@@ -77,7 +82,7 @@
     altDisarm: false
     angle: 0
     soundHit:
-     collection: AlienClaw
+      collection: AlienClaw
     animation: WeaponArcBite
     damage:
       groups:
@@ -92,6 +97,7 @@
       Dead:
         Base: dead
   - type: Puller
+    needsHands: false
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -113,16 +119,19 @@
     currentTemperature: 310.15
   - type: Tag
     tags:
-      - CannotSuicide
-      - DoorBumpOpener
-      - FootstepSound
+    - CannotSuicide
+    - DoorBumpOpener
+    - FootstepSound
   - type: NoSlip
   - type: Perishable #Ummmm the acid kills a lot of the bacteria or something
     molsPerSecondPerUnitMass: 0.0005
   - type: Speech
     speechVerb: LargeMob
-  - type: Psionic #Nyano - Summary: makes psionic by default.
+  - type: Psionic
     removable: false
+  - type: InnatePsionicPowers
+    powersToAdd:
+    - TelepathyPower
   - type: TTS # Corvax-TTS
     voice: Astral
   - type: LanguageKnowledge
@@ -146,7 +155,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      100: Dead
+      100: Critical
+      150: Dead
   - type: Stamina
     critThreshold: 300
   - type: SlowOnDamage
@@ -182,7 +192,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      80: Dead
+      80: Critical
+      130: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
       40: 0.7
@@ -222,15 +233,16 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      300: Dead
+      300: Critical
+      350: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
       150: 0.7
   - type: MovementSpeedModifier
   - type: MeleeWeapon
     damage:
-     groups:
-       Brute: 12
+      groups:
+        Brute: 12
   - type: Fixtures
     fixtures:
       fix1:
@@ -269,13 +281,14 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      100: Dead
+      100: Critical
+      150: Dead
   - type: MovementSpeedModifier
     baseSprintSpeed: 4
   - type: MeleeWeapon
     damage:
-     groups:
-       Brute: 10
+      groups:
+        Brute: 10
   - type: SlowOnDamage
     speedModifierThresholds:
       50: 0.7
@@ -310,8 +323,8 @@
     baseSprintSpeed: 6.0
   - type: MeleeWeapon
     damage:
-     groups:
-       Brute: 5
+      groups:
+        Brute: 10
   - type: Fixtures
     fixtures:
       fix1:
@@ -336,6 +349,7 @@
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/rouny.rsi
     offset: 0,0.6
+    scale: 0.7, 0.7
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -378,7 +392,7 @@
     useKey: false
     selectedMode: FullAuto
     availableModes:
-      - FullAuto
+    - FullAuto
     soundGunshot: /Audio/Weapons/Xeno/alien_spitacid.ogg
   - type: Fixtures
     fixtures:

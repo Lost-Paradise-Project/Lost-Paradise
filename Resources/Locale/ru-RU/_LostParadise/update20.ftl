@@ -235,3 +235,7 @@ trait-desc-ElfLanguage = Вы знаете Эльфийский (Нет, не OO
 trait-name-DwarfLanguage = Дворфийский
 trait-desc-DwarfLanguage = Если не вслушиваться похоже на бубнёж русских пьяниц
 changelog-tab-title-ChangelogLPP = Обновления Lost Paradise
+announcer-NTH-name = N.T.H
+chatsan-awoo = воет
+chatsan-hiss = шипит
+chatsan-nyaaa = някает
