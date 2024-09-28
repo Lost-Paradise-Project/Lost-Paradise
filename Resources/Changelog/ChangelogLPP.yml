@@ -846,3 +846,10 @@ Entries:
   id: 75
   time: '2024-09-28T20:48:43.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/223
+- author: Farrellka
+  changes:
+    - type: Remove
+      message: Удалены лишние переводы.
+  id: 76
+  time: '2024-09-28T22:37:37.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/224
