@@ -2,7 +2,7 @@
   id: LPPM4A1
   parent: BaseWeaponRifle
   name: М4А1
-  description: Знаменитый представитель классических винтовок. Великая и не сравнимая М4А1 или же как её называют некоторые индивиды.. Эмка. Магазины разной расцветки не предусмотрены. Использует патроны 5.56x45 калибра.
+  description: The famous representative of classic rifles. The great and incomparable M4A1, or as some individuals call it.. Emka. Magazines of different colors are not provided. Uses 5.56x45 caliber cartridges.
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Guns/Rifles/M4A1.rsi

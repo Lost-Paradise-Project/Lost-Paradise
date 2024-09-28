@@ -1,8 +1,8 @@
 - type: entity
-  name: М1A
+  name: M1A
   parent: BaseWeaponRifle
   id: LPPWeaponRifleM1A
-  description: Модифицированная версия старой винтовки, показатель смешения старого оружия и новых материалов, использует .30
+  description: A modified version of the old rifle, an indicator of the mixing of old weapons and new materials, uses .30
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Guns/Rifles/m1a.rsi

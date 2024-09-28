@@ -220,10 +220,10 @@
     size: Large
 
 - type: entity
-  name: гибридный модуль S.O.L.E.I.L.
+  name: Hybryd module S.O.L.E.I.L.
   parent: BaseWeaponBatterySmall
   id: LPPWeaponEnergyGunSoleil
-  description: Прототип гибридного лазерного "пистолета", представляющего из себя устройство, что цепляется на локоть, имеет летальный и нелетальный режимы стрельбы.
+  description: The prototype of a hybrid laser "pistol", which is a device that clings to the elbow, has lethal and non-lethal firing modes.
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Guns/Battery/soleil.rsi

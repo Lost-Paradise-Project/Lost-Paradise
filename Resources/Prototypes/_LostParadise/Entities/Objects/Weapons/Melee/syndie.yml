@@ -1,8 +1,8 @@
 - type: entity
   parent: WeaponCrusher
   id: LPPWeaponSyndieGlaive
-  name: Кроваво-красная глефа
-  description: Модифицированная версия глефы, усовершенствованная каким-то больным утилизатором...
+  name: Blood-red glaive
+  description: A modified version of the glaive, improved by some sick utilizer...
   components:
   - type: Tag
     tags:
