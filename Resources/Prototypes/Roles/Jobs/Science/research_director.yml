@@ -5,6 +5,9 @@
   playTimeTracker: JobResearchDirector
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   requirements:
+    - !type:CharacterAgeRequirement
+      min: 25
+      max: 80
     - !type:CharacterDepartmentTimeRequirement
       department: Epistemics # DeltaV - Epistemics Department replacing Science
       min: 54000 # DeltaV - 15 hours
@@ -66,3 +69,6 @@
   innerClothingSkirt: ClothingUniformJumpskirtResearchDirector
   satchel: ClothingBackpackSatchelResearchDirectorFilled
   duffelbag: ClothingBackpackDuffelResearchDirectorFilled
+  storage:
+    back:
+    - LPPTelebaton

@@ -131,7 +131,7 @@
     removable: false
   - type: InnatePsionicPowers
     powersToAdd:
-    - TelepathyPower
+      - TelepathyPower
   - type: TTS # Corvax-TTS
     voice: Astral
   - type: LanguageKnowledge
@@ -323,8 +323,8 @@
     baseSprintSpeed: 6.0
   - type: MeleeWeapon
     damage:
-      groups:
-        Brute: 10
+     groups:
+       Brute: 10
   - type: Fixtures
     fixtures:
       fix1:

@@ -34,8 +34,8 @@
   - type: Vocal
     sounds:
       Male: UnisexReptilian
-      Female: UnisexReptilian
-      Unsexed: UnisexReptilian
+      Female: FemaleReptilian
+      Unsexed: FemaleReptilian
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: Scale

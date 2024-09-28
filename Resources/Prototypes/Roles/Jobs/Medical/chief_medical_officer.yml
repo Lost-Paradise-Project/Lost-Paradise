@@ -7,6 +7,9 @@
   playTimeTracker: JobChiefMedicalOfficer
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   requirements:
+    - !type:CharacterAgeRequirement
+      min: 25
+      max: 80
     - !type:CharacterPlaytimeRequirement
       tracker: JobChemist
       min: 14400 #DeltaV 4 hrs
@@ -60,3 +63,6 @@
   innerClothingSkirt: ClothingUniformJumpskirtCMO
   satchel: ClothingBackpackSatchelCMOFilled
   duffelbag: ClothingBackpackDuffelCMOFilled
+  storage:
+    back:
+    - LPPTelebaton

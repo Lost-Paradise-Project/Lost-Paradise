@@ -83,7 +83,7 @@
   - type: Machine
     board: HydroponicsTrayMachineCircuitboard
   - type: WiresPanel
-  - type: TTS # Corvax-TTS
+  - type: TTS
     voice: Tikva
   - type: AmbientSound
     volume: -9

@@ -14,4 +14,3 @@ general-station-record-prints-filter = Отпечатки пальцев
 general-station-record-dna-filter = ДНК
 general-station-record-console-search-records = Поиск
 general-station-record-console-reset-filters = Сброс
-general-station-record-console-delete = Удалить

@@ -54,6 +54,7 @@
             Detective: [ 1, 1 ]
             Prisoner: [ 2, 3 ]
             Brigmedic: [ 1, 1 ]
+            PrisonGuard: [ 1, 1 ]
             # Logistics
             CargoTechnician: [ 3, 4 ]
             Quartermaster: [ 1, 1 ]

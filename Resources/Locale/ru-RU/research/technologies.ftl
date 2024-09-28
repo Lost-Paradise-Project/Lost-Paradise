@@ -4,7 +4,6 @@ research-discipline-arsenal = Арсенал
 research-discipline-experimental = Экспериментальное
 research-discipline-civilian-services = Обслуживание персонала
 research-discipline-diamond-production = Алмазное производство
-lppresearch-technology-diamond-salvage-equipment = Продвинутое алмазное шахтёрское оборудование
 research-technology-fulton = Фултоны
 research-technology-Ion-gun = Ионное Оружие
 research-technology-salvage-equipment = Снаряжение для утилизации

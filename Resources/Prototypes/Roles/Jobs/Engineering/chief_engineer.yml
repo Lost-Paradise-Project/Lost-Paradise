@@ -4,6 +4,9 @@
   description: job-description-ce
   playTimeTracker: JobChiefEngineer
   requirements:
+    - !type:CharacterAgeRequirement
+      min: 25
+      max: 80
     - !type:CharacterPlaytimeRequirement
       tracker: JobAtmosphericTechnician
       min: 36000 # DeltaV - 10 hours
@@ -53,3 +56,6 @@
   innerClothingSkirt: ClothingUniformJumpskirtChiefEngineer
   satchel: ClothingBackpackSatchelChiefEngineerFilled
   duffelbag: ClothingBackpackDuffelChiefEngineerFilled
+  storage:
+    back:
+    - LPPTelebaton

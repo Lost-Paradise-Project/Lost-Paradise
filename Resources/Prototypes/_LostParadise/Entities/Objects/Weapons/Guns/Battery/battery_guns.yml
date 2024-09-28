@@ -257,7 +257,7 @@
       state: disabler
     - proto: BulletEnergyGunLaser
       fireCost: 75
-      name: lethal
+      name: летальный
       state: lethal
   - type: MagazineVisuals
     magState: mag

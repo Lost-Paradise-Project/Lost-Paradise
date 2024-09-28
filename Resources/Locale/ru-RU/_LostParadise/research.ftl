@@ -12,3 +12,7 @@ lppresearch-technology-advanced-design-hardsuit-eng = Конструирован
 lppresearch-technology-advanced-design-hardsuit-cargo = Конструирование скафандров снабжения
 lppresearch-technology-additional-disciplines = Дополнительные дисциплины
 lppresearch-technology-advanced-research-generation = Продвинутая генерация исследований
+lppresearch-technology-combat-utility = Боевая медицина
+lppresearch-technology-basic-administration-of-drugs = Базовое введение препаратов
+lppresearch-technology-basic-tracking = Базовое отслеживание
+lppresearch-technology-advanced-tracking = Продвинутое отслеживание

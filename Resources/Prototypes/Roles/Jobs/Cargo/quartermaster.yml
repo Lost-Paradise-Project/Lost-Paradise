@@ -5,6 +5,9 @@
   playTimeTracker: JobQuartermaster
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   requirements:
+    - !type:CharacterAgeRequirement
+      min: 25
+      max: 80
   #  - !type:RoleTimeRequirement #DeltaV
   #    role: JobCargoTechnician
   #    time: 21600 #6 hrs
@@ -59,3 +62,6 @@
   innerClothingSkirt: ClothingUniformJumpskirtQM
   satchel: ClothingBackpackSatchelQuartermasterFilled
   duffelbag: ClothingBackpackDuffelQuartermasterFilled
+  storage:
+    back:
+    - LPPTelebaton
