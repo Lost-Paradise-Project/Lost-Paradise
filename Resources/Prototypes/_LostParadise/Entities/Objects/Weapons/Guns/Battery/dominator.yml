@@ -1,8 +1,8 @@
 - type: entity
-  name: Доминатор
+  name: Dominator
   parent: BaseWeaponBatterySmall
   id: LPPWeaponLaserGun
-  description: Лазерный пистолет службы безопасности, тепло любим ценителями компактности и убойности в одном оружии.
+  description: The laser pistol of the security is warmly loved by connoisseurs of compactness and slaughter in one weapon.
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Guns/Battery/dominator.rsi

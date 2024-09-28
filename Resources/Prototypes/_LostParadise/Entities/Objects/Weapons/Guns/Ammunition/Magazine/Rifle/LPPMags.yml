@@ -1,6 +1,6 @@
 - type: entity
   id: LPPBaseMagazineRifle
-  name: "магазин (калибр 5,56х45)"
+  name: "Magazine (calibre 5,56х45)"
   parent: BaseItem
   abstract: true
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: LPPMagazineRifleM4A1Lethal
-  name: магазин (калибр 5,56х45)
+  name: Magazine (calibre 5,56х45)
   parent: LPPBaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -48,7 +48,7 @@
 
 - type: entity
   id: MagazineRifleM4A1Rubber
-  name: магазин (калибр 5,56х45 резиновый)
+  name: Magazine (calibre 5,56х45 rubber)
   parent: LPPBaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -62,7 +62,7 @@
 
 - type: entity
   id: LPPMagazineRifleM4A1Practice
-  name: магазин (калибр 5,56х45 учебный)
+  name: Magazine (calibre 5,56х45 practice)
   parent: LPPBaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -77,7 +77,7 @@
 
 - type: entity
   id: LPPagazineRifleM4A1Uranium
-  name: магазин (калибр 5,56х45 урановый)
+  name: Magazine (calibre 5,56х45 uranium)
   parent: LPPBaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -92,7 +92,7 @@
 
 - type: entity
   id: LPPMagazineRifleMars
-  name: обойма винтовки "Марс"
+  name: Magazine from rifle "Mars"
   parent: BaseItem
   components:
   - type: Tag
@@ -125,7 +125,7 @@
 
 - type: entity
   id: LPPMagazineRifleGarand
-  name: обойма "гаранда"
+  name: Magazine "garand"
   parent: BaseItem
   components:
   - type: Tag

@@ -49,7 +49,7 @@
 - type: entity
   id: LPPBulletM4A1
   parent: LPPBaseBullet
-  name: пуля (5,56х45)
+  name: Bullet (5,56х45)
   noSpawn: true
   description: America! FUCK YEA!
   components:
@@ -62,7 +62,7 @@
 - type: entity
   id: LPPBulletRubberM4A1
   parent: LPPBaseBullet
-  name: пуля (5,56х45 резиновая)
+  name: Bullet (5,56х45 rubber)
   noSpawn: true
   description: America! FUCK YEA!
   components:
@@ -77,7 +77,7 @@
 
 - type: entity
   id: LPPBulletPracticeM4A1
-  name: пуля (5,56х45 учебная)
+  name: bullet (5,56х45 practice)
   parent: BaseBulletPractice
   noSpawn: true
   components:
@@ -89,7 +89,7 @@
 - type: entity
   id: LPPBulletUraniumM4A1
   parent: BaseBulletUranium
-  name: пуля (5,56х45 урановая)
+  name: bullet (5,56х45 uranium)
   noSpawn: true
   components:
   - type: Projectile
@@ -101,7 +101,7 @@
 - type: entity
   id: LPPBulletIncendiaryM4A1
   parent: BaseBulletIncendiary
-  name: пуля (5,56х45 зажигательная)
+  name: bullet (5,56х45 incendiary)
   noSpawn: true
   components:
   - type: Projectile
