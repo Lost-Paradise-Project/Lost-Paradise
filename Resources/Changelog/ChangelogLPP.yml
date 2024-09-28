@@ -839,3 +839,10 @@ Entries:
   id: 74
   time: '2024-09-27T23:59:36.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/217
+- author: Farrellka
+  changes:
+    - type: Tweak
+      message: Полностью переведено меню строительства!
+  id: 75
+  time: '2024-09-28T20:48:43.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/223
