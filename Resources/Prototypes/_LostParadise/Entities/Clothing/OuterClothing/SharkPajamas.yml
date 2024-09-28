@@ -19,6 +19,11 @@
     - HidesTail
   - type: ToggleableClothing
     clothingPrototype: LPPHelmetPajamsSharkPink
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingHeadBase
@@ -53,6 +58,11 @@
     - HidesTail
   - type: ToggleableClothing
     clothingPrototype: LPPHelmetPajamsSharkBlue
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingHeadBase
@@ -87,6 +97,11 @@
     - HidesTail
   - type: ToggleableClothing
     clothingPrototype: LPPHelmetPajamsSharkGray
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingHeadBase
