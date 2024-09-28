@@ -517,8 +517,8 @@
 - type: entity
   parent: BasePlushie
   id: LPPToyTehnick
-  name: Плюшевый Слизнекот-техник
-  description: Игрушка в виде слизнекота из какой-то игры. Пахнет геноцидом и взрывчаткой...
+  name: Plush Slimecat-tech
+  description: A toy in the form of slimecat from some kind of game. It smells like genocide and explosives...
   components:
     - type: Sprite
       sprite: _LostParadise/Objects/Fun/tehnick.rsi
