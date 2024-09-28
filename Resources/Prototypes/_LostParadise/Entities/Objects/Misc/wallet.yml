@@ -50,14 +50,10 @@
     storageCloseSound: /Audio/Items/bow_pull.ogg
   - type: StorageFill
     contents:
-      - id: SpaceCash100
-        prob: 0.5
-      - id: SpaceCash500
-        prob: 0.4
       - id: SpaceCash1000
-        prob: 0.3
+        prob: 0.5
       - id: SpaceCash2500
-        prob: 0.1
+        prob: 0.5
   - type: ContainerContainer
     containers:
       storagebase: !type:Container

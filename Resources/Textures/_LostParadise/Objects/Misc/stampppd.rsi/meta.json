@@ -9,6 +9,9 @@
     "states": [
       {
         "name": "stamp-vd"
+      },
+      {
+        "name": "stamp-deny-lpp"
       }
     ]
   }
