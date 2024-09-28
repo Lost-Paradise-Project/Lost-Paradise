@@ -15,4 +15,3 @@ particle-accelerator-control-menu-status-operational = Работоспособ�
 particle-accelerator-control-menu-status-incomplete = Не завершено
 particle-accelerator-control-menu-draw = Мощность:
 particle-accelerator-control-menu-draw-not-available = Н/Д
-

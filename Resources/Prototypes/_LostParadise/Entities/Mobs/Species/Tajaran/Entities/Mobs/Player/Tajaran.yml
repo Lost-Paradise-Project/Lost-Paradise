@@ -1,6 +1,6 @@
 ﻿- type: entity
   save: false
-  name: "Таяр"
+  name: "Таяран"
   parent: BaseMobTajaran
   id: MobTajaran
   components:

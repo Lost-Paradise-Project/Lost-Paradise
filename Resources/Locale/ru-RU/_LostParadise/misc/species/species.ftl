@@ -1,5 +1,5 @@
-species-name-tajaran = Таяр
-TajaranSpecies = Таяр
+species-name-tajaran = Таяран
+TajaranSpecies = Таяран
 MothSpecies = Ниан
 VulpkaninSpecies = Вульпканин
 ElfSpecies = Эльф
