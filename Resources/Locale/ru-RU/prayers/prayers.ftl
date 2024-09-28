@@ -1,7 +1,6 @@
 prayer-verbs-subtle-message = Скрытое послание
 prayer-verbs-pray = Помолиться
 prayer-verbs-call = Позвонить
-prayer-verbs-rub = Потереть
 prayer-chat-notify-pray = МОЛИТВА
 prayer-chat-notify-honkmother = ХОНКОМАТЕРЬ
 prayer-chat-notify-centcom = ЦЕНТКОМ

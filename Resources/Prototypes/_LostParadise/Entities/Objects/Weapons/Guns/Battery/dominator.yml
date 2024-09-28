@@ -36,11 +36,11 @@
     fireModes:
     - proto: BulletDisabler
       fireCost: 100
-      name: disable
+      name: дизейблер
       state: disabler
     - proto: BulletEnergyGunLaser
       fireCost: 200
-      name: kill
+      name: летальный
       state: lethal
   - type: MagazineVisuals
     magState: mag

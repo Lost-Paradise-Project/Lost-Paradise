@@ -253,7 +253,7 @@
     fireModes:
     - proto: BulletDisabler
       fireCost: 50
-      name: disable
+      name: дизейблер
       state: disabler
     - proto: BulletEnergyGunLaser
       fireCost: 75
