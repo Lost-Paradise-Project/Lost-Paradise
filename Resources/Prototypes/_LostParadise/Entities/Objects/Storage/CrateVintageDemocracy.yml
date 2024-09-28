@@ -1,8 +1,8 @@
  - type: entity
    id: LPPCrateVintageDEMOCRACY
    parent: CrateSecgear
-   name: набор с винтажной экипировкой
-   description: Набор оружия и брони, будто бы капсула времени из далёкого прошлого, пахнет джунглями. Требует доступ службы безопасности для открытия.
+   name: Set with vintage gear
+   description: A set of weapons and armor, like a time capsule from the distant past, smells like a jungle. Requires security access to open.
    components:
    - type: Destructible
      thresholds:

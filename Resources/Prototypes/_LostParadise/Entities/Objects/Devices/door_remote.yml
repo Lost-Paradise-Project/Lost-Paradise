@@ -1,7 +1,7 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteFull
-  name: Пульт от всех дверей
+  name: Remote from all the doors
   suffix: Admeme
   components:
     - type: Sprite
