@@ -458,8 +458,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: LPPClothingUniformboobasuit
-  name: топик биг БУБА
-  description: Топик и шорты, с принтом смущающегося эмодзи, которого сильно растянуло из-за больших бубисов. Помянем.
+  name: Top BIG BOOBA
+  description: A top and shorts, with a print of an embarrassed emoji, which was greatly stretched due to the large boobies. Let's remember.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/BOOBAsuit.rsi

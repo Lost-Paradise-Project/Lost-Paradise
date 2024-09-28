@@ -113,8 +113,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPClothingHeadHelmetNPZ
-  name: шлем НПЗ
-  description: Крепкий шлем из кевлара и пластали, защитит от мелкокалиберной пули, а так же шрапнели.
+  name: NPZ Helmet
+  description: A sturdy helmet made of kevlar and plasteel, will protect against small-caliber bullets, as well as shrapnel.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Helmets/NPZ/NPZhelm.rsi

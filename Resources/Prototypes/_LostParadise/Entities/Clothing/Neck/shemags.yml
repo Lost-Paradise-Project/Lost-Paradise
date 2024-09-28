@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckShemagGreen
-  name: зелёный шемаг
-  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю.
+  name: Green shemag
+  description: A warm silk fabric that protects from dust and cold, as well as gives brutality and tacticool to the wearer.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/greendown.rsi
@@ -23,7 +23,7 @@
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagGreen
   noSpawn: true
-  name: зелёный шемаг
+  name: Green shemag
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/greenup.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckShemagRed
-  name: красный шемаг
-  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю.
+  name: Red shemag
+  description: A warm silk fabric that protects from dust and cold, as well as gives brutality and tacticool to the wearer.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/reddown.rsi
@@ -56,7 +56,7 @@
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagRed
   noSpawn: true
-  name: красный шемаг
+  name: Red shemag
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/redup.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckShemagBlue
-  name: синий шемаг
-  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю.
+  name: Blue shemag
+  description: A warm silk fabric that protects from dust and cold, as well as gives brutality and tacticool to the wearer.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/bluedown.rsi
@@ -89,7 +89,7 @@
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagBlue
   noSpawn: true
-  name: синий шемаг
+  name: Blue shemag
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/blueup.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckShemagBrown
-  name: коричневый шемаг
-  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю.
+  name: Brown shemag
+  description: A warm silk fabric that protects from dust and cold, as well as gives brutality and tacticool to the wearer.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/browndown.rsi
@@ -122,7 +122,7 @@
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagBrown
   noSpawn: true
-  name: коричневый шемаг
+  name: Brown shemag
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/brownup.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckShemagPurple
-  name: фиолетовый шемаг
-  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю.
+  name: Purple shemag
+  description: A warm silk fabric that protects from dust and cold, as well as gives brutality and tacticool to the wearer.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/purpledown.rsi
@@ -155,7 +155,7 @@
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagPurple
   noSpawn: true
-  name: фиолетовый шемаг
+  name: Purple shemag
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/purpleup.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckShemagNPZ
-  name: урбан шемаг
-  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю. Теперь в цветах НПЗ!
+  name: NPZ shemag
+  description: A warm silk fabric that protects from dust and cold, as well as gives brutality and tacticool to the wearer. Now with the colors of NPZ!
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/NPZdown.rsi
@@ -188,7 +188,7 @@
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagNPZ
   noSpawn: true
-  name: урбан шемаг
+  name: NPZ shemag
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/NPZup.rsi
@@ -199,8 +199,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckShemagWhite
-  name: белый шемаг
-  description: тёплая шёлковая ткань, защищающая от пыли и холода, а так же придающая брутальности и тактикульности носителю.
+  name: White shemag
+  description: A warm silk fabric that protects from dust and cold, as well as gives brutality and tacticool to the wearer.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/whitedown.rsi
@@ -221,7 +221,7 @@
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagWhite
   noSpawn: true
-  name: белый шемаг
+  name: White shemag
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/shemags/whiteup.rsi

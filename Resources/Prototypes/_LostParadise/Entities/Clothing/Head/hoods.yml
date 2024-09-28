@@ -596,8 +596,8 @@
   parent: ClothingHeadBase
   id: LPPHelmetGarfiled
   noSpawn: true
-  name: капюшон костюма Гарфилда
-  description: Пахнет лазанью...
+  name: The hood of Garfield's suit
+  description: It smells like lasagna...
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Coats/garfield/hat.rsi

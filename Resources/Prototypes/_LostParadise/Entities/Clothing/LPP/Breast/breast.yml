@@ -1579,9 +1579,9 @@
 - type: entity
   parent: LPPClothingBreastBase
   id: LPPCowTop
-  suffix: СПОНСОР
-  name: коровий бюсгалтер
-  description: Муу.
+  suffix: SPONSOR
+  name: Cow bra
+  description: Moo.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Underwear/cowset/cowbra.rsi

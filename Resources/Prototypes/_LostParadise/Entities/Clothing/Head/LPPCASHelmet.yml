@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPCASHelmet
-  name: Шлем CAS
-  description: Черно-белый шлем, защищяет точно так же как и обычный просто цвета другие.
+  name: CAS Helmet
+  description: A black and white helmet protects in the same way as a regular one, just the colors are different.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Helmets/LPPCASHelmet.rsi

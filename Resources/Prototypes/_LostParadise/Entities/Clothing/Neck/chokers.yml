@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckBellCollarWhite
-  name: белый чокер с колокольчиком
-  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  name: White choker with a bell
+  description: A choker with a bell, so that your master will definitely not lose you somewhere in the dorms.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/chokers/white.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckBellCollarBlack
-  name: чёрный чокер с колокольчиком
-  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  name: Black choker with a bell
+  description: A choker with a bell, so that your master will definitely not lose you somewhere in the dorms.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/chokers/black.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckBellCollarRed
-  name: красный чокер с колокольчиком
-  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  name: Red choker with a bell
+  description: A choker with a bell, so that your master will definitely not lose you somewhere in the dorms.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/chokers/red.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckBellCollarCyan
-  name: голубой чокер с колокольчиком
-  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  name: Cyan choker with a bell
+  description: A choker with a bell, so that your master will definitely not lose you somewhere in the dorms.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/chokers/cyan.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckBellCollarGreen
-  name: зелёный чокер с колокольчиком
-  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  name: Green choker with a bell
+  description: A choker with a bell, so that your master will definitely not lose you somewhere in the dorms.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/chokers/green.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckBellCollarPurple
-  name: фиолетовый чокер с колокольчиком
-  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  name: Purple choker with a bell
+  description: A choker with a bell, so that your master will definitely not lose you somewhere in the dorms.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/chokers/purple.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckBellCollarOrange
-  name: оранжевый чокер с колокольчиком
-  description: Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
+  name: Orange choker with a bell
+  description: A choker with a bell, so that your master will definitely not lose you somewhere in the dorms.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/chokers/orange.rsi
@@ -84,8 +84,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckCollarSpiked
-  name: шипастый чокер
-  description: Чокер с шипами, вы либо гот, либо металист, раз решились такое носить.
+  name: Spiked choker
+  description: A choker with spikes, you are either a goth or a metalhead, you are allowed to wear this.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/chokers/spiked.rsi

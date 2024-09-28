@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitLeaderNFSD
-  name: скафандр NPZ-75e - "Liquidator"
-  description: Прототип новой линейки скафандров НПЗ. Мобильность, отражение пуль, защита от крайне высокого давления и всё это в ВАШИХ руках. Ксенофобия идёт в комплекте.
+  name: Hardsuit NPZ-75e - "Liquidator"
+  description: A prototype of a new line of NPZ spacesuits. Mobility, bullet deflection, protection from extremely high pressure and all this is in YOUR hands. Xenophobia is included.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/upgradednfsd/upgrlead.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingOuterHardsuitHelmetLeaderNFSD
-  name: шлем NPZ-75e
-  description: Пархай как бабочка, жаль, что ты уже мёртв, жалкий ксенос!
+  name: Helmet NPZ-75e
+  description: Flutter like a butterfly, it's a pity that you're already dead, you pathetic xenos!
   noSpawn: true
   components:
   - type: BreathMask
@@ -68,8 +68,8 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: LPPClothingOuterArmoradvancedNPZ
-  name: комплект защиты НПЗ
-  description: Комплект из бронеэлементов, защищающие жизненно важные органы, а так же конечности носителя.
+  name: NPZ protection kit
+  description: A set of armor elements that protect vital organs, as well as the limbs of the wearer.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Armor/upgbulletproof.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitNPZ
-  name: скафандр NPZ-72s - "Soldat"
-  description: Стандартный скафандр войск Нового Правительства Земли, удобен и надёжен.
+  name: Hardsuit NPZ-72s - "Soldat"
+  description: The standard spacesuit of the troops of the New Government of the Earth is convenient and reliable.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZtrooper/hard.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingOuterHardsuitHelmetNPZ
-  name: шлем NPZ-72
-  description: Пархай как бабочка, жаль, что ты уже мёртв, жалкий ксенос!
+  name: Helmet NPZ-72
+  description: Flutter like a butterfly, it's a pity that you're already dead, you pathetic xenos!
   noSpawn: true
   components:
   - type: BreathMask
@@ -153,8 +153,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitSpecopsNPZ
-  name: скафандр NPZ-72+ - "Schatten"
-  description: Модифицированный вариант стандартного скафандра НПЗ, предоставляет мобильность, крепкость, а так же хорошую защиту от всевозможных видов урона.
+  name: Hardsuit NPZ-72+ - "Schatten"
+  description: A modified version of the standard NPZ spacesuit provides mobility, durability, as well as good protection from all kinds of damage.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZspecops/hard.rsi
@@ -194,8 +194,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingOuterHardsuitHelmetSpecopsNPZ
-  name: шлем NPZ-72+
-  description: Пархай как бабочка, жаль, что ты уже мёртв, жалкий ксенос!
+  name: Helmet NPZ-72+
+  description: Flutter like a butterfly, it's a pity that you're already dead, you pathetic xenos!
   noSpawn: true
   components:
   - type: BreathMask
@@ -220,8 +220,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: LPPClothingOuterCoatNPZ
-  name: куртка с символикой НПЗ
-  description: Лёгкая нейлоновая куртка с яркими неоновыми полосками и принтом на спине, а так же карманами.
+  name: NPZ Coat
+  description: Lightweight nylon coat with bright neon stripes and a print on the back, as well as pockets.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Coats/NPZcoat.rsi
@@ -236,8 +236,8 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: LPPClothingOuterArmorNPZ
-  name: бронежилет с символикой НПЗ
-  description: Бронежилет с опознавательными элементами НПЗ.
+  name: NPZ bulletproof vest
+  description: Bulletproof vest with identification elements of the NPZ.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Armor/NPZarmorvest.rsi

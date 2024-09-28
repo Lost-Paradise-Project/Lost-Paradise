@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadHatHardhatBase
   id: LPPClothingHeadHatTacticalHelmetWrittenOff
-  name: Списанный тактический шлем ПГ
-  description: Списанный шлем ПГ со встроенным фонариком
+  name: Decommissioned tactical helmet PG
+  description: A decommissioned PG helmet with a built-in flashlight
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Helmets/pg-helmet-tacticool.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingHeadHatHardhatBase
   id: LPPClothingHeadHelmetBasic
-  name: шлем с фонариком
-  description: Стандартная защитная экипировка. Защищает от ударов и светит в технических тоннелях.
+  name: Helmet with flashlight
+  description: Standard protective equipment. Protects against impacts and shines in technical tunnels.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Helmets/security.rsi

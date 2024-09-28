@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: LPPClothingOuterVestPGWrittenOff
-  name: Списанный бронижелет ПГ
-  description: Списанный бронижелет ПГ, хорошо защищающей от пуль. Также оснащен небольшими кармашками, в которых часто носят магазины.
+  name: A decommissioned PG bulletproof vest
+  description: A decommissioned PG bulletproof vest that protects well from bullets. It is also equipped with small pockets in which magazines are often carried.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Armor/pg-vest.rsi

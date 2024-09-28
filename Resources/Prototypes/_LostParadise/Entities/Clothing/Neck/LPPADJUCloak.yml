@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPADJUCloak
-  name: Плащ Адъютанта
-  description: Синий плащ адъютанта, веет теплом и бюрократией при ношении её.
+  name: The Adjutant's Cloak
+  description: The blue cloak of the adjutant, breathes warmth and bureaucracy when wearing it.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/Cloaks/LPPADJUCloak.rsi

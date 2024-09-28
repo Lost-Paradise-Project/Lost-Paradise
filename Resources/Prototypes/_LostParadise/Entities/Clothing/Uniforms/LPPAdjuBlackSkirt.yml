@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: LPPAdjuBlackSkirt
-  name: Чёрный костюм адъютанта
-  description: Чёрный вариант костюма адъютанта что-то между школьником и агентов внутренних дел.
+  name: Black Adjutant's skirt
+  description: The black version of the adjutant's skirt is something between a schoolboy and internal affairs agents.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/LPPAdjuBlackSkirt.rsi

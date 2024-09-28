@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: LPPCASArmorsec
-  name: Бронежилет CAS
-  description: Чёрно-белый бронежилет практически ничем не отличается от бронежилета штатного офицера сб.
+  name: CAS bulletproof vest
+  description: A black and white bulletproof vest is practically no different from the body armor of a regular security officer.
   components:
     - type: Sprite
       sprite: _LostParadise/Clothing/OuterClothing/Vests/LPPCASarmorsec.rsi
