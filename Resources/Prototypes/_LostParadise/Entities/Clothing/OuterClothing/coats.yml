@@ -131,8 +131,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: LPPOuterClothingGarfield
-  name: костюм Гарфилда
-  description: Мягкий и пахнет ненавистью к понедельникам.
+  name: Garfield's costume
+  description: It's soft and smells of hate for Mondays.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Coats/garfield/costume.rsi

@@ -2,8 +2,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetAcientSyndieEVA
   noSpawn: true
-  name: шлем CSA-21BM
-  description: Шлем от странного скафандра Синдиката, он в EVA режиме.
+  name: CSA-21BM Helmet
+  description: The helmet is from a strange Syndicate spacesuit, it's in EVA mode.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Helmets/acienthelmsyndieeva.rsi
@@ -31,8 +31,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHunter
   noSpawn: true
-  name: шлем GRT-42w
-  description: Крайне комфорнтый шлем, что позволяет вам защититься от морозной погоды.
+  name: GRT-42w Helmet
+  description: An extremely comfortable helmet that allows you to protect yourself from the frosty weather.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Helmets/winterhardsuithelm.rsi
@@ -62,8 +62,8 @@
   parent: ClothingHeadHardsuitBase
   id: LPPClothingHeadHelmetRND
   noSpawn: true
-  name: шлем RHS-14s
-  description: Шлем от скафандра НИС, довольно полезен и имеет встроенный функционал, по типу определения жидкостей и защиту от сварки, из-за чего довольно громозок.
+  name: RHS-14s Helmet
+  description: The helmet from the NIS spacesuit is quite useful and has built-in functionality, such as chemical detection and welding protection, which is why it is quite bulky.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Hardsuits/helmrnd.rsi
@@ -94,7 +94,7 @@
   id: LPPClothingHeadHelmetScienceNPZ
   noSpawn: true
   name: NPZ-34r
-  description: Шлем от скафандра, довольно полезен и имеет встроенную защиту глаз от сварки.
+  description: The helmet from the spacesuit is quite useful and has built-in eye protection from welding.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/head.rsi

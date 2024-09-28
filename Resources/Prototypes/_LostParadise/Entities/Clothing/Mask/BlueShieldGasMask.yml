@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingMaskGas
   id: LPPBlueShieldClothingMaskGas
-  name: противогаз офицера "синий щит"
-  description: Элитный противогаз офицера "синий щит".
+  name: Gas mask of officer "Blue Shield"
+  description: Elite gas mask of officer "Blue Shield".
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Mask/BlueShieldGasMask.rsi

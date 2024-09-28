@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: MSSAPinAndromeda
-  name: значок "Андромеда"
-  description: Будь как дома, путник.
+  name: pin "Andromeda"
+  description: Make yourself at home, traveler.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: MSSAPinLostParadise
-  name: значок "Lost Paradise"
-  description: Стараемся для вас!
+  name: pin "Lost Paradise"
+  description: We try our best for you!
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: MSSAPinFoxHole
-  name: значок "Лисей Норы"
-  description: Лисья нора, там где тихо и спокойно.
+  name: pin "Fox Hole"
+  description: A Fox Hole, where it's quiet and peaceful.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: MSSAPinMSSA
-  name: значок "МССА"
-  description: Вместе мы сильны!
+  name: pin "MSSA"
+  description: Together we are strong!
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingNeckPinBase
   id: MSSAPinSirena
-  name: значок "Сирена"
-  description: Клуб интеллигентных людей.
+  name: pin "Sirena"
+  description: The club of intelligent people.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi

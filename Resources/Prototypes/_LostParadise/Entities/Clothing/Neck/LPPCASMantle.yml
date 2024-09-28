@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPCASMantle
-  name: Мантия CAS
-  description: Чёрно-белая мантия.
+  name: CAS mantle
+  description: Black and white mantle
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/Mantles/LPPCASMantle.rsi

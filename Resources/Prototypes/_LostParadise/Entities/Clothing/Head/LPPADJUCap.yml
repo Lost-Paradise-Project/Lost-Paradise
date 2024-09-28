@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPADJUCap
-  name: Фуражка адъютанта
-  description: данную фуражку носят вполне уставшие от рутин работ с бюрократией
+  name: Adjutant's cap
+  description: This cap is worn by those who are quite tired of the routine of working with the bureaucracy
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Hats/LPPADJUCap.rsi

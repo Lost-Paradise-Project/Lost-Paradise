@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingMaskGas
   id: LPPClothingMaskPGWrittenOff
-  name: Списанная балаклава ПГ
-  description: Списанная балаклава которая использовалась солдатами ПГ.
+  name: Decommissioned balaclava PG
+  description: A decommissioned balaclava that was used by PG soldiers.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Mask/pg-balaclava.rsi

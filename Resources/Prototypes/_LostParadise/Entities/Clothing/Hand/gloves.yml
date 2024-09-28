@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlack
   id: LPPClothingHandsGlovesNPZCombat
-  name: боевые перчатки НПЗ
-  description: Боевые перчатки бойцов НПЗ, с арамидным покрытием в области костяшек, для нанесения увечий и выбивания дури из противника.
+  name: NPZ Battle gloves
+  description: Combat gloves of NPZ fighters, with aramid coating in the area of the knuckles, for maiming and knocking out the dope from the enemy.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Hands/Gloves/upgofficerhands.rsi
