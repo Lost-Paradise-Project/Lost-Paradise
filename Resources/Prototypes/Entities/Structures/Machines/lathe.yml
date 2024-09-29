@@ -772,6 +772,9 @@
       - MagazineBoxSpecialPractice
       - SpeedLoaderSpecial
       - MagazinePistolSpecial
+      #LPP
+      - LPPMagazineMagnumSubMachineGun
+      - LPPMagazineBoxMinigun
       # End of modified code
     dynamicRecipes:
       - LPPSpaceForgeCircuitBoardCMDAndSec
@@ -850,6 +853,9 @@
       - MagazineBoxSpecialIncendiary
       - MagazineBoxSpecialUranium
       - MagazineBoxSpecialMindbreaker
+      #LPP
+      - LPPMagazineBoxMinigunPractice
+      - LPPMagazineBoxMinigunRubber
       # End of modified code
   - type: MaterialStorage
     whitelist:

@@ -1,44 +1,47 @@
 - type: emote
   id: Sneeze
   category: Vocal
-  chatMessages: [ sneezes ]
+  chatMessages: [ чихает ]
 
 - type: emote
   id: Cough
   category: Vocal
-  chatMessages: [ coughs ]
+  chatMessages: [ кашляет ]
   chatTriggers:
     - coughs
     # Corvax-Localization-Start
     - кашель
     - кашляет
     - кашлянул
+    - кашель.
+    - кашляет.
+    - кашлянул.
     # Corvax-Localization-End
 
 - type: emote
   id: CatMeow
   category: Vocal
-  chatMessages: [ meows ]
+  chatMessages: [ мяукает ]
 
 - type: emote
   id: CatHisses
   category: Vocal
-  chatMessages: [ hisses ]
+  chatMessages: [ шипит ]
 
 - type: emote
   id: MonkeyScreeches
   category: Vocal
-  chatMessages: [ screeches ]
+  chatMessages: [ визжит ]
 
 - type: emote
   id: RobotBeep
   category: Vocal
-  chatMessages: [ beeps ]
+  chatMessages: [ бипает ]
 
 - type: emote
   id: Yawn
   category: Vocal
-  chatMessages: [ yawns ]
+  chatMessages: [ зевает ]
   chatTriggers:
     - yawns
   # Corvax-Localization-Start

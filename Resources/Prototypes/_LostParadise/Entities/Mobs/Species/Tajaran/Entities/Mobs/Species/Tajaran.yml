@@ -12,9 +12,9 @@
       requiredLegs: 2
     - type: Vocal
       sounds:
-        Male: MaleTajaran
-        Female: FemaleTajaran
-        Unsexed: FemaleTajaran
+        Male: MaleFelinid
+        Female: FemaleFelinid
+        Unsexed: FemaleFelinid
     #- type: Carriable
     - type: Hunger
       starvationDamage:

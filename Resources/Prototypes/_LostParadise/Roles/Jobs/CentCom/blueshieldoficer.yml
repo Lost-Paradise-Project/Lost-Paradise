@@ -34,7 +34,7 @@
   equipment:
     jumpsuit: LPPClothingUniformJumpsuitBlueshield
     head: LPPClothingHeadHatBeretBlueshield
-    back: LPPClothingBackpackBlueshieldFilled
+    back: LPPClothingBackpackBlueshield
     shoes: ClothingShoesBootsCombatFilled
     eyes: LPPBlueHudGlasses
     gloves: ClothingHandsGlovesCombat
@@ -44,12 +44,13 @@
     ears: ClothingHeadsetAltCommand
     pocket1: LPPBlueshieldlaser
     pocket2: HandheldCrewMonitor
+    belt: ClothingBeltSecurityFilled
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
   underwear: LPPBriefs
   breast: LPPBraAltWhite
-  satchel: LPPClothingBackpackSatchelBlueshieldFilled
-  duffelbag: LPPClothingBackpackDuffelBlueshieldFilled
+  satchel: LPPClothingBackpackSatchelBlueshield
+  duffelbag: LPPClothingBackpackDuffelBlueshield
   storage:
     back:
     - Flash

@@ -72,6 +72,8 @@
   # DeltaV - .38 special rubber ammo - Adds .38 special rubber ammo to the research tree
   - CartridgeSpecialRubber
   - MagazineBoxSpecialRubber
+  - LPPMagazineBoxMinigunPractice
+  - LPPMagazineBoxMinigunRubber
   # End of modified code
 
 - type: technology

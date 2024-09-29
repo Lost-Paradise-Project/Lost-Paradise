@@ -20,7 +20,7 @@
     maxAngle: 16
     fireRate: 8
     angleIncrease: 3
-    angleDecay: 16  
+    angleDecay: 16
     selectedMode: FullAuto
     availableModes:
     - SemiAuto
@@ -162,7 +162,6 @@
   name: Vector
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunVector
-  suffix: Deprecated use Drozd
   description: An excellent fully automatic Heavy SMG. Uses .45 magnum ammo.
   components:
   - type: Sprite
@@ -195,11 +194,11 @@
             - MagazineMagnumSubMachineGun
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeMagnum
+        startingItem: CartridgeMinigun
         priority: 1
         whitelist:
           tags:
-            - CartridgeMagnum
+            - CartridgeMinigun
   - type: MagazineVisuals
     magState: mag
     steps: 1
@@ -234,7 +233,7 @@
     minAngle: 1
     maxAngle: 6
     angleIncrease: 1.5
-    angleDecay: 6  
+    angleDecay: 6
     selectedMode: FullAuto
     shotsPerBurst: 5
     availableModes:

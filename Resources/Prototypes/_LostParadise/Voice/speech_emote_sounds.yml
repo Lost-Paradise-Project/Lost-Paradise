@@ -77,6 +77,8 @@
       collection: Whistles
     Crying:
       collection: FemaleCry
+    Weh:
+      collection: Weh
     Sneeze:
       collection: FemaleSneezes
     Cough:
@@ -95,5 +97,5 @@
       collection: Snores
     Sigh:
       collection: FemaleSigh
-    Weh:
-      collection: Weh
+    Hiss:
+      collection: FelinidHisses

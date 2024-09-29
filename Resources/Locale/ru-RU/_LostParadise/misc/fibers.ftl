@@ -1,1 +1,1 @@
-﻿lppfibers-nitrile-insulative = нитрилово-изолирующие
+lppfibers-nitrile-insulative = нитрилово-изолирующие
