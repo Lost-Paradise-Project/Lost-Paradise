@@ -864,3 +864,26 @@ Entries:
   id: 77
   time: '2024-09-29T05:58:18.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/225
+- author: MegaDaimond
+  changes:
+    - type: Add
+      message: >-
+        Добавлены новые виды .10 патронов (Резиновые, тренировочные, урановые,
+        бронебойные)
+    - type: Add
+      message: Добавлены коробки под .10 патроны
+    - type: Tweak
+      message: Вектор теперь использует .10 патроны, а не .45 магнум
+    - type: Tweak
+      message: Магазин под вектора теперь вмещает 40 патронов .10
+    - type: Tweak
+      message: Цена на вектор в планшете уменьшилась 11>5 ЦентКоинов
+    - type: Tweak
+      message: Планшет закупа СБ перемещён из кармана смотрителя в его шкафчик
+    - type: Tweak
+      message: С небольшим шансом станнеры могут появится в шкафчиках СБ
+    - type: Tweak
+      message: ГП и КМ получили миниатюрные лазерные пистолеты в их шкафчики
+  id: 78
+  time: '2024-09-29T16:18:08.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/213

@@ -110,3 +110,36 @@
   materials:
     Plastic: 375
     Plasma: 375
+
+- type: latheRecipe
+  id: LPPMagazineBoxMinigunPractice
+  result: LPPMagazineBoxRifleMinigunPractice
+  category: Ammo
+  completetime: 5
+  materials:
+    Plastic: 500
+
+- type: latheRecipe
+  id: LPPMagazineBoxMinigunRubber
+  result: LPPMagazineBoxRifleMinigunRubber
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 350
+    Plastic: 600
+
+- type: latheRecipe
+  id: LPPMagazineBoxMinigun
+  result: LPPMagazineBoxRifleMinigun
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 750
+
+- type: latheRecipe
+  id: LPPMagazineMagnumSubMachineGun
+  result: MagazineMagnumSubMachineGun
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 375
