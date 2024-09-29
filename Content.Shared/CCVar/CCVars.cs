@@ -2502,9 +2502,29 @@ namespace Content.Shared.CCVar
         ///     When true, jetpacks can be enabled on grids that have zero gravity.
         /// </summary>
         public static readonly CVarDef<bool> JetpackEnableInNoGravity =
-            CVarDef.Create("jetpack.enable_in_no_gravity", true, CVar.REPLICATED);
+            CVarDef.Create("jetpack.enable_in_no_gravity", false, CVar.REPLICATED);
 
         #endregion
 
+        #region AHelp Prefix
+
+        /// <summary>
+        /// Should the administrator's position be displayed in ahelp.
+        /// If it is is false, only the admin's ckey will be displayed in the ahelp.
+        /// </summary>
+        /// <seealso cref="AdminUseCustomNamesAdminRank"/>
+        /// <seealso cref="AhelpAdminPrefixWebhook"/>
+        public static readonly CVarDef<bool> AhelpAdminPrefix =
+            CVarDef.Create("ahelp.admin_prefix", true, CVar.SERVERONLY);
+        /// <summary>
+        /// Should the administrator's position be displayed in the webhook.
+        /// If it is is false, only the admin's ckey will be displayed in webhook.
+        /// </summary>
+        /// <seealso cref="AdminUseCustomNamesAdminRank"/>
+        /// <seealso cref="AhelpAdminPrefix"/>
+        public static readonly CVarDef<bool> AhelpAdminPrefixWebhook =
+            CVarDef.Create("ahelp.admin_prefix_webhook", true, CVar.SERVERONLY);
+
+        #endregion
     }
 }

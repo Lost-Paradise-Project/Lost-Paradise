@@ -261,7 +261,7 @@ namespace Content.IntegrationTests.Tests
 
             await server.WaitPost(() =>
             {
-               mapId = mapManager.CreateMap();
+                mapId = mapManager.CreateMap();
             });
 
             var coords = new MapCoordinates(Vector2.Zero, mapId);

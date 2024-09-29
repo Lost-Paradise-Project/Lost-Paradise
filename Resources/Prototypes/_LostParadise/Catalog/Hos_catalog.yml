@@ -342,10 +342,10 @@
 - type: listing
   id: LPPHosCatalogWeaponSubMachineGunVector
   name: Вектор
-  description: Превосходный тяжёлый пистолет-пулемёт. Использует патроны калибра .45 магнум. Чувствуется вкус ностальгии...
+  description: Превосходный тяжёлый пистолет-пулемёт. Использует патроны калибра .10 винтовочные. Чувствуется вкус ностальгии...
   productEntity: WeaponSubMachineGunVector
   cost:
-    LPPCentcoin: 11
+    LPPCentcoin: 5
   categories:
     - LPPhosweapon
 
@@ -853,6 +853,15 @@
   categories:
     - LPPhosammo
 
+- type: listing
+  id: LPPHosCatalogMagazineBoxMinigun
+  name: коробка патронов (.10 винтовочные)
+  description: Коробка патронов, что не понятно? Зачем тебе вообще описание коробки патронов?
+  productEntity: LPPMagazineBoxRifleMinigun
+  cost:
+    LPPCentcoin: 1
+  categories:
+    - LPPhosammo
 #brigmeme
 
 - type: listing

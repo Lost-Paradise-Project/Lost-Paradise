@@ -4,6 +4,9 @@
   description: job-description-adjutant
   playTimeTracker: JobLPPАdjutant
   requirements:
+    - !type:CharacterAgeRequirement
+      min: 25
+      max: 80
     - !type:CharacterDepartmentTimeRequirement
       department: Engineering
       min: 36000
@@ -57,3 +60,6 @@
   innerClothingSkirt: ClothingUniformJumpskirtAdjutant
   satchel: ClothingBackpackSatchelHOPFilled
   duffelbag: ClothingBackpackDuffelHOPFilled
+  storage:
+    back:
+    - LPPTelebaton

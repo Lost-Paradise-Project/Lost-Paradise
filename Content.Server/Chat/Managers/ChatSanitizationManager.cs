@@ -13,6 +13,7 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
     {
         // Corvax-Localization-Start
         { "хд", "chatsan-laughs" },
+        { "хд.", "chatsan-laughs" },
         { "о-о", "chatsan-wide-eyed" }, // cyrillic о
         { "о.о", "chatsan-wide-eyed" }, // cyrillic о
         { "0_о", "chatsan-wide-eyed" }, // cyrillic о
@@ -20,18 +21,26 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "о7", "chatsan-salutes" }, // cyrillic о
         { "0_o", "chatsan-wide-eyed" },
         { "лмао", "chatsan-laughs" },
+        { "лмао.", "chatsan-laughs" },
         { "рофл", "chatsan-laughs" },
+        { "рофл.", "chatsan-laughs" },
         { "яхз", "chatsan-shrugs" },
+        { "яхз.", "chatsan-shrugs" },
         { ":0", "chatsan-surprised" },
         { ":р", "chatsan-stick-out-tongue" }, // cyrillic р
         { "кек", "chatsan-laughs" },
+        { "кек.", "chatsan-laughs" },
         { "T_T", "chatsan-cries" },
         { "Т_Т", "chatsan-cries" }, // cyrillic T
         { "=_(", "chatsan-cries" },
         { "!с", "chatsan-laughs" },
+        { "!с.", "chatsan-laughs" },
         { "!в", "chatsan-sighs" },
+        { "!в.", "chatsan-sighs" },
         { "!х", "chatsan-claps" },
+        { "!х.", "chatsan-claps" },
         { "!щ", "chatsan-snaps" },
+        { "!щ.", "chatsan-snaps" },
         { "))", "chatsan-smiles-widely" },
         { ")", "chatsan-smiles" },
         { "((", "chatsan-frowns-deeply" },
@@ -39,12 +48,19 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         // Corvax-Localization-End
 		// Lost-Paradise-Localization-Start
 		{ "орууу", "chatsan-laughs" },
+        { "орууу.", "chatsan-laughs" },
 		{ "хз", "chatsan-shrugs" },
+        { "хз.", "chatsan-shrugs" },
 		{ "хсс", "chatsan-shrugs" },
+        { "хсс.", "chatsan-shrugs" },
 		{ "хссс", "chatsan-shrugs" },
+        { "хссс.", "chatsan-shrugs" },
 		{ "шшш", "chatsan-hiss" },
+        { "шшш.", "chatsan-hiss" },
 		{ "авууу", "chatsan-awoo" },
+        { "авууу.", "chatsan-awoo" },
 		{ "няяя", "chatsan-nyaaa" },
+        { "няяя.", "chatsan-nyaaa" },
 		// Lost-Paradise-Localization-End
         // I could've done this with regex, but felt it wasn't the right idea.
         { ":)", "chatsan-smiles" },
