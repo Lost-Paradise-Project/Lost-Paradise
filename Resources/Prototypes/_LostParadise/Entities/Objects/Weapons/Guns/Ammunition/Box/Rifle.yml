@@ -159,7 +159,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: LPPMagazineBoxRifleMinigun
-  name: коробка патронов (.10 винтовочные)
+  name: ammunition box (.10 rifle)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMinigun
@@ -173,7 +173,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: LPPMagazineBoxRifleMinigunRubber
-  name: коробка патронов (.10 винтовочные резиновые)
+  name: ammunition box (.10 rifle rubber)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeMinigunrubber
@@ -187,7 +187,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: LPPMagazineBoxRifleMinigunPractice
-  name: коробка патронов (.10 винтовочные тренировочные)
+  name: ammunition box (.10 rifle practice)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeMinigunPractice
@@ -201,7 +201,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: LPPMagazineBoxRifleMinigunUranium
-  name: коробка патронов (.10 винтовочные урановые)
+  name: ammunition box (.10 rifle uranium)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeMinigunUranium
@@ -215,7 +215,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: LPPMagazineBoxRifleMinigunAP
-  name: коробка патронов (.10 винтовочные бронебойные)
+  name: ammunition box (.10 rifle AP)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeMinigunAP

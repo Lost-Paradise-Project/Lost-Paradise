@@ -110,7 +110,7 @@
 
 - type: entity
   id: LPPCartridgeMinigunrubber
-  name: патрон (.10 винтовочный резиновый)
+  name: bullet (.10 rifle rubber)
   parent: LPPBaseCartridgeMinigun
   components:
   - type: CartridgeAmmo
@@ -119,7 +119,7 @@
 
 - type: entity
   id: LPPCartridgeMinigunPractice
-  name: патрон (.10 винтовочный тренировочные)
+  name: bullet (.10 rifle practice)
   parent: LPPBaseCartridgeMinigun
   components:
   - type: CartridgeAmmo
@@ -128,7 +128,7 @@
 
 - type: entity
   id: LPPCartridgeMinigunAP
-  name: патрон (.10 Винтовочный бронебойные)
+  name: bullet (.10 rifle AP)
   parent: LPPBaseCartridgeMinigun
   components:
   - type: CartridgeAmmo
@@ -137,7 +137,7 @@
 
 - type: entity
   id: LPPCartridgeMinigunUranium
-  name: патрон (.10 винтовочный урановый)
+  name: bullet (.10 rifle uranium)
   parent: LPPBaseCartridgeMinigun
   components:
   - type: CartridgeAmmo
