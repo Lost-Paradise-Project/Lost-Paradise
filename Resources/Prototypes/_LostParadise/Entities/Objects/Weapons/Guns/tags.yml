@@ -12,3 +12,6 @@
 
 - type: Tag
   id: LPPMagazineGarand
+
+- type: Tag
+  id: CartridgeMinigun
