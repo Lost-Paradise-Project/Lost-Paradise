@@ -1,10 +1,10 @@
-ent-LPPClothingUniformJumpskirtAdjutant = adjutant's jumpskirt
-    .desc = { ent-ClothingUniformSkirtBase.desc }
-ent-LPPCargoBlackSkirt = BlackSkirt
+ent-LPPClothingUniformJumpskirtAdjutant = костюм адьютанта
+    .desc = { ent-ClothingUniformSkirtBase.desc}
+ent-LPPCargoBlackSkirt = Стильная юбка грузчика
     .desc = { ent-ClothingUniformBase.desc }
-ent-LPPSkirtleneckCargo = Skirtleneck
+ent-LPPSkirtleneckCargo = Водолазка с юбкой грузчика
     .desc = { ent-ClothingUniformBase.desc }
-ent-LPPSkirtleneckQMCargo = SkirtleneckQM
+ent-LPPSkirtleneckQMCargo = Водолазка QM с юбкой грузчика
     .desc = { ent-ClothingUniformBase.desc }
 ent-LPPSupplyChiefSkirtCargo = supply chief skirt
     .desc = { ent-ClothingUniformBase.desc }

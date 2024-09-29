@@ -24,8 +24,6 @@ construction-graph-name-SheetRUGlass0 = армированное ураново�
 construction-graph-desc-SheetRUGlass0 = Армированный лист уранового стекла.
 construction-graph-name-SheetRUGlass1 = армированное урановое стекло
 construction-graph-desc-SheetRUGlass1 = Армированный лист уранового стекла.
-
-
 #structures
 
 construction-graph-name-Girder = каркас
@@ -108,7 +106,6 @@ construction-graph-name-UraniumWindowDirectional = направленное ур
 construction-graph-desc-UraniumWindowDirectional = Прозрачное и гораздо более прочное, чем обычное окно, с добавлением радабсорбента для защиты от смертельной радиации.
 construction-graph-name-UraniumReinforcedWindowDirectional = направленное урановое бронеокно
 construction-graph-desc-UraniumReinforcedWindowDirectional = Прозрачное и гораздо более прочное, чем армированное окно, с добавлением радабсорбента для защиты от смертельной радиации.
-
 construction-graph-name-Firelock = пожарный шлюз
 construction-graph-desc-Firelock = Это пожарный шлюз - он блокирует помещение, когда в нем срабатывает пожарная сигнализация. Смотрите, чтобы вас не раздавило!
 construction-graph-name-FirelockGlass = стеклянный пожарный шлюз
@@ -223,8 +220,6 @@ construction-graph-name-BananiumAltar = алтарь Хонкоматери
 construction-graph-desc-BananiumAltar = Бананиумовый алтарь, посвящённый Хонкоматери.
 construction-graph-name-SolidSecretDoor = секретная дверь
 construction-graph-desc-SolidSecretDoor = Потайная дверь в стене, чтобы спрятать свои вещи от СБ или для секретных потрахушек.
-
-
 #utilites
 
 construction-graph-name-camera = камера
@@ -329,8 +324,6 @@ construction-graph-name-ScreenTimer = таймер сигнала с экран�
 construction-graph-desc-ScreenTimer = Настенный таймер для отправки сигналов по времени на объекты. У этого устройства есть экран для отображения текста.
 construction-graph-name-BrigTimer = бриг-таймер
 construction-graph-desc-BrigTimer = Настенный таймер для отправки сигналов по времени на объекты. Этот таймер оснащен экраном для отображения текста, и для его использования требуется доступ к системе безопасности.
-
-
 #clothing
 
 construction-graph-name-BoneArmor = костянная броня
@@ -349,14 +342,10 @@ construction-graph-name-ClothingShoeSlippersDuck = утиные тапочки
 construction-graph-desc-ClothingShoeSlippersDuck = Уютно, но в то же время преследуемо призраками уток, которых вы в детстве кормили хлебом.
 construction-graph-name-ClothingClothWrap = тряпичные обмотки
 construction-graph-desc-ClothingClothWrap = Рулон обработанного холста, используемый для обертывания когтей или лап.
-
-
 #fun
 
 construction-graph-name-HornBananium = банановый рог
 construction-graph-desc-HornBananium = Воздушный рог, сделанный из бананиума.
-
-
 #lighting
 
 construction-graph-name-CyanLight = голубая кристальная лампа-трубка
@@ -371,8 +360,6 @@ construction-graph-name-RedLight = красная кристальная лам�
 construction-graph-desc-RedLight = Мощная лампа, внутри которой находится маленький цветной кристалл.
 construction-graph-name-GreenLight = зелёная кристальная лампа-трубка
 construction-graph-desc-GreenLight = Мощная лампа, внутри которой находится маленький цветной кристалл.
-
-
 #machines
 
 construction-graph-name-Computer = каркас консоль
@@ -393,16 +380,12 @@ construction-graph-name-SignalSwitchDirectionalRecipe = направленный
 construction-graph-desc-SignalSwitchDirectionalRecipe = Это переключатель питания устройств.
 construction-graph-name-SignalButtonDirectionalRecipe = направленная кнопка сигнала
 construction-graph-desc-SignalButtonDirectionalRecipe = Эта кнопка что-то активирует.
-
-
 #modular
 
 construction-graph-name-ModularGrenadeRecipe = модульная граната
 construction-graph-desc-ModularGrenadeRecipe = Собери свою модульную гранату, используя спусковой механизм и взрывчатый заряд.
 construction-graph-name-ModularMineRecipe = модульная мина
 construction-graph-desc-ModularMineRecipe = Собери свою ПРОТИВОПЕХОТНУЮ МИНУ, используя взрывчатый заряд.
-
-
 #storage
 
 construction-graph-name-FilingCabinet = картотечный шкаф
@@ -411,8 +394,6 @@ construction-graph-name-TallCabinet = высокий шкаф
 construction-graph-desc-TallCabinet = Шкаф для хранения всех ваших документов.
 construction-graph-name-ChestDrawer = комод
 construction-graph-desc-ChestDrawer = Небольшой выдвижной ящик для хранения документов, теперь на колесиках!
-
-
 #tools
 
 construction-graph-name-LightTorch = факел
@@ -423,9 +404,6 @@ construction-graph-name-EdgeDetector = детектор сигнала
 construction-graph-desc-EdgeDetector = Определяет уровень сигнала и разделяет его. Устройство игнорирует импульсные сигналы.
 construction-graph-name-PowerSensor = датчик питания
 construction-graph-desc-PowerSensor = Генерирует сигналы в ответ на изменение напряжения в сети. Может циклически переключаться между напряжениями кабеля.
-
-
-
 #weapons
 
 construction-graph-name-BladedFlatcapGrey = серая плоская кепка
@@ -460,14 +438,10 @@ construction-graph-name-ImprovisedBow = самодельный лук
 construction-graph-desc-ImprovisedBow = Примитивный лук, сделанный из дерева и ткани. Это не так уж много, но он справлялся со своей задачей на протяжении тысячелетий.
 construction-graph-name-SpearBone = костянное копьё
 construction-graph-desc-SpearBone = Копьё, сделанное из костей. Примитивщина.
-
-
 #artifact
 
 construction-graph-name-Artifact = инопланетный артефакт
 construction-graph-desc-Artifact = Странный инопланетный артефакт...
-
-
 #bots
 
 construction-graph-name-cleanbot = чистобот
@@ -480,8 +454,6 @@ construction-graph-name-medibot = медибот
 construction-graph-desc-medibot = Этот бот может помочь базовой медициной. Не более.
 construction-graph-name-mimebot = мимбот
 construction-graph-desc-mimebot = Этот бот знает как развлечь толпу. Помашите ему!
-
-
 #creates
 
 construction-graph-name-CrateLivestock = ящик для скота
@@ -498,8 +470,6 @@ construction-graph-name-BoxCardboard = картонный ящик
 construction-graph-desc-BoxCardboard = Картонная коробка для хранения небольшого количества вещей.
 construction-graph-name-CrateCoffin = гроб
 construction-graph-desc-CrateCoffin = Гроб для хранения трупов. Жутко.
-
-
 #web
 
 construction-graph-name-WallWeb = стена из паутины
@@ -514,8 +484,6 @@ construction-graph-name-CrateWeb = ящик из паутины
 construction-graph-desc-CrateWeb = Для хранения продуктов и других вещей. Не такой прочный, как обычный ящик, и его нельзя заварить.
 construction-graph-name-WebDoor = дверь из паутины
 construction-graph-desc-WebDoor = Простая дверь из паутины, обычно устанавливаемая непосредственно перед ямой или ловушкой.
-
-
 #furniture
 
 construction-graph-name-Chair = стул
@@ -626,8 +594,6 @@ construction-graph-name-Bookshelf = книжный шкаф
 construction-graph-desc-Bookshelf = Преимущественно, наполненный книгами.
 construction-graph-name-NoticeBoard = информационная доска
 construction-graph-desc-NoticeBoard = Деревянная доска объявлений, на которой можно хранить бумагу.
-
-
 #tiles
 construction-graph-name-TileSteel = стальная плитка
 construction-graph-desc-TileSteel = Четыре стальные плитки.
@@ -645,8 +611,6 @@ construction-graph-name-TileFlesh = мясная плитка
 construction-graph-desc-TileFlesh = Четыре мясные плитки.
 construction-graph-name-TileWoodLarge = большой деревянный пол
 construction-graph-desc-TileWoodLarge = Четыре куска большого деревянного пола.
-
-
 #potato
 
 construction-graph-name-PowerCellPotato = картофельная батарея
@@ -655,8 +619,6 @@ construction-graph-name-PotatoAI = картофельный ИИ
 construction-graph-desc-PotatoAI = Картофель - идеальный источник питания для этого чипа. Теперь она разумна. Ты чудовище.
 construction-graph-name-PotatoAIChip = сверхкомпактный чип ИИ
 construction-graph-desc-PotatoAIChip = Искусно созданный чип искусственного интеллекта, требующий такого же импровизированного источника питания.
-
-
 #smoleables
 
 construction-graph-name-smokeableJoint = косяк
@@ -669,8 +631,6 @@ construction-graph-name-smokeableGroundCannabis = измельчённая ко�
 construction-graph-desc-smokeableGroundCannabis = Измельчённая конопля, готовая унести вас в трип.
 construction-graph-name-smokeableGroundTobacco = измельчённый табак
 construction-graph-desc-smokeableGroundTobacco = Измельчённый табак, идеально подходящий для самокруток.
-
-
 #tallbox
 
 construction-graph-name-ClosetSteel = шкаф
@@ -679,15 +639,12 @@ construction-graph-name-ClosetSteelSecure = защищённый шкаф
 construction-graph-desc-ClosetSteelSecure = Высокий стальной ящик. Может быть заблокирован.
 construction-graph-name-ClosetWall = настенный шкаф
 construction-graph-desc-ClosetWall = Стандартное хранилище Nanotrasen, теперь на стенах.
-
-
 #toys
 
 construction-graph-name-PlushieGhostRevenant = плюшевый ревенант
 construction-graph-desc-PlushieGhostRevenant = Такой мягкий, что вызывает желание вздремнуть...
 construction-graph-name-ClothingOuterSuitIan = костюм Иана
 construction-graph-desc-ClothingOuterSuitIan = Сделайте себя таким же, как Иан!
-
 #web
 
 construction-graph-name-TileWeb = плитка из паутины
@@ -704,8 +661,6 @@ construction-graph-name-WebShield = щит из паутины
 construction-graph-desc-WebShield = Она достаточно толстая, чтобы выдержать несколько ударов, но плохо противостоит теплу.
 construction-graph-name-ClothingShoesBootsWinterWeb = зимние ботинки из паутины
 construction-graph-desc-ClothingShoesBootsWinterWeb = Ботинки из плотной паутины, которые помогут пережить глупых атмосов.
-
-
 #остатки
 
 construction-graph-name-StoolBar = барный стул
