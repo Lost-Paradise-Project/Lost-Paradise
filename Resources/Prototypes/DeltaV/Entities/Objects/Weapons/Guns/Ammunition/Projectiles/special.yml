@@ -93,6 +93,3 @@
     solution: ammo
   - type: InjectableSolution
     solution: ammo
-  - type: GuideHelp
-    guides:
-    - Psionics
