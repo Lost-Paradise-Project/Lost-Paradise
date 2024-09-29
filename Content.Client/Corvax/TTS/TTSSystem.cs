@@ -79,12 +79,12 @@ public sealed class TTSSystem : EntitySystem
 
     private void OnPlayTTS(PlayTTSEvent ev)
     {
-        var canPlay = true;
-// #if LPP_TTS_play   //это предназначено для того, чтобы в случае отсутствия ссылки на ТТС, игра не пыталась выполнить обработку звука
-//         canPlay = true;
-// #endif
-//         if (!canPlay)
-//             return;
+        var canPlay = false;
+#if LPP_TTS_play   //это предназначено для того, чтобы в случае отсутствия ссылки на ТТС, игра не пыталась выполнить обработку звука
+         canPlay = true;
+#endif
+         if (!canPlay)
+             return;
 
         //_sawmill.Debug($"Play TTS audio {ev.Data.Length} bytes from {ev.SourceUid} entity");
 

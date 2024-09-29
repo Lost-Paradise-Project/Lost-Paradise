@@ -1,6 +1,6 @@
 - type: species
   id: SharkSpecies
-  name: "Акула"
+  name: "Shark"
   roundStart: true #can player role
   prototype: LPPMobShark
   sprites: MobSharkSprites

@@ -6,7 +6,3 @@ ent-LPPBlueHudGlasses = Синие солнцезащитные очки с ви
     .desc = Полезно как для безопасности, так и для каргонии.
 ent-LPPChemistHudGlasses = chemistry goggles
     .desc = A pair of snazzy goggles used to protect against chemical spills. Fitted with an analyzer for scanning reagents.
-ent-LPPAVDEyeshud = Визор АВД
-    .desc = Это визор АВД
-ent-LPPMagistrateEyeshud = Визор Судьи
-    .desc = Это визор Судьи

@@ -31,7 +31,6 @@
   parent: IDCardStandard
   id: LPPAdjutantIDCard
   name: adjutant ID card
-  description: Adjutant ID card.
   components:
   - type: Sprite
     layers:
@@ -64,7 +63,6 @@
   parent: IDCardStandard
   id: SecPilotIDCard
   name: security pilot ID card
-  description: magistrate ID card
   components:
     - type: Sprite
       layers:

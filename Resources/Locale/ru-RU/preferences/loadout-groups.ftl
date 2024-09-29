@@ -22,8 +22,6 @@ loadout-group-hop-jumpsuit = Униформа главы персонала
 loadout-group-hop-neck = Шея главы персонала
 loadout-group-hop-backpack = Багаж главы персонала
 loadout-group-hop-outerclothing = Верхняя одежда главы персонала
-loadout-group-iaa-special = Дорогие костюмы для Адвокатов
-loadout-group-iaa-backpack = Багаж АВД
 loadout-group-adjutant-uniform = Униформа Адъютанта
 loadout-group-blueshield-backpack = Багаж ОСЩ
 # Civilian

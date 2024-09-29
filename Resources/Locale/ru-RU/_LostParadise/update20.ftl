@@ -13,3 +13,4 @@ department-CentralCommand-description = Вы самый лучший отдел!
 department-CentralCommand = Центральное командование
 reagent-name-red-bool = Ред Булеан
 reagent-desc-red-bool = Окрыляет!
+id-card-access-level-expeditor = Исследователь

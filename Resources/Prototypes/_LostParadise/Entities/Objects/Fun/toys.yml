@@ -291,8 +291,7 @@
   parent: LPPSoftToysToys
   id: LPPKirrPlushie
   abstract: true
-  name: e
-  description:
+  name: Kirr plush
   components:
   - type: Sprite
     state: kirr
@@ -474,7 +473,7 @@
 
 - type: entity
   parent: BasePlushie
-  id: PlushieSharkFluppi
+  id: LPPPlushieSharkFluppi
   name: pink shark soft toy
   description: Hehe shonk :)
   components:
@@ -925,8 +924,8 @@
 - type: entity
   parent: LPPSoftToysToys
   id: LPPBread
-  name: LPPBread
-  description: LPPBread
+  name: Bread
+  description: Plushie bread?
   components:
     - type: Sprite
       sprite: Objects/Consumable/Food/Baked/bread.rsi
@@ -947,8 +946,8 @@
 - type: entity
   parent: LPPSoftToysToys
   id: LPPBelka
-  name: LPPBread
-  description: LPPBread
+  name: Belka
+  description: Who is belka?
   components:
     - type: Sprite
       sprite: _LostParadise/Objects/Fun/belka.rsi
