@@ -839,3 +839,51 @@ Entries:
   id: 74
   time: '2024-09-27T23:59:36.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/217
+- author: Farrellka
+  changes:
+    - type: Tweak
+      message: Полностью переведено меню строительства!
+  id: 75
+  time: '2024-09-28T20:48:43.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/223
+- author: Farrellka
+  changes:
+    - type: Remove
+      message: Удалены лишние переводы.
+  id: 76
+  time: '2024-09-28T22:37:37.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/224
+- author: SpicyDarkFox
+  changes:
+    - type: Remove
+      message: Убрана пушка S.O.L.E.I.L. из общего доступа
+    - type: Tweak
+      message: Изменены лодауты глав, поскольку они появлялись с ошибкой
+    - type: Fix
+      message: Исправлена печать мантиса
+  id: 77
+  time: '2024-09-29T05:58:18.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/225
+- author: MegaDaimond
+  changes:
+    - type: Add
+      message: >-
+        Добавлены новые виды .10 патронов (Резиновые, тренировочные, урановые,
+        бронебойные)
+    - type: Add
+      message: Добавлены коробки под .10 патроны
+    - type: Tweak
+      message: Вектор теперь использует .10 патроны, а не .45 магнум
+    - type: Tweak
+      message: Магазин под вектора теперь вмещает 40 патронов .10
+    - type: Tweak
+      message: Цена на вектор в планшете уменьшилась 11>5 ЦентКоинов
+    - type: Tweak
+      message: Планшет закупа СБ перемещён из кармана смотрителя в его шкафчик
+    - type: Tweak
+      message: С небольшим шансом станнеры могут появится в шкафчиках СБ
+    - type: Tweak
+      message: ГП и КМ получили миниатюрные лазерные пистолеты в их шкафчики
+  id: 78
+  time: '2024-09-29T16:18:08.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/213

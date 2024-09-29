@@ -19,6 +19,28 @@
   - type: SpentAmmoVisuals
 
 - type: entity
+  id: LPPBaseCartridgeMinigun
+  name: cartridge (.10 rifle)
+  parent: BaseCartridge
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeMinigun
+  - type: CartridgeAmmo
+    proto: BulletHeavyRifle
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: StaticPrice
+    price: 10
+
+- type: entity
   id: LPPCartridgeM4A1Lethal
   name: Bullet (calibre 5,56х45)
   parent: LPPBaseCartridgeRifle
@@ -85,3 +107,39 @@
   components:
   - type: CartridgeAmmo
     proto: LPPBulletLightRifleHunting
+
+- type: entity
+  id: LPPCartridgeMinigunrubber
+  name: bullet (.10 rifle rubber)
+  parent: LPPBaseCartridgeMinigun
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletMinigunRubber
+    deleteOnSpawn: true
+
+- type: entity
+  id: LPPCartridgeMinigunPractice
+  name: bullet (.10 rifle practice)
+  parent: LPPBaseCartridgeMinigun
+  components:
+  - type: CartridgeAmmo
+    proto: BaseBulletPractice
+    deleteOnSpawn: true
+
+- type: entity
+  id: LPPCartridgeMinigunAP
+  name: bullet (.10 rifle AP)
+  parent: LPPBaseCartridgeMinigun
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletMinigunAP
+    deleteOnSpawn: true
+
+- type: entity
+  id: LPPCartridgeMinigunUranium
+  name: bullet (.10 rifle uranium)
+  parent: LPPBaseCartridgeMinigun
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletMinigunUranium
+    deleteOnSpawn: true

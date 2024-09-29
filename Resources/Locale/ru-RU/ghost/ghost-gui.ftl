@@ -7,22 +7,8 @@ ghost-gui-toggle-fov-popup = Поле зрения переключено.
 ghost-gui-toggle-hearing-popup-on = Теперь вы слышите все фразы.
 ghost-gui-toggle-hearing-popup-off = Теперь вы слышите только радиосвязь и фразы поблизости.
 ghost-target-window-title = Телепорт призрака
-ghost-target-window-warp-to-most-followed = Телепорт к лидеру просмотров
 ghost-target-window-current-button = Телепорт в: { $name }
 ghost-roles-window-title = Роли призраков
-ghost-roles-window-join-raffle-button = Встать в очередь
-ghost-roles-window-raffle-in-progress-button =
-    В очереди (Осталось { $time }, { $players ->
-        [one] { $players } игрок
-        [few] { $players } игрока
-       *[other] { $players } игроков
-    })
-ghost-roles-window-leave-raffle-button =
-    Покинуть (Осталось { $time }, { $players ->
-        [one] { $players } игрок
-        [few] { $players } игрока
-       *[other] { $players } игроков
-    })
 ghost-roles-window-request-role-button = Запросить
 ghost-roles-window-request-role-button-timer = Запросить ({ $time }сек.)
 ghost-roles-window-follow-role-button = Следовать

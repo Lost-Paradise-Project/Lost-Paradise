@@ -31,7 +31,7 @@
       - id: LPPWeaponPistolPF20
       - id: LPPMagazinePistolPF20lethal
       - id: LPPMagazinePistolPF20Rubber
-        prob: 0.5 #Кибербуллинг метаюзеров :D
+      - id: LPPHOSUplinkShop #На будущее, будет хайриском
 
 - type: entity
   id: LockerWardenFilled
@@ -119,6 +119,8 @@
         prob: 0.01
       - id: ClothingMaskClown
         prob: 0.1
+      - id: WeaponDisabler
+        prob: 0.33
 
 - type: entity
   id: LockerBrigmedicFilled

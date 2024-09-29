@@ -59,7 +59,6 @@
   innerClothingSkirt: ClothingUniformJumpskirtChiefJustice
   satchel: ClothingBackpackSatchelFilled # TODO- make Justice departmebt bags
   duffelbag: ClothingBackpackDuffelFilled
-  storage:
-    back:
-    - LPPTelebaton
-
+  # storage:
+  #   back:
+  #   - LPPTelebaton
