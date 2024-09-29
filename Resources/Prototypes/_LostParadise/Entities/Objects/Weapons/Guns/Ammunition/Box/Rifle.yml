@@ -155,3 +155,73 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: LPPMagazineBoxRifleMinigun
+  name: коробка патронов (.10 винтовочные)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMinigun
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: LPPMagazineBoxRifleMinigunRubber
+  name: коробка патронов (.10 винтовочные резиновые)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeMinigunrubber
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: LPPMagazineBoxRifleMinigunPractice
+  name: коробка патронов (.10 винтовочные тренировочные)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeMinigunPractice
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: LPPMagazineBoxRifleMinigunUranium
+  name: коробка патронов (.10 винтовочные урановые)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeMinigunUranium
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: LPPMagazineBoxRifleMinigunAP
+  name: коробка патронов (.10 винтовочные бронебойные)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeMinigunAP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

@@ -350,9 +350,6 @@
   id: CartridgePistol
 
 - type: Tag
-  id: CartridgeMinigun #LPP
-
-- type: Tag
   id: CartridgeRifle
 
 - type: Tag
