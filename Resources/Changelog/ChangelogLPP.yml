@@ -853,3 +853,14 @@ Entries:
   id: 76
   time: '2024-09-28T22:37:37.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/224
+- author: SpicyDarkFox
+  changes:
+    - type: Remove
+      message: Убрана пушка S.O.L.E.I.L. из общего доступа
+    - type: Tweak
+      message: Изменены лодауты глав, поскольку они появлялись с ошибкой
+    - type: Fix
+      message: Исправлена печать мантиса
+  id: 77
+  time: '2024-09-29T05:58:18.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/225
