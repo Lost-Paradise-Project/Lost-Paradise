@@ -381,6 +381,14 @@
     count: 1
 
 - type: entity
+  parent: MaterialDiamond
+  id: MaterialDiamond5
+  suffix: five
+  components:
+  - type: Stack
+    count: 5
+
+- type: entity
   parent: MaterialBase
   id: MaterialCotton
   name: cotton

@@ -33,6 +33,6 @@ materials-raw-plasma = руда плазмы
 materials-raw-uranium = руда урана
 materials-raw-bananium = руда бананиума
 materials-raw-salt = каменная соль
-materials-raw-diamond = необработанные алмазы
+materials-raw-diamond = обработанные алмазы
 # Material Reclaimer
 material-reclaimer-upgrade-process-rate = Скорость обработки

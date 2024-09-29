@@ -13,6 +13,18 @@
   - LPPDiamondMiningDrill
   - LPPDiamondPickaxe
 
+- type: technology
+  id: LPPDiamondProcessing
+  name: lppresearch-technology-diamond-processing
+  icon:
+    sprite: _LostParadise/Structures/Machines/diamond_crusher.rsi
+    state: base
+  discipline: LPPDiamondProduction
+  tier: 1
+  cost: 2500
+  recipeUnlocks:
+  - LPPDiamondCrusherMachineCircuitboard
+
 # Tier 2
 
 - type: technology
