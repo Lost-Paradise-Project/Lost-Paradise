@@ -155,3 +155,73 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: LPPMagazineBoxRifleMinigun
+  name: ammunition box (.10 rifle)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMinigun
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: LPPMagazineBoxRifleMinigunRubber
+  name: ammunition box (.10 rifle rubber)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeMinigunrubber
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: LPPMagazineBoxRifleMinigunPractice
+  name: ammunition box (.10 rifle practice)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeMinigunPractice
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: LPPMagazineBoxRifleMinigunUranium
+  name: ammunition box (.10 rifle uranium)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeMinigunUranium
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: LPPMagazineBoxRifleMinigunAP
+  name: ammunition box (.10 rifle AP)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeMinigunAP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
