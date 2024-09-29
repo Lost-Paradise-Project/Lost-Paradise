@@ -57,7 +57,7 @@
     underwear: LPPBoxerBlue
   underwear: LPPBriefsBlue
   breast: LPPBraAltBlue
-  innerClothingSkirt: ClothingUniformJumpskirtAdjutant
+  innerClothingSkirt: LPPClothingUniformJumpskirtAdjutant
   satchel: ClothingBackpackSatchelHOPFilled
   duffelbag: ClothingBackpackDuffelHOPFilled
   storage:

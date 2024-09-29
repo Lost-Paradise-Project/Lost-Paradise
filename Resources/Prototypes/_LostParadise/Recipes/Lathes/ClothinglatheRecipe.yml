@@ -49,8 +49,8 @@
     Cloth: 300
 
 - type: latheRecipe
-  id: ClothingUniformJumpskirtAdjutant
-  result: ClothingUniformJumpskirtAdjutant
+  id: LPPClothingUniformJumpskirtAdjutant
+  result: LPPClothingUniformJumpskirtAdjutant
   completetime: 4
   materials:
     Cloth: 300

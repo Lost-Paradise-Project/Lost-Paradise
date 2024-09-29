@@ -1,4 +1,4 @@
-ent-ClothingUniformJumpskirtAdjutant = adjutant's jumpskirt
+ent-LPPClothingUniformJumpskirtAdjutant = adjutant's jumpskirt
     .desc = { ent-ClothingUniformSkirtBase.desc }
 ent-LPPCargoBlackSkirt = BlackSkirt
     .desc = { ent-ClothingUniformBase.desc }
@@ -62,7 +62,7 @@ ent-LPPSupplyChiefSkirtSec = supply chief skirt
     .desc = { ent-ClothingUniformBase.desc }
 ent-LPPClothingUniformJumpskirtAltWhiteTopic = alt white topic
     .desc = Pretty clothes exposing the body.
-    .suffix = Sponsor
+    .suffix = Спонсор
 ent-LPPClothingUniformJumpskirtWhiteTopic = white topic
     .desc = Pretty clothes exposing the body.
-    .suffix = Sponsor
+    .suffix = Спонсор
