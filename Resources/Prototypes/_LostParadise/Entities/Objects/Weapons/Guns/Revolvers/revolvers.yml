@@ -2,7 +2,7 @@
 - type: entity
   name: Colt Peacemaker
   parent: BaseWeaponRevolver
-  id: WeaponRevolverColtpeacemaker
+  id: LPPWeaponRevolverColtpeacemaker
   description: Legendary revolver from wild west. Uses .45 magnum bullets
   components:
   - type: Sprite
@@ -18,7 +18,7 @@
 - type: entity
   name: peacemakerbase
   parent: BaseItem
-  id: AVBase
+  id: LPPAVBase
   description: The weapon carried by Detective Artemon Vealis uses a .357 magnum caliber and is engraved with his initials A.V.
   abstract: true
   components:
@@ -60,7 +60,7 @@
 
 - type: entity
   name: peacemaker
-  parent: AVBase
+  parent: LPPAVBase
   id: LPPWeaponRevolverPeacemaker
   description: The weapon carried by Detective Artemon Vealis uses a .357 magnum caliber and is engraved with his initials A.V.
   components:

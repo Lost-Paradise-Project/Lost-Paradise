@@ -1,6 +1,6 @@
-ent-LPPLockerBlueShield = blue shield locker
+ent-LPPLockerBlueShield = шкафчик офицера "Синий щит"
     .desc = { ent-LockerBaseSecure.desc }
 ent-LockerSecEng = Шкаф полевого инженера
     .desc = { ent-LockerBaseSecure.desc }
-ent-LockerExpeditor = Expeditor Locker
+ent-LockerExpeditor = Шкаф экспедитора
     .desc = { ent-LockerBaseSecure.desc }
