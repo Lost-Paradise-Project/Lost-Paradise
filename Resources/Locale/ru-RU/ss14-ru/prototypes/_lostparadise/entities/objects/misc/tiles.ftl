@@ -2,7 +2,6 @@ ent-LPPFloorTileItemBase = { ent-BaseItem }
     .desc = These could work as a pretty decent throwing weapon.
 ent-LPPFloorTileItemWoodLarge = steel dark checker tile
     .desc = { ent-FloorTileItemSteel.desc }
-
 ent-FloorTileItemDarkS = steel dark checker tile
     .desc = { ent-FloorTileItemSteel.desc }
 ent-FloorTileItemDarkDiagonalS = steel dark checker tile
@@ -21,7 +20,6 @@ ent-FloorTileItemDarkPavementS = steel dark checker tile
     .desc = { ent-FloorTileItemSteel.desc }
 ent-FloorTileItemDarkPavementVerticalS = steel dark checker tile
     .desc = { ent-FloorTileItemSteel.desc }
-
 ent-FloorTileItemSteelS = steel checker tile
     .desc = { ent-FloorTileItemSteel.desc }
 ent-FloorTileItemSteelDiagonalS = steel checker tile
@@ -40,7 +38,6 @@ ent-FloorTileItemSteelPavementS = steel checker tile
     .desc = { ent-FloorTileItemSteel.desc }
 ent-FloorTileItemSteelPavementVerticalS = steel checker tile
     .desc = { ent-FloorTileItemSteel.desc }
-
 ent-FloorTileItemWhiteS = steel white checker tile
     .desc = { ent-FloorTileItemSteel.desc }
 ent-FloorTileItemWhiteDiagonalS = white checker tile
