@@ -5,5 +5,4 @@ ent-LPPWeaponVulcan = вулкан
 ent-LPPBaseAIMechModulePunchAndVulcan = { ent-BaseBorgModule }
     .desc = { ent-BaseBorgModule.desc }
 ent-LPPAIMechModulePunchAndVulcan = модуль повышеной толерантности экипажа
-
-  .desc = { ent-['LPPBaseAIMechModulePunchAndVulcan', 'BaseProviderBorgModule'].desc }
+  .desc = { ent-LPPBaseAIMechModulePunchAndVulcan.desc }
