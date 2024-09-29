@@ -508,8 +508,8 @@
     corvax-chatsan-word-125: corvax-chatsan-replacement-125
     # Corvax-ChatSanitize-End
     # LP-ChatSanitize-Start
-    lp-chatsan-word-1: lp-chatsan-replacement-1
-    lp-chatsan-word-2: lp-chatsan-replacement-2
+    #lp-chatsan-word-1: lp-chatsan-replacement-1
+    #lp-chatsan-word-2: lp-chatsan-replacement-2
     lp-chatsan-word-3: lp-chatsan-replacement-3
     lp-chatsan-word-4: lp-chatsan-replacement-4
     lp-chatsan-word-5: lp-chatsan-replacement-5
