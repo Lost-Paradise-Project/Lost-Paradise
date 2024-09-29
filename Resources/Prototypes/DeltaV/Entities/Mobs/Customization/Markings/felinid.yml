@@ -2,7 +2,7 @@
   id: FelinidFluffyTailRings
   bodyPart: Tail
   markingCategory: Tail
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: DeltaV/Mobs/Customization/Felinid/felinid_tails.rsi
@@ -14,7 +14,7 @@
   id: FelinidFluffyTail
   bodyPart: Tail
   markingCategory: Tail
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: DeltaV/Mobs/Customization/Felinid/felinid_tails.rsi
@@ -24,7 +24,7 @@
   id: FelinidAlternativeTail
   bodyPart: Tail
   markingCategory: Tail
-  #speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
     - sprite: DeltaV/Mobs/Customization/Felinid/alternative_tail.rsi

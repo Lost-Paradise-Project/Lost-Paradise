@@ -3,6 +3,7 @@ using System;
 using Content.Server.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Content.Server.Database.Migrations.Sqlite
 {
     [DbContext(typeof(SqliteServerDbContext))]
-    partial class SqliteServerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240926173707_1984 Backpack Prefs")]
+    partial class _1984BackpackPrefs
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.0");
@@ -532,32 +535,7 @@ namespace Content.Server.Database.Migrations.Sqlite
 
                     b.ToTable("connection_log", (string)null);
                 });
-#if LPP_Sponsors
-            modelBuilder.Entity("Content.Server.Database.Donate", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("donate_id");
 
-                    b.Property<string>("DonateName")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("donate_name");
-
-                    b.Property<int>("ProfileId")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("profile_id");
-
-                    b.HasKey("Id")
-                        .HasName("PK_donate");
-
-                    b.HasIndex("ProfileId", "DonateName")
-                        .IsUnique();
-
-                    b.ToTable("donate", (string)null);
-                });
-#endif
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
                     b.Property<int>("Id")
@@ -826,11 +804,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .IsRequired()
                         .HasColumnType("TEXT")
                         .HasColumnName("species");
-
-                    b.Property<string>("Voice")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("voice");
 
                     b.Property<float>("Width")
                         .HasColumnType("REAL")
@@ -1169,53 +1142,7 @@ namespace Content.Server.Database.Migrations.Sqlite
 
                     b.ToTable("server_unban", (string)null);
                 });
-#if LPP_Sponsors
-            modelBuilder.Entity("Content.Server.Database.Sponsor", b =>
-                {
-                    b.Property<Guid>("UserId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("user_id");
 
-                    b.Property<bool>("AllowJob")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("allow_job");
-
-                    b.Property<string>("AllowedMarkings")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("allowed_markings");
-
-                    // b.Property<DateTime>("ExpireDate")
-                    //     .HasColumnType("TEXT")
-                    //     .HasColumnName("expire_date");
-
-                    b.Property<int>("ExtraSlots")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("extra_slots");
-
-                    b.Property<bool>("HavePriorityJoin")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("have_priority_join");
-
-                    b.Property<string>("OOCColor")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("ooccolor");
-
-                    b.Property<int>("Tier")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("tier");
-
-                    b.HasKey("UserId")
-                        .HasName("PK_sponsors");
-
-                    b.HasIndex("UserId")
-                        .IsUnique();
-
-                    b.ToTable("sponsors", (string)null);
-                });
-#endif
             modelBuilder.Entity("Content.Server.Database.Trait", b =>
                 {
                     b.Property<int>("Id")
@@ -1534,19 +1461,7 @@ namespace Content.Server.Database.Migrations.Sqlite
 
                     b.Navigation("Server");
                 });
-#if LPP_Sponsors
-            modelBuilder.Entity("Content.Server.Database.Donate", b =>
-                {
-                    b.HasOne("Content.Server.Database.Profile", "Profile")
-                        .WithMany("Donate")
-                        .HasForeignKey("ProfileId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_donate_profile_profile_id");
 
-                    b.Navigation("Profile");
-                });
-#endif
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
                     b.HasOne("Content.Server.Database.Profile", "Profile")
@@ -1792,9 +1707,7 @@ namespace Content.Server.Database.Migrations.Sqlite
             modelBuilder.Entity("Content.Server.Database.Profile", b =>
                 {
                     b.Navigation("Antags");
-#if LPP_Sponsors
-                    b.Navigation("Donate");
-#endif
+
                     b.Navigation("Jobs");
 
                     b.Navigation("Loadouts");

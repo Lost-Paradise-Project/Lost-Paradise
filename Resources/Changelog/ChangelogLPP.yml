@@ -887,3 +887,18 @@ Entries:
   id: 78
   time: '2024-09-29T16:18:08.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/213
+- author: SpicyDarkFox
+  changes:
+    - type: Tweak
+      message: >-
+        Изменена доступность внешних черт по типу кошачьих хвостиков, теперь они
+        только для людей
+    - type: Fix
+      message: Исправлен баг со спонсоркой, когда не выдавались дополнительные слоты
+    - type: Fix
+      message: >-
+        Исправлен баг со спонсоркой при позднем присоединении, не дававший зайти
+        в раунд
+  id: 79
+  time: '2024-09-29T17:39:16.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/228
