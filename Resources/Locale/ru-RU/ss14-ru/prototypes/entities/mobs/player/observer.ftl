@@ -1,4 +1,4 @@
-ent-MobObserver = наблюдатель
+ent-MobObserver = Наблюдатель
     .desc = Буу!
 ent-ActionGhostBoo = Бу!
     .desc = Пугайте членов своей команды со скуки!

@@ -30,7 +30,7 @@
 - type: entity
   name: Cutter
   parent: BaseWeaponBatterySmall
-  id: WeaponCutter
+  id: LPPWeaponCutter
   description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
   components:
     - type: Sprite
@@ -50,7 +50,7 @@
 - type: entity
   name: Advanced Cutter
   parent: BaseWeaponBatterySmall
-  id: WeaponCutterAdv
+  id: LPPWeaponCutterAdv
   description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
   components:
     - type: Sprite
@@ -163,7 +163,7 @@
 - type: entity
   name: chrono laser gun
   parent: BaseWeaponBattery
-  id: WeaponLaserChrono
+  id: LPPWeaponLaserChrono
   description: Favoured by Nanotrasen Security for being cheap and easy to use.
   components:
   - type: Sprite

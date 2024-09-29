@@ -1,2 +1,2 @@
-ent-LockerForensicMantis = шкаф мантиса
+ent-LockerForensicMantis = Шкаф мантиса
     .desc = Вы никогда не узнаете, что находится внутри, пока не разрушите квантовую суперпозицию всех возможных тайн.    .suffix = Empty

@@ -1,11 +1,11 @@
-ent-SpawnPointGhostIfrit = спавн для призрачной роли
+ent-SpawnPointGhostIfrit = Спавн для призрачной роли
     .suffix = Ифрит (Стенд)
     .desc = { ent-MarkerBase.desc }
-ent-SpawnPointGhostFugitive = спавн для призрачной роли
+ent-SpawnPointGhostFugitive = Спавн для призрачной роли
     .desc = { ent-MarkerBase.desc }
-ent-SpawnPointLocationMidRoundAntag = спавн заключённого (средний шанс)
+ent-SpawnPointLocationMidRoundAntag = Спавн заключённого (средний шанс)
     .suffix = Антаганист по середине раунда
     .desc = { ent-MarkerBase.desc }
-ent-SpawnPointGhostVampSpider = спавн для призрачной роли
+ent-SpawnPointGhostVampSpider = Спавн для призрачной роли
     .suffix = Вампирский паук
     .desc = { ent-MarkerBase.desc }

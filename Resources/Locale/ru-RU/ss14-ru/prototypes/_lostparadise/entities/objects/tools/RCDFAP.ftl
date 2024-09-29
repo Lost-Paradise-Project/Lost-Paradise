@@ -3,5 +3,5 @@ ent-LPPRCDFAPDevice = РСУАП
 ent-LPPRCDFAPDeviceEmpty = { ent-LPPRCDFAPDevice }
     .suffix = Empty
     .desc = { ent-LPPRCDFAPDevice.desc }
-ent-LPPRCDFAPAmmo = спрессованная материя
+ent-LPPRCDFAPAmmo = Спрессованная материя
     .desc = Спресованная материя используемая РСУАП для возведения конструкций атмосферного назначения, предоставлено BL CORP.

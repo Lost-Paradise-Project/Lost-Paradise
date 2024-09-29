@@ -1,2 +1,2 @@
-ent-ClothingOuterHardsuitERTChaplain = скафандр ОБР священника
+ent-ClothingOuterHardsuitERTChaplain = Скафандр ОБР священника
     .desc = Защитный костюм, который носят капитаны груп быстрого реагирования на чрезвычайные ситуации.

@@ -1,4 +1,4 @@
-ent-BackgammonBoard = доска для нард
+ent-BackgammonBoard = Доска для нард
     .desc = Старомодная игра в кости и фишки.
-ent-BackgammonBoardTabletop = нарды
+ent-BackgammonBoardTabletop = Нарды
     .desc = { "" }

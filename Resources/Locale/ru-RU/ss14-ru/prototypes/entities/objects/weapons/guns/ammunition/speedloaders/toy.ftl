@@ -1,4 +1,4 @@
-ent-BaseSpeedLoaderCap = зарядник пистонов
+ent-BaseSpeedLoaderCap = Зарядник пистонов
     .desc = { ent-BaseItem.desc }
-ent-SpeedLoaderCap = зарядник пистонов
+ent-SpeedLoaderCap = Зарядник пистонов
     .desc = { ent-BaseSpeedLoaderCap.desc }

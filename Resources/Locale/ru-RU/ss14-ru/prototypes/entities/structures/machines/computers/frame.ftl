@@ -1,6 +1,6 @@
 ent-BaseStructureComputer = { ent-BaseStructure }
     .desc = { ent-BaseStructure.desc }
-ent-ComputerFrame = каркас консоли
+ent-ComputerFrame = Каркас консоли
     .desc = Строящаяся консоль.
-ent-ComputerBroken = сломанная консоль
+ent-ComputerBroken = Сломанная консоль
     .desc = Эта консоль видала лучшие времена.

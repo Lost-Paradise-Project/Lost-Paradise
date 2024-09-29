@@ -1,4 +1,4 @@
-ent-SpawnMobSyndicateFootSoldier = спавнер пехотинец синдиката
+ent-SpawnMobSyndicateFootSoldier = Спавнер пехотинец синдиката
     .desc = { ent-MarkerBase.desc }
-ent-SpawnMobSyndicateFootsoldierPilot = спавнер пилот шаттла синдиката
+ent-SpawnMobSyndicateFootsoldierPilot = Спавнер пилот шаттла синдиката
     .desc = { ent-SpawnMobSyndicateFootSoldier.desc }

@@ -1,2 +1,2 @@
-ent-LPPClothingHandsGlovesNPZCombat = боевые перчатки НПЗ
+ent-LPPClothingHandsGlovesNPZCombat = Боевые перчатки НПЗ
     .desc = Боевые перчатки бойцов НПЗ, с арамидным покрытием в области костяшек, для нанесения увечий и выбивания дури из противника.

@@ -1,6 +1,6 @@
 ent-MailBooksAll = { ent-BaseMail }
-    .suffix = книги
+    .suffix = Книги
     .desc = { ent-BaseMail.desc }
 ent-MailPumpkinPie = { ent-BaseMail }
-    .suffix = тыквенный пирог
+    .suffix = Тыквенный пирог
     .desc = { ent-BaseMail.desc }

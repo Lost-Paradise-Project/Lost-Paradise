@@ -12,5 +12,5 @@ ent-LPPClothingHeadTSFHelmet = TSF helmet
     .desc = Helmet for TSF needs
 ent-LPPClothingHeadUrbanHelmetPG = urban PG helmet
     .desc = Helmet for PG needs
-ent-LPPClothingHeadHelmetNPZ = шлем НПЗ
+ent-LPPClothingHeadHelmetNPZ = Шлем НПЗ
     .desc = Крепкий шлем из кевлара и пластали, защитит от мелкокалиберной пули, а так же шрапнели.

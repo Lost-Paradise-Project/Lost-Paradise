@@ -1,2 +1,2 @@
-ent-CentcomComputerComms = консоль связи Центком
+ent-CentcomComputerComms = Консоль связи Центком
     .desc = { ent-ComputerComms.desc }

@@ -1,10 +1,10 @@
-ent-ClothingHeadHatAnimalCat = серая кошко-шапка
+ent-ClothingHeadHatAnimalCat = Серая кошко-шапка
     .desc = Милая и пушистая серая кошка вам на голову.
-ent-ClothingHeadHatAnimalCatBrown = коричневая кошко-шапка
+ent-ClothingHeadHatAnimalCatBrown = Коричневая кошко-шапка
     .desc = Милая и пушистая коричневая кошка вам на голову.
-ent-ClothingHeadHatAnimalCatBlack = чёрная кошко-шапка
+ent-ClothingHeadHatAnimalCatBlack = Чёрная кошко-шапка
     .desc = Милая и пушистая чёрная кошка вам на голову.
-ent-ClothingHeadHatAnimalHeadslime = слаймо-шапка
+ent-ClothingHeadHatAnimalHeadslime = Слаймо-шапка
     .desc = Зелёная, липкая слизь, которую надевают на голову.
-ent-ClothingHeadHatAnimalMonkey = обезьянья шапка
+ent-ClothingHeadHatAnimalMonkey = Обезьянья шапка
     .desc = Голова обезьяны. В ней есть отверстие для рта, чтобы есть бананы.

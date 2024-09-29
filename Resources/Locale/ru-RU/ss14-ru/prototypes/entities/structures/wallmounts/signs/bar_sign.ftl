@@ -1,6 +1,6 @@
-ent-BaseBarSign = вывеска бара
+ent-BaseBarSign = Вывеска бара
     .desc = { ent-BaseStructure.desc }
-ent-BarSign = вывеска бара
+ent-BarSign = Вывеска бара
     .desc = { ent-BaseBarSign.desc }
     .suffix = Случайный
 ent-BarSignComboCafe = Комбо Кафе

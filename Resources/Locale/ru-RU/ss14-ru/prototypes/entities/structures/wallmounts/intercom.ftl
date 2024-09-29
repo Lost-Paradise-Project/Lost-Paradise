@@ -1,8 +1,8 @@
-ent-BaseIntercom = интерком
+ent-BaseIntercom = Интерком
     .desc = Интерком. На случай, когда необходимо что-то сообщить станции.
-ent-IntercomAssembly = интерком
+ent-IntercomAssembly = Интерком
     .desc = Интерком. На данный момент он бесполезен.
-ent-IntercomAssesmbly = интерком
+ent-IntercomAssesmbly = Интерком
     .desc = Интерком. На данный момент он бесполезен.
 ent-IntercomConstructed = { ent-BaseIntercom }
     .suffix = Пустой, Панель открыта

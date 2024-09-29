@@ -1,10 +1,10 @@
-ent-filingCabinet = картотечный шкаф
+ent-filingCabinet = Картотечный шкаф
     .desc = Шкаф для хранения документов.
     .suffix = Пустой
-ent-filingCabinetTall = высокий шкаф
+ent-filingCabinetTall = Высокий шкаф
     .desc = { ent-filingCabinet.desc }
     .suffix = Пустой
-ent-filingCabinetDrawer = комод
+ent-filingCabinetDrawer = Комод
     .desc = Маленький шкафчик для хранения предметов. Теперь на колёсиках!
     .suffix = Пустой
 ent-BaseBureaucraticStorageFill = { "" }

@@ -1,2 +1,2 @@
-ent-ClothingNeckProsecutorbadge = значок прокурора
+ent-ClothingNeckProsecutorbadge = Значок прокурора
     .desc = Значок который выдают лицензированным прокурорам юридического департамента корпорации NT.

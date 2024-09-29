@@ -1,6 +1,6 @@
-ent-BaseMeteor = метеор
+ent-BaseMeteor = Метеор
     .desc = Вы бы предпочли, чтобы они сгорали в атмосфере.
-ent-MeteorSpaceDust = космическая пыль
+ent-MeteorSpaceDust = Космическая пыль
     .desc = Заставляет станцию чихать.
 ent-MeteorSmall = { ent-BaseMeteor }
     .suffix = Маленький

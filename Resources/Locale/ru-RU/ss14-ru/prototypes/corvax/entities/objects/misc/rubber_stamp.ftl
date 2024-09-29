@@ -1,6 +1,6 @@
-ent-RubberStampIAA = печать агента внутренних дел
+ent-RubberStampIAA = Печать агента внутренних дел
     .desc = { ent-RubberStampMime.desc }
     .suffix = НЕ МАППИТЬ
-ent-RubberStampPsychologist = печать психолога
+ent-RubberStampPsychologist = Печать психолога
     .desc = { ent-RubberStampMime.desc }
     .suffix = НЕ МАППИТЬ

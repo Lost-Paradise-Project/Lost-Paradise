@@ -1,6 +1,6 @@
-ent-BaseThruster = ракетный двигатель
+ent-BaseThruster = Ракетный двигатель
     .desc = Ускоритель, позволяющий шаттлу передвигаться.
-ent-Thruster = ракетный двигатель
+ent-Thruster = Ракетный двигатель
     .desc = { ent-BaseThruster.desc }
 ent-ThrusterUnanchored = { ent-Thruster }
     .suffix = Незакреплённый
@@ -8,7 +8,7 @@ ent-ThrusterUnanchored = { ent-Thruster }
 ent-DebugThruster = { ent-BaseThruster }
     .suffix = DEBUG
     .desc = { ent-BaseThruster.desc }
-ent-Gyroscope = гироскоп
+ent-Gyroscope = Гироскоп
     .desc = Увеличивает потенциальное угловое вращение шаттла.
 ent-GyroscopeUnanchored = { ent-Gyroscope }
     .suffix = Незакреплённый

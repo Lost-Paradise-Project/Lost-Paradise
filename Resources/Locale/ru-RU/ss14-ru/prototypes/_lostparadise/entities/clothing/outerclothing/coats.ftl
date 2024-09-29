@@ -16,5 +16,5 @@ ent-LPPClothingOuterCoatLabSec = lab coat (sec)
     .desc = A suit that protects against minor chemical spills. Has an red stripe on the shoulder.
 ent-LPPExpeditorCoat = expeditor coat
     .desc = nice coat.
-ent-LPPOuterClothingGarfield = костюм Гарфилда
+ent-LPPOuterClothingGarfield = Костюм Гарфилда
     .desc = Мягкий и пахнет ненавистью к понедельникам.

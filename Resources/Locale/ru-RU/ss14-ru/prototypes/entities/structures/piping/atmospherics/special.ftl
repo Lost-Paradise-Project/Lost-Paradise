@@ -1,4 +1,4 @@
-ent-AtmosDeviceFanTiny = маленький вентилятор
+ent-AtmosDeviceFanTiny = Маленький вентилятор
     .desc = Маленький вентилятор, создающий лёгкий поток воздуха.
-ent-AtmosDeviceFanDirectional = направленный вентилятор
+ent-AtmosDeviceFanDirectional = Направленный вентилятор
     .desc = Небольшой вентилятор, препятствующий распространению газов.

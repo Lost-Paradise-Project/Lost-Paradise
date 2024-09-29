@@ -28,7 +28,7 @@
   parent: ClothingHeadBase
   id: LPPClothingHeadHatHoodScientificCloak
   name: Scientific cloak hood
-  description: A hood of a Scientific cloak.ы
+  description: A hood of a Scientific cloak.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Cloak/scientificcloakhel.rsi
@@ -177,7 +177,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPCloakLeaderNPZ
-  name: Cloak of NPZ leader 
+  name: Cloak of NPZ leader
   description: And don't let your cloak get dirty in the blood of xenos, washing is expensive, by the way.
   components:
     - type: Sprite

@@ -1,4 +1,4 @@
-ent-ShuttleWindow = окно шаттла
+ent-ShuttleWindow = Окно шаттла
     .desc = { ent-Window.desc }
 ent-ShuttleWindowDiagonal = { ent-ShuttleWindow }
     .suffix = Диагональ

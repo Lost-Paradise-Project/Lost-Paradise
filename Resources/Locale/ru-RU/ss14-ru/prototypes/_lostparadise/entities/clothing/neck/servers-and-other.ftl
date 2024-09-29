@@ -1,10 +1,10 @@
-ent-MSSAPinAndromeda = значок "Андромеда"
+ent-MSSAPinAndromeda = Значок "Андромеда"
     .desc = Будь как дома, путник.
-ent-MSSAPinLostParadise = значок "Lost Paradise"
+ent-MSSAPinLostParadise = Значок "Lost Paradise"
     .desc = Стараемся для вас!
-ent-MSSAPinFoxHole = значок "Лисей Норы"
+ent-MSSAPinFoxHole = Значок "Лисей Норы"
     .desc = Лисья нора, там где тихо и спокойно.
-ent-MSSAPinMSSA = значок "МССА"
+ent-MSSAPinMSSA = Значок "МССА"
     .desc = Вместе мы сильны!
-ent-MSSAPinSirena = значок "Сирена"
+ent-MSSAPinSirena = Значок "Сирена"
     .desc = Клуб интеллигентных людей.

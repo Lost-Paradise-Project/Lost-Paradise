@@ -1,6 +1,6 @@
-ent-ClothingNeckTieRed = красный галстук
+ent-ClothingNeckTieRed = Красный галстук
     .desc = Красный галстук из нео-шёлка с зажимом.
-ent-ClothingNeckTieDet = галстук детектива
+ent-ClothingNeckTieDet = Галстук детектива
     .desc = Свободно завязанный галстук - идеальный аксессуар для усталого детектива.
-ent-ClothingNeckTieSci = галстук учёного
+ent-ClothingNeckTieSci = Галстук учёного
     .desc = Почему мы все должны носить эти нелепые галстуки?

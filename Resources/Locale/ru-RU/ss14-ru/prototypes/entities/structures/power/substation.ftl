@@ -1,6 +1,6 @@
-ent-BaseSubstation = подстанция
+ent-BaseSubstation = Подстанция
     .desc = Понижает напряжение подаваемого в него электричества.
-ent-BaseSubstationWall = настенная подстанция
+ent-BaseSubstationWall = Настенная подстанция
     .desc = Подстанция, предназначенная для компактных шаттлов и помещений.
 ent-SubstationBasic = { ent-BaseSubstation }
     .suffix = Базовая, 2,5МДж
@@ -11,5 +11,5 @@ ent-SubstationBasicEmpty = { ent-SubstationBasic }
 ent-SubstationWallBasic = { ent-BaseSubstationWall }
     .suffix = Базовая, 2МДж
     .desc = { ent-BaseSubstationWall.desc }
-ent-BaseSubstationWallFrame = каркас настенной подстанции
+ent-BaseSubstationWallFrame = Каркас настенной подстанции
     .desc = Каркас для строительства подстанции.

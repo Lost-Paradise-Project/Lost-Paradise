@@ -334,6 +334,6 @@ ent-LPPCutOutTop = Cut Out Top
     .desc = { ent-LPPClothingBreastBase.desc }
 ent-LPPCutOutTop2 = Cut Out Top v2
     .desc = { ent-LPPClothingBreastBase.desc }
-ent-LPPCowTop = коровий бюсгалтер
+ent-LPPCowTop = Коровий бюсгалтер
     .desc = Муу.
     .suffix = СПОНСОР

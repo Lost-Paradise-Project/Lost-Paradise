@@ -56,5 +56,5 @@ ent-LPPHelmetHardsuitHoodWinter = Hood Winter
     .desc = { ent-ClothingHeadBase.desc }
 ent-LPPKirasHead = Kirava Hoodsec
     .desc = The steering wheel is imprinted in the visor of this helmet.
-ent-LPPHelmetGarfiled = капюшон костюма Гарфилда
+ent-LPPHelmetGarfiled = Капюшон костюма Гарфилда
     .desc = Пахнет лазанью...

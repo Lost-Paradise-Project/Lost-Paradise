@@ -1,2 +1,2 @@
-ent-ClothingHeadHelmetHardsuitERTChaplain = шлем скафандра ОБР священника
+ent-ClothingHeadHelmetHardsuitERTChaplain = Шлем скафандра ОБР священника
     .desc = Защитный костюм, который носят капитаны груп быстрого реагирования на чрезвычайные ситуации.

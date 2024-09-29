@@ -1,4 +1,4 @@
-ent-TableBase = стол
+ent-TableBase = Стол
     .desc = Квадратный лист металла, стоящий на четырёх металлических ножках.
-ent-CounterBase = стойка
+ent-CounterBase = Стойка
     .desc = { ent-TableBase.desc }

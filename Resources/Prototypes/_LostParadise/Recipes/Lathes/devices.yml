@@ -1,6 +1,6 @@
 - type: latheRecipe
-  id: WeaponCutter
-  result: WeaponCutter
+  id: LPPWeaponCutter
+  result: LPPWeaponCutter
   completetime: 6
   materials:
     Steel: 910
@@ -23,8 +23,8 @@
 #     Uranium: 150
 
 - type: latheRecipe
-  id: WeaponCutterAdv
-  result: WeaponCutterAdv
+  id: LPPWeaponCutterAdv
+  result: LPPWeaponCutterAdv
   completetime: 9
   materials:
     Steel: 1850

@@ -1,12 +1,12 @@
 ent-PartBase = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
-ent-PartRodMetal = металлический стержень
+ent-PartRodMetal = Металлический стержень
     .suffix = Полный
     .desc = { ent-PartBase.desc }
-ent-PartRodMetal10 = металлический стержень
+ent-PartRodMetal10 = Металлический стержень
     .suffix = 10
     .desc = { ent-PartRodMetal.desc }
-ent-PartRodMetal1 = металлический стержень
+ent-PartRodMetal1 = Металлический стержень
     .suffix = Один
     .desc = { ent-PartRodMetal.desc }
 ent-PartRodMetalLingering0 = { ent-PartRodMetal }

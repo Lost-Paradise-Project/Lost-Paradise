@@ -14,5 +14,5 @@ ent-LPPBackpackDuffelEmpGrenadeDelta = Вещвещмешок с граната�
     .desc = Содержит 5 гранат ЭМИ
 ent-LPPBackpackDuffelIncendiaryGrenadeDelta = Вещвещмешок с зажигательными гранатами
     .desc = Содержит 5 зажигательных гранат
-ent-LPPClothingBackpackDuffelAcientSyndicateHardsuitBundle = набор древнего скафандра
+ent-LPPClothingBackpackDuffelAcientSyndicateHardsuitBundle = Набор древнего скафандра
     .desc = Содержит набор с древним скафандром.

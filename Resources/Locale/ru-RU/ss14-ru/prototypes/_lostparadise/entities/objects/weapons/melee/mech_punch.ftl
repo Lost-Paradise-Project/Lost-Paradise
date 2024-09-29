@@ -1,8 +1,8 @@
-ent-LPPMechPunch = силовая клешня меха
+ent-LPPMechPunch = Силовая клешня меха
     .desc = Сила демократии.
-ent-LPPWeaponVulcan = вулкан
+ent-LPPWeaponVulcan = Вулкан
     .desc = Ешь, пей, молись, подчинись.
 ent-LPPBaseAIMechModulePunchAndVulcan = { ent-BaseBorgModule }
     .desc = { ent-BaseBorgModule.desc }
-ent-LPPAIMechModulePunchAndVulcan = модуль повышеной толерантности экипажа
+ent-LPPAIMechModulePunchAndVulcan = Модуль повышеной толерантности экипажа
     .desc = { ent-LPPBaseAIMechModulePunchAndVulcan.desc }

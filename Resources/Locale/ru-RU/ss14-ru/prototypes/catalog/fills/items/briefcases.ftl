@@ -1,12 +1,12 @@
-ent-BriefcaseBrownFilled = коричневый чемодан
+ent-BriefcaseBrownFilled = Коричневый чемодан
     .suffix = Заполненный, Бумага
     .desc = { ent-BriefcaseBrown.desc }
-ent-BriefcaseSyndieSniperBundleFilled = коричневый чемодан
+ent-BriefcaseSyndieSniperBundleFilled = Коричневый чемодан
     .suffix = Заполненный, Христов
     .desc = { ent-BriefcaseSyndie.desc }
-ent-BriefcaseSyndieLobbyingBundleFilled = коричневый чемодан
+ent-BriefcaseSyndieLobbyingBundleFilled = Коричневый чемодан
     .suffix = Синдикат, Кредиты
     .desc = { ent-BriefcaseSyndie.desc }
-ent-BriefcaseThiefBribingBundleFilled = коричневый чемодан
+ent-BriefcaseThiefBribingBundleFilled = Коричневый чемодан
     .suffix = Вор, Кредиты
     .desc = { ent-BriefcaseSyndie.desc }

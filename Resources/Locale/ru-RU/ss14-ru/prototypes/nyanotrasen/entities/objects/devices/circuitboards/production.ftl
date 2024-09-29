@@ -1,8 +1,8 @@
-ent-MetempsychoticMachineCircuitboard = плата машины для метампсихоза
+ent-MetempsychoticMachineCircuitboard = Плата машины для метампсихоза
     .desc = Печатная плата для машины метампсихоза.
-ent-ReverseEngineeringMachineCircuitboard = плата машины анализатора технологий
+ent-ReverseEngineeringMachineCircuitboard = Плата машины анализатора технологий
     .desc = Печатная плата для машины обратной разработки.
-ent-DeepFryerMachineCircuitboard = плата фритюрницы
+ent-DeepFryerMachineCircuitboard = Плата фритюрницы
     .desc = { ent-BaseMachineCircuitboard.desc }
-ent-MailTeleporterMachineCircuitboard = плата почтового телепортера
+ent-MailTeleporterMachineCircuitboard = Плата почтового телепортера
     .desc = { ent-BaseMachineCircuitboard.desc }

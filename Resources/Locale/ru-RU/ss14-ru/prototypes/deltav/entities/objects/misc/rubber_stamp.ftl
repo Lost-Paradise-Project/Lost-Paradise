@@ -1,7 +1,7 @@
-ent-RubberStampLawyer = печать адвоката
+ent-RubberStampLawyer = Печать адвоката
     .suffix = НЕ МАППИТЬ
     .desc = { ent-RubberStampBase.desc }
-ent-RubberStampNotary = нотариальная печать
+ent-RubberStampNotary = Нотариальная печать
     .desc = Старомодная печать для заверения документов. Сделана из бронзового сплава.
-ent-RubberStampChiefJustice = печать верховного судьи
+ent-RubberStampChiefJustice = Печать верховного судьи
     .desc = { ent-RubberStampBase.desc }

@@ -1,11 +1,11 @@
-ent-SmokingPipe = курительная трубка
+ent-SmokingPipe = Курительная трубка
     .desc = Прямо как курил дедуля.
-ent-SmokingPipeFilledTobacco = курительная трубка
+ent-SmokingPipeFilledTobacco = Курительная трубка
     .desc = { ent-SmokingPipe.desc }
     .suffix = Табак
-ent-SmokingPipeFilledCannabis = курительная трубка
+ent-SmokingPipeFilledCannabis = Курительная трубка
     .desc = { ent-SmokingPipe.desc }
     .suffix = Конопля
-ent-SmokingPipeFilledCannabisRainbow = курительная трубка
+ent-SmokingPipeFilledCannabisRainbow = Курительная трубка
     .desc = Прямо как курил дедуля.
     .suffix = Радужная конопля

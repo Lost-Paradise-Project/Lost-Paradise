@@ -1,10 +1,10 @@
-ent-ClothingNeckHeadphones = наушники
+ent-ClothingNeckHeadphones = Наушники
     .desc = Качественные наушники от Drunk Masters, с хорошей звукоизоляцией.
-ent-ClothingNeckStethoscope = стетоскоп
+ent-ClothingNeckStethoscope = Стетоскоп
     .desc = Устаревший медицинский аппарат для прослушивания звуков человеческого тела. С ним вы будете выглядеть так, будто знаете, что делаете.
-ent-ClothingNeckBling = побрякушки
+ent-ClothingNeckBling = Побрякушки
     .desc = Чертовски круто быть гангстером.
-ent-ClothingNeckLawyerbadge = значок адвоката
+ent-ClothingNeckLawyerbadge = Значок адвоката
     .desc = Значок, свидетельствующий что владелец является "законным" Адвокатом, сдавшим экзамен Nanotrasen, необходимый для занятия юридической практикой.
 ent-ActionStethoscope = Прослушать стетоскопом
     .desc = { "" }

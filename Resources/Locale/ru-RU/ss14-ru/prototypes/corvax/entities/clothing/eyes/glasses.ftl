@@ -1,4 +1,4 @@
-ent-ClothingEyesSalesman = цветные очки
+ent-ClothingEyesSalesman = Цветные очки
     .desc = Пара очков с уникальными цветными линзами. На оправе надпись "Лучший продавец 1997".
-ent-ClothingEyesBinoclardLenses = бинокулярные линзы
+ent-ClothingEyesBinoclardLenses = Бинокулярные линзы
     .desc = Показывает, что вы умеете и пришивать лацкан и центрировать заднее вентиляционное отверстие.

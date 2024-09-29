@@ -1,2 +1,2 @@
-ent-BoxCartridgeBB = коробка шаров ББ
+ent-BoxCartridgeBB = Коробка шаров ББ
     .desc = { ent-BoxDonkSoftBase.desc }

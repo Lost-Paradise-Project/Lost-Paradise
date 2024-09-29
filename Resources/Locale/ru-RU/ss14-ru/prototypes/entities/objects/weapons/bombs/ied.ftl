@@ -1,6 +1,6 @@
-ent-ImprovisedExplosive = самодельное взрывное устройство
+ent-ImprovisedExplosive = Самодельное взрывное устройство
     .desc = Слабое самодельное зажигательное устройство.
-ent-ImprovisedExplosiveEmpty = самодельное взрывное устройство
+ent-ImprovisedExplosiveEmpty = Самодельное взрывное устройство
     .desc = Слабое самодельное зажигательное устройство. В нём нет топлива.
     .suffix = Пустой
 ent-ImprovisedExplosiveFuel = { ent-ImprovisedExplosiveEmpty }

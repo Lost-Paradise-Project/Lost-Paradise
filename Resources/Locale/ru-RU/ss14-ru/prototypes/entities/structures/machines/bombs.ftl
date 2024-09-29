@@ -1,10 +1,10 @@
-ent-BaseHardBomb = мегабомба
+ent-BaseHardBomb = Мегабомба
     .desc = Просто говорите и никто не взорвётся.
-ent-TrainingBomb = учебная бомба
+ent-TrainingBomb = Учебная бомба
     .desc = Бомба для чайников, инструкция в комплект не входит.
 # Corvax-HiddenDesc-Start
-ent-SyndicateBomb = бомба
-    .suffix = бомба Синдиката
+ent-SyndicateBomb = Бомба
+    .suffix = Бомба Синдиката
     .desc = Это бомба с таймером! Она тикает? Вы хотели стать героем!? Самое время!
 
 # Corvax-HiddenDesc-End

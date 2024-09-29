@@ -1,2 +1,2 @@
-ent-Mannequin = манекен
+ent-Mannequin = Манекен
     .desc = Ему идёт любая одежда.

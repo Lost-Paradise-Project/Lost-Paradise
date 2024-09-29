@@ -1,2 +1,2 @@
-ent-LPPClothingHandsGlovesCombatNitrile = нитрилово-боевые перчатки
+ent-LPPClothingHandsGlovesCombatNitrile = Нитрилово-боевые перчатки
     .desc = Совмещение высококачественных нитриловых перчаток с боевыми. Дорогостоющий полевой СИЗ.

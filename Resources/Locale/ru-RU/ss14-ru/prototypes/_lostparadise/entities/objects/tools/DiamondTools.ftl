@@ -1,6 +1,6 @@
-ent-LPPDiamondMiningDrill = diamond mining drill
-    .desc = Powerful tool used to quickly drill through rocks.
-ent-LPPDiamondPickaxe = diamond pickaxe
-    .desc = Notched to perfection, for jamming it into rocks
-ent-LPPAdvResearchAndDevelopmentPointSource = Adv R&D point source
-    .desc = { ent-BaseMachinePowered.desc }
+ent-LPPDiamondMiningDrill = алмазный шахтёрский бур
+    .desc = Сильнейший шахтёрский бур способный в разы быстрее и сильнее пробивать камни. Имеет этикетку "BL CORP technology".
+ent-LPPDiamondPickaxe = алмазная кирка
+    .desc = Выточенный до совершенства, для забивания его в камни. Имеет этикетку "BL CORP technology".
+ent-LPPAdvResearchAndDevelopmentPointSource = продвинутый источник исследований
+    .desc = Продвинутый источник очков исследований для ускорения производства. Создано корпорацией BL CORP во благо науки. Имеет этикетку "BL CORP technology".

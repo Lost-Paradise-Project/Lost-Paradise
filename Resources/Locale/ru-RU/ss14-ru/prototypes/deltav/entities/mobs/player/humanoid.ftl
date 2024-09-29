@@ -3,5 +3,5 @@ ent-RandomHumanoidSpawnerListener = Спавнер слушателя синди
 ent-RandomHumanoidSpawnerMobster = Спавнер мобстера
     .desc = { "" }
 ent-RandomHumanoidSpawnerMobsterAlt = Спавнер мобстера
-    .suffix = другой
+    .suffix = Другой
     .desc = { "" }
