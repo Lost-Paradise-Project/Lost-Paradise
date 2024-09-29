@@ -62,6 +62,6 @@
   innerClothingSkirt: ClothingUniformJumpskirtQM
   satchel: ClothingBackpackSatchelQuartermasterFilled
   duffelbag: ClothingBackpackDuffelQuartermasterFilled
-  storage:
-    back:
-    - LPPTelebaton
+  # storage:
+  #   back:
+  #   - LPPTelebaton
