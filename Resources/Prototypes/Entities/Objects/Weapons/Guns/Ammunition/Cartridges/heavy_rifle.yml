@@ -21,28 +21,6 @@
     price: 10
 
 - type: entity
-  id: LPPBaseCartridgeMinigun
-  name: cartridge (.10 rifle)
-  parent: BaseCartridge
-  abstract: true
-  components:
-  - type: Tag
-    tags:
-      - Cartridge
-      - CartridgeMinigun
-  - type: CartridgeAmmo
-    proto: BulletHeavyRifle
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
-    layers:
-    - state: base
-      map: ["enum.AmmoVisualLayers.Base"]
-  - type: Appearance
-  - type: SpentAmmoVisuals
-  - type: StaticPrice
-    price: 10
-
-- type: entity
   id: CartridgeMinigun
   name: cartridge (.10 rifle)
   parent: LPPBaseCartridgeMinigun
