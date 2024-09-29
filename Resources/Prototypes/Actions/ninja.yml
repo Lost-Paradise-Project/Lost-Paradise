@@ -62,7 +62,7 @@
   components:
   - type: InstantAction
     # have to plan (un)cloaking ahead of time
-    useDelay: 5
+    useDelay: 4
     priority: -9
     event: !type:ToggleStealthEvent
 

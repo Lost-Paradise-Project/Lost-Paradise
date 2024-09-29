@@ -11,7 +11,7 @@
 - type: moodEffect
   id: LotoEnthrallment
   moodChange: -30
-  timeout: 7200 #2 hours
+  timeout: 3600 #1 hour. ARE YOU FUCKING CRAZY? IT WAS 2 HOURS! 2! IT JUST SIMPLY DOESN'T WORTH CONCUMING AT THAT POINT!
   category: "LotophagoiAddiction"
 
 - type: moodCategory

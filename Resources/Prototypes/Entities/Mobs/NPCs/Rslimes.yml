@@ -10,6 +10,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -27,6 +30,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -44,6 +50,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -61,6 +70,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -78,6 +90,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -95,6 +110,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -112,6 +130,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -129,6 +150,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -146,6 +170,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -163,6 +190,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -180,6 +210,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -197,6 +230,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -214,6 +250,9 @@
   - type: Sprite
     drawdepth: Mobs
     sprite: Mobs/Aliens/elemental.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
     layers:
       - map: [ "enum.DamageStateVisualLayers.Base" ]
         state: alive
@@ -229,7 +268,7 @@
     earliestStart: 20
     reoccurrenceDelay: 12
     minimumPlayers: 1
-    weight: 6 # Really weak compared to other critters
+    weight: 6 # They're kinda strong at some point. If you get lucky/unlucky to see em... Well, just pray it's not nocturine ot lotophageoil or some other crazy stuff
     duration: 60
   - type: VentCrittersRule
     entries:

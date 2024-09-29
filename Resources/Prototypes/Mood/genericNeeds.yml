@@ -1,7 +1,7 @@
 ﻿# Hunger
 - type: moodEffect
   id: HungerOverfed
-  moodChange: -10
+  moodChange: -7
   category: "Hunger"
 
 - type: moodEffect
@@ -59,5 +59,5 @@
 
 - type: moodEffect
   id: HealthHeavyDamage
-  moodChange: -20
+  moodChange: -18
   category: "Health"
