@@ -64,7 +64,6 @@ guide-entry-species = Расы
 guide-entry-antagonists = Антагонисты
 guide-entry-nuclear-operatives = Ядерные оперативники
 guide-entry-altars-golemancy = Алтари и Големантия
-guide-entry-psionics = Псионика
 guide-entry-reverse-engineering = Реконструктор
 guide-entry-traitors = Предатели
 guide-entry-zombies = Зомби

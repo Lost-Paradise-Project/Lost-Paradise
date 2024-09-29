@@ -231,11 +231,6 @@ namespace Content.Server.GameTicking
                     playDefaultSound: false);
             }
 
-            if (player.UserId == new Guid("{e887eb93-f503-4b65-95b6-2f282c014192}"))
-            {
-                EntityManager.AddComponent<OwOAccentComponent>(mob);
-            }
-
             _stationJobs.TryAssignJob(station, jobPrototype, player.UserId);
 
             if (lateJoin)

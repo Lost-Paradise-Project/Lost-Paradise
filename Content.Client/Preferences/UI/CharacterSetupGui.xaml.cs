@@ -23,6 +23,9 @@ using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
 using Direction = Robust.Shared.Maths.Direction;
+#if LPP_Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.Preferences.UI
 {
@@ -107,22 +110,22 @@ namespace Content.Client.Preferences.UI
             if (!_preferencesManager.ServerDataLoaded)
                 return;
 
-            _createNewCharacterButton.ToolTip =
-                Loc.GetString("character-setup-gui-create-new-character-button-tooltip",
-                ("maxCharacters", _preferencesManager.Settings!.MaxCharacterSlots));
-
 #if LPP_Sponsors
             var isDisplayedMaxSlots = false; // _LostParadise-Sponsors возможно использование дополнительных слотов
 #endif
+
+            _createNewCharacterButton.ToolTip =
+                Loc.GetString("character-setup-gui-create-new-character-button-tooltip",
+                ("maxCharacters", _preferencesManager.Settings!.MaxCharacterSlots));
 
             foreach (var (slot, character) in _preferencesManager.Preferences!.Characters)
             {
                 if (character is null)
                 {
-                  continue;
+                   continue;
                 }
 
- #if LPP_Sponsors // _LostParadise-Sponsors
+#if LPP_Sponsors // _LostParadise-Sponsors
                 isDisplayedMaxSlots = numberOfFullSlots >= _preferencesManager.Settings.MaxCharacterSlots;
                 if (isDisplayedMaxSlots) break;
 #endif
@@ -138,7 +141,7 @@ namespace Content.Client.Preferences.UI
                 var characterIndexCopy = slot;
                 characterPickerButton.OnPressed += args =>
                 {
-                    _humanoidProfileEditor.Profile = (HumanoidCharacterProfile)character;
+                    _humanoidProfileEditor.Profile = (HumanoidCharacterProfile) character;
                     _humanoidProfileEditor.CharacterSlot = characterIndexCopy;
                     _humanoidProfileEditor.UpdateControls();
                     _preferencesManager.SelectCharacter(character);
@@ -186,7 +189,7 @@ namespace Content.Client.Preferences.UI
                     _previewDummy = entityManager.SpawnEntity(prototypeManager.Index<SpeciesPrototype>(SharedHumanoidAppearanceSystem.DefaultSpecies).DollPrototype, MapCoordinates.Nullspace);
                 }
 
-                EntitySystem.Get<HumanoidAppearanceSystem>().LoadProfile(_previewDummy, (HumanoidCharacterProfile)profile);
+                EntitySystem.Get<HumanoidAppearanceSystem>().LoadProfile(_previewDummy, (HumanoidCharacterProfile) profile);
 
                 if (humanoid != null)
                 {

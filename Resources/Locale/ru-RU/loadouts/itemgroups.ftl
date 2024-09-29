@@ -1,5 +1,8 @@
 # This list is sorted Mixed Alphabetically with Generic always being placed first, Departments alphabetically, Items Groups Alphabetically, and Jobs Alphabetically after all Department items
 # Generic - Clothing
+character-item-group-LoadoutBackpacks = Гражданские рюкзаки
+# This list is sorted Mixed Alphabetically with Generic always being placed first, Departments alphabetically, Items Groups Alphabetically, and Jobs Alphabetically after all Department items
+# Generic - Clothing
 character-item-group-LoadoutEyes = Гражданские Очки
 character-item-group-LoadoutGloves = Гражданские Перчатки
 character-item-group-LoadoutHead = Гражданские Головные Уборы
