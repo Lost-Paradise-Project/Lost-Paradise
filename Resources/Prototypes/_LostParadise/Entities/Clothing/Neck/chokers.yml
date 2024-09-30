@@ -97,8 +97,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckCollarHeart
-  name: чокер c сердцем
-  description: Чокер с сердцем, вы либо милашка, либо питомец, раз решились такое носить.
+  name: choker with heart
+  description: Choker with heart, you are either a cutie or a pet, if you decided to wear this.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Neck/chokers/heart.rsi
