@@ -22,7 +22,7 @@
       - id: QuartermasterIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
-      - id: WeaponEnergyGunMini #LPP
+      - id: WeaponDisabler #LPP
 
 - type: entity
   id: LockerCaptainFilledHardsuit
@@ -123,7 +123,7 @@
       - id: BoxID
       - id: BoxHeadset
       - id: IDComputerCircuitboard
-      - id: WeaponEnergyGunMini #LPP
+      - id: WeaponDisabler
       - id: ClothingOuterCoatHoPArmored # DeltaV
       - id: ClothingOuterArmorDuraVest # DeltaV - replaced HoP's armoured coat with a standard stabproof, pending HoPcoat resprite
       - id: CigarGoldCase
