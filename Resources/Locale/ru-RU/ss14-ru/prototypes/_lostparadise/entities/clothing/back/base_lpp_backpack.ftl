@@ -1,2 +1,3 @@
-ent-LPPClothingSatchelSmugglerAbstract = Smuggling Satchel
-    .desc = Smuggling Satchel Abstract
+ent-LPPClothingSatchelSmugglerAbstract = { ent-ClothingBackpackSatchel }
+    .desc = { ent-ClothingBackpackSatchel.desc }
+    .suffix = Контрабандист
