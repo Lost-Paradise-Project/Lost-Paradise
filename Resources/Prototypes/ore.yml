@@ -84,12 +84,6 @@
   minOreYield: 2
   maxOreYield: 4
 
-- type: ore
-  id: LPPOreDiamond
-  oreEntity: LPPOreDiamond
-  minOreYield: 1
-  maxOreYield: 2
-
 - type: weightedRandomOre
   id: RandomOreDistributionStandard
   weights:

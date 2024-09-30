@@ -160,3 +160,6 @@
 
 - type: Tag
   id: CoatRack # Вешалка
+
+- type: Tag
+  id: LPPProcessedDiamond
