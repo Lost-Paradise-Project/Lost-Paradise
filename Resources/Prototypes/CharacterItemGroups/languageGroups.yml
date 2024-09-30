@@ -31,3 +31,5 @@
       id: Southern
     - type: trait
       id: ScottishAccent
+    - type: trait
+      id: PolishAccent

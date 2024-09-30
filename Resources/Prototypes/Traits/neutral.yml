@@ -1,4 +1,13 @@
 - type: trait
+  id: PolishAccent
+  category: TraitsSpeechAccents
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsAccents
+  components:
+    - type: PolishAccent
+
+- type: trait
   id: PirateAccent
   category: TraitsSpeechAccents
   requirements:
