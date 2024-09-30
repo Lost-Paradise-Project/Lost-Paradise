@@ -1,0 +1,83 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Drawn by Przat911. Discord: Przat911",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "dark-wallet_overlay"
+      },
+      {
+        "name": "dark-wallet"
+      },
+      {
+        "name": "green-wallet_overlay"
+      },
+      {
+        "name": "darkleather-wallet"
+      },
+      {
+        "name": "darkleather-wallet_overlay"
+      },
+      {
+        "name": "green-wallet"
+      },
+      {
+        "name": "grey-wallet"
+      },
+      {
+        "name": "grey-wallet_overlay"
+      },
+      {
+        "name": "random_spawn_wallet"
+      },
+      {
+        "name": "syndicate-wallet_overlay"
+      },
+      {
+        "name": "syndicate-wallet"
+      },
+      {
+        "name": "wallet_cash_overlay"
+      },
+      {
+        "name": "wallet_cash"
+      },
+      {
+        "name": "wallet_idcentcom"
+      },
+      {
+        "name": "wallet_iddefault"
+      },
+      {
+        "name": "wallet_idgold"
+      },
+      {
+        "name": "wallet_idpirate"
+      },
+      {
+        "name": "wallet_idsyndie"
+      },
+      {
+        "name": "wallet_overlay"
+      },
+      {
+        "name": "wallet"
+      },
+      {
+        "name": "white-wallet_overlay"
+      },
+      {
+        "name": "white-wallet"
+      },
+      {
+        "name": "yellow-wallet_overlay"
+      },
+      {
+        "name": "yellow-wallet"
+      }
+    ]
+  }

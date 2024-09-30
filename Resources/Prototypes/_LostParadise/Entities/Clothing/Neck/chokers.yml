@@ -91,3 +91,19 @@
     sprite: _LostParadise/Clothing/Neck/chokers/spiked.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/chokers/spiked.rsi
+
+# Made DarkSide - <
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckCollarHeart
+  name: чокер c сердцем
+  description: Чокер с сердцем, вы либо милашка, либо питомец, раз решились такое носить.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/chokers/heart.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/chokers/heart.rsi
+
+
+# - >

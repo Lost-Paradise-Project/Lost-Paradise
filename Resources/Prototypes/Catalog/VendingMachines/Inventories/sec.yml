@@ -24,6 +24,7 @@
     ClothingOuterArmorDuraVest: 2
     ClothingHeadHelmetBasic: 2 # DeltaV - added helmets to the SecTech. Another line of defense between the tide and your grey matter.
     # BreachingCharge: 8
+    LPPClothingHandsGlovesTacticalFingerless: 1  # Lost Paradise - Добавление тактических беспалых боевых перчаток
     LPPTelebaton: 3 #LPP
   # security officers need to follow a diet regimen!
   contrabandInventory:

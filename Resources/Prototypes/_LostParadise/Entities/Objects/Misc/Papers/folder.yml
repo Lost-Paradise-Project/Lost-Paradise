@@ -1,0 +1,134 @@
+# - < DarkSide
+- type: entity
+  id: LPPBoxFolderCap
+  name: Папка капитана
+  parent: BoxFolderBase
+  description: Жалкая куча секретов Капитана!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: folder-cap
+    - state: folder-base
+
+- type: entity
+  id: LPPBoxFolderClown
+  name: Папка клоуна
+  parent: BoxFolderBase
+  description: Жалкая куча шуток Клоуна!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: folder-clown
+    - state: folder-base
+
+- type: entity
+  id: LPPBoxFolderMime
+  name: Папка мима
+  parent: BoxFolderBase
+  description: О данной папке лучшее не говорить ничего...
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: folder-mime
+    - state: folder-base
+
+- type: entity
+  id: LPPBoxFolderSecDoc
+  name: Папка службы безопасности
+  parent: BoxFolderBase
+  description: Слишком много документов о казни...
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: folder-sec-doc
+    - state: folder-base
+
+- type: entity
+  id: LPPBoxFolderSecretBlue
+  name: Сверх секретная синия папка
+  parent: BoxFolderBase
+  description: Не потеряйте!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: folder-secret-blue
+    - state: folder-base
+
+- type: entity
+  id: LPPBoxFolderSecretCap
+  name: Сверх секретная папка капитана
+  parent: BoxFolderBase
+  description: Не потеряйте!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: folder-secret-cap
+    - state: folder-base
+  - type: StorageFill
+    contents:
+      - id: NukeCodePaperStation
+      - id: Paper
+        prob: 0.5
+      - id: PaperOffice
+        prob: 0.4
+      - id: Paper
+        prob: 0.3
+      - id: PaperOffice
+        prob: 0.2
+      - id: Paper
+        prob: 0.2
+        
+- type: entity
+  id: LPPBoxFolderSecretCentCom
+  name: Сверх секретная папка ЦентКома
+  parent: BoxFolderBase
+  description: Не потеряйте или вас уничтожат!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: folder-secret-centcom
+    - state: folder-base
+
+- type: entity
+  id: LPPBoxFolderSecretRed
+  name: Сверх секретная красная папка
+  parent: BoxFolderBase
+  description: Не потеряйте!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: folder-secret-red
+    - state: folder-base
+
+- type: entity
+  id: LPPBoxFolderTSF
+  name: Папка ТСФ
+  parent: BoxFolderBase
+  description: Жалкая куча бумаг ТСФ!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: folder-tsf
+    - state: folder-base
+
+- type: entity
+  id: LPPBoxFolderUSSP
+  name: Папка СССП
+  parent: BoxFolderBase
+  description: Жалкая куча реформ СССП!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: folder-ussp
+    - state: folder-base
+# - > 
