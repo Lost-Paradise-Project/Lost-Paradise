@@ -1,4 +1,4 @@
-ent-LPPClothingOuterVestPG = PG west
-    .desc = A synthetic armor vest. This one has added webbing and ballistic plates. For all PG army needs.
-ent-LPPClothingOuterVestUrbanPG = urban PG west
-    .desc = A synthetic armor vest. This one has added webbing and ballistic plates. For all PG army needs.
+ent-LPPClothingOuterVestPG = бронежилет ПГ
+    .desc = Оснащен стальной пластиной, хорошо защищающей от пуль. Также оснащен небольшими кармашками, в которых часто носят магазины.
+ent-LPPClothingOuterVestUrbanPG = бронежилет ПГ нейтральной расцветки
+    .desc = Оснащен стальной пластиной, хорошо защищающей от пуль. Также оснащен небольшими кармашками, в которых часто носят магазины.

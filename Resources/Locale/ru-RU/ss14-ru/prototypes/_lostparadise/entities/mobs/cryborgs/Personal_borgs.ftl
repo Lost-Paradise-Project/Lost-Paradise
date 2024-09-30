@@ -1,3 +1,3 @@
-ent-LPPBorgChassisINSPERSONAL = I.N.S
-    .desc = A very tall and massive self-learning android service prototype "Individual Scientific Servitor" abbreviation I.N.S., its positronic brain has self-awareness, service modules and an advanced cleaning module are integrated into the body.Do not call her "Borg", she may be offended.He will pour you an exclusive froppy and tell you a joke if you ask.
-    .suffix = Personal items, Insulgon
+ent-LPPBorgChassisINSPERSONAL = И.Н.С
+    .desc = Очень высокий и массивный самообучающийся прототип Android-сервиса "Индивидуальный научный сервис", сокращенно I.N.S., его позитронный мозг обладает самосознанием, в тело встроены сервисные модули и усовершенствованный модуль очистки. Не называйте ее "Борг", оно может обидеться. Он нальет вам эксклюзивного фроппи и расскажет анекдот, если вы попросите.
+    .suffix = Личные вещи, Инсулгон

@@ -1,4 +1,4 @@
-ent-LPPClothingHandsGlovesNightGuard = night guard battle gloves
+ent-LPPClothingHandsGlovesNightGuard = перчатки НайтГарда
     .desc = { ent-ClothingHandsGlovesBoxingBlue.desc }
-ent-ClothingHandsClownPomni = Pomni's?
-    .desc = Good ring.
+ent-ClothingHandsClownPomni = Перчатки шута
+    .desc = Мягкие перчатки, создающие впечатление, будто полностью обволакивают ваши руки...

@@ -1,11 +1,11 @@
 - type: entity
   parent: BasePDA
-  id: LPPSecurityEnginerPDA
+  id: LPPSecurityEngineerPDA
   name: security PDA
   description: Red to hide the stains of passenger blood.
   components:
   - type: Pda
-    id: LPPSecurityEnginerIDCard
+    id: LPPSecurityEngineerIDCard
     state: pda-security-enginer
   - type: PdaBorderColor
     borderColor: "#9b2b2a"

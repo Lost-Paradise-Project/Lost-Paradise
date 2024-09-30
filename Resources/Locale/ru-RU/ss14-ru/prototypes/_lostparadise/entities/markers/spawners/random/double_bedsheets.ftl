@@ -1,2 +1,2 @@
-ent-LPPDoubleBedsheetSpawner = Random Double Sheet Spawner
+ent-LPPDoubleBedsheetSpawner = спавнер случайного двойное одеяло
     .desc = { ent-MarkerBase.desc }

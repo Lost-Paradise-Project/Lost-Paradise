@@ -1,2 +1,2 @@
-ent-RandomFloraTree = Спавнер случайное дерево
+ent-RandomFloraTree = Спавнер случайного дерево
     .desc = { ent-MarkerBase.desc }

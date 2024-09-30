@@ -1,2 +1,2 @@
-ent-ClothingNeckRussianPin = Pin Russia
-    .desc = esli patriot
+ent-ClothingNeckRussianPin = Значок России
+    .desc = Если патриот.

@@ -1,4 +1,4 @@
-ent-LPPTelebaton = Telebaton
-    .desc = A standard baton for self-defense. Equipped with a folding function to save space and hide your intentions.
-ent-LPPRubberBaton = Rubber baton
-    .desc = A rubber baton for incapacitating people with. Not as painful as stunbaton, but still unpleasant.
+ent-LPPTelebaton = Телескопическая дубинка
+    .desc = Стандартная дубинка для самообороны. Оснащена функцией складывания для экономии места и скрытия ваших намерений.
+ent-LPPRubberBaton = Резиновая дубинка
+    .desc = Резиновая дубинка для выведения из строя людей. Не так больно, как электро-дубинка, но все равно неприятно.

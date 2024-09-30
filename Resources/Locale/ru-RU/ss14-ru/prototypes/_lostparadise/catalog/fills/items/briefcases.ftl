@@ -1,3 +1,3 @@
-ent-LPPNTBriefcaseBrownFilled = NT brown briefcase
-    .suffix = Filled, Paper
+ent-LPPNTBriefcaseBrownFilled = Коричневый чемодан NT
+    .suffix = Заполненный, Бумага
     .desc = { ent-LPPNTBriefcaseBrown.desc }

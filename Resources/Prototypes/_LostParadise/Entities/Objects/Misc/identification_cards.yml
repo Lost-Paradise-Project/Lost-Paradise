@@ -1,6 +1,6 @@
 - type: entity
   parent: IDCardStandard
-  id: LPPSecurityEnginerIDCard
+  id: LPPSecurityEngineerIDCard
   name: security ID card
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
       color: "#F39F27"
     - state: idsecurityenginer
   - type: PresetIdCard
-    job: LPPSecurityEnginer
+    job: LPPSecurityEngineer
 
 - type: entity
   parent: IDCardStandard

@@ -1,2 +1,2 @@
-ent-LPPWeaponShotgunLemington = Lemington
-    .desc = A lever-action rifle capable of tearing a man in half.
+ent-LPPWeaponShotgunLemington = Лемингтон
+    .desc = See you soon.. Space cowboy... Использует .50 ружейные.

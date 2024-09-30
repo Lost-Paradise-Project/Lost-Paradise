@@ -1,4 +1,4 @@
-ent-RandomAnomalySpawner = Спавнер случайный аномалия
+ent-RandomAnomalySpawner = Спавнер случайной аномалии
     .desc = { ent-MarkerBase.desc }
-ent-RandomRockAnomalySpawner = { ent-MarkerBase }
+ent-RandomRockAnomalySpawner = Спавнер Рандомной Каменной Аномалии
     .desc = { ent-MarkerBase.desc }

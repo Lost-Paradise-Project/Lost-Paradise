@@ -14,4 +14,4 @@ ent-Musket = Мушкет
     .suffix = Винтовка
 ent-WeaponSniperMosinRubber = { ent-WeaponSniperMosin }
     .desc = { ent-WeaponSniperMosin.desc }
-    .suffix = Винтовка, Не летальный
+    .suffix = Винтовка, Нелетальный
