@@ -14,7 +14,7 @@
 
 ## Ссылки
 
-[Discord проекта](https://discord.gg/v5mGmMzAdB) | [Вики](http://wiki.lost-paradise.space/) | [Основной репозиторий](https://github.com/Simple-Station/Einstein-Engines)
+[Discord проекта](https://wiki.lost-paradise.space/discord) | [Вики](http://wiki.lost-paradise.space/) | [Основной репозиторий](https://github.com/Simple-Station/Einstein-Engines)
 
 ## Правомерное использование
 
@@ -25,7 +25,7 @@
 Что значит вы должны делится улучшениями этого контента даже если он значительно изменён.
 Если вы используете этот репозиторий как основной, вы должны указать его как источник.
 
-Если вы нашли неточности или неправомерное использование вашего контента свяжитесь с `jay_jacobs` в личных сообщениях, его можно найти на [Discord сервере](https://discord.gg/v5mGmMzAdB) / If you find any inaccuracies or misuse of your content, please contact `jay_jacobs` via private messages, he can be found on the [Discord server](https://discord.gg/v5mGmMzAdB).
+Если вы нашли неточности или неправомерное использование вашего контента свяжитесь с `jay_jacobs` в личных сообщениях, его можно найти на [Discord сервере](https://wiki.lost-paradispe.space/discord) / If you find any inaccuracies or misuse of your content, please contact `jay_jacobs` via private messages, he can be found on the [Discord server](https://discord.gg/v5mGmMzAdB).
 
 ## Сборка проекта.
 
