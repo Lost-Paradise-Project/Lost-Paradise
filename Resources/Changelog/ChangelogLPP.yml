@@ -939,3 +939,28 @@ Entries:
   id: 80
   time: '2024-09-30T17:44:46.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/220
+- author: BL02DL
+  changes:
+    - type: Add
+      message: Добавлен новый хоткей Shift+H!
+    - type: Remove
+      message: Убрано веселье!
+    - type: Tweak
+      message: Изменён рецепт очищенного алмаза, теперь он 5 к 5 вместо 30 к 30!
+    - type: Tweak
+      message: Изменён спавн очищенного алмаза на картах на не обработанную жеоду!
+    - type: Tweak
+      message: Изменён слот холстера дека с пояса на шею!
+    - type: Tweak
+      message: Возможно изменены большинство текстур в СБ на старые!
+    - type: Tweak
+      message: >-
+        Изменено теперь технология дробителя алмазов находится в алмазной
+        дисциплине!
+    - type: Fix
+      message: Исправлен перевод материала в переработчике руды!
+    - type: Fix
+      message: Исправлен крафт шлема с фонариком!
+  id: 81
+  time: '2024-09-30T22:57:35.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/227
