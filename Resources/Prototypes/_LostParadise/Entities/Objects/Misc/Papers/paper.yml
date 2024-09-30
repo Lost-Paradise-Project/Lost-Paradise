@@ -1,8 +1,8 @@
 - type: entity
-  name: Газета
   parent: BaseItem
   id: LPPNewspaper
-  description: "Свежая газета"
+  name: Newspaper
+  description: "Fresh newspaper"
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
@@ -37,9 +37,9 @@
 
 - type: entity
   parent: BaseItem
-  name: Упаковка бумаги
   id: LPPPaperBoxWrapped
-  description: Упаковка с бумагой
+  name: Paper Packaging
+  description: The packaging, oddly enough, contains paper.
   components:
   - type: Item
     size: Normal

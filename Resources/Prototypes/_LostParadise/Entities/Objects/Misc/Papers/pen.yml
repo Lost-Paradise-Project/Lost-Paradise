@@ -85,7 +85,7 @@
 # - < DarkSide
 
 - type: entity
-  name: Карандаш
+  name: Pencil
   parent: Pen
   id: LPPPenPencil
   components:
@@ -97,10 +97,10 @@
     heldPrefix: pen_pencil
 
 - type: entity
-  name: Ручка Gorlax
+  name: Gorlax Pen
   parent: CyberPen
   id: GorlaxPen
-  description: Высокотехнологичная ручка, созданная юридическим отделом Gorlax, способная преломлять жесткий свет под невозможными углами через свой алмазный наконечник, чтобы писать. Настолько мощный, что в случае необходимости он даже способен переписать официально проштампованные документы.
+  description: A high-tech pen created by the Gorlax legal department that can bend hard light at impossible angles through its diamond tip to write. So powerful that it can even rewrite officially stamped documents if necessary.
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi

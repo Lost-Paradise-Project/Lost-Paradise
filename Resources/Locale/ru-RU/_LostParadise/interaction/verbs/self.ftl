@@ -9,3 +9,5 @@ interaction-LPPCheckStatusSilicon-description = Выполните диагно�
 interaction-LPPCheckStatusSilicon-fail-self-popup = Ты не можешь провести диагностику системы { THE($user) }!
 interaction-LPPCheckStatusSilicon-success-self-popup = Ты успешно провёл диагностику системы { THE ($target) }.
 interaction-LPPCheckStatusSilicon-success-others-popup = { THE($user) } проводит диагностику системы { THE($target) }.
+interaction-LPPCheckStatusSilicon-delayed-self-popup = Ты проводишь диагностику { THE ($target) }.
+interaction-LPPCheckStatusSilicon-delayed-others-popup = { THE ($user) } проводит диагностику { THE ($target) }.
