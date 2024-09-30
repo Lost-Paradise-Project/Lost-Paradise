@@ -148,7 +148,14 @@ public sealed partial class CharacterDepartmentTimeRequirement : CharacterRequir
         }
 
 #if LPP_Sponsors
-        if (sponsorTier >= 5 || (whitelisted && job.Requirements != null && job.Requirements.OfType<CharacterWhitelistRequirement>().Any()))
+        if (job.Requirements != null && job.Requirements.OfType<CharacterWhitelistRequirement>().Any())
+            if (!whitelisted)
+            {
+                reason = null;
+                return false;
+            }
+
+        if (sponsorTier >= 5)
         {
             reason = null;
             return true;
@@ -232,7 +239,14 @@ public sealed partial class CharacterOverallTimeRequirement : CharacterRequireme
         }
 
 #if LPP_Sponsors
-        if (sponsorTier >= 5 || (whitelisted && job.Requirements != null && job.Requirements.OfType<CharacterWhitelistRequirement>().Any()))
+        if (job.Requirements != null && job.Requirements.OfType<CharacterWhitelistRequirement>().Any())
+            if (!whitelisted)
+            {
+                reason = null;
+                return false;
+            }
+
+        if (sponsorTier >= 5)
         {
             reason = null;
             return true;
@@ -305,14 +319,6 @@ public sealed partial class CharacterPlaytimeRequirement : CharacterRequirement
             return !Inverted;
         }
 
-#if LPP_Sponsors
-        if (sponsorTier >= 5 || (whitelisted && job.Requirements != null && job.Requirements.OfType<CharacterWhitelistRequirement>().Any()))
-        {
-            reason = null;
-            return true;
-        }
-#endif
-
         // Get SharedJobSystem
         if (!entityManager.EntitySysManager.TryGetEntitySystem(out SharedJobSystem? jobSystem))
         {
@@ -337,6 +343,21 @@ public sealed partial class CharacterPlaytimeRequirement : CharacterRequirement
         // Get the time for the tracker
         var time = playTimes.GetValueOrDefault(Tracker);
         reason = null;
+
+#if LPP_Sponsors
+        if (job.Requirements != null && job.Requirements.OfType<CharacterWhitelistRequirement>().Any())
+            if (!whitelisted)
+            {
+                reason = null;
+                return false;
+            }
+
+        if (sponsorTier >= 5)
+        {
+            reason = null;
+            return true;
+        }
+#endif
 
         if (time > Max)
         {

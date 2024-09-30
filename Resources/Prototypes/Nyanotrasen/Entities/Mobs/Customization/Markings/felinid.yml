@@ -4,7 +4,7 @@
   id: FelinidEarsBasic
   bodyPart: HeadTop
   markingCategory: HeadTop
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
@@ -16,7 +16,7 @@
   id: FelinidEarsCurled
   bodyPart: HeadTop
   markingCategory: HeadTop
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
@@ -28,7 +28,7 @@
   id: FelinidEarsDroopy
   bodyPart: HeadTop
   markingCategory: HeadTop
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
@@ -40,7 +40,7 @@
   id: FelinidEarsFuzzy
   bodyPart: HeadTop
   markingCategory: HeadTop
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
@@ -52,7 +52,7 @@
   id: FelinidEarsStubby
   bodyPart: HeadTop
   markingCategory: HeadTop
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
@@ -64,7 +64,7 @@
   id: FelinidEarsTall
   bodyPart: HeadTop
   markingCategory: HeadTop
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
@@ -78,7 +78,7 @@
   id: FelinidEarsTorn
   bodyPart: HeadTop
   markingCategory: HeadTop
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
@@ -90,7 +90,7 @@
   id: FelinidEarsWide
   bodyPart: HeadTop
   markingCategory: HeadTop
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
@@ -104,7 +104,7 @@
   id: FelinidTailBasic
   bodyPart: Tail
   markingCategory: Tail
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
@@ -118,7 +118,7 @@
   id: FelinidTailBasicWithBow
   bodyPart: Tail
   markingCategory: Tail
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
@@ -134,7 +134,7 @@
   id: FelinidTailBasicWithBell
   bodyPart: Tail
   markingCategory: Tail
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
@@ -150,7 +150,7 @@
   id: FelinidTailBasicWithBowAndBell
   bodyPart: Tail
   markingCategory: Tail
-  # speciesRestriction: [Felinid]
+  speciesRestriction: [Felinid, Human]
   sponsorOnly: true
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi

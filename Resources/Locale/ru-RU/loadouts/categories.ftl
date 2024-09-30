@@ -2,6 +2,7 @@
 
 loadout-category-Uncategorized = Без категории
 loadout-category-Accessories = Аксессуары
+loadout-category-Backpacks = Рюкзаки
 loadout-category-Outer = Верхняя
 loadout-category-Items = Вещи
 loadout-category-Eyes = Глаза
