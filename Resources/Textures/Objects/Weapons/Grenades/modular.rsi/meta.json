@@ -12,6 +12,10 @@
         "directions": 1
     },
     {
+        "name": "no-trigger",
+        "directions": 1
+    },
+    {
         "name": "wired",
         "directions": 1
     },

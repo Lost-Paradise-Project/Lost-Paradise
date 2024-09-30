@@ -564,16 +564,29 @@
     - Kangaroo
 
 - type: entity
-  parent: ClothingBeltStorageBase
+  parent: ClothingNeckBase
   id: ClothingBeltHolster
   name: shoulder holster
   description: 'A holster to carry a handgun and ammo. WARNING: Badasses only.'
   components:
+  - type: UserInterface
+    interfaces:
+    - key: enum.StorageUiKey.Key
+      type: StorageBoundUserInterface
   - type: Sprite
-    sprite: Clothing/Belt/holster.rsi
+    sprite: Clothing/Neck/Misc/holster.rsi
   - type: Clothing
-    sprite: Clothing/Belt/holster.rsi
+    equipSound:
+      path: /Audio/SimpleStation14/Items/Equip/toolbelt_equip.ogg
+  - type: Item
+    size: Ginormous
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
   - type: Storage
+    maxItemSize: Normal
+    defaultStorageOrientation: Vertical
     grid:
     - 0,0,3,1
 

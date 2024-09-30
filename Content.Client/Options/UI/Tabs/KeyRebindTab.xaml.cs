@@ -102,7 +102,7 @@ namespace Content.Client.Options.UI.Tabs
             _cfg.SetCVar(CCVars.HoldLookUp, args.Pressed);
             _cfg.SaveToFile();
         }
-        
+
         private void HandleDefaultWalk(BaseButton.ButtonToggledEventArgs args)
         {
             _cfg.SetCVar(CCVars.DefaultWalk, args.Pressed);
@@ -212,6 +212,13 @@ namespace Content.Client.Options.UI.Tabs
             AddHeader("ui-options-header-interaction-adv");
             AddButton(ContentKeyFunctions.SmartEquipBackpack);
             AddButton(ContentKeyFunctions.SmartEquipBelt);
+
+            /// Start LostParadise
+
+            AddButton(ContentKeyFunctions.SmartEquipNeck);
+
+            /// End LostParadise
+
             AddButton(ContentKeyFunctions.OpenBackpack);
             AddButton(ContentKeyFunctions.OpenBelt);
             AddButton(ContentKeyFunctions.ThrowItemInHand);

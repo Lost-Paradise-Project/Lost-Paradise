@@ -90,6 +90,7 @@
   components:
   - type: Tag
     tags:
+      - LPPFlashlightSeclite
       - SecBeltEquip
   - type: ItemSlots
     slots:
