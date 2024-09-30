@@ -68,7 +68,7 @@
     stampState: "paper_stamp-deny"
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/stampppd.rsi
-    state: stamp-deny-lpp
+    state: stamp-vd # -< DarkSide > 
 
 - type: entity
   name: magistrate rubber stamp
@@ -81,3 +81,32 @@
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/magistrate.rsi
     state: stamp-magistrate
+
+# - < DarkSide
+
+- type: entity
+  name: Карандаш
+  parent: Pen
+  id: LPPPenPencil
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: pen_pencil
+  - type: Item
+    sprite: Objects/Misc/bureaucracy.rsi
+    heldPrefix: pen_pencil
+
+- type: entity
+  name: Ручка Gorlax
+  parent: CyberPen
+  id: GorlaxPen
+  description: Высокотехнологичная ручка, созданная юридическим отделом Gorlax, способная преломлять жесткий свет под невозможными углами через свой алмазный наконечник, чтобы писать. Настолько мощный, что в случае необходимости он даже способен переписать официально проштампованные документы.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: pen_gorlax
+  - type: Item
+    sprite: Objects/Misc/bureaucracy.rsi
+    heldPrefix: pen_gorlax
+
+# - >

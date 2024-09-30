@@ -169,4 +169,12 @@
       - PosterLegitShoukou # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
       - PosterLegitCornzza # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
       - PosterLegitFuckAround # DeltaV Poster, see Resources/Prototypes/DeltaV/Entities/Structures/Wallmount/Signs/posters.yml
+
+      # - < DarkSide - LOST PARADISE, see Resources/Prototypes/_LostParadise/Entities/Structures/Wallmounts/posters.yml
+      - LPPPosterHappyNewYear
+      - LPPPosterNoAlcohol
+      - LPPPosterSport
+      - LPPPosterTimeTea
+      # - >
+      
     chance: 1

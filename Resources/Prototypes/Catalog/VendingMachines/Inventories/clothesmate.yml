@@ -67,6 +67,11 @@
     LPPClothingNeckShemagPurple: 4
     LPPClothingNeckShemagBlue: 4
     LPPClothingNeckShemagWhite: 4
+    # - < DarkSide
+    LPPClothingOuterCoatPajamsSharkGray: 2
+    LPPClothingOuterCoatPajamsSharkPink: 2
+    LPPClothingOuterCoatPajamsSharkBlue: 2
+    # - >
   contrabandInventory:
     ClothingMaskNeckGaiter: 2
     ClothingUniformJumpsuitTacticool: 2

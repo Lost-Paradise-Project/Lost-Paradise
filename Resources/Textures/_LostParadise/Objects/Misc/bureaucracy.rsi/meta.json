@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Drawn by Parzat911 DISCORD: Parzat911",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "folder-cap"
+    },
+    {
+      "name": "folder-overlay-paper"
+    },
+    {
+      "name": "folder-base"
+    },
+    {
+      "name": "folder-clown"
+    },
+    {
+      "name": "folder-colormap-nt"
+    },
+    {
+      "name": "folder-colormap"
+    },
+    {
+      "name": "folder-centcom"
+    },
+    {
+      "name": "folder-white"
+    },
+    {
+      "name": "folder-mime"
+    },
+    {
+      "name": "folder-secret-blue"
+    },
+    {
+      "name": "folder-secret-cap"
+    },
+    {
+      "name": "folder-secret-centcom"
+    },
+    {
+      "name": "folder-secret-red"
+    },
+    {
+      "name": "folder-tsf"
+    },
+    {
+      "name": "folder-ussp"
+    },
+    {
+      "name": "newspaper"
+    },
+    {
+      "name": "newspaper2"
+    },
+    {
+      "name": "newspaper3"
+    },
+    {
+      "name": "newspaper4"
+    },
+    {
+      "name": "newspaper5"
+    },
+    {
+      "name": "id-nt"
+    },
+    {
+      "name": "id-ussp"
+    },
+    {
+      "name": "open-id-nt"
+    },
+    {
+      "name": "open-id-ussp"
+    }
+  ]
+}
