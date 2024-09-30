@@ -1,0 +1,10 @@
+ent-MSSAPinAndromeda = pin "Andromeda"
+    .desc = Make yourself at home, traveler.
+ent-MSSAPinLostParadise = pin "Lost Paradise"
+    .desc = We try our best for you!
+ent-MSSAPinFoxHole = pin "Fox Hole"
+    .desc = A Fox Hole, where it's quiet and peaceful.
+ent-MSSAPinMSSA = pin "MSSA"
+    .desc = Together we are strong!
+ent-MSSAPinSirena = pin "Sirena"
+    .desc = The club of intelligent people.

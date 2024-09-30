@@ -1,0 +1,10 @@
+ent-ShowSecurityIcons = { "" }
+    .desc = { "" }
+ent-LPPBlackHudGlasses = Sunglasses with HUD
+    .desc = Useful for Security and Cargo.
+ent-LPPRedHudGlasses = Red sunglasses with HUD
+    .desc = Useful for Security and Cargo.
+ent-LPPBlueHudGlasses = Blue sunglasses with HUD
+    .desc = Useful for Security and Cargo.
+ent-LPPChemistHudGlasses = chemistry goggles
+    .desc = A pair of snazzy goggles used to protect against chemical spills. Fitted with an analyzer for scanning reagents.
