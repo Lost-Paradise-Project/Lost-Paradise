@@ -973,3 +973,10 @@ Entries:
   id: 82
   time: '2024-10-01T11:09:04.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/233
+- author: PowerKAT1
+  changes:
+    - type: Fix
+      message: Нормандия
+  id: 83
+  time: '2024-10-01T11:52:06.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/234
