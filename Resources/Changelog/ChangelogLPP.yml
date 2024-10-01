@@ -964,3 +964,12 @@ Entries:
   id: 81
   time: '2024-09-30T22:57:35.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/227
+- author: MrDarkSide
+  changes:
+    - type: Tweak
+      message: Изменен шанс спавна 2500 кредитов в кошельках с 0.5 до 0.3
+    - type: Fix
+      message: Исправление ошибок переводов PR 220
+  id: 82
+  time: '2024-10-01T11:09:04.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/233
