@@ -52,3 +52,5 @@ ent-FoodSaladWatermelonFruitBowl = Фруктовый арбузный боул
     .desc = Единственный салат, в котором можно съесть миску.
 ent-FoodMealCornInButter = Кукуруза в сливочном масле
     .desc = Маслянистенько.
+ent-FoodHarpyWings = Крылышки гарпии
+    .desc = Оно немного тягучее.

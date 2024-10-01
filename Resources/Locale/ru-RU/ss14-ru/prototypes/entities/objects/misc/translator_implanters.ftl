@@ -18,3 +18,5 @@ ent-RootSpeakTranslatorImplanter = Имплант-переводчик с пес
     .desc = { ent-BaseTranslatorImplanter.desc }
 ent-MofficTranslatorImplanter = Имплант-переводчик с мольего
     .desc = { ent-BaseTranslatorImplanter.desc }
+ent-ValyrianStandardTranslatorImplanter = Имплант-переводчик с валирийского стандарта
+  .desc = { ent-BaseTranslatorImplanter.desc }
