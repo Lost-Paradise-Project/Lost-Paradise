@@ -4,8 +4,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: LPPClothingOuterCoatPajamsSharkPink
-  name: Розовая пижама акулы
-  description: А я рыба, я рыба, я рыба....
+  name: Pink shark pajamas
+  description: And I'm a fish, I'm a fish, I'm a fish....
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Pajams/shark_pink.rsi
@@ -29,8 +29,8 @@
   parent: ClothingHeadBase
   id: LPPHelmetPajamsSharkPink
   noSpawn: true
-  name: капюшон пижамы акулы
-  description: Милота :3
+  name: shark pajama hood
+  description: Cuteness :3
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Pajams/shark_pink.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: LPPClothingOuterCoatPajamsSharkBlue
-  name: Синия пижама акулы
-  description: А я рыба, я рыба, я рыба....
+  name: Blue shark pajamas
+  description: And I'm a fish, I'm a fish, I'm a fish....
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Pajams/shark_blue.rsi
@@ -68,8 +68,8 @@
   parent: ClothingHeadBase
   id: LPPHelmetPajamsSharkBlue
   noSpawn: true
-  name: капюшон пижамы акулы
-  description: Милота :3
+  name: shark pajama hood
+  description: Cuteness :3
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Pajams/shark_blue.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: ClothingOuterWinterCoat
   id: LPPClothingOuterCoatPajamsSharkGray
-  name: Серая пижама акулы
-  description: А я рыба, я рыба, я рыба....
+  name: Grey shark pajamas
+  description: And I'm a fish, I'm a fish, I'm a fish....
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Pajams/shark_gray.rsi
@@ -107,8 +107,8 @@
   parent: ClothingHeadBase
   id: LPPHelmetPajamsSharkGray
   noSpawn: true
-  name: капюшон пижамы акулы
-  description: Милота :3
+  name: shark pajama hood
+  description: Cuteness :3
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Pajams/shark_gray.rsi

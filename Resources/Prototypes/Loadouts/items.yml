@@ -757,14 +757,3 @@
   cost: 1
   items:
     - DrinkVacuumFlask
-
-# - < DarkSide - LOST PARADISE
-
-- type: loadout
-  id: LPPLoadoutPaperIdCardUSSP
-  category: Items
-  cost: 3
-  items:
-    - LPPPaperIdCardUSSP
-
-# - > 

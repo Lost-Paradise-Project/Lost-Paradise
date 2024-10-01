@@ -24,8 +24,8 @@
 - type: entity
   parent: ClothingHandsGlovesCombat
   id: LPPClothingHandsGlovesTacticalFingerless
-  name: тактические беспалые боевые перчатки
-  description: Эти тактические перчатки огнеупорны и ударопрочны.
+  name: tactical fingerless combat gloves
+  description: These tactical gloves are fireproof and impact resistant.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Hands/Gloves/CombatFingerless.rsi
