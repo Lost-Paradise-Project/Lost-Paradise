@@ -52,7 +52,7 @@ def remove_empty_files_and_folders(path):
 if __name__ == "__main__":
     script_dir = os.path.dirname(os.path.abspath(__file__))
     main_folder = find_top_level_dir(script_dir)
-    root_dir = os.path.join(main_folder, "Resources\\Locale\\ru-RU")
+    root_dir = os.path.join(main_folder, "Resources\\Locale")
     log_file = setup_logging()
 
     logging.info(f"Начало очистки в директории: {root_dir}")
