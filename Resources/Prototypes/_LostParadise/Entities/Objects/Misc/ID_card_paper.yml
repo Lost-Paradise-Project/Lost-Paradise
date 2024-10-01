@@ -1,0 +1,60 @@
+# - < DarkSide
+# Удостоврения личности в виде паспорта или что то такое
+- type: entity
+  id: LPPPaperIdCardCentcom
+  parent: BaseItem
+  name: ID card
+  description: This is an ID card for a NanoTrasen Corporation employee... And it seems to belong to Central Command.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: id-nt
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+     enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: open-id-nt}
+          False: {state: id-nt}
+  - type: Item
+    size: Tiny
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+  - type: Tag
+    tags:
+    - Book
+    - Document
+  - type: ItemToggle
+    predictable: false
+    soundActivate:
+      path: /Audio/Items/candle_blowing.ogg
+      params:
+        volume: 10
+    soundDeactivate:
+      path: /Audio/Items/candle_blowing.ogg
+      params:
+        volume: 10
+  - type: ItemToggleSize
+    activatedSize: Small
+  - type: UseDelay
+
+- type: entity
+  id: LPPPaperIdCardUSSP
+  parent: LPPPaperIdCardCentcom
+  name: Identity card
+  description: This is the identity card of a person who has or had citizenship of the SSSP
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: id-ussp
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+     enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: open-id-ussp}
+          False: {state: id-ussp}
+# - > 

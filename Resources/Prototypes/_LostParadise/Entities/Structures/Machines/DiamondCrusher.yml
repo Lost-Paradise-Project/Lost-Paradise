@@ -146,7 +146,7 @@
 
 - type: latheRecipe
   id: LPPMaterialDiamond
-  result: MaterialDiamond
+  result: MaterialDiamond5
   completetime: 2
   materials:
-    LPPRawDiamond: 15000
+    LPPRawDiamond: 2500

@@ -68,4 +68,33 @@
     stampState: "paper_stamp-deny"
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/stampppd.rsi
-    state: stamp-deny-lpp
+    state: stamp-vd # -< DarkSide >
+
+# - < DarkSide
+
+- type: entity
+  name: Pencil
+  parent: Pen
+  id: LPPPenPencil
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: pen_pencil
+  - type: Item
+    sprite: Objects/Misc/bureaucracy.rsi
+    heldPrefix: pen_pencil
+
+- type: entity
+  name: Gorlax Pen
+  parent: CyberPen
+  id: GorlaxPen
+  description: A high-tech pen created by the Gorlax legal department that can bend hard light at impossible angles through its diamond tip to write. So powerful that it can even rewrite officially stamped documents if necessary.
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: pen_gorlax
+  - type: Item
+    sprite: Objects/Misc/bureaucracy.rsi
+    heldPrefix: pen_gorlax
+
+# - >

@@ -902,3 +902,81 @@ Entries:
   id: 79
   time: '2024-09-29T17:39:16.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/228
+- author: MrDarkSide
+  changes:
+    - type: Add
+      message: Добавлен новый чокер
+    - type: Add
+      message: Добавлены беспалые тактические боевые перчатки
+    - type: Add
+      message: Добавлены новостные газеты для репортёров.
+    - type: Tweak
+      message: Изменение спрайта некоторых ручек.
+    - type: Add
+      message: Добавлен обычный карандаш
+    - type: Tweak
+      message: Изменение спрайтов таких печатей как  Отказ, Одобрено, Изменить.
+    - type: Add
+      message: Добавлена упаковка бумаг
+    - type: Add
+      message: Добавлены три новых Пижамы Акулы которые можно найти в Одеждомате
+    - type: Add
+      message: >-
+        Добавлено более 5-ти новых кошельков. В кошельках появляются деньги от
+        1000 до 2500 кредитов.
+    - type: Add
+      message: Добавлены новые папки для службы безопасности, капитана и прочих ролей.
+    - type: Add
+      message: >-
+        Добавлено появление кодов авторизации к боеголовке в сверх секретную
+        папку капитана
+    - type: Add
+      message: Добавлено появление новых папок в шкаф к должностям
+    - type: Add
+      message: Добавлены новые постеры!
+    - type: Fix
+      message: Исправлен баг с взаимодействиями. Теперь настроение работает как нужно
+  id: 80
+  time: '2024-09-30T17:44:46.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/220
+- author: BL02DL
+  changes:
+    - type: Add
+      message: Добавлен новый хоткей Shift+H!
+    - type: Remove
+      message: Убрано веселье!
+    - type: Tweak
+      message: Изменён рецепт очищенного алмаза, теперь он 5 к 5 вместо 30 к 30!
+    - type: Tweak
+      message: Изменён спавн очищенного алмаза на картах на не обработанную жеоду!
+    - type: Tweak
+      message: Изменён слот холстера дека с пояса на шею!
+    - type: Tweak
+      message: Возможно изменены большинство текстур в СБ на старые!
+    - type: Tweak
+      message: >-
+        Изменено теперь технология дробителя алмазов находится в алмазной
+        дисциплине!
+    - type: Fix
+      message: Исправлен перевод материала в переработчике руды!
+    - type: Fix
+      message: Исправлен крафт шлема с фонариком!
+  id: 81
+  time: '2024-09-30T22:57:35.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/227
+- author: MrDarkSide
+  changes:
+    - type: Tweak
+      message: Изменен шанс спавна 2500 кредитов в кошельках с 0.5 до 0.3
+    - type: Fix
+      message: Исправление ошибок переводов PR 220
+  id: 82
+  time: '2024-10-01T11:09:04.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/233
+- author: PowerKAT1
+  changes:
+    - type: Fix
+      message: Нормандия
+  id: 83
+  time: '2024-10-01T11:52:06.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/234

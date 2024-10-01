@@ -1,0 +1,48 @@
+# - < DarkSide
+- type: entity
+  parent: PosterBase
+  id: LPPPosterBase
+  abstract: true
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _LostParadise/Structures/Wallmounts/posters.rsi
+    snapCardinals: true
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterHappyNewYear
+  name: "С новый годом!"
+  description: "Поздрваляем с новым годом!"
+  components:
+  - type: Sprite
+    state: happynewyear
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterNoAlcohol
+  name: "Нет алкоголю!"
+  description: "Правда... Хватит уже"
+  components:
+  - type: Sprite
+    state: noalcohol
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterSport
+  name: "Спорт"
+  description: "Занимайся спортом, жирный скуф"
+  components:
+  - type: Sprite
+    state: sportuna
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterTimeTea
+  name: "Время чая"
+  description: "Оу, вы из Англии?"
+  components:
+  - type: Sprite
+    state: timetea     
+
+# - >

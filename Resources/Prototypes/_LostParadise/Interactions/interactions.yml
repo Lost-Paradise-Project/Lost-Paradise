@@ -54,10 +54,8 @@
     popup: VisibleNoChat
     sound: {collection: Claps}
   action:
-    !type:OnUserAction
-    action:
-      !type:MoodAction
-      effect: LPPEncouraged
+    !type:MoodAction
+    effect: LPPEncouraged
 
 - type: Interaction
   id: LPPLick # Лизнуть
@@ -84,10 +82,6 @@
     actions:
     - !type:MoodAction
       effect: LPPEmbarrassment
-    - !type:OnUserAction
-      action:
-        !type:MoodAction
-        effect: LPPEmbarrassment
 
 - type: Interaction
   id: LPPSlap
@@ -117,11 +111,11 @@
         damage:
           types: {Blunt: 5.5}
     - !type:MoodAction
-      effect: LPPSlapped
+      effect: LPPGotSlap
     - !type:OnUserAction
       action:
         !type:MoodAction
-        effect: LPPGotSlap
+        effect: LPPSlapped
 
 - type: Interaction
   id: LPPSlap2 # Шлёпнуть

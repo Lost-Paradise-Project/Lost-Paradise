@@ -1,0 +1,217 @@
+# - < DarkSide
+# Бумажники
+
+- type: entity
+  id: LPPWalletBase
+  parent: BaseItem
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/Wallet.rsi
+    scale: 0.85, 0.85
+    layers:
+    - state: wallet
+      map: [ base ]
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: wallet_overlay }
+          False: { state: wallet }
+  - type: Item
+    size: Small
+    sprite: _LostParadise/Objects/Misc/Wallet.rsi
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+  - type: Input
+    context: "human"
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - idcard
+    - Belt
+  - type: Storage
+    grid:
+    - 0,0,1,1
+    # maxItemSize: Small
+    defaultStorageOrientation: Vertical
+    whitelist:
+      tags:
+        - Document
+        - Paper
+      components:
+        - IdCard
+        - Cash
+    maxItemSize: Huge
+    storageOpenSound: /Audio/Items/bow_pull.ogg
+    storageCloseSound: /Audio/Items/bow_pull.ogg
+  - type: StorageFill
+    contents:
+      - id: SpaceCash1000
+        prob: 0.5
+      - id: SpaceCash2500
+        prob: 0.3
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+      ID-Card: !type:ContainerSlot {}
+  - type: UserInterface
+    interfaces:
+    - key: enum.StorageUiKey.Key
+      type: StorageBoundUserInterface
+  - type: UseDelay
+    delay: 0.5
+  - type: ItemMapper
+    mapLayers:
+      wallet_cash:
+        whitelist:
+          components:
+          - Cash
+  - type: ItemSlots
+    slots:
+      ID-Card:
+        name: access-id-card-component-default
+        ejectSound: /Audio/Items/bow_pull.ogg
+        insertSound: /Audio/Items/bow_pull.ogg
+        whitelist:
+          components:
+            - IdCard
+
+- type: entity
+  id: LPPWalletDark
+  parent: LPPWalletBase
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: Dark
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/Wallet.rsi
+    layers:
+    - state: dark-wallet
+      map: [ base ]
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: dark-wallet_overlay }
+          False: { state: dark-wallet }
+
+- type: entity
+  id: LPPWalletDarkLeather
+  parent: LPPWalletBase
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: Dark
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/Wallet.rsi
+    layers:
+    - state: darkleather-wallet
+      map: [ base ]
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: darkleather-wallet_overlay }
+          False: { state: darkleather-wallet }
+
+- type: entity
+  id: LPPWalletGreen
+  parent: LPPWalletBase
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: Green
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/Wallet.rsi
+    layers:
+    - state: green-wallet
+      map: [ base ]
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: green-wallet_overlay }
+          False: { state: green-wallet }
+
+- type: entity
+  id: LPPWalletGrey
+  parent: LPPWalletBase
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: Grey
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/Wallet.rsi
+    layers:
+    - state: grey-wallet
+      map: [ base ]
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: grey-wallet_overlay }
+          False: { state: grey-wallet }
+
+- type: entity
+  id: LPPWalletYellow
+  parent: LPPWalletBase
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: Yellow
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/Wallet.rsi
+    layers:
+    - state: yellow-wallet
+      map: [ base ]
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: yellow-wallet_overlay }
+          False: { state: yellow-wallet }
+
+- type: entity
+  id: LPPWalletWhite
+  parent: LPPWalletBase
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: White
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/Wallet.rsi
+    layers:
+    - state: white-wallet
+      map: [ base ]
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: white-wallet_overlay }
+          False: { state: white-wallet }
+
+# Особый кошелёк
+
+- type: entity
+  id: LPPWalletSyndicate
+  parent: LPPWalletBase
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: Syndicate
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/Wallet.rsi
+    layers:
+    - state: syndicate-wallet
+      map: [ base ]
+  - type: GenericVisualizer
+    visuals:
+      enum.StorageVisuals.Open:
+        base:
+          True: { state: syndicate-wallet_overlay }
+          False: { state: syndicate-wallet }

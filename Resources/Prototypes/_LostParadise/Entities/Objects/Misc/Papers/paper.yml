@@ -1,0 +1,54 @@
+- type: entity
+  parent: BaseItem
+  id: LPPNewspaper
+  name: Newspaper
+  description: "Fresh newspaper"
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+    state: newspaper
+  - type: Item
+    sprite: _LostParadise/Objects/Misc/bureaucracy.rsi
+  - type: Paper
+    contentSize: 12000
+  - type: ActivatableUI
+    key: enum.PaperUiKey.Key
+    closeOnHandDeselect: false
+  - type: UserInterface
+    interfaces:
+    - key: enum.PaperUiKey.Key
+      type: PaperBoundUserInterface
+  - type: Tag
+    tags:
+    - Document
+    - Trash
+    - Paper
+    - Book
+  - type: PaperVisuals
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_book.svg.96dpi.png"
+    backgroundPatchMargin: 23.0, 16.0, 14.0, 15.0
+    contentMargin: 20.0, 20.0, 20.0, 20.0
+  - type: EmitSoundOnPickup
+    sound: /Audio/SimpleStation14/Items/Handling/book_pickup.ogg
+  - type: EmitSoundOnDrop
+    sound: /Audio/SimpleStation14/Items/Handling/book_drop.ogg
+  - type: EmitSoundOnLand
+    sound: /Audio/SimpleStation14/Items/Handling/book_drop.ogg
+
+- type: entity
+  parent: BaseItem
+  id: LPPPaperBoxWrapped
+  name: Paper Packaging
+  description: Paper Packaging
+  components:
+  - type: Item
+    size: Normal
+  - type: SpawnItemsOnUse
+    items:
+      - id: Paper
+        amount: 10
+    sound:
+      path: /Audio/Effects/unwrap.ogg
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/warpped_paper.rsi
+    state: packaging_paper

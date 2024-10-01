@@ -18,3 +18,19 @@
     damage:
       types:
         Blunt: 7
+
+
+# - < DarkSide
+
+- type: entity
+  parent: ClothingHandsGlovesCombat
+  id: LPPClothingHandsGlovesTacticalFingerless
+  name: tactical fingerless combat gloves
+  description: These tactical gloves are fireproof and impact resistant.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Hands/Gloves/CombatFingerless.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Hands/Gloves/CombatFingerless.rsi
+
+# - >

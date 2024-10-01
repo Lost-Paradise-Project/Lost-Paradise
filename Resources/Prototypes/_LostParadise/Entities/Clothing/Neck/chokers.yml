@@ -91,3 +91,20 @@
     sprite: _LostParadise/Clothing/Neck/chokers/spiked.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/chokers/spiked.rsi
+
+
+# Made DarkSide - <
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckCollarHeart
+  name: Heart choker
+  description: Choker with a heart, you are either a cutie or a pet if you decide to wear one.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/chokers/heart.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/chokers/heart.rsi
+
+
+# - >

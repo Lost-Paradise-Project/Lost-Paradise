@@ -1,0 +1,58 @@
+# - < DarkSide
+# Лодаут в категория - без категории
+
+- type: loadout
+  id: LPPLoadoutWalletBase
+  category: Uncategorized
+  cost: 1
+  items:
+    - LPPWalletBase
+
+- type: loadout
+  id: LPPLoadoutWalletDark
+  category: Uncategorized
+  cost: 1
+  items:
+    - LPPWalletDark
+
+- type: loadout
+  id: LPPLoadoutWalletDarkLeather
+  category: Uncategorized
+  cost: 1
+  items:
+    - LPPWalletDarkLeather
+
+- type: loadout
+  id: LPPLoadoutWalletGrey
+  category: Uncategorized
+  cost: 1
+  items:
+    - LPPWalletGrey
+  
+- type: loadout
+  id: LPPLoadoutWalletYellow
+  category: Uncategorized
+  cost: 1
+  items:
+    - LPPWalletYellow
+
+- type: loadout
+  id: LPPLoadoutWalletWhite
+  category: Uncategorized
+  cost: 1
+  items:
+    - LPPWalletWhite
+
+- type: loadout
+  id: LPPLoadoutWalletGreen
+  category: Uncategorized
+  cost: 1
+  items:
+    - LPPWalletGreen
+
+- type: loadout
+  id: LPPLoadoutWalletSyndicate
+  category: Uncategorized
+  cost: 4
+  items:
+    - LPPWalletSyndicate
