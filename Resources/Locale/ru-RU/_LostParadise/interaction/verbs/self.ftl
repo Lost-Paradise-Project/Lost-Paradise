@@ -10,4 +10,4 @@ interaction-LPPCheckStatusSilicon-fail-self-popup = Ты не можешь пр�
 interaction-LPPCheckStatusSilicon-success-self-popup = Ты успешно провёл диагностику системы { THE ($target) }.
 interaction-LPPCheckStatusSilicon-success-others-popup = { THE($user) } проводит диагностику системы { THE($target) }.
 interaction-LPPCheckStatusSilicon-delayed-self-popup = { THE ($user) } проводит диагностику вашей системы.
-interaction-LPPCheckStatusSilicon-delayed-others-popup = { THE($user) } начинает проводит диагностику системы { THE($target) }.
+interaction-LPPCheckStatusSilicon-delayed-others-popup = { THE($user) } начинает проводить диагностику системы { THE($target) }.
