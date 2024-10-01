@@ -1,4 +1,0 @@
-﻿lppguide-entry-rights = Права сотрудников корпорации
-lppguide-entry-brib = Основные Права Разумных Существ
-lppguide-entry-rightsprisoners = Права заключенных/задержанных
-lppguide-entry-spacelaw = Космический закон
