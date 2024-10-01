@@ -55,3 +55,6 @@ ent-ReagentSlimeEphedrine = { ent-ReagentSlime }
 ent-ReagentSlimeRobustHarvest = { ent-ReagentSlime }
     .suffix = Робаст харвест
     .desc = { ent-ReagentSlime.desc }
+ent-ReagentSlimeLotophagoiOil = { ent-ReagentSlime }
+    .suffix = Масло лотофагов
+    .desc = { ent-ReagentSlime.desc }
