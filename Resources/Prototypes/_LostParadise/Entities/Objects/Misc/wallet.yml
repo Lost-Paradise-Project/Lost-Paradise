@@ -4,8 +4,8 @@
 - type: entity
   id: LPPWalletBase
   parent: BaseItem
-  name: Кошелёк
-  description: Это чей-то личный бумажник. В нем могут находиться разные интересные бумажки...
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
@@ -53,7 +53,7 @@
       - id: SpaceCash1000
         prob: 0.5
       - id: SpaceCash2500
-        prob: 0.5
+        prob: 0.3
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
@@ -84,9 +84,9 @@
 - type: entity
   id: LPPWalletDark
   parent: LPPWalletBase
-  name: Кошелёк
-  suffix: Темный
-  description: Это чей-то личный бумажник. В нем могут находиться разные интересные бумажки...
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: Dark
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
@@ -103,9 +103,9 @@
 - type: entity
   id: LPPWalletDarkLeather
   parent: LPPWalletBase
-  name: Кошелёк
-  suffix: Темный
-  description: Это чей-то личный бумажник. В нем могут находиться разные интересные бумажки...
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: Dark
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
@@ -122,9 +122,9 @@
 - type: entity
   id: LPPWalletGreen
   parent: LPPWalletBase
-  name: Кошелёк
-  suffix: Зелёный
-  description: Это чей-то личный бумажник. В нем могут находиться разные интересные бумажки...
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: Green
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
@@ -141,9 +141,9 @@
 - type: entity
   id: LPPWalletGrey
   parent: LPPWalletBase
-  name: Кошелёк
-  suffix: Серый
-  description: Это чей-то личный бумажник. В нем могут находиться разные интересные бумажки...
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: Grey
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
@@ -160,9 +160,9 @@
 - type: entity
   id: LPPWalletYellow
   parent: LPPWalletBase
-  name: Кошелёк
-  suffix: Желтый
-  description: Это чей-то личный бумажник. В нем могут находиться разные интересные бумажки...
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: Yellow
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
@@ -179,9 +179,9 @@
 - type: entity
   id: LPPWalletWhite
   parent: LPPWalletBase
-  name: Кошелёк
-  suffix: Белый
-  description: Это чей-то личный бумажник. В нем могут находиться разные интересные бумажки...
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: White
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
@@ -200,9 +200,9 @@
 - type: entity
   id: LPPWalletSyndicate
   parent: LPPWalletBase
-  name: Кошелёк
-  suffix: Синдикат
-  description: Это чей-то личный бумажник. В нем могут находиться разные интересные бумажки...
+  name: Wallet
+  description: This is someone's personal wallet. It may contain various interesting pieces of paper...
+  suffix: Syndicate
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
