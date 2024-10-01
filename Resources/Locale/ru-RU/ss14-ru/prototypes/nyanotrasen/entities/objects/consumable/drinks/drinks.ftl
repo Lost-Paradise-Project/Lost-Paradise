@@ -1,3 +1,6 @@
+ent-DrinkSakeGlass = { ent-DrinkGlass }
+    .desc = Вино из риса, это сакэ!
+    .suffix = Саке
 ent-DrinkOrangeCreamiceGlass = { ent-DrinkGlass }
     .desc = Апельсиново, кремово, божественно.
     .suffix = Апельсиновый кремовик

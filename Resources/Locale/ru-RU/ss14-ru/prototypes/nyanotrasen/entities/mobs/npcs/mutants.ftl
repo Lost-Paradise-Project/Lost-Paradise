@@ -5,3 +5,5 @@ ent-MobGiantSpiderVampire = Онейрофаг
 ent-MobGiantSpiderVampireAngry = Онейрофаг
     .suffix = Злой
     .desc = { ent-MobGiantSpiderVampire.desc }
+ent-MobMouseCancer = Раковая мышь
+    .desc = Джесси. У меня рак мыши.

@@ -1,5 +1,6 @@
 ent-ClothingHeadHelmetHardsuitCombatStandard = Шлем FPA-85
-    .desc = Громоздкий шлем тактического скафандра Baghatur Mk.II.
+    .desc =
+        Громоздкий шлем тактического скафандра Baghatur Mk.II.
         Защищает владельца от пуль и взрывов ценой мобильности.
 ent-ClothingHeadHelmetHardsuitCombatOfficer = Шлем FPA-85s
     .desc = { ent-ClothingHeadHelmetHardsuitCombatStandard.desc }

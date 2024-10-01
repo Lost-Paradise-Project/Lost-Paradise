@@ -20,3 +20,7 @@ ent-ActionPsionicInvisibility = action-name-psionic-invisibility
     .desc = action-description-psionic-invisibility
 ent-ActionPsionicInvisibilityUsed = action-name-psionic-invisibility-off
     .desc = action-description-psionic-invisibility-off
+ent-ActionHealingWord = action-name-healing-word
+    .desc = action-description-healing-word
+ent-ActionRevivify = action-name-revivify
+    .desc = action-description-revivify

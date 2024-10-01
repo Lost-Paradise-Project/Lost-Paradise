@@ -1,5 +1,8 @@
 ent-ClothingBackpackDuffelSurgeryFilled = Хирургический вещмешок
     .desc = Большой вещевой мешок для хранения дополнительного медицинского снаряжения - похоже, этот мешок предназначен для хранения хирургических инструментов.
+ent-ClothingBackpackDuffelCBURNFilled = { ent-ClothingBackpackDuffelCBURN }
+    .suffix = Заполненный
+    .desc = { ent-ClothingBackpackDuffelCBURN.desc }
 # Corvax-HiddenDesc-Start
 ent-ClothingBackpackDuffelSyndicateFilledMedical = { ent-ClothingBackpackDuffelSyndicate }
     .desc = { ent-ClothingBackpackDuffelSyndicate.desc }
@@ -57,6 +60,10 @@ ent-ClothingBackpackDuffelSyndicateHardsuitBundle = { ent-ClothingBackpackDuffel
 ent-ClothingBackpackDuffelSyndicateEliteHardsuitBundle = { ent-ClothingBackpackDuffelSyndicate }
     .suffix = Набор элитных скафандров Синдиката
     .desc = { ent-ClothingBackpackDuffelSyndicate.desc }
+ent-ClothingBackpackDuffelSyndicateOperative = Сумка оперативника
+    .desc = { ent-ClothingBackpackDuffelSyndicateBundle.desc }
+ent-ClothingBackpackDuffelSyndicateOperativeMedic = Сумка оперативника медика
+    .desc = A large duffel bag for holding extra medical supplies.
 ent-ClothingBackpackDuffelSyndicateHardsuitExtrasBundle = { ent-ClothingBackpackDuffelSyndicate }
     .suffix = Набор дополнений скафандров Синдиката
     .desc = { ent-ClothingBackpackDuffelSyndicate.desc }
