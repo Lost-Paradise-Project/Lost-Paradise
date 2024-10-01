@@ -18,7 +18,7 @@
   name: chat-radio-command
   keycode: 'к' # Corvax-Localization
   frequency: 1353
-  color: "#fcdf03"
+  color: "#436be0" # < DarkSide - LOST PARADISE >
 
 - type: radioChannel
   id: Engineering
