@@ -48364,8 +48364,6 @@ entities:
       pos: -7.5,-9.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 14832
       - 15297
@@ -86656,8 +86654,6 @@ entities:
         - Pressed: Toggle
         12409:
         - Pressed: Toggle
-        invalid:
-        - Pressed: Toggle
   - uid: 16044
     components:
     - type: Transform
@@ -86666,8 +86662,6 @@ entities:
       parent: 2
     - type: DeviceLinkSource
       linkedPorts:
-        invalid:
-        - Pressed: Toggle
         13188:
         - Pressed: Toggle
         14731:
