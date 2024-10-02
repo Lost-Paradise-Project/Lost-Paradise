@@ -20,7 +20,6 @@
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/chokers/black.rsi
 
-
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckBellCollarRed
@@ -31,7 +30,6 @@
     sprite: _LostParadise/Clothing/Neck/chokers/red.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/chokers/red.rsi
-
 
 - type: entity
   parent: ClothingNeckBase
@@ -44,7 +42,6 @@
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/chokers/cyan.rsi
 
-
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckBellCollarGreen
@@ -55,7 +52,6 @@
     sprite: _LostParadise/Clothing/Neck/chokers/green.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/chokers/green.rsi
-
 
 - type: entity
   parent: ClothingNeckBase
@@ -68,7 +64,6 @@
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/chokers/purple.rsi
 
-
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckBellCollarOrange
@@ -79,7 +74,6 @@
     sprite: _LostParadise/Clothing/Neck/chokers/orange.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/chokers/orange.rsi
-
 
 - type: entity
   parent: ClothingNeckBase

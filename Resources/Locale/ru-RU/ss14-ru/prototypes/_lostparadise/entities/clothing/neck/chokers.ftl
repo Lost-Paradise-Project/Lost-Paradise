@@ -14,3 +14,5 @@ ent-LPPClothingNeckBellCollarOrange = Оранжевый чокер с коло�
     .desc = Чокер с колокольчиком, чтобы ваш хозяин точно вас не потерял где-нибудь в дормах.
 ent-LPPClothingNeckCollarSpiked = Шипастый чокер
     .desc = Чокер с шипами, вы либо гот, либо металист, раз решились такое носить.
+ent-LPPClothingNeckCollarHeart = Heart choker
+    .desc = Choker with a heart, you are either a cutie or a pet if you decide to wear one.
