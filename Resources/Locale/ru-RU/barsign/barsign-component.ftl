@@ -2,6 +2,7 @@ barsign-component-name = вывеска бара
 
 # Bar signs prototypes
 
+
 ## The Harmbaton
 
 barsign-prototype-name-harmbaton = Хармбатон

@@ -1,5 +1,5 @@
 - type: reagent
-  id: FluffyApple
+  id: LPPFluffyApple
   name: reagent-name-fluffyapple
   desc: reagent-desc-space-fluffyapple
   physicalDesc: reagent-desc-physical-fluffyapple
@@ -23,7 +23,7 @@
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyApple
+  id: LPPFluffyApple
   name: apple fluffy
   description: SO CUTE
   components:
@@ -32,7 +32,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyApple
+        - ReagentId: LPPFluffyApple
           Quantity: 100
   - type: Tag
     tags:
@@ -45,7 +45,7 @@
 # -------------------------------------------------------------------------
 
 - type: reagent
-  id: FluffyEnergy
+  id: LPPFluffyEnergy
   name: reagent-name-fluffyenergy
   desc: reagent-desc-space-fluffyenergy
   physicalDesc: reagent-desc-physical-fluffyenergy
@@ -172,7 +172,7 @@
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyEnergy
+  id: LPPFluffyEnergy
   name: energy fluffy
   description: SO CUTE
   components:
@@ -181,7 +181,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyEnergy
+        - ReagentId: LPPFluffyEnergy
           Quantity: 100
   - type: Tag
     tags:
@@ -194,7 +194,7 @@
 #--------------------------------------------------------------
 
 - type: reagent
-  id: FluffyHonk
+  id: LPPFluffyHonk
   name: reagent-name-fluffyhonk
   desc: reagent-desc-space-fluffyhonk
   physicalDesc: reagent-desc-physical-fluffyhonk
@@ -223,7 +223,7 @@
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyHonk
+  id: LPPFluffyHonk
   name: honk fluffy
   description: SO CUTE
   components:
@@ -232,7 +232,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyHonk
+        - ReagentId: LPPFluffyHonk
           Quantity: 100
   - type: Tag
     tags:
@@ -245,7 +245,7 @@
 #--------------------------------------------------------------
 
 - type: reagent
-  id: FluffyLatte
+  id: LPPFluffyLatte
   name: reagent-name-fluffylatte
   desc: reagent-desc-space-fluffylatte
   physicalDesc: reagent-desc-physical-fluffylatte
@@ -269,7 +269,7 @@
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyLatte
+  id: LPPFluffyLatte
   name: latte fluffy
   description: SO CUTE
   components:
@@ -278,7 +278,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyLatte
+        - Reagentid: LPPFluffyLatte
           Quantity: 100
   - type: Tag
     tags:
@@ -291,7 +291,7 @@
 #--------------------------------------------------------------
 
 - type: reagent
-  id: FluffyMango
+  id: LPPFluffyMango
   name: reagent-name-fluffymango
   desc: reagent-desc-space-fluffymango
   physicalDesc: reagent-desc-physical-fluffymango
@@ -315,7 +315,7 @@
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyMango
+  id: LPPFluffyMango
   name: mango fluffy
   description: SO CUTE
   components:
@@ -324,7 +324,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyMango
+        - Reagentid: LPPFluffyMango
           Quantity: 100
   - type: Tag
     tags:
@@ -337,7 +337,7 @@
 #--------------------------------------------------------------
 
 - type: reagent
-  id: FluffyStan
+  id: LPPFluffyStan
   name: reagent-name-fluffystan
   desc: reagent-desc-space-fluffystan
   physicalDesc: reagent-desc-physical-fluffystan
@@ -368,7 +368,7 @@
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyStan
+  id: LPPFluffyStan
   name: stan fluffy
   description: SO CUTE
   components:
@@ -377,7 +377,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyStan
+        - Reagentid: LPPFluffyStan
           Quantity: 100
   - type: Tag
     tags:
@@ -390,7 +390,7 @@
 #--------------------------------------------------------------
 
 - type: reagent
-  id: FluffyWatermelon
+  id: LPPFluffyWatermelon
   name: reagent-name-fluffywatermelon
   desc: reagent-desc-space-fluffywatermelon
   physicalDesc: reagent-desc-physical-fluffywatermelon
@@ -414,7 +414,7 @@
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyWatermelon
+  id: LPPFluffyWatermelon
   name: watermelon fluffy
   description: SO CUTE
   components:
@@ -423,7 +423,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyWatermelon
+        - Reagentid: LPPFluffyWatermelon
           Quantity: 100
   - type: Tag
     tags:
@@ -437,19 +437,19 @@
 #-------------------------------------
 
 - type: vendingMachineInventory
-  id: FluffyInventory
+  id: LPPFluffyInventory
   startingInventory:
-    FluffyApple: 10
-    FluffyHonk: 10
-    FluffyLatte: 10
-    FluffyMango: 10
-    FluffyStan: 10
-    FluffyWatermelon: 10
+    LPPFluffyApple: 10
+    LPPFluffyHonk: 10
+    LPPFluffyLatte: 10
+    LPPFluffyMango: 10
+    LPPFluffyStan: 10
+    LPPFluffyWatermelon: 10
 
 
 - type: entity
   parent: VendingMachine
-  id: VendingMachineFluffy
+  id: LPPVendingMachineFluffy
   name: fluffy drinks
   description: A softdrink vendor provided by Robust Industries, LLC.
   components:
@@ -483,7 +483,7 @@
 
 
 - type: messagePack
-  id: FluffyAds
+  id: LPPFluffyAds
   messages:
   - advertisement-Fluffy-1
   - advertisement-Fluffy-2

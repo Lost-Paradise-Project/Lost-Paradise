@@ -16,13 +16,13 @@
     heldPrefix: box
   - type: StorageFill
     contents:
-    - id: ClothingHandsRingPlazma
+    - id: LPPClothingHandsRingPlazma
       amount: 1
-    - id: ClothingHandsRingEmerald
+    - id: LPPClothingHandsRingEmerald
       amount: 1
-    - id: ClothingHandsRingBlood
+    - id: LPPClothingHandsRingBlood
       amount: 1
-    - id: ClothingHandsRingTurk
+    - id: LPPClothingHandsRingTurk
       amount: 1
   - type: Appearance
   - type: GenericVisualizer

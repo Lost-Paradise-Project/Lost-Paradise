@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingHandsBase
-  id: ClothingHandsRingBlood
+  id: LPPClothingHandsRingBlood
   name: blood ring
   description: Good ring.
   components:
@@ -15,7 +15,7 @@
 
 - type: entity
   parent: ClothingHandsBase
-  id: ClothingHandsRingEmerald
+  id: LPPClothingHandsRingEmerald
   name: emerald ring
   description: Good ring.
   components:
@@ -30,7 +30,7 @@
 
 - type: entity
   parent: ClothingHandsBase
-  id: ClothingHandsRingPlazma
+  id: LPPClothingHandsRingPlazma
   name: plazma ring
   description: Good ring.
   components:
@@ -45,7 +45,7 @@
 
 - type: entity
   parent: ClothingHandsBase
-  id: ClothingHandsRingTurk
+  id: LPPClothingHandsRingTurk
   name: turk ring
   description: Good ring.
   components:
