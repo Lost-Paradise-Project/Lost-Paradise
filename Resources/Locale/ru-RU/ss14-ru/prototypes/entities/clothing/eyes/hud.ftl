@@ -1,5 +1,3 @@
-ent-ShowSecurityIcons = { "" }
-    .desc = { "" }
 ent-ShowMedicalIcons = { "" }
     .desc = { "" }
 ent-ClothingEyesHudDiagnostic = Диагностический визор

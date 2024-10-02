@@ -1,5 +1,3 @@
-ent-MetempsychoticMachineCircuitboard = Плата машины для метампсихоза
-    .desc = Печатная плата для машины метампсихоза.
 ent-ReverseEngineeringMachineCircuitboard = Плата машины анализатора технологий
     .desc = Печатная плата для машины обратной разработки.
 ent-DeepFryerMachineCircuitboard = Плата фритюрницы

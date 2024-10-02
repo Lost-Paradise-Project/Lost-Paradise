@@ -29,6 +29,7 @@ ent-ClothingBeltSyndieHolster = Плечевая кобура синдиката
 ent-ClothingBeltSecurityWebbing = РПС охраны
     .desc = Уникальный, универсальный разгрузочный жилет с ремнями и поясом, может вмещать снаряжение службы безопасности.
 ent-ClothingBeltSecurityWebbingFilled = { ent-ClothingBeltSecurityWebbing }
+    .suffix = Заполненный
     .desc = { ent-ClothingBeltSecurityWebbing.desc }
 ent-ClothingBeltMercWebbing = РПС наёмника
     .desc = Идеально подходит для хранения всего: от патронов до оружия и предметов боевой необходимости.

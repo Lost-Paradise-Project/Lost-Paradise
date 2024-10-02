@@ -1,12 +1,12 @@
-ent-LPPHosPen = ручка Главы Персонала
+ent-LPPHosPen = Ручка Главы Службы Безопасности
     .desc = { ent-Pen.desc }
-ent-LPPCEPen = ручка Старшего Инженера
+ent-LPPCEPen = Ручка Старшего Инженера
     .desc = { ent-Pen.desc }
-ent-LPPQMPen = ручка Квартермейстера
+ent-LPPQMPen = Ручка Квартир Мейстера
     .desc = { ent-Pen.desc }
-ent-LPPCMOPen = ручка Главного Врача
+ent-LPPCMOPen = Ручка Главного Врача
     .desc = { ent-Pen.desc }
-ent-LPPRDPen = ручка Научного Директора
+ent-LPPRDPen = Ручка Научного Директора
     .desc = { ent-Pen.desc }
 ent-LPPStampDeny = штамп об отказе
     .desc = { ent-RubberStampMime.desc }

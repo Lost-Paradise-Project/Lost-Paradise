@@ -1,5 +1,5 @@
-ent-WallShuttleInterior = стена шаттла
-    .suffix = Интерьер
+ent-WallShuttleInterior = Стена шаттла
+    .suffix = Внутренний
     .desc = { ent-WallSolid.desc }
 ent-WallPaper = Бумажная стена
     .desc = Помогает изолироваться от страшных криков из додзё.
