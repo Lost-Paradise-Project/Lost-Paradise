@@ -1,3 +1,3 @@
-ent-LPPClothingBackpackBlack = black backpack
-    .desc = It's a tough backpack for the daily grind of station life.
-    .suffix = Sponsor
+ent-LPPClothingBackpackBlack = чёрный рюкзак
+    .desc = Он что-то напоминает.
+    .suffix = Спонсор

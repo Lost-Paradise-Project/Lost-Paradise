@@ -17,7 +17,7 @@
         refresh: false
 
 - type: flavor
-  id: AppleFluffy
+  id: LPPAppleFluffy
   flavorType: Complex
   description: flavor-complex-applefluffy
 
@@ -77,8 +77,8 @@
         sprintSpeedModifier: 0.8
       - !type:Electrocute
         conditions:
-          - !type:ReagentThreshold
-            max: 10 # ghetto withdrawal effect
+        - !type:ReagentThreshold
+          max: 10 # ghetto withdrawal effect
         probability: 0.1 # get stunlocked nerd
       - !type:Jitter
         conditions:
@@ -130,43 +130,43 @@
     Medicine:
       metabolismRate: 0.25
       effects:
-        - !type:ResetNarcolepsy
-        - !type:SatiateHunger
-          factor: 1
-        - !type:SatiateThirst
-          factor: 1
-        - !type:HealthChange
-          conditions:
-          - !type:ReagentThreshold
-            min: 10
-          damage:
-            groups:
-              Brute: -4
-              Burn: -4
-        # stops CMOs from hypoing you with lexorin and sec from filling you with tranq shells
-        - !type:SatiateThirst
-          factor: 2
-        - !type:AdjustReagent
-          reagent: Theobromine
-          amount: 0.05
-        - !type:AdjustReagent
-          conditions:
-          - !type:ReagentThreshold
-            reagent: Lexorin
-            min: 1
+      - !type:ResetNarcolepsy
+      - !type:SatiateHunger
+        factor: 1
+      - !type:SatiateThirst
+        factor: 1
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 10
+        damage:
+          groups:
+            Brute: -4
+            Burn: -4
+      # stops CMOs from hypoing you with lexorin and sec from filling you with tranq shells
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
           reagent: Lexorin
-          amount: -3
-        - !type:AdjustReagent
-          conditions:
-          - !type:ReagentThreshold
-            reagent: ChloralHydrate
-            min: 1
+          min: 1
+        reagent: Lexorin
+        amount: -3
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
           reagent: ChloralHydrate
-          amount: -3
+          min: 1
+        reagent: ChloralHydrate
+        amount: -3
 
 
 - type: flavor
-  id: EnergyFluffy
+  id: LPPEnergyFluffy
   flavorType: Complex
   description: flavor-complex-energyfluffy
 
@@ -202,10 +202,10 @@
   color: "#FFDC33"
   slippery: true
   tileReactions:
-    - !type:SpillTileReaction
-      paralyzeTime: 6
-      launchForwardsMultiplier: 2
-      requiredSlipSpeed: 1
+  - !type:SpillTileReaction
+    paralyzeTime: 6
+    launchForwardsMultiplier: 2
+    requiredSlipSpeed: 1
   metabolisms:
     Narcotic:
       effects:
@@ -217,7 +217,7 @@
         refresh: false
 
 - type: flavor
-  id: HonkFluffy
+  id: LPPHonkFluffy
   flavorType: Complex
   description: flavor-complex-honkfluffy
 
@@ -263,7 +263,7 @@
         refresh: false
 
 - type: flavor
-  id: LatteFluffy
+  id: LPPLatteFluffy
   flavorType: Complex
   description: flavor-complex-lattefluffy
 
@@ -278,7 +278,7 @@
       drink:
         maxVol: 100
         reagents:
-        - Reagentid: LPPFluffyLatte
+        - ReagentId: LPPFluffyLatte
           Quantity: 100
   - type: Tag
     tags:
@@ -309,7 +309,7 @@
         refresh: false
 
 - type: flavor
-  id: MangoFluffy
+  id: LPPMangoFluffy
   flavorType: Complex
   description: flavor-complex-mangofluffy
 
@@ -324,7 +324,7 @@
       drink:
         maxVol: 100
         reagents:
-        - Reagentid: LPPFluffyMango
+        - ReagentId: LPPFluffyMango
           Quantity: 100
   - type: Tag
     tags:
@@ -362,7 +362,7 @@
         refresh: false
 
 - type: flavor
-  id: StanFluffy
+  id: LPPStanFluffy
   flavorType: Complex
   description: flavor-complex-stanfluffy
 
@@ -377,7 +377,7 @@
       drink:
         maxVol: 100
         reagents:
-        - Reagentid: LPPFluffyStan
+        - ReagentId: LPPFluffyStan
           Quantity: 100
   - type: Tag
     tags:
@@ -408,7 +408,7 @@
         refresh: false
 
 - type: flavor
-  id: WatermelonFluffy
+  id: LPPWatermelonFluffy
   flavorType: Complex
   description: flavor-complex-watermelonfluffy
 
@@ -423,7 +423,7 @@
       drink:
         maxVol: 100
         reagents:
-        - Reagentid: LPPFluffyWatermelon
+        - ReagentId: LPPFluffyWatermelon
           Quantity: 100
   - type: Tag
     tags:
@@ -454,7 +454,7 @@
   description: A softdrink vendor provided by Robust Industries, LLC.
   components:
   - type: VendingMachine
-    pack: FluffyInventory
+    pack: LPPFluffyInventory
     dispenseOnHitChance: 0.25
     dispenseOnHitThreshold: 2
     offState: off
@@ -464,7 +464,7 @@
     denyState: deny-unshaded
     ejectDelay: 1.9
   - type: Advertise
-    pack: FluffyAds
+    pack: LPPFluffyAds
   - type: Speech
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Fluffy/FluffyVending.rsi

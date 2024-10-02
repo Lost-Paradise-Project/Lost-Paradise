@@ -1,3 +1,3 @@
-ent-LPPClothingBackpackSatchelBlack = black satchel
-    .desc = A tough satchel with extra pockets.
-    .suffix = Sponsor
+ent-LPPClothingBackpackSatchelBlack = Чёрная сумка
+    .desc = Стильная чёрная сумка, что вешается на плечо.
+    .suffix = Спонсор

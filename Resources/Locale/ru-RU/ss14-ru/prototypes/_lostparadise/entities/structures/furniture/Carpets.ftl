@@ -1,6 +1,6 @@
-ent-LPPBlackCarpet = black carpet
-    .desc = { ent-CarpetBase.desc }
-ent-LPPMonochromeCarpet = monochrome carpet
-    .desc = { ent-CarpetBase.desc }
-ent-LPPBlackRedCarpet = blackred carpet
-    .desc = { ent-CarpetBase.desc }
+ent-LPPBlackCarpet = Чёрно-золотой ковёр
+    .desc = Приятный ковёр, окрашенный в чёрно-золотые цвета
+ent-LPPMonochromeCarpet = Чёрно-белый ковёр
+    .desc = Приятная поверхность для ваших ножек
+ent-LPPBlackRedCarpet = Чёрно-алый ковёр
+    .desc = Приятный ковёр, окрашенный в чёрно-алые цвета
