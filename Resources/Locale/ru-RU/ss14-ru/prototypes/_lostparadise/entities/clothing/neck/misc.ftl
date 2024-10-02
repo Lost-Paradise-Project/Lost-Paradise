@@ -1,2 +1,2 @@
-ent-LPPClothingNeckChain = army chain
-    .desc = A chain, giving an understanding, what the person, who wearing this - the veteran
+ent-LPPClothingNeckChain = армейский жетон
+    .desc = На нём описан личный номер, имя, группа крови.

@@ -1,11 +1,11 @@
 ﻿- type: gameMap
   id: LPPPebble
   mapName: 'Пеббл'
-  mapPath: /Maps/_LostParadise/pebble.yml
+  mapPath: /Maps/_LostParadise/LPPPebble.yml
   minPlayers: 0
   maxPlayers: 30
   stations:
-    PebbleStation:
+    LPPPebbleStation:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup

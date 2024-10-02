@@ -1,10 +1,10 @@
 ﻿- type: gameMap
   id: LPPSubmarine
   mapName: 'Субмарина'
-  mapPath: /Maps/_LostParadise/submarine.yml
+  mapPath: /Maps/_LostParadise/LPPSubmarine.yml
   minPlayers: 60
   stations:
-    Submarine:
+    LPPSubmarine:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
