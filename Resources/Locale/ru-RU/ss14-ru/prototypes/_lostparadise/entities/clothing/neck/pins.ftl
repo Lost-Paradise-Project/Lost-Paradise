@@ -1,2 +1,14 @@
 ent-ClothingNeckFluppiPin = нагрудный значок Fluppy&Co Ltd
     .desc = Значок, свидетельствующий что владелец является "законным" маскотом корпораций Fluppy&Co Ltd, не обсквончи его.
+ent-MSSAPinAndromeda = Значок "Андромеда"
+    .desc = Будь как дома, путник.
+ent-MSSAPinLostParadise = Значок "Lost Paradise"
+    .desc = Стараемся для вас!
+ent-MSSAPinFoxHole = Значок "Лисей Норы"
+    .desc = Лисья нора, там где тихо и спокойно.
+ent-MSSAPinMSSA = Значок "МССА"
+    .desc = Вместе мы сильны!
+ent-MSSAPinSirena = Значок "Сирена"
+    .desc = Клуб интеллигентных людей.
+ent-LPPClothingNeckChain = армейский жетон
+    .desc = На нём описан личный номер, имя, группа крови.

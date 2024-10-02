@@ -4,3 +4,6 @@ ent-LPPAirlockSalvage = { ent-Airlock }
 ent-LPPAirlockSalvageGlass = { ent-AirlockExternal }
     .suffix = Glass, External
     .desc = { ent-AirlockExternal.desc }
+ent-LPPAirlockGate = { ent-Airlock }
+    .suffix = Gate
+    .desc = { ent-Airlock.desc }
