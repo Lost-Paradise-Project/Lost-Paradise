@@ -1,8 +1,0 @@
-- type: entity
-  parent: ClothingNeckBase
-  id: LPPADJUCloak
-  name: The Adjutant's Cloak
-  description: The blue cloak of the adjutant, breathes warmth and bureaucracy when wearing it.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Neck/Cloaks/LPPADJUCloak.rsi
