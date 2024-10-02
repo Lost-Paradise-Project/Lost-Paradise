@@ -1,4 +1,4 @@
-ent-LPPtrophieGold = golden trophy
-    .desc = The gold trophy received for the first place, the nameplate is erased so no one knows whose trophy it is.
-ent-LPPtrophieSteel = steel trophy
-    .desc = A small steel trophy for second place, the nameplate is erased so no one knows whose trophy it is.
+ent-LPPtrophieGold = золотой кубок
+    .desc = Золотой кубок полученный за первое место, именная табличка частично стёрта, так что никто не знает чей это кубок.
+ent-LPPtrophieSteel = стальной кубок
+    .desc = Маленький стальной кубок полученный за второе место, именная табличка частично стёрта, так что никто не знает чей это кубок.

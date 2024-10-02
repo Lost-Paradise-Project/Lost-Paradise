@@ -1,2 +1,2 @@
-ent-LPPFoodCumburger = cumburger
-    .desc = This is my kingdom come, this is my kingdom come...
+ent-LPPFoodCumburger = CumБургер
+    .desc = Приготовлен из 100% натуральных продуктов.

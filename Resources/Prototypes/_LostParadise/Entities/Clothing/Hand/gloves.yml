@@ -34,3 +34,58 @@
     sprite: _LostParadise/Clothing/Hands/Gloves/CombatFingerless.rsi
 
 # - >
+
+- type: entity
+  parent: ClothingHandsButcherable
+  id: LPPClothingHandsGlovesCombatNitrile
+  name: Nitrile-combat gloves
+  description: Combining high-quality nitrile gloves with combat gloves. An expensive field PPE.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Hands/Gloves/CombatNitrile.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Hands/Gloves/CombatNitrile.rsi
+  - type: Fiber
+    fiberMaterial: lppfibers-nitrile-insulative
+  - type: FingerprintMask
+  - type: Insulated
+
+- type: entity
+  parent: ClothingHandsGlovesCombat
+  id: LPPCASTacticalGloves
+  name: CAS Tactical gloves
+  description: Black and white tactical gloves without isolation.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Hands/Gloves/LPPCASTacticalGloves.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Hands/Gloves/LPPCASTacticalGloves.rsi
+
+- type: entity
+  parent: ClothingHandsGlovesBoxingBlue
+  id: LPPClothingHandsGlovesNightGuard
+  name: night guard battle gloves
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/combat.rsi
+    state: icon
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/combat.rsi
+  - type: StaminaDamageOnHit
+    damage: 50
+  - type: MeleeWeapon
+    attackRate: 1.5
+    damage:
+      types:
+        Blunt: 5
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsClownPomni
+  name: Pomni's?
+  description: Good ring.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Hands/Gloves/clownPomni.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Hands/Gloves/clownPomni.rsi

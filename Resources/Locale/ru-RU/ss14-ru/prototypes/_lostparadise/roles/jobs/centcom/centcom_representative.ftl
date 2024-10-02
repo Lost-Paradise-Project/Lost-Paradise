@@ -1,6 +1,6 @@
-ent-LPPCentralCommandRepresentativePDA = centcom representative PDA
-    .desc = Centcom representative PDA.
-ent-LPPCentralCommandRepresentativeIDCard = centcom representative ID card
-    .desc = Centcom representative ID card.
-ent-SpawnLPPCentralCommandRepresentative = central command representative spawn
+ent-LPPCentralCommandRepresentativePDA = КПК представителя ЦК
+    .desc = Пахнет бюрократией.
+ent-LPPCentralCommandRepresentativeIDCard = ID карта представителя ЦентКом
+    .desc = Выглядит страшно...
+ent-LPPSpawnCentralCommandRepresentative = Спавн представителя центрального командования
     .desc = { ent-SpawnPointJobBase.desc }

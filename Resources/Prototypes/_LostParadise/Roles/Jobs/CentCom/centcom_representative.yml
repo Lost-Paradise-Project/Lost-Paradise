@@ -80,7 +80,7 @@
     - AllAccess
 
 - type: entity
-  id: SpawnLPPCentralCommandRepresentative
+  id: LPPSpawnCentralCommandRepresentative
   parent: SpawnPointJobBase
   name: central command representative spawn
   components:

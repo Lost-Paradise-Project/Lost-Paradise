@@ -44,8 +44,8 @@
     Glass: 400
 
 - type: latheRecipe
-  id: BluespacePlantBag
-  result: BluespacePlantBag
+  id: LPPBluespacePlantBag
+  result: LPPBluespacePlantBag
   completetime: 7
   materials:
     LPPDiamond: 500
@@ -69,8 +69,8 @@
 #     Uranium: 25
 
 - type: latheRecipe
-  id: BluespaceChemBag
-  result: BluespaceChemBag
+  id: LPPBluespaceChemBag
+  result: LPPBluespaceChemBag
   completetime: 6
   materials:
     LPPDiamond: 500

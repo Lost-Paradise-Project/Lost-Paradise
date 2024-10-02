@@ -1,3 +1,9 @@
+ent-LPPClothingSatchelSmugglerAbstract = { ent-ClothingBackpackSatchel }
+    .desc = { ent-ClothingBackpackSatchel.desc }
+    .suffix = Контрабандист
+ent-LPPClothingBackpackBlack = чёрный рюкзак
+    .desc = Он что-то напоминает.
+    .suffix = Спонсор
 ent-LPPClothingBackpackBlueshieldFilled = { ent-LPPClothingBackpackBlueshield }
     .desc = { ent-LPPClothingBackpackBlueshield.desc }
 ent-LPPClothingBackpackIIC = рюкзак ИРЦ "Дельта"

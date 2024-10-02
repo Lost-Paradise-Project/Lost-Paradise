@@ -62,3 +62,34 @@
       coefficients:
         Caustic: 0.9
   - type: SolutionScanner
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPClothingEyesHudSecEng
+  name: Security Engineer HUD
+  description: The HUD model is a combination of an optical meson scanner and a security HUD. Protects the eyes.
+  components:
+  - type: ShowSecurityIcons
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/HUD/SecEngHUD.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/HUD/SecEngHUD.rsi
+  - type: EyeProtection
+  - type: Tag
+    tags:
+    - HudSecurity
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPNPZEyehud
+  name: NPZ HUD
+  description: The HUD of the NPZ, with built-in additional elements such as protection from bright flashes, as well as, in connection with the latest cooperation measures between the NPZ and NT, the built-in database of NanoTraisen to identify ranks and criminals at the corporation's facilities.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/HUD/upgHUD.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/HUD/upgHUD.rsi
+  - type: ShowSecurityIcons
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5

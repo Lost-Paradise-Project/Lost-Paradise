@@ -1,4 +1,36 @@
 - type: entity
+  abstract: true
+  parent: ClothingBackpack
+  id: LPPClothingSatchelSmugglerAbstract
+  name: Smuggling Satchel
+  description: Smuggling Satchel Abstract
+  components:
+  - type: Tag
+    tags: [] # ignore "WhitelistChameleon" tag
+  - type: Storage
+    maxItemSize: Large
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/satchel.rsi
+    visible: false
+  - type: SubFloorHide
+  - type: Anchorable
+  - type: Appearance
+  - type: CollideOnAnchor
+    enable: false
+  - type: Transform
+    anchored: false
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackBlack
+  name: black backpack
+  suffix: Sponsor
+  description: It's a tough backpack for the daily grind of station life.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Backpacks/blackbackpack.rsi
+
+- type: entity
   parent: LPPClothingBackpackBlueshield
   id: LPPClothingBackpackBlueshieldFilled
   components:

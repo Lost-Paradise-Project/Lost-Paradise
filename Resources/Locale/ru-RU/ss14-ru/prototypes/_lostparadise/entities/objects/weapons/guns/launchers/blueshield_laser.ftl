@@ -1,2 +1,2 @@
-ent-LPPBlueshieldlaser = blueshield laser
-    .desc = Stylish and tasteful.
+ent-LPPBlueshieldlaser = лазерный револьвер офицера "Синий Щит"
+    .desc = Скорострельный лазерный револьвер, стоящий на вооружении всего отряда представителей "Синий щит".

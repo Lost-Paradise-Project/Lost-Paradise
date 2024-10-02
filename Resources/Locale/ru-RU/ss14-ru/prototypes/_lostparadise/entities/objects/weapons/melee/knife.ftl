@@ -1,4 +1,4 @@
-ent-ChronoKnife = combat knife
-    .desc = A deadly knife intended for melee confrontations.
+ent-LPPChronoKnife = хроно-нож
+    .desc = "Оружие прошедшее испытание временем, лезвие состоит из неизвестного материала уничтожающее ДНК."
 ent-LPPToyEnergyKatana = Игрушечная энергетическая катана
-    .desc = A katana infused with strange energy. An unknown mark is visible on the hilt.
+    .desc = Катана, наполненная странной энергией. На рукояти виден неизвестный знак.

@@ -1,2 +1,2 @@
-ent-LPPClothingOuterArmorBlueshield = blueshield's carapace
-    .desc = An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest.
+ent-LPPClothingOuterArmorBlueshield = бронежилет офицера "Синий Щит"
+    .desc = Бронированный нагрудник, обеспечивающий защиту и в то же время обеспечивающий максимальную мобильность и гибкость. Выдается только лучшим на станции.

@@ -1,7 +1,7 @@
 - type: entity
   name: combat knife
   parent: BaseKnife
-  id: ChronoKnife
+  id: LPPChronoKnife
   description: A deadly knife intended for melee confrontations.
   components:
   - type: Tag

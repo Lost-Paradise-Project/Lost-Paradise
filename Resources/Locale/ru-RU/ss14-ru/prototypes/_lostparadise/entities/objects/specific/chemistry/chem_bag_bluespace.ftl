@@ -1,2 +1,2 @@
-ent-BluespaceChemBag = bluespace chem bag
-    .desc = A bluespace bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
+ent-LPPBluespaceChemBag = Блюспейс сумка для химикатов
+    .desc = Сумка, использующая технологию блюспейс для хранения химических продуктов, таких как таблетки, канистры для таблеток, склянки и шприцы.

@@ -9,7 +9,7 @@
     outerClothing: ClothingOuterHardsuitChrono
     id: ERTLeaderPDA
     ears: ClothingHeadsetCentCom
-    pocket1: ChronoKnife
+    pocket1: LPPChronoKnife
     pocket2: BlinkBook
   innerClothingSkirt: ClothingUniformJumpsuitNanotrasen
   satchel: LPPClothingBackpackHoldingChrono

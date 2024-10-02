@@ -77,3 +77,16 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPCASglasses
+  name: CAS glasses
+  description: Black and white glasses.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/Glasses/LPPCASglasses.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/Glasses/LPPCASglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection

@@ -1,4 +1,4 @@
-ent-LPPFancyTableBlackred = fancy table blackred
-    .desc = { ent-TableFancyBase.desc }
-ent-LPPFancyTableMnochrome = fancy table monochrome
-    .desc = { ent-TableFancyBase.desc }
+ent-LPPFancyTableBlackred = Чёрно-алый стол
+    .desc = Дорого и со вкусом.
+ent-LPPFancyTableMnochrome = Чёрно-белый стол
+    .desc = Дорого и со вкусом.
