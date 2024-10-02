@@ -1,5 +1,5 @@
-ent-LPPCigarill = cigarill
-    .desc = A roll of tobacco and nicotine.
+ent-LPPCigarill = Сигара
+    .desc = Свёрток табака и никотина.
 ent-LPPCigarillSpent = { ent-LPPCigarill }
-    .suffix = spent
+    .suffix = Расходуемый
     .desc = { ent-LPPCigarill.desc }

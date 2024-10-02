@@ -3,7 +3,7 @@
   name: reagent-name-fluffyapple
   desc: reagent-desc-space-fluffyapple
   physicalDesc: reagent-desc-physical-fluffyapple
-  flavor: AppleFluffy
+  flavor: LPPAppleFluffy
   color: "#66FF00"
   slippery: true
   metabolisms:
@@ -49,7 +49,7 @@
   name: reagent-name-fluffyenergy
   desc: reagent-desc-space-fluffyenergy
   physicalDesc: reagent-desc-physical-fluffyenergy
-  flavor: EnergyFluffy
+  flavor: LPPEnergyFluffy
   color: "#BA55D3"
   slippery: true
   metabolisms:
@@ -198,7 +198,7 @@
   name: reagent-name-fluffyhonk
   desc: reagent-desc-space-fluffyhonk
   physicalDesc: reagent-desc-physical-fluffyhonk
-  flavor: HonkFluffy
+  flavor: LPPHonkFluffy
   color: "#FFDC33"
   slippery: true
   tileReactions:
@@ -249,7 +249,7 @@
   name: reagent-name-fluffylatte
   desc: reagent-desc-space-fluffylatte
   physicalDesc: reagent-desc-physical-fluffylatte
-  flavor: LatteFluffy
+  flavor: LPPLatteFluffy
   color: "#A47C45"
   slippery: true
   metabolisms:
@@ -295,7 +295,7 @@
   name: reagent-name-fluffymango
   desc: reagent-desc-space-fluffymango
   physicalDesc: reagent-desc-physical-fluffymango
-  flavor: MangoFluffy
+  flavor: LPPMangoFluffy
   color: "#F39F18"
   slippery: true
   metabolisms:
@@ -341,7 +341,7 @@
   name: reagent-name-fluffystan
   desc: reagent-desc-space-fluffystan
   physicalDesc: reagent-desc-physical-fluffystan
-  flavor: StanFluffy
+  flavor: LPPStanFluffy
   color: "#EB18F2"
   slippery: true
   metabolisms:
@@ -394,7 +394,7 @@
   name: reagent-name-fluffywatermelon
   desc: reagent-desc-space-fluffywatermelon
   physicalDesc: reagent-desc-physical-fluffywatermelon
-  flavor: WatermelonFluffy
+  flavor: LPPWatermelonFluffy
   color: "#9AF218"
   slippery: true
   metabolisms:
