@@ -1,989 +1,1590 @@
-Entries:
+﻿Entries:
 - author: Evgencheg
   changes:
-    - message: Added a changelog updater!
-      type: Add
+  - message: Added a changelog updater!
+    type: Add
   id: 1
   time: '2024-08-02T01:29:00.0000000+00:00'
 - author: SpicyDarkFox
   changes:
-    - type: Add
-      message: Перенесена спонсорка 1.4
-    - type: Tweak
-      message: Скорректирован ТТС при работе без АПИ
-    - type: Fix
-      message: Починен баг с одеванием трусов на слот перчаток
-    - type: Remove
-      message: удален старый ИИ
+  - message: "\u041F\u0435\u0440\u0435\u043D\u0435\u0441\u0435\u043D\u0430 \u0441\u043F\
+      \u043E\u043D\u0441\u043E\u0440\u043A\u0430 1.4"
+    type: Add
+  - message: "\u0421\u043A\u043E\u0440\u0440\u0435\u043A\u0442\u0438\u0440\u043E\u0432\
+      \u0430\u043D \u0422\u0422\u0421 \u043F\u0440\u0438 \u0440\u0430\u0431\u043E\u0442\
+      \u0435 \u0431\u0435\u0437 \u0410\u041F\u0418"
+    type: Tweak
+  - message: "\u041F\u043E\u0447\u0438\u043D\u0435\u043D \u0431\u0430\u0433 \u0441\
+      \ \u043E\u0434\u0435\u0432\u0430\u043D\u0438\u0435\u043C \u0442\u0440\u0443\u0441\
+      \u043E\u0432 \u043D\u0430 \u0441\u043B\u043E\u0442 \u043F\u0435\u0440\u0447\u0430\
+      \u0442\u043E\u043A"
+    type: Fix
+  - message: "\u0443\u0434\u0430\u043B\u0435\u043D \u0441\u0442\u0430\u0440\u044B\u0439\
+      \ \u0418\u0418"
+    type: Remove
   id: 2
   time: '2024-09-02T15:43:20.0000000+00:00'
 - author: SpicyDarkFox
   changes:
-    - type: Add
-      message: Добавлена дата в кпк.
-    - type: Fix
-      message: Исправлена спонсорка.
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u0434\u0430\u0442\
+      \u0430 \u0432 \u043A\u043F\u043A."
+    type: Add
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u0441\u043F\
+      \u043E\u043D\u0441\u043E\u0440\u043A\u0430."
+    type: Fix
   id: 3
   time: '2024-09-03T05:16:39.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/55
 - author: SpicyDarkFox
   changes:
-    - type: Fix
-      message: Исправлены настройки сборки
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043D\u0430\
+      \u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u0441\u0431\u043E\u0440\u043A\u0438"
+    type: Fix
   id: 4
   time: '2024-09-03T16:18:28.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/56
 - author: SpicyDarkFox
   changes:
-    - type: Fix
-      message: Исправлены настройки сборки
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043D\u0430\
+      \u0441\u0442\u0440\u043E\u0439\u043A\u0438 \u0441\u0431\u043E\u0440\u043A\u0438"
+    type: Fix
   id: 5
   time: '2024-09-03T16:18:28.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/56
 - author: JayJacobs
   changes:
-    - type: Tweak
-      message: Изменил иконки статусов интерфейса
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0438\u043B \u0438\u043A\u043E\u043D\u043A\
+      \u0438 \u0441\u0442\u0430\u0442\u0443\u0441\u043E\u0432 \u0438\u043D\u0442\u0435\
+      \u0440\u0444\u0435\u0439\u0441\u0430"
+    type: Tweak
   id: 6
   time: '2024-09-03T16:50:46.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/57
 - author: SpicyDarkFox
   changes:
-    - type: Fix
-      message: Исправлена выдача маркингов в редакторе персонаа
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u0432\u044B\
+      \u0434\u0430\u0447\u0430 \u043C\u0430\u0440\u043A\u0438\u043D\u0433\u043E\u0432\
+      \ \u0432 \u0440\u0435\u0434\u0430\u043A\u0442\u043E\u0440\u0435 \u043F\u0435\
+      \u0440\u0441\u043E\u043D\u0430\u0430"
+    type: Fix
   id: 7
   time: '2024-09-03T18:32:17.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/59
 - author: JayJacobs
   changes:
-    - type: Tweak
-      message: Поправил прототипы департаментов.
-    - type: Tweak
-      message: Изменены иконки настроения.
-    - type: Tweak
-      message: Русифицировал иконки криминалистической консоли.
-    - type: Fix
-      message: Исправлена ошибка иконки передачи предметов.
-    - type: Fix
-      message: Иконки ролей теперь стандартизированы.
+  - message: "\u041F\u043E\u043F\u0440\u0430\u0432\u0438\u043B \u043F\u0440\u043E\u0442\
+      \u043E\u0442\u0438\u043F\u044B \u0434\u0435\u043F\u0430\u0440\u0442\u0430\u043C\
+      \u0435\u043D\u0442\u043E\u0432."
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u044B \u0438\u043A\u043E\u043D\
+      \u043A\u0438 \u043D\u0430\u0441\u0442\u0440\u043E\u0435\u043D\u0438\u044F."
+    type: Tweak
+  - message: "\u0420\u0443\u0441\u0438\u0444\u0438\u0446\u0438\u0440\u043E\u0432\u0430\
+      \u043B \u0438\u043A\u043E\u043D\u043A\u0438 \u043A\u0440\u0438\u043C\u0438\u043D\
+      \u0430\u043B\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u043A\
+      \u043E\u043D\u0441\u043E\u043B\u0438."
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u043E\u0448\
+      \u0438\u0431\u043A\u0430 \u0438\u043A\u043E\u043D\u043A\u0438 \u043F\u0435\u0440\
+      \u0435\u0434\u0430\u0447\u0438 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\
+      \u0432."
+    type: Fix
+  - message: "\u0418\u043A\u043E\u043D\u043A\u0438 \u0440\u043E\u043B\u0435\u0439\
+      \ \u0442\u0435\u043F\u0435\u0440\u044C \u0441\u0442\u0430\u043D\u0434\u0430\u0440\
+      \u0442\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u043D\u044B."
+    type: Fix
   id: 8
   time: '2024-09-03T19:18:56.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/60
 - author: MegaDaimond
   changes:
-    - type: Add
-      message: Добавлены спрайты ко многим скафандрам и их шлемам под расы
-    - type: Add
-      message: Банданы теперь нормально смотрятся на мордах других рас
-    - type: Add
-      message: Больше кастома для НПЗ (На будущие обновления)
-    - type: Tweak
-      message: Изменены характеристики скафандра детектива
-    - type: Fix
-      message: Исправлены meta для некоторых шлемов скафандров
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u0441\u043F\u0440\
+      \u0430\u0439\u0442\u044B \u043A\u043E \u043C\u043D\u043E\u0433\u0438\u043C \u0441\
+      \u043A\u0430\u0444\u0430\u043D\u0434\u0440\u0430\u043C \u0438 \u0438\u0445 \u0448\
+      \u043B\u0435\u043C\u0430\u043C \u043F\u043E\u0434 \u0440\u0430\u0441\u044B"
+    type: Add
+  - message: "\u0411\u0430\u043D\u0434\u0430\u043D\u044B \u0442\u0435\u043F\u0435\u0440\
+      \u044C \u043D\u043E\u0440\u043C\u0430\u043B\u044C\u043D\u043E \u0441\u043C\u043E\
+      \u0442\u0440\u044F\u0442\u0441\u044F \u043D\u0430 \u043C\u043E\u0440\u0434\u0430\
+      \u0445 \u0434\u0440\u0443\u0433\u0438\u0445 \u0440\u0430\u0441"
+    type: Add
+  - message: "\u0411\u043E\u043B\u044C\u0448\u0435 \u043A\u0430\u0441\u0442\u043E\u043C\
+      \u0430 \u0434\u043B\u044F \u041D\u041F\u0417 (\u041D\u0430 \u0431\u0443\u0434\
+      \u0443\u0449\u0438\u0435 \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\
+      \u044F)"
+    type: Add
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u044B \u0445\u0430\u0440\u0430\
+      \u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\u0438 \u0441\u043A\u0430\
+      \u0444\u0430\u043D\u0434\u0440\u0430 \u0434\u0435\u0442\u0435\u043A\u0442\u0438\
+      \u0432\u0430"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B meta \u0434\
+      \u043B\u044F \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u0448\u043B\
+      \u0435\u043C\u043E\u0432 \u0441\u043A\u0430\u0444\u0430\u043D\u0434\u0440\u043E\
+      \u0432"
+    type: Fix
   id: 9
   time: '2024-09-04T11:55:47.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/61
 - author: SpicyDarkFox
   changes:
-    - type: Add
-      message: Разделение маркингов по уровням спонсорки
-    - type: Tweak
-      message: >-
-        У людей изменены очки внешности: по 1 на уши и хвост, и по 4 на руки и
-        ноги вместо 6
-    - type: Fix
-      message: Исправлены кнопки в редакторе персонажа, снимающие одежду
+  - message: "\u0420\u0430\u0437\u0434\u0435\u043B\u0435\u043D\u0438\u0435 \u043C\u0430\
+      \u0440\u043A\u0438\u043D\u0433\u043E\u0432 \u043F\u043E \u0443\u0440\u043E\u0432\
+      \u043D\u044F\u043C \u0441\u043F\u043E\u043D\u0441\u043E\u0440\u043A\u0438"
+    type: Add
+  - message: "\u0423 \u043B\u044E\u0434\u0435\u0439 \u0438\u0437\u043C\u0435\u043D\
+      \u0435\u043D\u044B \u043E\u0447\u043A\u0438 \u0432\u043D\u0435\u0448\u043D\u043E\
+      \u0441\u0442\u0438: \u043F\u043E 1 \u043D\u0430 \u0443\u0448\u0438 \u0438 \u0445\
+      \u0432\u043E\u0441\u0442, \u0438 \u043F\u043E 4 \u043D\u0430 \u0440\u0443\u043A\
+      \u0438 \u0438 \u043D\u043E\u0433\u0438 \u0432\u043C\u0435\u0441\u0442\u043E\
+      \ 6"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043A\u043D\
+      \u043E\u043F\u043A\u0438 \u0432 \u0440\u0435\u0434\u0430\u043A\u0442\u043E\u0440\
+      \u0435 \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u0436\u0430, \u0441\u043D\u0438\
+      \u043C\u0430\u044E\u0449\u0438\u0435 \u043E\u0434\u0435\u0436\u0434\u0443"
+    type: Fix
   id: 10
   time: '2024-09-04T15:33:10.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/62
 - author: BL02DL
   changes:
-    - type: Add
-      message: Добавлен руководство по Тэн-кодам в игру
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0440\u0443\u043A\u043E\
+      \u0432\u043E\u0434\u0441\u0442\u0432\u043E \u043F\u043E \u0422\u044D\u043D-\u043A\
+      \u043E\u0434\u0430\u043C \u0432 \u0438\u0433\u0440\u0443"
+    type: Add
   id: 11
   time: '2024-09-05T12:18:27.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/69
 - author: JayJacobs
   changes:
-    - type: Tweak
-      message: Изменено время начальных ролей.
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u043E \u0432\u0440\u0435\u043C\
+      \u044F \u043D\u0430\u0447\u0430\u043B\u044C\u043D\u044B\u0445 \u0440\u043E\u043B\
+      \u0435\u0439."
+    type: Tweak
   id: 12
   time: '2024-09-06T12:30:02.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/74
 - author: SpicyDarkFox
   changes:
-    - type: Fix
-      message: Исправлены декали букв
-    - type: Fix
-      message: Исправлены множественные ошибки в сборке
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0434\u0435\
+      \u043A\u0430\u043B\u0438 \u0431\u0443\u043A\u0432"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043C\u043D\
+      \u043E\u0436\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0435 \u043E\u0448\
+      \u0438\u0431\u043A\u0438 \u0432 \u0441\u0431\u043E\u0440\u043A\u0435"
+    type: Fix
   id: 13
   time: '2024-09-06T15:45:43.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/68
 - author: SpicyDarkFox
   changes:
-    - type: Fix
-      message: Исправлены ошибки бд
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043E\u0448\
+      \u0438\u0431\u043A\u0438 \u0431\u0434"
+    type: Fix
   id: 14
   time: '2024-09-06T16:09:23.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/77
 - author: BL02DL
   changes:
-    - type: Add
-      message: Добавлено Pivo Dance в музыкальный автомат!
-    - type: Tweak
-      message: >-
-        Изменено звук приветствия следующих антагонистов: ЯО, взломанный борг,
-        трейтор!
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E Pivo Dance \u0432\
+      \ \u043C\u0443\u0437\u044B\u043A\u0430\u043B\u044C\u043D\u044B\u0439 \u0430\u0432\
+      \u0442\u043E\u043C\u0430\u0442!"
+    type: Add
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u043E \u0437\u0432\u0443\u043A\
+      \ \u043F\u0440\u0438\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u044F \u0441\u043B\
+      \u0435\u0434\u0443\u044E\u0449\u0438\u0445 \u0430\u043D\u0442\u0430\u0433\u043E\
+      \u043D\u0438\u0441\u0442\u043E\u0432: \u042F\u041E, \u0432\u0437\u043B\u043E\
+      \u043C\u0430\u043D\u043D\u044B\u0439 \u0431\u043E\u0440\u0433, \u0442\u0440\u0435\
+      \u0439\u0442\u043E\u0440!"
+    type: Tweak
   id: 15
   time: '2024-09-06T16:26:31.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/75
 - author: SpicyDarkFox
   changes:
-    - type: Add
-      message: Добавлены миграции прототипов
-    - type: Fix
-      message: Исправлены основные проблемы в картах (maps)
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043C\u0438\u0433\
+      \u0440\u0430\u0446\u0438\u0438 \u043F\u0440\u043E\u0442\u043E\u0442\u0438\u043F\
+      \u043E\u0432"
+    type: Add
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043E\u0441\
+      \u043D\u043E\u0432\u043D\u044B\u0435 \u043F\u0440\u043E\u0431\u043B\u0435\u043C\
+      \u044B \u0432 \u043A\u0430\u0440\u0442\u0430\u0445 (maps)"
+    type: Fix
   id: 16
   time: '2024-09-06T18:38:28.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/78
 - author: SpicyDarkFox
   changes:
-    - type: Add
-      message: Добавлена измененная карта Нормандия
-    - type: Fix
-      message: Исправлены ошибки
-    - type: Fix
-      message: Исправлен КПК у админ-гостов - поставлена карта капитана
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u0438\u0437\u043C\
+      \u0435\u043D\u0435\u043D\u043D\u0430\u044F \u043A\u0430\u0440\u0442\u0430 \u041D\
+      \u043E\u0440\u043C\u0430\u043D\u0434\u0438\u044F"
+    type: Add
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043E\u0448\
+      \u0438\u0431\u043A\u0438"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u041A\u041F\u041A\
+      \ \u0443 \u0430\u0434\u043C\u0438\u043D-\u0433\u043E\u0441\u0442\u043E\u0432\
+      \ - \u043F\u043E\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0430 \u043A\u0430\
+      \u0440\u0442\u0430 \u043A\u0430\u043F\u0438\u0442\u0430\u043D\u0430"
+    type: Fix
   id: 17
   time: '2024-09-06T22:28:13.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/79
 - author: SpicyDarkFox
   changes:
-    - type: Fix
-      message: Исправлены очередные ошибки
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043E\u0447\
+      \u0435\u0440\u0435\u0434\u043D\u044B\u0435 \u043E\u0448\u0438\u0431\u043A\u0438"
+    type: Fix
   id: 18
   time: '2024-09-06T23:58:16.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/81
 - author: JayJacobs
   changes:
-    - type: Add
-      message: Добавил отдел юстиции в Гайдбук.
-    - type: Tweak
-      message: Изменены названия в переводах.
+  - message: "\u0414\u043E\u0431\u0430\u0432\u0438\u043B \u043E\u0442\u0434\u0435\u043B\
+      \ \u044E\u0441\u0442\u0438\u0446\u0438\u0438 \u0432 \u0413\u0430\u0439\u0434\
+      \u0431\u0443\u043A."
+    type: Add
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u044B \u043D\u0430\u0437\u0432\
+      \u0430\u043D\u0438\u044F \u0432 \u043F\u0435\u0440\u0435\u0432\u043E\u0434\u0430\
+      \u0445."
+    type: Tweak
   id: 19
   time: '2024-09-07T09:27:50.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/83
 - author: SpicyDarkFox
   changes:
-    - type: Fix
-      message: Исправлены еще ошибки
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0435\u0449\
+      \u0435 \u043E\u0448\u0438\u0431\u043A\u0438"
+    type: Fix
   id: 20
   time: '2024-09-07T18:06:06.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/85
 - author: JayJacobs
   changes:
-    - type: Tweak
-      message: Изменены иконки интентов.
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u044B \u0438\u043A\u043E\u043D\
+      \u043A\u0438 \u0438\u043D\u0442\u0435\u043D\u0442\u043E\u0432."
+    type: Tweak
   id: 21
   time: '2024-09-08T11:38:09.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/90
 - author: Evgencheg
   changes:
-    - type: Add
-      message: Апстрим
+  - message: "\u0410\u043F\u0441\u0442\u0440\u0438\u043C"
+    type: Add
   id: 22
   time: '2024-09-08T17:38:07.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/100
 - author: SpicyDarkFox
   changes:
-    - type: Fix
-      message: Исправлен недочет в ДБ
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u043D\u0435\u0434\
+      \u043E\u0447\u0435\u0442 \u0432 \u0414\u0411"
+    type: Fix
   id: 23
   time: '2024-09-08T18:48:58.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/104
 - author: Evgencheg
   changes:
-    - type: Fix
-      message: Исправлена база данных!
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u0431\u0430\
+      \u0437\u0430 \u0434\u0430\u043D\u043D\u044B\u0445!"
+    type: Fix
   id: 24
   time: '2024-09-08T19:52:17.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/107
 - author: Ko4erga
   changes:
-    - type: Add
-      message: Добавлен газон.
-    - type: Tweak
-      message: Заменены спрайты трав. Трава джунглей теперь считается планетарной.
-    - type: Fix
-      message: Все виды травы, кроме планетарных, выкапываются лопатой.
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0433\u0430\u0437\u043E\
+      \u043D."
+    type: Add
+  - message: "\u0417\u0430\u043C\u0435\u043D\u0435\u043D\u044B \u0441\u043F\u0440\u0430\
+      \u0439\u0442\u044B \u0442\u0440\u0430\u0432. \u0422\u0440\u0430\u0432\u0430\
+      \ \u0434\u0436\u0443\u043D\u0433\u043B\u0435\u0439 \u0442\u0435\u043F\u0435\u0440\
+      \u044C \u0441\u0447\u0438\u0442\u0430\u0435\u0442\u0441\u044F \u043F\u043B\u0430\
+      \u043D\u0435\u0442\u0430\u0440\u043D\u043E\u0439."
+    type: Tweak
+  - message: "\u0412\u0441\u0435 \u0432\u0438\u0434\u044B \u0442\u0440\u0430\u0432\
+      \u044B, \u043A\u0440\u043E\u043C\u0435 \u043F\u043B\u0430\u043D\u0435\u0442\u0430\
+      \u0440\u043D\u044B\u0445, \u0432\u044B\u043A\u0430\u043F\u044B\u0432\u0430\u044E\
+      \u0442\u0441\u044F \u043B\u043E\u043F\u0430\u0442\u043E\u0439."
+    type: Fix
   id: 25
   time: '2024-09-09T14:18:15.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/101
 - author: Evgencheg
   changes:
-    - type: Tweak
-      message: Выполнен апстрим!
-    - type: Fix
-      message: Исправлены все баги из канала - баги!
+  - message: "\u0412\u044B\u043F\u043E\u043B\u043D\u0435\u043D \u0430\u043F\u0441\u0442\
+      \u0440\u0438\u043C!"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0432\u0441\
+      \u0435 \u0431\u0430\u0433\u0438 \u0438\u0437 \u043A\u0430\u043D\u0430\u043B\u0430\
+      \ - \u0431\u0430\u0433\u0438!"
+    type: Fix
   id: 26
   time: '2024-09-09T14:43:02.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/115
 - author: Ko4ergaPunk
   changes:
-    - type: Tweak
-      message: Перерисованы люди.
+  - message: "\u041F\u0435\u0440\u0435\u0440\u0438\u0441\u043E\u0432\u0430\u043D\u044B\
+      \ \u043B\u044E\u0434\u0438."
+    type: Tweak
   id: 27
   time: '2024-09-10T06:18:21.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/117
 - author: BL02DL
   changes:
-    - type: Tweak
-      message: >-
-        Изменено логистика теперь старое, доброе снабжение, а юстиция
-        Юридический отдел!
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u043E \u043B\u043E\u0433\u0438\
+      \u0441\u0442\u0438\u043A\u0430 \u0442\u0435\u043F\u0435\u0440\u044C \u0441\u0442\
+      \u0430\u0440\u043E\u0435, \u0434\u043E\u0431\u0440\u043E\u0435 \u0441\u043D\u0430\
+      \u0431\u0436\u0435\u043D\u0438\u0435, \u0430 \u044E\u0441\u0442\u0438\u0446\u0438\
+      \u044F \u042E\u0440\u0438\u0434\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u043E\
+      \u0442\u0434\u0435\u043B!"
+    type: Tweak
   id: 28
   time: '2024-09-10T12:35:39.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/124
 - author: Evgencheg
   changes:
-    - type: Remove
-      message: Убран космический ветер!
-    - type: Fix
-      message: Исправлена кастомизация чуть чуть.
+  - message: "\u0423\u0431\u0440\u0430\u043D \u043A\u043E\u0441\u043C\u0438\u0447\u0435\
+      \u0441\u043A\u0438\u0439 \u0432\u0435\u0442\u0435\u0440!"
+    type: Remove
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u043A\u0430\
+      \u0441\u0442\u043E\u043C\u0438\u0437\u0430\u0446\u0438\u044F \u0447\u0443\u0442\
+      \u044C \u0447\u0443\u0442\u044C."
+    type: Fix
   id: 29
   time: '2024-09-10T16:09:06.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/126
 - author: Evgencheg
   changes:
-    - type: Fix
-      message: Исправлены флагштоки!
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0444\u043B\
+      \u0430\u0433\u0448\u0442\u043E\u043A\u0438!"
+    type: Fix
   id: 30
   time: '2024-09-10T17:09:47.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/128
 - author: Evgencheg
   changes:
-    - type: Tweak
-      message: Улучшена карта нормандия!
-    - type: Fix
-      message: Исправлен шаттл!
+  - message: "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0430 \u043A\u0430\u0440\u0442\
+      \u0430 \u043D\u043E\u0440\u043C\u0430\u043D\u0434\u0438\u044F!"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0448\u0430\u0442\
+      \u0442\u043B!"
+    type: Fix
   id: 31
   time: '2024-09-10T18:12:57.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/129
 - author: MegaDaimond
   changes:
-    - type: Add
-      message: >-
-        Добавлен туристический рюкзак (Чуть больше по размерам чем обычный
-        рюкзак)
-    - type: Add
-      message: Добавлены магнитные сапоги охотника
-    - type: Add
-      message: Добавлен набор гражданской обороны (Много пушек плохого качества)
-    - type: Tweak
-      message: Изменён набор охотника
-    - type: Tweak
-      message: Цены на новые оружейные ящики были изменены
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0442\u0443\u0440\u0438\
+      \u0441\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0440\u044E\u043A\u0437\
+      \u0430\u043A (\u0427\u0443\u0442\u044C \u0431\u043E\u043B\u044C\u0448\u0435\
+      \ \u043F\u043E \u0440\u0430\u0437\u043C\u0435\u0440\u0430\u043C \u0447\u0435\
+      \u043C \u043E\u0431\u044B\u0447\u043D\u044B\u0439 \u0440\u044E\u043A\u0437\u0430\
+      \u043A)"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043C\u0430\u0433\
+      \u043D\u0438\u0442\u043D\u044B\u0435 \u0441\u0430\u043F\u043E\u0433\u0438 \u043E\
+      \u0445\u043E\u0442\u043D\u0438\u043A\u0430"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u043D\u0430\u0431\u043E\
+      \u0440 \u0433\u0440\u0430\u0436\u0434\u0430\u043D\u0441\u043A\u043E\u0439 \u043E\
+      \u0431\u043E\u0440\u043E\u043D\u044B (\u041C\u043D\u043E\u0433\u043E \u043F\u0443\
+      \u0448\u0435\u043A \u043F\u043B\u043E\u0445\u043E\u0433\u043E \u043A\u0430\u0447\
+      \u0435\u0441\u0442\u0432\u0430)"
+    type: Add
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0451\u043D \u043D\u0430\u0431\u043E\u0440\
+      \ \u043E\u0445\u043E\u0442\u043D\u0438\u043A\u0430"
+    type: Tweak
+  - message: "\u0426\u0435\u043D\u044B \u043D\u0430 \u043D\u043E\u0432\u044B\u0435\
+      \ \u043E\u0440\u0443\u0436\u0435\u0439\u043D\u044B\u0435 \u044F\u0449\u0438\u043A\
+      \u0438 \u0431\u044B\u043B\u0438 \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u044B"
+    type: Tweak
   id: 32
   time: '2024-09-10T21:07:33.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/113
 - author: Evgencheg
   changes:
-    - type: Tweak
-      message: adminwho ВСЕМ!
-    - type: Tweak
-      message: Изменены количества кувшинов!
-    - type: Tweak
-      message: Собака может использовать нюх!
-    - type: Tweak
-      message: Шива теперь знает общегалактический!
-    - type: Fix
-      message: Исправлены переводы!
+  - message: "adminwho \u0412\u0421\u0415\u041C!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u044B \u043A\u043E\u043B\u0438\
+      \u0447\u0435\u0441\u0442\u0432\u0430 \u043A\u0443\u0432\u0448\u0438\u043D\u043E\
+      \u0432!"
+    type: Tweak
+  - message: "\u0421\u043E\u0431\u0430\u043A\u0430 \u043C\u043E\u0436\u0435\u0442\
+      \ \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C \u043D\
+      \u044E\u0445!"
+    type: Tweak
+  - message: "\u0428\u0438\u0432\u0430 \u0442\u0435\u043F\u0435\u0440\u044C \u0437\
+      \u043D\u0430\u0435\u0442 \u043E\u0431\u0449\u0435\u0433\u0430\u043B\u0430\u043A\
+      \u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439!"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043F\u0435\
+      \u0440\u0435\u0432\u043E\u0434\u044B!"
+    type: Fix
   id: 33
   time: '2024-09-11T16:43:16.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/134
 - author: Ko4erga
   changes:
-    - type: Tweak
-      message: Перерисованы вульпы.
-    - type: Fix
-      message: Исправлено отображение ног людей.
+  - message: "\u041F\u0435\u0440\u0435\u0440\u0438\u0441\u043E\u0432\u0430\u043D\u044B\
+      \ \u0432\u0443\u043B\u044C\u043F\u044B."
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u043E\u0442\
+      \u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u043D\u043E\u0433 \u043B\
+      \u044E\u0434\u0435\u0439."
+    type: Fix
   id: 34
   time: '2024-09-11T16:43:26.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/133
 - author: SpicyDarkFox
   changes:
-    - type: Add
-      message: Добавлены переводы парочки вещей
-    - type: Fix
-      message: Исправлено веселье!
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043F\u0435\u0440\
+      \u0435\u0432\u043E\u0434\u044B \u043F\u0430\u0440\u043E\u0447\u043A\u0438 \u0432\
+      \u0435\u0449\u0435\u0439"
+    type: Add
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u0432\u0435\
+      \u0441\u0435\u043B\u044C\u0435!"
+    type: Fix
   id: 35
   time: '2024-09-11T16:50:27.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/135
 - author: KARTOXA_LAND
   changes:
-    - type: Fix
-      message: Исправлена одна игрушка. Вам лучше не знать какая и зачем.
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u043E\u0434\
+      \u043D\u0430 \u0438\u0433\u0440\u0443\u0448\u043A\u0430. \u0412\u0430\u043C\
+      \ \u043B\u0443\u0447\u0448\u0435 \u043D\u0435 \u0437\u043D\u0430\u0442\u044C\
+      \ \u043A\u0430\u043A\u0430\u044F \u0438 \u0437\u0430\u0447\u0435\u043C."
+    type: Fix
   id: 36
   time: '2024-09-12T15:23:51.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/138
 - author: PowerKAT1
   changes:
-    - type: Fix
-      message: N7 Нормандия
+  - message: "N7 \u041D\u043E\u0440\u043C\u0430\u043D\u0434\u0438\u044F"
+    type: Fix
   id: 37
   time: '2024-09-12T19:00:26.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/139
 - author: MegaDaimond
   changes:
-    - type: Tweak
-      message: >-
-        Изменены древний и охотничий скафандры (Теперь они работают как обычные
-        скафандры из-за бага :( )
-    - type: Tweak
-      message: Изменена цена на древний скафандр (12 ТК)
-    - type: Tweak
-      message: Изменена цена на скафандр джаггернаута синдиката (11 ТК)
-    - type: Tweak
-      message: Коэффициент стамина резиста для скафандров ОБР/ЯО/ЭС был увеличен
-    - type: Tweak
-      message: >-
-        Спрайты ножей, бутылочек, баночки для таблеток, мензурок и кувшинов был
-        изменён
-    - type: Fix
-      message: Скафандры ОБР, ЯО и ЭС теперь имеют биокодинг
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u044B \u0434\u0440\u0435\u0432\
+      \u043D\u0438\u0439 \u0438 \u043E\u0445\u043E\u0442\u043D\u0438\u0447\u0438\u0439\
+      \ \u0441\u043A\u0430\u0444\u0430\u043D\u0434\u0440\u044B (\u0422\u0435\u043F\
+      \u0435\u0440\u044C \u043E\u043D\u0438 \u0440\u0430\u0431\u043E\u0442\u0430\u044E\
+      \u0442 \u043A\u0430\u043A \u043E\u0431\u044B\u0447\u043D\u044B\u0435 \u0441\u043A\
+      \u0430\u0444\u0430\u043D\u0434\u0440\u044B \u0438\u0437-\u0437\u0430 \u0431\u0430\
+      \u0433\u0430 :( )"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u0446\u0435\u043D\u0430\
+      \ \u043D\u0430 \u0434\u0440\u0435\u0432\u043D\u0438\u0439 \u0441\u043A\u0430\
+      \u0444\u0430\u043D\u0434\u0440 (12 \u0422\u041A)"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u0446\u0435\u043D\u0430\
+      \ \u043D\u0430 \u0441\u043A\u0430\u0444\u0430\u043D\u0434\u0440 \u0434\u0436\
+      \u0430\u0433\u0433\u0435\u0440\u043D\u0430\u0443\u0442\u0430 \u0441\u0438\u043D\
+      \u0434\u0438\u043A\u0430\u0442\u0430 (11 \u0422\u041A)"
+    type: Tweak
+  - message: "\u041A\u043E\u044D\u0444\u0444\u0438\u0446\u0438\u0435\u043D\u0442 \u0441\
+      \u0442\u0430\u043C\u0438\u043D\u0430 \u0440\u0435\u0437\u0438\u0441\u0442\u0430\
+      \ \u0434\u043B\u044F \u0441\u043A\u0430\u0444\u0430\u043D\u0434\u0440\u043E\u0432\
+      \ \u041E\u0411\u0420/\u042F\u041E/\u042D\u0421 \u0431\u044B\u043B \u0443\u0432\
+      \u0435\u043B\u0438\u0447\u0435\u043D"
+    type: Tweak
+  - message: "\u0421\u043F\u0440\u0430\u0439\u0442\u044B \u043D\u043E\u0436\u0435\u0439\
+      , \u0431\u0443\u0442\u044B\u043B\u043E\u0447\u0435\u043A, \u0431\u0430\u043D\
+      \u043E\u0447\u043A\u0438 \u0434\u043B\u044F \u0442\u0430\u0431\u043B\u0435\u0442\
+      \u043E\u043A, \u043C\u0435\u043D\u0437\u0443\u0440\u043E\u043A \u0438 \u043A\
+      \u0443\u0432\u0448\u0438\u043D\u043E\u0432 \u0431\u044B\u043B \u0438\u0437\u043C\
+      \u0435\u043D\u0451\u043D"
+    type: Tweak
+  - message: "\u0421\u043A\u0430\u0444\u0430\u043D\u0434\u0440\u044B \u041E\u0411\u0420\
+      , \u042F\u041E \u0438 \u042D\u0421 \u0442\u0435\u043F\u0435\u0440\u044C \u0438\
+      \u043C\u0435\u044E\u0442 \u0431\u0438\u043E\u043A\u043E\u0434\u0438\u043D\u0433"
+    type: Fix
   id: 38
   time: '2024-09-13T21:38:21.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/137
 - author: Ko4erga
   changes:
-    - type: Tweak
-      message: Обновлена станция Submarine.
+  - message: "\u041E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0430 \u0441\u0442\u0430\
+      \u043D\u0446\u0438\u044F Submarine."
+    type: Tweak
   id: 39
   time: '2024-09-14T06:49:12.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/142
 - author: Ko4erga
   changes:
-    - type: Tweak
-      message: Немного изменена морда "Вульпий".
-    - type: Fix
-      message: Удлинена мордочка у Вульп.
+  - message: "\u041D\u0435\u043C\u043D\u043E\u0433\u043E \u0438\u0437\u043C\u0435\u043D\
+      \u0435\u043D\u0430 \u043C\u043E\u0440\u0434\u0430 \"\u0412\u0443\u043B\u044C\
+      \u043F\u0438\u0439\"."
+    type: Tweak
+  - message: "\u0423\u0434\u043B\u0438\u043D\u0435\u043D\u0430 \u043C\u043E\u0440\u0434\
+      \u043E\u0447\u043A\u0430 \u0443 \u0412\u0443\u043B\u044C\u043F."
+    type: Fix
   id: 40
   time: '2024-09-14T12:00:48.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/144
 - author: SpicyDarkFox
   changes:
-    - type: Fix
-      message: Исправлена выдача личных вещей
-    - type: Fix
-      message: Исправлена вкладка внешних черт
-    - type: Fix
-      message: Исправлены недочеты ТТС
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u0432\u044B\
+      \u0434\u0430\u0447\u0430 \u043B\u0438\u0447\u043D\u044B\u0445 \u0432\u0435\u0449\
+      \u0435\u0439"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u0432\u043A\
+      \u043B\u0430\u0434\u043A\u0430 \u0432\u043D\u0435\u0448\u043D\u0438\u0445 \u0447\
+      \u0435\u0440\u0442"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043D\u0435\
+      \u0434\u043E\u0447\u0435\u0442\u044B \u0422\u0422\u0421"
+    type: Fix
   id: 41
   time: '2024-09-14T17:52:51.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/140
 - author: Evgencheg
   changes:
-    - type: Add
-      message: Проведён АПСТРИМ(Маленький)!
-    - type: Fix
-      message: Исправлены все ксено расы!
+  - message: "\u041F\u0440\u043E\u0432\u0435\u0434\u0451\u043D \u0410\u041F\u0421\u0422\
+      \u0420\u0418\u041C(\u041C\u0430\u043B\u0435\u043D\u044C\u043A\u0438\u0439)!"
+    type: Add
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0432\u0441\
+      \u0435 \u043A\u0441\u0435\u043D\u043E \u0440\u0430\u0441\u044B!"
+    type: Fix
   id: 42
   time: '2024-09-14T19:10:56.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/145
 - author: BL02DL
   changes:
-    - type: Add
-      message: Добавлено руководство "Корпоративный закон"!
-    - type: Add
-      message: Добавлено Книга "Корпоративный закон" в шкафы Офицеров и ГСБ, и Вардена
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E \u0440\u0443\u043A\
+      \u043E\u0432\u043E\u0434\u0441\u0442\u0432\u043E \"\u041A\u043E\u0440\u043F\u043E\
+      \u0440\u0430\u0442\u0438\u0432\u043D\u044B\u0439 \u0437\u0430\u043A\u043E\u043D\
+      \"!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E \u041A\u043D\u0438\
+      \u0433\u0430 \"\u041A\u043E\u0440\u043F\u043E\u0440\u0430\u0442\u0438\u0432\u043D\
+      \u044B\u0439 \u0437\u0430\u043A\u043E\u043D\" \u0432 \u0448\u043A\u0430\u0444\
+      \u044B \u041E\u0444\u0438\u0446\u0435\u0440\u043E\u0432 \u0438 \u0413\u0421\u0411\
+      , \u0438 \u0412\u0430\u0440\u0434\u0435\u043D\u0430"
+    type: Add
   id: 43
   time: '2024-09-14T20:13:05.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/146
 - author: SpicyDarkFox
   changes:
-    - type: Add
-      message: Добавлена возможность спонсорам 5 уровня заходить за любую роль кроме ВЛ
-    - type: Fix
-      message: Исправлена проблема с прическами унатхов
-    - type: Fix
-      message: Исправлены шемаги
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u0432\u043E\u0437\
+      \u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C \u0441\u043F\u043E\u043D\u0441\
+      \u043E\u0440\u0430\u043C 5 \u0443\u0440\u043E\u0432\u043D\u044F \u0437\u0430\
+      \u0445\u043E\u0434\u0438\u0442\u044C \u0437\u0430 \u043B\u044E\u0431\u0443\u044E\
+      \ \u0440\u043E\u043B\u044C \u043A\u0440\u043E\u043C\u0435 \u0412\u041B"
+    type: Add
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u043F\u0440\
+      \u043E\u0431\u043B\u0435\u043C\u0430 \u0441 \u043F\u0440\u0438\u0447\u0435\u0441\
+      \u043A\u0430\u043C\u0438 \u0443\u043D\u0430\u0442\u0445\u043E\u0432"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0448\u0435\
+      \u043C\u0430\u0433\u0438"
+    type: Fix
   id: 44
   time: '2024-09-15T20:05:33.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/148
 - author: Farrellka
   changes:
-    - type: Add
-      message: Добавлены эльфийские ушки людям!
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u044D\u043B\u044C\
+      \u0444\u0438\u0439\u0441\u043A\u0438\u0435 \u0443\u0448\u043A\u0438 \u043B\u044E\
+      \u0434\u044F\u043C!"
+    type: Add
   id: 45
   time: '2024-09-17T04:26:25.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/150
 - author: MegaDaimond
   changes:
-    - type: Add
-      message: >-
-        Смотритель получает свой собственный планшет с каталогом оборудования
-        для СБ.
+  - message: "\u0421\u043C\u043E\u0442\u0440\u0438\u0442\u0435\u043B\u044C \u043F\u043E\
+      \u043B\u0443\u0447\u0430\u0435\u0442 \u0441\u0432\u043E\u0439 \u0441\u043E\u0431\
+      \u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439 \u043F\u043B\u0430\u043D\u0448\
+      \u0435\u0442 \u0441 \u043A\u0430\u0442\u0430\u043B\u043E\u0433\u043E\u043C \u043E\
+      \u0431\u043E\u0440\u0443\u0434\u043E\u0432\u0430\u043D\u0438\u044F \u0434\u043B\
+      \u044F \u0421\u0411."
+    type: Add
   id: 46
   time: '2024-09-17T16:07:24.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/151
 - author: MrDarkSide
   changes:
-    - type: Add
-      message: Добавлены новые действия в панель взаимодействия
-    - type: Add
-      message: >-
-        Список новых действий: Шлёпнуть, пощёчина, лизнуть, похлопать по плечу,
-        поцеловать, показать средний палец, поцелуй, поцелуй в щеку, диагностика
-        состояния системы (КПБ-борги).
-    - type: Add
-      message: >-
-        Также, были добавлены новые эффекты настроения: Легкое смущение,
-        облегчение(При нанесении пощечины), обида (При получении пощечины),
-        Ободрение, Любовь (При поцелуях и так далее)
-    - type: Tweak
-      message: >-
-        Изменены некоторые проблемы с переводом, иконками, действиями в панели
-        взаимодействий
-    - type: Fix
-      message: Исправлены пару ошибок перевода панели взаимодействия.
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043D\u043E\u0432\
+      \u044B\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u0432 \u043F\u0430\
+      \u043D\u0435\u043B\u044C \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\
+      \u0441\u0442\u0432\u0438\u044F"
+    type: Add
+  - message: "\u0421\u043F\u0438\u0441\u043E\u043A \u043D\u043E\u0432\u044B\u0445\
+      \ \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439: \u0428\u043B\u0451\u043F\
+      \u043D\u0443\u0442\u044C, \u043F\u043E\u0449\u0451\u0447\u0438\u043D\u0430,\
+      \ \u043B\u0438\u0437\u043D\u0443\u0442\u044C, \u043F\u043E\u0445\u043B\u043E\
+      \u043F\u0430\u0442\u044C \u043F\u043E \u043F\u043B\u0435\u0447\u0443, \u043F\
+      \u043E\u0446\u0435\u043B\u043E\u0432\u0430\u0442\u044C, \u043F\u043E\u043A\u0430\
+      \u0437\u0430\u0442\u044C \u0441\u0440\u0435\u0434\u043D\u0438\u0439 \u043F\u0430\
+      \u043B\u0435\u0446, \u043F\u043E\u0446\u0435\u043B\u0443\u0439, \u043F\u043E\
+      \u0446\u0435\u043B\u0443\u0439 \u0432 \u0449\u0435\u043A\u0443, \u0434\u0438\
+      \u0430\u0433\u043D\u043E\u0441\u0442\u0438\u043A\u0430 \u0441\u043E\u0441\u0442\
+      \u043E\u044F\u043D\u0438\u044F \u0441\u0438\u0441\u0442\u0435\u043C\u044B (\u041A\
+      \u041F\u0411-\u0431\u043E\u0440\u0433\u0438)."
+    type: Add
+  - message: "\u0422\u0430\u043A\u0436\u0435, \u0431\u044B\u043B\u0438 \u0434\u043E\
+      \u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043D\u043E\u0432\u044B\u0435 \u044D\
+      \u0444\u0444\u0435\u043A\u0442\u044B \u043D\u0430\u0441\u0442\u0440\u043E\u0435\
+      \u043D\u0438\u044F: \u041B\u0435\u0433\u043A\u043E\u0435 \u0441\u043C\u0443\u0449\
+      \u0435\u043D\u0438\u0435, \u043E\u0431\u043B\u0435\u0433\u0447\u0435\u043D\u0438\
+      \u0435(\u041F\u0440\u0438 \u043D\u0430\u043D\u0435\u0441\u0435\u043D\u0438\u0438\
+      \ \u043F\u043E\u0449\u0435\u0447\u0438\u043D\u044B), \u043E\u0431\u0438\u0434\
+      \u0430 (\u041F\u0440\u0438 \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u0438\
+      \ \u043F\u043E\u0449\u0435\u0447\u0438\u043D\u044B), \u041E\u0431\u043E\u0434\
+      \u0440\u0435\u043D\u0438\u0435, \u041B\u044E\u0431\u043E\u0432\u044C (\u041F\
+      \u0440\u0438 \u043F\u043E\u0446\u0435\u043B\u0443\u044F\u0445 \u0438 \u0442\u0430\
+      \u043A \u0434\u0430\u043B\u0435\u0435)"
+    type: Add
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u044B \u043D\u0435\u043A\u043E\
+      \u0442\u043E\u0440\u044B\u0435 \u043F\u0440\u043E\u0431\u043B\u0435\u043C\u044B\
+      \ \u0441 \u043F\u0435\u0440\u0435\u0432\u043E\u0434\u043E\u043C, \u0438\u043A\
+      \u043E\u043D\u043A\u0430\u043C\u0438, \u0434\u0435\u0439\u0441\u0442\u0432\u0438\
+      \u044F\u043C\u0438 \u0432 \u043F\u0430\u043D\u0435\u043B\u0438 \u0432\u0437\u0430\
+      \u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043F\u0430\
+      \u0440\u0443 \u043E\u0448\u0438\u0431\u043E\u043A \u043F\u0435\u0440\u0435\u0432\
+      \u043E\u0434\u0430 \u043F\u0430\u043D\u0435\u043B\u0438 \u0432\u0437\u0430\u0438\
+      \u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F."
+    type: Fix
   id: 47
   time: '2024-09-17T16:27:29.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/149
 - author: MegaDaimond
   changes:
-    - type: Add
-      message: Добавлены новые предметы в планшете СБ
-    - type: Tweak
-      message: Изменены названия категорий в планшете СБ
-    - type: Tweak
-      message: >-
-        Были внесены балансные правки в планшет, некоторые вещи заменены, а так
-        же изменена цена на некоторые лоты.
-    - type: Fix
-      message: Исправлен RSI Доминатора
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043D\u043E\u0432\
+      \u044B\u0435 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u044B \u0432 \u043F\u043B\
+      \u0430\u043D\u0448\u0435\u0442\u0435 \u0421\u0411"
+    type: Add
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u044B \u043D\u0430\u0437\u0432\
+      \u0430\u043D\u0438\u044F \u043A\u0430\u0442\u0435\u0433\u043E\u0440\u0438\u0439\
+      \ \u0432 \u043F\u043B\u0430\u043D\u0448\u0435\u0442\u0435 \u0421\u0411"
+    type: Tweak
+  - message: "\u0411\u044B\u043B\u0438 \u0432\u043D\u0435\u0441\u0435\u043D\u044B\
+      \ \u0431\u0430\u043B\u0430\u043D\u0441\u043D\u044B\u0435 \u043F\u0440\u0430\u0432\
+      \u043A\u0438 \u0432 \u043F\u043B\u0430\u043D\u0448\u0435\u0442, \u043D\u0435\
+      \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0432\u0435\u0449\u0438 \u0437\u0430\
+      \u043C\u0435\u043D\u0435\u043D\u044B, \u0430 \u0442\u0430\u043A \u0436\u0435\
+      \ \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u0446\u0435\u043D\u0430\
+      \ \u043D\u0430 \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043B\
+      \u043E\u0442\u044B."
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D RSI \u0414\u043E\
+      \u043C\u0438\u043D\u0430\u0442\u043E\u0440\u0430"
+    type: Fix
   id: 48
   time: '2024-09-17T19:36:10.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/153
 - author: BL02DL
   changes:
-    - type: Add
-      message: Добавлен Гипо 0.5!
-    - type: Add
-      message: Добавлен Боевой дефибриллятор!
-    - type: Tweak
-      message: Изменено Пробивной заряд больше не достать!
-    - type: Tweak
-      message: Изменено вернули РСУАП и РСУ в изучение и их рецепты в протолат!
-    - type: Tweak
-      message: Изменена характеристика взрыва C4Low!
-    - type: Fix
-      message: Исправлен перевод скафандра полевого инженера и C4Low!
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0413\u0438\u043F\u043E\
+      \ 0.5!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0411\u043E\u0435\u0432\
+      \u043E\u0439 \u0434\u0435\u0444\u0438\u0431\u0440\u0438\u043B\u043B\u044F\u0442\
+      \u043E\u0440!"
+    type: Add
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u043E \u041F\u0440\u043E\u0431\
+      \u0438\u0432\u043D\u043E\u0439 \u0437\u0430\u0440\u044F\u0434 \u0431\u043E\u043B\
+      \u044C\u0448\u0435 \u043D\u0435 \u0434\u043E\u0441\u0442\u0430\u0442\u044C!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u043E \u0432\u0435\u0440\u043D\
+      \u0443\u043B\u0438 \u0420\u0421\u0423\u0410\u041F \u0438 \u0420\u0421\u0423\
+      \ \u0432 \u0438\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u0438 \u0438\u0445\
+      \ \u0440\u0435\u0446\u0435\u043F\u0442\u044B \u0432 \u043F\u0440\u043E\u0442\
+      \u043E\u043B\u0430\u0442!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u0445\u0430\u0440\u0430\
+      \u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\u0430 \u0432\u0437\u0440\
+      \u044B\u0432\u0430 C4Low!"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u043F\u0435\u0440\
+      \u0435\u0432\u043E\u0434 \u0441\u043A\u0430\u0444\u0430\u043D\u0434\u0440\u0430\
+      \ \u043F\u043E\u043B\u0435\u0432\u043E\u0433\u043E \u0438\u043D\u0436\u0435\u043D\
+      \u0435\u0440\u0430 \u0438 C4Low!"
+    type: Fix
   id: 49
   time: '2024-09-17T19:36:23.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/152
 - author: BL02DL
   changes:
-    - type: Tweak
-      message: Изменено КПД СМа, выработка стала больше и имеет предел до 30 радиации!
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u043E \u041A\u041F\u0414\
+      \ \u0421\u041C\u0430, \u0432\u044B\u0440\u0430\u0431\u043E\u0442\u043A\u0430\
+      \ \u0441\u0442\u0430\u043B\u0430 \u0431\u043E\u043B\u044C\u0448\u0435 \u0438\
+      \ \u0438\u043C\u0435\u0435\u0442 \u043F\u0440\u0435\u0434\u0435\u043B \u0434\
+      \u043E 30 \u0440\u0430\u0434\u0438\u0430\u0446\u0438\u0438!"
+    type: Tweak
   id: 50
   time: '2024-09-18T17:25:34.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/159
 - author: SpicyDarkFox
   changes:
-    - type: Add
-      message: Добавлены переводы для некоторых материалов в окне строительства
-    - type: Fix
-      message: Исправлены переводы в книгах со случайными историями
-    - type: Fix
-      message: Исправлены трудности с переводами в окне строительства
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043F\u0435\u0440\
+      \u0435\u0432\u043E\u0434\u044B \u0434\u043B\u044F \u043D\u0435\u043A\u043E\u0442\
+      \u043E\u0440\u044B\u0445 \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u043E\
+      \u0432 \u0432 \u043E\u043A\u043D\u0435 \u0441\u0442\u0440\u043E\u0438\u0442\u0435\
+      \u043B\u044C\u0441\u0442\u0432\u0430"
+    type: Add
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043F\u0435\
+      \u0440\u0435\u0432\u043E\u0434\u044B \u0432 \u043A\u043D\u0438\u0433\u0430\u0445\
+      \ \u0441\u043E \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u044B\u043C\u0438\
+      \ \u0438\u0441\u0442\u043E\u0440\u0438\u044F\u043C\u0438"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0442\u0440\
+      \u0443\u0434\u043D\u043E\u0441\u0442\u0438 \u0441 \u043F\u0435\u0440\u0435\u0432\
+      \u043E\u0434\u0430\u043C\u0438 \u0432 \u043E\u043A\u043D\u0435 \u0441\u0442\u0440\
+      \u043E\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430"
+    type: Fix
   id: 51
   time: '2024-09-18T23:07:40.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/160
 - author: MegaDaimond
   changes:
-    - type: Tweak
-      message: Скафандры были переименованы в одном стиле
-    - type: Tweak
-      message: Цена Вектора в планшете закупа СБ изменена (12>11 ЦентКоинов)
-    - type: Tweak
-      message: Древний скафандр теперь покупается с вещмешком
-    - type: Fix
-      message: Исправлен шлем скафандра капитана и скафандра эскадрона смерти
+  - message: "\u0421\u043A\u0430\u0444\u0430\u043D\u0434\u0440\u044B \u0431\u044B\u043B\
+      \u0438 \u043F\u0435\u0440\u0435\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\
+      \u044B \u0432 \u043E\u0434\u043D\u043E\u043C \u0441\u0442\u0438\u043B\u0435"
+    type: Tweak
+  - message: "\u0426\u0435\u043D\u0430 \u0412\u0435\u043A\u0442\u043E\u0440\u0430\
+      \ \u0432 \u043F\u043B\u0430\u043D\u0448\u0435\u0442\u0435 \u0437\u0430\u043A\
+      \u0443\u043F\u0430 \u0421\u0411 \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0430\
+      \ (12>11 \u0426\u0435\u043D\u0442\u041A\u043E\u0438\u043D\u043E\u0432)"
+    type: Tweak
+  - message: "\u0414\u0440\u0435\u0432\u043D\u0438\u0439 \u0441\u043A\u0430\u0444\u0430\
+      \u043D\u0434\u0440 \u0442\u0435\u043F\u0435\u0440\u044C \u043F\u043E\u043A\u0443\
+      \u043F\u0430\u0435\u0442\u0441\u044F \u0441 \u0432\u0435\u0449\u043C\u0435\u0448\
+      \u043A\u043E\u043C"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0448\u043B\u0435\
+      \u043C \u0441\u043A\u0430\u0444\u0430\u043D\u0434\u0440\u0430 \u043A\u0430\u043F\
+      \u0438\u0442\u0430\u043D\u0430 \u0438 \u0441\u043A\u0430\u0444\u0430\u043D\u0434\
+      \u0440\u0430 \u044D\u0441\u043A\u0430\u0434\u0440\u043E\u043D\u0430 \u0441\u043C\
+      \u0435\u0440\u0442\u0438"
+    type: Fix
   id: 52
   time: '2024-09-19T19:50:37.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/162
 - author: Evgencheg
   changes:
-    - type: Remove
-      message: Убраны кастомные режимы.
+  - message: "\u0423\u0431\u0440\u0430\u043D\u044B \u043A\u0430\u0441\u0442\u043E\u043C\
+      \u043D\u044B\u0435 \u0440\u0435\u0436\u0438\u043C\u044B."
+    type: Remove
   id: 53
   time: '2024-09-19T19:51:40.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/163
 - author: Evgencheg
   changes:
-    - type: Tweak
-      message: Изменена цена скила обхода ловушек!
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u0446\u0435\u043D\u0430\
+      \ \u0441\u043A\u0438\u043B\u0430 \u043E\u0431\u0445\u043E\u0434\u0430 \u043B\
+      \u043E\u0432\u0443\u0448\u0435\u043A!"
+    type: Tweak
   id: 54
   time: '2024-09-20T10:34:07.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/164
 - author: IAmLePacko
   changes:
-    - type: Add
-      message: Добавлены компоненты открытия двери от столкновения.
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043A\u043E\u043C\
+      \u043F\u043E\u043D\u0435\u043D\u0442\u044B \u043E\u0442\u043A\u0440\u044B\u0442\
+      \u0438\u044F \u0434\u0432\u0435\u0440\u0438 \u043E\u0442 \u0441\u0442\u043E\u043B\
+      \u043A\u043D\u043E\u0432\u0435\u043D\u0438\u044F."
+    type: Add
   id: 55
   time: '2024-09-20T14:26:28.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/166
 - author: BL02DL
   changes:
-    - type: Add
-      message: Добавлены Нитрил-боевые перчатки!
-    - type: Add
-      message: Добавлен боевой гипоспрей!
-    - type: Add
-      message: Добавлены рецепты боевого дефибриллятора и гипоспрея!
-    - type: Add
-      message: Добавлена новая технология Т2 арсенал "Боевая медицина"!
-    - type: Add
-      message: Добавлена новая технология Т1 сервис "Базовое введение препаратов"!
-    - type: Add
-      message: Добавлена новая технология Т1 сервис "Базовое отслеживание"!
-    - type: Add
-      message: Добавлен монитор датчиков в шкаф ПВ!
-    - type: Remove
-      message: Убран портативный дефибриллятор из рюкзака ПВ!
-    - type: Remove
-      message: Убрана цель антагонистов на монитор датчиков!
-    - type: Tweak
-      message: Изменён перевод Медицинского офицера в Полевого врача!
-    - type: Tweak
-      message: Изменён начальный визор ПВ с мед на мед-сб!
-    - type: Tweak
-      message: Изменён урон свалена с 7 до 13!
-    - type: Tweak
-      message: >-
-        Изменено: теперь гипо 0.5 требуется изучить для создания, также со
-        шприцами и пипетками!
-    - type: Tweak
-      message: Изменён спрайт визора мед-сб!
-    - type: Tweak
-      message: Изменён спрайт боевого дефиба!
-    - type: Tweak
-      message: Изменена стоимость крафта гипо 0.5!
-    - type: Tweak
-      message: ГСП в кармане у парамеда заменён на гипо 0.5, ГСП перемещён в ящик!
-    - type: Fix
-      message: Исправлен перевод вещей ПВ и прочих!
-    - type: Fix
-      message: Исправлен баг с отображением иконки роли визорам Мед-сб, Инж-сб!
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u041D\u0438\u0442\
+      \u0440\u0438\u043B-\u0431\u043E\u0435\u0432\u044B\u0435 \u043F\u0435\u0440\u0447\
+      \u0430\u0442\u043A\u0438!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0431\u043E\u0435\u0432\
+      \u043E\u0439 \u0433\u0438\u043F\u043E\u0441\u043F\u0440\u0435\u0439!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u0440\u0435\u0446\
+      \u0435\u043F\u0442\u044B \u0431\u043E\u0435\u0432\u043E\u0433\u043E \u0434\u0435\
+      \u0444\u0438\u0431\u0440\u0438\u043B\u043B\u044F\u0442\u043E\u0440\u0430 \u0438\
+      \ \u0433\u0438\u043F\u043E\u0441\u043F\u0440\u0435\u044F!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u043D\u043E\u0432\
+      \u0430\u044F \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0422\
+      2 \u0430\u0440\u0441\u0435\u043D\u0430\u043B \"\u0411\u043E\u0435\u0432\u0430\
+      \u044F \u043C\u0435\u0434\u0438\u0446\u0438\u043D\u0430\"!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u043D\u043E\u0432\
+      \u0430\u044F \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0422\
+      1 \u0441\u0435\u0440\u0432\u0438\u0441 \"\u0411\u0430\u0437\u043E\u0432\u043E\
+      \u0435 \u0432\u0432\u0435\u0434\u0435\u043D\u0438\u0435 \u043F\u0440\u0435\u043F\
+      \u0430\u0440\u0430\u0442\u043E\u0432\"!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u043D\u043E\u0432\
+      \u0430\u044F \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0422\
+      1 \u0441\u0435\u0440\u0432\u0438\u0441 \"\u0411\u0430\u0437\u043E\u0432\u043E\
+      \u0435 \u043E\u0442\u0441\u043B\u0435\u0436\u0438\u0432\u0430\u043D\u0438\u0435\
+      \"!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u043C\u043E\u043D\u0438\
+      \u0442\u043E\u0440 \u0434\u0430\u0442\u0447\u0438\u043A\u043E\u0432 \u0432 \u0448\
+      \u043A\u0430\u0444 \u041F\u0412!"
+    type: Add
+  - message: "\u0423\u0431\u0440\u0430\u043D \u043F\u043E\u0440\u0442\u0430\u0442\u0438\
+      \u0432\u043D\u044B\u0439 \u0434\u0435\u0444\u0438\u0431\u0440\u0438\u043B\u043B\
+      \u044F\u0442\u043E\u0440 \u0438\u0437 \u0440\u044E\u043A\u0437\u0430\u043A\u0430\
+      \ \u041F\u0412!"
+    type: Remove
+  - message: "\u0423\u0431\u0440\u0430\u043D\u0430 \u0446\u0435\u043B\u044C \u0430\
+      \u043D\u0442\u0430\u0433\u043E\u043D\u0438\u0441\u0442\u043E\u0432 \u043D\u0430\
+      \ \u043C\u043E\u043D\u0438\u0442\u043E\u0440 \u0434\u0430\u0442\u0447\u0438\u043A\
+      \u043E\u0432!"
+    type: Remove
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0451\u043D \u043F\u0435\u0440\u0435\u0432\
+      \u043E\u0434 \u041C\u0435\u0434\u0438\u0446\u0438\u043D\u0441\u043A\u043E\u0433\
+      \u043E \u043E\u0444\u0438\u0446\u0435\u0440\u0430 \u0432 \u041F\u043E\u043B\u0435\
+      \u0432\u043E\u0433\u043E \u0432\u0440\u0430\u0447\u0430!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0451\u043D \u043D\u0430\u0447\u0430\u043B\
+      \u044C\u043D\u044B\u0439 \u0432\u0438\u0437\u043E\u0440 \u041F\u0412 \u0441\
+      \ \u043C\u0435\u0434 \u043D\u0430 \u043C\u0435\u0434-\u0441\u0431!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0451\u043D \u0443\u0440\u043E\u043D\
+      \ \u0441\u0432\u0430\u043B\u0435\u043D\u0430 \u0441 7 \u0434\u043E 13!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u043E: \u0442\u0435\u043F\
+      \u0435\u0440\u044C \u0433\u0438\u043F\u043E 0.5 \u0442\u0440\u0435\u0431\u0443\
+      \u0435\u0442\u0441\u044F \u0438\u0437\u0443\u0447\u0438\u0442\u044C \u0434\u043B\
+      \u044F \u0441\u043E\u0437\u0434\u0430\u043D\u0438\u044F, \u0442\u0430\u043A\u0436\
+      \u0435 \u0441\u043E \u0448\u043F\u0440\u0438\u0446\u0430\u043C\u0438 \u0438\
+      \ \u043F\u0438\u043F\u0435\u0442\u043A\u0430\u043C\u0438!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0451\u043D \u0441\u043F\u0440\u0430\u0439\
+      \u0442 \u0432\u0438\u0437\u043E\u0440\u0430 \u043C\u0435\u0434-\u0441\u0431!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0451\u043D \u0441\u043F\u0440\u0430\u0439\
+      \u0442 \u0431\u043E\u0435\u0432\u043E\u0433\u043E \u0434\u0435\u0444\u0438\u0431\
+      \u0430!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u0441\u0442\u043E\u0438\
+      \u043C\u043E\u0441\u0442\u044C \u043A\u0440\u0430\u0444\u0442\u0430 \u0433\u0438\
+      \u043F\u043E 0.5!"
+    type: Tweak
+  - message: "\u0413\u0421\u041F \u0432 \u043A\u0430\u0440\u043C\u0430\u043D\u0435\
+      \ \u0443 \u043F\u0430\u0440\u0430\u043C\u0435\u0434\u0430 \u0437\u0430\u043C\
+      \u0435\u043D\u0451\u043D \u043D\u0430 \u0433\u0438\u043F\u043E 0.5, \u0413\u0421\
+      \u041F \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0451\u043D \u0432 \u044F\u0449\
+      \u0438\u043A!"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u043F\u0435\u0440\
+      \u0435\u0432\u043E\u0434 \u0432\u0435\u0449\u0435\u0439 \u041F\u0412 \u0438\
+      \ \u043F\u0440\u043E\u0447\u0438\u0445!"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0431\u0430\u0433\
+      \ \u0441 \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435\u043C\
+      \ \u0438\u043A\u043E\u043D\u043A\u0438 \u0440\u043E\u043B\u0438 \u0432\u0438\
+      \u0437\u043E\u0440\u0430\u043C \u041C\u0435\u0434-\u0441\u0431, \u0418\u043D\
+      \u0436-\u0441\u0431!"
+    type: Fix
   id: 56
   time: '2024-09-20T14:51:04.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/167
 - author: Evgencheg
   changes:
-    - type: Remove
-      message: Убраны улучшения действий.
+  - message: "\u0423\u0431\u0440\u0430\u043D\u044B \u0443\u043B\u0443\u0447\u0448\u0435\
+      \u043D\u0438\u044F \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0439."
+    type: Remove
   id: 57
   time: '2024-09-20T15:32:35.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/168
 - author: Kest
   changes:
-    - type: Tweak
-      message: C4Low был заменён на пробивной заряд
-    - type: Remove
-      message: C4Low был удалён из игры
-    - type: Remove
-      message: Дубликат штурмового молота был удалён из игры
+  - message: "C4Low \u0431\u044B\u043B \u0437\u0430\u043C\u0435\u043D\u0451\u043D\
+      \ \u043D\u0430 \u043F\u0440\u043E\u0431\u0438\u0432\u043D\u043E\u0439 \u0437\
+      \u0430\u0440\u044F\u0434"
+    type: Tweak
+  - message: "C4Low \u0431\u044B\u043B \u0443\u0434\u0430\u043B\u0451\u043D \u0438\
+      \u0437 \u0438\u0433\u0440\u044B"
+    type: Remove
+  - message: "\u0414\u0443\u0431\u043B\u0438\u043A\u0430\u0442 \u0448\u0442\u0443\u0440\
+      \u043C\u043E\u0432\u043E\u0433\u043E \u043C\u043E\u043B\u043E\u0442\u0430 \u0431\
+      \u044B\u043B \u0443\u0434\u0430\u043B\u0451\u043D \u0438\u0437 \u0438\u0433\u0440\
+      \u044B"
+    type: Remove
   id: 58
   time: '2024-09-21T16:25:13.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/175
 - author: IAmLePacko
   changes:
-    - type: Tweak
-      message: Изменены параметры появления режимов.
-    - type: Tweak
-      message: Изменен Вор, потерял пацифизм в угоду РП и логики.
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u044B \u043F\u0430\u0440\u0430\
+      \u043C\u0435\u0442\u0440\u044B \u043F\u043E\u044F\u0432\u043B\u0435\u043D\u0438\
+      \u044F \u0440\u0435\u0436\u0438\u043C\u043E\u0432."
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D \u0412\u043E\u0440, \u043F\
+      \u043E\u0442\u0435\u0440\u044F\u043B \u043F\u0430\u0446\u0438\u0444\u0438\u0437\
+      \u043C \u0432 \u0443\u0433\u043E\u0434\u0443 \u0420\u041F \u0438 \u043B\u043E\
+      \u0433\u0438\u043A\u0438."
+    type: Tweak
   id: 59
   time: '2024-09-21T16:25:24.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/174
 - author: BL02DL
   changes:
-    - type: Add
-      message: Добавлен дробитель алмазов!
-    - type: Add
-      message: Добавлена не обработанная жеода алмаза!
-    - type: Add
-      message: Добавлен обработанный алмаз!
-    - type: Add
-      message: Добавлен очищенный алмаз!
-    - type: Add
-      message: Добавлена новая дисциплина РнД Алмазное производство!
-    - type: Add
-      message: >-
-        Добавлена новая технология Т1 алмазного производства Продвинутое
-        алмазное шахтёрское оборудование!
-    - type: Add
-      message: Добавлены алмазный бур и алмазная кирка!
-    - type: Add
-      message: Добавлена новая технология Т2 сервис Продвинутое отслеживание!
-    - type: Add
-      message: Добавлена плата дробителя алмазов!
-    - type: Add
-      message: Добавлена новая технология Т2 экспериментальная Обработка алмазов!
-    - type: Remove
-      message: Убран дубликат штурмового молота с карт!
-    - type: Tweak
-      message: Изменена система добычи и копания руды!
-    - type: Tweak
-      message: Теперь некоторые Т3 технологии требуют очищенный алмаз!
-    - type: Tweak
-      message: >-
-        Портативный монитор датчиков теперь в технологии Продвинутое
-        отслеживание!
-    - type: Tweak
-      message: >-
-        Теперь  технология Базовое отслеживание открывает платы монитора и
-        сервера датчиков!
-    - type: Tweak
-      message: >-
-        Теперь для изучения любой Т3 технологии нужно изучить полностью Т2 её
-        дисциплины!
-    - type: Fix
-      message: Исправлены характеристики бура и кирки!
-    - type: Fix
-      message: Пипетку больше нельзя сделать до изучения на протолате!
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0434\u0440\u043E\u0431\
+      \u0438\u0442\u0435\u043B\u044C \u0430\u043B\u043C\u0430\u0437\u043E\u0432!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u043D\u0435\
+      \ \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043D\u0430\u044F \u0436\
+      \u0435\u043E\u0434\u0430 \u0430\u043B\u043C\u0430\u0437\u0430!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u043E\u0431\u0440\u0430\
+      \u0431\u043E\u0442\u0430\u043D\u043D\u044B\u0439 \u0430\u043B\u043C\u0430\u0437\
+      !"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u043E\u0447\u0438\u0449\
+      \u0435\u043D\u043D\u044B\u0439 \u0430\u043B\u043C\u0430\u0437!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u043D\u043E\u0432\
+      \u0430\u044F \u0434\u0438\u0441\u0446\u0438\u043F\u043B\u0438\u043D\u0430 \u0420\
+      \u043D\u0414 \u0410\u043B\u043C\u0430\u0437\u043D\u043E\u0435 \u043F\u0440\u043E\
+      \u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u043E!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u043D\u043E\u0432\
+      \u0430\u044F \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0422\
+      1 \u0430\u043B\u043C\u0430\u0437\u043D\u043E\u0433\u043E \u043F\u0440\u043E\u0438\
+      \u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0430 \u041F\u0440\u043E\u0434\u0432\
+      \u0438\u043D\u0443\u0442\u043E\u0435 \u0430\u043B\u043C\u0430\u0437\u043D\u043E\
+      \u0435 \u0448\u0430\u0445\u0442\u0451\u0440\u0441\u043A\u043E\u0435 \u043E\u0431\
+      \u043E\u0440\u0443\u0434\u043E\u0432\u0430\u043D\u0438\u0435!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u0430\u043B\u043C\
+      \u0430\u0437\u043D\u044B\u0439 \u0431\u0443\u0440 \u0438 \u0430\u043B\u043C\u0430\
+      \u0437\u043D\u0430\u044F \u043A\u0438\u0440\u043A\u0430!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u043D\u043E\u0432\
+      \u0430\u044F \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0422\
+      2 \u0441\u0435\u0440\u0432\u0438\u0441 \u041F\u0440\u043E\u0434\u0432\u0438\u043D\
+      \u0443\u0442\u043E\u0435 \u043E\u0442\u0441\u043B\u0435\u0436\u0438\u0432\u0430\
+      \u043D\u0438\u0435!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u043F\u043B\u0430\
+      \u0442\u0430 \u0434\u0440\u043E\u0431\u0438\u0442\u0435\u043B\u044F \u0430\u043B\
+      \u043C\u0430\u0437\u043E\u0432!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u043D\u043E\u0432\
+      \u0430\u044F \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0422\
+      2 \u044D\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442\u0430\u043B\
+      \u044C\u043D\u0430\u044F \u041E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0430\
+      \ \u0430\u043B\u043C\u0430\u0437\u043E\u0432!"
+    type: Add
+  - message: "\u0423\u0431\u0440\u0430\u043D \u0434\u0443\u0431\u043B\u0438\u043A\u0430\
+      \u0442 \u0448\u0442\u0443\u0440\u043C\u043E\u0432\u043E\u0433\u043E \u043C\u043E\
+      \u043B\u043E\u0442\u0430 \u0441 \u043A\u0430\u0440\u0442!"
+    type: Remove
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u0441\u0438\u0441\u0442\
+      \u0435\u043C\u0430 \u0434\u043E\u0431\u044B\u0447\u0438 \u0438 \u043A\u043E\u043F\
+      \u0430\u043D\u0438\u044F \u0440\u0443\u0434\u044B!"
+    type: Tweak
+  - message: "\u0422\u0435\u043F\u0435\u0440\u044C \u043D\u0435\u043A\u043E\u0442\u043E\
+      \u0440\u044B\u0435 \u04223 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\
+      \u0438 \u0442\u0440\u0435\u0431\u0443\u044E\u0442 \u043E\u0447\u0438\u0449\u0435\
+      \u043D\u043D\u044B\u0439 \u0430\u043B\u043C\u0430\u0437!"
+    type: Tweak
+  - message: "\u041F\u043E\u0440\u0442\u0430\u0442\u0438\u0432\u043D\u044B\u0439 \u043C\
+      \u043E\u043D\u0438\u0442\u043E\u0440 \u0434\u0430\u0442\u0447\u0438\u043A\u043E\
+      \u0432 \u0442\u0435\u043F\u0435\u0440\u044C \u0432 \u0442\u0435\u0445\u043D\u043E\
+      \u043B\u043E\u0433\u0438\u0438 \u041F\u0440\u043E\u0434\u0432\u0438\u043D\u0443\
+      \u0442\u043E\u0435 \u043E\u0442\u0441\u043B\u0435\u0436\u0438\u0432\u0430\u043D\
+      \u0438\u0435!"
+    type: Tweak
+  - message: "\u0422\u0435\u043F\u0435\u0440\u044C  \u0442\u0435\u0445\u043D\u043E\
+      \u043B\u043E\u0433\u0438\u044F \u0411\u0430\u0437\u043E\u0432\u043E\u0435 \u043E\
+      \u0442\u0441\u043B\u0435\u0436\u0438\u0432\u0430\u043D\u0438\u0435 \u043E\u0442\
+      \u043A\u0440\u044B\u0432\u0430\u0435\u0442 \u043F\u043B\u0430\u0442\u044B \u043C\
+      \u043E\u043D\u0438\u0442\u043E\u0440\u0430 \u0438 \u0441\u0435\u0440\u0432\u0435\
+      \u0440\u0430 \u0434\u0430\u0442\u0447\u0438\u043A\u043E\u0432!"
+    type: Tweak
+  - message: "\u0422\u0435\u043F\u0435\u0440\u044C \u0434\u043B\u044F \u0438\u0437\
+      \u0443\u0447\u0435\u043D\u0438\u044F \u043B\u044E\u0431\u043E\u0439 \u04223\
+      \ \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438 \u043D\u0443\u0436\
+      \u043D\u043E \u0438\u0437\u0443\u0447\u0438\u0442\u044C \u043F\u043E\u043B\u043D\
+      \u043E\u0441\u0442\u044C\u044E \u04222 \u0435\u0451 \u0434\u0438\u0441\u0446\
+      \u0438\u043F\u043B\u0438\u043D\u044B!"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0445\u0430\
+      \u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\u0438 \u0431\
+      \u0443\u0440\u0430 \u0438 \u043A\u0438\u0440\u043A\u0438!"
+    type: Fix
+  - message: "\u041F\u0438\u043F\u0435\u0442\u043A\u0443 \u0431\u043E\u043B\u044C\u0448\
+      \u0435 \u043D\u0435\u043B\u044C\u0437\u044F \u0441\u0434\u0435\u043B\u0430\u0442\
+      \u044C \u0434\u043E \u0438\u0437\u0443\u0447\u0435\u043D\u0438\u044F \u043D\u0430\
+      \ \u043F\u0440\u043E\u0442\u043E\u043B\u0430\u0442\u0435!"
+    type: Fix
   id: 60
   time: '2024-09-22T13:29:47.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/181
 - author: Evgencheg
   changes:
-    - type: Fix
-      message: Исправлены переводы!
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043F\u0435\
+      \u0440\u0435\u0432\u043E\u0434\u044B!"
+    type: Fix
   id: 61
   time: '2024-09-23T13:03:59.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/186
 - author: PowerKAT1
   changes:
-    - type: Fix
-      message: Исправлена карта Нормандия!
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u043A\u0430\
+      \u0440\u0442\u0430 \u041D\u043E\u0440\u043C\u0430\u043D\u0434\u0438\u044F!"
+    type: Fix
   id: 62
   time: '2024-09-23T13:14:50.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/185
 - author: SpicyDarkFox
   changes:
-    - type: Add
-      message: Добавлена возможность выбора анимированных кошачьих хвостиков
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u0432\u043E\u0437\
+      \u043C\u043E\u0436\u043D\u043E\u0441\u0442\u044C \u0432\u044B\u0431\u043E\u0440\
+      \u0430 \u0430\u043D\u0438\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u043D\u044B\
+      \u0445 \u043A\u043E\u0448\u0430\u0447\u044C\u0438\u0445 \u0445\u0432\u043E\u0441\
+      \u0442\u0438\u043A\u043E\u0432"
+    type: Add
   id: 63
   time: '2024-09-23T18:30:37.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/193
 - author: BL02DL
   changes:
-    - type: Add
-      message: Добавлены платы кузниц!
-    - type: Add
-      message: Добавлены две разновидности кузницы!
-    - type: Add
-      message: Добавлены две Т2 и две Т3 технологии в ветку алмазной индустрии!
-    - type: Add
-      message: >-
-        Добавлены новые технологии продвинутого конструирования скафандров в
-        ветки СБ промышленности и сервиса!
-    - type: Add
-      message: Добавлен продвинутый источник исследований!
-    - type: Remove
-      message: Убран отражающий щит с СБмата!
-    - type: Tweak
-      message: Изменён перевод противолазерного щита в отражающий!
-    - type: Tweak
-      message: Теперь отражающий щит отражает лазеры!
-    - type: Tweak
-      message: Теперь отражающий жилет не получить с лотереи!
-    - type: Tweak
-      message: Теперь отражающий скафандр не получить с покупки в карго!
-    - type: Tweak
-      message: Изменена скорость с надетым скафандром полевого врача!
-    - type: Tweak
-      message: Изменён блокируемый тип урона отражающим щитом!
-    - type: Tweak
-      message: >-
-        Изменена редкость алмазной залежи с 1 до 3 это среднее между золотом и
-        плазмой!
-    - type: Fix
-      message: Исправлена цена технологии Продвинутое алмазное шахтёрское оборудование!
-    - type: Fix
-      message: >-
-        Исправлено появление алмазов на карте, теперь там появляются по 1 алмазу
-        не более!
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043F\u043B\u0430\
+      \u0442\u044B \u043A\u0443\u0437\u043D\u0438\u0446!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u0434\u0432\u0435\
+      \ \u0440\u0430\u0437\u043D\u043E\u0432\u0438\u0434\u043D\u043E\u0441\u0442\u0438\
+      \ \u043A\u0443\u0437\u043D\u0438\u0446\u044B!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u0434\u0432\u0435\
+      \ \u04222 \u0438 \u0434\u0432\u0435 \u04223 \u0442\u0435\u0445\u043D\u043E\u043B\
+      \u043E\u0433\u0438\u0438 \u0432 \u0432\u0435\u0442\u043A\u0443 \u0430\u043B\u043C\
+      \u0430\u0437\u043D\u043E\u0439 \u0438\u043D\u0434\u0443\u0441\u0442\u0440\u0438\
+      \u0438!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043D\u043E\u0432\
+      \u044B\u0435 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438 \u043F\
+      \u0440\u043E\u0434\u0432\u0438\u043D\u0443\u0442\u043E\u0433\u043E \u043A\u043E\
+      \u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F\
+      \ \u0441\u043A\u0430\u0444\u0430\u043D\u0434\u0440\u043E\u0432 \u0432 \u0432\
+      \u0435\u0442\u043A\u0438 \u0421\u0411 \u043F\u0440\u043E\u043C\u044B\u0448\u043B\
+      \u0435\u043D\u043D\u043E\u0441\u0442\u0438 \u0438 \u0441\u0435\u0440\u0432\u0438\
+      \u0441\u0430!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u043F\u0440\u043E\u0434\
+      \u0432\u0438\u043D\u0443\u0442\u044B\u0439 \u0438\u0441\u0442\u043E\u0447\u043D\
+      \u0438\u043A \u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\
+      \u0439!"
+    type: Add
+  - message: "\u0423\u0431\u0440\u0430\u043D \u043E\u0442\u0440\u0430\u0436\u0430\u044E\
+      \u0449\u0438\u0439 \u0449\u0438\u0442 \u0441 \u0421\u0411\u043C\u0430\u0442\u0430\
+      !"
+    type: Remove
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0451\u043D \u043F\u0435\u0440\u0435\u0432\
+      \u043E\u0434 \u043F\u0440\u043E\u0442\u0438\u0432\u043E\u043B\u0430\u0437\u0435\
+      \u0440\u043D\u043E\u0433\u043E \u0449\u0438\u0442\u0430 \u0432 \u043E\u0442\u0440\
+      \u0430\u0436\u0430\u044E\u0449\u0438\u0439!"
+    type: Tweak
+  - message: "\u0422\u0435\u043F\u0435\u0440\u044C \u043E\u0442\u0440\u0430\u0436\u0430\
+      \u044E\u0449\u0438\u0439 \u0449\u0438\u0442 \u043E\u0442\u0440\u0430\u0436\u0430\
+      \u0435\u0442 \u043B\u0430\u0437\u0435\u0440\u044B!"
+    type: Tweak
+  - message: "\u0422\u0435\u043F\u0435\u0440\u044C \u043E\u0442\u0440\u0430\u0436\u0430\
+      \u044E\u0449\u0438\u0439 \u0436\u0438\u043B\u0435\u0442 \u043D\u0435 \u043F\u043E\
+      \u043B\u0443\u0447\u0438\u0442\u044C \u0441 \u043B\u043E\u0442\u0435\u0440\u0435\
+      \u0438!"
+    type: Tweak
+  - message: "\u0422\u0435\u043F\u0435\u0440\u044C \u043E\u0442\u0440\u0430\u0436\u0430\
+      \u044E\u0449\u0438\u0439 \u0441\u043A\u0430\u0444\u0430\u043D\u0434\u0440 \u043D\
+      \u0435 \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0441 \u043F\u043E\u043A\
+      \u0443\u043F\u043A\u0438 \u0432 \u043A\u0430\u0440\u0433\u043E!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u0441\u043A\u043E\u0440\
+      \u043E\u0441\u0442\u044C \u0441 \u043D\u0430\u0434\u0435\u0442\u044B\u043C \u0441\
+      \u043A\u0430\u0444\u0430\u043D\u0434\u0440\u043E\u043C \u043F\u043E\u043B\u0435\
+      \u0432\u043E\u0433\u043E \u0432\u0440\u0430\u0447\u0430!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0451\u043D \u0431\u043B\u043E\u043A\u0438\
+      \u0440\u0443\u0435\u043C\u044B\u0439 \u0442\u0438\u043F \u0443\u0440\u043E\u043D\
+      \u0430 \u043E\u0442\u0440\u0430\u0436\u0430\u044E\u0449\u0438\u043C \u0449\u0438\
+      \u0442\u043E\u043C!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u0440\u0435\u0434\u043A\
+      \u043E\u0441\u0442\u044C \u0430\u043B\u043C\u0430\u0437\u043D\u043E\u0439 \u0437\
+      \u0430\u043B\u0435\u0436\u0438 \u0441 1 \u0434\u043E 3 \u044D\u0442\u043E \u0441\
+      \u0440\u0435\u0434\u043D\u0435\u0435 \u043C\u0435\u0436\u0434\u0443 \u0437\u043E\
+      \u043B\u043E\u0442\u043E\u043C \u0438 \u043F\u043B\u0430\u0437\u043C\u043E\u0439\
+      !"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u0446\u0435\
+      \u043D\u0430 \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u0438 \u041F\
+      \u0440\u043E\u0434\u0432\u0438\u043D\u0443\u0442\u043E\u0435 \u0430\u043B\u043C\
+      \u0430\u0437\u043D\u043E\u0435 \u0448\u0430\u0445\u0442\u0451\u0440\u0441\u043A\
+      \u043E\u0435 \u043E\u0431\u043E\u0440\u0443\u0434\u043E\u0432\u0430\u043D\u0438\
+      \u0435!"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u043F\u043E\
+      \u044F\u0432\u043B\u0435\u043D\u0438\u0435 \u0430\u043B\u043C\u0430\u0437\u043E\
+      \u0432 \u043D\u0430 \u043A\u0430\u0440\u0442\u0435, \u0442\u0435\u043F\u0435\
+      \u0440\u044C \u0442\u0430\u043C \u043F\u043E\u044F\u0432\u043B\u044F\u044E\u0442\
+      \u0441\u044F \u043F\u043E 1 \u0430\u043B\u043C\u0430\u0437\u0443 \u043D\u0435\
+      \ \u0431\u043E\u043B\u0435\u0435!"
+    type: Fix
   id: 64
   time: '2024-09-25T16:06:31.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/191
 - author: SpicyDarkFox
   changes:
-    - type: Add
-      message: Добавлена механика анимированного кастома для призраков
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u043C\u0435\u0445\
+      \u0430\u043D\u0438\u043A\u0430 \u0430\u043D\u0438\u043C\u0438\u0440\u043E\u0432\
+      \u0430\u043D\u043D\u043E\u0433\u043E \u043A\u0430\u0441\u0442\u043E\u043C\u0430\
+      \ \u0434\u043B\u044F \u043F\u0440\u0438\u0437\u0440\u0430\u043A\u043E\u0432"
+    type: Add
   id: 65
   time: '2024-09-25T20:04:04.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/198
 - author: PowerKAT1
   changes:
-    - type: Fix
-      message: Ботаника и мелкие фиксы на Нормандии
+  - message: "\u0411\u043E\u0442\u0430\u043D\u0438\u043A\u0430 \u0438 \u043C\u0435\
+      \u043B\u043A\u0438\u0435 \u0444\u0438\u043A\u0441\u044B \u043D\u0430 \u041D\u043E\
+      \u0440\u043C\u0430\u043D\u0434\u0438\u0438"
+    type: Fix
   id: 66
   time: '2024-09-25T21:28:53.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/197
 - author: SpicyDarkFox
   changes:
-    - type: Tweak
-      message: Изменена система ТТС, чтобы предотвращать звуки вне слышимости
-    - type: Fix
-      message: Исправлена ошибка с ВЛом ролей и спонсоркой
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u0441\u0438\u0441\u0442\
+      \u0435\u043C\u0430 \u0422\u0422\u0421, \u0447\u0442\u043E\u0431\u044B \u043F\
+      \u0440\u0435\u0434\u043E\u0442\u0432\u0440\u0430\u0449\u0430\u0442\u044C \u0437\
+      \u0432\u0443\u043A\u0438 \u0432\u043D\u0435 \u0441\u043B\u044B\u0448\u0438\u043C\
+      \u043E\u0441\u0442\u0438"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u043E\u0448\
+      \u0438\u0431\u043A\u0430 \u0441 \u0412\u041B\u043E\u043C \u0440\u043E\u043B\u0435\
+      \u0439 \u0438 \u0441\u043F\u043E\u043D\u0441\u043E\u0440\u043A\u043E\u0439"
+    type: Fix
   id: 67
   time: '2024-09-25T21:55:16.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/199
 - author: Evgencheg
   changes:
-    - type: Add
-      message: Добавлено требование 25+ лет возраста для ГП, ГСБ, ОСЩ, ВС и Капитана.
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E \u0442\u0440\u0435\
+      \u0431\u043E\u0432\u0430\u043D\u0438\u0435 25+ \u043B\u0435\u0442 \u0432\u043E\
+      \u0437\u0440\u0430\u0441\u0442\u0430 \u0434\u043B\u044F \u0413\u041F, \u0413\
+      \u0421\u0411, \u041E\u0421\u0429, \u0412\u0421 \u0438 \u041A\u0430\u043F\u0438\
+      \u0442\u0430\u043D\u0430."
+    type: Add
   id: 68
   time: '2024-09-25T22:35:34.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/196
 - author: PowerKAT1
   changes:
-    - type: Fix
-      message: Фикс Субмарина
+  - message: "\u0424\u0438\u043A\u0441 \u0421\u0443\u0431\u043C\u0430\u0440\u0438\u043D\
+      \u0430"
+    type: Fix
   id: 69
   time: '2024-09-26T10:31:03.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/208
 - author: PowerKAT1
   changes:
-    - type: Fix
-      message: Фиксы Астерикс
+  - message: "\u0424\u0438\u043A\u0441\u044B \u0410\u0441\u0442\u0435\u0440\u0438\u043A\
+      \u0441"
+    type: Fix
   id: 70
   time: '2024-09-26T11:07:41.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/209
 - author: PowerKAT1
   changes:
-    - type: Fix
-      message: Фиксы Пеббл
+  - message: "\u0424\u0438\u043A\u0441\u044B \u041F\u0435\u0431\u0431\u043B"
+    type: Fix
   id: 71
   time: '2024-09-26T11:41:24.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/211
 - author: Evgencheg
   changes:
-    - type: Fix
-      message: Исправлены переводы!
-    - type: Fix
-      message: Исправлен звук шаттла!
-    - type: Fix
-      message: Исправлен полёт джетпака!
-    - type: Fix
-      message: Исправлен пиксель трусов!
-    - type: Fix
-      message: Исправлена постройка нейтрализатора глиммера!
-    - type: Tweak
-      message: Включен режим пацифизма в конце раунда!
-    - type: Fix
-      message: Исправлен возраст глав, теперь они все 25+ лет!
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043F\u0435\
+      \u0440\u0435\u0432\u043E\u0434\u044B!"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0437\u0432\u0443\
+      \u043A \u0448\u0430\u0442\u0442\u043B\u0430!"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u043F\u043E\u043B\
+      \u0451\u0442 \u0434\u0436\u0435\u0442\u043F\u0430\u043A\u0430!"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u043F\u0438\u043A\
+      \u0441\u0435\u043B\u044C \u0442\u0440\u0443\u0441\u043E\u0432!"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u043F\u043E\
+      \u0441\u0442\u0440\u043E\u0439\u043A\u0430 \u043D\u0435\u0439\u0442\u0440\u0430\
+      \u043B\u0438\u0437\u0430\u0442\u043E\u0440\u0430 \u0433\u043B\u0438\u043C\u043C\
+      \u0435\u0440\u0430!"
+    type: Fix
+  - message: "\u0412\u043A\u043B\u044E\u0447\u0435\u043D \u0440\u0435\u0436\u0438\u043C\
+      \ \u043F\u0430\u0446\u0438\u0444\u0438\u0437\u043C\u0430 \u0432 \u043A\u043E\
+      \u043D\u0446\u0435 \u0440\u0430\u0443\u043D\u0434\u0430!"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0432\u043E\u0437\
+      \u0440\u0430\u0441\u0442 \u0433\u043B\u0430\u0432, \u0442\u0435\u043F\u0435\u0440\
+      \u044C \u043E\u043D\u0438 \u0432\u0441\u0435 25+ \u043B\u0435\u0442!"
+    type: Fix
   id: 72
   time: '2024-09-26T20:53:20.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/212
 - author: Evgencheg
   changes:
-    - type: Tweak
-      message: Проведён апстрим!
-    - type: Fix
-      message: Исправлены переводы!
-    - type: Fix
-      message: Исправлены снайперки!
-    - type: Fix
-      message: Исправлены доступы!
-    - type: Add
-      message: Добавлен новый лобби скрин!
-    - type: Add
-      message: Добавлены префиксы админов в ахелпе!
-    - type: Add
-      message: Добавлены префиксы админов в оос!
+  - message: "\u041F\u0440\u043E\u0432\u0435\u0434\u0451\u043D \u0430\u043F\u0441\u0442\
+      \u0440\u0438\u043C!"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u043F\u0435\
+      \u0440\u0435\u0432\u043E\u0434\u044B!"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0441\u043D\
+      \u0430\u0439\u043F\u0435\u0440\u043A\u0438!"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0434\u043E\
+      \u0441\u0442\u0443\u043F\u044B!"
+    type: Fix
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u043D\u043E\u0432\u044B\
+      \u0439 \u043B\u043E\u0431\u0431\u0438 \u0441\u043A\u0440\u0438\u043D!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043F\u0440\u0435\
+      \u0444\u0438\u043A\u0441\u044B \u0430\u0434\u043C\u0438\u043D\u043E\u0432 \u0432\
+      \ \u0430\u0445\u0435\u043B\u043F\u0435!"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043F\u0440\u0435\
+      \u0444\u0438\u043A\u0441\u044B \u0430\u0434\u043C\u0438\u043D\u043E\u0432 \u0432\
+      \ \u043E\u043E\u0441!"
+    type: Add
   id: 73
   time: '2024-09-27T22:19:38.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/214
 - author: JayJacobs
   changes:
-    - type: Fix
-      message: Исправлены сокращения для Офицера Синий Щит.
-    - type: Fix
-      message: Исправлены буквенные сокращения эмоутов.
-    - type: Fix
-      message: Исправлен баг с эмоутами Гарпий.
-    - type: Fix
-      message: Исправлен баг с эмоутами Таяран.
-    - type: Fix
-      message: Исправлен баг с эмоутами Унатхов.
-    - type: Fix
-      message: Исправлен баг с эмоутами Вульпкан.
-    - type: Tweak
-      message: Изменена замена "Фурри" с "Пушистик" на "Ксенос"
-    - type: Tweak
-      message: Изменен один нецензурный постер.
-    - type: Tweak
-      message: Изменено неадекватное количество вещей в РКНМате.
-    - type: Add
-      message: Добавлено напоминание о том что при бункере нужно переподключиться.
-    - type: Add
-      message: Добавлены телескопические дубинки главам.
-    - type: Add
-      message: Добавлены вещи в шкафчик ОСЩ.
-    - type: Add
-      message: Добавлен охранник тюрьмы на Нормандию
-    - type: Remove
-      message: Убран скафандр ОСЩ из лодаута.
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0441\u043E\
+      \u043A\u0440\u0430\u0449\u0435\u043D\u0438\u044F \u0434\u043B\u044F \u041E\u0444\
+      \u0438\u0446\u0435\u0440\u0430 \u0421\u0438\u043D\u0438\u0439 \u0429\u0438\u0442\
+      ."
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0431\u0443\
+      \u043A\u0432\u0435\u043D\u043D\u044B\u0435 \u0441\u043E\u043A\u0440\u0430\u0449\
+      \u0435\u043D\u0438\u044F \u044D\u043C\u043E\u0443\u0442\u043E\u0432."
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0431\u0430\u0433\
+      \ \u0441 \u044D\u043C\u043E\u0443\u0442\u0430\u043C\u0438 \u0413\u0430\u0440\
+      \u043F\u0438\u0439."
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0431\u0430\u0433\
+      \ \u0441 \u044D\u043C\u043E\u0443\u0442\u0430\u043C\u0438 \u0422\u0430\u044F\
+      \u0440."
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0431\u0430\u0433\
+      \ \u0441 \u044D\u043C\u043E\u0443\u0442\u0430\u043C\u0438 \u0423\u043D\u0430\
+      \u0442\u0445\u043E\u0432."
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0431\u0430\u0433\
+      \ \u0441 \u044D\u043C\u043E\u0443\u0442\u0430\u043C\u0438 \u0412\u0443\u043B\
+      \u044C\u043F\u043A\u0430\u043D."
+    type: Fix
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u0437\u0430\u043C\u0435\
+      \u043D\u0430 \"\u0424\u0443\u0440\u0440\u0438\" \u0441 \"\u041F\u0443\u0448\u0438\
+      \u0441\u0442\u0438\u043A\" \u043D\u0430 \"\u041A\u0441\u0435\u043D\u043E\u0441\
+      \""
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D \u043E\u0434\u0438\u043D\
+      \ \u043D\u0435\u0446\u0435\u043D\u0437\u0443\u0440\u043D\u044B\u0439 \u043F\u043E\
+      \u0441\u0442\u0435\u0440."
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u043E \u043D\u0435\u0430\u0434\
+      \u0435\u043A\u0432\u0430\u0442\u043D\u043E\u0435 \u043A\u043E\u043B\u0438\u0447\
+      \u0435\u0441\u0442\u0432\u043E \u0432\u0435\u0449\u0435\u0439 \u0432 \u0420\u041A\
+      \u041D\u041C\u0430\u0442\u0435."
+    type: Tweak
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E \u043D\u0430\u043F\
+      \u043E\u043C\u0438\u043D\u0430\u043D\u0438\u0435 \u043E \u0442\u043E\u043C \u0447\
+      \u0442\u043E \u043F\u0440\u0438 \u0431\u0443\u043D\u043A\u0435\u0440\u0435 \u043D\
+      \u0443\u0436\u043D\u043E \u043F\u0435\u0440\u0435\u043F\u043E\u0434\u043A\u043B\
+      \u044E\u0447\u0438\u0442\u044C\u0441\u044F."
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u0442\u0435\u043B\
+      \u0435\u0441\u043A\u043E\u043F\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u0434\
+      \u0443\u0431\u0438\u043D\u043A\u0438 \u0433\u043B\u0430\u0432\u0430\u043C."
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u0432\u0435\u0449\
+      \u0438 \u0432 \u0448\u043A\u0430\u0444\u0447\u0438\u043A \u041E\u0421\u0429."
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u043E\u0445\u0440\u0430\
+      \u043D\u043D\u0438\u043A \u0442\u044E\u0440\u044C\u043C\u044B \u043D\u0430 \u041D\
+      \u043E\u0440\u043C\u0430\u043D\u0434\u0438\u044E"
+    type: Add
+  - message: "\u0423\u0431\u0440\u0430\u043D \u0441\u043A\u0430\u0444\u0430\u043D\u0434\
+      \u0440 \u041E\u0421\u0429 \u0438\u0437 \u043B\u043E\u0434\u0430\u0443\u0442\u0430\
+      ."
+    type: Remove
   id: 74
   time: '2024-09-27T23:59:36.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/217
 - author: Farrellka
   changes:
-    - type: Tweak
-      message: Полностью переведено меню строительства!
+  - message: "\u041F\u043E\u043B\u043D\u043E\u0441\u0442\u044C\u044E \u043F\u0435\u0440\
+      \u0435\u0432\u0435\u0434\u0435\u043D\u043E \u043C\u0435\u043D\u044E \u0441\u0442\
+      \u0440\u043E\u0438\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430!"
+    type: Tweak
   id: 75
   time: '2024-09-28T20:48:43.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/223
 - author: Farrellka
   changes:
-    - type: Remove
-      message: Удалены лишние переводы.
+  - message: "\u0423\u0434\u0430\u043B\u0435\u043D\u044B \u043B\u0438\u0448\u043D\u0438\
+      \u0435 \u043F\u0435\u0440\u0435\u0432\u043E\u0434\u044B."
+    type: Remove
   id: 76
   time: '2024-09-28T22:37:37.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/224
 - author: SpicyDarkFox
   changes:
-    - type: Remove
-      message: Убрана пушка S.O.L.E.I.L. из общего доступа
-    - type: Tweak
-      message: Изменены лодауты глав, поскольку они появлялись с ошибкой
-    - type: Fix
-      message: Исправлена печать мантиса
+  - message: "\u0423\u0431\u0440\u0430\u043D\u0430 \u043F\u0443\u0448\u043A\u0430\
+      \ S.O.L.E.I.L. \u0438\u0437 \u043E\u0431\u0449\u0435\u0433\u043E \u0434\u043E\
+      \u0441\u0442\u0443\u043F\u0430"
+    type: Remove
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u044B \u043B\u043E\u0434\u0430\
+      \u0443\u0442\u044B \u0433\u043B\u0430\u0432, \u043F\u043E\u0441\u043A\u043E\u043B\
+      \u044C\u043A\u0443 \u043E\u043D\u0438 \u043F\u043E\u044F\u0432\u043B\u044F\u043B\
+      \u0438\u0441\u044C \u0441 \u043E\u0448\u0438\u0431\u043A\u043E\u0439"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u043F\u0435\
+      \u0447\u0430\u0442\u044C \u043C\u0430\u043D\u0442\u0438\u0441\u0430"
+    type: Fix
   id: 77
   time: '2024-09-29T05:58:18.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/225
 - author: MegaDaimond
   changes:
-    - type: Add
-      message: >-
-        Добавлены новые виды .10 патронов (Резиновые, тренировочные, урановые,
-        бронебойные)
-    - type: Add
-      message: Добавлены коробки под .10 патроны
-    - type: Tweak
-      message: Вектор теперь использует .10 патроны, а не .45 магнум
-    - type: Tweak
-      message: Магазин под вектора теперь вмещает 40 патронов .10
-    - type: Tweak
-      message: Цена на вектор в планшете уменьшилась 11>5 ЦентКоинов
-    - type: Tweak
-      message: Планшет закупа СБ перемещён из кармана смотрителя в его шкафчик
-    - type: Tweak
-      message: С небольшим шансом станнеры могут появится в шкафчиках СБ
-    - type: Tweak
-      message: ГП и КМ получили миниатюрные лазерные пистолеты в их шкафчики
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043D\u043E\u0432\
+      \u044B\u0435 \u0432\u0438\u0434\u044B .10 \u043F\u0430\u0442\u0440\u043E\u043D\
+      \u043E\u0432 (\u0420\u0435\u0437\u0438\u043D\u043E\u0432\u044B\u0435, \u0442\
+      \u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043E\u0447\u043D\u044B\u0435, \u0443\
+      \u0440\u0430\u043D\u043E\u0432\u044B\u0435, \u0431\u0440\u043E\u043D\u0435\u0431\
+      \u043E\u0439\u043D\u044B\u0435)"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043A\u043E\u0440\
+      \u043E\u0431\u043A\u0438 \u043F\u043E\u0434 .10 \u043F\u0430\u0442\u0440\u043E\
+      \u043D\u044B"
+    type: Add
+  - message: "\u0412\u0435\u043A\u0442\u043E\u0440 \u0442\u0435\u043F\u0435\u0440\u044C\
+      \ \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u0442 .10 \u043F\u0430\
+      \u0442\u0440\u043E\u043D\u044B, \u0430 \u043D\u0435 .45 \u043C\u0430\u0433\u043D\
+      \u0443\u043C"
+    type: Tweak
+  - message: "\u041C\u0430\u0433\u0430\u0437\u0438\u043D \u043F\u043E\u0434 \u0432\
+      \u0435\u043A\u0442\u043E\u0440\u0430 \u0442\u0435\u043F\u0435\u0440\u044C \u0432\
+      \u043C\u0435\u0449\u0430\u0435\u0442 40 \u043F\u0430\u0442\u0440\u043E\u043D\
+      \u043E\u0432 .10"
+    type: Tweak
+  - message: "\u0426\u0435\u043D\u0430 \u043D\u0430 \u0432\u0435\u043A\u0442\u043E\
+      \u0440 \u0432 \u043F\u043B\u0430\u043D\u0448\u0435\u0442\u0435 \u0443\u043C\u0435\
+      \u043D\u044C\u0448\u0438\u043B\u0430\u0441\u044C 11>5 \u0426\u0435\u043D\u0442\
+      \u041A\u043E\u0438\u043D\u043E\u0432"
+    type: Tweak
+  - message: "\u041F\u043B\u0430\u043D\u0448\u0435\u0442 \u0437\u0430\u043A\u0443\u043F\
+      \u0430 \u0421\u0411 \u043F\u0435\u0440\u0435\u043C\u0435\u0449\u0451\u043D \u0438\
+      \u0437 \u043A\u0430\u0440\u043C\u0430\u043D\u0430 \u0441\u043C\u043E\u0442\u0440\
+      \u0438\u0442\u0435\u043B\u044F \u0432 \u0435\u0433\u043E \u0448\u043A\u0430\u0444\
+      \u0447\u0438\u043A"
+    type: Tweak
+  - message: "\u0421 \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u0438\u043C \u0448\
+      \u0430\u043D\u0441\u043E\u043C \u0441\u0442\u0430\u043D\u043D\u0435\u0440\u044B\
+      \ \u043C\u043E\u0433\u0443\u0442 \u043F\u043E\u044F\u0432\u0438\u0442\u0441\u044F\
+      \ \u0432 \u0448\u043A\u0430\u0444\u0447\u0438\u043A\u0430\u0445 \u0421\u0411"
+    type: Tweak
+  - message: "\u0413\u041F \u0438 \u041A\u041C \u043F\u043E\u043B\u0443\u0447\u0438\
+      \u043B\u0438 \u043C\u0438\u043D\u0438\u0430\u0442\u044E\u0440\u043D\u044B\u0435\
+      \ \u043B\u0430\u0437\u0435\u0440\u043D\u044B\u0435 \u043F\u0438\u0441\u0442\u043E\
+      \u043B\u0435\u0442\u044B \u0432 \u0438\u0445 \u0448\u043A\u0430\u0444\u0447\u0438\
+      \u043A\u0438"
+    type: Tweak
   id: 78
   time: '2024-09-29T16:18:08.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/213
 - author: SpicyDarkFox
   changes:
-    - type: Tweak
-      message: >-
-        Изменена доступность внешних черт по типу кошачьих хвостиков, теперь они
-        только для людей
-    - type: Fix
-      message: Исправлен баг со спонсоркой, когда не выдавались дополнительные слоты
-    - type: Fix
-      message: >-
-        Исправлен баг со спонсоркой при позднем присоединении, не дававший зайти
-        в раунд
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u0434\u043E\u0441\u0442\
+      \u0443\u043F\u043D\u043E\u0441\u0442\u044C \u0432\u043D\u0435\u0448\u043D\u0438\
+      \u0445 \u0447\u0435\u0440\u0442 \u043F\u043E \u0442\u0438\u043F\u0443 \u043A\
+      \u043E\u0448\u0430\u0447\u044C\u0438\u0445 \u0445\u0432\u043E\u0441\u0442\u0438\
+      \u043A\u043E\u0432, \u0442\u0435\u043F\u0435\u0440\u044C \u043E\u043D\u0438\
+      \ \u0442\u043E\u043B\u044C\u043A\u043E \u0434\u043B\u044F \u043B\u044E\u0434\
+      \u0435\u0439"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0431\u0430\u0433\
+      \ \u0441\u043E \u0441\u043F\u043E\u043D\u0441\u043E\u0440\u043A\u043E\u0439\
+      , \u043A\u043E\u0433\u0434\u0430 \u043D\u0435 \u0432\u044B\u0434\u0430\u0432\
+      \u0430\u043B\u0438\u0441\u044C \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\
+      \u0435\u043B\u044C\u043D\u044B\u0435 \u0441\u043B\u043E\u0442\u044B"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0431\u0430\u0433\
+      \ \u0441\u043E \u0441\u043F\u043E\u043D\u0441\u043E\u0440\u043A\u043E\u0439\
+      \ \u043F\u0440\u0438 \u043F\u043E\u0437\u0434\u043D\u0435\u043C \u043F\u0440\
+      \u0438\u0441\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u0438, \u043D\u0435\
+      \ \u0434\u0430\u0432\u0430\u0432\u0448\u0438\u0439 \u0437\u0430\u0439\u0442\u0438\
+      \ \u0432 \u0440\u0430\u0443\u043D\u0434"
+    type: Fix
   id: 79
   time: '2024-09-29T17:39:16.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/228
 - author: MrDarkSide
   changes:
-    - type: Add
-      message: Добавлен новый чокер
-    - type: Add
-      message: Добавлены беспалые тактические боевые перчатки
-    - type: Add
-      message: Добавлены новостные газеты для репортёров.
-    - type: Tweak
-      message: Изменение спрайта некоторых ручек.
-    - type: Add
-      message: Добавлен обычный карандаш
-    - type: Tweak
-      message: Изменение спрайтов таких печатей как  Отказ, Одобрено, Изменить.
-    - type: Add
-      message: Добавлена упаковка бумаг
-    - type: Add
-      message: Добавлены три новых Пижамы Акулы которые можно найти в Одеждомате
-    - type: Add
-      message: >-
-        Добавлено более 5-ти новых кошельков. В кошельках появляются деньги от
-        1000 до 2500 кредитов.
-    - type: Add
-      message: Добавлены новые папки для службы безопасности, капитана и прочих ролей.
-    - type: Add
-      message: >-
-        Добавлено появление кодов авторизации к боеголовке в сверх секретную
-        папку капитана
-    - type: Add
-      message: Добавлено появление новых папок в шкаф к должностям
-    - type: Add
-      message: Добавлены новые постеры!
-    - type: Fix
-      message: Исправлен баг с взаимодействиями. Теперь настроение работает как нужно
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u043D\u043E\u0432\u044B\
+      \u0439 \u0447\u043E\u043A\u0435\u0440"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u0431\u0435\u0441\
+      \u043F\u0430\u043B\u044B\u0435 \u0442\u0430\u043A\u0442\u0438\u0447\u0435\u0441\
+      \u043A\u0438\u0435 \u0431\u043E\u0435\u0432\u044B\u0435 \u043F\u0435\u0440\u0447\
+      \u0430\u0442\u043A\u0438"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043D\u043E\u0432\
+      \u043E\u0441\u0442\u043D\u044B\u0435 \u0433\u0430\u0437\u0435\u0442\u044B \u0434\
+      \u043B\u044F \u0440\u0435\u043F\u043E\u0440\u0442\u0451\u0440\u043E\u0432."
+    type: Add
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u0435 \u0441\u043F\u0440\
+      \u0430\u0439\u0442\u0430 \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0445\
+      \ \u0440\u0443\u0447\u0435\u043A."
+    type: Tweak
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u043E\u0431\u044B\u0447\
+      \u043D\u044B\u0439 \u043A\u0430\u0440\u0430\u043D\u0434\u0430\u0448"
+    type: Add
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u0435 \u0441\u043F\u0440\
+      \u0430\u0439\u0442\u043E\u0432 \u0442\u0430\u043A\u0438\u0445 \u043F\u0435\u0447\
+      \u0430\u0442\u0435\u0439 \u043A\u0430\u043A  \u041E\u0442\u043A\u0430\u0437\
+      , \u041E\u0434\u043E\u0431\u0440\u0435\u043D\u043E, \u0418\u0437\u043C\u0435\
+      \u043D\u0438\u0442\u044C."
+    type: Tweak
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u0443\u043F\u0430\
+      \u043A\u043E\u0432\u043A\u0430 \u0431\u0443\u043C\u0430\u0433"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u0442\u0440\u0438\
+      \ \u043D\u043E\u0432\u044B\u0445 \u041F\u0438\u0436\u0430\u043C\u044B \u0410\
+      \u043A\u0443\u043B\u044B \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043C\u043E\
+      \u0436\u043D\u043E \u043D\u0430\u0439\u0442\u0438 \u0432 \u041E\u0434\u0435\u0436\
+      \u0434\u043E\u043C\u0430\u0442\u0435"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E \u0431\u043E\u043B\
+      \u0435\u0435 5-\u0442\u0438 \u043D\u043E\u0432\u044B\u0445 \u043A\u043E\u0448\
+      \u0435\u043B\u044C\u043A\u043E\u0432. \u0412 \u043A\u043E\u0448\u0435\u043B\u044C\
+      \u043A\u0430\u0445 \u043F\u043E\u044F\u0432\u043B\u044F\u044E\u0442\u0441\u044F\
+      \ \u0434\u0435\u043D\u044C\u0433\u0438 \u043E\u0442 1000 \u0434\u043E 2500 \u043A\
+      \u0440\u0435\u0434\u0438\u0442\u043E\u0432."
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043D\u043E\u0432\
+      \u044B\u0435 \u043F\u0430\u043F\u043A\u0438 \u0434\u043B\u044F \u0441\u043B\u0443\
+      \u0436\u0431\u044B \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0441\
+      \u0442\u0438, \u043A\u0430\u043F\u0438\u0442\u0430\u043D\u0430 \u0438 \u043F\
+      \u0440\u043E\u0447\u0438\u0445 \u0440\u043E\u043B\u0435\u0439."
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E \u043F\u043E\u044F\
+      \u0432\u043B\u0435\u043D\u0438\u0435 \u043A\u043E\u0434\u043E\u0432 \u0430\u0432\
+      \u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u0438 \u043A \u0431\u043E\u0435\
+      \u0433\u043E\u043B\u043E\u0432\u043A\u0435 \u0432 \u0441\u0432\u0435\u0440\u0445\
+      \ \u0441\u0435\u043A\u0440\u0435\u0442\u043D\u0443\u044E \u043F\u0430\u043F\u043A\
+      \u0443 \u043A\u0430\u043F\u0438\u0442\u0430\u043D\u0430"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E \u043F\u043E\u044F\
+      \u0432\u043B\u0435\u043D\u0438\u0435 \u043D\u043E\u0432\u044B\u0445 \u043F\u0430\
+      \u043F\u043E\u043A \u0432 \u0448\u043A\u0430\u0444 \u043A \u0434\u043E\u043B\
+      \u0436\u043D\u043E\u0441\u0442\u044F\u043C"
+    type: Add
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u043D\u043E\u0432\
+      \u044B\u0435 \u043F\u043E\u0441\u0442\u0435\u0440\u044B!"
+    type: Add
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0431\u0430\u0433\
+      \ \u0441 \u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\
+      \u0438\u044F\u043C\u0438. \u0422\u0435\u043F\u0435\u0440\u044C \u043D\u0430\u0441\
+      \u0442\u0440\u043E\u0435\u043D\u0438\u0435 \u0440\u0430\u0431\u043E\u0442\u0430\
+      \u0435\u0442 \u043A\u0430\u043A \u043D\u0443\u0436\u043D\u043E"
+    type: Fix
   id: 80
   time: '2024-09-30T17:44:46.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/220
 - author: BL02DL
   changes:
-    - type: Add
-      message: Добавлен новый хоткей Shift+H!
-    - type: Remove
-      message: Убрано веселье!
-    - type: Tweak
-      message: Изменён рецепт очищенного алмаза, теперь он 5 к 5 вместо 30 к 30!
-    - type: Tweak
-      message: Изменён спавн очищенного алмаза на картах на не обработанную жеоду!
-    - type: Tweak
-      message: Изменён слот холстера дека с пояса на шею!
-    - type: Tweak
-      message: Возможно изменены большинство текстур в СБ на старые!
-    - type: Tweak
-      message: >-
-        Изменено теперь технология дробителя алмазов находится в алмазной
-        дисциплине!
-    - type: Fix
-      message: Исправлен перевод материала в переработчике руды!
-    - type: Fix
-      message: Исправлен крафт шлема с фонариком!
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u043D\u043E\u0432\u044B\
+      \u0439 \u0445\u043E\u0442\u043A\u0435\u0439 Shift+H!"
+    type: Add
+  - message: "\u0423\u0431\u0440\u0430\u043D\u043E \u0432\u0435\u0441\u0435\u043B\u044C\
+      \u0435!"
+    type: Remove
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0451\u043D \u0440\u0435\u0446\u0435\u043F\
+      \u0442 \u043E\u0447\u0438\u0449\u0435\u043D\u043D\u043E\u0433\u043E \u0430\u043B\
+      \u043C\u0430\u0437\u0430, \u0442\u0435\u043F\u0435\u0440\u044C \u043E\u043D\
+      \ 5 \u043A 5 \u0432\u043C\u0435\u0441\u0442\u043E 30 \u043A 30!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0451\u043D \u0441\u043F\u0430\u0432\u043D\
+      \ \u043E\u0447\u0438\u0449\u0435\u043D\u043D\u043E\u0433\u043E \u0430\u043B\u043C\
+      \u0430\u0437\u0430 \u043D\u0430 \u043A\u0430\u0440\u0442\u0430\u0445 \u043D\u0430\
+      \ \u043D\u0435 \u043E\u0431\u0440\u0430\u0431\u043E\u0442\u0430\u043D\u043D\u0443\
+      \u044E \u0436\u0435\u043E\u0434\u0443!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0451\u043D \u0441\u043B\u043E\u0442\
+      \ \u0445\u043E\u043B\u0441\u0442\u0435\u0440\u0430 \u0434\u0435\u043A\u0430\
+      \ \u0441 \u043F\u043E\u044F\u0441\u0430 \u043D\u0430 \u0448\u0435\u044E!"
+    type: Tweak
+  - message: "\u0412\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u0438\u0437\u043C\u0435\
+      \u043D\u0435\u043D\u044B \u0431\u043E\u043B\u044C\u0448\u0438\u043D\u0441\u0442\
+      \u0432\u043E \u0442\u0435\u043A\u0441\u0442\u0443\u0440 \u0432 \u0421\u0411\
+      \ \u043D\u0430 \u0441\u0442\u0430\u0440\u044B\u0435!"
+    type: Tweak
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u043E \u0442\u0435\u043F\u0435\
+      \u0440\u044C \u0442\u0435\u0445\u043D\u043E\u043B\u043E\u0433\u0438\u044F \u0434\
+      \u0440\u043E\u0431\u0438\u0442\u0435\u043B\u044F \u0430\u043B\u043C\u0430\u0437\
+      \u043E\u0432 \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0441\u044F \u0432 \u0430\
+      \u043B\u043C\u0430\u0437\u043D\u043E\u0439 \u0434\u0438\u0441\u0446\u0438\u043F\
+      \u043B\u0438\u043D\u0435!"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u043F\u0435\u0440\
+      \u0435\u0432\u043E\u0434 \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u0430\
+      \ \u0432 \u043F\u0435\u0440\u0435\u0440\u0430\u0431\u043E\u0442\u0447\u0438\u043A\
+      \u0435 \u0440\u0443\u0434\u044B!"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u043A\u0440\u0430\
+      \u0444\u0442 \u0448\u043B\u0435\u043C\u0430 \u0441 \u0444\u043E\u043D\u0430\u0440\
+      \u0438\u043A\u043E\u043C!"
+    type: Fix
   id: 81
   time: '2024-09-30T22:57:35.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/227
 - author: MrDarkSide
   changes:
-    - type: Tweak
-      message: Изменен шанс спавна 2500 кредитов в кошельках с 0.5 до 0.3
-    - type: Fix
-      message: Исправление ошибок переводов PR 220
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D \u0448\u0430\u043D\u0441\
+      \ \u0441\u043F\u0430\u0432\u043D\u0430 2500 \u043A\u0440\u0435\u0434\u0438\u0442\
+      \u043E\u0432 \u0432 \u043A\u043E\u0448\u0435\u043B\u044C\u043A\u0430\u0445 \u0441\
+      \ 0.5 \u0434\u043E 0.3"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u043E\
+      \u0448\u0438\u0431\u043E\u043A \u043F\u0435\u0440\u0435\u0432\u043E\u0434\u043E\
+      \u0432 PR 220"
+    type: Fix
   id: 82
   time: '2024-10-01T11:09:04.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/233
 - author: PowerKAT1
   changes:
-    - type: Fix
-      message: Исправлены баги на Нормандии
+  - message: "\u041D\u043E\u0440\u043C\u0430\u043D\u0434\u0438\u044F"
+    type: Fix
   id: 83
   time: '2024-10-01T11:52:06.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/234
 - author: PowerKAT1
-  changes:
-  - type: Fix
-    message: Исправлена нормандия
+  changes: []
   id: 84
   time: '2024-10-02T22:13:20.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/236
+- author: Evgencheg
+  changes:
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u043E \u0432\u0435\u0441\
+      \u0435\u043B\u044C\u0435!"
+    type: Add
+  id: 85
+  time: '2024-10-03T12:05:04.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/238

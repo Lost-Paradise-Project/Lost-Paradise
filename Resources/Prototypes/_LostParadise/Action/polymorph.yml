@@ -1,4 +1,4 @@
-# - type: entity
+# ﻿- type: entity
   # id: ActionRevertPolymorph
   # name: Revert
   # description: Revert back into your original form.
@@ -9,8 +9,8 @@
 
 - type: entity
   id: LPPAngelDustPolymorph
-  name: Change Appearance
-  noSpawn: true
+  name: Сменить облик
+  categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
     useDelay: 0.2
