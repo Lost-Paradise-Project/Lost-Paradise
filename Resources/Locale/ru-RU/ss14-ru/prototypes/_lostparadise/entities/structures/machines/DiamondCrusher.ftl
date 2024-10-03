@@ -7,5 +7,5 @@ ent-LPPOreDiamond = Не обработанная жеода алмаза
 ent-LPPProcessedDiamond = Обработанный алмаз
     .desc = Обработанный алмаз, очищенный от пыли и грязи, но не до идеала. Не пригоден для использования в таком виде..
 ent-LPPProcessedDiamond1 = { ent-LPPProcessedDiamond }
-    .suffix = Single
+    .suffix = Один
     .desc = { ent-LPPProcessedDiamond.desc }

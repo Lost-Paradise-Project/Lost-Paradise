@@ -1,9 +1,9 @@
 ent-LPPAirlockSalvage = { ent-Airlock }
-    .desc = It opens, it closes, it might crush you, and there might be only space behind it. Has to be manually activated.
-    .suffix = External
+    .desc = { ent-Airlock.desc }
+    .suffix = Внешнее
 ent-LPPAirlockSalvageGlass = { ent-AirlockExternal }
-    .suffix = Glass, External
+    .suffix = Стеклянный, Внешнее
     .desc = { ent-AirlockExternal.desc }
 ent-LPPAirlockGate = { ent-Airlock }
-    .suffix = Gate
+    .suffix = Гейт
     .desc = { ent-Airlock.desc }

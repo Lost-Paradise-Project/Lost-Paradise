@@ -6,6 +6,6 @@ ent-PoweredLightPostSmallEmpty = Фонарный столб
     .suffix = Пустой
 ent-PoweredLEDLightPostSmall = Фонарный столб
     .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащён лампой-трубкой.
-    .suffix = LED, Светодиод
+    .suffix = ЛЭД, Светодиод
 ent-PoweredLightPostSmall = Фонарный столб
     .desc = Осветительный прибор. Потребляет энергию и излучает свет, если оснащён лампой-трубкой.

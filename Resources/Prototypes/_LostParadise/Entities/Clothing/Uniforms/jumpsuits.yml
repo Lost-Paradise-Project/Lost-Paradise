@@ -407,7 +407,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitFluppi
+  id: LPPClothingUniformJumpsuitFluppi
   name: pink jumpsuit
   description: "Just looking at this makes you feel fabulous."
   components:

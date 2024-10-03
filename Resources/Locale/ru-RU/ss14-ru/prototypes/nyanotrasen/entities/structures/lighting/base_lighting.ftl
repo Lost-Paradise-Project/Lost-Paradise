@@ -1,9 +1,9 @@
 ent-PoweredLightBlueInterior = { ent-PoweredlightExterior }
     .desc = Осветительный прибор. Поглащая энергию производит свет при экипированной диодной лампе.
-    .suffix = Blue Exterior, Дельта V
+    .suffix = Синий экстерьер, Дельта V
 ent-AlwaysPoweredLightBlueInterior = { ent-AlwaysPoweredWallLight }
     .desc = Осветительный прибор. Поглащая энергию производит свет при экипированной диодной лампе.
-    .suffix = Always Powered, Blue Exterior, Дельта V
+    .suffix = Всегда Запитанная, Синий экстерьер, Дельта V
 ent-PoweredSmallLightMaintenance = { ent-PoweredSmallLight }
     .desc = Осветительный прибор. Поглащая энергию производит свет при экипированной диодной лампе.
     .suffix = Переносная

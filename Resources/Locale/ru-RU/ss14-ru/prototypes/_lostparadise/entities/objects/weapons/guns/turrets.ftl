@@ -1,6 +1,6 @@
 ent-LPPWeaponTurretNTCentComm = { ent-BaseWeaponTurret }
-    .suffix = NanoTrasen, CentComm
+    .suffix = NanoTrasen, ЦК
     .desc = { ent-BaseWeaponTurret.desc }
 ent-LPPWeaponTurretNTCCDeathSquad = { ent-BaseWeaponTurret }
-    .suffix = DeathSquad, CentComm
+    .suffix = Эксадрон смерти, ЦК
     .desc = { ent-BaseWeaponTurret.desc }

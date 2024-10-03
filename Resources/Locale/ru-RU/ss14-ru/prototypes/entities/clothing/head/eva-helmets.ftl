@@ -4,7 +4,7 @@ ent-ClothingHeadHelmetEVALarge = Шлем EVA
     .desc = Старый добрый шлем, предназначенный для внекорабельной деятельности.
 # Corvax-HiddenDesc-Start
 ent-ClothingHeadHelmetSyndicate = Стильный шлем
-    .suffix = Cиндикат
+    .suffix = Синдикат
     .desc = Стильный, герметичный, прочный шлем.
 # Corvax-HiddenDesc-End
 ent-ClothingHeadHelmetCosmonaut = Шлем космонавта
