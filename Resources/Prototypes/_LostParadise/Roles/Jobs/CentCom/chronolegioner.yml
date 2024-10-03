@@ -1,5 +1,5 @@
 - type: startingGear
-  id: ChronoLegionnaire
+  id: LPPChronoLegionnaire
   equipment:
     jumpsuit: ClothingUniformJumpsuitNanotrasen
     back: LPPClothingBackpackHoldingChrono

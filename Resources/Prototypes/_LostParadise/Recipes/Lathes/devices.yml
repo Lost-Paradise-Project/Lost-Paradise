@@ -57,7 +57,7 @@
     Uranium: 50
 
 # - type: latheRecipe
-#   id: AdvWateringCan
+#   id: LPPAdvWateringCan
 #   result: AdvWateringCan
 #   completetime: 5
 #   materials:

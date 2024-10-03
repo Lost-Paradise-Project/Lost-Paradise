@@ -15,7 +15,7 @@
       min: 36000
     - !type:CharacterOverallTimeRequirement
       min: 72000
-  startingGear: AdjutantGear
+  startingGear: LPPAdjutantGear
   icon: "JobIconAdjutant"
   requireAdminNotify: true
   joinNotifyCrew: true
@@ -46,7 +46,7 @@
     implants: [ MindShieldImplant ]
 
 - type: startingGear
-  id: AdjutantGear
+  id: LPPAdjutantGear
   equipment:
     jumpsuit: LPPClothingUniformJumpsuitAdjutant
     back: ClothingBackpackHOPFilled
