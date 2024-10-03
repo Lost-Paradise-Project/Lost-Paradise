@@ -74,7 +74,7 @@
     ammoSlots: [ null, null, null, null, null, null, null, null ]
 
 - type: entity
-  name: сolt Special
+  name: Colt Special
   parent: BaseWeaponRevolver
   id: LPPWeaponRevolverColtspecial
   description: Uses .45 magnum bullets

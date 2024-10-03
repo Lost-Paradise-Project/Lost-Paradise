@@ -27,7 +27,7 @@
 - type: entity
   parent: LPPBaseMagazineBoxRifle
   id: LPPMagazineBoxM4A1BigLethal
-  name: Ammunition box (caliber 5.56х45)
+  name: Ammunition box (caliber 5,56x45)
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -47,7 +47,7 @@
 - type: entity
   parent: LPPBaseMagazineBoxRifle
   id: LPPMagazineBoxM4A1BigPractice
-  name: Ammunition box (caliber 5.56х45 practice)
+  name: Ammunition box (caliber 5.56x45 practice)
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -68,7 +68,7 @@
 - type: entity
   parent: LPPBaseMagazineBoxRifle
   id: LPPMagazineBoxM4A1Lethal
-  name: Ammunition box (caliber 5.56х45)
+  name: Ammunition box (caliber 5,56x45)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeM4A1Lethal
@@ -82,7 +82,7 @@
 - type: entity
   parent: LPPBaseMagazineBoxRifle
   id: LPPMagazineBoxM4A1Practice
-  name: Ammunition box (caliber 5.56х45 practice)
+  name: Ammunition box (caliber 5,56x45 practice)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgePracticeM4A1
@@ -97,7 +97,7 @@
 - type: entity
   parent: LPPBaseMagazineBoxRifle
   id: LPPMagazineBoxM4A1Rubber
-  name: Ammunition box (caliber 5.56х45 rubber)
+  name: Ammunition box (caliber 5,56x45 rubber)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeRubberM4A1
@@ -112,7 +112,7 @@
 - type: entity
   id: LPPMagazineBoxM4A1Incendiary
   parent: LPPBaseMagazineBoxRifle
-  name: Ammunition box (caliber 5.56х45 incendiary)
+  name: Ammunition box (caliber 5,56x45 incendiary)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeIncendiaryM4A1
@@ -127,7 +127,7 @@
 - type: entity
   id: LPPMagazineBoxM4A1Uranium
   parent: LPPBaseMagazineBoxRifle
-  name: Ammunition box (caliber 5.56х45 uranium)
+  name: Ammunition box (caliber 5,56x45 uranium)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeUraniumM4A1

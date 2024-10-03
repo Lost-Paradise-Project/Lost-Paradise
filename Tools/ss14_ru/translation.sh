@@ -6,7 +6,7 @@ if [ "$(dirname $0)" != "." ]; then
 fi
 
 pip install -r requirements.txt
-py ./yamlextractor.py
-py ./keyfinder.py
-py ./clean_ftl.py
-py ./1.py
+python3 ./yamlextractor.py
+python3 ./keyfinder.py
+python3 ./clean_ftl.py
+python3 ./1.py

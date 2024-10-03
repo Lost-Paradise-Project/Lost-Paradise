@@ -1,6 +1,6 @@
 - type: entity
   id: LPPBaseMagazineRifle
-  name: "Magazine (calibre 5,56х45)"
+  name: "Magazine (calibre 5,56x45)"
   parent: BaseItem
   abstract: true
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: LPPMagazineRifleM4A1Lethal
-  name: Magazine (calibre 5,56х45)
+  name: Magazine (calibre 5,56x45)
   parent: LPPBaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -48,7 +48,7 @@
 
 - type: entity
   id: LPPMagazineRifleM4A1Rubber
-  name: Magazine (calibre 5,56х45 rubber)
+  name: Magazine (calibre 5,56x45 rubber)
   parent: LPPBaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -62,7 +62,7 @@
 
 - type: entity
   id: LPPMagazineRifleM4A1Practice
-  name: Magazine (calibre 5,56х45 practice)
+  name: Magazine (calibre 5,56x45 practice)
   parent: LPPBaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -77,7 +77,7 @@
 
 - type: entity
   id: LPPagazineRifleM4A1Uranium
-  name: Magazine (calibre 5,56х45 uranium)
+  name: Magazine (calibre 5,56x45 uranium)
   parent: LPPBaseMagazineRifle
   components:
   - type: BallisticAmmoProvider

@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseItem
   id: LGBTQHandyFlag
-  name: флаг Франции #6.21 КОАП РФ
-  description: Национальный флаг французов #6.21 КОАП РФ
+  name: French flag
+  description: National french flag
   components:
   - type: Sprite
     sprite: Objects/Misc/Handy_Flags/lgbtq_handy_flag.rsi

@@ -1,5 +1,5 @@
-ent-ShelfBase = shelf
-    .desc = a strange place to place, well, anything really. You feel like you shouldn't be seeing this.'
+ent-ShelfBase = Полка
+    .desc = Странное место для размещения, ну вообще ничего. Вы чувствуете, что не должны этого видеть.
 ent-ShelfBaseReinforced = Укреплённая полка
     .desc = Она выглядит такой же прочной, как и наша реальность.
 ent-ShelfWood = Деревянная полка
