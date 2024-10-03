@@ -1,4 +1,4 @@
-ent-ShowSecurityIcons = Основа визора СБ
+ent-LPPShowSecurityIcons = Основа визора СБ
     .desc = { "" }
 ent-LPPBlackHudGlasses = Солнцезащитные очки с визором
     .desc = Полезно как для безопасности, так и для каргонии.

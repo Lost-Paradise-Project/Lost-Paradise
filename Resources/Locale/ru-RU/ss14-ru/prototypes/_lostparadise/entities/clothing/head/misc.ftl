@@ -22,5 +22,5 @@ ent-LPPClothingHeadHatPGBeanie = шапка бини со значком ПГ
     .desc = Шапка ПГ. Не защитит от пуль и холода, но смотрится шикарно. На значке изображена голубая мордочка оцелота.
 ent-LPPClothingHeadHatRedBeanie = красная шапка бини
     .desc = Теплая. Красный не стройнит
-ent-LPPBandana = snake bandana
-    .desc = A bandana to make you look even cooler.
+ent-LPPBandana = Бандана снейка
+    .desc = Бандана которая сделает тебя крутым.

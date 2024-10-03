@@ -1,5 +1,5 @@
-ent-LPPClothingWindyScarf = windy scarf
-    .desc = Cool scarf for cool people
+ent-LPPClothingWindyScarf = Ветреный шарф
+    .desc = Реквезит для киноиндустрии и театральных представлений. Является прекрасным примером безопасности использования Блюспейс технологий.
     .suffix = СПОНСОР
-ent-LPPClothingNeckScarfPG = pg scarf
-    .desc = pg scarf
+ent-LPPClothingNeckScarfPG = шарф-шемаг
+    .desc = полосатый шарф, которым можно защитить лицо от песка

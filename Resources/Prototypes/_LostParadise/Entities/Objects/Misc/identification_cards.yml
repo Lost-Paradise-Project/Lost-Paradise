@@ -45,7 +45,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: ExpeditorIDCard
+  id: LPPExpeditorIDCard
   name: expeditor ID card
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 
 - type: entity
   parent: IDCardStandard
-  id: SecPilotIDCard
+  id: LPPSecPilotIDCard
   name: security pilot ID card
   components:
     - type: Sprite

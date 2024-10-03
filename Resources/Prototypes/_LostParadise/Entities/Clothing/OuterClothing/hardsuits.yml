@@ -287,7 +287,7 @@
 
 - type: entity
   parent: ClothingOuterHardsuitBase
-  id: ClothingOuterHardsuitChrono
+  id: LPPClothingOuterHardsuitChrono
   name: chrono hardsuit
   description: A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
   components:
@@ -313,7 +313,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitChrono
+    clothingPrototype: LPPClothingHeadHelmetHardsuitChrono
   - type: StaminaDamageResistance
     coefficient: 0.05
 

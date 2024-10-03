@@ -72,5 +72,5 @@ ent-LPPNaaLeyPillow = Дакимукура На Леи
     .desc = { ent-LPPAuroraPillow.desc }
 ent-LPPDiamuPillow = Дакимукура Диаму
     .desc = { ent-LPPAuroraPillow.desc }
-ent-BasePillow = { ent-BaseItem }
+ent-LPPBasePillow = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }

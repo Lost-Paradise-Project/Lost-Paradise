@@ -1,3 +1,3 @@
-ent-LPPLockerSecEngFilled = { ent-LockerSecEng }
+ent-LPPLockerSecEngFilled = { ent-LPPLockerSecEng }
     .suffix = BrigTech, Filled
-    .desc = { ent-LockerSecEng.desc }
+    .desc = { ent-LPPLockerSecEng.desc }

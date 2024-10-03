@@ -1457,7 +1457,7 @@
 
 - type: entity
   parent: LPPClothingBreastBase
-  id: LBodyBraCut2
+  id: LPPLBodyBraCut2
   name: Body Bra Cut v2
   description:
   components:

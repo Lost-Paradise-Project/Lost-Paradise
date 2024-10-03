@@ -139,9 +139,9 @@
     proto: CartridgeAntiMateriel
 
 - type: entity
-  name: pantherbase
+  name: LPPPantherBase
   parent: BaseItem
-  id: PantherBase
+  id: LPPPantherBase
   description: A fast revolver for quick decision making. Uses .45 magnum cartridges.
   abstract: true
   components:
@@ -184,7 +184,7 @@
 
 - type: entity
   name: panther
-  parent: PantherBase
+  parent: LPPPantherBase
   id: LPPWeaponRevolverPanther
   description: A fast revolver for quick decision making. Uses .45 magnum cartridges.
   components:

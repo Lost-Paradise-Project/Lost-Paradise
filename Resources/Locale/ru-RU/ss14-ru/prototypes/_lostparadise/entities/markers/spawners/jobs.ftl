@@ -1,6 +1,6 @@
 ent-LPPAdjutantSpawn = Адъютант
     .desc = { ent-SpawnPointJobBase.desc }
-ent-SpawnSecPilot = Пилот СБ
+ent-LPPSpawnSecPilot = Пилот СБ
     .desc = { ent-SpawnPointJobBase.desc }
-ent-SpawnExpeditor = Исследователь
+ent-LPPSpawnExpeditor = Исследователь
     .desc = { ent-SpawnPointJobBase.desc }

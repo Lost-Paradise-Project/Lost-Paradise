@@ -6,5 +6,5 @@ ent-LPPAdjutantPDA = КПК Адъютанта
     .desc = Пора почувствовать себя крутым.
 ent-LPPExpeditorPDA = КПК Исследователя
     .desc = Потёртый, поцарапанный, но все еще работает.
-ent-SecPilotPDA = КПК Пилота СБ
+ent-LPPSecPilotPDA = КПК Пилота СБ
     .desc = Выглядит новеньким и пахнет космосом.

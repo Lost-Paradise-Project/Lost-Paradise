@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingNeckPinBase
-  id: ClothingNeckFluppiPin
+  id: LPPClothingNeckFluppiPin
   name: fluppi pin
   description: be happy do crime
   components:
@@ -27,7 +27,7 @@
 
 - type: entity
   parent: ClothingNeckPinBase
-  id: MSSAPinAndromeda
+  id: LPPMSSAPinAndromeda
   name: pin "Andromeda"
   description: Make yourself at home, traveler.
   components:
@@ -43,7 +43,7 @@
 
 - type: entity
   parent: ClothingNeckPinBase
-  id: MSSAPinLostParadise
+  id: LPPMSSAPinLostParadise
   name: pin "Lost Paradise"
   description: We try our best for you!
   components:
@@ -59,7 +59,7 @@
 
 - type: entity
   parent: ClothingNeckPinBase
-  id: MSSAPinFoxHole
+  id: LPPMSSAPinFoxHole
   name: pin "Fox Hole"
   description: A Fox Hole, where it's quiet and peaceful.
   components:
@@ -75,7 +75,7 @@
 
 - type: entity
   parent: ClothingNeckPinBase
-  id: MSSAPinMSSA
+  id: LPPMSSAPinMSSA
   name: pin "MSSA"
   description: Together we are strong!
   components:
@@ -91,7 +91,7 @@
 
 - type: entity
   parent: ClothingNeckPinBase
-  id: MSSAPinSirena
+  id: LPPMSSAPinSirena
   name: pin "Sirena"
   description: The club of intelligent people.
   components:

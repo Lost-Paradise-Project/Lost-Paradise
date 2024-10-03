@@ -48,7 +48,7 @@
   description: lol
   components:
   - type: Pda
-    id: ExpeditorIDCard
+    id: LPPExpeditorIDCard
     state: pda-expeditor
   - type: PdaBorderColor
     borderColor: "#655f56"
@@ -58,12 +58,12 @@
 
 - type: entity
   parent: BasePDA
-  id: SecPilotPDA
+  id: LPPSecPilotPDA
   name: security pilot PDA
   description: Beaten, battered and broken, but just barely useable.
   components:
   - type: Pda
-    id: SecPilotIDCard
+    id: LPPSecPilotIDCard
     state: pda-seniorofficer
   - type: PdaBorderColor
     borderColor: "#A32D26"

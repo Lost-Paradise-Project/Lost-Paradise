@@ -976,12 +976,14 @@ Entries:
 - author: PowerKAT1
   changes:
     - type: Fix
-      message: Нормандия
+      message: Исправлены баги на Нормандии
   id: 83
   time: '2024-10-01T11:52:06.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/234
 - author: PowerKAT1
-  changes: []
+  changes:
+  - type: Fix
+    message: Исправлена нормандия
   id: 84
   time: '2024-10-02T22:13:20.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/236

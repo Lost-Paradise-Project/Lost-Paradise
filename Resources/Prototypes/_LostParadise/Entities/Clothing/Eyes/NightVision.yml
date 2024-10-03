@@ -30,7 +30,7 @@
 #     - HudMedical
 #
 # - type: entity
-#   parent: [ClothingEyesBase, ShowSecurityIcons]
+#   parent: [ClothingEyesBase, LPPShowSecurityIcons]
 #   id: LPPClothingEyesSecNightVisionGoggles
 #   name: ПНВ со встроенным СБ визором
 #   description: Теперь ты не только видишь во тьме, но и айди! Новая разработка BL CORP.

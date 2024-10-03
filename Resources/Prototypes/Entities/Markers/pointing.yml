@@ -2,6 +2,7 @@
   name: pointing arrow
   id: PointingArrow
   save: false
+  noSpawn: true
   components:
   - type: Tag
     tags:

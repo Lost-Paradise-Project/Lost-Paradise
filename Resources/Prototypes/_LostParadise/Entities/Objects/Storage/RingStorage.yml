@@ -1,6 +1,6 @@
 - type: entity
   parent: BoxCardboard
-  id: RingBox
+  id: LPPRingBox
   name: ring box
   description: very good.
   components:

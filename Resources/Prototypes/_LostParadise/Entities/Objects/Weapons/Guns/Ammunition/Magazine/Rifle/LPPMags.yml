@@ -47,7 +47,7 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: MagazineRifleM4A1Rubber
+  id: LPPMagazineRifleM4A1Rubber
   name: Magazine (calibre 5,56х45 rubber)
   parent: LPPBaseMagazineRifle
   components:

@@ -6,7 +6,7 @@
     shoes: ClothingShoesBootsMagAdv
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesCombat
-    outerClothing: ClothingOuterHardsuitChrono
+    outerClothing: LPPClothingOuterHardsuitChrono
     id: ERTLeaderPDA
     ears: ClothingHeadsetCentCom
     pocket1: LPPChronoKnife

@@ -1,2 +1,2 @@
-ent-RingBox = ring box
-    .desc = very good.
+ent-LPPRingBox = коробка с кольцами
+    .desc = Коробка, дороже чем твоя жизнь.

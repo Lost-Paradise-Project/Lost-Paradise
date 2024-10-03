@@ -1,3 +1,3 @@
-ent-LPPPowerCellSelfChargingBorg = self-recharging powercell
-    .suffix = Recharging, Do Not Map
-    .desc = { ent-PowerCellAntiqueProto.desc }
+ent-LPPPowerCellSelfChargingBorg = самозаряжающаяся батарея
+    .desc = Небольшой аккумулятор, который перезаряжается сам. Используется в исследованиях старого лазерного оружия.
+    .suffix = Самозаряжающийся, НЕ МАППИТЬ

@@ -1,2 +1,2 @@
-ent-BorgChassisMedicalKiti = medical cyborg
+ent-LPPBorgChassisMedicalKiti = Меди киборг котик
     .desc = { ent-BaseBorgChassisNT.desc }

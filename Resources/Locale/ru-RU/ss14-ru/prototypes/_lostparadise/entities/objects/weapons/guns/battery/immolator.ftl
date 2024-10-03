@@ -1,2 +1,2 @@
-ent-LPPWeaponImmolator = immolator
-    .desc = A modified laser cannon that fires highly concentrated, higher intensity beams that ignite the target at the cost of losing most of the power per shot.
+ent-LPPWeaponImmolator = Иммолятор
+    .desc = Модифицированная лазерная пушка, стреляющая сильно концентрированными лучами с более высокой интенсивностью, которые воспламеняют цель, за счет потери большей части мощности за выстрел.

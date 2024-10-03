@@ -48,7 +48,7 @@
 - type: startingGear
   id: AdjutantGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitAdjutant
+    jumpsuit: LPPClothingUniformJumpsuitAdjutant
     back: ClothingBackpackHOPFilled
     shoes: ClothingShoesColorBlack
     id: LPPAdjutantPDA

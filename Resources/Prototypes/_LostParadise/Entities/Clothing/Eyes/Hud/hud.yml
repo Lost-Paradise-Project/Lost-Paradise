@@ -1,12 +1,12 @@
 - type: entity
-  id: ShowSecurityIcons
+  id: LPPShowSecurityIcons
   abstract: true
   noSpawn: true
   components:
   - type: ShowSecurityIcons
 
 - type: entity
-  parent: [ClothingEyesBase, ShowSecurityIcons]
+  parent: [ClothingEyesBase, LPPShowSecurityIcons]
   id: LPPBlackHudGlasses
   name: Sunglasses with HUD
   description: Useful for Security and Cargo.
@@ -20,7 +20,7 @@
     protectionTime: 5
 
 - type: entity
-  parent: [ClothingEyesBase, ShowSecurityIcons]
+  parent: [ClothingEyesBase, LPPShowSecurityIcons]
   id: LPPRedHudGlasses
   name: Red sunglasses with HUD
   description: Useful for Security and Cargo.
@@ -34,7 +34,7 @@
     protectionTime: 5
 
 - type: entity
-  parent: [ClothingEyesBase, ShowSecurityIcons]
+  parent: [ClothingEyesBase, LPPShowSecurityIcons]
   id: LPPBlueHudGlasses
   name: Blue sunglasses with HUD
   description: Useful for Security and Cargo.

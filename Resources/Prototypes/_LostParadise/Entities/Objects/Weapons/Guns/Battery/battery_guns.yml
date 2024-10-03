@@ -43,7 +43,7 @@
       soundGunshot:
         path: /Audio/_LostParadise/Weapons/Guns/Gunshots/plasma_cutter.ogg
     - type: ProjectileBatteryAmmoProvider
-      proto: BulletCutter
+      proto: LPPBulletCutter
       fireCost: 15
     - type: Appearance
 
@@ -63,7 +63,7 @@
       soundGunshot:
         path: /Audio/_LostParadise/Weapons/Guns/Gunshots/plasma_cutter.ogg
     - type: ProjectileBatteryAmmoProvider
-      proto: BulletCutter
+      proto: LPPBulletCutter
       fireCost: 10
     - type: Appearance
 

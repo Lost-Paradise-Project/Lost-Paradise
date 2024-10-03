@@ -81,7 +81,7 @@
 
 - type: entity
   parent: ClothingHandsBase
-  id: ClothingHandsClownPomni
+  id: LPPClothingHandsClownPomni
   name: Pomni's?
   description: Good ring.
   components:

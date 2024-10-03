@@ -1,3 +1,3 @@
-ent-LPPRandomVending = random vending machine spawner
+ent-LPPRandomVending = Спавнер вендоматов
     .suffix = LPP
     .desc = { ent-MarkerBase.desc }

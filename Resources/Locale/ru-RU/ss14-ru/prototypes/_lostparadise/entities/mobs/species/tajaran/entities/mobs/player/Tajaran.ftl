@@ -1,2 +1,2 @@
-ent-MobTajaran = Таяр
-    .desc = { ent-BaseMobTajaran.desc }
+ent-LPPMobTajaran = Таяр
+    .desc = { ent-LPPBaseMobTajaran.desc }

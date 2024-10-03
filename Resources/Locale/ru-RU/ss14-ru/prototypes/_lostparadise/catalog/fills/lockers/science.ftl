@@ -1,3 +1,3 @@
-ent-LockerExpeditorFilled = { ent-LockerExpeditor }
+ent-LPPLockerExpeditorFilled = { ent-LPPLockerExpeditor }
     .suffix = Экспедитор, Заполненный
-    .desc = { ent-LockerExpeditor.desc }
+    .desc = { ent-LPPLockerExpeditor.desc }

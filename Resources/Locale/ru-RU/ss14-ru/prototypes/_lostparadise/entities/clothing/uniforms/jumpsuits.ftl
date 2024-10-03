@@ -1,4 +1,4 @@
-ent-ClothingUniformJumpsuitAdjutant = костюм адьютанта
+ent-LPPClothingUniformJumpsuitAdjutant = костюм адьютанта
     .desc = { ent-ClothingUniformBase.desc }
 ent-LPPCargotechjean = Джинсовка грузчика
     .desc = { ent-ClothingUniformBase.desc }
@@ -68,7 +68,7 @@ ent-LPPGreenFlannelJumpsuit = зеленая фланелевая рубашка
     .desc = { ent-ClothingUniformBase.desc }
 ent-LPPOrangeFlannelJumpsuit = оранжевая фланенвая рубашка
     .desc = { ent-ClothingUniformBase.desc }
-ent-ClothingUniformJumpsuitFluppi = комбинезон Фрупи
+ent-LPPClothingUniformJumpsuitFluppi = комбинезон Фрупи
     .desc = Нежно-пушистый комбинезон маскота базированной корпораций Fluppy&Co Ltd!
 ent-LPPClothingUniformJumpsuitSecEngineer = комбинезон инженера безопасности
     .desc = Комбинезон изготовлен из прочного материала, обеспечивающего надежную защиту.

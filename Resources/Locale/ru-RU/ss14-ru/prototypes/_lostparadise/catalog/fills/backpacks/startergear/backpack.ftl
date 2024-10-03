@@ -1,3 +1,3 @@
-ent-LPPJetpackNightGuardFilled = night guard jetpack
-    .suffix = Filled
+ent-LPPJetpackNightGuardFilled = джетпак НайтГарда
+    .suffix = Заполненный
     .desc = { ent-LPPJetpackNightGuardCape.desc }

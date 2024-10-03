@@ -222,7 +222,7 @@
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  id: ClothingHeadHelmetHardsuitChrono
+  id: LPPClothingHeadHelmetHardsuitChrono
   noSpawn: true
   name: chrono two
   components:

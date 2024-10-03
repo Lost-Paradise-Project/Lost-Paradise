@@ -41,3 +41,5 @@ PewRight: BenchPewRight
 PewMiddle: BenchPewMiddle
 LPPJudgesGavel: Gavel
 FluffyHonk: LPPFluffyHonk
+SpawnBlueShieldOfficer: LPPSpawnBlueShieldOfficer
+SpawnExpeditor: LPPSpawnExpeditor

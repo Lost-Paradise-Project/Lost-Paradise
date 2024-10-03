@@ -1,2 +1,2 @@
-ent-LPPlargePillCanister = large pill canister
-    .desc = Holds up to 18 pills.
+ent-LPPlargePillCanister = большая баночка для таблеток
+    .desc = Вмещает до 18 таблеток.

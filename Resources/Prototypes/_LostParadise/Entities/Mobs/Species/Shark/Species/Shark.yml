@@ -5,7 +5,7 @@
   prototype: LPPMobShark
   sprites: MobSharkSprites
   markingLimits: MobSharkMarkingLimits
-  dollPrototype: MobSharkDummy
+  dollPrototype: LPPMobSharkDummy
   skinColoration: Hues
   maleFirstNames: names_vulpkanin_male
   femaleFirstNames: names_vulpkanin_female
