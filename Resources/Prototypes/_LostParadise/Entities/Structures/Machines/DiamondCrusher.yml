@@ -80,7 +80,7 @@
   id: LPPDiamondCrusherMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: Diamond crusher (machine board)
-  description: Машинная плата для сборки дробителя алмазов.
+  description: Machine board for assembling a diamond crusher.
   components:
   - type: Sprite
     state: supply

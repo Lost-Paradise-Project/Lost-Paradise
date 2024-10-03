@@ -16,7 +16,7 @@
 - type: entity
   id: LPPLockerSecEng
   parent: LockerBaseSecure
-  name: шкаф полевого инженера
+  name: field engineer's cabinet
   components:
   - type: Appearance
   - type: EntityStorageVisuals

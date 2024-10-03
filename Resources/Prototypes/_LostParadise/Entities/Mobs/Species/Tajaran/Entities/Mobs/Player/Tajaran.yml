@@ -1,6 +1,6 @@
 ﻿- type: entity
   save: false
-  name: "Таяран"
+  name: "Tajaran"
   parent: LPPBaseMobTajaran
   id: LPPMobTajaran
   components:

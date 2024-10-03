@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: LPPClothingUniformJumpsuitFleece
-  name: стильная флисовая рубашка
-  description: Одежда для тех, кто предпочитает сочитания клеточек и тактикула.
+  name: Stylish fleece jumpsuit
+  description: Clothes for those who prefer reading cells and tactics.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Uniforms/Costume/fleece.rsi
