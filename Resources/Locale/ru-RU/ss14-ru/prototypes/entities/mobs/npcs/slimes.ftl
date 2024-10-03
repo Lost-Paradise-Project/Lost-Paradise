@@ -1,10 +1,6 @@
-ent-BaseMobAdultSlimes = Базовый слайм
+ent-MobAdultSlimes = базовый слайм
     .desc = Он так похож на желе. Интересно, каков он на вкус?
-ent-MobAdultSlimes = Базовый слайм
-    .desc = Он так похож на желе. Интересно, каков он на вкус?
-ent-MobSlimesGeras = Герас
-    .desc = Слайм-герас - ироничное название, не правда ли?
-ent-MobAdultSlimesBlue = Синий слайм
+ent-MobAdultSlimesBlue = синий слайм
     .desc = { ent-MobAdultSlimes.desc }
 ent-MobAdultSlimesBlueAngry = Синий слайм
     .suffix = Злой

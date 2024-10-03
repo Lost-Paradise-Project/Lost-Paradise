@@ -23,11 +23,8 @@ ent-BaseUplinkRadio25TC = { ent-BaseUplinkRadio }
 ent-BaseUplinkRadio40TC = { ent-BaseUplinkRadio }
     .suffix = 40 ТК, аплинк синдиката, Ядерный Оперативник
     .desc = { ent-BaseUplinkRadio.desc }
-ent-BaseUplinkRadio60TC = { ent-BaseUplinkRadio }
-    .suffix = 60 ТК, аплинк синдиката, Одинокий ядерный оперативник
-    .desc = { ent-BaseUplinkRadio.desc }
-ent-BaseUplinkRadioDebug = Радио аплинк Синдиката
-    .suffix = ДЕБАГ
+ent-BaseUplinkRadioDebug = радио аплинк Синдиката
+    .suffix = DEBUG
     .desc = { ent-BaseUplinkRadio.desc }
 
 # Corvax-HiddenDesc-End
