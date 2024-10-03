@@ -723,7 +723,7 @@ namespace Content.Client.Preferences.UI
             var sys = IoCManager.Resolve<SponsorsManager>();
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
-                sponsorTier = sponsorInfo.Tier ?? 0;
+                sponsorTier = sponsorInfo.Tier;
 #endif
 
             var departments = _prototypeManager.EnumeratePrototypes<DepartmentPrototype>().ToArray();
@@ -843,7 +843,7 @@ namespace Content.Client.Preferences.UI
             var sys = IoCManager.Resolve<SponsorsManager>();
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
-                sponsorTier = sponsorInfo.Tier ?? 0;
+                sponsorTier = sponsorInfo.Tier;
 #endif
             foreach (var selector in _jobPriorities)
             {
@@ -1477,7 +1477,7 @@ namespace Content.Client.Preferences.UI
             var sys = IoCManager.Resolve<SponsorsManager>();
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
-                sponsorTier = sponsorInfo.Tier ?? 0;
+                sponsorTier = sponsorInfo.Tier;
 #endif
 
             _traits.Clear();
@@ -1793,7 +1793,7 @@ namespace Content.Client.Preferences.UI
             var sys = IoCManager.Resolve<SponsorsManager>();
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
-                sponsorTier = sponsorInfo.Tier ?? 0;
+                sponsorTier = sponsorInfo.Tier;
 #endif
 
             // Get the highest priority job to use for loadout filtering

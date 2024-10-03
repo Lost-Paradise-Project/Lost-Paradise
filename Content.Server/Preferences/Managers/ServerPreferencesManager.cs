@@ -231,35 +231,7 @@ namespace Content.Server.Preferences.Managers
                     prefsData.PrefsLoaded = true;
 
 #if LPP_Sponsors
-                    _sponsors.TryGetInfo(session.UserId, out var sponsorData);
-
-                    var sponsorTier = 0;
-                    var sponsorSlots = 0;
-
-                    if (sponsorData != null)
-                        sponsorTier = sponsorData!.Tier ?? 0;
-
-                    switch (sponsorTier)
-                    {
-                        case 0:
-                            sponsorSlots = 0;
-                            break;
-                        case 1:
-                            sponsorSlots = 10;
-                            break;
-                        case 2:
-                            sponsorSlots = 20;
-                            break;
-                        case 3:
-                            sponsorSlots = 30;
-                            break;
-                        case 4:
-                            sponsorSlots = 40;
-                            break;
-                        default:    // от 5 и более
-                            sponsorSlots = 50;
-                            break;
-                    }
+                    var sponsorSlots = GetMaxUserCharacterSlots(session.UserId);
 #endif
 
                     var msg = new MsgPreferencesAndSettings
