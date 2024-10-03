@@ -77,3 +77,17 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: LPPClothingEyesGlassesAviatorNPZ
+  name: NPZ aviators
+  description: Only for the most coolest guys in this sector.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/Glasses/NPZaviators.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/Glasses/NPZaviators.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5

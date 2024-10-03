@@ -54,3 +54,42 @@
     - Belt
   - type: StaminaDamageOnHit
     damage: 15
+
+- type: entity
+  name: Jagdkommando
+  parent: BaseKnife
+  id: LPPKnifeJagdkommando
+  description: Favourite knife of most elite special groups, be cautios to use- your combat equipment might get a bit bloody after pulling this knife out of your enemy.
+  components:
+  - type: Tag
+    tags:
+    - CombatKnife
+    - Knife
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Melee/jagdkommando.rsi
+    state: icon
+  - type: MeleeWeapon
+    attackRate: 2
+    damage:
+      types:
+        Piercing: 14
+    heavyStaminaCost: 2
+    angle: 2
+  - type: Item
+    size: Small
+    sprite: _LostParadise/Objects/Weapons/Melee/jagdkommando.rsi
+  - type: DisarmMalus
+    malus: 0.225
+  - type: ThrowingAngle
+    angle: 1
+  - type: MeleeChemicalInjector
+    solution: melee
+  - type: RefillableSolution
+    solution: melee
+  - type: InjectableSolution
+    solution: melee
+  - type: SolutionInjectOnEmbed
+    transferAmount: 3
+    solution: melee
+  - type: SolutionTransfer
+    maxTransferAmount: 3
