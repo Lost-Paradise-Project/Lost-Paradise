@@ -105,5 +105,7 @@ ent-SpawnPointSeniorOfficer = Инструктор
     .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnPointSeniorPhysician = Ведущий медик
     .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointZookeeper = Зоотехник
+    .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnPointSeniorResearcher = Ведущий учёный
     .desc = { ent-SpawnPointJobBase.desc }
