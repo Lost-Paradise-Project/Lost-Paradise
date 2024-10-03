@@ -125,9 +125,6 @@
     magState: mag
     steps: 5
     zeroVisible: true
-  - type: HitscanBatteryAmmoProvider
-    proto: LPPRedMediumLightLaser
-    fireCost: 100
 
 - type: entity
   name: retro laser blaster
@@ -617,7 +614,7 @@
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 30
+    autoRechargeRate: 20
   - type: MagazineVisuals
     magState: mag
     steps: 5

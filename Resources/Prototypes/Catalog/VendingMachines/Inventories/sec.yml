@@ -26,6 +26,7 @@
     # BreachingCharge: 8
     LPPClothingHandsGlovesTacticalFingerless: 1  # Lost Paradise - Добавление тактических беспалых боевых перчаток
     LPPTelebaton: 3 #LPP
+    ClothingBeltHolster: 3
   # security officers need to follow a diet regimen!
   contrabandInventory:
     FoodDonutHomer: 12

@@ -34,7 +34,7 @@
   - type: PowerCellVisuals
   - type: Riggable
   - type: HitscanBatteryAmmoProvider
-    proto: RedLightLaser
+    proto: LPPRedMediumLightLaser
     fireCost: 50
 
 - type: entity
