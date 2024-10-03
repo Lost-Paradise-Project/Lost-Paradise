@@ -5,4 +5,4 @@ ent-MobNarsieSpawn = { ent-MobNarsieBase }
     .desc = { ent-MobNarsieBase.desc }
 ent-MobNarsie = { ent-['MobNarsieBase', 'BaseMob'] }
 
-  .desc = { ent-['MobNarsieBase', 'BaseMob'].desc }
+    .desc = { ent-['MobNarsieBase', 'BaseMob'].desc }

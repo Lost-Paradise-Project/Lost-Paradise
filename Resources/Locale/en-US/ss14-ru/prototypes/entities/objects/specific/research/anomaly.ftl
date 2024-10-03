@@ -5,8 +5,8 @@ ent-AnomalyLocatorUnpowered = anomaly locator
     .suffix = Unpowered
 ent-AnomalyLocator = { ent-['AnomalyLocatorUnpowered', 'PowerCellSlotSmallItem'] }
 
-  .suffix = Powered
-  .desc = { ent-['AnomalyLocatorUnpowered', 'PowerCellSlotSmallItem'].desc }
+    .suffix = Powered
+    .desc = { ent-['AnomalyLocatorUnpowered', 'PowerCellSlotSmallItem'].desc }
 ent-AnomalyLocatorEmpty = { ent-AnomalyLocator }
     .suffix = Empty
     .desc = { ent-AnomalyLocator.desc }
@@ -15,8 +15,8 @@ ent-AnomalyLocatorWideUnpowered = wide-spectrum anomaly locator
     .suffix = Unpowered
 ent-AnomalyLocatorWide = { ent-['AnomalyLocatorWideUnpowered', 'PowerCellSlotSmallItem'] }
 
-  .suffix = Powered
-  .desc = { ent-['AnomalyLocatorWideUnpowered', 'PowerCellSlotSmallItem'].desc }
+    .suffix = Powered
+    .desc = { ent-['AnomalyLocatorWideUnpowered', 'PowerCellSlotSmallItem'].desc }
 ent-AnomalyLocatorWideEmpty = { ent-AnomalyLocatorWide }
     .suffix = Empty
     .desc = { ent-AnomalyLocatorWide.desc }

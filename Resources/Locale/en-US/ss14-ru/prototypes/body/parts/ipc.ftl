@@ -1,8 +1,7 @@
 ent-PartIPC = ipc body part
     .desc = { ent-BaseItem.desc }
 ent-TorsoIPC = ipc torso
-
-  .desc = { ent-['PartIPC', 'BaseTorso'].desc }
+    .desc = { ent-PartIPC.desc }
 ent-HeadIPC = ipc head
     .desc = { ent-PartIPC.desc }
 ent-LeftArmIPC = left ipc arm

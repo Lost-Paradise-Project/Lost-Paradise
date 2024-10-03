@@ -29,8 +29,8 @@ ent-AnomalyCoreFlora = { ent-BaseAnomalyCore }
     .desc = { ent-BaseAnomalyCore.desc }
 ent-AnomalyCoreShadow = { ent-['BaseAnomalyCore', 'BaseShadow'] }
 
-  .suffix = Shadow
-  .desc = { ent-['BaseAnomalyCore', 'BaseShadow'].desc }
+    .suffix = Shadow
+    .desc = { ent-['BaseAnomalyCore', 'BaseShadow'].desc }
 ent-BaseAnomalyInertCore = { ent-BaseAnomalyCore }
     .desc = { ent-BaseAnomalyCore.desc }
 ent-AnomalyCorePyroclasticInert = { ent-BaseAnomalyInertCore }
@@ -62,5 +62,5 @@ ent-AnomalyCoreFloraInert = { ent-BaseAnomalyInertCore }
     .desc = { ent-BaseAnomalyInertCore.desc }
 ent-AnomalyCoreShadowInert = { ent-['BaseAnomalyInertCore', 'BaseShadow'] }
 
-  .suffix = Shadow, Inert
-  .desc = { ent-['BaseAnomalyInertCore', 'BaseShadow'].desc }
+    .suffix = Shadow, Inert
+    .desc = { ent-['BaseAnomalyInertCore', 'BaseShadow'].desc }

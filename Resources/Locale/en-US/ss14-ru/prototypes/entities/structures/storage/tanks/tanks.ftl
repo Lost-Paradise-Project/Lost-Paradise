@@ -20,5 +20,5 @@ ent-WaterTankHighCapacity = high-capacity water tank
     .suffix = Full
 ent-GenericTank = { ent-['StorageTank', 'StructureWheeled'] }
 
-  .suffix = Empty
-  .desc = { ent-['StorageTank', 'StructureWheeled'].desc }
+    .suffix = Empty
+    .desc = { ent-['StorageTank', 'StructureWheeled'].desc }

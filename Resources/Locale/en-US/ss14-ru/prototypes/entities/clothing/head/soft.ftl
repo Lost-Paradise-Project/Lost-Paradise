@@ -1,14 +1,12 @@
-ent-ClothingHeadHeadHatBaseFlippable = { ent-['ClothingHeadBaseButcherable', 'BaseFoldable'] }
-
-  .desc = { ent-['ClothingHeadBaseButcherable', 'BaseFoldable'].desc }
+ent-ClothingHeadHeadHatBaseFlippable = { ent-ClothingHeadBaseButcherable }
+    .desc = { ent-ClothingHeadBaseButcherable.desc }
 ent-ClothingHeadHeadHatBaseFlipped = { ent-ClothingHeadHeadHatBaseFlippable }
     .suffix = flipped
     .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatBluesoft = blue cap
     .desc = It's a baseball hat in a tasteless blue colour.
 ent-ClothingHeadHatBluesoftFlipped = blue cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatBluesoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlipped.desc }
 ent-ClothingHeadHatCargosoft = logistics cap
     .desc = It's a baseball hat painted in Logistics colours.
 ent-ClothingHeadHatCargosoftFlipped = logistics cap
@@ -16,65 +14,52 @@ ent-ClothingHeadHatCargosoftFlipped = logistics cap
 ent-ClothingHeadHatQMsoft = logistics officer's cap
     .desc = It's a baseball hat painted in the Logistics Officer's colors.
 ent-ClothingHeadHatQMsoftFlipped = logistics officer's cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatQMsoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatCorpsoft = corporate cap
     .desc = A baseball bat in corporation colors.
 ent-ClothingHeadHatCorpsoftFlipped = corporate cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatCorpsoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatGreensoft = green cap
     .desc = It's a baseball hat in a tasteless green colour.
 ent-ClothingHeadHatGreensoftFlipped = green cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatGreensoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatBlacksoft = black cap
     .desc = It's a baseball hat in a tasteless black colour.
 ent-ClothingHeadHatBlacksoftFlipped = black cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatBlacksoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatGreysoft = grey cap
     .desc = It's a baseball hat in a tasteless grey colour.
 ent-ClothingHeadHatGreysoftFlipped = grey cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatGreysoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatMimesoft = mime cap
     .desc = It's a baseball hat in a tasteless white colour.
 ent-ClothingHeadHatMimesoftFlipped = mime cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatMimesoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatOrangesoft = orange cap
     .desc = It's a baseball hat in a good-looking orange colour.
 ent-ClothingHeadHatOrangesoftFlipped = orange cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatOrangesoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatPurplesoft = purple cap
     .desc = It's a baseball hat in a tasteless purple colour.
 ent-ClothingHeadHatPurplesoftFlipped = purple cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatPurplesoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatRedsoft = red cap
     .desc = It's a baseball hat in a tasteless red colour.
 ent-ClothingHeadHatRedsoftFlipped = red cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatRedsoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatSecsoft = security cap
     .desc = It's a robust baseball hat in tasteful red colour.
 ent-ClothingHeadHatSecsoftFlipped = security cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatSecsoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatYellowsoft = yellow cap
     .desc = A yellow baseball hat.
 ent-ClothingHeadHatYellowsoftFlipped = yellow cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatYellowsoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatBizarreSoft = troublemaker's cap
     .desc = A truly.. bizarre accessory.
 ent-ClothingHeadHatBizarreSoftFlipped = troublemaker's cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatBizarreSoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
 ent-ClothingHeadHatParamedicsoft = paramedic cap
     .desc = It's a paramedic's baseball hat with a medical logo.
 ent-ClothingHeadHatParamedicsoftFlipped = paramedic cap
-
-  .desc = { ent-['ClothingHeadHeadHatBaseFlipped', 'ClothingHeadHatParamedicsoft'].desc }
+    .desc = { ent-ClothingHeadHeadHatBaseFlippable.desc }
