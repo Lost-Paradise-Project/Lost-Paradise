@@ -1,0 +1,16 @@
+ent-LPPClothingBackpackSatchelBlack = black satchel
+    .desc = A tough satchel with extra pockets.
+    .suffix = Sponsor
+ent-LPPClothingBackpackSatchelHop = hop satchel
+    .desc = Convenient to throw off rifle magazines.
+ent-LPPClothingSatchelSmuggler = Smuggling Satchel
+    .desc = A makeshift satchel, slim enough to fit under floor tiles.
+    .suffix = Smuggler
+ent-LPPClothingSatchelSecurityEngineer = hop duffel bag
+    .desc = Twice as many handcuffs!
+ent-LPPClothingBackpackSatchelBlueshield = blueshield satchel
+    .desc = Convenient to throw off rifle magazines.
+ent-LPPClothingBackpackSatchelExpeditor = expeditor satchel
+    .desc = Convenient to throw off rifle magazines.
+ent-LPPClothingBackpackSatchelBlueshieldFilled = { ent-LPPClothingBackpackSatchelBlueshield }
+    .desc = { ent-LPPClothingBackpackSatchelBlueshield.desc }
