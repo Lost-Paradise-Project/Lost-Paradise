@@ -10,7 +10,7 @@
 - type: entity
   id: LPPAngelDustPolymorph
   name: Сменить облик
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
     useDelay: 0.2
