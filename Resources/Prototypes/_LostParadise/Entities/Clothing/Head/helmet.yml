@@ -127,6 +127,7 @@
         Slash: 0.85
         Piercing: 0.85
 
+- type: entity
   parent: ClothingHeadBase
   id: LPPCASHelmet
   name: CAS Helmet
@@ -154,4 +155,3 @@
     sprite: _LostParadise/Clothing/Head/Helmets/NPZ/NPZassault.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Head/Helmets/NPZ/NPZassault.rsi
-    
