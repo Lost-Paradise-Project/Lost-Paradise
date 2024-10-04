@@ -2526,5 +2526,15 @@ namespace Content.Shared.CCVar
             CVarDef.Create("ahelp.admin_prefix_webhook", true, CVar.SERVERONLY);
 
         #endregion
+
+    #region GhostRespawn
+
+    public static readonly CVarDef<double> GhostRespawnTime =
+        CVarDef.Create("ghost.respawn_time", 15d, CVar.SERVERONLY);
+
+    public static readonly CVarDef<int> GhostRespawnMaxPlayers =
+        CVarDef.Create("ghost.respawn_max_players", 40, CVar.SERVERONLY);
+
+    #endregion
     }
 }

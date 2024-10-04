@@ -145,3 +145,6 @@ ent-DoorElectronicsZookeeper = { ent-DoorElectronics }
 ent-DoorElectronicsPsychologist = { ent-DoorElectronics }
     .suffix = Psychologist, Locked
     .desc = { ent-DoorElectronics.desc }
+ent-DoorElectronicsMail = { ent-DoorElectronics }
+    .suffix = Mail, Locked
+    .desc = { ent-DoorElectronics.desc }

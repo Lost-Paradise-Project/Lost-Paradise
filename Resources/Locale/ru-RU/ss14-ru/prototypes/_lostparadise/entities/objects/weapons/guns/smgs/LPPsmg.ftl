@@ -1,4 +1,4 @@
-ent-LPPWeaponSubMachineGunSaiber = сайбер
+ent-LPPWeaponSubMachineGunSaiber = Сайбер
     .desc = Пла-кет-кет-кет-кет! Но с глушителем! Использует автоматные патроны 35-го калибра.
 ent-LPPWeaponSubMachineGunM90 = m90
     .desc = Знаменитый пистолет-пулемет, используемый наемниками. В качестве патрона использует 35-тый калибр.

@@ -1,4 +1,4 @@
-ent-PlasticFlapsClear = пластиковые шторки
+ent-PlasticFlapsClear = Пластиковые шторки
     .desc = Тяжёлые пластиковые шторки. Сквозь них не пройти. Ни за что.
     .suffix = Прозрачные
 ent-PlasticFlapsOpaque = Пластиковые шторки

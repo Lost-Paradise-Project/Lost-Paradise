@@ -1,6 +1,6 @@
 ent-ProjectileFireball = Огненный шар
     .desc = По мнению волшебников явлется средством от всех проблем.
-ent-ProjectileAnomalyFireball = огненный шар
+ent-ProjectileAnomalyFireball = Огненный шар
     .desc = Парящий сгусток пламени.
 ent-ProjectilePolyboltBase = { ent-BaseBullet }
     .desc = { ent-BaseBullet.desc }

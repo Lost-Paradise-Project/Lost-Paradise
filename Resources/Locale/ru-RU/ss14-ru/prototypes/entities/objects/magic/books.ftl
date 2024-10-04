@@ -1,6 +1,6 @@
 ent-BaseSpellbook = Книга заклинаний
     .desc = { ent-BaseItem.desc }
-ent-SpawnSpellbook = книга заклинания призыв
+ent-SpawnSpellbook = Книга заклинания призыв
     .desc = { ent-BaseSpellbook.desc }
 ent-ForceWallSpellbook = Книга заклинания силовой барьер
     .desc = { ent-BaseSpellbook.desc }

@@ -24,3 +24,7 @@ ent-ActionHealingWord = action-name-healing-word
     .desc = action-description-healing-word
 ent-ActionRevivify = action-name-revivify
     .desc = action-description-revivify
+ent-ActionShadeskip = action-name-shadeskip
+    .desc = action-description-shadeskip
+ent-ActionTelekineticPulse = action-name-telekinetic-pulse
+    .desc = action-description-telekinetic-pulse
