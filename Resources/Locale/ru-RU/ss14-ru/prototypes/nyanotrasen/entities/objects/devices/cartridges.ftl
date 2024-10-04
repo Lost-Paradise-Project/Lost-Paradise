@@ -1,2 +1,2 @@
-ent-GlimmerMonitorCartridge = картридж трекера глиммера
+ent-GlimmerMonitorCartridge = Картридж трекера глиммера
     .desc = Картридж, с программой для отслеживания статуса глиммера.

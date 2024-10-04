@@ -1,6 +1,6 @@
 ent-MobTerminatorBase = { "" }
     .desc = Страшная железяка
-ent-MobHumanTerminator = экстерминатор
+ent-MobHumanTerminator = Экстерминатор
     .desc = { ent-MobHumanTerminator.desc }
-ent-MobTerminatorEndoskeleton = эндоскелет nt-800 "экстерминатор"
+ent-MobTerminatorEndoskeleton = Эндоскелет nt-800 "экстерминатор"
     .desc = Внутренняя мощь андроидов-шпионов ГоооолНет. Невероятно прочный сплав внутри и непритязательная плоть снаружи.

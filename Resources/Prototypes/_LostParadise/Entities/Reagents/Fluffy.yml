@@ -1,9 +1,9 @@
 - type: reagent
-  id: FluffyApple
+  id: LPPFluffyApple
   name: reagent-name-fluffyapple
   desc: reagent-desc-space-fluffyapple
   physicalDesc: reagent-desc-physical-fluffyapple
-  flavor: AppleFluffy
+  flavor: LPPAppleFluffy
   color: "#66FF00"
   slippery: true
   metabolisms:
@@ -17,13 +17,13 @@
         refresh: false
 
 - type: flavor
-  id: AppleFluffy
+  id: LPPAppleFluffy
   flavorType: Complex
   description: flavor-complex-applefluffy
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyApple
+  id: LPPFluffyApple
   name: apple fluffy
   description: SO CUTE
   components:
@@ -32,7 +32,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyApple
+        - ReagentId: LPPFluffyApple
           Quantity: 100
   - type: Tag
     tags:
@@ -45,11 +45,11 @@
 # -------------------------------------------------------------------------
 
 - type: reagent
-  id: FluffyEnergy
+  id: LPPFluffyEnergy
   name: reagent-name-fluffyenergy
   desc: reagent-desc-space-fluffyenergy
   physicalDesc: reagent-desc-physical-fluffyenergy
-  flavor: EnergyFluffy
+  flavor: LPPEnergyFluffy
   color: "#BA55D3"
   slippery: true
   metabolisms:
@@ -77,8 +77,8 @@
         sprintSpeedModifier: 0.8
       - !type:Electrocute
         conditions:
-          - !type:ReagentThreshold
-            max: 10 # ghetto withdrawal effect
+        - !type:ReagentThreshold
+          max: 10 # ghetto withdrawal effect
         probability: 0.1 # get stunlocked nerd
       - !type:Jitter
         conditions:
@@ -130,49 +130,49 @@
     Medicine:
       metabolismRate: 0.25
       effects:
-        - !type:ResetNarcolepsy
-        - !type:SatiateHunger
-          factor: 1
-        - !type:SatiateThirst
-          factor: 1
-        - !type:HealthChange
-          conditions:
-          - !type:ReagentThreshold
-            min: 10
-          damage:
-            groups:
-              Brute: -4
-              Burn: -4
-        # stops CMOs from hypoing you with lexorin and sec from filling you with tranq shells
-        - !type:SatiateThirst
-          factor: 2
-        - !type:AdjustReagent
-          reagent: Theobromine
-          amount: 0.05
-        - !type:AdjustReagent
-          conditions:
-          - !type:ReagentThreshold
-            reagent: Lexorin
-            min: 1
+      - !type:ResetNarcolepsy
+      - !type:SatiateHunger
+        factor: 1
+      - !type:SatiateThirst
+        factor: 1
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 10
+        damage:
+          groups:
+            Brute: -4
+            Burn: -4
+      # stops CMOs from hypoing you with lexorin and sec from filling you with tranq shells
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
           reagent: Lexorin
-          amount: -3
-        - !type:AdjustReagent
-          conditions:
-          - !type:ReagentThreshold
-            reagent: ChloralHydrate
-            min: 1
+          min: 1
+        reagent: Lexorin
+        amount: -3
+      - !type:AdjustReagent
+        conditions:
+        - !type:ReagentThreshold
           reagent: ChloralHydrate
-          amount: -3
+          min: 1
+        reagent: ChloralHydrate
+        amount: -3
 
 
 - type: flavor
-  id: EnergyFluffy
+  id: LPPEnergyFluffy
   flavorType: Complex
   description: flavor-complex-energyfluffy
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyEnergy
+  id: LPPFluffyEnergy
   name: energy fluffy
   description: SO CUTE
   components:
@@ -181,7 +181,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyEnergy
+        - ReagentId: LPPFluffyEnergy
           Quantity: 100
   - type: Tag
     tags:
@@ -194,18 +194,18 @@
 #--------------------------------------------------------------
 
 - type: reagent
-  id: FluffyHonk
+  id: LPPFluffyHonk
   name: reagent-name-fluffyhonk
   desc: reagent-desc-space-fluffyhonk
   physicalDesc: reagent-desc-physical-fluffyhonk
-  flavor: HonkFluffy
+  flavor: LPPHonkFluffy
   color: "#FFDC33"
   slippery: true
   tileReactions:
-    - !type:SpillTileReaction
-      paralyzeTime: 6
-      launchForwardsMultiplier: 2
-      requiredSlipSpeed: 1
+  - !type:SpillTileReaction
+    paralyzeTime: 6
+    launchForwardsMultiplier: 2
+    requiredSlipSpeed: 1
   metabolisms:
     Narcotic:
       effects:
@@ -217,13 +217,13 @@
         refresh: false
 
 - type: flavor
-  id: HonkFluffy
+  id: LPPHonkFluffy
   flavorType: Complex
   description: flavor-complex-honkfluffy
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyHonk
+  id: LPPFluffyHonk
   name: honk fluffy
   description: SO CUTE
   components:
@@ -232,7 +232,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyHonk
+        - ReagentId: LPPFluffyHonk
           Quantity: 100
   - type: Tag
     tags:
@@ -245,11 +245,11 @@
 #--------------------------------------------------------------
 
 - type: reagent
-  id: FluffyLatte
+  id: LPPFluffyLatte
   name: reagent-name-fluffylatte
   desc: reagent-desc-space-fluffylatte
   physicalDesc: reagent-desc-physical-fluffylatte
-  flavor: LatteFluffy
+  flavor: LPPLatteFluffy
   color: "#A47C45"
   slippery: true
   metabolisms:
@@ -263,13 +263,13 @@
         refresh: false
 
 - type: flavor
-  id: LatteFluffy
+  id: LPPLatteFluffy
   flavorType: Complex
   description: flavor-complex-lattefluffy
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyLatte
+  id: LPPFluffyLatte
   name: latte fluffy
   description: SO CUTE
   components:
@@ -278,7 +278,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyLatte
+        - ReagentId: LPPFluffyLatte
           Quantity: 100
   - type: Tag
     tags:
@@ -291,11 +291,11 @@
 #--------------------------------------------------------------
 
 - type: reagent
-  id: FluffyMango
+  id: LPPFluffyMango
   name: reagent-name-fluffymango
   desc: reagent-desc-space-fluffymango
   physicalDesc: reagent-desc-physical-fluffymango
-  flavor: MangoFluffy
+  flavor: LPPMangoFluffy
   color: "#F39F18"
   slippery: true
   metabolisms:
@@ -309,13 +309,13 @@
         refresh: false
 
 - type: flavor
-  id: MangoFluffy
+  id: LPPMangoFluffy
   flavorType: Complex
   description: flavor-complex-mangofluffy
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyMango
+  id: LPPFluffyMango
   name: mango fluffy
   description: SO CUTE
   components:
@@ -324,7 +324,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyMango
+        - ReagentId: LPPFluffyMango
           Quantity: 100
   - type: Tag
     tags:
@@ -337,11 +337,11 @@
 #--------------------------------------------------------------
 
 - type: reagent
-  id: FluffyStan
+  id: LPPFluffyStan
   name: reagent-name-fluffystan
   desc: reagent-desc-space-fluffystan
   physicalDesc: reagent-desc-physical-fluffystan
-  flavor: StanFluffy
+  flavor: LPPStanFluffy
   color: "#EB18F2"
   slippery: true
   metabolisms:
@@ -362,13 +362,13 @@
         refresh: false
 
 - type: flavor
-  id: StanFluffy
+  id: LPPStanFluffy
   flavorType: Complex
   description: flavor-complex-stanfluffy
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyStan
+  id: LPPFluffyStan
   name: stan fluffy
   description: SO CUTE
   components:
@@ -377,7 +377,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyStan
+        - ReagentId: LPPFluffyStan
           Quantity: 100
   - type: Tag
     tags:
@@ -390,11 +390,11 @@
 #--------------------------------------------------------------
 
 - type: reagent
-  id: FluffyWatermelon
+  id: LPPFluffyWatermelon
   name: reagent-name-fluffywatermelon
   desc: reagent-desc-space-fluffywatermelon
   physicalDesc: reagent-desc-physical-fluffywatermelon
-  flavor: WatermelonFluffy
+  flavor: LPPWatermelonFluffy
   color: "#9AF218"
   slippery: true
   metabolisms:
@@ -408,13 +408,13 @@
         refresh: false
 
 - type: flavor
-  id: WatermelonFluffy
+  id: LPPWatermelonFluffy
   flavorType: Complex
   description: flavor-complex-watermelonfluffy
 
 - type: entity
   parent: DrinkCanBaseFull
-  id: FluffyWatermelon
+  id: LPPFluffyWatermelon
   name: watermelon fluffy
   description: SO CUTE
   components:
@@ -423,7 +423,7 @@
       drink:
         maxVol: 100
         reagents:
-        - ReagentId: FluffyWatermelon
+        - ReagentId: LPPFluffyWatermelon
           Quantity: 100
   - type: Tag
     tags:
@@ -437,24 +437,24 @@
 #-------------------------------------
 
 - type: vendingMachineInventory
-  id: FluffyInventory
+  id: LPPFluffyInventory
   startingInventory:
-    FluffyApple: 10
-    FluffyHonk: 10
-    FluffyLatte: 10
-    FluffyMango: 10
-    FluffyStan: 10
-    FluffyWatermelon: 10
+    LPPFluffyApple: 10
+    LPPFluffyHonk: 10
+    LPPFluffyLatte: 10
+    LPPFluffyMango: 10
+    LPPFluffyStan: 10
+    LPPFluffyWatermelon: 10
 
 
 - type: entity
   parent: VendingMachine
-  id: VendingMachineFluffy
+  id: LPPVendingMachineFluffy
   name: fluffy drinks
   description: A softdrink vendor provided by Robust Industries, LLC.
   components:
   - type: VendingMachine
-    pack: FluffyInventory
+    pack: LPPFluffyInventory
     dispenseOnHitChance: 0.25
     dispenseOnHitThreshold: 2
     offState: off
@@ -464,7 +464,7 @@
     denyState: deny-unshaded
     ejectDelay: 1.9
   - type: Advertise
-    pack: FluffyAds
+    pack: LPPFluffyAds
   - type: Speech
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Fluffy/FluffyVending.rsi
@@ -483,7 +483,7 @@
 
 
 - type: messagePack
-  id: FluffyAds
+  id: LPPFluffyAds
   messages:
   - advertisement-Fluffy-1
   - advertisement-Fluffy-2

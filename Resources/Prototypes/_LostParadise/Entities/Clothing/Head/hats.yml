@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPClothingHeadHatBeretNPZ
-  name: берет НПЗ
-  description: Помни, за что ты воюешь. (За человечество, если вы вдруг забыли)
+  name: NPZ Beret
+  description: Remember what you're fighting for. (For humanity, in case you've forgotten)
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Hats/upgberet.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPClothingHeadHatCapNPZ
-  name: фуражка НПЗ
-  description: Фуражка представителей вооружённых сил НПЗ, всиляет страх в сердца ксенофилов, больше сказать нечего.
+  name: NPZ Cap
+  description: The cap of the representatives of the armed forces of the NPZ, strikes fear into the hearts of xenophiles, there is nothing more to say.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Hats/upgofficerhat.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPClothingHeadHatMaid
-  name: чепчик горничной
-  description: Элемент одежды, который является неотъемлимой частью любой элитной горничной.
+  name: Maid's cap
+  description: An item of clothing that is an integral part of any elite maid.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Hats/maidencap.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: LPPClothingAnonMask
-  name: Маска Анонимуса
-  description: Анон!
+  name: Anonymous mask
+  description: Anon!
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Hats/anon.rsi

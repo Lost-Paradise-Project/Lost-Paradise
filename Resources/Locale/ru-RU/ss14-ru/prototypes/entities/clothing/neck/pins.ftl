@@ -1,4 +1,4 @@
-ent-ClothingNeckPinBase = нагрудный значок
+ent-ClothingNeckPinBase = Нагрудный значок
     .desc = Значок с булавкой.
 ent-ClothingNeckLGBTPin = { ent-ClothingNeckPinBase }
     .desc = Разноцветный металлический значок с булавкой.
@@ -18,7 +18,7 @@ ent-ClothingNeckPansexualPin = { ent-ClothingNeckLGBTPin }
     .desc = { ent-ClothingNeckLGBTPin.desc }
 ent-ClothingNeckTransPin = { ent-ClothingNeckLGBTPin }
     .desc = { ent-ClothingNeckLGBTPin.desc }
-ent-ClothingNeckAutismPin = значок "аутизм"
+ent-ClothingNeckAutismPin = Значок "аутизм"
     .desc = Значок в честь дня распространения информации о проблеме аутизма.
-ent-ClothingNeckGoldAutismPin = золотой значок "аутизм"
+ent-ClothingNeckGoldAutismPin = Золотой значок "аутизм"
     .desc = { ent-ClothingNeckAutismPin.desc }

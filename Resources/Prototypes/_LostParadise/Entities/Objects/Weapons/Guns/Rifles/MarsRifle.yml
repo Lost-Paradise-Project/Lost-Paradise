@@ -1,8 +1,8 @@
 - type: entity
   id: LPPWeaponMarsRifle
   parent: BaseWeaponRifle
-  name: винтовка XHA "Марс"
-  description: Охотничья винтовка компании XenoHuntingArmoury, использующая патроны .30 охотничье. Крайне популярная модель среди планетных и космических охотников на фауну.
+  name: Rifle XHA "Mars"
+  description: XenoHuntingArmoury hunting rifle using cartridges .30 hunting. An extremely popular model among planetary and space fauna hunters.
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Guns/Snipers/marsrifle.rsi

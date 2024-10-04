@@ -1,8 +1,8 @@
 ent-BaseLandMine = { "" }
     .desc = { "" }
-ent-LandMineKick = кикающая мина
+ent-LandMineKick = Кикающая мина
     .desc = { ent-BaseLandMine.desc }
-ent-LandMineModular = модульная мина
+ent-LandMineModular = Модульная мина
     .desc = Этот плохиш может скрывать в себе множество опасностей. Или велосипедный клаксон.
-ent-LandMineExplosive = взрывная мина
+ent-LandMineExplosive = Взрывная мина
     .desc = { ent-BaseLandMine.desc }

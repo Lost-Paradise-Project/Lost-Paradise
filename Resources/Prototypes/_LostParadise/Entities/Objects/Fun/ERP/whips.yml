@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseWhips
+  parent: LPPBaseWhips
   id: LPPWhips
   name: Whip
   description: Hot whip
@@ -22,7 +22,7 @@
 
 - type: entity
   parent: BaseItem
-  id: BaseWhips
+  id: LPPBaseWhips
   abstract: true
   components:
   - type: Sprite

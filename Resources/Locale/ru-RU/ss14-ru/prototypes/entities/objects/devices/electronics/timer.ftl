@@ -1,6 +1,6 @@
-ent-SignalTimerElectronics = микросхема таймера сигнала
+ent-SignalTimerElectronics = Микросхема таймера сигнала
     .desc = Микросхема, используемая в электронных таймерах. Похоже, для изменения типа платы можно использовать отвёртку.
-ent-ScreenTimerElectronics = микросхема таймера сигнала с экраном
+ent-ScreenTimerElectronics = Микросхема таймера сигнала с экраном
     .desc = { ent-SignalTimerElectronics.desc }
-ent-BrigTimerElectronics = микросхема бриг-таймера
+ent-BrigTimerElectronics = Микросхема бриг-таймера
     .desc = { ent-SignalTimerElectronics.desc }

@@ -1,2 +1,2 @@
-ent-ClothingBeltStorageWaistbag = кожаная поясная сумка
+ent-ClothingBeltStorageWaistbag = Кожаная поясная сумка
     .desc = Кожаная поясная сумка, в которой можно носить небольшие предметы.

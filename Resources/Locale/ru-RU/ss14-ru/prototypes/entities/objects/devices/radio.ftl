@@ -1,4 +1,2 @@
-ent-RadioHandheld = портативная рация
+ent-RadioHandheld = Портативная рация
     .desc = Удобная портативная рация.
-ent-RadioHandheldSecurity = рация охраны
-    .desc = Удобная рация охраны.

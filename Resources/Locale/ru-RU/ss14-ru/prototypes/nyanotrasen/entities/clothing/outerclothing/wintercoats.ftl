@@ -1,4 +1,4 @@
-ent-ClothingOuterCoatHyenhSweater = удобный свитер
+ent-ClothingOuterCoatHyenhSweater = Удобный свитер
     .desc = Он удобный.
 ent-ClothingOuterWinterCoatLong = Длинная зимняя куртка
     .desc = Даже ваши ноги будут согреты этой модной курткой.

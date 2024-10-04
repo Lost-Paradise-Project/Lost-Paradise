@@ -244,8 +244,8 @@ trait-description-Spinarette =
     на ладони позволяет пользователю "раскручивать" эту нить. Пользователям этого усовершенствования обычно требуется в два раза больше пищи, чем обычному солнечному человеку, из-за высокой метаболической стоимости искусственного шелководства.
 trait-name-AddictionNicotine = Никотиновая зависимость
 trait-description-AddictionNicotine = У вас зависимость от никотина, и вам понадобятся частые перекуры, чтобы сохранить свой рассудок.
-trait-name-ValyrianStandard = Valyrian Standard
+trait-name-ValyrianStandard = Валирийский стандарт
 trait-description-ValyrianStandard =
-    A language descended from eastern european languages of old earth - Valyrian Standard is the commonly spoken tongue of Harpies brought up on their homeworld of Valyrian 4b
-    It is rarely spoken outside of the worlds of its native speakers, and has in modern times been supplanted by the 'Conlangs of the Sol Alliance.
-    Its speakers are those who wish to uphold the traditions and beliefs of ancient peoples from before the colonial era.
+    Язык, произошедший от восточноевропейских языков старого земного валирийского стандарта, является общепринятым языком гарпий, выросших на своей родной планете Валирий 4b
+    На нем редко говорят за пределами миров, где он является родным, и в наше время он был вытеснен Солнечным языком.
+    На нем говорят те, кто желает поддерживать традиции и верования древних народов, живших до колониальной эпохи.

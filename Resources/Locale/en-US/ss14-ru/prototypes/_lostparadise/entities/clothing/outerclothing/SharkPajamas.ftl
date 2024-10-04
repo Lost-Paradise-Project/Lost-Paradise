@@ -1,0 +1,12 @@
+ent-LPPClothingOuterCoatPajamsSharkPink = Pink shark pajamas
+    .desc = And I'm a fish, I'm a fish, I'm a fish....
+ent-LPPHelmetPajamsSharkPink = shark pajama hood
+    .desc = Cuteness :3
+ent-LPPClothingOuterCoatPajamsSharkBlue = Blue shark pajamas
+    .desc = And I'm a fish, I'm a fish, I'm a fish....
+ent-LPPHelmetPajamsSharkBlue = shark pajama hood
+    .desc = Cuteness :3
+ent-LPPClothingOuterCoatPajamsSharkGray = Grey shark pajamas
+    .desc = And I'm a fish, I'm a fish, I'm a fish....
+ent-LPPHelmetPajamsSharkGray = shark pajama hood
+    .desc = Cuteness :3

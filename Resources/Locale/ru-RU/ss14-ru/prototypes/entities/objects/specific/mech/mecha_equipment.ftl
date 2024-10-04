@@ -1,8 +1,8 @@
 ent-BaseMechEquipment = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
-ent-MechEquipmentGrabber = гидравлическая клешня
+ent-MechEquipmentGrabber = Гидравлическая клешня
     .desc = Даёт меху возможность хватать и перемещать предметы.
-ent-MechEquipmentGrabberSmall = малая гидравлическая клешня
+ent-MechEquipmentGrabberSmall = Малая гидравлическая клешня
     .desc = Даёт меху возможность хватать и перемещать предметы.
-ent-MechEquipmentHorn = гудок мехи
+ent-MechEquipmentHorn = Гудок мехи
     .desc = Усиленный велосипедный гудок, воспроизводящий множество уморительных звуков на радость экипажу. ХОНК!

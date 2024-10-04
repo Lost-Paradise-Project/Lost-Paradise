@@ -2,11 +2,11 @@
   id: TajaranSpecies
   name: species-name-tajaran
   roundStart: true #can player role
-  prototype: MobTajaran
+  prototype: LPPMobTajaran
   sprites: MobTajaranSprites
   defaultSkinTone: "#a6866d"
   markingLimits: MobTajaranMarkingLimits
-  dollPrototype: MobTajaranDummy
+  dollPrototype: LPPMobTajaranDummy
   skinColoration: Hues
   maleFirstNames: firstMaleTajaran
   femaleFirstNames: firstFemaleTajaran

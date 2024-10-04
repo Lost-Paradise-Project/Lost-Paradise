@@ -126,30 +126,30 @@
 
 - type: storeCategory
   id: LPPhosweapon
-  name: Вооружение
+  name: store-category-hos-weapon
   priority: 0
 
 - type: storeCategory
   id: LPPhosarmor
-  name: Броня
+  name: store-category-hos-armor
   priority: 1
 
 - type: storeCategory
   id: LPPhosammo
-  name: Боеприпасы
+  name: store-category-hos-ammo
   priority: 2
 
 - type: storeCategory
   id: LPPhosbrigmed
-  name: Первая помощь
+  name: store-category-hos-brigmed
   priority: 3
 
 - type: storeCategory
   id: LPPhosbrigtech
-  name: Инструментарий
+  name: store-category-hos-brigtech
   priority: 4
 
 - type: storeCategory
   id: LPPmisc
-  name: Разное
+  name: store-category-misc
   priority: 5

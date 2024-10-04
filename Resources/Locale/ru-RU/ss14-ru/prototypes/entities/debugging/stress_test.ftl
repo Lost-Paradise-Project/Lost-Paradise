@@ -1,3 +1,3 @@
-ent-StressTest = стресс тест
-    .suffix = DEBUG
+ent-StressTest = Стресс тест
+    .suffix = ДЕБАГ
     .desc = { "" }

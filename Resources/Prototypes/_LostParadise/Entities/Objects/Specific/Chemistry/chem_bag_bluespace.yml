@@ -1,6 +1,6 @@
 - type: entity
   name: bluespace chem bag
-  id: BluespaceChemBag
+  id: LPPBluespaceChemBag
   parent: BaseStorageItem
   description: A bluespace bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
   components:

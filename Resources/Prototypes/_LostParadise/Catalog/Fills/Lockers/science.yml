@@ -1,7 +1,7 @@
 - type: entity
-  id: LockerExpeditorFilled
+  id: LPPLockerExpeditorFilled
   suffix: Expeditor, Filled
-  parent: LockerExpeditor
+  parent: LPPLockerExpeditor
   components:
   - type: StorageFill
     contents:

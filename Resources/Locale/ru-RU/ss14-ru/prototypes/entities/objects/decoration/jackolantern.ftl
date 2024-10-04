@@ -1,6 +1,6 @@
-ent-CarvedPumpkin = вырезанная тыква
+ent-CarvedPumpkin = Вырезанная тыква
     .desc = Традиционное страшное украшение.
-ent-PumpkinLantern = тыквенный фонарик
+ent-PumpkinLantern = Тыквенный фонарик
     .desc = Вырезанная тыква, излучающая жутковатое свечение.
 ent-CarvedPumpkinSmall = { ent-CarvedPumpkin }
     .suffix = Маленький

@@ -69,8 +69,8 @@
 - type: entity
   id: LPPSpaceForgeCircuitBoard
   parent: BaseMachineCircuitboard
-  name: космическая кузница (машинная плата)
-  description: Плата для создания космической кузницы.
+  name: Space Forge (Circuit board)
+  description: Circuit for creating Space Forge
   components:
   - type: MachineBoard
     prototype: LPPSpaceForge
@@ -90,7 +90,7 @@
 - type: entity
   id: LPPAdvResearchAndDevelopmentPointSourceCircuitBoard
   parent: BaseMachineCircuitboard
-  name: Adv R&D point source ( Circuit Board )
+  name: Adv R&D point source (Circuit Board)
   description: lppdesc-adv-rnd-point-source-board.
   components:
   - type: Sprite
@@ -109,8 +109,8 @@
 - type: entity
   id: LPPSpaceForgeCircuitBoardCMDAndSec
   parent: BaseMachineCircuitboard
-  name: космическая кузница командования (машинная плата)
-  description: Плата для создания космической кузницы командования.
+  name: Space Forge of Command (Circuit Board)
+  description: Circuit for creating Space Forge of Command
   components:
   - type: MachineBoard
     prototype: LPPSpaceForgeCMDAndSec

@@ -1,0 +1,12 @@
+marking-LPPRobotAntennaTv = Tv
+marking-LPPIPCAntennaTesla = Тесла
+marking-LPPIPCAntennaLightb = Свет (alt)
+marking-LPPIPCAntennaLight = Свет
+marking-LPPIPCAntennaCyberHead = Кибер
+marking-LPPIPCAntennaSideLight = Боковые огни
+marking-LPPIPCAntennaAntlers = Рога
+marking-LPPIPCAntennaDroneeyes = Глаза дрона
+marking-LPPIPCAntennaCrowned = Коронованный
+marking-LPPIPCAntennaTowers = Башни
+marking-LPPIPCAntennaLizard = Рога (Унатх)
+marking-LPPIPCAntennaShortLizard = Короткие рога (Унатх)

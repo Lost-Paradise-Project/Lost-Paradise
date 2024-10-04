@@ -1,4 +1,4 @@
 ent-ClothingOuterRobeBrown = Коричневая роба
     .desc = Она точно не выглядит жуткой.
-ent-ClothingOuterRobeTechPriest = роба Механикуса
+ent-ClothingOuterRobeTechPriest = Роба Механикуса
     .desc = Если задуматся, то роботы, по своей сути - это быки. По данной не логичной причине надо носить красное!

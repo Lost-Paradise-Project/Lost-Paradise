@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: LPPweaponPibodi
-  name: самозарядная винтовка Пибоди
-  description: Адская смесь протокинетического ускорителя и классического огнестрела. Преобразует и накапливает углерод из атмосферы в снаряды, преобразовывая часть него в подобие пороха для выстрела, на что требуется довольно много времени, а пока вы можете потыкать своего противника интегрированным штыком.
+  name: Pibodi self-loading rifle
+  description: A hellish mix of just kinetic accelerator and classic firearms. Converts and accumulates carbon from the atmosphere into projectiles, converting part of it into a kind of gunpowder for firing, which takes quite a long time, but in the meantime you can poke your opponent with an integrated bayonet.
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Guns/Rifles/Pibodi.rsi

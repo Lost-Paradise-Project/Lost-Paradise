@@ -1,7 +1,7 @@
-ent-ClothingHandsGlovesInspection = перчатки инспектора
+ent-ClothingHandsGlovesInspection = Перчатки инспектора
     .desc = Модная пара белых перчаток, одновременно прочных и изящных.
-ent-ClothingHandsGlovesRyuzoGauntlets = золотые перчатки
+ent-ClothingHandsGlovesRyuzoGauntlets = Золотые перчатки
     .desc = Потому что иногда все должно основываться только на твоих кулаках.
     .suffix = АДМЕМЫ, НЕ МАППИТЬ
-ent-ClothingHandsGlovesChemist = плотные нитриловые перчатки
+ent-ClothingHandsGlovesChemist = Плотные нитриловые перчатки
     .desc = Пара толстых перчаток, которые обеспечивают некоторую защиту от едких химикатов.

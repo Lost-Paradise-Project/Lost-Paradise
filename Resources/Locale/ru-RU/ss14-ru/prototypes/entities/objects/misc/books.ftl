@@ -1,4 +1,4 @@
-ent-BookBase = книга
+ent-BookBase = Книга
     .desc = Книга в твёрдом переплёте.
 ent-BookSpaceEncyclopedia = Космическая энциклопедия
     .desc = Энциклопедия, содержащая все знания мира. Автор неизвестен.
@@ -6,8 +6,6 @@ ent-BookTheBookOfControl = Книга контроля
     .desc = Необходима для достижения робаста.
 ent-BookBartendersManual = Руководство бармена
     .desc = Это руководство забрызгано пивом.
-ent-BookHowToCookForFortySpaceman = Как наготовить на сорок космонавтов
-    .desc = Книга о кулинарии, написанная космическим шеф-поваром.
 ent-BookLeafLoversSecret = Секрет листолюба
     .desc = Имеет стойкий аромат травки. Он мотивирует вас сеять и жать.
 ent-BookEngineersHandbook = Справочник инженера

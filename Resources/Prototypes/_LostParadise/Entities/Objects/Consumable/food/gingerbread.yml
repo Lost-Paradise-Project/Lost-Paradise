@@ -1,8 +1,8 @@
 - type: entity
-  name: мятный пряник
+  name: Peppermint Gingerbread
   parent: FoodSnackBase
   id: LPPFoodGingerBread
-  description: Вкусный мятный пряник, обладающий лечебными свойствами, любимое угощение одной сладкой дамочки, а так же древних русов. Самое то в прикуску с квасом.
+  description: Delicious peppermint gingerbread, which has medical properties, is a favorite treat of one sweet lady, as well as ancient Russes. The best thing about a snack with kvass.
   components:
   - type: FlavorProfile
     flavors:
@@ -28,10 +28,10 @@
       #         Piercing: -2
 
 - type: entity
-  name: пвяник
+  name: Gingewbwead
   parent: FoodSnackBase
   id: LPPFoodGingevBvead
-  description: Прототип самого UwUшного пвяника во всей галактике. За разработкой стоит неизвестная любительница пвяников и мастодонт по производству пряниковых изделий в галактике, та, чьё имя нельзя произносить в слух (иначе забанят). В составе содержится личезин, лекарство, что лечит от брейнротинга и воздействий от радиации.
+  description: The prototype of the most OwOpular gingerbread in the entire galaxy. Behind the development is an unknown lover of gingerbread and a mastodon for the production of gingerbread products in the galaxy, one whose name cannot be pronounced aloud (otherwise they will be banned). The composition contains lichyesin, a medicine that treats brainroting and radiation effects.
   components:
   - type: FlavorProfile
     flavors:

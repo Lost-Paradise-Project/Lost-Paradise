@@ -1,0 +1,5 @@
+﻿- type: jukebox
+  id: LPPPivoDance
+  name: Pivo Dance - BL02DL
+  path:
+    path: /Audio/Jukebox/PivoDance.ogg

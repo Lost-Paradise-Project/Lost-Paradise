@@ -50,9 +50,9 @@
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
       - map: [ "socks" ]
-      - map: [ "jumpsuit" ]
       - map: [ "enum.HumanoidVisualLayers.LHand" ]
       - map: [ "enum.HumanoidVisualLayers.RHand" ]
+      - map: [ "jumpsuit" ]
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi

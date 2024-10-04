@@ -1,4 +1,4 @@
-ent-CocoonedHumanoid = гуманойд в коконе
+ent-CocoonedHumanoid = Гуманойд в коконе
     .desc = Не повезло.
-ent-CocoonSmall = кокон
+ent-CocoonSmall = Кокон
     .desc = Интересно, что же внутри...?

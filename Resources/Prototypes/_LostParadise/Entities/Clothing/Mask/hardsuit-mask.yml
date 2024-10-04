@@ -2,8 +2,8 @@
   parent: ClothingMaskBase
   id: LPPClothingMaskAcientSyndie
   noSpawn: true
-  name: шлем древнего скафандра Синдиката (боевой режим)
-  description: Шлем от странного скафандра Синдиката, он в боевом режиме.
+  name: Helmet of the ancient Syndicate space suit (combat mode)
+  description: The helmet is from a strange Syndicate space suit, it's in combat mode.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Mask/acienthelmsyndiebattle.rsi
@@ -32,8 +32,8 @@
   parent: ClothingMaskBase
   id: LPPClothingMaskHunter
   noSpawn: true
-  name: шлем скафандра охотника (походный)
-  description: Крайне комфорнтый шлем, что позволяет вам защититься от морозной погоды. Он в походном режиме.
+  name: hunter's space suit helmet (camping)
+  description: An extremely comfortable helmet that allows you to protect yourself from the frosty weather. It's in camping mode.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Mask/winterhuntermask.rsi

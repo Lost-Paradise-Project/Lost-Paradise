@@ -1,0 +1,14 @@
+ent-LPPHypnogogglesPink = розовые очки
+    .desc = { ent-ClothingEyesBase.desc }
+ent-LPPHypnogogglesTeal = голубые очки
+    .desc = { ent-ClothingEyesBase.desc }
+ent-LPPClothingKblindfoldTeal = голубая повязка
+    .desc = Слепой ведет слепого за собой.
+ent-LPPClothingKblindfoldPink = розовая повязка
+    .desc = Слепой ведет слепого за собой.
+ent-LPPClothingEyesGlassesSunglassesPG = защитные очки ПГ
+    .desc = Защищают от солнца и ярких вспышек. Полезно для специальных операций..
+ent-LPPClothingEyesGlassesNVG = ПНВ ПГ
+    .desc = Помогают лучше видеть в ночи. Полезно для Специальных операций.
+ent-LPPCASglasses = Очки CAS
+    .desc = Чёрно-белые очки.

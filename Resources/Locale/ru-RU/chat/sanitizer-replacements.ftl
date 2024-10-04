@@ -21,6 +21,3 @@ chatsan-tearfully-salutes = отдаёт честь со слезами на г�
 chatsan-tearfully-smiles = улыбается со слезами на глазах
 chatsan-winks = подмигивает
 chatsan-shrugs = пожимает плечами
-chatsan-awoo = воет
-chatsan-hiss = шипит
-chatsan-nyaaa = някает

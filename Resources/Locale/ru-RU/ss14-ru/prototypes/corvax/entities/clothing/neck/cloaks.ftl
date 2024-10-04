@@ -1,4 +1,4 @@
-ent-ClothingNeckCloakCentcomBlack = плащ офицера специальных операций
+ent-ClothingNeckCloakCentcomBlack = Плащ офицера специальных операций
     .desc = Вышитый золотом логотип компании Nanotrasen говорит сам за себя.
-ent-ClothingNeckCloakCentcomAdmiral = плащ адмирала
+ent-ClothingNeckCloakCentcomAdmiral = Плащ адмирала
     .desc = Яркий зелёный плащ с золотым шитьём, который носят адмиралы флота Nanotrasen.

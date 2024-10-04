@@ -1,9 +1,9 @@
 - type: entity
-  name: Мобильная турель
+  name: Mobile turret
   suffix: NanoTrasen, Turret
   parent: ToolboxElectrical
   id: LPPToolboxElectricalTurretNT
-  description: Мобильная турель, которая повсеместно применяется военными инженерами
+  description: A mobile turret that is widely used by military engineers
   components:
   - type: Damageable
     damageContainer: Inorganic

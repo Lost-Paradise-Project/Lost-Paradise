@@ -1,0 +1,14 @@
+ent-LPPHypnogogglesPink = Hypnogoggles pink
+    .desc = { ent-ClothingEyesBase.desc }
+ent-LPPHypnogogglesTeal = Hypnogoggles teal
+    .desc = { ent-ClothingEyesBase.desc }
+ent-LPPClothingKblindfoldTeal = Kblindfold teal
+    .desc = The bind leading the blind.
+ent-LPPClothingKblindfoldPink = Kblindfold pink
+    .desc = The bind leading the blind.
+ent-LPPClothingEyesGlassesSunglassesPG = PG black protection glasses
+    .desc = Useful for special operations.
+ent-LPPClothingEyesGlassesNVG = PG nightvision goggles
+    .desc = Useful for special operations.
+ent-LPPCASglasses = CAS glasses
+    .desc = Black and white glasses.

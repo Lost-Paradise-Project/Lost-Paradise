@@ -1,6 +1,6 @@
-ent-BaseFenceMetal = сетка-рабица
+ent-BaseFenceMetal = Сетка-рабица
     .desc = Металлическое ограждение, отгораживающее что-то, вероятно, очень важное.
-ent-FenceMetalBroken = сломанная сетка-рабица
+ent-FenceMetalBroken = Сломанная сетка-рабица
     .desc = Кто-то очень разозлился на неодушевлённый предмет.
 ent-FenceMetalStraight = { ent-BaseFenceMetal }
     .suffix = Прямой
@@ -11,5 +11,5 @@ ent-FenceMetalCorner = { ent-BaseFenceMetal }
 ent-FenceMetalEnd = { ent-BaseFenceMetal }
     .suffix = Конец
     .desc = { ent-BaseFenceMetal.desc }
-ent-FenceMetalGate = ворота сетки-рабицы
+ent-FenceMetalGate = Ворота сетки-рабицы
     .desc = Вы можете использовать дверь вместо того, чтобы перелезать через неё - если вы ТРУС.

@@ -1,4 +1,4 @@
-ent-Screen = экран
+ent-Screen = Экран
     .desc = Отображает текст или время.
-ent-ArrivalsShuttleTimer = экран прибытия
+ent-ArrivalsShuttleTimer = Экран прибытия
     .desc = { ent-Screen.desc }

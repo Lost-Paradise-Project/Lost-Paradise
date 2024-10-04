@@ -1,8 +1,8 @@
-ent-LootSpawnerContrabandLow = спавнер контрабанда
+ent-LootSpawnerContrabandLow = Спавнер контрабанда
     .suffix = Низкая ценность
     .desc = { ent-MarkerBase.desc }
-ent-LootSpawnerContraband = спавнер контрабанда
+ent-LootSpawnerContraband = Спавнер контрабанда
     .desc = { ent-MarkerBase.desc }
-ent-LootSpawnerContrabandHigh = спавнер контрабанда
+ent-LootSpawnerContrabandHigh = Спавнер контрабанда
     .suffix = Высокая ценность
     .desc = { ent-MarkerBase.desc }

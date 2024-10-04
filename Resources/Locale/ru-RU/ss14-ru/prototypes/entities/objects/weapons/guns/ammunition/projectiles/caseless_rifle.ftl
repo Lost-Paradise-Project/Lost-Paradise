@@ -1,4 +1,6 @@
-ent-BulletCaselessRifle = пуля (.25 безгильзовая)
+ent-BulletCaselessRifle = Пуля (.25 безгильзовая)
     .desc = { ent-BaseBullet.desc }
-ent-BulletCaselessRiflePractice = пуля (.25 безгильзовая учебная)
+ent-BulletCaselessRiflePractice = Пуля (.25 безгильзовая учебная)
     .desc = { ent-BaseBulletPractice.desc }
+ent-BulletCaselessRifleRubber = Пуля (.25 безгильзовая резиновая)
+    .desc = { ent-BaseBulletRubber.desc }

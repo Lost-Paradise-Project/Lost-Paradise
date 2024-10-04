@@ -1,9 +1,9 @@
 ﻿# TODO: Add descriptions (many)
 # TODO BODY: Part damage
 - type: entity
-  id: PartTajaran
+  id: LPPPartTajaran
   parent: BaseItem
-  name: "Таяр части тела"
+  name: "Tajaran parts of body"
   abstract: true
   components:
     - type: Damageable
@@ -15,9 +15,9 @@
           ents: []
 
 - type: entity
-  id: TorsoTajaran
-  name: "тело таяра"
-  parent: PartTajaran
+  id: LPPTorsoTajaran
+  name: "Tajaran body"
+  parent: LPPPartTajaran
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Tajaran/parts.rsi
@@ -29,9 +29,9 @@
       partType: Torso
 
 - type: entity
-  id: HeadTajaran
-  name: "голова таяра"
-  parent: PartTajaran
+  id: LPPHeadTajaran
+  name: "Tajaran head"
+  parent: LPPPartTajaran
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Tajaran/parts.rsi
@@ -54,9 +54,9 @@
         - Head
 
 - type: entity
-  id: LeftArmTajaran
-  name: "левая рука таяра"
-  parent: PartTajaran
+  id: LPPLeftArmTajaran
+  name: "Tajaran left arm"
+  parent: LPPPartTajaran
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Tajaran/parts.rsi
@@ -69,9 +69,9 @@
       symmetry: Left
 
 - type: entity
-  id: RightArmTajaran
-  name: "правая рука таяра"
-  parent: PartTajaran
+  id: LPPRightArmTajaran
+  name: "Tajaran right arm"
+  parent: LPPPartTajaran
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Tajaran/parts.rsi
@@ -84,9 +84,9 @@
       symmetry: Right
 
 - type: entity
-  id: LeftHandTajaran
-  name: "левая кисть таяра"
-  parent: PartTajaran
+  id: LPPLeftHandTajaran
+  name: "Tajaran left hand"
+  parent: LPPPartTajaran
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Tajaran/parts.rsi
@@ -99,9 +99,9 @@
       symmetry: Left
 
 - type: entity
-  id: RightHandTajaran
-  name: "правая кисть таяра"
-  parent: PartTajaran
+  id: LPPRightHandTajaran
+  name: "Tajaran left hand"
+  parent: LPPPartTajaran
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Tajaran/parts.rsi
@@ -114,9 +114,9 @@
       symmetry: Right
 
 - type: entity
-  id: TailTajaran
-  name: "хвост таяра"
-  parent: PartTajaran
+  id: LPPTailTajaran
+  name: "Tajaran tail"
+  parent: LPPPartTajaran
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Tajaran/parts.rsi
@@ -128,9 +128,9 @@
       partType: Tail
 
 - type: entity
-  id: LeftLegTajaran
-  name: "левая нога таяра"
-  parent: PartTajaran
+  id: LPPLeftLegTajaran
+  name: "Tajaran left leg"
+  parent: LPPPartTajaran
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Tajaran/parts.rsi
@@ -146,9 +146,9 @@
       sprintSpeed: 4.9
 
 - type: entity
-  id: RightLegTajaran
-  name: "правая нога таяра"
-  parent: PartTajaran
+  id: LPPRightLegTajaran
+  name: "Tajaran right leg"
+  parent: LPPPartTajaran
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Tajaran/parts.rsi
@@ -164,9 +164,9 @@
       sprintSpeed: 4.9
 
 - type: entity
-  id: LeftFootTajaran
-  name: "левая ступня таяра"
-  parent: PartTajaran
+  id: LPPLeftFootTajaran
+  name: "Tajaran left foot"
+  parent: LPPPartTajaran
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Tajaran/parts.rsi
@@ -179,9 +179,9 @@
       symmetry: Left
 
 - type: entity
-  id: RightFootTajaran
-  name: "правая ступня таяра"
-  parent: PartTajaran
+  id: LPPRightFootTajaran
+  name: "Tajaran right foot"
+  parent: LPPPartTajaran
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Tajaran/parts.rsi

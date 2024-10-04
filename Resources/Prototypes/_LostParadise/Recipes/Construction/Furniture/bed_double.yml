@@ -1,13 +1,13 @@
 #______________________________________|
 #              кровать
 - type: construction
-  name: верхнаяя сторона кровати
+  name: Double bed up
   id: LPPBedDoubleUp
   graph: LPPBedDouble
   startNode: start
   targetNode: LPPBedDoubleUp
   category: construction-category-structures
-  description: Что бы было удобно!
+  description: What would be convenient!
   conditions:
     - !type:TileNotBlocked
   icon:
@@ -18,13 +18,13 @@
   canBuildInImpassable: false
 
 - type: construction
-  name: нижняя сторона кровати
+  name: Double bed down
   id: LPPBedDoubleDown
   graph: LPPBedDouble
   startNode: start
   targetNode: LPPBedDoubleDown
   category: construction-category-structures
-  description: Что бы было удобно!
+  description: What would be convenient!
   conditions:
     - !type:TileNotBlocked
   icon:

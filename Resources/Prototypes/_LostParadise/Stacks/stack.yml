@@ -1,6 +1,6 @@
 - type: stack
   id: LPPProcessedDiamond
-  name: обработанный алмаз
+  name: processed diamond
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: diamond }
   spawn: LPPProcessedDiamond1
   maxCount: 30

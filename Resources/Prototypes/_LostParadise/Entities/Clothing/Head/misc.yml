@@ -130,3 +130,13 @@
   - type: Clothing
     sprite: _LostParadise/Clothing/Head/Hats/red-beanie.rsi
 
+- type: entity
+  parent: ClothingHeadBaseButcherable
+  id: LPPBandana
+  name: snake bandana
+  description: A bandana to make you look even cooler.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Bandanas/bandana.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Bandanas/bandana.rsi

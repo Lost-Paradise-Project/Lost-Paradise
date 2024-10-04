@@ -1,11 +1,11 @@
 - type: construction
-  name: дренаж
+  name: Drain
   id: FloorDrain
   graph: FloorDrain
   startNode: start
   targetNode: FloorDrain
   category: construction-category-structures
-  description: Сливает лужи вокруг в себя. Пригодится для опорожнения ведер или поддержания чистоты в определенных помещениях
+  description: Drains the puddles around into itself. Useful for emptying buckets or keeping certain areas clean
   icon:
     sprite: /Textures/Objects/Specific/Janitorial/drain.rsi
     state: icon

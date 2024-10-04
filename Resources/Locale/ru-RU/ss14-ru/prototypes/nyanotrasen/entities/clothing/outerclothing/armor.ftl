@@ -1,6 +1,6 @@
-ent-ClothingOuterArmorGladiator = доспехи гладиатора
+ent-ClothingOuterArmorGladiator = Доспехи гладиатора
     .desc = Старый добрый комплект доспехов из вареной кожи с пряжками, ремнями и украшенным наплечником. Вам не интересно?
-ent-ClothingOuterArmorKendoBogu = богу
+ent-ClothingOuterArmorKendoBogu = Богу
     .desc = Комплект доспехов, используемых в кендо. Он закрывает талию, торс и руки.
-ent-ClothingOuterArmorTouseiGusoku = тоусей-гусоку
+ent-ClothingOuterArmorTouseiGusoku = Тоусей-гусоку
     .desc = Современная копия доспехов Ни-май-до Гусоку.

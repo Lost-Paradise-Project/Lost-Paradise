@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: "Акула"
+  name: "Shark"
   parent: LPPBaseMobShark
   id: LPPMobShark
   components:

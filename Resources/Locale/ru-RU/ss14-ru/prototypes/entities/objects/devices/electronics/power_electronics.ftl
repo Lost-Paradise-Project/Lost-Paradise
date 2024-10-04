@@ -1,10 +1,10 @@
-ent-APCElectronics = микросхема ЛКП
+ent-APCElectronics = Микросхема ЛКП
     .desc = Микросхема, используемая в создании ЛКП.
-ent-WallmountSubstationElectronics = микросхема настенной подстанции
+ent-WallmountSubstationElectronics = Микросхема настенной подстанции
     .desc = Микросхема, используемая в создании настенной подстанции.
-ent-WallmountGeneratorElectronics = микросхема настенного генератора
+ent-WallmountGeneratorElectronics = Микросхема настенного генератора
     .desc = Микросхема, используемая в создании настенного генератора.
-ent-WallmountGeneratorAPUElectronics = микросхема настенной ВСУ
+ent-WallmountGeneratorAPUElectronics = Микросхема настенной ВСУ
     .desc = Микросхема, используемая в создании настенной ВСУ.
-ent-SolarTrackerElectronics = микросхема солнечного трекера
+ent-SolarTrackerElectronics = Микросхема солнечного трекера
     .desc = Отслеживает позицию солнца и автоматически поворачивает вслед солнечные панели, что значительно повышает их эффективность.

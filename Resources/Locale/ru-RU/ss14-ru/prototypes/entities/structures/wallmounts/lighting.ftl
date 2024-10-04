@@ -1,4 +1,4 @@
-ent-WallLight = светильник
+ent-WallLight = Светильник
     .desc = Обесточенный светильник.
     .suffix = Обесточенный
 ent-UnpoweredLightLED = { ent-WallLight }

@@ -28,7 +28,5 @@ markings-category-RightLeg = Права Нога
 markings-category-RightFoot = Правая Пятка
 markings-category-LeftLeg = Левая Нога
 markings-category-LeftFoot = Левая Пятка
-markings-category-Arms = Руки
-markings-category-Legs = Ноги
 markings-category-Tail = Хвост
 markings-category-Overlay = Наложение

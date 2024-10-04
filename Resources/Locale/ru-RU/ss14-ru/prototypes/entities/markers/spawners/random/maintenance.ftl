@@ -1,12 +1,12 @@
-ent-MaintenanceFluffSpawner = спавнер добыча тех туннели
+ent-MaintenanceFluffSpawner = Спавнер добыча тех туннели
     .suffix = Разное+Одежда
     .desc = { ent-MarkerBase.desc }
-ent-MaintenanceToolSpawner = спавнер добыча тех туннели
+ent-MaintenanceToolSpawner = Спавнер добыча тех туннели
     .suffix = Инструменты+Батареи+Материалы
     .desc = { ent-MarkerBase.desc }
-ent-MaintenanceWeaponSpawner = спавнер добыча тех туннели
+ent-MaintenanceWeaponSpawner = Спавнер добыча тех туннели
     .suffix = Хлам+Оружие
     .desc = { ent-MarkerBase.desc }
-ent-MaintenancePlantSpawner = спавнер добыча тех туннели
+ent-MaintenancePlantSpawner = Спавнер добыча тех туннели
     .suffix = Растения
     .desc = { ent-MarkerBase.desc }

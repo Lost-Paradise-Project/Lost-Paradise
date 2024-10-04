@@ -1,9 +1,9 @@
 # TODO: Add descriptions (many)
 # TODO BODY: Part damage
 - type: entity
-  id: PartShark
+  id: LPPPartShark
   parent: BaseItem
-  name: PartShark
+  name: LPPPartShark
   abstract: true
   components:
     - type: Damageable
@@ -15,9 +15,9 @@
           ents: []
 
 - type: entity
-  id: TorsoShark
-  name: TorsoShark
-  parent: PartShark
+  id: LPPTorsoShark
+  name: LPPTorsoShark
+  parent: LPPPartShark
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Shark/parts.rsi
@@ -29,9 +29,9 @@
       partType: Torso
 
 - type: entity
-  id: HeadShark
-  name: HeadShark
-  parent: PartShark
+  id: LPPHeadShark
+  name: LPPHeadShark
+  parent: LPPPartShark
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Shark/parts.rsi
@@ -54,9 +54,9 @@
         - Head
 
 - type: entity
-  id: LeftArmShark
-  name: LeftArmShark
-  parent: PartShark
+  id: LPPLeftArmShark
+  name: LPPLeftArmShark
+  parent: LPPPartShark
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Shark/parts.rsi
@@ -69,9 +69,9 @@
       symmetry: Left
 
 - type: entity
-  id: RightArmShark
-  name: RightArmShark
-  parent: PartShark
+  id: LPPRightArmShark
+  name: LPPRightArmShark
+  parent: LPPPartShark
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Shark/parts.rsi
@@ -84,9 +84,9 @@
       symmetry: Right
 
 - type: entity
-  id: LeftHandShark
-  name: LeftHandShark
-  parent: PartShark
+  id: LPPLeftHandShark
+  name: LPPLeftHandShark
+  parent: LPPPartShark
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Shark/parts.rsi
@@ -99,9 +99,9 @@
       symmetry: Left
 
 - type: entity
-  id: RightHandShark
-  name: RightHandShark
-  parent: PartShark
+  id: LPPRightHandShark
+  name: LPPRightHandShark
+  parent: LPPPartShark
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Shark/parts.rsi
@@ -114,9 +114,9 @@
       symmetry: Right
 
 - type: entity
-  id: TailShark
-  name: TailShark
-  parent: PartShark
+  id: LPPTailShark
+  name: LPPTailShark
+  parent: LPPPartShark
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Shark/parts.rsi
@@ -128,9 +128,9 @@
       partType: Tail
 
 - type: entity
-  id: LeftLegShark
-  name: LeftLegShark
-  parent: PartShark
+  id: LPPLeftLegShark
+  name: LPPLeftLegShark
+  parent: LPPPartShark
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Shark/parts.rsi
@@ -146,9 +146,9 @@
       sprintSpeed: 4.9
 
 - type: entity
-  id: RightLegShark
-  name: RightLegShark
-  parent: PartShark
+  id: LPPRightLegShark
+  name: LPPRightLegShark
+  parent: LPPPartShark
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Shark/parts.rsi
@@ -164,9 +164,9 @@
       sprintSpeed: 4.9
 
 - type: entity
-  id: LeftFootShark
-  name: LeftFootShark
-  parent: PartShark
+  id: LPPLeftFootShark
+  name: LPPLeftFootShark
+  parent: LPPPartShark
   components:
     - type: Sprite
       sprite: _LostParadise/Mobs/Species/Shark/parts.rsi
@@ -179,8 +179,8 @@
       symmetry: Left
 
 - type: entity
-  id: RightFootShark
-  name: RightFootShark
+  id: LPPRightFootShark
+  name: LPPRightFootShark
   parent: PartVulpkanin
   components:
     - type: Sprite

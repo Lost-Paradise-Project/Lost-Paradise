@@ -1,4 +1,4 @@
-ent-CrateEngineeringThruster = ящик с ракетным двигателем
+ent-CrateEngineeringThruster = Ящик с ракетным двигателем
     .desc = Содержит упаковку, при помощи которой можно создать ракетный двигатель.
-ent-CrateEngineeringGyroscope = ящик с гироскопом
+ent-CrateEngineeringGyroscope = Ящик с гироскопом
     .desc = Содержит упаковку, при помощи которой можно создать гироскоп.

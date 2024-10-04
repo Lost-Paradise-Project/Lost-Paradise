@@ -2,7 +2,7 @@
   save: false
   name: Tajaran McHands
   parent: BaseMobSpeciesOrganic
-  id: BaseMobTajaran
+  id: LPPBaseMobTajaran
   abstract: true
   components:
     - type: HumanoidAppearance
@@ -70,7 +70,7 @@
   save: false
   name: Tajaran McHands
   parent: MobHumanDummy
-  id: MobTajaranDummy
+  id: LPPMobTajaranDummy
   noSpawn: true
   description: A dummy tajaran meant to be used in character setup.
   components:

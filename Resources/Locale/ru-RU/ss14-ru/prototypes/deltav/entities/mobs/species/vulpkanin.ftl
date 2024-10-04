@@ -1,4 +1,4 @@
-ent-BaseMobVulpkanin = Урист МакВултп
+ent-BaseMobVulpkanin = Урист МакВульп
     .desc = { ent-BaseMobSpeciesOrganic.desc }
-ent-MobVulpkaninDummy = Vulpkanin Dummy
-    .desc = A dummy vulpkanin meant to be used in character setup.
+ent-MobVulpkaninDummy = Урист МакВульп
+    .desc = Тупой вульпакин для чего-то. Вы вообще как это нашли?
