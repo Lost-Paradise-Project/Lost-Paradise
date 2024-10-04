@@ -49,8 +49,8 @@
     Cloth: 300
 
 - type: latheRecipe
-  id: ClothingUniformJumpskirtAdjutant
-  result: ClothingUniformJumpskirtAdjutant
+  id: LPPClothingUniformJumpskirtAdjutant
+  result: LPPClothingUniformJumpskirtAdjutant
   completetime: 4
   materials:
     Cloth: 300
@@ -252,8 +252,8 @@
     Cloth: 300
 
 - type: latheRecipe
-  id: ClothingUniformJumpsuitAdjutant
-  result: ClothingUniformJumpsuitAdjutant
+  id: LPPClothingUniformJumpsuitAdjutant
+  result: LPPClothingUniformJumpsuitAdjutant
   completetime: 4
   materials:
     Cloth: 300
@@ -469,8 +469,8 @@
     Cloth: 300
 
 - type: latheRecipe
-  id: ClothingUniformJumpsuitFluppi
-  result: ClothingUniformJumpsuitFluppi
+  id: LPPClothingUniformJumpsuitFluppi
+  result: LPPClothingUniformJumpsuitFluppi
   completetime: 4
   materials:
     Cloth: 300

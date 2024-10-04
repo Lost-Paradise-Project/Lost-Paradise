@@ -1,8 +1,8 @@
-ent-FoodMothCheesecakeBalls = шарик чизкейка
+ent-FoodMothCheesecakeBalls = Шарик чизкейка
     .desc = Это чизкейк, завёрнутый под форму шарика. Подают с мёдом.
-ent-FoodMothMothmallow = тарелка моффшмэллоу
+ent-FoodMothMothmallow = Тарелка моффшмэллоу
     .desc = Лёгкий перекус для каждого ниана. Содержит в себе зефир и ваниль.
-ent-FoodMothMothmallowSlice = кусочек моффшмэллоу
+ent-FoodMothMothmallowSlice = Кусочек моффшмэллоу
     .desc = Маленький кусочек радости!~
-ent-FoodMothMoffin = моффин
+ent-FoodMothMoffin = Моффин
     .desc = Вкусное пирожное с мягкой текстурой.

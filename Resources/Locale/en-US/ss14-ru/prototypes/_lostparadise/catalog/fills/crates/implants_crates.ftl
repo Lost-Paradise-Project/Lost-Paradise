@@ -1,0 +1,16 @@
+ent-LPPCrateFreedomImplants = Freedom implant crate
+    .desc = Crate filled with 5 Freedom implants that allow you to throw off the handcuffs.
+ent-LPPCrateAcidifierImplants = Acidifier implant crate
+    .desc = Crate filled with 5 Acidifier implants that allow you to destroy the body along with the equipment and infection.
+ent-LPPCrateEMPImplants = EMP implant crate
+    .desc = Crate filled with 5 EMP implants which are able to temporarily de-energize the airlocks, neutralize energy weapons and mute headsets.
+ent-LPPCrateScramImplants = Scram implant crate
+    .desc = Crate filled with 5 Scram implants that allow you teleport to a random location.
+ent-LPPCrateMicroBombImplants = Micro-bomb implant crate
+    .desc = Crate filled with 5 Micro-bomb implants which create small explosion after your death
+ent-LPPCrateStorageImplants = Storage implant crate
+    .desc = Crate filled with 5 Storage implants. It can be used as a tactical vest or as a secret pocket when working in the rear.
+ent-LPPCrateDnaScramblerImplants = DNA mixer implant crate
+    .desc = Crate filled with 5 DNA mixer implants, used for long-term work behind enemy lines or under cover.
+ent-LPPCrateMacroBombImplants = Macro-bomb implant crate
+    .desc = Crate filled with 5 Macro-bomb implants which create big explosion with delay after your death

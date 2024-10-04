@@ -260,7 +260,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemDarkS
+  itemDrop: LPPFloorTileItemDarkS
   heatCapacity: 10000
 
 - type: tile
@@ -279,7 +279,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemDarkDiagonalS
+  itemDrop: LPPFloorTileItemDarkDiagonalS
   heatCapacity: 10000
 
 
@@ -299,7 +299,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemDarkHerringboneS
+  itemDrop: LPPFloorTileItemDarkHerringboneS
   heatCapacity: 10000
 
 - type: tile
@@ -318,7 +318,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemDarkDiagonalMiniS
+  itemDrop: LPPFloorTileItemDarkDiagonalMiniS
   heatCapacity: 10000
 
 - type: tile
@@ -337,7 +337,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemDarkMiniS
+  itemDrop: LPPFloorTileItemDarkMiniS
   heatCapacity: 10000
 
 - type: tile
@@ -356,7 +356,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemDarkMonoS
+  itemDrop: LPPFloorTileItemDarkMonoS
   heatCapacity: 10000
 
 - type: tile
@@ -375,7 +375,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemDarkOffsetS
+  itemDrop: LPPFloorTileItemDarkOffsetS
   heatCapacity: 10000
 
 - type: tile
@@ -394,7 +394,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemDarkPavementS
+  itemDrop: LPPFloorTileItemDarkPavementS
   heatCapacity: 10000
 
 - type: tile
@@ -413,7 +413,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemDarkPavementVerticalS
+  itemDrop: LPPFloorTileItemDarkPavementVerticalS
   heatCapacity: 10000
 
 #-----------------------------------------------#
@@ -435,7 +435,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemSteelS
+  itemDrop: LPPFloorTileItemSteelS
   heatCapacity: 10000
 
 - type: tile
@@ -454,7 +454,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemSteelDiagonalS
+  itemDrop: LPPFloorTileItemSteelDiagonalS
   heatCapacity: 10000
 
 
@@ -474,7 +474,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemSteelHerringboneS
+  itemDrop: LPPFloorTileItemSteelHerringboneS
   heatCapacity: 10000
 
 - type: tile
@@ -493,7 +493,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemSteelDiagonalMiniS
+  itemDrop: LPPFloorTileItemSteelDiagonalMiniS
   heatCapacity: 10000
 
 - type: tile
@@ -512,7 +512,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemSteelMiniS
+  itemDrop: LPPFloorTileItemSteelMiniS
   heatCapacity: 10000
 
 - type: tile
@@ -531,7 +531,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemSteelMonoS
+  itemDrop: LPPFloorTileItemSteelMonoS
   heatCapacity: 10000
 
 - type: tile
@@ -550,7 +550,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemSteelOffsetS
+  itemDrop: LPPFloorTileItemSteelOffsetS
   heatCapacity: 10000
 
 - type: tile
@@ -569,7 +569,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemSteelPavementS
+  itemDrop: LPPFloorTileItemSteelPavementS
   heatCapacity: 10000
 
 - type: tile
@@ -588,7 +588,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemSteelPavementVerticalS
+  itemDrop: LPPFloorTileItemSteelPavementVerticalS
   heatCapacity: 10000
 
 #-----------------------------------------------#
@@ -610,7 +610,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemWhiteS
+  itemDrop: LPPFloorTileItemWhiteS
   heatCapacity: 10000
 
 - type: tile
@@ -629,7 +629,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemWhiteDiagonalS
+  itemDrop: LPPFloorTileItemWhiteDiagonalS
   heatCapacity: 10000
 
 
@@ -649,7 +649,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemWhiteHerringboneS
+  itemDrop: LPPFloorTileItemWhiteHerringboneS
   heatCapacity: 10000
 
 - type: tile
@@ -668,7 +668,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemWhiteDiagonalMiniS
+  itemDrop: LPPFloorTileItemWhiteDiagonalMiniS
   heatCapacity: 10000
 
 - type: tile
@@ -687,7 +687,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemWhiteMiniS
+  itemDrop: LPPFloorTileItemWhiteMiniS
   heatCapacity: 10000
 
 - type: tile
@@ -706,7 +706,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemWhiteMonoS
+  itemDrop: LPPFloorTileItemWhiteMonoS
   heatCapacity: 10000
 
 - type: tile
@@ -725,7 +725,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemWhiteOffsetS
+  itemDrop: LPPFloorTileItemWhiteOffsetS
   heatCapacity: 10000
 
 - type: tile
@@ -744,7 +744,7 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemWhitePavementS
+  itemDrop: LPPFloorTileItemWhitePavementS
   heatCapacity: 10000
 
 - type: tile
@@ -763,5 +763,5 @@
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
-  itemDrop: FloorTileItemWhitePavementVerticalS
+  itemDrop: LPPFloorTileItemWhitePavementVerticalS
   heatCapacity: 10000

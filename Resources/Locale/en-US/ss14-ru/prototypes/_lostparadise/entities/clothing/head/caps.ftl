@@ -1,0 +1,10 @@
+ent-LPPClothingHeadHatCapBlack = black cap
+    .desc = A stylish black cap.
+ent-LPPClothingHeadHatCapBlue = blue cap
+    .desc = A stylish blue cap.
+ent-LPPClothingHeadHatCapGreen = green cap
+    .desc = A stylish green cap.
+ent-LPPADJUCap = Adjutant's cap
+    .desc = This cap is worn by those who are quite tired of the routine of working with the bureaucracy
+ent-LPPClothingHeadHatCapRed = red cap
+    .desc = A stylish red cap.

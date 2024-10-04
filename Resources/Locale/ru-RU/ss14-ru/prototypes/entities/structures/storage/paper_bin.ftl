@@ -1,4 +1,4 @@
-ent-PaperBin = корзина для бумаг
+ent-PaperBin = Корзина для бумаг
     .desc = Какие тайны лежат под её бесконечной стопкой?
     .suffix = Пустой
 ent-PaperBin5 = { ent-PaperBin }

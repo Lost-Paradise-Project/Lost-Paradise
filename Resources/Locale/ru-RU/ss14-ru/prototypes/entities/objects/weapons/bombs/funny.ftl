@@ -1,10 +1,10 @@
-ent-HotPotato = горячая картошка
+ent-HotPotato = Горячая картошка
     .desc = После активации вы не сможете бросить эту бомбу с часовым механизмом - ударьте ею кого-нибудь другого, чтобы спасти себя! Не обожгите руки!
 ent-HotPotatoEffect = { "" }
     .desc = { "" }
-ent-TrashBananaPeelExplosive = банановая кожура
+ent-TrashBananaPeelExplosive = Банановая кожура
     .suffix = Взрывчатка
     .desc = { ent-TrashBananaPeel.desc }
-ent-TrashBananaPeelExplosiveUnarmed = банан
+ent-TrashBananaPeelExplosiveUnarmed = Банан
     .desc = Что-то в этом банане не так.
     .suffix = Не активирован

@@ -1,9 +1,9 @@
 - type: entity
-  name: силовая клешня меха
+  name: Mech power claw
   parent: BaseItem
   id: LPPMechPunch
   #categories: [ HideSpawnMenu ]
-  description: Сила демократии.
+  description: Power of democracy
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Melee/mech_punch.rsi
@@ -35,10 +35,10 @@
     unanchorOnHit: true
 
 - type: entity
-  name: вулкан
+  name: Vulkan
   id: LPPWeaponVulcan
   parent: BaseWeaponHeavyMachineGun
-  description: Ешь, пей, молись, подчинись.
+  description: Eat, drink, pray, obey.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/HMGs/minigun.rsi
@@ -79,7 +79,7 @@
 - type: entity
   id: LPPAIMechModulePunchAndVulcan
   parent: [ LPPBaseAIMechModulePunchAndVulcan, BaseProviderBorgModule ]
-  name: модуль повышеной толерантности экипажа
+  name: the module of increased tolerance of the crew
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Specific/Robotics/borgmodule.rsi

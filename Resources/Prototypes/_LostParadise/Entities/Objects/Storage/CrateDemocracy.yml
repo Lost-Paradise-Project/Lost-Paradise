@@ -1,8 +1,8 @@
 - type: entity
   id: LPPCrateDEMOCRACY
   parent: CrateSecgear
-  name: набор списанной экипировки
-  description: Содержит набор списанной экипировки, ящик явно усилен парочкой пластов пластали. Требует доступ службы безопасности для открытия.
+  name: A set of decommissioned equipment
+  description: It contains a set of decommissioned equipment, the box is clearly reinforced with a couple of layers of plasteel. Requires security access to open.
   components:
   - type: Destructible
     thresholds:

@@ -1,2 +1,2 @@
-ent-ClothingNeckMantleMystagogue = мантия научного директора
+ent-ClothingNeckMantleMystagogue = Мантия научного директора
     .desc = { ent-ClothingNeckMantleRD.desc }

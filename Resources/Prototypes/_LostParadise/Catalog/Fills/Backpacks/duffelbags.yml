@@ -1,6 +1,5 @@
 - type: entity
   id: LPPClothingBackpackDuffelVirologyCBURNAmbuzolSyringe
-  name: Вирусологический вещмешок
   parent: ClothingBackpackDuffelVirology
   components:
   - type: StorageFill
@@ -10,7 +9,6 @@
 
 - type: entity
   id: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPill
-  name: Вирусологический вещмешок
   parent: ClothingBackpackDuffelVirology
   components:
   - type: StorageFill
@@ -20,7 +18,6 @@
 
 - type: entity
   id: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPlusSyringe
-  name: Вирусологический вещмешок
   parent: ClothingBackpackDuffelVirology
   components:
   - type: StorageFill
@@ -30,7 +27,6 @@
 
 - type: entity
   id: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPlusPill
-  name: Вирусологический вещмешок
   parent: ClothingBackpackDuffelVirology
   components:
   - type: StorageFill
@@ -40,8 +36,8 @@
 
 - type: entity
   id: LPPBackpackDuffelC4Delta
-  name: Вещмешок с С4
-  description: Содержит 9 единиц взрывчатки типа С4
+  name: Duffel bag with C4
+  description: Contains nine C4
   parent: ClothingBackpackDuffelSecurity
   components:
   - type: StorageFill
@@ -51,8 +47,8 @@
 
 - type: entity
   id: LPPBackpackDuffelExGrenadeDelta
-  name: Вещвещмешок с осколочными гранами
-  description: Содержит 5 осколочных гранат
+  name: Duffel bag with explosion grenades
+  description: Contains five explosion grenades
   parent: ClothingBackpackDuffelSecurity
   components:
   - type: StorageFill
@@ -62,8 +58,8 @@
 
 - type: entity
   id: LPPBackpackDuffelEmpGrenadeDelta
-  name: Вещвещмешок с гранатами ЭМИ
-  description: Содержит 5 гранат ЭМИ
+  name: Duffel bag with EMP grenades
+  description: Contains five EMP grenades
   parent: ClothingBackpackDuffelSecurity
   components:
   - type: StorageFill
@@ -73,8 +69,8 @@
 
 - type: entity
   id: LPPBackpackDuffelIncendiaryGrenadeDelta
-  name: Вещвещмешок с зажигательными гранатами
-  description: Содержит 5 зажигательных гранат
+  name: Duffel bag with incendiary grenades
+  description: Contains five incendiary grenades
   parent: ClothingBackpackDuffelSecurity
   components:
   - type: StorageFill
@@ -85,8 +81,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: LPPClothingBackpackDuffelAcientSyndicateHardsuitBundle
-  name: набор древнего скафандра
-  description: Содержит набор с древним скафандром.
+  name: Ancient syndicate hardsuit bundle
+  description: Contains ancient syndicate hardsuit bundle
   components:
   - type: StorageFill
     contents:

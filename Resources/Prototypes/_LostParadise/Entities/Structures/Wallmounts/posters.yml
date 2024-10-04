@@ -12,8 +12,8 @@
 - type: entity
   parent: LPPPosterBase
   id: LPPPosterHappyNewYear
-  name: "С новый годом!"
-  description: "Поздрваляем с новым годом!"
+  name: "Happy new year!"
+  description: "We wish you happy new year!"
   components:
   - type: Sprite
     state: happynewyear
@@ -21,8 +21,8 @@
 - type: entity
   parent: LPPPosterBase
   id: LPPPosterNoAlcohol
-  name: "Нет алкоголю!"
-  description: "Правда... Хватит уже"
+  name: "No Alcohol!"
+  description: "Stop it... For real"
   components:
   - type: Sprite
     state: noalcohol
@@ -30,8 +30,8 @@
 - type: entity
   parent: LPPPosterBase
   id: LPPPosterSport
-  name: "Спорт"
-  description: "Занимайся спортом, жирный скуф"
+  name: "Sport"
+  description: "Work out, you fat skoof."
   components:
   - type: Sprite
     state: sportuna
@@ -39,10 +39,10 @@
 - type: entity
   parent: LPPPosterBase
   id: LPPPosterTimeTea
-  name: "Время чая"
-  description: "Оу, вы из Англии?"
+  name: "Tea time"
+  description: "Oh, you're from England?"
   components:
   - type: Sprite
-    state: timetea     
+    state: timetea
 
 # - >

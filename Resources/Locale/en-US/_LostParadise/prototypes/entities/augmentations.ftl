@@ -1,0 +1,12 @@
+marking-LPPTattooAgent = Агент
+marking-LPPTattooTear = Слеза
+marking-LPPJaw = Челюсть
+marking-LPPVisor = Визор
+marking-LPPRobohead = Ведроголовый
+marking-LPPIronheart = Железное сердце
+marking-LPPProsthesisLLeg = Правая металлическая нога
+marking-LPPProsthesisRLeg = Левая маталлическая нога
+marking-LPPProsthesisLHand = Левая маталлическая рука
+marking-LPPProsthesisRHand = Правая металлическая рука
+marking-LPPProsthesisLWrist = Левая маталлическая кисть
+marking-LPPProsthesisRWrist = Правая металлическая кисть

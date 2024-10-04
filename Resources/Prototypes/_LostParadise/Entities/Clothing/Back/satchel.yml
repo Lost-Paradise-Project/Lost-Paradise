@@ -1,5 +1,15 @@
 - type: entity
   parent: ClothingBackpackSatchel
+  id: LPPClothingBackpackSatchelBlack
+  name: black satchel
+  suffix: Sponsor
+  description: A tough satchel with extra pockets.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Satchels/blacksatchel.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
   id: LPPClothingBackpackSatchelHop
   name: hop satchel
   description: Convenient to throw off rifle magazines.

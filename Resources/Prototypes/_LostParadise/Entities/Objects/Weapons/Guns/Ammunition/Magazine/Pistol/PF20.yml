@@ -1,6 +1,6 @@
 - type: entity
   id: LPPBaseMagazinePistolPF20
-  name: "пистолетный магазин (.20)"
+  name: "Pistol magazine (.20)"
   parent: BaseItem
   abstract: true
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   id: LPPMagazinePistolPF20lethal
-  name: пистолетный магазин (.20 винтовочные)
+  name: Pistol magazine (.20 lethal)
   parent: LPPBaseMagazinePistolPF20
   components:
   - type: BallisticAmmoProvider
@@ -47,7 +47,7 @@
 
 - type: entity
   id: LPPMagazinePistolPF20Practice
-  name: пистолетный магазин (.20 тренировочные)
+  name: Pistol magazine (.20 practice)
   parent: LPPBaseMagazinePistolPF20
   components:
   - type: BallisticAmmoProvider
@@ -62,7 +62,7 @@
 
 - type: entity
   id: LPPMagazinePistolPF20Rubber
-  name: пистолетный магазин (.20 резиновые)
+  name: Pistol magazine (.20 rubber)
   parent: LPPBaseMagazinePistolPF20
   components:
   - type: BallisticAmmoProvider
@@ -76,7 +76,7 @@
 
 - type: entity
   id: LPPMagazinePistolPF20Uranium
-  name: пистолетный магазин (.20 урановые)
+  name: Pistol magazine (.20 uranium)
   parent: LPPBaseMagazinePistolPF20
   components:
   - type: BallisticAmmoProvider
@@ -91,7 +91,7 @@
 
 - type: entity
   id: LPPMagazinePistolPF20Incendiary
-  name: пистолетный магазин (.20 зажигательные)
+  name: Pistol magazine (.20 incendiary)
   parent: LPPBaseMagazinePistolPF20
   components:
   - type: BallisticAmmoProvider

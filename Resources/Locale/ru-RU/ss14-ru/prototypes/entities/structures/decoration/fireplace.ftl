@@ -1,2 +1,2 @@
-ent-Fireplace = камин
+ent-Fireplace = Камин
     .desc = Очаг, в котором горит огонь. Уютно!

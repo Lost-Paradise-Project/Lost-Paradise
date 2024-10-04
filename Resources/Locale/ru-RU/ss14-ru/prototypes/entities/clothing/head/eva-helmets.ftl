@@ -9,7 +9,5 @@ ent-ClothingHeadHelmetSyndicate = стильный шлем
 # Corvax-HiddenDesc-End
 ent-ClothingHeadHelmetCosmonaut = шлем космонавта
     .desc = Древний дизайн, современное производство.
-ent-ClothingHeadHelmetVoidParamed = пустотный шлем полевого врача
-    .desc = Пустотный шлем, предназначенный для парамедиков.
 ent-ClothingHeadHelmetAncient = пустотный шлем NTSRA
     .desc = Древний космический шлем, разработанный по заказу Центком поразделением NTSRA - агентством космических исследований Nanotrasen.

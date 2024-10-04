@@ -1,2 +1,2 @@
-ent-BaseBallBatHomeRun = бейсбольная бита
+ent-BaseBallBatHomeRun = Бейсбольная бита
     .desc = Тяжёлая металлическая бита. Пахнет рыбой.

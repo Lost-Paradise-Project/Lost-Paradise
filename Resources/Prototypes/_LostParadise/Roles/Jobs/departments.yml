@@ -4,5 +4,6 @@
   color: "#49C423"
   roles:
   - LPPBlueShieldOfficer
+  - ChiefJustice
   primary: false
   weight: 101

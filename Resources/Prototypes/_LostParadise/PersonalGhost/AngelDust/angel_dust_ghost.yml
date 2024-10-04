@@ -3,9 +3,9 @@
   #parent: AdminObserver
   id: LPPAngelDustYukiGhost
   #abstract: true
-  suffix: "Личные вещи, JayJacobs"
-  name: Ангельская Пыль
-  description: Душа наполненная милостью.
+  suffix: "Personal items, JayJacobs"
+  name: Angel dust
+  description: A soul filled with mercy.
   categories: [ HideSpawnMenu ]
   components:
   #- type: AngelDust

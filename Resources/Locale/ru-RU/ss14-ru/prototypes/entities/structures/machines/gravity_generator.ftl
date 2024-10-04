@@ -1,4 +1,4 @@
-ent-GravityGenerator = генератор гравитации
+ent-GravityGenerator = Генератор гравитации
     .desc = Это то, что удерживает вас у пола.
-ent-GravityGeneratorMini = мини генератор гравитации
+ent-GravityGeneratorMini = Мини генератор гравитации
     .desc = Это то, что удерживает вас у пола, теперь смешного размера.

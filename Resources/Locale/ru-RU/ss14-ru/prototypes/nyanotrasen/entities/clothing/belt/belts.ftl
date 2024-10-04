@@ -1,8 +1,8 @@
-ent-ClothingBeltMantis = псионический пояс мантиса
+ent-ClothingBeltMantis = Псионический пояс мантиса
     .desc = Идеально подходит для хранения всего вашего оборудования.
-ent-ClothingBeltMartialBlack = черный пояс
-    .desc = This is the most martial of all the belts.
-ent-ClothingBeltKatanaSheath = ножны для катаны
-    .desc = An ornate belt designed to hold a pair of samurai's blades, or daisho.
-ent-ClothingBeltMilitaryWebbingCMO = разгрузка главного врача
+ent-ClothingBeltMartialBlack = Черный пояс
+    .desc = Это самый боевой из всех поясов.
+ent-ClothingBeltKatanaSheath = Ножны для катаны
+    .desc = Богато украшенный пояс, предназначенный для ношения пары самурайских клинков (дайсё).
+ent-ClothingBeltMilitaryWebbingCMO = Разгрузка главного врача
     .desc = Медицинский нагрудник с глубокими карманами, предназначенный для использования парамедиками и медицинскими работниками.

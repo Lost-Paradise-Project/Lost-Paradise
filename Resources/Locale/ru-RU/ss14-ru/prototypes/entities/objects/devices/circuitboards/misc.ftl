@@ -1,2 +1,2 @@
-ent-StationMapCircuitboard = микросхема карты станции
+ent-StationMapCircuitboard = Микросхема карты станции
     .desc = Микросхема для карты станции.

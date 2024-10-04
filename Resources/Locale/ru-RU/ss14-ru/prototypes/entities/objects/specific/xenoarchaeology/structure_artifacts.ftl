@@ -1,4 +1,4 @@
-ent-BaseXenoArtifact = инопланетный артефакт
+ent-BaseXenoArtifact = Инопланетный артефакт
     .desc = Странное инопланетное устройство.
 ent-SimpleXenoArtifact = { ent-BaseXenoArtifact }
     .suffix = Простой

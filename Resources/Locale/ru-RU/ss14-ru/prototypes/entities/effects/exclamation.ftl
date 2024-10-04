@@ -1,4 +1,4 @@
-ent-Exclamation = восклицание
+ent-Exclamation = Восклицание
     .desc = { "" }
-ent-WhistleExclamation = восклицание
+ent-WhistleExclamation = Восклицание
     .desc = { "" }

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitReflectivepatrolsec
-  name: Шлем NFD-101p
-  description: Хороший шлем...самое то чтобы устроить битву красных против синих!.
+  name: Helmet NFD-101p
+  description: A good helmet...the most important thing is to arrange a battle of reds against blues!.
   components:
   - type: BreathMask
   - type: Sprite
@@ -26,8 +26,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitReflectivepatrolsec
-  name: Отражающий скафандр NFD-101p "Deflect"
-  description: Скафандр, но в составе его брони были использованы отражающие лазеры материалы.
+  name: Deflecting hardsuit NFD-101p "Deflect"
+  description: A spacesuit, but laser-reflecting materials were used as part of his armor.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/bluesechard.rsi

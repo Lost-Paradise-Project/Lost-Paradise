@@ -1,2 +1,2 @@
-ent-Sledgehammer = кувалда
+ent-Sledgehammer = Кувалда
     .desc = Идеальный инструмент для кровавой бойни.

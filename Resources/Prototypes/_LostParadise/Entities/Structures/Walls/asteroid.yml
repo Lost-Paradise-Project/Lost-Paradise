@@ -2,7 +2,7 @@
   id: LPPAsteroidRockOreDiamond
   parent: AsteroidRock
   description: A rock wall. What's that sticking out of it?
-  suffix: не обработанный алмаз
+  suffix: Rough diamond
   components:
     - type: OreVein
       oreChance: 1.0
@@ -24,7 +24,7 @@
   id: LPPWallRockOreDiamond
   parent: WallRock
   description: A rock wall. What's that sticking out of it?
-  suffix: не обработанный алмаз
+  suffix: Rough diamond
   components:
     - type: OreVein
       oreChance: 1.0
@@ -46,7 +46,7 @@
   id: LPPWallRockBasaltOreDiamond
   parent: WallRockBasalt
   description: A rock wall. What's that sticking out of it?
-  suffix: не обработанный алмаз
+  suffix: Rough diamond
   components:
     - type: OreVein
       oreChance: 1.0
@@ -68,7 +68,7 @@
   id: LPPWallRockSnowOreDiamond
   parent: WallRockSnow
   description: A rock wall. What's that sticking out of it?
-  suffix: не обработанный алмаз
+  suffix: Rough diamond
   components:
     - type: OreVein
       oreChance: 1.0
@@ -90,7 +90,7 @@
   id: LPPWallRockSandOreDiamond
   parent: WallRockSand
   description: A rock wall. What's that sticking out of it?
-  suffix: не обработанный алмаз
+  suffix: Rough diamond
   components:
     - type: OreVein
       oreChance: 1.0
@@ -112,7 +112,7 @@
   id: LPPWallRockChromiteOreDiamond
   parent: WallRockChromite
   description: A rock wall. What's that sticking out of it?
-  suffix: не обработанный алмаз
+  suffix: Rough diamond
   components:
     - type: OreVein
       oreChance: 1.0
@@ -134,7 +134,7 @@
   id: LPPWallRockAndesiteOreDiamond
   parent: WallRockAndesite
   description: A rock wall. What's that sticking out of it?
-  suffix: не обработанный алмаз
+  suffix: Rough diamond
   components:
     - type: OreVein
       oreChance: 1.0

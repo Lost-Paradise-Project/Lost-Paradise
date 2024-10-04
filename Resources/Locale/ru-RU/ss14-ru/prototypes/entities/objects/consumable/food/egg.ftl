@@ -1,8 +1,8 @@
 ent-FoodEggBase = { ent-FoodInjectableBase }
     .desc = Яйцо!
-ent-Eggshells = скорлупа
+ent-Eggshells = Скорлупа
     .desc = Ты ходишь по ней, приятель.
-ent-FoodEgg = яйцо
+ent-FoodEgg = Яйцо
     .desc = { ent-FoodEggBase.desc }
-ent-FoodEggBoiled = варёное яйцо
+ent-FoodEggBoiled = Варёное яйцо
     .desc = Вкусное варёное яйцо.

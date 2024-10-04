@@ -27,7 +27,7 @@
 - type: entity
   parent: LPPBaseMagazineBoxRifle
   id: LPPMagazineBoxM4A1BigLethal
-  name: коробка патрон (калибра 5.56х45)
+  name: Ammunition box (caliber 5,56x45)
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -47,7 +47,7 @@
 - type: entity
   parent: LPPBaseMagazineBoxRifle
   id: LPPMagazineBoxM4A1BigPractice
-  name: коробка патрон (калибра 5.56х45 учебные)
+  name: Ammunition box (caliber 5.56x45 practice)
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -68,7 +68,7 @@
 - type: entity
   parent: LPPBaseMagazineBoxRifle
   id: LPPMagazineBoxM4A1Lethal
-  name: коробка патрон (калибра 5.56х45)
+  name: Ammunition box (caliber 5,56x45)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeM4A1Lethal
@@ -82,7 +82,7 @@
 - type: entity
   parent: LPPBaseMagazineBoxRifle
   id: LPPMagazineBoxM4A1Practice
-  name: коробка патрон (калибра 5.56х45 учебные)
+  name: Ammunition box (caliber 5,56x45 practice)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgePracticeM4A1
@@ -97,7 +97,7 @@
 - type: entity
   parent: LPPBaseMagazineBoxRifle
   id: LPPMagazineBoxM4A1Rubber
-  name: коробка патрон (калибра 5.56х45 резиновые)
+  name: Ammunition box (caliber 5,56x45 rubber)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeRubberM4A1
@@ -112,7 +112,7 @@
 - type: entity
   id: LPPMagazineBoxM4A1Incendiary
   parent: LPPBaseMagazineBoxRifle
-  name: коробка патрон (калибра 5.56х45 зажигательные)
+  name: Ammunition box (caliber 5,56x45 incendiary)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeIncendiaryM4A1
@@ -127,7 +127,7 @@
 - type: entity
   id: LPPMagazineBoxM4A1Uranium
   parent: LPPBaseMagazineBoxRifle
-  name: коробка патрон (калибра 5.56х45 урановые)
+  name: Ammunition box (caliber 5,56x45 uranium)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeUraniumM4A1
@@ -142,7 +142,7 @@
 - type: entity
   parent: LPPBaseMagazineBoxRifle
   id: LPPMagazineBoxHunting
-  name: коробка патрон (.30 охотничие)
+  name: Ammunition box (.30 hunting)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeLightRifleHunting

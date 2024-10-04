@@ -129,7 +129,7 @@
 #--steel-steel-steel--#
 #---------------------#
 - type: decal
-  id: LPPLPPBrickTileSteelBoxS
+  id: LPPBrickTileSteelBoxS
   tags: ["station", "markings"]
   sprite:
     sprite: _LostParadise/Decals/bricktile-s.rsi

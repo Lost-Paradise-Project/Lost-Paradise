@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitSWAT
-  name: Тактический cкафандр FPA-56 - "Rhino"
-  description: Специальный защитный комплект, защищающий от опасного воздействия окружающей среды с низким давлением. Он имеет инновационный дополнительный слой брони, используемый сотрудниками службы безопасности.
+  name: Tactical hardsuit FPA-56 - "Rhino"
+  description: A special protective kit that protects against the dangerous effects of a low-pressure environment. It has an innovative additional layer of armor used by security personnel.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/swat-armor.rsi
@@ -190,7 +190,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitSecurityEng
-  name: Тактический скафандр FPI-72 - "Artificer"
+  name: Tactical hardsuit FPI-72 - "Artificer"
   description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
@@ -253,8 +253,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitMiksuit
-  name: обесцвеченный скафандр GRT-21 "Támadó"
-  description: Отреставрированный скафандр агентов синдиката, слегка видоизменённый под хотелки нынешнего владельца.
+  name: Discolored hardsuit GRT-21 "Támadó"
+  description: The restored space suit of the syndicate agents, slightly modified to suit the wishes of the current owner.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/miksuit.rsi
@@ -287,7 +287,7 @@
 
 - type: entity
   parent: ClothingOuterHardsuitBase
-  id: ClothingOuterHardsuitChrono
+  id: LPPClothingOuterHardsuitChrono
   name: chrono hardsuit
   description: A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
   components:
@@ -313,7 +313,7 @@
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitChrono
+    clothingPrototype: LPPClothingHeadHelmetHardsuitChrono
   - type: StaminaDamageResistance
     coefficient: 0.05
 
@@ -499,8 +499,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitRND
-  name: скафандр RHS-14s - "Lambda"
-  description: Защитный скафандр, разработанный головастиками из отдела НИО, лёгкий для производства, а так же предоставляющий, в целом, хорошую защиту от разных внешних факторов, что можно встретить при работе в НИО.
+  name: Hardsuit RHS-14s - "Lambda"
+  description: The protective suit, developed by braines from the RND, is easy to produce, and also provides, in general, good protection from various external factors, which can be found when working in RND.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/rnd.rsi
@@ -533,8 +533,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitScienceNPZ
-  name: скафандр NPZ-34r - "Gelehrt"
-  description: Научно исследовательский скафандр, разработанный для работы учёных НПЗ, а так же техников в открытом космосе и тяжёлых условиях планет.
+  name: Hardsuit NPZ-34r - "Gelehrt"
+  description: A research spacesuit designed for the work of NPZ scientists, as well as technicians in outer space and harsh planetary conditions.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/body.rsi

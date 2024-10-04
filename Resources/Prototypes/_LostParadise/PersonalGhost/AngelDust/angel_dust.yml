@@ -1,9 +1,9 @@
 - type: entity
-  name: Ангельская Пыль
-  description: Твой ангел хранитель и твоя совесть.
+  name: Angel dust
+  description: Your guardian angel and your conscience.
   parent: BaseMob
   id: LPPAngelDustYuki
-  suffix: "Личные вещи, JayJacobs"
+  suffix: "Personal Items, JayJacobs"
   components:
   # - type: AngelDust
   #   morph: LPPAngelDustYukiMorph

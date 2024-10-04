@@ -1,2 +1,2 @@
-ent-MercuryChemistryBottle = бутылочка меркурия
+ent-MercuryChemistryBottle = Бутылочка меркурия
     .desc = { ent-BaseChemistryEmptyBottle.desc }

@@ -1,2 +1,2 @@
-ent-AirlockPainter = покрасчик шлюзов
+ent-AirlockPainter = Покрасчик шлюзов
     .desc = Покрасчик шлюзов для покраски шлюзов.

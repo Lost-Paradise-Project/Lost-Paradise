@@ -1,8 +1,8 @@
-ent-StationMapBroken = карта станции
+ent-StationMapBroken = Карта станции
     .desc = Виртуальная карта окрестностей станции.
     .suffix = Настенный, Сломано
-ent-StationMap = карта станции
+ent-StationMap = Карта станции
     .desc = { ent-StationMapBroken.desc }
     .suffix = Настенный
-ent-StationMapAssembly = каркас карты станции
+ent-StationMapAssembly = Каркас карты станции
     .desc = Каркас карты станции.

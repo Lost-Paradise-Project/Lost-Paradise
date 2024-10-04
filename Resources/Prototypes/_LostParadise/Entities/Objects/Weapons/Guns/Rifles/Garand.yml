@@ -1,8 +1,8 @@
 - type: entity
   id: LPPWeaponM1Garand
   parent: BaseWeaponRifle
-  name: винтовка М1 Гаранд
-  description: Реплика классической винтовки Второй Мировой Войны от компании XenoHuntingArmoury, использующая патроны .30 охотничие. Пинг!
+  name: Rifle M1 Garand
+  description: A replica of the classic World War II rifle from XenoHuntingArmoury, using cartridges .30 hunting. Ping!
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Guns/Rifles/garand.rsi

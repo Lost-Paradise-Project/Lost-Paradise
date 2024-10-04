@@ -1,4 +1,4 @@
-ent-PottedPlantRandom = спавнер случайное комнатное растение
+ent-PottedPlantRandom = Спавнер случайного комнатное растение
     .desc = { ent-MarkerBase.desc }
-ent-PottedPlantRandomPlastic = спавнер случайное пластиковое комнатное растение
+ent-PottedPlantRandomPlastic = Спавнер случайного пластиковое комнатное растение
     .desc = { ent-MarkerBase.desc }

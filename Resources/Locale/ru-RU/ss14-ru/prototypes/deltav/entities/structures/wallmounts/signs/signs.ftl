@@ -1,8 +1,8 @@
-ent-SignDirectionalLogistics = указательный знак - снабжение
+ent-SignDirectionalLogistics = Указательный знак - снабжение
     .desc = Указательный знак, указывающий направление к отделу снабжения.
-ent-SignDirectionalMail = указательный знак - почта
+ent-SignDirectionalMail = Указательный знак - почта
     .desc = Указательный знак, указывающий направление к почте.
-ent-SignDirectionalJustice = указательный знак - юр. отдел
+ent-SignDirectionalJustice = Указательный знак - юр. отдел
     .desc = Указательный знак, указывающий направление к юридическому отделу.
-ent-SignDirectionaCourt = указательный знак - суд
+ent-SignDirectionaCourt = Указательный знак - суд
     .desc = Указательный знак, указывающий направление к суду.

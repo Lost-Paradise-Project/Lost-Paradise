@@ -1,8 +1,8 @@
-ent-UnfinishedMachineFrame = каркас машины
+ent-UnfinishedMachineFrame = Каркас машины
     .desc = Строящаяся машина. Требуется больше деталей.
     .suffix = Незаконченный
-ent-MachineFrame = каркас машины
+ent-MachineFrame = Каркас машины
     .suffix = Готовый
     .desc = { "" }
-ent-MachineFrameDestroyed = разрушенный каркас машины
+ent-MachineFrameDestroyed = Разрушенный каркас машины
     .desc = { ent-BaseStructureDynamic.desc }

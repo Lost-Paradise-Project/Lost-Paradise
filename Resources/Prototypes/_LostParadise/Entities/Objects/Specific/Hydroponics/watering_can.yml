@@ -102,7 +102,7 @@
 
 # - type: entity
 #   parent: BaseItem
-#   id: AdvWateringCan
+#   id: LPPAdvWateringCan
 #   name: adv watering can
 #   description: It's a boring old adv watering can.
 #   components:
