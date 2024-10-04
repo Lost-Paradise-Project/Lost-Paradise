@@ -1,5 +1,3 @@
-ent-ShowSecurityIcons = { "" }
-    .desc = { "" }
 ent-ClothingEyesHudDiagnostic = диагностический визор
     .desc = Окуляр с индикатором на стекле, способный анализировать целостность и состояние роботов и экзокостюмов. Сделан из си-боргия.
 ent-ClothingEyesHudMedical = Медицинский визор
