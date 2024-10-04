@@ -1,6 +1,5 @@
-ent-PortableGeneratorBase = { ent-['BaseMachine', 'SmallConstructibleMachine', 'StructureWheeled'] }
-
-    .desc = { ent-['BaseMachine', 'SmallConstructibleMachine', 'StructureWheeled'].desc }
+ent-PortableGeneratorBase = { ent-ConstructibleMachine }
+    .desc = { ent-ConstructibleMachine.desc }
 ent-PortableGeneratorSwitchableBase = { ent-PortableGeneratorBase }
     .desc = { ent-PortableGeneratorBase.desc }
 ent-PortableGeneratorPacman = P.A.C.M.A.N.-type portable generator
