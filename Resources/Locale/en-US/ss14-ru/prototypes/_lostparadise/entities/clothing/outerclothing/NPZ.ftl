@@ -16,3 +16,5 @@ ent-LPPClothingOuterCoatNPZ = NPZ Coat
     .desc = Lightweight nylon coat with bright neon stripes and a print on the back, as well as pockets.
 ent-LPPClothingOuterArmorNPZ = NPZ bulletproof vest
     .desc = Bulletproof vest with identification elements of the NPZ.
+ent-LPPClothingOuterNPZRepresentative = NPZ Representative coat
+    .desc = Leather trench coat with a bulletproof vest, it screams- "Stylish!".

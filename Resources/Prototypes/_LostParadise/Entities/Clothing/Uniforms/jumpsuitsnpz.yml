@@ -45,7 +45,7 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: LPPClothingUniformJumpsuitRepresentativePNZ
+  id: LPPClothingUniformJumpsuitRepresentativeNPZ
   name: NPZ Representative suit
   description: Washed jeans with the most expensive shirt that you can find on the market, are you compensating for something?
   components:
