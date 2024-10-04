@@ -10,6 +10,6 @@ ent-GlassBoxLaserFilled = { ent-GlassBoxLaser }
 ent-GlassBoxLaserFilledOpen = { ent-GlassBoxLaserFilled }
     .suffix = Антикварный лазер, Заполненный, Открытый
     .desc = { ent-GlassBoxLaserFilled.desc }
-ent-GlassBoxLaserBroken = разбитый стеклянный короб
+ent-GlassBoxLaserBroken = Разбитый стеклянный короб
     .desc = Разбитая витрина для дорогостоящего экспоната.
     .suffix = Разбитый

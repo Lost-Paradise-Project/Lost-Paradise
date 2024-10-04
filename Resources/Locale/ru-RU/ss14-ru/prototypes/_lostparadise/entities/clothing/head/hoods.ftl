@@ -1,5 +1,5 @@
 ent-LPPClothingHeadHelmetHardsuitKiravaHoodsec = Капюшон Кирава
-    .desc = прекрасный капюшон Кирава
+    .desc = Прекрасный капюшон Кирава
 ent-LPPClothingHeadHatHoodPGShemag = Капюшон из Шемага
     .desc = Капюшон из шемага..
 ent-LPPHelmetHardsuitHoodAtmos = Капюшон Атмоса

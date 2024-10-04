@@ -1,4 +1,4 @@
-ent-ClothingEyesTelegnosisSpectacles = странные очки
+ent-ClothingEyesTelegnosisSpectacles = Странные очки
     .desc = Пара эффектных и странных очков с лизнзами, сделанными из неизвестного материала.
 ent-BedsheetInvisibilityCloak = Рваная простыня
     .desc = Она прошла через огонь и воду.

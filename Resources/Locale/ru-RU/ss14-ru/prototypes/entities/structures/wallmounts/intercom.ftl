@@ -1,4 +1,4 @@
-ent-IntercomAssesmbly = интерком
+ent-IntercomAssesmbly = Интерком
     .desc = Интерком. На данный момент он бесполезен.
 ent-Intercom = { ent-IntercomAssesmbly }
     .desc = { ent-IntercomAssesmbly.desc }

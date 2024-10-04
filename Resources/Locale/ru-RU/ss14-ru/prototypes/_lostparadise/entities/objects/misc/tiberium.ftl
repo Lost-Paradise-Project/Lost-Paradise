@@ -1,2 +1,2 @@
-ent-LPPTiberium = тиберий
+ent-LPPTiberium = Тиберий
     .desc = Свет его прекрасен...
