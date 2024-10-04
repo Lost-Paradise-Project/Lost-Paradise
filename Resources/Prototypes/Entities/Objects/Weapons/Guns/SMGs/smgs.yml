@@ -174,7 +174,11 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/SMGs/vector.rsi
   - type: Gun
-    fireRate: 6
+    minAngle: 1
+    maxAngle: 13
+    fireRate: 7
+    angleIncrease: 3
+    angleDecay: 15
     selectedMode: FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg

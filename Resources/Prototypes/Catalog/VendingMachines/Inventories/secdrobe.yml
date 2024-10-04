@@ -50,5 +50,8 @@
     ClothingHeadBandSkull: 1
     LPPClothingHeadSecHat: 2
     LPPClothingBalaclavawide: 4
+    ClothingOuterArmorBasic: 3
+    LPPClothingHeadHatRedBeanie: 3
+    LPPClothingHeadHatBlackBeanie: 3
   contrabandInventory:
     LPPClothingMaskKinkyMuzzle: 1
