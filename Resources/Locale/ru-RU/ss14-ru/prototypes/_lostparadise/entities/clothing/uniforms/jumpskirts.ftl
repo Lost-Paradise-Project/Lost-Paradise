@@ -1,4 +1,4 @@
-ent-LPPClothingUniformJumpskirtAdjutant = костюм адьютанта
+ent-LPPClothingUniformJumpskirtAdjutant = Костюм адьютанта
     .desc = { ent-ClothingUniformSkirtBase.desc }
 ent-LPPCargoBlackSkirt = Стильная юбка грузчика
     .desc = { ent-ClothingUniformBase.desc }
@@ -22,9 +22,9 @@ ent-LPPSkirtleneckEngi = Водолазка с юбкой инженера
     .desc = { ent-ClothingUniformBase.desc }
 ent-LPPSkirtleneckQMEngi = Водолазка QM с юбкой инженера
     .desc = { ent-ClothingUniformBase.desc }
-ent-LPPSupplyChiefSkirtEngi = рубашка с юбкой инженера
+ent-LPPSupplyChiefSkirtEngi = Рубашка с юбкой инженера
     .desc = { ent-ClothingUniformBase.desc }
-ent-LPPClothingUniformJumpSkirtSecEngineer = юбка-комбинезон инженера безопасности
+ent-LPPClothingUniformJumpSkirtSecEngineer = Юбка-комбинезон инженера безопасности
     .desc = A jumpsuit made of strong material, providing robust protection.
 ent-LPPMedicBlackSkirt = Стильная юбка Медика
     .desc = { ent-ClothingUniformBase.desc }

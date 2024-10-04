@@ -1,4 +1,4 @@
-ent-SpawnPointGhostRatKing = спавнер роли призрак
+ent-SpawnPointGhostRatKing = Спавнер роли призрак
     .suffix = Крысиный король
     .desc = { ent-MarkerBase.desc }
 ent-SpawnPointGhostRemilia = Спавнер роли призрак

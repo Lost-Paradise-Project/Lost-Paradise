@@ -31,13 +31,13 @@ ent-BorgModuleTool = tool cyborg module
 ent-BorgModuleAppraisal = appraisal cyborg module
     .desc = { ent-BaseBorgModuleCargo.desc }
 ent-BorgModuleMining = mining cyborg module
-    { ent-BaseBorgModuleCargo.desc }
+    .desc = { ent-BaseBorgModuleCargo.desc }
 ent-BorgModuleJetpack = jetpack cyborg module
     .desc = A piece of tech that gives cyborgs new abilities. Needs to be loaded by a cyborg before you can refill the jetpack.
 ent-BorgModulePka = proto kinetic accelerator cyborg module
-    { ent-BaseBorgModuleCargo.desc }
+    .desc = { ent-BaseBorgModuleCargo.desc }
 ent-BorgModuleGrapplingGun = grappling gun cyborg module
-    { ent-BaseBorgModuleCargo.desc }
+    .desc = { ent-BaseBorgModuleCargo.desc }
 ent-BorgModuleAdvancedTool = advanced tool cyborg module
     .desc = { ent-BaseBorgModuleEngineering.desc }
 ent-BorgModuleConstruction = construction cyborg module

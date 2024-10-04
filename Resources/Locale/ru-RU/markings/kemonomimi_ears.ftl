@@ -1,0 +1,10 @@
+marking-BunnyEars = Заячьи ушки
+marking-BunnyEars-bunnyearstone1 = Внешняя часть
+marking-BunnyEars-bunnyearstone2 = Внутренняя часть
+marking-BullishHorns = Бычьи рога
+marking-BullishHorns-bullishhorns = Рога
+marking-FoxEars = Лисьи ушки
+marking-FoxEars-foxears = Уши
+marking-GoatHorns = Козьи уши и рога
+marking-GoatHorns-goathornstone1 = Уши
+marking-GoatHorns-goathornstone2 = Рога
