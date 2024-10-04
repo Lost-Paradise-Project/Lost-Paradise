@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: LPPClothingUniformJumpsuitOperativeNPZ
-  name: комбинезон оперативника НПЗ
-  description: Брюки и свитер оперативников НПЗ, с дополнительной кевларовой подбивкой.
+  name: NPZ operative jumpsuit
+  description: Trousers and sweater of refinery operatives, with additional Kevlar lining.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Uniforms/NPZ/upgcloth.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: LPPClothingUniformJumpskirtMadienPNZ
-  name: униформа горничной НПЗ
-  description: Созданная из новейших тканей униформа прекрасно подходит для тактической уборки помещений, а так же идеально подойдёт для любой фигуры.
+  name: NPZ maid's uniform
+  description: Created from the latest fabrics, the uniform is perfect for tactical cleaning of premises, and is also ideal for any figure.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Uniforms/NPZ/maidenNPZ.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: LPPClothingUniformJumpsuitOverallsNPZ
-  name: комбинезон техника НПЗ
-  description: Свитер и брюки на лямках, не испачкайте рубашку!
+  name: NPZ technical jumpsuit
+  description: Sweater and trousers with straps, do not stain the shirt!
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Uniforms/NPZ/NPZoverall.rsi

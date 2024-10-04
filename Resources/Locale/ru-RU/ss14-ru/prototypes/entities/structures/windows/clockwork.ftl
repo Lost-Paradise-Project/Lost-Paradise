@@ -1,6 +1,6 @@
-ent-ClockworkWindow = заводное окно
+ent-ClockworkWindow = Заводное окно
     .desc = Смотри не заляпай латунь.
-ent-WindowClockworkDirectional = направленное заводное окно
+ent-WindowClockworkDirectional = Направленное заводное окно
     .desc = Смотри не заляпай латунь.
 ent-ClockworkWindowDiagonal = { ent-ClockworkWindow }
     .suffix = Диагональ

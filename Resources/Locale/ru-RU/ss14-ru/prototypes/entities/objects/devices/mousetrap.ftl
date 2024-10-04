@@ -1,5 +1,5 @@
-ent-Mousetrap = мышеловка
+ent-Mousetrap = Мышеловка
     .desc = Поможет не дать грызунам пробраться на кухню.
-ent-MousetrapArmed = мышеловка
+ent-MousetrapArmed = Мышеловка
     .desc = Поможет не дать грызунам пробраться на кухню.
     .suffix = Взведён

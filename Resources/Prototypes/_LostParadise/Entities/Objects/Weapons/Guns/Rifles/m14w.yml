@@ -1,8 +1,8 @@
 - type: entity
-  name: М14
+  name: M14
   parent: BaseWeaponRifle
   id: LPPWeaponRifleM14
-  description: Старая винтовка с далёких войн, от неё слегка пахнет джунглями. Использует .30 винтовочный
+  description: An old rifle from distant wars, it smells slightly of the jungle. Uses .30 rifle
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Guns/Rifles/m14w.rsi

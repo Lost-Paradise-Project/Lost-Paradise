@@ -1,0 +1,10 @@
+ent-LPPPosterBase = { ent-PosterBase }
+    .desc = { ent-PosterBase.desc }
+ent-LPPPosterHappyNewYear = С новый годом!
+    .desc = Поздрваляем с новым годом!
+ent-LPPPosterNoAlcohol = Нет алкоголю!
+    .desc = Правда... Хватит уже
+ent-LPPPosterSport = Спорт
+    .desc = Занимайся спортом, жирный скуф
+ent-LPPPosterTimeTea = Время чая
+    .desc = Оу, вы из Англии?

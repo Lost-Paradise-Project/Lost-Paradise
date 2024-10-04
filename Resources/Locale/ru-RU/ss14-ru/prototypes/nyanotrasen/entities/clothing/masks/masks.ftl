@@ -1,6 +1,6 @@
 ent-ClothingMaskOniBase = { ent-ClothingMaskPullableBase }
     .desc = Маска, изображающая свирепое существо из японского фольклёра.
-ent-ClothingMaskOniBlue = голубая маска они
+ent-ClothingMaskOniBlue = Голубая маска они
     .desc = { ent-ClothingMaskOniBase.desc }
-ent-ClothingMaskOniRed = красная маска они
+ent-ClothingMaskOniRed = Красная маска они
     .desc = { ent-ClothingMaskOniBase.desc }

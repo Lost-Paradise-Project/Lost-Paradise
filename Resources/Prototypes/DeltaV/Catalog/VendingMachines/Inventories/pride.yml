@@ -1,7 +1,7 @@
 - type: vendingMachineInventory
   id: PrideDrobeInventory
   startingInventory:
-       ClothingNeckRussianPin: 10
+       LPPClothingNeckRussianPin: 10
        ClothingUnderSocksCoder: 3
        ClothingNeckCloakTrans: 3
        ClothingNeckCloakAce: 3

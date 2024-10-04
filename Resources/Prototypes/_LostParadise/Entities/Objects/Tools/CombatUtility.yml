@@ -1,8 +1,8 @@
 - type: entity
   id: LPPCombatDefibrillator
   parent: [ BaseItem, PowerCellSlotHighItem ]
-  name: боевой дефибриллятор
-  description: Быстро. Надёжно. Эффективно. Имеет этикетку "BL CORP technology"
+  name: Combat defibrillator
+  description: Quickly. Reliable. Effectively. It has a label "BL CORP technology"
   components:
     - type: PowerCellDraw
       useRate: 100
@@ -49,8 +49,8 @@
 - type: entity
   parent: BaseItem
   id: LPPCombatHypospray
-  name: боевой гипоспрей
-  description: Слегка урезанная версия стерильного инъектора для быстрого введения лекарств пациентам. Достаточно быстрая версия ввиду своего предназначения. НЕ ДАВАТЬ В РУКИ ОФИЦЕРАМ. Имеет этикетку "BL CORP technology"
+  name: Combat hypospray
+  description: A slightly stripped-down version of a sterile injector for the rapid administration of drugs to patients. The version is fast enough because of its purpose. DO NOT GIVE IT INTO THE HANDS OF OFFICERS. It has a label "BL CORP technology"
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Specific/Medical/CombatHypospray.rsi

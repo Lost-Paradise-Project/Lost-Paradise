@@ -1,12 +1,12 @@
-ent-ComputerTelevision = деревянный телевизор
+ent-ComputerTelevision = Деревянный телевизор
     .desc = Наконец-то тут появился нормальный сигнал...
-ent-WallmountTelescreenFrame = каркас телеэкрана
+ent-WallmountTelescreenFrame = Каркас телеэкрана
     .desc = Наконец-то тут появился нормальный сигнал...
-ent-WallmountTelescreen = телеэкран
+ent-WallmountTelescreen = Телеэкран
     .desc = Наконец-то тут появился нормальный сигнал...
     .suffix = Монитор камер
-ent-WallmountTelevisionFrame = каркас телевизора
+ent-WallmountTelevisionFrame = Каркас телевизора
     .desc = Наконец-то тут появился нормальный сигнал...
-ent-WallmountTelevision = телевизор
+ent-WallmountTelevision = Телевизор
     .desc = Наконец-то тут появился нормальный сигнал...
     .suffix = Развлечения

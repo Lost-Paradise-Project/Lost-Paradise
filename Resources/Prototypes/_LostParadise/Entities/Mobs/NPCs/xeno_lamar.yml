@@ -1,9 +1,9 @@
 - type: entity
   id: LPPXenoLamarSafe
-  name: Лицехват
+  name: Facehugger
   parent: SimpleSpaceMobBase
-  description: Это маленькое нечто забавно пританцовывает на своих ножках, желая запрыгнуть вам на лицо.
-  suffix: Безопасный
+  description: This little something is dancing amusingly on its legs, wanting to jump on your face.
+  suffix: Safe
   components:
   - type: Insulated
   - type: Clothing

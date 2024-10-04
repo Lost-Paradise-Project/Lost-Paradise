@@ -1,10 +1,10 @@
-ent-BaseShowcaseRobot = макет охранного робота
+ent-BaseShowcaseRobot = Макет охранного робота
     .desc = Это массо-габаритный макет старого робота-охранника.
-ent-ShowcaseRobot = макет охранного робота
+ent-ShowcaseRobot = Макет охранного робота
     .desc = Это массо-габаритный макет старого робота-охранника.
-ent-ShowcaseRobotWhite = макет белого робота
+ent-ShowcaseRobotWhite = Макет белого робота
     .desc = Это массо-габаритный макет старого робота.
-ent-ShowcaseRobotAntique = макет робота-грузчика
+ent-ShowcaseRobotAntique = Макет робота-грузчика
     .desc = Это массо-габаритный макет старого робота-грузчика.
-ent-ShowcaseRobotMarauder = макет Мародёра
+ent-ShowcaseRobotMarauder = Макет Мародёра
     .desc = Это массо-габаритный макет Мародёра, окрашенного в зелёный.

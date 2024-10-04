@@ -1,0 +1,70 @@
+﻿- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatCapBlack
+  name: black cap
+  description: A stylish black cap.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Caps/blackcap.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Caps/blackcap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatCapBlue
+  name: blue cap
+  description: A stylish blue cap.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Caps/bluecap.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Caps/bluecap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatCapGreen
+  name: green cap
+  description: A stylish green cap.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Caps/greencap.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Caps/greencap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPADJUCap
+  name: Adjutant's cap
+  description: This cap is worn by those who are quite tired of the routine of working with the bureaucracy
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/LPPADJUCap.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/LPPADJUCap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatCapRed
+  name: red cap
+  description: A stylish red cap.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Caps/redcap.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Caps/redcap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon

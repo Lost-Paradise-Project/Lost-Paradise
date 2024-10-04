@@ -1,2 +1,2 @@
-ent-SeedExtractor = экстрактор семян
+ent-SeedExtractor = Экстрактор семян
     .desc = Извлекает семена из продукции.

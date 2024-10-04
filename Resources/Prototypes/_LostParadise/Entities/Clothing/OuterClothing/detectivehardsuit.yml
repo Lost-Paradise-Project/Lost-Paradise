@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterDetectiveHardsuit
-  name: защитный костюм от давления FDA-87d - "Watson"
-  description: Лёгкий костюм, помогающий детективам NanoTrasen расследывать даже в космосе!
+  name: Pressure protection suit FDA-87d - "Watson"
+  description: A lightweight suit that helps NanoTrasen detectives investigate even in space!
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/detectivehardsuit.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetDetectiveHardsuit
-  name: шлем FDA-87d
-  description: Жаль что нет отверствия под курительную трубку...
+  name: Helmet FDA-87d
+  description: It is a pity that there is no hole for a smoking pipe...
   noSpawn: true
   components:
   - type: BreathMask

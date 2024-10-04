@@ -1,4 +1,4 @@
-ent-PresentBase = подарок
+ent-PresentBase = Подарок
     .desc = Маленькая коробочка с невероятными сюрпризами внутри.
 ent-Present = { ent-PresentBase }
     .desc = { ent-PresentBase.desc }
@@ -18,5 +18,5 @@ ent-PresentRandomAsh = { ent-PresentBase }
 ent-PresentRandomCash = { ent-PresentBase }
     .suffix = Заполненный, Деньги
     .desc = { ent-PresentBase.desc }
-ent-PresentTrash = обёрточная бумага
+ent-PresentTrash = Обёрточная бумага
     .desc = Аккуратно сложенная, заклеенная и завязанная бантиком. Затем торжественно разорванная на части и выброшенная.

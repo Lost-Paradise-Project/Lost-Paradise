@@ -1,5 +1,5 @@
 - type: job
-  id: LPPSecurityEnginer
+  id: LPPSecurityEngineer
   name: job-name-security-enginer
   description: job-description-security-enginer
   playTimeTracker: LPPJobSecurityEnginer
@@ -33,7 +33,7 @@
     eyes: LPPClothingEyesHudSecEng
     gloves: ClothingHandsGlovesColorYellow
     head: ClothingHeadHatHardhatYellow
-    id: LPPSecurityEnginerPDA
+    id: LPPSecurityEngineerPDA
     outerClothing: ClothingOuterVestHazard
     ears: LPPClothingHeadsetSecurityEngineer
     belt: LPPClothingMilitaryWebbingSecEng

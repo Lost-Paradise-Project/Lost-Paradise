@@ -1,6 +1,6 @@
-ent-ClothingOuterVestFlak = жилетка
+ent-ClothingOuterVestFlak = Жилетка
     .desc = Обычная пыльная жилетка.
-ent-ClothingOuterVestFlakPress = жилетка прессы
+ent-ClothingOuterVestFlakPress = Жилетка прессы
     .desc = Жилетка, которую надевают репортёры в горячих точках.
-ent-ClothingOuterClerkVest = жилет судьи
+ent-ClothingOuterClerkVest = Жилет судьи
     .desc = Шёлковая жилетка с пурпурной окантовкой. Имеет пару карманов для всех нужд судьи.

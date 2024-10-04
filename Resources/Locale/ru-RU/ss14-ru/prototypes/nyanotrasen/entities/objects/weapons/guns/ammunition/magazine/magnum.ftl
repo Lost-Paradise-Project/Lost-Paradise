@@ -1,8 +1,8 @@
-ent-BaseMagazineUniversalMagnum = универсальный магазин (.45 магнум)
+ent-BaseMagazineUniversalMagnum = Универсальный магазин (.45 магнум)
     .desc = { ent-BaseMagazinePistol.desc }
-ent-MagazineUniversalMagnum = универсальный магазин (.45 магнум)
+ent-MagazineUniversalMagnum = Универсальный магазин (.45 магнум)
     .desc = { ent-BaseMagazineUniversalMagnum.desc }
-ent-MagazineUniversalMagnumPractice = универсальный магазин (.45 магнум учебные)
+ent-MagazineUniversalMagnumPractice = Универсальный магазин (.45 магнум учебные)
     .desc = { ent-BaseMagazineUniversalMagnum.desc }
-ent-MagazineUniversalMagnumRubber = универсальный магазин (.45 магнум резиновые)
+ent-MagazineUniversalMagnumRubber = Универсальный магазин (.45 магнум резиновые)
     .desc = { ent-BaseMagazineUniversalMagnum.desc }

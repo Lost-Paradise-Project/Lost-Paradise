@@ -1,6 +1,6 @@
-ent-ChairBarber = стул барбера
+ent-ChairBarber = Стул барбера
     .desc = { ent-SeatBase.desc }
-ent-BarberSignPole = парикмахерский столб
+ent-BarberSignPole = Парикмахерский столб
     .desc = Гипнотизирует.
-ent-BarberSignThesnip = надрез
+ent-BarberSignThesnip = Надрез
     .desc = Будем надеяться, что это не медицинская практика...

@@ -1,0 +1,12 @@
+marking-LPPIPCBaseChestFemale = Стандартная грудь (Женская)
+marking-LPPIPCBaseChestFemaleAlt = Стандартная грудь (Женская, Альт)
+marking-LPPIPCBaseChestMale = Стандартная грудь (Мужская)
+marking-LPPIPCBaseLArm = Стандартная рука (Левая)
+marking-LPPIPCBaseRArm = Стандартная рука (Правая)
+marking-LPPIPCBaseRHand = Стандартная кисть (Правая)
+marking-LPPIPCBaseLHand = Стандартная кисть (Левая)
+marking-LPPIPCBaseRLeg = Стандартная нога (Правая)
+marking-LPPIPCBaseLLeg = Стандартная нога (Левая)
+marking-LPPIPCBaseRFoot = Стандартная стопа (Правая)
+marking-LPPIPCBaseLFoot = Стандартная стопа (Левая)
+marking-LPPIPCBaseHead = Стандартная голова

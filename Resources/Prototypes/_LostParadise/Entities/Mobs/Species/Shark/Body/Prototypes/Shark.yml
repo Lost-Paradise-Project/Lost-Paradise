@@ -4,18 +4,18 @@
   root: torso
   slots:
     head:
-      part: HeadShark
+      part: LPPHeadShark
       connections:
         - torso
       organs:
         brain: OrganHumanBrain
         eyes: OrganHumanEyes
     torso:
-      part: TorsoShark
+      part: LPPTorsoShark
       organs:
         heart: OrganAnimalHeart
         lungs: OrganHumanLungs
-        stomach: OrganSharkStomach
+        stomach: LPPOrganSharkStomach
         liver: OrganAnimalLiver
         kidneys: OrganHumanKidneys
       connections:
@@ -25,29 +25,29 @@
         - left leg
         - tail
     right arm:
-      part: RightArmShark
+      part: LPPRightArmShark
       connections:
         - right hand
     left arm:
-      part: LeftArmShark
+      part: LPPLeftArmShark
       connections:
         - left hand
     right hand:
-      part: RightHandShark
+      part: LPPRightHandShark
     left hand:
-      part: LeftHandShark
+      part: LPPLeftHandShark
     right leg:
-      part: RightLegShark
+      part: LPPRightLegShark
       connections:
         - right foot
     left leg:
-      part: LeftLegShark
+      part: LPPLeftLegShark
       connections:
         - left foot
     right foot:
-      part: RightFootShark
+      part: LPPRightFootShark
     left foot:
-      part: LeftFootShark
+      part: LPPLeftFootShark
     tail:
-      part: TailShark
+      part: LPPTailShark
 

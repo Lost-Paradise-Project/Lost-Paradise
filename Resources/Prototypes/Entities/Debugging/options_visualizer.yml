@@ -1,6 +1,7 @@
 ﻿- type: entity
   id: OptionsVisualizerTest
   suffix: DEBUG
+  noSpawn: true
   components:
   - type: Tag
     tags:

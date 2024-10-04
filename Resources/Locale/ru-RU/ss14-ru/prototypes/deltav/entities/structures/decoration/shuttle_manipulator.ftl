@@ -1,2 +1,2 @@
-ent-shuttle_manipulator = голограмма станции
+ent-shuttle_manipulator = Голограмма станции
     .desc = Объёмная голограмма космической станции.

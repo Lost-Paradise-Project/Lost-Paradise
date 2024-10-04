@@ -1,4 +1,4 @@
-ent-CarpetBase = ковёр
+ent-CarpetBase = Ковёр
     .desc = Приятная поверхность для ходьбы.
 ent-Carpet = { ent-CarpetBase }
     .desc = { ent-CarpetBase.desc }
@@ -30,5 +30,5 @@ ent-CarpetCyan = { ent-CarpetBase }
 ent-CarpetWhite = { ent-CarpetBase }
     .suffix = Белый
     .desc = { ent-CarpetBase.desc }
-ent-CarpetChapel = ковёр церкви
+ent-CarpetChapel = Ковёр церкви
     .desc = { ent-BaseStructure.desc }

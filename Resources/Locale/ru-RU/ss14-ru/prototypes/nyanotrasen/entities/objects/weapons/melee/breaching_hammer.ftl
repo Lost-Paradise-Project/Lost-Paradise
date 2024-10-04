@@ -1,3 +1,3 @@
-ent-SecBreachingHammer = штурмовой молот
+ent-SecBreachingHammer = Штурмовой молот
     .desc = Огромный, тяжелый молот для пробития различных дверей или окон.
     .suffix = НЕ МАППИТЬ

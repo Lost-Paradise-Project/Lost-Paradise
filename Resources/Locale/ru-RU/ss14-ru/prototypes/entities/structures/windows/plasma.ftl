@@ -1,6 +1,6 @@
-ent-PlasmaWindow = плазменное окно
+ent-PlasmaWindow = Плазменное окно
     .desc = { ent-Window.desc }
-ent-PlasmaWindowDirectional = направленное плазменное окно
+ent-PlasmaWindowDirectional = Направленное плазменное окно
     .desc = Смотри не заляпай.
 ent-PlasmaWindowDiagonal = { ent-PlasmaWindow }
     .suffix = Диагональ

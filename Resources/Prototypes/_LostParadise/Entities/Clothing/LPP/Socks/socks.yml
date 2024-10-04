@@ -876,9 +876,9 @@
 - type: entity
   parent: LPPClothingUnderwearSocksBase
   id: LPPCowSocks
-  suffix: СПОНСОР
-  name: коровьи чулки
-  description: Муууу!
+  suffix: SPONSOR
+  name: Cow stockings
+  description: Moooo!
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Underwear/cowset/cowsocks.rsi

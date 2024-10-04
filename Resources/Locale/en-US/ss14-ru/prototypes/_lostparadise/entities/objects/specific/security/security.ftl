@@ -1,0 +1,13 @@
+ent-LPPStunBatonSelfCharging = { ent-Stunbaton }
+    .suffix = Recharging, Do Not Map
+    .desc = { ent-Stunbaton.desc }
+ent-LPPFlashRecharging = { ent-Flash }
+    .suffix = Recharging, Do Not Map
+    .desc = { ent-Flash.desc }
+ent-LPPPoliceBatonNonLethal = non-lethal baton
+    .desc = First, do no harm.
+ent-LPPCentcoin = CentCoin
+    .desc = A coin containing a couple of grams of bluespace crystal, as well as disposable modules for teleporting objects.
+    .suffix = 10 Coins
+ent-LPPCentcoin1 = CentCoin
+    .desc = A coin containing a couple of grams of bluespace crystal, as well as disposable modules for teleporting objects.

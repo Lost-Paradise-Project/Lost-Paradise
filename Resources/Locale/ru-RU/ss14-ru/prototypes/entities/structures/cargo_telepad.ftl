@@ -1,3 +1,3 @@
-ent-CargoTelepad = грузовой телепад
+ent-CargoTelepad = Грузовой телепад
     .desc = Захватите пиццу и приступайте к работе.
     .suffix = { "" }

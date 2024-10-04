@@ -1,8 +1,8 @@
 - type: entity
   id: LPPBookSpaceLaw
   parent: BaseItem
-  name: корпоративный закон
-  description: Книга содержащая всю необходимую информацию о текущем корпоративном законе. Серия обновляется каждый год!
+  name: Corporate Law
+  description: A book containing all the necessary information about the current corporate law. The series is updated every year!
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi

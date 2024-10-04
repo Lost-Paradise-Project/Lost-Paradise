@@ -1,7 +1,7 @@
 - type: entity
   id: LPPCrateFreedomImplants
-  name: ящик имплантов свободы
-  description: Содержит 5 имплантов "Свободы", позволяющие сбросить с себя наручники
+  name: Freedom implant crate
+  description: Crate filled with 5 Freedom implants that allow you to throw off the handcuffs.
   parent: CrateSecgear
   components:
   - type: StorageFill
@@ -11,8 +11,8 @@
 
 - type: entity
   id: LPPCrateAcidifierImplants
-  name: ящик имплантов "Растворитель"
-  description: Содержит 5 имплантов "Растворитель", которые уничтожают тело вместе с экипировкой и инфекцией.
+  name: Acidifier implant crate
+  description: Crate filled with 5 Acidifier implants that allow you to destroy the body along with the equipment and infection.
   parent: CrateSecgear
   components:
   - type: StorageFill
@@ -22,8 +22,8 @@
 
 - type: entity
   id: LPPCrateEMPImplants
-  name: ящик имплантов ЭМИ
-  description: Содержит 5 имплантов электро-магнитного импульса, которые способны временно обесточить шлюзы, нейтрализовать энергетическое оружие и заглушить гарнитуры.
+  name: EMP implant crate
+  description: Crate filled with 5 EMP implants which are able to temporarily de-energize the airlocks, neutralize energy weapons and mute headsets.
   parent: CrateSecgear
   components:
   - type: StorageFill
@@ -33,8 +33,8 @@
 
 - type: entity
   id: LPPCrateScramImplants
-  name: ящик имплантов "Побег"
-  description: Содержит 5 имплантов "Побег", телепортирующие вас в случайное.
+  name: Scram implant crate
+  description: Crate filled with 5 Scram implants that allow you teleport to a random location.
   parent: CrateSecgear
   components:
   - type: StorageFill
@@ -44,8 +44,8 @@
 
 - type: entity
   id: LPPCrateMicroBombImplants
-  name: ящик имплантов микро-бомб
-  description: Содержит 5 имплантов микро-бомб
+  name: Micro-bomb implant crate
+  description: Crate filled with 5 Micro-bomb implants which create small explosion after your death
   parent: CrateSecgear
   components:
   - type: StorageFill
@@ -55,8 +55,8 @@
 
 - type: entity
   id: LPPCrateStorageImplants
-  name: ящик имплантов "Хранилище"
-  description: Содержит 5 имплантов "Хранилище". Может быть применено как рагрузка или как потайной карман при работе в тылу.
+  name: Storage implant crate
+  description: Crate filled with 5 Storage implants. It can be used as a tactical vest or as a secret pocket when working in the rear.
   parent: CrateSecgear
   components:
   - type: StorageFill
@@ -66,8 +66,8 @@
 
 - type: entity
   id: LPPCrateDnaScramblerImplants
-  name: ящик имплантов "Миксер ДНК"
-  description: Содержит 5 имплантов "Миксер ДНК", применяющиеся при долгой работе в тылу врага или под прикрытием.
+  name: DNA mixer implant crate
+  description: Crate filled with 5 DNA mixer implants, used for long-term work behind enemy lines or under cover.
   parent: CrateSecgear
   components:
   - type: StorageFill
@@ -77,8 +77,8 @@
 
 - type: entity
   id: LPPCrateMacroBombImplants
-  name: ящик имплантов макро-бомб
-  description: Содержит 5 имплантов макро-бомб
+  name: Macro-bomb implant crate
+  description: Crate filled with 5 Macro-bomb implants which create big explosion with delay after your death
   parent: CrateSecgear
   components:
   - type: StorageFill

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitAcientSyndie
-  name: Тактический скафандр CSA-21BM - "Tobinezumi"
-  description: Очень странная модель скафандра Ядерных Оперативников, явно нестандартной конфигурации и будто бы не из нашей вселенной, на стопе красуется вырезанный текст- "Скафандр Мика, DS1, Дэесдвашники- руки прочь!".
+  name: Tactical hardsuit CSA-21BM - "Tobinezumi"
+  description: A very strange model of the suit of Nuclear Operatives, obviously of a non-standard configuration and as if not from our universe, there is a cut-out text on the foot - "Mika's spacesuit, DS1, Death guards - hands off!".
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi

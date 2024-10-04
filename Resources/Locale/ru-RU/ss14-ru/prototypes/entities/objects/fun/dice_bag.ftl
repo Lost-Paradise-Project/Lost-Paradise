@@ -1,4 +1,4 @@
-ent-DiceBag = мешочек с костями
+ent-DiceBag = Мешочек с костями
     .desc = Содержит всю удачу, которая вам только может понадобиться.
-ent-MagicDiceBag = мешочек с костями
+ent-MagicDiceBag = Мешочек с костями
     .desc = { ent-DiceBag.desc }

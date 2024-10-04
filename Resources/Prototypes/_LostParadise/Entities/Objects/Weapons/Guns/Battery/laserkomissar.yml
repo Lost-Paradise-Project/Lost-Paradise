@@ -1,8 +1,8 @@
 - type: entity
-  name: Лазерный Комиссар
+  name: Laser Comissar
   parent: BaseWeaponBattery
   id: LPPLaserKomissar
-  description: Ананасы ешь, рябчиков жуй, последний твой день приходит, буржуй!
+  description: Eat pineapples, chew grouse, your last day is coming, bourgeois!
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Weapons/Guns/Battery/laserkomissar.rsi

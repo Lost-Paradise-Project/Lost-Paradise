@@ -1,11 +1,11 @@
 - type: gameMap
   id: LPPAsterisk
   mapName: 'Астериск'
-  mapPath: /Maps/_LostParadise/asterisk.yml
+  mapPath: /Maps/_LostParadise/LPPAsterisk.yml
   minPlayers: 20
   maxPlayers: 70
   stations:
-    Asterisk:
+    LPPAsterisk:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationRandomTransform
@@ -74,4 +74,4 @@
           #LOST PARADISE
             LPPBlueShieldOfficer: [ 1, 1 ]
             LPPAdjutant: [ 1, 1 ]
-            LPPSecurityEnginer: [ 1, 1 ]
+            LPPSecurityEngineer: [ 1, 1 ]

@@ -1,4 +1,4 @@
-ent-HandHeldMassScanner = ручной сканер массы
+ent-HandHeldMassScanner = Ручной сканер массы
     .desc = Портативный сканер массы.
 ent-HandHeldMassScannerEmpty = { ent-HandHeldMassScanner }
     .suffix = Пустой

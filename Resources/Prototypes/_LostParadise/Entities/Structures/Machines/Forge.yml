@@ -1,8 +1,8 @@
 - type: entity
   id: LPPSpaceForge
   parent: BaseLathe
-  name: космическая кузница
-  description: Данный купол машины предназначен для печатания скафандров чтобы персонал мог спокойно выйти в космос, не боясь задохнуться. К слову, все характеристики схожи и с другими протолатами, однако его строение и сборка выглядит по-другому. Имеет этикетку "BL CORP technology".
+  name: Space Forge
+  description: This dome of the machine is designed for printing spacesuits so that personnel can safely go into space without fear of suffocation. By the way, all the characteristics are similar to other protoliths, but its structure and assembly look different.
   components:
   - type: Sprite
     sprite: _LostParadise/Structures/Machines/SpaceForge.rsi
@@ -44,8 +44,8 @@
 - type: entity
   id: LPPSpaceForgeCMDAndSec
   parent: BaseLathe
-  name: космическая кузница командования
-  description: Данный купол машины предназначен для печатания скафандров чтобы персонал мог спокойно выйти в космос, не боясь задохнуться. К слову, все характеристики схожи и с другими протолатами, однако его строение и сборка выглядит по-другому. Имеет этикетку "BL CORP technology".
+  name: Space Forge of command
+  description: This dome of the machine is designed for printing spacesuits so that personnel can safely go into space without fear of suffocation. By the way, all the characteristics are similar to other protoliths, but its structure and assembly look different.
   components:
   - type: Sprite
     sprite: _LostParadise/Structures/Machines/SpaceForge.rsi

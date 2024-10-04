@@ -1,0 +1,12 @@
+ent-LPPCEComputerComms = chief engineer communications computer
+    .desc = A computer used to make station wide announcements via keyboard, set the appropriate alert level.
+ent-LPPCapComputerComms = captain communications computer
+    .desc = A computer used to make station wide announcements via keyboard, set the appropriate alert level.
+ent-LPPHopComputerComms = head of personell communications computer
+    .desc = A computer used to make station wide announcements via keyboard, set the appropriate alert level.
+ent-LPPHosComputerComms = head of security communications computer
+    .desc = A computer used to make station wide announcements via keyboard, set the appropriate alert level.
+ent-LPPRDComputerComms = research director communications computer
+    .desc = A computer used to make station wide announcements via keyboard, set the appropriate alert level.
+ent-LPPCmoComputerComms = chief medical officer communications computer
+    .desc = A computer used to make station wide announcements via keyboard, set the appropriate alert level.

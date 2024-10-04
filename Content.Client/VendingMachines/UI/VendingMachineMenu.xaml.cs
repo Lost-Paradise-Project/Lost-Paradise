@@ -21,7 +21,7 @@ namespace Content.Client.VendingMachines.UI
 
         public VendingMachineMenu()
         {
-            MinSize = SetSize = new Vector2(250, 150);
+            MinSize = SetSize = new Vector2(300, 175);
             RobustXamlLoader.Load(this);
             IoCManager.InjectDependencies(this);
 

@@ -1,2 +1,2 @@
-ent-FloorWaterEntity = вода
+ent-FloorWaterEntity = Вода
     .desc = Настоящий утолитель жажды.

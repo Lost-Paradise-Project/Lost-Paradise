@@ -1,0 +1,5 @@
+﻿- type: ore
+  id: LPPOreDiamond
+  oreEntity: LPPOreDiamond
+  minOreYield: 1
+  maxOreYield: 2

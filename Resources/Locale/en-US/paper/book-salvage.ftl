@@ -1,7 +1,5 @@
 book-text-demonomicon1 = How To Summon a Demon
-          - by J.G. Wizgerald
-
-          1. todo finish writing demon summoning guide
+          - by J.G. Wizgerald      1. todo finish writing demon summoning guide
 
 book-text-demonomicon2 = How To Summon a Lemon
           - by J.G. Wizgerald

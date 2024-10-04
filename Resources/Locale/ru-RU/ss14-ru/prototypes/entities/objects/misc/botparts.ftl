@@ -1,2 +1,2 @@
-ent-ProximitySensor = датчик движения
+ent-ProximitySensor = Датчик движения
     .desc = Чувствует предметы в непосредственной близости.

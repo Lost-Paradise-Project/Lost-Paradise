@@ -18,6 +18,6 @@
 
   <Box>
   <GuideEntityEmbed Entity="LPPMobShark" Caption="Акулид"/>
-  <GuideEntityEmbed Entity="MobTajaran" Caption="Таяран"/>
+  <GuideEntityEmbed Entity="LPPMobTajaran" Caption="Таяран"/>
   </Box>
 </Document>

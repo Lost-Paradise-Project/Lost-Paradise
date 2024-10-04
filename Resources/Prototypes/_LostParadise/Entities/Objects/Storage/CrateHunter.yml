@@ -1,8 +1,8 @@
  - type: entity
    id: LPPCratecivdef
    parent: CrateSecgear
-   name: набор гражданской обороны
-   description: Ооооо моя оборона... Содержит оружие не самого высокого качества, но зато в большом количестве для вооружения гражданских лиц в случае ЧС. Ящик какой-то хлипкий... Требует доступ службы безопасности для открытия.
+   name: Civil defense kit
+   description: Ooooh my defense... It contains weapons of not the highest quality, but in large quantities for arming civilians in case of an emergency. The box is kind of flimsy... Requires security access to open.
    components:
    - type: Destructible
      thresholds:
@@ -23,8 +23,8 @@
  - type: entity
    id: LPPCratehunter
    parent: CratePrivateSecure
-   name: набор охотника
-   description: Содержит набор оружия, а так же скафандр, самое то для охоты на космическу фауну.
+   name: Hunter kit
+   description: It contains a set of weapons, as well as a space suit, the most suitable for hunting space fauna.
    components:
    - type: Destructible
      thresholds:

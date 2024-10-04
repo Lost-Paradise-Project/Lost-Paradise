@@ -1,0 +1,16 @@
+ent-LPPHosPen = Ручка Главы Службы Безопасности
+    .desc = { ent-Pen.desc }
+ent-LPPCEPen = Ручка Старшего Инженера
+    .desc = { ent-Pen.desc }
+ent-LPPQMPen = Ручка Квартир Мейстера
+    .desc = { ent-Pen.desc }
+ent-LPPCMOPen = Ручка Главного Врача
+    .desc = { ent-Pen.desc }
+ent-LPPRDPen = Ручка Научного Директора
+    .desc = { ent-Pen.desc }
+ent-LPPStampDeny = штамп об отказе
+    .desc = { ent-RubberStampMime.desc }
+ent-LPPPenPencil = карандаш
+    .desc = { ent-Pen.desc }
+ent-LPPGorlaxPen = ручка Горлакса
+    .desc = Высокотехнологичная ручка, созданная юридическим отделом Горлакса, которая благодаря своему алмазному наконечнику может изгибать яркий свет под невозможными углами для записи. Она настолько мощная, что при необходимости может даже переписывать документы с официальными печатями.

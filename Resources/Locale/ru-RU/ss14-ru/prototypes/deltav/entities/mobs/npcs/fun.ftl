@@ -1,2 +1,2 @@
-ent-MobSpaceShrimp = космическая креветка
+ent-MobSpaceShrimp = Космическая креветка
     .desc = Креветочно проклятый...

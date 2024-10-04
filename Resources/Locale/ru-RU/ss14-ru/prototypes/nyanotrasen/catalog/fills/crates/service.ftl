@@ -1,4 +1,4 @@
-ent-CrateServiceReplacementColoredLights = ящик цветных светильников
+ent-CrateServiceReplacementColoredLights = Ящик цветных светильников
     .desc = { ent-CrateGenericSteel.desc }
-ent-CrateServiceReplacementMaintenanceLights = ящик ламп накаливания для тех обслуживания
+ent-CrateServiceReplacementMaintenanceLights = Ящик ламп накаливания для тех обслуживания
     .desc = { ent-CrateGenericSteel.desc }

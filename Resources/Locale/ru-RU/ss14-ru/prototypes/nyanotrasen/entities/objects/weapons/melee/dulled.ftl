@@ -1,6 +1,6 @@
-ent-KatanaDulled = катана
+ent-KatanaDulled = Катана
     .desc = Древнее мастерство передалось и до наших дней, теперь этот меч - наследие истории и культуры.
     .suffix = Тупой
-ent-ClaymoreDulled = клеймор
+ent-ClaymoreDulled = Клеймор
     .desc = Древний меч, который ныне просто затупился.
     .suffix = Тупой

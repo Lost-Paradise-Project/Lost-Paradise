@@ -1,9 +1,9 @@
-ent-MobRatKing = крысиный король
+ent-MobRatKing = Крысиный король
     .desc = Он крысюк и он тут босс.
 ent-MobRatKingBuff = { ent-MobRatKing }
     .suffix = Качок
     .desc = { ent-MobRatKing.desc }
-ent-MobRatServant = крысиный слуга
+ent-MobRatServant = Крысиный слуга
     .desc = Он мини-крысюк и он тут не босс.
 ent-ActionRatKingRaiseArmy = Призвать армию
     .desc = Потратьте некоторое количество голода, чтобы призвать дружественную крысу для вашей защиты.

@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingNeckPinBase
-  id: ClothingNeckFluppiPin
+  id: LPPClothingNeckFluppiPin
   name: fluppi pin
   description: be happy do crime
   components:
@@ -13,3 +13,94 @@
     clothingVisuals:
       neck:
       - state: floppy-equipped
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckChain
+  name: army chain
+  description: A chain, giving an understanding, what the person, who wearing this - the veteran
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/chain.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/chain.rsi
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: LPPMSSAPinAndromeda
+  name: pin "Andromeda"
+  description: Make yourself at home, traveler.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    layers:
+    - state: andromeda
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    clothingVisuals:
+      neck:
+      - state: andromeda-equipped
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: LPPMSSAPinLostParadise
+  name: pin "Lost Paradise"
+  description: We try our best for you!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    layers:
+    - state: lostparadise
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    clothingVisuals:
+      neck:
+      - state: lostparadise-equipped
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: LPPMSSAPinFoxHole
+  name: pin "Fox Hole"
+  description: A Fox Hole, where it's quiet and peaceful.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    layers:
+    - state: foxhole
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    clothingVisuals:
+      neck:
+      - state: foxhole-equipped
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: LPPMSSAPinMSSA
+  name: pin "MSSA"
+  description: Together we are strong!
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    layers:
+    - state: mssa
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    clothingVisuals:
+      neck:
+      - state: mssa-equipped
+
+- type: entity
+  parent: ClothingNeckPinBase
+  id: LPPMSSAPinSirena
+  name: pin "Sirena"
+  description: The club of intelligent people.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    layers:
+    - state: sirena
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Misc/pins/servers-and-other.rsi
+    clothingVisuals:
+      neck:
+      - state: sirena-equipped

@@ -1,5 +1,5 @@
-ent-KitchenReagentGrinder = измельчитель реагентов
+ent-KitchenReagentGrinder = Измельчитель реагентов
     .desc = От БлендерТех. Будет ли он работать? Давайте узнаем!
     .suffix = Измельчитель/соковыжималка
-ent-ReagentGrinderIndustrial = промышленный измельчитель реагентов
+ent-ReagentGrinderIndustrial = Промышленный измельчитель реагентов
     .desc = Промышленный измельчитель реагентов.

@@ -1,2 +1,2 @@
-ent-KitchenDeepFryer = фритюрница
+ent-KitchenDeepFryer = Фритюрница
     .desc = Промышленная фритюрница для разного фастфуда, а также.. крыс?

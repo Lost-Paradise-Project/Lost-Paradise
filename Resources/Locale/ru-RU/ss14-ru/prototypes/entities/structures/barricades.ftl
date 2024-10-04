@@ -1,4 +1,4 @@
-ent-BaseBarricade = деревянная баррикада
+ent-BaseBarricade = Деревянная баррикада
     .desc = Баррикада из деревянных досок. Выглядит так, будто может выдержать несколько сильных ударов.
 ent-Barricade = { ent-BaseBarricade }
     .desc = { ent-BaseBarricade.desc }

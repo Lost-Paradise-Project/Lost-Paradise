@@ -1,8 +1,8 @@
-ent-Bible = библия
+ent-Bible = Библия
     .desc = Новая межзвёздная версия 2340.
 # Corvax-HiddenDesc-Start
-ent-BibleNecronomicon = священный древний фолиант
-    .suffix = некрономикон
+ent-BibleNecronomicon = Священный древний фолиант
+    .suffix = Некрономикон
     .desc = Имеется пометка: Klatuu, Verata, Nikto – Не забыть об этом опять!
 # Corvax-HiddenDesc-End
 ent-ActionBibleSummon = Призвать фамильяра

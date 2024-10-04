@@ -1,4 +1,4 @@
-ent-FloorChasmEntity = бездна
+ent-FloorChasmEntity = Бездна
     .desc = Дна даже не видно.
 ent-FloorChromiteChasm = { ent-FloorChasmEntity }
     .suffix = Хромит

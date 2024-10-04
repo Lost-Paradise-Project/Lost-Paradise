@@ -1,7 +1,9 @@
-ent-MobTomatoKiller = убийца-томат
+ent-MobTomatoKiller = Убийца-томат
     .desc = Теперь вы можете поспорить с веганами о жизни растений.
-ent-MobGiantSpiderVampire = онейрофаг
+ent-MobGiantSpiderVampire = Онейрофаг
     .desc = Паук коронованный "пожирателем-снов".
-ent-MobGiantSpiderVampireAngry = онейрофаг
+ent-MobGiantSpiderVampireAngry = Онейрофаг
     .suffix = Злой
     .desc = { ent-MobGiantSpiderVampire.desc }
+ent-MobMouseCancer = Раковая мышь
+    .desc = Джесси. У меня рак мыши.

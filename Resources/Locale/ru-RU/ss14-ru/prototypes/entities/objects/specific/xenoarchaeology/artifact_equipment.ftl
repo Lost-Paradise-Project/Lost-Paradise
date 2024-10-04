@@ -1,2 +1,2 @@
-ent-CrateArtifactContainer = контейнер артефактов
+ent-CrateArtifactContainer = Контейнер артефактов
     .desc = Используется для безопасного хранения и перемещения артефактов.
