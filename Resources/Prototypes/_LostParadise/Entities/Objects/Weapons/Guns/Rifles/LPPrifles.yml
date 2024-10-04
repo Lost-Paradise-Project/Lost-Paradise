@@ -96,7 +96,7 @@
 
 - type: entity
   name: HM-10
-  parent: BaseWeaponRifle
+  parent: BaseWeaponSubMachineGun
   id: LPPWeaponRifleHM10
   description: The old-style special forces assault rifle is not so relevant now, but it is still better than standard modern analogues. Uses .30 caliber rifle cartridges.
   components:
@@ -130,6 +130,8 @@
         whitelist:
           tags:
             - CartridgeLightRifle
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Rifles/old-rifle.rsi
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
