@@ -1,6 +1,6 @@
-ent-LPPClothingNeckNeckerchiefGreen = зелёный шейный платок
+ent-LPPClothingNeckNeckerchiefGreen = Зелёный шейный платок
     .desc = Для тех, кто в поиске отношений.
-ent-LPPClothingNeckNeckerchiefPurple = пурпурный шейный платок
+ent-LPPClothingNeckNeckerchiefPurple = Пурпурный шейный платок
     .desc = Для тех, кто готов к оношениям без обязательств.
-ent-LPPClothingNeckNeckerchiefRed = алый шейный платок
+ent-LPPClothingNeckNeckerchiefRed = Алый шейный платок
     .desc = Как знак для тех, кто не хочет отношений.

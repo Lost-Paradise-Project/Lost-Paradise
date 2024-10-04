@@ -1,5 +1,5 @@
 ent-PartMoth = moth body part
-    .desc = { ent-BasePart.desc }
+    .desc = { ent-BaseItem.desc }
 ent-TorsoMoth = moth torso
     .desc = { ent-PartMoth.desc }
 ent-HeadMoth = moth head
