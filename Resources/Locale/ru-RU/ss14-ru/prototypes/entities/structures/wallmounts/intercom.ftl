@@ -1,7 +1,7 @@
 ent-IntercomAssesmbly = интерком
     .desc = Интерком. На данный момент он бесполезен.
-ent-Intercom = { ent-IntercomConstructed }
-    .desc = { ent-IntercomConstructed.desc }
+ent-Intercom = { ent-IntercomAssesmbly }
+    .desc = { ent-IntercomAssesmbly.desc }
 ent-IntercomCommon = { ent-Intercom }
     .suffix = Общий
     .desc = { ent-Intercom.desc }
