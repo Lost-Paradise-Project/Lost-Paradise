@@ -1,0 +1,54 @@
+﻿- type: listing
+  id: LPPUplinkupgrwebbing
+  name: uplink-catalog-armor-homyak-name
+  description: uplink-catalog-armor-homyak-desc
+  icon: { sprite: /Textures/_LostParadise/Clothing/Belt/upgrwebbing.rsi, state: icon }
+  productEntity: LPPClothingBeltMaximumWebbing
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkArmor
+
+- type: listing
+  id: LPPUplinkEcbow
+  name: uplink-catalog-weapon-bow-name
+  description: uplink-catalog-weapon-bow-desc
+  icon: { sprite: /Textures/_LostParadise/Objects/Weapons/Guns/Battery/ecbow.rsi, state: icon }
+  productEntity: LPPWeaponEnergyCrossbow
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkWeapons
+
+- type: listing
+  id: LPPUplinkhelmetswat
+  name: uplink-catalog-armor-swathelmet-name
+  description: uplink-catalog-armor-swathelmet-desc
+  icon: { sprite: /Textures/Clothing/Head/Helmets/swat_syndicate.rsi, state: icon }
+  productEntity: ClothingHeadHelmetSwatSyndicate
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkArmor
+
+- type: listing
+  id: LPPUplinkGlaive
+  name: uplink-catalog-weapon-glaive-name
+  description: uplink-catalog-weapon-glaive-desc
+  icon: { sprite: /Textures/_LostParadise/Objects/Weapons/Melee/syndie_glaive.rsi, state: icon }
+  productEntity: LPPWeaponSyndieGlaive
+  cost:
+    Telecrystal: 8
+  categories:
+  - UplinkWeapons
+
+- type: listing
+  id: LPPUplinkAcientHardsuitSyndie
+  name: uplink-catalog-armor-syndiehard-name
+  description: uplink-catalog-armor-syndiehard-desc
+  icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi, state: icon }
+  productEntity: LPPClothingBackpackDuffelAcientSyndicateHardsuitBundle
+  cost:
+    Telecrystal: 12
+  categories:
+  - UplinkArmor

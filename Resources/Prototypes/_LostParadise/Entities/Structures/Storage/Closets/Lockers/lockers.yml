@@ -14,9 +14,9 @@
 # Security Enginer
 
 - type: entity
-  id: LockerSecEng
+  id: LPPLockerSecEng
   parent: LockerBaseSecure
-  name: шкаф полевого инженера
+  name: field engineer's cabinet
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -29,7 +29,7 @@
 # Expeditor
 
 - type: entity
-  id: LockerExpeditor
+  id: LPPLockerExpeditor
   parent: LockerBaseSecure
   name: Expeditor Locker
   components:

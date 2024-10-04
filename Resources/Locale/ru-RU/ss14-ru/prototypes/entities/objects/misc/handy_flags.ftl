@@ -1,10 +1,10 @@
-ent-BlankHandyFlag = пустой ручной флажок
+ent-BlankHandyFlag = Пустой ручной флажок
     .desc = Кусок белой ткани, намотанный на палку.
-ent-NTHandyFlag = ручной флажок Nanotrasen
+ent-NTHandyFlag = Ручной флажок Nanotrasen
     .desc = Слава Nanotrasen! Подождите, они реально сделали ручной флажок для корпорации?
-ent-SyndieHandyFlag = ручной флажок Синдиката
+ent-SyndieHandyFlag = Ручной флажок Синдиката
     .desc = Для настоящих патриотов-бунтарей. Смерть Nanotrasen!
-ent-LGBTQHandyFlag = разноцветный ручной флажок
-    .desc = Кусок разноцветной ткани, намотанный на палку.
-ent-PirateHandyFlag = пиратский ручной флажок
+ent-LGBTQHandyFlag = флаг Франции
+    .desc = Национальный флаг французов
+ent-PirateHandyFlag = Пиратский ручной флажок
     .desc = Возьмите его в руки и покажите этим карпам, что вы не шутите.

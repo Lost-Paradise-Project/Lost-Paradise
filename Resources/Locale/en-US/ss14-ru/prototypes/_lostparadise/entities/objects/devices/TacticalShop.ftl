@@ -1,0 +1,12 @@
+ent-LPPERTUplinkShop = Operation Planning Tablet
+    .desc = A tablet of DSO officers with access to the bluespace of the sector's storage
+    .suffix = ERT
+ent-LPPCBURNUplinkShop = Operation Planning Tablet
+    .desc = A tablet of DSO officers with access to the bluespace of the sector's storage
+    .suffix = CBURN
+ent-LPPDeltaUplinkShop = Operation Planning Tablet
+    .desc = A tablet of DSO officers with access to the bluespace of the sector's storage
+    .suffix = Delta
+ent-LPPHOSUplinkShop = Security Purchase Tablet
+    .desc = A tablet for the Head of Security, which allows you to purchase equipment for yourself.
+    .suffix = Uplink Security

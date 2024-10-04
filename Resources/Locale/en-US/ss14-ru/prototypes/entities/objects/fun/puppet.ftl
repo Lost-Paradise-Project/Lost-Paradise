@@ -1,0 +1,15 @@
+ent-MrChips = mr chips
+    .desc = It's a dummy, dummy!
+    .suffix = Dummy
+ent-MrDips = mr dips
+    .desc = { ent-MrChips.desc }
+ent-PetRockCarrier = pet rock carrier
+    .desc = Your new and only best friend home!
+ent-BasePetRock = pet rock
+    .desc = Your new and only best friend!
+ent-PetRock = { ent-BasePetRock }
+    .desc = { ent-BasePetRock.desc }
+ent-PetRockFred = fred
+    .desc = { ent-BasePetRock.desc }
+ent-PetRockRoxie = roxie
+    .desc = { ent-BasePetRock.desc }

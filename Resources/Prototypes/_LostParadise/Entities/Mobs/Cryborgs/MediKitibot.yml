@@ -1,5 +1,5 @@
 - type: entity
-  id: BorgChassisMedicalKiti
+  id: LPPBorgChassisMedicalKiti
   parent: [BaseBorgChassisNT]
   name: medical cyborg
   components:

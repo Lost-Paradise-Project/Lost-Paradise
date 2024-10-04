@@ -1,4 +1,4 @@
-ent-BoardGameSpawner = Board Game Spawner
+ent-BoardGameSpawner = Спавнер настольной игры
     .desc = { ent-MarkerBase.desc }
-ent-BattlemapBoardSpawner = Battlemap Board Spawner
+ent-BattlemapBoardSpawner = Спавнер карты с полем боя
     .desc = { ent-MarkerBase.desc }

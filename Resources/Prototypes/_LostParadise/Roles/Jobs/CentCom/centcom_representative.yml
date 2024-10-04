@@ -11,7 +11,7 @@
      tracker: JobCaptain
      min: 54000
   setPreference: false
-  startingGear: CentcomRepresentativeGear
+  startingGear: LPPCentcomRepresentativeGear
   icon: "JobIconNanotrasen"
   supervisors: job-supervisors-centcom
   canBeAntag: false
@@ -22,7 +22,7 @@
     implants: [ TrackingImplant, MindShieldImplant ]
 
 - type: startingGear
-  id: CentcomRepresentativeGear
+  id: LPPCentcomRepresentativeGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitCentcomOfficer
     back: ClothingBackpackHOPFilled
@@ -80,7 +80,7 @@
     - AllAccess
 
 - type: entity
-  id: SpawnLPPCentralCommandRepresentative
+  id: LPPSpawnCentralCommandRepresentative
   parent: SpawnPointJobBase
   name: central command representative spawn
   components:

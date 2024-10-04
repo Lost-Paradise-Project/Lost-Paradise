@@ -122,8 +122,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetMikhelm
-  name: обесцвеченный шлем скафандра
-  description: Шлем от скафандра, дисплей слегка побит, но работать можно...
+  name: The discolored helmet of the spacesuit
+  description: The helmet is from a spacesuit, the display is slightly broken, but you can work...
   noSpawn: true
   components:
   - type: BreathMask
@@ -222,7 +222,7 @@
 
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
-  id: ClothingHeadHelmetHardsuitChrono
+  id: LPPClothingHeadHelmetHardsuitChrono
   noSpawn: true
   name: chrono two
   components:

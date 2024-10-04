@@ -1,12 +1,12 @@
-ent-LunchboxGeneric = ланчбокс
+ent-LunchboxGeneric = Ланчбокс
     .desc = Сюда можно положить еду на случай увлекательного похода.
-ent-LunchboxGenericFilledRandom = заполненный ланчбокс
+ent-LunchboxGenericFilledRandom = Заполненный ланчбокс
     .desc = Сделано с любовью.
     .suffix = Заполненный, Случайный
-ent-LunchboxGenericFilledHealthy = заполненный ланчбокс
+ent-LunchboxGenericFilledHealthy = Заполненный ланчбокс
     .desc = Сделано с любовью к вашему здоровью.
     .suffix = Заполненный, Полезный
-ent-LunchboxGenericFilledUnhealthy = заполненный ланчбокс
+ent-LunchboxGenericFilledUnhealthy = Заполненный ланчбокс
     .desc = Сделано с любовью к вредной пище.
     .suffix = Заполненный, Вредный
 ent-LunchboxCommand = { ent-LunchboxGeneric }

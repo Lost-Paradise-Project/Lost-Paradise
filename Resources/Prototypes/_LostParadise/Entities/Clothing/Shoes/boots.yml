@@ -87,8 +87,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: LPPClothingShoesBootsNPZ
-  name: Сапоги НПЗ
-  description: Крепкие берцы для любой труднопроходимой местности.
+  name: NPZ Boots
+  description: Strong boots for any difficult terrain.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Shoes/Boots/upgjackboots.rsi

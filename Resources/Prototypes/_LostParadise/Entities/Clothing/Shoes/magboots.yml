@@ -76,8 +76,8 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: LPPClothingShoesBootsMagNPZ
-  name: магитные сапоги НПЗ
-  description: Стандартизированные магнитные сапоги от военно-исследовательских сил Независимого Правительства Земли.
+  name: NPZ magboots
+  description: Standardized magnetic boots from the military research forces of the Independent Government of Earth.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Shoes/Boots/NPZmagboots.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: LPPClothingShoesBootsMagHunter
-  name: магнитные сапоги охотника на карпов
-  description: Коммерческие магнитные сапоги дли тех, кто предпочитает охотиться в невесомости либо при слабой гравитации.
+  name: magboots of carp hunter
+  description: Commercial magnetic boots for those who prefer to hunt in zero gravity or in low gravity.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Shoes/Boots/huntermagboots.rsi

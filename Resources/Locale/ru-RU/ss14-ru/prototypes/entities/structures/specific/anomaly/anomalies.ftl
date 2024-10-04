@@ -1,4 +1,4 @@
-ent-BaseAnomaly = аномалия
+ent-BaseAnomaly = Аномалия
     .desc = Непостижимый объект в пространстве. Стоит ли стоять так близко к нему?
 ent-AnomalyPyroclastic = { ent-BaseAnomaly }
     .suffix = Пирокластика
@@ -36,7 +36,7 @@ ent-AnomalyRockIron = { ent-AnomalyRockBase }
 ent-AnomalyFlora = { ent-BaseAnomaly }
     .suffix = Флора
     .desc = { ent-BaseAnomaly.desc }
-ent-AnomalyFloraBulb = странная светящаяся ягода
+ent-AnomalyFloraBulb = Странная светящаяся ягода
     .desc = Это красивая странно светящаяся ягода. Кажется, что внутри неё что-то растёт...
     .suffix = Аномалия Флора
 ent-AnomalyLiquid = { ent-BaseAnomaly }

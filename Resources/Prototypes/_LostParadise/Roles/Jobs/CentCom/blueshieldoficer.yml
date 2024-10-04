@@ -56,7 +56,7 @@
     - Flash
 
 - type: entity
-  id: SpawnBlueShieldOfficer
+  id: LPPSpawnBlueShieldOfficer
   parent: SpawnPointJobBase
   name: BlueShieldOfficer
   components:

@@ -1,15 +1,15 @@
-ent-VehicleKeyJanicart = ключ от уборочной машины
+ent-VehicleKeyJanicart = Ключ от уборочной машины
     .desc = Интересный дизайн.
-ent-VehicleKeySecway = ключ от секвея
+ent-VehicleKeySecway = Ключ от секвея
     .desc = Ключи к будущему.
-ent-VehicleKeyATV = ключ от квадроцикла
+ent-VehicleKeyATV = Ключ от квадроцикла
     .desc = Какой формы ключ от квадроцикла? Конечно же квадратной!
-ent-VehicleKeySkeleton = мастер-ключ от транспорта
+ent-VehicleKeySkeleton = Мастер-ключ от транспорта
     .desc = Открывает любое транспортное средство.
 # Corvax-HiddenDesc-Start
-ent-VehicleKeySyndicateSegway = ключ от алого сегвея
-    .suffix = сегвей синдиката
+ent-VehicleKeySyndicateSegway = Ключ от алого сегвея
+    .suffix = Сегвей синдиката
     .desc = Сам ключ предвкушает отличную поездку с ветерком. Узор на бирке ключа выполнен стильно и минималистично.
 # Corvax-HiddenDesc-End
-ent-VehicleKeySkeletonMotorcycle = ключ от скелетонского мотоцикла
+ent-VehicleKeySkeletonMotorcycle = Ключ от скелетонского мотоцикла
     .desc = Красивая связка ключей, украшенная черепом.

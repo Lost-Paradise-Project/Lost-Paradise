@@ -11,7 +11,7 @@
 
 - type: entity
   parent: ClothingShoesBase
-  id: ClothingUnderSocksFluppi
+  id: LPPClothingUnderSocksFluppi
   name: coder socks
   description: It's time to code sisters!!11!
   components:

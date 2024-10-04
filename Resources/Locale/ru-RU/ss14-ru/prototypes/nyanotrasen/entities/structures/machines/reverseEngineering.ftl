@@ -1,2 +1,2 @@
-ent-ReverseEngineeringMachine = реконструктор
+ent-ReverseEngineeringMachine = Реконструктор
     .desc = Методом подробного изучения получает важные технологии из разрушаемых предметов.

@@ -1,8 +1,8 @@
-ent-PartSpider = часть тела паука
+ent-PartSpider = Часть тела паука
     .desc = { ent-BaseItem.desc }
-ent-ThoraxSpider = паучья грудная клетка
+ent-ThoraxSpider = Паучья грудная клетка
     .desc = { ent-PartSpider.desc }
-ent-RightLegSpider = правая паучья нога
+ent-RightLegSpider = Правая паучья нога
     .desc = { ent-PartSpider.desc }
-ent-LeftLegSpider = левая паучья нога
+ent-LeftLegSpider = Левая паучья нога
     .desc = { ent-PartSpider.desc }

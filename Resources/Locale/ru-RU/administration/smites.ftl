@@ -15,57 +15,13 @@ admin-smite-super-speed-prompt = Вы двигаетесь почти со ск�
 admin-smite-lung-removal-self = Вы не можете вдохнуть!
 admin-smite-terminate-prompt = Айл би бэк
 
-## Smite names
-
-admin-smite-explode-name = Взрыв
-admin-smite-chess-dimension-name = Шахматное измерение
-admin-smite-set-alight-name = Воспламенить
-admin-smite-monkeyify-name = Превратить в обезьяну
-admin-smite-lung-cancer-description = Рак легких стадии IIIA, когда им действительно нравится популярный сериал «Во все тяжкие».
-admin-smite-electrocute-name = Поразить током
-admin-smite-creampie-name = Кремовый пирог
-admin-smite-remove-blood-name = Обескровить
-admin-smite-vomit-organs-name = Рвота органами
-admin-smite-remove-hands-name = Удалить руки
-admin-smite-remove-hand-name = Удалить руку
-admin-smite-pinball-name = Пинбол
-admin-smite-yeet-name = Бросить сквозь станцию
-admin-smite-become-bread-name = Сделать хлебом
-admin-smite-ghostkick-name = Кик втихаря
-admin-smite-nyanify-name = НЯфикация
-admin-smite-kill-sign-name = Знак смерти
-admin-smite-cluwne-name = Сделать клувнем
-admin-smite-anger-pointing-arrows-name = Злые указатели
-admin-smite-dust-name = В прах
-admin-smite-buffering-name = Буферизация
-admin-smite-become-instrument-name = Сделать инструментом
-admin-smite-remove-gravity-name = Антиграв
-admin-smite-reptilian-species-swap-name = Сделать унатхом
-admin-smite-locker-stuff-name = Сунуть в шкаф
-admin-smite-plasma-internals-description = Заменяет содержимое внутренностей плазмой.
-admin-smite-headstand-name = Стойка на голове
-admin-smite-become-mouse-name = Сделать мышью
-admin-smite-maid-name = Мейдочка
-admin-smite-zoom-in-name = Зум +
-admin-smite-flip-eye-name = Перевернуть глаза
-admin-smite-run-walk-swap-name = Шаг вместо бега
-admin-smite-super-speed-name = Сверхскорость
-admin-smite-stomach-removal-name = Удалить желудок
-admin-smite-speak-backwards-name = Речь наоборот
-admin-smite-lung-removal-name = Удалить лёгкие
-admin-smite-disarm-prone-name = Обезоруживание и арест
-admin-smite-garbage-can-name = Мусор
-admin-smite-super-bonk-name = СуперБонк
-admin-smite-super-bonk-lite-name = СуперБонк-Лайт
-admin-smite-terminate-name = Экстерминировать
-admin-smite-super-slip-name = Суперскольжение
-
 ## Smite descriptions
 
 admin-smite-explode-description = Взрывает цель.
 admin-smite-chess-dimension-description = Изгоняет цель в шахматное измерение.
 admin-smite-set-alight-description = Поджигает цель.
 admin-smite-monkeyify-description = Превращает цель в обезьяну.
+admin-smite-lung-cancer-description = Рак легких стадии IIIA, когда им действительно нравится популярный сериал «Во все тяжкие».
 admin-smite-electrocute-description = Поражает цель электрическим током, делая бесполезным всё, что было на неё надето.
 admin-smite-creampie-description = Кримпай всего одной кнопкой.
 admin-smite-remove-blood-description = Обескровливает цель, кроваво.
@@ -86,6 +42,7 @@ admin-smite-remove-gravity-description = Наделяет цель антигр�
 admin-smite-reptilian-species-swap-description = Меняет расу на Унатха. Пригодится для тех, кто ведёт себя как космический расист.
 admin-smite-locker-stuff-description = Помещает цель в (заваренный) шкафчик.
 admin-smite-headstand-description = Переворачивает спрайт по вертикали.
+admin-smite-plasma-internals-description = Заменяет содержимое внутренностей плазмой.
 admin-smite-become-mouse-description = Цель станет мышью. Скуик.
 admin-smite-maid-description = Насильно превращает цель в кошко-служанку уборщицу. Это настоящая пытка для некоторых игроков, используйте её с умом.
 admin-smite-zoom-in-description = Увеличивает зум так, что цель перестаёт видеть окружение.

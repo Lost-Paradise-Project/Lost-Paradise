@@ -1,6 +1,6 @@
 - type: entity
   name: bluespace plant  bag
-  id: BluespacePlantBag
+  id: LPPBluespacePlantBag
   parent: BaseStorageItem
   description: A bag for botanists to easily move their huge harvests.
   components:

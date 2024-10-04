@@ -1,6 +1,6 @@
 ent-tatamibase = { ent-BaseStructure }
     .desc = { ent-BaseStructure.desc }
-ent-tatamimat = татами Мат
+ent-tatamimat = Татами Мат
     .desc = Это часть татами.
-ent-tatamisingle = площадь татами
+ent-tatamisingle = Площадь татами
     .desc = Это татами, но квадратное.

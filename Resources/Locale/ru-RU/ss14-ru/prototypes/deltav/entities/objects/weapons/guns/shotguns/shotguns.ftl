@@ -1,5 +1,5 @@
-ent-WeaponShotgunAdjutant = адъютант
+ent-WeaponShotgunAdjutant = Адъютант
     .desc = Продовавшийся как "оборонительный", этот дробовик имеет особую газовую систему, делающую его крайне эффективным для боя в замкнутом пространстве и огня на подавление.
-ent-WeaponShotgunKammererNonLethal = Каммерер
-    .desc = Результат встречи старого Ремингтона и современных материалов. Любимое оружие ополчений по всему космосу. Использует патрон .50
+ent-WeaponShotgunKammererNonLethal = { ent-WeaponShotgunKammerer }
+    .desc = { ent-WeaponShotgunKammerer.desc }
     .suffix = Нелетальный

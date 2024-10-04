@@ -1,2 +1,2 @@
-ent-RandomBook = спавнер случайной книги
+ent-RandomBook = Спавнер случайной книги
     .desc = { ent-MarkerBase.desc }

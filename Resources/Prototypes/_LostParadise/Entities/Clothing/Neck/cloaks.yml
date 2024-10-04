@@ -28,7 +28,7 @@
   parent: ClothingHeadBase
   id: LPPClothingHeadHatHoodScientificCloak
   name: Scientific cloak hood
-  description: A hood of a Scientific cloak.ы
+  description: A hood of a Scientific cloak.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/OuterClothing/Cloak/scientificcloakhel.rsi
@@ -177,8 +177,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPCloakLeaderNPZ
-  name: плащ лидера НПЗ
-  description: И пусть ваш плащ не замарается в крови ксеносов, стирка дорого обходится между прочем.
+  name: Cloak of NPZ leader
+  description: And don't let your cloak get dirty in the blood of xenos, washing is expensive, by the way.
   components:
     - type: Sprite
       sprite: _LostParadise/Clothing/Neck/NPZ/upgneckleader.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPCloakNPZ
-  name: плащ НПЗ
-  description: Плащ для стильного развивания на ветру, пока вы будете унижать жалких ксеносов.
+  name: Cloak NPZ
+  description: A cloak for stylish smashing in the wind while you humiliate the pathetic xenos.
   components:
     - type: Sprite
       sprite: _LostParadise/Clothing/Neck/NPZ/upgneck.rsi
@@ -195,8 +195,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPCloakAdmiralNPZ
-  name: плащ адмирала НПЗ
-  description: Плащ для пафосного скидывания, чтобы показать всем ваши медали и ордена!
+  name: Cloak of NPZ admiral
+  description: A cloak for pretentious throwing off to show everyone your medals and decorations!
   components:
     - type: Sprite
       sprite: _LostParadise/Clothing/Neck/NPZ/upgneckadmiral.rsi
@@ -204,8 +204,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPCloakJapaneese
-  suffix: СПОНСОР
-  name: накидка в японском стиле
+  suffix: SPONSOR
+  name: Japanese-style cape
   description: Kore yon deru hito wa bakadayo.
   components:
     - type: Sprite
@@ -214,8 +214,17 @@
 - type: entity
   parent: ClothingNeckBase
   id: LPPCloakMantleNPZ
-  name: накидка НПЗ
-  description: Мы торопимся или действуем скрытно?
+  name: Cape NPZ
+  description: Are we in a hurry or are we acting stealthy?
   components:
     - type: Sprite
       sprite: _LostParadise/Clothing/Neck/NPZ/NPZmantle.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPADJUCloak
+  name: The Adjutant's Cloak
+  description: The blue cloak of the adjutant, breathes warmth and bureaucracy when wearing it.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Cloaks/LPPADJUCloak.rsi

@@ -1,11 +1,11 @@
-ent-RandomRockSpawner = Mining Rock Spawner
+ent-RandomRockSpawner = Спавнер Горной Породы
     .desc = { ent-MarkerBase.desc }
-ent-RandomCrystalSpawner = Crystal Spawner
+ent-RandomCrystalSpawner = Спавнер Кристаллов
     .suffix = 100%
     .desc = { ent-MarkerBase.desc }
-ent-RandomWallRockSpawner = Wall Rock Spawner
+ent-RandomWallRockSpawner = Спавнер Каменных Стен
     .desc = { ent-MarkerBase.desc }
-ent-RandomBasaltRockSpawner = Basalt Rock Spawner
+ent-RandomBasaltRockSpawner = Спавнер Базальтовых Камней
     .desc = { ent-MarkerBase.desc }
-ent-RandomWoodenStructure = wooden wall or support spawner
+ent-RandomWoodenStructure = Спавнер Деревянной Опоры или стены
     .desc = { ent-MarkerBase.desc }

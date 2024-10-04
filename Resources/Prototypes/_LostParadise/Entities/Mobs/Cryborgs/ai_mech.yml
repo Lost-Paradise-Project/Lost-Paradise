@@ -89,7 +89,7 @@
 #     - Service
 #   - type: AccessReader
 #     access: [["CentralCommand"]]
-#   # - type: ShowSecurityIcons
+#   # - type: LPPShowSecurityIcons
 #   - type: Inventory
 #     templateId: borgTall
 #   - type: TTS
@@ -141,4 +141,4 @@
 #     enabled: false
 #     groups:
 #     - AllAccess
-#   - type: ShowSecurityIcons
+#   - type: LPPShowSecurityIcons

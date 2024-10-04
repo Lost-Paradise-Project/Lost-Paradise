@@ -1,8 +1,8 @@
 - type: entity
   id: LPPHammer
   parent: BaseItem
-  name: штурмовой молот
-  description: Молот предназначенный для быстрого проникновения сквозь стены, шлюзы, а также для крушения чьих то черепов
+  name: The assault hammer
+  description: A hammer designed to quickly penetrate walls, airlocks, as well as to crush someone's skulls
   components:
   - type: Tag
     tags:

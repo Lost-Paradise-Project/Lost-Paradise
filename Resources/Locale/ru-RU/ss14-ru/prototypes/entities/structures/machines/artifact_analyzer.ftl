@@ -1,4 +1,6 @@
-ent-MachineArtifactAnalyzer = анализатор артефактов
+ent-MachineArtifactAnalyzer = Анализатор артефактов
     .desc = Платформа, позволяющая выполнять анализ различных типов артефактов.
-ent-MachineArtifactCrusher = дробитель артефактов
+ent-MachineTraversalDistorter = Устройство для искажения обхода
+    .desc = Машина, способная искажать обходной механим узлов артефакта.
+ent-MachineArtifactCrusher = Дробитель артефактов
     .desc = Лучше не совать туда пальцы...

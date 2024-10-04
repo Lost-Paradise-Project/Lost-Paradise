@@ -45,4 +45,4 @@
   id: LPPJobIconSecurityEnginer
   icon:
     sprite: /Textures/_LostParadise/Interface/Misc/lpp_job_icons.rsi
-    state: LPPSecurityEnginer
+    state: LPPSecurityEngineer

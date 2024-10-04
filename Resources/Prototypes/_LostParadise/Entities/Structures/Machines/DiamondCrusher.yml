@@ -1,8 +1,8 @@
 - type: entity
   id: LPPMachineDiamondCrusher
   parent: [ ConstructibleMachine, BaseMachinePowered ]
-  name: дробитель алмазов
-  description: Лучше не совать туда пальцы...
+  name: Diamond crusher
+  description: It's better not to stick your fingers in there...
   components:
   - type: PlaceableSurface
   - type: DiamondCrusher
@@ -79,8 +79,8 @@
 - type: entity
   id: LPPDiamondCrusherMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: дробитель алмазов (машинная плата)
-  description: Машинная плата для сборки дробителя алмазов.
+  name: Diamond crusher (machine board)
+  description: Machine board for assembling a diamond crusher.
   components:
   - type: Sprite
     state: supply
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseItem
   id: LPPOreDiamond
-  name: не обработанная жеода алмаза
-  description: Не обработанная жеода вся в пыли, грязи и прочих радостях шахтёрства.. явно надо обработать.
+  name: rough diamond geode
+  description: The untreated geode is covered in dust, dirt and other joys of mining.. obviously it needs to be processed.
   components:
   - type: ClothingSpeedModifier
     walkModifier: 0.85
@@ -114,8 +114,8 @@
 - type: entity
   id: LPPProcessedDiamond
   parent: BaseItem
-  name: обработанный алмаз
-  description: Обработанный алмаз, очищенный от пыли и грязи, но не до идеала. Не пригоден для использования в таком виде..
+  name: Processed diamond
+  description: A processed diamond, cleaned of dust and dirt, but not to the ideal. It is not suitable for use in this form..
   components:
   - type: Material
   - type: PhysicalComposition

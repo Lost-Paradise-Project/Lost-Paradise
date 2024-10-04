@@ -1,15 +1,15 @@
 - type: startingGear
-  id: ChronoLegionnaire
+  id: LPPChronoLegionnaire
   equipment:
     jumpsuit: ClothingUniformJumpsuitNanotrasen
     back: LPPClothingBackpackHoldingChrono
     shoes: ClothingShoesBootsMagAdv
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesCombat
-    outerClothing: ClothingOuterHardsuitChrono
+    outerClothing: LPPClothingOuterHardsuitChrono
     id: ERTLeaderPDA
     ears: ClothingHeadsetCentCom
-    pocket1: ChronoKnife
+    pocket1: LPPChronoKnife
     pocket2: BlinkBook
   innerClothingSkirt: ClothingUniformJumpsuitNanotrasen
   satchel: LPPClothingBackpackHoldingChrono
@@ -24,4 +24,4 @@
     contents:
       - id: ClothingMaskBreathMedical
       - id: OxygenTankFilled
-      - id: WeaponLaserChrono
+      - id: LPPWeaponLaserChrono

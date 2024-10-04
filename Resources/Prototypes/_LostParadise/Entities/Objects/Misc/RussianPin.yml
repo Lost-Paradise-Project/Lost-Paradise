@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingNeckPinBase
-  id: ClothingNeckRussianPin
+  id: LPPClothingNeckRussianPin
   name: Pin Russia
   description: esli patriot
   components:

@@ -68,19 +68,7 @@
     stampState: "paper_stamp-deny"
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/stampppd.rsi
-    state: stamp-vd # -< DarkSide > 
-
-- type: entity
-  name: magistrate rubber stamp
-  parent: RubberStampMime
-  id: RubberStampMagistrate
-  components:
-  - type: Stamp
-    stampedName: stamp-component-stamped-name-magistrate
-    stampState: "paper_stamp-mag"
-  - type: Sprite
-    sprite: _LostParadise/Objects/Misc/magistrate.rsi
-    state: stamp-magistrate
+    state: stamp-vd # -< DarkSide >
 
 # - < DarkSide
 
@@ -99,7 +87,7 @@
 - type: entity
   name: Gorlax Pen
   parent: CyberPen
-  id: GorlaxPen
+  id: LPPGorlaxPen
   description: A high-tech pen created by the Gorlax legal department that can bend hard light at impossible angles through its diamond tip to write. So powerful that it can even rewrite officially stamped documents if necessary.
   components:
   - type: Sprite

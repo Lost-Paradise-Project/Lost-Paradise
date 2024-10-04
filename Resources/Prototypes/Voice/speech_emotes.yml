@@ -491,15 +491,9 @@
   # whitelist:
   #   components:
   #   - MobState
-  chatMessages: ["chat-emote-msg-deathgasp"]
+  chatMessages: ["emote-deathgasp"]
   chatTriggers:
   - deathgasp
-
-- type: emote
-  id: MonkeyDeathgasp
-  # name: chat-emote-name-deathgasp
-  # icon: Interface/Emotes/deathgasp.png
-  chatMessages: ["chat-emote-msg-deathgasp-monkey"]
 
 - type: emote
   id: SiliconDeathgasp

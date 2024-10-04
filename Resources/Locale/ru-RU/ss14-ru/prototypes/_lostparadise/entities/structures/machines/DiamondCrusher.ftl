@@ -1,0 +1,11 @@
+ent-LPPMachineDiamondCrusher = Дробитель алмазов
+    .desc = Лучше не совать туда пальцы...
+ent-LPPDiamondCrusherMachineCircuitboard = Дробитель алмазов (машинная плата)
+    .desc = Машинная плата для сборки дробителя алмазов.
+ent-LPPOreDiamond = Не обработанная жеода алмаза
+    .desc = Не обработанная жеода вся в пыли, грязи и прочих радостях шахтёрства.. явно надо обработать.
+ent-LPPProcessedDiamond = Обработанный алмаз
+    .desc = Обработанный алмаз, очищенный от пыли и грязи, но не до идеала. Не пригоден для использования в таком виде..
+ent-LPPProcessedDiamond1 = { ent-LPPProcessedDiamond }
+    .suffix = Один
+    .desc = { ent-LPPProcessedDiamond.desc }

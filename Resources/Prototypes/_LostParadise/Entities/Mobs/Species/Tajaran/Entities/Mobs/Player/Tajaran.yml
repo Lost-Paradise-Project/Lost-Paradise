@@ -1,8 +1,8 @@
 ﻿- type: entity
   save: false
-  name: "Таяр"
-  parent: BaseMobTajaran
-  id: MobTajaran
+  name: "Tajaran"
+  parent: LPPBaseMobTajaran
+  id: LPPMobTajaran
   components:
     - type: CombatMode
       canDisarm: false  #было null

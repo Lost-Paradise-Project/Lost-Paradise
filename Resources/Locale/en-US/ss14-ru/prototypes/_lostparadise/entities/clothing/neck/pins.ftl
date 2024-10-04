@@ -1,0 +1,14 @@
+ent-LPPClothingNeckFluppiPin = fluppi pin
+    .desc = be happy do crime
+ent-LPPClothingNeckChain = army chain
+    .desc = A chain, giving an understanding, what the person, who wearing this - the veteran
+ent-LPPMSSAPinAndromeda = pin "Andromeda"
+    .desc = Make yourself at home, traveler.
+ent-LPPMSSAPinLostParadise = pin "Lost Paradise"
+    .desc = We try our best for you!
+ent-LPPMSSAPinFoxHole = pin "Fox Hole"
+    .desc = A Fox Hole, where it's quiet and peaceful.
+ent-LPPMSSAPinMSSA = pin "MSSA"
+    .desc = Together we are strong!
+ent-LPPMSSAPinSirena = pin "Sirena"
+    .desc = The club of intelligent people.

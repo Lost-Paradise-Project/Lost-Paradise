@@ -1,6 +1,6 @@
-ent-RandomPosterAny = спавнер случайный плакат
+ent-RandomPosterAny = Спавнер случайный плакат
     .desc = { ent-MarkerBase.desc }
-ent-RandomPosterContraband = спавнер случайный контрабанда плакат
+ent-RandomPosterContraband = Спавнер случайный контрабанда плакат
     .desc = { ent-MarkerBase.desc }
-ent-RandomPosterLegit = спавнер случайный легальный плакат
+ent-RandomPosterLegit = Спавнер случайный легальный плакат
     .desc = { ent-MarkerBase.desc }

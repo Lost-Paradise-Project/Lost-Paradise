@@ -113,8 +113,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPClothingHeadHelmetNPZ
-  name: шлем НПЗ
-  description: Крепкий шлем из кевлара и пластали, защитит от мелкокалиберной пули, а так же шрапнели.
+  name: NPZ Helmet
+  description: A sturdy helmet made of kevlar and plasteel, will protect against small-caliber bullets, as well as shrapnel.
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Helmets/NPZ/NPZhelm.rsi
@@ -127,6 +127,23 @@
         Slash: 0.85
         Piercing: 0.85
 
+  parent: ClothingHeadBase
+  id: LPPCASHelmet
+  name: CAS Helmet
+  description: A black and white helmet protects in the same way as a regular one, just the colors are different.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/LPPCASHelmet.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/LPPCASHelmet.rsi
+  - type: Armor #Values seem to let the user survive one extra hit if attacked consistently.
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
 - type: entity
   parent: LPPClothingHeadUrbanHelmetPG
   id: LPPClothingHeadHelmetNPZAssault
@@ -137,3 +154,4 @@
     sprite: _LostParadise/Clothing/Head/Helmets/NPZ/NPZassault.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Head/Helmets/NPZ/NPZassault.rsi
+    

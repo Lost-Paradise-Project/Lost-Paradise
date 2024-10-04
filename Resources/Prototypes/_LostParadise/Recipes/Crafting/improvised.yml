@@ -1,5 +1,5 @@
 - type: construction
-  name: сумка контрабандиста
+  name: smuggler bag
   id: smugglersbag
   graph: SmugglersBag
   startNode: start

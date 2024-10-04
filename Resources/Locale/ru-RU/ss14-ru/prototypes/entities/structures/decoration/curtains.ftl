@@ -1,4 +1,4 @@
-ent-BaseCurtains = шторы
+ent-BaseCurtains = Шторы
     .desc = Скрывают то, что не должны видеть другие.
 ent-HospitalCurtains = { ent-BaseCurtains }
     .desc = Содержат менее 1% ртути.

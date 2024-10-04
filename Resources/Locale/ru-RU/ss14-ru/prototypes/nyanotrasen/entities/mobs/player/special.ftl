@@ -1,2 +1,2 @@
-ent-MobObserverTelegnostic = телегностическая проекция
+ent-MobObserverTelegnostic = Телегностическая проекция
     .desc = Великолепно.

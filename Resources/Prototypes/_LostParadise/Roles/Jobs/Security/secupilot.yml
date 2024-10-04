@@ -31,7 +31,7 @@
     eyes: LPPRedHudGlasses
     head: ClothingHeadHatBeretSecurity
     outerClothing: ClothingOuterWinterSec
-    id: SecPilotPDA
+    id: LPPSecPilotPDA
     ears: ClothingHeadsetSecurity
     pocket1: WeaponPistolMk58
     socks: LPPClothingUnderSocksNorm

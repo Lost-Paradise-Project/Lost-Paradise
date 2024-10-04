@@ -1,6 +1,6 @@
 - type: entity
   id: LPPBaseCartridgeRifle
-  name: патрон (калибр 5,56х45)
+  name: Bullet (calibre 5,56x45)
   parent: BaseCartridge
   abstract: true
   components:
@@ -42,7 +42,7 @@
 
 - type: entity
   id: LPPCartridgeM4A1Lethal
-  name: патрон (калибр 5,56х45)
+  name: Bullet (calibre 5,56x45)
   parent: LPPBaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -50,7 +50,7 @@
 
 - type: entity
   id: LPPCartridgeRubberM4A1
-  name: патрон (калибр 5,56х45 резиновый)
+  name: Bullet (calibre 5,56x45 rubber)
   parent: LPPBaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -58,7 +58,7 @@
 
 - type: entity
   id: LPPCartridgePracticeM4A1
-  name: патрон (калибр 5,56х45 учебный)
+  name: Bullet (calibre 5,56x45 practice)
   parent: LPPBaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -66,7 +66,7 @@
 
 - type: entity
   id: LPPCartridgeUraniumM4A1
-  name: патрон (калибр 5,56х45 урановый)
+  name: Bullet (calibre 5,56x45 uranium)
   parent: LPPBaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -74,7 +74,7 @@
 
 - type: entity
   id: LPPCartridgeIncendiaryM4A1
-  name: патрон (калибр 5,56х45 зажигательный)
+  name: Bullet (calibre 5,56x45 incendiary)
   parent: LPPBaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -82,7 +82,7 @@
 
 - type: entity
   id: LPPBaseCartridgeLightRifleHunting
-  name: патрон (.30 охотничий)
+  name: Bullet (.30 hunter)
   parent: BaseCartridge
   abstract: true
   components:
@@ -102,7 +102,7 @@
 
 - type: entity
   id: LPPCartridgeLightRifleHunting
-  name: патрон (.30 охотничий)
+  name: Bullet (.30 hunter)
   parent: LPPBaseCartridgeLightRifleHunting
   components:
   - type: CartridgeAmmo

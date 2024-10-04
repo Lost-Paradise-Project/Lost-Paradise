@@ -1,2 +1,2 @@
-ent-SpawnMobGorillaLargo = спавнер горилла Ларго
+ent-SpawnMobGorillaLargo = Спавнер горилла Ларго
     .desc = { ent-MarkerBase.desc }

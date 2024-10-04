@@ -1,7 +1,7 @@
 - type: entity
   name: combat knife
   parent: BaseKnife
-  id: ChronoKnife
+  id: LPPChronoKnife
   description: A deadly knife intended for melee confrontations.
   components:
   - type: Tag
@@ -25,7 +25,7 @@
     malus: 0.225
 
 - type: entity
-  name: игрушечная энергетическая катана
+  name: Toy energy katana
   parent: Katana
   id: LPPToyEnergyKatana
   description: A katana infused with strange energy. An unknown mark is visible on the hilt.

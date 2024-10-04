@@ -1,2 +1,2 @@
-ent-CrystalNormality = кристалл обыкновенности
+ent-CrystalNormality = Кристалл обыкновенности
     .desc = Выглядит.. обыкновенно.

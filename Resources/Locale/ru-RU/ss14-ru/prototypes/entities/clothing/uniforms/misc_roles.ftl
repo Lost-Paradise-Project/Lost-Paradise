@@ -1,4 +1,4 @@
-ent-UniformShortsRed = боксёрские шорты
+ent-UniformShortsRed = Боксёрские шорты
     .desc = Это шорты, а не боксёры.
-ent-UniformShortsRedWithTop = боксёрские шорты с топом
+ent-UniformShortsRedWithTop = Боксёрские шорты с топом
     .desc = Это шорты, а не боксёры.

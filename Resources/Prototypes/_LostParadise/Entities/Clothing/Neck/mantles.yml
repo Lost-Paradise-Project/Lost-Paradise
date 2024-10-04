@@ -30,3 +30,14 @@
     sprite: _LostParadise/Clothing/Neck/Mantles/av-mantle.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Neck/Mantles/av-mantle.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCASMantle
+  name: CAS mantle
+  description: Black and white mantle
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Mantles/LPPCASMantle.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Mantles/LPPCASMantle.rsi

@@ -1,7 +1,7 @@
 - type: gameMap
   id: LPPNormandy
   mapName: 'N7 Нормандия'
-  mapPath: /Maps/_LostParadise/LP_Normandy.yml
+  mapPath: /Maps/_LostParadise/LPPNormandy.yml
   minPlayers: 20
   stations:
     LPPNormandy:
@@ -73,4 +73,4 @@
             #LOST PARADISE
             LPPBlueShieldOfficer: [ 1, 1 ]
             LPPAdjutant: [ 1, 1 ]
-            LPPSecurityEnginer: [ 1, 1 ]
+            LPPSecurityEngineer: [ 1, 1 ]

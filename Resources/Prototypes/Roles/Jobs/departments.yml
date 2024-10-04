@@ -49,6 +49,7 @@
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
+  - ChiefJustice
   - LPPAdjutant # Lost Paradise - Added Adjutant in Command
   primary: false
   weight: 100
@@ -90,7 +91,7 @@
   - SeniorOfficer
   - Detective
   - Warden
-  - LPPSecurityEnginer
+  - LPPSecurityEngineer
   - PrisonGuard # Nyanotrasen - PrisonGuard, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Security/prisonguard.yml
   - Brigmedic # DeltaV - Brigmedic, see Resources/Prototypes/DeltaV/Roles/Jobs/Security/brigmedic.yml
 

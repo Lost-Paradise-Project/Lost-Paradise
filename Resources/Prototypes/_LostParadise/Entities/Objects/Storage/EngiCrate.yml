@@ -1,8 +1,8 @@
 - type: entity
   id: LPPCrateRCDFAPAmmo
   parent: CrateEngineering
-  name: ящик спрессованной материи
-  description: Содержит пару спрессованной материи для РСУАП.
+  name: Crate with RCDFAP matter
+  description: It contains a some of compressed matter for the RCDFAP.
   components:
   - type: StorageFill
     contents:
@@ -12,8 +12,8 @@
 - type: entity
   id: LPPCrateRCDFAP
   parent: CrateEngineeringSecure
-  name: РСУАП
-  description: Ящик содержащий одно ручное строительное устройство атмосферного предназначения.
+  name: RCDFAP
+  description: A box containing one hand-held atmospheric construction device.
   components:
   - type: StorageFill
     contents:

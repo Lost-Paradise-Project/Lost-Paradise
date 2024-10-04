@@ -28,8 +28,8 @@ public sealed class TTSSystem : EntitySystem
 {
     [Dependency] private readonly IConfigurationManager _cfg = default!;
     [Dependency] private readonly IEntityManager _entities = default!;
-    [Dependency] private readonly IResourceCache _resourceCache = default!;
-    [Dependency] private readonly SharedAudioSystem _audio = default!;
+    [Dependency] private readonly IResourceManager _res = default!;
+    [Dependency] private readonly AudioSystem _audio = default!;
     [Dependency] private readonly ISharedPlayerManager _playerManager = default!;
     [Dependency] private readonly IPlayerManager _player = default!;
     [Dependency] private readonly LanguageSystem _language = default!;
@@ -55,7 +55,7 @@ public sealed class TTSSystem : EntitySystem
     public override void Initialize()
     {
         _sawmill = Logger.GetSawmill("tts");
-        _resourceCache.AddRoot(Prefix, _contentRoot);
+        _res.AddRoot(Prefix, _contentRoot);
         _cfg.OnValueChanged(CCCVars.TTSVolume, OnTtsVolumeChanged, true);
         SubscribeNetworkEvent<PlayTTSEvent>(OnPlayTTS);
     }
@@ -81,14 +81,12 @@ public sealed class TTSSystem : EntitySystem
     {
         var canPlay = false;
 #if LPP_TTS_play   //это предназначено для того, чтобы в случае отсутствия ссылки на ТТС, игра не пыталась выполнить обработку звука
-        canPlay = true;
+         canPlay = true;
 #endif
-        if (!canPlay)
-            return;
+         if (!canPlay)
+             return;
 
         //_sawmill.Debug($"Play TTS audio {ev.Data.Length} bytes from {ev.SourceUid} entity");
-
-        var volume = AdjustVolume(ev.IsWhisper);
 
         var filePath = new ResPath($"{_fileIdx++}.ogg");
         //_contentRoot.AddOrUpdateFile(filePath, ev.Data);
@@ -108,33 +106,23 @@ public sealed class TTSSystem : EntitySystem
             _contentRoot.AddOrUpdateFile(filePath, ev.Data);
         // Languages TTS support end
 
-        var audioParams = AudioParams.Default.WithVolume(volume);
-        var soundPath = new SoundPathSpecifier(Prefix / filePath, audioParams);
+        var audioResource = new AudioResource();
+        audioResource.Load(IoCManager.Instance!, Prefix / filePath);
+
+        var audioParams = AudioParams.Default
+            .WithVolume(AdjustVolume(ev.IsWhisper))
+            .WithMaxDistance(AdjustDistance(ev.IsWhisper));
         if (ev.SourceUid != null)
         {
             var sourceUid = GetEntity(ev.SourceUid.Value);
-            Filter sources = Filter.Pvs(sourceUid);
-            var sourceExists = false;
-            foreach (var src in sources.Recipients)
-            {
-                if (src.AttachedEntity != null && src.AttachedEntity == player)
-                {
-                    sourceExists = true;
-                    break;
-                }
-                else
-                    continue;
-            }
-            if (!sourceExists)      //если в диапазоне Pvs нет источника, то звук не проигрывается
-                return;
 
             //Logger.Warning($"Playing TTS on Entity {sourceUid}");
-            _audio.PlayEntity(soundPath, new EntityUid(), sourceUid); // recipient arg ignored on client
+            _audio.PlayEntity(audioResource.AudioStream, sourceUid, audioParams);
         }
         else
         {
             //Logger.Warning("Playing TTS Globally");
-            _audio.PlayGlobal(soundPath, Filter.Local(), false);
+            _audio.PlayGlobal(audioResource.AudioStream, audioParams);
         }
 
         _contentRoot.RemoveFile(filePath);
@@ -151,5 +139,9 @@ public sealed class TTSSystem : EntitySystem
         }
 
         return volume;
+    }
+    private float AdjustDistance(bool isWhisper)
+    {
+        return isWhisper ? SharedChatSystem.WhisperMuffledRange : SharedChatSystem.VoiceRange;
     }
 }

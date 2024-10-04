@@ -1,2 +1,2 @@
-ent-HoloprojectorEngineering = инженерный голопроектор
+ent-HoloprojectorEngineering = Инженерный голопроектор
     .desc = Выводит табличку с предупреждением.

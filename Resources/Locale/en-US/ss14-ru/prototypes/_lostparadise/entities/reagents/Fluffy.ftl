@@ -1,0 +1,16 @@
+ent-LPPFluffyApple = apple fluffy
+    .desc = SO CUTE
+ent-LPPFluffyEnergy = energy fluffy
+    .desc = SO CUTE
+ent-LPPFluffyHonk = honk fluffy
+    .desc = SO CUTE
+ent-LPPFluffyLatte = latte fluffy
+    .desc = SO CUTE
+ent-LPPFluffyMango = mango fluffy
+    .desc = SO CUTE
+ent-LPPFluffyStan = stan fluffy
+    .desc = SO CUTE
+ent-LPPFluffyWatermelon = watermelon fluffy
+    .desc = SO CUTE
+ent-LPPVendingMachineFluffy = fluffy drinks
+    .desc = A softdrink vendor provided by Robust Industries, LLC.

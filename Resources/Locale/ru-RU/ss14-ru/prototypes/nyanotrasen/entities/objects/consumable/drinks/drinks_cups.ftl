@@ -1,2 +1,2 @@
-ent-DrinkSakeCup = сакадзуки
+ent-DrinkSakeCup = Сакадзуки
     .desc = Церемониальная чаша, для распития саке.

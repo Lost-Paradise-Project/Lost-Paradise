@@ -1,3 +1,3 @@
-ent-RubberStampMantis = печать мантиса
+ent-RubberStampMantis = Печать мантиса
     .desc = Старомодная печать сделанная из чистого сплава бронзы.
     .suffix = НЕ МАППИТЬ

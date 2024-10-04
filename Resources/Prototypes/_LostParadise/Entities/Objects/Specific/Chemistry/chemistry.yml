@@ -1,6 +1,6 @@
 - type: entity
   id: LPPChemistryBottleStimulant
-  name: бутылочка стимулятора
+  name: Bottle of stimulants
   parent: BaseChemistryBottleFilled
   components:
   - type: SolutionContainerManager
@@ -13,7 +13,7 @@
 
 - type: entity
   id: LPPSyringeAmbuzolPlus
-  name: шприц амбузола плюс
+  name: Syringe with ambuzol plus
   parent: PrefilledSyringe
   components:
   - type: SolutionContainerManager

@@ -1,6 +1,6 @@
-ent-SalvagePartsSpawnerLow = спавнер запчастей
+ent-SalvagePartsSpawnerLow = Спавнер запчастей
     .suffix = Малых
     .desc = { ent-MarkerBase.desc }
-ent-SalvagePartsSpawnerMid = спавнер запчастей
+ent-SalvagePartsSpawnerMid = Спавнер запчастей
     .suffix = Больших
     .desc = { ent-MarkerBase.desc }

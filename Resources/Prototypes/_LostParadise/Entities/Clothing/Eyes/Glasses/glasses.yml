@@ -20,7 +20,7 @@
 
 - type: entity
   parent: ClothingEyesBase
-  id: ClothingLPPKblindfoldTeal
+  id: LPPClothingKblindfoldTeal
   name: Kblindfold teal
   description: The bind leading the blind.
   components:
@@ -36,7 +36,7 @@
 
 - type: entity
   parent: ClothingEyesBase
-  id: ClothingLPPKblindfoldPink
+  id: LPPClothingKblindfoldPink
   name: Kblindfold pink
   description: The bind leading the blind.
   components:
@@ -77,6 +77,18 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
+
+  parent: ClothingEyesBase
+  id: LPPCASglasses
+  name: CAS glasses
+  description: Black and white glasses.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/Glasses/LPPCASglasses.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/Glasses/LPPCASglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
 
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]

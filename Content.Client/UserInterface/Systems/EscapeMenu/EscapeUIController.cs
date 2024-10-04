@@ -105,7 +105,7 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
 
         _escapeWindow.OpenDiscordButton.OnPressed += _ =>
         {
-            _uri.OpenUri("https://discord.gg/v5mGmMzAdB");
+            _uri.OpenUri("https://wiki.lost-paradise.space/discord");
         };
 
         _escapeWindow.OpenBoostyButton.OnPressed += _ =>

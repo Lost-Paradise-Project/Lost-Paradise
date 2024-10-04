@@ -1,2 +1,2 @@
-ent-MailingUnitElectronics = микросхема почтового блока
+ent-MailingUnitElectronics = Микросхема почтового блока
     .desc = Микросхема, применяемая в почтовых блоках.

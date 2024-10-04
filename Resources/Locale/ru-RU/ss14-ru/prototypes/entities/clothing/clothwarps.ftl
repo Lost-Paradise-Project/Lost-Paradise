@@ -1,2 +1,2 @@
-ent-ClothingClothWrap = тканевые обмотки
+ent-ClothingClothWrap = Тканевые обмотки
     .desc = Рулон плотной ткани, которым можно обмотать лапы.

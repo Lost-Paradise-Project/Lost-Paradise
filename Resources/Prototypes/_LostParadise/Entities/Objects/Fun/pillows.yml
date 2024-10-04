@@ -1,5 +1,5 @@
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPAuroraPillow
   name: AuroraPillow
   description: Little cute AuroraPillow! UwU
@@ -20,7 +20,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPCalliePillow
   name: CalliePillow
   description: Little Callie!
@@ -41,7 +41,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPCamillePillow
   name: CamillePillow
   description: Little camille!
@@ -62,7 +62,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPCascaPillow
   name: CascaPillow
   description: Little casca!
@@ -83,7 +83,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPChaikaPillow
   name: ChaikaPillow
   description: Little chaika!
@@ -104,7 +104,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPElisabethPillow
   name: ElisabethPillow
   description: Little elisabeth!
@@ -125,7 +125,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPFoxyGranpaPillow
   name: FoxyGranpaPillow
   description: Little foxy_granpa!
@@ -146,7 +146,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPHarukoPillow
   name: HarukoPillow
   description: Little haruko!
@@ -167,7 +167,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPHoloPillow
   name: HoloPillow
   description: Little holo!
@@ -188,7 +188,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPIanPillow
   name: IanPillow
   description: Little ian!
@@ -209,7 +209,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPImeraPillow
   name: ImeraPillow
   description: Little imera!
@@ -230,7 +230,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPJolynePillow
   name: JolynePillow
   description: Little jolyne!
@@ -251,7 +251,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPKurisuPillow
   name: KurisuPillow
   description: Little kurisu!
@@ -272,7 +272,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPMariePillow
   name: MariePillow
   description: Little marie!
@@ -293,7 +293,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPYokoPillow
   name: YokoPillow
   description: Little yoko!
@@ -314,7 +314,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPMugiPillow
   name: MugiPillow
   description: Little mugi!
@@ -335,7 +335,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPNagaPillow
   name: NagaPillow
   description: Little naga!
@@ -356,7 +356,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPNarsiePillow
   name: NarsiePillow
   description: Little narsie!
@@ -377,7 +377,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPNukiePillow
   name: NukiePillow
   description: Little nukie!
@@ -398,7 +398,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPPatchouliPillow
   name: PatchouliPillow
   description: Little patchouli!
@@ -419,7 +419,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPPlutiaPillow
   name: PlutiaPillow
   description: Little plutia!
@@ -440,7 +440,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPRedPillow
   name: RedPillow
   description: Little red!
@@ -461,7 +461,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPReiPillow
   name: ReiPillow
   description: Little rei!
@@ -482,7 +482,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPReisenPillow
   name: ReisenPillow
   description: Little reisen!
@@ -503,7 +503,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPRockerPillow
   name: RockerPillow
   description: Little rocker!
@@ -524,7 +524,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPSisaPillow
   name: SisaPillow
   description: Little sisa!
@@ -545,7 +545,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPSlarshaPillow
   name: SlarshaPillow
   description: Little slarsha!
@@ -566,7 +566,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPSquidPillow
   name: SquidPillow
   description: Little squid!
@@ -587,7 +587,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPSquigglyPillow
   name: SquigglyPillow
   description: Little squiggly!
@@ -608,7 +608,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPSueBowchiefPillow
   name: SueBowchiefPillow
   description: Little sue_bowchief!
@@ -629,7 +629,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPTomokoPillow
   name: TomokoPillow
   description: Little tomoko!
@@ -650,7 +650,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPTorielPillow
   name: TorielPillow
   description: Little toriel!
@@ -671,7 +671,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPUmaruPillow
   name: UmaruPillow
   description: Little umaru!
@@ -692,7 +692,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPYaranaikaPillow
   name: Robot vacuum cleanerPillow
   description: Little Robot vacuum cleaner!
@@ -713,7 +713,7 @@
       path: /Audio/Items/Toys/toysqueak2.ogg
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPKirravaPillow
   name: kirravaPillow
   description: Little kirrava!
@@ -736,7 +736,7 @@
     damage: 20
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPNaaLeyPillow
   name: NaaLeyPillow
   description: Little Naa Ley!
@@ -759,7 +759,7 @@
     damage: 20
 
 - type: entity
-  parent: BasePillow
+  parent: LPPBasePillow
   id: LPPDiamuPillow
   name: DiamuPillow
   description: A pillow with the image of a vulpcan named "Diamu Vanderfolt".
@@ -782,7 +782,7 @@
 
 - type: entity
   parent: BaseItem
-  id: BasePillow
+  id: LPPBasePillow
   abstract: true
   components:
   - type: Sprite

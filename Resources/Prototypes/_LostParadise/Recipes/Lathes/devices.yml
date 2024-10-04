@@ -1,6 +1,6 @@
 - type: latheRecipe
-  id: WeaponCutter
-  result: WeaponCutter
+  id: LPPWeaponCutter
+  result: LPPWeaponCutter
   completetime: 6
   materials:
     Steel: 910
@@ -23,8 +23,8 @@
 #     Uranium: 150
 
 - type: latheRecipe
-  id: WeaponCutterAdv
-  result: WeaponCutterAdv
+  id: LPPWeaponCutterAdv
+  result: LPPWeaponCutterAdv
   completetime: 9
   materials:
     Steel: 1850
@@ -44,8 +44,8 @@
     Glass: 400
 
 - type: latheRecipe
-  id: BluespacePlantBag
-  result: BluespacePlantBag
+  id: LPPBluespacePlantBag
+  result: LPPBluespacePlantBag
   completetime: 7
   materials:
     LPPDiamond: 500
@@ -57,7 +57,7 @@
     Uranium: 50
 
 # - type: latheRecipe
-#   id: AdvWateringCan
+#   id: LPPAdvWateringCan
 #   result: AdvWateringCan
 #   completetime: 5
 #   materials:
@@ -69,8 +69,8 @@
 #     Uranium: 25
 
 - type: latheRecipe
-  id: BluespaceChemBag
-  result: BluespaceChemBag
+  id: LPPBluespaceChemBag
+  result: LPPBluespaceChemBag
   completetime: 6
   materials:
     LPPDiamond: 500

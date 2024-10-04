@@ -1,6 +1,6 @@
-ent-ToyRenault = плюшевая Алиса
+ent-ToyRenault = Плюшевая Алиса
     .desc = Такая же милая и пушистая!
-ent-ToySiobhan = плюшевая Сиба
+ent-ToySiobhan = Плюшевая Сиба
     .desc = Такая же пушистая как и настоящие!
-ent-ToyZero = игрушечный Зиро
+ent-ToyZero = Игрушечный Зиро
     .desc = За императора, Банзай!

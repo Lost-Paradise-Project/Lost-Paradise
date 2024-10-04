@@ -1,12 +1,12 @@
-ent-GlowstickBase = зелёный химсвет
+ent-GlowstickBase = Зелёный химсвет
     .desc = Полезен для неразберихи и экстренных случаев.
-ent-GlowstickRed = красный химсвет
+ent-GlowstickRed = Красный химсвет
     .desc = { ent-GlowstickBase.desc }
-ent-GlowstickPurple = фиолетовый химсвет
+ent-GlowstickPurple = Фиолетовый химсвет
     .desc = { ent-GlowstickBase.desc }
-ent-GlowstickYellow = жёлтый химсвет
+ent-GlowstickYellow = Жёлтый химсвет
     .desc = { ent-GlowstickBase.desc }
-ent-GlowstickBlue = синий химсвет
+ent-GlowstickBlue = Синий химсвет
     .desc = { ent-GlowstickBase.desc }
 ent-LightBehaviourTest1 = light pulse test
     .desc = { ent-BaseItem.desc }

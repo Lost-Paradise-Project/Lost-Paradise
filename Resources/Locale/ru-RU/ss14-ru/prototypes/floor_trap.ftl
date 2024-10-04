@@ -1,10 +1,10 @@
 ent-CollideFloorTrap = { "" }
     .desc = { "" }
-ent-CollideFloorTrapSpawn = спавнер напольная ловушка
+ent-CollideFloorTrapSpawn = Спавнер напольная ловушка
     .desc = { ent-CollideFloorTrap.desc }
-ent-FloorTrapExplosion = напольная ловушка взрывная
+ent-FloorTrapExplosion = Напольная ловушка взрывная
     .desc = { ent-CollideFloorTrap.desc }
-ent-FloorTrapEMP = напольная ловушка ЭМИ
+ent-FloorTrapEMP = Напольная ловушка ЭМИ
     .desc = { ent-CollideFloorTrap.desc }
 ent-SpawnFloorTrapCarp = { ent-CollideFloorTrapSpawn }
     .suffix = Карп

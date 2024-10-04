@@ -1,0 +1,12 @@
+ent-LPPBaseMagazinePistolPF20 = Pistol magazine (.20)
+    .desc = { ent-BaseItem.desc }
+ent-LPPMagazinePistolPF20lethal = Pistol magazine (.20 lethal)
+    .desc = { ent-LPPBaseMagazinePistolPF20.desc }
+ent-LPPMagazinePistolPF20Practice = Pistol magazine (.20 practice)
+    .desc = { ent-LPPBaseMagazinePistolPF20.desc }
+ent-LPPMagazinePistolPF20Rubber = Pistol magazine (.20 rubber)
+    .desc = { ent-LPPBaseMagazinePistolPF20.desc }
+ent-LPPMagazinePistolPF20Uranium = Pistol magazine (.20 uranium)
+    .desc = { ent-LPPBaseMagazinePistolPF20.desc }
+ent-LPPMagazinePistolPF20Incendiary = Pistol magazine (.20 incendiary)
+    .desc = { ent-LPPBaseMagazinePistolPF20.desc }
