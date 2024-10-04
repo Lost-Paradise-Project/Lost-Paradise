@@ -218,8 +218,8 @@
             </BoxContainer>
             <!-- Lost Paradise Donate Preferences End -->
             <BoxContainer Name="CMarkingsTab" HorizontalExpand="True" Orientation="Vertical" Margin="10">
-                <!-- Markings -->
-                <ScrollContainer VerticalExpand="True">
+                <ScrollContainer HorizontalExpand="True" HScrollEnabled="True" VerticalExpand="True" VScrollEnabled="True">
+                    <!-- Markings -->
                     <humanoid:MarkingPicker Name="CMarkings" IgnoreCategories="Hair,FacialHair" />
                 </ScrollContainer>
             </BoxContainer>
