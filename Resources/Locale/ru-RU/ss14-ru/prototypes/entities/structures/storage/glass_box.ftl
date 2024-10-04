@@ -1,5 +1,5 @@
-ent-GlassBoxLaser = { ent-GlassBox }
-    .desc = { ent-GlassBox.desc }
+ent-GlassBoxLaser = Стеклянная коробка
+    .desc = Стекляшка с чем-то...
     .suffix = Антикварный лазер
 ent-GlassBoxLaserOpen = { ent-GlassBoxLaser }
     .suffix = Антикварный лазер, Открытый
