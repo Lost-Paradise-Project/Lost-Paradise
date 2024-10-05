@@ -1,9 +1,0 @@
-ent-debugRotation1 = Дебаг ротация 1
-    .suffix = ДЕБАГ
-    .desc = { "" }
-ent-debugRotation4 = Дебаг ротация 4
-    .suffix = ДЕБАГ
-    .desc = { "" }
-ent-debugRotationTex = Дебаг ротация
-    .suffix = ДЕБАГ
-    .desc = { "" }
