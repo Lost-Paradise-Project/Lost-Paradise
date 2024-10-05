@@ -16,11 +16,7 @@
         Female: FemaleFelinid
         Unsexed: FemaleFelinid
     #- type: Carriable
-    - type: Hunger
-      starvationDamage:
-        types:
-          Cold: 0.5
-          Bloodloss: 0.5
+    - type: Hunger  # tajaran are already at a disadvantage against the vulpkanin, so the baseDecayRate is unchanged
     - type: Thirst
     - type: Icon
       sprite: _LostParadise/Mobs/Species/Tajaran/parts.rsi
