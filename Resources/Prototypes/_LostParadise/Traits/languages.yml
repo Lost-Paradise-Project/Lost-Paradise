@@ -15,7 +15,6 @@
     inverted: true
     traits:
     - DwarfLanguage
-    - SolLanguage
     - ForeignerLight
     - Foreigner
     - SignLanguage
@@ -42,7 +41,6 @@
     inverted: true
     traits:
     - DwarfLanguage
-    - SolLanguage
     - ForeignerLight
     - Foreigner
     - SignLanguage
