@@ -4,10 +4,13 @@
   noSpawn: true
   components:
   - type: Stomach
-    specialDigestible:
+    poorlyDigestible:
       tags:
-      - Meat
-      - Pill
+        - Fruit # The bread isn't included according to the LostParadise's lore
+        - Vegetable
+      factor: 0.25
+      vomitChance: 0.02
+      replacement: reagent-indigestible-fiber
   - type: SolutionContainerManager
     solutions:
       stomach:
@@ -17,3 +20,9 @@
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
+  - type: Metabolizer
+    maxReagents: 3
+    metabolizerTypes: [ Animal, Tajaran ]
+    groups:
+      - id: Food
+      - id: Drink

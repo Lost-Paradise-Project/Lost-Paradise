@@ -42,6 +42,14 @@
   name: moth
 
 - type: metabolizerType
+  id: Vulpkanin
+  name: vulpkanin
+
+- type: metabolizerType
+  id: Tajaran
+  name: tajaran
+
+- type: metabolizerType
   id: Arachnid
   name: arachnid
 

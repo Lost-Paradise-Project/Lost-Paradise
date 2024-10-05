@@ -4,6 +4,14 @@
   noSpawn: true
   components:
   - type: Stomach
+    poorlyDigestible:
+      tags:
+        - Fruit # LostParadise's lore states the vulpkanin race isn't really adapted to plant food
+        - Vegetable
+        - Bread
+      factor: 0.25
+      vomitChance: 0.02
+      replacement: reagent-indigestible-fiber
   - type: SolutionContainerManager
     solutions:
       stomach:
@@ -13,3 +21,9 @@
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
+  - type: Metabolizer
+    maxReagents: 3
+    metabolizerTypes: [ Animal, Vulpkanin ]
+    groups:
+      - id: Food
+      - id: Drink
