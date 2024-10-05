@@ -11,8 +11,19 @@
     inverted: false
     species:
     - Human
-  - !type:CharacterItemGroupRequirement
-    group: TraitsLanguagesBasic
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - DwarfLanguage
+    - SolLanguage
+    - ForeignerLight
+    - Foreigner
+    - SignLanguage
+    - SolCommon
+    - Tradeband
+    - Freespeak
+    - Elyran
+    - ValyrianStandard
 
 - type: trait
   id: DwarfLanguage
@@ -27,5 +38,16 @@
     inverted: false
     species:
     - Human
-  - !type:CharacterItemGroupRequirement
-    group: TraitsLanguagesBasic
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - DwarfLanguage
+    - SolLanguage
+    - ForeignerLight
+    - Foreigner
+    - SignLanguage
+    - SolCommon
+    - Tradeband
+    - Freespeak
+    - Elyran
+    - ValyrianStandard
