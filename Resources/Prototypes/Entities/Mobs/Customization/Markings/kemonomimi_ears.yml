@@ -3,6 +3,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:
@@ -19,6 +20,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:
@@ -42,6 +44,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:
@@ -58,6 +61,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:
