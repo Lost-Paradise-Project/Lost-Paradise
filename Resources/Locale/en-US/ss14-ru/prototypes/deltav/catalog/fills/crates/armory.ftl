@@ -1,10 +1,10 @@
-ent-CrateArmoryGrand = Ящик с Марк 1
+ent-CrateArmoryGrand = { ent-CrateWeaponSecure }
     .desc = { ent-CrateWeaponSecure.desc }
-ent-CrateArmoryUniversal = Ящик с МК32 "Универсал"
+ent-CrateArmoryUniversal = { ent-CrateWeaponSecure }
     .desc = { ent-CrateWeaponSecure.desc }
-ent-CrateArmoryAdjutant = Ящик с Адъютантами
+ent-CrateArmoryAdjutant = { ent-CrateWeaponSecure }
     .desc = { ent-CrateWeaponSecure.desc }
-ent-CrateArmoryEnergyGun = Ящик с энергетическими винтовками
+ent-CrateArmoryEnergyGun = { ent-CrateWeaponSecure }
     .desc = { ent-CrateWeaponSecure.desc }
-ent-CrateArmoryEnergyGunMini = Ящик с миниатюрными энергетическими пистолетами
+ent-CrateArmoryEnergyGunMini = { ent-CrateWeaponSecure }
     .desc = { ent-CrateWeaponSecure.desc }
