@@ -14,7 +14,3 @@ ent-CrateSecurityBiosuit = Ящик биозащитных костюмов СБ
     .desc = Содержит 2 костюма биологической защиты, чтобы никакая зараза не отвлекала вас от исполнения своего долга. Чтобы открыть, необходим уровень доступа Служба безопасности.
 ent-CrateSecurityTrackingMindshieldImplants = Ящик имплантеров
     .desc = { ent-CrateSecgear.desc }
-ent-CrateSecurityShanlinTacsuit = Ящик скафандров NTSA
-    .desc = Содержит один скафандр NTSA-122. Требует доступ службы безопасности для открытия.
-ent-CrateSecurityGuanYuTacsuit = Ящик скафандров NTSA
-    .desc = Содержит один скафандр NTSA-126. Требует доступ службы безопасности для открытия.

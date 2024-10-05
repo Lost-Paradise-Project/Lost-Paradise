@@ -3,6 +3,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:
@@ -21,6 +22,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:
@@ -41,6 +43,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:
@@ -59,6 +62,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:
@@ -79,6 +83,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:
@@ -99,6 +104,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:
@@ -117,6 +123,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:
@@ -135,6 +142,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:
@@ -153,6 +161,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
+  sponsorOnly: true
   coloring:
     default:
       type:

@@ -1,7 +1,7 @@
 - type: emote
   id: HarpyRing
   category: Vocal
-  chatMessages: [ звенит ]
+  chatMessages: [ chat-emote-msg-harpypew ]
   chatTriggers:
   - rings
   - звенит
@@ -10,7 +10,7 @@
 - type: emote
   id: HarpyPew
   category: Vocal
-  chatMessages: [ стреляет ]
+  chatMessages: [ chat-emote-msg-harpyring ]
   chatTriggers:
   - pews
   - pewpews
@@ -20,7 +20,7 @@
 - type: emote
   id: HarpyBang
   category: Vocal
-  chatMessages: [ бабахает ]
+  chatMessages: [ chat-emote-msg-harpybang ]
   chatTriggers:
   - bangs
   - бабахает
@@ -31,16 +31,16 @@
 - type: emote
   id: HarpyRev
   category: Vocal
-  chatMessages: [ шумит ]
+  chatMessages: [ chat-emote-msg-harpyrev ]
   chatTriggers:
   - revs
-  - шумит
-  - шумит.
+  - ревет
+  - ревет.
 
 - type: emote
   id: HarpyCaw
   category: Vocal
-  chatMessages: [ каркает ]
+  chatMessages: [ chat-emote-msg-harpycaw ]
   chatTriggers:
   - caws
   - каркает
@@ -51,7 +51,7 @@
 - type: emote
   id: Bark
   category: Vocal
-  chatMessages: [ лает ]
+  chatMessages: [ chat-emote-msg-bark ]
   chatTriggers:
   - barks
   - лает
@@ -63,7 +63,7 @@
 - type: emote
   id: Snarl
   category: Vocal
-  chatMessages: [ ворчит ]
+  chatMessages: [ chat-emote-msg-snarl ]
   chatTriggers:
   - snarls
   - snarls.
@@ -73,7 +73,7 @@
 - type: emote
   id: Whine
   category: Vocal
-  chatMessages: [ скулит ]
+  chatMessages: [ chat-emote-msg-whine ]
   chatTriggers:
   - whines
   - скулит
@@ -82,7 +82,7 @@
 - type: emote
   id: Howl
   category: Vocal
-  chatMessages: [ воет ]
+  chatMessages: [ chat-emote-msg-howl ]
   chatTriggers:
   - howls
   - воет
