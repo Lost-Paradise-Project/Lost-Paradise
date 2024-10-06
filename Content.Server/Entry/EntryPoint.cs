@@ -4,6 +4,7 @@ using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
 using Content.Server.Afk;
 using Content.Server.Chat.Managers;
+using Content.Server.Corvax.GuideGenerator;
 using Content.Server.Corvax.TTS;
 using Content.Server.Connection;
 using Content.Server.JoinQueue;
@@ -140,6 +141,17 @@ namespace Content.Server.Entry
                 file = resourceManager.UserData.OpenWriteText(resPath.WithName("react_" + dest));
                 ReactionJsonGenerator.PublishJson(file);
                 file.Flush();
+                // Corvax-Wiki-Start
+                file = resourceManager.UserData.OpenWriteText(resPath.WithName("entity_" + dest));
+                EntityJsonGenerator.PublishJson(file);
+                file.Flush();
+                file = resourceManager.UserData.OpenWriteText(resPath.WithName("mealrecipes_" + dest));
+                MealsRecipesJsonGenerator.PublishJson(file);
+                file.Flush();
+                file = resourceManager.UserData.OpenWriteText(resPath.WithName("healthchangereagents_" + dest));
+                HealthChangeReagentsJsonGenerator.PublishJson(file);
+                file.Flush();
+                // Corvax-Wiki-End
                 IoCManager.Resolve<IBaseServer>().Shutdown("Data generation done");
             }
             else
