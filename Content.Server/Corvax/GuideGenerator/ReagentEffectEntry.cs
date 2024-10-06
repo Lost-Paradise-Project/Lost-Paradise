@@ -1,6 +1,7 @@
 using Content.Shared.Chemistry.Reagent;
 using Robust.Shared.Prototypes;
 using System.Text.Json.Serialization;
+using Content.Server.Chemistry.ReactionEffects;
 
 namespace Content.Server.Corvax.GuideGenerator;
 public sealed class ReagentEffectEntry
