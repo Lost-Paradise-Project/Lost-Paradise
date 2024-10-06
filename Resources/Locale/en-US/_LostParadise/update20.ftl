@@ -16,3 +16,4 @@ reagent-desc-red-bool = Окрыляет!
 id-card-access-level-expeditor = Исследователь
 chat-manager-send-ooc-admin-wrap-message = OOC: [bold]\[{ $adminTitle }\] { $playerName }:[/bold] { $message }
 ui-options-function-lpp-smart-equip-neck = Умная экипировка на шею
+species-name-shark = Акулоид
