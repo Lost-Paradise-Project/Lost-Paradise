@@ -3,4 +3,4 @@ ent-LPPDiamondMiningDrill = diamond mining drill
 ent-LPPDiamondPickaxe = diamond pickaxe
     .desc = Notched to perfection, for jamming it into rocks
 ent-LPPAdvResearchAndDevelopmentPointSource = Adv R&D point source
-    .desc = { entBaseMachinePowered.desc }
+    .desc = { ent-BaseMachinePowered.desc }

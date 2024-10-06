@@ -42,3 +42,25 @@
     modifiers:
       coefficients:
         Heat: 0.9
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitRepresentativeNPZ
+  name: NPZ Representative suit
+  description: Washed jeans with the most expensive shirt that you can find on the market, are you compensating for something?
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/NPZ/representive.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/NPZ/representive.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitCamoNPZ
+  name: NPZ urban camo
+  description: No, this is not a reference to some fanatics from Chernobyl.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/NPZ/solider.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/NPZ/solider.rsi

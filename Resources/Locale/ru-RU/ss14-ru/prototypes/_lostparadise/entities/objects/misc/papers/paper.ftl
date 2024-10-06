@@ -1,4 +1,4 @@
-ent-LPPNewspaper = газета
+ent-LPPNewspaper = Газета
     .desc = Свежая газетка.
-ent-LPPPaperBoxWrapped = бумажная упаковка
+ent-LPPPaperBoxWrapped = Бумажная упаковка
     .desc = Буквально бумажная упаковка.

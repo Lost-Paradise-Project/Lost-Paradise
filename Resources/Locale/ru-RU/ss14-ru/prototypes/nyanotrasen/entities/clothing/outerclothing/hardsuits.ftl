@@ -1,4 +1,4 @@
-ent-ClothingOuterHardsuitMystagogue = скафандр Научного Директора
+ent-ClothingOuterHardsuitMystagogue = Скафандр Научного Директора
     .desc = { ent-ClothingOuterHardsuitRd.desc }
 ent-ClothingOuterHardsuitSyndieReverseEngineered = Тактический скафандр NTSA-122
     .desc = Скафандр, созданный департаментом особых приобретений Nanotrasen. Отметки на скафандре соотвествуют средней степени защаты от всех видов воздействий.

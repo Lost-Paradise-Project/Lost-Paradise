@@ -16,3 +16,5 @@ ent-LPPClothingHeadHelmetNPZ = NPZ Helmet
     .desc = A sturdy helmet made of kevlar and plasteel, will protect against small-caliber bullets, as well as shrapnel.
 ent-LPPCASHelmet = CAS Helmet
     .desc = A black and white helmet protects in the same way as a regular one, just the colors are different.
+ent-LPPClothingHeadHelmetNPZAssault = NPZ assault helmet
+    .desc = Robust helmet with additional armor on neck, pretty good for asaults.

@@ -1,0 +1,138 @@
+#Снаряжение
+- type: loadout
+  id: LPPLoadoutSecurityEquipmentTruncheon
+  category: JobsSecurity
+  cost: 5
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - SecurityOfficer
+        - Warden
+        - HeadOfSecurity
+        - Brigmedic
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobSecurityOfficer
+      min: 54000 # 20 часов
+  items:
+   - Truncheon
+
+- type: loadout
+  id: LPPLoadoutSecurityEquipmentEnergyGunMini
+  category: JobsSecurity
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobSecurityOfficer
+      min: 18000 # 5 часов
+  items:
+    - WeaponEnergyGunMini
+
+#Маски
+
+- type: loadout
+  id: LPPLoadoutSecurityEquipmentMaskGasSecurity
+  category: JobsSecurity
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMaskSecurity
+  items:
+    - ClothingMaskGasSecurity
+
+- type: loadout
+  id: LPPLoadoutSecurityEquipmentMaskBalaclavawide
+  category: JobsSecurity
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMaskSecurity
+  items:
+    - LPPClothingBalaclavawide
+
+- type: loadout
+  id: LoadoutClothingBreathMedicalSecurity
+  category: JobsSecurity
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMaskSecurity
+    - !type:CharacterJobRequirement
+      jobs:
+        - Brigmedic
+  items:
+    - ClothingMaskBreathMedicalSecurity
+
+#Броня-куртки
+
+- type: loadout
+  id: LPPLoadoutClothingOuterArmorBasic
+  category: JobsSecurity
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutOuterSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - ClothingOuterArmorBasic
+
+#Голова
+
+- type: loadout
+  id: LPPLoadoutClothingHeadHatBlackBeanie
+  category: JobsSecurity
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPClothingHeadHatBlackBeanie
+
+- type: loadout
+  id: LPPLoadoutClothingHeadHatRedBeanie
+  category: JobsSecurity
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPClothingHeadHatRedBeanie
+
+#Шея
+
+- type: loadout
+  id: LoadoutSecurityBeltHolster
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBeltSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - ClothingBeltHolster

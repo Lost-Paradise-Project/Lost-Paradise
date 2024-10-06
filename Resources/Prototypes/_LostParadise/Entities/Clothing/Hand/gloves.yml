@@ -23,7 +23,7 @@
 # - < DarkSide
 
 - type: entity
-  parent: ClothingHandsGlovesCombat
+  parent: ClothingHandsButcherable
   id: LPPClothingHandsGlovesTacticalFingerless
   name: tactical fingerless combat gloves
   description: These tactical gloves are fireproof and impact resistant.
@@ -32,6 +32,9 @@
     sprite: _LostParadise/Clothing/Hands/Gloves/CombatFingerless.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Hands/Gloves/CombatFingerless.rsi
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+    fiberColor: fibers-black
 
 # - >
 

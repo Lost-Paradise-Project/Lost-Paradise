@@ -144,3 +144,14 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+
+- type: entity
+  parent: LPPClothingHeadUrbanHelmetPG
+  id: LPPClothingHeadHelmetNPZAssault
+  name: NPZ assault helmet
+  description: Robust helmet with additional armor on neck, pretty good for asaults.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/NPZ/NPZassault.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/NPZ/NPZassault.rsi

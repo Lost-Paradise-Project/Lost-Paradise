@@ -9,5 +9,5 @@ ent-WetFloorSignMineExplosive = { ent-WetFloorSign }
     .suffix = Взрывчатка
 ent-Plunger = Вантуз
     .desc = Вантуз с красной пластиковой присоской и деревянной ручкой. Используется для прочистки засоров.
-ent-RagItem = тряпка
+ent-RagItem = Тряпка
     .desc = Предположительно, для устранения беспорядка.

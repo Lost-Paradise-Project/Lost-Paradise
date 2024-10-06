@@ -1,6 +1,6 @@
 ent-LPPFlagWallBase = { ent-BaseStructure }
     .desc = { ent-BaseStructure.desc }
-ent-LPPFlagPoleBase = флагшток
+ent-LPPFlagPoleBase = Флагшток
     .desc = Металлический флагшток с висящим на нём флагом.
 ent-LPPFlagPoleNT = { ent-LPPFlagPoleBase }
     .suffix = NT
@@ -11,7 +11,7 @@ ent-LPPFlagPoleCC = { ent-LPPFlagPoleBase }
 ent-LPPFlagPoleWhite = { ent-LPPFlagPoleBase }
     .suffix = Белый
     .desc = { ent-LPPFlagPoleBase.desc }
-ent-LPPFlagPoleRed = флагшток
+ent-LPPFlagPoleRed = Флагшток
     .desc = Металлический флагшток с висящим на нём флагом.
     .suffix = Красный
 ent-LPPFlagPoleBlue = { ent-LPPFlagPoleBase }
