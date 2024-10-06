@@ -2,7 +2,7 @@
   id: LPPTattooAgent
   bodyPart: Head
   markingCategory: Head
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
       state: agent
@@ -11,7 +11,7 @@
   id: LPPTattooTear
   bodyPart: Head
   markingCategory: Head
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
       state: tear
@@ -20,7 +20,7 @@
   id: LPPJaw
   bodyPart: Head
   markingCategory: Head
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
       state: jaw
@@ -29,7 +29,7 @@
   id: LPPVisor
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
       state: visor
@@ -38,7 +38,7 @@
   id: LPPRobohead
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
       state: robohead
@@ -47,7 +47,7 @@
   id: LPPIronheart
   bodyPart: Chest
   markingCategory: Chest
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
       state: ironheart
@@ -56,7 +56,7 @@
   id: LPPProsthesisLLeg
   bodyPart: LLeg
   markingCategory: LeftLeg
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
       state: lleg
@@ -65,7 +65,7 @@
   id: LPPProsthesisRLeg
   bodyPart: RLeg
   markingCategory: RightLeg
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
       state: rleg
@@ -74,7 +74,7 @@
   id: LPPProsthesisLHand
   bodyPart: LArm
   markingCategory: LeftHand
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
       state: lhand
@@ -83,7 +83,7 @@
   id: LPPProsthesisRHand
   bodyPart: RArm
   markingCategory: RightHand
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
       state: rhand
@@ -92,7 +92,7 @@
   id: LPPProsthesisLWrist
   bodyPart: LHand
   markingCategory: LeftHand
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
       state: lwrist
@@ -101,7 +101,7 @@
   id: LPPProsthesisRWrist
   bodyPart: RHand
   markingCategory: RightHand
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/augmentations/augmentations.rsi
       state: rwrist

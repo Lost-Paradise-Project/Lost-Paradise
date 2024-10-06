@@ -3,7 +3,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -22,7 +22,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -43,7 +43,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -62,7 +62,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -83,7 +83,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -104,7 +104,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -123,7 +123,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -142,7 +142,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -161,7 +161,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:

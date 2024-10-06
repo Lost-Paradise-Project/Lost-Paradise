@@ -3,7 +3,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -20,7 +20,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -44,7 +44,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -61,7 +61,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
