@@ -115,18 +115,15 @@ public sealed class TTSSystem : EntitySystem
         if (ev.SourceUid != null)
         {
             var sourceUid = GetEntity(ev.SourceUid.Value);
-
-            //Logger.Warning($"Playing TTS on Entity {sourceUid}");
-            _audio.PlayEntity(audioResource.AudioStream, sourceUid, audioParams);
+            if(sourceUid.IsValid())
+                _audio.PlayEntity(audioResource.AudioStream, sourceUid, audioParams);
         }
         else
         {
-            //Logger.Warning("Playing TTS Globally");
             _audio.PlayGlobal(audioResource.AudioStream, audioParams);
         }
 
         _contentRoot.RemoveFile(filePath);
-        //Logger.Warning($"TTS File successfully removed!");
     }
 
     private float AdjustVolume(bool isWhisper)

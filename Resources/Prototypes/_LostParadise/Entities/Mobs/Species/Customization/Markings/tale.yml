@@ -2,7 +2,7 @@
   id: LPPAllsuccubus
   bodyPart: Tail
   markingCategory: Tail
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
       state: succubus
@@ -11,7 +11,7 @@
   id: LPPTailLisichkaBolsh
   bodyPart: Tail
   markingCategory: Tail
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
       state: vulptail_s2_lisichka_bolsh
@@ -20,7 +20,7 @@
   id: LPPTailLisichka
   bodyPart: Tail
   markingCategory: Tail
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
       state: vulptail_s2_lisichka
@@ -29,7 +29,7 @@
   id: LPPTailLisichkaPushok
   bodyPart: Tail
   markingCategory: Tail
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
       state: vulptail_s2_pushok
@@ -38,7 +38,7 @@
   id: LPPTailLisichkaPyatna
   bodyPart: Tail
   markingCategory: Tail
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
       state: vulptail_s2_pyatna
@@ -47,7 +47,7 @@
   id: LPPTailVulptail
   bodyPart: Tail
   markingCategory: Tail
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
       state: vulptail_s2
@@ -56,7 +56,7 @@
   id: LPPSevenTail
   bodyPart: Tail
   markingCategory: Tail
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/tale.rsi
       state: seventail

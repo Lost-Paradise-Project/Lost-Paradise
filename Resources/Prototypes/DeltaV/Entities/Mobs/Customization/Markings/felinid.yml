@@ -3,7 +3,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid, Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
   - sprite: DeltaV/Mobs/Customization/Felinid/felinid_tails.rsi
     state: Felinid_fluffy_tail_full
@@ -15,7 +15,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid, Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
   - sprite: DeltaV/Mobs/Customization/Felinid/felinid_tails.rsi
     state: Felinid_fluffy_tail_full
@@ -25,7 +25,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid, Human]
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: DeltaV/Mobs/Customization/Felinid/alternative_tail.rsi
       state: m_waggingtail_cat_FRONT
