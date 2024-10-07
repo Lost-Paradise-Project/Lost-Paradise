@@ -75,7 +75,7 @@ namespace Content.Client.Preferences
             var collection = IoCManager.Instance!;
 
 #if LPP_Sponsors  // _LostParadise-Sponsors
-            var allowedMarkings = _sponsorsManager.TryGetInfo(out var sponsor) ? sponsor.AllowedMarkings : [];
+            var allowedMarkings = _sponsorsManager.TryGetInfo(out var sponsor) ? sponsor.AllowedMarkings : Array.Empty<string>();
             if (sponsor != null)
             {
                 var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier;
