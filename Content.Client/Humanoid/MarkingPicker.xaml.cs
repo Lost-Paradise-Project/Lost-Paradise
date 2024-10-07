@@ -51,7 +51,7 @@ public sealed partial class MarkingPicker : Control
 
     public string IgnoreCategories
     {
-        get => string.Join(',',  _ignoreCategories);
+        get => string.Join(',', _ignoreCategories);
         set
         {
             _ignoreCategories.Clear();
@@ -130,7 +130,7 @@ public sealed partial class MarkingPicker : Control
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
 
-        CMarkingCategoryButton.OnItemSelected +=  OnCategoryChange;
+        CMarkingCategoryButton.OnItemSelected += OnCategoryChange;
         CMarkingsUnused.OnItemSelected += item =>
             _selectedUnusedMarking = CMarkingsUnused[item.ItemIndex];
 
@@ -232,14 +232,18 @@ public sealed partial class MarkingPicker : Control
             item.Metadata = marking;
 
 #if LPP_Sponsors  // _LostParadise-Sponsors
-            if (marking.SponsorOnly)
+            if (marking != null && marking.SponsorOnly)
             {
                 item.Disabled = true;
                 if (_sponsorsManager.TryGetInfo(out var sponsor))
                 {
                     var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier; //если уровень выше максимального, ставится максимальный
                     var marks = Loc.GetString($"sponsor-markings-tier-{tier}").Split(";", StringSplitOptions.RemoveEmptyEntries);
-                    item.Disabled = !(sponsor.AllowedMarkings.Contains(marking.ID) || sponsor.AllowedMarkings.Contains("ALL") || marks.Contains(marking.ID));
+                    if (sponsor.AllowedMarkings == null)
+                        sponsor.AllowedMarkings = Array.Empty<string>();
+                    item.Disabled = !(sponsor.AllowedMarkings.Contains(marking.ID)
+                        || sponsor.AllowedMarkings.Contains("ALL")
+                        || marks.Contains(marking.ID));
                 }
             }
 #endif
@@ -272,7 +276,7 @@ public sealed partial class MarkingPicker : Control
             var text = Loc.GetString(marking.Forced ? "marking-used-forced" : "marking-used", ("marking-name", $"{GetMarkingName(newMarking)}"),
                 ("marking-category", Loc.GetString($"markings-category-{newMarking.MarkingCategory}")));
 
-            var _item = new ItemList.Item(CMarkingsUsed)
+            var item = new ItemList.Item(CMarkingsUsed)
             {
                 Text = text,
                 Icon = newMarking.Sprites[0].Frame0(),
@@ -281,7 +285,7 @@ public sealed partial class MarkingPicker : Control
                 IconModulate = marking.MarkingColors[0]
             };
 
-            CMarkingsUsed.Add(_item);
+            CMarkingsUsed.Add(item);
         }
 
         // since all the points have been processed, update the points visually

@@ -1,4 +1,4 @@
-﻿using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.CodeAnalysis;
 using Content.Shared.CCVar;
 using Content.Shared.Customization.Systems;
 using Content.Shared.Players;
@@ -11,6 +11,9 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+#if DiscordAuth
+using Content.Shared._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.Players.PlayTimeTracking;
 
@@ -37,6 +40,11 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
         _net.RegisterNetMessage<MsgWhitelist>(RxWhitelist);
 
         _client.RunLevelChanged += ClientOnRunLevelChanged;
+    }
+
+    public void ForceUpdate()   // _LostParadise: discord auth
+    {
+        Updated?.Invoke();
     }
 
     private void ClientOnRunLevelChanged(object? sender, RunLevelChangedEventArgs e)

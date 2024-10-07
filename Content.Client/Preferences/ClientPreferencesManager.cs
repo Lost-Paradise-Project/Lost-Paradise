@@ -76,12 +76,17 @@ namespace Content.Client.Preferences
 
 #if LPP_Sponsors  // _LostParadise-Sponsors
             var allowedMarkings = _sponsorsManager.TryGetInfo(out var sponsor) ? sponsor.AllowedMarkings : [];
+            if (sponsor != null)
+            {
+                var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier;
+                allowedMarkings = allowedMarkings.Concat(Loc.GetString($"sponsor-markings-tier-{tier}").Split(";", StringSplitOptions.RemoveEmptyEntries)).ToArray();
+            }
             var session = _playerManager.LocalSession!;
             profile.EnsureValid(session, collection, allowedMarkings);
 #else
             profile.EnsureValid(_playerManager.LocalSession!, collection);
 #endif
-            var characters = new Dictionary<int, ICharacterProfile>(Preferences.Characters) {[slot] = profile};
+            var characters = new Dictionary<int, ICharacterProfile>(Preferences.Characters) { [slot] = profile };
             Preferences = new PlayerPreferences(characters, Preferences.SelectedCharacterIndex, Preferences.AdminOOCColor);
             var msg = new MsgUpdateCharacter
             {
