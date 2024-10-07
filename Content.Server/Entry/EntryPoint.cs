@@ -9,7 +9,6 @@ using Content.Server.Corvax.TTS;
 using Content.Server.Connection;
 using Content.Server.JoinQueue;
 using Content.Server.Database;
-using Content.Server.DiscordAuth;
 using Content.Server.EUI;
 using Content.Server.GameTicking;
 using Content.Server.GhostKick;
@@ -33,8 +32,12 @@ using Robust.Shared.ContentPack;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Robust.Shared.Network;
 #if LPP_Sponsors  // _LostParadise-Sponsors
 using Content.Server._LostParadise.Sponsors;
+#endif
+#if DiscordAuth
+using Content.Server._NC.Discord;
 #endif
 
 namespace Content.Server.Entry
@@ -50,6 +53,9 @@ namespace Content.Server.Entry
         private PlayTimeTrackingManager? _playTimeTracking;
         private IEntitySystemManager? _sysMan;
         private IServerDbManager? _dbManager;
+#if DiscordAuth
+        [Dependency] private readonly DiscordAuthManager _discordAuthManager = default!;
+#endif
 
         /// <inheritdoc />
         public override void Init()
@@ -111,10 +117,12 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<TTSManager>().Initialize(); // LPP-TTS
                 IoCManager.Resolve<ServerInfoManager>().Initialize();
                 IoCManager.Resolve<JoinQueueManager>().Initialize();
-                IoCManager.Resolve<DiscordAuthManager>().Initialize();
                 IoCManager.Resolve<ServerApi>().Initialize();
 #if LPP_Sponsors  // _LostParadise-Sponsors
                 IoCManager.Resolve<SponsorsManager>().Initialize();
+#endif
+#if DiscordAuth
+                IoCManager.Resolve<DiscordAuthManager>().Initialize();
 #endif
 
                 _voteManager.Initialize();
