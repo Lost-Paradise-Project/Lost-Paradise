@@ -88,7 +88,7 @@ public sealed class TraitPreferenceSelector : Control
         var sys = IoCManager.Resolve<SponsorsManager>();
         var sponsorTier = 0;
         if (sys.TryGetInfo(out var sponsorInfo))
-            sponsorTier = sponsorInfo.Tier ?? 0;
+            sponsorTier = sponsorInfo.Tier;
 #endif
 
         // Get requirement reasons
