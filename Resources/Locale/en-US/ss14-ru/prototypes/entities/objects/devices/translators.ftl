@@ -27,3 +27,5 @@ ent-AnimalTranslator = Animal translator
     .desc = Translates all the cutes noises that most animals make into a more understandable form!
 ent-ValyrianStandardTranslator = Valyrian Standard translator
     .desc = Translates speech between Valyrian Standard and Tau-Ceti Basic. For talking to Harpies!
+ent-AzazibaTranslator = Azaziba translator
+    .desc = Translates speech between Unathi and Azaziba. For Unathi to speak the Archaic form of their native tongue!
