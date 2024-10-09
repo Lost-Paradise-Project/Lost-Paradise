@@ -41,6 +41,7 @@ namespace Content.Shared.Preferences
             string flavortext,
             string species,
             string voice, // LPP-TTS
+            string customspeciename,
             float height,
             float width,
             int age,
@@ -64,6 +65,7 @@ namespace Content.Shared.Preferences
             FlavorText = flavortext;
             Species = species;
             Voice = voice; // LPP-TTS
+            Customspeciename = customspeciename;
             Height = height;
             Width = width;
             Age = age;
@@ -94,7 +96,7 @@ namespace Content.Shared.Preferences
             , List<string> donatePreferences // Lost Paradise Donate Preferences
 #endif
             )
-            : this(other.Name, other.FlavorText, other.Species, other.Voice, other.Height, other.Width, other.Age, other.Sex, other.Gender, other.Appearance,
+            : this(other.Name, other.FlavorText, other.Species, other.Voice, other.Customspeciename, other.Height, other.Width, other.Age, other.Sex, other.Gender, other.Appearance,
                 other.Clothing, other.Backpack, other.SpawnPriority, jobPriorities, other.PreferenceUnavailable,
                 antagPreferences, traitPreferences, loadoutPreferences
 #if LPP_Sponsors
@@ -121,6 +123,7 @@ namespace Content.Shared.Preferences
             string flavortext,
             string species,
             string voice, // LPP-TTS
+            string customspeciename,
             float height,
             float width,
             int age,
@@ -139,7 +142,7 @@ namespace Content.Shared.Preferences
             , List<string> donatePreferences // Lost Paradise Donate Preferences
 #endif
             )
-            : this(name, flavortext, species, voice, height, width, age, sex, gender, appearance, clothing, backpack, spawnPriority,
+            : this(name, flavortext, species, voice, customspeciename, height, width, age, sex, gender, appearance, clothing, backpack, spawnPriority,
                 new Dictionary<string, JobPriority>(jobPriorities), preferenceUnavailable,
                 new List<string>(antagPreferences), new List<string>(traitPreferences),
                 new List<string>(loadoutPreferences)
@@ -160,6 +163,7 @@ namespace Content.Shared.Preferences
             "",
             SharedHumanoidAppearanceSystem.DefaultSpecies,
             SharedHumanoidAppearanceSystem.DefaultVoice, // LPP-TTS
+            "",
             1f,
             1f,
             18,
@@ -195,7 +199,7 @@ namespace Content.Shared.Preferences
                 "John Doe",
                 "",
                 species,
-                SharedHumanoidAppearanceSystem.DefaultVoice, // LPP-TTS
+                "",
                 1f,
                 1f,
                 18,
@@ -272,7 +276,7 @@ namespace Content.Shared.Preferences
 
             var name = GetName(species, gender);
 
-            return new HumanoidCharacterProfile(name, "", species, voiceId, height, width, age, sex, gender,
+            return new HumanoidCharacterProfile(name, "", species, voiceId, species, height, width, age, sex, gender,
                 HumanoidCharacterAppearance.Random(species, sex), ClothingPreference.Jumpsuit,
                 BackpackPreference.Backpack, SpawnPriorityPreference.None,
                 new Dictionary<string, JobPriority>
@@ -287,9 +291,13 @@ namespace Content.Shared.Preferences
 
         public string Name { get; private set; }
         public string FlavorText { get; private set; }
+
         [DataField("species")]
         public string Species { get; private set; }
         public string Voice { get; private set; } // LPP-TTS
+
+        [DataField]
+        public string Customspeciename { get; private set; }
 
         [DataField("height")]
         public float Height { get; private set; }
@@ -358,6 +366,11 @@ namespace Content.Shared.Preferences
             return new(this) { Voice = voice };
         }
         // LPP-TTS-End
+
+        public HumanoidCharacterProfile WithCustomSpeciesName(string customspeciename)
+        {
+            return new(this) { Customspeciename = customspeciename };
+        }
 
         public HumanoidCharacterProfile WithHeight(float height)
         {
@@ -630,6 +643,10 @@ namespace Content.Shared.Preferences
                 name = GetName(Species, gender);
             }
 
+            var customspeciename = speciesPrototype.CustomName
+                ? FormattedMessage.RemoveMarkup(Customspeciename ?? "")[..MaxNameLength]
+                : "";
+
             string flavortext;
             if (FlavorText.Length > MaxDescLength)
             {
@@ -740,6 +757,7 @@ namespace Content.Shared.Preferences
 
 
             Name = name;
+            Customspeciename = customspeciename;
             FlavorText = flavortext;
             Age = age;
             Height = height;
@@ -839,6 +857,9 @@ namespace Content.Shared.Preferences
 #if LPP_Sponsors
                     , _donatePreferences// Lost Paradise Donate Preferences
 #endif
+                ),
+                HashCode.Combine(
+                    Customspeciename
                 )
             );
         }
