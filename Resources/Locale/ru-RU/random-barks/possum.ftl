@@ -1,0 +1,24 @@
+# Possum <3
+bark-possum-1 = Хррр Хррр
+bark-possum-2 = Хррр Хррр Хррр
+bark-possum-3 = Еда
+bark-possum-4 = Голодный
+bark-possum-5 = Больше еды
+bark-possum-6 = Хррр
+bark-possum-7 = Притворись мертвым
+bark-possum-8 = Испуган
+bark-possum-9 = Прячся
+bark-possum-10 = Дайте тъмы
+bark-possum-11 = Дереяный домик
+bark-possum-12 = Хррр Хррр Хррр Хррр
+bark-possum-13 = Еды сейчас
+bark-possum-14 = Сонный
+bark-possum-15 = Хррр Хррр Хррр
+bark-possum-16 = Тъма это хорошо
+bark-possum-17 = Фруктов пожалуйста
+bark-possum-18 = нету света
+bark-possum-19 = Хррр Хррр Хррр Хррр Хррр
+bark-possum-20 = Безопасный свет
+bark-possum-21 = Нужно скрыстя
+bark-possum-22 = Хррр... Держись дальше
+bark-possum-count = 22

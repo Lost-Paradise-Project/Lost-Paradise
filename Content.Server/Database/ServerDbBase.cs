@@ -232,6 +232,7 @@ namespace Content.Server.Database
                 profile.FlavorText,
                 profile.Species,
                 voice, // LPP-TTS
+                profile.CustomSpecieName,
                 profile.Height,
                 profile.Width,
                 profile.Age,
@@ -276,6 +277,7 @@ namespace Content.Server.Database
             profile.FlavorText = humanoid.FlavorText;
             profile.Species = humanoid.Species;
             profile.Voice = humanoid.Voice; // LPP-TTS
+            profile.CustomSpecieName = humanoid.Customspeciename;
             profile.Age = humanoid.Age;
             profile.Sex = humanoid.Sex.ToString();
             profile.Gender = humanoid.Gender.ToString();
