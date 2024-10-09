@@ -1,1 +1,1 @@
-﻿guide-entry-justice = Правосудие
+guide-entry-justice = Правосудие
