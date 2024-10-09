@@ -104,8 +104,7 @@
         - CartridgeAntiMateriel
     capacity: 3
     proto: CartridgeAntiMateriel
-    chambers: [ True, True, True ]
-    ammoSlots: [ null, null, null ]
+
 
 - type: entity
   name: collection inspector
@@ -138,8 +137,6 @@
         - CartridgeAntiMateriel
     capacity: 3
     proto: CartridgeAntiMateriel
-    chambers: [ True, True, True ]
-    ammoSlots: [ null, null, null ]
 
 - type: entity
   name: LPPPantherBase
