@@ -1,7 +1,7 @@
 
 - type: entity
   name: desert eagle
-  parent: BaseWeaponPistol
+  parent: WeaponPistolUniversal
   id: LPPWeaponPistolDesertEagle
   description: A favorite of gangsters and big gun enthusiasts, uses .35 caliber cartridges.
   components:
@@ -46,7 +46,7 @@
 
 - type: entity
   name: camo desert eagle
-  parent: BaseWeaponPistol
+  parent: WeaponPistolUniversal
   id: LPPWeaponPistolDesertEagleCamo
   description: A special gold piece with a lemited brindle pattern, highly coveted by collectors and crime bosses, chambered in .35 caliber.
   components:
@@ -68,7 +68,7 @@
 
 - type: entity
   name: gold desert eagle
-  parent: BaseWeaponPistol
+  parent: WeaponPistolUniversal
   id: LPPWeaponPistolDesertEagleGold
   description: A symbol of high status in the criminal world and beyond, uses .35 caliber cartridges.
   components:
