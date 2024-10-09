@@ -199,6 +199,7 @@ namespace Content.Shared.Preferences
                 "John Doe",
                 "",
                 species,
+                SharedHumanoidAppearanceSystem.DefaultVoice, // LPP-TTS
                 "",
                 1f,
                 1f,
