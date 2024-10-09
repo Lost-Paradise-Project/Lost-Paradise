@@ -36,6 +36,8 @@ character-item-group-LoadoutOuterMedical = Верхняя Одежда Меди�
 character-item-group-LoadoutShoesMedical = Обувь Медицинского Отдела
 character-item-group-LoadoutUniformsMedical = Униформа Медицинского Отдела
 # Security
+character-item-group-LoadoutBackSecurity = Рюкзаки Отдела Службы Безопасности
+# Security
 character-item-group-LoadoutBeltSecurity = Ремни Отдела Службы Безопасности
 character-item-group-LoadoutEquipmentSecurity = Снаряжение Отдела Службы Безопасности
 character-item-group-LoadoutEyesSecurity = Очки Отдела Службы Безопасности
@@ -46,6 +48,7 @@ character-item-group-LoadoutNeckSecurity = Одежда На Шею Отдела
 character-item-group-LoadoutOuterSecurity = Верхняя Одежда Отдела Службы Безопасности
 character-item-group-LoadoutShoesSecurity = Обувь Отдела Службы Безопасности
 character-item-group-LoadoutUniformsSecurity = Униформа Отдела Службы Безопасности
+character-item-group-LoadoutWeaponSecurity = Оружие Отдела Службы Безопасности
 # Service
 character-item-group-LoadoutEquipmentService = Снаряжение Сервиса
 character-item-group-LoadoutMaskService = Маски Сервиса

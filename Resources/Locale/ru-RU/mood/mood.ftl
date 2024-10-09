@@ -40,3 +40,6 @@ mood-effect-LotoEnthrallment =
     Я боюсь, что увяну, если не смогу снова испить из чаши знания.
 mood-effect-NicotineBenefit = У меня такое чувство, будто я всю жизнь стоял и только что сел.
 mood-effect-NicotineWithdrawal = Мне бы сейчас пойти и прикурить немного.
+# Drugs
+mood-effect-EthanolBenefit = Я чувствую себя таким расслабленным после выпивки.
+mood-effect-SpaceDrugsBenefit = Ваааау, какие красивые цвета, чувааааак. Я как будто слышу цвет и ощущаю вкус, чувааак.
