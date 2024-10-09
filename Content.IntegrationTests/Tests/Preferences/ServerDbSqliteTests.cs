@@ -42,7 +42,6 @@ namespace Content.IntegrationTests.Tests.Preferences
                 "The biggest boy around.",
                 "Human",
                 "Eugene", // LPP-TTS
-                "",
                 1,
                 1,
                 21,
