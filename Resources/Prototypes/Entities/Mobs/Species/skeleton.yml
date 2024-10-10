@@ -104,7 +104,7 @@
     alternateState: Standing
   - type: Tag
     tags:
-    - LayingDown
+    - LayingDownComponent
 
 - type: entity
   parent: BaseSpeciesDummy
