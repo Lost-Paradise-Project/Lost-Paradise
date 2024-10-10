@@ -102,8 +102,9 @@
           probability: 0.5
   - type: FireVisuals
     alternateState: Standing
-    - type: Tag
-      - LayingDown
+  - type: Tag
+    tags:
+    - LayingDown
 
 - type: entity
   parent: BaseSpeciesDummy
