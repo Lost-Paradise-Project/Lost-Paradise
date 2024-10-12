@@ -1,6 +1,6 @@
 ent-LPPClothingBreastBase = { ent-Clothing }
     .desc = { ent-Clothing.desc }
-ent-LPPBraBlack = Бюсгалтер
+ent-LPPBraBlack = Бюстгальтер
     .desc = { ent-LPPClothingBreastBase.desc }
 ent-LPPBraBlue = { ent-LPPBraBlack }
     .desc = { ent-LPPClothingBreastBase.desc }
@@ -334,6 +334,6 @@ ent-LPPCutOutTop = Топ с вырезом
     .desc = { ent-LPPClothingBreastBase.desc }
 ent-LPPCutOutTop2 = Топ с вырезом v2
     .desc = { ent-LPPClothingBreastBase.desc }
-ent-LPPCowTop = Коровий бюсгалтер
+ent-LPPCowTop = Коровий бюстгальтер
     .desc = Муу.
     .suffix = СПОНСОР
