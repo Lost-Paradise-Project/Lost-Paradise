@@ -62,6 +62,7 @@ namespace Content.IntegrationTests.Tests
             "Hammurabi", //DeltaV
             "Lighthouse", //DeltaV
 			"Submarine", //DeltaV
+            "LPPKerberos", //LPP
             "LPPAsterisk", //LPP
             "LPPNormandy", //LPP
             "LPPPebble", //LPP
