@@ -1,0 +1,4 @@
+﻿- type: moodEffect
+  id: LPPCamomileTeaCalm
+  moodChange: 5
+  timeout: 300 #5 minutes
