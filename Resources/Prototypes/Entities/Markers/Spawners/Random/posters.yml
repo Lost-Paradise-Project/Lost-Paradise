@@ -170,11 +170,24 @@
       - PosterLegitCornzza # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
       - PosterLegitFuckAround # DeltaV Poster, see Resources/Prototypes/DeltaV/Entities/Structures/Wallmount/Signs/posters.yml
 
-      # - < DarkSide - LOST PARADISE, see Resources/Prototypes/_LostParadise/Entities/Structures/Wallmounts/posters.yml
+      # - < DarkSide/MegaDaimond - LOST PARADISE, see Resources/Prototypes/_LostParadise/Entities/Structures/Wallmounts/posters.yml
       - LPPPosterHappyNewYear
       - LPPPosterNoAlcohol
       - LPPPosterSport
       - LPPPosterTimeTea
+      - LPPPosterBeach
+      - LPPPosterBeach2
+      - LPPPosterPress
+      - LPPPosterLustfulVulp1
+      - LPPPosterLustfulVulp2
+      - LPPPosterTajaranHalloween
+      - LPPPosterTajaranBikini
+      - LPPPosterTajaranBunny1
+      - LPPPosterTajaranBunny2
+      - LPPPosterTajaranBody
+      - LPPPosterTajaranNewYear
+      - LPPPosterTajaranUnderwear
+      - LPPPosterVulpBunnyUma
       # - >
-      
+
     chance: 1
