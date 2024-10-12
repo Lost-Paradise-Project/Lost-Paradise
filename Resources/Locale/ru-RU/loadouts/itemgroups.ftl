@@ -49,6 +49,7 @@ character-item-group-LoadoutOuterSecurity = Верхняя Одежда Отде
 character-item-group-LoadoutShoesSecurity = Обувь Отдела Службы Безопасности
 character-item-group-LoadoutUniformsSecurity = Униформа Отдела Службы Безопасности
 character-item-group-LoadoutWeaponSecurity = Оружие Отдела Службы Безопасности
+character-item-group-LoadoutHoSWeapon = Антикварная коллекция оружия Главы Службы Безопасности
 # Service
 character-item-group-LoadoutEquipmentService = Снаряжение Сервиса
 character-item-group-LoadoutMaskService = Маски Сервиса
