@@ -10183,9 +10183,6 @@ entities:
       pos: 94.5,44.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
-      - invalid
       deviceLists:
       - 16754
   - uid: 10329
