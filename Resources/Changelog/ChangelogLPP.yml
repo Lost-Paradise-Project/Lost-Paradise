@@ -1790,3 +1790,12 @@
   id: 97
   time: '2024-10-09T21:48:28.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/253
+- author: PowerKAT1
+  changes:
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0451\u043D \u0421\u041C \u043D\u0430\
+      \ \u043A\u0430\u0440\u0442\u0435 \"\u041D\u043E\u0440\u043C\u0430\u043D\u0434\
+      \u0438\u044F\""
+    type: Fix
+  id: 98
+  time: '2024-10-12T15:54:30.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/264
