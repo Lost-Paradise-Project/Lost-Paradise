@@ -1,0 +1,11 @@
+- type: vendingMachineInventory
+  id: TeaVendingMachineServitorInventory
+  startingInventory:
+    LPPDrinkCamomileTeaBottleFull: 5
+    LPPDrinkMintTeaBottleFull: 4
+    LPPDrinkGingerTeaBottleFull: 4
+    LPPDrinkBerryTeaBottleFull: 4
+    LPPDrinkOrangeTeaBottleFull: 3
+    LPPDrinkFlowerTeaBottleFull: 4
+    LPPDrinkGreenTeaBottleFull: 3
+    LPPDrinkTeaBottleFull: 4

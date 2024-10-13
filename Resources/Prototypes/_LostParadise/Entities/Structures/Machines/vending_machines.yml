@@ -290,3 +290,36 @@
     energy: 1.6
     color: "#afeeee"
 
+- type: entity
+  parent: VendingMachine
+  id: LPPTeaVend
+  name: TeaVend
+  description: Perfect for those who want to cool down a bit.
+  components:
+  - type: VendingMachine
+    pack: TeaVendingMachineServitorInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/VendingMachines/teavend.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#e0f1ff"
+  - type: Transform
+    noRot: false
+  - type: Rotatable
+    rotateWhileAnchored: false
+    rotateWhilePulling: true

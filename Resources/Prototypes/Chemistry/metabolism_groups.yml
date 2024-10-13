@@ -17,6 +17,9 @@
 - type: metabolismGroup
   id: Drink
 
+- type: metabolismGroup
+  id: Calm
+
 # Used for gases that have effects on being inhaled
 - type: metabolismGroup
   id: Gas

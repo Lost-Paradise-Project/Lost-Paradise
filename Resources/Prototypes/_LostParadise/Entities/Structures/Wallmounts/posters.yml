@@ -45,4 +45,119 @@
   - type: Sprite
     state: timetea
 
-# - >
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterBeach
+  name: "Summer epsiode"
+  description: "It's a bit cold, but you can imagine that this picture is HOT."
+  components:
+  - type: Sprite
+    state: lustfulvulp-beach
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterPress
+  name: "Check this bo... Press!"
+  description: "You're on the wrong side of Heaven my friend"
+  components:
+  - type: Sprite
+    state: lustfulvulp-press
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterLustfulVulp1
+  name: "Horny vulp"
+  description: "Run for your life!"
+  components:
+  - type: Sprite
+    state: lustfulvulp-uma
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterLustfulVulp2
+  name: "night games with HighAnge"
+  description: "Why do I need to come up with all of these descriptions..."
+  components:
+  - type: Sprite
+    state: lustfulvulp-vulp
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterBeach2
+  name: "Summer epsiode part 2"
+  description: "It's like the first one, but with more funservice."
+  components:
+  - type: Sprite
+    state: lustfulvulp-basin
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterTajaranHalloween
+  name: "Halloween tajaran"
+  description: "Trick or treet as they say..."
+  components:
+  - type: Sprite
+    state: lustfultajaran-hellowin
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterTajaranBikini
+  name: "My eyes are higher"
+  description: "The poster shows tajaran's semi-nude female torso with an emphasis on her breasts."
+  components:
+  - type: Sprite
+    state: lustfultajaran-bikini
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterTajaranBunny2
+  name: "playful card games with Maria"
+  description: "I think it's a strip game, and you're already out of your underpants."
+  components:
+  - type: Sprite
+    state: lustfultajaran-bunny2
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterTajaranBunny1
+  name: "Easter tajaran"
+  description: "I don't think rabbits are on their menu..."
+  components:
+  - type: Sprite
+    state: lustfultajaran-bunny1
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterTajaranBody
+  name: "Hot tajaran in your sector!"
+  description: "Deal with it already!"
+  components:
+  - type: Sprite
+    state: lustfultajaran-body
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterTajaranNewYear
+  name: "Present for New Year"
+  description: "Oooh yeah babyy that's we all waiting for!"
+  components:
+  - type: Sprite
+    state: lustfultajaran-newyear
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterTajaranUnderwear
+  name: "Use underwearmats!"
+  description: "Best panties, bras and stockings in all Galaxy!"
+  components:
+  - type: Sprite
+    state: lustfultajaran-underwear
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterVulpBunnyUma
+  name: "Bunnygirl Vulp"
+  description: "Some poster with... Sticky white thing on it... Oh, nevermind, it's just a glue."
+  components:
+  - type: Sprite
+    state: lustfulvulp-bunnyuma
