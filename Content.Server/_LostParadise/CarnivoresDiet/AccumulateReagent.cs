@@ -108,7 +108,6 @@ namespace Content.Server.Chemistry.ReagentEffects
 
         protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         {
-            // Could use a different translation string as well, but this one is close enough to ignore it for now
             if (Reagent != null && prototype.TryIndex(Reagent, out ReagentPrototype? reagentProto))
             {
                 return Loc.GetString("reagent-effect-guidebook-accumulate-reagent-reagent",

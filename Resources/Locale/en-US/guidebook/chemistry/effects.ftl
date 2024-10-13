@@ -157,9 +157,6 @@ reagent-effect-guidebook-adjust-reagent-group =
             *[-1] from
         } the solution
 
-reagent-effect-guidebook-accumulate-reagent-reagent =
-    Accumulates as long as there's a {$reagent} source present in the bloodstream
-
 reagent-effect-guidebook-adjust-temperature =
     { $chance ->
         [1] { $deltasign ->

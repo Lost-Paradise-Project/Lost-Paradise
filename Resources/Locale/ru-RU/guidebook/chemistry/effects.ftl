@@ -143,8 +143,6 @@ reagent-effect-guidebook-adjust-reagent-group =
         [1] к
        *[-1] из
     } раствора
-reagent-effect-guidebook-accumulate-reagent-reagent =
-    Накапливается в кровеносной системе, пока в ней имеется вещество, добавляющее {$reagent}
 reagent-effect-guidebook-adjust-temperature =
     { $chance ->
         [1]
