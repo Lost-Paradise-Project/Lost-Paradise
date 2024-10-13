@@ -101,3 +101,20 @@
   desc: reagent-desc-pumpkin-flesh
   flavor: pumpkin
   color: "#fc9300"
+  
+- type: reagent
+  id: IndigestibleFiber
+  name: reagent-name-indigestible-fibre
+  group: Foods
+  desc: reagent-desc-indigestible-fibre
+  flavor: terrible
+  color: "#54753d"
+  physicalDesc: reagent-physical-desc-pungent
+  metabolisms:
+    Drink:
+      effects:
+      - !type:ChemVomit
+        conditions:
+        - !type:ReagentThreshold
+          min: 4
+        probability: 0.02

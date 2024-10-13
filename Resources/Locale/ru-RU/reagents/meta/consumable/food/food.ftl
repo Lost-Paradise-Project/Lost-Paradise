@@ -12,3 +12,5 @@ reagent-name-butter = сливочное масло
 reagent-desc-butter = Предположительно, сливочное!
 reagent-name-pumpkin-flesh = мякоть тыквы
 reagent-desc-pumpkin-flesh = Кашеобразные, сладкие остатки тыквы.
+reagent-name-indigestible-fibre = неперивариваемые растительные волокна
+reagent-desc-indigestible-fibre = Остаточные продукты пищеварительной системы, плохо приспособленной к растительной пище.
