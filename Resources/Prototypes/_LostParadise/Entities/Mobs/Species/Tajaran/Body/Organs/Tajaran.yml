@@ -9,7 +9,7 @@
         - Nutriment
         - Vitamin
       whitelistTags:
-        - Fruit # The bread isn't included according to the LostParadise's lore
+        - Fruit # Bread/Pizza tags aren't included according to the LostParadise's lore
         - Vegetable
       blacklistTags:
         - Meat # Meat-based food is excluded in order not to force the carnivores to be meat-purists
