@@ -71,8 +71,8 @@
 - type: entity
   name: pillow pink round
   id: LPPPillowPinkRound
-  parent: BaseItem
-  description: A hamburger bun. Round and convenient to hold.
+  parent: [BaseItem, BaseFoldable, SeatBase]
+  description: A soft pillow that is comfortable to sit on.
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Fun/ERP/fleshlight.rsi
@@ -85,8 +85,78 @@
 - type: entity
   name: pillow teal round
   id: LPPPillowTealRound
-  parent: BaseItem
-  description: A hamburger bun. Round and convenient to hold.
+  parent: [BaseItem, BaseFoldable, SeatBase]
+  description: A soft pillow that is comfortable to sit on.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Fun/ERP/fleshlight.rsi
+    scale: 1.0, 1.0
+    layers:
+      - state: pillow_teal_round
+  - type: Item
+    size: Normal
+
+- type: entity
+  name: pillow1
+  id: LPPPillow1
+  parent: [BaseItem, BaseFoldable, SeatBase]
+  description: A soft pillow that is comfortable to sit on.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Fun/ERP/fleshlight.rsi
+    scale: 1.0, 1.0
+    layers:
+      - state: pillow_teal_round
+  - type: Item
+    size: Normal
+
+- type: entity
+  name: pillow2
+  id: LPPPillow2
+  parent: [BaseItem, BaseFoldable, SeatBase]
+  description: A soft pillow that is comfortable to sit on.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Fun/ERP/fleshlight.rsi
+    scale: 1.0, 1.0
+    layers:
+      - state: pillow_teal_round
+  - type: Item
+    size: Normal
+
+- type: entity
+  name: pillow3
+  id: LPPPillow3
+  parent: [BaseItem, BaseFoldable, SeatBase]
+  description: A soft pillow that is comfortable to sit on.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Fun/ERP/fleshlight.rsi
+    scale: 1.0, 1.0
+    layers:
+      - state: pillow_teal_round
+  - type: Item
+    size: Normal
+
+- type: entity
+  name: pillow4
+  id: LPPPillow4
+  parent: [BaseItem, BaseFoldable, SeatBase]
+  description: A soft pillow that is comfortable to sit on.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Fun/ERP/fleshlight.rsi
+    scale: 1.0, 1.0
+    layers:
+      - state: pillow_teal_round
+  - type: Item
+    size: Normal
+
+- type: entity
+  name: pillow5
+  id: LPPPillow5
+  parent: [BaseItem, BaseFoldable, SeatBase]
+  description: A soft pillow that is comfortable to sit on.
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Fun/ERP/fleshlight.rsi

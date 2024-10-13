@@ -1,0 +1,10 @@
+- type: vendingMachineInventory
+  id: CushionVendingMachineServitorInventory
+  startingInventory:
+    LPPPillowPinkRound: 3
+    LPPPillowTealRound: 3
+    LPPPillow1: 3
+    LPPPillow2: 3
+    LPPPillow3: 3
+    LPPPillow4: 3
+    LPPPillow5: 3

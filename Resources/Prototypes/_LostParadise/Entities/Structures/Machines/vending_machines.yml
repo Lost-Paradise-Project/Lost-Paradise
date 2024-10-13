@@ -99,6 +99,39 @@
 
 - type: entity
   parent: VendingMachine
+  id: LPPCushionVendingMashine
+  name: Cushion vending mashine
+  description: Soft cushion for cozy gatherings!
+  suffix: Unlocked
+  components:
+  - type: VendingMachine
+    pack: CushionVendingMachineServitorInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    denyState: deny-unshaded
+  - type: Advertise
+    pack: ClothesMateAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/VendingMachines/erp-machine.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#9966cc"
+
+- type: entity
+  parent: VendingMachine
   id: LPPBrasMat
   name: Bras machine
   description: a machine that decorates the appearance of customers and makes them beautiful!
