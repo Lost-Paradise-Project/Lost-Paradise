@@ -98,6 +98,4 @@ reagent-physical-desc-tropical = tropical
 reagent-physical-desc-vibrant = vibrant
 reagent-physical-desc-viscous = viscous
 reagent-physical-desc-volatile = volatile
-reagent-physical-desc-lpp-rich = rich
-reagent-physical-desc-lpp-exquisite = exquisite
 reagent-physical-desc-wormy = wormy
