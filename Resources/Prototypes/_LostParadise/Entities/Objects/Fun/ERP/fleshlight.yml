@@ -71,7 +71,7 @@
 - type: entity
   name: pillow pink round
   id: LPPPillowPinkRound
-  parent: [BaseItem, BaseFoldable, SeatBase]
+  parent: BaseItem
   description: A soft pillow that is comfortable to sit on.
   components:
   - type: Sprite
@@ -85,7 +85,7 @@
 - type: entity
   name: pillow teal round
   id: LPPPillowTealRound
-  parent: [BaseItem, BaseFoldable, SeatBase]
+  parent: BaseItem
   description: A soft pillow that is comfortable to sit on.
   components:
   - type: Sprite
