@@ -26,7 +26,7 @@
           Quantity: 5
   - type: Metabolizer
     maxReagents: 3
-    metabolizerTypes: [ Animal, Tajaran ]
+    metabolizerTypes: [ Animal ]
     groups:
       - id: Food
       - id: Drink

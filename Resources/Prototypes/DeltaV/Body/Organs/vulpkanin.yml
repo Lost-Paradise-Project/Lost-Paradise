@@ -27,7 +27,7 @@
           Quantity: 5
   - type: Metabolizer
     maxReagents: 3
-    metabolizerTypes: [ Animal, Vulpkanin ]
+    metabolizerTypes: [ Animal ]
     groups:
       - id: Food
       - id: Drink
