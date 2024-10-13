@@ -1,0 +1,247 @@
+- type: entity
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
+  id: LPPDrinkCamomileTeaBottleFull
+  name: camomile tea bottle
+  description: Bottle of chamomile tea is the perfect remedy for your peace of mind.
+  components:
+  - type: Item
+    size: Small
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: LPPCamomileTea
+          Quantity: 30
+  - type: Drink
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Drinks/teabottle.rsi
+    layers:
+      - state: icon
+        map: ["enum.OpenableVisuals.Layer"]
+      - state: fill-1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+      - state: label_1
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 6
+    fillBaseName: fill-
+  - type: Sealable
+
+- type: entity
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
+  id: LPPDrinkMintTeaBottleFull
+  name: mint tea bottle
+  description: Bottle of refreshing peppermint tea, just looking at it makes you feel chilled.
+  components:
+  - type: Item
+    size: Small
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: LPPMintTea
+          Quantity: 30
+  - type: Drink
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Drinks/teabottle.rsi
+    layers:
+      - state: icon
+        map: ["enum.OpenableVisuals.Layer"]
+      - state: fill-1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+      - state: label_3
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 6
+    fillBaseName: fill-
+  - type: Sealable
+
+- type: entity
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
+  id: LPPDrinkGingerTeaBottleFull
+  name: ginger tea bottle
+  description: Bottle of ginger tea, great for warming your soul.
+  components:
+  - type: Item
+    size: Small
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: LPPGingerTea
+          Quantity: 30
+  - type: Drink
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Drinks/teabottle.rsi
+    layers:
+      - state: icon
+        map: ["enum.OpenableVisuals.Layer"]
+      - state: fill-1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+      - state: label_4
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 6
+    fillBaseName: fill-
+  - type: Sealable
+
+- type: entity
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
+  id: LPPDrinkBerryTeaBottleFull
+  name: berry tea bottle
+  description: Bottle of berry tea with the rich flavor of summer berries.
+  components:
+  - type: Item
+    size: Small
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: LPPBerryTea
+          Quantity: 30
+  - type: Drink
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Drinks/teabottle.rsi
+    layers:
+      - state: icon
+        map: ["enum.OpenableVisuals.Layer"]
+      - state: fill-1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+      - state: label_5
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 6
+    fillBaseName: fill-
+  - type: Sealable
+
+- type: entity
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
+  id: LPPDrinkOrangeTeaBottleFull
+  name: orange tea bottle
+  description: Bottle of orange tea with citrus freshness.
+  components:
+  - type: Item
+    size: Small
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: LPPOrangeTea
+          Quantity: 30
+  - type: Drink
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Drinks/teabottle.rsi
+    layers:
+      - state: icon
+        map: ["enum.OpenableVisuals.Layer"]
+      - state: fill-1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+      - state: label_6
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 6
+    fillBaseName: fill-
+  - type: Sealable
+
+- type: entity
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
+  id: LPPDrinkFlowerTeaBottleFull
+  name: flower tea bottle
+  description: Bottle of flower tea with subtle, delicate notes of flowers.
+  components:
+  - type: Item
+    size: Small
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: LPPFlowerTea
+          Quantity: 30
+  - type: Drink
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Drinks/teabottle.rsi
+    layers:
+      - state: icon
+        map: ["enum.OpenableVisuals.Layer"]
+      - state: fill-1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+      - state: label_2
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 6
+    fillBaseName: fill-
+  - type: Sealable
+
+- type: entity
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
+  id: LPPDrinkTeaBottleFull
+  name: tea bottle
+  description: Bottle of regular tea, nothing special.
+  components:
+  - type: Item
+    size: Small
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Tea
+          Quantity: 30
+  - type: Drink
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Drinks/teabottle.rsi
+    layers:
+      - state: icon
+        map: ["enum.OpenableVisuals.Layer"]
+      - state: fill-1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+      - state: label_7
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 6
+    fillBaseName: fill-
+  - type: Sealable
+
+- type: entity
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
+  id: LPPDrinkGreenTeaBottleFull
+  name: green tea bottle
+  description: Bottle of green tea, nothing special either.
+  components:
+  - type: Item
+    size: Small
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: GreenTea
+          Quantity: 30
+  - type: Drink
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/Drinks/teabottle.rsi
+    layers:
+      - state: icon
+        map: ["enum.OpenableVisuals.Layer"]
+      - state: fill-1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+      - state: label_8
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 6
+    fillBaseName: fill-
+  - type: Sealable

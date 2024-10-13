@@ -1,0 +1,12 @@
+reagent-name-camomile-tea = chamomile tea
+reagent-desc-camomile-tea = Tea with added chamomile, great for relaxation.
+reagent-name-mint-tea = mint tea
+reagent-desc-mint-tea = Tea with mint, thankfully not catnip...
+reagent-name-ginger-tea = ginger tea
+reagent-desc-ginger-tea = Tea with added ginger, rumored to be great for warming up.
+reagent-name-berry-tea = berry tea
+reagent-desc-berry-tea = Tea with a mix of various berries, hopefully none of them are poisonous.
+reagent-name-orange-tea = orange tea
+reagent-desc-orange-tea = Tea with added orange, has a citrusy flavor.
+reagent-name-flower-tea = flower tea
+reagent-desc-flower-tea = Tea with a blend of various flowers.
