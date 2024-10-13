@@ -264,6 +264,10 @@ public sealed class FoodSystem : EntitySystem
         }
 
         _reaction.DoEntityReaction(args.Target.Value, solution, ReactionMethod.Ingestion);
+
+        if (stomachToUse.PoorlyDigestibleFood?.AffectsFood(entity, EntityManager) == true)
+            split = stomachToUse.PoorlyDigestibleFood.ModifySolution(split);
+
         _stomach.TryTransferSolution(stomachToUse.Owner, split, stomachToUse);
 
         var flavors = args.FlavorMessage;

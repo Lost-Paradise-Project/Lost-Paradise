@@ -4,14 +4,18 @@
   noSpawn: true
   components:
   - type: Stomach
-    poorlyDigestible:
-      tags:
+    poorlyDigestibleFood:
+      reducedReagents:
+        - Nutriment
+        - Vitamin
+      whitelistTags:
         - Fruit # LostParadise's lore states the vulpkanin race isn't really adapted to plant food
         - Vegetable
         - Bread
+      blacklistTags:
+        - Meat # Meat-based food is excluded in order not to force the carnivores to be meat-purists
       factor: 0.25
-      vomitChance: 0.02
-      replacement: reagent-indigestible-fiber
+      replacementReagent: IndigestibleFiber
   - type: SolutionContainerManager
     solutions:
       stomach:

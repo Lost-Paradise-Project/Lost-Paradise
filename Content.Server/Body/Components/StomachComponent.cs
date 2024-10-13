@@ -48,6 +48,12 @@ namespace Content.Server.Body.Components
         public EntityWhitelist? SpecialDigestible = null;
 
         /// <summary>
+        ///     Data responsible to describe what foods this stomach is incapable of processing efficiently.
+        /// </summary>
+        [DataField]
+        public PoorlyDigestibleFood? PoorlyDigestibleFood = null;
+
+        /// <summary>
         ///     Used to track how long each reagent has been in the stomach
         /// </summary>
         [ViewVariables]
