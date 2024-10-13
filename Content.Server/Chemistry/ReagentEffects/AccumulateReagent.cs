@@ -17,7 +17,7 @@ using System.Linq;
 namespace Content.Server.Chemistry.ReagentEffects
 {
     // This class is basically copied from the sealed class AdjustReagent, but compensates a reagent's metabolism rates when adjusting its levels.
-    // Was introduced in order to make theobromine accumulate faster than is metabolises.
+    // Was introduced in order to make theobromine accumulate faster than it metabolises.
     // While quite kludgy, it is still much safer and cleaner alternative to actively preventing the metabolism system from processing theobromine while it's still in the system.
 
     // TL;DR Это костыль, который тупо добавляет столько же реагента, сколько должно впитаться за данный тик.
@@ -52,7 +52,6 @@ namespace Content.Server.Chemistry.ReagentEffects
                 // Ideally we should iterate over the body's MetabolismGroupEntry list.
                 // But I have no idea why there's no Drink in its .MetabolismGroups property and how to fetch that.
                 // So it will stay like this for now, but might cause unintended theobromine accumulation in some *very* unlikely and specific scenarios.
-                // TL;DR everything's good as long as you don't inject an IPC with theobromine or something like that.
                 foreach (var reagentEffectsEntry in reagentProto.Metabolisms.Values)
                 {
                     foreach (var effect in reagentEffectsEntry.Effects)
@@ -109,16 +108,11 @@ namespace Content.Server.Chemistry.ReagentEffects
 
         protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         {
-            return "";
-
             // Could use a different translation string as well, but this one is close enough to ignore it for now
             if (Reagent != null && prototype.TryIndex(Reagent, out ReagentPrototype? reagentProto))
             {
                 return Loc.GetString("reagent-effect-guidebook-accumulate-reagent-reagent",
-                    ("chance", Probability),
-                    ("deltasign", 1),
-                    ("reagent", reagentProto.LocalizedName),
-                    ("amount", MathF.Abs(0.05f)));
+                    ("reagent", reagentProto.LocalizedName));
             }
 
             throw new NotImplementedException();
