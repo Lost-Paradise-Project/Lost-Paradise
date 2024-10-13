@@ -13,7 +13,6 @@
     prototypes:
       - LPPBeachVendingMachine
       - LPPErpMachine
-      - LPPCushionVendingMashine
       - LPPBrasMat
       - LPPNascaMat
       - LPPPillowVendingMachine
