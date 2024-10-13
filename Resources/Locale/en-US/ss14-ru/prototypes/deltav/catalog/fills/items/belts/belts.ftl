@@ -1,6 +1,9 @@
 ent-ClothingBeltKatanaSheathFilled = { ent-ClothingBeltKatanaSheath }
     .suffix = Filled
     .desc = { ent-ClothingBeltKatanaSheath.desc }
+ent-ClothingBeltKatanaSheathFilledHoS = antique katana sheaths
+    .desc = An ornate belt, wrapped in gold filigree, with a ribbon made from a stasis-field preserved swatch of linen. The history of this sheath has been lost to time.
+    .suffix = Filled
 ent-ClothingBeltCorpsmanWebbingFilled = { ent-ClothingBeltCorpsmanWebbing }
     .suffix = Filled
     .desc = { ent-ClothingBeltCorpsmanWebbing.desc }
