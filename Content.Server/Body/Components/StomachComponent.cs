@@ -48,10 +48,11 @@ namespace Content.Server.Body.Components
         public EntityWhitelist? SpecialDigestible = null;
 
         /// <summary>
+        ///     Добавлено LostParadise.
         ///     Data responsible to describe what foods this stomach is incapable of processing efficiently.
         /// </summary>
-        [DataField]
-        public PoorlyDigestibleFood? PoorlyDigestibleFood = null;
+        [DataField("poorlyDigestibleFood")]
+        public PoorlyDigestibleFood? LPP_PoorlyDigestibleFood = null;
 
         /// <summary>
         ///     Used to track how long each reagent has been in the stomach

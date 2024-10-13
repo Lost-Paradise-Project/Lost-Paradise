@@ -18,6 +18,3 @@ reagent-desc-butter = You can believe it!
 
 reagent-name-pumpkin-flesh = pumpkin flesh
 reagent-desc-pumpkin-flesh = The mushy, sweet remains of a pumpkin.
-
-reagent-name-indigestible-fibre = indigestible dietary fibre
-reagent-desc-indigestible-fibre = Residual of a digestive system poorly adapted to plant-derived food.

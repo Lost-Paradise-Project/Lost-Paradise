@@ -14,7 +14,7 @@
       blacklistTags:
         - Meat # Meat-based food is excluded in order not to force the carnivores to be meat-purists
       factor: 0.25
-      replacementReagent: IndigestibleFiber
+      replacementReagent: LPPIndigestibleFiber
   - type: SolutionContainerManager
     solutions:
       stomach:

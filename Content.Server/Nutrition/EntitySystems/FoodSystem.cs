@@ -265,8 +265,9 @@ public sealed class FoodSystem : EntitySystem
 
         _reaction.DoEntityReaction(args.Target.Value, solution, ReactionMethod.Ingestion);
 
-        if (stomachToUse.PoorlyDigestibleFood?.AffectsFood(entity, EntityManager) == true)
-            split = stomachToUse.PoorlyDigestibleFood.ModifySolution(split);
+        // Добавлено LostParadise.
+        if (stomachToUse.LPP_PoorlyDigestibleFood?.AffectsFood(entity, EntityManager) == true)
+            split = stomachToUse.LPP_PoorlyDigestibleFood.ModifySolution(split);
 
         _stomach.TryTransferSolution(stomachToUse.Owner, split, stomachToUse);
 
