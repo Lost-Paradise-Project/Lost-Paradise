@@ -206,10 +206,4 @@
     - type: loadout
       id: LoadoutCommandHoSKatanaSheath
     - type: loadout
-      id: LoadoutCommandHoSC20r
-    - type: loadout
-      id: LoadoutCommandHoSBulldog
-    - type: loadout
-      id: LoadoutCommandHoSEnergySword
-    - type: loadout
       id: LoadoutCommandHoSEnergyGun
