@@ -27,13 +27,3 @@
   id: flowertea
   flavorType: Complex
   description: flavor-complex-flower-tea
-
-- type: flavor
-  id: lppcargogargleblaster
-  flavorType: Complex
-  description: flavor-complex-lpp-cargo-gargle-blaster
-
-#- type: flavor
-#  id: lppmiruvor
-#  flavorType: Complex
-#  description: flavor-complex-lpp-miruvor
