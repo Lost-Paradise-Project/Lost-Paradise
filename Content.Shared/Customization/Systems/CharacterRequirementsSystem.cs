@@ -28,7 +28,8 @@ public sealed class CharacterRequirementsSystem : EntitySystem
 #if LPP_Sponsors
         if (requirement is CharacterDepartmentTimeRequirement ||
             requirement is CharacterOverallTimeRequirement ||
-            requirement is CharacterPlaytimeRequirement
+            requirement is CharacterPlaytimeRequirement ||
+            requirement is CharacterSponsorRequirement
             )
             validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
             entityManager, prototypeManager, configManager,
@@ -67,7 +68,8 @@ public sealed class CharacterRequirementsSystem : EntitySystem
 #if LPP_Sponsors
             if (requirement is CharacterDepartmentTimeRequirement ||
                 requirement is CharacterOverallTimeRequirement ||
-                requirement is CharacterPlaytimeRequirement
+                requirement is CharacterPlaytimeRequirement ||
+                requirement is CharacterSponsorRequirement
                 )
                 validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
                 entityManager, prototypeManager, configManager,

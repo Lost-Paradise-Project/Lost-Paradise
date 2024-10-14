@@ -97,7 +97,8 @@ public sealed partial class CharacterLogicOrRequirement : CharacterRequirement
 #if LPP_Sponsors
             if (requirement is CharacterDepartmentTimeRequirement ||
                 requirement is CharacterOverallTimeRequirement ||
-                requirement is CharacterPlaytimeRequirement
+                requirement is CharacterPlaytimeRequirement ||
+                requirement is CharacterSponsorRequirement
                 )
                 validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
                 entityManager, prototypeManager, configManager, out raisin, depth + 1, sponsorTier);
@@ -172,7 +173,8 @@ public sealed partial class CharacterLogicXorRequirement : CharacterRequirement
 #if LPP_Sponsors
             if (requirement is CharacterDepartmentTimeRequirement ||
                 requirement is CharacterOverallTimeRequirement ||
-                requirement is CharacterPlaytimeRequirement
+                requirement is CharacterPlaytimeRequirement ||
+                requirement is CharacterSponsorRequirement
                 )
                 validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
                 entityManager, prototypeManager, configManager, out raisin, depth + 1, sponsorTier);
