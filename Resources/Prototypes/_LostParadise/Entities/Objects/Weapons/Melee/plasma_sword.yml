@@ -106,8 +106,6 @@
   - type: Appearance
   - type: IgnitionSource
     temperature: 1200
-  - type: StaticPrice
-    price: 1000
 
 - type: entity
   id: LPPPlasmaCartridge
@@ -141,8 +139,6 @@
   - type: EmitSoundOnLand
     sound:
       path: /Audio/Items/welder_drop.ogg
-  - type: StaticPrice
-    price: 10000
 
 - type: entity
   name: Experimental plasma sword
@@ -195,8 +191,6 @@
       reagents:
       - ReagentId: Plasma
         Quantity: 0.05
-  - type: StaticPrice
-    price: 300
 
 - type: entity
   name: Plasma sword
