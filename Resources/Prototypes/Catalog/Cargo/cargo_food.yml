@@ -19,6 +19,16 @@
   group: market
 
 - type: cargoProduct
+  id: FoodCrateKvassTank
+  icon:
+    sprite: DeltaV/Structures/Storage/kvass.rsi
+    state: kvass
+  product: KvassTankFull
+  cost: 2000
+  category: cargoproduct-category-name-food
+  group: market
+
+- type: cargoProduct
   id: FoodMRE
   icon:
     sprite: Objects/Consumable/Food/snacks.rsi
