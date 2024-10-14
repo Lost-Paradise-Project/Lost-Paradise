@@ -10,6 +10,3 @@ ent-MailEpistemologyResearchDisk = { ent-BaseMail }
 ent-MailEpistemologyTinfoilHat = { ent-BaseMail }
     .suffix = tinfoilhat
     .desc = { ent-BaseMail.desc }
-ent-MailDetectiveForensicSupplement = { ent-BaseMail }
-    .suffix = detectivesupplement
-    .desc = { ent-BaseMail.desc }

@@ -32,5 +32,7 @@ materials-raw-plasma = руда плазмы
 materials-raw-uranium = руда урана
 materials-raw-bananium = руда бананиума
 materials-raw-salt = каменная соль
+materials-raw-bluespace = руда блюспейса
+materials-raw-normality = руда обыкновенности
 # Material Reclaimer
 material-reclaimer-upgrade-process-rate = Скорость обработки

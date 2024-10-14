@@ -16,3 +16,6 @@ ent-MailMedicalSheetPlasma = { ent-BaseMail }
 ent-MailMedicalStabilizers = { ent-BaseMail }
     .suffix = stabilizers
     .desc = { ent-BaseMail.desc }
+ent-MailNFMedkit = { ent-BaseMailLarge }
+    .suffix = medkit
+    .desc = { ent-BaseMailLarge.desc }
