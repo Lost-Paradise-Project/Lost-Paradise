@@ -75,16 +75,18 @@ namespace Content.Client.Preferences
             var collection = IoCManager.Instance!;
 
 #if LPP_Sponsors  // _LostParadise-Sponsors
-        var allowedMarkings = _sponsorsManager.TryGetInfo(out var sponsor) ? sponsor.AllowedMarkings : Array.Empty<string>();
-        if (allowedMarkings is null) // Somehow
-            allowedMarkings = Array.Empty<string>();
-        if (sponsor != null)
-        {
-            var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier;
-            var sponsorMarkings = Loc.GetString($"sponsor-markings-tier-{tier}").Split(";", StringSplitOptions.RemoveEmptyEntries);
-            if (sponsorMarkings is not null && sponsorMarkings.Count > 0)
-                allowedMarkings = allowedMarkings.Concat(sponsorMarkings).ToArray();
-        }
+            var allowedMarkings = _sponsorsManager.TryGetInfo(out var sponsor) ? sponsor.AllowedMarkings : Array.Empty<string>();
+            if (allowedMarkings is null) // Somehow
+                allowedMarkings = Array.Empty<string>();
+            if (sponsor != null)
+            {
+                var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier;
+                var sponsorMarkings = Loc.GetString($"sponsor-markings-tier-{tier}").Split(";", StringSplitOptions.RemoveEmptyEntries);
+                if (sponsorMarkings is not null && sponsorMarkings.Count() > 0)
+                    allowedMarkings = allowedMarkings.Concat(sponsorMarkings).ToArray();
+            }
+                var session = _playerManager.LocalSession!;
+                profile.EnsureValid(session, collection, allowedMarkings);
 #else
             profile.EnsureValid(_playerManager.LocalSession!, collection);
 #endif
