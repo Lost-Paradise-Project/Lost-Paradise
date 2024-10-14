@@ -1,18 +1,18 @@
-- type: entity
-  parent: DrinkGlass
-  id: DrinkLPPMiruvorGlass
-  suffix: miruvor
-  components:
-  - type: SolutionContainerManager
-    solutions:
-      drink:
-        maxVol: 30
-        reagents:
-        - ReagentId: LPPMiruvor
-          Quantity: 30
-  - type: Icon
-    sprite: _LostParadise/Objects/Consumable/Drinks/miruvor.rsi
-    state: icon
+#- type: entity
+#  parent: DrinkGlass
+#  id: DrinkLPPMiruvorGlass
+#  suffix: miruvor
+#  components:
+#  - type: SolutionContainerManager
+#    solutions:
+#      drink:
+#        maxVol: 30
+#        reagents:
+#        - ReagentId: LPPMiruvor
+#          Quantity: 30
+#  - type: Icon
+#    sprite: _LostParadise/Objects/Consumable/Drinks/miruvor.rsi
+#    state: icon
 
 - type: entity
   parent: DrinkGlass

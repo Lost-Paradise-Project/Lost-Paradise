@@ -33,7 +33,7 @@
   flavorType: Complex
   description: flavor-complex-lpp-cargo-gargle-blaster
 
-- type: flavor
-  id: lppmiruvor
-  flavorType: Complex
-  description: flavor-complex-lpp-miruvor
+#- type: flavor
+#  id: lppmiruvor
+#  flavorType: Complex
+#  description: flavor-complex-lpp-miruvor

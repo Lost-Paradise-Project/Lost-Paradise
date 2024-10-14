@@ -1,6 +1,6 @@
-ent-DrinkLPPMiruvorGlass = { ent-DrinkGlass }
-    .suffix = miruvor
-    .desc = { ent-DrinkGlass.desc }
+# ent-DrinkLPPMiruvorGlass = { ent-DrinkGlass }
+#    .suffix = Мирувор
+#    .desc = { ent-DrinkGlass.desc }
 ent-DrinkLPPCargoGargleBlasterGlass = { ent-DrinkGlass }
-    .suffix = cargo gargle blaster
+    .suffix = Каргонский грызлодёр
     .desc = { ent-DrinkGlass.desc }
