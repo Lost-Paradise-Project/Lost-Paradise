@@ -856,6 +856,8 @@
       #LPP
       - LPPMagazineBoxMinigunPractice
       - LPPMagazineBoxMinigunRubber
+      - LPPRecipePlasmaSword
+      - LPPRecipePlasmaCartridge
       # End of modified code
   - type: MaterialStorage
     whitelist:

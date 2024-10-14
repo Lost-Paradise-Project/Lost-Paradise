@@ -36,3 +36,16 @@
   - LPPClothingOuterHardsuitCombatStandard
   - LPPClothingOuterHardsuitCombatOfficer
   - LPPClothingOuterHardsuitSecurity
+
+- type: technology
+  id: LPPCombatPlasmaUsage
+  name: lppresearch-combat-plasma-usage
+  icon:
+    sprite: _LostParadise/Objects/Weapons/Melee/plasma_sword.rsi
+    state: p_sword
+  discipline: Arsenal
+  tier: 3
+  cost: 25000
+  recipeUnlocks:
+  - LPPRecipePlasmaSword
+  - LPPRecipePlasmaCartridge

@@ -28,7 +28,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolN1984NonLethal
-    pocket2: FlashlightSeclite
+    pocket2: LPPExperimentalPlasmaSword
 
 - type: startingGear
   id: ERTLeaderGearEVA
@@ -45,7 +45,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: WeaponPistolN1984NonLethal
-    pocket2: FlashlightSeclite
+    pocket2: LPPExperimentalPlasmaSword
 
 - type: startingGear
   id: ERTLeaderGearEVALecter
@@ -62,7 +62,7 @@
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
     pocket1: MagazineRifle
-    pocket2: MagazineRifle
+    pocket2: LPPExperimentalPlasmaSword
   inhand:
     - AirTankFilled
 
