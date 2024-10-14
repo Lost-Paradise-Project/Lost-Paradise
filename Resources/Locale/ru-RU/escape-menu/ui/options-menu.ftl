@@ -145,7 +145,6 @@ ui-options-function-smart-equip-backpack = Умная экипировка в р
 ui-options-function-smart-equip-belt = Умная экипировка на пояс
 ui-options-function-open-backpack = Открыть рюкзак
 ui-options-function-open-belt = Открыть пояс
-ui-options-function-toggle-crawling-under = Переключить ползание под мебелью
 ui-options-function-throw-item-in-hand = Бросить предмет
 ui-options-function-try-pull-object = Тянуть объект
 ui-options-function-move-pulled-object = Тянуть объект в сторону
