@@ -1,5 +1,6 @@
 ### Interaction Popup component
 
+
 ## Petting animals
 
 petting-success-nukie-mouse = Вы гладите { THE($target) } по { POSS-ADJ($target) } маленькая кроваво-красная мышиная головка синдиката.

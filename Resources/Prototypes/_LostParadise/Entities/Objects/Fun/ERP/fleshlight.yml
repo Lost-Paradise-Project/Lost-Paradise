@@ -72,7 +72,7 @@
   name: pillow pink round
   id: LPPPillowPinkRound
   parent: BaseItem
-  description: A hamburger bun. Round and convenient to hold.
+  description: A soft pillow that is comfortable to sit on.
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Fun/ERP/fleshlight.rsi
@@ -86,7 +86,7 @@
   name: pillow teal round
   id: LPPPillowTealRound
   parent: BaseItem
-  description: A hamburger bun. Round and convenient to hold.
+  description: A soft pillow that is comfortable to sit on.
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Fun/ERP/fleshlight.rsi
