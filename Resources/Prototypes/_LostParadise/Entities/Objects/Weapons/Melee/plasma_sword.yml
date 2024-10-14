@@ -104,8 +104,6 @@
     color: orange
     netsync: false
   - type: Appearance
-  - type: StaticPrice
-    price: 40
   - type: IgnitionSource
     temperature: 1200
   - type: StaticPrice
@@ -198,7 +196,7 @@
       - ReagentId: Plasma
         Quantity: 0.05
   - type: StaticPrice
-    price: 500
+    price: 300
 
 - type: entity
   name: Plasma sword
