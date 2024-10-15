@@ -243,13 +243,7 @@ namespace Content.Server.Chat.Managers
                 return;
             }
 
-            Color? colorOverride = null;
             var wrappedMessage = Loc.GetString("chat-manager-send-ooc-wrap-message", ("playerName",player.Name), ("message", FormattedMessage.EscapeText(message)));
-            if (_adminManager.HasAdminFlag(player, AdminFlags.Admin))
-            {
-                var prefs = _preferencesManager.GetPreferences(player.UserId);
-                colorOverride = prefs.AdminOOCColor;
-            }
             if (_netConfigManager.GetClientCVar(player.Channel, CCVars.ShowOocPatronColor) && player.Channel.UserData.PatronTier is { } patron && PatronOocColors.TryGetValue(patron, out var patronColor))
             {
                 wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", patronColor),("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
@@ -258,24 +252,29 @@ namespace Content.Server.Chat.Managers
 #if LPP_Sponsors  // _LostParadise-Sponsors
             if (_sponsorsManager.TryGetInfo(player.UserId, out var sponsorData) && sponsorData.OOCColor != null)
             {
-                wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", sponsorData.OOCColor),("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+                wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", sponsorData.OOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
             }
-#endif
 
-            // c4llv07e fix admins OOC names {{
             var adminData = _adminManager.GetAdminData(player);
             if (adminData != null)
             {
                 var title = adminData.Title ?? "Admin";
-                // We don't use admin color here because it will be overrided anyway
+                var prefs = _preferencesManager.GetPreferences(player.UserId);
                 wrappedMessage = Loc.GetString(
-                    "chat-manager-send-ooc-admin-wrap-message", ("adminTitle", title),
-                    ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+                    "chat-manager-send-ooc-admin-wrap-message", ("adminTitle", title), ("adminColor", prefs.AdminOOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
             }
-            // c4llv07e }}
+
+            if (adminData != null && _sponsorsManager.TryGetInfo(player.UserId, out var sponsorData1) && sponsorData1.OOCColor != null)
+            {
+                var title = adminData.Title ?? "Admin";
+                var prefs = _preferencesManager.GetPreferences(player.UserId);
+                wrappedMessage = Loc.GetString(
+                    "chat-manager-send-ooc-admin-sponsor-wrap-message", ("adminColor", prefs.AdminOOCColor), ("adminTitle", title), ("patronColor", sponsorData1.OOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+            }
+#endif
 
             //TODO: player.Name color, this will need to change the structure of the MsgChatMessage
-            ChatMessageToAll(ChatChannel.OOC, message, wrappedMessage, EntityUid.Invalid, hideChat: false, recordReplay: true, colorOverride: colorOverride, author: player.UserId);
+            ChatMessageToAll(ChatChannel.OOC, message, wrappedMessage, EntityUid.Invalid, hideChat: false, recordReplay: true, author: player.UserId);
             _mommiLink.SendOOCMessage(player.Name, message);
             _adminLogger.Add(LogType.Chat, LogImpact.Low, $"OOC from {player:Player}: {message}");
         }
