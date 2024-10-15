@@ -26,3 +26,5 @@ ent-WeaponLauncherAdmemeMeteorLarge = Пускатель метеоритов
 ent-WeaponLauncherAdmemeImmovableRodSlow = Пускатель неподвижного жезла
     .desc = Стреляет неподвижными жезлами.
     .suffix = Адмемы
+ent-WeaponMailLake = Почтовый СБДП
+    .desc = Система быстрой доставки посылок

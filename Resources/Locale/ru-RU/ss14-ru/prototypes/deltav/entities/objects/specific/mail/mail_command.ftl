@@ -1,0 +1,9 @@
+ent-MailCommandPinpointerNuclear = { ent-BaseMail }
+    .suffix = Пинпоинтер
+    .desc = { ent-BaseMail.desc }
+ent-MailStationRepNFNukeDisk = { ent-BaseMail }
+    .suffix = Диск ядерной авторизации
+    .desc = { ent-BaseMail.desc }
+ent-MailCommandNFPipebombIntern = { ent-BaseMail }
+    .suffix = Самодельная бомба
+    .desc = { ent-BaseMail.desc }

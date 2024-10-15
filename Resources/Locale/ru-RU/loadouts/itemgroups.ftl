@@ -27,6 +27,17 @@ character-item-group-LoadoutEyesEngineering = Очки Инженерного О
 character-item-group-LoadoutHeadEngineering = Головные Уборы Инженерного Отдела
 character-item-group-LoadoutOuterEngineering = Верхняя Одежда Инженерного Отдела
 character-item-group-LoadoutUniformsEngineering = Униформа Инженерного Отдела
+# Epistemics
+character-item-group-LoadoutEyesScience = Очки Научного Отдела
+character-item-group-LoadoutGlovesScience = Перчатки Научного Отдела
+character-item-group-LoadoutHeadScience = Головные Уборы Научного Отдела
+character-item-group-LoadoutMaskScience = Маски Научного Отдела
+character-item-group-LoadoutNeckScience = Одежда На Шею Научного отдела
+character-item-group-LoadoutOuterScience = Верхняя Одежда Научного Отдела
+character-item-group-LoadoutShoesScience = Обувь Научного Отдела
+character-item-group-LoadoutUniformsScience = Униформа Научного Отдела
+# Epistemics - Cataloguer
+character-item-group-LoadoutCataloguerUniforms = Униформа Катаголизатора
 # Medical
 character-item-group-LoadoutEyesMedical = Очки Медицинского Отдела
 character-item-group-LoadoutGlovesMedical = Перчатки Медицинского отдела
@@ -52,6 +63,7 @@ character-item-group-LoadoutWeaponSecurity = Оружие Отдела Служ�
 character-item-group-LoadoutHoSWeapon = Антикварная коллекция оружия Главы Службы Безопасности
 # Service
 character-item-group-LoadoutEquipmentService = Снаряжение Сервиса
+character-item-group-LoadoutHeadService = Головные Уборы Сервиса
 character-item-group-LoadoutMaskService = Маски Сервиса
 character-item-group-LoadoutNeckService = Одежда На Шею Сервиса
 character-item-group-LoadoutOuterService = Верхняя Одежда Сервиса
@@ -59,8 +71,18 @@ character-item-group-LoadoutShoesService = Обувь Сервиса
 character-item-group-LoadoutUniformsService = Униформа Сервиса
 # Service - Bartender
 character-item-group-LoadoutBartenderAmmo = Аммуниция Бармена
+character-item-group-LoadoutBartenderHead = Головные Уборы Бармена
 character-item-group-LoadoutBartenderOuterwear = Верхняя Одежда Бармена
+character-item-group-LoadoutBartenderUniforms = Униформа Бармена
 character-item-group-LoadoutBartenderWeapon = Оружие Бармена
+# Service - Botanist
+character-item-group-LoadoutBotanistUniforms = Униформа Ботаника
+# Service - Chef
+character-item-group-LoadoutChefHead = Головные Уборы Шеф-Повара
+character-item-group-LoadoutChefOuter = Верхняя Одежда Шеф-Повара
+character-item-group-LoadoutChefUniforms = Униформа Шеф-Повара
+# Service - Janitor
+character-item-group-LoadoutJanitorUniforms = Униформа Уборщика
 # Service - Musician
 character-item-group-LoadoutMusicianInstruments = Музыкальные Инструменты
 # Traits - Languages
