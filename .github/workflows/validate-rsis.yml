@@ -22,7 +22,7 @@ jobs:
         uses: space-wizards/submodule-dependency@v0.1.5
       - name: Install Python dependencies
         run: |
-          apt install python3-jsonschema
+          pip3 install --ignore-installed --user pillow jsonschema --break-system-packages
       - name: Validate RSIs
         run: |
           python3 RobustToolbox/Schemas/validate_rsis.py Resources/
