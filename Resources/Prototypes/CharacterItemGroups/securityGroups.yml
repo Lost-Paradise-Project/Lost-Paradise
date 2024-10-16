@@ -36,6 +36,7 @@
 
 - type: characterItemGroup
   id: LoadoutOuterSecurity
+  maxItems: 1
   items:
     - type: loadout
       id: LoadoutClothingOuterArmorPlateCarrier
@@ -55,6 +56,8 @@
       id: LoadoutClothingOuterArmorBasic
     - type: loadout
       id: LoadoutClothingOuterArmorSlim
+    - type: loadout
+      id: LPPLoadoutClothingOuterArmorBasic
 
 - type: characterItemGroup
   id: LoadoutGlovesSecurity
@@ -64,6 +67,7 @@
 
 - type: characterItemGroup
   id: LoadoutNeckSecurity
+  maxItems: 1
   items:
     - type: loadout
       id: LoadoutClothingNeckCloakHos
@@ -74,6 +78,7 @@
 
 - type: characterItemGroup
   id: LoadoutHeadSecurity
+  maxItems: 1
   items:
     - type: loadout
       id: LoadoutSecurityHeadHatBeret
@@ -92,12 +97,20 @@
 
 - type: characterItemGroup
   id: LoadoutMaskSecurity
+  maxItems: 1
   items:
     - type: loadout
       id: LoadoutSecurityMaskGasSwat
+    - type: loadout
+      id: LPPLoadoutSecurityEquipmentMaskGasSecurity
+    - type: loadout
+      id: LPPLoadoutSecurityEquipmentMaskBalaclavawide
+    - type: loadout
+      id: LoadoutClothingBreathMedicalSecurity
 
 - type: characterItemGroup
   id: LoadoutBeltSecurity
+  maxItems: 1
   items:
     - type: loadout
       id: LoadoutSecurityBeltWebbing
@@ -139,21 +152,43 @@
     - type: loadout
       id: LoadoutSecurityFlash
     - type: loadout
-      id: LoadoutMagazinePistol
+      id: LoadoutSecurityAM
     - type: loadout
-      id: LoadoutMagazinePistolSpare
+      id: LoadoutSecurityBoxMagnumRubber
     - type: loadout
-      id: LoadoutMagazinePistolRubber
+      id: LoadoutSecuritySpeadLoderMagnum
     - type: loadout
-      id: LoadoutMagazinePistolRubberSpare
+      id: LoadoutSecuritySpeadLoderMagnumRubber
     - type: loadout
-      id: LoadoutSpeedLoaderMagnum
+      id: LoadoutSecurityMagazineMagnumRubber
     - type: loadout
-      id: LoadoutSpeedLoaderMagnumSpare
+      id: LoadoutSecurityMagazineMagnum
     - type: loadout
-      id: LoadoutSpeedLoaderMagnumRubber
+      id: LoadoutSecurityMagazinePistolRubber
     - type: loadout
-      id: LoadoutSpeedLoaderMagnumRubberSpare
+      id: LoadoutSecurityMagazinePistol
+    - type: loadout
+      id: LoadoutSecuritySpeedLoaderSpecial
+    - type: loadout
+      id: LoadoutSecuritySpeedLoaderSpecialRubber
+    - type: loadout
+      id: LoadoutSecuritySpeedLoaderLightRifle
+    - type: loadout
+      id: LoadoutSecurityMagazineBoxLightRifleRubber
+    - type: loadout
+      id: LoadoutSecurityMagazineUniversalMagnum
+    - type: loadout
+      id: LoadoutSecurityMagazineUniversalMagnumRubber
+    - type: loadout
+      id: LoadoutSecurityMagazinePistolPF20Rubber
+    - type: loadout
+      id: LoadoutSecurityMagazinePistolPF20
+    - type: loadout
+      id: LoadoutSecurityMagazineShotgunBeanbag
+    - type: loadout
+      id: LoadoutSecurityMagazinePistolSpecialRubber
+    - type: loadout
+      id: LoadoutSecurityMagazinePistolSpecial
 
 - type: characterItemGroup
   maxItems: 1
@@ -164,25 +199,71 @@
     - type: loadout
       id: LoadoutSecurityMk58
     - type: loadout
-      id: LoadoutSecurityMk58NonLethal
+      id: LPPLoadoutSecurityEquipmentEnergyGunMini
     - type: loadout
-      id: LoadoutSecurityRevolver
+      id: LoadoutSecurityM1911
     - type: loadout
-      id: LoadoutSecurityRevolverNonLethal
+      id: LoadoutSecuritySoleil
     - type: loadout
-      id: LoadoutSecurityRevolverDeckard
+      id: LoadoutSecurityMk58Gold
     - type: loadout
-      id: LoadoutSecurityRevolverDeckardNonLethal
+      id: LoadoutSecurityFitz
     - type: loadout
-      id: LoadoutSecurityPistolN1984
+      id: LoadoutSecurityMosin
     - type: loadout
-      id: LoadoutSecurityPistolN1984NonLethal
+      id: LoadoutSecurityDB
     - type: loadout
-      id: LoadoutSecurityPistolViper
+      id: LoadoutSecurityPollock
     - type: loadout
-      id: LoadoutSecurityPistolViperNonLethal
+      id: LoadoutSecuritSvalinn
     - type: loadout
       id: LoadoutSecurityEquipmentTruncheon
+    - type: loadout
+      id: LoadoutSecurityNinemile
+    - type: loadout
+      id: LoadoutSecurityMaria
+    - type: loadout
+      id: LoadoutSecurityK38Master
+    - type: loadout
+      id: LoadoutSecurityLucky
+    - type: loadout
+      id: LoadoutSecurityViperWood
+    - type: loadout
+      id: LoadoutSecurityPeacemaker
+    - type: loadout
+      id: LoadoutSecurityDesertEagle
+    - type: loadout
+      id: LoadoutSecurityDesertEagleCamo
+    - type: loadout
+      id: LoadoutSecurityDesertEagleGold
+    - type: loadout
+      id: LoadoutSecurityLaserGun
+    - type: loadout
+      id: LoadoutSecurityPM
+    - type: loadout
+      id: LoadoutSecurityGrand
+    - type: loadout
+      id: LoadoutSecurityCeremonial
+    - type: loadout
+      id: LoadoutSecuritKammerer
+    - type: loadout
+      id: LoadoutSecurityDisablerSMG
+    - type: loadout
+      id: LoadoutSecurityPF20
+    - type: loadout
+      id: LoadoutSecurityUniversal
+    - type: loadout
+      id: LoadoutSecurityEnergyGunPistol
+    - type: loadout
+      id: LoadoutSecurityPanther
+    - type: loadout
+      id: LoadoutSecurityPravoved
+    - type: loadout
+      id: LoadoutSecurityLaserKomissar
+    - type: loadout
+      id: LoadoutSecurityJudge
+    - type: loadout
+      id: LoadoutSecurityAmina
 
 - type: characterItemGroup
   maxItems: 1

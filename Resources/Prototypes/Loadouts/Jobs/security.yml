@@ -750,126 +750,6 @@
   items:
     - Flash
 
-- type: loadout
-  id: LoadoutMagazinePistol
-  category: JobsSecurity
-  cost: 0
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEquipmentSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - MagazinePistol
-
-- type: loadout
-  id: LoadoutMagazinePistolSpare
-  category: JobsSecurity
-  cost: 2
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEquipmentSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - MagazinePistol
-
-- type: loadout
-  id: LoadoutMagazinePistolRubber
-  category: JobsSecurity
-  cost: 0
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEquipmentSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - MagazinePistolRubber
-
-- type: loadout
-  id: LoadoutMagazinePistolRubberSpare
-  category: JobsSecurity
-  cost: 2
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEquipmentSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - MagazinePistolRubber
-
-- type: loadout
-  id: LoadoutSpeedLoaderMagnum
-  category: JobsSecurity
-  cost: 0
-  exclusive: true
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEquipmentSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - SpeedLoaderMagnum
-
-- type: loadout
-  id: LoadoutSpeedLoaderMagnumSpare
-  category: JobsSecurity
-  cost: 2
-  exclusive: true
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEquipmentSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - SpeedLoaderMagnum
-
-- type: loadout
-  id: LoadoutSpeedLoaderMagnumRubber
-  category: JobsSecurity
-  cost: 0
-  exclusive: true
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEquipmentSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - SpeedLoaderMagnumRubber
-
-- type: loadout
-  id: LoadoutSpeedLoaderMagnumRubberSpare
-  category: JobsSecurity
-  cost: 2
-  exclusive: true
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutEquipmentSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - SpeedLoaderMagnumRubber
-
 # Service Weapon, limit 1 selection.
 # Security no longer spawns with a weapon automatically, instead they have a free choice of security appropriate Duty Pistol in their loadouts.
 # This category is universal to the entire security department by special request, so that players can choose their preferred Duty Pistol even if they aren't playing a security role.
@@ -877,7 +757,7 @@
 - type: loadout
   id: LoadoutSecurityDisabler
   category: JobsSecurity
-  cost: 0
+  cost: -1
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutWeaponSecurity
@@ -890,11 +770,11 @@
 - type: loadout
   id: LoadoutSecurityMk58
   category: JobsSecurity
-  cost: 0
+  cost: 2
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security
-      min: 3600 # 1 hours
+      min: 1800 # 1 hours
     - !type:CharacterItemGroupRequirement
       group: LoadoutWeaponSecurity
     - !type:CharacterDepartmentRequirement
@@ -904,149 +784,17 @@
     - WeaponPistolMk58
 
 - type: loadout
-  id: LoadoutSecurityMk58NonLethal
-  category: JobsSecurity
-  cost: 0
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutWeaponSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - WeaponPistolMk58Nonlethal
-
-- type: loadout
-  id: LoadoutSecurityRevolver
-  category: JobsSecurity
-  cost: 0
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutWeaponSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - WeaponRevolverInspector
-
-- type: loadout
-  id: LoadoutSecurityRevolverNonLethal
-  category: JobsSecurity
-  cost: 0
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutWeaponSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - WeaponRevolverInspectorNonLethal
-
-- type: loadout
-  id: LoadoutSecurityRevolverDeckard
-  category: JobsSecurity
-  cost: 1
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutWeaponSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - WeaponRevolverDeckard
-
-- type: loadout
-  id: LoadoutSecurityRevolverDeckardNonLethal
-  category: JobsSecurity
-  cost: 1
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutWeaponSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - WeaponRevolverDeckardNonLethal
-
-- type: loadout
-  id: LoadoutSecurityPistolN1984
-  category: JobsSecurity
-  cost: 2
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutWeaponSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - WeaponPistolN1984
-
-- type: loadout
-  id: LoadoutSecurityPistolN1984NonLethal
-  category: JobsSecurity
-  cost: 2
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutWeaponSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - WeaponPistolN1984NonLethal
-
-- type: loadout
-  id: LoadoutSecurityPistolViper
-  category: JobsSecurity
-  cost: 2
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutWeaponSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - WeaponPistolViper
-
-- type: loadout
-  id: LoadoutSecurityPistolViperNonLethal
-  category: JobsSecurity
-  cost: 2
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutWeaponSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - WeaponPistolViperNonLethal
-
-- type: loadout
   id: LoadoutSecurityEquipmentTruncheon
   category: JobsSecurity
-  cost: 3
+  cost: 0
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security
-      min: 3600 # 1 hours
+      min: 180 # 0.5 hours
     - !type:CharacterItemGroupRequirement
       group: LoadoutWeaponSecurity
     - !type:CharacterDepartmentRequirement
       departments:
         - Security
-    - !type:CharacterSpeciesRequirement
-      species:
-        - Oni
   items:
     - Truncheon
