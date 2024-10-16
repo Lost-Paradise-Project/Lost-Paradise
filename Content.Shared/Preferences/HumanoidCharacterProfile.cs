@@ -643,7 +643,7 @@ namespace Content.Shared.Preferences
             {
                 name = GetName(Species, gender);
             }
-            
+
             var customspeciename =
                 !speciesPrototype.CustomName
                 || string.IsNullOrEmpty(Customspeciename)

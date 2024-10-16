@@ -14,7 +14,8 @@ department-CentralCommand = Центральное командование
 reagent-name-red-bool = Ред Булеан
 reagent-desc-red-bool = Окрыляет!
 id-card-access-level-expeditor = Исследователь
-chat-manager-send-ooc-admin-wrap-message = OOC: [bold]\[{ $adminTitle }\] { $playerName }:[/bold] { $message }
+chat-manager-send-ooc-admin-wrap-message = OOC: [bold][color={ $adminColor }]\[{ $adminTitle }\][/color]{ $playerName }:[/bold] { $message }
+chat-manager-send-ooc-admin-sponsor-wrap-message = OOC: [bold][color={ $adminColor }]\[{ $adminTitle }\][/color] [color={ $patronColor }]{ $playerName }:[/color][/bold] { $message }
 ui-options-function-lpp-smart-equip-neck = Умная экипировка на шею
 species-name-shark = Акулоид
 reagent-effect-status-effect-Forceddead = Смерть
