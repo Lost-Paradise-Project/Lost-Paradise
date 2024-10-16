@@ -386,12 +386,7 @@ public sealed partial class CharacterSponsorRequirement : CharacterRequirement
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth, 0);
-
-    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
-        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0)
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0, int uuid = "")
     {
         reason = null;
         return sponsorTier >= Min && sponsorTier <= Max;
@@ -411,21 +406,10 @@ public sealed partial class CharacterUUIDRequirement : CharacterRequirement
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth, 0);
-
-    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
-        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0)
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0, int uuid = "")
     {
         reason = null;
-        var filter = Filter.GetAllPlayers();
-        foreach (var player in filter)
-        {
-               if (player.UserId.ToString() == Uuid)
-               return true;
-        }
-        return false;
+        return uuid == Uuid;
     }
 }
 #endif
