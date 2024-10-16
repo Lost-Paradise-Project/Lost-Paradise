@@ -13,7 +13,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/_LostParadise/Shuttles/LP_Kerberos_evac.yml
+          emergencyShuttlePath: /Maps/_LostParadise/Shuttles/LPPKerberos_evac.yml
         - type: StationJobs
           overflowJobs:
             - Passenger
