@@ -256,7 +256,6 @@ namespace Content.Server.Chat.Managers
             }
 
 #if LPP_Sponsors  // _LostParadise-Sponsors
-            Logger.Error("Checking sponsor");
             if (_sponsorsManager.TryGetInfo(player.UserId, out var sponsorData) && sponsorData.Tier > 0)
             {
                 wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", sponsorData.OOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
