@@ -11,6 +11,9 @@ using Robust.Client.UserInterface.CustomControls;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using Robust.Shared.Player;
+using Robust.Client.Player;
+using System.Linq;
 #if LPP_Sponsors
 using Content.Client._LostParadise.Sponsors;
 #endif
@@ -19,6 +22,8 @@ namespace Content.Client.Preferences.UI;
 
 public sealed class TraitPreferenceSelector : Control
 {
+    private readonly IPlayerManager _playerManager;
+
     public TraitPrototype Trait { get; }
 
     public bool Valid;
@@ -48,6 +53,8 @@ public sealed class TraitPreferenceSelector : Control
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
         CharacterRequirementsSystem characterRequirementsSystem, JobRequirementsManager jobRequirementsManager)
     {
+        _playerManager = IoCManager.Resolve<IPlayerManager>();
+
         Trait = trait;
 
         // Create a checkbox to get the loadout
@@ -89,6 +96,7 @@ public sealed class TraitPreferenceSelector : Control
         var sponsorTier = 0;
         if (sys.TryGetInfo(out var sponsorInfo))
             sponsorTier = sponsorInfo.Tier;
+        var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
 #endif
 
         // Get requirement reasons
@@ -98,7 +106,7 @@ public sealed class TraitPreferenceSelector : Control
             entityManager, prototypeManager, configManager,
             out var reasons
 #if LPP_Sponsors
-            , 0, sponsorTier
+            , 0, sponsorTier, uuid
 #endif
             );
 
