@@ -1903,3 +1903,16 @@
   id: 107
   time: '2024-10-15T13:32:10.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/275
+- author: Evgencheg
+  changes:
+  - message: "\u0412\u043E\u0437\u0432\u0440\u0430\u0449\u0451\u043D \u0441\u0442\u0430\
+      \u0440\u044B\u0439 \u0448\u0430\u0442\u0442\u043B \u0443\u0442\u0438\u043B\u0435\
+      \u0439!"
+    type: Tweak
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u044B \u0442\u0435\
+      \u0433\u0438 \u0438 \u0446\u0432\u0435\u0442\u0430 \u0441\u043F\u043E\u043D\u0441\
+      \u043E\u0440\u043E\u0432!"
+    type: Fix
+  id: 108
+  time: '2024-10-16T10:11:02.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/277
