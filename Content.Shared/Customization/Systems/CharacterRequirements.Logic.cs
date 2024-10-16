@@ -20,18 +20,12 @@ public sealed partial class CharacterLogicAndRequirement : CharacterRequirement
     [DataField]
     public List<CharacterRequirement> Requirements { get; private set; } = new();
 
-#if LPP_Sponsors
-    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
-        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth, 0);
-#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
         out FormattedMessage? reason, int depth = 0
 #if LPP_Sponsors
-        , int sponsorTier = 0
+        , int sponsorTier = 0, string uuid = ""
 #endif
         )
     {
@@ -39,7 +33,7 @@ public sealed partial class CharacterLogicAndRequirement : CharacterRequirement
             .CheckRequirementsValid(Requirements, job, profile, playTimes, whitelisted, prototype, entityManager,
                 prototypeManager, configManager, out var reasons, depth + 1
 #if LPP_Sponsors
-            , sponsorTier = 0
+                , sponsorTier = 0, uuid
 #endif
                 );
 
@@ -70,19 +64,12 @@ public sealed partial class CharacterLogicOrRequirement : CharacterRequirement
     [DataField]
     public List<CharacterRequirement> Requirements { get; private set; } = new();
 
-#if LPP_Sponsors
-    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
-        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth, 0);
-#endif
-
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
         out FormattedMessage? reason, int depth = 0
 #if LPP_Sponsors
-        , int sponsorTier = 0
+        , int sponsorTier = 0, string uuid = ""
 #endif
         )
     {
@@ -94,16 +81,10 @@ public sealed partial class CharacterLogicOrRequirement : CharacterRequirement
         {
             var validation = false;
             FormattedMessage? raisin;
+
 #if LPP_Sponsors
-            if (requirement is CharacterDepartmentTimeRequirement ||
-                requirement is CharacterOverallTimeRequirement ||
-                requirement is CharacterPlaytimeRequirement
-                )
-                validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager, out raisin, depth + 1, sponsorTier);
-            else
-                validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager, out raisin, depth + 1);
+            validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
+                entityManager, prototypeManager, configManager, out raisin, depth + 1, sponsorTier, uuid);
 #else
             validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
                 entityManager, prototypeManager, configManager, out raisin, depth + 1);
@@ -146,18 +127,12 @@ public sealed partial class CharacterLogicXorRequirement : CharacterRequirement
     [DataField]
     public List<CharacterRequirement> Requirements { get; private set; } = new();
 
-#if LPP_Sponsors
-    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
-        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth, 0);
-#endif
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
         out FormattedMessage? reason, int depth = 0
 #if LPP_Sponsors
-        , int sponsorTier = 0
+        , int sponsorTier = 0, string uuid = ""
 #endif
         )
     {
@@ -170,15 +145,8 @@ public sealed partial class CharacterLogicXorRequirement : CharacterRequirement
             var validation = false;
             FormattedMessage? raisin;
 #if LPP_Sponsors
-            if (requirement is CharacterDepartmentTimeRequirement ||
-                requirement is CharacterOverallTimeRequirement ||
-                requirement is CharacterPlaytimeRequirement
-                )
-                validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager, out raisin, depth + 1, sponsorTier);
-            else
-                validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager, out raisin, depth + 1);
+            validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
+                entityManager, prototypeManager, configManager, out raisin, depth + 1, sponsorTier, uuid);
 #else
             validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
                 entityManager, prototypeManager, configManager, out raisin, depth + 1);
