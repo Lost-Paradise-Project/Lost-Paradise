@@ -373,9 +373,6 @@ public sealed partial class CharacterSponsorRequirement : CharacterRequirement
     }
 }
 
-/// <summary>
-///     Requires the profile to be within an age range
-/// </summary>
 [UsedImplicitly]
 [Serializable, NetSerializable]
 public sealed partial class CharacterUUIDRequirement : CharacterRequirement
