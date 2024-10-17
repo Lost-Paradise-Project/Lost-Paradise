@@ -1,37 +1,767 @@
 #Снаряжение
-- type: loadout
-  id: LPPLoadoutSecurityEquipmentTruncheon
-  category: JobsSecurity
-  cost: 5
-  requirements:
-    - !type:CharacterJobRequirement
-      jobs:
-        - SecurityOfficer
-        - Warden
-        - HeadOfSecurity
-        - Brigmedic
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobSecurityOfficer
-      min: 54000 # 20 часов
-  items:
-   - Truncheon
 
 - type: loadout
   id: LPPLoadoutSecurityEquipmentEnergyGunMini
   category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 0
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponEnergyGunMini
+
+- type: loadout
+  id: LoadoutSecurityM1911
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 0
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponPistolM1911
+
+- type: loadout
+  id: LoadoutSecuritySoleil
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 18000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponEnergyGunSoleil
+
+- type: loadout
+  id: LoadoutSecurityMk58Gold
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 60000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponPistolGoldMk58
+
+- type: loadout
+  id: LoadoutSecurityFitz
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 18000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverFitz
+
+- type: loadout
+  id: LoadoutSecurityMosin
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 36000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponSniperMosinRubber
+
+- type: loadout
+  id: LoadoutSecurityDB
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 36000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponShotgunDoubleBarreled
+
+- type: loadout
+  id: LoadoutSecurityPollock
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 72000
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponPistolPollock
+
+- type: loadout
+  id: LoadoutSecuritSvalinn
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 72000 # 10 hours
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobSalvageSpecialist
+      min: 36000 # 10 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponLaserSvalinn
+
+- type: loadout
+  id: LoadoutSecurityNinemile
+  category: JobsSecurity
   cost: 3
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 20000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponPistolninemile
+
+- type: loadout
+  id: LoadoutSecurityMaria
+  category: JobsSecurity
+  cost: 3
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 60000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponPistolMaria
+
+- type: loadout
+  id: LoadoutSecurityK38Master
+  category: JobsSecurity
+  cost: 3
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 20000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverK38Master
+
+- type: loadout
+  id: LoadoutSecurityLucky
+  category: JobsSecurity
+  cost: 3
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 60000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverLucky
+
+- type: loadout
+  id: LoadoutSecurityViperWood
+  category: JobsSecurity
+  cost: 3
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 60000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponPistolViperWood
+
+- type: loadout
+  id: LoadoutSecurityPeacemaker
+  category: JobsSecurity
+  cost: 4
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 18000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponRevolverColtpeacemaker
+
+- type: loadout
+  id: LoadoutSecurityDesertEagle
+  category: JobsSecurity
+  cost: 4
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 18000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponPistolDesertEagle
+
+- type: loadout
+  id: LoadoutSecurityDesertEagleCamo
+  category: JobsSecurity
+  cost: 4
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 60000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponPistolDesertEagleCamo
+
+- type: loadout
+  id: LoadoutSecurityDesertEagleGold
+  category: JobsSecurity
+  cost: 4
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 60000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponPistolDesertEagleGold
+
+- type: loadout
+  id: LoadoutSecurityLaserGun
+  category: JobsSecurity
+  cost: 4
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 20000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponLaserGun
+
+- type: loadout
+  id: LoadoutSecurityPM
+  category: JobsSecurity
+  cost: 4
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 20000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponPistolPMgufuded112
+
+- type: loadout
+  id: LoadoutSecurityGrand
+  category: JobsSecurity
+  cost: 4
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 24000
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponSniperGrand
+
+- type: loadout
+  id: LoadoutSecurityCeremonial
+  category: JobsSecurity
+  cost: 4
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 80000
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponSniperCeremonial
+
+- type: loadout
+  id: LoadoutSecuritKammerer
+  category: JobsSecurity
+  cost: 5
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 22000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponShotgunKammererNonLethal
+
+- type: loadout
+  id: LoadoutSecurityDisablerSMG
+  category: JobsSecurity
+  cost: 5
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 22000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponDisablerSMG
+
+- type: loadout
+  id: LoadoutSecurityPF20
+  category: JobsSecurity
+  cost: 6
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 29000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponPistolPF20
+
+- type: loadout
+  id: LoadoutSecurityUniversal
+  category: JobsSecurity
+  cost: 6
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 29000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponPistolUniversal
+
+- type: loadout
+  id: LoadoutSecurityEnergyGunPistol
+  category: JobsSecurity
+  cost: 6
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 29000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponEnergyGunPistol
+
+- type: loadout
+  id: LoadoutSecurityPanther
+  category: JobsSecurity
+  cost: 6
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 300000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponRevolverPanther
+
+- type: loadout
+  id: LoadoutSecurityPravoved
+  category: JobsSecurity
+  cost: 6
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 300000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponSniperLeverPravoved
+
+- type: loadout
+  id: LoadoutSecurityLaserKomissar
+  category: JobsSecurity
+  cost: 6
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 600000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPLaserKomissar
+
+- type: loadout
+  id: LoadoutSecurityJudge
+  category: JobsSecurity
+  cost: 6
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 300000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponRevolverJudge
+
+- type: loadout
+  id: LoadoutSecurityAmina
+  category: JobsSecurity
+  cost: 6
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 600000 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPWeaponRevolverAmina
+
+#Пульки
+- type: loadout
+  id: LoadoutSecurityAM
+  category: JobsSecurity
+  cost: 1
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutEquipmentSecurity
     - !type:CharacterDepartmentRequirement
       departments:
         - Security
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobSecurityOfficer
-      min: 18000 # 5 часов
   items:
-    - WeaponEnergyGunMini
+    - MagazineBoxAntiMateriel
 
+- type: loadout
+  id: LoadoutSecurityBoxMagnumRubber
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazineBoxMagnumRubber
+
+- type: loadout
+  id: LoadoutSecuritySpeadLoderMagnum
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - SpeedLoaderMagnum
+
+- type: loadout
+  id: LoadoutSecuritySpeadLoderMagnumRubber
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - SpeedLoaderMagnumRubber
+
+- type: loadout
+  id: LoadoutSecurityMagazineMagnumRubber
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazineMagnumRubber
+
+- type: loadout
+  id: LoadoutSecurityMagazineMagnum
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazineMagnum
+
+- type: loadout
+  id: LoadoutSecurityMagazinePistolRubber
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazinePistolRubber
+
+- type: loadout
+  id: LoadoutSecurityMagazinePistol
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazinePistol
+
+- type: loadout
+  id: LoadoutSecuritySpeedLoaderSpecial
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - SpeedLoaderSpecial
+
+- type: loadout
+  id: LoadoutSecuritySpeedLoaderSpecialRubber
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - SpeedLoaderSpecialRubber
+
+- type: loadout
+  id: LoadoutSecuritySpeedLoaderLightRifle
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - SpeedLoaderLightRifle
+
+- type: loadout
+  id: LoadoutSecurityMagazineBoxLightRifleRubber
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazineBoxLightRifleRubber
+
+- type: loadout
+  id: LoadoutSecurityMagazineUniversalMagnum
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazineUniversalMagnum
+
+- type: loadout
+  id: LoadoutSecurityMagazineUniversalMagnumRubber
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazineUniversalMagnumRubber
+
+- type: loadout
+  id: LoadoutSecurityMagazinePistolPF20Rubber
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPMagazinePistolPF20Rubber
+
+- type: loadout
+  id: LoadoutSecurityMagazinePistolPF20
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPMagazinePistolPF20lethal
+
+- type: loadout
+  id: LoadoutSecurityMagazineShotgunBeanbag
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazineShotgunBeanbag
+
+- type: loadout
+  id: LoadoutSecurityMagazinePistolSpecialRubber
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazinePistolSpecialRubber
+
+- type: loadout
+  id: LoadoutSecurityMagazinePistolSpecial
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazinePistolSpecial
 #Маски
 
 - type: loadout
@@ -122,17 +852,9 @@
   items:
     - LPPClothingHeadHatRedBeanie
 
-#Шея
-
 - type: loadout
-  id: LoadoutSecurityBeltHolster
-  category: JobsSecurity
-  cost: 1
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutBeltSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
+  id: LoadoutItemWeaponLauncherChinaLakeMeme
+  category: Items
+  cost: 999
   items:
-    - ClothingBeltHolster
+    - WeaponLauncherChinaLake
