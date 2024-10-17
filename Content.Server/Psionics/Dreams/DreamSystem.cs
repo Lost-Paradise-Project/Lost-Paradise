@@ -51,7 +51,7 @@ namespace Content.Server.Psionics.Dreams
         {
             var dreamFragments = new List<string>();
 
-            if (mood.CurrentMoodLevel <= 40 && _random.Prob(50))
+            if (mood.CurrentMoodLevel <= 40 && _random.Prob(0.5f))
             {
                 dreamFragments.Add(Loc.GetString("chat-manager-dream-see"));
 
