@@ -566,34 +566,7 @@ namespace Content.Server.Database.Migrations.Postgres
                             t.HasCheckConstraint("AddressNotIPv6MappedIPv4", "NOT inet '::ffff:0.0.0.0/96' >>= address");
                         });
                 });
-#if LPP_Sponsors
-            modelBuilder.Entity("Content.Server.Database.Donate", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasColumnName("donate_id");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("DonateName")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("donate_name");
-
-                    b.Property<int>("ProfileId")
-                        .HasColumnType("integer")
-                        .HasColumnName("profile_id");
-
-                    b.HasKey("Id")
-                        .HasName("PK_donate");
-
-                    b.HasIndex("ProfileId", "DonateName")
-                        .IsUnique();
-
-                    b.ToTable("donate", (string)null);
-                });
-#endif
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
                     b.Property<int>("Id")
@@ -1260,10 +1233,6 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("allowed_markings");
 
-                    // b.Property<DateTime>("ExpireDate")
-                    //     .HasColumnType("text")
-                    //     .HasColumnName("expire_date");
-
                     b.Property<int>("ExtraSlots")
                         .HasColumnType("integer")
                         .HasColumnName("extra_slots");
@@ -1612,19 +1581,7 @@ namespace Content.Server.Database.Migrations.Postgres
 
                     b.Navigation("Server");
                 });
-#if LPP_Sponsors
-            modelBuilder.Entity("Content.Server.Database.Donate", b =>
-                {
-                    b.HasOne("Content.Server.Database.Profile", "Profile")
-                        .WithMany("Donate")
-                        .HasForeignKey("ProfileId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_donate_profile_profile_id");
 
-                    b.Navigation("Profile");
-                });
-#endif
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
                     b.HasOne("Content.Server.Database.Profile", "Profile")
@@ -1870,9 +1827,7 @@ namespace Content.Server.Database.Migrations.Postgres
             modelBuilder.Entity("Content.Server.Database.Profile", b =>
                 {
                     b.Navigation("Antags");
-#if LPP_Sponsors
-                    b.Navigation("Donate");
-#endif
+
                     b.Navigation("Jobs");
 
                     b.Navigation("Loadouts");

@@ -10,6 +10,7 @@ using JetBrains.Annotations;
 using Robust.Shared.Configuration;
 using Robust.Shared.Enums;
 using Robust.Shared.Physics;
+using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
@@ -351,3 +352,41 @@ public sealed partial class CharacterItemGroupRequirement : CharacterRequirement
         return count < group.MaxItems;
     }
 }
+#if LPP_Sponsors
+[UsedImplicitly]
+[Serializable, NetSerializable]
+public sealed partial class CharacterSponsorRequirement : CharacterRequirement
+{
+    [DataField(required: true)]
+    public int Min;
+
+    [DataField(required: true)]
+    public int Max;
+
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0, string uuid = "")
+    {
+        reason = null;
+        return sponsorTier >= Min && sponsorTier <= Max;
+    }
+}
+
+[UsedImplicitly]
+[Serializable, NetSerializable]
+public sealed partial class CharacterUUIDRequirement : CharacterRequirement
+{
+    [DataField(required: true)]
+    public string Uuid;
+
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0, string uuid = "")
+    {
+        reason = null;
+        return uuid == Uuid;
+    }
+}
+#endif
