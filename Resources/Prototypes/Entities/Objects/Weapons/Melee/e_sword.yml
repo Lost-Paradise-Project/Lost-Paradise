@@ -43,7 +43,7 @@
     layers:
       - state: e_sword
       - state: e_sword_blade
-        color: "#FFFFFF"
+        color: purple
         visible: false
         shader: unshaded
         map: [ "blade" ]

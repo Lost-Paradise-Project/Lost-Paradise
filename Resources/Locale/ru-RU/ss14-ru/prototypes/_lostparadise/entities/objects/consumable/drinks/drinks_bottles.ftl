@@ -1,0 +1,16 @@
+ent-LPPDrinkCamomileTeaBottleFull = camomile tea bottle
+    .desc = Bottle of chamomile tea is the perfect remedy for your peace of mind.
+ent-LPPDrinkMintTeaBottleFull = mint tea bottle
+    .desc = Bottle of refreshing peppermint tea, just looking at it makes you feel chilled.
+ent-LPPDrinkGingerTeaBottleFull = ginger tea bottle
+    .desc = Bottle of ginger tea, great for warming your soul.
+ent-LPPDrinkBerryTeaBottleFull = berry tea bottle
+    .desc = Bottle of berry tea with the rich flavor of summer berries.
+ent-LPPDrinkOrangeTeaBottleFull = orange tea bottle
+    .desc = Bottle of orange tea with citrus freshness.
+ent-LPPDrinkFlowerTeaBottleFull = flower tea bottle
+    .desc = Bottle of flower tea with subtle, delicate notes of flowers.
+ent-LPPDrinkTeaBottleFull = tea bottle
+    .desc = Bottle of regular tea, nothing special.
+ent-LPPDrinkGreenTeaBottleFull = green tea bottle
+    .desc = Bottle of green tea, nothing special either.

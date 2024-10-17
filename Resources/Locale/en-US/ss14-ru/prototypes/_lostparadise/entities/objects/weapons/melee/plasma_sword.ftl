@@ -1,0 +1,10 @@
+ent-LPPPlasmaSword = Plasma sword
+    .desc = A prototype weapon based on plasma technology, a small injection of plasma ignited by an incendiary device forms a blade of fire as long as there is plasma. Special cartridges are required for refueling.
+ent-LPPPlasmaCartridge = Plasma cartridge
+    .desc = Special cartridges containing high-pressure plasma for injection into a specialized container of plasma sword. Disposable.
+ent-LPPExperimentalPlasmaSword = Experimental plasma sword
+    .desc = A prototype weapon based on plasma technology, a small injection of plasma ignited by an incendiary device forms a blade of fire as long as there is plasma. This model self-replicates the plasma after a period of time.
+    .suffix = ERT
+ent-LPPPlasmaSwordEmpty = Plasma sword
+    .suffix = Empty
+    .desc = { ent-LPPPlasmaSword.desc }
