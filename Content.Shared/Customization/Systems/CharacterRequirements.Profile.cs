@@ -386,7 +386,7 @@ public sealed partial class CharacterSponsorRequirement : CharacterRequirement
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0, int uuid = "")
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0, string uuid = "")
     {
         reason = null;
         return sponsorTier >= Min && sponsorTier <= Max;
@@ -406,7 +406,7 @@ public sealed partial class CharacterUUIDRequirement : CharacterRequirement
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0, int uuid = "")
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0, string uuid = "")
     {
         reason = null;
         return uuid == Uuid;
