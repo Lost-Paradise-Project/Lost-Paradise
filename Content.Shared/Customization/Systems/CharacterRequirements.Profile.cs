@@ -380,8 +380,8 @@ public sealed partial class CharacterSponsorRequirement : CharacterRequirement
 [Serializable, NetSerializable]
 public sealed partial class CharacterUUIDRequirement : CharacterRequirement
 {
-    [DataField(required: false)]
-    public string? Uuid;
+    [DataField(required: true)]
+    public string Uuid;
 
     public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
