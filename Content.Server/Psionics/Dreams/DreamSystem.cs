@@ -100,7 +100,7 @@ namespace Content.Server.Psionics.Dreams
                 if (!EntityManager.HasComponent<SleepingComponent>(sleeper))
                     break;
 
-                var messageColor = mood.CurrentMoodLevel <= 40 && _random.Prob(50) ? Color.DarkRed : Color.BlueViolet;
+                var messageColor = mood.CurrentMoodLevel <= 40 ? Color.DarkRed : Color.BlueViolet;
                 _chatManager.ChatMessageToOne(Shared.Chat.ChatChannel.Telepathic, fragment, Loc.GetString("chat-manager-send-dream-chat-wrap-message", ("message", fragment)), sleeper, false, actor.PlayerSession.ConnectedClient, messageColor);
 
                 await Task.Delay((int)_random.NextFloat(5000f, 10000f));
