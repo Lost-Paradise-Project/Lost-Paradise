@@ -21,6 +21,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
 using Robust.Shared.Player;
+using Robust.Client.Player;
 #if LPP_Sponsors
 using Content.Client._LostParadise.Sponsors;
 #endif
@@ -29,6 +30,7 @@ namespace Content.Client.LateJoin
 {
     public sealed class LateJoinGui : DefaultWindow
     {
+        [Dependency] private readonly IPlayerManager _playerManager = default!;
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
         [Dependency] private readonly IClientConsoleHost _consoleHost = default!;
         [Dependency] private readonly IConfigurationManager _configManager = default!;
@@ -95,6 +97,7 @@ namespace Content.Client.LateJoin
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
                 sponsorTier = sponsorInfo.Tier;
+            var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
 #endif
 
             if (!_gameTicker.DisallowedLateJoin && _gameTicker.StationNames.Count == 0)
@@ -286,7 +289,7 @@ namespace Content.Client.LateJoin
                                 _configManager,
                                 out var reasons
 #if LPP_Sponsors
-                                , 0, sponsorTier
+                                , 0, sponsorTier, uuid
 #endif
                                 ))
                         {

@@ -187,6 +187,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
 #if LPP_Sponsors
         var sponsorTier = _checkSponsor.CheckUser(player.UserId).Item2 ?? 0;
+        var uuid = player.UserId.ToString();
 #endif
 
         return _characterRequirements.CheckRequirementsValid(
@@ -201,7 +202,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
             _config,
             out _
 #if LPP_Sponsors
-            , 0, sponsorTier
+            , 0, sponsorTier, uuid
 #endif
             );
     }
@@ -222,6 +223,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
 #if LPP_Sponsors
         var sponsorTier = _checkSponsor.CheckUser(player.UserId).Item2 ?? 0;
+        var uuid = player.UserId.ToString();
 #endif
 
         foreach (var job in _prototypes.EnumeratePrototypes<JobPrototype>())
@@ -240,7 +242,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
                         _config,
                         out _
 #if LPP_Sponsors
-            , 0, sponsorTier
+                        , 0, sponsorTier, uuid
 #endif
                         ))
                     continue;
@@ -272,6 +274,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
 #if LPP_Sponsors
         var sponsorTier = _checkSponsor.CheckUser(player.UserId).Item2 ?? 0;
+        var uuid = player.UserId.ToString();
 #endif
 
         for (var i = 0; i < jobs.Count; i++)
@@ -295,7 +298,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
                 _config,
                 out _
 #if LPP_Sponsors
-            , 0, sponsorTier
+                , 0, sponsorTier, uuid
 #endif
                 ))
             {

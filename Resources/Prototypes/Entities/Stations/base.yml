@@ -89,7 +89,7 @@
           - /Maps/Shuttles/cargo_core.yml
         mining:
           paths:
-          - /Maps/Shuttles/pathfinder.yml
+          - /Maps/Shuttles/mining.yml
         ruins:
           hide: true
           nameGrid: true
