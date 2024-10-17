@@ -31,6 +31,8 @@ using Robust.Shared.Map;
 using Robust.Shared.Physics;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using Robust.Shared.Player;
+using Robust.Client.Player;
 using Direction = Robust.Shared.Maths.Direction;
 #if LPP_Sponsors
 using Content.Client._LostParadise.Sponsors;
@@ -41,6 +43,7 @@ namespace Content.Client.Preferences.UI
     [GenerateTypedNameReferences]
     public sealed partial class HumanoidProfileEditor : BoxContainer
     {
+        private readonly IPlayerManager _playerManager;
         private readonly IEntityManager _entityManager;
         private readonly IPrototypeManager _prototypeManager;
         private readonly IClientPreferencesManager _preferencesManager;
@@ -116,6 +119,7 @@ namespace Content.Client.Preferences.UI
             IConfigurationManager configurationManager)
         {
             RobustXamlLoader.Load(this);
+            _playerManager = IoCManager.Resolve<IPlayerManager>();
             _entityManager = IoCManager.Resolve<IEntityManager>();
             _prototypeManager = prototypeManager;
             _preferencesManager = preferencesManager;
@@ -676,6 +680,7 @@ namespace Content.Client.Preferences.UI
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
                 sponsorTier = sponsorInfo.Tier;
+            var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
 #endif
 
             var departments = _prototypeManager.EnumeratePrototypes<DepartmentPrototype>().ToArray();
@@ -746,7 +751,7 @@ namespace Content.Client.Preferences.UI
                         _configurationManager,
                         out var reasons
 #if LPP_Sponsors
-                        , 0, sponsorTier
+                        , 0, sponsorTier, uuid
 #endif
                         ))
                         selector.LockRequirements(_characterRequirementsSystem.GetRequirementsText(reasons));
@@ -796,6 +801,7 @@ namespace Content.Client.Preferences.UI
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
                 sponsorTier = sponsorInfo.Tier;
+            var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
 #endif
             foreach (var selector in _jobPriorities)
             {
@@ -812,7 +818,7 @@ namespace Content.Client.Preferences.UI
                         _configurationManager,
                         out _
 #if LPP_Sponsors
-                        , 0, sponsorTier
+                        , 0, sponsorTier, uuid
 #endif
                         ))
                     continue;
@@ -1450,6 +1456,7 @@ namespace Content.Client.Preferences.UI
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
                 sponsorTier = sponsorInfo.Tier;
+            var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
 #endif
 
             _traits.Clear();
@@ -1467,7 +1474,7 @@ namespace Content.Client.Preferences.UI
                     _configurationManager,
                     out _
 #if LPP_Sponsors
-                        , 0, sponsorTier
+                        , 0, sponsorTier, uuid
 #endif
                 );
                 _traits.Add(trait, usable);
@@ -1766,6 +1773,7 @@ namespace Content.Client.Preferences.UI
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
                 sponsorTier = sponsorInfo.Tier;
+            var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
 #endif
 
             // Get the highest priority job to use for loadout filtering
@@ -1786,7 +1794,7 @@ namespace Content.Client.Preferences.UI
                     _configurationManager,
                     out _
 #if LPP_Sponsors
-                    , 0, sponsorTier
+                    , 0, sponsorTier, uuid
 #endif
                 );
                 _loadouts.Add(loadout, usable);
