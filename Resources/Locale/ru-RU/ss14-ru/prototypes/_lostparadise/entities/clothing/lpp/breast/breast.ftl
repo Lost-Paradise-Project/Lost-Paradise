@@ -334,6 +334,3 @@ ent-LPPCutOutTop = Топ с вырезом
     .desc = { ent-LPPClothingBreastBase.desc }
 ent-LPPCutOutTop2 = Топ с вырезом v2
     .desc = { ent-LPPClothingBreastBase.desc }
-ent-LPPCowTop = Коровий бюстгальтер
-    .desc = Муу.
-    .suffix = СПОНСОР

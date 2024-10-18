@@ -1575,15 +1575,3 @@
     sprite: _LostParadise/Clothing/Underwear/bra/LPPCutOutTop2.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Underwear/bra/LPPCutOutTop2.rsi
-
-- type: entity
-  parent: LPPClothingBreastBase
-  id: LPPCowTop
-  suffix: SPONSOR
-  name: Cow bra
-  description: Moo.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/cowset/cowbra.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/cowset/cowbra.rsi
