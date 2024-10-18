@@ -1,0 +1,36 @@
+- type: loadout
+  id: LoadoutClothingOuterRobesJudge
+  category: JobsCommand
+  cost: 0
+  exclusive: true
+  requirements: 
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+        - Clerk
+  items:
+    - ClothingOuterRobesJudge
+
+- type: loadout
+  id: LoadoutLPPWeaponRevolverJudge
+  category: JobsCommand
+  cost: 6
+  exclusive: true
+  requirements: 
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - LPPWeaponRevolverJudge
+
+- type: loadout
+  id: LoadoutMagazineBoxAntiMateriel
+  category: JobsCommand
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - MagazineBoxAntiMateriel

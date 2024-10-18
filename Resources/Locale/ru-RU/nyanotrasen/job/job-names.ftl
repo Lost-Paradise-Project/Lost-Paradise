@@ -1,5 +1,5 @@
 job-name-gladiator = Гладиатор
-job-name-guard = Охранник тюрьмы
+job-name-guard = Охранник Тюрьмы
 job-name-mail-carrier = Курьер
 job-name-martialartist = Мастер боевых искусств
 job-name-prisoner = Заключенный

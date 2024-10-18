@@ -278,6 +278,17 @@
 
 - type: characterItemGroup
   maxItems: 1
+  id: LoadoutBackSecurityEngineer
+  items:
+    - type: loadout
+      id: LoadoutClothingBackpackSecurityEngineer
+    - type: loadout
+      id: LoadoutClothingSatchelSecurityEngineer
+    - type: loadout
+      id: LoadoutClothingBackpackDuffelSecurityEngineer
+
+- type: characterItemGroup
+  maxItems: 1
   id: LoadoutHoSWeapon
   items:
     - type: loadout
