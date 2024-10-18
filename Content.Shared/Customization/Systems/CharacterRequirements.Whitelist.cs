@@ -17,16 +17,14 @@ namespace Content.Shared.Customization.Systems;
 [Serializable, NetSerializable]
 public sealed partial class CharacterWhitelistRequirement : CharacterRequirement
 {
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0
 #if LPP_Sponsors
-    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
-        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0) => IsValid(job, profile, playTimes, whitelisted, prototype, entityManager, prototypeManager, configManager, out reason, depth);
+        , int sponsorTier = 0, string uuid = ""
 #endif
-    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
-        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0)
+        )
     {
         reason = FormattedMessage.FromMarkup(Loc.GetString("character-whitelist-requirement", ("inverted", Inverted)));
         return !configManager.GetCVar(CCVars.WhitelistEnabled) || whitelisted;
