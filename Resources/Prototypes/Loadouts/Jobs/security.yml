@@ -56,58 +56,6 @@
     - ClothingUniformJumpskirtSecBlue
 
 - type: loadout
-  id: LoadoutSecurityUniformJumpskirtSenior
-  category: JobsSecurity
-  cost: 1
-  exclusive: true
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsSecurity
-    - !type:CharacterJobRequirement
-      jobs:
-        - SecurityOfficer
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobWarden
-      min: 21600 # 6 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobDetective
-      min: 7200 # 2 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobSecurityOfficer
-      min: 21600 # 6 hours
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 216000 # 60 hours
-  items:
-    - ClothingUniformJumpskirtSeniorOfficer
-
-- type: loadout
-  id: LoadoutSecurityUniformJumpsuitSenior
-  category: JobsSecurity
-  cost: 1
-  exclusive: true
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsSecurity
-    - !type:CharacterJobRequirement
-      jobs:
-        - SecurityOfficer
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobWarden
-      min: 21600 # 6 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobDetective
-      min: 7200 # 2 hours
-    - !type:CharacterPlaytimeRequirement
-      tracker: JobSecurityOfficer
-      min: 21600 # 6 hours
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 216000 # 60 hours
-  items:
-    - ClothingUniformJumpsuitSeniorOfficer
-
-- type: loadout
   id: LoadoutUniformJumpsuitWardenBlue
   category: JobsSecurity
   cost: 0
@@ -380,6 +328,48 @@
         - Security
   items:
     - ClothingBackpackDuffelSecurity
+
+- type: loadout
+  id: LoadoutClothingBackpackSecurityEngineer
+  category: JobsSecurity
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackSecurity
+    - !type:CharacterDepartmentRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - LPPClothingBackpackSecurityEngineer
+
+- type: loadout
+  id: LoadoutClothingSatchelSecurityEngineer
+  category: JobsSecurity
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackSecurity
+    - !type:CharacterDepartmentRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - LPPClothingSatchelSecurityEngineer
+
+- type: loadout
+  id: LoadoutClothingBackpackDuffelSecurityEngineer
+  category: JobsSecurity
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackSecurity
+    - !type:CharacterDepartmentRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - LPPClothingBackpackDuffelSecurityEngineer
 
 # Head
 - type: loadout
