@@ -7,7 +7,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - ChiefJustice
-
+        - Clerk
   items:
     - ClothingOuterRobesJudge
 
