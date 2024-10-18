@@ -768,7 +768,7 @@
       - ShellShotgunPractice
       - WeaponLaserCarbinePractice
       - WeaponDisablerPractice
-      - WeaponPistolUniversal
+      # - WeaponPistolUniversal
       - ShockCollar
       - MagazineUniversalMagnum
       # DeltaV - .38 special ammo - Add various .38 special ammo to security techfab
