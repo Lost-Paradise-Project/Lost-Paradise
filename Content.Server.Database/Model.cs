@@ -65,7 +65,11 @@ namespace Content.Server.Database
             modelBuilder.Entity<Loadout>()
                 .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.LoadoutName})
                 .IsUnique();
-
+#if LPP_Sponsors
+            modelBuilder.Entity<Sponsor>()          // _LostParadise-Sponsors
+                .HasIndex(p => p.UserId)
+                .IsUnique();
+#endif
             modelBuilder.Entity<Job>()
                 .HasIndex(j => j.ProfileId);
 
