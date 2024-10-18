@@ -12,6 +12,3 @@ ent-LPPClothingBackpackDuffelDelta = Спортивная сумка "Дельт
     .desc = { ent-ClothingBackpackDuffel.desc }
 ent-LPPClothingBackpackDuffelCommandDelta = Спортивная сумка командира "Дельта"
     .desc = { ent-ClothingBackpackDuffel.desc }
-ent-LPPClothingBackpackDuffelBlack = Чёрный вещмешок
-    .desc = Стильный чёрный вещмешок, который выглядит надежным.
-    .suffix = Спонсор
