@@ -21,5 +21,5 @@ station-beacon-boxing-ring = Боксёрская
 station-beacon-park = Парк
 station-beacon-corpsman = Полевой Врач
 station-beacon-justice = Судебная
-station-beacon-chiefjustice = Верховный судья
+station-beacon-chiefjustice = Верховный Судья
 station-beacon-prosecutor = Прокурор
