@@ -143,3 +143,22 @@
   completetime: 5
   materials:
     Steel: 375
+
+- type: latheRecipe
+  id: LPPRecipePlasmaSword
+  result: LPPPlasmaSwordEmpty
+  completetime: 20
+  materials:
+    Steel: 1250
+    Plastic: 750
+    Gold: 500
+    Silver: 500
+
+- type: latheRecipe
+  id: LPPRecipePlasmaCartridge
+  result: LPPPlasmaCartridge
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 250
+    Plasma: 1000
