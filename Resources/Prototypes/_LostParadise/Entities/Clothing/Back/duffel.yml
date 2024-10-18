@@ -1,15 +1,5 @@
 - type: entity
   parent: ClothingBackpackDuffel
-  id: LPPClothingBackpackDuffelBlack
-  name: black duffel bag
-  suffix: Sponsor
-  description: A large duffel bag for holding extra tools and supplies.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Back/Duffels/blackduffel.rsi
-
-- type: entity
-  parent: ClothingBackpackDuffel
   id: LPPClothingBackpackDuffelHop
   name: hop duffel bag
   description: Twice as many handcuffs!

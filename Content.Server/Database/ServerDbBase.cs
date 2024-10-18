@@ -40,9 +40,6 @@ namespace Content.Server.Database
                 .Include(p => p.Profiles).ThenInclude(h => h.Jobs)
                 .Include(p => p.Profiles).ThenInclude(h => h.Antags)
                 .Include(p => p.Profiles).ThenInclude(h => h.Traits)
-#if LPP_Sponsors
-                .Include(p => p.Profiles).ThenInclude(h => h.Donate)    // Lost Paradise Donate Preferences
-#endif
                 .Include(p => p.Profiles).ThenInclude(h => h.Loadouts)
                 .AsSingleQuery()
                 .SingleOrDefaultAsync(p => p.UserId == userId.UserId);
@@ -92,9 +89,6 @@ namespace Content.Server.Database
                 .Include(p => p.Jobs)
                 .Include(p => p.Antags)
                 .Include(p => p.Traits)
-#if LPP_Sponsors
-                .Include(p => p.Donate)    // Lost Paradise Donate Preferences
-#endif
                 .Include(p => p.Loadouts)
                 .AsSplitQuery()
                 .SingleOrDefault(h => h.Slot == slot);
@@ -183,9 +177,6 @@ namespace Content.Server.Database
             var antags = profile.Antags.Select(a => a.AntagName);
             var traits = profile.Traits.Select(t => t.TraitName);
             var loadouts = profile.Loadouts.Select(t => t.LoadoutName);
-#if LPP_Sponsors
-            var donates = profile.Donate.Select(t => t.DonateName); // Lost Paradise Donate Preferences
-#endif
 
             var sex = Sex.Male;
             if (Enum.TryParse<Sex>(profile.Sex, true, out var sexVal))
@@ -256,9 +247,6 @@ namespace Content.Server.Database
                 antags.ToList(),
                 traits.ToList(),
                 loadouts.ToList()
-#if LPP_Sponsors
-                , donates.ToList()  // Lost Paradise Donate Preferences
-#endif
             );
         }
 
@@ -314,14 +302,6 @@ namespace Content.Server.Database
                 humanoid.TraitPreferences
                         .Select(t => new Trait {TraitName = t})
             );
-
-#if LPP_Sponsors
-            profile.Donate.Clear();             // Lost Paradise Donate Preferences
-            profile.Donate.AddRange(
-                humanoid.DonatePreferences
-                        .Select(d => new Donate { DonateName = d })
-            );
-#endif
 
             profile.Loadouts.Clear();
             profile.Loadouts.AddRange(

@@ -338,28 +338,3 @@
     sprite: _LostParadise/Clothing/Uniforms/Sec/supply_chief_skirt.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Sec/supply_chief_skirt.rsi
-
-- type: entity
-  parent: ClothingUniformSkirtBase
-  id: LPPClothingUniformJumpskirtAltWhiteTopic
-  name: alt white topic
-  suffix: Sponsor
-  description: Pretty clothes exposing the body.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/Topics/altwhitetopic.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/Topics/altwhitetopic.rsi
-
-- type: entity
-  parent: ClothingUniformSkirtBase
-  id: LPPClothingUniformJumpskirtWhiteTopic
-  name: white topic
-  suffix: Sponsor
-  description: Pretty clothes exposing the body.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/Topics/whitetopic.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/Topics/whitetopic.rsi
-
