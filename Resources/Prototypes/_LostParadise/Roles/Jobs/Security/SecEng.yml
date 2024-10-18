@@ -1,5 +1,5 @@
 - type: job
-  id: LPPSecurityEnginer
+  id: LPPSecurityEngineer
   name: job-name-security-enginer
   description: job-description-security-enginer
   playTimeTracker: LPPJobSecurityEnginer
