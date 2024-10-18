@@ -340,6 +340,7 @@
     - !type:CharacterDepartmentRequirement
       departments:
         - Security
+    - !type:CharacterJobRequirement
       jobs:
         - LPPSecurityEngineer
   items:
@@ -356,6 +357,7 @@
     - !type:CharacterDepartmentRequirement
       departments:
         - Security
+    - !type:CharacterJobRequirement
       jobs:
         - LPPSecurityEngineer
   items:
@@ -372,6 +374,7 @@
     - !type:CharacterDepartmentRequirement
       departments:
         - Security
+    - !type:CharacterJobRequirement
       jobs:
         - LPPSecurityEngineer
   items:
