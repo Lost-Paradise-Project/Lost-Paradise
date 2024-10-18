@@ -35,6 +35,6 @@ JobRoboticist = Робототехник
 JobExpeditor = Исследователь
 job-name-expeditor = Исследователь
 job-description-expeditor = Исследуйте врата и помогайте станции!
-LPPJobSecurityEngineer = Полевой Инженер
+LPPJobSecurityEnginer = Полевой Инженер
 job-name-security-engineer = Полевой Инженер
 job-description-security-engineer = Не дайте бригу пропасть во тьме. Ремонтируйте постройки, а также устройте перестройки. Приносите разруху и разрушения во время штурма!

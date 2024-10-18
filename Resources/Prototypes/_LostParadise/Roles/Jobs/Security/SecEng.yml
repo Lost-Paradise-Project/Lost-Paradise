@@ -2,7 +2,7 @@
   id: LPPSecurityEngineer
   name: job-name-security-engineer
   description: job-description-security-engineer
-  playTimeTracker: LPPJobSecurityEngineer
+  playTimeTracker: LPPJobSecurityEnginer
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security
