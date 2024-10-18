@@ -170,6 +170,8 @@
        - CartridgeLightRifle
        - CartridgeRifle
        - CombatKnife
+       - MagazinePistol
+       - MagazineUniversalMagnum
        - MagazineBoxPistol
        - MagazineBoxMagnum
        - MagazineBoxRifle
@@ -766,7 +768,9 @@
       - ShellShotgunPractice
       - WeaponLaserCarbinePractice
       - WeaponDisablerPractice
+      - WeaponPistolUniversal
       - ShockCollar
+      - MagazineUniversalMagnum
       # DeltaV - .38 special ammo - Add various .38 special ammo to security techfab
       - MagazineBoxSpecial
       - MagazineBoxSpecialPractice

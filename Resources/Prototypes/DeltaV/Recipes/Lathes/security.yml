@@ -136,6 +136,15 @@
     Plastic: 1000
 
 - type: latheRecipe
+  id: WeaponPistolUniversal
+  result: WeaponPistolUniversal
+  category: Weapons
+  completetime: 4
+  materials:
+    Steel: 1400
+    Plastic: 250
+
+- type: latheRecipe
   id: WeaponEnergyGun
   result: WeaponEnergyGun
   category: Weapons
