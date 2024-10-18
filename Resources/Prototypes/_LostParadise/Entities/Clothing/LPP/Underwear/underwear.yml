@@ -1266,13 +1266,3 @@
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Underwear/Command/cap.rsi
-
-- type: entity
-  parent: LPPClothingUnderwearBase
-  id: LPPCowPanties
-  suffix: SPONSOR
-  name: Cow panties
-  description: Moooo!
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/cowset/cowpanties.rsi

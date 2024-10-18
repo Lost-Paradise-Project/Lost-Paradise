@@ -186,6 +186,3 @@ ent-LPPClothingUnderThinThighTeal = { ent-LPPClothingUnderThinThighBlack }
     .desc = { ent-LPPClothingUnderwearSocksBase.desc }
 ent-LPPClothingUnderThinThighYellow = { ent-LPPClothingUnderThinThighBlack }
     .desc = { ent-LPPClothingUnderwearSocksBase.desc }
-ent-LPPCowSocks = Коровьи чулки
-    .desc = Муууу!
-    .suffix = СПОНСОР
