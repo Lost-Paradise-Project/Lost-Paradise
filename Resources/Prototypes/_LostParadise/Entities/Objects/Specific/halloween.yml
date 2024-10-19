@@ -5,7 +5,7 @@
   description: A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
   components:
     - type: Sprite
-      sprite: _LostParadise/Objects/Specific/halloween.rsi/paper_bag.rsi
+      sprite: _LostParadise/Objects/Specific/halloween/paper_bag.rsi
       layers:
       - state: empty_icon
         map: [ "enum.ToggleVisuals.Layer" ]
@@ -23,7 +23,7 @@
   description: A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
   components:
     - type: Sprite
-      sprite: _LostParadise/Objects/Specific/halloween.rsi/pumpkin_bag.rsi
+      sprite: _LostParadise/Objects/Specific/halloween/pumpkin_bag.rsi
       layers:
       - state: empty_icon
         map: [ "enum.ToggleVisuals.Layer" ]

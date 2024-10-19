@@ -54,7 +54,7 @@
   description: This is my kingdom come, this is my kingdom come...
   components:
   - type: Sprite
-    state: lolipop
+    state: lollipop
   - type: Item
     size: Tiny
     shape:
