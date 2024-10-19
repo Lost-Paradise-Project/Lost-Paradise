@@ -52,7 +52,5 @@ ent-LPPClothingMaskNPZGasmask = NPZ special forces gas mask
     .desc = An improved model of a special forces gas mask from distant corporate wars. It will be able to protect the face from various fragments. Eye protection from flash and welding is guaranteed.
 ent-LPPBlueShieldClothingMaskGas = Gas mask of officer "Blue Shield"
     .desc = Elite gas mask of officer "Blue Shield".
-ent-LPPCASGasMask = CAS Gas mask
-    .desc = Black and white gas mask.
 ent-LPPClothingMaskPGWrittenOff = Decommissioned balaclava PG
     .desc = A decommissioned balaclava that was used by PG soldiers.

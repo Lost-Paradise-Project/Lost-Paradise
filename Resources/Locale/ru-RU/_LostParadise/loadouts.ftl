@@ -1,1 +1,1 @@
-﻿loadout-category-Sponsors = Спонсорские вещи
+loadout-category-Sponsors = Спонсорские вещи
