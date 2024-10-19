@@ -12,6 +12,17 @@
     - ClothingOuterRobesJudge
 
 - type: loadout
+  id: LPPLoadoutJudgeEquipmentEnergyGunMini
+  category: JobsCommand
+  cost: 0
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefJustice
+  items:
+    - WeaponEnergyGunMini
+
+- type: loadout
   id: LoadoutLPPWeaponRevolverJudge
   category: JobsCommand
   cost: 6

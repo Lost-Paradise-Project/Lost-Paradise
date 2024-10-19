@@ -16,3 +16,5 @@ lp-chatsan-word-10 = набегатор
 lp-chatsan-replacement-10 = дефективный
 lp-chatsan-word-11 = набегаторы
 lp-chatsan-replacement-11 = дефективные
+lp-chatsan-word-11 = набегаторы
+lp-chatsan-replacement-11 = дефективные
