@@ -31,7 +31,7 @@
       path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
     fireOnDropChance: 0.5
   - type: UseDelay
-    delay: 0.66
+    delay: 0
   - type: ContainerContainer
     containers:
       revolver-ammo: !type:Container

@@ -167,3 +167,30 @@
       types:
         Piercing: 3
         Radiation: 8
+
+- type: entity
+  noSpawn: true
+  parent: BaseBullet
+  id: LPPBulletAntiMaterielNonlethal
+  name: bullet (.60 anti-materiel Non-lethal)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 10
+  - type: StaminaDamageOnCollide
+    damage: 60
+
+- type: entity
+  noSpawn: true
+  parent: BaseBullet
+  id: LPPBulletAntiMaterielCP
+  name: bullet (.60 Concrete projectile)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 20
+        Structural: 120
+  - type: StaminaDamageOnCollide
+    damage: 10
