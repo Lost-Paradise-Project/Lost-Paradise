@@ -1,18 +1,18 @@
 # Mailto
-command-mailto-description = Поставьте посылку в очередь для доставки юридическому лицу. Пример использования: `mailto 1234 5678 false false`. Содержимое целевого контейнера будет перенесено в реальную почтовую посылку.
-command-mailto-help = Использование: { $command } <recipient entityUid> <container entityUid> [is-fragile: true or false] [is-priority: true or false] [is-large: true or false, optional]
-command-mailto-no-mailreceiver = Целевой объект не имеет получателя { $requiredComponent }.
-command-mailto-no-blankmail = Прототип { $blackmail } не существует. Что-то явно не так. Обратитесь к программисту.
-command-mailto-bogus-mail = { $blankMail } не было в { $requiredMailComponent }. Что-то явно не так. Обратитесь к программисту.
-command-mailto-invalid-container = Целевой объект-контейнер не имеет { $requiredContainer } контейнера.
-command-mailto-unable-to-receive = Не удалось настроить целевой объект-получателя для получения почты. Возможно, отсутствует ID.
-command-mailto-no-teleporter-found = Объект-получатель не удалось сопоставить с почтовым телепортом какой-либо станции. Возможно, получатель находится за пределами станции.
-command-mailto-success = Успех! Посылка почты поставлена в очередь на следующую телепортацию через { $timeToTeleport } секунд.
+command-mailto-description = Queue a parcel to be delivered to an entity. Example usage: `mailto 1234 5678 false false`. The target container's contents will be transferred to an actual mail parcel.
+command-mailto-help = Usage: { $command } <recipient entityUid> <container entityUid> [is-fragile: true or false] [is-priority: true or false] [is-large: true or false, optional]
+command-mailto-no-mailreceiver = Target recipient entity does not have a { $requiredComponent }.
+command-mailto-no-blankmail = The { $blankMail } prototype doesn't exist. Something is very wrong. Contact a programmer.
+command-mailto-bogus-mail = { $blankMail } did not have { $requiredMailComponent }. Something is very wrong. Contact a programmer.
+command-mailto-invalid-container = Target container entity does not have a { $requiredContainer } container.
+command-mailto-unable-to-receive = Target recipient entity was unable to be setup for receiving mail. ID may be missing.
+command-mailto-no-teleporter-found = Target recipient entity was unable to be matched to any station's mail teleporter. Recipient may be off-station.
+command-mailto-success = Success! Mail parcel has been queued for next teleport in { $timeToTeleport } seconds.
 # Mailnow
-command-mailnow = Заставьте все почтовые телепорты доставить еще одну партию почты как можно скорее. Это не позволит обойти ограничение на количество недоставленных писем.
-command-mailnow-help = Использование: { $command }
-command-mailnow-success = Успех! Все почтовые телепорты скоро доставят еще одну партию почты.
+command-mailnow = Force all mail teleporters to deliver another round of mail as soon as possible. This will not bypass the undelivered mail limit.
+command-mailnow-help = Usage: { $command }
+command-mailnow-success = Success! All mail teleporters will be delivering another round of mail soon.
 # Mailtestbulk
-command-mailtestbulk = Отправляет по одной посылке каждого типа на указанный почтовый телепортатор.  Неявно вызывает партию почты сейчас.
-command-mailtestbulk-help = Использование: { $command } <teleporter_id>
-command-mailtestbulk-success = Успех! Все почтовые телепорты скоро доставят еще одну партию почты.
+command-mailtestbulk = Sends one of each type of parcel to a given mail teleporter.  Implicitly calls mailnow.
+command-mailtestbulk-help = Usage: { $command } <teleporter_id>
+command-mailtestbulk-success = Success! All mail teleporters will be delivering another round of mail soon.
