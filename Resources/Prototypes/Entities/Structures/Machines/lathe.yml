@@ -777,6 +777,11 @@
       #LPP
       - LPPMagazineMagnumSubMachineGun
       - LPPMagazineBoxMinigun
+      - LPPMagazineBoxAntiMaterielNL
+      - LPPMagazineBoxAntiMaterielCP
+      - LPPCartridgeAntiMaterielCP
+      - LPPCartridgeAntiMaterielNL
+      - LPPWeaponGoliathSniper
       # End of modified code
     dynamicRecipes:
       - LPPSpaceForgeCircuitBoardCMDAndSec
