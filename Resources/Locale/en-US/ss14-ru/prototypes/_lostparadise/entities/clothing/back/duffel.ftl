@@ -1,6 +1,3 @@
-ent-LPPClothingBackpackDuffelBlack = black duffel bag
-    .desc = A large duffel bag for holding extra tools and supplies.
-    .suffix = Sponsor
 ent-LPPClothingBackpackDuffelHop = hop duffel bag
     .desc = Twice as many handcuffs!
 ent-LPPClothingBackpackDuffelBlueshieldFilled = { ent-LPPClothingBackpackDuffelBlueshield }
