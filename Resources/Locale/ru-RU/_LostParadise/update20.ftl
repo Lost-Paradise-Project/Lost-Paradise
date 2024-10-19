@@ -20,3 +20,9 @@ ui-options-function-lpp-smart-equip-neck = Умная экипировка на 
 species-name-shark = Акулоид
 reagent-effect-status-effect-Forceddead = Смерть
 reagent-effect-status-effect-SlurredSpeech = Дизартрия
+character-sponsor-requirement =
+    Вы должны { $inverted ->
+        [true] не быть
+       *[other] быть
+    } между [color=yellow]{ $min }[/color] и [color=yellow]{ $max }[/color] спонсорским уровнем
+character-uuid-requirement = Вы должны быть [color=yellow]{ $uuid }[/color]

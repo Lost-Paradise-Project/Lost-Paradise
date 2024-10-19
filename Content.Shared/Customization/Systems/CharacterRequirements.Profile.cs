@@ -367,7 +367,7 @@ public sealed partial class CharacterSponsorRequirement : CharacterRequirement
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
         out FormattedMessage? reason, int depth = 0, int sponsorTier = 0, string uuid = "")
     {
-        reason = "Определённый уровень спонсора";
+        reason = FormattedMessage.FromMarkup(Loc.GetString("character-sponsor-requirement", ("inverted", Inverted), ("min", Min), ("max", Max)));
         return sponsorTier >= Min && sponsorTier <= Max;
     }
 }
@@ -384,7 +384,7 @@ public sealed partial class CharacterUUIDRequirement : CharacterRequirement
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
         out FormattedMessage? reason, int depth = 0, int sponsorTier = 0, string uuid = "")
     {
-        reason = "Доступ к личному предмету";
+        reason = FormattedMessage.FromMarkup(Loc.GetString("character-uuid-requirement", ("uuid", Uuid)));
         return uuid == Uuid;
     }
 }
