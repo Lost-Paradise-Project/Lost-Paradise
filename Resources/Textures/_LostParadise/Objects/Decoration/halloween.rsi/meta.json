@@ -1,0 +1,25 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+           "name": "spider_big"
+        },
+        {
+            "name": "spider_big2"
+        },
+        {
+            "name": "spider_mini1"
+        },
+        {
+            "name": "spider_mini2"
+        },
+        {
+            "name": "spider_mini3"
+        }
+    ]
+}
