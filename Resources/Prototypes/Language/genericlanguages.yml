@@ -3,6 +3,7 @@
 # with the Xenoglossy psionic power, as well as Ghosts, and AGhosts.
 - type: language
   id: Universal
+  isvisiblelanguage: false
   obfuscation:
     !type:ReplacementObfuscation
     replacement:
@@ -12,6 +13,7 @@
 # TODO: Replace this with much better languages. Yes, robots can have languages.
 - type: language
   id: RobotTalk
+  isvisiblelanguage: true
   speech:
     fontId: Monospace
   obfuscation:
@@ -25,6 +27,7 @@
 # Example of a sign language. Used by the Sign Language trait.
 - type: language
   id: Sign
+  isvisiblelanguage: false
   speech:
     allowRadio: false
     requireSpeech: false

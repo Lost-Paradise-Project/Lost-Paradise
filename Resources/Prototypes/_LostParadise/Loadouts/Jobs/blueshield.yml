@@ -1,0 +1,55 @@
+- type: loadout
+  id: LoadoutCommandBSEnergySword
+  category: JobsCommand
+  cost: 0
+  exclusive: true
+  requirements: 
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - EnergySwordHoS
+
+- type: loadout
+  id: LoadoutCommandBSWeaponPistolN1984
+  category: JobsCommand
+  cost: 2
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - WeaponPistolN1984
+
+- type: loadout
+  id: LoadoutCommandBSWeaponPistolUniversal
+  category: JobsCommand
+  cost: 2
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - WeaponPistolUniversal
+
+- type: loadout
+  id: LoadoutCommandBSMagazineUniversalMagnum
+  category: JobsCommand
+  cost: 1
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - MagazineUniversalMagnum
+
+- type: loadout
+  id: LoadoutCommandBSMagazineMagnum
+  category: JobsCommand
+  cost: 1
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - MagazineMagnum

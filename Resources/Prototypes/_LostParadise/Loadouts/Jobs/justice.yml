@@ -12,25 +12,36 @@
     - ClothingOuterRobesJudge
 
 - type: loadout
-  id: LoadoutLPPWeaponRevolverJudge
+  id: LPPLoadoutJudgeEquipmentEnergyGunMini
   category: JobsCommand
-  cost: 6
-  exclusive: true
-  requirements: 
-    - !type:CharacterJobRequirement
-      jobs:
-        - ChiefJustice
-  items:
-    - LPPWeaponRevolverJudge
-
-- type: loadout
-  id: LoadoutMagazineBoxAntiMateriel
-  category: JobsCommand
-  cost: 1
-  exclusive: true
+  cost: 0
   requirements:
     - !type:CharacterJobRequirement
       jobs:
         - ChiefJustice
   items:
-    - MagazineBoxAntiMateriel
+    - WeaponEnergyGunMini
+
+#- type: loadout
+#  id: LoadoutLPPWeaponRevolverJudge
+#  category: JobsCommand
+#  cost: 7
+#  exclusive: true
+#  requirements: 
+#    - !type:CharacterJobRequirement
+#      jobs:
+#        - ChiefJustice
+#  items:
+#    - LPPWeaponRevolverJudge
+
+#- type: loadout
+#  id: LoadoutMagazineBoxAntiMateriel
+#  category: JobsCommand
+#  cost: 1
+#  exclusive: true
+#  requirements:
+#    - !type:CharacterJobRequirement
+#      jobs:
+#        - ChiefJustice
+#  items:
+#    - MagazineBoxAntiMateriel
