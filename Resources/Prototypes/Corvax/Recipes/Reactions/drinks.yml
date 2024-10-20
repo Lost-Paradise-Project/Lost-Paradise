@@ -91,7 +91,7 @@
 - type: reaction
   id: DarkAndStormy
   reactants:
-    Rum: 
+    Rum:
       amount: 1
     Ale: # Must be ginger beer
       amount: 2
