@@ -270,6 +270,3 @@ ent-LPPHOPPanties = hop panties
     .desc = { ent-LPPClothingUnderwearBase.desc }
 ent-LPPCapPanties = cap panties
     .desc = { ent-LPPClothingUnderwearBase.desc }
-ent-LPPCowPanties = Cow panties
-    .desc = Moooo!
-    .suffix = SPONSOR

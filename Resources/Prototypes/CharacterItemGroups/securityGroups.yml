@@ -152,6 +152,8 @@
     - type: loadout
       id: LoadoutSecurityFlash
     - type: loadout
+      id: LoadoutSecurityCP
+    - type: loadout
       id: LoadoutSecurityAM
     - type: loadout
       id: LoadoutSecurityBoxMagnumRubber
@@ -262,8 +264,6 @@
       id: LoadoutSecurityLaserKomissar
     - type: loadout
       id: LoadoutSecurityJudge
-    - type: loadout
-      id: LoadoutSecurityAmina
 
 - type: characterItemGroup
   maxItems: 1
@@ -275,6 +275,17 @@
       id: LoadoutClothingBackSecuritySatchel
     - type: loadout
       id: LoadoutClothingBackSecurityDuffel
+
+- type: characterItemGroup
+  maxItems: 1
+  id: LoadoutBackSecurityEngineer
+  items:
+    - type: loadout
+      id: LoadoutClothingBackpackSecurityEngineer
+    - type: loadout
+      id: LoadoutClothingSatchelSecurityEngineer
+    - type: loadout
+      id: LoadoutClothingBackpackDuffelSecurityEngineer
 
 - type: characterItemGroup
   maxItems: 1

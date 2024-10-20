@@ -143,3 +143,44 @@
   completetime: 5
   materials:
     Steel: 375
+
+- type: latheRecipe
+  id: LPPMagazineBoxAntiMaterielNL
+  result: LPPMagazineBoxAntiMaterielNonLethal
+  category: Ammo
+  completetime: 5
+  materials:
+    Plastic: 1950
+
+- type: latheRecipe
+  id: LPPMagazineBoxAntiMaterielCP
+  result: LPPMagazineBoxAntiMaterielCocnterePiercing
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 2500
+
+- type: latheRecipe
+  id: LPPCartridgeAntiMaterielNL
+  result: LPPCartridgeAntiMaterielNonLethal
+  category: Ammo
+  completetime: 1
+  materials:
+    Plastic: 500
+
+- type: latheRecipe
+  id: LPPCartridgeAntiMaterielCP
+  result: LPPCartridgeAntiMaterielCP
+  category: Ammo
+  completetime: 1
+  materials:
+    Steel: 1200
+
+- type: latheRecipe
+  id: LPPWeaponGoliathSniper
+  result: LPPWeaponGoliath
+  completetime: 15
+  materials:
+    Plastic: 2000
+    Steel: 10000
+    Glass: 2500

@@ -7,7 +7,9 @@ namespace Content.Shared.Language;
 public sealed class LanguagePrototype : IPrototype
 {
     [IdDataField]
-    public string ID { get; private set;  } = default!;
+    public string ID { get; private set; } = default!;
+    [DataField("isvisiblelanguage")]
+    public bool IsVisibleLanguage { get; set; }
 
     /// <summary>
     ///     Obfuscation method used by this language. By default, uses <see cref="ObfuscationMethod.Default"/>
@@ -26,6 +28,7 @@ public sealed class LanguagePrototype : IPrototype
     ///     The in-world name of this language, localized.
     /// </summary>
     public string Name => Loc.GetString($"language-{ID}-name");
+    public string ChatName => Loc.GetString($"chat-language-{ID}-name");
 
     /// <summary>
     ///     The in-world description of this language, localized.
