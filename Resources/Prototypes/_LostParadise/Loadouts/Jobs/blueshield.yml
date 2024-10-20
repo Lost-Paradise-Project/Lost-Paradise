@@ -1,5 +1,5 @@
 - type: loadout
-  id: LoadoutCommandBSEnergySword
+  id: LoadoutCommandBSKatanaSheath
   category: JobsCommand
   cost: 0
   exclusive: true
@@ -8,7 +8,7 @@
       jobs:
         - LPPBlueShieldOfficer
   items:
-    - EnergySwordHoS
+    - ClothingBeltKatanaSheathFilledHoS
 
 - type: loadout
   id: LoadoutCommandBSWeaponPistolN1984
