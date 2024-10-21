@@ -1,0 +1,35 @@
+﻿- type: entity
+  name: paper bag
+  id: LPPPaperBagCandy
+  parent: CandyBucket
+  description: A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Objects/Specific/halloween/paper_bag.rsi
+      layers:
+      - state: empty_icon
+        map: [ "enum.ToggleVisuals.Layer" ]
+    - type: Storage
+      grid:
+      - 0,0,4,2
+      whitelist:
+        tags:
+          - LPPCandy
+
+- type: entity
+  name: pumpkin bag
+  id: LPPPumpkinBagCandy
+  parent: CandyBucket
+  description: A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Objects/Specific/halloween/pumpkin_bag.rsi
+      layers:
+      - state: empty_icon
+        map: [ "enum.ToggleVisuals.Layer" ]
+    - type: Storage
+      grid:
+      - 0,0,4,2
+      whitelist:
+        tags:
+          - LPPCandy

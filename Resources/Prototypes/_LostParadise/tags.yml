@@ -163,3 +163,7 @@
 
 - type: Tag
   id: LPPProcessedDiamond
+
+- type: Tag
+  id: LPPCandy #Halloween
+

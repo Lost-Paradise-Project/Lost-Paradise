@@ -1,0 +1,34 @@
+- type: entity
+  parent: BaseSign
+  id: LPPPSpiderDeco
+  name: spiders
+  description: Fake spiders that look like they're ready to bite you.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Decoration/halloween.rsi
+    snapCardinals: true
+    layers:
+    - state: spider_big
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+  - type: InteractionOutline
+  - type: RandomSprite
+    available:
+      - enum.DamageStateVisualLayers.Base:
+          spider_big: ""
+          spider_big2: ""
+          spider_mini1: ""
+          spider_mini2: ""
+          spider_mini3: ""
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroyHeavy
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]

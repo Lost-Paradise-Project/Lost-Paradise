@@ -1,0 +1,40 @@
+- type: entity
+  parent: BaseTree
+  id: HalloweenTree01
+  name: dead tree
+  description: Dead tree with leaves on it, looks creepy.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Decoration/Flora/flora_halloween.rsi
+    state: halloweentree01
+
+- type: entity
+  parent: BaseTree
+  id: HalloweenTree02
+  name: dead tree
+  description: Dead tree with leaves on it, looks creepy.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Decoration/Flora/flora_halloween.rsi
+    state: halloweentree02
+
+- type: entity
+  parent: BaseTree
+  id: HalloweenTree03
+  name: dead tree
+  description: Dead tree with leaves on it, looks creepy.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Decoration/Flora/flora_halloween.rsi
+    state: halloweentree03
+
+- type: entity
+  parent: BaseTree
+  id: HalloweenTree04
+  name: dead tree
+  description: Dead tree with leaves on it, looks creepy.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Decoration/Flora/flora_halloween.rsi
+    state: halloweentree04
+
