@@ -2383,3 +2383,6 @@
       effects:
       - !type:SatiateThirst
         factor: 4
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.04
