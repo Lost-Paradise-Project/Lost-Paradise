@@ -51,6 +51,20 @@
         - Security
 
 - type: loadout
+  id: LoadoutSatchelSecurityEngineer
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - LPPClothingSatchelSecurityEngineer
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+
+- type: loadout
   id: LoadoutBackpackSatchelBrigmedic
   category: Backpacks
   cost: 0

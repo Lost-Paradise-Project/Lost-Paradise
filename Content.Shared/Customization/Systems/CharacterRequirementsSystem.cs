@@ -20,27 +20,19 @@ public sealed class CharacterRequirementsSystem : EntitySystem
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
         out FormattedMessage? reason, int depth = 0
 #if LPP_Sponsors
-        , int sponsorTier = 0
+        , int sponsorTier = 0, string uuid = ""
 #endif
         )
     {
         var validation = false;
 #if LPP_Sponsors
-        if (requirement is CharacterDepartmentTimeRequirement ||
-            requirement is CharacterOverallTimeRequirement ||
-            requirement is CharacterPlaytimeRequirement
-            )
-            validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
+        validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
             entityManager, prototypeManager, configManager,
-            out reason, depth, sponsorTier);
-        else
-            validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
+            out reason, depth, sponsorTier, uuid);
+#else
+        validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
             entityManager, prototypeManager, configManager,
             out reason, depth);
-#else
-            validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager,
-                out reason, depth);
 #endif
 
         // Return false if the requirement is invalid and not inverted
@@ -53,7 +45,7 @@ public sealed class CharacterRequirementsSystem : EntitySystem
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
         out List<FormattedMessage> reasons, int depth = 0
 #if LPP_Sponsors
-        , int sponsorTier = 0
+        , int sponsorTier = 0, string uuid = ""
 #endif
         )
     {
@@ -65,17 +57,9 @@ public sealed class CharacterRequirementsSystem : EntitySystem
             var validation = false;
             FormattedMessage? reason;
 #if LPP_Sponsors
-            if (requirement is CharacterDepartmentTimeRequirement ||
-                requirement is CharacterOverallTimeRequirement ||
-                requirement is CharacterPlaytimeRequirement
-                )
-                validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
+            validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
                 entityManager, prototypeManager, configManager,
-                out reason, depth, sponsorTier);
-            else
-                validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager,
-                out reason, depth);
+                out reason, depth, sponsorTier, uuid);
 #else
             validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
                 entityManager, prototypeManager, configManager,

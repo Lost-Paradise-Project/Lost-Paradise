@@ -1,7 +1,7 @@
 
 - type: entity
   name: desert eagle
-  parent: BaseWeaponPistol
+  parent: WeaponPistolUniversal
   id: LPPWeaponPistolDesertEagle
   description: A favorite of gangsters and big gun enthusiasts, uses .35 caliber cartridges.
   components:
@@ -15,7 +15,7 @@
   - type: Clothing
     sprite: _LostParadise/Objects/Weapons/Guns/Pistols/desert-eagle.rsi
   - type: Gun
-    fireRate: 3
+    fireRate: 0.7
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -37,16 +37,37 @@
   - type: Clothing
     sprite: _LostParadise/Objects/Weapons/Guns/Pistols/PMgufuded112.rsi
   - type: Gun
-    fireRate: 5
+    fireRate: 3
     availableModes:
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
-
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistolSpecial
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistolSpecial
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeSpecial
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeSpecial
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
 
 - type: entity
   name: camo desert eagle
-  parent: BaseWeaponPistol
+  parent: WeaponPistolUniversal
   id: LPPWeaponPistolDesertEagleCamo
   description: A special gold piece with a lemited brindle pattern, highly coveted by collectors and crime bosses, chambered in .35 caliber.
   components:
@@ -60,7 +81,7 @@
   - type: Clothing
     sprite: _LostParadise/Objects/Weapons/Guns/Pistols/desert-eagle-camo.rsi
   - type: Gun
-    fireRate: 3
+    fireRate: 0.7
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -68,7 +89,7 @@
 
 - type: entity
   name: gold desert eagle
-  parent: BaseWeaponPistol
+  parent: WeaponPistolUniversal
   id: LPPWeaponPistolDesertEagleGold
   description: A symbol of high status in the criminal world and beyond, uses .35 caliber cartridges.
   components:
@@ -82,7 +103,7 @@
   - type: Clothing
     sprite: _LostParadise/Objects/Weapons/Guns/Pistols/gold-desert-eagle.rsi
   - type: Gun
-    fireRate: 3
+    fireRate: 0.7
     availableModes:
     - SemiAuto
     soundGunshot:
@@ -198,3 +219,19 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+
+- type: entity
+  name: PMm
+  parent: LPPWeaponPistolPMgufuded112
+  id: LPPWeaponPistolPMm
+  description: Widely used in service of USSP pistol now repainted and used by some old-school securities. Uses .38 scecial ammo.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/PMm.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/PMm.rsi

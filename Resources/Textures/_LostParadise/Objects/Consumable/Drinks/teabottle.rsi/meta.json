@@ -1,0 +1,67 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Created by Skilets (github) for Lost Paradise",
+    "states": [
+        {
+            "name": "icon_open"
+        },
+        {
+            "name": "icon"
+        },
+        {
+            "name": "label_1"
+        },
+        {
+            "name": "label_2"
+        },
+        {
+            "name": "label_3"
+        },
+        {
+            "name": "label_4"
+        },
+        {
+            "name": "label_5"
+        },
+        {
+            "name": "label_6"
+        },
+        {
+            "name": "label_7"
+        },
+        {
+            "name": "label_8"
+        },
+        {
+            "name": "fill-1"
+        },
+        {
+            "name": "fill-2"
+        },
+        {
+            "name": "fill-3"
+        },
+        {
+            "name": "fill-4"
+        },
+        {
+            "name": "fill-5"
+        },
+        {
+            "name": "fill-6"
+        },
+        {
+            "name": "inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "inhand-right",
+            "directions": 4
+        }
+    ]
+}

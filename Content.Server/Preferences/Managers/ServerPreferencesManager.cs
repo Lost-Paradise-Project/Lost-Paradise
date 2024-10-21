@@ -124,6 +124,13 @@ namespace Content.Server.Preferences.Managers
 
 #if LPP_Sponsors  // _LostParadise-Sponsors
             var allowedMarkings = _sponsors.TryGetInfo(userId, out var sponsor) ? sponsor.AllowedMarkings : new string[] { };
+            if (allowedMarkings == null)
+                allowedMarkings = Array.Empty<string>();
+            if (sponsor != null)
+            {
+                var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier;
+                allowedMarkings = allowedMarkings.Concat(Loc.GetString($"sponsor-markings-tier-{tier}").Split(";", StringSplitOptions.RemoveEmptyEntries)).ToArray();
+            }
             profile.EnsureValid(session, collection, allowedMarkings);
 #else
             profile.EnsureValid(session, collection);
@@ -231,35 +238,7 @@ namespace Content.Server.Preferences.Managers
                     prefsData.PrefsLoaded = true;
 
 #if LPP_Sponsors
-                    _sponsors.TryGetInfo(session.UserId, out var sponsorData);
-
-                    var sponsorTier = 0;
-                    var sponsorSlots = 0;
-
-                    if (sponsorData != null)
-                        sponsorTier = sponsorData!.Tier ?? 0;
-
-                    switch (sponsorTier)
-                    {
-                        case 0:
-                            sponsorSlots = 0;
-                            break;
-                        case 1:
-                            sponsorSlots = 10;
-                            break;
-                        case 2:
-                            sponsorSlots = 20;
-                            break;
-                        case 3:
-                            sponsorSlots = 30;
-                            break;
-                        case 4:
-                            sponsorSlots = 40;
-                            break;
-                        default:    // от 5 и более
-                            sponsorSlots = 50;
-                            break;
-                    }
+                    var sponsorSlots = GetMaxUserCharacterSlots(session.UserId);
 #endif
 
                     var msg = new MsgPreferencesAndSettings
@@ -365,6 +344,13 @@ namespace Content.Server.Preferences.Managers
 
 #if LPP_Sponsors  // _LostParadise-Sponsors
             var allowedMarkings = _sponsors.TryGetInfo(session.UserId, out var sponsor) ? sponsor.AllowedMarkings : new string[] { };
+            if (allowedMarkings == null)
+                allowedMarkings = Array.Empty<string>();
+            if (sponsor != null)
+            {
+                var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier;
+                allowedMarkings = allowedMarkings.Concat(Loc.GetString($"sponsor-markings-tier-{tier}").Split(";", StringSplitOptions.RemoveEmptyEntries)).ToArray();
+            }
 #endif
             // Clean up preferences in case of changes to the game,
             // such as removed jobs still being selected.

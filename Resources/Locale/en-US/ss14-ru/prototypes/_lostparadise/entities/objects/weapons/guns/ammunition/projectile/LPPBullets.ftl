@@ -20,3 +20,7 @@ ent-LPPBulletMinigunAP = minigun bullet (.10 rifle AP)
     .desc = { ent-BulletHeavyRifle.desc }
 ent-LPPBulletMinigunUranium = minigun bullet (.10 rifle uranium)
     .desc = { ent-BaseBulletPractice.desc }
+ent-LPPBulletAntiMaterielNonlethal = bullet (.60 anti-materiel Non-lethal)
+    .desc = { ent-BaseBullet.desc }
+ent-LPPBulletAntiMaterielCP = bullet (.60 Concrete projectile)
+    .desc = { ent-BaseBullet.desc }

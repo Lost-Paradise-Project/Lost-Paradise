@@ -1,0 +1,12 @@
+ent-MailEpistemologyBluespace = { ent-BaseMail }
+    .suffix = Блюспейс
+    .desc = { ent-BaseMail.desc }
+ent-MailEpistemologyIngotGold = { ent-BaseMail }
+    .suffix = Золотой самородок
+    .desc = { ent-BaseMail.desc }
+ent-MailEpistemologyResearchDisk = { ent-BaseMail }
+    .suffix = Диск сследования
+    .desc = { ent-BaseMail.desc }
+ent-MailEpistemologyTinfoilHat = { ent-BaseMail }
+    .suffix = Шапочка из фольги
+    .desc = { ent-BaseMail.desc }

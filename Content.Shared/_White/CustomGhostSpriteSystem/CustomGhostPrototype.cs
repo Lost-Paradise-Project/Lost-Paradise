@@ -15,7 +15,7 @@ public sealed class CustomGhostPrototype : IPrototype
     public string ID { get; } = default!;
 
     [DataField(required: true)]
-    public string Ckey { get; } = default!;
+    public string Ckey { get; } = default!; //Заполнять UUID
 
     [DataField("sprite", required: true)]
     public ResPath CustomSpritePath { get; } = default!;

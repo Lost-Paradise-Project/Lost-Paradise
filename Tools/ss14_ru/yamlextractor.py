@@ -62,7 +62,6 @@ class YAMLExtractor:
         en_new_dir_path = os.path.join(project.en_locale_prototypes_dir_path, relative_parent_dir)
         en_fluent_file = FluentFile(os.path.join(en_new_dir_path, f'{file_name}.ftl'))
         en_fluent_file.save_data(file_data)
-        logging.info(f'Актуализирован файл английской локали {en_fluent_file.full_path}')
 
         return en_fluent_file.full_path
 

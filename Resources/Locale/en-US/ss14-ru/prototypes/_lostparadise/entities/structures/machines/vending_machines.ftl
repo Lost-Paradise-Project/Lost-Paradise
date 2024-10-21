@@ -25,3 +25,5 @@ ent-LPPUnderpantsMat = Underpants machine
 ent-LPPWithSoftAnimals = With soft animals machine
     .desc = For when you need seeds fast. Hands down the best seed selection on the station!
     .suffix = Unlocked
+ent-LPPTeaVend = TeaVend
+    .desc = Perfect for those who want to cool down a bit.

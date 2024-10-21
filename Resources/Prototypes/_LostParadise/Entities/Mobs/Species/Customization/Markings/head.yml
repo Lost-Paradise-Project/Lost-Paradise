@@ -2,7 +2,7 @@
   id: LPPAlldurak
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/head.rsi
       state: durak
@@ -11,7 +11,7 @@
   id: LPPAllhorn1
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/head.rsi
       state: horn1
@@ -20,7 +20,7 @@
   id: LPPAllhorn2
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/head.rsi
       state: horn2
@@ -29,7 +29,7 @@
   id: LPPAllhorn3
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/head.rsi
       state: horn3
@@ -38,7 +38,7 @@
   id: LPPAllhorn4
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/head.rsi
       state: horn4
@@ -47,7 +47,7 @@
   id: LPPAllhorn5
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/head.rsi
       state: horn5
@@ -56,7 +56,7 @@
   id: LPPAllhorn6
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/head.rsi
       state: horn6
@@ -65,7 +65,7 @@
   id: LPPAlllord
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/head.rsi
       state: lord
@@ -74,7 +74,7 @@
   id: LPPAlloldpain
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/head.rsi
       state: oldpain
@@ -83,7 +83,7 @@
   id: LPPAlltavrhorn
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/head.rsi
       state: tavrhorn
@@ -92,7 +92,7 @@
   id: LPPAlltelehorn
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/head.rsi
       state: telehorn
@@ -101,7 +101,7 @@
   id: LPPAllvampirehorn
   bodyPart: HeadTop
   markingCategory: HeadTop
-  sponsorOnly: true
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _LostParadise/Customization/Markings/horns/head.rsi
       state: vampirehorn

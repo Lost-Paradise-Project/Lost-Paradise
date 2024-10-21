@@ -2,7 +2,6 @@ using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
 using Content.Client.Clickable;
-using Content.Client.DiscordAuth;
 using Content.Client.JoinQueue;
 using Content.Client.Options;
 using Content.Client.Eui;
@@ -26,6 +25,9 @@ using Content.Shared.Administration.Managers;
 using Content.Shared.Players.PlayTimeTracking;
 #if LPP_Sponsors  // _LostParadise-Sponsors
 using Content.Client._LostParadise.Sponsors;
+#endif
+#if DiscordAuth
+using Content.Client._NC.DiscordAuth;
 #endif
 
 
@@ -59,9 +61,11 @@ namespace Content.Client.IoC
             IoCManager.Register<ContentReplayPlaybackManager, ContentReplayPlaybackManager>();
             collection.Register<ISharedPlaytimeManager, JobRequirementsManager>();
             IoCManager.Register<JoinQueueManager>();
-            IoCManager.Register<DiscordAuthManager>();
 #if LPP_Sponsors  // _LostParadise-Sponsors
             collection.Register<SponsorsManager>();
+#endif
+#if DiscordAuth
+            IoCManager.Register<DiscordAuthManager>();
 #endif
         }
     }

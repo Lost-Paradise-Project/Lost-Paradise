@@ -23,7 +23,7 @@
 # - < DarkSide
 
 - type: entity
-  parent: ClothingHandsGlovesCombat
+  parent: ClothingHandsButcherable
   id: LPPClothingHandsGlovesTacticalFingerless
   name: tactical fingerless combat gloves
   description: These tactical gloves are fireproof and impact resistant.
@@ -32,6 +32,9 @@
     sprite: _LostParadise/Clothing/Hands/Gloves/CombatFingerless.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Hands/Gloves/CombatFingerless.rsi
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+    fiberColor: fibers-black
 
 # - >
 
@@ -49,17 +52,6 @@
     fiberMaterial: lppfibers-nitrile-insulative
   - type: FingerprintMask
   - type: Insulated
-
-- type: entity
-  parent: ClothingHandsGlovesCombat
-  id: LPPCASTacticalGloves
-  name: CAS Tactical gloves
-  description: Black and white tactical gloves without isolation.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Hands/Gloves/LPPCASTacticalGloves.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Hands/Gloves/LPPCASTacticalGloves.rsi
 
 - type: entity
   parent: ClothingHandsGlovesBoxingBlue

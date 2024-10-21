@@ -1,7 +1,6 @@
 using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
-using Content.Client.DiscordAuth;
 using Content.Client.JoinQueue;
 using Content.Client.Eui;
 using Content.Client.Flash;
@@ -37,8 +36,12 @@ using Robust.Shared.Configuration;
 using Robust.Shared.ContentPack;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
+using Robust.Shared.Timing;
 #if LPP_Sponsors  // _LostParadise-Sponsors
 using Content.Client._LostParadise.Sponsors;
+#endif
+#if DiscordAuth
+using Content.Client._NC.DiscordAuth;
 #endif
 
 namespace Content.Client.Entry
@@ -76,9 +79,11 @@ namespace Content.Client.Entry
         [Dependency] private readonly IReplayLoadManager _replayLoad = default!;
         [Dependency] private readonly ILogManager _logManager = default!;
         [Dependency] private readonly JoinQueueManager _joinQueue = default!;
-        [Dependency] private readonly DiscordAuthManager _discordAuth = default!;
 #if LPP_Sponsors  // _LostParadise-Sponsors
         [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
+#if DiscordAuth
+        [Dependency] private readonly DiscordAuthManager _discordAuthManager = default!;
 #endif
 
         public override void Init()
@@ -130,6 +135,10 @@ namespace Content.Client.Entry
             _prototypeManager.RegisterIgnore("alertLevels");
             _prototypeManager.RegisterIgnore("nukeopsRole");
             _prototypeManager.RegisterIgnore("stationGoal");
+#if DiscordAuth
+            _prototypeManager.RegisterIgnore("gcQueue");
+            _prototypeManager.RegisterIgnore("ghostRoleRaffleDecider");
+#endif
 
             _componentFactory.GenerateNetIds();
             _adminManager.Initialize();
@@ -142,6 +151,9 @@ namespace Content.Client.Entry
             _extendedDisconnectInformation.Initialize();
             _jobRequirements.Initialize();
             _playbackMan.Initialize();
+#if DiscordAuth
+            _discordAuthManager.Initialize();
+#endif
 
             //AUTOSCALING default Setup!
             _configManager.SetCVar("interface.resolutionAutoScaleUpperCutoffX", 1080);
@@ -178,7 +190,6 @@ namespace Content.Client.Entry
 
             _documentParsingManager.Initialize();
             _joinQueue.Initialize();
-            _discordAuth.Initialize();
 
             _baseClient.RunLevelChanged += (_, args) =>
             {

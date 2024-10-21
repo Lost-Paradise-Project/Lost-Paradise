@@ -532,32 +532,7 @@ namespace Content.Server.Database.Migrations.Sqlite
 
                     b.ToTable("connection_log", (string)null);
                 });
-#if LPP_Sponsors
-            modelBuilder.Entity("Content.Server.Database.Donate", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("donate_id");
 
-                    b.Property<string>("DonateName")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("donate_name");
-
-                    b.Property<int>("ProfileId")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("profile_id");
-
-                    b.HasKey("Id")
-                        .HasName("PK_donate");
-
-                    b.HasIndex("ProfileId", "DonateName")
-                        .IsUnique();
-
-                    b.ToTable("donate", (string)null);
-                });
-#endif
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
                     b.Property<int>("Id")
@@ -752,6 +727,11 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .IsRequired()
                         .HasColumnType("TEXT")
                         .HasColumnName("clothing");
+
+                    b.Property<string>("CustomSpecieName")
+                        .IsRequired()
+                        .HasColumnType("TEXT")
+                        .HasColumnName("custom_specie_name");
 
                     b.Property<string>("EyeColor")
                         .IsRequired()
@@ -1186,10 +1166,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("allowed_markings");
 
-                    // b.Property<DateTime>("ExpireDate")
-                    //     .HasColumnType("TEXT")
-                    //     .HasColumnName("expire_date");
-
                     b.Property<int>("ExtraSlots")
                         .HasColumnType("INTEGER")
                         .HasColumnName("extra_slots");
@@ -1534,19 +1510,7 @@ namespace Content.Server.Database.Migrations.Sqlite
 
                     b.Navigation("Server");
                 });
-#if LPP_Sponsors
-            modelBuilder.Entity("Content.Server.Database.Donate", b =>
-                {
-                    b.HasOne("Content.Server.Database.Profile", "Profile")
-                        .WithMany("Donate")
-                        .HasForeignKey("ProfileId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_donate_profile_profile_id");
 
-                    b.Navigation("Profile");
-                });
-#endif
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
                     b.HasOne("Content.Server.Database.Profile", "Profile")
@@ -1792,9 +1756,7 @@ namespace Content.Server.Database.Migrations.Sqlite
             modelBuilder.Entity("Content.Server.Database.Profile", b =>
                 {
                     b.Navigation("Antags");
-#if LPP_Sponsors
-                    b.Navigation("Donate");
-#endif
+
                     b.Navigation("Jobs");
 
                     b.Navigation("Loadouts");

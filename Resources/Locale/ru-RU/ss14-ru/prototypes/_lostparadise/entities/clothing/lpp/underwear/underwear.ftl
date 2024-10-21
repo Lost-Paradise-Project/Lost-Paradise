@@ -270,6 +270,3 @@ ent-LPPHOPPanties = Трусики главы персонала
     .desc = { ent-LPPClothingUnderwearBase.desc }
 ent-LPPCapPanties = Трусы капитана
     .desc = { ent-LPPClothingUnderwearBase.desc }
-ent-LPPCowPanties = Коровьи трусики
-    .desc = Муууу!
-    .suffix = СПОНСОР

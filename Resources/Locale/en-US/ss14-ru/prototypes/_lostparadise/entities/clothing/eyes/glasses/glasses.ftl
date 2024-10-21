@@ -10,7 +10,5 @@ ent-LPPClothingEyesGlassesSunglassesPG = PG black protection glasses
     .desc = Useful for special operations.
 ent-LPPClothingEyesGlassesNVG = PG nightvision goggles
     .desc = Useful for special operations.
-ent-LPPCASglasses = CAS glasses
-    .desc = Black and white glasses.
 ent-LPPClothingEyesGlassesAviatorNPZ = NPZ aviators
     .desc = Only for the most coolest guys in this sector.

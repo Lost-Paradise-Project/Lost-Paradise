@@ -36,6 +36,7 @@
 
 - type: characterItemGroup
   id: LoadoutOuterSecurity
+  maxItems: 1
   items:
     - type: loadout
       id: LoadoutClothingOuterArmorPlateCarrier
@@ -51,6 +52,12 @@
       id: LoadoutClothingOuterCoatHoSTrench
     - type: loadout
       id: LoadoutClothingOuterWinterHoS
+    - type: loadout
+      id: LoadoutClothingOuterArmorBasic
+    - type: loadout
+      id: LoadoutClothingOuterArmorSlim
+    - type: loadout
+      id: LPPLoadoutClothingOuterArmorBasic
 
 - type: characterItemGroup
   id: LoadoutGlovesSecurity
@@ -60,6 +67,7 @@
 
 - type: characterItemGroup
   id: LoadoutNeckSecurity
+  maxItems: 1
   items:
     - type: loadout
       id: LoadoutClothingNeckCloakHos
@@ -70,6 +78,7 @@
 
 - type: characterItemGroup
   id: LoadoutHeadSecurity
+  maxItems: 1
   items:
     - type: loadout
       id: LoadoutSecurityHeadHatBeret
@@ -88,12 +97,20 @@
 
 - type: characterItemGroup
   id: LoadoutMaskSecurity
+  maxItems: 1
   items:
     - type: loadout
       id: LoadoutSecurityMaskGasSwat
+    - type: loadout
+      id: LPPLoadoutSecurityEquipmentMaskGasSecurity
+    - type: loadout
+      id: LPPLoadoutSecurityEquipmentMaskBalaclavawide
+    - type: loadout
+      id: LoadoutClothingBreathMedicalSecurity
 
 - type: characterItemGroup
   id: LoadoutBeltSecurity
+  maxItems: 1
   items:
     - type: loadout
       id: LoadoutSecurityBeltWebbing
@@ -101,6 +118,8 @@
       id: LoadoutClothingBeltCorpsmanWebbing
     - type: loadout
       id: LoadoutClothingBeltSecurity
+    - type: loadout
+      id: LoadoutClothingBeltHolster
 
 - type: characterItemGroup
   id: LoadoutEyesSecurity
@@ -125,7 +144,7 @@
       id: LoadoutClothingShoesBootsCombat
 
 - type: characterItemGroup
-  maxItems: 5 # No clue what the actual number should be.
+  maxItems: 5
   id: LoadoutEquipmentSecurity
   items:
     - type: loadout
@@ -133,10 +152,156 @@
     - type: loadout
       id: LoadoutSecurityFlash
     - type: loadout
+      id: LoadoutSecurityCP
+    - type: loadout
+      id: LoadoutSecurityAM
+    - type: loadout
+      id: LoadoutSecurityBoxMagnumRubber
+    - type: loadout
+      id: LoadoutSecuritySpeadLoderMagnum
+    - type: loadout
+      id: LoadoutSecuritySpeadLoderMagnumRubber
+    - type: loadout
+      id: LoadoutSecurityMagazineMagnumRubber
+    - type: loadout
+      id: LoadoutSecurityMagazineMagnum
+    - type: loadout
+      id: LoadoutSecurityMagazinePistolRubber
+    - type: loadout
+      id: LoadoutSecurityMagazinePistol
+    - type: loadout
+      id: LoadoutSecuritySpeedLoaderSpecial
+    - type: loadout
+      id: LoadoutSecuritySpeedLoaderSpecialRubber
+    - type: loadout
+      id: LoadoutSecuritySpeedLoaderLightRifle
+    - type: loadout
+      id: LoadoutSecurityMagazineBoxLightRifleRubber
+    - type: loadout
+      id: LoadoutSecurityMagazineUniversalMagnum
+    - type: loadout
+      id: LoadoutSecurityMagazineUniversalMagnumRubber
+    - type: loadout
+      id: LoadoutSecurityMagazinePistolPF20Rubber
+    - type: loadout
+      id: LoadoutSecurityMagazinePistolPF20
+    - type: loadout
+      id: LoadoutSecurityMagazineShotgunBeanbag
+    - type: loadout
+      id: LoadoutSecurityMagazinePistolSpecialRubber
+    - type: loadout
+      id: LoadoutSecurityMagazinePistolSpecial
+
+- type: characterItemGroup
+  maxItems: 1
+  id: LoadoutWeaponSecurity
+  items:
+    - type: loadout
       id: LoadoutSecurityDisabler
     - type: loadout
-      id: LoadoutMagazinePistolRubber
+      id: LoadoutSecurityMk58
     - type: loadout
-      id: LoadoutSpeedLoaderMagnumRubber
+      id: LPPLoadoutSecurityEquipmentEnergyGunMini
+    - type: loadout
+      id: LoadoutSecurityM1911
+    - type: loadout
+      id: LoadoutSecuritySoleil
+    - type: loadout
+      id: LoadoutSecurityMk58Gold
+    - type: loadout
+      id: LoadoutSecurityFitz
+    - type: loadout
+      id: LoadoutSecurityMosin
+    - type: loadout
+      id: LoadoutSecurityDB
+    - type: loadout
+      id: LoadoutSecurityPollock
+    - type: loadout
+      id: LoadoutSecuritSvalinn
+    - type: loadout
+      id: LoadoutSecurityEquipmentTruncheon
+    - type: loadout
+      id: LoadoutSecurityNinemile
+    - type: loadout
+      id: LoadoutSecurityMaria
+    - type: loadout
+      id: LoadoutSecurityK38Master
+    - type: loadout
+      id: LoadoutSecurityLucky
+    - type: loadout
+      id: LoadoutSecurityViperWood
+    - type: loadout
+      id: LoadoutSecurityPeacemaker
+    - type: loadout
+      id: LoadoutSecurityDesertEagle
+    - type: loadout
+      id: LoadoutSecurityDesertEagleCamo
+    - type: loadout
+      id: LoadoutSecurityDesertEagleGold
+    - type: loadout
+      id: LoadoutSecurityLaserGun
+    - type: loadout
+      id: LoadoutSecurityPM
+    - type: loadout
+      id: LoadoutSecurityGrand
+    - type: loadout
+      id: LoadoutSecurityCeremonial
+    - type: loadout
+      id: LoadoutSecuritKammerer
+    - type: loadout
+      id: LoadoutSecurityDisablerSMG
+    - type: loadout
+      id: LoadoutSecurityPF20
+    - type: loadout
+      id: LoadoutSecurityUniversal
+    - type: loadout
+      id: LoadoutSecurityEnergyGunPistol
+    - type: loadout
+      id: LoadoutSecurityPanther
+    - type: loadout
+      id: LoadoutSecurityPravoved
+    - type: loadout
+      id: LoadoutSecurityLaserKomissar
+    - type: loadout
+      id: LoadoutSecurityJudge
 
+- type: characterItemGroup
+  maxItems: 1
+  id: LoadoutBackSecurity
+  items:
+    - type: loadout
+      id: LoadoutClothingBackSecurity
+    - type: loadout
+      id: LoadoutClothingBackSecuritySatchel
+    - type: loadout
+      id: LoadoutClothingBackSecurityDuffel
 
+- type: characterItemGroup
+  maxItems: 1
+  id: LoadoutBackSecurityEngineer
+  items:
+    - type: loadout
+      id: LoadoutClothingBackpackSecurityEngineer
+    - type: loadout
+      id: LoadoutClothingSatchelSecurityEngineer
+    - type: loadout
+      id: LoadoutClothingBackpackDuffelSecurityEngineer
+
+- type: characterItemGroup
+  maxItems: 1
+  id: LoadoutHoSWeapon
+  items:
+    - type: loadout
+      id: LoadoutCommandHoSPulsePistol
+    - type: loadout
+      id: LoadoutCommandHoSWt550
+    - type: loadout
+      id: LoadoutCommandHoSKatanaSheath
+    - type: loadout
+      id: LoadoutCommandHoSC20r
+    - type: loadout
+      id: LoadoutCommandHoSBulldog
+    - type: loadout
+      id: LoadoutCommandHoSEnergySword
+    - type: loadout
+      id: LoadoutCommandHoSEnergyGun

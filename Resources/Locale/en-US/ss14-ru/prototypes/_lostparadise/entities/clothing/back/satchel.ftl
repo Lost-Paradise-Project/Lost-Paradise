@@ -1,6 +1,3 @@
-ent-LPPClothingBackpackSatchelBlack = black satchel
-    .desc = A tough satchel with extra pockets.
-    .suffix = Sponsor
 ent-LPPClothingBackpackSatchelHop = hop satchel
     .desc = Convenient to throw off rifle magazines.
 ent-LPPClothingSatchelSmuggler = Smuggling Satchel

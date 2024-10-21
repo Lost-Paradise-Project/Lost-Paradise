@@ -2,7 +2,7 @@
 - type: emote
   id: Hiss
   category: Vocal
-  chatMessages: [ шипит ]
+  chatMessages: [ chat-emote-msg-hisses ]
   chatTriggers:
     - hisses
     - шипит
@@ -12,7 +12,7 @@
 - type: emote
   id: Meow
   category: Vocal
-  chatMessages: [ мяукает ]
+  chatMessages: [ chat-emote-msg-meow ]
   chatTriggers:
     - meows
     - miaus
@@ -26,7 +26,7 @@
 - type: emote
   id: Mew
   category: Vocal
-  chatMessages: [ мавает ]
+  chatMessages: [ chat-emote-msg-mews ]
   chatTriggers:
     - mews
     - мавает
@@ -36,7 +36,7 @@
 - type: emote
   id: Growl
   category: Vocal
-  chatMessages: [ рычит ]
+  chatMessages: [ chat-emote-msg-growl ]
   chatTriggers:
     - growls
     - рычит
@@ -47,7 +47,7 @@
 - type: emote
   id: Purr
   category: Vocal
-  chatMessages: [ мурлыкает ]
+  chatMessages: [ chat-emote-msg-purrs ]
   chatTriggers:
     - purrs
     - мурлыкает

@@ -18,3 +18,5 @@ ent-MofficTranslatorImplant = Moffic translator implant
     .desc = An implant designed to help domesticate mothroaches. Subsequently, allows you to communicate with the moth people.
 ent-ValyrianStandardTranslatorImplant = valyrian standard translator implant
     .desc = An implant giving the ability to understand and speak Valyrian Standard. Chirp!
+ent-AzazibaTranslatorImplant = azaziba translator implant
+    .desc = An implant giving the ability to understand and speak Azaziba.
