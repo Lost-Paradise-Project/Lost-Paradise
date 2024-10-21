@@ -306,6 +306,9 @@
       - !type:AdjustReagent
         reagent: Ethanol
         amount: 0.20
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.04
 
 
 - type: reagent
@@ -1334,6 +1337,9 @@
       - !type:AdjustReagent
         reagent: Ethanol
         amount: 0.133
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.04
 
 - type: reagent
   id: LongIslandIcedTea

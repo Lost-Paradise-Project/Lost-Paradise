@@ -1,0 +1,16 @@
+- type: reagent
+  id: LPPIndigestibleFiber
+  name: reagent-name-indigestible-fibre
+  group: Foods
+  desc: reagent-desc-indigestible-fibre
+  flavor: terrible
+  color: "#54753d"
+  physicalDesc: reagent-physical-desc-pungent
+  metabolisms:
+    Drink:
+      effects:
+      - !type:ChemVomit
+        conditions:
+        - !type:ReagentThreshold
+          min: 5
+        probability: 0.02
