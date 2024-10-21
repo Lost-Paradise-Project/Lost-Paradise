@@ -69,12 +69,7 @@ namespace Content.Server.Database
             modelBuilder.Entity<Sponsor>()          // _LostParadise-Sponsors
                 .HasIndex(p => p.UserId)
                 .IsUnique();
-
-            modelBuilder.Entity<Donate>()
-                .HasIndex(p => new { HumanoidProfileId = p.ProfileId, p.DonateName })
-                .IsUnique();
 #endif
-
             modelBuilder.Entity<Job>()
                 .HasIndex(j => j.ProfileId);
 
@@ -363,9 +358,6 @@ namespace Content.Server.Database
         public List<Job> Jobs { get; } = new();
         public List<Antag> Antags { get; } = new();
         public List<Trait> Traits { get; } = new();
-#if LPP_Sponsors  // _LostParadise-Sponsors
-        public List<Donate> Donate { get; } = new();
-#endif
         public List<Loadout> Loadouts { get; } = new();
 
         [Column("pref_unavailable")] public DbPreferenceUnavailableMode PreferenceUnavailable { get; set; }
@@ -410,16 +402,6 @@ namespace Content.Server.Database
 
         public string TraitName { get; set; } = null!;
     }
-
-#if LPP_Sponsors  // _LostParadise-Sponsors
-    public class Donate
-    {
-        public int Id { get; set; }
-        public Profile Profile { get; set; } = null!;
-        public int ProfileId { get; set; }
-        public string DonateName { get; set; } = null!;
-    }
-#endif
 
     public class Loadout
     {

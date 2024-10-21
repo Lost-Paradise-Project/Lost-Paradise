@@ -351,3 +351,41 @@ public sealed partial class CharacterItemGroupRequirement : CharacterRequirement
         return count < group.MaxItems;
     }
 }
+#if LPP_Sponsors
+[UsedImplicitly]
+[Serializable, NetSerializable]
+public sealed partial class CharacterSponsorRequirement : CharacterRequirement
+{
+    [DataField(required: true)]
+    public int Min;
+
+    [DataField(required: true)]
+    public int Max;
+
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0, string uuid = "")
+    {
+        reason = FormattedMessage.FromMarkup(Loc.GetString("character-sponsor-requirement", ("inverted", Inverted), ("min", Min), ("max", Max)));
+        return sponsorTier >= Min && sponsorTier <= Max;
+    }
+}
+
+[UsedImplicitly]
+[Serializable, NetSerializable]
+public sealed partial class CharacterUUIDRequirement : CharacterRequirement
+{
+    [DataField(required: true)]
+    public string Uuid;
+
+    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
+        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
+        out FormattedMessage? reason, int depth = 0, int sponsorTier = 0, string uuid = "")
+    {
+        reason = FormattedMessage.FromMarkup(Loc.GetString("character-uuid-requirement", ("uuid", Uuid)));
+        return uuid == Uuid;
+    }
+}
+#endif

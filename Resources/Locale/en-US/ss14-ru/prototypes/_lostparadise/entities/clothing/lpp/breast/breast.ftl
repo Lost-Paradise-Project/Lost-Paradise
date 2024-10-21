@@ -334,6 +334,3 @@ ent-LPPCutOutTop = Cut Out Top
     .desc = { ent-LPPClothingBreastBase.desc }
 ent-LPPCutOutTop2 = Cut Out Top v2
     .desc = { ent-LPPClothingBreastBase.desc }
-ent-LPPCowTop = Cow bra
-    .desc = Moo.
-    .suffix = SPONSOR

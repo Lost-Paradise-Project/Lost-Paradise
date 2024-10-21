@@ -32,12 +32,11 @@
 ### Зависимости
 
 > - Git
-> - .NET SDK 8.0.100
+> - .NET SDK 8.0.10x
 
 ### Windows
 
 > 1. Клонируйте репо `git clone https://github.com/Lost-Paradise-Project/Lost-Paradise.git`
-> 2. Впишите в консоль `git submodule update --init --recursive` для скачивания движка.
 > 3. Запустите `Scripts/bat/buildAllDebug.bat` после каждого измения.
 > 4. Запустите `Scripts/bat/runQuickAll.bat` для запуска клиента и сервера.
 > 5. Подключитесь к "localhost" в клиенте.
@@ -45,10 +44,13 @@
 ### Linux
 
 > 1. Клонируйте репо `git clone https://github.com/Lost-Paradise-Project/Lost-Paradise.git`
-> 2. Впишите в консоль `git submodule update --init --recursive` для скачивания движка.
 > 3. Запустите `Scripts/sh/buildAllDebug.sh` после каждого изменения. (После изменения папки Resources не требуется)
 > 4. Запустите `Scripts/sh/runQuickAll.sh` для запуска клиента и сервера.
 > 5. Подключитесь к "localhost" в клиенте.
+
+### Основные решения проблем
+
+Попробуйте удалить папку bin и внутренности robusttoolbox.
 
 # Лицензия
 Пожалуйста прочитайте файл [LEGAL.md](./LEGAL.md) для получения информации о лицензиях на все ресурсы в этом репозитории.

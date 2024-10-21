@@ -24,3 +24,7 @@ ent-LPPCartridgeMinigunAP = Патрон (.10 винтовочные броне�
     .desc = { ent-LPPBaseCartridgeMinigun.desc }
 ent-LPPCartridgeMinigunUranium = Патрон (.10 винтовочные урановые)
     .desc = { ent-LPPBaseCartridgeMinigun.desc }
+ent-LPPCartridgeAntiMaterielNonLethal = Патрон (.60 Нелетальный)
+    .desc = { ent-CartridgeAntiMateriel.desc }
+ent-LPPCartridgeAntiMaterielCP = Патрон (.60 Бетонобойный)
+    .desc = { ent-CartridgeAntiMateriel.desc }

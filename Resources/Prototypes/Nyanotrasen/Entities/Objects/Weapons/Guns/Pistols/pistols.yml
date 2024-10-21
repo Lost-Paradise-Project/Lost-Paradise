@@ -14,7 +14,7 @@
   - type: Clothing
     sprite: Nyanotrasen/Objects/Weapons/Guns/Pistols/universal.rsi
   - type: Gun
-    fireRate: 3
+    fireRate: 1.5
     availableModes:
     - SemiAuto
     soundGunshot:

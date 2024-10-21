@@ -195,15 +195,15 @@
     startingCharge: 800
   - type: ProjectileBatteryAmmoProvider
     proto: BulletDisabler
-    fireCost: 50
+    fireCost: 25
   - type: EnergyGun
     fireModes:
     - proto: BulletDisabler
-      fireCost: 50
+      fireCost: 25
       name: дизейблер
       state: disabler
     - proto: BulletEnergyGunLaser
-      fireCost: 100
+      fireCost: 40
       name: летальный
       state: lethal
   - type: MagazineVisuals

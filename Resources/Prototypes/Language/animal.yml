@@ -1,6 +1,7 @@
 # Languages spoken by various critters.
 - type: language
   id: Cat
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -13,6 +14,7 @@
 
 - type: language
   id: Dog
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -27,6 +29,7 @@
 
 - type: language
   id: Fox
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -42,6 +45,7 @@
 
 - type: language
   id: Xeno
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -52,6 +56,7 @@
 
 - type: language
   id: Monkey
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -62,6 +67,7 @@
 
 - type: language
   id: Mouse
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 2
@@ -78,6 +84,7 @@
 
 - type: language
   id: Chicken
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -89,6 +96,7 @@
 
 - type: language
   id: Duck
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -100,6 +108,7 @@
 
 - type: language
   id: Cow
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -110,6 +119,7 @@
 
 - type: language
   id: Sheep
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -121,6 +131,7 @@
 
 - type: language
   id: Kangaroo
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -133,6 +144,7 @@
 
 - type: language
   id: Pig
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -143,6 +155,7 @@
 
 - type: language
   id: Crab
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 1
@@ -158,6 +171,7 @@
 
 - type: language
   id: Kobold
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 2
@@ -177,6 +191,7 @@
 
 - type: language
   id: Hissing
+  isvisiblelanguage: false
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 2

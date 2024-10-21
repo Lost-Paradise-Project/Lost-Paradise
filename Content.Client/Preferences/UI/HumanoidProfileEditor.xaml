@@ -4,7 +4,6 @@
     xmlns:humanoid="clr-namespace:Content.Client.Humanoid"
     xmlns:cc="clr-namespace:Content.Client.Administration.UI.CustomControls"
     xmlns:ui="clr-namespace:Content.Client.UserInterface.Controls"
-    xmlns:donate="clr-namespace:Content.Client._LostParadise.Donate"
     HorizontalExpand="True">
     <!-- Left side -->
     <BoxContainer Orientation="Vertical" Margin="10 10 10 10" HorizontalExpand="True">
@@ -213,16 +212,6 @@
 
                 <ui:NeoTabContainer Name="CLoadoutsTabs" VerticalExpand="True" SeparatorMargin="0" />
             </BoxContainer>
-            <!-- Lost Paradise Donate Preferences Begin -->
-            <BoxContainer Orientation="Vertical" Margin="10" Name="LPPDonateTab">
-                <!-- Donate -->
-                <ScrollContainer HorizontalExpand="True" HScrollEnabled="True" VerticalExpand="True" VScrollEnabled="True">
-                    <BoxContainer Name="DonateList" Orientation="Vertical">
-                        <CheckBox></CheckBox>
-                    </BoxContainer>
-                </ScrollContainer>
-            </BoxContainer>
-            <!-- Lost Paradise Donate Preferences End -->
             <BoxContainer Name="CMarkingsTab" HorizontalExpand="True" Orientation="Vertical" Margin="10">
                 <ScrollContainer HorizontalExpand="True" HScrollEnabled="True" VerticalExpand="True" VScrollEnabled="True">
                     <!-- Markings -->

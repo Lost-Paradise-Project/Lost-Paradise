@@ -754,6 +754,8 @@
       - MagazineBoxRifle
       - MagazineBoxLightRifle
       - SpeedLoaderMagnum
+      - MagazineMagnum
+      - MagazineUniversalMagnum
       - ClothingOuterArmorPlateCarrier # DeltaV - plate carrier body armour
       - ClothingOuterArmorDuraVest # DeltaV - stabproof vest body armour
       - TargetHuman
@@ -775,6 +777,11 @@
       #LPP
       - LPPMagazineMagnumSubMachineGun
       - LPPMagazineBoxMinigun
+      - LPPMagazineBoxAntiMaterielNL
+      - LPPMagazineBoxAntiMaterielCP
+      - LPPCartridgeAntiMaterielCP
+      - LPPCartridgeAntiMaterielNL
+      - LPPWeaponGoliathSniper
       # End of modified code
     dynamicRecipes:
       - LPPSpaceForgeCircuitBoardCMDAndSec
