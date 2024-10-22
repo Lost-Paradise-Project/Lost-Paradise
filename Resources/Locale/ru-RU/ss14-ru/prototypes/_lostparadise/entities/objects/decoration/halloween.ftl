@@ -1,2 +1,2 @@
-ent-LPPPSpiderDeco = spiders
-    .desc = Fake spiders that look like they're ready to bite you.
+ent-LPPPSpiderDeco = паучки
+    .desc = Муляжи паучков которые выглядят так, будто готовы вас покусать.

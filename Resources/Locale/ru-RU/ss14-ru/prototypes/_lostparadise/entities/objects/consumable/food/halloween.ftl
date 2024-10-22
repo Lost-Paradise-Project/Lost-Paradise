@@ -1,10 +1,10 @@
-ent-LPPCandy = candy
-    .desc = This is my kingdom come, this is my kingdom come...
+ent-LPPCandy = конфета
+    .desc = Обычная конфета состоящия из сахара и других вещей
 ent-LPPCandy2 = { ent-LPPCandy }
     .desc = { ent-LPPCandy.desc }
 ent-LPPCandy3 = { ent-LPPCandy }
     .desc = { ent-LPPCandy.desc }
 ent-LPPCandy4 = { ent-LPPCandy }
     .desc = { ent-LPPCandy.desc }
-ent-LPPLolipop = lolipop
-    .desc = This is my kingdom come, this is my kingdom come...
+ent-LPPLolipop = конфета на палочке
+    .desc = Всё такая же конфета, но на палочке.

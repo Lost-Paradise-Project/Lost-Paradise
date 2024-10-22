@@ -1,8 +1,8 @@
-ent-HalloweenTree01 = dead tree
-    .desc = Dead tree with leaves on it, looks creepy.
-ent-HalloweenTree02 = dead tree
-    .desc = Dead tree with leaves on it, looks creepy.
-ent-HalloweenTree03 = dead tree
-    .desc = Dead tree with leaves on it, looks creepy.
-ent-HalloweenTree04 = dead tree
-    .desc = Dead tree with leaves on it, looks creepy.
+ent-HalloweenTree01 = мёртвое дерево
+    .desc = Мёртвое дерево с остатками листьев на нём, выглядит жутко.
+ent-HalloweenTree02 = мёртвое дерево
+    .desc = Мёртвое дерево с остатками листьев на нём, выглядит жутко.
+ent-HalloweenTree03 = мёртвое дерево
+    .desc = Мёртвое дерево с остатками листьев на нём, выглядит жутко.
+ent-HalloweenTree04 = мёртвое дерево
+    .desc = Мёртвое дерево с остатками листьев на нём, выглядит жутко.

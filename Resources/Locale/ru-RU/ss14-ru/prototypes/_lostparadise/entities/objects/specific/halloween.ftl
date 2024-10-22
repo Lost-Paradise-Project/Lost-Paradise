@@ -1,4 +1,4 @@
-ent-LPPPaperBagCandy = paper bag
-    .desc = A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
-ent-LPPPumpkinBagCandy = pumpkin bag
-    .desc = A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
+ent-LPPPaperBagCandy = бумажный пакет
+    .desc = Пакет из бумаги, украшен в тематике Хэллоиина.
+ent-LPPPumpkinBagCandy = корзинка из тыквы
+    .desc = Корзинка вырезанная из тыквы и приделанной ручкой.
