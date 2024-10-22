@@ -293,6 +293,14 @@
     Steel: 100
 
 - type: latheRecipe
+  id: MagazineMagnum
+  result: MagazineMagnum
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 150
+
+- type: latheRecipe
   id: MagazineUniversalMagnum
   result: MagazineUniversalMagnum
   category: Ammo

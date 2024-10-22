@@ -321,7 +321,7 @@
       departments:
         - Security
   items:
-    - LPPWeaponPistolPMgufuded112
+    - LPPWeaponPistolPMm
 
 - type: loadout
   id: LoadoutSecurityGrand
@@ -486,7 +486,7 @@
 - type: loadout
   id: LoadoutSecurityJudge
   category: JobsSecurity
-  cost: 6
+  cost: 7
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security
@@ -498,22 +498,6 @@
         - Security
   items:
     - LPPWeaponRevolverJudge
-
-- type: loadout
-  id: LoadoutSecurityAmina
-  category: JobsSecurity
-  cost: 6
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 600000 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutWeaponSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - LPPWeaponRevolverAmina
 
 #Пульки
 - type: loadout
@@ -527,7 +511,20 @@
       departments:
         - Security
   items:
-    - MagazineBoxAntiMateriel
+    - LPPMagazineBoxAntiMaterielNonLethal
+
+- type: loadout
+  id: LoadoutSecurityCP
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - LPPMagazineBoxAntiMaterielCocnterePiercing
 
 - type: loadout
   id: LoadoutSecurityBoxMagnumRubber

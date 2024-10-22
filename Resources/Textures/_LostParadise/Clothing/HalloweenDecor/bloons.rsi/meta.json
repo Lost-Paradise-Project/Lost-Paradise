@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Sprited by Mitsunere mitsunere(Discord)",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "icon_black"
+        },
+        {
+            "name": "black-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "black-inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "icon_white"
+        },
+        {
+            "name": "white-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "white-inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "icon_orange"
+        },
+        {
+            "name": "orange-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "orange-inhand-right",
+            "directions": 4
+        },
+        {
+            "name": "icon_bloons"
+        },
+        {
+            "name": "bloons-inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "bloons-inhand-right",
+            "directions": 4
+        }
+    ]
+}

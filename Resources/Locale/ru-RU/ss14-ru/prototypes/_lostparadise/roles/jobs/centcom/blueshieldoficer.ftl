@@ -1,2 +1,2 @@
-ent-LPPSpawnBlueShieldOfficer = Офицер "Синий щит"
+ent-LPPSpawnBlueShieldOfficer = Офицер "Синий Щит"
     .desc = { ent-SpawnPointJobBase.desc }

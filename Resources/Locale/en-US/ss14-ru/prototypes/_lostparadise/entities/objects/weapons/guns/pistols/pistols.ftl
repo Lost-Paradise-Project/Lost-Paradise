@@ -16,3 +16,5 @@ ent-LPPWeaponPistolMaria = maria
     .desc = A very iconic, to some extent acceptable weapon, looking at it, you were exposed to someone else's presence. Uses .35 auto ammo.
 ent-LPPWeaponPistolninemile = HM34
     .desc = An acceptable-medium quality pistol manufactured by a subsidiary of NanoTrasen. Uses .35 auto ammo.
+ent-LPPWeaponPistolPMm = PMm
+    .desc = Widely used in service of USSP pistol now repainted and used by some old-school securities. Uses .38 scecial ammo.

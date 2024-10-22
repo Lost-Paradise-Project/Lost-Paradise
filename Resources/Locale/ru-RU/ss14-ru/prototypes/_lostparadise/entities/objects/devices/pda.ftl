@@ -1,6 +1,6 @@
 ent-LPPSecurityEngineerPDA = КПК полевого инженера
     .desc = Красный, чтобы скрыть пятна крови пассажиров.
-ent-LPPBlueShieldOfficerPDA = КПК офицера "Синий щит"
+ent-LPPBlueShieldOfficerPDA = КПК офицера "Синий Щит"
     .desc = Пахнет защитой.
 ent-LPPAdjutantPDA = КПК Адъютанта
     .desc = Пора почувствовать себя крутым.
