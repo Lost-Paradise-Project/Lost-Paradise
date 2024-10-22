@@ -1,0 +1,10 @@
+ent-LPPCandy = candy
+    .desc = This is my kingdom come, this is my kingdom come...
+ent-LPPCandy2 = { ent-LPPCandy }
+    .desc = { ent-LPPCandy.desc }
+ent-LPPCandy3 = { ent-LPPCandy }
+    .desc = { ent-LPPCandy.desc }
+ent-LPPCandy4 = { ent-LPPCandy }
+    .desc = { ent-LPPCandy.desc }
+ent-LPPLolipop = lolipop
+    .desc = This is my kingdom come, this is my kingdom come...
