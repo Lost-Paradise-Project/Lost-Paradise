@@ -66,7 +66,7 @@
 
 - type: decal
   id: LPPBat-Bed-Mobile
-  tags: ["markup"]
+  tags: ["markings"]
   snapCardinals: true
   defaultSnap: false
   sprite:
@@ -75,7 +75,7 @@
 
 - type: decal
   id: LPPHallow-Jack
-  tags: ["flora"]
+  tags: ["markings"]
   snapCardinals: true
   defaultSnap: false
   sprite:
