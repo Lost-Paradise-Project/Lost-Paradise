@@ -70,7 +70,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/lifs.rsi
+    sprite: _LostParadise/Clothing/HalloweenDecor/lifs.rsi
     state: bat-bed-mobile
 
 - type: decal
@@ -79,7 +79,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/lifs.rsi
+    sprite: _LostParadise/Clothing/HalloweenDecor/lifs.rsi
     state: hallow-jack
 
 - type: entity
