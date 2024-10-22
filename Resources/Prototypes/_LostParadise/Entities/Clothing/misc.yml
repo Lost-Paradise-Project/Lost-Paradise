@@ -170,7 +170,7 @@
     tags:
     - Balloon
   - type: Construction
-    graph: blooons
+    graph: LPPbloons
     node: Blooons
 
 - type: construction
