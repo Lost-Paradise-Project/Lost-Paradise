@@ -1,0 +1,27 @@
+- type: entity
+  name: armband box
+  parent: BoxCardboard
+  id: LPPBoxArmband
+  description: A box of armbands.
+  components:
+  - type: Item
+    shape:
+    - 0,0,1,1
+  - type: StorageFill
+    contents:
+      - id: LPPArmbandRed
+        amount: 2
+      - id: LPPArmbandGreen
+        amount: 2
+      - id: LPPArmbandBlue
+        amount: 2
+      - id: LPPArmbandYellow
+        amount: 2
+      - id: LPPArmbandPurple
+        amount: 2
+      - id: LPPArmbandWhite
+        amount: 2
+  - type: Sprite
+    layers:
+      - state: box_security
+      - state: flashbang
