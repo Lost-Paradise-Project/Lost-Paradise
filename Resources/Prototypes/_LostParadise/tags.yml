@@ -163,3 +163,8 @@
 
 - type: Tag
   id: LPPProcessedDiamond
+
+# [Тэги экипировки]
+
+- type: Tag
+  id: LPPArmband  # Нарукавная повязка
