@@ -337,6 +337,8 @@
       - id: HoSIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+#LPP
+      - id: LPPBoxArmband
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -367,6 +369,8 @@
       - id: HoSIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+#LPP
+      - id: LPPBoxArmband
 
 - type: entity
   id: LockerFreezerVaultFilled
