@@ -3,9 +3,9 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface;
 using Robust.Shared.IoC;
 using Robust.Shared.Prototypes;
-using Robust.Client.UserInterface.Controllers;
 using System.Numerics;
 using Robust.Client.UserInterface.CustomControls;
+using Robust.Client.UserInterface.Controllers;
 
 namespace Content.Client._LostParadise.Roadmap
 {
@@ -23,7 +23,8 @@ namespace Content.Client._LostParadise.Roadmap
 
             var phaseList = new BoxContainer
             {
-                Orientation = BoxContainer.LayoutOrientation.Vertical
+                Orientation = BoxContainer.LayoutOrientation.Vertical,
+                SeparationOverride = 10 // Отступ между элементами
             };
             _roadmapWindow.AddChild(phaseList);
 
@@ -37,11 +38,8 @@ namespace Content.Client._LostParadise.Roadmap
             var roadmapSystem = IoCManager.Resolve<IPrototypeManager>();
             foreach (var phase in roadmapSystem.EnumeratePrototypes<RoadmapPhasePrototype>())
             {
-                var label = new Label
-                {
-                    Text = $"Название: {phase.Name}\nОписание: {phase.Description}\nПрогресс: {phase.Progress}%\nСтатус: {phase.Status}\nРелиз: {phase.ReleaseDate}"
-                };
-                phaseList.AddChild(label);
+                var phaseControl = new RoadmapPhaseControl(phase);
+                phaseList.AddChild(phaseControl);
             }
         }
 
@@ -63,5 +61,3 @@ namespace Content.Client._LostParadise.Roadmap
         }
     }
 }
-
-
