@@ -106,6 +106,10 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 3
     Medicine:
       effects:
       - !type:HealthChange
