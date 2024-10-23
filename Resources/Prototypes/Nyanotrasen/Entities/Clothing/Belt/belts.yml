@@ -37,7 +37,7 @@
     sprite: Nyanotrasen/Clothing/Belt/Martial/black.rsi
 
 - type: entity
-  parent: ClothingBeltStorageBase
+  parent: [ClothingBeltBase, ClothingSlotBase]
   id: ClothingBeltKatanaSheath
   name: katana sheaths
   description: An ornate belt designed to hold a pair of samurai's blades, or daisho.
@@ -47,18 +47,36 @@
     state: sheath
   - type: Clothing
     sprite: Nyanotrasen/Clothing/Belt/katanasheath.rsi
-  - type: Storage
-    grid:
-      - 0,0,3,1
-    whitelist:
-      tags:
-        - Katana
-  - type: ItemMapper
-    mapLayers:
-      sheath-sabre:
+  - type: ItemSlots
+    slots:
+      katana:
+        name: Katana
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        insertSound: /Audio/SimpleStation14/Items/Handling/sword_sheath.ogg
+        ejectSound: /Audio/SimpleStation14/Items/Handling/sword_unsheath.ogg
         whitelist:
           tags:
           - Katana
+      wakizashi:
+        name: Wakizashi
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        insertSound: /Audio/SimpleStation14/Items/Handling/sword_sheath.ogg
+        ejectSound: /Audio/SimpleStation14/Items/Handling/sword_unsheath.ogg
+        whitelist:
+          tags:
+          - Wakizashi
+  - type: ItemMapper
+    mapLayers:
+      sheath-katana:
+        whitelist:
+          tags:
+          - Katana
+      sheath-wakizashi:
+        whitelist:
+          tags:
+          - Wakizashi
   - type: Appearance
   - type: Tag
     tags:
