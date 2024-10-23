@@ -67,7 +67,7 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
         _escapeWindow.RoadmapButton.OnPressed += _ =>
         {
             CloseEscapeWindow();
-            UIManager.GetUIController<RoadmapUIController>().ToggleRoadmap();
+            UIManager.GetUIController<RoadmapUI>().ToggleRoadmap();
         };
 
         _escapeWindow.ChangelogButton.OnPressed += _ =>

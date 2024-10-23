@@ -1,7 +1,23 @@
-- type: roadmap
-  id: phase1
-  name: "Phase 1 - Core Mechanics"
-  description: "Initial implementation of core mechanics."
-  progress: 60
-  releaseDate: "2024-05-01"
-  status: "In Progress"
+- type: roadmapPhase
+  id: "phase1"
+  name: "Эльфы"
+  description: "Эльфы."
+  progress: 25
+  releaseDate: "2024-12-01"
+  status: "Делаю"
+
+- type: roadmapPhase
+  id: "phase2"
+  name: "Эльфы синдиката"
+  description: "Эльфы синдиката и их снаряжение."
+  progress: 10
+  releaseDate: "2025-03-15"
+  status: "Думаю"
+
+- type: roadmapPhase
+  id: "phase3"
+  name: "Эльфийский отряд"
+  description: "Отряд эльфийских оперативников, чтоб спиздить сервер НИО."
+  progress: 0
+  releaseDate: "2025-07-30"
+  status: "Не начал думать"

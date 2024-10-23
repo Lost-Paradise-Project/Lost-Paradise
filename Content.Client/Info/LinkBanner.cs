@@ -54,7 +54,7 @@ namespace Content.Client.Info
                 Text = Loc.GetString("server-info-roadmap-button"),
                 StyleClasses = { StyleBase.ButtonCaution },
             };
-            roadmapButton.OnPressed += _ => UserInterfaceManager.GetUIController<RoadmapUIController>().ToggleRoadmap();
+            roadmapButton.OnPressed += _ => UserInterfaceManager.GetUIController<RoadmapUI>().ToggleRoadmap();
             buttons.AddChild(roadmapButton);
 
             void AddInfoButton(string loc, CVarDef<string> cVar)
