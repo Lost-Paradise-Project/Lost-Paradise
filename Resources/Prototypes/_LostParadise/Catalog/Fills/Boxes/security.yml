@@ -7,21 +7,28 @@
   - type: Item
     shape:
     - 0,0,1,1
+  - type: Storage
+    grid:
+    - 0,0,5,2
+    whitelist:
+      tags:
+        - LPPArmband
   - type: StorageFill
     contents:
       - id: LPPArmbandRed
-        amount: 2
+        amount: 3
       - id: LPPArmbandGreen
-        amount: 2
+        amount: 3
       - id: LPPArmbandBlue
-        amount: 2
+        amount: 3
       - id: LPPArmbandYellow
-        amount: 2
+        amount: 3
       - id: LPPArmbandPurple
-        amount: 2
+        amount: 3
       - id: LPPArmbandWhite
-        amount: 2
+        amount: 3
   - type: Sprite
+    sprite: _LostParadise/Objects/Storage/boxes.rsi
     layers:
       - state: box_security
-      - state: flashbang
+      - state: armband
