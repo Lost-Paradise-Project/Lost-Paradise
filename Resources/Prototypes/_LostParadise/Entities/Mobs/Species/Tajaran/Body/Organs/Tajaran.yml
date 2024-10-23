@@ -4,10 +4,17 @@
   noSpawn: true
   components:
   - type: Stomach
-    specialDigestible:
-      tags:
-      - Meat
-      - Pill
+    poorlyDigestibleFood:
+      reducedReagents:
+        - Nutriment
+        - Vitamin
+      whitelistTags:
+        - Fruit # Bread/Pizza tags aren't included according to the LostParadise's lore
+        - Vegetable
+      blacklistTags:
+        - Meat # Meat-based food is excluded in order not to force the carnivores to be meat-purists
+      factor: 0.25
+      replacementReagent: LPPIndigestibleFiber
   - type: SolutionContainerManager
     solutions:
       stomach:
@@ -17,3 +24,9 @@
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
+  - type: Metabolizer
+    maxReagents: 3
+    metabolizerTypes: [ Animal ]
+    groups:
+      - id: Food
+      - id: Drink

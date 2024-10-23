@@ -1,0 +1,224 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingJumpsuitMummy
+  name: Mummy bandages
+  description: "They look like ordinary toilet paper rolls and tea bags. But if you soak the former in the latter, you'll get some great aged bandages!"
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/Jumpsuit/mummy.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/Jumpsuit/mummy.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingJumpsuitWerewolf
+  name: Werewolf suit
+  description: "It looks like the fur and skin of a real vulp. Someone must have done a lot of work to recreate this, or.... Wait..."
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/Jumpsuit/werewolf.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/Jumpsuit/werewolf.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckCloakDracula
+  name: Dracula's cloak
+  description: "This cape is straight out of Transylvania of the most legendary bloodsucker in the history of mankind. It smells like garlic and aspen."
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/Neck/Cloaks/dracula.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/Neck/Cloaks/dracula.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: LPPClothingOuterGhostSheet
+  name: Ghost sheet
+  description: "A sheet with marker sunglasses in the “head” area. It's really cool."
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/OuterClothing/Misc/coolerghostsheet.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/OuterClothing/Misc/coolerghostsheet.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingJumpsuitPumpkin
+  name: Pumpkin longsleeve
+  description: "A cheap-looking longsleeve that you can buy for a couple dozen credits in some secondhand on Halloween."
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/pumk.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/pumk.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingJumpsuitWitch
+  name: Witch suit
+  description: "A complete set of clothes for the most real witches, not heat-resistant, if you are sent to the bonfire - it is recommended to remove the costume for its safety."
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/witch.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/HalloweenDecor/Clothing/witch.rsi
+
+- type: decal
+  id: LPPBat-Bed-Mobile
+  tags: ["markings"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _LostParadise/Clothing/HalloweenDecor/lifs.rsi
+    state: bat-bed-mobile
+
+- type: decal
+  id: LPPHallow-Jack
+  tags: ["markings"]
+  snapCardinals: true
+  defaultSnap: false
+  sprite:
+    sprite: _LostParadise/Clothing/HalloweenDecor/lifs.rsi
+    state: hallow-jack
+
+- type: entity
+  parent: BaseItem
+  id: LPPBalloonHalloweenBlack
+  name: Black balloon
+  description: "Spooky balloon!"
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/HalloweenDecor/bloons.rsi
+    state: icon_black
+  - type: Item
+    size: Small
+    sprite: _LostParadise/Clothing/HalloweenDecor/bloons.rsi
+    heldPrefix: black
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Tag
+    tags:
+    - Balloon
+    - Bblloon
+  - type: Construction
+    graph: LPPbloons
+    node: start
+
+- type: entity
+  parent: BaseItem
+  id: LPPBalloonHalloweenWhite
+  name: White balloon
+  description: "Spooky balloon!"
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/HalloweenDecor/bloons.rsi
+    state: icon_white
+  - type: Item
+    size: Small
+    sprite: _LostParadise/Clothing/HalloweenDecor/bloons.rsi
+    heldPrefix: white
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Tag
+    tags:
+    - Balloon
+    - Wblloon
+  - type: Construction
+    graph: LPPbloons
+    node: start
+
+- type: entity
+  parent: BaseItem
+  id: LPPBalloonHalloweenOrange
+  name: Orange balloon
+  description: "Spooky balloon!"
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/HalloweenDecor/bloons.rsi
+    state: icon_orange
+  - type: Item
+    size: Small
+    sprite: _LostParadise/Clothing/HalloweenDecor/bloons.rsi
+    heldPrefix: orange
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Tag
+    tags:
+    - Balloon
+    - Oblloon
+  - type: Construction
+    graph: LPPbloons
+    node: start
+
+- type: entity
+  parent: BaseItem
+  id: LPPBalloonHalloweenBloons
+  name: Halloween balloons
+  description: "Spooky balloons!"
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/HalloweenDecor/bloons.rsi
+    state: icon_bloons
+  - type: Item
+    size: Small
+    sprite: _LostParadise/Clothing/HalloweenDecor/bloons.rsi
+    heldPrefix: bloons
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Tag
+    tags:
+    - Balloon
+  - type: Construction
+    graph: LPPbloons
+    node: Blooons
+
+- type: construction
+  name: Blooons
+  id: LPPBloons
+  graph: LPPbloons
+  startNode: start
+  targetNode: Blooons
+  category: construction-category-utilities
+  objectType: Item
+  description: "Spooky balloons!"
+  icon:
+    sprite: _LostParadise/Clothing/HalloweenDecor/bloons.rsi
+    state: icon_bloons
+
+- type: constructionGraph
+  id: LPPbloons
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: Blooons
+      steps:
+      - tag: Oblloon
+        icon:
+          sprite: _LostParadise/Clothing/HalloweenDecor/bloons.rsi
+          state: icon_orange
+        name: Orange balloon
+      - tag: Wblloon
+        icon:
+          sprite: _LostParadise/Clothing/HalloweenDecor/bloons.rsi
+          state: icon_white
+        name: White balloon
+        doAfter: 2
+      - tag: Bblloon
+        icon:
+          sprite: _LostParadise/Clothing/HalloweenDecor/bloons.rsi
+          state: icon_black
+        name: Black balloon
+        doAfter: 2
+  - node: Blooons
+    entity: LPPBalloonHalloweenBloons
+
+- type: Tag
+  id: Wblloon
+
+- type: Tag
+  id: Bblloon
+
+- type: Tag
+  id: Oblloon

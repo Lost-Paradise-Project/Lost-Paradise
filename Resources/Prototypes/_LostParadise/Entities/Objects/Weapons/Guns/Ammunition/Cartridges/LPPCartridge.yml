@@ -143,3 +143,51 @@
   - type: CartridgeAmmo
     proto: LPPBulletMinigunUranium
     deleteOnSpawn: true
+
+- type: entity
+  parent: CartridgeAntiMateriel
+  id: LPPCartridgeAntiMaterielNonLethal
+  name: cartridge (.60 Non-lethal)
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeAntiMateriel
+  - type: CartridgeAmmo
+    proto: LPPBulletAntiMaterielNonlethal
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+    - state: tip
+      map: [ "enum.AmmoVisualLayers.Tip" ]
+      color: "#32a2a8"
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: StaticPrice
+    price: 20
+
+- type: entity
+  parent: CartridgeAntiMateriel
+  id: LPPCartridgeAntiMaterielCP
+  name: cartridge (.60 Cocntere-Piercing)
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeAntiMateriel
+  - type: CartridgeAmmo
+    proto: LPPBulletAntiMaterielCP
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+    - state: tip
+      map: [ "enum.AmmoVisualLayers.Tip" ]
+      color: "#870e0e"
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: StaticPrice
+    price: 20

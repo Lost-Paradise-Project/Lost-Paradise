@@ -25,6 +25,8 @@
     slots:
     - suitStorage
     - Belt
+  - type: UseDelay
+    delay: 0
   - type: Gun
     fireRate: 6
     selectedMode: SemiAuto
