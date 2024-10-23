@@ -6,27 +6,46 @@ using Robust.Shared.Prototypes;
 using System.Numerics;
 using Robust.Client.UserInterface.CustomControls;
 using Robust.Client.UserInterface.Controllers;
+using System.Linq;
 
 namespace Content.Client._LostParadise.Roadmap
 {
     public sealed class RoadmapUI : UIController
     {
-        private DefaultWindow _roadmapWindow; 
+        private DefaultWindow _roadmapWindow;
 
         public RoadmapUI()
         {
             _roadmapWindow = new DefaultWindow
             {
-                Title = "Roadmap",
-                SetSize = new Vector2(600, 400)
+                Title = "План разработки Lost Paradise",
+                SetSize = new Vector2(600, 400),
+                Resizable = false
+            };
+
+            var panelContainer = new PanelContainer
+            {
+                MinSize = new Vector2(580, 380),
+                ModulateSelfOverride = Color.Transparent,
+                Margin = new Thickness(10)
+            };
+
+            var scrollContainer = new ScrollContainer
+            {
+                HorizontalExpand = true,
+                VerticalExpand = true,
+                Margin = new Thickness(0, 20, 0, 0)
             };
 
             var phaseList = new BoxContainer
             {
                 Orientation = BoxContainer.LayoutOrientation.Vertical,
-                SeparationOverride = 10 // Отступ между элементами
+                SeparationOverride = 10
             };
-            _roadmapWindow.AddChild(phaseList);
+
+            scrollContainer.AddChild(phaseList);
+            panelContainer.AddChild(scrollContainer);
+            _roadmapWindow.AddChild(panelContainer);
 
             RefreshUI(phaseList);
         }
@@ -36,16 +55,15 @@ namespace Content.Client._LostParadise.Roadmap
             phaseList.RemoveAllChildren();
 
             var roadmapSystem = IoCManager.Resolve<IPrototypeManager>();
-            foreach (var phase in roadmapSystem.EnumeratePrototypes<RoadmapPhasePrototype>())
+
+            var roadmapPhases = roadmapSystem.EnumeratePrototypes<RoadmapPhasePrototype>()
+                                            .OrderBy<RoadmapPhasePrototype, int>(phase => phase.Order);
+
+            foreach (var phase in roadmapPhases)
             {
                 var phaseControl = new RoadmapPhaseControl(phase);
                 phaseList.AddChild(phaseControl);
             }
-        }
-
-        public void UpdatePhase(RoadmapPhasePrototype phase)
-        {
-            RefreshUI((BoxContainer)_roadmapWindow.GetChild(0));
         }
 
         public void ToggleRoadmap()

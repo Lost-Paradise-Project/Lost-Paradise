@@ -3,7 +3,7 @@ using Robust.Shared.Serialization.Manager.Attributes;
 
 namespace Content.Shared._LostParadise.Roadmap
 {
-    [Prototype("roadmapPhase")]
+    [Prototype("roadmap")]
     public class RoadmapPhasePrototype : IPrototype
     {
         [IdDataField]
@@ -22,6 +22,8 @@ namespace Content.Shared._LostParadise.Roadmap
         public string ReleaseDate { get; set; } = string.Empty;
 
         [DataField("status")]
-        public string Status { get; set; } = "In Progress";
+        public string Status { get; set; } = "roadmap-goal-waiting";
+        [DataField("order")]
+        public int Order { get; set; }
     }
 }

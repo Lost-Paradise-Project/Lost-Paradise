@@ -1,23 +1,26 @@
-- type: roadmapPhase
-  id: "phase1"
+- type: roadmap
+  id: "roadmap1"
   name: "Эльфы"
-  description: "Эльфы."
-  progress: 25
-  releaseDate: "2024-12-01"
-  status: "Делаю"
+  description: "Эльфы, эльфы!"
+  progress: 100
+  releaseDate: "2024-10-20"
+  status: roadmap-goal-completed
+  order: 0
 
-- type: roadmapPhase
-  id: "phase2"
+- type: roadmap
+  id: "roadmap2"
   name: "Эльфы синдиката"
   description: "Эльфы синдиката и их снаряжение."
   progress: 10
   releaseDate: "2025-03-15"
-  status: "Думаю"
+  status: roadmap-goal-progress
+  order: 1
 
-- type: roadmapPhase
-  id: "phase3"
+- type: roadmap
+  id: "roadmap3"
   name: "Эльфийский отряд"
   description: "Отряд эльфийских оперативников, чтоб спиздить сервер НИО."
   progress: 0
   releaseDate: "2025-07-30"
-  status: "Не начал думать"
+  status: roadmap-goal-waiting
+  order:  2
