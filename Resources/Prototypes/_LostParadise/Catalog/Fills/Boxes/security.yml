@@ -21,11 +21,11 @@
         amount: 3
       - id: LPPArmbandBlue
         amount: 3
+      - id: LPPArmbandWhite
+        amount: 3
       - id: LPPArmbandYellow
         amount: 3
       - id: LPPArmbandPurple
-        amount: 3
-      - id: LPPArmbandWhite
         amount: 3
   - type: Sprite
     sprite: _LostParadise/Objects/Storage/boxes.rsi

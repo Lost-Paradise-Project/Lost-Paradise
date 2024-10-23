@@ -16,17 +16,6 @@
 
 - type: entity
   parent: LPPArmband
-  id: LPPArmbandWhite
-  name: white armband
-  description:
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_white.rsi
-  - type: Clothing
-    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_white.rsi
-
-- type: entity
-  parent: LPPArmband
   id: LPPArmbandRed
   name: red armband
   description: 
@@ -57,6 +46,17 @@
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_blue.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_blue.rsi
+
+- type: entity
+  parent: LPPArmband
+  id: LPPArmbandWhite
+  name: white armband
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_white.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_white.rsi
 
 - type: entity
   parent: LPPArmband
