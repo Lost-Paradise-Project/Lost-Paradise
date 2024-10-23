@@ -1,19 +1,32 @@
 - type: entity
-  parent: ClothingNeckBase
+  abstract: true
+  parent: ClothingNeckBase  # Will be implemented as attachment instead of clothing later
+  id: LPPArmband
+  components:
+  - type: Tag
+    tags:
+    - LPPArmband
+  - type: Item
+    size: Tiny
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: MaterialCloth1
+      amount: 1
+
+- type: entity
+  parent: LPPArmband
   id: LPPArmbandWhite
   name: white armband
   description:
   components:
-  - type: Item
-    shape:
-    - 0,0,0,0
   - type: Sprite
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_white.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_white.rsi
 
 - type: entity
-  parent: LPPArmbandWhite
+  parent: LPPArmband
   id: LPPArmbandRed
   name: red armband
   description: 
@@ -24,7 +37,7 @@
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_red.rsi
 
 - type: entity
-  parent: LPPArmbandWhite
+  parent: LPPArmband
   id: LPPArmbandGreen
   name: green armband
   description:
@@ -35,7 +48,7 @@
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_green.rsi
 
 - type: entity
-  parent: LPPArmbandWhite
+  parent: LPPArmband
   id: LPPArmbandBlue
   name: blue armband
   description:
@@ -46,7 +59,7 @@
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_blue.rsi
 
 - type: entity
-  parent: LPPArmbandWhite
+  parent: LPPArmband
   id: LPPArmbandYellow
   name: yellow armband
   description:
@@ -57,7 +70,7 @@
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_yellow.rsi
 
 - type: entity
-  parent: LPPArmbandWhite
+  parent: LPPArmband
   id: LPPArmbandPurple
   name: purple armband
   description:
