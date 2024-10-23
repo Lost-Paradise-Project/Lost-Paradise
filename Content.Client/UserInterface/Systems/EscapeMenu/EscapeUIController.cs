@@ -1,4 +1,5 @@
-﻿using Content.Client.Gameplay;
+﻿using Content.Client._LostParadise.Roadmap;
+using Content.Client.Gameplay;
 using Content.Client.UserInterface.Controls;
 using Content.Client.UserInterface.Systems.Guidebook;
 using Content.Client.UserInterface.Systems.Info;
@@ -62,6 +63,12 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
 
         _escapeWindow.OnClose += DeactivateButton;
         _escapeWindow.OnOpen += ActivateButton;
+
+        _escapeWindow.RoadmapButton.OnPressed += _ =>
+        {
+            CloseEscapeWindow();
+            UIManager.GetUIController<RoadmapUIController>().ToggleRoadmap();
+        };
 
         _escapeWindow.ChangelogButton.OnPressed += _ =>
         {

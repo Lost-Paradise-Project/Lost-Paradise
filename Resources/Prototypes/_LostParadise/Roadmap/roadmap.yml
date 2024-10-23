@@ -1,0 +1,7 @@
+- type: roadmap
+  id: phase1
+  name: "Phase 1 - Core Mechanics"
+  description: "Initial implementation of core mechanics."
+  progress: 60
+  releaseDate: "2024-05-01"
+  status: "In Progress"
