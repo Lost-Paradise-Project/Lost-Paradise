@@ -135,15 +135,15 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { ";)", "chatsan-winks" },
         { ";]", "chatsan-winks" },
         { "(;", "chatsan-winks" },
-        { "[;", "chatsan-winks" },
+        { "[;", "chatsan-winks" }, // ; в OOC
         { ":')", "chatsan-tearfully-smiles" },
         { ":']", "chatsan-tearfully-smiles" },
-        { "=')", "chatsan-tearfully-smiles" },
+        { "=')", "chatsan-tearfully-smiles" }, // =' + улыбается
         { "=']", "chatsan-tearfully-smiles" },
         { "(':", "chatsan-tearfully-smiles" },
-        { "[':", "chatsan-tearfully-smiles" },
+        { "[':", "chatsan-tearfully-smiles" }, // ': в OOC
         { "('=", "chatsan-tearfully-smiles" },
-        { "['=", "chatsan-tearfully-smiles" },
+        { "['=", "chatsan-tearfully-smiles" }, // '= в админ чат
     };
 
     private bool _doSanitize;
