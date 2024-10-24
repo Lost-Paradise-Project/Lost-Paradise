@@ -782,6 +782,16 @@
       - LPPCartridgeAntiMaterielCP
       - LPPCartridgeAntiMaterielNL
       - LPPWeaponGoliathSniper
+      - LPPMagazineM4A1Practice
+      - LPPMagazinePistolPF20Lethal
+      - LPPMagazinePistolPF20Practice
+      - LPPCartridgePracticeM4A1
+      - LPPCartridgeM4A1Lethal
+      - LPPMagazineRifleM4A1Lethal
+      - LPPMagazineBoxM4A1Lethal
+      - LPPMagazineBoxM4A1BigPractice
+      - LPPMagazineBoxM4A1Practice
+      - LPPMagazineBoxM4A1BigLethal
       # End of modified code
     dynamicRecipes:
       - LPPSpaceForgeCircuitBoardCMDAndSec
@@ -863,6 +873,11 @@
       #LPP
       - LPPMagazineBoxMinigunPractice
       - LPPMagazineBoxMinigunRubber
+      - LPPMagazinePistolPF20Rubber
+      - LPPMagazinePistolPF20Uranium
+      - LPPMagazinePistolPF20Incendiary
+      - LPPMagazineM4A1Rubber
+      - LPPMagazineM4A1Uranium
       # End of modified code
   - type: MaterialStorage
     whitelist:

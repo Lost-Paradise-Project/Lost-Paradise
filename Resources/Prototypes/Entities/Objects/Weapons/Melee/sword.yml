@@ -19,7 +19,7 @@
         Slash: 17 #cmon, it has to be at least BETTER than the rest.
     heavyRateModifier: 0.8
     heavyRangeModifier: 1
-    heavyDamageBaseModifier: 1
+    heavyDamageBaseModifier: 1.25
     heavyStaminaCost: 5
     maxTargets: 7
     angle: 80
@@ -48,6 +48,12 @@
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Melee/katana.rsi #DeltaV
     state: icon
+  - type: Clothing
+    sprite: DeltaV/Objects/Weapons/Melee/katana.rsi #DeltaV and LPP!
+    slots:
+    - Back
+    - Belt
+    - Suitstorage
   - type: MeleeWeapon
     wideAnimationRotation: -135
     attackRate: 1.5
@@ -55,11 +61,11 @@
       path: /Audio/SimpleStation14/Weapons/Melee/rapierhit.ogg
     damage:
       types:
-        Slash: 12
-    heavyRateModifier: 0.5
+        Slash: 14
+    heavyRateModifier: 0.75
     heavyRangeModifier: 2.75 #Superior Japanese folded steel
-    heavyDamageBaseModifier: 1.25
-    heavyStaminaCost: 15
+    heavyDamageBaseModifier: 1.3
+    heavyStaminaCost: 10
     maxTargets: 1
     angle: 20
   - type: Item

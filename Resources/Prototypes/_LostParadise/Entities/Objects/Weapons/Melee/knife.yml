@@ -81,7 +81,7 @@
   - type: DisarmMalus
     malus: 0.225
   - type: ThrowingAngle
-    angle: 1
+    angle: 350
   - type: MeleeChemicalInjector
     solution: melee
   - type: RefillableSolution
@@ -93,3 +93,4 @@
     solution: melee
   - type: SolutionTransfer
     maxTransferAmount: 3
+  - type: Sharp

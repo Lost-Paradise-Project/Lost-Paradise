@@ -31,3 +31,5 @@
   - type: Battery
     maxCharge: 3500
     startingCharge: 3500
+  - type: UseDelay
+    delay: 0
