@@ -227,14 +227,6 @@
    Plastic: 550
 
 - type: latheRecipe
-  id: LPPMagazineM4A1Lethal
-  result: LPPMagazineRifleM4A1Lethal
-  category: Ammo
-  completetime: 5
-  materials:
-    Steel: 375
-
-- type: latheRecipe
   id: LPPMagazineM4A1Practice
   result: LPPMagazineRifleM4A1Practice
   category: Ammo
