@@ -61,17 +61,10 @@
     Xeno: 1
 
 - type: weightedRandom
-  id: StationGoalSecurity
-  weights:
-    Combat: 1
-
-- type: weightedRandom
   id: StationGoalStation
   weights:
     Area: 1
     BureaucraticError: 1
-    Labor: 1
-    Lectures: 1
     Museum: 1
     Shuttle: 1
     Storage: 1
