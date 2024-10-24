@@ -1,4 +1,3 @@
-
 - type: entity
   name: desert eagle
   parent: WeaponPistolUniversal
@@ -60,6 +59,8 @@
         whitelist:
           tags:
             - CartridgeSpecial
+  - type: UseDelay
+    delay: 0
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot

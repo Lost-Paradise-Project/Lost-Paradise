@@ -11,15 +11,6 @@
   id: BureaucraticError
 
 - type: stationGoal
-  id: Combat
-
-- type: stationGoal
-  id: Labor
-
-- type: stationGoal
-  id: Lectures
-
-- type: stationGoal
   id: Museum
 
 - type: stationGoal

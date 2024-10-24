@@ -150,7 +150,7 @@
   category: Ammo
   completetime: 5
   materials:
-    Plastic: 1950
+    Plastic: 2000
 
 - type: latheRecipe
   id: LPPMagazineBoxAntiMaterielCP
@@ -158,7 +158,7 @@
   category: Ammo
   completetime: 5
   materials:
-    Steel: 2500
+    Steel: 3000
 
 - type: latheRecipe
   id: LPPCartridgeAntiMaterielNL
@@ -166,7 +166,7 @@
   category: Ammo
   completetime: 1
   materials:
-    Plastic: 500
+    Plastic: 200
 
 - type: latheRecipe
   id: LPPCartridgeAntiMaterielCP
@@ -174,7 +174,7 @@
   category: Ammo
   completetime: 1
   materials:
-    Steel: 1200
+    Steel: 300
 
 - type: latheRecipe
   id: LPPWeaponGoliathSniper
@@ -184,3 +184,77 @@
     Plastic: 2000
     Steel: 10000
     Glass: 2500
+
+- type: latheRecipe
+  id: LPPMagazinePistolPF20Lethal
+  result: LPPMagazinePistolPF20lethal
+  category: Ammo
+  completetime: 5
+  materials:
+   Steel: 550
+
+- type: latheRecipe
+  id: LPPMagazinePistolPF20Practice
+  result: LPPMagazinePistolPF20Practice
+  category: Ammo
+  completetime: 5
+  materials:
+   Steel: 350
+
+- type: latheRecipe
+  id: LPPMagazinePistolPF20Rubber
+  result: LPPMagazinePistolPF20Rubber
+  category: Ammo
+  completetime: 5
+  materials:
+   Plastic: 400
+
+- type: latheRecipe
+  id: LPPMagazinePistolPF20Uranium
+  result: LPPMagazinePistolPF20Uranium
+  category: Ammo
+  completetime: 5
+  materials:
+   Plastic: 450
+   Uranium: 75
+
+- type: latheRecipe
+  id: LPPMagazinePistolPF20Incendiary
+  result: LPPMagazinePistolPF20Incendiary
+  category: Ammo
+  completetime: 5
+  materials:
+   Plastic: 550
+
+- type: latheRecipe
+  id: LPPMagazineM4A1Lethal
+  result: LPPMagazineRifleM4A1Lethal
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 375
+
+- type: latheRecipe
+  id: LPPMagazineM4A1Practice
+  result: LPPMagazineRifleM4A1Practice
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 300
+
+- type: latheRecipe
+  id: LPPMagazineM4A1Rubber
+  result: LPPMagazineRifleM4A1Rubber
+  category: Ammo
+  completetime: 5
+  materials:
+    Plastic: 475
+
+- type: latheRecipe
+  id: LPPMagazineM4A1Uranium
+  result: LPPMagazineRifleM4A1Uranium
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 300
+    Uranium: 50
