@@ -14,7 +14,7 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         // Corvax-Localization-Start
         { "хд", "chatsan-laughs" },
         { "хд.", "chatsan-laughs" },
-        { "o-о", "chatsan-wide-eyed" }, // cyrillic о нет
+        { "о-о", "chatsan-wide-eyed" }, // cyrillic о нет
         { "о.о", "chatsan-wide-eyed" }, // cyrillic о нет
         { "0_о", "chatsan-wide-eyed" }, // cyrillic о нет
         { "о/", "chatsan-waves" }, // cyrillic о
