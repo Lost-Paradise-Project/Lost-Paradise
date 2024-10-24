@@ -20,7 +20,7 @@
           components:
             - IdCard
     - type: AccessReader
-      access: [["DV-SpareSafe"]]
+      access: [["Command"]]
 
 - type: entity
   id: SpareIdCabinetFilled
