@@ -1,0 +1,47 @@
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterHalloweenFamily
+  name: ghoast family
+  description: Picture of a family of ghosts, they look happy.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Wallmounts/halloween.rsi
+    state: picture_family
+    noRot: true
+
+- type: entity
+  parent: LPPPosterBase
+  id: LPPPosterHalloweencounts
+  name: count's painting
+  description: Picture of some kind of vampire, the sight of him makes you feel cold.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Wallmounts/halloween.rsi
+    state: сounts_painting
+    noRot: true
+
+- type: entity
+  parent: BaseSign
+  id: LPPPCheckboxes
+  name: checkboxes
+  description: Black and orange flags, it's got a halloween feel to it. 
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Wallmounts/halloween.rsi
+    state: checkboxes
+    noRot: true
+
+- type: entity
+  parent: BaseSign
+  id: LPPPLightbulbs
+  name: light bulbs
+  description: Hanging garland, not the best source of light
+  components:
+  - type: PointLight
+    radius: 2.0
+    energy: 2.5
+    color: "#e8b964"
+  - type: Sprite
+    sprite: _LostParadise/Structures/Wallmounts/halloween.rsi
+    state: light_bulbs
+    noRot: true
