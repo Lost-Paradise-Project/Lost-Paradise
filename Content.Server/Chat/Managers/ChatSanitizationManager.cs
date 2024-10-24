@@ -14,12 +14,12 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         // Corvax-Localization-Start
         { "хд", "chatsan-laughs" },
         { "хд.", "chatsan-laughs" },
-        { "о-о", "chatsan-wide-eyed" }, // cyrillic о
-        { "о.о", "chatsan-wide-eyed" }, // cyrillic о
-        { "0_о", "chatsan-wide-eyed" }, // cyrillic о
+        { "о-о", "chatsan-wide-eyed" }, // cyrillic о нет
+        { "о.о", "chatsan-wide-eyed" }, // cyrillic о нет
+        { "0_о", "chatsan-wide-eyed" }, // cyrillic о нет
         { "о/", "chatsan-waves" }, // cyrillic о
         { "о7", "chatsan-salutes" }, // cyrillic о
-        { "0_o", "chatsan-wide-eyed" },
+        { "0_o", "chatsan-wide-eyed" }, // нет
         { "лмао", "chatsan-laughs" },
         { "лмао.", "chatsan-laughs" },
         { "рофл", "chatsan-laughs" },
@@ -27,11 +27,11 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "яхз", "chatsan-shrugs" },
         { "яхз.", "chatsan-shrugs" },
         { ":0", "chatsan-surprised" },
-        { ":р", "chatsan-stick-out-tongue" }, // cyrillic р
+        { ":р", "chatsan-stick-out-tongue" }, // cyrillic р . в канал гарнитуры
         { "кек", "chatsan-laughs" },
         { "кек.", "chatsan-laughs" },
-        { "T_T", "chatsan-cries" },
-        { "Т_Т", "chatsan-cries" }, // cyrillic T
+        { "T_T", "chatsan-cries" }, // нет
+        { "Т_Т", "chatsan-cries" }, // cyrillic T нет
         { "=_(", "chatsan-cries" },
         { "!с", "chatsan-laughs" },
         { "!с.", "chatsan-laughs" },
@@ -65,60 +65,60 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         // I could've done this with regex, but felt it wasn't the right idea.
         { ":)", "chatsan-smiles" },
         { ":]", "chatsan-smiles" },
-        { "=)", "chatsan-smiles" },
+        { "=)", "chatsan-smiles" }, // = + улыбается
         { "=]", "chatsan-smiles" },
         { "(:", "chatsan-smiles" },
-        { "[:", "chatsan-smiles" },
+        { "[:", "chatsan-smiles" }, // : в ООС
         { "(=", "chatsan-smiles" },
         { "[=", "chatsan-smiles" },
         { "^^", "chatsan-smiles" },
         { "^-^", "chatsan-smiles" },
         { ":(", "chatsan-frowns" },
         { ":[", "chatsan-frowns" },
-        { "=(", "chatsan-frowns" },
+        { "=(", "chatsan-frowns" }, // = + хмурится
         { "=[", "chatsan-frowns" },
         { "):", "chatsan-frowns" },
         { ")=", "chatsan-frowns" },
-        { "]:", "chatsan-frowns" },
+        { "]:", "chatsan-frowns" }, // : в админ
         { "]=", "chatsan-frowns" },
-        { ":D", "chatsan-smiles-widely" },
+        { ":D", "chatsan-smiles-widely" }, //нет канала с ключём , . в шёпот
         { "D:", "chatsan-frowns-deeply" },
-        { ":O", "chatsan-surprised" },
+        { ":O", "chatsan-surprised" }, // . в безопасность
         { ":3", "chatsan-smiles" }, //nope
-        { ":S", "chatsan-uncertain" },
+        { ":S", "chatsan-uncertain" }, //нет канала с ключём, . в шёпот
         { ":>", "chatsan-grins" },
         { ":<", "chatsan-pouts" },
-        { "xD", "chatsan-laughs" },
+        { "xD", "chatsan-laughs" }, // нет
         { ":'(", "chatsan-cries" },
         { ":'[", "chatsan-cries" },
-        { "='(", "chatsan-cries" },
+        { "='(", "chatsan-cries" }, // =' + хмурится
         { "='[", "chatsan-cries" },
         { ")':", "chatsan-cries" },
-        { "]':", "chatsan-cries" },
+        { "]':", "chatsan-cries" }, // ': в админ чат
         { ")'=", "chatsan-cries" },
-        { "]'=", "chatsan-cries" },
+        { "]'=", "chatsan-cries" }, // '= в админ чат
         { ";-;", "chatsan-cries" },
         { ";_;", "chatsan-cries" },
-        { "qwq", "chatsan-cries" },
-        { ":u", "chatsan-smiles-smugly" },
-        { ":v", "chatsan-smiles-smugly" },
-        { ">:i", "chatsan-annoyed" },
-        { ":i", "chatsan-sighs" },
+        { "qwq", "chatsan-cries" }, // нет
+        { ":u", "chatsan-smiles-smugly" }, // нет канала с ключём, . в шёпот
+        { ":v", "chatsan-smiles-smugly" }, // нет канала с ключём, . в шёпот
+        { ">:i", "chatsan-annoyed" }, // :i в чат
+        { ":i", "chatsan-sighs" }, // нет канала с ключём, . в шёпот
         { ":|", "chatsan-sighs" },
-        { ":p", "chatsan-stick-out-tongue" },
-        { ";p", "chatsan-stick-out-tongue" },
-        { ":b", "chatsan-stick-out-tongue" },
-        { "0-0", "chatsan-wide-eyed" },
-        { "o-o", "chatsan-wide-eyed" },
-        { "o.o", "chatsan-wide-eyed" },
-        { "._.", "chatsan-surprised" },
+        { ":p", "chatsan-stick-out-tongue" }, // нет канала с ключём, . в шёпот
+        { ";p", "chatsan-stick-out-tongue" }, // Р в общий
+        { ":b", "chatsan-stick-out-tongue" }, // нет канала с ключём, . в шёпот
+        { "0-0", "chatsan-wide-eyed" }, // нет
+        { "o-o", "chatsan-wide-eyed" }, // нет
+        { "o.o", "chatsan-wide-eyed" }, // нет
+        { "._.", "chatsan-surprised" }, 
         { ".-.", "chatsan-confused" },
         { "-_-", "chatsan-unimpressed" },
-        { "smh", "chatsan-unimpressed" },
+        { "smh", "chatsan-unimpressed" }, // нет
         { "o/", "chatsan-waves" },
         { "^^/", "chatsan-waves" },
         { ":/", "chatsan-uncertain" },
-        { ":\\", "chatsan-uncertain" },
+        { ":\\", "chatsan-uncertain" }, // нет канала с \
         { "lmao", "chatsan-laughs" },
         { "lmao.", "chatsan-laughs" },
         { "lol", "chatsan-laughs" },
@@ -127,7 +127,7 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "lel.", "chatsan-laughs" },
         { "kek", "chatsan-laughs" },
         { "kek.", "chatsan-laughs" },
-        { "rofl", "chatsan-laughs" },
+        { "rofl", "chatsan-laughs" }, // нет
         { "o7", "chatsan-salutes" },
         { ";_;7", "chatsan-tearfully-salutes"},
         { "idk", "chatsan-shrugs" },
@@ -135,15 +135,15 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { ";)", "chatsan-winks" },
         { ";]", "chatsan-winks" },
         { "(;", "chatsan-winks" },
-        { "[;", "chatsan-winks" },
+        { "[;", "chatsan-winks" }, // ; в OOC
         { ":')", "chatsan-tearfully-smiles" },
         { ":']", "chatsan-tearfully-smiles" },
-        { "=')", "chatsan-tearfully-smiles" },
+        { "=')", "chatsan-tearfully-smiles" }, // =' + улыбается
         { "=']", "chatsan-tearfully-smiles" },
         { "(':", "chatsan-tearfully-smiles" },
-        { "[':", "chatsan-tearfully-smiles" },
+        { "[':", "chatsan-tearfully-smiles" }, // ': в OOC
         { "('=", "chatsan-tearfully-smiles" },
-        { "['=", "chatsan-tearfully-smiles" },
+        { "['=", "chatsan-tearfully-smiles" }, // '= в админ чат
     };
 
     private bool _doSanitize;
