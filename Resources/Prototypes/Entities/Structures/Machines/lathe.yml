@@ -792,6 +792,7 @@
       - LPPMagazineBoxM4A1BigPractice
       - LPPMagazineBoxM4A1Practice
       - LPPMagazineBoxM4A1BigLethal
+      - LPPCartridgeUraniumM4A1
       # End of modified code
     dynamicRecipes:
       - LPPSpaceForgeCircuitBoardCMDAndSec
@@ -878,6 +879,10 @@
       - LPPMagazinePistolPF20Incendiary
       - LPPMagazineM4A1Rubber
       - LPPMagazineM4A1Uranium
+      - LPPMagazineBoxM4A1Rubber
+      - LPPMagazineBoxM4A1Uranium
+      - LPPMagazineBoxM4A1Incendiary
+      - LPPCartridgeIncendiaryM4A1
       # End of modified code
   - type: MaterialStorage
     whitelist:
