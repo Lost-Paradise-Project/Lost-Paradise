@@ -25,15 +25,14 @@ public sealed class CharacterRequirementsSystem : EntitySystem
         )
     {
         var validation = false;
+
+        validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
+            entityManager, prototypeManager, configManager,
+            out reason, depth
 #if LPP_Sponsors
-        validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
-            entityManager, prototypeManager, configManager,
-            out reason, depth, sponsorTier, uuid);
-#else
-        validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
-            entityManager, prototypeManager, configManager,
-            out reason, depth);
+            , sponsorTier, uuid
 #endif
+            );
 
         // Return false if the requirement is invalid and not inverted
         // If it's inverted return false when it's valid
@@ -56,15 +55,15 @@ public sealed class CharacterRequirementsSystem : EntitySystem
         {
             var validation = false;
             FormattedMessage? reason;
+
+            validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
+                entityManager, prototypeManager, configManager,
+                out reason, depth
 #if LPP_Sponsors
-            validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager,
-                out reason, depth, sponsorTier, uuid);
-#else
-            validation = requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager,
-                out reason, depth);
+                , sponsorTier, uuid
 #endif
+                );
+
             // Set valid to false if the requirement is invalid and not inverted
             // If it's inverted set valid to false when it's valid
             if (!validation)
