@@ -36,8 +36,8 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  id: LPPPPumpkinDeco
-  name: pumkin
+  id: LPPPumpkinDeco
+  name: pumpkin
   placement:
     mode: SnapgridCenter
   description: Small decorative pumpkin with brush marks on it
@@ -47,15 +47,15 @@
     noRot: false
     snapCardinals: true
     layers:
-    - state: pumkin_minis
+    - state: pumpkin_minis
       map: [ "enum.DamageStateVisualLayers.Base" ]
   - type: InteractionOutline
   - type: Clickable
   - type: RandomSprite
     available:
       - enum.DamageStateVisualLayers.Base:
-          pumkin_minis: ""
-          pumkin_minis2: ""
+          pumpkin_minis: ""
+          pumpkin_minis2: ""
   - type: Damageable
     damageContainer: Inorganic
   - type: Destructible
@@ -71,14 +71,14 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  id: LPPPPumpkinBigDeco
-  name: pumkin
+  id: LPPPumpkinBigDeco
+  name: pumpkin
   parent: BaseSign
   description: Decorative pumpkins with brush marks on it
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Decoration/halloween.rsi
-    state: pumkins
+    state: pumpkins
   - type: Damageable
     damageContainer: Inorganic
   - type: Destructible
