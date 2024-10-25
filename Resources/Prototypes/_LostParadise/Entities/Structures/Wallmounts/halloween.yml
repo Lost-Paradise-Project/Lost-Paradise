@@ -29,7 +29,7 @@
   - type: Sprite
     sprite: _LostParadise/Structures/Wallmounts/halloween.rsi
     state: checkboxes
-    noRot: true
+    noRot: false
 
 - type: entity
   parent: BaseSign
@@ -44,4 +44,4 @@
   - type: Sprite
     sprite: _LostParadise/Structures/Wallmounts/halloween.rsi
     state: light_bulbs
-    noRot: true
+    noRot: false
