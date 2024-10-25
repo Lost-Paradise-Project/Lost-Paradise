@@ -99,6 +99,9 @@
     sprite: _LostParadise/Objects/Weapons/Guns/Revolvers/defendant-amina.rsi
   - type: Clothing
     sprite: _LostParadise/Objects/Weapons/Guns/Revolvers/defendant-amina.rsi
+    quickEquip: false
+    slots:
+    - Belt
   - type: BallisticAmmoProvider
     whitelist:
       tags:
@@ -117,6 +120,9 @@
     sprite: _LostParadise/Objects/Weapons/Guns/Revolvers/defendant-amina.rsi
   - type: Clothing
     sprite: _LostParadise/Objects/Weapons/Guns/Revolvers/defendant-amina.rsi
+    quickEquip: false
+    slots:
+    - Belt
   - type: BallisticAmmoProvider
     whitelist:
       tags:
@@ -150,6 +156,9 @@
     sprite: _LostParadise/Objects/Weapons/Guns/Revolvers/judge.rsi
   - type: Clothing
     sprite: _LostParadise/Objects/Weapons/Guns/Revolvers/judge.rsi
+    quickEquip: false
+    slots:
+    - Belt
   - type: BallisticAmmoProvider
     whitelist:
       tags:
@@ -168,6 +177,9 @@
     sprite: _LostParadise/Objects/Weapons/Guns/Revolvers/judge.rsi
   - type: Clothing
     sprite: _LostParadise/Objects/Weapons/Guns/Revolvers/judge.rsi
+    quickEquip: false
+    slots:
+    - Belt
   - type: BallisticAmmoProvider
     whitelist:
       tags:

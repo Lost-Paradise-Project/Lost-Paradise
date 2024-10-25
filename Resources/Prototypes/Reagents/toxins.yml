@@ -420,6 +420,13 @@
             min: 3
           - !type:OrganType
             type: Animal
+      - !type:AccumulateReagent
+        conditions:
+          - !type:ReagentThreshold
+            max: 5
+          - !type:OrganType
+            type: Animal
+        reagent: Theobromine
 
 - type: reagent
   id: Amatoxin
