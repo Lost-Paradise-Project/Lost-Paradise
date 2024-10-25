@@ -21,6 +21,28 @@
         },
         {
             "name": "spider_mini3"
+        },
+        {
+            "name": "pumkin_minis"
+        },
+        {
+            "name": "pumkin_minis2"
+        },
+        {
+            "name": "pumkins",
+            "directions": 4
+        },
+        {
+            "name": "plant1"
+        },
+        {
+            "name": "plant2"
+        },
+        {
+            "name": "plant3"
+        },
+        {
+            "name": "plant4"
         }
     ]
 }

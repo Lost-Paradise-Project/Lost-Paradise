@@ -1,6 +1,6 @@
 - type: entity
   parent: BaseTree
-  id: HalloweenTree01
+  id: LPPHalloweenTree01
   name: dead tree
   description: Dead tree with leaves on it, looks creepy.
   components:
@@ -10,7 +10,7 @@
 
 - type: entity
   parent: BaseTree
-  id: HalloweenTree02
+  id: LPPHalloweenTree02
   name: dead tree
   description: Dead tree with leaves on it, looks creepy.
   components:
@@ -20,7 +20,7 @@
 
 - type: entity
   parent: BaseTree
-  id: HalloweenTree03
+  id: LPPHalloweenTree03
   name: dead tree
   description: Dead tree with leaves on it, looks creepy.
   components:
@@ -30,7 +30,7 @@
 
 - type: entity
   parent: BaseTree
-  id: HalloweenTree04
+  id: LPPHalloweenTree04
   name: dead tree
   description: Dead tree with leaves on it, looks creepy.
   components:

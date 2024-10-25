@@ -1,16 +1,18 @@
 - type: entity
-  parent: BaseSign
   id: LPPPSpiderDeco
   name: spiders
   description: Fake spiders that look like they're ready to bite you.
+  placement:
+    mode: SnapgridCenter
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Decoration/halloween.rsi
-    snapCardinals: true
+    noRot: false
     layers:
     - state: spider_big
       map: [ "enum.DamageStateVisualLayers.Base" ]
   - type: InteractionOutline
+  - type: Clickable
   - type: RandomSprite
     available:
       - enum.DamageStateVisualLayers.Base:
@@ -32,3 +34,92 @@
           collection: WoodDestroyHeavy
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+
+- type: entity
+  id: LPPPPumpkinDeco
+  name: pumkin
+  placement:
+    mode: SnapgridCenter
+  description: Small decorative pumpkin with brush marks on it
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Decoration/halloween.rsi
+    noRot: false
+    snapCardinals: true
+    layers:
+    - state: pumkin_minis
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+  - type: InteractionOutline
+  - type: Clickable
+  - type: RandomSprite
+    available:
+      - enum.DamageStateVisualLayers.Base:
+          pumkin_minis: ""
+          pumkin_minis2: ""
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroyHeavy
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  id: LPPPPumpkinBigDeco
+  name: pumkin
+  parent: BaseSign
+  description: Decorative pumpkins with brush marks on it
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Decoration/halloween.rsi
+    state: pumkins
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroyHeavy
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  id: LPPPottedPlantHalloween1
+  parent: PottedPlantBase
+  description: Withered houseplant, looks dead.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Decoration/halloween.rsi
+    state: plant1
+
+- type: entity
+  id: LPPPottedPlantHalloween2
+  parent: LPPPottedPlantHalloween1
+  components:
+  - type: Sprite
+    state: plant2
+
+- type: entity
+  id: LPPPottedPlantHalloween3
+  parent: LPPPottedPlantHalloween1
+  components:
+  - type: Sprite
+    state: plant3
+
+- type: entity
+  id: LPPPottedPlantHalloween4
+  parent: LPPPottedPlantHalloween1
+  components:
+  - type: Sprite
+    state: plant4
+
