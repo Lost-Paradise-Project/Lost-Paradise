@@ -3,6 +3,10 @@
   parent: ClothingNeckBase  # Will be implemented as attachment instead of clothing later
   id: LPPArmband
   components:
+  - type: Clothing
+    slots: [neck, eyes]
+  - type: Blindfold
+  - type: FlashImmunity
   - type: Tag
     tags:
     - LPPArmband

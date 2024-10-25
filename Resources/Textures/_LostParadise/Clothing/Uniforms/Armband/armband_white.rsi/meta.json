@@ -13,6 +13,18 @@
     {
       "name": "equipped-NECK",
       "directions": 4
+    },
+    {
+      "name": "equipped-EYES",
+      "directions": 4
+    },
+    {
+      "name": "equipped-EYES-vulpkanin",
+      "directions": 4
+    },
+    {
+      "name": "equipped-EYES-tajaran",
+      "directions": 4
     }
   ]
 }
