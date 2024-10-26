@@ -5,8 +5,8 @@
   components:
   - type: Clothing
     slots:
-      - NECK
-      - HEAD
+    - NECK
+    - HEAD
   - type: Food
     requiresSpecialDigestion: true
   - type: SolutionContainerManager
@@ -14,13 +14,13 @@
       food:
         maxVol: 5
         reagents:
-          - ReagentId: Fiber
-            Quantity: 5
+        - ReagentId: Fiber
+          Quantity: 5
   - type: Tag
     tags:
-      - LPPArmband
-      - ClothMade
-      - WhitelistChameleon
+    - LPPArmband
+    - ClothMade
+    - WhitelistChameleon
   - type: Item
     size: Tiny
   - type: Butcherable
@@ -39,6 +39,9 @@
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_red.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_red.rsi
+  - type: FlavorProfile
+    flavors:
+    - tomato
 
 - type: entity
   parent: LPPArmband
@@ -50,6 +53,9 @@
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_green.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_green.rsi
+  - type: FlavorProfile
+    flavors:
+    - apple
 
 - type: entity
   parent: LPPArmband
@@ -61,6 +67,9 @@
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_blue.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_blue.rsi
+  - type: FlavorProfile
+    flavors:
+    - berry
 
 - type: entity
   parent: LPPArmband
@@ -72,6 +81,9 @@
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_white.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_white.rsi
+  - type: FlavorProfile
+    flavors:
+    - creamy
 
 - type: entity
   parent: LPPArmband
@@ -83,6 +95,9 @@
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_yellow.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_yellow.rsi
+  - type: FlavorProfile
+    flavors:
+    - cheesy
 
 - type: entity
   parent: LPPArmband
@@ -94,3 +109,6 @@
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_purple.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Armband/armband_purple.rsi
+  - type: FlavorProfile
+    flavors:
+    - grape
