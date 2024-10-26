@@ -4,12 +4,23 @@
   id: LPPArmband
   components:
   - type: Clothing
-    slots: [neck, eyes]
-  - type: Blindfold
-  - type: FlashImmunity
+    slots:
+      - NECK
+      - HEAD
+  - type: Food
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+          - ReagentId: Fiber
+            Quantity: 5
   - type: Tag
     tags:
-    - LPPArmband
+      - LPPArmband
+      - ClothMade
+      - WhitelistChameleon
   - type: Item
     size: Tiny
   - type: Butcherable
