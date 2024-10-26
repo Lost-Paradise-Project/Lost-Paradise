@@ -55,5 +55,3 @@ ent-LPPBlueShieldClothingMaskGas = Противогаз офицера "сини
     .desc = Элитный противогаз офицера "синий щит".
 ent-LPPClothingMaskPGWrittenOff = Списанная балаклава ПГ
     .desc = Списанная балаклава которая использовалась солдатами ПГ.
-ent-LPPCASGasMask = Противогаз CAS
-    .desc = Чёрно белый противогаз.

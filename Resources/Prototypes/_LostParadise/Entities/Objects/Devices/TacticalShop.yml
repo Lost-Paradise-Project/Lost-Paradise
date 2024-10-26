@@ -90,7 +90,7 @@
 
 - type: currency
   id: LPPCentcoin
-  displayName: store-currency-display-cenctoin
+  displayName: store-currency-display-centcoin
   cash:
     1: LPPCentcoin
   canWithdraw: false

@@ -13,7 +13,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/laserkomissar.rsi
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/laserkomissar.rsi
     quickEquip: false
     slots:
     - Back

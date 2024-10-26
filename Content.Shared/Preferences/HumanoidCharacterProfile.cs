@@ -32,15 +32,13 @@ namespace Content.Shared.Preferences
         private readonly List<string> _antagPreferences;
         private readonly List<string> _traitPreferences;
         private readonly List<string> _loadoutPreferences;
-#if LPP_Sponsors
-        private readonly List<string> _donatePreferences; // Lost Paradise Donate Preference
-#endif
 
         private HumanoidCharacterProfile(
             string name,
             string flavortext,
             string species,
             string voice, // LPP-TTS
+            string customspeciename,
             float height,
             float width,
             int age,
@@ -55,15 +53,13 @@ namespace Content.Shared.Preferences
             List<string> antagPreferences,
             List<string> traitPreferences,
             List<string> loadoutPreferences
-#if LPP_Sponsors
-            , List<string> donatePreferences // Lost Paradise Donate Preference
-#endif
             )
         {
             Name = name;
             FlavorText = flavortext;
             Species = species;
             Voice = voice; // LPP-TTS
+            Customspeciename = customspeciename;
             Height = height;
             Width = width;
             Age = age;
@@ -78,9 +74,6 @@ namespace Content.Shared.Preferences
             _antagPreferences = antagPreferences;
             _traitPreferences = traitPreferences;
             _loadoutPreferences = loadoutPreferences;
-#if LPP_Sponsors
-            _donatePreferences = donatePreferences; // Lost Paradise Donate Preferences
-#endif
         }
 
     /// <summary>Copy constructor but with overridable references (to prevent useless copies)</summary>
@@ -90,16 +83,10 @@ namespace Content.Shared.Preferences
             List<string> antagPreferences,
             List<string> traitPreferences,
             List<string> loadoutPreferences
-#if LPP_Sponsors
-            , List<string> donatePreferences // Lost Paradise Donate Preferences
-#endif
             )
-            : this(other.Name, other.FlavorText, other.Species, other.Voice, other.Height, other.Width, other.Age, other.Sex, other.Gender, other.Appearance,
+            : this(other.Name, other.FlavorText, other.Species, other.Voice, other.Customspeciename, other.Height, other.Width, other.Age, other.Sex, other.Gender, other.Appearance,
                 other.Clothing, other.Backpack, other.SpawnPriority, jobPriorities, other.PreferenceUnavailable,
                 antagPreferences, traitPreferences, loadoutPreferences
-#if LPP_Sponsors
-                , donatePreferences // Lost Paradise Donate Preferences
-#endif
                   )
         {
         }
@@ -109,9 +96,6 @@ namespace Content.Shared.Preferences
             : this(other, new Dictionary<string, JobPriority>(other.JobPriorities),
                 new List<string>(other.AntagPreferences), new List<string>(other.TraitPreferences),
                 new List<string>(other.LoadoutPreferences)
-#if LPP_Sponsors
-                , new List<string>(other.DonatePreferences) // Lost Paradise Donate Preferences
-#endif
                   )
         {
         }
@@ -121,6 +105,7 @@ namespace Content.Shared.Preferences
             string flavortext,
             string species,
             string voice, // LPP-TTS
+            string customspeciename,
             float height,
             float width,
             int age,
@@ -135,17 +120,11 @@ namespace Content.Shared.Preferences
             IReadOnlyList<string> antagPreferences,
             IReadOnlyList<string> traitPreferences,
             IReadOnlyList<string> loadoutPreferences
-#if LPP_Sponsors
-            , List<string> donatePreferences // Lost Paradise Donate Preferences
-#endif
             )
-            : this(name, flavortext, species, voice, height, width, age, sex, gender, appearance, clothing, backpack, spawnPriority,
+            : this(name, flavortext, species, voice, customspeciename, height, width, age, sex, gender, appearance, clothing, backpack, spawnPriority,
                 new Dictionary<string, JobPriority>(jobPriorities), preferenceUnavailable,
                 new List<string>(antagPreferences), new List<string>(traitPreferences),
                 new List<string>(loadoutPreferences)
-#if LPP_Sponsors
-                , new List<string>(donatePreferences) // Lost Paradise Donate Preferences
-#endif
                   )
         {
         }
@@ -160,6 +139,7 @@ namespace Content.Shared.Preferences
             "",
             SharedHumanoidAppearanceSystem.DefaultSpecies,
             SharedHumanoidAppearanceSystem.DefaultVoice, // LPP-TTS
+            "",
             1f,
             1f,
             18,
@@ -177,9 +157,6 @@ namespace Content.Shared.Preferences
             new List<string>(),
             new List<string>(),
             new List<string>()
-#if LPP_Sponsors
-                , new List<string>() // Lost Paradise Donate Preferences
-#endif
             )
         {
         }
@@ -196,6 +173,7 @@ namespace Content.Shared.Preferences
                 "",
                 species,
                 SharedHumanoidAppearanceSystem.DefaultVoice, // LPP-TTS
+                "",
                 1f,
                 1f,
                 18,
@@ -213,9 +191,6 @@ namespace Content.Shared.Preferences
                 new List<string>(),
                 new List<string>(),
                 new List<string>()
-#if LPP_Sponsors
-                , new List<string>() // Lost Paradise Donate Preferences
-#endif
                 );
         }
 
@@ -272,24 +247,25 @@ namespace Content.Shared.Preferences
 
             var name = GetName(species, gender);
 
-            return new HumanoidCharacterProfile(name, "", species, voiceId, height, width, age, sex, gender,
+            return new HumanoidCharacterProfile(name, "", species, voiceId, species, height, width, age, sex, gender,
                 HumanoidCharacterAppearance.Random(species, sex), ClothingPreference.Jumpsuit,
                 BackpackPreference.Backpack, SpawnPriorityPreference.None,
                 new Dictionary<string, JobPriority>
                 {
                     {SharedGameTicker.FallbackOverflowJob, JobPriority.High},
                 }, PreferenceUnavailableMode.StayInLobby, new List<string>(), new List<string>(), new List<string>()
-#if LPP_Sponsors
-                , new List<string>() // Lost Paradise Donate Preferences
-#endif
                 );
         }
 
         public string Name { get; private set; }
         public string FlavorText { get; private set; }
+
         [DataField("species")]
         public string Species { get; private set; }
         public string Voice { get; private set; } // LPP-TTS
+
+        [DataField]
+        public string Customspeciename { get; private set; }
 
         [DataField("height")]
         public float Height { get; private set; }
@@ -317,9 +293,6 @@ namespace Content.Shared.Preferences
         public IReadOnlyList<string> AntagPreferences => _antagPreferences;
         public IReadOnlyList<string> TraitPreferences => _traitPreferences;
         public IReadOnlyList<string> LoadoutPreferences => _loadoutPreferences;
-#if LPP_Sponsors
-        public IReadOnlyList<string> DonatePreferences => _donatePreferences; // Lost Paradise Donate Preferences
-#endif
         public PreferenceUnavailableMode PreferenceUnavailable { get; private set; }
 
         public HumanoidCharacterProfile WithName(string name)
@@ -359,6 +332,11 @@ namespace Content.Shared.Preferences
         }
         // LPP-TTS-End
 
+        public HumanoidCharacterProfile WithCustomSpeciesName(string customspeciename)
+        {
+            return new(this) { Customspeciename = customspeciename };
+        }
+
         public HumanoidCharacterProfile WithHeight(float height)
         {
             return new(this) { Height = height };
@@ -391,9 +369,6 @@ namespace Content.Shared.Preferences
             return new(this, new Dictionary<string, JobPriority>(jobPriorities),
                 _antagPreferences, _traitPreferences,
                 _loadoutPreferences
-#if LPP_Sponsors
-                , _donatePreferences// Lost Paradise Donate Preferences
-#endif
                 );
         }
 
@@ -410,9 +385,6 @@ namespace Content.Shared.Preferences
             }
             return new(this, dictionary, _antagPreferences,
                 _traitPreferences, _loadoutPreferences
-#if LPP_Sponsors
-                , _donatePreferences// Lost Paradise Donate Preferences
-#endif
                 );
         }
 
@@ -425,9 +397,6 @@ namespace Content.Shared.Preferences
         {
             return new(this, _jobPriorities, new List<string>(antagPreferences),
                 _traitPreferences, _loadoutPreferences
-#if LPP_Sponsors
-                , _donatePreferences// Lost Paradise Donate Preferences
-#endif
                 );
         }
 
@@ -450,9 +419,6 @@ namespace Content.Shared.Preferences
             }
             return new(this, _jobPriorities, list,
                 _traitPreferences, _loadoutPreferences
-#if LPP_Sponsors
-                , _donatePreferences// Lost Paradise Donate Preferences
-#endif
                 );
         }
 
@@ -477,9 +443,6 @@ namespace Content.Shared.Preferences
             }
             return new(this, _jobPriorities, _antagPreferences,
                 list, _loadoutPreferences
-#if LPP_Sponsors
-                , _donatePreferences// Lost Paradise Donate Preferences
-#endif
                 );
         }
 
@@ -504,9 +467,6 @@ namespace Content.Shared.Preferences
             return new(this,
                 _jobPriorities, _antagPreferences,
                 _traitPreferences, list
-#if LPP_Sponsors
-                , _donatePreferences// Lost Paradise Donate Preferences
-#endif
                 );
         }
 
@@ -535,9 +495,6 @@ namespace Content.Shared.Preferences
                 || !_antagPreferences.SequenceEqual(other._antagPreferences)
                 || !_traitPreferences.SequenceEqual(other._traitPreferences)
                 || !_loadoutPreferences.SequenceEqual(other._loadoutPreferences)
-#if LPP_Sponsors
-                || !_donatePreferences.SequenceEqual(other._donatePreferences)// Lost Paradise Donate Preferences
-#endif
                 )
                 return false;
             return Appearance.MemberwiseEquals(other.Appearance);
@@ -554,19 +511,15 @@ namespace Content.Shared.Preferences
             var configManager = collection.Resolve<IConfigurationManager>();
             var prototypeManager = collection.Resolve<IPrototypeManager>();
 
-            if (!prototypeManager.TryIndex<SpeciesPrototype>(Species, out var speciesPrototype) || speciesPrototype.RoundStart == false)
-            {
-                Species = SharedHumanoidAppearanceSystem.DefaultSpecies;
-                speciesPrototype = prototypeManager.Index<SpeciesPrototype>(Species);
-            }
-
-#if LPP_Sponsors    // _LostParadise-Sponsors
-            if (speciesPrototype.SponsorOnly && !sponsorPrototypes.Contains(Species))
-            {
-                Species = SharedHumanoidAppearanceSystem.DefaultSpecies;
-                speciesPrototype = prototypeManager.Index<SpeciesPrototype>(Species);
-            }
+            if (!prototypeManager.TryIndex<SpeciesPrototype>(Species, out var speciesPrototype) || speciesPrototype.RoundStart == false
+#if LPP_Sponsors
+                || (speciesPrototype.SponsorOnly && !sponsorPrototypes.Contains(Species))   // _LostParadise-Sponsors
 #endif
+                )
+            {
+                Species = SharedHumanoidAppearanceSystem.DefaultSpecies;
+                speciesPrototype = prototypeManager.Index<SpeciesPrototype>(Species);
+            }
 
             var sex = Sex switch
             {
@@ -633,6 +586,14 @@ namespace Content.Shared.Preferences
             {
                 name = GetName(Species, gender);
             }
+
+            var customspeciename =
+                !speciesPrototype.CustomName
+                || string.IsNullOrEmpty(Customspeciename)
+                    ? ""
+                    : Customspeciename.Length > MaxNameLength
+                        ? FormattedMessage.RemoveMarkup(Customspeciename)[..MaxNameLength]
+                        : FormattedMessage.RemoveMarkup(Customspeciename);
 
             string flavortext;
             if (FlavorText.Length > MaxDescLength)
@@ -744,6 +705,7 @@ namespace Content.Shared.Preferences
 
 
             Name = name;
+            Customspeciename = customspeciename;
             FlavorText = flavortext;
             Age = age;
             Height = height;
@@ -840,33 +802,11 @@ namespace Content.Shared.Preferences
                     _antagPreferences,
                     _traitPreferences,
                     _loadoutPreferences
-#if LPP_Sponsors
-                    , _donatePreferences// Lost Paradise Donate Preferences
-#endif
+                ),
+                HashCode.Combine(
+                    Customspeciename
                 )
             );
         }
-
-#if LPP_Sponsors
-        public HumanoidCharacterProfile WithDonatePreference(string donateId, bool pref)    // Lost Paradise Donate Preferences
-        {
-            var list = new List<string>(_donatePreferences);
-            if (pref)
-            {
-                if (!list.Contains(donateId))
-                {
-                    list.Add(donateId);
-                }
-            }
-            else
-            {
-                if (list.Contains(donateId))
-                {
-                    list.Remove(donateId);
-                }
-            }
-            return new(this, _jobPriorities, _antagPreferences, _traitPreferences, _loadoutPreferences, list);
-        }
-#endif
     }
 }

@@ -9,7 +9,6 @@ using Content.Server.Corvax.TTS;
 using Content.Server.JoinQueue;
 using Content.Server.Database;
 using Content.Server.Discord;
-using Content.Server.DiscordAuth;
 using Content.Server.EUI;
 using Content.Server.GhostKick;
 using Content.Server.Info;
@@ -26,8 +25,12 @@ using Content.Shared.Administration.Logs;
 using Content.Shared.Administration.Managers;
 using Content.Shared.Kitchen;
 using Content.Shared.Players.PlayTimeTracking;
+using Robust.Shared.Network;
 #if LPP_Sponsors  // _LostParadise-Sponsors
 using Content.Server._LostParadise.Sponsors;
+#endif
+#if DiscordAuth
+using Content.Server._NC.Discord;
 #endif
 
 namespace Content.Server.IoC
@@ -67,11 +70,13 @@ namespace Content.Server.IoC
             IoCManager.Register<DiscordWebhook>();
             IoCManager.Register<ServerDbEntryManager>();
             IoCManager.Register<JoinQueueManager>();
-            IoCManager.Register<DiscordAuthManager>();
             IoCManager.Register<ISharedPlaytimeManager, PlayTimeTrackingManager>();
             IoCManager.Register<ServerApi>();
 #if LPP_Sponsors  // _LostParadise-Sponsors
             IoCManager.Register<SponsorsManager>();
+#endif
+#if DiscordAuth
+            IoCManager.Register<DiscordAuthManager>();
 #endif
         }
     }

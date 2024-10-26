@@ -104,6 +104,15 @@
     price: 500
 
 - type: entity
+  name: antique Bulldog
+  parent: WeaponShotgunBulldog
+  id: WeaponShotgunBulldogHoS
+  description: This is a seemingly ordinary shotgun, no different from those issued as standard in the Republic of Biesel Navy. A close inspection reveals that this weapon's serial number is 000000013.
+  components:
+    - type: StealTarget
+      stealGroup: WeaponShotgunBulldogHoS
+
+- type: entity
   name: double-barreled shotgun
   parent: BaseWeaponShotgun
   id: WeaponShotgunDoubleBarreled
@@ -115,8 +124,7 @@
     size: Normal
     shape:
     - 0,0,4,0
-    sprite: Objects/Weapons/Guns/Shotguns/inhands_64x.rsi
-    heldPrefix: db
+    sprite: DeltaV/Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
   - type: Gun
     fireRate: 2
     fireOnDropChance: 0.5
@@ -171,8 +179,6 @@
     size: Normal
     shape:
     - 0,0,4,0
-    sprite: Objects/Weapons/Guns/Shotguns/inhands_64x.rsi
-    heldPrefix: pump
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/pump.rsi # Delta-V
   - type: Clothing
@@ -197,8 +203,7 @@
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V
   - type: Item
     size: Small
-    sprite: Objects/Weapons/Guns/Shotguns/inhands_64x.rsi
-    heldPrefix: sawn
+    sprite: DeltaV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V
   - type: Gun
     fireRate: 4
     fireOnDropChance: 0.5
@@ -285,8 +290,7 @@
     size: Normal
     shape:
     - 0,0,4,0
-    sprite: Objects/Weapons/Guns/Shotguns/inhands_64x.rsi
-    heldPrefix: improvised
+    sprite: DeltaV/Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
   - type: Gun
     fireRate: 4 #No reason to stifle the firerate since you have to manually reload every time anyways.
     fireOnDropChance: 1

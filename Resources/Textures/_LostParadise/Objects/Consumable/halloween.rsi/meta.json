@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/e00cae8d065f9cf520688cc0dd0e15ba5bef12a9",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "candy_1"
+        },
+        {
+            "name": "candy_2"
+        },
+        {
+            "name": "candy_3"
+        },
+        {
+            "name": "candy_4"
+        },
+        {
+            "name": "lollipop"
+        }
+    ]
+}

@@ -24,3 +24,7 @@ ent-LPPCartridgeMinigunAP = bullet (.10 rifle AP)
     .desc = { ent-LPPBaseCartridgeMinigun.desc }
 ent-LPPCartridgeMinigunUranium = bullet (.10 rifle uranium)
     .desc = { ent-LPPBaseCartridgeMinigun.desc }
+ent-LPPCartridgeAntiMaterielNonLethal = cartridge (.60 Non-lethal)
+    .desc = { ent-CartridgeAntiMateriel.desc }
+ent-LPPCartridgeAntiMaterielCP = cartridge (.60 Cocntere-Piercing)
+    .desc = { ent-CartridgeAntiMateriel.desc }

@@ -21,16 +21,6 @@
     anchored: false
 
 - type: entity
-  parent: ClothingBackpack
-  id: LPPClothingBackpackBlack
-  name: black backpack
-  suffix: Sponsor
-  description: It's a tough backpack for the daily grind of station life.
-  components:
-  - type: Sprite
-    sprite: _LostParadise/Clothing/Back/Backpacks/blackbackpack.rsi
-
-- type: entity
   parent: LPPClothingBackpackBlueshield
   id: LPPClothingBackpackBlueshieldFilled
   components:

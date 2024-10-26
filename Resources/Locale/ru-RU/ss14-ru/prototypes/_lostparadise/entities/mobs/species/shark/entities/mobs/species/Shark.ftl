@@ -1,4 +1,4 @@
-ent-LPPBaseMobShark = Shark McHands
+ent-LPPBaseMobShark = Акула МакХендс
     .desc = { ent-BaseMobSpeciesOrganic.desc }
-ent-LPPMobSharkDummy = Shark McHands
-    .desc = A dummy shark meant to be used in character setup.
+ent-LPPMobSharkDummy = Акула МакХендс
+    .desc = { ent-BaseMobSpeciesOrganic.desc }

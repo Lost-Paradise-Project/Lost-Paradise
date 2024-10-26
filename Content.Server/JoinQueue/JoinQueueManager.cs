@@ -1,6 +1,5 @@
 using System.Linq;
 using Content.Server.Connection;
-using Content.Server.DiscordAuth;
 using Content.Shared.CCVar;
 using Content.Shared.JoinQueue;
 using Prometheus;
@@ -10,6 +9,9 @@ using Robust.Shared.Enums;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
+#if DiscordAuth
+using Content.Server._NC.Discord;
+#endif
 
 namespace Content.Server.JoinQueue;
 
@@ -40,7 +42,9 @@ public sealed class JoinQueueManager
     [Dependency] private readonly IConnectionManager _connection = default!;
     [Dependency] private readonly IConfigurationManager _configuration = default!;
     [Dependency] private readonly IServerNetManager _net = default!;
+#if DiscordAuth
     [Dependency] private readonly DiscordAuthManager _discordAuth = default!;
+#endif
 
 
     /// <summary>
@@ -60,7 +64,9 @@ public sealed class JoinQueueManager
 
         _configuration.OnValueChanged(CCVars.QueueEnabled, OnQueueCVarChanged, true);
         _player.PlayerStatusChanged += OnPlayerStatusChanged;
+#if DiscordAuth
         _discordAuth.PlayerVerified += OnPlayerVerified;
+#endif
     }
 
 

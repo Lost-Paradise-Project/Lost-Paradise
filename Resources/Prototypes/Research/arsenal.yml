@@ -36,6 +36,10 @@
   # DeltaV - .38 special incendiary ammo - Add .38 special incendiary ammo to the research tree
   - CartridgeSpecialIncendiary
   - MagazineBoxSpecialIncendiary
+  #LPP
+  - LPPMagazinePistolPF20Incendiary
+  - LPPMagazineBoxM4A1Incendiary
+  - LPPCartridgeIncendiaryM4A1
   # End of modified code
 
 - type: technology
@@ -72,8 +76,12 @@
   # DeltaV - .38 special rubber ammo - Adds .38 special rubber ammo to the research tree
   - CartridgeSpecialRubber
   - MagazineBoxSpecialRubber
+  #LPP
   - LPPMagazineBoxMinigunPractice
   - LPPMagazineBoxMinigunRubber
+  - LPPMagazineBoxM4A1Rubber
+  - LPPMagazinePistolPF20Rubber
+  - LPPMagazineM4A1Rubber
   # End of modified code
 
 - type: technology
@@ -98,6 +106,11 @@
   # DeltaV - .38 special uranium ammo - Adds .38 special uranium ammo to the research tree
   - CartridgeSpecialUranium
   - MagazineBoxSpecialUranium
+  #LPP
+  - LPPMagazinePistolPF20Uranium
+  - LPPMagazineBoxM4A1Uranium
+  - LPPCartridgeUraniumM4A1
+  - LPPMagazineM4A1Uranium
   # End of modified code
 
 - type: technology

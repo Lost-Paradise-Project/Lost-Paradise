@@ -31,6 +31,8 @@ using Robust.Shared.Map;
 using Robust.Shared.Physics;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using Robust.Shared.Player;
+using Robust.Client.Player;
 using Direction = Robust.Shared.Maths.Direction;
 #if LPP_Sponsors
 using Content.Client._LostParadise.Sponsors;
@@ -41,6 +43,7 @@ namespace Content.Client.Preferences.UI
     [GenerateTypedNameReferences]
     public sealed partial class HumanoidProfileEditor : BoxContainer
     {
+        private readonly IPlayerManager _playerManager;
         private readonly IEntityManager _entityManager;
         private readonly IPrototypeManager _prototypeManager;
         private readonly IClientPreferencesManager _preferencesManager;
@@ -52,6 +55,9 @@ namespace Content.Client.Preferences.UI
 
         private LineEdit _ageEdit => CAgeEdit;
         private LineEdit _nameEdit => CNameEdit;
+
+        private BoxContainer _ccustomspecienamecontainerEdit => CCustomSpecieName;
+        private LineEdit _customspecienameEdit => CCustomSpecieNameEdit;
         private TextEdit? _flavorTextEdit;
         private Button _nameRandomButton => CNameRandomize;
         private Button _randomizeEverythingButton => CRandomizeEverything;
@@ -84,11 +90,6 @@ namespace Content.Client.Preferences.UI
         private Button _loadoutsShowUnusableButton => LoadoutsShowUnusableButton;
         private Button _loadoutsRemoveUnusableButton => LoadoutsRemoveUnusableButton;
         private NeoTabContainer _loadoutsTabs => CLoadoutsTabs;
-
-        private BoxContainer _donateList => LPPDonateTab; // Lost Paradise Donate Preferences
-#if LPP_Sponsors
-        private List<_LostParadise.Donate.DonatePreferenceSelector> _donatePreferences;     // Lost Paradise Donate Preferences
-#endif
         private readonly List<JobPrioritySelector> _jobPriorities;
         private OptionButton _preferenceUnavailableButton => CPreferenceUnavailableButton;
         private readonly Dictionary<string, BoxContainer> _jobCategories;
@@ -118,6 +119,7 @@ namespace Content.Client.Preferences.UI
             IConfigurationManager configurationManager)
         {
             RobustXamlLoader.Load(this);
+            _playerManager = IoCManager.Resolve<IPlayerManager>();
             _entityManager = IoCManager.Resolve<IEntityManager>();
             _prototypeManager = prototypeManager;
             _preferencesManager = preferencesManager;
@@ -140,6 +142,12 @@ namespace Content.Client.Preferences.UI
             _warningLabel.SetMarkup($"[color=red]{Loc.GetString("humanoid-profile-editor-naming-rules-warning")}[/color]");
 
             #endregion Name
+
+            #region Custom Specie Name
+
+            _customspecienameEdit.OnTextChanged += args => { SetCustomSpecieName(args.Text); };
+
+            #endregion CustomSpecieName
 
             #region Appearance
 
@@ -208,6 +216,7 @@ namespace Content.Client.Preferences.UI
                 SetSpecies(_speciesList[args.Id].ID);
                 UpdateHairPickers();
                 OnSkinColorOnValueChanged();
+                UpdateCustomSpecieNameEdit();
             };
 
             #endregion Species
@@ -574,45 +583,6 @@ namespace Content.Client.Preferences.UI
             };
 
             #endregion Dummy
-
-#if LPP_Sponsors            // Lost Paradise Donate Preferences
-            #region Donate
-            LPPDonateTab.Orphan();
-            _tabContainer.AddTab(LPPDonateTab, Loc.GetString("lost-donate-editor"));
-            var donate = prototypeManager.EnumeratePrototypes<Shared._LostParadise.Donate.DonatePrototype>().OrderBy(t => Loc.GetString(t.Name)).ToList();
-            _donatePreferences = new List<_LostParadise.Donate.DonatePreferenceSelector>();
-            var granted = false;
-            _donateList.DisposeAllChildren();
-            if (donate.Count > 0)
-            {
-                foreach (var donatet in donate)
-                {
-                    var selector = new _LostParadise.Donate.DonatePreferenceSelector(donatet);
-                    selector.PreferenceChanged += preference =>
-                    {
-                        Profile = Profile?.WithDonatePreference(donatet.ID, preference);
-                    };
-                    if (selector.Gave)
-                        granted = true;
-
-                    _donateList.AddChild(selector);
-                    _donatePreferences.Add(selector);
-                }
-            }
-            if (!granted)
-            {
-                _donateList.AddChild(new Label
-                {
-                    Text = Loc.GetString("lost-nodonate"),
-                    FontColorOverride = Color.Gray,
-                });
-            }
-            // Lost Paradise Donate Preferences End
-            #endregion
-
-#else
-            LPPDonateTab.Dispose();
-#endif
             #endregion Left
 
             if (preferencesManager.ServerDataLoaded)
@@ -626,20 +596,6 @@ namespace Content.Client.Preferences.UI
 
             IsDirty = false;
         }
-
-#if LPP_Sponsors        // Lost Paradise Donate Preferences
-        private void RefreshDonatePreferences()
-        {
-            _donatePreferences = new List<_LostParadise.Donate.DonatePreferenceSelector>();
-            foreach (var preferenceSelector in _donatePreferences)
-            {
-                var donateId = preferenceSelector.Donate.ID;
-                var preference = Profile?.DonatePreferences.Contains(donateId) ?? false;
-
-                preferenceSelector.Preference = preference;
-            }
-        }
-#endif
 
         private void LoadoutsChanged(bool enabled)
         {
@@ -723,7 +679,8 @@ namespace Content.Client.Preferences.UI
             var sys = IoCManager.Resolve<SponsorsManager>();
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
-                sponsorTier = sponsorInfo.Tier ?? 0;
+                sponsorTier = sponsorInfo.Tier;
+            var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
 #endif
 
             var departments = _prototypeManager.EnumeratePrototypes<DepartmentPrototype>().ToArray();
@@ -794,7 +751,7 @@ namespace Content.Client.Preferences.UI
                         _configurationManager,
                         out var reasons
 #if LPP_Sponsors
-                        , 0, sponsorTier
+                        , 0, sponsorTier, uuid
 #endif
                         ))
                         selector.LockRequirements(_characterRequirementsSystem.GetRequirementsText(reasons));
@@ -843,7 +800,8 @@ namespace Content.Client.Preferences.UI
             var sys = IoCManager.Resolve<SponsorsManager>();
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
-                sponsorTier = sponsorInfo.Tier ?? 0;
+                sponsorTier = sponsorInfo.Tier;
+            var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
 #endif
             foreach (var selector in _jobPriorities)
             {
@@ -860,7 +818,7 @@ namespace Content.Client.Preferences.UI
                         _configurationManager,
                         out _
 #if LPP_Sponsors
-                        , 0, sponsorTier
+                        , 0, sponsorTier, uuid
 #endif
                         ))
                     continue;
@@ -1041,6 +999,12 @@ namespace Content.Client.Preferences.UI
             IsDirty = true;
         }
 
+        private void SetCustomSpecieName(string customname)
+        {
+            Profile = Profile?.WithCustomSpeciesName(customname);
+            IsDirty = true;
+        }
+
         private void SetSpawnPriority(SpawnPriorityPreference newSpawnPriority)
         {
             Profile = Profile?.WithSpawnPriorityPreference(newSpawnPriority);
@@ -1085,6 +1049,19 @@ namespace Content.Client.Preferences.UI
         private void UpdateNameEdit()
         {
             _nameEdit.Text = Profile?.Name ?? "";
+        }
+
+        private void UpdateCustomSpecieNameEdit()
+        {
+            if (Profile == null)
+                return;
+
+            _customspecienameEdit.Text = Profile.Customspeciename ?? "";
+
+            if (!_prototypeManager.TryIndex<SpeciesPrototype>(Profile.Species, out var speciesProto))
+                return;
+
+            _ccustomspecienamecontainerEdit.Visible = speciesProto.CustomName;
         }
 
         private void UpdateFlavorTextEdit()
@@ -1371,6 +1348,7 @@ namespace Content.Client.Preferences.UI
                 return;
 
             UpdateNameEdit();
+            UpdateCustomSpecieNameEdit();
             UpdateFlavorTextEdit();
             UpdateSexControls();
             UpdateGenderControls();
@@ -1477,7 +1455,8 @@ namespace Content.Client.Preferences.UI
             var sys = IoCManager.Resolve<SponsorsManager>();
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
-                sponsorTier = sponsorInfo.Tier ?? 0;
+                sponsorTier = sponsorInfo.Tier;
+            var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
 #endif
 
             _traits.Clear();
@@ -1495,7 +1474,7 @@ namespace Content.Client.Preferences.UI
                     _configurationManager,
                     out _
 #if LPP_Sponsors
-                        , 0, sponsorTier
+                    , 0, sponsorTier, uuid
 #endif
                 );
                 _traits.Add(trait, usable);
@@ -1793,7 +1772,8 @@ namespace Content.Client.Preferences.UI
             var sys = IoCManager.Resolve<SponsorsManager>();
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))
-                sponsorTier = sponsorInfo.Tier ?? 0;
+                sponsorTier = sponsorInfo.Tier;
+            var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
 #endif
 
             // Get the highest priority job to use for loadout filtering
@@ -1814,7 +1794,7 @@ namespace Content.Client.Preferences.UI
                     _configurationManager,
                     out _
 #if LPP_Sponsors
-                    , 0, sponsorTier
+                    , 0, sponsorTier, uuid
 #endif
                 );
                 _loadouts.Add(loadout, usable);

@@ -205,7 +205,11 @@ public sealed partial class SingleMarkingPicker : BoxContainer
                 {
                     var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier; //если уровень выше максимального, ставится максимальный
                     var marks = Loc.GetString($"sponsor-markings-tier-{tier}").Split(";", StringSplitOptions.RemoveEmptyEntries);
-                    item.Disabled = !(sponsor.AllowedMarkings.Contains(marking.ID) || sponsor.AllowedMarkings.Contains("ALL") || marks.Contains(marking.ID));
+                    if (sponsor.AllowedMarkings == null)
+                        sponsor.AllowedMarkings = Array.Empty<string>();
+                    item.Disabled = !(sponsor.AllowedMarkings.Contains(marking.ID)
+                        || sponsor.AllowedMarkings.Contains("ALL")
+                        || marks.Contains(marking.ID));
                 }
             }
 #endif
@@ -291,7 +295,7 @@ public sealed partial class SingleMarkingPicker : BoxContainer
         Search.Visible = Slot >= 0;
         AddButton.HorizontalExpand = Slot < 0;
         RemoveButton.HorizontalExpand = Slot < 0;
-        AddButton.Disabled = PointsLeft == 0 && _totalPoints > -1 ;
+        AddButton.Disabled = PointsLeft == 0 && _totalPoints > -1;
         RemoveButton.Disabled = PointsUsed == 0;
         SlotSelector.Clear();
 

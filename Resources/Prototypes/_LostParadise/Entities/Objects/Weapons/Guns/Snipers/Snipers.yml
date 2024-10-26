@@ -1,0 +1,114 @@
+- type: entity
+  name: BaseWeaponSniperLever
+  parent: BaseItem
+  id: LPPBaseWeaponLeverSniper
+  description: A rooty tooty point and shooty.
+  abstract: true
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Large
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
+    quickEquip: false
+    slots:
+    - Back
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+  - type: BallisticAmmoProvider
+    # autoCycle: false
+    capacity: 10
+    proto: CartridgeMagnum
+    whitelist:
+      tags:
+      - CartridgeMagnum
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+  - type: StaticPrice
+    price: 500
+
+- type: entity
+  name: Pravoved
+  parent: LPPBaseWeaponLeverSniper
+  id: LPPWeaponSniperLeverPravoved
+  description: See you soon... Space cowboy... Uses .45 magnum bullets
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/pravoved.rsi
+
+- type: entity
+  name: LPPBaseWeaponSniper
+  parent: BaseItem
+  id: LPPBaseWeaponSniper
+  description: A rooty tooty point and shooty.
+  abstract: true
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: Gun
+    fireRate: 0.75
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+  - type: StaticPrice
+    price: 500
+
+- type: entity
+  name: Goliath
+  parent: LPPBaseWeaponSniper
+  id: LPPWeaponGoliath
+  description: Specialised "tool" for breaching . Uses .60 anti-materiel ammo.
+  components:
+  - type: Item
+    size: Ginormous
+  - type: MultiHandedItem
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/Goliath.rsi
+    state: base
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/Goliath.rsi
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    fireOnDropChance: 1
+  - type: UseDelayOnShoot
+  - type: UseDelay
+    delay: 1
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeAntiMateriel
+    capacity: 1
+    proto: CartridgeAntiMateriel
+  - type: Telescope

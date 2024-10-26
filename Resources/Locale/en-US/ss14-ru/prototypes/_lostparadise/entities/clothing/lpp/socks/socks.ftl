@@ -186,6 +186,3 @@ ent-LPPClothingUnderThinThighTeal = thin thigh
     .desc = { ent-LPPClothingUnderwearSocksBase.desc }
 ent-LPPClothingUnderThinThighYellow = thin thigh
     .desc = { ent-LPPClothingUnderwearSocksBase.desc }
-ent-LPPCowSocks = Cow stockings
-    .desc = Moooo!
-    .suffix = SPONSOR

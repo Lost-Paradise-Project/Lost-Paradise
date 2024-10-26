@@ -1,12 +1,12 @@
 - type: emote
   id: Sneeze
   category: Vocal
-  chatMessages: [ чихает ]
+  chatMessages: [ chat-emote-msg-sneeze ]
 
 - type: emote
   id: Cough
   category: Vocal
-  chatMessages: [ кашляет ]
+  chatMessages: [ chat-emote-msg-cough ]
   chatTriggers:
     - coughs
     # Corvax-Localization-Start
@@ -21,27 +21,27 @@
 - type: emote
   id: CatMeow
   category: Vocal
-  chatMessages: [ мяукает ]
+  chatMessages: [ chat-emote-msg-catmeow ]
 
 - type: emote
   id: CatHisses
   category: Vocal
-  chatMessages: [ шипит ]
+  chatMessages: [ chat-emote-msg-cathisses ]
 
 - type: emote
   id: MonkeyScreeches
   category: Vocal
-  chatMessages: [ визжит ]
+  chatMessages: [ chat-emote-msg-monkeyscreeches ]
 
 - type: emote
   id: RobotBeep
   category: Vocal
-  chatMessages: [ бипает ]
+  chatMessages: [ chat-emote-msg-robotbeep ]
 
 - type: emote
   id: Yawn
   category: Vocal
-  chatMessages: [ зевает ]
+  chatMessages: [ chat-emote-msg-yawn ]
   chatTriggers:
     - yawns
   # Corvax-Localization-Start
@@ -52,4 +52,4 @@
 - type: emote
   id: Snore
   category: Vocal
-  chatMessages: [ snores ]
+  chatMessages: [ chat-emote-msg-snore ]

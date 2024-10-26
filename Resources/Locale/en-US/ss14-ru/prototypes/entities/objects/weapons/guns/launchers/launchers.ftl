@@ -26,3 +26,5 @@ ent-WeaponLauncherAdmemeMeteorLarge = meteor launcher
 ent-WeaponLauncherAdmemeImmovableRodSlow = immovable rod launcher
     .desc = It fires slow immovable rods.
     .suffix = Admeme
+ent-WeaponMailLake = mail RPDS
+    .desc = Rap(b?)id Parcel Delivery System

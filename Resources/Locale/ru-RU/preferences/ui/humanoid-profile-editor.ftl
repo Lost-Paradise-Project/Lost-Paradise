@@ -15,6 +15,7 @@ humanoid-profile-editor-height-label = Высота: { $height }cm
 humanoid-profile-editor-width-label = Ширина: { $width }cm
 humanoid-profile-editor-weight-label = Вес: { $weight }kg
 humanoid-profile-editor-species-label = Раса:
+humanoid-profile-editor-customspeciename-label = Название расы:
 humanoid-profile-editor-pronouns-label = Личное местоимение:
 humanoid-profile-editor-pronouns-male-text = Он / Его
 humanoid-profile-editor-pronouns-female-text = Она / Её

@@ -81,7 +81,7 @@
     whitelist:
       tags:
       - CartridgeAntiMateriel
-    capacity: 5
+    capacity: 10
     proto: CartridgeAntiMateriel
   - type: Telescope
 

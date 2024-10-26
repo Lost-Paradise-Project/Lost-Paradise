@@ -37,12 +37,15 @@ public sealed partial class RandomBarkComponent : Component
     public float BarkMultiplier = 1f;
 
     /// <summary>
-    ///     List of things to be said. Filled with garbage to be modified by an accent, but can be specified in the .yml
+    ///     Bark type, for use in locales. Locale keys follow the format "bark-{type}-{index between 1 and BarkLocaleCount}".
     /// </summary>
     [DataField]
-    public IReadOnlyList<string> Barks = new[]
-    {
-        "Авууу...",
-        "Иииуиуиуиииуи",
-    };
+    public string BarkType = "default";
+
+    /// <summary>
+    ///     Number of bark locales. If not specified, then it will be figured out by fetching the locale string
+    ///     with the key "bark-{type}-count" and parsing it as an integer.
+    /// </summary>
+    [DataField]
+    public int? BarkLocaleCount = null;
 }

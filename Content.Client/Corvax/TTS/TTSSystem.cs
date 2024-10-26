@@ -15,6 +15,7 @@ using Content.Client.Administration.Managers;
 using Content.Shared.Administration;
 using Content.Shared.Ghost;
 using System.Linq;
+using Content.Shared.Language.Components;
 using JetBrains.Annotations;
 
 
@@ -96,7 +97,7 @@ public sealed class TTSSystem : EntitySystem
         {
             var isadmin = _adminMgr.HasFlag(AdminFlags.Admin) && _entities.TryGetComponent<GhostComponent>(player, out var ghostcomp);
 
-            if ((_language.UnderstoodLanguages.Contains(ev.LanguageProtoId) || isadmin) && ev.LanguageProtoId != "Sign")
+            if (((_entities.TryGetComponent<LanguageSpeakerComponent>(player, out var langcomp) && langcomp.UnderstoodLanguages.Contains(ev.LanguageProtoId)) || isadmin) && ev.LanguageProtoId != "Sign")
                 _contentRoot.AddOrUpdateFile(filePath, ev.Data);
             else
                 return; //временно отключена озвучка языков
@@ -115,18 +116,15 @@ public sealed class TTSSystem : EntitySystem
         if (ev.SourceUid != null)
         {
             var sourceUid = GetEntity(ev.SourceUid.Value);
-
-            //Logger.Warning($"Playing TTS on Entity {sourceUid}");
-            _audio.PlayEntity(audioResource.AudioStream, sourceUid, audioParams);
+            if(sourceUid.IsValid())
+                _audio.PlayEntity(audioResource.AudioStream, sourceUid, audioParams);
         }
         else
         {
-            //Logger.Warning("Playing TTS Globally");
             _audio.PlayGlobal(audioResource.AudioStream, audioParams);
         }
 
         _contentRoot.RemoveFile(filePath);
-        //Logger.Warning($"TTS File successfully removed!");
     }
 
     private float AdjustVolume(bool isWhisper)

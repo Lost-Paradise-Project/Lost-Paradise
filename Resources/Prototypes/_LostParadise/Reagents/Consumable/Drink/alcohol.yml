@@ -1,0 +1,45 @@
+- type: reagent
+  id: LPPMiruvor
+  name: reagent-name-lpp-miruvor
+  parent: BaseAlcohol
+  desc: reagent-desc-lpp-miruvor
+  physicalDesc: reagent-physical-desc-lpp-exquisite
+  flavor: lppmiruvor
+  color: "#fcff54"
+  metamorphicSprite:
+    sprite: _LostParadise/Objects/Consumable/Drinks/miruvor.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.2
+
+- type: reagent
+  id: LPPCargoGargleBlaster
+  name: reagent-name-lpp-cargo-gargle-blaster
+  parent: BaseAlcohol
+  desc: reagent-desc-lpp-cargo-gargle-blaster
+  physicalDesc: reagent-physical-desc-lpp-rich
+  flavor: lppcargogargleblaster
+  color: "#9cc8b4"
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/gargleblasterglass.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 5
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.4

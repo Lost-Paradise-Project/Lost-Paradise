@@ -574,40 +574,33 @@
   # Corvax-Localization-End
 
 # Machine Emotes
-# - type: emote
-#   id: Beep
-#   name: chat-emote-name-beep
-#   category: Vocal
-#   icon: Interface/Emotes/beep.png
-#   whitelist:
-#     requireAll: true
-#     components:
-#     - BorgChassis
-#     - Vocal
-#   chatMessages: ["chat-emote-msg-beep"]
-#   chatTriggers:
-#     - beep
-#     - beep!
-#     - beep.
-#     - beeps
-#     - beeps.
-#     - beeps!
-#     - beeped
-#     - beeped.
-#     - beeped!
-#     - beeping
-#     - beeping.
-#     - beeping!
-#     # Corvax-Localization-Start
-#     - бип
-#     - бип.
-#     - бип!
-#     # Corvax-Localization-End
+- type: emote
+  id: Beep
+  category: Vocal
+  chatMessages: ["chat-emote-msg-beep"]
+  chatTriggers:
+    - beep
+    - beep!
+    - beep.
+    - beeps
+    - beeps.
+    - beeps!
+    - beeped
+    - beeped.
+    - beeped!
+    - beeping
+    - beeping.
+    - beeping!
+    # Corvax-Localization-Start
+    - бип
+    - бип.
+    - бип!
+    # Corvax-Localization-End
 
 - type: emote
   id: Boop
   category: Vocal
-  chatMessages: [ Буп ]
+  chatMessages: [ chat-emote-msg-boop ]
   chatTriggers:
     - boops
     - буп

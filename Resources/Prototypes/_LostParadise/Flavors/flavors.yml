@@ -1,0 +1,39 @@
+- type: flavor
+  id: camomiletea
+  flavorType: Complex
+  description: flavor-complex-camomile-tea
+
+- type: flavor
+  id: minttea
+  flavorType: Complex
+  description: flavor-complex-mint-tea
+
+- type: flavor
+  id: gingertea
+  flavorType: Complex
+  description: flavor-complex-ginger-tea
+
+- type: flavor
+  id: berrytea
+  flavorType: Complex
+  description: flavor-complex-berry-tea
+
+- type: flavor
+  id: orangetea
+  flavorType: Complex
+  description: flavor-complex-orange-tea
+
+- type: flavor
+  id: flowertea
+  flavorType: Complex
+  description: flavor-complex-flower-tea
+
+- type: flavor
+  id: lppcargogargleblaster
+  flavorType: Complex
+  description: flavor-complex-lpp-cargo-gargle-blaster
+
+- type: flavor
+  id: lppmiruvor
+  flavorType: Complex
+  description: flavor-complex-lpp-miruvor

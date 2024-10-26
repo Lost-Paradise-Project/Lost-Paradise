@@ -754,6 +754,8 @@
       - MagazineBoxRifle
       - MagazineBoxLightRifle
       - SpeedLoaderMagnum
+      - MagazineMagnum
+      - MagazineUniversalMagnum
       - ClothingOuterArmorPlateCarrier # DeltaV - plate carrier body armour
       - ClothingOuterArmorDuraVest # DeltaV - stabproof vest body armour
       - TargetHuman
@@ -775,6 +777,21 @@
       #LPP
       - LPPMagazineMagnumSubMachineGun
       - LPPMagazineBoxMinigun
+      - LPPMagazineBoxAntiMaterielNL
+      - LPPMagazineBoxAntiMaterielCP
+      - LPPCartridgeAntiMaterielCP
+      - LPPCartridgeAntiMaterielNL
+      - LPPWeaponGoliathSniper
+      - LPPMagazineM4A1Practice
+      - LPPMagazinePistolPF20Lethal
+      - LPPMagazinePistolPF20Practice
+      - LPPCartridgePracticeM4A1
+      - LPPCartridgeM4A1Lethal
+      - LPPMagazineRifleM4A1Lethal
+      - LPPMagazineBoxM4A1Lethal
+      - LPPMagazineBoxM4A1BigPractice
+      - LPPMagazineBoxM4A1Practice
+      - LPPMagazineBoxM4A1BigLethal
       # End of modified code
     dynamicRecipes:
       - LPPSpaceForgeCircuitBoardCMDAndSec
@@ -856,6 +873,16 @@
       #LPP
       - LPPMagazineBoxMinigunPractice
       - LPPMagazineBoxMinigunRubber
+      - LPPMagazinePistolPF20Rubber
+      - LPPMagazinePistolPF20Uranium
+      - LPPMagazinePistolPF20Incendiary
+      - LPPMagazineM4A1Rubber
+      - LPPMagazineM4A1Uranium
+      - LPPMagazineBoxM4A1Rubber
+      - LPPMagazineBoxM4A1Uranium
+      - LPPMagazineBoxM4A1Incendiary
+      - LPPCartridgeIncendiaryM4A1
+      - LPPCartridgeUraniumM4A1
       # End of modified code
   - type: MaterialStorage
     whitelist:
@@ -1246,7 +1273,8 @@
       runningState: building
       staticRecipes:
         - LPPMaterialDiamond
-        - BluespaceCrystal #Nyano - Summary: Bluespace Crystals can be created here.
+        - BluespaceCrystal
+        - NormalityCrystal
         - SheetSteel30
         - SheetGlass30
         - SheetRGlass30

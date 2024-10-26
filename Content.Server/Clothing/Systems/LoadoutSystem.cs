@@ -7,6 +7,9 @@ using Content.Shared.Players;
 using Content.Shared.Storage;
 using Content.Shared.Storage.EntitySystems;
 using Robust.Shared.Configuration;
+#if LPP_Sponsors
+using Content.Server._LostParadise.Sponsors;
+#endif
 
 namespace Content.Server.Clothing.Systems;
 
@@ -17,7 +20,9 @@ public sealed class LoadoutSystem : EntitySystem
     [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly SharedStorageSystem _storage = default!;
     [Dependency] private readonly PlayTimeTrackingManager _playTimeTracking = default!;
-
+#if LPP_Sponsors
+    [Dependency] private readonly CheckSponsorSystem _checkSponsor = default!;
+#endif
 
     public override void Initialize()
     {
@@ -27,13 +32,22 @@ public sealed class LoadoutSystem : EntitySystem
 
     private void OnPlayerSpawnComplete(PlayerSpawnCompleteEvent ev)
     {
+#if LPP_Sponsors
+        var sponsorTier = _checkSponsor.CheckUser(ev.Player.UserId).Item2 ?? 0;
+        var uuid = ev.Player.UserId.ToString();
+#endif
+
         if (ev.JobId == null ||
             !_configurationManager.GetCVar(CCVars.GameLoadoutsEnabled))
             return;
 
         // Spawn the loadout, get a list of items that failed to equip
         var failedLoadouts = _loadout.ApplyCharacterLoadout(ev.Mob, ev.JobId, ev.Profile,
-            _playTimeTracking.GetTrackerTimes(ev.Player), ev.Player.ContentData()?.Whitelisted ?? false);
+            _playTimeTracking.GetTrackerTimes(ev.Player), ev.Player.ContentData()?.Whitelisted ?? false
+#if LPP_Sponsors
+                , sponsorTier, uuid
+#endif
+            );
 
         // Try to find back-mounted storage apparatus
         if (!_inventory.TryGetSlotEntity(ev.Mob, "back", out var item) ||

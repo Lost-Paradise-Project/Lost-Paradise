@@ -1,0 +1,112 @@
+- type: reagent
+  id: LPPCamomileTea
+  name: reagent-name-camomile-tea
+  parent: BaseDrink
+  desc: reagent-desc-camomile-tea
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: camomiletea
+  color: "#6b562e"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+    Calm:
+      effects:
+      - !type:ChemAddMoodlet
+        moodPrototype: LPPCamomileTeaCalm
+
+
+- type: reagent 
+  id: LPPMintTea
+  name: reagent-name-mint-tea
+  parent: BaseDrink
+  desc: reagent-desc-mint-tea
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: minttea
+  color: "#237e66"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+
+- type: reagent 
+  id: LPPGingerTea
+  name: reagent-name-ginger-tea
+  parent: BaseDrink
+  desc: reagent-desc-ginger-tea
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: gingertea
+  color: "#743532"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+
+- type: reagent 
+  id: LPPBerryTea
+  name: reagent-name-berry-tea
+  parent: BaseDrink
+  desc: reagent-desc-berry-tea
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: berrytea
+  color: "#313f61"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+
+- type: reagent 
+  id: LPPOrangeTea
+  name: reagent-name-orange-tea
+  parent: BaseDrink
+  desc: reagent-desc-orange-tea
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: orangetea
+  color: "#995d2b"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+
+- type: reagent 
+  id: LPPFlowerTea
+  name: reagent-name-flower-tea
+  parent: BaseDrink
+  desc: reagent-desc-flower-tea
+  physicalDesc: reagent-physical-desc-aromatic
+  flavor: flowertea
+  color: "#416b35"
+  recognizable: true
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
