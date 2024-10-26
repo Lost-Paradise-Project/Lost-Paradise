@@ -4,9 +4,10 @@
   id: LPPArmband
   components:
   - type: Clothing
+    quickEquip: false
     slots:
-    - NECK
-    - HEAD
+    - neck
+    - head
   - type: Food
     requiresSpecialDigestion: true
   - type: SolutionContainerManager
