@@ -1,7 +1,6 @@
 using Content.Shared._LostParadise.Roadmap;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface;
-using Robust.Client.UserInterface.Controllers;
 using System.Numerics;
 
 namespace Content.Client._LostParadise.Roadmap
@@ -9,7 +8,7 @@ namespace Content.Client._LostParadise.Roadmap
     public class RoadmapPhaseControl : Control
     {
         private readonly RoadmapPhasePrototype _prototype;
-        private readonly ProgressBar _progressBar; // Прогресс-бар как поле класса
+        private readonly ProgressBar _progressBar;
 
         public RoadmapPhaseControl(RoadmapPhasePrototype prototype)
         {
@@ -27,84 +26,71 @@ namespace Content.Client._LostParadise.Roadmap
 
         private void SetupUI()
         {
-            Margin = new Thickness(0, 20, 0, 0); // Отступ для spacing
+            Margin = new Thickness(0, 20, 0, 0);
 
             var vBox = new BoxContainer
             {
                 Orientation = BoxContainer.LayoutOrientation.Vertical
             };
 
-            var nameBackground = new PanelContainer
-            {
-                // Используем PanelContainer как фон
-                Margin = new Thickness(0, 0, 0, 10) // Отступ между именем и другими элементами
-            };
-
-            var nameLabel = new Label
+            var nameButton = new Button
             {
                 Text = _prototype.Name,
-                FontColorOverride = Color.White
+                StyleClasses = { "Caution" },
+                HorizontalExpand = true
             };
 
-            nameBackground.AddChild(nameLabel); // Добавление имени в фон
-            vBox.AddChild(nameBackground); // Добавление фона в контейнер
+            vBox.AddChild(nameButton);
 
-            // Остальные элементы
             var descriptionLabel = new Label { Text = _prototype.Description, FontColorOverride = Color.LightGray };
-            var progressLabel = new Label { Text = $"Прогресс: {_prototype.Progress}%", FontColorOverride = Color.White };
-            var releaseDateLabel = new Label { Text = $"Дата релиза: {_prototype.ReleaseDate}", FontColorOverride = Color.LightGray };
+            var progressLabel = new Label
+            { 
+                Text = Loc.GetString("roadmap-progress") + $": {_prototype.Progress}%",
+                FontColorOverride = Color.White
+            };
+            var releaseDateLabel = new Label
+            { 
+                Text = Loc.GetString("roadmap-release-date") + $": {_prototype.ReleaseDate}",
+                FontColorOverride = Color.LightGray
+            };
 
             var statusBox = new BoxContainer
             {
                 Orientation = BoxContainer.LayoutOrientation.Horizontal,
                 HorizontalExpand = true,
-                SeparationOverride = 5 // Расстояние между статусом и цветным прямоугольником
+                SeparationOverride = 5
             };
 
             var statusLabel = new Label
             {
-                Text = $"Статус: {_prototype.Status}",
+                Text = Loc.GetString("roadmap-status") + $": {Loc.GetString(_prototype.Status)}",
                 FontColorOverride = GetStatusColor(),
-                HorizontalAlignment = HAlignment.Right // Сдвигаем текст вправо
             };
-
-            var statusIndicator = new PanelContainer
-            {
-                // Установка цвета через Modulate
-                HorizontalExpand = true,
-                MinSize = new Vector2(20, 20), // Установка минимального размера для цветного прямоугольника
-                VerticalExpand = false // Прямоугольник не будет растягиваться по вертикали
-            };
-
-            // Задаем цвет в зависимости от статуса
-            statusIndicator.Modulate = GetStatusColor();
 
             statusBox.AddChild(statusLabel);
-            statusBox.AddChild(statusIndicator);
+            statusBox.AddChild(new Control { HorizontalExpand = true });
 
-            // Добавление остальных элементов
             vBox.AddChild(descriptionLabel);
             vBox.AddChild(progressLabel);
             vBox.AddChild(_progressBar);
             vBox.AddChild(releaseDateLabel);
-            vBox.AddChild(statusBox); // Добавление статуса в контейнер
+            vBox.AddChild(statusBox);
 
-            // Добавление разделителя
             var separator = new PanelContainer
             {
-                // Создание разделителя без StyleBox
-                Modulate = new Color(0.5f, 0.5f, 0.5f, 1f), // Цвет разделителя
-                MinSize = new Vector2(0, 2), // Высота разделителя
+                Modulate = new Color(0.5f, 0.5f, 0.5f, 1f),
+                MinSize = new Vector2(0, 2),
                 HorizontalExpand = true
             };
             vBox.AddChild(separator);
 
-            AddChild(vBox); // Добавление вертикального контейнера в класс
+            AddChild(vBox);
         }
 
         private Color GetStatusColor()
         {
-            return _prototype.Status switch
+            string status = _prototype.Status;
+            return status switch
             {
                 "roadmap-goal-completed" => new Color(0.0f, 1.0f, 0.0f),
                 "roadmap-goal-progress" => new Color(1.0f, 1.0f, 0.0f),

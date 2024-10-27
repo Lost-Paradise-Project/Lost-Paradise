@@ -18,14 +18,14 @@ namespace Content.Client._LostParadise.Roadmap
         {
             _roadmapWindow = new DefaultWindow
             {
-                Title = "План разработки Lost Paradise",
-                SetSize = new Vector2(600, 400),
+                Title = Loc.GetString("roadmap-plan-LLP"),
+                SetSize = new Vector2(600, 600),
                 Resizable = false
             };
 
             var panelContainer = new PanelContainer
             {
-                MinSize = new Vector2(580, 380),
+                MinSize = new Vector2(580, 580),
                 ModulateSelfOverride = Color.Transparent,
                 Margin = new Thickness(10)
             };
