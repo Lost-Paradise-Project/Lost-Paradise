@@ -1,10 +1,10 @@
-ent-LPPArmbandRed = red armband
+ent-LPPArmbandRed = Red armband
     .desc = A red armband. Smells like blood. I guess.
-ent-LPPArmbandGreen = green armband
+ent-LPPArmbandGreen = Green armband
     .desc = Green armband, reflecting affiliation with a specific patrol group.
-ent-LPPArmbandBlue = blue armband
+ent-LPPArmbandBlue = Blue armband
     .desc = Blue armband. The color of this armband is said to make some officers twitch.
-ent-LPPArmbandYellow = yellow armband
+ent-LPPArmbandYellow = Yellow armband
     .desc = Yellow armband, reflecting affiliation with a certain patrol group.
 ent-LPPArmbandPurple = Magenta armband
     .desc = Magenta armband, reflecting affiliation with a specific patrol group. Wearing this armband in combination with the red uniform is officially recognized as a violation of Article 106 of the current Corporation Law.
