@@ -1,2 +1,2 @@
-ent-LPPBoxArmband = armband box
+ent-LPPBoxArmband = Armband box
     .desc = A box of armbands.
