@@ -1,0 +1,34 @@
+- type: entity
+  name: armband box
+  parent: BoxCardboard
+  id: LPPBoxArmband
+  description: A box of armbands.
+  components:
+  - type: Item
+    shape:
+    - 0,0,1,1
+  - type: Storage
+    grid:
+    - 0,0,5,2
+    whitelist:
+      tags:
+        - LPPArmband
+  - type: StorageFill
+    contents:
+      - id: LPPArmbandRed
+        amount: 3
+      - id: LPPArmbandGreen
+        amount: 3
+      - id: LPPArmbandBlue
+        amount: 3
+      - id: LPPArmbandWhite
+        amount: 3
+      - id: LPPArmbandYellow
+        amount: 3
+      - id: LPPArmbandPurple
+        amount: 3
+  - type: Sprite
+    sprite: _LostParadise/Objects/Storage/boxes.rsi
+    layers:
+      - state: box_security
+      - state: armband

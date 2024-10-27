@@ -1,0 +1,115 @@
+- type: entity
+  abstract: true
+  parent: ClothingNeckBase  # Will be implemented as attachment instead of clothing later
+  id: LPPArmband
+  components:
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - neck
+    - head
+  - type: Food
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 5
+  - type: Tag
+    tags:
+    - LPPArmband
+    - ClothMade
+    - WhitelistChameleon
+  - type: Item
+    size: Tiny
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: MaterialCloth1
+      amount: 1
+
+- type: entity
+  parent: LPPArmband
+  id: LPPArmbandRed
+  name: red armband
+  description: 
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_red.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_red.rsi
+  - type: FlavorProfile
+    flavors:
+    - tomato
+
+- type: entity
+  parent: LPPArmband
+  id: LPPArmbandGreen
+  name: green armband
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_green.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_green.rsi
+  - type: FlavorProfile
+    flavors:
+    - apple
+
+- type: entity
+  parent: LPPArmband
+  id: LPPArmbandBlue
+  name: blue armband
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_blue.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_blue.rsi
+  - type: FlavorProfile
+    flavors:
+    - berry
+
+- type: entity
+  parent: LPPArmband
+  id: LPPArmbandWhite
+  name: white armband
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_white.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_white.rsi
+  - type: FlavorProfile
+    flavors:
+    - creamy
+
+- type: entity
+  parent: LPPArmband
+  id: LPPArmbandYellow
+  name: yellow armband
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_yellow.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_yellow.rsi
+  - type: FlavorProfile
+    flavors:
+    - cheesy
+
+- type: entity
+  parent: LPPArmband
+  id: LPPArmbandPurple
+  name: purple armband
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_purple.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Armband/armband_purple.rsi
+  - type: FlavorProfile
+    flavors:
+    - grape
