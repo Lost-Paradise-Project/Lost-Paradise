@@ -163,3 +163,11 @@
 
 - type: Tag
   id: LPPProcessedDiamond
+
+- type: Tag
+  id: LPPCandy #Halloween
+
+# [Тэги экипировки]
+
+- type: Tag
+  id: LPPArmband  # Нарукавная повязка

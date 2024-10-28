@@ -16,6 +16,11 @@ using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controllers;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Player;
+using Robust.Client.Player;
+#if LPP_Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.Lobby;
 
@@ -28,6 +33,7 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
     [UISystemDependency] private readonly HumanoidAppearanceSystem _humanoid = default!;
     [UISystemDependency] private readonly ClientInventorySystem _inventory = default!;
     [UISystemDependency] private readonly LoadoutSystem _loadouts = default!;
+    [Dependency] private readonly IPlayerManager _playerManager = default!;
 
     private LobbyCharacterPanel? _previewPanel;
     private HumanoidProfileEditor? _profileEditor;
@@ -118,7 +124,13 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
         _previewPanel?.SetSummaryText(maybeProfile.Summary);
         _humanoid.LoadProfile(_previewDummy.Value, maybeProfile);
 
-
+#if LPP_Sponsors
+        var sys = IoCManager.Resolve<SponsorsManager>();
+        var sponsorTier = 0;
+        if (sys.TryGetInfo(out var sponsorInfo))
+            sponsorTier = sponsorInfo.Tier;
+        var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
+#endif
         if (UpdateClothes)
         {
             RemoveDummyClothes(_previewDummy.Value);
@@ -126,7 +138,11 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
                 GiveDummyJobClothes(_previewDummy.Value, GetPreferredJob(maybeProfile), maybeProfile);
             if (ShowLoadouts)
                 _loadouts.ApplyCharacterLoadout(_previewDummy.Value, GetPreferredJob(maybeProfile), maybeProfile,
-                    _jobRequirements.GetRawPlayTimeTrackers(), _jobRequirements.IsWhitelisted());
+                    _jobRequirements.GetRawPlayTimeTrackers(), _jobRequirements.IsWhitelisted()
+#if LPP_Sponsors
+            , sponsorTier, uuid
+#endif
+                    );
             UpdateClothes = false;
         }
 
@@ -171,9 +187,20 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
     /// </summary>
     public void GiveDummyJobClothesLoadout(EntityUid dummy, HumanoidCharacterProfile profile)
     {
+#if LPP_Sponsors
+        var sys = IoCManager.Resolve<SponsorsManager>();
+        var sponsorTier = 0;
+        if (sys.TryGetInfo(out var sponsorInfo))
+            sponsorTier = sponsorInfo.Tier;
+        var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
+#endif
         var job = GetPreferredJob(profile);
         GiveDummyJobClothes(dummy, job, profile);
-        _loadouts.ApplyCharacterLoadout(dummy, job, profile, _jobRequirements.GetRawPlayTimeTrackers(), _jobRequirements.IsWhitelisted());
+        _loadouts.ApplyCharacterLoadout(dummy, job, profile, _jobRequirements.GetRawPlayTimeTrackers(), _jobRequirements.IsWhitelisted()
+#if LPP_Sponsors
+            , sponsorTier, uuid
+#endif
+            );
     }
 
     /// <summary>

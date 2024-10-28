@@ -1,0 +1,36 @@
+- type: entity
+  name: candy
+  parent: FoodBase
+  id: LPPCandy
+  description: This is my kingdom come, this is my kingdom come...
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/halloween.rsi
+    layers:
+    - state: candy_1
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+  - type: RandomSprite
+    available:
+      - enum.DamageStateVisualLayers.Base:
+          candy_1: Material 
+          candy_2: Material 
+          candy_3: Material 
+          candy_4: Material 
+  - type: Item
+    size: Tiny
+    shape:
+    - 0, 0, 0, 0
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: Sugar
+          Quantity: 3
+        - ReagentId: Nutriment
+          Quantity: 1
+        - ReagentId: Theobromine
+          Quantity: 1
+  - type: Tag
+    tags:
+      - LPPCandy
