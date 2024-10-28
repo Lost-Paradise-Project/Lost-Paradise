@@ -14,14 +14,14 @@ namespace Content.Server._LostParadise.Roadmap
         public override void Initialize()
         {
             base.Initialize();
-            SubscribeLocalEvent<RoadmapComponent, RoadmapPhaseUpdateEvent>(OnPhaseUpdate);
+            SubscribeLocalEvent<RoadmapComponent, RoadmapUpdateEvent>(OnPhaseUpdate);
         }
 
-        private void OnPhaseUpdate(EntityUid uid, RoadmapComponent component, RoadmapPhaseUpdateEvent args)
+        private void OnPhaseUpdate(EntityUid uid, RoadmapComponent component, RoadmapUpdateEvent args)
         {
-            if (!_protoManager.TryIndex<RoadmapPhasePrototype>(args.PhaseId, out var phase))
+            if (!_protoManager.TryIndex<RoadmapPrototype>(args.RoadmapId, out var phase))
             {
-                Logger.ErrorS("roadmap", $"Phase {args.PhaseId} not found.");
+                Logger.ErrorS("roadmap", $"Roadmap {args.RoadmapId} not found.");
                 return;
             }
 

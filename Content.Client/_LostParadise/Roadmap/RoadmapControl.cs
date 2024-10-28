@@ -5,12 +5,12 @@ using System.Numerics;
 
 namespace Content.Client._LostParadise.Roadmap
 {
-    public class RoadmapPhaseControl : Control
+    public class RoadmapControl : Control
     {
-        private readonly RoadmapPhasePrototype _prototype;
+        private readonly RoadmapPrototype _prototype;
         private readonly ProgressBar _progressBar;
 
-        public RoadmapPhaseControl(RoadmapPhasePrototype prototype)
+        public RoadmapControl(RoadmapPrototype prototype)
         {
             _prototype = prototype;
             _progressBar = new ProgressBar
@@ -48,11 +48,6 @@ namespace Content.Client._LostParadise.Roadmap
                 Text = Loc.GetString("roadmap-progress") + $": {_prototype.Progress}%",
                 FontColorOverride = Color.White
             };
-            var releaseDateLabel = new Label
-            { 
-                Text = Loc.GetString("roadmap-release-date") + $": {_prototype.ReleaseDate}",
-                FontColorOverride = Color.LightGray
-            };
 
             var statusBox = new BoxContainer
             {
@@ -73,7 +68,6 @@ namespace Content.Client._LostParadise.Roadmap
             vBox.AddChild(descriptionLabel);
             vBox.AddChild(progressLabel);
             vBox.AddChild(_progressBar);
-            vBox.AddChild(releaseDateLabel);
             vBox.AddChild(statusBox);
 
             var separator = new PanelContainer

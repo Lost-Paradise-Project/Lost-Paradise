@@ -8,7 +8,7 @@ namespace Content.Shared._LostParadise.Roadmap
     public sealed partial class RoadmapComponent : Component
     {
         [ViewVariables(VVAccess.ReadWrite)]
-        [DataField("currentPhase")]
+        [DataField("roadmap")]
         public string CurrentPhase { get; set; } = string.Empty;
 
         [ViewVariables(VVAccess.ReadWrite)]

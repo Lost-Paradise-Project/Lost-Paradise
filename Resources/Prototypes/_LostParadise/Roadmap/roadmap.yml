@@ -2,29 +2,26 @@
 # пихайте: roadmap-goal-completed, roadmap-goal-progress, roadmap-goal-waiting
 # Order нужен, чтоб выставить в правильном порядке, так что вот, пользуйтесь
 
-# - type: roadmap
-#   id: "roadmap1"
-#   name: "Эльфы"
-#   description: "Эльфы, эльфы!"
-#   progress: 100
-#   releaseDate: "2024-10-20"
-#   status: roadmap-goal-completed
-#   order: 0
+- type: roadmap
+  id: "helloworld"
+  name: "Версия 2.0 - Дивный новый мир!"
+  description: "Новая сборка и механики!"
+  progress: 100
+  status: roadmap-goal-completed
+  order: 0
 
-# - type: roadmap
-#   id: "roadmap2"
-#   name: "Эльфы синдиката"
-#   description: "Эльфы синдиката и их снаряжение."
-#   progress: 10
-#   releaseDate: "2025-03-15"
-#   status: roadmap-goal-progress
-#   order: 1
+- type: roadmap
+  id: "centcom"
+  name: "Обновление 2.1 - Центком важен!"
+  description: "Обновление Центкома!"
+  progress: 50
+  status: roadmap-goal-progress
+  order: 1
 
-# - type: roadmap
-#   id: "roadmap3"
-#   name: "Эльфийский отряд"
-#   description: "Отряд эльфийских оперативников, чтоб спиздить сервер НИО."
-#   progress: 0
-#   releaseDate: "2025-07-30"
-#   status: roadmap-goal-waiting
-#   order:  2
+- type: roadmap
+  id: "blusec"
+  name: "Обновление 2.2 - BLUSEC!"
+  description: "Перекрас СБ в новый модный цвет!"
+  progress: 37
+  status: roadmap-goal-progress
+  order: 2

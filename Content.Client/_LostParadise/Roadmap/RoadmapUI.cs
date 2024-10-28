@@ -56,12 +56,12 @@ namespace Content.Client._LostParadise.Roadmap
 
             var roadmapSystem = IoCManager.Resolve<IPrototypeManager>();
 
-            var roadmapPhases = roadmapSystem.EnumeratePrototypes<RoadmapPhasePrototype>()
-                                            .OrderBy<RoadmapPhasePrototype, int>(phase => phase.Order);
+            var roadmapPhases = roadmapSystem.EnumeratePrototypes<RoadmapPrototype>()
+                                            .OrderBy<RoadmapPrototype, int>(phase => phase.Order);
 
             foreach (var phase in roadmapPhases)
             {
-                var phaseControl = new RoadmapPhaseControl(phase);
+                var phaseControl = new RoadmapControl(phase);
                 phaseList.AddChild(phaseControl);
             }
         }
