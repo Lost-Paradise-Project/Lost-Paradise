@@ -1,8 +1,7 @@
 - type: gameMapPool
   id: LostParadiseMapPool
   maps:
-  - LPPAsterisk
-  - LPPSubmarine
-  - LPPPebble
-  - LPPNormandy
-  - LPPKerberos
+  - H_LPPAsterisk
+  - H_LPPPebble
+  - H_LPPNormandy
+  - H_LPPKerberos
