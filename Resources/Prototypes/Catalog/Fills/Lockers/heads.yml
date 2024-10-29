@@ -181,6 +181,8 @@
       - id: BoxPDAEngineering # Delta-V
       - id: RCD
       - id: RCDAmmo
+      - id: LPPRCDFAPDevice
+      - id: LPPRCDFAPAmmo
       - id: CEIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
@@ -206,6 +208,8 @@
       - id: CEIDCard # Delta-V
       - id: RCD
       - id: RCDAmmo
+      - id: LPPRCDFAPDevice
+      - id: LPPRCDFAPAmmo
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
 

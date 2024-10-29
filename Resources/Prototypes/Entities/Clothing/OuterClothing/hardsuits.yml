@@ -61,6 +61,28 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitAtmos
+  - type: GasTank
+    outputPressure: 42.6
+    air:
+      volume: 1.5
+      temperature: 293.15
+      moles:
+        - 0.307706858 # oxygen
+        - 0.307706858 # nitrogen
+  - type: ActivatableUI
+    key: enum.SharedGasTankUiKey.Key
+  - type: UserInterface
+    interfaces:
+      - key: enum.SharedGasTankUiKey.Key
+        type: GasTankBoundUserInterface
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 20
+  - type: Jetpack
+    moleUsage: 0.00085
+  - type: CanMoveInAir
+  - type: InputMover
+    toParent: true
 
 #Engineering Hardsuit
 - type: entity
@@ -97,6 +119,28 @@
     clothingPrototype: ClothingHeadHelmetHardsuitEngineering
   - type: StaminaDamageResistance
     coefficient: 0.75 # 25%
+  - type: GasTank
+    outputPressure: 42.6
+    air:
+      volume: 1.5
+      temperature: 293.15
+      moles:
+        - 0.307706858 # oxygen
+        - 0.307706858 # nitrogen
+  - type: ActivatableUI
+    key: enum.SharedGasTankUiKey.Key
+  - type: UserInterface
+    interfaces:
+      - key: enum.SharedGasTankUiKey.Key
+        type: GasTankBoundUserInterface
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 20
+  - type: Jetpack
+    moleUsage: 0.00085
+  - type: CanMoveInAir
+  - type: InputMover
+    toParent: true
 
 #Spationaut Hardsuit
 - type: entity
@@ -384,6 +428,28 @@
     - type: SupermatterImmune
   - type: StaminaDamageResistance
     coefficient: 0.65 # 35%
+  - type: GasTank
+    outputPressure: 42.6
+    air:
+      volume: 3
+      temperature: 293.15
+      moles:
+        - 0.615413716 # oxygen
+        - 0.615413716 # nitrogen
+  - type: ActivatableUI
+    key: enum.SharedGasTankUiKey.Key
+  - type: UserInterface
+    interfaces:
+      - key: enum.SharedGasTankUiKey.Key
+        type: GasTankBoundUserInterface
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 20
+  - type: Jetpack
+    moleUsage: 0.00085
+  - type: CanMoveInAir
+  - type: InputMover
+    toParent: true
 
 #Chief Medical Officer's Hardsuit
 - type: entity
@@ -879,6 +945,28 @@
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
   - type: BiocodedClothing #LPP
+  - type: GasTank
+    outputPressure: 42.6
+    air:
+      volume: 3
+      temperature: 293.15
+      moles:
+        - 0.615413716 # oxygen
+        - 0.615413716 # nitrogen
+  - type: ActivatableUI
+    key: enum.SharedGasTankUiKey.Key
+  - type: UserInterface
+    interfaces:
+      - key: enum.SharedGasTankUiKey.Key
+        type: GasTankBoundUserInterface
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 20
+  - type: Jetpack
+    moleUsage: 0.00085
+  - type: CanMoveInAir
+  - type: InputMover
+    toParent: true
 
 #ERT Medic Hardsuit
 - type: entity
