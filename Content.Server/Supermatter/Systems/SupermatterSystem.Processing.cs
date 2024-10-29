@@ -305,8 +305,8 @@ public sealed partial class SupermatterSystem
         if (string.IsNullOrWhiteSpace(message))
             return;
 
-        var secondaryChannel = _prototypeManager.Index<RadioChannelPrototype>(channelName);
-        _radioSystem.SendRadioMessage(source, message, secondaryChannel, source);
+        var radioChannel = _prototypeManager.Index<RadioChannelPrototype>(channelName);
+        _radioSystem.SendRadioMessage(source, message, radioChannel, source);
     }
 
     /// <param name="global">If true, sends a station announcement</param>
