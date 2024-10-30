@@ -53,3 +53,14 @@
         - LPPBlueShieldOfficer
   items:
     - MagazineMagnum
+
+- type: loadout
+  id: LoadoutCommandBSSkirtleneck
+  category: JobsCommand
+  cost: 0
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - LPPClothingUniformSkirtleneckBlueshield
