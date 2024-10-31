@@ -625,26 +625,16 @@ public sealed partial class ChatSystem : SharedChatSystem
         var coloredName = $"[color=#FFD29E]{name}[/color]";
         var coloredAction = $"[color=#FFD29E]{FormattedMessage.RemoveMarkup(action)}[/color]";
 
-
-        string wrappedMessage;
-        try
-        {
-            wrappedMessage = Loc.GetString("chat-manager-entity-me-wrap-message",
+        string wrappedMessage = Loc.GetString("chat-manager-entity-me-wrap-message",
                 ("entityName", coloredName),
                 ("entity", ent),
                 ("message", coloredAction));
-        }
-        catch (NullReferenceException ex)
-        {
-            Logger.ErrorS("loc", $"Localization error: {ex}");
-            wrappedMessage = "Emote error";
-        }
 
 
         if (checkEmote)
             TryEmoteChatInput(source, action);
 
-        float hiddenEmoteRange = 0.3f;
+        float hiddenEmoteRange = 2;
 
         foreach (var (session, data) in GetRecipients(source, hiddenEmoteRange))
         {
