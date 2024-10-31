@@ -280,3 +280,17 @@
         - !type:CharacterJobRequirement
           jobs:
             - SalvageSpecialist
+
+- type: loadout
+  id: LoadoutBackpackSatchelCE
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelCE
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefEngineer

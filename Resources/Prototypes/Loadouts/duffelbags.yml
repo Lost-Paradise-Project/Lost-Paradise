@@ -246,3 +246,17 @@
     - !type:CharacterDepartmentRequirement
       departments:
         - Logistics
+
+- type: loadout
+  id: LoadoutBackpackDuffelCE
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackDuffelCE
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefEngineer
