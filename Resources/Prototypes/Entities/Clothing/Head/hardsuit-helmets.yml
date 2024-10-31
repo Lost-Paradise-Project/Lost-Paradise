@@ -40,7 +40,6 @@
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
     coefficient: 0.005
-  - type: FlashImmunity
   - type: EyeProtection
 
 #Engineering Hardsuit
@@ -60,7 +59,6 @@
   - type: PressureProtection
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
-  - type: FlashImmunity
   - type: EyeProtection
 
 #Spationaut Hardsuit
@@ -253,7 +251,6 @@
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
-  - type: FlashImmunity
   - type: EyeProtection
 
 #Chief Medical Officer's Hardsuit
