@@ -613,8 +613,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         LanguagePrototype language,
         bool hideLog = false,
         bool checkEmote = true,
-        bool ignoreActionBlocker = false,
-        NetUserId? author = null
+        bool ignoreActionBlocker = false
         )
     {
         if (!_actionBlocker.CanEmote(source) && !ignoreActionBlocker)
@@ -626,10 +625,21 @@ public sealed partial class ChatSystem : SharedChatSystem
         var coloredName = $"[color=#FFD29E]{name}[/color]";
         var coloredAction = $"[color=#FFD29E]{FormattedMessage.RemoveMarkup(action)}[/color]";
 
-        var wrappedMessage = Loc.GetString("chat-manager-entity-me-wrap-message",
-            ("entityName", coloredName),
-            ("entity", ent),
-            ("message", coloredAction));
+
+        string wrappedMessage;
+        try
+        {
+            wrappedMessage = Loc.GetString("chat-manager-entity-me-wrap-message",
+                ("entityName", coloredName),
+                ("entity", ent),
+                ("message", coloredAction));
+        }
+        catch (NullReferenceException ex)
+        {
+            Logger.ErrorS("loc", $"Localization error: {ex}");
+            wrappedMessage = "Emote error";
+        }
+
 
         if (checkEmote)
             TryEmoteChatInput(source, action);
