@@ -70,18 +70,6 @@
     - ClothingUniformJumpskirtChiefEngineerTurtle
 
 - type: loadout
-  id: LoadoutCommandCEUniformJumpskirtTurtle
-  category: JobsCommand
-  cost: 0
-  exclusive: true
-  requirements:
-    - !type:CharacterJobRequirement
-      jobs:
-        - ChiefEngineer
-  items:
-    - ClothingUniformJumpskirtChiefEngineerTurtle
-
-- type: loadout
   id: LoadoutCommandCEUniformJumpsuit
   category: JobsCommand
   cost: 0
