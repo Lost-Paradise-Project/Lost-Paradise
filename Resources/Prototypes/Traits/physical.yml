@@ -414,7 +414,7 @@
 - type: trait
   id: BionicArm
   category: Physical
-  points: -9
+  points: -4
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -423,7 +423,7 @@
   components:
     - type: Prying
       speedModifier: 1
-      pryPowered: true
+      pryPowered: false
       force: true
 
 - type: trait

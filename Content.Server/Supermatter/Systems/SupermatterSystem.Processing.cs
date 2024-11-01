@@ -6,11 +6,16 @@ using Content.Shared.Chat;
 using System.Linq;
 using Content.Shared.Audio;
 using Content.Shared.CCVar;
+using Content.Shared.Radio;
+using Content.Server.Radio.EntitySystems;
+using Robust.Shared.Prototypes;
 
 namespace Content.Server.Supermatter.Systems;
 
 public sealed partial class SupermatterSystem
 {
+    [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
+    [Dependency] private readonly RadioSystem _radioSystem = default!;
     /// <summary>
     ///     Handle power and radiation output depending on atmospheric things.
     /// </summary>
@@ -293,6 +298,17 @@ public sealed partial class SupermatterSystem
         SendSupermatterAnnouncement(uid, message, global);
     }
 
+    private void Report(EntityUid source, string channelName, string messageKey, params (string, object)[] args)
+    {
+        var message = args.Length == 0 ? Loc.GetString(messageKey) : Loc.GetString(messageKey, args);
+
+        if (string.IsNullOrWhiteSpace(message))
+            return;
+
+        var radioChannel = _prototypeManager.Index<RadioChannelPrototype>(channelName);
+        _radioSystem.SendRadioMessage(source, message, radioChannel, source);
+    }
+
     /// <param name="global">If true, sends a station announcement</param>
     /// <param name="customSender">Localisation string for a custom announcer name</param>
     public void SendSupermatterAnnouncement(EntityUid uid, string message, bool global = false, string? customSender = null)
@@ -305,6 +321,11 @@ public sealed partial class SupermatterSystem
         }
 
         _chat.TrySendInGameICMessage(uid, message, InGameICChatType.Speak, hideChat: false, checkRadioPrefix: true);
+
+        if (!string.IsNullOrWhiteSpace(message))
+        {
+            Report(uid, "Engineering", message);
+        }
     }
 
     /// <summary>
