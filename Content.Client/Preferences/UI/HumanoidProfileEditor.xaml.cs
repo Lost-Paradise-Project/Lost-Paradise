@@ -1474,7 +1474,7 @@ namespace Content.Client.Preferences.UI
                     _configurationManager,
                     out _
 #if LPP_Sponsors
-                        , 0, sponsorTier, uuid
+                    , 0, sponsorTier, uuid
 #endif
                 );
                 _traits.Add(trait, usable);

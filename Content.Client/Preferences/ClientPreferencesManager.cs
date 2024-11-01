@@ -85,8 +85,8 @@ namespace Content.Client.Preferences
                 if (sponsorMarkings is not null && sponsorMarkings.Count() > 0)
                     allowedMarkings = allowedMarkings.Concat(sponsorMarkings).ToArray();
             }
-                var session = _playerManager.LocalSession!;
-                profile.EnsureValid(session, collection, allowedMarkings);
+            var session = _playerManager.LocalSession!;
+            profile.EnsureValid(session, collection, allowedMarkings);
 #else
             profile.EnsureValid(_playerManager.LocalSession!, collection);
 #endif
