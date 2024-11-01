@@ -5,7 +5,7 @@
     sprite: Clothing/OuterClothing/Hardsuits/atmospherics.rsi
     state: icon
   product: CrateEngineeringFotiaHardsuit
-  cost: 2250
+  cost: 4500
   category: cargoproduct-category-name-hardsuits
   group: market
 
@@ -15,7 +15,7 @@
     sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
     state: icon
   product: CrateEngineeringLampsiHardsuit
-  cost: 2250
+  cost: 3500
   category: cargoproduct-category-name-hardsuits
   group: market
 
@@ -26,7 +26,7 @@
     sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
     state: icon
   product: CrateLogisticsKritiHardsuit
-  cost: 1250
+  cost: 3000
   category: cargoproduct-category-name-hardsuits
   group: market
 
@@ -36,7 +36,7 @@
     sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
     state: icon
   product: CrateLogisticsLavrionHardsuit
-  cost: 3500
+  cost: 9000
   category: cargoproduct-category-name-hardsuits
   group: market
 
@@ -47,16 +47,6 @@
     sprite: Nyanotrasen/Clothing/OuterClothing/ReverseEngineering/syndicate.rsi
     state: icon
   product: CrateSecurityShanlinTacsuit
-  cost: 17500
-  category: cargoproduct-category-name-hardsuits
-  group: market
-
-- type: cargoProduct
-  id: SecurityGuanYuTacsuit
-  icon:
-    sprite: Nyanotrasen/Clothing/OuterClothing/ReverseEngineering/juggernaut.rsi
-    state: icon
-  product: CrateSecurityGuanYuTacsuit
   cost: 30000
   category: cargoproduct-category-name-hardsuits
   group: market
@@ -67,7 +57,7 @@
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/standard.rsi
     state: icon
   product: CrateSecurityBaghaturTacsuit
-  cost: 5000
+  cost: 7500
   category: cargoproduct-category-name-hardsuits
   group: market
 
@@ -77,7 +67,7 @@
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/riot.rsi
     state: icon
   product: CrateSecuritySuldeTacsuit
-  cost: 7500
+  cost: 9500
   category: cargoproduct-category-name-hardsuits
   group: market
 
@@ -87,6 +77,6 @@
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/medical.rsi
     state: icon
   product: CrateSecurityTsagaanTacsuit
-  cost: 5500
+  cost: 8000
   category: cargoproduct-category-name-hardsuits
   group: market

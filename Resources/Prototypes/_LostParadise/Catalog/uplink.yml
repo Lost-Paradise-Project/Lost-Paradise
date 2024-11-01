@@ -52,3 +52,14 @@
     Telecrystal: 12
   categories:
   - UplinkArmor
+
+- type: listing
+  id: LPPUplinkBimagpistolboxSyndie
+  name: uplink-catalog-pistol-bigmagazinebox-name
+  description: uplink-catalog-armor-syndiehard-desc
+  icon: { sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
+  productEntity: BoxMagazinePistolHighCapacity
+  cost:
+    Telecrystal: 4
+  categories:
+  - UplinkAmmo

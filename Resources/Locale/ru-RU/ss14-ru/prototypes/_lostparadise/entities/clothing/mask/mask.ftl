@@ -55,3 +55,6 @@ ent-LPPBlueShieldClothingMaskGas = Противогаз офицера "сини
     .desc = Элитный противогаз офицера "синий щит".
 ent-LPPClothingMaskPGWrittenOff = Списанная балаклава ПГ
     .desc = Списанная балаклава которая использовалась солдатами ПГ.
+ent-LPPClothingMaskNeckGaiterLoneOps = шейный гетр
+    .desc = Стильный гетр для шеи, способный защитить от космического ветра и даже некоторых снарядов.
+    .suffix = Лонопс

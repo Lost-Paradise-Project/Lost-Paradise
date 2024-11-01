@@ -79,6 +79,7 @@
         whitelist:
           tags:
             - MagazinePistolHighCapacity
+            - MagazinePistol
       gun_chamber:
         name: Chamber
         startingItem: CartridgePistol
@@ -86,3 +87,6 @@
         whitelist:
           tags:
             - CartridgePistol
+  - type: Telescope
+    divisor: 0.2
+    lepramount: 0.2

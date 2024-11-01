@@ -66,3 +66,15 @@
   - type: Storage
     grid:
     - 0,0,10,3
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelContractor
+  name: contractor duffel bag
+  description:
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Duffels/integduffel.rsi
+  - type: Storage
+    grid:
+    - 0,0,10,3
