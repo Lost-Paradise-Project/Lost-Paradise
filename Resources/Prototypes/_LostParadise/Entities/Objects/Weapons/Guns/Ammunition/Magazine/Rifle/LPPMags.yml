@@ -76,7 +76,7 @@
         color: "#dbdbdb"
 
 - type: entity
-  id: LPPagazineRifleM4A1Uranium
+  id: LPPMagazineRifleM4A1Uranium
   name: Magazine (calibre 5,56x45 uranium)
   parent: LPPBaseMagazineRifle
   components:
