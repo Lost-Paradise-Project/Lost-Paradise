@@ -1204,6 +1204,13 @@
       - CarpetPurple
       - CarpetCyan
       - CarpetWhite
+      # LPP
+      - LPPArmbandRed
+      - LPPArmbandGreen
+      - LPPArmbandBlue
+      - LPPArmbandWhite
+      - LPPArmbandYellow
+      - LPPArmbandPurple
   - type: EmagLatheRecipes
     emagStaticRecipes:
       - ClothingHeadHatCentcomcap

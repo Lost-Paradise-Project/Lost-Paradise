@@ -84,6 +84,7 @@
       jobs:
         - StationEngineer
         - AtmosphericTechnician
+        - ChiefEngineer
   items:
     - ClothingHeadHatHardhatBlue
 
@@ -99,6 +100,7 @@
       jobs:
         - StationEngineer
         - AtmosphericTechnician
+        - ChiefEngineer
   items:
     - ClothingHeadHatHardhatOrange
 
@@ -114,6 +116,7 @@
       jobs:
         - StationEngineer
         - AtmosphericTechnician
+        - ChiefEngineer
   items:
     - ClothingHeadHatHardhatYellow
 
@@ -127,8 +130,7 @@
       group: LoadoutHeadEngineering
     - !type:CharacterJobRequirement
       jobs:
-        - StationEngineer
-        - AtmosphericTechnician
+        - ChiefEngineer
   items:
     - ClothingHeadHatHardhatWhite
 
@@ -144,5 +146,6 @@
       jobs:
         - StationEngineer
         - AtmosphericTechnician
+        - ChiefEngineer
   items:
     - ClothingHeadHatHardhatRed

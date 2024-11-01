@@ -11,10 +11,36 @@
     - ClothingBeltKatanaSheathFilledHoS
 
 - type: loadout
+  id: LoadoutCommandBSMedkitCombat
+  category: JobsCommand
+  cost: 2
+  exclusive: true
+  requirements: 
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - MedkitCombatFilled
+
+- type: loadout
+  id: LoadoutCommandBSCombatHypospray
+  category: JobsCommand
+  cost: 4
+  exclusive: true
+  requirements: 
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPBlueShieldOfficer
+  items:
+    - LPPCombatHypospray
+
+- type: loadout
   id: LoadoutCommandBSWeaponPistolN1984
   category: JobsCommand
   cost: 2
   requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponBS
     - !type:CharacterJobRequirement
       jobs:
         - LPPBlueShieldOfficer
@@ -26,6 +52,8 @@
   category: JobsCommand
   cost: 2
   requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponBS
     - !type:CharacterJobRequirement
       jobs:
         - LPPBlueShieldOfficer
@@ -37,6 +65,8 @@
   category: JobsCommand
   cost: 1
   requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagazineBS
     - !type:CharacterJobRequirement
       jobs:
         - LPPBlueShieldOfficer
@@ -48,6 +78,8 @@
   category: JobsCommand
   cost: 1
   requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagazineBS
     - !type:CharacterJobRequirement
       jobs:
         - LPPBlueShieldOfficer

@@ -75,6 +75,7 @@
   - type: Clothing
     sprite: _LostParadise/Clothing/Eyes/HUD/SecEngHUD.rsi
   - type: EyeProtection
+  - type: FlashImmunity
   - type: Tag
     tags:
     - HudSecurity
