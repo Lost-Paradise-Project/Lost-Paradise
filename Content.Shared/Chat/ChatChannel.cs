@@ -4,7 +4,7 @@ namespace Content.Shared.Chat
     ///     Represents chat channels that the player can filter chat tabs by.
     /// </summary>
     [Flags, Serializable]
-    public enum ChatChannel : ushort
+    public enum ChatChannel : uint
     {
         None = 0,
 
@@ -61,39 +61,44 @@ namespace Content.Shared.Chat
         Emotes = 1 << 9,
 
         /// <summary>
+        ///     HiddenEmotes
+        /// </summary>
+        HiddenEmotes = 1 << 10,
+
+        /// <summary>
         ///     Deadchat
         /// </summary>
-        Dead = 1 << 10,
+        Dead = 1 << 11,
 
         /// <summary>
         ///     Misc admin messages
         /// </summary>
-        Admin = 1 << 11,
+        Admin = 1 << 12,
 
         /// <summary>
         ///     Admin alerts, messages likely of elevated importance to admins
         /// </summary>
-        AdminAlert = 1 << 12,
+        AdminAlert = 1 << 13,
 
         /// <summary>
         ///     Admin chat
         /// </summary>
-        AdminChat = 1 << 13,
+        AdminChat = 1 << 14,
 
         /// <summary>
         ///     Unspecified.
         /// </summary>
-        Unspecified = 1 << 14,
+        Unspecified = 1 << 15,
 
         /// <summary>
         ///     Nyano - Summary:: Telepathic channel for all psionic entities.
         /// </summary>
-        Telepathic = 1 << 15,
+        Telepathic = 1 << 16,
 
         /// <summary>
         ///     Channels considered to be IC.
         /// </summary>
-        IC = Local | Whisper | Radio | Dead | Emotes | Damage | Visual | Telepathic | Notifications, //Nyano - Summary: Adds telepathic as an 'IC' labelled chat..
+        IC = Local | Whisper | Radio | Dead | Emotes | HiddenEmotes | Damage | Visual | Telepathic | Notifications, //Nyano - Summary: Adds telepathic as an 'IC' labelled chat..
 
         AdminRelated = Admin | AdminAlert | AdminChat,
     }
