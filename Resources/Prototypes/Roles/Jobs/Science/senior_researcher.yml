@@ -11,6 +11,7 @@
   startingGear: SeniorResearcherGear
   icon: "JobIconSeniorResearcher"
   supervisors: job-supervisors-rd
+  canBeAntag: false
   access:
   - Research
 #  - Robotics
