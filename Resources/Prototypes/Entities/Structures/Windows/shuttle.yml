@@ -39,6 +39,9 @@
   - type: IconSmooth
     base: swindow
   - type: Appearance
+  - type: Construction
+    graph: Window
+    node: shuttleWindow
   - type: DamageVisuals
     thresholds: [4, 8, 12]
     damageDivisor: 28
@@ -68,6 +71,9 @@
   - type: Icon
     sprite: Structures/Windows/shuttle_window_diagonal.rsi
     state: state0
+  - type: Construction
+    graph: Window
+    node: shuttleWindow
   - type: Fixtures
     fixtures:
       fix1:
