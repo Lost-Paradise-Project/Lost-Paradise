@@ -72,6 +72,7 @@
   id: SyndicateListenerGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitPyjamaSyndicateBlack
+    back: ClothingBackpackSyndicate
     head: ClothingHeadPyjamaSyndicateBlack
     ears: ClothingHeadsetAltSyndicateListening
     gloves: ClothingHandsGlovesCombat
