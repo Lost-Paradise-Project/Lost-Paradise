@@ -40,6 +40,3 @@ ent-LPPClothingOuterHardsuitMiningPlus = Hardsuit HpI-20a+ "Rodos"
     .desc = Hephaestus Industries upgraded hardsuit, providing more protection from blunt and slash damages, sacrificing protection from piercing damage. Marked to indicate that this model has protection against most types of exposure. Looks pretty light.
 ent-LPPClothingOuterHardsuitMiningJuggernaut = Hardsuit HpIP-22 "Argos"
     .desc = Hephaestus Industries juggernaut hardsuit, providing lots of protection from different types of damages. It's desined to work in most harsh enviroments. Looks so heavy...
-ent-LPPClothingOuterHardsuitSpecialForcesCommand = Tactical harsuit NT-999ua "Σεραφείμ"
-    .desc = An advanced tactical spacesuit used by a privileged NanoTrasen superior officer. The armor is reinforced with a super-strong alloy and does not restrain the wearer's movements.
-    .suffix = Personal, Relictez
