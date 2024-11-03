@@ -91,3 +91,29 @@
       - id: ClothingHandsGlovesCombat
       - id: DoubleEmergencyOxygenTankFilled
       - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: LPPClothingBackpackDuffelContractorSyndicateHardsuitBundle
+  name: Contractor syndicate hardsuit bundle
+  description: Contains contractor syndicate hardsuit bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitInteq
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelContractor
+  id: LPPClothingBackpackDuffelSyndicateOperative
+  name: contractor duffelbag
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalSyndicate
+      - id: LPPWeaponRevolverOC-38
+      - id: PinpointerSyndicateNuclear
+      - id: DeathAcidifierImplanter

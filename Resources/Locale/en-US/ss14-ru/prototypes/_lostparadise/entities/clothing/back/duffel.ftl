@@ -12,3 +12,5 @@ ent-LPPClothingBackpackDuffelDelta = delta duffel bag
     .desc = { ent-ClothingBackpackDuffel.desc }
 ent-LPPClothingBackpackDuffelCommandDelta = command delta duffel bag
     .desc = { ent-ClothingBackpackDuffel.desc }
+ent-LPPClothingBackpackDuffelContractor = contractor duffel bag
+    .desc = { ent-ClothingBackpackDuffel.desc }

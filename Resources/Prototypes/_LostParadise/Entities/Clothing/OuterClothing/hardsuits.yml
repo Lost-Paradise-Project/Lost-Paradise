@@ -563,3 +563,146 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetScienceNPZ
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitInteq
+  name: Hardsuit INT-05Q - "Lochern"
+  description: A sturdy spacesuit for close quarters combat, it's generally pretty versatile. Painted in a glossy brown color.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/hardsuitinteq.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/hardsuitinteq.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.40
+        Piercing: 0.40
+        Caustic: 0.2
+        Heat: 0.4
+        Radiation: 0.1
+        Shock: 0.5
+        Cold: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 1.1
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitInteq
+  - type: BiocodedClothing
+  - type: StaminaDamageResistance
+    coefficient: 0.5
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitUpgradedMining
+  name: Hardsuit HpI-20b "Kerateia"
+  description: Hephaestus Industries porotype spacesuit designed for salvagers usage in low-pressure environments. Marked to indicate that this model has protection against most types of exposure. Looks not so heavy.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/upgrmining.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/upgrmining.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.5
+        Caustic: 0.45
+        Heat: 0.75
+        Radiation: 0.3
+        Cold: 0.8
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitUpgradedMining
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitMiningPlus
+  name: Hardsuit HpI-20a+ "Rodos"
+  description: Hephaestus Industries upgraded hardsuit, providing more protection from blunt and slash damages, sacrificing protection from piercing damage. Marked to indicate that this model has protection against most types of exposure. Looks pretty light.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/salvplus.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/salvplus.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.55
+        Piercing: 0.55
+        Caustic: 0.1
+        Heat: 0.7
+        Radiation: 0.4
+        Cold: 0.8
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitMiningPlus
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitMiningJuggernaut
+  name: Hardsuit HpIP-22 "Argos"
+  description: Hephaestus Industries juggernaut hardsuit, providing lots of protection from different types of damages. It's desined to work in most harsh enviroments. Looks so heavy...
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/miningjugg.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/miningjugg.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.25
+        Slash: 0.25
+        Piercing: 0.35
+        Caustic: 0.05
+        Heat: 0.7
+        Radiation: 0.05
+        Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.6
+    sprintModifier: 0.6
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitMiningJuggernaut
+
