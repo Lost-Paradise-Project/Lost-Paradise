@@ -2768,3 +2768,11 @@
   id: 144
   time: '2024-11-03T13:09:41.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/314
+- author: Evgencheg
+  changes:
+  - message: "\u0423\u0431\u0440\u0430\u043D\u044B \u0430\u0434\u0441\u043A\u0438\u0435\
+      \ \u043A\u0430\u0440\u0442\u044B!"
+    type: Remove
+  id: 145
+  time: '2024-11-04T19:21:30.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/320
