@@ -183,8 +183,8 @@ trait-description-Voracious =
 
 trait-name-SlowEater = Slow Eater
 trait-description-SlowEater =
-    By any means, whether it is your own way of eating or drinking or you just simply can't eat to fast of injuries, you eat and drink anything slower.
-    You consume food and ndrinks twice as slower than any other normal breathing humanoid.
+    Whether due to personal habits or physical limitations, you take your time with meals.
+    You consume food and drinks at half the normal speed.
 
 trait-name-ParkourTraining = Parkour Training
 trait-description-ParkourTraining =
