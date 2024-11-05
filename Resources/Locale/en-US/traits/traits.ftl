@@ -181,6 +181,11 @@ trait-description-Voracious =
     Nothing gets between you and your food.
     Your endless consumption of food and drinks is twice as fast.
 
+trait-name-SlowEater = Slow Eater
+trait-description-SlowEater =
+    By any means, whether it is your own way of eating or drinking or you just simply can't eat to fast of injuries, you eat and drink anything slower.
+    You consume food and ndrinks twice as slower than any other normal breathing humanoid.
+
 trait-name-ParkourTraining = Parkour Training
 trait-description-ParkourTraining =
     Whether as a hobby, lifestyle, or professional training, you are trained in the discipline of parkour.
