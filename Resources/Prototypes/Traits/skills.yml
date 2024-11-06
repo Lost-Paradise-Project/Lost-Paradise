@@ -22,16 +22,16 @@
   components:
     - type: SelfAware
       analyzableTypes:
-      - Blunt
-      - Slash
-      - Piercing
-      - Heat
-      - Shock
-      - Cold
-      - Caustic
+        - Blunt
+        - Slash
+        - Piercing
+        - Heat
+        - Shock
+        - Cold
+        - Caustic
       detectableGroups:
-      - Airloss
-      - Toxin
+        - Airloss
+        - Toxin
 
 - type: trait
   id: HeavyweightDrunk
@@ -201,6 +201,12 @@
         - !type:CharacterTraitRequirement
           traits:
             - AnomalousPositronics
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - Shadowkin
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -236,6 +242,12 @@
       inverted: true
       traits:
         - LatentPsychic
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - Shadowkin
 
 - type: trait
   id: NaturalTelepath
@@ -267,6 +279,12 @@
         - !type:CharacterTraitRequirement
           traits:
             - AnomalousPositronics
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - Shadowkin
 
 - type: trait
   id: TrapAvoider
@@ -276,10 +294,10 @@
     - type: StepTriggerImmune
       whitelist:
         types:
-        - Shard
-        - Landmine
-        - Mousetrap
-        - SlipEntity
+          - Shard
+          - Landmine
+          - Mousetrap
+          - SlipEntity
   requirements:
     - !type:CharacterSpeciesRequirement
       inverted: true
@@ -297,3 +315,10 @@
     - !type:CharacterSpeciesRequirement
       species:
         - IPC
+
+- type: trait
+  id: AnimalFriend
+  category: Mental
+  points: -4
+  addFactions:
+    - AnimalFriend

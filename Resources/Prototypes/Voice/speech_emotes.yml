@@ -496,7 +496,14 @@
   - deathgasp
 
 - type: emote
+  id: MonkeyDeathgasp
+  name: chat-emote-name-deathgasp
+  icon: Interface/Emotes/deathgasp.png
+  chatMessages: ["chat-emote-msg-deathgasp-monkey"]
+
+- type: emote
   id: SiliconDeathgasp
+  name: chat-emote-name-deathgasp
   chatMessages: ["chat-emote-msg-deathgasp-silicon"]
   chatTriggers:
   - sdeathgasp
@@ -576,7 +583,14 @@
 # Machine Emotes
 - type: emote
   id: Beep
+  name: chat-emote-name-beep
   category: Vocal
+  icon: Interface/Emotes/beep.png
+  whitelist:
+    requireAll: true
+    components:
+    - BorgChassis
+    - Vocal
   chatMessages: ["chat-emote-msg-beep"]
   chatTriggers:
     - beep
@@ -599,6 +613,7 @@
 
 - type: emote
   id: Boop
+  name: chat-emote-name-boop
   category: Vocal
   chatMessages: [ chat-emote-msg-boop ]
   chatTriggers:
@@ -729,8 +744,25 @@
   # Corvax-Localization-End
 
 - type: emote
-  id: Whirr # uncategorized as it is generic
+  id: Whirr
+  name: chat-emote-name-whirr
   chatMessages: [ жужит ]
   chatTriggers:
     - whirrs
     - жужит
+
+- type: emote
+  id: Mars
+  name: chat-emote-name-mars
+  category: Vocal
+  chatMessages: [ mars ]
+  chatTriggers:
+    - mars
+
+- type: emote
+  id: Wurble
+  name: chat-emote-name-wurble
+  category: Vocal
+  chatMessages: [ wurble ]
+  chatTriggers:
+    - wurble

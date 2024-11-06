@@ -15,7 +15,10 @@
     tags:
     - HamsterWearable
     - WhitelistChameleon
-    - HidesNose
+  - type: HideLayerClothing
+    slots:
+    - Snout
+    hideOnToggle: true
 
 - type: entity
   parent: ClothingMaskGas
@@ -198,6 +201,10 @@
     - ClownMask
     - WhitelistChameleon
     - HidesNose
+    - IPCMaskWearable
+  - type: HideLayerClothing
+    slots:
+    - Snout
 
 - type: entity
   parent: ClothingMaskClownBase
@@ -210,6 +217,9 @@
     - WhitelistChameleon
     - HidesNose
     - IPCMaskWearable
+  - type: HideLayerClothing
+    slots:
+    - Snout
 
 - type: entity
   parent: ClothingMaskClown
@@ -240,6 +250,9 @@
     tags:
     - HidesNose
     - IPCMaskWearable
+  - type: HideLayerClothing
+    slots:
+    - Snout
 
 - type: entity
   parent: ClothingMaskBase
@@ -259,6 +272,9 @@
     - WhitelistChameleon
     - HidesNose
     - IPCMaskWearable
+  - type: HideLayerClothing
+    slots:
+    - Snout
 
 - type: entity
   parent: ClothingMaskPullableBase
@@ -272,9 +288,12 @@
     sprite: Clothing/Mask/sterile.rsi
   - type: IngestionBlocker
   - type: Item
-    storedRotation: -90
+    size: Tiny
   - type: IdentityBlocker
     coverage: MOUTH
+  - type: PhysicalComposition
+    materialComposition:
+      Plastic: 25
 
 - type: entity
   parent: ClothingMaskBase
@@ -309,9 +328,10 @@
   - type: BreathMask
   - type: IngestionBlocker
   - type: IdentityBlocker
-  - type: Tag
-    tags:
-    - HidesNose
+  - type: HideLayerClothing
+    slots:
+    - Snout
+    hideOnToggle: true
 
 - type: entity
   parent: ClothingMaskClownBase
@@ -341,8 +361,11 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-    - HidesHair
-    - HidesNose
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
 
 - type: entity
   parent: ClothingMaskGasExplorer
@@ -377,6 +400,11 @@
         Slash: 0.85
         Piercing: 0.90
         Heat: 0.90
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    hideOnToggle: true
 
 - type: entity
   parent: ClothingMaskGasERT
@@ -413,6 +441,9 @@
     - WhitelistChameleon
     - HidesNose
     - IPCMaskWearable
+  - type: HideLayerClothing
+    slots:
+    - Snout
   - type: IdentityBlocker
 
 - type: entity
@@ -431,6 +462,9 @@
     tags:
     - HidesNose
     - IPCMaskWearable
+  - type: HideLayerClothing
+    slots:
+    - Snout
 
 - type: entity
   parent: ClothingMaskBase
@@ -448,6 +482,9 @@
     tags:
     - HidesNose
     - IPCMaskWearable
+  - type: HideLayerClothing
+    slots:
+    - Snout
 
 - type: entity
   parent: ClothingMaskBase
@@ -465,6 +502,9 @@
     tags:
     - HidesNose
     - IPCMaskWearable
+  - type: HideLayerClothing
+    slots:
+    - Snout
 
 - type: entity
   parent: ClothingMaskBase
@@ -482,6 +522,9 @@
     tags:
     - HidesNose
     - IPCMaskWearable
+  - type: HideLayerClothing
+    slots:
+    - Snout
 
 - type: entity
   parent: ClothingMaskBase
@@ -499,6 +542,9 @@
     tags:
     - HidesNose
     - IPCMaskWearable
+  - type: HideLayerClothing
+    slots:
+    - Snout
 
 - type: entity
   parent: ClothingMaskBase
@@ -516,6 +562,9 @@
     tags:
     - HidesNose
     - IPCMaskWearable
+  - type: HideLayerClothing
+    slots:
+    - Snout
 
 - type: entity
   parent: ClothingMaskBase

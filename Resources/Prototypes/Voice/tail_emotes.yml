@@ -1,6 +1,7 @@
 - type: emote
   id: WagTail
-  chatMessages: [машет хвостом]
+  name: chat-emote-name-tailwag
+  chatMessages: [wags their tail]
   chatTriggers:
     - махает хвостом
     - машет хвостом
