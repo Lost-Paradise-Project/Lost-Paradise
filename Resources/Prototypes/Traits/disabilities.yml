@@ -50,25 +50,6 @@
         collection: Paracusia
 
 - type: trait
-  id: SlowEater
-  category: Physical
-  points: 1
-  components:
-    - type: ConsumeDelayModifier
-      foodDelayMultiplier: 1.6
-      drinkDelayMultiplier: 1.6
-  requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - IPC
-    - !type:CharacterJobRequirement
-      inverted: true
-      jobs:
-        - Borg
-        - MedicalBorg
-
-- type: trait
   id: Muted
   category: Mental
   points: 4
