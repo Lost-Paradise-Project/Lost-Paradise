@@ -19,9 +19,9 @@
     sprite: /Textures/DeltaV/Interface/Misc/job_icons.rsi
     state: Clerk
 
-- type: statusIcon
-  parent: JobIcon
-  id: JobIconProsecutor
-  icon:
-    sprite: /Textures/DeltaV/Interface/Misc/job_icons.rsi
-    state: Prosecutor #need prosecutor
+# - type: statusIcon
+#   parent: JobIcon
+#   id: JobIconProsecutor
+#   icon:
+#     sprite: /Textures/DeltaV/Interface/Misc/job_icons.rsi
+#     state: Prosecutor #need prosecutor

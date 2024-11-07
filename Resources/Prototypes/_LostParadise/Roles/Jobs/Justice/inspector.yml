@@ -1,0 +1,44 @@
+- type: job
+  id: Inspector
+  name: job-name-inspector
+  description: job-description-inspector
+  playTimeTracker: JobInspector
+  requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 36000 # 10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      min: 36000 # 10 hrs
+  startingGear: InspectorGear
+  icon: "JobIconInspector"
+  supervisors: job-supervisors-cj
+  access:
+  - Inspector
+  - Justice
+  - Security
+  - Maintenance
+  - Lawyer
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: InspectorGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitInspector
+    neck: ClothingNeckInspectorbadge
+    back: ClothingBackpackLawyerFilled
+    shoes: ClothingShoesBootsLaceup
+    id: InspectorPDA
+    belt: ClothingBeltSecurityFilled
+    ears: ClothingHeadsetSecurity
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+  underwear: LPPBriefs
+  breast: LPPBraAltWhite
+  inhand:
+    - BriefcaseBrownFilled
+  innerClothingSkirt: ClothingUniformJumpskirtInspector
+  satchel: ClothingBackpackSatchelFilled
+  duffelbag: ClothingBackpackDuffelFilled
+

@@ -52,5 +52,5 @@ ent-ClothingUniformJumpsuitClerk = Костюм судьи
     .desc = Скромный костюм для человека, имеющего право нотариально заверять что угодно.
 ent-ClothingUniformJumpsuitChemShirt = Официальный костюм химика
     .desc = На этом костюме все еще старые пятная. Хм.
-ent-ClothingUniformJumpsuitProsecutor = Костюм прокурора
-    .desc = Красный костюм с нарядным галстуком. Идеально подходит для прокурора.
+ent-ClothingUniformJumpsuitInspector = Костюм инспектора
+    .desc = Красный костюм с нарядным галстуком. Идеально подходит для инспектора.

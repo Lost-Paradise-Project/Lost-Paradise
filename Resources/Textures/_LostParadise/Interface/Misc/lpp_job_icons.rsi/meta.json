@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Draw by JayJacobs + Pe4henika + BL02DL",
+  "copyright": "Draw by JayJacobs + Pe4henika + BL02DL + timixx7019",
   "size": {
     "x": 8,
     "y": 8
@@ -51,6 +51,9 @@
     },
     {
       "name": "Nanotrasen"
+    },
+    {
+      "name": "Inspector"
     }
   ]
 }

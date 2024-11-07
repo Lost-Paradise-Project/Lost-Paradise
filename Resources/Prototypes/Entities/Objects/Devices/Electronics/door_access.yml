@@ -313,11 +313,11 @@
 
 - type: entity
   parent: DoorElectronics
-  id: DoorElectronicsProsecutor
-  suffix: Prosecutor, Locked
+  id: DoorElectronicsInspector
+  suffix: Inspector, Locked
   components:
   - type: AccessReader
-    access: [["Prosecutor"]]
+    access: [["Inspector"]]
 
 - type: entity
   parent: DoorElectronics

@@ -117,8 +117,8 @@
 
 - type: entity
   parent: BasePDA
-  id: ProsecutorPDA
-  name: prosecutor PDA
+  id: InspectorPDA
+  name: Inspector PDA
   description: Sharp. Looks like it could prosecute you all on its own.
   components:
   - type: Sprite
@@ -134,7 +134,7 @@
       shader: "unshaded"
       visible: false
   - type: Pda
-    id: ProsecutorIDCard
+    id: InspectorIDCard
     state: pda-prosecutor
     penSlot:
       startingItem: LuxuryPen

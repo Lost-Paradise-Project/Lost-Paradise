@@ -13116,12 +13116,12 @@ entities:
     - type: Transform
       pos: 54.5,39.5
       parent: 2
-- proto: AirlockProsecutorGlassLocked
+- proto: AirlockInspectorGlassLocked
   entities:
   - uid: 16626
     components:
     - type: MetaData
-      name: Prosecutor's Office
+      name: Inspector's Office
     - type: Transform
       pos: -61.5,11.5
       parent: 2
@@ -47882,7 +47882,7 @@ entities:
     - type: Transform
       pos: 24.5,-27.5
       parent: 2
-- proto: DefaultStationBeaconProsecutor
+- proto: DefaultStationBeaconInspector
   entities:
   - uid: 16697
     components:
@@ -53046,7 +53046,7 @@ entities:
       pos: -60.5,10.5
       parent: 2
     - type: FaxMachine
-      name: Prosecutor's Office
+      name: Inspector's Office
 - proto: FaxMachineCaptain
   entities:
   - uid: 5439
@@ -96412,7 +96412,7 @@ entities:
     - type: Transform
       pos: -30.5,25.5
       parent: 2
-- proto: SpawnPointProsecutor
+- proto: SpawnPointInspector
   entities:
   - uid: 16702
     components:

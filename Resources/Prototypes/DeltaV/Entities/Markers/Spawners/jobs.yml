@@ -41,12 +41,12 @@
       state: clerk
 
 - type: entity
-  id: SpawnPointProsecutor
+  id: SpawnPointInspector
   parent: SpawnPointJobBase
-  name: prosecutor
+  name: Inspector
   components:
   - type: SpawnPoint
-    job_id: Prosecutor
+    job_id: Inspector
   - type: Sprite
     layers:
     - state: green

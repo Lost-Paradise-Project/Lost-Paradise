@@ -92,5 +92,5 @@
     contents:
       - id: LawyerPDA
         amount: 2
-      - id: ProsecutorPDA
+      - id: InspectorPDA
       - id: ClerkPDA

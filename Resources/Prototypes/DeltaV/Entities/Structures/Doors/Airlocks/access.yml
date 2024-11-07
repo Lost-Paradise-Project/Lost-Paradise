@@ -56,21 +56,21 @@
 
 - type: entity
   parent: AirlockJustice
-  id: AirlockProsecutorLocked
-  suffix: Prosecutor, Locked
+  id: AirlockInspectorLocked
+  suffix: Inspector, Locked
   components:
   - type: ContainerFill
     containers:
-      board: [ DoorElectronicsProsecutor ]
+      board: [ DoorElectronicsInspector ]
 
 - type: entity
   parent: AirlockJusticeGlass
-  id: AirlockProsecutorGlassLocked
-  suffix: Prosecutor, Locked
+  id: AirlockInspectorGlassLocked
+  suffix: Inspector, Locked
   components:
   - type: ContainerFill
     containers:
-      board: [ DoorElectronicsProsecutor ]
+      board: [ DoorElectronicsInspector ]
 
 # Maintenance
 - type: entity
@@ -93,12 +93,12 @@
 
 - type: entity
   parent: AirlockMaint
-  id: AirlockMaintProsecutorLocked
-  suffix: Prosecutor, Locked
+  id: AirlockMaintInspectorLocked
+  suffix: Inspector, Locked
   components:
   - type: ContainerFill
     containers:
-      board: [ DoorElectronicsProsecutor ]
+      board: [ DoorElectronicsInspector ]
 
 - type: entity
   parent: AirlockSecurity

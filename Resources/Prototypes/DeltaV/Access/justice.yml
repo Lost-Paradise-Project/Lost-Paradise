@@ -7,14 +7,14 @@
   name: id-card-access-level-justice
   
 - type: accessLevel
-  id: Prosecutor
-  name: id-card-access-level-prosecutor
+  id: Inspector
+  name: id-card-access-level-Inspector
 
 - type: accessGroup
   id: Justice
   tags:
   - Justice
-  - Prosecutor
+  - Inspector
   - ChiefJustice
   - Lawyer
   

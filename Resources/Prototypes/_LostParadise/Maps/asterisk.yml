@@ -68,7 +68,7 @@
           #civilian
             Passenger: [ -1, -1 ]
           #justice
-            Prosecutor: [ 1, 1 ]
+            Inspector: [ 1, 1 ]
             Clerk: [ 1, 1 ]
             ChiefJustice: [ 1, 1 ]
           #LOST PARADISE

@@ -22,4 +22,4 @@ station-beacon-park = Парк
 station-beacon-corpsman = Полевой Врач
 station-beacon-justice = Судебная
 station-beacon-chiefjustice = Верховный Судья
-station-beacon-prosecutor = Прокурор
+station-beacon-Inspector = Инспектор

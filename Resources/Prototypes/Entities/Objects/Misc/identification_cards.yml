@@ -513,11 +513,11 @@
 
 - type: entity
   parent: IDCardStandard
-  id: ProsecutorIDCard
+  id: InspectorIDCard
   name: presecutor ID card
   components:
     - type: PresetIdCard
-      job: Prosecutor
+      job: Inspector
     - type: Sprite
       layers:
       - state: default
@@ -889,7 +889,7 @@
     - JobIconForensicMantis  # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
     - JobIconClerk # Delta V - Added justice dept
     - JobIconChiefJustice # Delta V - Added justice dept
-    - JobIconProsecutor # Delta V - Added justice dept
+    - JobIconInspector # Delta V - Added justice dept
     - JobIconVisitor
   - type: ActivatableUI
     key: enum.AgentIDCardUiKey.Key

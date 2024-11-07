@@ -154,8 +154,8 @@
 
 - type: entity
   parent: DefaultStationBeacon
-  id: DefaultStationBeaconProsecutor
-  suffix: Prosecutor
+  id: DefaultStationBeaconInspector
+  suffix: Inspector
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-prosecutor
+    defaultText: station-beacon-Inspector

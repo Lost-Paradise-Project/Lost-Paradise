@@ -42,12 +42,12 @@
 
 - type: entity
   parent: WindoorSecure
-  id: WindoorSecureProsecutorLocked
-  suffix: Prosecutor, Locked
+  id: WindoorSecureInspectorLocked
+  suffix: Inspector, Locked
   components:
   - type: ContainerFill
     containers:
-      board: [ DoorElectronicsProsecutor ]
+      board: [ DoorElectronicsInspector ]
 
 - type: entity
   parent: WindoorSecure

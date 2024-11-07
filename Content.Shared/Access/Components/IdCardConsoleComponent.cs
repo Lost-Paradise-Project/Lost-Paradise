@@ -91,7 +91,7 @@ public sealed partial class IdCardConsoleComponent : Component
         "Zookeeper",  // DeltaV - Add Zookeeper access
         "ChiefJustice",  // DeltaV - Add Chief Justice access
         "Justice",  // DeltaV - Add Justice access
-        "Prosecutor", // Delta V - Add Prosecutor access
+        "Inspector", // LPP - Add inspector access
         "EVA", // lpp
         "Gateway", // lpp
         "LPPExpeditor", // lpp

@@ -52,5 +52,5 @@ ent-ClothingUniformJumpsuitClerk = clerk's suit
     .desc = A modest suit for the person with the power to notarize anything.
 ent-ClothingUniformJumpsuitChemShirt = formal chemistry suit
     .desc = There's still some odd stains on this suit. Hm.
-ent-ClothingUniformJumpsuitProsecutor = prosecutor's suit
-    .desc = A red suit with a fancy cravat. Perfect for a prosecutor.
+ent-ClothingUniformJumpsuitInspector = inspector's suit
+    .desc = A red suit with a fancy cravat. Perfect for a inspector.

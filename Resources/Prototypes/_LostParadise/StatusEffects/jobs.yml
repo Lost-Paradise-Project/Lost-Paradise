@@ -46,3 +46,10 @@
   icon:
     sprite: /Textures/_LostParadise/Interface/Misc/lpp_job_icons.rsi
     state: LPPSecurityEngineer
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconInspector
+  icon:
+    sprite: /Textures/_LostParadise/Interface/Misc/lpp_job_icons.rsi
+    state: Inspector

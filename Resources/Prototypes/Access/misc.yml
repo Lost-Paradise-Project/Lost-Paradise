@@ -46,5 +46,5 @@
   - Zookeeper # DeltaV - Add Zookeeper access
   - Justice # DeltaV - Add Justice dept access
   - ChiefJustice # DeltaV - Add Chief Justice access
-  - Prosecutor # DeltaV - Add Prosecutor access
+  - Inspector # DeltaV - Add Inspector access
   - Corpsman # DeltaV - Add Corpsman access

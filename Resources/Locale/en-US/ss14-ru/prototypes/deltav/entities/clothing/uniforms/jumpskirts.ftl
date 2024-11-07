@@ -18,5 +18,5 @@ ent-ClothingUniformJumpskirtChiefJustice = chief justice's jumpskirt
     .desc = A fancy black jumpskirt with a lace cravat to make it even more fancy. Proper judicial attire.
 ent-ClothingUniformJumpskirtClerk = clerk's dress skirt
     .desc = A modest dress skirt for the person with the power to notarize anything.
-ent-ClothingUniformJumpskirtProsecutor = prosecutor's dress skirt
-    .desc = A red suit and skirt with a fancy cravat. Perfect for a prosecutor.
+ent-ClothingUniformJumpskirtInspector = inspector's dress skirt
+    .desc = A red suit and skirt with a fancy cravat. Perfect for a inspector.

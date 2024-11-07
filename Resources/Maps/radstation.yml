@@ -130566,7 +130566,7 @@ entities:
     - type: Transform
       pos: -7.5,28.5
       parent: 2
-- proto: SpawnPointProsecutor
+- proto: SpawnPointInspector
   entities:
   - uid: 18890
     components:

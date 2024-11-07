@@ -107,7 +107,7 @@
   id: JobPsychologist
 
 - type: playTimeTracker
-  id: JobProsecutor
+  id: JobInspector
 
 - type: playTimeTracker
   id: JobQuartermaster
