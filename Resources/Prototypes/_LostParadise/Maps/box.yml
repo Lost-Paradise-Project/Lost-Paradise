@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Box
+  id: LPPBox
   mapName: 'NTS Коробка'
   mapPath: /Maps/_LostParadise/LPPBox.yml
   minPlayers: 30
