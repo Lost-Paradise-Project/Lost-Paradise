@@ -99,6 +99,8 @@
       type: InstrumentBoundUserInterface
     - key: enum.HealthAnalyzerUiKey.Key
       type: HealthAnalyzerBoundUserInterface
+    - key: enum.GasAnalyzerUiKey.Key
+      type: GasAnalyzerBoundUserInterface
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -117,6 +119,13 @@
 
 - type: entity
   parent: BasePDA
+  id: BaseEngineerPDA
+  abstract: true
+  components:
+  - type: GasAnalyzer
+
+- type: entity
+  parent: BasePDA
   id: PassengerPDA
   name: passenger PDA
   description: Why isn't it gray?
@@ -128,7 +137,7 @@
     borderColor: "#717059"
 
 - type: entity
-  parent: BasePDA
+  parent: BaseEngineerPDA
   id: TechnicalAssistantPDA
   name: technical assistant PDA
   description: Why isn't it yellow?
@@ -353,6 +362,12 @@
   - type: Pda
     id: QuartermasterIDCard
     state: pda-qm
+    penSlot:
+      startingItem: LPPQMPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#e39751"
     accentVColor: "#a23e3e"
@@ -517,7 +532,7 @@
     state: pda-hop
 
 - type: entity
-  parent: BasePDA
+  parent: BaseEngineerPDA
   id: CEPDA
   name: chief engineer PDA
   description: Looks like it's barely been used.
@@ -525,6 +540,12 @@
   - type: Pda
     id: CEIDCard
     state: pda-ce
+    penSlot:
+      startingItem: LPPCEPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#949137"
     accentHColor: "#447987"
@@ -532,7 +553,7 @@
     state: pda-ce
 
 - type: entity
-  parent: BasePDA
+  parent: BaseEngineerPDA
   id: EngineerPDA
   name: engineer PDA
   description: Rugged and well-worn.
@@ -643,6 +664,12 @@
   - type: Pda
     id: RDIDCard
     state: pda-rd
+    penSlot:
+      startingItem: LPPRDPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#d7d7d0"
     accentHColor: "#447987"
@@ -701,6 +728,12 @@
   - type: Pda
     id: HoSIDCard
     state: pda-hos
+    penSlot:
+      startingItem: LPPHosPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#A32D26"
     accentHColor: "#447987"
@@ -830,7 +863,7 @@
     program: 2
 
 - type: entity
-  parent: BasePDA
+  parent: BaseEngineerPDA
   id: AtmosPDA
   name: atmos PDA
   description: Still smells like plasma.

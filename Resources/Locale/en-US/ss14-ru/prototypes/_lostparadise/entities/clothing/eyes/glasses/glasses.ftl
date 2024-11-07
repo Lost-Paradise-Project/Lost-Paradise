@@ -12,3 +12,5 @@ ent-LPPClothingEyesGlassesNVG = PG nightvision goggles
     .desc = Useful for special operations.
 ent-LPPClothingEyesGlassesAviatorNPZ = NPZ aviators
     .desc = Only for the most coolest guys in this sector.
+ent-LPPClothingEyesGlassesContractor = Contractor glasses
+    .desc = Glasses, that provides protection from flashes and secure wearers eyes from wielding.

@@ -1,8 +1,8 @@
-ent-HalloweenTree01 = dead tree
+ent-LPPHalloweenTree01 = dead tree
     .desc = Dead tree with leaves on it, looks creepy.
-ent-HalloweenTree02 = dead tree
+ent-LPPHalloweenTree02 = dead tree
     .desc = Dead tree with leaves on it, looks creepy.
-ent-HalloweenTree03 = dead tree
+ent-LPPHalloweenTree03 = dead tree
     .desc = Dead tree with leaves on it, looks creepy.
-ent-HalloweenTree04 = dead tree
+ent-LPPHalloweenTree04 = dead tree
     .desc = Dead tree with leaves on it, looks creepy.

@@ -1,5 +1,5 @@
 - type: entity
-  parent: BasePDA
+  parent: BaseEngineerPDA
   id: LPPSecurityEngineerPDA
   name: security PDA
   description: Red to hide the stains of passenger blood.
@@ -11,6 +11,13 @@
     borderColor: "#9b2b2a"
   - type: Icon
     state: pda-security
+  - type: CartridgeLoader
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - CrimeAssistCartridge
+      - SecWatchCartridge
 
 - type: entity
   parent: BasePDA
@@ -70,3 +77,10 @@
     accentVColor: "#DFDFDF"
   - type: Icon
     state: pda-seniorofficer
+  - type: CartridgeLoader
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - CrimeAssistCartridge
+      - SecWatchCartridge

@@ -12,3 +12,5 @@ ent-LPPClothingBackpackDuffelDelta = Спортивная сумка "Дельт
     .desc = { ent-ClothingBackpackDuffel.desc }
 ent-LPPClothingBackpackDuffelCommandDelta = Спортивная сумка командира "Дельта"
     .desc = { ent-ClothingBackpackDuffel.desc }
+ent-LPPClothingBackpackDuffelContractor = Вещмешок контрактника
+    .desc = { ent-ClothingBackpackDuffel.desc }

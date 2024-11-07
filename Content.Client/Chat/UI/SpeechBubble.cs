@@ -20,6 +20,7 @@ namespace Content.Client.Chat.UI
         public enum SpeechType : byte
         {
             Emote,
+            HiddenEmote,
             Say,
             Whisper,
             Looc
@@ -64,6 +65,9 @@ namespace Content.Client.Chat.UI
             {
                 case SpeechType.Emote:
                     return new TextSpeechBubble(message, senderEntity, "emoteBox");
+
+                case SpeechType.HiddenEmote:
+                    return new TextSpeechBubble(message, senderEntity, "emoteBox", Color.FromHex("#ffd29e"));
 
                 case SpeechType.Say:
                     return new FancyTextSpeechBubble(message, senderEntity, "sayBox");

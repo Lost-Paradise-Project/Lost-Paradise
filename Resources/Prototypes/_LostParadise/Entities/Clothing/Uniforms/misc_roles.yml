@@ -27,3 +27,14 @@
     sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/blueshield_suit.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/blueshield_suit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformSkirtleneckBlueshield
+  name: blueshield's skirtleneck
+  description: This is the costume of a man of high rank.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/blueshield_turtleneck.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/blueshield_turtleneck.rsi

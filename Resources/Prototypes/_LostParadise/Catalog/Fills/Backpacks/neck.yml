@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingBeltSyndieHolster
+  id: ClothingBeltSyndieHolsterBundle
+  suffix: LoneOps
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponSubMachineGunIL20
+      - id: MagazinePistolHighCapacity
+        amount: 2

@@ -16,3 +16,7 @@ ent-LPPBackpackDuffelIncendiaryGrenadeDelta = Duffel bag with incendiary grenade
     .desc = Contains five incendiary grenades
 ent-LPPClothingBackpackDuffelAcientSyndicateHardsuitBundle = Ancient syndicate hardsuit bundle
     .desc = Contains ancient syndicate hardsuit bundle
+ent-LPPClothingBackpackDuffelContractorSyndicateHardsuitBundle = Contractor syndicate hardsuit bundle
+    .desc = Contains contractor syndicate hardsuit bundle
+ent-LPPClothingBackpackDuffelSyndicateOperative = contractor duffelbag
+    .desc = { ent-LPPClothingBackpackDuffelContractor.desc }

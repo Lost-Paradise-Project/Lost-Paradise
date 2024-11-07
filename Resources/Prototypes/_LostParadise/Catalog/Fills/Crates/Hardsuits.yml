@@ -1,0 +1,19 @@
+- type: entity
+  id: LPPCrateLogisticsRodosHardsuit
+  parent: CrateGenericSteel
+  name: Rodos hardsuit crate
+  description: Contains a single HpI-20a+ "Rodos" hardsuit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPClothingOuterHardsuitMiningPlus
+
+- type: entity
+  id: LPPCrateLogisticsKerateiaHardsuit
+  parent: CrateGenericSteel
+  name: Kerateia hardsuit crate
+  description: Contains a single HpI-20a+ "Kerateia" hardsuit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPClothingOuterHardsuitUpgradedMining
