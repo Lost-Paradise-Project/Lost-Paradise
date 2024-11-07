@@ -54,3 +54,6 @@ ent-LPPBlueShieldClothingMaskGas = Gas mask of officer "Blue Shield"
     .desc = Elite gas mask of officer "Blue Shield".
 ent-LPPClothingMaskPGWrittenOff = Decommissioned balaclava PG
     .desc = A decommissioned balaclava that was used by PG soldiers.
+ent-LPPClothingMaskNeckGaiterLoneOps = neck gaiter
+    .desc = Stylish neck gaiter for your neck, can protect from the cosmic wind and even some projectiles.
+    .suffix = LoneOps

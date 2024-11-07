@@ -1,0 +1,15 @@
+- type: characterItemGroup
+  id: LoadoutWeaponBS
+  items:
+    - type: loadout
+      id: LoadoutCommandBSWeaponPistolN1984
+    - type: loadout
+      id: LoadoutCommandBSWeaponPistolUniversal
+
+- type: characterItemGroup
+  id: LoadoutMagazineBS
+  items:
+    - type: loadout
+      id: LoadoutCommandBSMagazineUniversalMagnum
+    - type: loadout
+      id: LoadoutCommandBSMagazineMagnum

@@ -170,6 +170,7 @@
         prob: 0.7
 ##      - id: ClothingNeckCloakMoth #bzzz Moth-pocalypse # DeltaV - why
 ##        prob: 0.15
+      - id: LPPCombatHypospray
       - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
         prob: 0.3
 
@@ -203,6 +204,7 @@
         prob: 0.3
       - id: MedkitBurnFilled
         prob: 0.7
+      - id: LPPCombatHypospray
       - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
         prob: 0.3
 
