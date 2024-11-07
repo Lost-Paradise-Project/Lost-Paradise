@@ -88,7 +88,11 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         var profile = export.Profile;
         var collection = IoCManager.Instance;
         var sponsorPrototypes = Array.Empty<string>(); //LPP ?? 
-        profile.EnsureValid(session, collection!, sponsorPrototypes); // сломалось, Я хз почему
+        profile.EnsureValid(session, collection! 
+#if LPP_Sponsors
+        , sponsorPrototypes // сломалось, Я хз почему
+#endif
+);
         return profile;
     }
 
