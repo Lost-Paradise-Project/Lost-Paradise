@@ -12,10 +12,12 @@
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    fireRate: 2
-    selectedMode: SemiAuto
+    fireRate: 3
+    selectedMode: Burst
+    shotsPerBurst: 3
     availableModes:
     - SemiAuto
+    - Burst
   - type: ChamberMagazineAmmoProvider
   - type: ItemSlots
     slots:
