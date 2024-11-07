@@ -853,42 +853,6 @@ namespace Content.Client.Lobby.UI
             //_controller.UpdateCharacterUI();
         }
 
-        private void OnDummyUpdate(EntityUid value)
-        {
-            _previewSpriteView.SetEntity(value);
-        }
-
-        private void UpdateAntagRequirements()
-        {
-            _antagList.DisposeAllChildren();
-            _antagPreferences.Clear();
-
-            foreach (var antag in _prototypeManager.EnumeratePrototypes<AntagPrototype>().OrderBy(a => Loc.GetString(a.Name)))
-            {
-                if (!antag.SetPreference)
-                    continue;
-
-                var selector = new AntagPreferenceSelector(antag,
-                        _jobPriorities.FirstOrDefault(j => j.Priority == JobPriority.High)?.HighJob
-                            ?? new())
-                    { Margin = new Thickness(3f, 3f, 3f, 0f) };
-                _antagList.AddChild(selector);
-                _antagPreferences.Add(selector);
-                if (selector.Disabled)
-                {
-                    Profile = Profile?.WithAntagPreference(antag.ID, false);
-                    IsDirty = true;
-                }
-
-                selector.PreferenceChanged += preference =>
-                {
-                    Profile = Profile?.WithAntagPreference(antag.ID, preference);
-                    IsDirty = true;
-                };
-            }
-
-        }
-
         private void UpdateRoleRequirements()
         {
             JobList.DisposeAllChildren();

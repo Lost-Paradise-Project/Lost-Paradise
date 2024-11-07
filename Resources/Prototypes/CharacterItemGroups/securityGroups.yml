@@ -280,8 +280,6 @@
     - type: loadout
       id: LoadoutSecurityEnergyGunMini
     - type: loadout
-      id: LoadoutSecurityEnergyGunPistol
-    - type: loadout
       id: LoadoutSecurityPistolPollock
     - type: loadout
       id: LoadoutSecurityPistolPollockNonlethal

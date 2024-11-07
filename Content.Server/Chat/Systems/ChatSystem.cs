@@ -1054,6 +1054,20 @@ public record ExpandICChatRecipientstEvent(EntityUid Source, float VoiceRange, D
 {
 }
 
+public sealed class TransformSpeakerNameEvent : EntityEventArgs
+{
+    public EntityUid Sender;
+    public string Name;
+    public string? SpeechVerb;
+
+    public TransformSpeakerNameEvent(EntityUid sender, string name, string? speechVerb = null)
+    {
+        Sender = sender;
+        Name = name;
+        SpeechVerb = speechVerb;
+    }
+}
+
 /// <summary>
 ///     Raised broadcast in order to transform speech.transmit
 /// </summary>

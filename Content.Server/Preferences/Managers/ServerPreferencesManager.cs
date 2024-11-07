@@ -134,7 +134,7 @@ namespace Content.Server.Preferences.Managers
                 var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier;
                 allowedMarkings = allowedMarkings.Concat(Loc.GetString($"sponsor-markings-tier-{tier}").Split(";", StringSplitOptions.RemoveEmptyEntries)).ToArray();
             }
-            profile.EnsureValid(session, collection, allowedMarkings);
+            profile.EnsureValid(session, _dependencies, allowedMarkings);
 #else
             profile.EnsureValid(session, _dependencies);
 #endif

@@ -118,7 +118,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         string name,
         string flavortext,
         string species,
-        string voice, // LPP-Tstring customspeciename,
+        string voice, // LPP-TTS
         string customspeciename,
         float height,
         float width,
@@ -233,11 +233,11 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         }
 
         // LPP-TTS-Start
-            var voiceId = random.Pick(prototypeManager
-                .EnumeratePrototypes<TTSVoicePrototype>()
-                .Where(o => CanHaveVoice(o, sex)).ToArray()
-            ).ID;
-            // LPP-TTS-End
+        var voiceId = random.Pick(prototypeManager
+            .EnumeratePrototypes<TTSVoicePrototype>()
+            .Where(o => CanHaveVoice(o, sex)).ToArray()
+        ).ID;
+        // LPP-TTS-End
 
             var gender = Gender.Epicene;
 
@@ -379,10 +379,10 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
                 || (speciesPrototype.SponsorOnly && !sponsorPrototypes.Contains(Species))   // _LostParadise-Sponsors
 #endif
                 )
-            {
-                Species = SharedHumanoidAppearanceSystem.DefaultSpecies;
-                speciesPrototype = prototypeManager.Index<SpeciesPrototype>(Species);
-            }
+        {
+            Species = SharedHumanoidAppearanceSystem.DefaultSpecies;
+            speciesPrototype = prototypeManager.Index<SpeciesPrototype>(Species);
+        }
 
         var sex = Sex switch
         {
@@ -510,37 +510,37 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         _traitPreferences.UnionWith(traits);
 
         // LPP-TTS-Start
-            prototypeManager.TryIndex<TTSVoicePrototype>(Voice, out var voice);
-            if (voice is null || !CanHaveVoice(voice, Sex))
-                Voice = SharedHumanoidAppearanceSystem.DefaultSexVoice[sex];
-            // LPP-TTS-End
+        prototypeManager.TryIndex<TTSVoicePrototype>(Voice, out var voice);
+        if (voice is null || !CanHaveVoice(voice, Sex))
+            Voice = SharedHumanoidAppearanceSystem.DefaultSexVoice[sex];
+        // LPP-TTS-End
 
-            _loadoutPreferences.Clear();
-            _loadoutPreferences.UnionWith(loadouts);
+        _loadoutPreferences.Clear();
+        _loadoutPreferences.UnionWith(loadouts);
     }
 
     // LPP-TTS-Start
-        public static bool CanHaveVoice(TTSVoicePrototype voice, Sex sex)
-        {
-            return voice.RoundStart && sex == Sex.Unsexed || (voice.Sex == sex || voice.Sex == Sex.Unsexed);
-        }
-        // LPP-TTS-End
+    public static bool CanHaveVoice(TTSVoicePrototype voice, Sex sex)
+    {
+        return voice.RoundStart && sex == Sex.Unsexed || (voice.Sex == sex || voice.Sex == Sex.Unsexed);
+    }
+    // LPP-TTS-End
 
-        public ICharacterProfile Validated(ICommonSession session,
-            IDependencyCollection collection
+    public ICharacterProfile Validated(ICommonSession session,
+        IDependencyCollection collection
 #if LPP_Sponsors
-                , string[] sponsorPrototypes// _LostParadise-Sponsors
+            , string[] sponsorPrototypes// _LostParadise-Sponsors
 #endif
-            )
-        {
-            var profile = new HumanoidCharacterProfile(this);
-            profile.EnsureValid(session, collection
+        )
+    {
+        var profile = new HumanoidCharacterProfile(this);
+        profile.EnsureValid(session, collection
 #if LPP_Sponsors
-                , sponsorPrototypes// _LostParadise-Sponsors
+            , sponsorPrototypes// _LostParadise-Sponsors
 #endif
-                );
-            return profile;
-        }
+            );
+        return profile;
+    }
 
     // Sorry this is kind of weird and duplicated,
     // Working inside these non entity systems is a bit wack
