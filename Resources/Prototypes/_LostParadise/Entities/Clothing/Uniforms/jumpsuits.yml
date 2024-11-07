@@ -815,3 +815,14 @@
 #     sprite: _LostParadise/PERSONAL/Skilets/skilets_uniforms.rsi
 #   - type: Clothing
 #     sprite: _LostParadise/PERSONAL/Skilets/skilets_uniforms.rsi
+
+- type: entity
+  parent: ClothingUniformBaseUnsensoredFlippable
+  id: LPPClothingUniformJumpsuitInteq
+  name: contractor jumpsuit
+  description: Elite clothing for elite mercs.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/inteqjumpsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/inteqjumpsuit.rsi

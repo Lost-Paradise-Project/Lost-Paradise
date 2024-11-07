@@ -16,3 +16,7 @@ ent-LPPBackpackDuffelIncendiaryGrenadeDelta = Вещвещмешок с зажи
     .desc = Содержит 5 зажигательных гранат
 ent-LPPClothingBackpackDuffelAcientSyndicateHardsuitBundle = Набор древнего скафандра
     .desc = Содержит набор с древним скафандром.
+ent-LPPClothingBackpackDuffelContractorSyndicateHardsuitBundle = Набор скафандра контрактника
+    .desc = Содержит набор скафандра контрактника
+ent-LPPClothingBackpackDuffelSyndicateOperative = Вещмешок контрактника
+    .desc = { ent-LPPClothingBackpackDuffelContractor.desc }

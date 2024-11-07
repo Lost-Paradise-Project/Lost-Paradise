@@ -591,26 +591,36 @@
     - 0,0,3,1
 
 - type: entity
-  parent: ClothingBeltStorageBase
+  parent: ClothingNeckBase
   id: ClothingBeltSyndieHolster
   name: syndicate shoulder holster
   description: A deep shoulder holster capable of holding many types of ballistics.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/syndieholster.rsi
+    sprite: Clothing/Neck/Misc/syndieholster.rsi
   - type: Clothing
-    sprite: Clothing/Belt/syndieholster.rsi
+    sprite: Clothing/Neck/Misc/syndieholster.rsi
+    equipSound:
+      path: /Audio/SimpleStation14/Items/Equip/toolbelt_equip.ogg
   - type: Item
     size: Ginormous
   - type: Storage
     maxItemSize: Huge
     grid:
-    - 0,0,3,3
+    - 0,0,3,4
     whitelist:
       components:
         - Gun
         - BallisticAmmoProvider
         - CartridgeAmmo
+  - type: UserInterface
+    interfaces:
+    - key: enum.StorageUiKey.Key
+      type: StorageBoundUserInterface
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingBeltStorageBase

@@ -12,3 +12,5 @@ ent-LPPClothingEyesGlassesNVG = ПНВ ПГ
     .desc = Помогают лучше видеть в ночи. Полезно для Специальных операций.
 ent-LPPClothingEyesGlassesAviatorNPZ = НПЗ Авиаторы
     .desc = Только для самых крутых парней в этом секторе.
+ent-LPPClothingEyesGlassesContractor = Очки контрактника
+    .desc = Очки, обеспечивающие защиту от вспышек и предохраняющие глаза пользователя от сварки.

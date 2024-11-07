@@ -140,3 +140,5 @@ ent-LPPClothingUniformRedTracksuit = red tracksuit
     .desc = red tracksuit for sports in any situation.
 ent-LPPClothingUniformGreenTracksuit = green tracksuit
     .desc = greeb tracksuit for sports in any situation.
+ent-LPPClothingUniformJumpsuitInteq = contractor jumpsuit
+    .desc = Elite clothing for elite mercs.
