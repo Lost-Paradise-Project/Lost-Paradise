@@ -12,6 +12,7 @@
   startingGear: InspectorGear
   icon: "JobIconInspector"
   supervisors: job-supervisors-cj
+  canBeAntag: false
   access:
   - Inspector
   - Justice
