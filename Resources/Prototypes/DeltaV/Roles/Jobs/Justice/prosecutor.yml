@@ -6,15 +6,22 @@
   requirements:
     - !type:CharacterOverallTimeRequirement
       min: 36000 # 10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      min: 36000 # 10 hrs
   startingGear: ProsecutorGear
   icon: "JobIconProsecutor"
   supervisors: job-supervisors-cj
+  canBeAntag: false
   access:
   - Prosecutor
   - Justice
   - Security
   - Maintenance
   - Lawyer
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: ProsecutorGear
@@ -32,7 +39,7 @@
   breast: LPPBraAltWhite
   inhand:
     - BriefcaseBrownFilled
-  innerClothingSkirt: ClothingUniformJumpskirtProsecutor
+  innerClothingSkirt: ClothingUniformJumpskirtInspector
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled
 
