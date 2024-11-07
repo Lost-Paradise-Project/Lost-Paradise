@@ -69,7 +69,6 @@
       - id: WeaponDisabler
       - id: CommsComputerCircuitboard
       - id: ClothingHeadsetAltCommand
-      - id: SpaceCash1000F
       - id: PlushieNuke
         prob: 0.1
       - id: CigarGoldCase
