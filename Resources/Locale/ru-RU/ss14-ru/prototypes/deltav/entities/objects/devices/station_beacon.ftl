@@ -53,5 +53,5 @@ ent-DefaultStationBeaconChiefJustice = { ent-DefaultStationBeaconJustice }
     .suffix = Кабинет верховного судьи
     .desc = { ent-DefaultStationBeaconJustice.desc }
 ent-DefaultStationBeaconProsecutor = { ent-DefaultStationBeacon }
-    .suffix = Кабинет прокурора
+    .suffix = Кабинет инспектора
     .desc = { ent-DefaultStationBeacon.desc }
