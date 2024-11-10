@@ -24,8 +24,6 @@ using Robust.Shared.Utility;
 using static Content.Shared.Humanoid.SharedHumanoidAppearanceSystem;
 using CharacterSetupGui = Content.Client.Lobby.UI.CharacterSetupGui;
 using HumanoidProfileEditor = Content.Client.Lobby.UI.HumanoidProfileEditor;
-using Robust.Shared.Player;
-using Robust.Client.Player;
 #if LPP_Sponsors
 using Content.Client._LostParadise.Sponsors;
 #endif
