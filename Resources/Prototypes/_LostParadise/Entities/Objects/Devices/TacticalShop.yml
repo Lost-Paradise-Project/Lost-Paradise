@@ -12,7 +12,7 @@
     size: Tiny
   - type: UserInterface
     interfaces:
-      - key: enum.StoreUiKey.Key
+      enum.StoreUiKey.Key:
         type: StoreBoundUserInterface
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
@@ -35,7 +35,7 @@
     size: Tiny
   - type: UserInterface
     interfaces:
-      - key: enum.StoreUiKey.Key
+      enum.StoreUiKey.Key:
         type: StoreBoundUserInterface
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
@@ -58,7 +58,7 @@
     size: Tiny
   - type: UserInterface
     interfaces:
-      - key: enum.StoreUiKey.Key
+      enum.StoreUiKey.Key:
         type: StoreBoundUserInterface
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
@@ -79,8 +79,8 @@
     state: icon
   - type: UserInterface
     interfaces:
-    - key: enum.StoreUiKey.Key
-      type: StoreBoundUserInterface
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
