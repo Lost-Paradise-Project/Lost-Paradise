@@ -1,7 +1,7 @@
-- type: shader
-  id: ColorTint
-  kind: source
-  path: "/Textures/_LostParadise/Shaders/color_tint.swsl"
+# - type: shader
+#   id: ColorTint
+#   kind: source
+#   path: "/Textures/_LostParadise/Shaders/color_tint.swsl"
 
 - type: shader
   id: SeeingStatic

@@ -109,8 +109,8 @@
       path: /Audio/Animals/snake_hiss.ogg
   - type: Puller
     needsHands: false
-  - type: Arachne
-    cocoonDelay: 8
+  # - type: Arachne
+  #   cocoonDelay: 8
   - type: SolutionContainerManager
     solutions:
       melee:

@@ -179,6 +179,7 @@
       id: LoadoutMagazineMagnumSpare
     - type: loadout
       id: LoadoutMagazineMagnumRubberSpare
+    - type: loadout
       id: LoadoutSecuritySpeedLoaderSpecial
     - type: loadout
       id: LoadoutSecuritySpeedLoaderSpecialRubber

@@ -54,14 +54,6 @@
             "directions": 4
         },
         {
-            "name": "on-inhand-left",
-            "directions": 4
-        },
-        {
-            "name": "on-inhand-right",
-            "directions": 4
-        },
-        {
             "name": "off-equipped-HELMET-vox",
             "directions": 4
         },

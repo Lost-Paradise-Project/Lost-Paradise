@@ -282,8 +282,8 @@
   - type: SiliconLawProvider
     laws: SyndicateStatic
   - type: TTS # Corvax-TTS
-      voice: Vally
-    - type: IntrinsicRadioTransmitter
+    voice: Vally
+  - type: IntrinsicRadioTransmitter
     channels:
     - Binary
     - Syndicate
