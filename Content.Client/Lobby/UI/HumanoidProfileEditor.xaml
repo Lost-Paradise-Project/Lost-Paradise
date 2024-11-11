@@ -33,10 +33,10 @@
             <BoxContainer Orientation="Vertical">
                 <prefUi:HighlightedContainer>
                     <BoxContainer Orientation="Horizontal" SeparationOverride="5">
-                        <Button Name="ImportButton" Text="{Loc 'humanoid-profile-editor-import-button'}"/>
-                        <Button Name="ExportButton" Text="{Loc 'humanoid-profile-editor-export-button'}"/>
-                        <Button Name="SaveButton" Text="{Loc 'humanoid-profile-editor-save-button'}" />
-                        <Button Name="ResetButton" Disabled="True" Text="{Loc 'humanoid-profile-editor-reset-button'}"/>
+                        <Button Name="ImportButton" Text="{Loc 'humanoid-profile-editor-import-button'}" HorizontalExpand="True"/>
+                        <Button Name="ExportButton" Text="{Loc 'humanoid-profile-editor-export-button'}" HorizontalExpand="True"/>
+                        <Button Name="SaveButton" Text="{Loc 'humanoid-profile-editor-save-button'}" HorizontalExpand="True"/>
+                        <Button Name="ResetButton" Disabled="True" Text="{Loc 'humanoid-profile-editor-reset-button'}" HorizontalExpand="True"/>
                     </BoxContainer>
                 </prefUi:HighlightedContainer>
             </BoxContainer>

@@ -26,6 +26,7 @@ humanoid-profile-editor-export-button = Экспорт
 humanoid-profile-editor-clothing-label = Одежда:
 humanoid-profile-editor-backpack-label = Рюкзак:
 humanoid-profile-editor-save-button = Сохранить
+humanoid-profile-editor-reset-button = Сброс
 humanoid-profile-editor-spawn-priority-label = Приоритет спавна:
 humanoid-profile-editor-eyes-label = Цвет глаз:
 humanoid-profile-editor-jobs-tab = Должности
