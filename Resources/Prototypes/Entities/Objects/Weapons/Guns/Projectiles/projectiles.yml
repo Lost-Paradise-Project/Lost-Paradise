@@ -218,7 +218,7 @@
 - type: entity
   name : disabler bolt
   id: BulletDisabler
-  parent: BaseBullet
+  parent: [ BaseBullet, BaseBulletTrigger ]
   noSpawn: true
   components:
   - type: Reflective
@@ -232,8 +232,9 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
-    - state: omnilaser
+    - state: omnilaser_greyscale
       shader: unshaded
+      color: '#00DCF0'
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -249,6 +250,14 @@
   - type: Ammo
   - type: StaminaDamageOnCollide
     damage: 30
+  - type: EmpOnTrigger
+    range: 0.5
+    energyConsumption: 10
+    disableDuration: 0.1
+  - type: PointLight
+    radius: 2.3
+    color: '#00DCF0'
+    energy: 0.7
   - type: Projectile
     impactEffect: BulletImpactEffectDisabler
     damage:
@@ -272,8 +281,9 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
-    - state: omnilaser
+    - state: omnilaser_greyscale
       shader: unshaded
+      color: '#00DCF0'
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -289,6 +299,10 @@
   - type: Ammo
   - type: StaminaDamageOnCollide
     damage: 1
+  - type: PointLight
+    radius: 2.3
+    color: '#00DCF0'
+    energy: 0.7
   - type: Projectile
     impactEffect: BulletImpactEffectDisabler
     damage:
@@ -925,7 +939,7 @@
 - type: entity
   name : disabler bolt smg
   id: BulletDisablerSmg
-  parent: BaseBullet
+  parent: [ BaseBullet, BaseBulletTrigger ]
   noSpawn: true
   components:
   - type: Reflective
@@ -939,8 +953,9 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
-    - state: omnilaser
+    - state: omnilaser_greyscale
       shader: unshaded
+      color: '#00DCF0'
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -956,6 +971,14 @@
   - type: Ammo
   - type: StaminaDamageOnCollide
     damage: 15
+  - type: EmpOnTrigger
+    range: 0.5
+    energyConsumption: 5
+    disableDuration: 0.1
+  - type: PointLight
+    radius: 2.3
+    color: '#00DCF0'
+    energy: 0.7
   - type: Projectile
     impactEffect: BulletImpactEffectDisabler
     damage:
@@ -1041,3 +1064,7 @@
         Heat: 20 # Slightly more damage than the 17heat from the Captain's Hitscan lasgun
     soundHit:
       collection: MeatLaserImpact
+  - type: PointLight
+    radius: 2.3
+    color: red
+    energy: 0.7
