@@ -23,10 +23,11 @@ using Content.Client._LostParadise.Sponsors;
 
 namespace Content.Client.Lobby.UI;
 
+
 [GenerateTypedNameReferences]
 public sealed partial class TraitPreferenceSelector : Control
 {
-    private readonly IPlayerManager _playerManager;
+    private readonly IPlayerManager _playerManager; // LPP
 
     public TraitPrototype Trait { get; }
 
@@ -56,7 +57,8 @@ public sealed partial class TraitPreferenceSelector : Control
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
         CharacterRequirementsSystem characterRequirementsSystem, JobRequirementsManager jobRequirementsManager)
     {
-        _playerManager = IoCManager.Resolve<IPlayerManager>();
+
+        _playerManager = IoCManager.Resolve<IPlayerManager>(); // LPP
 
         RobustXamlLoader.Load(this);
 

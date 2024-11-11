@@ -11,7 +11,6 @@ using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Timing;
-using Content.Shared.CCVar;
 
 
 namespace Content.Client.Lobby

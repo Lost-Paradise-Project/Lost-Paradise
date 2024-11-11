@@ -33,8 +33,6 @@ using Robust.Shared.Map;
 using Robust.Shared.Physics;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
-using Robust.Shared.Player;
-using Robust.Client.Player;
 using Direction = Robust.Shared.Maths.Direction;
 #if LPP_Sponsors
 using Content.Client._LostParadise.Sponsors;
@@ -485,6 +483,7 @@ namespace Content.Client.Lobby.UI
             };
 
             #endregion Dummy
+
             #endregion Left
 
             ShowClothes.OnToggled += args => { ReloadProfilePreview(); };
@@ -840,17 +839,15 @@ namespace Content.Client.Lobby.UI
         private void ToggleClothes(BaseButton.ButtonEventArgs _)
         {
             //TODO: Optimization
-            //_controller.UpdateClothes = true;
-            //_controller.ShowClothes = ShowClothes.Pressed;
-            //_controller.UpdateCharacterUI();
+            // _controller.ShowClothes = ShowClothes.Pressed;
+            // _controller.UpdateCharacterUI();
         }
 
         private void ToggleLoadouts(BaseButton.ButtonEventArgs _)
         {
             //TODO: Optimization
-            //_controller.UpdateClothes = true;
-            //_controller.ShowLoadouts = ShowLoadouts.Pressed;
-            //_controller.UpdateCharacterUI();
+            // _controller.ShowLoadouts = ShowLoadouts.Pressed;
+            // _controller.UpdateCharacterUI();
         }
 
         private void UpdateRoleRequirements()

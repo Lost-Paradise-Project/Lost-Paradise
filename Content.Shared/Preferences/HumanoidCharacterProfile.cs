@@ -2,7 +2,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using Content.Shared.CCVar;
 using Content.Shared.Clothing.Loadouts.Prototypes;
-using Content.Shared.Corvax.TTS;
+using Content.Shared.Corvax.TTS; // LPP-TTS
 using Content.Shared.GameTicking;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Prototypes;
@@ -64,7 +64,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     public string Species { get; set; } = SharedHumanoidAppearanceSystem.DefaultSpecies;
 
     [DataField]
-    public string Voice { get; set; } = SharedHumanoidAppearanceSystem.DefaultVoice;
+    public string Voice { get; set; } = SharedHumanoidAppearanceSystem.DefaultVoice; // LPP-TTS
 
     [DataField]
     public string Customspeciename { get; set; } = "";
@@ -133,8 +133,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         PreferenceUnavailableMode preferenceUnavailable,
         HashSet<string> antagPreferences,
         HashSet<string> traitPreferences,
-        HashSet<string> loadoutPreferences
-            )
+        HashSet<string> loadoutPreferences)
     {
         Name = name;
         FlavorText = flavortext;
@@ -239,7 +238,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         ).ID;
         // LPP-TTS-End
 
-            var gender = Gender.Epicene;
+        var gender = Gender.Epicene;
 
         switch (sex)
         {
@@ -270,7 +269,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     public HumanoidCharacterProfile WithSex(Sex sex) => new(this) { Sex = sex };
     public HumanoidCharacterProfile WithGender(Gender gender) => new(this) { Gender = gender };
     public HumanoidCharacterProfile WithSpecies(string species) => new(this) { Species = species };
-    public HumanoidCharacterProfile WithVoice(string voice) => new(this) { Voice = voice };
+    public HumanoidCharacterProfile WithVoice(string voice) => new(this) { Voice = voice }; // LPP-TTS
     public HumanoidCharacterProfile WithCustomSpeciesName(string customspeciename) => new(this) { Customspeciename = customspeciename};
     public HumanoidCharacterProfile WithHeight(float height) => new(this) { Height = height };
     public HumanoidCharacterProfile WithWidth(float width) => new(this) { Width = width };
@@ -557,23 +556,33 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
 
     public override int GetHashCode()
     {
-        var hashCode = new HashCode();
-        hashCode.Add(_jobPriorities);
-        hashCode.Add(_antagPreferences);
-        hashCode.Add(_traitPreferences);
-        hashCode.Add(_loadoutPreferences);
-        hashCode.Add(Voice);
-        hashCode.Add(Name);
-        hashCode.Add(FlavorText);
-        hashCode.Add(Species);
-        hashCode.Add(Age);
-        hashCode.Add((int)Sex);
-        hashCode.Add((int)Gender);
-        hashCode.Add(Appearance);
-        hashCode.Add((int)SpawnPriority);
-        hashCode.Add((int)PreferenceUnavailable);
-        hashCode.Add(Customspeciename);
-        return hashCode.ToHashCode();
+        return HashCode.Combine(
+            HashCode.Combine(
+                Name,
+                Species,
+                Age,
+                Sex,
+                Gender,
+                Appearance,
+                Clothing,
+                Backpack
+            ),
+            HashCode.Combine(
+                SpawnPriority,
+                Height,
+                Width,
+                PreferenceUnavailable
+            ),
+            HashCode.Combine(
+                _jobPriorities,
+                _antagPreferences,
+                _traitPreferences,
+                _loadoutPreferences
+            ),
+            HashCode.Combine(
+                Customspeciename
+            )
+        );
     }
 
     public HumanoidCharacterProfile Clone()

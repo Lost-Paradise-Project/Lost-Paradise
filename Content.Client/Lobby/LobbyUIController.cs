@@ -91,12 +91,12 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
     private void PreferencesDataLoaded()
     {
         PreviewPanel?.SetLoaded(true);
-        if (_stateManager.CurrentState is not LobbyState)
-        {
-            ReloadCharacterSetup();
-        }
-    }
 
+        if (_stateManager.CurrentState is not LobbyState)
+            return;
+
+        ReloadCharacterSetup();
+    }
 
     private LobbyCharacterPreviewPanel? GetLobbyPreview()
     {

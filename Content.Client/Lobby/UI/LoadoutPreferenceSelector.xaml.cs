@@ -17,7 +17,6 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
-using Robust.Shared.Player;
 using Robust.Client.Player;
 #if LPP_Sponsors
 using Content.Client._LostParadise.Sponsors;
@@ -27,8 +26,9 @@ namespace Content.Client.Lobby.UI;
 
 [GenerateTypedNameReferences]
 public sealed partial class LoadoutPreferenceSelector : Control
+
 {
-    private readonly IPlayerManager _playerManager;
+    private readonly IPlayerManager _playerManager; // LPP
     public LoadoutPrototype Loadout { get; }
 
     public bool Valid;
@@ -71,7 +71,7 @@ public sealed partial class LoadoutPreferenceSelector : Control
         IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
         CharacterRequirementsSystem characterRequirementsSystem, JobRequirementsManager jobRequirementsManager)
     {
-        _playerManager = IoCManager.Resolve<IPlayerManager>();
+        _playerManager = IoCManager.Resolve<IPlayerManager>(); // LPP
 
         RobustXamlLoader.Load(this);
 
