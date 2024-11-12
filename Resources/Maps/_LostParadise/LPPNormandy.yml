@@ -71195,13 +71195,6 @@ entities:
       linearDamping: 0
       canCollide: False
     - type: InsideEntityStorage
-- proto: HeadTerminator
-  entities:
-  - uid: 6902
-    components:
-    - type: Transform
-      pos: -50.422123,5.4502974
-      parent: 2
 - proto: HeatExchanger
   entities:
   - uid: 4358
