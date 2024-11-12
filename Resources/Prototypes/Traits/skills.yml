@@ -91,7 +91,7 @@
       ignoreStripHidden: true
       stealth: Subtle
       stripTimeReduction: 0
-      stripTimeMultiplier: 0.7
+      stripTimeMultiplier: 0.6
   requirements:
     - !type:CharacterSpeciesRequirement
       inverted: true
@@ -109,13 +109,12 @@
   points: -2
   components:
     - type: ConsumeDelayModifier
-      foodDelayMultiplier: 0.4
-      drinkDelayMultiplier: 0.4
+      foodDelayMultiplier: 0.5
+      drinkDelayMultiplier: 0.5
   requirements:
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
-        - Vulpkanin
         - IPC
     - !type:CharacterJobRequirement
       inverted: true

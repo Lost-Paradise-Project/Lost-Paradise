@@ -111086,7 +111086,7 @@ entities:
       pos: -8.5,-4.5
       parent: 2
     - type: WarpPoint
-      location: Офис Адвокатов\Прокуроров
+      location: Офис Адвокатов\Инспекторов
 - proto: WarpPointLibrary
   entities:
   - uid: 7194
