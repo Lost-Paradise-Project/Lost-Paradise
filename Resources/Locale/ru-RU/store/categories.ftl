@@ -4,7 +4,6 @@ store-category-debug2 = debug category 2
 store-category-weapons = Вооружение
 store-category-ammo = Боеприпасы
 store-category-explosives = Взрывчатка
-store-category-misc = Другое
 store-category-bundles = Наборы
 store-category-tools = Инструменты
 store-category-utility = Утилиты

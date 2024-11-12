@@ -148,6 +148,4 @@ ent-DoorElectronicsPsychologist = { ent-DoorElectronics }
 ent-DoorElectronicsMail = { ent-DoorElectronics }
     .suffix = Почта, Закрыт
     .desc = { ent-DoorElectronics.desc }
-ent-DoorElectronicsNukeop = { ent-DoorElectronics }
-    .suffix = Ядерные Оперативники, Закрыт
-    .desc = { ent-DoorElectronics.desc }
+    
