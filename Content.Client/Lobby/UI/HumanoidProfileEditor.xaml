@@ -32,7 +32,7 @@
             <!-- Import/Export -->
             <BoxContainer Orientation="Vertical">
                 <prefUi:HighlightedContainer>
-                    <BoxContainer Orientation="Horizontal" SeparationOverride="5">
+                    <BoxContainer Orientation="Vertical" SeparationOverride="5">
                         <Button Name="ImportButton" Text="{Loc 'humanoid-profile-editor-import-button'}" HorizontalExpand="True"/>
                         <Button Name="ExportButton" Text="{Loc 'humanoid-profile-editor-export-button'}" HorizontalExpand="True"/>
                         <Button Name="SaveButton" Text="{Loc 'humanoid-profile-editor-save-button'}" HorizontalExpand="True"/>
