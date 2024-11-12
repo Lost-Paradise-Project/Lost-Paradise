@@ -540,10 +540,10 @@
 #         - CyberEyesOmni
 #   components:
 #   - type: ShowHealthBars
-#     damageContainers:
-#     - Biological- type: ShowHealthIcons
-      damageContainers:
-      - Biological
+#      damageContainers:
+#      - Biological- type: ShowHealthIcons
+#       damageContainers:
+#       - Biological
 
 # - type: trait
 #   id: CyberEyesDiagnostic
