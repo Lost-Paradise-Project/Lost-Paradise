@@ -83798,16 +83798,6 @@ entities:
     - type: Transform
       pos: -33.113354,-0.7452247
       parent: 2
-- proto: QuadraticCapacitorStockPart
-  entities:
-  - uid: 16584
-    components:
-    - type: Transform
-      parent: 16577
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
-      canCollide: False
 - proto: Rack
   entities:
   - uid: 2387
