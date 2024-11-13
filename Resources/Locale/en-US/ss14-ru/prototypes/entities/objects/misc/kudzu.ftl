@@ -17,3 +17,5 @@ ent-ShadowKudzu = dark haze
     .desc = { ent-BaseKudzu.desc }
 ent-ShadowKudzuWeak = Haze
     .desc = { ent-ShadowKudzu.desc }
+ent-ShadowkinShadow = Shadowkin Haze
+    .desc = { ent-ShadowKudzuWeak.desc }

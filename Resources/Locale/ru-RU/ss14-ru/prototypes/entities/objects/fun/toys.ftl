@@ -193,3 +193,5 @@ ent-BwoinkHammer = Бьёньк молот
 ent-ThronglerToy = Набегатор
     .desc = Зачем тебе это понадобилось?
     .suffix = Игрушка
+ent-PlushieShadowkin = shadowkin plushie
+    .desc = A plushie of a Shadowkin. It's very soft.

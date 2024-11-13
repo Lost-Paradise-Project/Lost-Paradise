@@ -42,6 +42,8 @@ language-RobotTalk-name = Робоязык
 language-RobotTalk-description = Язык, состоящий из резких бинарных звуков - чириканья, свиста, шипения и завывания. Органические языки не могут говорить на нем без помощи специальных переводчиков.
 language-Sign-name = Галактический язык жестов
 language-ValyrianStandard-name = Валирийский стандарт
+language-Marish-name = Marish
+language-Marish-description = An inherently empathetic language, conveying emotions with a single word; spoken effortlessly by Shadowkins, though nearly impossible to learn or replicate.
 language-ValyrianStandard-description =
     Язык, произошедший от восточноевропейских языков старого земного валирийского стандарта, является общепринятым языком гарпий, выросших на своей родной планете Валирий 4b
     На нем редко говорят за пределами миров, где он является родным, и в наше время он был вытеснен Солнечным языком.

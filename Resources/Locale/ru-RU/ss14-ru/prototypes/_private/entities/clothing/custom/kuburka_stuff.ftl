@@ -1,0 +1,12 @@
+ent-LPPCutsomKuburka1 = Fox stuff
+    .suffix = Личное, Кубурка
+    .desc = { ent-ClothingNeckBase.desc }
+ent-LPPCutsomKuburkaOver1 = Fox ears
+    .suffix = Личное, Кубурка
+    .desc = { ent-ClothingHeadBase.desc }
+ent-LPPCutsomKuburka2 = Fox stuff
+    .suffix = Личное, Кубурка
+    .desc = { ent-ClothingNeckBase.desc }
+ent-LPPCutsomKuburkaOver2 = Fox ears
+    .suffix = Личное, Кубурка
+    .desc = { ent-ClothingHeadBase.desc }

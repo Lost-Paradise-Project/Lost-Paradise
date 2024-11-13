@@ -1,4 +1,10 @@
 ent-Joint = Косяк
     .desc = Самокрутка из высушенного растения, завёрнутого в тонкую бумагу.
+ent-JointRainbow = joint
+    .desc = A roll of dried plant matter wrapped in thin paper. Seems to be colorful inside.
+    .suffix = Rainbow
 ent-Blunt = Блант
     .desc = Самокрутка из высушенного растения, завёрнутого в высушенный табачный лист.
+ent-BluntRainbow = blunt
+    .desc = A roll of dried plant matter wrapped in a dried tobacco leaf. Seems to be colorful inside.
+    .suffix = Rainbow

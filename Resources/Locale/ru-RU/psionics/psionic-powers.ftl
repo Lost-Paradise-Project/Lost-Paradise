@@ -1,5 +1,6 @@
 generic-power-initialization-feedback = Я проснулся.
 already-casting = Я не могу использовать более одной силы одновременно.
+no-mana = I cannot channel enough power.
 # Dispel
 dispel-power-description = Рассеивайте вызванные сущности, такие как фамильяры или силовые стены.
 dispel-power-initialization-feedback = Силы судьбы для меня ничто. Я чувствую, что могу дотянуться до окружающих меня нитей и навязать реальность другим.
@@ -59,6 +60,7 @@ revivify-power-initialization-feedback =
     Секрет Жизни во всей его полноте. Я чувствую, как вся моя сущность выгорает изнутри, просто зная это.
     Сила течет через меня, как могучая река, прося высвободиться простым произнесением слова.
 revivify-power-metapsionic-feedback = { CAPITALIZE($entity) } хранит Большой Секрет Жизни.
+revivify-begin = { CAPITALIZE($entity) } enunciates a word of such divine power, that those who hear it weep from joy.
 revivify-word-begin = { CAPITALIZE($entity) } произносит слово такой божественной силы, что те, кто его слышит, плачут от радости.
 # Telegnosis
 telegnosis-power-description = Создайте проекцию что бы удалённо осматривать местность.
@@ -106,6 +108,26 @@ action-description-telekinetic-pulse = Заставь всех вокруг те
 telekinetic-pulse-power-description = { action-description-telekinetic-pulse }
 telekinetic-pulse-power-initialization-feedback = Когда я проникаю сквозь завесу своей психики, я обнаруживаю источник чистой кинетической энергии. Она течет сквозь меня, но, похоже, мне не хватает контроля над ней.
 telekinetic-pulse-power-metapsionic-feedback = { CAPITALIZE($entity) } обладает сущностью чистого кинезиса, протекающего через него.
+# Pyrokinetic Flare
+action-name-pyrokinetic-flare = Pyrokinetic Flare
+action-description-pyrokinetic-flare = Generate a flash of firelight from Gehenna to blind your adversaries.
+pyrokinetic-flare-power-description = { action-description-pyrokinetic-flare }
+pyrokinetic-flare-power-initialization-feedback =
+    My gaze is briefly filled with a flash of immense light and head, and for a single moment I can see a glimpse of a realm
+    of fire and pain, of hunger and suffering. Just as soon as I glimpse it, the vision fades. But the memory of that flash lingers within my mind.
+    I can recall it still, a glimpse of the fires of Gehenna.
+pyrokinetic-flare-power-metapsionic-feedback = Guh these don't even matter because nobody can read this line in-game and I don't know when I'm ever bringing back Narrow Pulse
+# Summon Imp
+action-name-summon-imp = Summon Imp
+action-description-summon-imp = Summon and bind an Imp from Gehenna to serve as your Familiar.
+summon-imp-power-description = { action-description-summon-imp }
+summon-imp-power-initialization-feedback =
+    For a brief time, I find myself wandering the blackened fields of Gehenna. I sift between the ashes, finding a smoldering coal in the shape of an eye.
+    I breathe upon it, and it bursts alight with flame. Before I return, the creature thanks me and tells me its name.
+# Summon Remilia
+action-name-summon-remilia = Summon Remilia
+action-description-summon-remilia = Call forth your ever-loyal familiar Remilia.
+summon-remilia-power-description = { action-description-summon-remilia }
 telepathy-power-initialization-feedback =
     Голоса, которые я слышал всю свою жизнь, начинают звучать отчетливее, но они не покидают меня. Раньше они были похожи на бессвязный шепот,
     теперь мои чувства обострились, и я прихожу к осознанию того, что они являются частью общей галлюцинации. За каждым голосом скрывается мерцающее сознание.
@@ -115,4 +137,16 @@ examine-mindbroken-message =
     За его взглядом нет ничего, там нельзя найти никаких свидетельств божественного света.
 entity-anomaly-no-grid = Нет места для вызова существа.
 power-overwhelming-power-feedback = { CAPITALIZE($entity) } обладает прямым подключением к ноосфере.
+# Shadowkin ShadeSkip
+action-description-shadowkin-shadeskip = Aaramrra!
+# DarkSwap
+action-name-darkswap = DarkSwap
+action-description-darkswap = Mmra Mamm!
+ethereal-pickup-fail = My hand sizzles as it passes through...
+# Psionic Familiar System
+psionic-familiar-cant-attack-master = I am bound by my Master, I cannot harm them.
+psionic-familiar-despawn-text = { CAPITALIZE($entity) } returns from whence it came!
+ghost-role-information-familiar-name = Psionic Familiar
+ghost-role-information-familiar-description = An interdimensional creature bound to the will of a Psion.
+ghost-role-information-familiar-rules = Obey the one who summoned you. Do not act against the interests of your Master. You will die for your Master if it is necessary.
 psionic-roll-failed = На мгновение мое сознание расширяется, но я чувствую, что этого недостаточно.

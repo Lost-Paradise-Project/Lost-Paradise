@@ -38,6 +38,9 @@ character-item-group-LoadoutShoesScience = Обувь Научного Отде�
 character-item-group-LoadoutUniformsScience = Униформа Научного Отдела
 # Epistemics - Cataloguer
 character-item-group-LoadoutCataloguerUniforms = Униформа Катаголизатора
+# Epistemics - Chaplain
+character-item-group-LoadoutChaplainUniforms = Chaplain Uniforms
+character-item-group-LoadoutChaplainEquipment = Chaplain Equipment
 # Medical
 character-item-group-LoadoutEyesMedical = Очки Медицинского Отдела
 character-item-group-LoadoutGlovesMedical = Перчатки Медицинского отдела

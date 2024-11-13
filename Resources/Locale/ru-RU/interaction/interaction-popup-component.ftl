@@ -59,7 +59,6 @@ petting-success-mimebot = Вы гладите { $target } по { POSS-ADJ($targe
 petting-success-cleanbot = Вы гладите { $target } по его влажной металлической голове.
 petting-success-medibot = Вы гладите { $target } по его стерильной металлической голове.
 # Shown when knocking on a window
-comp-window-knock = *тук тук*
 petting-failure-honkbot = Вы тянетесь погладить { $target }, но { $target } хонкает и уворачивается!
 petting-success-recycler = Вы гладите { $target } по { POSS-ADJ($target) } слегка пугающему стальному покрытию.
 petting-failure-cleanbot = Вы тянетесь погладить { $target }, но { $target } занимается уборкой!

@@ -34,3 +34,5 @@ ent-ClothingEyesVisorNinja = Очки ниндзя
     .desc = Усовершенствованные очки, защищающие глаза ниндзя от вспышек света.
 ent-ClothingEyesGlassesChemicalBudget = Фиолетовые защитные очки
     .desc = У них нет никакой реальной функции, но выглядят они действительно круто!
+ent-ClothingEyesGlassesEthereal = ethereal goggles
+    .desc = An unusual pair of goggles developed during a time of inhumane experimentation involving Shadowkin. They are designed to allow the wearer to peer into The Dark.

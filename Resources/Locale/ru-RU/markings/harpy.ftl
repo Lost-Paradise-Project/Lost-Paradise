@@ -57,6 +57,7 @@ marking-HarpyTailHaven-haven_tone_2 = Внутренyие перья
 marking-HarpyTailForkedLong = Длинный раздвоенный хвост (Белая шкала)
 marking-HarpyTailForkedLong-forked_long = Хвост
 marking-HarpyTailSwallow = Ласточкин хвост (Белая шкала)
+marking-HarpyTailSwallow-swallow_tail = Tail
 marking-HarpyChestDefault = Нижнее белье для крыльев и паха
 marking-HarpyChestDefault-upper = Нижнее белье для крыльев
 marking-HarpyChestDefault-lower = Нижнее белье для паха

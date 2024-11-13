@@ -80,3 +80,5 @@ ent-BorgModuleJetpack = Джетпак-модуль киборга
     .desc = Позволяет вашему киборгу летать!
 ent-BorgModulePka = Модуль киборга с протокинетическим ускорителем
     .desc = Технология, которая дает киборгам новые способности.
+ent-BorgModuleMartyr = martyr cyborg module
+    .desc = A module that comes with an explosive you probably don't want to handle yourself.

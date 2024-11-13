@@ -17,3 +17,5 @@ ent-ShadowKudzu = Тёмная дымка
     .desc = { ent-BaseKudzu.desc }
 ent-ShadowKudzuWeak = Дымка
     .desc = { ent-ShadowKudzu.desc }
+ent-ShadowkinShadow = Shadowkin Haze
+    .desc = { ent-ShadowKudzuWeak.desc }
