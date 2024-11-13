@@ -11,7 +11,7 @@
   order: 0
 
 - type: roadmap
-  id: "centcom"
+  id: "planet"
   name: "Обновление 2.1 - Вторжение на новые планеты!"
   description: "Новые экспедиции, враги и многое другое!"
   progress: 37
@@ -19,7 +19,7 @@
   order: 1
 
 - type: roadmap
-  id: "blusec"
+  id: "centcom"
   name: "Обновление 2.2 - Центком важен!"
   description: "Обновление Центкома!"
   progress: 50
