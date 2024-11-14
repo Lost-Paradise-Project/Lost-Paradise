@@ -5,6 +5,8 @@
   playTimeTracker: JobSeniorOfficer
   setPreference: false # DeltaV - Disable Senior Roles round start selection
   requirements:
+    - !type:CharacterHeightRequirement
+      min: 160
     - !type:CharacterPlaytimeRequirement
       tracker: JobWarden
       min: 21600 #6 hrs

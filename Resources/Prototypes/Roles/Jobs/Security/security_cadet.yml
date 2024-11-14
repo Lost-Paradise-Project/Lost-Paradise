@@ -4,6 +4,8 @@
   description: job-description-cadet
   playTimeTracker: JobSecurityCadet
   requirements:
+    - !type:CharacterHeightRequirement
+      min: 160
     - !type:CharacterOverallTimeRequirement
       min: 14400 # DeltaV - 4 hours
     # - !type:DepartmentTimeRequirement # Lost Paradise - return time limit
