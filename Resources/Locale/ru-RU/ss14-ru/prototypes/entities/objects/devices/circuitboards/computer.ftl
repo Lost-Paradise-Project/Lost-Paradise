@@ -68,5 +68,5 @@ ent-ComputerMassMediaCircuitboard = Консоль управления ново
     .desc = Отправьте своё послание миру!
 ent-SensorConsoleCircuitboard = Консоль мониторинга датчиков (консольная плата)
     .desc = Консольная плата для консоли мониторинга датчиков.
-ent-RoboticsConsoleCircuitboard = robotics control console board
-    .desc = A computer printed circuit board for a robotics control console.
+ent-RoboticsConsoleCircuitboard = Консоль управления робототехникой (консольная плата)
+    .desc = Консольная плата для консоли управления робототехникой.

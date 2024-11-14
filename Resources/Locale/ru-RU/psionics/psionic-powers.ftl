@@ -125,8 +125,8 @@ summon-imp-power-initialization-feedback =
     For a brief time, I find myself wandering the blackened fields of Gehenna. I sift between the ashes, finding a smoldering coal in the shape of an eye.
     I breathe upon it, and it bursts alight with flame. Before I return, the creature thanks me and tells me its name.
 # Summon Remilia
-action-name-summon-remilia = Summon Remilia
-action-description-summon-remilia = Call forth your ever-loyal familiar Remilia.
+action-name-summon-remilia = Призыв Ремилии
+action-description-summon-remilia = Призови свою вечно преданную фамильярку Ремилию.
 summon-remilia-power-description = { action-description-summon-remilia }
 telepathy-power-initialization-feedback =
     Голоса, которые я слышал всю свою жизнь, начинают звучать отчетливее, но они не покидают меня. Раньше они были похожи на бессвязный шепот,
@@ -138,15 +138,15 @@ examine-mindbroken-message =
 entity-anomaly-no-grid = Нет места для вызова существа.
 power-overwhelming-power-feedback = { CAPITALIZE($entity) } обладает прямым подключением к ноосфере.
 # Shadowkin ShadeSkip
-action-description-shadowkin-shadeskip = Aaramrra!
+action-description-shadowkin-shadeskip = Арарамрра!
 # DarkSwap
-action-name-darkswap = DarkSwap
-action-description-darkswap = Mmra Mamm!
-ethereal-pickup-fail = My hand sizzles as it passes through...
+action-name-darkswap = Размах Тьмы
+action-description-darkswap = Ммра Мамм!
+ethereal-pickup-fail = Мою рука обжигает, когда она проходит сквозь объект....
 # Psionic Familiar System
-psionic-familiar-cant-attack-master = I am bound by my Master, I cannot harm them.
-psionic-familiar-despawn-text = { CAPITALIZE($entity) } returns from whence it came!
-ghost-role-information-familiar-name = Psionic Familiar
-ghost-role-information-familiar-description = An interdimensional creature bound to the will of a Psion.
-ghost-role-information-familiar-rules = Obey the one who summoned you. Do not act against the interests of your Master. You will die for your Master if it is necessary.
+psionic-familiar-cant-attack-master = Я связан своим Хозяином, я не могу причинить ему вреда.
+psionic-familiar-despawn-text = { CAPITALIZE($entity) } возвращается туда, откуда пришёл!
+ghost-role-information-familiar-name = Псионический Фамильяр
+ghost-role-information-familiar-description = Межпространственное существо, подчиненное воле псиона.
+ghost-role-information-familiar-rules = Повинуйся тому, кто призвал тебя. Не действуй вопреки интересам своего Господина. Ты умрешь за своего Господина, если это будет необходимо.
 psionic-roll-failed = На мгновение мое сознание расширяется, но я чувствую, что этого недостаточно.

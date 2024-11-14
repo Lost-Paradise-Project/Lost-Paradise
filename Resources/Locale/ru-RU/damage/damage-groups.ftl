@@ -1,6 +1,6 @@
-damage-group-brute = Brute
-damage-group-burn = Burn
-damage-group-airloss = Airloss
-damage-group-toxin = Toxin
-damage-group-genetic = Genetic
-damage-group-immaterial = Immaterial
+damage-group-brute = Грубые
+damage-group-burn = Ожоги
+damage-group-airloss = Нехватка воздуха
+damage-group-toxin = Токсины
+damage-group-genetic = Генетические
+damage-group-immaterial = Нематериальный

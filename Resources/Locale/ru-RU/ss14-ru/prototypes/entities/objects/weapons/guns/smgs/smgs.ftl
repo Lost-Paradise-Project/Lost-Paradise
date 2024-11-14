@@ -1,4 +1,4 @@
-ent-BaseWeaponSubMachineGun = BaseSMG
+ent-BaseWeaponSubMachineGun = Базовый пистолет пулемёт
     .desc = Дерзай — налетай, целься и стреляй.
 ent-WeaponSubMachineGunAtreides = Атрейдес
     .desc = Пле-ке-ке-ке-ке! Использует патроны калибра .35 авто.

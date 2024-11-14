@@ -1,2 +1,2 @@
-ent-ActionChargeSpell = Charge
-    .desc = Adds a charge back to your wand
+ent-ActionChargeSpell = Заряд
+    .desc = Добавит заряд к вашей волшебной палочке!

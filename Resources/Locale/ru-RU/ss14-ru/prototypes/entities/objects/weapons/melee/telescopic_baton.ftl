@@ -1,5 +1,5 @@
-ent-TelescopicBaton = telescopic baton
-    .desc = A compact and harmless personal defense weapon. Sturdy enough to knock the feet out from under attackers.
-ent-TelescopicBatonAdmeme = robust telescopic baton
-    .desc = A compact and HARMFUL personal defense weapon. Sturdy enough to break legs of the attackers, making them unable to walk again.
-    .suffix = admeme, DO NOT MAP
+ent-TelescopicBaton = Телескопическая дубинка
+    .desc = Компактное и безвредное оружие личной защиты. Достаточно прочное, чтобы сбивать с ног нападающих.
+ent-TelescopicBatonAdmeme = Робастная телескопическая дубинка
+    .desc = Компактное и ОПАСНОЕ оружие личной защиты. Достаточно прочное, чтобы сломать ноги нападающим, лишив их возможности ходить.
+    .suffix = Адмеме, НЕ МАППИТЬ

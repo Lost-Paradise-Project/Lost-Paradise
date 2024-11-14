@@ -1,13 +1,13 @@
 ent-WeaponPistolViperWood = Вайпер
     .desc = Компактный пистолет с деревянной рукояткой. Использует патроны калибра .35 авто.
     .suffix = Дерево
-ent-WeaponPistolViperWoodSecurity = viper
-    .desc = A small, low-power pistol with pleasant lacquered wooden grips. Uses .35 auto ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+ent-WeaponPistolViperWoodSecurity = Вайпер
+    .desc = Небольшой маломощный пистолет с приятными деревянными рукоятками, покрытыми лаком. В нем используются автоматические патроны 35-го калибра. Серийный номер на цевье указывает на то, что этот пистолет принадлежит сотруднику службы безопасности НТ.
 ent-WeaponPistolPollock = Поуллок
     .desc = Массово выпускаемый пистолет используемый частными группами наёмников. Использует патроны калибра .35 авто.
     .suffix = Наёмники
-ent-WeaponPistolPollockSecurity = Pollock
-    .desc = A compact and mass-produced combat pistol. Uses .35 auto ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+ent-WeaponPistolPollockSecurity = Поуллок
+    .desc = Компактный боевой пистолет массового производства. В нем используются автоматические патроны 35-го калибра. Серийный номер на цевье указывает на то, что этот пистолет принадлежит сотруднику службы безопасности НТ.
 ent-WeaponPistolPollockNonlethalSecurity = Pollock
     .desc = { ent-WeaponPistolPollockSecurity.desc }
 ent-WeaponPistolPsiBreaker = Подавитель

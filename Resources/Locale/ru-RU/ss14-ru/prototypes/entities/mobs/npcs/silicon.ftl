@@ -10,5 +10,5 @@ ent-MobMedibot = Медибот
     .desc = Не заменит врача, но лучше, чем ничего.
 ent-MobMimeBot = Мимбот
     .desc = Почему бы не помахать мимботу?
-ent-MobSupplyBot = supplybot
-    .desc = Delivers cargo!
+ent-MobSupplyBot = Поставбот
+    .desc = Доставляет груз!

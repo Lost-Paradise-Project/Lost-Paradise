@@ -1,6 +1,6 @@
-ent-BaseBola = bola
-    .desc = High velocity entanglement tool.
+ent-BaseBola = Бола
+    .desc = Инструмент для высокоскоростного запутывания.
 ent-Bola = Бола
-    .desc = Скреплённые с металлом кабельные стяжки.
-ent-BolaEnergy = energy bola
-    .desc = An advanced hardlight criminal entangling tool. Otherwise known as an expensive piece of string.
+    .desc = Инструмент для высокоскоростного запутывания.
+ent-BolaEnergy = Энергобола
+    .desc = Усовершенствованный легкий инструмент для запутывания преступников. Также известный как дорогой кусок веревки.

@@ -12,5 +12,5 @@ ent-SpoonPlastic = Пластиковая ложка
     .desc = Здесь нет ложки.
 ent-KnifePlastic = Пластиковый нож
     .desc = Разве это нож? Вот нож!
-ent-BarSpoon = bar spoon
+ent-BarSpoon = Барная ложка
     .desc = Your personal helper to mix drinks and changes lives.

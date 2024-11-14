@@ -1,4 +1,4 @@
-ent-ChopSticks = chopsticks
-    .desc = A very traditional utensil.
-ent-PairedChopsticks = paired chopsticks
-    .desc = You should probably seperate them.
+ent-ChopSticks = Палочки для еды
+    .desc = Очень традиционная посуда.
+ent-PairedChopsticks = Парные палочки для еды
+    .desc = Вероятно, вам следует разделить их.

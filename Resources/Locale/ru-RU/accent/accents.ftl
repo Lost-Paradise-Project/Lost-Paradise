@@ -88,7 +88,7 @@ accent-words-mothroach-1 = Пии!
 accent-words-mothroach-2 = Чирик!
 accent-words-mothroach-3 = Пиип!
 accent-words-mothroach-4 = Ииии!
-accent-words-mothroach-5 = Eep!
+accent-words-mothroach-5 = Йип!
 # Crab
 accent-words-crab-1 = Чик.
 accent-words-crab-2 = Чик-клац!

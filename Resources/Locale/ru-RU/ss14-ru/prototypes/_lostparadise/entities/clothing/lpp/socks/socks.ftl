@@ -1,7 +1,7 @@
-ent-LPPClothingUnderwearSocksBase = based socks
+ent-LPPClothingUnderwearSocksBase = Базовые носочки
     .desc = { ent-Clothing.desc }
 ent-LPPClothingUnderBeeKnee = Пчелиные носочки
-    .desc = Do you like jazz?
+    .desc = Вы любите джаз?
 ent-LPPClothingUnderBeeNorm = { ent-LPPClothingUnderBeeKnee }
     .desc = { ent-LPPClothingUnderBeeKnee.desc }
 ent-LPPClothingUnderBeeThigh = { ent-LPPClothingUnderBeeKnee }

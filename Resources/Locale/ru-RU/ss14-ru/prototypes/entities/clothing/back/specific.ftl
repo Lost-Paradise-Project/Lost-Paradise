@@ -3,5 +3,5 @@ ent-ClothingBackpackChameleon = Рюкзак
     .suffix = Хамелеон
 ent-ClothingBackpackWaterTank = Ранцевый водяной резервуар
     .desc = Вмещает большое количество жидкости. Для разбрызгивания возьмите в руки форсунок.
-ent-ClothingBackpackEtherealTeleporter = ethereal teleporter
-    .desc = Originally created while several research facilities were experimenting on Shadowkin, this backpack allows the wearer to jump the gap between the "normal" dimension and The Dark.
+ent-ClothingBackpackEtherealTeleporter = Эфирный телепортатор
+    .desc = Первоначально созданный в ходе экспериментов нескольких исследовательских центров по поиску теней, этот рюкзак позволяет владельцу преодолеть разрыв между "Нормальным" измерением и Тьмой.

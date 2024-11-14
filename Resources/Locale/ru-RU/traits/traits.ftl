@@ -246,10 +246,10 @@ trait-description-Spinarette =
     на ладони позволяет пользователю "раскручивать" эту нить. Пользователям этого усовершенствования обычно требуется в два раза больше пищи, чем обычному солнечному человеку, из-за высокой метаболической стоимости искусственного шелководства.
 trait-name-AddictionNicotine = Никотиновая зависимость
 trait-description-AddictionNicotine = У вас зависимость от никотина, и вам понадобятся частые перекуры, чтобы сохранить свой рассудок.
-trait-name-AnimalFriend = Animal Friend
-trait-description-AnimalFriend = You have a way with animals. You will never be attacked by animals, unless you attack them first.
-trait-name-Liar = Pathological liar
-trait-description-Liar = You can hardly bring yourself to tell the truth. Sometimes you lie anyway.
+trait-name-AnimalFriend = Друг животных
+trait-description-AnimalFriend = Ты умеешь обращаться с животными. Животные никогда не нападут на тебя, если только ты не нападешь на них первым.
+trait-name-Liar = Паталогический лжец
+trait-description-Liar = Ты с трудом можешь заставить себя сказать правду. Иногда ты все равно лжешь.
 trait-name-ValyrianStandard = Валирийский стандарт
 trait-description-ValyrianStandard =
     Язык, произошедший от восточноевропейских языков старого земного валирийского стандарта, является общепринятым языком гарпий, выросших на своей родной планете Валирий 4b
@@ -304,5 +304,5 @@ trait-description-CyberEyesOmni =
     Этот дорогостоящий имплантат сочетает в себе преимущества метода охранного визора, медицинского визора и диагностического визора.
     Обратите внимание, что это дополнение считается контрабандой для тех, кто не работает в службе безопасности станции,
     и может быть отключено вашим работодателем перед отправкой на станцию.
-trait-name-ShadowkinBlackeye = Blackeye
-trait-description-ShadowkinBlackeye = You lose your special Shadowkin powers, in return for some points.
+trait-name-ShadowkinBlackeye = Чёрноглазый
+trait-description-ShadowkinBlackeye = Вы теряете свои особые способности Шэдоукина в обмен на некоторые очки.

@@ -4,5 +4,5 @@ ent-ClothingMaskGasChameleon = Противогаз
 ent-ClothingMaskGasVoiceChameleon = { ent-ClothingMaskGasChameleon }
     .suffix = Голосовая маска, Хамелеон
     .desc = { ent-ClothingMaskGasChameleon.desc }
-ent-ClothingMaskWeldingGas = welding gas mask
-    .desc = A gas mask with built in welding goggles and face shield. Looks like a skull, clearly designed by a nerd.
+ent-ClothingMaskWeldingGas = сварочный противогаз
+    .desc = Противогаз со встроенными сварочными очками и защитной маской для лица. Выглядит как череп, явно созданный задротом.

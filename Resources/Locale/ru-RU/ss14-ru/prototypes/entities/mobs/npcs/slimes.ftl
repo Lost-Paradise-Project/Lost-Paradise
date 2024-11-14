@@ -1,9 +1,9 @@
-ent-BaseMobAdultSlimes = basic slime
-    .desc = It looks so much like jelly. I wonder what it tastes like?
+ent-BaseMobAdultSlimes = Базовый  слайм
+    .desc = Он так похож на желе. Интересно, каков он на вкус?
 ent-MobAdultSlimes = Базовый слайм
     .desc = Он так похож на желе. Интересно, каков он на вкус?
-ent-MobSlimesGeras = geras
-    .desc = A geras of a slime - the name is ironic, isn't it?
+ent-MobSlimesGeras = Герас
+    .desc = Слаймик по имениГерас - ироничное название, не правда ли?
 ent-MobAdultSlimesBlue = Синий слайм
     .desc = { ent-MobAdultSlimes.desc }
 ent-MobAdultSlimesBlueAngry = Синий слайм

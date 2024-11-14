@@ -6,10 +6,10 @@ analysis-console-print-button = Печать
 analysis-console-print-tooltip-info = Распечатать актуальную информацию об артефакте.
 analysis-console-extract-button = Извлечь О.И.
 analysis-console-extract-button-info = Извлечь очки исследований из артефакта, пропорциональные количеству исследованных узлов.
-analysis-console-bias-up = Up
-analysis-console-bias-down = Down
-analysis-console-bias-button-info-up = Toggles the bias an artifact has in moving between its nodes. Up heads toward zero depth.
-analysis-console-bias-button-info-down = Toggles the bias an artifact has in moving between its nodes. Down heads toward ever-higher depths.
+analysis-console-bias-up = Вверх
+analysis-console-bias-down = Вниз
+analysis-console-bias-button-info-up = Изменяет смещение, которое артефакт имеет при перемещении между своими узлами. Вверх указывает на нулевую глубину.
+analysis-console-bias-button-info-down = Изменяет смещение, с которым артефакт перемещается между своими узлами. Направление вниз ведет ко все большей глубине.
 analysis-console-info-no-scanner = Анализатор не подключён! Пожалуйста, подключите его с помощью мультитула.
 analysis-console-info-no-artifact = Артефакт не найден! Поместите артефакт на платформу, затем просканируйте для получения данных.
 analysis-console-info-ready = Все системы запущены. Сканирование готово.
@@ -29,9 +29,9 @@ analysis-console-progress-text =
         [few] T-{ $seconds } секунды
        *[other] T-{ $seconds } секунд
     }
-analysis-console-no-server-connected = Cannot extract. No server connected.
-analysis-console-no-artifact-placed = No artifact on scanner.
-analysis-console-no-points-to-extract = No points to extract.
+analysis-console-no-server-connected = Не удается извлечь. Сервер не подключен.
+analysis-console-no-artifact-placed = Отсутствие артефакта на сканере.
+analysis-console-no-points-to-extract = Никаких очков, которые можно было бы извлечь.
 analyzer-artifact-component-upgrade-analysis = длительность анализа
 analysis-console-print-popup = Консоль печатает отчёт.
 analyzer-artifact-extract-popup = Поверхность артефакта мерцает энергией!

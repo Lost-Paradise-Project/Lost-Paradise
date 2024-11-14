@@ -1,6 +1,6 @@
 
 
-ent-LPPBaseWeaponSniper = LPPBaseWeaponSniper
-    .desc = A rooty tooty point and shooty.
+ent-LPPBaseWeaponSniper = Снайперка
+    .desc = Просто прицелься и стреляй.
 ent-LPPWeaponGoliath = Голиаф
     .desc = Специализированный "инструмент" для ликвидации преград. Использует .60 антиматериальные.
