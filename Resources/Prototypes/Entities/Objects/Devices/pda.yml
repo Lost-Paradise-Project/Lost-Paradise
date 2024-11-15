@@ -1096,6 +1096,7 @@
   suffix: Engineer
   description: Red for firepower, it's well-worn.
   components:
+  - type: GasAnalyzer
   - type: Pda
     id: ERTEngineerIDCard
 
@@ -1290,7 +1291,7 @@
   - type: Unremoveable
 
 - type: entity
-  parent: BasePDA
+  parent: BaseEngineerPDA
   id: SeniorEngineerPDA
   name: senior engineer PDA
   description: Seems to have been taken apart and put back together several times.
