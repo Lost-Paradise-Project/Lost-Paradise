@@ -1,10 +1,10 @@
 ent-BaseSpellbook = Книга заклинаний
     .desc = { ent-BaseItem.desc }
-ent-WizardsGrimoire = wizards grimoire
-    .suffix = Wizard
+ent-WizardsGrimoire = Гримуар Волшебника
+    .suffix = Волшебник
     .desc = { ent-BaseItem.desc }
-ent-WizardsGrimoireNoRefund = wizards grimoire
-    .suffix = Wizard, No Refund
+ent-WizardsGrimoireNoRefund = Гримуар Волшебника
+    .suffix = Волшебник, Без отката
     .desc = { ent-WizardsGrimoire.desc }
 ent-SpawnSpellbook = Книга заклинания призыв
     .desc = { ent-BaseSpellbook.desc }

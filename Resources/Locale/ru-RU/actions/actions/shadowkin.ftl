@@ -1,2 +1,2 @@
-action-name-shadowkin-rest = Rest
-action-description-shadowkin-rest = Rama
+action-name-shadowkin-rest = Отдых
+action-description-shadowkin-rest = Восполните свои силы...

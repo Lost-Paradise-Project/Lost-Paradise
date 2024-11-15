@@ -1,11 +1,11 @@
 # Cat accent
 accent-words-cat-1 = Мяу!
-accent-words-cat-2 = Mиау.
+accent-words-cat-2 = Миау.
 accent-words-cat-3 = Мурррр!
 accent-words-cat-4 = Ххссс!
 accent-words-cat-5 = Мррау.
 accent-words-cat-6 = Мяу?
-accent-words-cat-7 = Mяф.
+accent-words-cat-7 = Мяф.
 # Dog accent
 accent-words-dog-1 = Гав!
 accent-words-dog-2 = Тяв!

@@ -1,2 +1,2 @@
-chameleon-projector-invalid = You can't disguise as that!
-chameleon-projector-success = Projected new disguise.
+chameleon-projector-invalid = Ты не сможешь в это замаскироваться!
+chameleon-projector-success = Спроектированная новая маскировка.

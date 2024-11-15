@@ -1,2 +1,2 @@
-alerts-shadowkin-power-name = Power Level
-alerts-shadowkin-power-desc = How much energy is available to spend on Shadowkin powers.
+alerts-shadowkin-power-name = Уровень Сил
+alerts-shadowkin-power-desc = Сколько энергии можно потратить на развитие способностей Теневиков.

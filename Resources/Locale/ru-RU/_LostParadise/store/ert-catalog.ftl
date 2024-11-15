@@ -1,6 +1,6 @@
 ert-catalog-weapon-mk58-name = Mk58
 ert-catalog-weapon-mk58-desc = Стандартный пистолет используемый на вооружении НаноТрейзен. Использует калибр .35 авто.
-ert-catalog-weapon-wt550-name = Wt550
+ert-catalog-weapon-wt550-name = WT550
 ert-catalog-weapon-wt550-desc = Эргономичный пистолет-пулемёт, имеющий надствольный магазин. Использует калибр .35 авто.
 ert-catalog-weapon-drozd-name = Дрозд
 ert-catalog-weapon-drozd-desc = Пистолет-пулемёт спроектированный по системе Булл-пап. Широко используется офицерами-разведчиками. Использует калибр .35 авто.

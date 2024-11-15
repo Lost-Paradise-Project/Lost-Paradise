@@ -63,5 +63,5 @@ ent-ClothingOuterRedRacoon = Костюм рыжего енота
     .desc = Пушистый костюм рыжего енота!
 ent-ClothingOuterUnathiRobe = Грубошерстные одеяния
     .desc = Традиционная одежда племени унати.
-ent-ClothingOuterShadowkinRestraints = shadowkin restraints
-    .desc = One of the first creations after finding Shadowkin, these were used to contain the Shadowkin during research so they didn't teleport away.
+ent-ClothingOuterShadowkinRestraints = Наручники для Теневиков
+    .desc = Это было одно из первых изобретений после обнаружения Теневиков, они использовались для удержания Теневиков во время исследований, чтобы они не телепортировались.

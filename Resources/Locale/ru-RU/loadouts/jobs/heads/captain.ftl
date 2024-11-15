@@ -7,6 +7,6 @@ loadout-description-LoadoutCommandCapOuterWinter = Тёплая куртка, к
 loadout-description-LoadoutCommandCapGloves = Это перчатки капитана. Выглядит роскошно.
 loadout-description-LoadoutCommandCapHatCapcap = На ощупь приятно, как и на взгляд.
 loadout-description-LoadoutCommandCapHat = Править станцией в таком - одно удовольствие.
-loadout-description-LoadoutCommandCapHatBeret = The Captain's beret, very nice.
+loadout-description-LoadoutCommandCapHatBeret = Капитанский берет, очень красивый.
 loadout-description-LoadoutCommandCapMaskGas = А зачем капитану противогаз? В любом случае, оно выглядит роскошно.
 loadout-description-LoadoutCommandCapItemDrinkFlask = В неё наливают лишь элитнейший алкоголь.. Ну или колу.

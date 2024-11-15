@@ -698,6 +698,13 @@
 #    - LPPBorgModuleAresst
 #    - LPPBattleBorgModule
   #  Lost Paradise: end
+  - type: EmagLatheRecipes
+    emagStaticRecipes:
+    - BorgModuleSyndicateWeapon
+    - BorgModuleOperative
+    - BorgModuleEsword
+    - BorgModuleL6C
+    - BorgModuleMartyr
   - type: MaterialStorage
     whitelist:
       tags:

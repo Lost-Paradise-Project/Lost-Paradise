@@ -1,4 +1,4 @@
-ent-LPPClothingUniformJumpskirtWhiteTopic = white topic
+ent-LPPClothingUniformJumpskirtWhiteTopic = Белый топик
     .desc = Красивая одежда, обнажающая тело.
     .suffix = Спонсор
 ent-LPPClothingUniformJumpskirtAltWhiteTopic = Тонкий белый топик с юбкой
@@ -94,5 +94,5 @@ ent-LPPCASArmorsec = Бронежилет CAS
 ent-LPPClothingHeadHelmetHardsuitSpecialForcesCommand = Шлем NT-999ua
     .desc = Усовершенствованный тактический шлем скафандра, укреплённый сверхпрочным сплавом.
 ent-LPPClothingOuterHardsuitSpecialForcesCommand = Тактический скафандр NT-999ua "Σεραφείμ"
-    .desc = Усовершенствованный тактический скафандр, используемый привилегированным офицером высшего состава NanoTrasen. Броня укреплена сверхпрочным сплавом и не сковывает движений носителя.
+    .desc = Усовершенствованный тактический скафандр, используемый привилегированным офицером высшего состава НаноТрейзен. Броня укреплена сверхпрочным сплавом и не сковывает движений носителя.
     .suffix = Личные вещи, Relictez

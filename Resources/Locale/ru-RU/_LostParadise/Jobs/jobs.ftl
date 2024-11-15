@@ -1,4 +1,4 @@
-job-name-lppparamedic = Gарамедик
+job-name-lppparamedic = Парамедик
 job-description-lppparamedic = Следите за жизнями экипажа, ходите по станции с монитором экипажа и слушайте рацию.
 job-name-adjutant = Адъютант
 job-description-adjutant = Вы помощник всего коммандования, слушайте рацию и набирайтесь опыта в работе всей структуры.

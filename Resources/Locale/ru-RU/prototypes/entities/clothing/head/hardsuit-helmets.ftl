@@ -16,25 +16,25 @@ ent-ClothingHeadHelmetHardsuitSecurity = Шлем FPA-83s
     .desc = Громоздкий шлем тактического скафандра Baghatur. Защищает владельца от пуль и взрывов ценой мобильности.
 ent-ClothingHeadHelmetHardsuitBrigmedic = Шлем FPA-84m
     .desc = Громоздкий шлем тактического скафандра Tsagaan. Защищает владельца от пуль и взрывов ценой мобильности.
-ent-ClothingHeadHelmetHardsuitCombatStandard = FPA-85 helmet
+ent-ClothingHeadHelmetHardsuitCombatStandard = Шлем FPA-85 
     .desc = 
         Громоздкий элемент тактического сканд-ра Мк.II с потайным карманом.
         Защищает своего владельца от баллистических и взрывоопасных предметов за счет потери мобильности.
-ent-ClothingHeadHelmetHardsuitCombatOfficer = FPA-85s helmet
+ent-ClothingHeadHelmetHardsuitCombatOfficer = Шлем FPA-85s
     .desc = { ent-ClothingHeadHelmetHardsuitCombatStandard.desc }
-ent-ClothingHeadHelmetHardsuitCombatMedical = FPA-86 helmet
+ent-ClothingHeadHelmetHardsuitCombatMedical = Шлем FPA-86
     .desc =
         Громоздкий шлем, используемый в комплекте с тактическим костюмом Tsagaan Mk.II.
         Защищает своего владельца от баллистических и взрывоопасных предметов за счет потери мобильности.
-ent-ClothingHeadHelmetHardsuitCombatCorpsman = FPA-86m helmet
+ent-ClothingHeadHelmetHardsuitCombatCorpsman = Шлем FPA-86m
     .desc = { ent-ClothingHeadHelmetHardsuitCombatMedical.desc }
 ent-ClothingHeadHelmetHardsuitWarden = Шлем FPA-92s
     .desc = Модифицированный для борьбы с беспорядками шлем модели Sulde. Предоставляет лучшую защиту чем обычный тактический шлем ценой мобильности.
-ent-ClothingHeadHelmetHardsuitCombatRiot = FPA-93 helmet
+ent-ClothingHeadHelmetHardsuitCombatRiot = Шлем FPA-93
     .desc =
         Модифицированный для борьбы с беспорядками шлем модели Sulde Mk.II.
         Представляет лучшую защиту, чем другие модели с такой же мобильностью.. 
-ent-ClothingHeadHelmetHardsuitCombatWarden = FPA-93s helmet
+ent-ClothingHeadHelmetHardsuitCombatWarden = Шлем FPA-93s
     .desc = { ent-ClothingHeadHelmetHardsuitCombatRiot.desc }
 ent-ClothingHeadHelmetHardsuitCap = Шлем NT-42c
     .desc = Специальный шлем для модели Tengri, несмотря на лёгкий вес предоставляет хорошую защиту широкого спектра.
@@ -46,15 +46,15 @@ ent-ClothingHeadHelmetHardsuitMedical = Шлем ZhP-25m
         Создан из укрепленного прозрачного пластика, предоставляет полный обзор.
 ent-ClothingHeadHelmetHardsuitRd = Шлем NT-45e
     .desc = Тяжелобронированный шлем модели Sophia. Степень защиты аналогична скафандру.
-ent-ClothingHeadHelmetHardsuitMystagogue = NT-45e helmet
+ent-ClothingHeadHelmetHardsuitMystagogue = Шлем NT-45e
     .desc = { ent-ClothingHeadHelmetHardsuitRd.desc }
-ent-ClothingHeadHelmetHardsuitSecurityRed = FPA-98s helmet
+ent-ClothingHeadHelmetHardsuitSecurityRed = Шлем FPA-98s
     .desc = Высококачественный шлем модели тактического костюма Dayicin. Обеспечивает лучшую защиту, чем стандартный тактический костюм без значительной потери мобильности.
-ent-ClothingHeadHelmetHardsuitCombatAdvanced = FPA-99 helmet
+ent-ClothingHeadHelmetHardsuitCombatAdvanced = Шлем FPA-99
     .desc =
          Высококачественный шлем модели тактического костюма Dayicin Mk.II. 
          Особенности легкой конструкции, предлагают такую же защиту, как на стандартном тактическом костюме без значительной потери мобильности.
-ent-ClothingHeadHelmetHardsuitCombatHoS = FPA-99s helmet
+ent-ClothingHeadHelmetHardsuitCombatHoS = Шлем FPA-99s 
     .desc = { ent-ClothingHeadHelmetHardsuitCombatAdvanced.desc }
 ent-ClothingHeadHelmetHardsuitLuxury = Шлем HpI-20c
     .desc = Модифицированный шлем модли Minos, покрашен в цвета Квартирмейстера и предоставляет защиту аналогичную скафандру.
@@ -80,11 +80,11 @@ ent-ClothingHeadHelmetHardsuitPirateEVA = Шлем пирата
 ent-ClothingHeadHelmetHardsuitPirateCap = Шлем пиратского капитана
     .desc = Пустотный шлем, сделанный на заказ для пиратского капитана.
     .suffix = Пиратский
-ent-ClothingHeadHelmetHardsuitSyndieReverseEngineered = NTSA-122 helmet
+ent-ClothingHeadHelmetHardsuitSyndieReverseEngineered = Шлем NTSA-122
     .desc = Прочный и легкий шлем, изготовленный по специальному заказу Департамента Специальных Операций.
-ent-ClothingHeadHelmetHardsuitJuggernautReverseEngineered = NTSA-126 helmet
+ent-ClothingHeadHelmetHardsuitJuggernautReverseEngineered = Шлем NTSA-126
     .desc = Очень крепкий шлем, изготовленный по специальному заказу Департамента Специальных Операций на дизайне тактического костюма "Guan Yu".
-ent-ClothingHeadHelmetHardsuitERTCentcomm = NT-444c helmet
+ent-ClothingHeadHelmetHardsuitERTCentcomm = Шлем NT-444c
     .desc = Поношенный специальный тактический шлем Офицера Центрального Командования. 
 ent-ClothingHeadHelmetHardsuitERTLeader = Шлем NT-444l
     .desc = Специальный тактический шлем, предназначенный для командования ОБР.

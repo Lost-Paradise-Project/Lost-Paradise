@@ -21,4 +21,4 @@ roles-antag-space-ninja-objective = Используйте свою скрытн
 roles-antag-terminator-name = Парадоксальная аномалия # DeltaV - paradox anomaly
 roles-antag-terminator-objective = Заменить своего двойника или подружиться с ним. # DeltaV - paradox anomaly
 roles-antag-thief-name = Вор
-roles-antag-thief-objective = Пополните свою личную коллекцию имуществом Nanotrasen, не прибегая к насилию.
+roles-antag-thief-objective = Пополните свою личную коллекцию имуществом НаноТрейзен, не прибегая к насилию.

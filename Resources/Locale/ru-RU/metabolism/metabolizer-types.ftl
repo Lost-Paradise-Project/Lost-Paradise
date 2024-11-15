@@ -11,4 +11,4 @@ metabolizer-type-moth = Моль
 metabolizer-type-arachnid = Арахнид
 metabolizer-type-vampiric = Вампирский
 metabolizer-type-liquorlifeline = Спасательный круг ликера
-metabolizer-type-shadowkin = Шэдоукин
+metabolizer-type-shadowkin = Теневик
