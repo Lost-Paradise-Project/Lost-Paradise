@@ -4,6 +4,8 @@
   description: job-description-guard
   playTimeTracker: JobPrisonGuard
   requirements:
+    - !type:CharacterHeightRequirement
+      min: 160
     - !type:CharacterOverallTimeRequirement
       min: 18000
     - !type:DepartmentTimeRequirement

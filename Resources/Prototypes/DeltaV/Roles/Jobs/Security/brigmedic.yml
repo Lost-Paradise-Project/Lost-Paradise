@@ -4,6 +4,8 @@
   description: job-description-brigmedic
   playTimeTracker: JobBrigmedic
   requirements:
+    - !type:CharacterHeightRequirement
+      min: 160
     - !type:DepartmentTimeRequirement
       department: Medical
       min: 21600 # 6 hrs
