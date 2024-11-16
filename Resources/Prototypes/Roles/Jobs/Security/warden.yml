@@ -4,6 +4,8 @@
   description: job-description-warden
   playTimeTracker: JobWarden
   requirements:
+    - !type:CharacterHeightRequirement
+      min: 160
     - !type:CharacterPlaytimeRequirement # DeltaV - JobSecurityOfficer time requirement. Make them experienced in proper officer work.
       tracker: JobSecurityOfficer
       min: 43200 # DeltaV - 12 hrs
