@@ -4,6 +4,8 @@
   description: job-description-security
   playTimeTracker: JobSecurityOfficer
   requirements:
+    - !type:CharacterHeightRequirement
+      min: 160
     - !type:CharacterDepartmentTimeRequirement
       department: Security
       min: 14400 # DeltaV - 4 hours

@@ -11,6 +11,12 @@
   maleFirstNames: names_vulpkanin_male
   femaleFirstNames: names_vulpkanin_female
   lastNames: names_vulpkanin_last
+  minHeight: 0.75
+  defaultHeight: 0.85
+  maxHeight: 1.1
+  minWidth: 0.65
+  defaultWidth: 0.85
+  maxWidth: 1.15
 
 - type: speciesBaseSprites
   id: MobVulpkaninSprites
