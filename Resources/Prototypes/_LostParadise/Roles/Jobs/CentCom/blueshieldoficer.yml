@@ -4,6 +4,8 @@
   description: job-description-blueshieldofficer
   playTimeTracker: JobBlueShieldOfficer
   requirements:
+    - !type:CharacterHeightRequirement
+      min: 160
     - !type:CharacterAgeRequirement
       min: 25
       max: 80

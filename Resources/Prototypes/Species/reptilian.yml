@@ -11,12 +11,12 @@
   maleFirstNames: names_reptilian_male
   femaleFirstNames: names_reptilian_female
   naming: FirstDashFirst
-  minHeight: 0.7
-  defaultHeight: 0.95
-  maxHeight: 1.25
-  minWidth: 0.65
-  defaultWidth: 0.95
-  maxWidth: 1.3
+  minHeight: 0.8
+  defaultHeight: 1.15
+  maxHeight: 1.35
+  minWidth: 0.70
+  defaultWidth: 1.15
+  maxWidth: 1.40
 
 - type: speciesBaseSprites
   id: MobReptilianSprites
