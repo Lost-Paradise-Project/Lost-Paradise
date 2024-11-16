@@ -47,6 +47,12 @@
     state: sheath
   - type: Clothing
     sprite: Nyanotrasen/Clothing/Belt/katanasheath.rsi
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+      katana: !type:ContainerSlot
+      wakizashi: !type:ContainerSlot
   - type: ItemSlots
     slots:
       katana:
