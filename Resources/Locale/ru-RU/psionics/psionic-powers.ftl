@@ -61,7 +61,6 @@ revivify-power-initialization-feedback =
     Сила течет через меня, как могучая река, прося высвободиться простым произнесением слова.
 revivify-power-metapsionic-feedback = { CAPITALIZE($entity) } хранит Большой Секрет Жизни.
 revivify-begin = { CAPITALIZE($entity) } enunciates a word of such divine power, that those who hear it weep from joy.
-revivify-word-begin = { CAPITALIZE($entity) } произносит слово такой божественной силы, что те, кто его слышит, плачут от радости.
 # Telegnosis
 telegnosis-power-description = Создайте проекцию что бы удалённо осматривать местность.
 telegnosis-power-initialization-feedback =

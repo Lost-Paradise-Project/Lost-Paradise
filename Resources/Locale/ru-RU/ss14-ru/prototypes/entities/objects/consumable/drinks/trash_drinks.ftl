@@ -56,5 +56,3 @@ ent-DrinkCartonSoyMilk = Упаковка от соевого молока
     .desc = { ent-DrinkCartonBaseLargeEmpty.desc }
 ent-DrinkCartonOatMilk = Упаковка от овсяного молока
     .desc = { ent-DrinkCartonBaseLargeEmpty.desc }
-ent-DrinkBottleGoldschlager = Бутылка голдшлягера
-    .desc = Пустая бутылка

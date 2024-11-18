@@ -17,6 +17,7 @@ lpp-job-name-virologist = Вирусолог
 lpp-job-description-virologist = Лечите экипаж от OwOнавируса. Вы же не хотите восстание кошкомальчиков?
 lpp-job-name-prisoner = Заключённый
 lpp-job-description-prisoner = Будьте единственным(или одним из) разумным существом на весь бриг.
+job-name-senior-engineer = Ведущий Инженер
 job-name-senior-physician = Ведущий Врач
 job-name-senior-officer = Инструктор СБ
 JobExpeditor = Исследователь

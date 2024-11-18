@@ -19,7 +19,6 @@ command-description-stations-addgrid = Добавляет сетку к данн
 command-description-stations-rmgrid = Удаляет сетку с данной станции.
 command-description-stations-rename = Переименовывает данную станцию.
 command-description-stations-largestgrid = Возвращает самую большую сетку, которая есть у данной станции, если таковая имеется.
-command-description-stations-rerollBoundies = Удаляет все текущие бонусы для станции и получает новый выбор.
 command-description-stationevent-lsprob = Отображает вероятность того, что различные события на станции произойдут из всего пула.
 command-description-stationevent-lsprobtime = Отображает вероятность возникновения различных событий на станции в зависимости от заданной продолжительности раунда.
 command-description-stationevent-prob = Возвращает вероятность возникновения события на одной станции из всего пула.

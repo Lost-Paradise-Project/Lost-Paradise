@@ -5,6 +5,7 @@ bloodsucker-fail-helmet = You'd need to remove {THE($helmet)}.
 bloodsucker-fail-mask = You'd need to remove your mask!
 
 bloodsucker-not-blood = {$target} doesn't have delicious, nourishing blood.
+bloodsucker-fail-not-blood = { CAPITALIZE(SUBJECT($target)) } he doesn't have the delicious, nutritious blood of a mortal.
 bloodsucker-fail-no-blood = {$target} has no blood in { POSS-ADJ($target) } body.
 bloodsucker-fail-no-blood-bloodsucked = {$target} has been sucked dry.
 
