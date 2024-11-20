@@ -671,7 +671,7 @@
       color: "#1B67A5"
     - state: captain
   - type: IdCard
-    jobTitle: ERT Company Commander
+    jobTitle: Лидер ОБР
   - type: Item
     heldPrefix: gold
 
@@ -689,7 +689,7 @@
       color: "#C96DBF"
     - state: chaplain
   - type: IdCard
-    jobTitle: ERT Soul Officer
+    jobTitle: Священник ОБР
   - type: Item
     heldPrefix: blue
 
@@ -707,7 +707,7 @@
       color: "#F39F27"
     - state: stationengineer
   - type: IdCard
-    jobTitle: ERT Field Engineer
+    jobTitle: Полевой Инженер ОБР
 
 - type: entity
   parent: ERTChaplainIDCard
@@ -723,7 +723,7 @@
       color: "#58C800"
     - state: janitor
   - type: IdCard
-    jobTitle: ERT Custodian
+    jobTitle: Уборщик ОБР
 
 - type: entity
   parent: ERTChaplainIDCard
@@ -739,7 +739,7 @@
       color: "#5B97BC"
     - state: medicaldoctor
   - type: IdCard
-    jobTitle: ERT Medical Doctor
+    jobTitle: Полевой Врач ОБР
 
 - type: entity
   parent: ERTChaplainIDCard
@@ -755,7 +755,7 @@
       color: "#CB0000"
     - state: securityofficer
   - type: IdCard
-    jobTitle: ERT Field Officer
+    jobTitle: Полевой Офицер ОБР
 
 - type: entity
   parent: IDCardStandard
@@ -811,7 +811,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Centcom Agent
+    jobTitle: Агент ЦК
 
 - type: entity
   name: passenger ID card
@@ -1083,7 +1083,7 @@
   - type: Item
     heldPrefix: blue
   - type: IdCard
-    jobTitle: Centcom Quarantine Officer
+    jobTitle: Офицер РХБЗЗ
 
 - type: entity
   parent: IDCardStandard
@@ -1101,7 +1101,7 @@
     - state: clown
       color: "#7C0A0A"
   - type: IdCard
-    jobTitle: Cluwne
+    jobTitle: Клуня
   - type: Unremoveable
 
 - type: entity

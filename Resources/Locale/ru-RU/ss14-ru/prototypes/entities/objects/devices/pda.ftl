@@ -73,7 +73,7 @@ ent-CentcomPDAFake = { ent-CentcomPDA }
     .suffix = Фальшивый
     .desc = { ent-CentcomPDA.desc }
 ent-DeathsquadPDA = { ent-CentcomPDA }
-    .suffix = Эскадрон смерти
+    .suffix = Эскадрон Смерти
     .desc = { ent-CentcomPDA.desc }
 ent-MusicianPDA = КПК музыканта
     .desc = Он наполняет вас вдохновением.
@@ -88,7 +88,7 @@ ent-SyndiPDA = Кроваво-красный КПК
 
 # Corvax-HiddenDesc-End
 
-ent-ERTLeaderPDA = КПК ОБР
+ent-ERTLeaderPDA = КПК лидера ОБР
     .desc = Красный значит мощный.
     .suffix = Лидер
 ent-ERTChaplainPDA = КПК священника ОБР

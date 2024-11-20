@@ -26,8 +26,10 @@
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTLeaderPDA
     ears: ClothingHeadsetAltCentCom
-    belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolN1984NonLethal
+    belt: ClothingBeltSecurityWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: WeaponPistolN1984
     pocket2: FlashlightSeclite
 
 - type: startingGear
@@ -43,8 +45,10 @@
     suitstorage: AirTankFilled
     id: ERTLeaderPDA
     ears: ClothingHeadsetAltCentCom
-    belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolN1984NonLethal
+    belt: ClothingBeltSecurityWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: WeaponPistolN1984
     pocket2: FlashlightSeclite
 
 - type: startingGear
@@ -60,7 +64,9 @@
     suitstorage: WeaponRifleLecter
     id: ERTLeaderPDA
     ears: ClothingHeadsetAltCentCom
-    belt: ClothingBeltSecurityFilled
+    belt: ClothingBeltSecurityWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
     pocket1: MagazineRifle
     pocket2: MagazineRifle
   inhand:
@@ -100,6 +106,8 @@
     id: ERTEngineerPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltStorageWaistbag
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
     pocket1: Flare
     pocket2: DrinkWaterBottleFull
 
@@ -118,6 +126,8 @@
     id: ERTChaplainPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltStorageWaistbag
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
     pocket1: Flare
     pocket2: DrinkWaterBottleFull
 
@@ -144,14 +154,16 @@
     back: ClothingBackpackERTEngineerFilled
     shoes: ClothingShoesBootsWork
     head: ClothingHeadHelmetERTEngineer
-    eyes: ClothingEyesGlassesMeson
+    eyes: LPPClothingEyesHudSecEng # LPP
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTEngineerPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltChiefEngineerFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
     pocket1: Flare
-    pocket2: GasAnalyzer
+    pocket2: RemoteSignallerAdvanced
 
 - type: startingGear
   id: ERTEngineerGearEVA
@@ -160,15 +172,17 @@
     back: ClothingBackpackERTEngineerFilled
     shoes: ClothingShoesBootsMagAdv
     mask: ClothingMaskGasERT
-    eyes: ClothingEyesGlassesMeson
+    eyes: LPPClothingEyesHudSecEng # LPP
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitERTEngineer
     suitstorage: AirTankFilled
     id: ERTEngineerPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltChiefEngineerFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
     pocket1: Flare
-    pocket2: GasAnalyzer
+    pocket2: RemoteSignallerAdvanced # LPP
 
 # Security
 - type: job
@@ -198,8 +212,10 @@
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTSecurityPDA
     ears: ClothingHeadsetAltCentCom
-    belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolMk58Nonlethal
+    belt: ClothingBeltSecurityWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: WeaponPistolUniversal
     pocket2: FlashlightSeclite
 
 - type: startingGear
@@ -215,8 +231,10 @@
     suitstorage: AirTankFilled
     id: ERTSecurityPDA
     ears: ClothingHeadsetAltCentCom
-    belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolMk58Nonlethal
+    belt: ClothingBeltSecurityWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: WeaponPistolUniversal
     pocket2: FlashlightSeclite
 
 - type: startingGear
@@ -232,7 +250,9 @@
     suitstorage: WeaponRifleLecter
     id: ERTSecurityPDA
     ears: ClothingHeadsetAltCentCom
-    belt: ClothingBeltSecurityFilled
+    belt: ClothingBeltSecurityWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
     pocket1: MagazineRifle
     pocket2: MagazineRifle
   inhand:
@@ -261,29 +281,35 @@
     back: ClothingBackpackERTMedicalFilled
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHelmetERTMedic
-    eyes: ClothingEyesHudMedical
-    gloves: ClothingHandsGlovesNitrile
+    eyes: ClothingEyesHudMedSec
+    gloves: LPPClothingHandsGlovesCombatNitrile # LPP
     outerClothing: ClothingOuterArmorBasicSlim
     id: ERTMedicPDA
     ears: ClothingHeadsetAltCentCom
-    belt: ClothingBeltMedicalFilled
+    belt: ClothingBeltCorpsmanWebbingFilled # LPP
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
     pocket1: Flare
+    pocket2: HandheldCrewMonitor
 
 - type: startingGear
   id: ERTMedicalGearEVA
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTMedic
     back: ClothingBackpackERTMedicalFilled
-    shoes: ClothingShoesBootsMag
+    shoes: LPPClothingShoesBootsMagParamed # LPP
     mask: ClothingMaskGasERT
-    eyes: ClothingEyesHudMedical
-    gloves: ClothingHandsGlovesNitrile
+    eyes: ClothingEyesHudMedSec
+    gloves: LPPClothingHandsGlovesCombatNitrile # LPP
     outerClothing: ClothingOuterHardsuitERTMedical
     suitstorage: AirTankFilled
     id: ERTMedicPDA
     ears: ClothingHeadsetAltCentCom
-    belt: ClothingBeltMedicalFilled
+    belt: ClothingBeltCorpsmanWebbingFilled # LPP
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
     pocket1: Flare
+    pocket2: HandheldCrewMonitor
 
 # Janitor
 - type: job
@@ -313,6 +339,8 @@
     id: ERTJanitorPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltJanitorFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
     pocket1: Flare
 
 - type: startingGear
@@ -328,4 +356,6 @@
     id: ERTJanitorPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltJanitorFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
     pocket1: Flare

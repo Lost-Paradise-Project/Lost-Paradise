@@ -6,15 +6,17 @@
   - type: StorageFill
     contents:
       - id: LPPClothingMilitaryWebbingSecEng
-      - id: LPPClothingHeadsetSecurityEngineer
       - id: LPPClothingBackpackDuffelSecurityEngineer
-      - id: LPPClothingUniformJumpsuitSecEngineer
-      - id: LPPClothingUniformJumpSkirtSecEngineer
-      # - id: LPPClothingEyesHudSecEng
       - id: ToolboxMechanicalFilled
       - id: ClothingHandsGlovesCombat
       - id: LPPClothingOuterHardsuitSecurityEng
+      - id: ClothingShoesBootsMag
+      - id: OxygenTankFilled
+      - id: JetpackSecurity
+      - id: HandHeldMassScanner
       - id: LPPC4Low
+      - id: RemoteSignaller
       - id: LPPHammer
       - id: RCD
       - id: RCDAmmo
+

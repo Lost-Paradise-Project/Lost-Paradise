@@ -84,3 +84,68 @@
       - NewsReaderCartridge
       - CrimeAssistCartridge
       - SecWatchCartridge
+
+# Delta Squad
+
+- type: entity
+  parent: BasePDA
+  id: LPPDeltaCommanderPDA
+  name: Delta Commander PDA
+  suffix: Commander
+  description: Red for firepower.
+  components:
+  - type: Pda
+    id: LPPDeltaCommanderIDCard
+    state: pda-ert
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentHColor: "#447987"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-ert
+
+- type: entity
+  parent: LPPDeltaCommanderPDA
+  id: LPPDeltaEngineerPDA
+  name: Delta Engineer PDA
+  suffix: Engineer
+  description: Red for firepower, it's well-worn.
+  components:
+  - type: Pda
+    id: LPPDeltaEngineerIDCard
+  - type: GasAnalyzer
+
+- type: entity
+  parent: LPPDeltaCommanderPDA
+  id: LPPDeltaMedicPDA
+  name: Delta Medic PDA
+  suffix: Medic
+  description: Red for firepower, it's shiny and sterile. Has a built-in rapid health analyzer.
+  components:
+  - type: Pda
+    id: LPPDeltaMedicIDCard
+  - type: HealthAnalyzer
+    scanDelay: 1
+    scanningEndSound:
+      path: "/Audio/Items/Medical/healthscanner.ogg"
+
+- type: entity
+  parent: LPPDeltaCommanderPDA
+  id: LPPDeltaOperatorPDA
+  name: Delta Operator PDA
+  suffix: Operator
+  description: Red for firepower, it has tally marks etched on the side.
+  components:
+  - type: Pda
+    id: LPPDeltaOperatorIDCard
+
+- type: entity
+  parent: LPPDeltaCommanderPDA
+  id: LPPDeltaPyrotechPDA
+  name: Delta Pyrotech PDA
+  suffix: Pyrotech
+  description: Red for firepower, it has tally marks etched on the side.
+  components:
+  - type: Pda
+    id: LPPDeltaPyrotechIDCard
+

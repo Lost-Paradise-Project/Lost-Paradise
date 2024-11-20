@@ -1,0 +1,176 @@
+# Delta Squad
+
+# Delta Commander
+
+- type: entity
+  id: LPPRandomHumanoidSpawnerDeltaCommander
+  name: Delta Commander
+  suffix: ERTRole, Delta Squad
+  components:
+    - type: Sprite
+      sprite: _LostParadise\Clothing\OuterClothing\Hardsuits\iic-armor-command.rsi
+      state: icon
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitaryLeader
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: LPPDeltaCommander
+    - type: InitialInfectedExempt
+
+- type: randomHumanoidSettings
+  id: LPPDeltaCommander
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-delta-commander-name
+      description: ghost-role-information-delta-commander-description
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ LPPDeltaCommanderGearEVA ]
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitaryLeader
+      - NamesLastMilitary
+    - type: InitialInfectedExempt
+
+# Delta Engineer
+
+- type: entity
+  id: LPPRandomHumanoidSpawnerDeltaEngineer
+  parent: LPPRandomHumanoidSpawnerDeltaCommander
+  name: Delta Engineer
+  suffix: ERTRole, Delta Squad
+  components:
+    - type: Sprite
+      sprite: _LostParadise\Clothing\OuterClothing\Hardsuits\iic-armor-engineer.rsi
+      state: icon
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: LPPDeltaEngineer
+
+- type: randomHumanoidSettings
+  id: LPPDeltaEngineer
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-delta-engineer-name
+      description: ghost-role-information-delta-engineer-description
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ LPPDeltaEngineerGearEVA ]
+    - type: RandomMetadata
+      nameSegments:
+        - NamesFirstMilitaryLeader
+        - NamesLastMilitary
+    - type: InitialInfectedExempt
+
+# Delta Medic
+
+- type: entity
+  id: LPPRandomHumanoidSpawnerDeltaMedic
+  parent: LPPRandomHumanoidSpawnerDeltaCommander
+  name: Delta Medic
+  suffix: ERTRole, Delta Squad
+  components:
+    - type: Sprite
+      sprite: _LostParadise\Clothing\OuterClothing\Hardsuits\iic-armor-medic.rsi
+      state: icon
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: LPPDeltaMedic
+
+- type: randomHumanoidSettings
+  id: LPPDeltaMedic
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-delta-medic-name
+      description: ghost-role-information-delta-medic-description
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ LPPDeltaMedicalGearEVA ]
+    - type: RandomMetadata
+      nameSegments:
+        - NamesFirstMilitaryLeader
+        - NamesLastMilitary
+    - type: InitialInfectedExempt
+
+# Delta Operator
+
+- type: entity
+  id: LPPRandomHumanoidSpawnerDeltaOperator
+  parent: LPPRandomHumanoidSpawnerDeltaCommander
+  name: Delta Operator
+  suffix: ERTRole, Delta Squad
+  components:
+    - type: Sprite
+      sprite: _LostParadise\Clothing\OuterClothing\Hardsuits\iic-armor.rsi
+      state: icon
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: LPPDeltaOperator
+
+- type: randomHumanoidSettings
+  id: LPPDeltaOperator
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-delta-operator-name
+      description: ghost-role-information-delta-operator-description
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ LPPDeltaOperatorGearEVA ]
+    - type: RandomMetadata
+      nameSegments:
+        - NamesFirstMilitaryLeader
+        - NamesLastMilitary
+    - type: InitialInfectedExempt
+
+# Delta Pyrotech
+
+- type: entity
+  id: LPPRandomHumanoidSpawnerDeltaPyrotech
+  parent: LPPRandomHumanoidSpawnerDeltaCommander
+  name: Delta Pyrotech
+  suffix: ERTRole, Delta Squad
+  components:
+    - type: Sprite
+      sprite: _LostParadise\Clothing\OuterClothing\Hardsuits\iic-armor-pyrotech.rsi
+      state: icon
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: RandomHumanoidSpawner
+      settings: LPPDeltaPyrotech
+
+- type: randomHumanoidSettings
+  id: LPPDeltaPyrotech
+  randomizeName: false
+  components:
+    - type: MindShield
+    - type: GhostRole
+      name: ghost-role-information-delta-pyrotech-name
+      description: ghost-role-information-delta-pyrotech-description
+    - type: GhostTakeoverAvailable
+    - type: Loadout
+      prototypes: [ LPPDeltaPyrotechGearEVA ]
+    - type: RandomMetadata
+      nameSegments:
+        - NamesFirstMilitaryLeader
+        - NamesLastMilitary
+    - type: InitialInfectedExempt

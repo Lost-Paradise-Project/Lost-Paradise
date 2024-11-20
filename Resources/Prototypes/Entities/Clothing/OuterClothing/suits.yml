@@ -100,7 +100,7 @@
       modifiers:
         coefficients:
           Slash: 0.9
-          Heat: 0.3
+          Heat: 0.1
           Cold: 0.2
     - type: ClothingSpeedModifier
       walkModifier: 0.8

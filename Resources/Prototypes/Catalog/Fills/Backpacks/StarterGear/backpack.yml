@@ -224,12 +224,14 @@
     - type: StorageFill
       contents:
         - id: BoxSurvivalEngineering
-        - id: WeaponDisabler
+        - id: WeaponEnergyGunPistol
         - id: MedicatedSuture
         - id: RegenerativeMesh
         - id: BoxZiptie
         - id: CrowbarRed
         - id: MagazineMagnum
+        - id: LPPERTUplinkShop # LPP
+        - id: DoubleEmergencyOxygenTank
 
 - type: entity
   noSpawn: true
@@ -239,12 +241,13 @@
     - type: StorageFill
       contents:
         - id: BoxSurvivalEngineering
-        - id: WeaponDisabler
+        - id: WeaponEnergyGunPistol
         - id: MedicatedSuture
         - id: RegenerativeMesh
         - id: BoxZiptie
         - id: CrowbarRed
-        - id: MagazinePistol
+        - id: MagazineUniversalMagnum
+        - id: DoubleEmergencyOxygenTank
 
 - type: entity
   noSpawn: true
@@ -254,12 +257,14 @@
     - type: StorageFill
       contents:
         - id: BoxSurvivalMedical
-        - id: Hypospray
-        - id: MedkitAdvancedFilled
+        - id: LPPCombatHypospray # LPP
+        - id: LPPCombatDefibrillator # LPP
+        - id: MedkitCombatFilled
         - id: CrowbarRed
         - id: OmnizineChemistryBottle
         - id: EpinephrineChemistryBottle
         - id: EpinephrineChemistryBottle
+        - id: DoubleEmergencyOxygenTank
 
 - type: entity
   noSpawn: true
@@ -269,8 +274,7 @@
     - type: StorageFill
       contents:
         - id: BoxSurvivalEngineering
-        - id: trayScanner
-        - id: RCD
+        - id: RCDRecharging
         - id: RCDAmmo
           amount: 2
         - id: CableMVStack
@@ -279,6 +283,9 @@
         - id: SheetPlasteel
         - id: SheetSteel
         - id: SheetGlass
+        - id: DoubleEmergencyOxygenTank
+        - id: LPPC4Low
+          amount: 2
 
 - type: entity
   noSpawn: true

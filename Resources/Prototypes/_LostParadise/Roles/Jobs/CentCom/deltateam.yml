@@ -1,0 +1,99 @@
+# Commander
+- type: startingGear
+  id: LPPDeltaCommanderGearEVA
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTLeader
+    back: LPPClothingBackpackDeltaLeaderFilled
+    shoes: ClothingShoesBootsMagAdv
+    mask: LPPClothingMaskGasOfficerIIC
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: LPPClothingOuterHardsuitIICCommand
+    suitstorage: AirTankFilled
+    id: LPPDeltaCommanderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: WeaponPistolN1984
+    pocket2: FlashlightSeclite
+
+# Engineer
+- type: startingGear
+  id: LPPDeltaEngineerGearEVA
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTEngineer
+    back: LPPClothingBackpackDeltaEngineerFilled
+    shoes: ClothingShoesBootsMagAdv
+    mask: LPPClothingMaskGasOfficerIIC
+    eyes: LPPClothingEyesHudSecEng
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: LPPClothingOuterHardsuitIICEngineer
+    suitstorage: AirTankFilled
+    id: LPPDeltaEngineerPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltChiefEngineerFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: Flare
+    pocket2: RemoteSignallerAdvanced
+
+# Medic
+- type: startingGear
+  id: LPPDeltaMedicalGearEVA
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTMedic
+    back: LPPClothingBackpackDeltaMedicFilled
+    shoes: LPPClothingShoesBootsMagParamed
+    mask: LPPClothingMaskGasOfficerIIC
+    eyes: ClothingEyesHudMedSec
+    gloves: LPPClothingHandsGlovesCombatNitrile
+    outerClothing: LPPClothingOuterHardsuitIICMedic
+    suitstorage: AirTankFilled
+    id: LPPDeltaMedicPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltCorpsmanWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: Flare
+    pocket2: HandheldCrewMonitor
+
+# Operator
+- type: startingGear
+  id: LPPDeltaOperatorGearEVA
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTSecurity
+    back: LPPClothingBackpackDeltaOperatorFilled
+    shoes: ClothingShoesBootsMag
+    mask: LPPClothingMaskGasOfficerIIC
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: LPPClothingOuterHardsuitIIC
+    suitstorage: AirTankFilled
+    id: LPPDeltaOperatorPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: WeaponPistolUniversal
+    pocket2: FlashlightSeclite
+
+# Pyrotech
+- type: startingGear
+  id: LPPDeltaPyrotechGearEVA
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTSecurity
+    back: LPPClothingBackpackDeltaPyrotechFilled
+    shoes: ClothingShoesBootsMag
+    mask: LPPClothingMaskGasOfficerIIC
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: LPPClothingOuterHardsuitIICPyrotech
+    suitstorage: WeaponLightMachineGunL6
+    id: LPPDeltaPyrotechPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: RemoteSignallerAdvanced
+    pocket2: DoubleEmergencyOxygenTank
