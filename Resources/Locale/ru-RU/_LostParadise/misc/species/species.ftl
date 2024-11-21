@@ -5,7 +5,6 @@ VulpkaninSpecies = Вульпканин
 ElfSpecies = Эльф
 species-tajaran-body-parts = "Таяран части тела"
 species-tajaran-torso = "Таяран тело"
-species-name-vulpkanin = Вульпканин
 species-vulpkanin-body-parts = "Вульпканин части тела"
 species-vulpkanin-torso = "Вульпканин тело"
 species-name-elf = Эльф

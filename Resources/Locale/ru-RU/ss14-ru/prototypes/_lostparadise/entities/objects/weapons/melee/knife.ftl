@@ -3,4 +3,4 @@ ent-LPPChronoKnife = Хроно-нож
 ent-LPPToyEnergyKatana = Игрушечная энергетическая катана
     .desc = Катана, наполненная странной энергией. На рукояти виден неизвестный знак.
 ent-LPPKnifeJagdkommando = Jagdkommando
-    .desc = Favourite knife of most elite special groups, be cautios to use- your combat equipment might get a bit bloody after pulling this knife out of your enemy.
+    .desc = Любимый нож большинства элитных специальных групп, будьте осторожны при использовании - ваше боевое снаряжение может немного запачкаться кровью после того, как вы вытащите этот нож из тела врага.

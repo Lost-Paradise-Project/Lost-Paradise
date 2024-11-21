@@ -1,42 +1,59 @@
 "Изменения: Звуки":
-  - "**/*.ogg"
+  - changed-files:
+    - any-glob-to-any-file: "**/*.ogg"
 
 "Изменения: C#":
-  - "**/*.cs"
+  - changed-files:
+    - any-glob-to-any-file: "**/*.cs"
 
 "Изменения: Конфиг":
-  - "**/*.toml"
-  - "**/*.config"
-  - "*.json"
-  - ".github/*.yml"
-  - ".github/*.json"
-  - ".vscode/*.json"
-  - ".editorconfig"
+- changed-files:
+  - any-glob-to-any-file:
+    - "**/*.toml"
+    - "**/*.config"
+    - "*.json"
+    - ".github/*.yml"
+    - ".github/*.json"
+    - ".vscode/*.json"
+    - ".editorconfig"
 
 "Изменения: Документация":
-  - "**/*.xml"
-  - "**/*.md"
+  - changed-files:
+    - any-glob-to-any-file:
+      - "**/*.xml"
+      - "**/*.md"
 
 "Изменения: Локализация":
-- 'Resources/Locale/**/*.ftl'
+  - changed-files:
+    - any-glob-to-any-file: 'Resources/Locale/**/*.ftl'
 
 "Изменения: Карта":
-  - "Resources/Maps/**/*.yml"
-  - "Resources/Prototypes/Maps/**/*.yml"
+  - changed-files:
+    - any-glob-to-any-file:
+      - "Resources/Maps/**/*.yml"
+      - "Resources/Prototypes/Maps/**/*.yml"
 
 "Изменения: Спрайт":
-  - "**/*.rsi/*.png"
-  - "**/*.rsi/*.json"
+  - changed-files:
+    - any-glob-to-any-file:
+      - "**/*.rsi/*.png"
+      - "**/*.rsi/*.json"
 
 "Изменения: Интерфейс":
-  - "**/*.xaml*"
+  - changed-files:
+    - any-glob-to-any-file: "**/*.xaml*"
 
 "Изменения: YML":
-  - any: ["**/*.yml"]
-    all: ["!Resources/Maps/**/*.yml", "!Resources/Prototypes/Maps/**/*.yml"]
+  - changed-files:
+    - any-glob-to-any-file:
+      - "**/*.yml"
+    - all-globs-to-all-files:
+      - "!Resources/Maps/**/*.yml"
+      - "!Resources/Prototypes/Maps/**/*.yml"
 
 "Изменения: Github":
-  - ".github/workflows/*.yml"
+  - changed-files:
+    - any-glob-to-any-file: ".github/workflows/*.yml"
 
 "СВЯТЫЕ УГОДНИКИ":
 - "Content.Server.Database/*"

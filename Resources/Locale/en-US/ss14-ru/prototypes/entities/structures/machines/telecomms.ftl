@@ -1,7 +1,7 @@
 ent-TelecomServer = telecommunication server
     .desc = When powered and filled with encryption keys it allows radio headset communication.
 ent-TelecomServerFilled = { ent-TelecomServer }
-    .suffix = Filled
+    .suffix = Filled All
     .desc = { ent-TelecomServer.desc }
 ent-TelecomServerFilledCommon = { ent-TelecomServer }
     .suffix = Common

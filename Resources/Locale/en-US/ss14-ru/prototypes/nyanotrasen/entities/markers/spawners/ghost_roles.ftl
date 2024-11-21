@@ -6,6 +6,3 @@ ent-SpawnPointGhostFugitive = ghost role spawn point
 ent-SpawnPointLocationMidRoundAntag = possible spawn location
     .suffix = MidRoundAntag
     .desc = { ent-MarkerBase.desc }
-ent-SpawnPointGhostVampSpider = ghost role spawn point
-    .suffix = Vampire spider
-    .desc = { ent-MarkerBase.desc }

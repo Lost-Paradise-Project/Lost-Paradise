@@ -61,8 +61,8 @@
       ID-Card: !type:ContainerSlot {}
   - type: UserInterface
     interfaces:
-    - key: enum.StorageUiKey.Key
-      type: StorageBoundUserInterface
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
   - type: UseDelay
     delay: 0.5
   - type: ItemMapper
@@ -91,8 +91,8 @@
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
     layers:
-    - state: dark-wallet
-      map: [ base ]
+      - state: dark-wallet
+        map: [ base ]
   - type: GenericVisualizer
     visuals:
       enum.StorageVisuals.Open:
@@ -110,8 +110,8 @@
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
     layers:
-    - state: darkleather-wallet
-      map: [ base ]
+      - state: darkleather-wallet
+        map: [ base ]
   - type: GenericVisualizer
     visuals:
       enum.StorageVisuals.Open:
@@ -129,8 +129,8 @@
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
     layers:
-    - state: green-wallet
-      map: [ base ]
+      - state: green-wallet
+        map: [ base ]
   - type: GenericVisualizer
     visuals:
       enum.StorageVisuals.Open:
@@ -148,8 +148,8 @@
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
     layers:
-    - state: grey-wallet
-      map: [ base ]
+      - state: grey-wallet
+        map: [ base ]
   - type: GenericVisualizer
     visuals:
       enum.StorageVisuals.Open:
@@ -167,8 +167,8 @@
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
     layers:
-    - state: yellow-wallet
-      map: [ base ]
+      - state: yellow-wallet
+        map: [ base ]
   - type: GenericVisualizer
     visuals:
       enum.StorageVisuals.Open:
@@ -186,8 +186,8 @@
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
     layers:
-    - state: white-wallet
-      map: [ base ]
+      - state: white-wallet
+        map: [ base ]
   - type: GenericVisualizer
     visuals:
       enum.StorageVisuals.Open:
@@ -207,8 +207,8 @@
   - type: Sprite
     sprite: _LostParadise/Objects/Misc/Wallet.rsi
     layers:
-    - state: syndicate-wallet
-      map: [ base ]
+      - state: syndicate-wallet
+        map: [ base ]
   - type: GenericVisualizer
     visuals:
       enum.StorageVisuals.Open:

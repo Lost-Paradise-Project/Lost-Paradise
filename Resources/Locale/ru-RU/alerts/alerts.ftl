@@ -76,3 +76,5 @@ alerts-walking-name = Ходьба
 alerts-walking-desc = Показывает, насколько быстро вы двигаетесь.
 alerts-offer-name = Предложение
 alerts-offer-desc = Кто-то предлагает вам предмет.
+alerts-deflecting-name = Отражающий
+alerts-deflecting-desc = У вас есть шанс отразить летящие снаряды. Если вы будете стоять на месте или медленно двигаться, этот шанс увеличится.

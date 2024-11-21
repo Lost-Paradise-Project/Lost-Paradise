@@ -1,8 +1,8 @@
-ent-LPPBulletCharge = syndie charge bolt
-    .desc = Marks a target for additional damage.
-ent-LPPBulletPibodi = Pibodi Bullet
-    .desc = Not too bad, but you still don't want to get hit by it.
-ent-LPPBecbowarrow = ecbowshot
-    .desc = Not too bad, but you still don't want to get hit by it.
-ent-LPPBulletCutter = Cutter bolt
-    .desc = Not too bad, but you still don't want to get hit by it.
+ent-LPPBulletCharge = Энергетический заряд Синдиката
+    .desc = Помечает цель, на которую наносится дополнительный урон.
+ent-LPPBulletPibodi = Пуля Пибоди
+    .desc = Не так уж плохо, но ты все равно не хочешь, чтобы это ударило по тебе.
+ent-LPPBecbowarrow = Стрела
+    .desc = Не так уж плохо, но ты все равно не хочешь, чтобы это ударило по тебе.
+ent-LPPBulletCutter = Режущий болт
+    .desc = Не так уж плохо, но ты все равно не хочешь, чтобы это ударило по тебе.

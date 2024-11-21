@@ -1,11 +1,11 @@
 # Cat accent
 accent-words-cat-1 = Мяу!
-accent-words-cat-2 = Mиау.
+accent-words-cat-2 = Миау.
 accent-words-cat-3 = Мурррр!
 accent-words-cat-4 = Ххссс!
 accent-words-cat-5 = Мррау.
 accent-words-cat-6 = Мяу?
-accent-words-cat-7 = Mяф.
+accent-words-cat-7 = Мяф.
 # Dog accent
 accent-words-dog-1 = Гав!
 accent-words-dog-2 = Тяв!
@@ -84,7 +84,11 @@ accent-words-slimes-3 = Бламп!
 accent-words-slimes-4 = Блааамп...
 accent-words-slimes-5 = Блабл-бламп!
 # Mothroach
-accent-words-mothroach-1 = Чирик!
+accent-words-mothroach-1 = Пии!
+accent-words-mothroach-2 = Чирик!
+accent-words-mothroach-3 = Пиип!
+accent-words-mothroach-4 = Ииии!
+accent-words-mothroach-5 = Йип!
 # Crab
 accent-words-crab-1 = Чик.
 accent-words-crab-2 = Чик-клац!

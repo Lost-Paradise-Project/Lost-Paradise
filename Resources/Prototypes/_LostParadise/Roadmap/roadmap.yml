@@ -11,17 +11,17 @@
   order: 0
 
 - type: roadmap
-  id: "centcom"
-  name: "Обновление 2.1 - Центком важен!"
-  description: "Обновление Центкома!"
-  progress: 50
+  id: "planet"
+  name: "Обновление 2.1 - Вторжение на новые планеты!"
+  description: "Новые экспедиции, враги и многое другое!"
+  progress: 37
   status: roadmap-goal-progress
   order: 1
 
 - type: roadmap
-  id: "blusec"
-  name: "Обновление 2.2 - BLUSEC!"
-  description: "Перекрас СБ в новый модный цвет!"
-  progress: 37
+  id: "centcom"
+  name: "Обновление 2.2 - Центком важен!"
+  description: "Обновление Центкома!"
+  progress: 50
   status: roadmap-goal-progress
   order: 2

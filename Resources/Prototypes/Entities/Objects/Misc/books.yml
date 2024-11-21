@@ -22,11 +22,10 @@
     contentSize: 12000
   - type: ActivatableUI
     key: enum.PaperUiKey.Key
-    closeOnHandDeselect: false
   - type: UserInterface
     interfaces:
-    - key: enum.PaperUiKey.Key
-      type: PaperBoundUserInterface
+      enum.PaperUiKey.Key:
+        type: PaperBoundUserInterface
   - type: Tag
     tags:
       - Book

@@ -1,20 +1,20 @@
-mail-recipient-mismatch = Recipient name or job does not match.
-mail-invalid-access = Recipient name and job match, but access isn't as expected.
-mail-locked = The anti-tamper lock hasn't been removed. Tap the recipient's ID.
-mail-desc-far = A parcel of mail. You can't make out who it's addressed to from this distance.
-mail-desc-close = A parcel of mail addressed to { CAPITALIZE($name) }, { $job }.
-mail-desc-fragile = It has a [color=red]red fragile label[/color].
-mail-desc-priority = The anti-tamper lock's [color=yellow]yellow priority tape[/color] is active. Better deliver it on time!
-mail-desc-priority-inactive = The anti-tamper lock's [color=#886600]yellow priority tape[/color] is inactive.
-mail-unlocked = Anti-tamper system unlocked.
-mail-unlocked-by-emag = Anti-tamper system *BZZT*.
-mail-unlocked-reward = Anti-tamper system unlocked. { $bounty } spesos have been added to logistics' account.
-mail-penalty-lock = ANTI-TAMPER LOCK BROKEN. LOGISTICS BANK ACCOUNT PENALIZED BY { $credits } SPESOS.
-mail-penalty-fragile = INTEGRITY COMPROMISED. LOGISTICS BANK ACCOUNT PENALIZED BY { $credits } SPESOS.
-mail-penalty-expired = DELIVERY PAST DUE. LOGISTICS BANK ACCOUNT PENALIZED BY { $credits } SPESOS.
-mail-item-name-unaddressed = mail
-mail-item-name-addressed = mail ({ $recipient })
-mail-large-item-name-unaddressed = package
-mail-large-item-name-addressed = package ({ $recipient })
-mail-large-desc-far = A large package.
-mail-large-desc-close = A large package addressed to { CAPITALIZE($name) }, { $job }.
+mail-recipient-mismatch = Имя получателя или должность не совпадают.
+mail-invalid-access = Имя получателя и должность совпадают, но доступ не такой, как ожидалось.
+mail-locked = Защита от несанкционированного доступа не была снята. Коснитесь ID-картой получателя.
+mail-desc-far = Почтовая посылка. С такого расстояния не разобрать, кому она адресована.
+mail-desc-close = Почтовая посылка, адресованная { CAPITALIZE($name) }, { $job }.
+mail-desc-fragile = У него есть красная этикетка, на которой написано[color=red]"Хрупкий"[/color].
+mail-desc-priority = Защита от несанкционированного доступа имеет [color=yellow]жёлтый[/color] приоритетный цвет. Лучше доставьте его вовремя!
+mail-desc-priority-inactive = Защита от несанкционированного доступа не имеет [color=#886600]жёлтый[/color] приоритетный цвет.
+mail-unlocked = Система защиты от несанкционированного доступа разблокирована.
+mail-unlocked-by-emag = Система защиты от несанкционированного доступа *БЗЗТ*.
+mail-unlocked-reward = Разблокирована система защиты от несанкционированного доступа. { $bounty } песо были зачислены на счёт отдела снабжения.
+mail-penalty-lock = СЛОМАН ЗАМОК ЗАЩИТЫ ОТ НЕСАНКЦИОНИРОВАННОГО ДОСТУПА. НА СЧЁТ ОТДЕЛА СНАБЖЕНИЯ НАЛОЖЕН ШТРАФ В РАЗМЕРЕ { $credits } КРЕДИТОВ.
+mail-penalty-fragile = НАРУШЕНА ЦЕЛОСТНОСТЬ. НА СЧЁТ ОТДЕЛА СНАБЖЕНИЯ НАЛОЖЕН ШТРАФ В РАЗМЕРЕ { $credits } КРЕДИТОВ.
+mail-penalty-expired = ПРОСРОЧЕННА ДОСТАВКА. НА СЧЁТ ОТДЕЛА СНАБЖЕНИЯ НАЛОЖЕН ШТРАФ В РАЗМЕРЕ { $credits } КРЕДИТОВ.
+mail-item-name-unaddressed = почта
+mail-item-name-addressed = почта для ({ $recipient })
+mail-large-item-name-unaddressed = посылка
+mail-large-item-name-addressed = посылка для ({ $recipient })
+mail-large-desc-far = Большая посылка.
+mail-large-desc-close = Большая посылка, адресованная { CAPITALIZE($name) }, { $job }.
