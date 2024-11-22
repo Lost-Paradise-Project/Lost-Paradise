@@ -210,7 +210,7 @@
         Piercing: 0.6
         Caustic: 0.8
         Heat: 0.3
-        Radiation: 0.1
+        Radiation: 0.25
   - type: ClothingSpeedModifier
     walkModifier: 0.65
     sprintModifier: 0.65
@@ -379,7 +379,7 @@
   - type: TemperatureProtection
     coefficient: 0.5
   - type: ExplosionResistance
-    damageCoefficient: 0.2
+    damageCoefficient: 0.1
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitIICPyrotech
   - type: BiocodedClothing

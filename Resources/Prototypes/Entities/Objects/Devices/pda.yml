@@ -1099,7 +1099,6 @@
   - type: GasAnalyzer
   - type: Pda
     id: ERTEngineerIDCard
-  - type: GasAnalyzer
 
 - type: entity
   parent: ERTLeaderPDA
