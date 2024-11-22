@@ -8,7 +8,7 @@
   suffix: ERTRole, Delta Squad
   components:
     - type: Sprite
-      sprite: _LostParadise\Clothing\OuterClothing\Hardsuits\iic-armor-command.rsi
+      sprite: _LostParadise\Clothing\Head\Hardsuits\iic-head-command.rsi
       state: icon
     - type: RandomMetadata
       nameSegments:
@@ -44,7 +44,7 @@
   suffix: ERTRole, Delta Squad
   components:
     - type: Sprite
-      sprite: _LostParadise\Clothing\OuterClothing\Hardsuits\iic-armor-engineer.rsi
+      sprite: _LostParadise\Clothing\Head\Hardsuits\iic-head-engineer.rsi
       state: icon
     - type: RandomMetadata
       nameSegments:
@@ -79,7 +79,7 @@
   suffix: ERTRole, Delta Squad
   components:
     - type: Sprite
-      sprite: _LostParadise\Clothing\OuterClothing\Hardsuits\iic-armor-medic.rsi
+      sprite: _LostParadise\Clothing\Head\Hardsuits\iic-head-medic.rsi
       state: icon
     - type: RandomMetadata
       nameSegments:
@@ -114,7 +114,7 @@
   suffix: ERTRole, Delta Squad
   components:
     - type: Sprite
-      sprite: _LostParadise\Clothing\OuterClothing\Hardsuits\iic-armor.rsi
+      sprite: _LostParadise\Clothing\Head\Hardsuits\iic-head.rsi
       state: icon
     - type: RandomMetadata
       nameSegments:
@@ -149,7 +149,7 @@
   suffix: ERTRole, Delta Squad
   components:
     - type: Sprite
-      sprite: _LostParadise\Clothing\OuterClothing\Hardsuits\iic-armor-pyrotech.rsi
+      sprite: _LostParadise\Clothing\Head\Hardsuits\iic-head-pyrotech.rsi
       state: icon
     - type: RandomMetadata
       nameSegments:
