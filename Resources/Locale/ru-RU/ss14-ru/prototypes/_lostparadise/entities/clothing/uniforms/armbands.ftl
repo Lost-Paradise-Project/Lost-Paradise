@@ -1,3 +1,5 @@
+ent-LPPArmband = { ent-ClothingNeckBase }
+    .desc = { ent-ClothingNeckBase.desc }
 ent-LPPArmbandRed = Красная нарукавная повязка
     .desc = Красная нарукавная повязка. Пахнет кровью. Кажется.
 ent-LPPArmbandGreen = Зелёная нарукавная повязка

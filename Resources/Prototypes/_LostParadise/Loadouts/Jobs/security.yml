@@ -420,22 +420,6 @@
     - WeaponPistolUniversal
 
 - type: loadout
-  id: LoadoutSecurityEnergyGunPistol
-  category: JobsSecurity
-  cost: 6
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 29000 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutWeaponSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - WeaponEnergyGunPistol
-
-- type: loadout
   id: LoadoutSecurityPanther
   category: JobsSecurity
   cost: 6

@@ -1,9 +1,9 @@
-ent-LPPBaseBullet = BaseBullet
+ent-LPPBaseBullet = Базовая пуля
     .desc = Если вы это увидели - вы мертвы
 ent-LPPBulletM4A1 = Пуля (5,56х45)
-    .desc = Америка! БЛЯТЬ ДА!
+    .desc = Америка! ФАК ЕАХ!
 ent-LPPBulletRubberM4A1 = Пуля (5,56х45 резиновая)
-    .desc = Америка! БЛЯТЬ ДА!
+    .desc = Америка! ФАК ЕАХ!
 ent-LPPBulletPracticeM4A1 = Пуля (5,56х45 учебная)
     .desc = { ent-BaseBulletPractice.desc }
 ent-LPPBulletUraniumM4A1 = Пуля (5,56х45 урановая)

@@ -4,17 +4,6 @@ ghost-role-component-default-rules =
     Вы не помните ничего из своей предыдущей жизни и не помните ничего из того, что узнали, будучи призраком.
     Вам разрешается помнить знания об игре в целом, например, как готовить, как использовать предметы и т.д.
     Вам [color=red]НЕ[/color] разрешается помнить, имя, внешность и т.д. вашего предыдущего персонажа.
-# Delta V soft antag rule
-deltav-ghost-role-information-softantag-rules =
-    Вам разрешено атаковать экипаж без каких-либо провокаций.
-    Вам разрешено сосуществовать с экипажем.
-    Экипажу разрешено убивать вас без предупреждений.
-# Delta V salvage antag rule
-deltav-ghost-role-information-salvageantag-rules =
-    Вы - моб встречаемый на экспедициях.
-    Вам разрешено атаковать утилизаторов без каких-либо провокаций. Не уничтожайте их тела.
-    Вам разрешено атаковать шаттл утилизаторов.
-    Вам запрещено улетать на станцию вместе с утилизаторами. Если они улетают - то вы не должны их преследовать.
 ghost-role-information-mouse-name = Мышь
 ghost-role-information-mouse-description = Голодная и озорная мышь.
 ghost-role-information-mothroach-name = Таракамоль
@@ -26,7 +15,6 @@ ghost-role-information-hamster-name = Хомяк
 ghost-role-information-hamster-description = Маленький ворчливый пушистик.
 ghost-role-information-hamlet-name = Хомяк Гамлет
 ghost-role-information-hamlet-description = Живёт на капитанском мостике, немного вспыльчив и всегда голоден.
-ghost-role-information-smile-rules = Вы являетесь домашним животным станции. Вы можете защищаться и даже нападать на тех, кто угрожает станции, но, как правило, вам не следует нападать на экипаж станции или уничтожать их имущество.
 ghost-role-information-slimes-name = Слайм
 ghost-role-information-slimes-description = Обычный слайм, без особых нужд и интересов. Вы дружелюбны к окружающим.
 ghost-role-information-angry-slimes-name = Слайм
@@ -148,12 +136,6 @@ ghost-role-information-Cak-rules = Ты - живая съедобная слад
 ghost-role-information-loneop-rules = Вы [color=red][bold]Командный антагонист[/bold][/color], в команде с другими Ядерными оперативниками. Помощь агентов на станции не гарантируется.
 ghost-role-information-hellspawn-name = Адское отродье
 ghost-role-information-BreadDog-rules = Ты - съедобная собака, сделанная из хлеба. Твоя задача - найти свое место в этом мире, где все хотят тебя съесть.
-ghost-role-information-Shiva-name = Шива
-ghost-role-information-Shiva-description = Шива, первый защитник станции. Помогайте начальнику службы безопасности в их работе
-ghost-role-information-Shiva-rules = Защитите сотрудников службы безопасности и экипаж от опасности. Оставайтесь с сотрудниками службы безопасности или рядом с отделом безопасности, постарайтесь обезвредить преступников, а не убивать их, если это позволяет ситуация.
-ghost-role-information-exterminator-name = Экстерминатор
-ghost-role-information-exterminator-description = Вас отправили назад во времени, чтобы уничтожить цель, имеющую большое значение для будущего.
-ghost-role-information-exterminator-rules = Вы - антагонист и можете убить любого, кто попытается вас остановить, но уничтожение цели всегда является вашим главным приоритетом.
 ghost-role-information-hellspawn-description = Несите смерть всем, кто не повинуется великой богине Нар'Си.
 ghost-role-information-Death-Squad-name = Оперативник Эскадрона Смерти
 ghost-role-information-space-ninja-rules = Вы элитный наемник клана Пауков. От вас не требуется следовать своим целям, но ваша ЧЕСТЬ НИНДЗЯ требует, чтобы вы старались.
@@ -164,6 +146,24 @@ ghost-role-information-SyndiCat-rules = Вы [color=red][bold]Командный
 ghost-role-information-Cak-name = Корт Кобейн
 ghost-role-information-Cak-description = Вы - любимое дитя шеф-повара. Вы - живой торт-кот.
 ghost-role-information-BreadDog-name = Хлебака
+ghost-role-information-lost-cargo-technical-name = Потерянный грузчик
+ghost-role-information-lost-cargo-technical-description = Что-то пошло не так, и ваш грузовой шаттл с товарами был отправлен в этот сектор на другую станцию.
+ghost-role-information-lost-cargo-technical-rules = Вы обычный грузчик с другой станции. Делайте то, что делают обычные грузчики.
+ghost-role-information-clown-troupe-name = Космический клоун
+ghost-role-information-clown-troupe-description = Вы и ваша труппа пришли, чтобы развеселить эту станцию своими лучшими шутками. Хонк!
+ghost-role-information-clown-troupe-rules = Действуют обычные правила работы экипажа станции.
+ghost-role-information-traveling-chef-name = Путешествующий шеф-повар
+ghost-role-information-traveling-chef-description = Вы - шеф-повар на рейсовом автобусе экзотической кухни. Порадуйте станцию вкусной едой!
+ghost-role-information-traveling-chef-rules = Действуют обычные правила работы экипажа станции.
+ghost-role-information-disaster-victim-name = Жертва катастрофы
+ghost-role-information-disaster-victim-description = Вы были спасены в спасательной капсуле с другой станции, которую постигла ужасная участь. Возможно, вас найдут и спасут.
+ghost-role-information-disaster-victim-rules = Действуют обычные правила работы экипажа станции.
+ghost-role-information-syndie-disaster-victim-name = Синдикатовская жертва катастрофы
+ghost-role-information-syndie-disaster-victim-description = Вы обычный пассажир станции синдиката. К сожалению, эвакуационная капсула забросила вас во вражеский сектор.....
+ghost-role-information-syndie-disaster-victim-rules = Действуют обычные правила работы экипажа станции. Вы НЕ являетесь антагонистом!
+ghost-role-information-syndicate-kobold-reinforcement-name = Кобольд-агент синдиката
+ghost-role-information-syndicate-kobold-reinforcement-description = Кому-то нужно подкрепление. Ты, обученный кобольд, помоги ему.
+ghost-role-information-syndicate-kobold-reinforcement-rules = Действуют обычные правила для антагонист синдиката. Работайте с теми, кто вас вызвал, и не причиняйте им вреда.
 ghost-role-information-BreadDog-description = Вы - любимое дитя шеф-повара. Вы - живая хлебная собака.
 ghost-role-information-space-ninja-name = Космический ниндзя
 ghost-role-information-space-ninja-description = Используйте хитрость и скрытность, чтобы устроить диверсию на станции.

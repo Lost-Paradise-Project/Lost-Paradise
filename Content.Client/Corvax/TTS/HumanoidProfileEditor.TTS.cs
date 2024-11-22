@@ -4,7 +4,7 @@ using Content.Client.Lobby;
 using Content.Shared.Corvax.TTS;
 using Content.Shared.Preferences;
 
-namespace Content.Client.Preferences.UI;
+namespace Content.Client.Lobby.UI;
 
 public sealed partial class HumanoidProfileEditor
 {

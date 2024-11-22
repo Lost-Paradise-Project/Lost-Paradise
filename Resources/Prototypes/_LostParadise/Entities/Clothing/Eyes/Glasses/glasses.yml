@@ -93,7 +93,7 @@
     protectionTime: 5
 
 - type: entity
-  parent: ClothingEyesBase
+  parent: [ClothingEyesBase, ShowSecurityIcons]
   id: LPPClothingEyesGlassesContractor
   name: Contractor glasses
   description: Glasses, that provides protection from flashes and secure wearers eyes from wielding.
@@ -113,7 +113,6 @@
     damageContainers:
     - Biological
   - type: ShowSyndicateIcons
-  - type: ShowSecurityIcons
   - type: Armor
     modifiers:
       coefficients:

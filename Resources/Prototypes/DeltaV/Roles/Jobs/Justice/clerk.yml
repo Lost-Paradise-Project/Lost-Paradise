@@ -24,6 +24,9 @@
   - Security
   - Maintenance
   - Lawyer
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
 
 - type: startingGear
   id: ClerkGear

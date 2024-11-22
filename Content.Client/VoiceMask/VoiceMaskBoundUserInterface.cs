@@ -40,7 +40,7 @@ public sealed class VoiceMaskBoundUserInterface : BoundUserInterface
             return;
         }
 
-        _window.UpdateState(cast.Name, cast.Voice, cast.Verb); // LPP-TTS
+        _window.UpdateState(cast.Name, /*cast.Voice, */cast.Verb); // LPP-TTS
     }
 
     protected override void Dispose(bool disposing)

@@ -25,5 +25,5 @@ atmos-alerts-window-no-active-alerts = [font size=16][color=white]Нет акт�
 atmos-alerts-window-no-data-available = Данные недоступны
 atmos-alerts-window-alerts-being-silenced = Отключение оповещений...
 atmos-alerts-window-toggle-overlays = Переключить отображение сигналов тревоги
-atmos-alerts-window-flavor-left = Обратитесь к технику по атмосфере за помощью
+atmos-alerts-window-flavor-left = Обратитесь к атмосферному технику за помощью
 atmos-alerts-window-flavor-right = v1.8

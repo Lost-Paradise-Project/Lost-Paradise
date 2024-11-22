@@ -1,5 +1,6 @@
 generic-power-initialization-feedback = Я проснулся.
 already-casting = Я не могу использовать более одной силы одновременно.
+no-mana = Я не могу направить достаточно силы.
 # Dispel
 dispel-power-description = Рассеивайте вызванные сущности, такие как фамильяры или силовые стены.
 dispel-power-initialization-feedback = Силы судьбы для меня ничто. Я чувствую, что могу дотянуться до окружающих меня нитей и навязать реальность другим.
@@ -59,7 +60,7 @@ revivify-power-initialization-feedback =
     Секрет Жизни во всей его полноте. Я чувствую, как вся моя сущность выгорает изнутри, просто зная это.
     Сила течет через меня, как могучая река, прося высвободиться простым произнесением слова.
 revivify-power-metapsionic-feedback = { CAPITALIZE($entity) } хранит Большой Секрет Жизни.
-revivify-word-begin = { CAPITALIZE($entity) } произносит слово такой божественной силы, что те, кто его слышит, плачут от радости.
+revivify-begin = { CAPITALIZE($entity) } enunciates a word of such divine power, that those who hear it weep from joy.
 # Telegnosis
 telegnosis-power-description = Создайте проекцию что бы удалённо осматривать местность.
 telegnosis-power-initialization-feedback =
@@ -106,6 +107,26 @@ action-description-telekinetic-pulse = Заставь всех вокруг те
 telekinetic-pulse-power-description = { action-description-telekinetic-pulse }
 telekinetic-pulse-power-initialization-feedback = Когда я проникаю сквозь завесу своей психики, я обнаруживаю источник чистой кинетической энергии. Она течет сквозь меня, но, похоже, мне не хватает контроля над ней.
 telekinetic-pulse-power-metapsionic-feedback = { CAPITALIZE($entity) } обладает сущностью чистого кинезиса, протекающего через него.
+# Pyrokinetic Flare
+action-name-pyrokinetic-flare = Пирокинетическая вспышка
+action-description-pyrokinetic-flare = Создайте вспышку огненного света из Геенны, чтобы ослепить своих противников.
+pyrokinetic-flare-power-description = { action-description-pyrokinetic-flare }
+pyrokinetic-flare-power-initialization-feedback =
+    Мой взгляд на мгновение наполняется вспышкой огромного света и головокружения, и на мгновение я вижу проблеск царства
+    огня и боли, голода и страданий. Как только я замечаю это, видение исчезает. Но воспоминание об этой вспышке остается в моем сознании.
+    Я до сих пор помню это - проблеск пламени Геенна.
+pyrokinetic-flare-power-metapsionic-feedback = Это даже не имеет значения, потому что никто не может прочитать эту строчку в игре, и я не знаю, верну ли я когда-нибудь "Узкий пульс".
+# Summon Imp
+action-name-summon-imp = Призыв Импа
+action-description-summon-imp = Призовите и свяжите с собой Импа из Геенны, который станет вашим фамильяром.
+summon-imp-power-description = { action-description-summon-imp }
+summon-imp-power-initialization-feedback =
+    На короткое время я обнаружил, что блуждаю по почерневшим полям Геенны. Я перебираю пепел и нахожу тлеющий уголек в форме глаза.
+    Я подышал на него, и оно вспыхнуло пламенем. Прежде чем я вернулся, существо поблагодарило меня и назвало свое имя.
+# Summon Remilia
+action-name-summon-remilia = Призыв Ремилии
+action-description-summon-remilia = Призови свою вечно преданную фамильярку Ремилию.
+summon-remilia-power-description = { action-description-summon-remilia }
 telepathy-power-initialization-feedback =
     Голоса, которые я слышал всю свою жизнь, начинают звучать отчетливее, но они не покидают меня. Раньше они были похожи на бессвязный шепот,
     теперь мои чувства обострились, и я прихожу к осознанию того, что они являются частью общей галлюцинации. За каждым голосом скрывается мерцающее сознание.
@@ -115,4 +136,16 @@ examine-mindbroken-message =
     За его взглядом нет ничего, там нельзя найти никаких свидетельств божественного света.
 entity-anomaly-no-grid = Нет места для вызова существа.
 power-overwhelming-power-feedback = { CAPITALIZE($entity) } обладает прямым подключением к ноосфере.
+# Shadowkin ShadeSkip
+action-description-shadowkin-shadeskip = Арарамрра!
+# DarkSwap
+action-name-darkswap = Размах Тьмы
+action-description-darkswap = Ммра Мамм!
+ethereal-pickup-fail = Мою рука обжигает, когда она проходит сквозь объект....
+# Psionic Familiar System
+psionic-familiar-cant-attack-master = Я связан своим Хозяином, я не могу причинить ему вреда.
+psionic-familiar-despawn-text = { CAPITALIZE($entity) } возвращается туда, откуда пришёл!
+ghost-role-information-familiar-name = Псионический Фамильяр
+ghost-role-information-familiar-description = Межпространственное существо, подчиненное воле псиона.
+ghost-role-information-familiar-rules = Повинуйся тому, кто призвал тебя. Не действуй вопреки интересам своего Господина. Ты умрешь за своего Господина, если это будет необходимо.
 psionic-roll-failed = На мгновение мое сознание расширяется, но я чувствую, что этого недостаточно.

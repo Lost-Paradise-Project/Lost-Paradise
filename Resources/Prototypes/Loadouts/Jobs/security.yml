@@ -698,6 +698,194 @@
   items:
     - Flash
 
+- type: loadout
+  id: LoadoutMagazinePistol
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazinePistol
+
+- type: loadout
+  id: LoadoutMagazinePistolSpare
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazinePistol
+
+- type: loadout
+  id: LoadoutMagazinePistolRubber
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazinePistolRubber
+
+- type: loadout
+  id: LoadoutMagazinePistolRubberSpare
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazinePistolRubber
+
+- type: loadout
+  id: LoadoutSpeedLoaderMagnum
+  category: JobsSecurity
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - SpeedLoaderMagnum
+
+- type: loadout
+  id: LoadoutSpeedLoaderMagnumSpare
+  category: JobsSecurity
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - SpeedLoaderMagnum
+
+- type: loadout
+  id: LoadoutSpeedLoaderMagnumRubber
+  category: JobsSecurity
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - SpeedLoaderMagnumRubber
+
+- type: loadout
+  id: LoadoutSpeedLoaderMagnumRubberSpare
+  category: JobsSecurity
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - SpeedLoaderMagnumRubber
+
+- type: loadout
+  id: LoadoutMagazineMagnum
+  category: JobsSecurity
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazineMagnum
+
+- type: loadout
+  id: LoadoutMagazineMagnumRubber
+  category: JobsSecurity
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazineMagnumRubber
+
+- type: loadout
+  id: LoadoutMagazineMagnumSpare
+  category: JobsSecurity
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazineMagnum
+
+- type: loadout
+  id: LoadoutMagazineMagnumRubberSpare
+  category: JobsSecurity
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEquipmentSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - MagazineMagnumRubber
+
 # Service Weapon, limit 1 selection.
 # Security no longer spawns with a weapon automatically, instead they have a free choice of security appropriate Duty Pistol in their loadouts.
 # This category is universal to the entire security department by special request, so that players can choose their preferred Duty Pistol even if they aren't playing a security role.
@@ -729,10 +917,23 @@
       departments:
         - Security
   items:
-    - WeaponPistolMk58
+    - WeaponPistolMk58Security
 
 - type: loadout
-  id: LoadoutSecurityEquipmentTruncheon
+  id: LoadoutSecurityMk58NonLethal
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponPistolMk58SecurityNonlethal
+
+- type: loadout
+  id: LoadoutSecurityRevolver
   category: JobsSecurity
   cost: 0
   requirements:
@@ -745,4 +946,332 @@
       departments:
         - Security
   items:
+    - WeaponRevolverInspectorSecurity
+
+- type: loadout
+  id: LoadoutSecurityRevolverNonLethal
+  category: JobsSecurity
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverInspectorNonLethalSecurity
+
+- type: loadout
+  id: LoadoutSecurityRevolverDeckard
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverDeckardSecurity
+
+- type: loadout
+  id: LoadoutSecurityRevolverDeckardNonLethal
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverDeckardNonLethalSecurity
+
+- type: loadout
+  id: LoadoutSecurityPistolN1984
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponPistolN1984Security
+
+- type: loadout
+  id: LoadoutSecurityPistolN1984NonLethal
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponPistolN1984SecurityNonLethal
+
+- type: loadout
+  id: LoadoutSecurityPistolViper
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponPistolViperSecurity
+
+- type: loadout
+  id: LoadoutSecurityPistolViperNonLethal
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponPistolViperSecurityNonLethal
+
+- type: loadout
+  id: LoadoutSecurityPistolViperWood
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 108000 # 30 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponPistolViperWoodSecurity
+
+- type: loadout
+  id: LoadoutSecurityEquipmentTruncheon
+  category: JobsSecurity
+  cost: 3
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Oni
+  items:
     - Truncheon
+
+- type: loadout
+  id: LoadoutSecurityPistolSvalin
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponLaserSvalinn
+
+- type: loadout
+  id: LoadoutSecurityEnergyGunMini
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponEnergyGunMiniSecurity
+
+- type: loadout
+  id: LoadoutSecurityEnergyGunPistol
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponEnergyGunPistolSecurity
+
+- type: loadout
+  id: LoadoutSecurityPistolPollock
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponPistolPollockSecurity
+
+- type: loadout
+  id: LoadoutSecurityPistolPollockNonlethal
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponPistolPollockNonlethalSecurity
+
+- type: loadout
+  id: LoadoutSecurityRevolverSnub
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverSnubSecurity
+
+- type: loadout
+  id: LoadoutSecurityRevolverSnubNonlethal
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverSnubNonlethalSecurity
+
+- type: loadout
+  id: LoadoutSecurityRevolverK38Master
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverK38MasterSecurity
+
+- type: loadout
+  id: LoadoutSecurityRevolverK38MasterNonlethal
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverK38MasterNonlethalSecurity
+
+- type: loadout
+  id: LoadoutSecurityRevolverFitz
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverFitzSecurity
+
+- type: loadout
+  id: LoadoutSecurityRevolverFitzNonlethal
+  category: JobsSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverFitzNonlethalSecurity
+
+- type: loadout
+  id: LoadoutSecurityRevolverPython
+  category: JobsSecurity
+  cost: 3
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3600 # 1 hours
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverPythonSecurity
+
+- type: loadout
+  id: LoadoutSecurityRevolverPythonNonlethal
+  category: JobsSecurity
+  cost: 3
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponRevolverPythonNonlethalSecurity

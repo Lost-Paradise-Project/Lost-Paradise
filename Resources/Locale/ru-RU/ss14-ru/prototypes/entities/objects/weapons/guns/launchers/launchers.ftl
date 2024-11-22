@@ -1,4 +1,4 @@
-ent-BaseWeaponLauncher = BaseWeaponLauncher
+ent-BaseWeaponLauncher = Безовое оружие ракетницы
     .desc = Дерзай — налетай, целься и стреляй.
 ent-WeaponLauncherChinaLake = China Lake
     .desc = БЛУП
