@@ -586,11 +586,11 @@
   name: chat-emote-name-beep
   category: Vocal
   icon: Interface/Emotes/beep.png
-  whitelist:
-    requireAll: true
-    components:
-    - BorgChassis
-    - Vocal
+  # whitelist:
+  #   requireAll: true
+  #   components:
+  #   - BorgChassis
+  #   - Vocal
   chatMessages: ["chat-emote-msg-beep"]
   chatTriggers:
     - beep
