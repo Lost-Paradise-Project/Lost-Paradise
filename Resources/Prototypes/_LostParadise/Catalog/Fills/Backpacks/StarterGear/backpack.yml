@@ -70,7 +70,7 @@
         - id: CrowbarRed
         - id: OmnizineChemistryBottle
         - id: EpinephrineChemistryBottle
-        - id: EpinephrineChemistryBottle
+          amount: 2
         - id: DoubleEmergencyOxygenTank
 
 - type: entity
