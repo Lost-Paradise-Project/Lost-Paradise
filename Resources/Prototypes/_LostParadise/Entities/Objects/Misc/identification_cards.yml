@@ -144,7 +144,7 @@
     jobTitle: Оперативник ОСН "Дельта"
 
 - type: entity
-  parent: LPPDeltaPyrotechIDCard
+  parent: LPPDeltaCommanderIDCard
   id: LPPDeltaPyrotechIDCard
   name: Delta Pyrotech ID card
   components:
