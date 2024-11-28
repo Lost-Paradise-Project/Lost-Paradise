@@ -144,7 +144,7 @@
   id: LPPDeltaPyrotechPDA
   name: Delta Pyrotech PDA
   suffix: Pyrotech
-  description: Red for firepower, it has tally marks etched on the side.
+  description: Red for firepower. He looks burnt.
   components:
   - type: Pda
     id: LPPDeltaPyrotechIDCard

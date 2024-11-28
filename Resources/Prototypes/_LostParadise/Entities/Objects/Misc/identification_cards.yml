@@ -91,7 +91,7 @@
       color: "#1B67A5"
     - state: captain
   - type: IdCard
-    jobTitle: Коммандир ОСН "Дельта"
+    jobTitle: Командир ОСН "Дельта"
   - type: Item
     heldPrefix: gold
 
