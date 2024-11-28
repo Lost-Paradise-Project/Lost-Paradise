@@ -48,3 +48,7 @@
 "Изменения: Github":
   changed-files:
     - ".github/workflows/*.yml"
+
+"СВЯТЫЕ УГОДНИКИ":
+  changed-files:
+    - "Content.Server.Database/*"
