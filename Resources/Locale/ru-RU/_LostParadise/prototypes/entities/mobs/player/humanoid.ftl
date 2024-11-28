@@ -1,0 +1,15 @@
+ent-LPPRandomHumanoidSpawnerDeltaCommander = Командир ОСН "Дельта"
+    .suffix = Отряд "Дельта", Броня EVA
+    .desc = { "" }
+ent-LPPRandomHumanoidSpawnerDeltaEngineer = Инженер ОСН "Дельта"
+    .suffix = Отряд "Дельта", Броня EVA
+    .desc = { "" }
+ent-LPPRandomHumanoidSpawnerDeltaMedic = Медик ОСН "Дельта"
+    .suffix = Отряд "Дельта", Броня EVA
+    .desc = { "" }
+ent-LPPRandomHumanoidSpawnerDeltaOperator = Медик ОСН "Дельта"
+    .suffix = Отряд "Дельта", Броня EVA
+    .desc = { "" }
+ent-LPPRandomHumanoidSpawnerDeltaPyrotech = Медик ОСН "Дельта"
+    .suffix = Отряд "Дельта", Броня EVA
+    .desc = { "" }

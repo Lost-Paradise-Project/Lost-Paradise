@@ -23,6 +23,9 @@
     },
     {
       "name": "equipped-HELMET-tajaran",
+      "directions": 4
+    },
+    {
       "name": "off-equipped-HELMET-vox",
       "directions": 4
     },
@@ -36,6 +39,9 @@
     },
     {
       "name": "inhand-left",
+      "directions": 4
+    },
+    {
       "name": "on-equipped-HELMET-vox",
       "directions": 4
     },
