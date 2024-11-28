@@ -31,7 +31,7 @@
         - id: CrowbarRed
         - id: MagazineMagnum
         - id: LPPDeltaUplinkShop
-        - id: DoubleEmergencyOxygenTank
+        - id: DoubleEmergencyOxygenTankFilled
 
 - type: entity
   noSpawn: true
@@ -51,7 +51,7 @@
         - id: SheetPlasteel
         - id: SheetSteel
         - id: SheetGlass
-        - id: DoubleEmergencyOxygenTank
+        - id: DoubleEmergencyOxygenTankFilled
         - id: LPPC4Low
           amount: 2
 
@@ -71,7 +71,7 @@
         - id: OmnizineChemistryBottle
         - id: EpinephrineChemistryBottle
           amount: 2
-        - id: DoubleEmergencyOxygenTank
+        - id: DoubleEmergencyOxygenTankFilled
 
 - type: entity
   noSpawn: true
@@ -87,7 +87,7 @@
         - id: BoxZiptie
         - id: CrowbarRed
         - id: MagazineUniversalMagnum
-        - id: DoubleEmergencyOxygenTank
+        - id: DoubleEmergencyOxygenTankFilled
 
 - type: entity
   noSpawn: true
@@ -104,5 +104,5 @@
         - id: Multitool
         - id: C4
           amount: 4
-        - id: MagazineLightRifleBox
+        - id: MagazineShotgunIncendiary
           amount: 2

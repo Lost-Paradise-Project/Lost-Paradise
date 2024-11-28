@@ -1,54 +1,42 @@
 "Изменения: Звуки":
-  changed-files:
-    - "**/*.ogg"
+  - "**/*.ogg"
 
 "Изменения: C#":
-  changed-files:
-    - "**/*.cs"
+  - "**/*.cs"
 
 "Изменения: Конфиг":
-  changed-files:
-    - "**/*.toml"
-    - "**/*.config"
-    - "*.json"
-    - ".github/*.yml"
-    - ".github/*.json"
-    - ".vscode/*.json"
-    - ".editorconfig"
+  - "**/*.toml"
+  - "**/*.config"
+  - "*.json"
+  - ".github/*.yml"
+  - ".github/*.json"
+  - ".vscode/*.json"
+  - ".editorconfig"
 
 "Изменения: Документация":
-  changed-files:
-    - "**/*.xml"
-    - "**/*.md"
+  - "**/*.xml"
+  - "**/*.md"
 
 "Изменения: Локализация":
-  changed-files:
-    - "Resources/Locale/**/*.ftl"
+- 'Resources/Locale/**/*.ftl'
 
 "Изменения: Карта":
-  changed-files:
-    - "Resources/Maps/**/*.yml"
-    - "Resources/Prototypes/Maps/**/*.yml"
+  - "Resources/Maps/**/*.yml"
+  - "Resources/Prototypes/Maps/**/*.yml"
 
 "Изменения: Спрайт":
-  changed-files:
-    - "**/*.rsi/*.png"
-    - "**/*.rsi/*.json"
+  - "**/*.rsi/*.png"
+  - "**/*.rsi/*.json"
 
 "Изменения: Интерфейс":
-  changed-files:
-    - "**/*.xaml*"
+  - "**/*.xaml*"
 
 "Изменения: YML":
-  changed-files:
-    - "**/*.yml"
-    - "!Resources/Maps/**/*.yml"
-    - "!Resources/Prototypes/Maps/**/*.yml"
+  - any: ["**/*.yml"]
+    all: ["!Resources/Maps/**/*.yml", "!Resources/Prototypes/Maps/**/*.yml"]
 
 "Изменения: Github":
-  changed-files:
-    - ".github/workflows/*.yml"
+  - ".github/workflows/*.yml"
 
 "СВЯТЫЕ УГОДНИКИ":
-  changed-files:
-    - "Content.Server.Database/*"
+- "Content.Server.Database/*"

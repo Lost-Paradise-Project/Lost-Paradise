@@ -89,11 +89,11 @@
     eyes: ClothingEyesGlassesSecurity
     gloves: ClothingHandsGlovesCombat
     outerClothing: LPPClothingOuterHardsuitIICPyrotech
-    suitstorage: WeaponLightMachineGunL6
+    suitstorage: WeaponShotgunBulldog
     id: LPPDeltaPyrotechPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityWebbingFilled
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
     pocket1: RemoteSignallerAdvanced
-    pocket2: DoubleEmergencyOxygenTank
+    pocket2: DoubleEmergencyOxygenTankFilled
