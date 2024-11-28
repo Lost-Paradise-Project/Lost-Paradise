@@ -56,4 +56,5 @@
     - any-glob-to-any-file: ".github/workflows/*.yml"
 
 "СВЯТЫЕ УГОДНИКИ":
-- "Content.Server.Database/*"
+  - changed-files:
+    - any-glob-to-any-file: "Content.Server.Database/*"
