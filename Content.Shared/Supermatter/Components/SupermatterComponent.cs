@@ -326,6 +326,19 @@ public sealed partial class SupermatterComponent : Component
         { Gas.Frezon,        0f },
         { Gas.Ammonia,       0f },
         { Gas.NitrousOxide,  0f },
+        //LPP-start
+        { Gas.BZ,            0f },
+        { Gas.Pluoxium,      0f },
+        { Gas.Hydrogen,      0f },
+        { Gas.Nitrium,       0f },
+        { Gas.Healium,       0f },
+        { Gas.HyperNoblium,  0f },
+        { Gas.ProtoNitrate,  0f },
+        { Gas.Zauker,        0f },
+        { Gas.Halon,         0f },
+        { Gas.Helium,        0f },
+        { Gas.AntiNoblium,   0f },
+        //LPP-end
     };
 
     /// <summary>
@@ -343,6 +356,19 @@ public sealed partial class SupermatterComponent : Component
         { Gas.Frezon,        (3f,   -10f,  -1f) },
         { Gas.Ammonia,       (0f,   .5f,   1f)  },
         { Gas.NitrousOxide,  (0f,   -5f,   -1f) },
+        //LPP-start
+        { Gas.BZ,            (0.5f, 0f,    0.5f)},
+        { Gas.Pluoxium,      (1f,   0f,    1.2f)},
+        { Gas.Hydrogen,      (2f,   3f,    1f)  },
+        { Gas.Nitrium,       (1.5f, -0.5f, 1.1f)},
+        { Gas.Healium,       (0.8f, 0f,    0.9f)},
+        { Gas.HyperNoblium,  (0f,   -2f,   1f)  },
+        { Gas.ProtoNitrate,  (2f,   5f,    1.3f)},
+        { Gas.Zauker,        (0f,   3f,    0f)  },
+        { Gas.Halon,         (0f,   -10f,  -2f) },
+        { Gas.Helium,        (1f,   0f,    0.8f)},
+        { Gas.AntiNoblium,   (0f,   0f,    0f)  },
+        //LPP-end
     };
 
     #endregion

@@ -1,0 +1,41 @@
+- type: entity
+  parent: SmallConstructibleMachine
+  id: PassiveIgniter
+  name: passive igniter
+  description: A passive igniter that burns continuously when activated and can be turned off by sending another signal.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/igniter.rsi
+    state: icon
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.45,0.45,0.45"
+        density: 60
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Physics
+    bodyType: Static
+  - type: IgniteOnToggle
+    toggleOnSound: WelderOn
+  - type: IgnitionSource
+    temperature: 1000
+  - type: TriggerOnSignal
+    onTrigger: ToggleState
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 200
+  - type: Transform
+    anchored: true
+    noRot: true
+  - type: UseDelay
+    delay: 1.0
+  - type: Tag
+    tags:
+    - Igniter
