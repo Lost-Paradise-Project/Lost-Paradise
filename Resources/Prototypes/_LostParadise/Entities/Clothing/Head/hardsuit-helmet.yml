@@ -535,3 +535,45 @@
         Slash: 0.8
         Piercing: 0.9
         Radiation: 0.9
+
+#Mercenary Hardsuit
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitMercenary
+  categories: [ HideSpawnMenu ]
+  name: mercenary hardsuit helmet
+  description: Lightly armored hardsuit helmet for mercenary needs.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hardsuits/mercenary.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hardsuits/mercenary.rsi
+  - type: PointLight
+    color: "#ffeead"
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+- type: entity
+  parent: [ ClothingHeadHelmetHardsuitMaxim, ClothingHeadHardsuitWithLightBase ]
+  id: ClothingHeadHelmetHardsuitMaximPrototype
+  categories: [ HideSpawnMenu ]
+  name: experimental salvager helmet
+  description: A predication of decay washes over your mind.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hardsuits/maxim_prototype.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hardsuits/maxim_prototype.rsi
+  - type: PointLight # Luxury Hardsuit Light
+    radius: 7
+    energy: 3

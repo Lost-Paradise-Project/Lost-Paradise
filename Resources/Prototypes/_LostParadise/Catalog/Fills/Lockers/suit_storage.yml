@@ -1,0 +1,71 @@
+#Mercenary hardsuit
+- type: entity
+  id: SuitStorageMercenary
+  parent: SuitStorageBase
+  suffix: Mercenary
+  components:
+  - type: StorageFill
+    contents:
+        - id: AirTankFilled
+        - id: ClothingOuterHardsuitMercenary
+        - id: ClothingMaskGasMercenary
+        - id: JetpackMiniFilled
+        - id: ClothingShoesBootsMagMercenaryFilled
+  - type: AccessReader
+    access: [["Captain"], ["Mercenary"]]
+
+- type: entity
+  parent: [ SuitStorageBase, StorageFillEVASuitEngineer ]
+  id: SuitStorageEVAEngineer
+  suffix: EVA, Engineer
+  components:
+  - type: AccessReader
+
+- type: entity
+  parent: [ SuitStorageBase, StorageFillEVASuitAtmosTech ]
+  id: SuitStorageEVAAtmosTech
+  suffix: EVA, Atmospherics Technician
+  components:
+  - type: AccessReader
+
+- type: entity
+  parent: [ SuitStorageBase, StorageFillEVASuitCargo ]
+  id: SuitStorageEVACargo
+  suffix: EVA, Cargo Technician
+  components:
+  - type: AccessReader
+
+- type: entity
+  parent: [ SuitStorageBase, StorageFillEVASuitSalvage ]
+  id: SuitStorageEVASalvage
+  suffix: EVA, Salvage Specialist
+  components:
+  - type: AccessReader
+
+- type: entity
+  id: SuitStorageMining
+  parent: SuitStorageBase
+  suffix: Mining
+  components:
+  - type: StorageFill
+    contents:
+        - id: AirTankFilled
+        - id: ClothingShoesBootsMag
+        - id: ClothingOuterHardsuitSalvage
+        - id: ClothingMaskGasExplorer
+        - id: JetpackMiniFilled
+  - type: AccessReader
+
+- type: entity
+  id: SuitStorageQuartermaster
+  parent: SuitStorageBase
+  suffix: Quartermaster
+  components:
+  - type: StorageFill
+    contents:
+        - id: AirTankFilled
+        - id: ClothingShoesBootsMag
+        - id: ClothingOuterHardsuitLuxury
+        - id: ClothingMaskGasExplorer
+        - id: JetpackMiniFilled
+  - type: AccessReader

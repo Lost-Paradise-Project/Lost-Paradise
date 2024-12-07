@@ -149,6 +149,17 @@
 
 - type: entity
   parent: SpaceCash
+  id: LPPSpaceCash25000
+  suffix: 25000
+  components:
+  - type: Icon
+    sprite: Objects/Economy/cash.rsi
+    state: cash_1000
+  - type: Stack
+    count: 25000
+
+- type: entity
+  parent: SpaceCash
   id: SpaceCash30000
   suffix: 30000
   components:

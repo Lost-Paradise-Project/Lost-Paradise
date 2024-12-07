@@ -1,0 +1,28 @@
+- type: entity
+  parent: SeedBase
+  name: packet of speso seeds
+  description: These seeds seem like a miracle, but expert farmers get rich from the kitchen.
+  id: SpesosTreeSeeds
+  components:
+    - type: Seed
+      seedId: spesos
+    - type: Sprite
+      sprite: _LostParadise/Objects/Specific/Hydronics/spesostree.rsi
+
+- type: seed
+  id: spesos
+  name: seeds-spesos-name
+  noun: seeds-noun-seeds
+  displayName: seeds-spesos-display-name
+  plantRsi: _LostParadise/Objects/Specific/Hydroponics/spesostree.rsi
+  packetPrototype: SpesosTreeSeeds
+  productPrototypes:
+    - SpaceCash100
+  harvestRepeat: Repeat
+  lifespan: 45
+  maturation: 15
+  production: 8
+  yield: 3
+  potency: 10
+  growthStages: 2
+  idealLight: 6

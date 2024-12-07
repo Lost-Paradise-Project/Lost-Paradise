@@ -1,0 +1,48 @@
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitEngineer
+  description: Contains a standard issue engineer EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitEngineer
+    - id: ClothingMaskGas
+    - id: JetpackMiniFilled
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitAtmosTech
+  description: Contains a standard issue atmospheric technician EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitAtmosTech
+    - id: ClothingMaskGasAtmos
+    - id: JetpackMiniFilled
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitCargo
+  description: Contains a standard issue cargo technician EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitCargo
+    - id: ClothingMaskBreath
+    - id: JetpackMiniFilled
+
+- type: entity
+  abstract: true
+  id: StorageFillEVASuitSalvage
+  description: Contains a standard issue salvage specialist EVA kit.
+  components:
+  - type: StorageFill
+    contents:
+    - id: AirTankFilled
+    - id: ClothingOuterEVASuitSalvage
+    - id: ClothingMaskGasExplorer
+    - id: JetpackMiniFilled
+    - id: ClothingShoesBootsMag

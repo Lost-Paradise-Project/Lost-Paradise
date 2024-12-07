@@ -1,0 +1,27 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckAmuletBloodCult
+  name: ascended cultist amulet
+  description: "Every time you gaze upon it, you feel as if it is gazing back at you. Summons a drained one that follows the user for a brief period of time. Has a cooldown."
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Neck/Misc/ascended_cultist_amulet.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Neck/Misc/ascended_cultist_amulet.rsi
+  - type: BasicEntityAmmoProvider
+    proto: MobBloodCultDrainedOneNanoTrasen
+    capacity: 1
+    count: 1
+  - type: Gun
+    fireRate: 1
+    soundGunshot:
+      path: /Audio/Effects/teleport_arrival.ogg
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 440
+    rechargeSound:
+      path: /Audio/_LostParadise/Effects/silence.ogg
+  - type: Tag
+    tags:
+    - ObjectOfSpiritualSignificance

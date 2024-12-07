@@ -1,0 +1,154 @@
+# Base
+# Localisation file \Resources\Locale\en-US\_NF\structure\weapon-racks.ftl
+- type: entity
+  id: StructureWeaponRackBase
+  name: weapon rack
+  parent: BaseStructure
+  description: A storage unit for expedited pacification measures.
+  abstract: true
+  components:
+  - type: Anchorable
+  - type: InteractionOutline
+  - type: Transform
+    anchored: true
+    noRot: true
+  - type: Sprite
+    snapCardinals: true
+    noRot: true
+    sprite: _LostParadise/Structures/Furniture/Armory/weapon_rack.rsi
+    layers:
+    - state: base-gun
+      color: "#515e5e"
+  - type: Appearance
+  - type: Damageable
+    damageModifierSet: Metallic
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 600
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetSteel1:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: StaticPrice
+    price: 80
+
+# Pistol rack (slots)
+- type: entity
+  id: StructurePistolRack
+  name: sidearm rack
+  parent: StructureWeaponRackSlots
+  suffix: Empty
+  components:
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.10,-0.10,0.10,0.10"
+        density: 500
+        mask:
+        - TabletopMachineMask
+  - type: Sprite
+    layers:
+    - state: base-pistol
+      color: "#515e5e"
+  - type: ItemSlots
+    slots:
+      weapon1:
+        insertVerbText: weapon-rack-verb-insert-weapon-01
+        ejectVerbText: weapon-rack-verb-eject-weapon-01
+        name: weapon-rack-name-stored-weapon-slot
+        whitelist:
+          tags:
+          - Sidearm
+      weapon2:
+        insertVerbText: weapon-rack-verb-insert-weapon-02
+        ejectVerbText: weapon-rack-verb-eject-weapon-02
+        name: weapon-rack-name-stored-weapon-slot
+        whitelist:
+          tags:
+          - Sidearm
+      weapon3:
+        insertVerbText: weapon-rack-verb-insert-weapon-03
+        ejectVerbText: weapon-rack-verb-eject-weapon-03
+        name: weapon-rack-name-stored-weapon-slot
+        whitelist:
+          tags:
+          - Sidearm
+      weapon4:
+        insertVerbText: weapon-rack-verb-insert-weapon-04
+        ejectVerbText: weapon-rack-verb-eject-weapon-04
+        name: weapon-rack-name-stored-weapon-slot
+        whitelist:
+          tags:
+          - Sidearm
+  - type: ItemMapper
+    sprite: _LostParadise/Structures/Furniture/Armory/weapon_rack.rsi
+    mapLayers:
+      pistol-1:
+        minCount: 1
+        whitelist:
+          tags:
+          - Sidearm
+      pistol-2:
+        minCount: 2
+        whitelist:
+          tags:
+          - Sidearm
+      pistol-3:
+        minCount: 3
+        whitelist:
+          tags:
+          - Sidearm
+      pistol-4:
+        minCount: 4
+        whitelist:
+          tags:
+          - Sidearm
+  - type: Construction
+    graph: WeaponRackConstructionGraph
+    node: PistolRackNode
+
+- type: entity
+  id: StructurePistolRackWallmounted
+  parent: StructurePistolRack
+  suffix: Empty, Wallmount
+  components:
+  - type: WallMount
+    arc: 360
+  - type: Sprite
+    layers:
+    - state: base-pistol-wall
+      color: "#515e5e"
+  - type: Construction
+    graph: WeaponRackConstructionGraph
+    node: PistolRackWallmountedNode
+
+- type: entity
+  id: StructureWeaponRackSlots
+  parent: StructureWeaponRackBase
+  abstract: true
+  components:
+  - type: ContainerContainer
+    containers:
+      weapon1: !type:ContainerSlot
+      weapon2: !type:ContainerSlot
+      weapon3: !type:ContainerSlot
+      weapon4: !type:ContainerSlot
+      weapon5: !type:ContainerSlot

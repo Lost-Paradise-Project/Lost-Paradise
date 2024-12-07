@@ -1,0 +1,17 @@
+- type: entity
+  id: ClothingShoesBootsMagMercenaryFilled
+  parent: [ClothingShoesBootsMagMercenary, ClothingShoesBootsMercenaryFilled]
+
+- type: entity
+  id: ClothingShoesBootsMagCombatFilled
+  parent: [ClothingShoesBootsMagCombat, ClothingShoesBootsCombatFilled]
+
+- type: entity
+  parent: ClothingShoesBootsMercenary # Frontier - Merc to Mercenary
+  id: ClothingShoesBootsMercenaryFilled # Frontier - Merc to Mercenary
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      item:
+      - KukriKnife
