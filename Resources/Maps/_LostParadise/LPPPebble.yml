@@ -34677,6 +34677,8 @@ entities:
       pos: 10.5,-27.5
       parent: 2
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 9440
   - uid: 5177
@@ -47137,6 +47139,8 @@ entities:
       pos: 10.5,-28.5
       parent: 2
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 9440
     - type: AtmosPipeColor
@@ -47853,6 +47857,8 @@ entities:
       pos: 10.5,-29.5
       parent: 2
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 9440
     - type: AtmosPipeColor
