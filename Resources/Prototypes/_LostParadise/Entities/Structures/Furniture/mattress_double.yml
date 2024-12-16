@@ -30,9 +30,6 @@
     position: Down
     rotation: -90
     buckleOffset: "0,0.20"
-  - type: Construction
-    graph: LPPMattressDouble
-    node: LPPMattressDoubleUp
   - type: PlaceableSurface
     placeCentered: true
   - type: Damageable
@@ -66,9 +63,6 @@
   name: mattress double down
   description: Better to sleep on the floor than this, I think.
   components:
-  - type: Construction
-    graph: LPPMattressDouble
-    node: LPPMattressDoubleDown
   - type: Sprite
     state: mattress_double_down
   - type: Damageable
