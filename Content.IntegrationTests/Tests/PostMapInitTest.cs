@@ -71,6 +71,7 @@ namespace Content.IntegrationTests.Tests
             "H_LPPAsterisk", //LPP
             "H_LPPNormandy", //LPP
             "H_LPPPebble", //LPP
+            "LPPIceBox", //LPP
             "Gax",
             "Rad"
         };
