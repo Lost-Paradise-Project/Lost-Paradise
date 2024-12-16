@@ -4,6 +4,8 @@
   description: job-description-security-enginer
   playTimeTracker: LPPJobSecurityEnginer
   requirements:
+    - !type:CharacterHeightRequirement
+      min: 160
     - !type:CharacterDepartmentTimeRequirement
       department: Security
       min: 36000

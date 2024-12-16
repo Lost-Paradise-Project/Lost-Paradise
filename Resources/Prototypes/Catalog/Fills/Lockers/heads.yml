@@ -15,6 +15,8 @@
         prob: 0.50
       - id: DoorRemoteCargo
       - id: RubberStampQm
+      - id: RubberStampDenied
+      - id: RubberStampApproved
       - id: ClothingHeadsetAltCargo
       - id: BoxEncryptionKeyCargo
       - id: SpaceCashLuckyBill # DeltaV - LO steal objective, see Resources/Prototypes/DeltaV/Entities/Objects/Misc/first_bill.yml
@@ -23,6 +25,7 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: WeaponEnergyGunMini #LPP
+      - id: LPPQMPanties #LPP
 
 - type: entity
   id: LockerCaptainFilledHardsuit
@@ -56,6 +59,7 @@
       - id: MedalCase
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: LPPCapPanties #LPP
 
 - type: entity
   id: LockerCaptainFilled
@@ -89,6 +93,7 @@
       - id: ClothingHeadHatBeretCap # Nyanotrasen - Captain's Beret
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: LPPCapPanties #LPP
 
 - type: entity
   id: LockerCaptainFilledNoLaser
@@ -121,6 +126,7 @@
       - id: ClothingHeadHatBeretCap # Nyanotrasen - Captain's Beret
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: LPPCapPanties #LPP
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -145,6 +151,8 @@
       - id: DoorRemoteService
       - id: ClothingNeckGoldmedal
       - id: RubberStampHop
+      - id: RubberStampDenied
+      - id: RubberStampApproved
       - id: BoxEncryptionKeyPassenger
       - id: BoxEncryptionKeyService
       - id: AccessConfigurator
@@ -156,6 +164,7 @@
       - id: LPPBoxFolderSecretBlue
         prob: 0.6
   # - >
+      - id: LPPHOPPanties #LPP
 
 - type: entity
   id: LockerChiefEngineerFilledHardsuit
@@ -181,9 +190,12 @@
       - id: BoxPDAEngineering # Delta-V
       - id: RCD
       - id: RCDAmmo
+      - id: LPPRCDFAPDevice
+      - id: LPPRCDFAPAmmo
       - id: CEIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: LPPCEPanties #LPP
 
 - type: entity
   id: LockerChiefEngineerFilled
@@ -206,8 +218,11 @@
       - id: CEIDCard # Delta-V
       - id: RCD
       - id: RCDAmmo
+      - id: LPPRCDFAPDevice
+      - id: LPPRCDFAPAmmo
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: LPPCEPanties #LPP
 
 - type: entity
   id: LockerChiefMedicalOfficerFilledHardsuit
@@ -236,6 +251,7 @@
       - id: CMOIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: LPPCMOPanties #LPP
 
 - type: entity
   id: LockerChiefMedicalOfficerFilled
@@ -260,6 +276,7 @@
       - id: CMOIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: LPPCMOPanties #LPP
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
@@ -283,6 +300,7 @@
       - id: EncryptionKeyBinary
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: LPPRDPanties #LPP
 
 - type: entity
   id: LockerResearchDirectorFilled
@@ -305,6 +323,7 @@
       - id: EncryptionKeyBinary
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: LPPRDPanties #LPP
 
 - type: entity
   id: LockerHeadOfSecurityFilledHardsuit
@@ -336,6 +355,9 @@
       - id: HoSIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+#LPP
+      - id: LPPBoxArmband
+      - id: LPPHOSPanties
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -365,6 +387,9 @@
       - id: HoSIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+#LPP
+      - id: LPPBoxArmband
+      - id: LPPHOSPanties
 
 - type: entity
   id: LockerFreezerVaultFilled

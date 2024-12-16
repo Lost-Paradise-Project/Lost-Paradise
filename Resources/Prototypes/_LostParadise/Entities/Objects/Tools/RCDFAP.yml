@@ -68,7 +68,7 @@
     price: 100
   - type: UserInterface
     interfaces:
-      - key: enum.RcdfapUiKey.Key
+      enum.RcdfapUiKey.Key:
         type: RCDFAPMenuBoundUserInterface
   - type: ActivatableUI
     key: enum.RcdfapUiKey.Key

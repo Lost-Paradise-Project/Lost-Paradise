@@ -33,9 +33,9 @@
     proto: lizard
   - type: Vocal
     sounds:
-      Male: UnisexReptilian
+      Male: MaleReptilian
       Female: FemaleReptilian
-      Unsexed: FemaleReptilian
+      Unsexed: MaleReptilian
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: Scale

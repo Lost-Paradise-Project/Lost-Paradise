@@ -2,8 +2,9 @@
 
 # Shown at the end of a round of Traitor
 traitor-round-end-agent-name = предатель
-objective-issuer-syndicate = [color=crimson]Синдикат[/color]
+objective-issuer-syndicate =  [color=crimson]Синдикат[/color]
 traitor-round-end-codewords = Кодовыми словами были: [color=White]{ $codewords }[/color].
+objective-issuer-unknown = Неизвестный
 traitor-title = Предатели
 traitor-description = Среди нас есть предатели...
 traitor-not-enough-ready-players = Недостаточно игроков готовы к игре! Из { $minimumPlayers } необходимых игроков готовы { $readyPlayersCount }. Нельзя запустить пресет Предатели.
@@ -24,7 +25,7 @@ traitor-role-greeting =
     Вы - агент организации синдиката на задании Синдиката.
     Ваши цели и кодовые слова перечислены в меню персонажа.
     Воспользуйтесь аплинком, встроенным в ваш КПК, чтобы приобрести всё необходимое для выполнения работы.
-    Смерть Nanotrasen!
+    Смерть НаноТрейзен!
 traitor-role-codewords =
     Кодовые слова следующие:
     { $codewords }

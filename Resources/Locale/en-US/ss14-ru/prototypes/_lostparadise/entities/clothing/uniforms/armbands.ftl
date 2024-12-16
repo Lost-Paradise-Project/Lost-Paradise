@@ -1,0 +1,14 @@
+ent-LPPArmband = { ent-ClothingNeckBase }
+    .desc = { ent-ClothingNeckBase.desc }
+ent-LPPArmbandRed = red armband
+    .desc = { ent-LPPArmband.desc }
+ent-LPPArmbandGreen = green armband
+    .desc = { ent-LPPArmband.desc }
+ent-LPPArmbandBlue = blue armband
+    .desc = { ent-LPPArmband.desc }
+ent-LPPArmbandWhite = white armband
+    .desc = { ent-LPPArmband.desc }
+ent-LPPArmbandYellow = yellow armband
+    .desc = { ent-LPPArmband.desc }
+ent-LPPArmbandPurple = purple armband
+    .desc = { ent-LPPArmband.desc }

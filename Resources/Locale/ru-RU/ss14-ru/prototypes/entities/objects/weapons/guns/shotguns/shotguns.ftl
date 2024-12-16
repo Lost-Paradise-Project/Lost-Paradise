@@ -1,4 +1,4 @@
-ent-BaseWeaponShotgun = BaseWeaponShotgun
+ent-BaseWeaponShotgun = Базовый дробовик
     .desc = Дерзай — налетай, целься и стреляй.
     .suffix = Дробовик
 ent-WeaponShotgunBulldog = Бульдог

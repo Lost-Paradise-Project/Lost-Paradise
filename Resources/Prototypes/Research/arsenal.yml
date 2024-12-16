@@ -24,11 +24,12 @@
   tier: 1
   cost: 10000
   recipeUnlocks:
-  - ShellShotgunIncendiary
-  - CartridgePistolIncendiary
-  - CartridgeMagnumIncendiary
-  - CartridgeLightRifleIncendiary
-  - CartridgeRifleIncendiary
+  - BoxShotgunIncendiary
+  - MagazineRifleIncendiary
+  - MagazinePistolIncendiary
+  - MagazineLightRifleIncendiary
+  - SpeedLoaderMagnumIncendiary
+  - MagazineShotgunIncendiary
   - MagazineBoxPistolIncendiary
   - MagazineBoxMagnumIncendiary
   - MagazineBoxLightRifleIncendiary
@@ -36,6 +37,10 @@
   # DeltaV - .38 special incendiary ammo - Add .38 special incendiary ammo to the research tree
   - CartridgeSpecialIncendiary
   - MagazineBoxSpecialIncendiary
+  #LPP
+  - LPPMagazinePistolPF20Incendiary
+  - LPPMagazineBoxM4A1Incendiary
+  - LPPCartridgeIncendiaryM4A1
   # End of modified code
 
 - type: technology
@@ -60,7 +65,9 @@
   tier: 1
   cost: 5000
   recipeUnlocks:
-  - ShellShotgunBeanbag
+  - MagazineShotgunBeanbag
+  - ShellTranquilizer
+  - BoxBeanbag
   - CartridgePistolRubber
   - CartridgeMagnumRubber
   - CartridgeLightRifleRubber
@@ -69,11 +76,15 @@
   - MagazineBoxMagnumRubber
   - MagazineBoxLightRifleRubber
   - MagazineBoxRifleRubber
-  # DeltaV - .38 special rubber ammo - Adds .38 special rubber ammo to the research tree
   - CartridgeSpecialRubber
   - MagazineBoxSpecialRubber
+  - WeaponDisabler
+  #LPP
   - LPPMagazineBoxMinigunPractice
   - LPPMagazineBoxMinigunRubber
+  - LPPMagazineBoxM4A1Rubber
+  - LPPMagazinePistolPF20Rubber
+  - LPPMagazineM4A1Rubber
   # End of modified code
 
 - type: technology
@@ -86,18 +97,22 @@
   tier: 1
   cost: 7500
   recipeUnlocks:
-  - ShellShotgunUranium
-  - CartridgePistolUranium
-  - CartridgeMagnumUranium
-  - CartridgeLightRifleUranium
-  - CartridgeRifleUranium
+  - MagazineRifleUranium
+  - MagazinePistolUranium
+  - MagazineLightRifleUranium
+  - SpeedLoaderMagnumUranium
   - MagazineBoxPistolUranium
   - MagazineBoxMagnumUranium
   - MagazineBoxLightRifleUranium
   - MagazineBoxRifleUranium
-  # DeltaV - .38 special uranium ammo - Adds .38 special uranium ammo to the research tree
+  - BoxShotgunUranium
   - CartridgeSpecialUranium
   - MagazineBoxSpecialUranium
+  #LPP
+  - LPPMagazinePistolPF20Uranium
+  - LPPMagazineBoxM4A1Uranium
+  - LPPCartridgeUraniumM4A1
+  - LPPMagazineM4A1Uranium
   # End of modified code
 
 - type: technology
@@ -115,6 +130,7 @@
   - TelescopicShield
   - HoloprojectorSecurity
   - WeaponDisablerSMG
+  - BolaEnergy
 
 # Tier 2
 
@@ -175,6 +191,7 @@
   - PowerCageMedium
   - MagazineGrenadeEmpty
   - GrenadeFlash
+  - GrenadeBlast
   - ShuttleGunSvalinnMachineGunCircuitboard
   - ShuttleGunPerforatorCircuitboard
   - ShuttleGunFriendshipCircuitboard
@@ -194,6 +211,7 @@
   cost: 15000
   recipeUnlocks:
   - WeaponAdvancedLaser
+  - PortableRecharger
 
 - type: technology
   id: ExperimentalBatteryAmmo

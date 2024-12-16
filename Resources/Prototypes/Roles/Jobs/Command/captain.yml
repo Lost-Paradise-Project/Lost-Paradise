@@ -4,6 +4,8 @@
   description: job-description-captain
   playTimeTracker: JobCaptain
   requirements:
+    - !type:CharacterHeightRequirement
+      min: 150
     - !type:CharacterAgeRequirement
       min: 25
       max: 80

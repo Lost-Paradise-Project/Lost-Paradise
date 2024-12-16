@@ -6,6 +6,24 @@
   requirements:
     - !type:CharacterOverallTimeRequirement
       min: 1800 # LostParadise - 30 min
+    - !type:CharacterDepartmentTimeRequirement
+      department: Epistemics
+      min: 14400
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - IPC
+        - !type:CharacterTraitRequirement
+          traits:
+            - AnomalousPositronics
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - Shadowkin
   startingGear: LibrarianGear
   icon: "JobIconLibrarian"
   supervisors: job-supervisors-rd

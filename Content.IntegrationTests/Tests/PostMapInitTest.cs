@@ -68,6 +68,10 @@ namespace Content.IntegrationTests.Tests
             "LPPPebble", //LPP
             "LPPSubmarine", //LPP
             "LPPIceBox", //LPP
+            "H_LPPKerberos", //LPP
+            "H_LPPAsterisk", //LPP
+            "H_LPPNormandy", //LPP
+            "H_LPPPebble", //LPP
             "Gax",
             "Rad"
         };
@@ -161,7 +165,10 @@ namespace Content.IntegrationTests.Tests
         [Test, TestCaseSource(nameof(GameMaps))]
         public async Task GameMapsLoadableTest(string mapProto)
         {
-            await using var pair = await PoolManager.GetServerClient();
+            await using var pair = await PoolManager.GetServerClient(new PoolSettings
+            {
+                Dirty = true // Stations spawn a bunch of nullspace entities and maps like centcomm.
+            });
             var server = pair.Server;
 
             var mapManager = server.ResolveDependency<IMapManager>();

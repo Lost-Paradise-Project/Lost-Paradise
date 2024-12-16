@@ -91,3 +91,32 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: LPPClothingEyesGlassesContractor
+  name: Contractor glasses
+  description: Glasses, that provides protection from flashes and secure wearers eyes from wielding.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Eyes/Glasses/inteqglasses.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Eyes/Glasses/inteqglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+  - type: ShowHealthBars
+    damageContainers:
+    - Inorganic
+    - Silicon
+    - Biological
+  - type: ShowHealthIcons
+    damageContainers:
+    - Biological
+  - type: ShowSyndicateIcons
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95

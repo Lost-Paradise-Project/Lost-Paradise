@@ -14,6 +14,10 @@ using Content.Server.Abilities.Psionics;
 using Content.Shared.Psionics;
 using Content.Server.Language;
 using Content.Shared.Mood;
+using Content.Server.NPC.Systems;
+#if LPP_Sponsors
+using Content.Server._LostParadise.Sponsors;
+#endif
 
 namespace Content.Server.Traits;
 
@@ -28,6 +32,10 @@ public sealed class TraitSystem : EntitySystem
     [Dependency] private readonly PsionicAbilitiesSystem _psionicAbilities = default!;
     [Dependency] private readonly IComponentFactory _componentFactory = default!;
     [Dependency] private readonly LanguageSystem _languageSystem = default!;
+    [Dependency] private readonly NpcFactionSystem _factionSystem = default!;
+#if LPP_Sponsors
+    [Dependency] private readonly CheckSponsorSystem _checkSponsor = default!;
+#endif
 
     public override void Initialize()
     {
@@ -39,6 +47,11 @@ public sealed class TraitSystem : EntitySystem
     // When the player is spawned in, add all trait components selected during character creation
     private void OnPlayerSpawnComplete(PlayerSpawnCompleteEvent args)
     {
+
+#if LPP_Sponsors
+        var sponsorTier = _checkSponsor.CheckUser(args.Player.UserId).Item2 ?? 0;
+        var uuid = args.Player.UserId.ToString();
+#endif
         foreach (var traitId in args.Profile.TraitPreferences)
         {
             if (!_prototype.TryIndex<TraitPrototype>(traitId, out var traitPrototype))
@@ -52,7 +65,11 @@ public sealed class TraitSystem : EntitySystem
                 _prototype.Index<JobPrototype>(args.JobId ?? _prototype.EnumeratePrototypes<JobPrototype>().First().ID),
                 args.Profile, _playTimeTracking.GetTrackerTimes(args.Player), args.Player.ContentData()?.Whitelisted ?? false, traitPrototype,
                 EntityManager, _prototype, _configuration,
-                out _))
+                out _
+#if LPP_Sponsors
+                , 0, sponsorTier, uuid
+#endif
+                ))
                 continue;
 
             AddTrait(args.Mob, traitPrototype);
@@ -71,6 +88,8 @@ public sealed class TraitSystem : EntitySystem
         AddTraitLanguage(uid, traitPrototype);
         RemoveTraitLanguage(uid, traitPrototype);
         AddTraitMoodlets(uid, traitPrototype);
+        RemoveTraitFactions(uid, traitPrototype);
+        AddTraitFactions(uid, traitPrototype);
     }
 
     /// <summary>
@@ -224,5 +243,29 @@ public sealed class TraitSystem : EntitySystem
         foreach (var moodProto in traitPrototype.MoodEffects)
             if (_prototype.TryIndex(moodProto, out var moodlet))
                 RaiseLocalEvent(uid, new MoodEffectEvent(moodlet.ID));
+    }
+
+    /// <summary>
+    ///     If a trait includes any faction removals, this removes the faction from the receiving entity.
+    /// </summary>
+    public void RemoveTraitFactions(EntityUid uid, TraitPrototype traitPrototype)
+    {
+        if (traitPrototype.RemoveFactions is null)
+            return;
+
+        foreach (var faction in traitPrototype.RemoveFactions)
+            _factionSystem.RemoveFaction(uid, faction);
+    }
+
+    /// <summary>
+    ///     If a trait includes any factions to add, this adds the factions to the receiving entity.
+    /// </summary>
+    public void AddTraitFactions(EntityUid uid, TraitPrototype traitPrototype)
+    {
+        if (traitPrototype.AddFactions is null)
+            return;
+
+        foreach (var faction in traitPrototype.AddFactions)
+            _factionSystem.AddFaction(uid, faction);
     }
 }

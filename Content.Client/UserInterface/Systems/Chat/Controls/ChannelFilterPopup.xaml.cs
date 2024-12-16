@@ -15,6 +15,7 @@ public sealed partial class ChannelFilterPopup : Popup
         ChatChannel.Local,
         ChatChannel.Whisper,
         ChatChannel.Emotes,
+        ChatChannel.HiddenEmotes,
         ChatChannel.Radio,
         ChatChannel.Telepathic, //Nyano - Summary: adds telepathic chat to where it belongs in order in the chat.
         ChatChannel.Notifications,

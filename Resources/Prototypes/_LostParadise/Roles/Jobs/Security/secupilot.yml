@@ -4,6 +4,8 @@
   description: job-description-secpilot
   playTimeTracker: JobPilot
   requirements:
+    - !type:CharacterHeightRequirement
+      min: 160
     - !type:CharacterPlaytimeRequirement
       tracker: JobSecurityOfficer
       min: 14400 # 4 hrs

@@ -20,6 +20,7 @@ public abstract class SharedChatSystem : EntitySystem
     public const char OOCPrefix = '[';
     public const char EmotesPrefix = '%'; // Corvax-Localization
     public const char EmotesAltPrefix = '*';
+    public const char HiddenEmotesPrefix = '+';
     public const char AdminPrefix = ']';
     public const char WhisperPrefix = ',';
     public const char TelepathicPrefix = '='; //Nyano - Summary: Adds the telepathic channel's prefix.
@@ -75,19 +76,25 @@ public abstract class SharedChatSystem : EntitySystem
         if (!Resolve(source, ref speech, false))
             return _prototypeManager.Index<SpeechVerbPrototype>(DefaultSpeechVerb);
 
+        var evt = new TransformSpeakerSpeechEvent(source);
+        RaiseLocalEvent(source, evt);
+
+        SpeechVerbPrototype? speechProto = null;
+        if (evt.SpeechVerb != null && _prototypeManager.TryIndex(evt.SpeechVerb, out var evntProto))
+            speechProto = evntProto;
+
         // check for a suffix-applicable speech verb
-        SpeechVerbPrototype? current = null;
         foreach (var (str, id) in speech.SuffixSpeechVerbs)
         {
             var proto = _prototypeManager.Index<SpeechVerbPrototype>(id);
-            if (message.EndsWith(Loc.GetString(str)) && proto.Priority >= (current?.Priority ?? 0))
+            if (message.EndsWith(Loc.GetString(str)) && proto.Priority >= (speechProto?.Priority ?? 0))
             {
-                current = proto;
+                speechProto = proto;
             }
         }
 
         // if no applicable suffix verb return the normal one used by the entity
-        return current ?? _prototypeManager.Index<SpeechVerbPrototype>(speech.SpeechVerb);
+        return speechProto ?? _prototypeManager.Index<SpeechVerbPrototype>(speech.SpeechVerb);
     }
 
     /// <summary>
@@ -265,6 +272,7 @@ public enum InGameICChatType : byte
 {
     Speak,
     Emote,
+    HiddenEmote,
     Whisper,
     Telepathic
 }

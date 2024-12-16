@@ -1,8 +1,14 @@
 ent-WeaponPistolViperWood = viper
     .desc = A small, low-power pistol with pleasant lacquered wooden grips. Uses .35 auto ammo.
     .suffix = Wood
+ent-WeaponPistolViperWoodSecurity = viper
+    .desc = A small, low-power pistol with pleasant lacquered wooden grips. Uses .35 auto ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
 ent-WeaponPistolPollock = Pollock
     .desc = A compact and mass-produced combat pistol. Uses .35 auto ammo.
     .suffix = Mercenary
+ent-WeaponPistolPollockSecurity = Pollock
+    .desc = A compact and mass-produced combat pistol. Uses .35 auto ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+ent-WeaponPistolPollockNonlethalSecurity = Pollock
+    .desc = { ent-WeaponPistolPollockSecurity.desc }
 ent-WeaponPistolPsiBreaker = psi-breaker
     .desc = A small, flashy pistol with a marble style grip. Provides no tactical advantage. Uses .38 special ammo.

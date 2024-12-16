@@ -712,3 +712,48 @@
   completetime: 4
   materials:
     Cloth: 300
+
+# [Armbands]
+
+- type: latheRecipe
+  id: LPPArmbandRed
+  result: LPPArmbandRed
+  completetime: 1
+  materials:
+    Cloth: 100
+
+- type: latheRecipe
+  id: LPPArmbandGreen
+  result: LPPArmbandGreen
+  completetime: 1
+  materials:
+    Cloth: 100
+
+- type: latheRecipe
+  id: LPPArmbandBlue
+  result: LPPArmbandBlue
+  completetime: 1
+  materials:
+    Cloth: 100
+
+- type: latheRecipe
+  id: LPPArmbandWhite
+  result: LPPArmbandWhite
+  completetime: 1
+  materials:
+    Cloth: 100
+
+- type: latheRecipe
+  id: LPPArmbandYellow
+  result: LPPArmbandYellow
+  completetime: 1
+  materials:
+    Cloth: 100
+
+- type: latheRecipe
+  id: LPPArmbandPurple
+  result: LPPArmbandPurple
+  completetime: 1
+  materials:
+    Cloth: 100
+  

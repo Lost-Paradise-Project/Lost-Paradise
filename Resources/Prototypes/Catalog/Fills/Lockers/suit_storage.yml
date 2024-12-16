@@ -125,6 +125,7 @@
   - type: StorageFill
     contents:
         - id: OxygenTankFilled
+        - id: LPPClothingShoesBootsMagAtmos
         - id: ClothingOuterHardsuitAtmos
         - id: ClothingMaskBreath
   - type: AccessReader

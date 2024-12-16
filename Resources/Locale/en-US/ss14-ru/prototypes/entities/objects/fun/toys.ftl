@@ -193,3 +193,5 @@ ent-NewtonCradle = newton cradle
 ent-ThronglerToy = The Throngler
     .desc = Why would you make this?
     .suffix = Toy
+ent-PlushieShadowkin = shadowkin plushie
+    .desc = A plushie of a Shadowkin. It's very soft.

@@ -31,19 +31,28 @@ public sealed class LoadoutSystem : EntitySystem
 
     private void OnMapInit(EntityUid uid, LoadoutComponent component, MapInitEvent args)
     {
-        if (component.Prototypes == null)
+        if (component.StartingGear is null
+            || component.StartingGear.Count <= 0)
             return;
 
-        var proto = _prototype.Index<StartingGearPrototype>(_random.Pick(component.Prototypes));
+        var proto = _prototype.Index(_random.Pick(component.StartingGear));
         _station.EquipStartingGear(uid, proto);
     }
 
 
     public List<EntityUid> ApplyCharacterLoadout(EntityUid uid, ProtoId<JobPrototype> job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted)
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted
+#if LPP_Sponsors
+        , int sponsorTier = 0, string uuid = ""
+#endif
+        )
     {
         var jobPrototype = _prototype.Index(job);
-        return ApplyCharacterLoadout(uid, jobPrototype, profile, playTimes, whitelisted);
+        return ApplyCharacterLoadout(uid, jobPrototype, profile, playTimes, whitelisted
+#if LPP_Sponsors
+            , sponsorTier, uuid
+#endif
+            );
     }
 
     /// <summary>
@@ -56,7 +65,11 @@ public sealed class LoadoutSystem : EntitySystem
     /// <param name="whitelisted">If the player is whitelisted</param>
     /// <returns>A list of loadout items that couldn't be equipped but passed checks</returns>
     public List<EntityUid> ApplyCharacterLoadout(EntityUid uid, JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted)
+        Dictionary<string, TimeSpan> playTimes, bool whitelisted
+#if LPP_Sponsors
+        , int sponsorTier = 0, string uuid = ""
+#endif
+        )
     {
         var failedLoadouts = new List<EntityUid>();
 
@@ -72,7 +85,11 @@ public sealed class LoadoutSystem : EntitySystem
             if (!_characterRequirements.CheckRequirementsValid(
                 loadoutProto.Requirements, job, profile, playTimes, whitelisted, loadoutProto,
                 EntityManager, _prototype, _configuration,
-                out _))
+                out _
+#if LPP_Sponsors
+                , 0, sponsorTier, uuid
+#endif
+                ))
                 continue;
 
 

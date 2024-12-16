@@ -12,3 +12,7 @@ borg-ui-no-brain = Мозг отсутствует
 borg-ui-remove-battery = Извлечь
 borg-ui-modules-label = Модули:
 borg-ui-module-counter = { $actual }/{ $max }
+# Transponder
+borg-transponder-disabled-popup = Мозг вылетает из верхней части { $name }!
+borg-transponder-emagged-disabled-popup = Индикатор вашего транспондера гаснет!
+borg-transponder-emagged-destroyed-popup = Предохранитель вашего транспондера перегорел!

@@ -22,3 +22,6 @@ ent-ClosetMaintenanceFilledRandom = { ent-ClosetMaintenance }
 ent-ClosetWallMaintenanceFilledRandom = { ent-ClosetWall }
     .suffix = Заполненный, Случайный
     .desc = { ent-ClosetWall.desc }
+ent-ClosetWallRadiationFilled = { ent-ClosetWallRadiation }
+    .suffix = Заполненный
+    .desc = { ent-ClosetWallRadiation.desc }

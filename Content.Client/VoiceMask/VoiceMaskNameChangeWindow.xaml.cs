@@ -97,7 +97,7 @@ public sealed partial class VoiceMaskNameChangeWindow : FancyWindow
     }
     // LPP-TTS-End
 
-    public void UpdateState(string name, string voice, string? verb) // LPP-TTS
+    public void UpdateState(string name, /*string voice, */string? verb) // LPP-TTS
     {
         NameSelector.Text = name;
         _verb = verb;
@@ -110,11 +110,12 @@ public sealed partial class VoiceMaskNameChangeWindow : FancyWindow
                 break;
             }
         }
-
+/*
         // LPP-TTS-Start
         var voiceIdx = _voices.FindIndex(v => v.ID == voice);
         if (voiceIdx != -1)
             VoiceSelector.Select(voiceIdx);
         // LPP-TTS-End
+*/
     }
 }

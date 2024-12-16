@@ -1,6 +1,6 @@
 - type: entity
   id: LPPBaseMagazineRifleM41A
-  name: "magazine M41-A (.20 rifle)"
+  name: "magazine M41-A (.30 rifle)"
   parent: BaseItem
   abstract: true
   components:
@@ -34,7 +34,7 @@
 # Magazines
 - type: entity
   id: LPPBaseMagazineRifleM41AFull
-  name: "magazine M41-A (.20 rifle)"
+  name: "magazine M41-A (.30 rifle)"
   parent: LPPBaseMagazineRifleM41A
   components:
   - type: BallisticAmmoProvider
@@ -48,7 +48,7 @@
 
 - type: entity
   id: LPPBaseMagazineRifleM41APractice
-  name: "magazine M41-A (.20 rifle practice)"
+  name: "magazine M41-A (.30 rifle practice)"
   parent: LPPBaseMagazineRifleM41A
   components:
   - type: BallisticAmmoProvider
@@ -62,7 +62,7 @@
 
 - type: entity
   id: LPPBaseMagazineRifleM41ARubber
-  name: "magazine M41-A (.20 rifle rubber)"
+  name: "magazine M41-A (.30 rifle rubber)"
   parent: LPPBaseMagazineRifleM41A
   components:
   - type: BallisticAmmoProvider
@@ -77,7 +77,7 @@
 
 - type: entity
   id: LPPBaseMagazineRifleM41AUranium
-  name: "magazine (.20 rifle uranium)"
+  name: "magazine (.30 rifle uranium)"
   parent: LPPBaseMagazineRifleM41A
   components:
   - type: BallisticAmmoProvider

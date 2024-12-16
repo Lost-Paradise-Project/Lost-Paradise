@@ -4,6 +4,8 @@
   description: job-description-hos
   playTimeTracker: JobHeadOfSecurity
   requirements:
+    - !type:CharacterHeightRequirement
+      min: 160
     - !type:CharacterPlaytimeRequirement
       tracker: JobWarden
       min: 14400 #DeltaV 4 hrs

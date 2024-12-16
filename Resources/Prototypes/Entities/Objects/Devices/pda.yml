@@ -57,6 +57,7 @@
     - idcard
     - Belt
   - type: UnpoweredFlashlight
+  - type: EtherealLight
   - type: PointLight
     enabled: false
     radius: 1.5
@@ -86,19 +87,20 @@
   - type: ActivatableUI
     key: enum.PdaUiKey.Key
     singleUser: true
-    closeOnHandDeselect: false
   - type: UserInterface
     interfaces:
-    - key: enum.PdaUiKey.Key
-      type: PdaBoundUserInterface
-    - key: enum.StoreUiKey.Key
-      type: StoreBoundUserInterface
-    - key: enum.RingerUiKey.Key
-      type: RingerBoundUserInterface
-    - key: enum.InstrumentUiKey.Key
-      type: InstrumentBoundUserInterface
-    - key: enum.HealthAnalyzerUiKey.Key
-      type: HealthAnalyzerBoundUserInterface
+      enum.PdaUiKey.Key:
+        type: PdaBoundUserInterface
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+      enum.RingerUiKey.Key:
+        type: RingerBoundUserInterface
+      enum.InstrumentUiKey.Key:
+        type: InstrumentBoundUserInterface
+      enum.HealthAnalyzerUiKey.Key:
+        type: HealthAnalyzerBoundUserInterface
+      enum.GasAnalyzerUiKey.Key:
+        type: GasAnalyzerBoundUserInterface
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -117,6 +119,13 @@
 
 - type: entity
   parent: BasePDA
+  id: BaseEngineerPDA
+  abstract: true
+  components:
+  - type: GasAnalyzer
+
+- type: entity
+  parent: BasePDA
   id: PassengerPDA
   name: passenger PDA
   description: Why isn't it gray?
@@ -128,7 +137,7 @@
     borderColor: "#717059"
 
 - type: entity
-  parent: BasePDA
+  parent: BaseEngineerPDA
   id: TechnicalAssistantPDA
   name: technical assistant PDA
   description: Why isn't it yellow?
@@ -353,11 +362,38 @@
   - type: Pda
     id: QuartermasterIDCard
     state: pda-qm
+    penSlot:
+      startingItem: LPPQMPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#e39751"
     accentVColor: "#a23e3e"
   - type: Icon
     state: pda-qm
+  - type: CartridgeLoader # Adds the MailMetrics courier tracker
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - MailMetricsCartridge
+
+- type: entity
+  name: LO special PDA unit # DeltaV - Logistics Department replacing Cargo
+  parent: BasePDA
+  id: QuartermasterNTPDA
+  description: PDA for the guy that directs logistics.it says in gold "special unit unique to the best logistics officer in the sector". # DeltaV - Logistics Department replacing Cargo
+  components:
+  - type: Pda
+    id: QuartermasterIDCard
+    state: pda-qmnano
+  - type: PdaBorderColor
+    borderColor: "#e39751"
+    accentVColor: "#a23e3e"
+  - type: Icon
+    state: pda-qmnano
   - type: CartridgeLoader # Adds the MailMetrics courier tracker
     preinstalled:
       - CrewManifestCartridge
@@ -497,6 +533,26 @@
 
 - type: entity
   parent: BasePDA
+  id: CaptainNTPDA
+  name: CAP special PDA unit
+  description: incredibly shining with embossed details.it says in gold "special unit unique to the best captain in the sector".
+  components:
+  - type: Pda
+    id: CaptainIDCard
+    state: pda-captainnano
+    penSlot:
+      startingItem: PenCap
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#7C5D00"
+  - type: Icon
+    state: pda-captainnano
+
+- type: entity
+  parent: BasePDA
   id: HoPPDA
   name: head of personnel PDA
   description: Looks like it's been chewed on.
@@ -518,6 +574,27 @@
 
 - type: entity
   parent: BasePDA
+  id: HoPNTPDA
+  name: HOP special PDA unit
+  description: Looks like it's been chewed on.it says in gold "special unit unique to the best head of personnel in the sector".
+  components:
+  - type: Pda
+    id: HoPIDCard
+    state: pda-hopnano
+    penSlot:
+      startingItem: PenHop
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#789876"
+    accentHColor: "#447987"
+  - type: Icon
+    state: pda-hopnano
+
+- type: entity
+  parent: BaseEngineerPDA
   id: CEPDA
   name: chief engineer PDA
   description: Looks like it's barely been used.
@@ -525,6 +602,12 @@
   - type: Pda
     id: CEIDCard
     state: pda-ce
+    penSlot:
+      startingItem: LPPCEPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#949137"
     accentHColor: "#447987"
@@ -533,6 +616,21 @@
 
 - type: entity
   parent: BasePDA
+  id: CENTPDA
+  name: CE special PDA unit
+  description: Looks like it's barely been used.it says in gold "special unit unique to the best chief engineer in the sector".
+  components:
+  - type: Pda
+    id: CEIDCard
+    state: pda-cenano
+  - type: PdaBorderColor
+    borderColor: "#949137"
+    accentHColor: "#447987"
+  - type: Icon
+    state: pda-cenano
+
+- type: entity
+  parent: BaseEngineerPDA
   id: EngineerPDA
   name: engineer PDA
   description: Rugged and well-worn.
@@ -567,6 +665,28 @@
     accentVColor: "#447987"
   - type: Icon
     state: pda-cmo
+
+- type: entity
+  parent: BaseMedicalPDA
+  id: CMONTPDA
+  name: CMO special pda unit
+  description: Extraordinarily shiny and sterile.it says in gold "special unit unique to the best chief medical officer in the sector". Has a built-in health analyzer.
+  components:
+  - type: Pda
+    id: CMOIDCard
+    state: pda-cmonano
+    penSlot: # Fancy Pen Light
+      startingItem: CMOPenLight
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentHColor: "#447987"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-cmonano
 
 - type: entity
   parent: BaseMedicalPDA
@@ -643,12 +763,40 @@
   - type: Pda
     id: RDIDCard
     state: pda-rd
+    penSlot:
+      startingItem: LPPRDPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#d7d7d0"
     accentHColor: "#447987"
     accentVColor: "#8900c9"
   - type: Icon
     state: pda-rd
+  - type: CartridgeLoader # Nyanotrasen - Glimmer Monitor
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - GlimmerMonitorCartridge
+
+- type: entity
+  parent: BasePDA
+  id: RnDNTPDA
+  name: MY special PDA unit # DeltaV - Epistemics Department replacing Science
+  description: It appears surprisingly ordinary.it says in gold "special unit unique to the best Mystagogue in the sector".
+  components:
+  - type: Pda
+    id: RDIDCard
+    state: pda-rdnano
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentHColor: "#447987"
+    accentVColor: "#8900c9"
+  - type: Icon
+    state: pda-rdnano
   - type: CartridgeLoader # Nyanotrasen - Glimmer Monitor
     preinstalled:
       - CrewManifestCartridge
@@ -701,11 +849,39 @@
   - type: Pda
     id: HoSIDCard
     state: pda-hos
+    penSlot:
+      startingItem: LPPHosPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#A32D26"
     accentHColor: "#447987"
   - type: Icon
     state: pda-hos
+  - type: CartridgeLoader # DeltaV - Crime Assist + SecWatch
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - CrimeAssistCartridge
+      - SecWatchCartridge
+
+- type: entity
+  parent: BasePDA
+  id: HoSNTPDA
+  name: HOS special PDA unit
+  description: Whosoever bears this PDA is the law.it says in gold "special unit unique to the best head of security in the sector".
+  components:
+  - type: Pda
+    id: HoSIDCard
+    state: pda-hosnano
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentHColor: "#447987"
+  - type: Icon
+    state: pda-hosnano
   - type: CartridgeLoader # DeltaV - Crime Assist + SecWatch
     preinstalled:
       - CrewManifestCartridge
@@ -830,7 +1006,7 @@
     program: 2
 
 - type: entity
-  parent: BasePDA
+  parent: BaseEngineerPDA
   id: AtmosPDA
   name: atmos PDA
   description: Still smells like plasma.
@@ -883,6 +1059,8 @@
       whitelist:
         components:
           - Cartridge
+  - type: ClothingAddFaction
+    faction: Syndicate
 
 - type: entity
   parent: BasePDA
@@ -918,6 +1096,7 @@
   suffix: Engineer
   description: Red for firepower, it's well-worn.
   components:
+  - type: GasAnalyzer
   - type: Pda
     id: ERTEngineerIDCard
 
@@ -1112,7 +1291,7 @@
   - type: Unremoveable
 
 - type: entity
-  parent: BasePDA
+  parent: BaseEngineerPDA
   id: SeniorEngineerPDA
   name: senior engineer PDA
   description: Seems to have been taken apart and put back together several times.
@@ -1229,3 +1408,5 @@
       whitelist:
         components:
           - Cartridge
+  - type: ClothingAddFaction
+    faction: Syndicate

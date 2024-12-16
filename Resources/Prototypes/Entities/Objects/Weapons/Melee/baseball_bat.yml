@@ -9,17 +9,17 @@
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
-    range: 1.6
+    range: 1.5
     damage:
       types:
         Blunt: 7.5
         Structural: 5
     bluntStaminaDamageFactor: 2.0
-    heavyRateModifier: 0.5
-    heavyDamageBaseModifier: 1.75
-    heavyStaminaCost: 10
+    heavyRateModifier: 0.25
+    heavyDamageBaseModifier: 1.1
+    heavyStaminaCost: 25
     maxTargets: 2
-    angle: 120
+    angle: 100
     soundHit:
       collection: MetalThud
   - type: Wieldable
@@ -43,6 +43,9 @@
     node: bat
   - type: UseDelay
     delay: 1
+  - type: PhysicalComposition
+    materialComposition:
+      Wood: 250
   - type: Tag
     tags:
     - BaseballBat

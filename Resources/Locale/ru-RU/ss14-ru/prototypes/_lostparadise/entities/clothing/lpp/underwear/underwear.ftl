@@ -1,4 +1,4 @@
-ent-LPPClothingUnderwearBase = based underwear
+ent-LPPClothingUnderwearBase = Базовые трусы
     .desc = { ent-Clothing.desc }
 ent-LPPBeeShorts = Пчелиные трусы
     .desc = { ent-LPPClothingUnderwearBase.desc }

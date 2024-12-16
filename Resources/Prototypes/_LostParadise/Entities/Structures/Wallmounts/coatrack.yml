@@ -6,8 +6,8 @@
   components:
     - type: UserInterface
       interfaces:
-      - key: enum.StorageUiKey.Key
-        type: StorageBoundUserInterface
+        enum.StorageUiKey.Key:
+          type: StorageBoundUserInterface
     - type: WallMount
     - type: InteractionOutline
     - type: Appearance

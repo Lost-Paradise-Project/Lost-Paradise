@@ -72,11 +72,13 @@
   id: SyndicateListenerGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitPyjamaSyndicateBlack
+    back: ClothingBackpackSyndicate
     head: ClothingHeadPyjamaSyndicateBlack
     ears: ClothingHeadsetAltSyndicateListening
     gloves: ClothingHandsGlovesCombat
     shoes: ClothingShoesSlippers
     id: SyndiListeningPostPDA
+    pocket1: BaseUplinkRadio20TC
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
   underwear: LPPBriefs

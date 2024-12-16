@@ -31,6 +31,7 @@
         - AppraisalTool
         - JawsOfLife
         - GPS
+        - WeldingMask
       components:
         - SprayPainter
         - NetworkConfigurator
@@ -473,12 +474,19 @@
         - MagazinePistol
         - MagazineMagnum
         - CombatKnife
+        - Truncheon
       components:
         - Stunbaton
         - FlashOnTrigger
         - SmokeOnTrigger
         - Flash
         - Handcuff
+        - BallisticAmmoProvider
+        - CartridgeAmmo
+        - DoorRemote
+        - Whistle
+        - HolosignProjector
+        - BalloonPopper
   - type: ItemMapper
     mapLayers:
       flashbang:
@@ -571,8 +579,8 @@
   components:
   - type: UserInterface
     interfaces:
-    - key: enum.StorageUiKey.Key
-      type: StorageBoundUserInterface
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
   - type: Sprite
     sprite: Clothing/Neck/Misc/holster.rsi
   - type: Clothing
@@ -591,29 +599,39 @@
     - 0,0,3,1
 
 - type: entity
-  parent: ClothingBeltStorageBase
+  parent: ClothingNeckBase
   id: ClothingBeltSyndieHolster
   name: syndicate shoulder holster
   description: A deep shoulder holster capable of holding many types of ballistics.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/syndieholster.rsi
+    sprite: Clothing/Neck/Misc/syndieholster.rsi
   - type: Clothing
-    sprite: Clothing/Belt/syndieholster.rsi
+    sprite: Clothing/Neck/Misc/syndieholster.rsi
+    equipSound:
+      path: /Audio/SimpleStation14/Items/Equip/toolbelt_equip.ogg
   - type: Item
     size: Ginormous
   - type: Storage
     maxItemSize: Huge
     grid:
-    - 0,0,3,3
+    - 0,0,3,4
     whitelist:
       components:
         - Gun
         - BallisticAmmoProvider
         - CartridgeAmmo
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
-  parent: ClothingBeltStorageBase
+  parent: ClothingBeltSecurity
   id: ClothingBeltSecurityWebbing
   name: security webbing
   description: Unique and versatile chest rig, can hold security gear.
@@ -636,11 +654,10 @@
       - id: Stunbaton
       - id: Handcuffs
       - id: Handcuffs
-
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltMercWebbing
-  name: mercenarie webbing
+  name: mercenary webbing
   description: Ideal for storing everything from ammo to weapons and combat essentials.
   components:
   - type: Sprite
