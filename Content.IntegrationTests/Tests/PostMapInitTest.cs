@@ -67,6 +67,7 @@ namespace Content.IntegrationTests.Tests
             "LPPNormandy", //LPP
             "LPPPebble", //LPP
             "LPPSubmarine", //LPP
+            "LPPIceBox", //LPP
             "Gax",
             "Rad"
         };
