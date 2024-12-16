@@ -62,6 +62,7 @@
             MailCarrier: [ 1, 2 ]
             SalvageSpecialist: [ 3, 3 ]
             # Civilian
+            LPPAdjutant: [ 1, 1 ]
             Passenger: [ -1, -1 ]
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
@@ -73,8 +74,6 @@
             Clerk: [ 2, 2 ]
             ChiefJustice: [ 1, 1 ]
             Lawyer: [ 2, 3 ]
-            #LOST PARADISE
+            # CentComm
             LPPBlueShieldOfficer: [ 1, 1 ]
-            LPPAdjutant: [ 1, 1 ]
-            
 
