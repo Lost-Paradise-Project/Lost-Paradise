@@ -58,3 +58,5 @@ ent-LPPClothingMaskPGWrittenOff = Списанная балаклава ПГ
 ent-LPPClothingMaskNeckGaiterLoneOps = шейный гетр
     .desc = Стильный гетр для шеи, способный защитить от космического ветра и даже некоторых снарядов.
     .suffix = Лонопс
+ent-ClothingMaskGasMercenary = mercenary gas mask
+    .desc = Slightly outdated, but reliable military-style gas mask.

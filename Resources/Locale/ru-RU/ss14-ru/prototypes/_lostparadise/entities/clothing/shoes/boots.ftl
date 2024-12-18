@@ -16,3 +16,5 @@ ent-LPPUnathiWraps = Обмотки для ног
     .desc = Этим пользуются унатхи вместо обуви.
 ent-LPPClothingShoesBootsNPZ = Сапоги НПЗ
     .desc = Крепкие берцы для любой труднопроходимой местности.
+ent-ClothingShoesBootsMercenary = mercenary boots
+    .desc = Boots that have gone through many conflicts and that have proven their combat reliability.

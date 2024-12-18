@@ -40,3 +40,10 @@ salvage-expedition-announcement-countdown-seconds =
 salvage-expedition-reward-description = Награда за завершение миссии
 salvage-expedition-announcement-dungeon = Подземелье расположено от вас на { $direction }.
 salvage-expedition-completed = Экспедиция окончена.
+
+# Salvage mods
+salvage-time-mod-standard-time = Нормальная продолжительность
+salvage-time-mod-rush = Спешка
+
+salvage-weather-mod-heavy-snowfall = Сильный снегопад
+salvage-weather-mod-rain = Дождь

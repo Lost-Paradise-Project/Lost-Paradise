@@ -57,3 +57,5 @@ ent-LPPClothingMaskPGWrittenOff = Decommissioned balaclava PG
 ent-LPPClothingMaskNeckGaiterLoneOps = neck gaiter
     .desc = Stylish neck gaiter for your neck, can protect from the cosmic wind and even some projectiles.
     .suffix = LoneOps
+ent-ClothingMaskGasMercenary = mercenary gas mask
+    .desc = Slightly outdated, but reliable military-style gas mask.

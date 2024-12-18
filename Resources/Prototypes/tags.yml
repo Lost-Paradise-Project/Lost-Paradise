@@ -1363,3 +1363,12 @@
 
 - type: Tag
   id: WriteIgnoreStamps
+
+- type: Tag
+  id: MagazineNovaliteC1
+
+- type: Tag
+  id: SpeedLoaderRifleHeavy
+
+- type: Tag
+  id: WeaponMeleeStake

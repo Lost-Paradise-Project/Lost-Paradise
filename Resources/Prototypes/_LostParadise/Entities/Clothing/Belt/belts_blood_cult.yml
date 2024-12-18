@@ -1,0 +1,25 @@
+- type: entity
+  parent: ClothingBeltBase
+  id: ClothingBeltCultForceField
+  name: cult runic belt buckle
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/cult_force_field.rsi
+    shader: unshaded
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/cult_force_field.rsi
+  - type: Reflect
+    reflectProb: .1
+    spread: 90
+
+- type: entity
+  parent:
+  - NFClothingBeltStorageBase
+  id: ClothingBeltCultWebbing
+  name: cult webbing
+  description: A webbing with pockets lined with waterproof (water, huh?) material.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Belt/cult_webbing.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Belt/cult_webbing.rsi

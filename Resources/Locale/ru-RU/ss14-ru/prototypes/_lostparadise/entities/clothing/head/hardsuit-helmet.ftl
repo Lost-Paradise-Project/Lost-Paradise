@@ -34,3 +34,7 @@ ent-LPPClothingHeadHelmetHardsuitMiningPlus = Шлем HpI-20a+
     .desc = Хороший шлем для любых нужд.
 ent-LPPClothingHeadHelmetHardsuitMiningJuggernaut = Шлем HpIP-22
     .desc = Хороший шлем для любых нужд.
+ent-ClothingHeadHelmetHardsuitMercenary = mercenary hardsuit helmet
+    .desc = Lightly armored hardsuit helmet for mercenary needs.
+ent-ClothingHeadHelmetHardsuitMaximPrototype = experimental salvager helmet
+    .desc = A predication of decay washes over your mind.

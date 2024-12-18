@@ -1,0 +1,11 @@
+lpp-salvage-faction-xenos = Ксеносы
+lpp-salvage-faction-carps = Карпы
+lpp-salvage-faction-syndicate = Синдикат
+lpp-salvage-faction-cultists = Культисты
+lpp-salvage-faction-flesh = Плоть
+lpp-salvage-faction-argocytes = Агроциты
+lpp-salvage-faction-dinosaurs = Динозавры
+lpp-salvage-faction-mercenaries = Наёмники
+lpp-salvage-faction-explorers = Иссоедователи
+lpp-salvage-faction-silicons = Машины
+lpp-salvage-faction-punks = Панки

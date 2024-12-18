@@ -42,3 +42,7 @@ ent-LPPClothingOuterHardsuitMiningPlus = Скафандр HpI-20a+ "Rodos"
     .desc = Модернизированный скафандр от Hephaestus Industries, обеспечивающий повышенную защиту от тупых и режущих повреждений, но не дающий защиты от колющих повреждений. Маркировка указывает на то, что эта модель защищает от большинства видов воздействия. Выглядит довольно легким.
 ent-LPPClothingOuterHardsuitMiningJuggernaut = Скафандр HpIP-22 "Argos"
     .desc = Защитный костюм джаггернаута от Hephaestus Industries, обеспечивающий надежную защиту от различных видов повреждений. Он предназначен для работы в самых суровых условиях. Выглядит таким тяжелым...
+ent-ClothingOuterHardsuitMercenary = mercenary hardsuit
+    .desc = A special suit that protects from the danger of space, employed by mercenary forces. Not certified to be blunderbuss proof.
+ent-ClothingOuterHardsuitMaximPrototype = experimental salvager hardsuit
+    .desc = Fire. Heat. These things forge great weapons, they also forge great salvagers.

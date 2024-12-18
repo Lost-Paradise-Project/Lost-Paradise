@@ -1,0 +1,14 @@
+ent-MobVandalizer = { "" }
+    .desc = { "" }
+ent-MobPunkBase = Панк
+    .desc = "Лица, склонные к совершению преступлений", как их называют в документах службы безопасности НаноТрейзен, вооружены разнообразным оружием. Это оружие варьируется от самодельных заточек и дубинок с механической обработкой до ржавых пистолетов и дробовиков. Некоторые из них могут быть бронированы, поэтому планируйте все соответствующим образом.
+ent-MobPunkGangerMelee = { ent-MobPunkBase }
+    .desc = { ent-MobPunkBase.desc }
+ent-MobPunkGangerPistol = { ent-MobPunkBase }
+    .desc = { ent-MobPunkBase.desc }
+ent-MobPunkGangerShotgun = { ent-MobPunkBase }
+    .desc = { ent-MobPunkBase.desc }
+ent-MobPunkGangerArmoredMelee = { ent-MobPunkBase }
+    .desc = { ent-MobPunkBase.desc }
+ent-MobPunkGangerArmoredElite = Лидер Панк-банды
+    .desc = Чтобы возглавить банду уличного отребья, нужна внушительная фигура. Эти лидеры обычно вооружены автоматами SMG и носят бронежилеты, отобранные у неудачливых сотрудников службы безопасности. Как правило, они под кайфом от метамфетамина и выпивки.

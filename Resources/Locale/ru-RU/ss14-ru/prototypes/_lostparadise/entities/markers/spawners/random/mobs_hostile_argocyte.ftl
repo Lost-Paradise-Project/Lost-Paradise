@@ -1,0 +1,12 @@
+ent-SpawnMobArgocyteTiny = Спавнер агроцита
+    .suffix = ИИ, Враждебный, Крошечный
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobArgocyteSmall = Спавнер агроцита
+    .suffix = ИИ, Враждебный, Маленький
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobArgocyteMedium = Спавнер агроцита
+    .suffix = ИИ, Враждебный, Средний
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobArgocyteBig = Спавнер агроцита
+    .suffix = ИИ, Враждебный, Большой
+    .desc = { ent-MarkerBase.desc }

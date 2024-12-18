@@ -1,0 +1,24 @@
+- type: weightedRandomEntity
+  id: ExpeditionRewardT1
+  weights:
+    LPPSpaceCashExpeditionT1: 1.0
+
+- type: weightedRandomEntity
+  id: ExpeditionRewardT2
+  weights:
+    LPPSpaceCashExpeditionT2: 1.0
+
+- type: weightedRandomEntity
+  id: ExpeditionRewardT3
+  weights:
+    LPPSpaceCashExpeditionT3: 1.0
+
+- type: weightedRandomEntity
+  id: ExpeditionRewardT4
+  weights:
+    LPPSpaceCashExpeditionT4: 1.0
+
+- type: weightedRandomEntity
+  id: ExpeditionRewardT5
+  weights:
+    LPPSpaceCashExpeditionT5: 1.0

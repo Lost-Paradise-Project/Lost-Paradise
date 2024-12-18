@@ -1,0 +1,13 @@
+ent-LPPSpaceCashExpedition = Кредиты
+    .desc = С трудом заработанные кредиты. Только что с монетного двора цифрового банка. Пахнет успехом и неоплаченными налогами.
+    .suffix = Деньги
+ent-LPPSpaceCashExpeditionT1 = Кредиты (5,000)
+    .desc = { ent-LPPSpaceCashExpedition.desc }
+ent-LPPSpaceCashExpeditionT2 = Кредиты (10,000)
+    .desc = { ent-LPPSpaceCashExpedition.desc }
+ent-LPPSpaceCashExpeditionT3 = Кредиты (20,000)
+    .desc = { ent-LPPSpaceCashExpedition.desc }
+ent-LPPSpaceCashExpeditionT4 = Кредиты (40,000)
+    .desc = { ent-LPPSpaceCashExpedition.desc }
+ent-LPPSpaceCashExpeditionT5 = Кредиты (70,000)
+    .desc = { ent-LPPSpaceCashExpedition.desc }

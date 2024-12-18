@@ -10,3 +10,5 @@ ent-LPPRDComputerComms = research director communications computer
     .desc = A computer used to make station wide announcements via keyboard, set the appropriate alert level.
 ent-LPPCmoComputerComms = chief medical officer communications computer
     .desc = A computer used to make station wide announcements via keyboard, set the appropriate alert level.
+ent-LPPComputerSalvageExpedition = salvage expeditions computer
+    .desc = Used to accept salvage missions, if you're tough enough.
