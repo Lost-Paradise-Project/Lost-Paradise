@@ -12,7 +12,7 @@
     species: Arachnid
   - type: Hunger
     baseDecayRate: 0.0125 # Spiders have slow metabolisms all things considered, so I decided to just make their hunger drain slower.
-  #- type: Carriable # Carrying system from nyanotrasen.
+  - type: Carriable # Carrying system from nyanotrasen.
   - type: Thirst
   - type: Sericulture
     action: ActionSericulture
@@ -95,12 +95,9 @@
         sprite: Mobs/Customization/masking_helpers.rsi
         state: unisex_full
         visible: false
-      - map: [ "breast" ]
-      - map: [ "underwear" ]
+      - map: ["jumpsuit"]
       - map: ["enum.HumanoidVisualLayers.LFoot"]
       - map: ["enum.HumanoidVisualLayers.RFoot"]
-      - map: [ "socks" ]
-      - map: ["jumpsuit"]
       - map: ["enum.HumanoidVisualLayers.LHand"]
       - map: ["enum.HumanoidVisualLayers.RHand"]
       - map: [ "gloves" ]
@@ -130,6 +127,8 @@
         sprite: "Effects/creampie.rsi"
         state: "creampie_arachnid"
         visible: false
+  - type: Spider
+  - type: IgnoreSpiderWeb
 
 - type: entity
   parent: BaseSpeciesDummy
