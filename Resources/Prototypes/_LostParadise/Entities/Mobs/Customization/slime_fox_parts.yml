@@ -5,7 +5,7 @@
   speciesRestriction: [SlimePerson]
   sponsorOnly: true # Lost Paradise Sponsors
   sprites:
-  - sprite: Corvax/Mobs/Customization/slime_fox_parts.rsi
+  - sprite: _LostParadise/Mobs/Customization/slime_fox_parts.rsi
     state: ears_slime_fox_outer
-  - sprite: Corvax/Mobs/Customization/slime_fox_parts.rsi
+  - sprite: _LostParadise/Mobs/Customization/slime_fox_parts.rsi
     state: ears_slime_fox_inner

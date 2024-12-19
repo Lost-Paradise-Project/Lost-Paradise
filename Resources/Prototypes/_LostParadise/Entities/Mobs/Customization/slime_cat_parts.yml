@@ -5,9 +5,9 @@
   speciesRestriction: [SlimePerson]
   sponsorOnly: true # Lost Paradise Sponsors
   sprites:
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: _LostParadise/Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_cat_outer
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: _LostParadise/Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_cat_inner
 
 - type: marking
@@ -17,7 +17,7 @@
   speciesRestriction: [SlimePerson]
   sponsorOnly: true # Lost Paradise Sponsors
   sprites:
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: _LostParadise/Mobs/Customization/slime_cat_parts.rsi
     state: slime_tail_cat_wag # Lost Paradise Sponsors
 
 - type: marking
@@ -27,9 +27,9 @@
   speciesRestriction: [SlimePerson]
   sponsorOnly: true # Lost Paradise Sponsors
   sprites:
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: _LostParadise/Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_stubby_outer
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: _LostParadise/Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_stubby_inner
 
 - type: marking
@@ -39,9 +39,9 @@
   speciesRestriction: [SlimePerson]
   sponsorOnly: true # Lost Paradise Sponsors
   sprites:
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: _LostParadise/Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_curled_outer
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: _LostParadise/Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_curled_inner
 
 - type: marking
@@ -51,9 +51,9 @@
   speciesRestriction: [SlimePerson]
   sponsorOnly: true # Lost Paradise Sponsors
   sprites:
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: _LostParadise/Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_torn_outer
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: _LostParadise/Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_torn_inner
 
 - type: marking
@@ -63,7 +63,7 @@
   speciesRestriction: [SlimePerson]
   sponsorOnly: true # Lost Paradise Sponsors
   sprites:
-    - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+    - sprite: _LostParadise/Mobs/Customization/slime_cat_parts.rsi
       state: slime_tail_cat_wag_stripes_prime
-    - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+    - sprite: _LostParadise/Mobs/Customization/slime_cat_parts.rsi
       state: slime_tail_cat_wag_stripes_second
