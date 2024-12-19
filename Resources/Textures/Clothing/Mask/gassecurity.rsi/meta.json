@@ -45,6 +45,10 @@
         {
             "name": "inhand-right",
             "directions": 4
+        },
+        {
+            "name": "up-equipped-MASK-vox",
+            "directions": 4
         }
     ]
 }
