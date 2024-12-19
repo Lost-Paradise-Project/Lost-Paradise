@@ -50,6 +50,9 @@
     HeadTop:
       points: 1 # Lost Paradise Sponsors
       required: false
+    HeadSide:
+      points: 1 # Lost Paradise Elf Ears
+      required: false
     Chest:
       points: 1
       required: false
