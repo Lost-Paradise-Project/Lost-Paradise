@@ -23,6 +23,7 @@
     FacialHair: MobSlimeMarkingFollowSkin
     Chest: MobSlimeTorso
     HeadTop: MobHumanoidAnyMarking # Lost Paradise Sponsors
+    HeadSide: MobHumanoidAnyMarking # Lost Paradise Elf Ears
     Tail: MobHumanoidAnyMarking # Lost Paradise Sponsors
     Eyes: MobHumanoidEyes
     LArm: MobSlimeLArm
