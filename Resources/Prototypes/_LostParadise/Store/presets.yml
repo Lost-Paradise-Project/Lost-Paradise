@@ -51,3 +51,59 @@
   - LPPmisc
   currencyWhitelist:
   - LPPCentcoin
+
+- type: storePreset
+  id: LPPStorePresetContract
+  storeName: Syndicate contracts
+  categories:
+  - LPPcontract
+  currencyWhitelist:
+  - Telecrystal
+
+- type: storePreset
+  id: LPPStorePresetCybersunUplinks
+  storeName: Cybersun in. goods
+  categories:
+  - LPPspecarmor
+  - LPPspecweapon
+  - LPPspecammo
+  - LPPspecexplosives
+  - LPPspectools
+  - LPPspecimplants
+  - LPPspecutilities
+  - LPPspecmisc
+  - LPPKeycards
+  currencyWhitelist:
+  - Telecrystal
+
+- type: storePreset
+  id: LPPStorePresetGorlexUplinks
+  storeName: Gorlex co. goods
+  categories:
+  - LPPspecarmorG
+  - LPPspecweaponG
+  - LPPspecammoG
+  - LPPspecexplosivesG
+  - LPPspectoolsG
+  - LPPspecimplantsG
+  - LPPspecutilitiesG
+  - LPPspecmiscG
+  - LPPKeycards
+  currencyWhitelist:
+  - Telecrystal
+
+- type: storePreset
+  id: LPPStorePresetDonkUplinks
+  storeName: Donk co. goods
+  categories:
+  - LPPspecarmorD
+  - LPPspecweaponD
+  - LPPspecammoD
+  - LPPspecexplosivesD
+  - LPPspectoolsD
+  - LPPspecimplantsD
+  - LPPspecutilitiesD
+  - LPPspecmiscD
+  - LPPKeycards
+  currencyWhitelist:
+  - Telecrystal

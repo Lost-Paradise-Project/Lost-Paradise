@@ -14,7 +14,6 @@
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
 
-
 - type: entity
   name: peacemakerbase
   parent: BaseItem
@@ -257,16 +256,16 @@
   - type: Clothing
     sprite: _LostParadise/Objects/Weapons/Guns/Revolvers/oc-38.rsi
   - type: RevolverAmmoProvider
-    capacity: 5
-    chambers: [ True, True, True, True, True ]
-    ammoSlots: [ null, null, null, null, null ]
+    capacity: 7
+    chambers: [ True, True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null, null ]
     soundEject:
       path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
     soundInsert:
       path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
   - type: Gun
     selectedMode: SemiAuto
-    fireRate: 1.5
+    fireRate: 2.0
     availableModes:
     - SemiAuto
     soundGunshot:

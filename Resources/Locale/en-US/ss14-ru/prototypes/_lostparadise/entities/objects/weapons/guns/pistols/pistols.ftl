@@ -18,3 +18,7 @@ ent-LPPWeaponPistolninemile = HM34
     .desc = An acceptable-medium quality pistol manufactured by a subsidiary of NanoTrasen. Uses .35 auto ammo.
 ent-LPPWeaponPistolPMm = PMm
     .desc = Widely used in service of USSP pistol now repainted and used by some old-school securities. Uses .38 scecial ammo.
+ent-LPPWeaponNailGun = Self Charge P-12 "Nail Gun"
+    .desc = Self recharing weapon that fires nail-like projectiles. Pretty deadly.
+ent-LPPWeaponMarsautopistol = auto pistol "MARS"
+    .desc = Pretty acient self-loading pistol with fixed mag that was used for hunting, now used to kill some NT goons. Uses .45 magnum ammo.

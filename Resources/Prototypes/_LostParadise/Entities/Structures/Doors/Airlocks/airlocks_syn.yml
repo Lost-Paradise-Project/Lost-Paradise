@@ -28,7 +28,7 @@
   - type: PaintableAirlock
     department: AirlockSyn
   - type: Wires
-    layoutId: AirlockSyn
+    layoutId: AirlockService
 
 - type: entity
   parent: Airlock
@@ -40,7 +40,7 @@
   - type: PaintableAirlock
     department: CargoSyn
   - type: Wires
-    layoutId: AirlockCargoSyn
+    layoutId: AirlockCargo
 
 - type: entity
   parent: Airlock
@@ -52,7 +52,7 @@
   - type: PaintableAirlock
     department: Medical
   - type: Wires
-    layoutId: AirlockMedicalSyn
+    layoutId: AirlockMedical
 
 - type: entity
   parent: AirlockMedical
@@ -72,7 +72,7 @@
   - type: PaintableAirlock
     department: Science
   - type: Wires
-    layoutId: AirlockScienceSyn
+    layoutId: AirlockScience
 
 - type: entity
   parent: Airlock
@@ -86,7 +86,7 @@
   - type: PaintableAirlock
     department: Command
   - type: Wires
-    layoutId: AirlockCommandSyn
+    layoutId: AirlockCommand
 
 - type: entity
   parent: Airlock
@@ -98,7 +98,7 @@
   - type: PaintableAirlock
     department: Security
   - type: Wires
-    layoutId: AirlockSecuritySyn
+    layoutId: AirlockSecurity
 
 - type: entity
   parent: Airlock
@@ -168,7 +168,7 @@
   - type: PaintableAirlock
     department: Engineering
   - type: Wires
-    layoutId: AirlockEngineeringSyn
+    layoutId: AirlockEngineering
 
 - type: entity
   parent: AirlockGlass
@@ -196,7 +196,7 @@
   - type: PaintableAirlock
     department: AirlockSyn
   - type: Wires
-    layoutId: AirlockSyn
+    layoutId: AirlockService
 
 - type: entity
   parent: AirlockGlass
@@ -208,7 +208,7 @@
   - type: PaintableAirlock
     department: CargoSyn
   - type: Wires
-    layoutId: AirlockCargoSyn
+    layoutId: AirlockCargo
 
 - type: entity
   parent: AirlockGlass
@@ -220,7 +220,7 @@
   - type: PaintableAirlock
     department: MedicalSyn
   - type: Wires
-    layoutId: AirlockMedicalSyn
+    layoutId: AirlockMedical
 
 - type: entity
   parent: AirlockMedicalGlass
@@ -240,7 +240,7 @@
   - type: PaintableAirlock
     department: ScienceSyn
   - type: Wires
-    layoutId: AirlockScienceSyn
+    layoutId: AirlockScience
 
 - type: entity
   parent: AirlockGlass
@@ -254,7 +254,7 @@
   - type: WiresPanelSecurity
     securityLevel: medSecurity
   - type: Wires
-    layoutId: AirlockCommandSyn
+    layoutId: AirlockCommand
 
 - type: entity
   parent: AirlockGlass
@@ -266,4 +266,4 @@
   - type: PaintableAirlock
     department: SecuritySyn
   - type: Wires
-    layoutId: AirlockSecuritySyn
+    layoutId: AirlockSecurity

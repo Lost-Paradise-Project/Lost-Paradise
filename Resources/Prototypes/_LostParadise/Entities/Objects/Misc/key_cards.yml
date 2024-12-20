@@ -1,0 +1,64 @@
+- type: entity
+  name: Armory key card
+  parent: IDCardStandard
+  id: LPPKeycardArmory
+  suffix: Syndicate
+  components:
+  - type: Access
+    tags:
+    - ArmorySyndicate
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/kcard.rsi
+    state: armory
+
+- type: entity
+  name: Medblock key card
+  parent: IDCardStandard
+  id: LPPKeycardMedblock
+  suffix: Syndicate
+  components:
+  - type: Access
+    tags:
+    - MedblockSyndicate
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/kcard.rsi
+    state: medical
+
+- type: entity
+  name: Chemistry key card
+  parent: IDCardStandard
+  id: LPPKeycardChemistry
+  suffix: Syndicate
+  components:
+  - type: Access
+    tags:
+    - ChemistrySyndicate
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/kcard.rsi
+    state: chemistry
+
+- type: entity
+  name: Mechroom key card
+  parent: IDCardStandard
+  id: LPPKeycardMechroom
+  suffix: Syndicate
+  components:
+  - type: Access
+    tags:
+    - MechroomSyndicate
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/kcard.rsi
+    state: mechroom
+
+- type: entity
+  name: Polygon key card
+  parent: IDCardStandard
+  id: LPPKeycardPolygon
+  suffix: Syndicate
+  components:
+  - type: Access
+    tags:
+    - PolygonSyndicate
+  - type: Sprite
+    sprite: _LostParadise/Objects/Misc/kcard.rsi
+    state: polygon
