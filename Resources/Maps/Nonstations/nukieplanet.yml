@@ -18808,7 +18808,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 2.5,-4.5
       parent: 2
-- proto: StimkitFilled
+- proto: MedkitFilled
   entities:
   - uid: 3004
     components:

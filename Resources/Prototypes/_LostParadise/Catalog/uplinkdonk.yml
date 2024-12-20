@@ -330,10 +330,10 @@
   description: uplink-supermedic-desc
   productEntity: LPPClothingBackpackDuffelDonkSuperMedic
   cost:
-    Telecrystal: 3
+    Telecrystal: 16
   categories:
   - LPPspecutilitiesD
-  saleLimit: 12
+  saleLimit: 1
 
 - type: listing
   id: LPPUplinkStimpackD
