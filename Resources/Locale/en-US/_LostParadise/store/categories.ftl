@@ -29,4 +29,3 @@ store-category-hos-armor = Броня
 store-category-hos-ammo = Боеприпасы
 store-category-hos-brigmed = Первая помощь
 store-category-hos-brigtech = Инструментарий
-store-category-misc = Инструментарий

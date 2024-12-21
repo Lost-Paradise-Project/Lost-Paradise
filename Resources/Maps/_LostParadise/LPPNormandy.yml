@@ -71195,13 +71195,6 @@ entities:
       linearDamping: 0
       canCollide: False
     - type: InsideEntityStorage
-- proto: HeadTerminator
-  entities:
-  - uid: 6902
-    components:
-    - type: Transform
-      pos: -50.422123,5.4502974
-      parent: 2
 - proto: HeatExchanger
   entities:
   - uid: 4358
@@ -81026,16 +81019,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 39.5,-22.5
       parent: 2
-- proto: QuadraticCapacitorStockPart
-  entities:
-  - uid: 16584
-    components:
-    - type: Transform
-      parent: 16577
-    - type: Physics
-      angularDamping: 0
-      linearDamping: 0
-      canCollide: False
 - proto: Rack
   entities:
   - uid: 2387
@@ -88390,7 +88373,6 @@ entities:
           - 16581
           - 16582
           - 16583
-          - 16584
 - proto: SMESMachineCircuitboard
   entities:
   - uid: 227

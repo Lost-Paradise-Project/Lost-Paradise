@@ -1,0 +1,11 @@
+shadowkin-power-examined-other = { CAPITALIZE(SUBJECT($target)) } кажется, это в { $powerType } состоянии.
+shadowkin-power-examined-self = У меня есть энергия { $power }/{ $powerMax }, я в { $powerType } состоянии.
+shadowkin-power-5 = энергичном
+shadowkin-power-4 = отличном
+shadowkin-power-3 = хорошем
+shadowkin-power-2 = нормальном
+shadowkin-power-1 = измученным
+shadowkin-power-0 = опустошённым
+examine-mindbroken-shadowkin-message = { CAPITALIZE($entity) } кажется с чёрными глазами.
+identity-eye-shadowkin = { $color }-глазый
+shadowkin-blackeye = Я чувствую, как иссякают мои силы...

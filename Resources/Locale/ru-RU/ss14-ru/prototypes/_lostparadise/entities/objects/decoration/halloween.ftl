@@ -1,9 +1,9 @@
 ent-LPPPSpiderDeco = паучки
     .desc = Муляжи паучков которые выглядят так, будто готовы вас покусать.
-ent-LPPPumpkinDeco = pumpkin
-    .desc = Small decorative pumpkin with brush marks on it
-ent-LPPPumpkinBigDeco = pumpkin
-    .desc = Decorative pumpkins with brush marks on it
+ent-LPPPumpkinDeco = тыква
+    .desc = Маленькая декоративная тыква со следами краски на ней
+ent-LPPPumpkinBigDeco = тыква
+    .desc = Декоративные тыквы со следами краски на них
 ent-LPPPPumpkinDeco = тыква
     .desc = Маленькая декоративная тыква.
 ent-LPPPPumpkinBigDeco = тыква

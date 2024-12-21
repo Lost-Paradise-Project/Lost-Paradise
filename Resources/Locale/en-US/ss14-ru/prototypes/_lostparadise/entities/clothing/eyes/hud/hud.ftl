@@ -1,5 +1,5 @@
-ent-LPPShowSecurityIcons = { "" }
-    .desc = { "" }
+ent-LPPShowSecurityIcons = { ent-ShowSecurityIcons }
+    .desc = { ent-ShowSecurityIcons.desc }
 ent-LPPBlackHudGlasses = Sunglasses with HUD
     .desc = Useful for Security and Cargo.
 ent-LPPRedHudGlasses = Red sunglasses with HUD

@@ -18,8 +18,6 @@ accept-psionics-window-prompt-text-part =
     Хотите-ли вы до сих пор быть псиоником?
 action-name-psionic-invisibility = Псионическая невидимость
 action-description-psionic-invisibility = Станьте невидимым для всех существ, способным стать псиоником. Борги, животные и так далее не подвержены этому воздействию.
-action-name-psionic-invisibility = Псионическая невидимость
-action-description-psionic-invisibility = Станьте невидимым для всех существ, способным стать псиоником. Борги, животные и так далее не подвержены этому воздействию.
 action-name-psionic-invisibility-off = Выключить псионическую невидимость
 action-description-psionic-invisibility-off = Станьте снова видимым и получите небольшое оглушение.
 action-name-mind-swap = Смена разума

@@ -305,6 +305,7 @@
       species:
         - Felinid # Felinids already have cat claws.
         - Reptilian # Reptilians also have cat claws.
+        - Shadowkin # Shadowkins also have claws.
         # - Vulpkanin # Vulpkanin have "Blunt" claws. One could argue this trait "Sharpens" their claws.
     - !type:CharacterTraitRequirement
       inverted: true
@@ -403,6 +404,7 @@
       species:
         - Arachnid
         - Arachne
+        - Shadowkin
         - IPC
   components:
     - type: Sericulture
@@ -515,7 +517,9 @@
 #       traits:
 #         - CyberEyesOmni
 #   components:
-#   - type: ShowSecurityIcons
+#   - type: ShowJobIcons
+    - type: ShowMindShieldIcons
+    - type: ShowCriminalRecordIcons
 
 # - type: trait
 #   id: CyberEyesMedical
@@ -536,8 +540,10 @@
 #         - CyberEyesOmni
 #   components:
 #   - type: ShowHealthBars
-#     damageContainers:
-#     - Biological
+#      damageContainers:
+#      - Biological- type: ShowHealthIcons
+#       damageContainers:
+#       - Biological
 
 # - type: trait
 #   id: CyberEyesDiagnostic
@@ -584,8 +590,13 @@
 #         - CyberEyesDiagnostic
 #         - CyberEyesSecurity
 #   components:
-#     - type: ShowSecurityIcons
-#     - type: ShowHealthBars
+#    - type: ShowJobIcons
+#    - type: ShowMindShieldIcons
+#    - type: ShowCriminalRecordIcons
+#    - type: ShowHealthIcons
+#      damageContainers:
+#      - Biological
+#    - type: ShowHealthBars
 #       damageContainers:
 #       - Biological
 #       - Inorganic

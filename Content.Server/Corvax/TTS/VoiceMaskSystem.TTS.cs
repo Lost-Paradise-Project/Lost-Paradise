@@ -1,42 +1,44 @@
-﻿using Content.Server.Corvax.TTS;
-using Content.Shared.VoiceMask;
+﻿// Я хз как заставить работать после этого: https://github.com/Simple-Station/Einstein-Engines/pull/1147
 
-namespace Content.Server.VoiceMask;
+// using Content.Server.Corvax.TTS;
+// using Content.Shared.VoiceMask;
 
-public partial class VoiceMaskSystem
-{
-    private void InitializeTTS()
-    {
-        SubscribeLocalEvent<VoiceMaskComponent, TransformSpeakerVoiceEvent>(OnSpeakerVoiceTransform);
-        SubscribeLocalEvent<VoiceMaskComponent, VoiceMaskChangeVoiceMessage>(OnChangeVoice);
-    }
+// namespace Content.Server.VoiceMask;
 
-    private void OnSpeakerVoiceTransform(EntityUid uid, VoiceMaskComponent component, TransformSpeakerVoiceEvent args)
-    {
-        if (component.Enabled)
-            args.VoiceId = component.VoiceId;
-    }
+// public partial class VoiceMaskSystem
+// {
+//     private void InitializeTTS()
+//     {
+//         SubscribeLocalEvent<VoiceMaskComponent, TransformSpeakerVoiceEvent>(OnSpeakerVoiceTransform);
+//         SubscribeLocalEvent<VoiceMaskComponent, VoiceMaskChangeVoiceMessage>(OnChangeVoice);
+//     }
 
-    private void OnChangeVoice(EntityUid uid, VoiceMaskComponent component, VoiceMaskChangeVoiceMessage message)
-    {
-        component.VoiceId = message.Voice;
+//     private void OnSpeakerVoiceTransform(EntityUid uid, VoiceMaskComponent component, TransformSpeakerVoiceEvent args)
+//     {
+//         if (component.Enabled)
+//             args.VoiceId = component.VoiceId;
+//     }
 
-        _popupSystem.PopupEntity(Loc.GetString("voice-mask-voice-popup-success"), uid);
+//     private void OnChangeVoice(EntityUid uid, VoiceMaskComponent component, VoiceMaskChangeVoiceMessage message)
+//     {
+//         component.VoiceId = message.Voice;
 
-        TrySetLastKnownVoice(uid, message.Voice);
+//         _popupSystem.PopupEntity(Loc.GetString("voice-mask-voice-popup-success"), uid);
 
-        UpdateUI(uid, component);
-    }
+//         TrySetLastKnownVoice(uid, message.Voice);
 
-    private void TrySetLastKnownVoice(EntityUid maskWearer, string? voiceId)
-    {
-        if (!HasComp<VoiceMaskComponent>(maskWearer)
-            || !_inventory.TryGetSlotEntity(maskWearer, MaskSlot, out var maskEntity)
-            || !TryComp<VoiceMaskerComponent>(maskEntity, out var maskComp))
-        {
-            return;
-        }
+//         UpdateUI(uid, component);
+//     }
 
-        maskComp.LastSetVoice = voiceId;
-    }
-}
+//     private void TrySetLastKnownVoice(EntityUid maskWearer, string? voiceId)
+//     {
+//         if (!HasComp<VoiceMaskComponent>(maskWearer)
+//             || !_inventory.TryGetSlotEntity(maskWearer, MaskSlot, out var maskEntity)
+//             || !TryComp<VoiceMaskerComponent>(maskEntity, out var maskComp))
+//         {
+//             return;
+//         }
+
+//         maskComp.LastSetVoice = voiceId;
+//     }
+// }

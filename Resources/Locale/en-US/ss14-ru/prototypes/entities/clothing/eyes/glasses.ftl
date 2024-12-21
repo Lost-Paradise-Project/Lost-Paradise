@@ -34,3 +34,5 @@ ent-ClothingEyesGlassesChemicalBudget = purple goggles
     .desc = These don't have any real function, but they do look cool!
 ent-ClothingEyesGlassesMesonBudget = green goggles
     .desc = These don't have any real function, but they do look cool!
+ent-ClothingEyesGlassesEthereal = ethereal goggles
+    .desc = An unusual pair of goggles developed during a time of inhumane experimentation involving Shadowkin. They are designed to allow the wearer to peer into The Dark.
