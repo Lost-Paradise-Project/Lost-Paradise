@@ -11,7 +11,7 @@
   - type: Item
     size: Large
   - type: Gun
-    fireRate: 1.5
+    fireRate: 1
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto

@@ -68,7 +68,7 @@
       - id: LPPWeaponPistolPF20
       - id: LPPMagazinePistolPF20lethal
       - id: LPPMagazinePistolPF20Rubber
-        prob: 0.5 #Кибербуллинг метаюзеров :D
+      - id: LPPHOSUplinkShop
       # -< DarkSide
       - id: LPPBoxFolderSecretRed
       - id: LPPBoxFolderSecDoc
