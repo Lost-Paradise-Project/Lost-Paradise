@@ -19,3 +19,6 @@
     - id: RubberStampChiefJustice
     - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
       prob: 0.3
+    - id: LPPRubberStampConfidentional #LPP
+    - id: LPPRubberStampRestricted #LPP
+    - id: LPPRubberStampSecret #LPP
