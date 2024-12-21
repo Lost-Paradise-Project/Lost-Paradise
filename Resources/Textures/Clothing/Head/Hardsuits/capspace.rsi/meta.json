@@ -18,6 +18,10 @@
       "directions": 4
     },
     {
+      "name": "equipped-HELMET-tajaran",
+      "directions": 4
+    },
+    {
       "name": "equipped-HELMET-vulpkanin",
       "directions": 4
     },
@@ -37,6 +41,10 @@
     {
       "name": "inhand-left",
       "name": "on-equipped-HELMET-vox",
+      "directions": 4
+    },
+    {
+      "name": "inhand-left",
       "directions": 4
     },
     {
