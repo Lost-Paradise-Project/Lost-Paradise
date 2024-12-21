@@ -6,20 +6,23 @@
     "x": 32,
     "y": 32
   },
-  "states": [
-    {
-        "name": "equipped-BELT",
-        "directions": 4
-    },
-    {
-        "name": "sheath-sabre-equipped-BELT",
-        "directions": 4
-    },
-    {
-        "name": "sheath-sabre"
-    },
-    {
-        "name": "sheath"
-    }
-  ]
+    "states": [
+        {
+            "name": "equipped-BELT",
+            "directions": 4
+        },
+        {
+            "name": "sheath-sabre-equipped-BELT",
+            "directions": 4
+        },
+        {
+            "name": "sheath-katana"
+        },
+        {
+            "name": "sheath-wakizashi"
+        },
+        {
+            "name": "sheath"
+        }
+    ]
 }

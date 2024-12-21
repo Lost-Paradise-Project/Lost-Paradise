@@ -789,6 +789,9 @@
   id: Katana
 
 - type: Tag
+  id: Wakizashi
+
+- type: Tag
   id: Kangaroo
 
 - type: Tag
