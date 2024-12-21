@@ -23,8 +23,6 @@
       - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
-    soundInsert:
-      path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
   - type: RevolverAmmoProvider
     capacity: 4
     chambers: [ True, True, True, True ]
