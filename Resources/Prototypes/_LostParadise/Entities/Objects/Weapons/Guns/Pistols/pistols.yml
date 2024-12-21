@@ -236,3 +236,97 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
     sprite: _LostParadise/Objects/Weapons/Guns/Pistols/PMm.rsi
+
+- type: entity
+  parent: BaseItem
+  id: LPPWeaponNailGun
+  name: Self Charge P-12 "Nail Gun"
+  description: Self recharing weapon that fires nail-like projectiles. Pretty deadly.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/Nailgun.rsi
+    layers:
+    - state: icon
+  - type: Item
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/Nailgun.rsi
+    size: Small
+    shape:
+    - 0,0,2,0
+    - 0,0,1,0
+  - type: Gun
+    fireRate: 4
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/click.ogg
+      params:
+        volume: 7
+  - type: AmmoCounter
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.AmmoVisuals.HasAmmo:
+        empty-icon:
+          True: { visible: False }
+          False: { visible: True }
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 3
+    rechargeSound:
+      path: /Audio/_LostParadise/Weapons/clone.ogg
+  - type: BasicEntityAmmoProvider
+    proto: LPPNail
+    capacity: 15
+    count: 15
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/Nailgun.rsi
+    quickEquip: false
+    slots:
+    - Belt
+    - suitStorage
+  - type: UseDelay
+    delay: 1
+
+- type: entity
+  name: auto pistol "MARS"
+  parent: BaseItem
+  id: LPPWeaponMarsautopistol
+  description: Pretty acient self-loading pistol with fixed mag that was used for hunting, now used to kill some NT goons. Uses .45 magnum ammo.
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/magnumer.rsi
+    scale: 0.8, 0.8
+  - type: Gun
+    fireRate: 3
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+    fireOnDropChance: 1
+  - type: BallisticAmmoProvider
+    capacity: 7
+    proto: CartridgeMagnum
+    whitelist:
+      tags:
+      - CartridgeMagnum
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/magnumer.rsi
+    quickEquip: false
+    slots:
+    - Belt
+    - suitStorage
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,2,1
+    - 0,0,2,1
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+        ents: []
+  - type: StaticPrice
+    price: 500

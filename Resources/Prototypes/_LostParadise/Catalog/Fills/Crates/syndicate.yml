@@ -1,0 +1,101 @@
+- type: entity
+  id: LPPCrateDonkStarter
+  parent: LPPCrateDonk
+  suffix: Nukeops
+  components:
+  - type: StorageFill
+    contents:
+      - id: MedkitCombatFilled
+        amount: 3
+      - id: LPPClothingBackpackDuffelHardsuitDonkLeader
+      - id: LPPClothingBackpackDuffelHardsuitDonkTrooper
+      - id: LPPClothingBackpackDuffelHardsuitDonkMedic
+      - id: FoodBoxDonkpocketHonk
+      - id: LPPHypospray
+      - id: OmnizineChemistryBottle
+      - id: ReinforcementRadioSyndicate
+      - id: ReinforcementRadioSyndicateNukeops
+      - id: ClothingBeltMilitaryWebbing
+        amount: 3
+      - id: LPPUplinkRadioDonk
+
+- type: entity
+  id: LPPCrateCybersunStarter
+  parent: LPPCrateCybersun
+  suffix: Nukeops
+  components:
+  - type: StorageFill
+    contents:
+      - id: MedkitCombatFilled
+        amount: 3
+      - id: LPPClothingBackpackDuffelCybersunTrooper
+      - id: LPPClothingBackpackDuffelCybersunElite
+      - id: LPPClothingBackpackDuffelCybersunCommander
+      - id: CyberPen
+      - id: LPPWeaponEnergyCrossbow
+      - id: EnergySword
+      - id: EnergyShield
+      - id: EnergyDagger
+      - id: ClothingBeltMilitaryWebbing
+        amount: 3
+      - id: ReinforcementRadioSyndicateCyborgAssault
+      - id: LPPUplinkRadioCybersun
+
+- type: entity
+  id: LPPCrateGorlexStarter
+  parent: LPPCrateGorlex
+  suffix: Nukeops
+  components:
+  - type: StorageFill
+    contents:
+      - id: MedkitCombatFilled
+        amount: 3
+      - id: LPPClothingBackpackDuffelGorlexTrooper
+      - id: LPPClothingBackpackDuffelGorlexMedic
+      - id: LPPClothingBackpackDuffelGorlexCommander
+      - id: WeaponPistolViperWood
+      - id: MagazineBoxLightRifle
+      - id: MagazineBoxCaselessRifle
+      - id: MagazineBoxRifle
+      - id: LPPMagazineBoxRifleMinigun
+      - id: MagazineBoxPistol
+      - id: MagazineBoxMagnumIncendiary
+      - id: LPPMagazineBoxRifleMinigun
+      - id: LPPClothingBeltMaximumWebbing
+      - id: ClothingBeltMilitaryWebbingGrenadeFilled
+      - id: ClothingBeltMilitaryWebbingMedFilled
+      - id: ToolboxSyndicateFilled
+      - id: BorgChassisSyndicateSaboteur
+      - id: PositronicBrain
+      - id: BorgModuleOperative
+      - id: BorgModuleAdvancedTool
+      - id: BorgModuleMartyr
+      - id: PowerCellHyper
+      - id: LPPUplinkRadioGorlex
+
+- type: entity
+  id: LPPCrateClassicStart
+  parent: CrateSyndicate
+  suffix: Nukeops
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingBackpackDuffelSyndicateHardsuitExtrasBundle
+        amount: 3
+      - id: LPPClothingBackpackDuffelAcientSyndicateHardsuitBundle
+      - id: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
+      - id: ClothingOuterHardsuitSyndieCommander
+      - id: ClothingOuterHardsuitSyndieMedic
+      - id: ClothingBackpackDuffelSyndicateFilledSMG
+      - id: ReinforcementRadioSyndicateNukeops
+      - id: BorgChassisSyndicateMedical
+      - id: PowerCellHyper
+      - id: PositronicBrain
+      - id: ToolboxSyndicateFilled
+      - id: BorgModuleAdvancedTreatment
+      - id: BorgModuleDefibrillator
+      - id: BorgModuleDiagnosis
+      - id: EnergySwordDouble
+      - id: WeaponLauncherRocket
+      - id: BaseUplinkRadio40TC
+        amount: 5

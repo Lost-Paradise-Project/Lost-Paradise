@@ -330,3 +330,10 @@
   sprite:
     sprite: _LostParadise/Decals/threshold.rsi
     state: threshold12
+
+- type: decal
+  id: LPPthreshold13
+  tags: ["stairs"]
+  sprite:
+    sprite: _LostParadise/Decals/threshold.rsi
+    state: threshold13

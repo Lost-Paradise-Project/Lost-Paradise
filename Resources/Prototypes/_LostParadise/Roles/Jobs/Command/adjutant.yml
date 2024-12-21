@@ -39,6 +39,7 @@
 #  - Brig
   - Cargo
   - Medical
+  - Gateway
   extendedAccess:
   - HeadOfPersonnel
   special:

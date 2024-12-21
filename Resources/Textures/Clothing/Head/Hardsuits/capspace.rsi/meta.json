@@ -26,6 +26,10 @@
       "directions": 4
     },
     {
+      "name": "equipped-HELMET-tajaran",
+      "directions": 4
+    },
+    {
       "name": "equipped-HELMET-shark",
       "directions": 4
     },
@@ -38,8 +42,8 @@
       "directions": 4
     },
     {
-        "name": "inhand-right",
-        "directions": 4
+      "name": "inhand-right",
+      "directions": 4
     }
   ]
 }

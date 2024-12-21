@@ -1,7 +1,7 @@
 {
     "version": 2,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Draw by Skilets: https://github.com/Skilets",
+    "copyright": "Made by Bruhman Cringe",
     "size": {
         "x": 32,
         "y": 32
@@ -42,6 +42,9 @@
         },
         {
             "name": "threshold12"
+        },
+        {
+            "name": "threshold13"
         }
     ]
 }
