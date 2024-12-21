@@ -16,6 +16,7 @@
   - OreBagOfHolding
   - ClothingMaskWeldingGas
   - SalvageExpeditionsComputerCircuitboard
+  - MechEquipmentDrill # Goobstation
 
 - type: technology
   id: AdvancedPowercells
