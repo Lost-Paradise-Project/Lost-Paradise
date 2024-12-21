@@ -13,3 +13,39 @@
   - type: Gun
     soundGunshot:
       path: /Audio/Corvax/Weapons/Guns/Gunshots/shotgun_alt.ogg
+
+- type: entity
+  name: TBS-2s "Boomstick"
+  parent: BaseWeaponShotgun
+  id: LPPWeaponShotgunTBS2S
+  description: A pump action shotgun that uses two tubes for ammo storaging, uses .50 ammo.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Shotguns/Boomstick.rsi
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Shotguns/Boomstick.rsi
+  - type: BallisticAmmoProvider
+    capacity: 12
+  - type: Gun
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/Boomstick.ogg
+    fireRate: 3
+  - type: Wieldable
+  - type: GunRequiresWield
+
+- type: entity
+  name: Remington-320B
+  parent: BaseWeaponShotgun
+  id: LPPWeaponShotgunRemington320b
+  description: B stands for "BUDGET". The most cheapest pump action shotgun you can find on the market. Quantity over quality. Uses .50 ammo.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Shotguns/remington.rsi
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Shotguns/remington.rsi
+  - type: BallisticAmmoProvider
+    capacity: 8
+  - type: Gun
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/Boomstick.ogg
+    fireRate: 1

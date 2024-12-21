@@ -275,3 +275,41 @@
     - Sidearm
   - type: StaticPrice
     price: 750
+
+- type: entity
+  name: EM-1 Gauss
+  parent: BaseWeaponBattery
+  id: LPPWeaponEM1Gauss
+  description: Gauss gun that fires very small projectile in a very high speed.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/gauss.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/gauss.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - Suitstorage
+  - type: Gun
+    fireRate: 0.5
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/Gauss.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: LPPGauss
+    fireCost: 600
+  - type: Battery
+    maxCharge: 3600
+    startingCharge: 3600
+  - type: Item
+    size: Large
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 36
+  - type: Telescope
+  - type: MultiHandedItem

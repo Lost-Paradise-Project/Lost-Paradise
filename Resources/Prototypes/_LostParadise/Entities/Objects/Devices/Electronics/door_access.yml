@@ -1,0 +1,81 @@
+#Syndicate
+#ГЛАВЫ
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsCommandSynd
+  suffix: CommandSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["SecuritySyn"]]
+#Капитан
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsCaptainSyn
+  suffix: CaptainSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["CaptainSyn"]]
+#смотрящи
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsWoCSyn
+  suffix: WoCSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["HeadOfPersonnelSyn"]]
+#гсб
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsHOSSyn
+  suffix: HOSSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["HeadOfSecuritySyn"]]
+# СБ
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsSecuritySyn
+  suffix: SecuritySyn, Locked
+  components:
+  - type: AccessReader
+    access: [["SecuritySyn"]]
+# РНД
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsResearchSyn
+  suffix: ResearchSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["ResearchSyn"]]
+# Инж.
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsEngineeringSyn
+  suffix: EngineeringSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["EngineeringSyn"]]
+# Сервис.
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsServiceSyn
+  suffix: ServiceSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["ServiceSyn"]]
+# Мед.
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsMedicalSyn
+  suffix: MedicalSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["MedicalSyn"]]
+# Утили.
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsSalvageSyn
+  suffix: SalvageSyn, Locked
+  components:
+  - type: AccessReader
+    access: [["SalvageSyn"]]
