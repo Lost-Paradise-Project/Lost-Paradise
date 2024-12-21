@@ -241,7 +241,7 @@
   name: IK-60 laser carbine
   parent: BaseWeaponBattery
   id: WeaponGunLaserCarbineAutomatic
-  description: "A 20 round semi-automatic laser carbine."
+  description: "A 30 round semi-automatic laser carbine."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Battery/energygun_carbine.rsi
@@ -263,8 +263,8 @@
     availableModes:
       - SemiAuto
   - type: Battery
-    maxCharge: 2000
-    startingCharge: 2000
+    maxCharge: 3000
+    startingCharge: 3000
   - type: ProjectileBatteryAmmoProvider
     proto: BulletEnergyGunLaser
     fireCost: 100

@@ -1,0 +1,280 @@
+##—————————————Капитан—————————————#
+#- type: job
+#  id: SyndicateCap
+#  name: job-name-cap-syndicate
+#  antagonist: true
+#  setPreference: false
+#  objective: roles-antag-syndicate-agent-objective
+#  description: job-description-cap-syndicate
+#  playTimeTracker: JobCapSyndicate
+#  requirements:
+#    - !type:CharacterOverallTimeRequirement
+#      min: 1800 # 15h
+#    - !type:CharacterDepartmentTimeRequirement
+#      department: Security
+#      min: 450 # 7,5h
+#  startingGear: CapSyndicateGear
+#  alwaysUseSpawner: true
+#  icon: "JobIconCaptainSyn"
+#  supervisors: job-supervisors-cap-syndicate
+#  canBeAntag: false
+#  access:
+#  - Atmospherics
+#  - CaptainSyn
+#  - HeadOfPersonnelSyn
+#  - HeadOfSecuritySyn
+#  - CommandSyndicate
+#  - EngineeringSyn
+#  - MedicalSyn
+#  - SecuritySyn
+#  - ResearchSyn
+#  - ServiceSyn
+#  - SalvageSyn
+#
+##———————————————WoC———————————————#
+#- type: job
+#  id: SyndicateWoC
+#  name: job-name-WoC-syndicate
+#  antagonist: true
+#  setPreference: false
+#  objective: roles-antag-syndicate-agent-objective
+#  description: job-description-Watching-of-crew-syndicate
+#  playTimeTracker: JobHeadOfPersonnelSyndicate
+#  requirements:
+#    - !type:CharacterOverallTimeRequirement
+#      min: 450 # 7,5h
+#    - !type:CharacterDepartmentTimeRequirement
+#      department: Security
+#      min: 360 # 6h
+#  startingGear: WoCSyndicateGear
+#  alwaysUseSpawner: true
+#  icon: "JobIconHOPSyn"
+#  supervisors: job-supervisors-cap-syndicate
+#  canBeAntag: false
+#  access:
+#  - Atmospherics
+#  - HeadOfPersonnelSyn
+#  - CommandSyndicate
+#  - EngineeringSyn
+#  - MedicalSyn
+#  - SecuritySyn
+#  - ResearchSyn
+#  - ServiceSyn
+#  - SalvageSyn
+##  special:
+##  - !type:AddImplantSpecial
+##    implants: [ SyndicatImplant ]
+#
+##———————————————Смотритель-Б——————————————#
+#- type: job
+#  id: SyndicateHOS
+#  name: job-name-Hos-syndicate
+#  antagonist: true
+#  setPreference: false
+#  objective: roles-antag-syndicate-agent-objective
+#  description: job-description-head-of-Security-syndicate
+#  playTimeTracker: JobHeadOfSecuritySyn
+#  requirements:
+#    - !type:CharacterOverallTimeRequirement
+#      min: 360 # 6h
+#    - !type:CharacterDepartmentTimeRequirement
+#      department: Security
+#      min: 360 # 6h
+#  startingGear: HoSSyndicateGear
+#  alwaysUseSpawner: true
+#  icon: "JobIconHOSSyn"
+#  supervisors: job-supervisors-cap-syndicate
+#  canBeAntag: false
+#  access:
+#  - Atmospherics
+#  - HeadOfSecuritySyn
+#  - CommandSyndicate
+#  - EngineeringSyn
+#  - MedicalSyn
+#  - SecuritySyn
+#  - ResearchSyn
+#  - ServiceSyn
+#  - SalvageSyn
+#
+##ОДЕЛЫ
+#
+##————СБ————#
+#- type: job
+#  id: SyndicateSecurity
+#  name: job-name-Security-Officer-syndicate
+#  antagonist: true
+#  setPreference: false
+#  objective: roles-antag-syndicate-agent-objective
+#  description: job-description-Security-syndicate
+#  playTimeTracker: JobSecuritySyn
+#  requirements:
+#    - !type:CharacterOverallTimeRequirement
+#      min: 180 # 3 hrs
+#    - !type:CharacterDepartmentTimeRequirement
+#      department: Security
+#      min: 180 # 3 hrs
+#  startingGear: SecurityOfficerSyndicateGear
+#  alwaysUseSpawner: true
+#  icon: "JobIconSecurityOfficerSyn"
+#  supervisors: job-supervisors-cap-syndicate
+#  canBeAntag: false
+#  access:
+#  - Atmospherics
+#  - EngineeringSyn
+#  - MedicalSyn
+#  - SecuritySyn
+#  - ResearchSyn
+#  - ServiceSyn
+#  - SalvageSyn
+#
+##————РНД————#
+#- type: job
+#  id: SyndicateScientist
+#  name: job-name-Scientist-syndicate
+#  antagonist: true
+#  setPreference: false
+#  objective: roles-antag-syndicate-agent-objective
+#  description: job-description-scientist-syndicate
+#  playTimeTracker: ResearchSyn
+#  requirements:
+#    - !type:CharacterOverallTimeRequirement
+#      min: 180 # 3 hrs
+#    - !type:CharacterDepartmentTimeRequirement
+#      department: Science
+#      min: 180 # 3 hrs
+#  startingGear: ScientistSyndicateGear
+#  alwaysUseSpawner: true
+#  icon: "JobIconScientistSyn"
+#  supervisors: job-supervisors-hop-syndicate
+#  canBeAntag: false
+#  access:
+#  - Atmospherics
+#  - EngineeringSyn
+#  - MedicalSyn
+#  - ResearchSyn
+#  - ServiceSyn
+#  - SalvageSyn
+#
+##————Элетрик————#
+#- type: job
+#  id: SyndicateEngineer
+#  name: job-name-Engineer-syndicate
+#  antagonist: true
+#  setPreference: false
+#  objective: roles-antag-syndicate-agent-objective
+#  description: job-description-engineer-syndicate
+#  playTimeTracker: JobStationEngineerSyndicate
+#  requirements:
+#    - !type:CharacterOverallTimeRequirement
+#      min: 180 # 3 hrs
+#    - !type:CharacterDepartmentTimeRequirement
+#      department: Engineering
+#      min: 180 # 3 hrs
+#  startingGear: EngineerSyndicateGear
+#  alwaysUseSpawner: true
+#  icon: "JobIconStationEngineerSyn"
+#  supervisors: job-supervisors-hop-syndicate
+#  canBeAntag: false
+#  access:
+#  - Atmospherics
+#  - EngineeringSyn
+#  - MedicalSyn
+#  - ResearchSyn
+#  - ServiceSyn
+#  - SalvageSyn
+#
+##————Сервис————#
+#- type: job
+#  id: SyndicateChefSyn
+#  name: job-name-Chef-syndicate
+#  antagonist: true
+#  setPreference: false
+#  objective: roles-antag-syndicate-agent-objective
+#  description: job-description-chef-syndicate
+#  playTimeTracker: JobChefSyndicate
+#  requirements:
+#    - !type:CharacterOverallTimeRequirement
+#      min: 300 # 5 hrs
+#  startingGear: ChefSynSyndicateGear
+#  alwaysUseSpawner: true
+#  icon: "JobIconChefSyn"
+#  supervisors: job-supervisors-cap-syndicate
+#  canBeAntag: false
+#  access:
+#  - MedicalSyn
+#  - ResearchSyn
+#  - ServiceSyn
+#  - SalvageSyn
+#
+##————Медик————#
+#- type: job
+#  id: SyndicateMedicalSyn
+#  name: job-name-Medical-syndicate
+#  antagonist: true
+#  setPreference: false
+#  objective: roles-antag-syndicate-agent-objective
+#  description: job-description-Medical-syndicate
+#  playTimeTracker: JobMedicalSyn
+#  requirements:
+#    - !type:CharacterOverallTimeRequirement
+#      min: 180 # 3 hrs
+#    - !type:CharacterDepartmentTimeRequirement
+#      department: Medical
+#      min: 180 # 3 hrs
+#  startingGear: MedicalSynSyndicateGear
+#  alwaysUseSpawner: true
+#  icon: "JobIconMedicalSyn"
+#  supervisors: job-supervisors-cap-syndicate
+#  canBeAntag: false
+#  access:
+#  - Atmospherics
+#  - EngineeringSyn
+#  - MedicalSyn
+#  - ResearchSyn
+#  - ServiceSyn
+#  - SalvageSyn
+#
+##————Утиль————#
+#- type: job
+#  id: SyndicateShaftMinerSyn
+#  name: job-name-ShaftMiner-syndicate
+#  antagonist: true
+#  setPreference: false
+#  objective: roles-antag-syndicate-agent-objective
+#  description: job-description-ShaftMiner-syndicate
+#  playTimeTracker: JobShaftMinerSyndicate
+#  requirements:
+#    - !type:CharacterOverallTimeRequirement
+#      min: 180 # 3 hrs
+#    - !type:CharacterDepartmentTimeRequirement
+#      department: Cargo
+#      min: 180 # 3 hrs
+#  startingGear: ShaftMinerSynSyndicateGear
+#  alwaysUseSpawner: true
+#  icon: "JobIconShaftMinerSyn"
+#  supervisors: job-supervisors-cap-syndicate
+#  canBeAntag: false
+#  access:
+#  - Atmospherics
+#  - EngineeringSyn
+#  - MedicalSyn
+#  - ResearchSyn
+#  - ServiceSyn
+#  - SalvageSyn
+#
+##————Заключёный————#
+#- type: job
+#  id: SyndicatePrisonerSyn
+#  name: job-name-Prisoner-syndicate
+#  description: job-description-prisoner-syndicate
+#  playTimeTracker: JobPrisonerSyndicate
+#  requirements:
+#    - !type:CharacterOverallTimeRequirement
+#      min: 240 # 4 hrs
+#  startingGear: PrisonerSynSyndicateGear
+#  alwaysUseSpawner: true
+#  icon: "JobIconPrisonerSyn"
+#  supervisors: job-supervisors-cap-syndicate
+#  canBeAntag: false
+#  access:
+#  - External
