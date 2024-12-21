@@ -556,6 +556,15 @@
       - MetempsychoticMachineCircuitboard
       - SalvageExpeditionsComputerCircuitboard
       - JukeboxCircuitBoard
+  # Goobstation mechs
+      - GygaxCentralElectronics
+      - GygaxPeripheralsElectronics
+      - GygaxTargetingElectronics
+      - DurandCentralElectronics
+      - DurandPeripheralsElectronics
+      - DurandTargetingElectronics
+      - ClarkeCentralElectronics
+      - ClarkePeripheralsElectronics
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - ShuttleGunDusterCircuitboard
@@ -674,6 +683,8 @@
     - RipleyRArm
     - RipleyLLeg
     - RipleyRLeg
+    - RipleyMKIIHarness
+    - RipleyUpgradeKit
     - MechEquipmentGrabber
     - HonkerHarness
     - HonkerLArm
@@ -688,6 +699,8 @@
     - HamtrLLeg
     - HamtrRLeg
     - VimHarness
+    - MechAirTank # Goobstation
+    - MechThruster # Goobstation
   # Begin Nyano additions
     - JetpackBlue
     - JetpackMini
@@ -697,8 +710,43 @@
 #    - LPPDroneModuleSecurityTaser
 #    - LPPBorgModuleAresst
 #    - LPPBattleBorgModule
+    # Goobstation - Mechs
+    - ClarkeHarness
+    - ClarkeHead
+    - ClarkeLArm
+    - ClarkeRArm
+    - ClarkeTreads
+    - DurandHarness
+    - DurandArmor
+    - DurandHead
+    - DurandLArm
+    - DurandLLeg
+    - DurandRArm
+    - DurandRLeg
+    - GygaxHarness
+    - GygaxArmor
+    - GygaxHead
+    - GygaxLArm
+    - GygaxLLeg
+    - GygaxRArm
+    - GygaxRLeg
+    - MechEquipmentDrill
+    - MechEquipmentDrillDiamond
+    - MechEquipmentKineticAccelerator
+    - MechEquipmentHonkerBananaMortar
+    - MechEquipmentHonkerMousetrapMortar
   - type: EmagLatheRecipes
-    emagStaticRecipes:
+    emagDynamicRecipes:
+    - WeaponMechCombatImmolationGun
+    - WeaponMechCombatSolarisLaser
+    - WeaponMechCombatFiredartLaser
+    - WeaponMechCombatUltraRifle
+    - WeaponMechCombatShotgun
+    - WeaponMechCombatShotgunIncendiary
+    - WeaponMechCombatDisabler
+    - WeaponMechCombatFlashbangLauncher
+    - WeaponMechCombatMissileRack8
+  #  Lost Paradise: start
     - BorgModuleSyndicateWeapon
     - BorgModuleMartyr
   #  Lost Paradise: end
@@ -961,6 +1009,16 @@
       - LPPMagazineBoxM4A1Incendiary
       - LPPCartridgeIncendiaryM4A1
       - LPPCartridgeUraniumM4A1
+      # Goobstation - Mechs
+      - WeaponMechCombatImmolationGun
+      - WeaponMechCombatSolarisLaser
+      - WeaponMechCombatFiredartLaser
+      - WeaponMechCombatUltraRifle
+      - WeaponMechCombatShotgun
+      - WeaponMechCombatShotgunIncendiary
+      - WeaponMechCombatDisabler
+      - WeaponMechCombatFlashbangLauncher
+      - WeaponMechCombatMissileRack8
       # End of modified code
   - type: MaterialStorage
     whitelist:

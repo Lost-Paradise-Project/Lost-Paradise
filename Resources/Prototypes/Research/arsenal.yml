@@ -12,6 +12,7 @@
   recipeUnlocks:
   - WeaponProtoKineticAccelerator
   - ShuttleGunKineticCircuitboard
+  - MechEquipmentKineticAccelerator # Goobstation
   # These are roundstart but not replenishable for salvage
 
 - type: technology
@@ -54,6 +55,7 @@
   cost: 7500
   recipeUnlocks:
   - WeaponLaserCarbine
+  - WeaponMechCombatFiredartLaser # Goobstation
 
 - type: technology
   id: NonlethalAmmunition
@@ -85,6 +87,7 @@
   - LPPMagazineBoxM4A1Rubber
   - LPPMagazinePistolPF20Rubber
   - LPPMagazineM4A1Rubber
+  - WeaponMechCombatDisabler # Goobstation
   # End of modified code
 
 - type: technology
@@ -163,6 +166,7 @@
   cost: 10000
   recipeUnlocks:
   - WeaponLaserCannon
+  - WeaponMechCombatSolarisLaser # Goobstation
 
 - type: technology
   id: WaveParticleHarnessing
@@ -212,6 +216,7 @@
   recipeUnlocks:
   - WeaponAdvancedLaser
   - PortableRecharger
+  - WeaponMechCombatImmolationGun # Goobstation
 
 - type: technology
   id: ExperimentalBatteryAmmo

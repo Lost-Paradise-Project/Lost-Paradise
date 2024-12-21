@@ -1,5 +1,4 @@
 ### ChangelogWindow.xaml.cs
-
 changelog-window-title = Чейнжлог
 changelog-author-changed = [color=#EEE]{ $author }[/color] изменено:
 changelog-today = Сегодня
