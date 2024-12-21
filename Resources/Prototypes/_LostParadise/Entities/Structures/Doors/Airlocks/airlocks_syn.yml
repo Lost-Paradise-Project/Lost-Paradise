@@ -69,10 +69,8 @@
   components:
   - type: Sprite
     sprite: _LostParadise/Structures/Doors/Airlocks/Standard/science.rsi
-  - type: PaintableAirlock
-    department: Science
   - type: Wires
-    layoutId: AirlockScience
+    layoutId: AirlockMedical
 
 - type: entity
   parent: Airlock
@@ -240,7 +238,7 @@
   # - type: PaintableAirlock
   #   department: ScienceSyn
   - type: Wires
-    layoutId: AirlockScience
+    layoutId: AirlockMedical
 
 - type: entity
   parent: AirlockGlass
