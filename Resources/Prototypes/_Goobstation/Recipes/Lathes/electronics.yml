@@ -1,39 +1,71 @@
 - type: latheRecipe
-  parent: BaseGoldCircuitboardRecipe
   id: ClarkeCentralElectronics
   result: ClarkeCentralElectronics
+  completetime: 8
+  materials:
+     Steel: 100
+     Glass: 900
+     Gold: 300
 
 - type: latheRecipe
-  parent: BaseGoldCircuitboardRecipe
   id: ClarkePeripheralsElectronics
   result: ClarkePeripheralsElectronics
+  completetime: 8
+  materials:
+     Steel: 100
+     Glass: 900
+     Gold: 300
 
 - type: latheRecipe
-  parent: BaseGoldCircuitboardRecipe
   id: GygaxCentralElectronics
   result: GygaxCentralElectronics
+  completetime: 8
+  materials:
+     Steel: 100
+     Glass: 900
+     Gold: 300
 
 - type: latheRecipe
-  parent: BaseGoldCircuitboardRecipe
   id: GygaxPeripheralsElectronics
   result: GygaxPeripheralsElectronics
+  completetime: 8
+  materials:
+     Steel: 100
+     Glass: 900
+     Gold: 300
 
 - type: latheRecipe
-  parent: BaseGoldCircuitboardRecipe
   id: GygaxTargetingElectronics
   result: GygaxTargetingElectronics
+  completetime: 8
+  materials:
+     Steel: 100
+     Glass: 900
+     Gold: 300
 
 - type: latheRecipe
-  parent: BaseSilverCircuitboardRecipe
   id: DurandCentralElectronics
   result: DurandCentralElectronics
+  completetime: 4
+  materials:
+     Steel: 100
+     Glass: 900
+     Silver: 100
 
 - type: latheRecipe
-  parent: BaseSilverCircuitboardRecipe
   id: DurandPeripheralsElectronics
   result: DurandPeripheralsElectronics
+  completetime: 4
+  materials:
+     Steel: 100
+     Glass: 900
+     Silver: 100
 
 - type: latheRecipe
-  parent: BaseSilverCircuitboardRecipe
   id: DurandTargetingElectronics
   result: DurandTargetingElectronics
+  completetime: 4
+  materials:
+     Steel: 100
+     Glass: 900
+     Silver: 100
