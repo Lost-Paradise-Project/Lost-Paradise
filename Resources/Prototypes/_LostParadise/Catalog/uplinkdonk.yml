@@ -259,7 +259,7 @@
   cost:
     Telecrystal: 8
   categories:
-    - UplinkExplosivesD
+    - LPPspecexplosivesD
   saleLimit: 1
 
 - type: listing

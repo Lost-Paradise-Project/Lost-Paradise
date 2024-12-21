@@ -26,6 +26,15 @@
       "name": "cap_open"
     },
     {
+      "name": "eng_elec_door"
+    },
+    {
+      "name": "eng"
+    },
+    {
+      "name": "eng_open"
+    },
+    {
       "name": "eng_secure"
     },
     {

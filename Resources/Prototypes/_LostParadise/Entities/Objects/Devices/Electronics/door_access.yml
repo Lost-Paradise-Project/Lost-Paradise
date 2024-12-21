@@ -5,8 +5,8 @@
   id: LPPDoorElectronicsCommandSynd
   suffix: CommandSyn, Locked
   components:
-  - type: AccessReader
-    access: [["CommandSyndicate"]]
+  # - type: AccessReader
+  #   access: [["CommandSyndicate"]]
 #Капитан
 - type: entity
   parent: DoorElectronics

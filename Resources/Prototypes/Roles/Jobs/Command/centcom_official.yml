@@ -10,7 +10,6 @@
   canBeAntag: false
   accessGroups:
   - AllAccess
-  - Gateway
   access:
   - CentralCommand
 
