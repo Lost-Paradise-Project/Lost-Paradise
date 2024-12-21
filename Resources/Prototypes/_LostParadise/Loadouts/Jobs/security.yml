@@ -49,6 +49,22 @@
     - LPPWeaponEnergyGunSoleil
 
 - type: loadout
+  id: LoadoutSecurityMk58
+  category: JobsSecurity
+  cost: 2
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 3000
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWeaponSecurity
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - WeaponPistolMk58Security
+
+- type: loadout
   id: LoadoutSecurityMk58Gold
   category: JobsSecurity
   cost: 2
@@ -78,7 +94,7 @@
       departments:
         - Security
   items:
-    - WeaponRevolverFitz
+    - WeaponRevolverFitzSecurity
 
 - type: loadout
   id: LoadoutSecurityMosin
@@ -126,7 +142,7 @@
       departments:
         - Security
   items:
-    - WeaponPistolPollock
+    - WeaponPistolPollockSecurity
 
 - type: loadout
   id: LoadoutSecuritSvalinn
@@ -193,7 +209,7 @@
       departments:
         - Security
   items:
-    - WeaponRevolverK38Master
+    - WeaponRevolverK38MasterSecurity
 
 - type: loadout
   id: LoadoutSecurityLucky
@@ -225,7 +241,7 @@
       departments:
         - Security
   items:
-    - WeaponPistolViperWood
+    - WeaponPistolViperWoodSecurity
 
 - type: loadout
   id: LoadoutSecurityPeacemaker
@@ -310,7 +326,7 @@
 - type: loadout
   id: LoadoutSecurityPM
   category: JobsSecurity
-  cost: 4
+  cost: 3
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security

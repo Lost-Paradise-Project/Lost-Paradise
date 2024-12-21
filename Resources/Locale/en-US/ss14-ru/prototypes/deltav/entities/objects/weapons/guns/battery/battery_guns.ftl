@@ -11,4 +11,4 @@ ent-WeaponEnergyGunPistol = PDW-9 Energy Pistol
 ent-WeaponEnergyGunPistolSecurity = PDW-9 Energy Pistol
     .desc = A military grade sidearm, used by many militia forces throughout the local sector. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
 ent-WeaponGunLaserCarbineAutomatic = IK-60 laser carbine
-    .desc = A 20 round semi-automatic laser carbine.
+    .desc = A 30 round semi-automatic laser carbine.

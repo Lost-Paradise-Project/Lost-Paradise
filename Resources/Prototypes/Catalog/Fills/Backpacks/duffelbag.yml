@@ -107,9 +107,11 @@
     contents:
       - id: WeaponLauncherChinaLake
       - id: GrenadeBlast
-        amount: 4
+        amount: 6
       - id: GrenadeFrag
-        amount: 4
+        amount: 6
+      - id: GrenadeEMP
+        amount: 2
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -121,13 +123,7 @@
     contents:
       - id: WeaponRifleM90GrenadeLauncher
       - id: MagazineRifle
-        amount: 2
-      - id: GrenadeBlast
-        amount: 2
-      - id: GrenadeFlash
-        amount: 2
-      - id: GrenadeFrag
-        amount: 2
+        amount: 4
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateAmmo

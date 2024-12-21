@@ -124,7 +124,7 @@
     size: Normal
     shape:
     - 0,0,4,0
-    sprite: Objects/Weapons/Guns/Shotguns/db_shotgun_inhands_64x.rsi
+    sprite: DeltaV/Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
     fireRate: 2
@@ -158,7 +158,7 @@
   - type: Clothing
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/enforcer.rsi
   - type: Item
-    sprite: Objects/Weapons/Guns/Shotguns/enforcer_inhands_64x.rsi
+    sprite: DeltaV/Objects/Weapons/Guns/Shotguns/enforcer.rsi
   - type: BallisticAmmoProvider
   - type: Wieldable
   - type: GunRequiresWield
@@ -173,7 +173,7 @@
 
 - type: entity
   name: Kammerer
-  parent: [BaseWeaponShotgun, BaseGunWieldable]
+  parent: BaseWeaponShotgun
   id: WeaponShotgunKammerer
   description: When an old Remington design meets modern materials, this is the result. A favourite weapon of militia forces throughout many worlds. Uses .50 shotgun shells.
   components:
@@ -186,13 +186,11 @@
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/pump.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
-  - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: BallisticAmmoProvider
     capacity: 4
   - type: Tag
     tags:
     - WeaponShotgunKammerer
-  - type: Wieldable
 
 - type: entity
   name: sawn-off shotgun
@@ -206,7 +204,7 @@
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V
   - type: Item
     size: Small
-    sprite: Objects/Weapons/Guns/Shotguns/sawn_inhands_64x.rsi
+    sprite: DeltaV/Objects/Weapons/Guns/Shotguns/sawn.rsi
   - type: Gun
     fireRate: 4
     fireOnDropChance: 0.5
@@ -293,7 +291,7 @@
     size: Normal
     shape:
     - 0,0,4,0
-    sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun_inhands_64x.rsi
+    sprite: DeltaV/Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Gun
     fireRate: 4 #No reason to stifle the firerate since you have to manually reload every time anyways.

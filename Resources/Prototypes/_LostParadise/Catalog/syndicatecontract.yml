@@ -1,0 +1,54 @@
+- type: listing
+  id: LPPCybersunSet
+  name: cybersun-set-category-name
+  description: cybersun-set-category-description
+  icon: { sprite: /Textures/_LostParadise/Icons/iconscontract.rsi, state: cbs }
+  productEntity: LPPCrateCybersunStarter
+  cost:
+    Telecrystal: 1337
+  categories:
+  - LPPcontract
+
+- type: listing
+  id: LPPDonkSet
+  name: donk-set-category-name
+  description: donk-set-category-description
+  icon: { sprite: /Textures/_LostParadise/Icons/iconscontract.rsi, state: dnk }
+  productEntity: LPPCrateDonkStarter
+  cost:
+    Telecrystal: 1337
+  categories:
+  - LPPcontract
+
+- type: listing
+  id: LPPGorlexSet
+  name: grolex-set-category-name
+  description: grolex-set-category-description
+  icon: { sprite: /Textures/_LostParadise/Icons/iconscontract.rsi, state: grx }
+  productEntity: LPPCrateGorlexStarter
+  cost:
+    Telecrystal: 1337
+  categories:
+  - LPPcontract
+
+- type: listing
+  id: LPPClassicSet
+  name: Classic-set-category-name
+  description: Classic-set-category-description
+  icon: { sprite: /Textures/_LostParadise/Icons/iconscontract.rsi, state: cls }
+  productEntity: LPPCrateClassicStart
+  cost:
+    Telecrystal: 1337
+  categories:
+  - LPPcontract
+
+- type: listing
+  id: LPPUplinksSet
+  name: Uplink-set-category-name
+  description: Uplink-set-category-description
+  icon: { sprite: /Textures/Objects/Specific/Syndicate/telecrystal.rsi, state: telecrystal }
+  productEntity: LPPBaseUplinkRadio450TC
+  cost:
+    Telecrystal: 1337
+  categories:
+  - LPPcontract

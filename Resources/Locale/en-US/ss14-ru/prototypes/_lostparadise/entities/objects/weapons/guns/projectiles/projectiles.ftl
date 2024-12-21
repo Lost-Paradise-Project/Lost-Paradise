@@ -6,3 +6,5 @@ ent-LPPBecbowarrow = ecbowshot
     .desc = Not too bad, but you still don't want to get hit by it.
 ent-LPPBulletCutter = Cutter bolt
     .desc = Not too bad, but you still don't want to get hit by it.
+ent-LPPNail = Nail
+    .desc = Not too bad, but you still don't want to get hit by it.

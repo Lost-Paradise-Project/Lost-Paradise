@@ -15,7 +15,7 @@
   description: lpp-hos-catalog-weapon-pf20-desc
   productEntity: LPPWeaponPistolPF20
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
   - LPPhosweapon
 
@@ -25,7 +25,7 @@
   description: lpp-hos-catalog-weapon-n1984-desc
   productEntity: WeaponPistolN1984
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
   - LPPhosweapon
 
@@ -45,7 +45,7 @@
   description: lpp-hos-catalog-weapon-mk32-desc
   productEntity: WeaponPistolUniversal
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 4
   categories:
   - LPPhosweapon
 
@@ -65,7 +65,7 @@
   description: lpp-hos-catalog-weapon-fitz-desc
   productEntity: WeaponRevolverFitz
   cost:
-    LPPCentcoin: 1
+    LPPCentcoin: 2
   categories:
   - LPPhosweapon
 
@@ -75,7 +75,7 @@
   description: lpp-hos-catalog-weapon-snub45-desc
   productEntity: WeaponRevolverSnub
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
   - LPPhosweapon
 
@@ -85,7 +85,7 @@
   description: lpp-hos-catalog-weapon-panther-desc
   productEntity: LPPWeaponRevolverPanther
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 5
   categories:
   - LPPhosweapon
 
@@ -105,7 +105,7 @@
   description: lpp-hos-catalog-weapon-inspector-desc
   productEntity: LPPWeaponRevolverInspectorCollection
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
   - LPPhosweapon
 
@@ -115,7 +115,7 @@
   description: lpp-hos-catalog-weapon-judge-desc
   productEntity: LPPWeaponRevolverJudge
   cost:
-    LPPCentcoin: 5
+    LPPCentcoin: 7
   categories:
   - LPPhosweapon
 
@@ -125,7 +125,7 @@
   description: lpp-hos-catalog-weapon-dominator-desc
   productEntity: LPPWeaponLaserGun
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 5
   categories:
   - LPPhosweapon
 
@@ -135,7 +135,7 @@
   description: lpp-hos-catalog-weapon-pulsepistol-desc
   productEntity: WeaponPulsePistol
   cost:
-    LPPCentcoin: 7
+    LPPCentcoin: 9
   categories:
   - LPPhosweapon
 
@@ -145,7 +145,7 @@
   description: lpp-hos-catalog-weapon-pdw9-desc
   productEntity: WeaponEnergyGunPistol
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 7
   categories:
   - LPPhosweapon
 
@@ -155,7 +155,7 @@
   description: lpp-hos-catalog-weapon-advancedlaser-desc
   productEntity: WeaponAdvancedLaser
   cost:
-    LPPCentcoin: 6
+    LPPCentcoin: 11
   categories:
   - LPPhosweapon
 
@@ -165,7 +165,7 @@
   description: lpp-hos-catalog-weapon-shotgunsawn-desc
   productEntity: WeaponShotgunSawn
   cost:
-    LPPCentcoin: 1
+    LPPCentcoin: 2
   categories:
   - LPPhosweapon
 
@@ -175,7 +175,7 @@
   description: lpp-hos-catalog-weapon-shotgunkammerer-desc
   productEntity: WeaponShotgunKammerer
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 4
   categories:
   - LPPhosweapon
 
@@ -185,7 +185,7 @@
   description: lpp-hos-catalog-weapon-shotgunadjutant-desc
   productEntity: WeaponShotgunAdjutant
   cost:
-    LPPCentcoin: 4
+    LPPCentcoin: 6
   categories:
   - LPPhosweapon
 
@@ -195,7 +195,7 @@
   description: lpp-hos-catalog-weapon-shotgunenforcer-desc
   productEntity: WeaponShotgunEnforcer
   cost:
-    LPPCentcoin: 5
+    LPPCentcoin: 7
   categories:
   - LPPhosweapon
 
@@ -205,7 +205,7 @@
   description: lpp-hos-catalog-weapon-shotgunlemington-desc
   productEntity: LPPWeaponShotgunLemington
   cost:
-    LPPCentcoin: 5
+    LPPCentcoin: 8
   categories:
   - LPPhosweapon
 
@@ -245,7 +245,7 @@
   description: lpp-hos-catalog-weapon-riflem14-desc
   productEntity: LPPWeaponRifleM14
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
   - LPPhosweapon
 
@@ -255,7 +255,7 @@
   description: lpp-hos-catalog-weapon-riflem1a-desc
   productEntity: LPPWeaponRifleM1A
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 4
   categories:
   - LPPhosweapon
 
@@ -265,7 +265,7 @@
   description: lpp-hos-catalog-weapon-sniperleverpravoved-desc
   productEntity: LPPWeaponSniperLeverPravoved
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 5
   categories:
   - LPPhosweapon
 
@@ -275,7 +275,7 @@
   description: lpp-hos-catalog-weapon-riflevulcan-desc
   productEntity: WeaponRifleVulcan
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 5
   categories:
   - LPPhosweapon
 
@@ -285,14 +285,14 @@
   description: lpp-hos-catalog-weapon-riflem90-desc
   productEntity: WeaponRifleM90
   cost:
-    LPPCentcoin: 5
+    LPPCentcoin: 9
   categories:
   - LPPhosweapon
 
 - type: listing
   id: LPPHosCatalogWeaponRifleLecter
   name: lpp-hos-catalog-weapon-riflelecter-name
-  description: lpp-hos-catalog-weapon-riflelecter-de
+  description: lpp-hos-catalog-weapon-riflelecter-desc
   productEntity: WeaponRifleLecter
   cost:
     LPPCentcoin: 5
@@ -305,7 +305,7 @@
   description: lpp-hos-catalog-weapon-riflem4a1-desc
   productEntity: LPPM4A1
   cost:
-    LPPCentcoin: 5
+    LPPCentcoin: 10
   categories:
   - LPPhosweapon
 
@@ -315,7 +315,7 @@
   description: lpp-hos-catalog-weapon-riflestg144-desc
   productEntity: LPPWeaponRifleSTG144
   cost:
-    LPPCentcoin: 5
+    LPPCentcoin: 9
   categories:
   - LPPhosweapon
 
@@ -325,7 +325,7 @@
   description: lpp-hos-catalog-weapon-submachinegunwt550-desc
   productEntity: WeaponSubMachineGunWt550
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 6
   categories:
   - LPPhosweapon
 
@@ -355,7 +355,7 @@
   description: lpp-hos-catalog-weapon-lasercarbine-desc
   productEntity: WeaponLaserCarbine
   cost:
-    LPPCentcoin: 1
+    LPPCentcoin: 2
   categories:
   - LPPhosweapon
 
@@ -365,7 +365,7 @@
   description: lpp-hos-catalog-weapon-lasergun-desc
   productEntity: WeaponLaserGun
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 3
   categories:
   - LPPhosweapon
 
@@ -385,7 +385,7 @@
   description: lpp-hos-catalog-weapon-xraycannon-desc
   productEntity: WeaponXrayCannon
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 5
   categories:
   - LPPhosweapon
 
@@ -395,7 +395,7 @@
   description: lpp-hos-catalog-weapon-lasercannon-desc
   productEntity: WeaponLaserCannon
   cost:
-    LPPCentcoin: 4
+    LPPCentcoin: 6
   categories:
   - LPPhosweapon
 
@@ -405,7 +405,7 @@
   description: lpp-hos-catalog-weapon-gunlasercarbineautomatic-desc
   productEntity: WeaponGunLaserCarbineAutomatic
   cost:
-    LPPCentcoin: 5
+    LPPCentcoin: 8
   categories:
   - LPPhosweapon
 
@@ -415,7 +415,7 @@
   description: lpp-hos-catalog-weapon-hoslaserpistol-desc
   productEntity: LPPWeaponHoSlaserPistol
   cost:
-    LPPCentcoin: 7
+    LPPCentcoin: 9
   categories:
   - LPPhosweapon
 
@@ -558,16 +558,6 @@
   productEntity: LPPClothingOuterVestUrbanPG
   cost:
     LPPCentcoin: 5
-  categories:
-  - LPPhosarmor
-
-- type: listing
-  id: LPPHosCatalogClothingOuterArmorHeavyRed
-  name: lpp-hos-catalog-clothing-outer-armor-heavyred-name
-  description: lpp-hos-catalog-clothing-outer-armor-heavyred-desc
-  productEntity: ClothingOuterArmorHeavyRed
-  cost:
-    LPPCentcoin: 9
   categories:
   - LPPhosarmor
 
@@ -954,16 +944,6 @@
   categories:
   - LPPhosbrigmed
 
-- type: listing
-  id: LPPHosCatalogOmnizineChemistryBottle
-  name: lpp-hos-catalog-omnizine-chemistry-bottle-name
-  description: lpp-hos-catalog-omnizine-chemistry-bottle-desc
-  productEntity: OmnizineChemistryBottle
-  cost:
-    LPPCentcoin: 3
-  categories:
-  - LPPhosbrigmed
-
 #memetech
 
 - type: listing
@@ -1002,7 +982,7 @@
   description: lpp-hos-catalog-crate-material-plasteel-desc
   productEntity: CrateMaterialPlasteel
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 4
   categories:
   - LPPhosbrigtech
 
@@ -1012,27 +992,7 @@
   description: lpp-hos-catalog-powercell-hyper-desc
   productEntity: PowerCellHyper
   cost:
-    LPPCentcoin: 1
-  categories:
-  - LPPhosbrigtech
-
-- type: listing
-  id: LPPHosCatalogPowerCellMicroreactor
-  name: lpp-hos-catalog-powercell-microreactor-name
-  description: lpp-hos-catalog-powercell-microreactor-desc
-  productEntity: PowerCellMicroreactor
-  cost:
-    LPPCentcoin: 3
-  categories:
-  - LPPhosbrigtech
-
-- type: listing
-  id: LPPHosCatalogPowerCellAntiqueProto
-  name: lpp-hos-catalog-powercell-antiqueproto-name
-  description: lpp-hos-catalog-powercell-antiqueproto-desc
-  productEntity: PowerCellAntiqueProto
-  cost:
-    LPPCentcoin: 5
+    LPPCentcoin: 4
   categories:
   - LPPhosbrigtech
 
@@ -1062,7 +1022,7 @@
   description: lpp-hos-catalog-welder-industrial-advanced-desc
   productEntity: WelderIndustrialAdvanced
   cost:
-    LPPCentcoin: 1
+    LPPCentcoin: 2
   categories:
   - LPPhosbrigtech
 
@@ -1082,7 +1042,7 @@
   description: lpp-hos-catalog-sheet-rpglass-desc
   productEntity: SheetRPGlass
   cost:
-    LPPCentcoin: 3
+    LPPCentcoin: 4
   categories:
   - LPPhosbrigtech
 
@@ -1092,7 +1052,7 @@
   description: lpp-hos-catalog-sheet-ruglass-desc
   productEntity: SheetRUGlass
   cost:
-    LPPCentcoin: 4
+    LPPCentcoin: 5
   categories:
   - LPPhosbrigtech
 
@@ -1137,16 +1097,6 @@
   - LPPmisc
 
 - type: listing
-  id: LPPHosCatalogClothingShoesBootsMagHunter
-  name: lpp-hos-catalog-clothing-shoes-boots-mag-hunter-name
-  description: lpp-hos-catalog-clothing-shoes-boots-mag-hunter-desc
-  productEntity: LPPClothingShoesBootsMagHunter
-  cost:
-    LPPCentcoin: 2
-  categories:
-  - LPPmisc
-
-- type: listing
   id: LPPHosCatalogClothingBackpackHunter
   name: lpp-hos-catalog-clothing-backpack-hunter-name
   description: lpp-hos-catalog-clothing-backpack-hunter-desc
@@ -1167,16 +1117,6 @@
   - LPPmisc
 
 - type: listing
-  id: LPPHosCatalogMiningDrill
-  name: lpp-hos-catalog-miningdrill-name
-  description: lpp-hos-catalog-miningdrill-desc
-  productEntity: MiningDrill
-  cost:
-    LPPCentcoin: 2
-  categories:
-  - LPPmisc
-
-- type: listing
   id: LPPHosCatalogCrateFoodMRE
   name: lpp-hos-catalog-crate-foodmre-name
   description: lpp-hos-catalog-crate-foodmre-desc
@@ -1192,7 +1132,7 @@
   description: lpp-hos-catalog-fireaxe-desc
   productEntity: FireAxe
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 4
   categories:
   - LPPhosbrigtech
 
@@ -1202,7 +1142,7 @@
   description: lpp-hos-catalog-hammer-desc
   productEntity: LPPHammer
   cost:
-    LPPCentcoin: 5
+    LPPCentcoin: 7
   categories:
   - LPPhosbrigtech
 
@@ -1282,7 +1222,7 @@
   description: lpp-hos-catalog-generator-basic-desc
   productEntity: GeneratorBasic
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 4
   categories:
   - LPPhosbrigtech
 
@@ -1292,7 +1232,7 @@
   description: lpp-hos-catalog-rubberbaton-desc
   productEntity: LPPRubberBaton
   cost:
-    LPPCentcoin: 2
+    LPPCentcoin: 1
   categories:
   - LPPhosweapon
 

@@ -1,0 +1,12 @@
+ent-LPPCrateDonkStarter = { ent-LPPCrateDonk }
+    .suffix = Nukeops
+    .desc = { ent-LPPCrateDonk.desc }
+ent-LPPCrateCybersunStarter = { ent-LPPCrateCybersun }
+    .suffix = Nukeops
+    .desc = { ent-LPPCrateCybersun.desc }
+ent-LPPCrateGorlexStarter = { ent-LPPCrateGorlex }
+    .suffix = Nukeops
+    .desc = { ent-LPPCrateGorlex.desc }
+ent-LPPCrateClassicStart = { ent-CrateSyndicate }
+    .suffix = Nukeops
+    .desc = { ent-CrateSyndicate.desc }
