@@ -40,3 +40,7 @@ ent-LPPClothingOuterHardsuitMiningPlus = Hardsuit HpI-20a+ "Rodos"
     .desc = Hephaestus Industries upgraded hardsuit, providing more protection from blunt and slash damages, sacrificing protection from piercing damage. Marked to indicate that this model has protection against most types of exposure. Looks pretty light.
 ent-LPPClothingOuterHardsuitMiningJuggernaut = Hardsuit HpIP-22 "Argos"
     .desc = Hephaestus Industries juggernaut hardsuit, providing lots of protection from different types of damages. It's desined to work in most harsh enviroments. Looks so heavy...
+ent-ClothingOuterHardsuitMercenary = mercenary hardsuit
+    .desc = A special suit that protects from the danger of space, employed by mercenary forces. Not certified to be blunderbuss proof.
+ent-ClothingOuterHardsuitMaximPrototype = experimental salvager hardsuit
+    .desc = Fire. Heat. These things forge great weapons, they also forge great salvagers.

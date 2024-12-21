@@ -1,0 +1,42 @@
+- type: entity
+  id: ClothingOuterCoatBloodCultRobes
+  name: cult robes
+  parent:
+  - ClothingOuterStorageToggleableBase
+  - ClothingOuterArmorBasic
+  description: There's no cult without classic red/crimson cult robes with bulletproof vests.
+  suffix: Frontier
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/cult_robes.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/cult_robes.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodBloodCulthood
+
+- type: entity
+  id: ClothingOuterCoatCultJanitor
+  name: cult janitor robes
+  parent:
+  - ClothingOuterStorageBase
+  - ClothingOuterArmorBulletproof
+  description: An unholy custodian's garb. Surprisingly comfortable.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/cult_janitor_robe.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/cult_janitor_robe.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHoodBloodCulthood
+  name: cult hood
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hoods/cult.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hoods/cult.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair

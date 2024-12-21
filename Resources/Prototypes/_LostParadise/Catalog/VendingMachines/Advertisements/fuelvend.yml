@@ -1,0 +1,15 @@
+- type: messagePack
+  id: FuelVendAds
+  messages:
+  - advertisement-fuelvend-1
+  - advertisement-fuelvend-2
+  - advertisement-fuelvend-3
+  - advertisement-fuelvend-4
+  - advertisement-fuelvend-5
+  - advertisement-fuelvend-6
+  - advertisement-fuelvend-7
+  - advertisement-fuelvend-8
+  - advertisement-fuelvend-9
+  - advertisement-fuelvend-10
+  - advertisement-fuelvend-11
+  - advertisement-fuelvend-12

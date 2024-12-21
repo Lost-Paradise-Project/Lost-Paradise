@@ -1,0 +1,10 @@
+ent-StructureWeaponRackBase = Стойка для крупного оружия
+    .desc = Хранилище для ускоренных мер по умиротворению.
+ent-StructurePistolRack = Стойка для пистолетов
+    .suffix = Пустой
+    .desc = { ent-StructureWeaponRackSlots.desc }
+ent-StructurePistolRackWallmounted = { ent-StructurePistolRack }
+    .suffix = Пустой, Настенный
+    .desc = { ent-StructurePistolRack.desc }
+ent-StructureWeaponRackSlots = { ent-StructureWeaponRackBase }
+    .desc = { ent-StructureWeaponRackBase.desc }

@@ -1,0 +1,9 @@
+ent-SuitStorageMercenary = { ent-SuitStorageBase }
+    .suffix = Наемник
+    .desc = { ent-SuitStorageBase.desc }
+ent-SuitStorageMining = { ent-SuitStorageBase }
+    .suffix = Шахтёрский
+    .desc = { ent-SuitStorageBase.desc }
+ent-SuitStorageQuartermaster = { ent-SuitStorageBase }
+    .suffix = Квартирмейстер
+    .desc = { ent-SuitStorageBase.desc }

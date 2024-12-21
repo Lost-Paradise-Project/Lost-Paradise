@@ -314,7 +314,7 @@
         orGroup: GiftPool
       - id: ClothingOuterHoodieGrey
         orGroup: GiftPool
-      - id: ClothingOuterVestWebMerc
+      - id: ClothingOuterVestWebMercenary
         orGroup: GiftPool
       - id: ClothingShoesFlippers
         orGroup: GiftPool

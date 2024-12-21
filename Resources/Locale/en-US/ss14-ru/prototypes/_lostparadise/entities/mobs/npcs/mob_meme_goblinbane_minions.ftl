@@ -1,0 +1,10 @@
+ent-MobMemePossessedMop = possessed mop
+    .desc = { ent-BaseMobMemeGoblinbane.desc }
+ent-MobMemePossessedSpray = possessed spray
+    .desc = { ent-BaseMobMemeGoblinbane.desc }
+ent-MobMemePossessedBucket = possessed mop bucket
+    .desc = { ent-BaseMobMemeGoblinbane.desc }
+ent-MopBucketDimnsionPortal = mop bucket portal
+    .desc = A portal to a mop bucket dimension. Obviously. It says so on the label at the corner.
+ent-CleanlinessDimensionPortal = cleanliness dimension portal
+    .desc = A portal to the dimension of utter cleanliness. No goblins allowed.

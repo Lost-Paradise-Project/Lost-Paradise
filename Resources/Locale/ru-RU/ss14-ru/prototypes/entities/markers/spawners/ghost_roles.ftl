@@ -19,4 +19,3 @@ ent-SpawnPointGhostDragon = { ent-MarkerBase }
 ent-SpawnPointGhostSpaceNinja = Спавнер роли призрак
     .suffix = Космический ниндзя
     .desc = { ent-MarkerBase.desc }
-    

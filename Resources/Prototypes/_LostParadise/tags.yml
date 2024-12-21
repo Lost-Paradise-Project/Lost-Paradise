@@ -171,3 +171,38 @@
 
 - type: Tag
   id: LPPArmband  # Нарукавная повязка
+
+# [Тэги экспедиций]
+
+- type: Tag
+  id: LPPSalvageExperiment
+
+- type: Tag
+  id: LPPLavaBrig
+
+- type: Tag
+  id: LPPMineshaft
+
+- type: Tag
+  id: LPPSnowyLabs
+
+- type: Tag
+  id: LPPVirologyLab
+
+- type: Tag
+  id: LPPSalvageOutpost
+
+- type: Tag
+  id: LPPLavaMercenary
+
+- type: Tag
+  id: LPPCaveFactory
+
+- type: Tag
+  id: ObjectOfSpiritualSignificance
+
+- type: Tag
+  id: VGRoidInterior
+
+- type: Tag
+  id: CrossbowBolt

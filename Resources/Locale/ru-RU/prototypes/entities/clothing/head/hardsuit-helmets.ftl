@@ -16,8 +16,8 @@ ent-ClothingHeadHelmetHardsuitSecurity = Шлем FPA-83s
     .desc = Громоздкий шлем тактического скафандра Baghatur. Защищает владельца от пуль и взрывов ценой мобильности.
 ent-ClothingHeadHelmetHardsuitBrigmedic = Шлем FPA-84m
     .desc = Громоздкий шлем тактического скафандра Tsagaan. Защищает владельца от пуль и взрывов ценой мобильности.
-ent-ClothingHeadHelmetHardsuitCombatStandard = Шлем FPA-85 
-    .desc = 
+ent-ClothingHeadHelmetHardsuitCombatStandard = Шлем FPA-85
+    .desc =
         Громоздкий элемент тактического сканд-ра Мк.II с потайным карманом.
         Защищает своего владельца от баллистических и взрывоопасных предметов за счет потери мобильности.
 ent-ClothingHeadHelmetHardsuitCombatOfficer = Шлем FPA-85s
@@ -33,7 +33,7 @@ ent-ClothingHeadHelmetHardsuitWarden = Шлем FPA-92s
 ent-ClothingHeadHelmetHardsuitCombatRiot = Шлем FPA-93
     .desc =
         Модифицированный для борьбы с беспорядками шлем модели Sulde Mk.II.
-        Представляет лучшую защиту, чем другие модели с такой же мобильностью.. 
+        Представляет лучшую защиту, чем другие модели с такой же мобильностью..
 ent-ClothingHeadHelmetHardsuitCombatWarden = Шлем FPA-93s
     .desc = { ent-ClothingHeadHelmetHardsuitCombatRiot.desc }
 ent-ClothingHeadHelmetHardsuitCap = Шлем NT-42c
@@ -52,9 +52,9 @@ ent-ClothingHeadHelmetHardsuitSecurityRed = Шлем FPA-98s
     .desc = Высококачественный шлем модели тактического костюма Dayicin. Обеспечивает лучшую защиту, чем стандартный тактический костюм без значительной потери мобильности.
 ent-ClothingHeadHelmetHardsuitCombatAdvanced = Шлем FPA-99
     .desc =
-         Высококачественный шлем модели тактического костюма Dayicin Mk.II. 
-         Особенности легкой конструкции, предлагают такую же защиту, как на стандартном тактическом костюме без значительной потери мобильности.
-ent-ClothingHeadHelmetHardsuitCombatHoS = Шлем FPA-99s 
+        Высококачественный шлем модели тактического костюма Dayicin Mk.II. 
+        Особенности легкой конструкции, предлагают такую же защиту, как на стандартном тактическом костюме без значительной потери мобильности.
+ent-ClothingHeadHelmetHardsuitCombatHoS = Шлем FPA-99s
     .desc = { ent-ClothingHeadHelmetHardsuitCombatAdvanced.desc }
 ent-ClothingHeadHelmetHardsuitLuxury = Шлем HpI-20c
     .desc = Модифицированный шлем модли Minos, покрашен в цвета Квартирмейстера и предоставляет защиту аналогичную скафандру.
@@ -85,7 +85,7 @@ ent-ClothingHeadHelmetHardsuitSyndieReverseEngineered = Шлем NTSA-122
 ent-ClothingHeadHelmetHardsuitJuggernautReverseEngineered = Шлем NTSA-126
     .desc = Очень крепкий шлем, изготовленный по специальному заказу Департамента Специальных Операций на дизайне тактического костюма "Guan Yu".
 ent-ClothingHeadHelmetHardsuitERTCentcomm = Шлем NT-444c
-    .desc = Поношенный специальный тактический шлем Офицера Центрального Командования. 
+    .desc = Поношенный специальный тактический шлем Офицера Центрального Командования.
 ent-ClothingHeadHelmetHardsuitERTLeader = Шлем NT-444l
     .desc = Специальный тактический шлем, предназначенный для командования ОБР.
 ent-ClothingHeadHelmetHardsuitERTEngineer = Шлем NT-444e
@@ -103,6 +103,6 @@ ent-ClothingHeadHelmetHardsuitDeathsquad = Шлем NT-662ua
 ent-ClothingHeadHelmetHardsuitClown = Шлем скафандра клоуна
     .desc = Красочный шлем легкого скафандра клоуна. При тщательном осмотре кажется, что это обычный шлем скафандра, разукрашенный мелками, а клоунская маска приклеена поверх него.
 ent-ClothingHeadHelmetHardsuitMime = Шлем скафандра мима
-    .desc = Шлем лёгкого скафандра мима. При более тщательном осмотре, кажется, что это обычный шлем скафандра, разукрашенный мелками, а маска мима приклеена поверх него. 
+    .desc = Шлем лёгкого скафандра мима. При более тщательном осмотре, кажется, что это обычный шлем скафандра, разукрашенный мелками, а маска мима приклеена поверх него.
 ent-ClothingHeadHelmetHardsuitSanta = Шлем DNK-31
     .desc = Праздничный шлем производства Donk Co., предназначенный для их специальных развлекательных мероприятий, предоставляет стандартную защиту от космоса.

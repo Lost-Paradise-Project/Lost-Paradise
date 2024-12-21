@@ -20,3 +20,7 @@ ent-LPPClothingBackpackDuffelContractorSyndicateHardsuitBundle = Набор ск
     .desc = Содержит набор скафандра контрактника
 ent-LPPClothingBackpackDuffelSyndicateOperative = Вещмешок контрактника
     .desc = { ent-LPPClothingBackpackDuffelContractor.desc }
+ent-ClothingBackpackDuffelSurgeryAdvancedFilled = advanced surgical duffel bag
+    .desc = A large duffel bag for holding extra medical supplies - this one seems to be designed for holding advanced surgical tools.
+ent-ClothingBackpackDuffelSurgeryImpovFilled = improvised surgical duffel bag
+    .desc = This looks like set of improvised surgical tools put together by someone.

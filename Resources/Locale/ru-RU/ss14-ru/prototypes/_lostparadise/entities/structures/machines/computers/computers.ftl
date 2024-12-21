@@ -10,3 +10,5 @@ ent-LPPRDComputerComms = Консоль связи научного директ
     .desc = Консоль, используемая для подачи объявлений на всю станцию от конкретного главы.
 ent-LPPCmoComputerComms = Консоль связи главного врача
     .desc = Консоль, используемая для подачи объявлений на всю станцию от конкретного главы.
+ent-LPPComputerSalvageExpedition = salvage expeditions computer
+    .desc = Used to accept salvage missions, if you're tough enough.

@@ -34,3 +34,7 @@ ent-LPPClothingHeadHelmetHardsuitMiningPlus = HpI-20a+ helmet
     .desc = Good helmet for every needs.
 ent-LPPClothingHeadHelmetHardsuitMiningJuggernaut = HpIP-22 helmet
     .desc = Good helmet for every needs.
+ent-ClothingHeadHelmetHardsuitMercenary = mercenary hardsuit helmet
+    .desc = Lightly armored hardsuit helmet for mercenary needs.
+ent-ClothingHeadHelmetHardsuitMaximPrototype = experimental salvager helmet
+    .desc = A predication of decay washes over your mind.

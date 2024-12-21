@@ -1,0 +1,11 @@
+- type: entity
+  id: StructurePistolRackWallmountedMercenary
+  parent: StructurePistolRackWallmounted
+  suffix: Mercenary, Empty, Wallmount
+  components:
+  - type: Sprite
+    layers:
+    - state: base-pistol-wall
+      color: "#7b7b3f"
+    - state: base-pistol-wall-decal
+      color: "#b8b873"

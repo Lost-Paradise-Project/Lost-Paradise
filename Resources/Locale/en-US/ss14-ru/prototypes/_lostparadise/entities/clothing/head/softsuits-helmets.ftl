@@ -1,0 +1,10 @@
+ent-ClothingHeadEVAHelmetWithLightBase = base EVA helmet with light
+    .desc = { ent-ClothingHeadEVAHelmetBase.desc }
+ent-ClothingHeadEVAHelmetEngineer = engineer EVA helmet
+    .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
+ent-ClothingHeadEVAHelmetAtmosTech = atmospheric technician EVA helmet
+    .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
+ent-ClothingHeadEVAHelmetCargo = cargo EVA helmet
+    .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
+ent-ClothingHeadEVAHelmetSalvage = salvage specialist EVA helmet
+    .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
