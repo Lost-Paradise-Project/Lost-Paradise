@@ -1,0 +1,145 @@
+# - type: entity
+#   parent: Clothing
+#   id: LPPIDCardStandardSyn
+#   name: identification card
+#   description: A card necessary to access various areas aboard the station.
+#   abstract: true
+#   components:
+#   - type: Sprite
+#     sprite: _LostParadise/Objects/Misc/id_cards.rsi
+#     scale: 0.55, 0.55
+#   - type: Clothing
+#     slots:
+#     - idcard
+#     sprite: _LostParadise/Objects/Misc/id_cards.rsi
+#   - type: Item
+#     size: Small
+#     heldPrefix: syn
+#     storedRotation: -90
+#   - type: Access
+#   - type: IdCard
+#   - type: StationRecordKeyStorage
+#   - type: Tag
+#     tags:
+#     - DoorBumpOpener
+#     - WhitelistChameleon
+#   - type: StealTarget
+#     stealGroup: IDCard
+
+# #IDs with layers
+
+# - type: entity
+#   parent: LPPIDCardStandardSyn
+#   id: LPPCaptainIDCardSyn
+#   name: paptain ID card syndicate
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: idcaptain_syn
+#   - type: PresetIdCard
+#     job: SyndicateCap #професия
+
+# - type: entity
+#   parent: LPPIDCardStandardSyn
+#   id: LPPHoPIDCardSyn
+#   name: head of personnel ID card syndicate
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: idheadofpersonnel_syn
+#   - type: PresetIdCard
+#     job: SyndicateWoC #професия
+
+# - type: entity
+#   parent: LPPIDCardStandardSyn
+#   id: LPPHoSIDCardSyn
+#   name: head of security ID card syndicate
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: idheadofsecurity_syn
+#   - type: PresetIdCard
+#     job: SyndicateHOS #професия
+
+
+# - type: entity
+#   parent: LPPIDCardStandardSyn
+#   id: LPPServiceWorkerIDCardSyn
+#   name: service worker ID card syndicate
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: idintern_service_syn
+#   - type: PresetIdCard
+#     job: SyndicateChefSyn #професия
+
+
+# - type: entity
+#   parent: LPPIDCardStandardSyn
+#   id: LPPMedicalIDCardSyn
+#   name: medical ID card syndicate
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: idmedicaldoctor_syn
+#   - type: PresetIdCard
+#     job: SyndicateMedicalSyn #професия
+
+
+# - type: entity
+#   parent: LPPIDCardStandardSyn
+#   id: LPPResearchIDCardSyn
+#   name: research ID card syndicate
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: idscientist_syn
+#   - type: PresetIdCard
+#     job: SyndicateScientist #професия
+
+
+# - type: entity
+#   parent: LPPIDCardStandardSyn
+#   id: LPPSecurityIDCardSyn
+#   name: security ID card syndicate
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: idsecurityofficer_syn
+#   - type: PresetIdCard
+#     job: SyndicateSecurity #професия
+
+
+# - type: entity
+#   parent: LPPIDCardStandardSyn
+#   id: LPPSalvageIDCardSyn
+#   name: salvage ID card syndicate
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: idshaftminer_syn
+#   - type: PresetIdCard
+#     job: SyndicateShaftMinerSyn #професия
+
+
+# - type: entity
+#   parent: LPPIDCardStandardSyn
+#   id: LPPEngineeringIDCardSyn
+#   name: engineering ID card syndicate
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: idstationengineer_syn
+#   - type: PresetIdCard
+#     job: SyndicateEngineer #професия
+
+# - type: entity
+#   parent: LPPIDCardStandardSyn
+#   id: LPPPrisonerIDCardSyn
+#   name: paptain ID card syndicate
+#   components:
+#   - type: Sprite
+#     layers:
+#     - state: prisoner_syn
+#   - type: PresetIdCard
+#     job: SyndicatePrisonerSyn #професия

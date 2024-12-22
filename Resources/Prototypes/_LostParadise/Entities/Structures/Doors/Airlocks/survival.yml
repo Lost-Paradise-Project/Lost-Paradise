@@ -45,5 +45,16 @@
     securityLevel: medSecurity
   - type: PaintableAirlock
     department: Command
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsGateway ]
+  - type: AccessReader
+    access: [["Gateway"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsGateway
+  suffix: Gateway, Locked
+  components:
   - type: AccessReader
     access: [["Gateway"]]

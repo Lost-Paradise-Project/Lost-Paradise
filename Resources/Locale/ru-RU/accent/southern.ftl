@@ -6,4 +6,7 @@ accent-southern-words-3 = не
 accent-southern-words-replace-3 = неь
 accent-southern-words-4 = нет
 accent-southern-words-replace-4 = неа
-
+accent-southern-words-5 = aren't
+accent-southern-words-replace-5 = ain't
+accent-southern-words-6 = are not
+accent-southern-words-replace-6 = ain't

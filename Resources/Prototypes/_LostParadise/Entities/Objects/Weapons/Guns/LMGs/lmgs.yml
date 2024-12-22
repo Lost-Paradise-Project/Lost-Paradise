@@ -1,0 +1,116 @@
+- type: entity
+  name: Lewis gun
+  id: LPPWeaponLightMachinegunLewis
+  parent: BaseWeaponRifle
+  description: A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses .30 rifle ammo.
+  components:
+  - type: Sprite
+    scale: 1.3, 1.3
+    sprite: _LostParadise/Objects/Weapons/Guns/LMGs/lewis.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Appearance
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineLightRifleMaxim
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRiflePan
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -20
+    maxAngle: -30
+  - type: Gun
+    minAngle: 24
+    maxAngle: 35
+    angleIncrease: 3
+    angleDecay: 10
+    fireRate: 4
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/LMGs/lewis.rsi
+    quickEquip: false
+    slots:
+    - Back
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+- type: entity
+  name: Armalite "Stoner-25"
+  id: LPPWeaponLightMachinegunStoner25
+  parent: BaseWeaponRifle
+  description: Good old classic AR... But it's bullpup... And LMG... There's no God, son. Uses .25 caseless ammo.
+  components:
+  - type: Sprite
+    scale: 1.3, 1.3
+    sprite: _LostParadise/Objects/Weapons/Guns/LMGs/lmg16_25.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Appearance
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineCaselessRifle10x24
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineCaselessRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeCaselessRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeCaselessRifle
+  - type: Wieldable
+    unwieldOnUse: false
+  - type: GunWieldBonus
+    minAngle: -19
+    maxAngle: -27
+  - type: Gun
+    minAngle: 24
+    maxAngle: 35
+    angleIncrease: 5
+    angleDecay: 10
+    fireRate: 11
+    selectedMode: FullAuto
+    availableModes:
+      - FullAuto
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/LMGs/lmg16_25.rsi
+    quickEquip: false
+    slots:
+    - Back
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true

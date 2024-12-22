@@ -117,3 +117,511 @@
       - id: LPPWeaponRevolverOC-38
       - id: PinpointerSyndicateNuclear
       - id: DeathAcidifierImplanter
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelHardsuitDonkLeader
+  name: donk leader hardsuit bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitDonkCommander
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelHardsuitDonkTrooper
+  name: donk trooper hardsuit bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitDonkTrooper
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelHardsuitDonkMedic
+  name: donk medic hardsuit bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitDonkMedic
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelHardsuitDonkElite
+  name: donk elite hardsuit bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitDonkElite
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelMars
+  name: MARS pistol bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponMarsautopistol
+      - id: MagazineBoxMagnum
+      - id: SpeedLoaderMagnumAP
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelRemington
+  name: Remington-320B bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponShotgunRemington320b
+      - id: BoxLethalshot
+      - id: BoxShotgunSlug
+      - id: BoxBeanbag
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelLiberaor
+  name: MK-556 "Liberator" bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponRifleMK556Liberator
+      - id: LPPMagazineRifleM4A1Lethal
+        amount: 3
+      - id: LPPMagazineBoxM4A1Lethal
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelG301
+  name: G-301 "Zyklus" bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponLauncherG301
+      - id: GrenadeFrag
+        amount: 6
+      - id: GrenadeBlast
+        amount: 6
+      - id: GrenadeFlash
+        amount: 2
+      - id: GrenadeEMP
+        amount: 2
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelDonkSniper
+  name: Donk Sniper bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponSniperHristov
+      - id: MagazineBoxAntiMaterielBig
+      - id: LPPMagazineBoxAntiMaterielCocnterePiercing
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelDonkExplosives
+  name: Donk explosives bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: GrenadeIncendiary
+        amount: 3
+      - id: GrenadeShrapnel
+        amount: 3
+      - id: ExGrenade
+        amount: 3
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelMachinegunner
+  name: Lewis gun bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponLightMachinegunLewis
+      - id: MagazineLightRifleMaxim
+        amount: 2
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelDonkSuperMedic
+  name: Super medic bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: SyndiHypo
+        amount: 2
+      - id: EpinephrineChemistryBottle
+        amount: 4
+      - id: EphedrineChemistryBottle
+        amount: 4
+      - id: OmnizineChemistryBottle
+        amount: 2
+      - id: LPPChemistryBottleStimulant
+        amount: 2
+      - id: PaxChemistryBottle
+      - id: NocturineChemistryBottle
+
+- type: entity
+  parent: LPPClothingBackpackDuffelCybersun
+  id: LPPClothingBackpackDuffelCybersunTrooper
+  name: Cybersun Trooper bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitCybersunBasic
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelCybersun
+  id: LPPClothingBackpackDuffelCybersunElite
+  name: Cybersun Elite bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitCybersunElite
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelCybersun
+  id: LPPClothingBackpackDuffelCybersunCommander
+  name: Cybersun Commander bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitCybersunCommander
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelCybersun
+  id: LPPClothingBackpackDuffelCybersunJuggernaut
+  name: Cybersun Juggernaut bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitCybersunJugger
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelCybersun
+  id: LPPClothingBackpackDuffelCybersunEM1Gauss
+  name: EM-1 Gauss bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponEM1Gauss
+      - id: PortableRecharger
+
+- type: entity
+  parent: LPPClothingBackpackDuffelCybersun
+  id: LPPClothingBackpackDuffelCybersunTBS2S
+  name: TBS-2s "Boomstick" bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponShotgunTBS2S
+      - id: MagazineShotgun
+        amount: 2
+      - id: MagazineShotgunSlug
+      - id: MagazineShotgunBeanbag
+
+- type: entity
+  parent: LPPClothingBackpackDuffelCybersun
+  id: LPPClothingBackpackDuffelCybersunBR12Ravager
+  name: BR-12A "Ravager" bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponRifleBR12ARavager
+      - id: LPPMagazineRifleM4A1Lethal
+        amount: 2
+      - id: LPPMagazineBoxM4A1Lethal
+
+- type: entity
+  parent: LPPClothingBackpackDuffelCybersun
+  id: LPPClothingBackpackDuffelCybersunSaiber
+  name: Saiber bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponSubMachineGunSaiber
+      - id: MagazinePistolSubMachineGun
+        amount: 2
+
+- type: entity
+  parent: LPPClothingBackpackDuffelCybersun
+  id: LPPClothingBackpackDuffelCybersunSniper
+  name: Cybersun Sniper bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponSniperHristov
+      - id: MagazineBoxAntiMaterielBig
+      - id: LPPMagazineBoxAntiMaterielCocnterePiercing
+      - id: LPPClothingNeckShemagRed
+
+- type: entity
+  parent: LPPClothingBackpackDuffelCybersun
+  id: LPPClothingBackpackDuffelCybersunExplosives
+  name: Cybersun explosives bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: GrenadeIncendiary
+        amount: 2
+      - id: GrenadeShrapnel
+        amount: 2
+      - id: ExGrenade
+        amount: 2
+      - id: WhiteholeGrenade
+        amount: 2
+      - id: SupermatterGrenade
+        amount: 2
+      - id: ClusterGrenade
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexTrooper
+  name: Gorlex Trooper bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitGorlexSoldier
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexMedic
+  name: Gorlex Medic bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitGorlexMedic
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexElite
+  name: Gorlex Elite bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitGorlexElite
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexCommander
+  name: Gorlex Commander bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPClothingOuterHardsuitGorlexCommander
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexBulldog
+  name: Bulldog bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponShotgunBulldog
+      - id: MagazineShotgun
+        amount: 2
+      - id: MagazineShotgunSlug
+      - id: MagazineShotgunBeanbag
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexMAC21
+  name: MAC-21 bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponSubMachineGunMAC21
+      - id: MagazineMagnumSubMachineGun
+        amount: 2
+      - id: MagazineMagnumSubMachineGunPiercing
+      - id: LPPMagazineBoxRifleMinigun
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexC20r
+  name: C-20r bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponSubMachineGunC20r
+      - id: MagazinePistolSubMachineGun
+        amount: 2
+      - id: MagazineBoxPistol
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexM90
+  name: M90 bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponSubMachineGunM90
+      - id: MagazinePistolSubMachineGun
+        amount: 2
+      - id: MagazineBoxPistol
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexAtreides
+  name: Atreides bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponSubMachineGunAtreides
+      - id: MagazinePistolSubMachineGun
+        amount: 2
+      - id: MagazineBoxPistol
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexBCR25r
+  name: BCR-25r bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponRifleBCR25r
+      - id: MagazineCaselessRifleShort
+        amount: 2
+      - id: MagazineCaselessRifle
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexRifleM90
+  name: M-90 bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleM90
+      - id: MagazineRifle
+        amount: 3
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexStoner25
+  name: Armalite "Stoner-25" bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponLightMachinegunStoner25
+      - id: MagazineCaselessRifle10x24
+      - id: MagazineCaselessRifle
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexSTG144
+  name: STG-144 bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponRifleSTG144
+      - id: MagazineLightRifle
+        amount: 3
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexSniper
+  name: Gorlex Sniper bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponSniperHristov
+      - id: MagazineBoxAntiMaterielBig
+      - id: LPPMagazineBoxAntiMaterielCocnterePiercing
+        amount: 3
+      - id: LPPClothingNeckChain
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexChinalake
+  name: China lake bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponLauncherChinaLake
+      - id: GrenadeFrag
+        amount: 6
+      - id: GrenadeBlast
+        amount: 6
+      - id: GrenadeFlash
+        amount: 2
+      - id: GrenadeEMP
+        amount: 2
+
+- type: entity
+  parent: LPPClothingBackpackDuffelDonk
+  id: LPPClothingBackpackDuffelM1Garand
+  name: M1 garand bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWeaponM1Garand
+      - id: LPPMagazineRifleGarand
+        amount: 2
+
+- type: entity
+  parent: LPPClothingBackpackDuffelGorlex
+  id: LPPClothingBackpackDuffelGorlexAmmobundle
+  name: Ammunition bundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineCaselessRifle
+        amount: 4
+      - id: MagazinePistolSubMachineGun
+        amount: 4
+      - id: MagazineLightRifle
+        amount: 4
+      - id: MagazineRifle
+        amount: 4
+      - id: MagazineShotgun
+        amount: 4
+      - id: MagazineBoxAntiMaterielBig

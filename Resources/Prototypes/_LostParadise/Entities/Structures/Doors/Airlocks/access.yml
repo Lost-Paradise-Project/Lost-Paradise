@@ -1,0 +1,235 @@
+
+#----------синддигаты-------#
+#----СБ
+- type: entity
+  parent: LPPAirlockSecuritySyn
+  id: AirlockSecuritySynLocked
+  suffix: SecuritySyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsSecuritySyn ]
+- type: entity
+  parent: LPPAirlockSecuritySynGlass
+  id: AirlockSecuritySynGlassLocked
+  suffix: SecuritySyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsSecuritySyn ]
+#----РНД
+- type: entity
+  parent: LPPAirlockScienceSyn
+  id: AirlockResearchSynLocked
+  suffix: ResearchSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsResearchSyn ]
+
+- type: entity
+  parent: LPPAirlockScienceSynGlass
+  id: AirlockResearchSynGlassLocked
+  suffix: ResearchSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsResearchSyn ]
+#----Сервис
+- type: entity
+  parent: LPPAirlockSyn
+  id: AirlockServiceSynLocked
+  suffix: ServiceSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsServiceSyn ]
+
+- type: entity
+  parent: LPPAirlockSynGlass
+  id: AirlockServiceSynGlassLocked
+  suffix: ServiceSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsServiceSyn ]
+#-----Космо.
+- type: entity
+  parent: LPPAirlockExternalSyn
+  id: AirlockExternalSynLocked
+  suffix: ExternalSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsEngineeringSyn ]
+
+- type: entity
+  parent: LPPAirlockExternalSynGlass
+  id: AirlockGlassExternalSynLocked
+  suffix: ExternalSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsEngineeringSyn ]
+#------Шаттл
+- type: entity
+  parent: LPPAirlockShuttleSyn
+  id: AirlockExternalShuttleSynLocked
+  suffix: External, Docking, Syn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsEngineeringSyn ]
+
+- type: entity
+  parent: LPPAirlockShuttleSynGlass
+  id: AirlockGlassExternalShuttleSynLocked
+  suffix: External, Docking, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsEngineeringSyn ]
+#-----инж.
+- type: entity
+  parent: LPPAirlockEngineeringSyn
+  id: AirlockEngineeringSynLocked
+  suffix: EngineeringSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsEngineeringSyn ]
+
+- type: entity
+  parent: LPPAirlockEngineeringSynGlass
+  id: AirlockGlassEngineeringSynLocked
+  suffix: EngineeringSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsEngineeringSyn ]
+#-----инж.атмос.
+- type: entity
+  parent: LPPAirlockAtmosphericsSyn
+  id: AirlockEngineeringAtmosphericsSynLocked
+  suffix: AtmosphericsSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsEngineeringSyn ]
+
+- type: entity
+  parent: LPPAirlockAtmosphericsSynGlass
+  id: AirlockGlassEngineeringAtmosphericsSynLocked
+  suffix: AtmosphericsSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsEngineeringSyn ]
+#---тех. шлюзы
+- type: entity
+  parent: LPPAirlockMaintSyn
+  id: AirlockExternalEngineeringSynLocked
+  suffix: EngineeringSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsEngineeringSyn ]
+
+- type: entity
+  parent: LPPAirlockMaintSynGlass
+  id: AirlockExternalGlassEngineeringSynLocked
+  suffix: EngineeringSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsEngineeringSyn ]
+#----карго
+- type: entity
+  parent: LPPAirlockCargoSyn
+  id: AirlockSalvageSynLocked
+  suffix: SalvageSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsSalvageSyn ]
+
+- type: entity
+  parent: LPPAirlockCargoSynGlass
+  id: AirlockSalvageSynGlassLocked
+  suffix: SalvageSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsSalvageSyn ]
+#----Мед
+- type: entity
+  parent: LPPAirlockMedicalSyn
+  id: AirlockMedicalSynLocked
+  suffix: MedicalSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsMedicalSyn ]
+
+- type: entity
+  parent: LPPAirlockMedicalSynGlass
+  id: AirlockMedicalSynGlassLocked
+  suffix: MedicalSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsMedicalSyn ]
+#-----главы
+- type: entity
+  parent: LPPAirlockCommandSyn
+  id: AirlockCentralCommandSynGlassLocked
+  suffix: CommandSyndicate, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsCommandSynd ]
+
+- type: entity
+  parent: LPPAirlockSecuritySynGlass
+  id: WindoorHeadOfSecuritySynLocked
+  suffix: HeadOfSecuritySyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsHOSSyn ]
+
+- type: entity
+  parent: LPPAirlockCommandSyn
+  id: WindoorWatchingOfCrewSynLocked
+  suffix: WatchingOfCrewSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsWoCSyn ]
+
+- type: entity
+  parent: LPPAirlockCommandSyn
+  id: AirlockCaptainSynLocked
+  suffix: CaptainSyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsCaptainSyn ]
+#----EVA------
+- type: entity
+  parent: LPPAirlockCommandSynGlass
+  id: AirlockEVASynGlassLocked
+  suffix: EVASyn, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsEngineeringSyn ]
+#----сейф-----
+- type: entity
+  parent: LPPAirlockHatchMaintenanceSyn
+  id: AirlockHatchEngineeringSyndicateLocked
+  suffix: EngineeringSyndicate, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsEngineeringSyn ]

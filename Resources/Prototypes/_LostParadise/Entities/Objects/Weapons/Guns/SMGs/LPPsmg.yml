@@ -87,5 +87,59 @@
         whitelist:
           tags:
             - CartridgePistol
-  - type: Telescope
-    divisor: 0.2
+
+- type: entity
+  name: MAC-21
+  parent: BaseWeaponSubMachineGun
+  id: LPPWeaponSubMachineGunMAC21
+  description: famous submachine gun used by gangsters. Uses .35 auto ammo.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/SMGs/mac21.rsi
+    scale: 0.8, 0.8
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: ChamberMagazineAmmoProvider
+    autoEject: true
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/SMGs/mac21.rsi
+    quickEquip: false
+    slots:
+    - belt
+    - suitStorage
+  - type: Item
+    size: Normal
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineMagnumSubMachineGun
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineMagnumSubMachineGun
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMinigun
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeMinigun
+  - type: Gun
+    minAngle: 1
+    maxAngle: 12
+    fireRate: 11
+    angleIncrease: 3
+    angleDecay: 15
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
