@@ -1,0 +1,11 @@
+- type: marking
+  id: SlimeFoxEars
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [SlimePerson]
+  sponsorOnly: true # Lost Paradise Sponsors
+  sprites:
+  - sprite: _LostParadise/Mobs/Customization/slime_fox_parts.rsi
+    state: ears_slime_fox_outer
+  - sprite: _LostParadise/Mobs/Customization/slime_fox_parts.rsi
+    state: ears_slime_fox_inner

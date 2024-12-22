@@ -1,0 +1,85 @@
+#accessLevel - должность
+#accessGroup - доступа
+#Командования-
+- type: accessLevel # КАПИТАН
+  id: CaptainSyn
+  name: id-card-access-level-captain-syndicate
+
+- type: accessLevel # ГП
+  id: HeadOfPersonnelSyn
+  name: id-card-access-level-head-of-personnel-syndicate
+
+
+- type: accessLevel #ГСБ
+  id: HeadOfSecuritySyn
+  name: id-card-access-level-head-of-security-syndicate
+
+- type: accessGroup
+  id: CommandSyndicate
+  tags:
+  - CaptainSyn
+  - HeadOfSecuritySyn
+  - HeadOfPersonnelSyn
+
+#Инженерия
+- type: accessLevel #ИНЖЕНЕР
+  id: EngineeringSyn
+  name: id-card-access-level-engineering-syndicate
+
+- type: accessGroup
+  id: EngineeringSyndicate
+  tags:
+  - EngineeringSyn
+
+#МедБлок
+- type: accessLevel #МЕДИК
+  id: MedicalSyn
+  name: id-card-access-level-medical-syndicate
+
+- type: accessGroup
+  id: MedicalSyndicate
+  tags:
+  - MedicalSyn
+
+#Cлужбы-Безопасности
+- type: accessLevel #СБ
+  id: SecuritySyn
+  name: id-card-access-level-security-syndicate
+
+- type: accessGroup
+  id: SecuritySyndicate
+  tags:
+  - HeadOfSecuritySyn
+  - SecuritySyn
+
+#Научный-отдел
+- type: accessLevel #УЧЕНЫЙ
+  id: ResearchSyn
+  name: id-card-access-level-robotics-syndicate
+
+- type: accessGroup
+  id: ResearchSyndicate
+  tags:
+  - ResearchSyn
+
+#Сервисный-Одел
+- type: accessLevel #СЕРВИС
+  id: ServiceSyn
+  name: id-card-access-level-service-syndicate
+
+- type: accessGroup
+  id: ServiceSyndicate
+  tags:
+  - HeadOfPersonnelSyn
+  - ServiceSyn
+
+#КАРГО
+
+- type: accessLevel #УТИЛИЗАТОР
+  id: SalvageSyn
+  name: id-card-access-level-salvage-syndicate
+
+- type: accessGroup
+  id: CargoSyndicate
+  tags:
+  - SalvageSyn

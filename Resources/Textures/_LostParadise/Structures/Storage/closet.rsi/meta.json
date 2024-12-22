@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Made by Bruhman Cringe",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "atmos"
+    },
+    {
+      "name": "atmos_door"
+    },
+    {
+      "name": "atmos_open"
+    },
+    {
+      "name": "cap"
+    },
+    {
+      "name": "cap_door"
+    },
+    {
+      "name": "cap_open"
+    },
+    {
+      "name": "eng_elec_door"
+    },
+    {
+      "name": "eng"
+    },
+    {
+      "name": "eng_open"
+    },
+    {
+      "name": "eng_secure"
+    },
+    {
+      "name": "eng_secure_door"
+    },
+    {
+      "name": "eng_secure_open"
+    },
+    {
+      "name": "hop"
+    },
+    {
+      "name": "hop_door"
+    },
+    {
+      "name": "hop_open"
+    },
+    {
+      "name": "hos"
+    },
+    {
+      "name": "hos_door"
+    },
+    {
+      "name": "hos_open"
+    },
+    {
+      "name": "med_secure"
+    },
+    {
+      "name": "med_secure_door"
+    },
+    {
+      "name": "med_secure_open"
+    },
+    {
+      "name": "mining"
+    },
+    {
+      "name": "mining_door"
+    },
+    {
+      "name": "mining_open"
+    },
+    {
+      "name": "science"
+    },
+    {
+      "name": "science_door"
+    },
+    {
+      "name": "science_open"
+    },
+    {
+      "name": "security"
+    },
+    {
+      "name": "security_door"
+    },
+    {
+      "name": "security_open"
+    },
+    {
+      "name": "locked"
+    },
+    {
+      "name": "unlocked"
+    },
+    {
+      "name": "welded"
+    },
+    {
+      "name": "sparking",
+      "delays": [
+                [0.1, 0.1, 0.1, 0.1]     
+				]
+    },
+    {
+      "name": "generic"
+    },
+    {
+      "name": "generic_door"
+    },
+    {
+      "name": "generic_icon"
+    },
+    {
+      "name": "generic_open"
+    }
+  ]
+}

@@ -163,6 +163,11 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
     fireOnDropChance: 0.2
+    shotsPerBurst: 2
+    selectedMode: Burst
+    availableModes:
+    - SemiAuto
+    - Burst
   - type: ItemSlots
     slots:
       gun_magazine:
