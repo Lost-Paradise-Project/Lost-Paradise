@@ -77,7 +77,6 @@
   - type: TimedDespawn
     lifetime: 1
 
-
 - type: entity
   id: LPPBecbowarrow
   name: ecbowshot
@@ -234,3 +233,41 @@
 #       collection: WeakHit
 #   - type: IgniteOnCollide
 #     fireStacks: 0.2
+
+- type: entity
+  id: LPPNail
+  name: Nail
+  parent: BaseBullet
+  noSpawn: true
+  description: Not too bad, but you still don't want to get hit by it.
+  components:
+  - type: Reflective
+    reflective:
+      - NonEnergy
+  - type: Sprite
+    noRot: false
+    sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/Nail.rsi
+    layers:
+    - state: nail
+  - type: Projectile
+    impactEffect: BulletImpactEffect
+    damage:
+      types:
+        Piercing: 10
+        Poison: 1
+
+- type: hitscan
+  id: LPPGauss
+  damage:
+    types:
+      Piercing: 35
+      Heat: 25
+  muzzleFlash:
+    sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/gauss.rsi
+    state: muzzle_gauss
+  travelFlash:
+    sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/gauss.rsi
+    state: gauss
+  impactFlash:
+    sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/gauss.rsi
+    state: impact_gauss

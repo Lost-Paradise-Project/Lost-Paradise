@@ -94,3 +94,10 @@
   cash:
     1: LPPCentcoin
   canWithdraw: false
+
+- type: currency
+  id: LPPtelecrystal
+  displayName: store-currency-display-telecrystal
+  cash:
+    1: Telecrystal
+  canWithdraw: false

@@ -1,0 +1,262 @@
+- type: entity
+  id: LPPUnemaggableAirlock
+  parent: BaseStructure
+  name: UnemaggableAirlock
+  abstract: true
+  description: It opens, it closes, and maybe crushes you.
+  components:
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        path:
+          "/Audio/Weapons/smash.ogg"
+  - type: InteractionOutline
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/basic.rsi
+    snapCardinals: true
+    layers:
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]
+    - state: closed_unlit
+      shader: unshaded
+      map: ["enum.DoorVisualLayers.BaseUnlit"]
+    - state: welded
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: bolted_unlit
+      shader: unshaded
+      map: ["enum.DoorVisualLayers.BaseBolted"]
+    - state: emergency_unlit
+      map: ["enum.DoorVisualLayers.BaseEmergencyAccess"]
+      shader: unshaded
+    - state: panel_open
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AnimationPlayer
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.49,-0.49,0.49,0.49" # don't want this colliding with walls or they won't close
+        density: 100
+        mask:
+        - FullTileMask
+        layer:
+        - AirlockLayer
+  - type: LayerChangeOnWeld
+    unWeldedLayer: AirlockLayer
+    weldedLayer: WallLayer
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronics ]
+  - type: AccessReader
+    containerAccessProvider: board
+  - type: Door
+    crushDamage:
+      types:
+        Blunt: 15
+    openSound:
+      path: /Audio/Machines/airlock_open.ogg
+    closeSound:
+      path: /Audio/Machines/airlock_close.ogg
+    denySound:
+      path: /Audio/Machines/airlock_deny.ogg
+  - type: ContainerContainer
+    containers:
+      board: !type:Container
+  - type: Weldable
+    fuel: 5
+    time: 3
+  - type: Airlock
+    openUnlitVisible: true # Corvax-Resprite-Airlocks
+  - type: NavMapDoor
+  - type: DoorBolt
+  - type: Appearance
+  - type: WiresVisuals
+  - type: ApcPowerReceiver
+    powerLoad: 20
+  - type: ExtensionCableReceiver
+  - type: Electrified
+    enabled: false
+    usesApcPower: true
+  - type: WiresPanel
+  - type: WiresPanelSecurity
+  - type: Wires
+    boardName: wires-board-name-airlock
+    layoutId: Airlock
+  - type: DoorSignalControl
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 200
+  - type: DeviceLinkSink
+    ports:
+      - Open
+      - Close
+      - Toggle
+      - AutoClose
+      - DoorBolt
+  - type: DeviceLinkSource
+    ports:
+      - DoorStatus
+    lastSignals:
+      DoorStatus: false
+  - type: SoundOnOverload
+  - type: SpawnOnOverload
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+  - type: RadiationBlocker
+    resistance: 5
+  - type: Occluder
+  - type: PlacementReplacement
+    key: walls
+  - type: PaintableAirlock
+    group: Standard
+    department: Civilian
+  - type: StaticPrice
+    price: 150
+  - type: LightningTarget
+    priority: 1
+  - type: Tag
+    tags:
+      - Airlock
+      - EmagImmune
+      # This tag is used to nagivate the Airlock construction graph. It's needed because the construction graph is shared between Airlock, AirlockGlass, and HighSecDoor
+  - type: PryUnpowered
+  - type: BlockWeather
+  - type: InteractionVerbs
+    allowedVerbs:
+    - KnockOn
+  placement:
+    mode: SnapgridCenter
+
+- type: entity
+  parent: LPPUnemaggableAirlock
+  id: LPPAirlockSyndieArmory
+  suffix: Syndicate
+  name: Armory airlock
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/hatch.rsi
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsArmorySyndicate ]
+  - type: AccessReader
+    access: [["ArmorySyndicate"]]
+
+- type: accessLevel
+  id: ArmorySyndicate
+  name: Syndicate armory
+
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsArmorySyndicate
+  suffix: Syndie armory, Locked
+  components:
+  - type: AccessReader
+    access: [["ArmorySyndicate"]]
+
+- type: entity
+  parent: LPPUnemaggableAirlock
+  id: LPPAirlockSyndieMedical
+  suffix: Syndicate
+  name: Medblock airlock
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/hatch.rsi
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsMedblockSyndicate ]
+  - type: AccessReader
+    access: [["MedblockSyndicate"]]
+
+- type: accessLevel
+  id: MedblockSyndicate
+  name: Syndicate medblock
+
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsMedblockSyndicate
+  suffix: Syndie medblock, Locked
+  components:
+  - type: AccessReader
+    access: [["MedblockSyndicate"]]
+
+- type: entity
+  parent: LPPUnemaggableAirlock
+  id: LPPAirlockSyndieChemistry
+  suffix: Syndicate
+  name: Chemistry airlock
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/hatch.rsi
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsChemistrySyndicate ]
+  - type: AccessReader
+    access: [["ChemistrySyndicate"]]
+
+- type: accessLevel
+  id: ChemistrySyndicate
+  name: Syndicate chemistry
+
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsChemistrySyndicate
+  suffix: Syndie сhemistry, Locked
+  components:
+  - type: AccessReader
+    access: [["ChemistrySyndicate"]]
+
+- type: entity
+  parent: LPPUnemaggableAirlock
+  id: LPPAirlockSyndieMechroom
+  suffix: Syndicate
+  name: Mechroom airlock
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/hatch.rsi
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsMechroomSyndicate ]
+  - type: AccessReader
+    access: [["MechroomSyndicate"]]
+
+- type: accessLevel
+  id: MechroomSyndicate
+  name: Syndicate mechroom
+
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsMechroomSyndicate
+  suffix: Syndie mechroom, Locked
+  components:
+  - type: AccessReader
+    access: [["MechroomSyndicate"]]
+
+- type: entity
+  parent: LPPUnemaggableAirlock
+  id: LPPAirlockSyndiePolygon
+  suffix: Syndicate
+  name: Polygon airlock
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/hatch.rsi
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsPolygonSyndicate ]
+  - type: AccessReader
+    access: [["PolygonSyndicate"]]
+
+- type: accessLevel
+  id: PolygonSyndicate
+  name: Syndicate polygon
+
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsPolygonSyndicate
+  suffix: Syndie polygon, Locked
+  components:
+  - type: AccessReader
+    access: [["PolygonSyndicate"]]

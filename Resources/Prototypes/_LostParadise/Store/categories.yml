@@ -153,3 +153,133 @@
   id: LPPmisc
   name: store-category-misc
   priority: 5
+
+- type: storeCategory
+  id: LPPcontract
+  name: store-category-contract
+  priority: 1
+
+- type: storeCategory
+  id: LPPspecarmor
+  name: store-category-specarmor
+  priority: 1
+
+- type: storeCategory
+  id: LPPspecweapon
+  name: store-category-specweapon
+  priority: 2
+
+- type: storeCategory
+  id: LPPspecammo
+  name: store-category-specammo
+  priority: 3
+
+- type: storeCategory
+  id: LPPspecexplosives
+  name: store-category-specexplosives
+  priority: 4
+
+- type: storeCategory
+  id: LPPspectools
+  name: store-category-spectools
+  priority: 5
+
+- type: storeCategory
+  id: LPPspecimplants
+  name: store-category-specimplants
+  priority: 6
+
+- type: storeCategory
+  id: LPPspecutilities
+  name: store-category-specutilities
+  priority: 7
+
+- type: storeCategory
+  id: LPPspecmisc
+  name: store-category-specmisc
+  priority: 8
+
+- type: storeCategory
+  id: LPPKeycards
+  name: store-category-keycards
+  priority: 9
+
+- type: storeCategory
+  id: LPPspecarmorG
+  name: store-category-specarmor
+  priority: 1
+
+- type: storeCategory
+  id: LPPspecweaponG
+  name: store-category-specweapon
+  priority: 2
+
+- type: storeCategory
+  id: LPPspecammoG
+  name: store-category-specammo
+  priority: 3
+
+- type: storeCategory
+  id: LPPspecexplosivesG
+  name: store-category-specexplosives
+  priority: 4
+
+- type: storeCategory
+  id: LPPspectoolsG
+  name: store-category-spectools
+  priority: 5
+
+- type: storeCategory
+  id: LPPspecimplantsG
+  name: store-category-specimplants
+  priority: 6
+
+- type: storeCategory
+  id: LPPspecutilitiesG
+  name: store-category-specutilities
+  priority: 7
+
+- type: storeCategory
+  id: LPPspecmiscG
+  name: store-category-specmisc
+  priority: 8
+
+- type: storeCategory
+  id: LPPspecarmorD
+  name: store-category-specarmor
+  priority: 1
+
+- type: storeCategory
+  id: LPPspecweaponD
+  name: store-category-specweapon
+  priority: 2
+
+- type: storeCategory
+  id: LPPspecammoD
+  name: store-category-specammo
+  priority: 3
+
+- type: storeCategory
+  id: LPPspecexplosivesD
+  name: store-category-specexplosives
+  priority: 4
+
+- type: storeCategory
+  id: LPPspectoolsD
+  name: store-category-spectools
+  priority: 5
+
+- type: storeCategory
+  id: LPPspecimplantsD
+  name: store-category-specimplants
+  priority: 6
+
+- type: storeCategory
+  id: LPPspecutilitiesD
+  name: store-category-specutilities
+  priority: 7
+
+- type: storeCategory
+  id: LPPspecmiscD
+  name: store-category-specmisc
+  priority: 8
