@@ -35,11 +35,10 @@
     min: 216000 # DeltaV - 60 hours
   - !type:CharacterDepartmentTimeRequirement # DeltaV - Security dept time requirement
     department: Security
-    min: 36000 # DeltaV - 10 hours
+    min: 60000 # DeltaV - 10 hours
   - !type:CharacterDepartmentTimeRequirement # DeltaV - Command dept time requirement
     department: Command
-    min: 36000 # DeltaV - 10 hours
-  - !type:CharacterWhitelistRequirement
+    min: 60000 # DeltaV - 10 hours
 
 #Lone Operative Gear
 - type: startingGear
@@ -58,7 +57,7 @@
     underwear: LPPThongYellow
     socks: LPPClothingUnderSocksThighYellow
     pocket1: DoubleEmergencyOxygenTankFilled
-    pocket2: BaseUplinkRadio25TC
+    pocket2: BaseUplinkRadio40TC
     belt: LPPClothingBeltMaximumWebbing
   innerClothingSkirt: ClothingUniformJumpskirtOperative
   satchel: LPPClothingBackpackDuffelSyndicateOperative

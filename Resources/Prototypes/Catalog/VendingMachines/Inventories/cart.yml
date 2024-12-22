@@ -3,19 +3,19 @@
   startingInventory:
     PassengerPDA: 5
     ClearPDA: 5
-    ServiceWorkerPDA: 1
-    ChefPDA: 1
-    BotanistPDA: 1
-    BartenderPDA: 1
-    JanitorPDA: 1
-    LibrarianPDA: 1
-    LawyerPDA: 1
-    ReporterPDA: 1
-    ZookeeperPDA: 1
-    BoxerPDA: 1
-    ClownPDA: 1
-    MimePDA: 1
-    MusicianPDA: 1
+    ServiceWorkerPDA: 3
+    ChefPDA: 3
+    BotanistPDA: 3
+    BartenderPDA: 3
+    JanitorPDA: 3
+    LibrarianPDA: 3
+    LawyerPDA: 3
+    ReporterPDA: 3
+    ZookeeperPDA: 3
+    BoxerPDA: 3
+    ClownPDA: 3
+    MimePDA: 3
+    MusicianPDA: 3
     ClothingHeadsetGrey: 4
     ClothingHeadsetService: 4
     EncryptionKeyService: 4
@@ -23,3 +23,23 @@
     RubberStampApproved: 1
     RubberStampDenied: 1
     Paper: 10
+#LPP
+    TechnicalAssistantPDA: 3
+    EngineerPDA: 3
+    SecurityCadetPDA: 3
+    SecurityPDA: 3
+    LPPSecurityEngineerPDA: 3
+    BrigmedicPDA: 3
+    CargoPDA: 3
+    MailCarrierPDA: 3
+    SalvagePDA: 3
+    MedicalInternPDA: 3
+    PsychologistPDA: 3
+    MedicalPDA: 3
+    ChemistryPDA: 3
+    ResearchAssistantPDA: 3
+    SciencePDA: 3
+    ForensicMantisPDA: 3
+    LPPExpeditorPDA: 3
+    ChaplainPDA: 3
+    RoboticsPDA: 3

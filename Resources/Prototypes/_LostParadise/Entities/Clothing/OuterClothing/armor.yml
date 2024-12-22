@@ -24,3 +24,34 @@
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
+
+- type: entity
+  parent: ClothingOuterBaseLarge
+  id: LPPClothingOuterArmorErengySyndie
+  name: anti-energy cuirass
+  description: Anti-energy cuirass, that provides, no wonder, good energy protection for wearer, it sometimes can even ricoshet them.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/energyarmor.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/energyarmor.rsi
+  - type: Item
+    size: Huge
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.15
+        Caustic: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: GroupExamine
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: Reflect
+    reflectProb: 0.9
+    reflects:
+      - Energy

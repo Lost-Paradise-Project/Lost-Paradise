@@ -7,3 +7,6 @@ ent-LPPAirlockSalvageGlass = { ent-AirlockExternal }
 ent-LPPAirlockGate = { ent-Airlock }
     .suffix = Гейт
     .desc = { ent-Airlock.desc }
+ent-LPPDoorElectronicsGateway = { ent-DoorElectronics }
+    .suffix = Гейт, Закрыт
+    .desc = { ent-DoorElectronics.desc }
