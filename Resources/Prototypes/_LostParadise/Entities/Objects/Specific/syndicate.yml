@@ -40,7 +40,7 @@
   - type: Store
     preset: LPPStorePresetCybersunUplinks
     balance:
-      Telecrystal: 160
+      Telecrystal: 100
 
 - type: entity
   parent: BaseItem
@@ -88,11 +88,11 @@
   - type: Store
     preset: LPPStorePresetGorlexUplinks
     balance:
-      Telecrystal: 160
+      Telecrystal: 12
 
 - type: entity
   parent: BaseItem
-  id: LPPBaseUplinkRadio450TC
+  id: LPPBaseUplinkRadio300TC
   name: Syndicate uplink
   description: Suspiciously looking old radio...
   suffix: 300

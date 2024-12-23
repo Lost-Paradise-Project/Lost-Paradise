@@ -1064,7 +1064,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Launchers/china_lake.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
   cost:
-    Telecrystal: 25
+    Telecrystal: 38
   categories:
   - UplinkBundles
   saleLimit: 1
