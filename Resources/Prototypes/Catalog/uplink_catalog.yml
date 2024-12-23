@@ -1064,7 +1064,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Guns/Launchers/china_lake.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
   cost:
-    Telecrystal: 38
+    Telecrystal: 35 #LPP, cuz bundle received extra ammo and EMP grenades
   categories:
   - UplinkBundles
   saleLimit: 1
