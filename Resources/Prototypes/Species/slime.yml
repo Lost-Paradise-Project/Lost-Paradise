@@ -19,7 +19,6 @@
   id: MobSlimeSprites
   sprites:
     Head: MobSlimeHead
-    HeadSide: MobHumanoidAnyMarking
     Hair: MobSlimeMarkingFollowSkin
     FacialHair: MobSlimeMarkingFollowSkin
     Chest: MobSlimeTorso
