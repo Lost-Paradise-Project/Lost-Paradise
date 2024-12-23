@@ -40,6 +40,7 @@
     footstepSoundCollection:
       collection: FootstepHull
   - type: RequireProjectileTarget
+  - type: ThrownItemImmune
 
 - type: entity
   id: CounterBase

@@ -20,11 +20,11 @@ namespace Content.Server.Psionics.Dreams
 
         public readonly IReadOnlyList<string> DreamSetPrototypes = new[]
         {
-            "dreamadjectives", 
-            "dreamadverbs", 
-            "dreamingverbs", 
-            "dreamstrings", 
-            "dreamverbs", 
+            "dreamadjectives",
+            "dreamadverbs",
+            "dreamingverbs",
+            "dreamstrings",
+            "dreamverbs",
             "nightmare"
         };
 
@@ -56,7 +56,7 @@ namespace Content.Server.Psionics.Dreams
                 dreamFragments.Add(Loc.GetString("chat-manager-dream-see"));
 
                 dreamFragments.Add(ProcessAdjective(GetRandomFragment("nightmare")));
-                dreamFragments.Add(_random.Prob(0.5f) 
+                dreamFragments.Add(_random.Prob(0.5f)
                     ? (_random.Prob(0.35f) ? GetRandomFragment("dreamadverbs") + " " : "") + GetRandomFragment("dreamingverbs")
                     : Loc.GetString("chat-manager-dream-willbe") + " " + GetRandomFragment("dreamverbs"));
 

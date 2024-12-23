@@ -9,6 +9,7 @@
   description: A rocky asteroid.
   components:
   - type: Transform
+    noRot: true
   - type: IconSmooth
     key: walls
     mode: NoSprite
@@ -414,6 +415,27 @@
   name: rock
   suffix: planetmap
   components:
+    - type: Transform
+      noRot: true
+    - type: SoundOnGather
+    - type: Gatherable
+      toolWhitelist:
+        tags:
+          - Pickaxe
+    - type: Damageable
+      damageContainer: Inorganic
+      damageModifierSet: Metallic
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 150
+          behaviors:
+            - !type:DoActsBehavior
+              acts: ["Destruction"]
+    - type: IconSmooth
+      key: walls
+      mode: NoSprite
     - type: Icon
       sprite: Structures/Walls/rock.rsi
       state: rock

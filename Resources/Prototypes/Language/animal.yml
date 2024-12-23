@@ -201,3 +201,17 @@
     - хисс
     - сс
     - исс
+
+- type: language
+  id: Penguin
+  isvisiblelanguage: false
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 2
+    maxSyllables: 3
+    replacement: # I'm out of ideas
+    - пен
+    - пенг
+    - вон
+    - вонк
+    - вонг

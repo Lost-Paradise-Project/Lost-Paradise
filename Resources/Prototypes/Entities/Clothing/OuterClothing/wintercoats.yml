@@ -38,7 +38,7 @@
   parent: ClothingOuterWinterCoat
   id: ClothingOuterWinterCoatToggleable
   name: winter coat with hood
-  noSpawn: True
+  categories: [ HideSpawnMenu ]
   components:
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterDefault
@@ -687,6 +687,8 @@
   - type: Tag
     tags:
       - CoatRack
+  - type: GuideHelp
+    guides: [ EinsteinEngines ]
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -701,6 +703,8 @@
   - type: Tag
     tags:
       - CoatRack
+  - type: GuideHelp
+    guides: [ HephaestusIndustries ]
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -743,6 +747,8 @@
   - type: Tag
     tags:
       - CoatRack
+  - type: GuideHelp
+    guides: [ ZengHuPharmaceuticals ]
 
 - type: entity
   parent: ClothingOuterWinterCoat
@@ -799,3 +805,5 @@
   - type: Tag
     tags:
       - CoatRack
+  - type: GuideHelp
+    guides: [ ZengHuPharmaceuticals ]
