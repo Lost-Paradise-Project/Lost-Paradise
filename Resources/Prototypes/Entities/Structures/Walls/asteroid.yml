@@ -439,6 +439,7 @@
     - type: Icon
       sprite: Structures/Walls/rock.rsi
       state: rock
+    - type: SmoothEdge
     - type: Sprite
       sprite: Structures/Walls/rock.rsi
       layers:

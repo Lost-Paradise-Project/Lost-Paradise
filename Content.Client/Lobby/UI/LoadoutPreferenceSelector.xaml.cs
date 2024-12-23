@@ -30,9 +30,9 @@ using Content.Client._LostParadise.Sponsors;
 
 namespace Content.Client.Lobby.UI;
 
+
 [GenerateTypedNameReferences]
 public sealed partial class LoadoutPreferenceSelector : Control
-
 {
     public const string DefaultLoadoutInfoGuidebook = "LoadoutInfo";
 
@@ -87,6 +87,7 @@ public sealed partial class LoadoutPreferenceSelector : Control
     }
 
     public event Action<LoadoutPreference>? PreferenceChanged;
+
 
     public LoadoutPreferenceSelector(LoadoutPrototype loadout, JobPrototype highJob,
         HumanoidCharacterProfile profile, ref Dictionary<string, EntityUid> entities,
