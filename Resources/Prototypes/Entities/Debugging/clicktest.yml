@@ -23,7 +23,7 @@
   id: ClickTestRotatingCornerVisible
   name: ClickTestRotatingCornerVisible
   parent: ClickTestBase
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -34,7 +34,7 @@
   id: ClickTestRotatingCornerVisibleNoRot
   name: ClickTestRotatingCornerVisibleNoRot
   parent: ClickTestRotatingCornerVisible
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     noRot: true
@@ -43,7 +43,7 @@
   id: ClickTestRotatingCornerInvisible
   name: ClickTestRotatingCornerInvisible
   parent: ClickTestBase
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Clickable
     bounds:
@@ -59,7 +59,7 @@
   id: ClickTestRotatingCornerInvisibleNoRot
   name: ClickTestRotatingCornerInvisibleNoRot
   parent: ClickTestRotatingCornerInvisible
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       noRot: true
@@ -69,7 +69,7 @@
   id: ClickTestFixedCornerVisible
   name: ClickTestFixedCornerVisible
   parent: ClickTestBase
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -80,7 +80,7 @@
   id: ClickTestFixedCornerInvisible
   name: ClickTestFixedCornerInvisible
   parent: ClickTestBase
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Clickable
     bounds:

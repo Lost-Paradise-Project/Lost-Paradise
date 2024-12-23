@@ -38,7 +38,7 @@
   id: LPPClothingHeadHelmetMikhelmJugger
   name: Helmet GRT-43h
   description: The helmet is from a spacesuit, the display is slightly broken, but you can work...
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: BreathMask
   - type: Sprite

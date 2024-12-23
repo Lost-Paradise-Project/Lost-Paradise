@@ -3,7 +3,7 @@
 # with the Xenoglossy psionic power, as well as Ghosts, and AGhosts.
 - type: language
   id: Universal
-  isvisiblelanguage: false
+  isVisibleLanguage: false
   obfuscation:
     !type:ReplacementObfuscation
     replacement:
@@ -27,7 +27,7 @@
 # Example of a sign language. Used by the Sign Language trait.
 - type: language
   id: Sign
-  isvisiblelanguage: false
+  isVisibleLanguage: false
   speech:
     allowRadio: false
     requireSpeech: false

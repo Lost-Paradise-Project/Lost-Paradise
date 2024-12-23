@@ -13,7 +13,7 @@
 #   id: ActionHairball
 #   name: action-name-hairball
 #   description: action-description-hairball
-#   noSpawn: true
+#   categories: [ HideSpawnMenu ]
 #   components:
 #   - type: InstantAction
 #     charges: 1

@@ -31,7 +31,7 @@
 
 - type: entity
   id: AlertSpriteView
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

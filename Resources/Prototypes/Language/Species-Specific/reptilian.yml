@@ -98,7 +98,7 @@
 # !Do Not Make A Translator For This Language.
 - type: language
   id: Azaziba
-  isvisiblelanguage: true
+  isVisibleLanguage: true
   speech:
     color: "#2aca2add"
   obfuscation:

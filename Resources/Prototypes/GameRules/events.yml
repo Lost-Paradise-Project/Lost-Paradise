@@ -319,7 +319,7 @@
 - type: entity
   id: SlimesSpawnWeak
   parent: SlimesSpawn
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
     minimumPlayers: 7
@@ -335,7 +335,7 @@
 - type: entity
   id: SpiderSpawnWeak
   parent: SpiderSpawn
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
     minimumPlayers: 7
@@ -347,7 +347,7 @@
 # - type: entity # DeltaV - Prevent normal spawning of MobClownSpider
 #  id: SpiderClownSpawn
 #  parent: BaseGameRule
-#  noSpawn: true
+#  categories: [ HideSpawnMenu ]
 #  components:
 #  - type: StationEvent
 #    startAnnouncement: true

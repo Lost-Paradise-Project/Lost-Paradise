@@ -44,7 +44,7 @@
   id: LPPClothingOuterHardsuitHelmetLeaderNFSD
   name: Helmet NPZ-75e
   description: Flutter like a butterfly, it's a pity that you're already dead, you pathetic xenos!
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: BreathMask
   - type: Sprite
@@ -129,7 +129,7 @@
   id: LPPClothingOuterHardsuitHelmetNPZ
   name: Helmet NPZ-72
   description: Flutter like a butterfly, it's a pity that you're already dead, you pathetic xenos!
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: BreathMask
   - type: Sprite
@@ -196,7 +196,7 @@
   id: LPPClothingOuterHardsuitHelmetSpecopsNPZ
   name: Helmet NPZ-72+
   description: Flutter like a butterfly, it's a pity that you're already dead, you pathetic xenos!
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: BreathMask
   - type: Sprite
