@@ -232,7 +232,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         var language = languageOverride ?? _language.GetLanguage(source);
 
-        bool shouldCapitalize = (desiredType != InGameICChatType.Emote && desiredType != InGameICChatType.HiddenEmote);
+        bool shouldCapitalize = (desiredType != InGameICChatType.Emote && desiredType != InGameICChatType.HiddenEmote); // LPP Tet-a-tet
         bool shouldPunctuate = _configurationManager.GetCVar(CCVars.ChatPunctuation);
         // Capitalizing the word I only happens in English, so we check language here
         bool shouldCapitalizeTheWordI = (!CultureInfo.CurrentCulture.IsNeutralCulture && CultureInfo.CurrentCulture.Parent.Name == "en")
@@ -276,7 +276,7 @@ public sealed partial class ChatSystem : SharedChatSystem
             case InGameICChatType.Emote:
                 SendEntityEmote(source, message, range, nameOverride, language, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
                 break;
-            case InGameICChatType.HiddenEmote:
+            case InGameICChatType.HiddenEmote: // LPP Tet-a-tet
                 SendHiddenEntityEmote(source, message, range, nameOverride, language, hideLog: hideLog, ignoreActionBlocker: ignoreActionBlocker);
                 break;
             //Nyano - Summary: case adds the telepathic chat sending ability.
@@ -608,7 +608,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     }
 
 
-    private void SendHiddenEntityEmote(
+    private void SendHiddenEntityEmote( // LPP Tet-a-tet
         EntityUid source,
         string action,
         ChatTransmitRange range,
@@ -932,7 +932,6 @@ public sealed partial class ChatSystem : SharedChatSystem
     public string WrapMessage(LocId wrapId, InGameICChatType chatType, EntityUid source, string entityName, string message, LanguagePrototype? language)
     {
         language ??= _language.GetLanguage(source);
-
         if (language.SpeechOverride.MessageWrapOverrides.TryGetValue(chatType, out var wrapOverride))
             wrapId = wrapOverride;
 

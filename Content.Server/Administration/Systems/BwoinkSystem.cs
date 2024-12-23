@@ -758,12 +758,6 @@ namespace Content.Server.Administration.Systems
                 adminPrefixWebhook = $"[bold]\\[{bwoinkParams.SenderAdmin.Title}\\][/bold] ";
             }
 
-            string adminPrefixWebhook = "";
-            if (_config.GetCVar(CCVars.AhelpAdminPrefixWebhook) && senderAdmin is not null && senderAdmin.Title is not null)
-            {
-                adminPrefixWebhook = $"[bold]\\[{senderAdmin.Title}\\][/bold] ";
-            }
-
             // Notify player
             if (_playerManager.TryGetSessionById(bwoinkParams.Message.UserId, out var session))
             {

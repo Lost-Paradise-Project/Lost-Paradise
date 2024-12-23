@@ -60,7 +60,6 @@ namespace Content.Client.IoC
             collection.Register<ContentReplayPlaybackManager>();
             collection.Register<ISharedPlaytimeManager, JobRequirementsManager>();
             IoCManager.Register<JoinQueueManager>();
-            IoCManager.Register<DiscordAuthManager>();
             collection.Register<PlayerRateLimitManager>();
             collection.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
 #if LPP_Sponsors  // _LostParadise-Sponsors
