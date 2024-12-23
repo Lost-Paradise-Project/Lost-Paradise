@@ -92,18 +92,12 @@ public sealed partial class CharacterLogicOrRequirement : CharacterRequirement
 
         foreach (var requirement in Requirements)
         {
-            var validation = false;
-            FormattedMessage? raisin;
-
+            if (characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
+                entityManager, prototypeManager, configManager, out var raisin, depth + 1
 #if LPP_Sponsors
-            validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager, out raisin, depth + 1, sponsorTier, uuid);
-#else
-            validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager, out raisin, depth + 1);
+                , int sponsorTier = 0, string uuid = ""
 #endif
-
-            if (validation)
+                ))
             {
                 succeeded = true;
                 break;
@@ -161,16 +155,12 @@ public sealed partial class CharacterLogicXorRequirement : CharacterRequirement
 
         foreach (var requirement in Requirements)
         {
-            var validation = false;
-            FormattedMessage? raisin;
+            if (characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
+                entityManager, prototypeManager, configManager, out var raisin, depth + 1
 #if LPP_Sponsors
-            validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager, out raisin, depth + 1, sponsorTier, uuid);
-#else
-            validation = characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
-                entityManager, prototypeManager, configManager, out raisin, depth + 1);
+                , int sponsorTier = 0, string uuid = ""
 #endif
-            if (validation)
+                ))
             {
                 if (succeeded)
                 {
