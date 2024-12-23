@@ -21,11 +21,11 @@ namespace Content.Server.Psionics.Dreams
 
         public readonly IReadOnlyList<string> DreamSetPrototypes = new[]
         {
-            "dreamadjectives", 
-            "dreamadverbs", 
-            "dreamingverbs", 
-            "dreamstrings", 
-            "dreamverbs", 
+            "dreamadjectives",
+            "dreamadverbs",
+            "dreamingverbs",
+            "dreamstrings",
+            "dreamverbs",
             "nightmare"
         };
 
@@ -57,7 +57,7 @@ namespace Content.Server.Psionics.Dreams
                 dreamFragments.Add(Loc.GetString("chat-manager-dream-see"));
 
                 dreamFragments.Add(ProcessAdjective(GetRandomFragment("nightmare")));
-                dreamFragments.Add(_random.Prob(0.5f) 
+                dreamFragments.Add(_random.Prob(0.5f)
                     ? (_random.Prob(0.35f) ? GetRandomFragment("dreamadverbs") + " " : "") + GetRandomFragment("dreamingverbs")
                     : Loc.GetString("chat-manager-dream-willbe") + " " + GetRandomFragment("dreamverbs"));
 
@@ -102,7 +102,7 @@ namespace Content.Server.Psionics.Dreams
                     break;
 
                 var messageColor = mood.CurrentMoodLevel <= 40 ? Color.DarkRed : Color.BlueViolet;
-                _chatManager.ChatMessageToOne(Shared.Chat.ChatChannel.Telepathic, fragment, Loc.GetString("chat-manager-send-dream-chat-wrap-message", ("message", fragment)), sleeper, false, actor.PlayerSession.ConnectedClient, messageColor);
+                _chatManager.ChatMessageToOne(Shared.Chat.ChatChannel.Telepathic, fragment, Loc.GetString("chat-manager-send-dream-chat-wrap-message", ("message", fragment)), sleeper, false, actor.PlayerSession.Channel, messageColor);
 
                 await Task.Delay((int)_random.NextFloat(5000f, 10000f));
             }
