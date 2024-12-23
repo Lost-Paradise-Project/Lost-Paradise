@@ -49,22 +49,6 @@
     - LPPWeaponEnergyGunSoleil
 
 - type: loadout
-  id: LoadoutSecurityMk58
-  category: JobsSecurity
-  cost: 2
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3000
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutWeaponSecurity
-    - !type:CharacterDepartmentRequirement
-      departments:
-        - Security
-  items:
-    - WeaponPistolMk58Security
-
-- type: loadout
   id: LoadoutSecurityMk58Gold
   category: JobsSecurity
   cost: 2
