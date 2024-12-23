@@ -101,8 +101,12 @@ namespace Content.Server.Psionics.Dreams
                     break;
 
                 var messageColor = mood.CurrentMoodLevel <= 40 ? Color.DarkRed : Color.BlueViolet;
-                _chatManager.ChatMessageToOne(Shared.Chat.ChatChannel.Telepathic, fragment, Loc.GetString("chat-manager-send-dream-chat-wrap-message", ("message", fragment)), sleeper, false, actor.PlayerSession.ConnectedClient, messageColor);
 
+                if (actor.PlayerSession is IPlayerSession playerSession)
+                {
+                    _chatManager.ChatMessageToOne(Shared.Chat.ChatChannel.Telepathic, fragment, Loc.GetString("chat-manager-send-dream-chat-wrap-message",
+                        ("message", fragment)), sleeper, false, playerSession.ConnectedClient, messageColor);
+                }
                 await Task.Delay((int)_random.NextFloat(5000f, 10000f));
             }
         }
