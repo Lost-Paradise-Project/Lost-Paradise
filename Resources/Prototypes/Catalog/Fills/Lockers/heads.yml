@@ -45,10 +45,6 @@
       - id: DoorRemoteCommand
       - id: RubberStampCaptain
       - id: JetpackCaptainFilled
-      # - < DarkSide
-      - id: LPPBoxFolderSecretCap
-      - id: LPPBoxFolderCap
-      # - >
       - id: MedalCase
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
@@ -87,10 +83,6 @@
   - type: StorageFill
     contents:
       - id: NukeDisk
-      # - < DarkSide
-      - id: LPPBoxFolderSecretCap
-      - id: LPPBoxFolderCap
-      # - >
       - id: PinpointerNuclear
       - id: CaptainIDCard
       - id: CommsComputerCircuitboard
