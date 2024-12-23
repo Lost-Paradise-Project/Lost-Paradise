@@ -513,3 +513,13 @@
   categories:
   - LPPspecarmorD
   saleLimit: 1
+
+- type: listing
+  id: LPPUplinkTelescopicShieldD
+  name: uplink-telescopicshield-name
+  description: uplink-telescopicshield-desc
+  productEntity: TelescopicShield
+  cost:
+    Telecrystal: 6
+  categories:
+  - LPPspecutilitiesG

@@ -629,7 +629,7 @@
 - type: listing
   id: LPPUplinkClothingHardsuitEliteG
   name: uplink-clothing-gorlex-elite-name
-  description: uplink-clothing-gorlex-eilte-desc
+  description: uplink-clothing-gorlex-elite-desc
   icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/gorlexelite.rsi, state: icon }
   productEntity: LPPClothingBackpackDuffelGorlexElite
   cost:
@@ -638,12 +638,12 @@
   - LPPspecarmorG
 
 - type: listing
-  id: LPPUplinkTelescopicShield
-  name: uplink-telescopicshield-desc
+  id: LPPUplinkTelescopicShieldG
+  name: uplink-telescopicshield-name
   description: uplink-telescopicshield-desc
   productEntity: TelescopicShield
   cost:
-    Telecrystal: 7
+    Telecrystal: 6
   categories:
   - LPPspecutilitiesG
 
