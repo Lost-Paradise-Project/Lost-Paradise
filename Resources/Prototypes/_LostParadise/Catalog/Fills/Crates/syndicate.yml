@@ -95,5 +95,5 @@
       - id: BorgModuleTreatment
       - id: BorgModuleDiagnosis
       - id: EnergySwordDouble
-      - id: BaseUplinkRadio40TC
+      - id: LPPBaseUplinkRadio40TC
         amount: 4
