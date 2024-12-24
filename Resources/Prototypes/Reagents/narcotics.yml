@@ -112,10 +112,10 @@
       - !type:HealthChange
         conditions:
           - !type:ReagentThreshold
-            min: 80 #please wait 3 minutes before using another stimpack
+            min: 50 #please wait 3 minutes before using another stimpack
         damage:
           types:
-            Poison: 1
+            Poison: 10
       - !type:AdjustReagent
         conditions:
         - !type:ReagentThreshold
@@ -157,6 +157,15 @@
             groups:
               Burn: -1
               Brute: -1
+    Poison:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Poison: 0.25
+      - !type:Emote
+        emote: Scream
+        probability: 0.05
 
 - type: reagent
   id: THC
@@ -198,6 +207,12 @@
       effects:
       - !type:ChemAddMoodlet
         moodPrototype: NicotineBenefit
+    Poison:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Poison: 0.05
 
 # TODO: Replace these nonstandardized effects with generic brain damage
 - type: reagent

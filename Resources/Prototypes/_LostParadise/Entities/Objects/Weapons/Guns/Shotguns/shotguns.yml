@@ -29,7 +29,7 @@
   - type: Gun
     soundGunshot:
       path: /Audio/_LostParadise/Weapons/Guns/Gunshots/Boomstick.ogg
-    fireRate: 3
+    fireRate: 2
   - type: Wieldable
   - type: GunRequiresWield
 

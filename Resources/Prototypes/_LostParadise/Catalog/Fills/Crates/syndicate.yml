@@ -34,7 +34,6 @@
       - id: CyberPen
       - id: LPPWeaponEnergyCrossbow
       - id: EnergySword
-      - id: EnergyShield
       - id: EnergyDagger
       - id: ClothingBeltMilitaryWebbing
         amount: 3
@@ -93,9 +92,8 @@
       - id: PositronicBrain
       - id: ToolboxSyndicateFilled
       - id: BorgModuleAdvancedTreatment
-      - id: BorgModuleDefibrillator
+      - id: BorgModuleTreatment
       - id: BorgModuleDiagnosis
       - id: EnergySwordDouble
-      - id: WeaponLauncherRocket
-      - id: BaseUplinkRadio40TC
-        amount: 5
+      - id: LPPBaseUplinkRadio40TC
+        amount: 4

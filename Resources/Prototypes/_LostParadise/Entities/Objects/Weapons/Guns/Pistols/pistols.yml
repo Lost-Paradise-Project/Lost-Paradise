@@ -298,7 +298,6 @@
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     sprite: _LostParadise/Objects/Weapons/Guns/Pistols/magnumer.rsi
-    scale: 0.8, 0.8
   - type: Gun
     fireRate: 3
     selectedMode: SemiAuto

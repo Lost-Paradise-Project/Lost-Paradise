@@ -203,7 +203,7 @@
   - type: Gun
     minAngle: 1
     maxAngle: 12
-    fireRate: 8
+    fireRate: 7
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
   - type: ChamberMagazineAmmoProvider

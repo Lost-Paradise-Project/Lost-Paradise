@@ -5,7 +5,6 @@
   description: PLOOP, it works like a revolver, cool!
   components:
   - type: Sprite
-    scale: 1.2, 1.2
     sprite: _LostParadise/Objects/Weapons/Guns/Launchers/g301.png
     layers:
       - state: icon
@@ -41,3 +40,4 @@
     shape:
     - 0,0,3,3
     - 0,0,3,3
+  - type: GunRequiresWield

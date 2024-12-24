@@ -47,7 +47,7 @@
   name: Uplink-set-category-name
   description: Uplink-set-category-description
   icon: { sprite: /Textures/Objects/Specific/Syndicate/telecrystal.rsi, state: telecrystal }
-  productEntity: LPPBaseUplinkRadio450TC
+  productEntity: LPPBaseUplinkRadio300TC
   cost:
     Telecrystal: 1337
   categories:
