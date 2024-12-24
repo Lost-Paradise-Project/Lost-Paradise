@@ -14,3 +14,7 @@ ent-OrganAnimalHeart = Сердце
     .desc = { ent-BaseAnimalOrgan.desc }
 ent-OrganAnimalKidneys = Почки
     .desc = { ent-BaseAnimalOrgan.desc }
+ent-OrganSpaceAnimalLungs = space animal lungs
+    .desc = { ent-OrganAnimalLungs.desc }
+ent-OrganSpaceAnimalHeart = space animal heart
+    .desc = { ent-OrganAnimalHeart.desc }

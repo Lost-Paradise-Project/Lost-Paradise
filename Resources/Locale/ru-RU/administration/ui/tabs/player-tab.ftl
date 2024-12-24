@@ -6,3 +6,6 @@ player-tab-playtime = Игровое время
 player-tab-show-disconnected = Показать отключившихся
 player-tab-overlay = Оверлей
 player-tab-entry-tooltip = Игровое время отображается как дни:часы:минуты.
+player-tab-filter-line-edit-placeholder = Filter
+player-tab-is-antag-yes = YES
+player-tab-is-antag-no = NO

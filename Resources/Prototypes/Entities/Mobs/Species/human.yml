@@ -21,6 +21,7 @@
     hideLayersOnEquip:
     - Hair
     - Snout
+    - HeadSide
   - type: LanguageKnowledge
     speaks:
     - TauCetiBasic

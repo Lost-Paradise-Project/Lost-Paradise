@@ -171,3 +171,5 @@ ent-ReagentGrinderIndustrialMachineCircuitboard = Промышленный из�
     .desc = { ent-BaseMachineCircuitboard.desc }
 ent-TraversalDistorterMachineCircuitboard = Плата устройства искажающего обхода
     .desc = Машинная печатная плата для устройства искажающего обхода.
+ent-MedicalBiofabMachineBoard = medical biofab machine board
+    .desc = A machine printed circuit board for a medical biofab.

@@ -31,6 +31,8 @@ mood-effect-TraitorFocused = У меня есть цель, и я ее дост�
 mood-effect-RevolutionFocused = ДА ЗДРАВСТВУЕТ РЕВОЛЮЦИЯ!!!
 mood-effect-CultFocused = Тёмные Боги, даруйте мне силу!
 mood-effect-TraitSanguine = Мне не о чем беспокоиться. Я уверен, что в конце концов все будет хорошо!
+mood-effect-HeirloomSecure = My heirloom is safe, and with it the memories of the ones before me.
+mood-effect-HeirloomLost = I can't seem to find my heirloom, how will the past be safe now?
 # Addictions
 mood-effect-LotoTranscendence =
     Я МОГУ ВИДЕТЬ ВСЕ, ЧТО ЕСТЬ, КОГДА-ЛИБО БУДЕТ И КОГДА-ЛИБО БЫЛО. ВСЕ БЫТИЕ ОТКРЫЛОСЬ МОЕМУ РАЗУМУ!
@@ -40,6 +42,8 @@ mood-effect-LotoEnthrallment =
     Я боюсь, что увяну, если не смогу снова испить из чаши знания.
 mood-effect-NicotineBenefit = У меня такое чувство, будто я всю жизнь стоял и только что сел.
 mood-effect-NicotineWithdrawal = Мне бы сейчас пойти и прикурить немного.
+# Surgery
+mood-effect-SurgeryPain = The surgery hurts.
 # Drugs
 mood-effect-EthanolBenefit = Я чувствую себя таким расслабленным после выпивки.
 mood-effect-SpaceDrugsBenefit = Ваааау, какие красивые цвета, чувааааак. Я как будто слышу цвет и ощущаю вкус, чувааак.

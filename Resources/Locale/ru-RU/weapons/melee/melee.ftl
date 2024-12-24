@@ -7,3 +7,4 @@ melee-battery-examine =
         [few] удара
        *[other] ударов
     }.
+melee-heavy-no-stamina = You are too tired to perform a power attack!

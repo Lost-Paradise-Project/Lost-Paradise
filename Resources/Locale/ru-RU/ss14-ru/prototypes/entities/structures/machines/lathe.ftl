@@ -36,3 +36,5 @@ ent-OreProcessorIndustrial = Промышленный переработчик �
     .desc = Переработчик руды, разработанный специально для производства металлов в промышленных масштабах.
 ent-Sheetifier = Лист-мастер 2000
     .desc = Довольно мяссивное устройство.
+ent-MedicalBiofabricator = medical biofabricator
+    .desc = Produces organs and other organic matter that can be surgically grafted onto patients with biomass.

@@ -2,3 +2,4 @@ loadout-description-LoadoutCommandHOPNeckMantle = Покажите им кто �
 loadout-description-LoadoutCommandHOPNeckCloak = Стройный плащ для властных и сильных.
 loadout-description-LoadoutCommandHOPBackIan = Рюкзак ввиде собачки, милота!
 loadout-description-LoadoutCommandHOPHatCap = Фуражка главы персонала, прикольно.
+loadout-name-LoadoutHeadOfPersonnelGlovesInspection = inspection gloves (colorable)

@@ -1,3 +1,7 @@
+ent-CrateFunPlushie = plushie crate
+    .desc = A buncha soft plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
+ent-CrateFunLizardPlushieBulk = bulk lizard plushie crate
+    .desc = A buncha soft lizard plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
 ent-CrateFunInstrumentsVariety = Набор различных музыкальных инструментов
     .desc = Развеселите и расшевелите станцию с этой разнообразной коллекцией! Содержит семь музыкальных инструментов.
 ent-CrateFunInstrumentsBrass = Набор духовых инструментов
@@ -34,5 +38,8 @@ ent-CrateFunBikeHornImplants = Ящик хонк-имплантов
     .desc = Тысяча гудков за день отпугнёт СБ на день!
 ent-CrateFunMysteryFigurines = Ящик минифигурок Загадочные космонавты
     .desc = Коллекция из 10 коробок загадочных минифигурок. Дубликаты возврату не подлежат.
+ent-CrateFunSprayPaints = spray paint crate
+    .desc = a crate filled with spray paint.
+    .suffix = Spray Paint
 ent-CrateFunDartsSet = Набор для дартса
     .desc = Коробка со всем необходимым для увлекательной игры в дартс.

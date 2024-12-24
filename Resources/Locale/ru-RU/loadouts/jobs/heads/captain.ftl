@@ -10,3 +10,5 @@ loadout-description-LoadoutCommandCapHat = Править станцией в т
 loadout-description-LoadoutCommandCapHatBeret = Капитанский берет, очень красивый.
 loadout-description-LoadoutCommandCapMaskGas = А зачем капитану противогаз? В любом случае, оно выглядит роскошно.
 loadout-description-LoadoutCommandCapItemDrinkFlask = В неё наливают лишь элитнейший алкоголь.. Ну или колу.
+loadout-name-LoadoutCaptainDrinkFlask = captain's drink flask (colorable)
+loadout-name-LoadoutCaptainGlovesInspection = inspection gloves (colorable)

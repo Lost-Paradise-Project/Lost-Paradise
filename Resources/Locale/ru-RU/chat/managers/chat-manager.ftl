@@ -16,6 +16,7 @@ chat-manager-no-headset-on-message = У вас нет гарнитуры!
 chat-manager-no-radio-key = Не задан ключ канала!
 chat-manager-no-such-channel = Нет канала с ключём '{ $key }'!
 chat-manager-whisper-headset-on-message = Вы не можете шептать в гарнитуру!
+chat-manager-language-prefix = ({ $language }){ " " }
 chat-manager-server-wrap-message = [bold]{ $message }[/bold]
 chat-manager-sender-announcement-wrap-message = [font size=14][bold]Объявление { $sender }:[/font][font size=12]
     { $message }[/bold][/font]
@@ -37,6 +38,8 @@ chat-manager-admin-channel-name = АДМИН
 chat-manager-rate-limited = Вы отправляете сообщения слишком быстро!
 chat-manager-rate-limit-admin-announcement = Игрок { $player } превысил ограничение на частоту сообщений в чате. Присмотрите за ним если это происходит регулярно.
 chat-manager-send-empathy-chat-wrap-message = { $source }: { $message }
+chat-manager-send-cult-chat-wrap-message = [bold]\[{ $channelName }\] [BubbleHeader]{ $player }[/BubbleHeader]:[/bold] [BubbleContent]{ $message }[/BubbleContent]
+chat-manager-cult-channel-name = Blood Cult
 chat-speech-verb-suffix-exclamation = !
 chat-speech-verb-suffix-exclamation-strong = !!
 chat-speech-verb-suffix-question = ?

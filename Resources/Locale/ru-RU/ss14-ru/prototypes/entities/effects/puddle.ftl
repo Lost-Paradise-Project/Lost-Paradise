@@ -22,3 +22,5 @@ ent-PuddleSparkle = Блеск
     .desc = { "" }
 ent-Puddle = Лужа
     .desc = Лужа жидкости.
+ent-Footstep = Footstep
+    .desc = Trace of liquid

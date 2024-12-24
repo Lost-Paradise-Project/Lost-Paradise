@@ -21,3 +21,4 @@ fibers-white = белые
 fibers-yellow = жёлтые
 fibers-regal-blue = королевские синие
 fibers-olive = оливковые
+fibers-dyed = dyed fibers

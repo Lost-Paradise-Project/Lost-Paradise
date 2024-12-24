@@ -180,6 +180,13 @@
     damage:
       types:
         Blunt: 4
+  - type: LanguageKnowledge # LPP Bubblish Language for SlimePerson
+    speaks:
+    - TauCetiBasic
+    - Bubblish
+    understands:
+    - TauCetiBasic
+    - Bubblish
   - type: DamageStateVisuals
     states:
       Alive:

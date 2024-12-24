@@ -15,7 +15,7 @@
         Male: MaleFelinid
         Female: FemaleFelinid
         Unsexed: FemaleFelinid
-    #- type: Carriable
+    - type: Carriable
     - type: Hunger  # tajaran are already at a disadvantage against the vulpkanin, so the baseDecayRate is unchanged
     - type: Thirst
     - type: Icon
@@ -52,8 +52,6 @@
       speechVerb: Tajaran
     - type: Inventory
       speciesId: tajaran
-    # - type: EmotePanel
-      # race: Tajar
     - type: LanguageKnowledge
       speaks:
       - TauCetiBasic

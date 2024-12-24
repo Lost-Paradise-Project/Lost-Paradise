@@ -64,8 +64,6 @@
       - TauCetiBasic
       understands:
       - TauCetiBasic
-    # # - type: EmotePanel
-    #   race: Shark
     - type: Carriable
 
 - type: entity
