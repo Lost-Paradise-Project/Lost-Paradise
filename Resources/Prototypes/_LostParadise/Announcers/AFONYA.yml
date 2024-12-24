@@ -21,8 +21,8 @@
 #      path: comms/nuke_arm.ogg
 #    - id: nukeDisarm # The nuke has been disarmed
 #      path: comms/nuke_disarm.ogg
-    - id: welcome # The shift has started
-      path: comms/nuke_disarm.ogg
+#    - id: welcome # The shift has started
+#      path: comms/welcome.ogg
 
     # Alert levels
     - id: alertGreen # Everything is fine
