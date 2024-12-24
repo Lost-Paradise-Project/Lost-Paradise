@@ -54,6 +54,8 @@
             Detective: [ 1, 1 ]
             SecurityOfficer: [ 2, 2 ]
             SecurityCadet: [ 1, 1 ]
+            PrisonGuard: [ 2, 2 ]
+            Prisoner: [ 2, 3 ]
           #supply
             Quartermaster: [ 1, 1 ]
             MailCarrier: [ 1, 2 ]
@@ -64,6 +66,7 @@
           #justice
             Prosecutor: [ 1, 1 ]
             Clerk: [ 1, 1 ]
+            ChiefJustice: [ 1, 1 ]
           #LOST PARADISE
             LPPBlueShieldOfficer: [ 1, 1 ]
             LPPAdjutant: [ 1, 1 ]
