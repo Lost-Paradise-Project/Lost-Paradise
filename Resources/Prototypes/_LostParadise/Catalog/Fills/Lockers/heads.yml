@@ -12,8 +12,5 @@
       - id: LPPBlueShieldClothingMaskGas
       - id: OxygenTankFilled
       - id: NitrogenTankFilled
-      - id: LPPRubberStampConfidentional
-      - id: LPPRubberStampRestricted
-      - id: LPPRubberStampSecret
-      - id: LPPRubberStampDSOBlueShieldOfficer
+
 

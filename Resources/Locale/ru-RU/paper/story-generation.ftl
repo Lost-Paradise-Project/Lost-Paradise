@@ -220,3 +220,4 @@ story-gen-book-element-trait10 = довольно интересный
 story-gen-book-element-trait11 = неадекватен
 story-gen-book-element-trait12 = вызывает грусть
 story-gen-book-element-trait13 = вызывает депрессию
+

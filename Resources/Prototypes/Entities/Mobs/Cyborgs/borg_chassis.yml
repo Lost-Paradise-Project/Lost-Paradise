@@ -391,6 +391,7 @@
           - BorgModuleGeneric
           - BorgModuleEngineering
           - BorgModuleSyndicate
+          - BorgModuleSyndicateSabotage #LPP
       hasMindState: synd_engi_e
       noMindState: synd_engi
     - type: Construction
