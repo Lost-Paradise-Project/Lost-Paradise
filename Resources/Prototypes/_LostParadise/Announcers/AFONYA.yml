@@ -22,7 +22,7 @@
 #    - id: nukeDisarm # The nuke has been disarmed
 #      path: comms/nuke_disarm.ogg
     - id: welcome # The shift has started
-      collection: NTHWelcome
+      path: comms/nuke_disarm.ogg
 
     # Alert levels
     - id: alertGreen # Everything is fine
@@ -78,8 +78,8 @@
       path: events/meteors.ogg
     - id: meteorSwarmComplete # Meteors have stopped flying at the station
       path: events/meteors-complete.ogg
-    - id: mouseMigration # Several mice have appeared in a random place
-      path: events/mouse_migration.ogg
+#    - id: mouseMigration # Several mice have appeared in a random place
+#      path: events/mouse_migration.ogg
     - id: cockroachMigration # Several cockroaches have appeared in a random place
       path: events/migration.ogg
     - id: powerGridCheck # The station's power is offline for some moments
@@ -103,11 +103,11 @@
     - id: ionStorm # AI-controlled equipment are now weird, check their laws
       path: events/ion_storm.ogg
     ## Delta-V
-    - id: xenoVents # Xenomorphs are coming out of vents
-      path: events/aliens.ogg
+#    - id: xenoVents # Xenomorphs are coming out of vents
+#      path: events/aliens.ogg
     ## NyanoTrasen
-    - id: noosphericStorm # A large amount of glimmer has joined the station and made people psionic
-      path: events/noospheric_storm.ogg
+#    - id: noosphericStorm # A large amount of glimmer has joined the station and made people psionic
+#      path: events/noospheric_storm.ogg
 
     # Shuttle
     - id: shuttleCalled # The shuttle is on its way
