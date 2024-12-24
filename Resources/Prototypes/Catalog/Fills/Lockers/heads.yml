@@ -26,6 +26,9 @@
         prob: 0.3
       - id: WeaponEnergyGunMini #LPP
       - id: LPPQMPanties #LPP
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
 
 - type: entity
   id: LockerCaptainFilledHardsuit
@@ -56,6 +59,10 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: LPPCapPanties #LPP
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
+      - id: LPPRubberStampAdjutant #LPP
 
 - type: entity
   id: LockerCaptainFilled
@@ -85,6 +92,10 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: LPPCapPanties #LPP
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
+      - id: LPPRubberStampAdjutant #LPP
 
 - type: entity
   id: LockerCaptainFilledNoLaser
@@ -114,6 +125,10 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: LPPCapPanties #LPP
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
+      - id: LPPRubberStampAdjutant #LPP
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -152,6 +167,9 @@
         prob: 0.6
   # - >
       - id: LPPHOPPanties #LPP
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
 
 - type: entity
   id: LockerChiefEngineerFilledHardsuit
@@ -183,6 +201,9 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: LPPCEPanties #LPP
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
 
 - type: entity
   id: LockerChiefEngineerFilled
@@ -210,6 +231,9 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: LPPCEPanties #LPP
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
 
 - type: entity
   id: LockerChiefMedicalOfficerFilledHardsuit
@@ -239,6 +263,9 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: LPPCMOPanties #LPP
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
 
 - type: entity
   id: LockerChiefMedicalOfficerFilled
@@ -264,6 +291,9 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: LPPCMOPanties #LPP
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
@@ -288,6 +318,9 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: LPPRDPanties #LPP
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
 
 - type: entity
   id: LockerResearchDirectorFilled
@@ -311,6 +344,9 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: LPPRDPanties #LPP
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
 
 - type: entity
   id: LockerHeadOfSecurityFilledHardsuit
@@ -345,6 +381,9 @@
 #LPP
       - id: LPPBoxArmband
       - id: LPPHOSPanties
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -377,6 +416,9 @@
 #LPP
       - id: LPPBoxArmband
       - id: LPPHOSPanties
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
+      - id: LPPRubberStampSecret #LPP
 
 - type: entity
   id: LockerFreezerVaultFilled
