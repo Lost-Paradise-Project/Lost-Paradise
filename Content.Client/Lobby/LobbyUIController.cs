@@ -44,7 +44,7 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
     [Dependency] private readonly JobRequirementsManager _jobRequirements = default!;
     [UISystemDependency] private readonly HumanoidAppearanceSystem _humanoid = default!;
     [UISystemDependency] private readonly ClientInventorySystem _inventory = default!;
-    [UISystemDependency] private readonly LoadoutSystem _loadouts = default!;
+    [UISystemDependency] private readonly SharedLoadoutSystem _loadouts = default!;
 
     private CharacterSetupGui? _characterSetup;
     private HumanoidProfileEditor? _profileEditor;
@@ -162,7 +162,7 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
             return;
         }
 
-        var dummy = LoadProfileEntity(humanoid, true);
+        var dummy = LoadProfileEntity(humanoid, true, true);
         PreviewPanel.SetSprite(dummy);
         PreviewPanel.SetSummaryText(humanoid.Summary);
     }
@@ -265,25 +265,6 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
                 EntityManager.DeleteEntity(unequippedItem.Value);
     }
 
-    /// Applies the highest priority job's clothes and loadouts to the dummy.
-    public void GiveDummyJobClothesLoadout(EntityUid dummy, HumanoidCharacterProfile profile)
-    {
-#if LPP_Sponsors
-        var sys = IoCManager.Resolve<SponsorsManager>();
-        var sponsorTier = 0;
-        if (sys.TryGetInfo(out var sponsorInfo))
-            sponsorTier = sponsorInfo.Tier;
-        var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
-#endif
-        var job = GetPreferredJob(profile);
-        GiveDummyJobClothes(dummy, job, profile);
-        _loadouts.ApplyCharacterLoadout(dummy, job, profile, _jobRequirements.GetRawPlayTimeTrackers(), _jobRequirements.IsWhitelisted()
-#if LPP_Sponsors
-            , sponsorTier, uuid
-#endif
-            );
-    }
-
     /// Applies the specified job's clothes to the dummy.
     public void GiveDummyJobClothes(EntityUid dummy, JobPrototype job, HumanoidCharacterProfile profile)
     {
@@ -309,7 +290,7 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
     }
 
     /// Loads the profile onto a dummy entity
-    public EntityUid LoadProfileEntity(HumanoidCharacterProfile? humanoid, bool jobClothes)
+    public EntityUid LoadProfileEntity(HumanoidCharacterProfile? humanoid, bool jobClothes, bool loadouts)
     {
         EntityUid dummyEnt;
 
@@ -325,8 +306,18 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
 
         _humanoid.LoadProfile(dummyEnt, humanoid);
 
-        if (humanoid != null && jobClothes)
-            GiveDummyJobClothesLoadout(dummyEnt, humanoid);
+        if (humanoid != null)
+        {
+            var job = GetPreferredJob(humanoid);
+            if (jobClothes)
+                GiveDummyJobClothes(dummyEnt, job, humanoid);
+            if (loadouts)
+                _loadouts.ApplyCharacterLoadout(dummyEnt, job, humanoid, _jobRequirements.GetRawPlayTimeTrackers(), _jobRequirements.IsWhitelisted()
+#if LPP_Sponsors
+            , sponsorTier, uuid
+#endif
+            , out _);
+        }
 
         return dummyEnt;
     }

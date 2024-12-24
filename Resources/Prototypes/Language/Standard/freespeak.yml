@@ -1,6 +1,6 @@
 - type: language
   id: Freespeak
-  isvisiblelanguage: true
+  isVisibleLanguage: true
   speech:
     color: "#597d35"
   obfuscation:

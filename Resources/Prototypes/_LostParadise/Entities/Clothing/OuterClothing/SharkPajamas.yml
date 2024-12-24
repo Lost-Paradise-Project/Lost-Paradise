@@ -28,7 +28,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetPajamsSharkPink
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: shark pajama hood
   description: Cuteness :3
   components:
@@ -67,7 +67,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetPajamsSharkBlue
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: shark pajama hood
   description: Cuteness :3
   components:
@@ -106,7 +106,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: LPPHelmetPajamsSharkGray
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: shark pajama hood
   description: Cuteness :3
   components:

@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetAcientSyndieEVA
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: CSA-21BM Helmet
   description: The helmet is from a strange Syndicate spacesuit, it's in EVA mode.
   components:
@@ -33,7 +33,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHunter
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: GRT-42w Helmet
   description: An extremely comfortable helmet that allows you to protect yourself from the frosty weather.
   components:
@@ -64,7 +64,7 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: LPPClothingHeadHelmetRND
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: RHS-14s Helmet
   description: The helmet from the NIS spacesuit is quite useful and has built-in functionality, such as chemical detection and welding protection, which is why it is quite bulky.
   components:
@@ -95,7 +95,7 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: LPPClothingHeadHelmetScienceNPZ
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: NPZ-34r
   description: The helmet from the spacesuit is quite useful and has built-in eye protection from welding.
   components:

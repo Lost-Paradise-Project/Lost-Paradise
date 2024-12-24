@@ -62,6 +62,17 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
 
     }
 
+    public HumanoidCharacterAppearance()
+    {
+        HairStyleId = HairStyles.DefaultHairStyle;
+        HairColor = Color.Black;
+        FacialHairStyleId = HairStyles.DefaultFacialHairStyle;
+        FacialHairColor = Color.Black;
+        EyeColor = Color.Black;
+        SkinColor = Color.White;
+        Markings = new List<Marking>();
+    }
+
     public HumanoidCharacterAppearance WithHairStyleName(string newName)
     {
         return new(newName, HairColor, FacialHairStyleId, FacialHairColor, EyeColor, SkinColor, Markings);
@@ -156,7 +167,7 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
         var newEyeColor = random.Pick(RealisticEyeColors);
 
         var skinType = IoCManager.Resolve<IPrototypeManager>().Index<SpeciesPrototype>(species).SkinColoration;
-            var skinTone = IoCManager.Resolve<IPrototypeManager>().Index<SpeciesPrototype>(species).DefaultSkinTone; // DeltaV, required for tone blending
+        var skinTone = IoCManager.Resolve<IPrototypeManager>().Index<SpeciesPrototype>(species).DefaultSkinTone; // DeltaV, required for tone blending
 
         var newSkinColor = new Color(random.NextFloat(1), random.NextFloat(1), random.NextFloat(1), 1);
         switch (skinType)
@@ -169,7 +180,7 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
                 break;
             case HumanoidSkinColor.TintedHues:
                 newSkinColor = Humanoid.SkinColor.ValidTintedHuesSkinTone(newSkinColor);
-                    break;
+                break;
             case HumanoidSkinColor.TintedHuesSkin:
                 newSkinColor = Humanoid.SkinColor.ValidTintedHuesSkinTone(skinTone, newSkinColor);
                 break;
@@ -228,7 +239,7 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
             facialHairStyleId = HairStyles.DefaultFacialHairStyle;
         }
 
- #if LPP_Sponsors  // _LostParadise-Sponsors
+#if LPP_Sponsors  // _LostParadise-Sponsors
             if (proto.TryIndex(facialHairStyleId, out MarkingPrototype? facialHairProto) &&
                 facialHairProto.SponsorOnly &&
                 !sponsorPrototypes.Contains(facialHairStyleId))
@@ -237,24 +248,24 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
             }
 #endif
 
-            var markingSet = new MarkingSet();
-            var skinColor = appearance.SkinColor;
-            if (proto.TryIndex(species, out SpeciesPrototype? speciesProto))
-            {
-                markingSet = new MarkingSet(appearance.Markings, speciesProto.MarkingPoints, markingManager, proto);
-                markingSet.EnsureValid(markingManager);
+        var markingSet = new MarkingSet();
+        var skinColor = appearance.SkinColor;
+        if (proto.TryIndex(species, out SpeciesPrototype? speciesProto))
+        {
+            markingSet = new MarkingSet(appearance.Markings, speciesProto.MarkingPoints, markingManager, proto);
+            markingSet.EnsureValid(markingManager);
 
             if (!Humanoid.SkinColor.VerifySkinColor(speciesProto.SkinColoration, skinColor))
             {
                 skinColor = Humanoid.SkinColor.ValidSkinTone(speciesProto.SkinColoration, skinColor);
             }
 
-                markingSet.EnsureSpecies(species, skinColor, markingManager);
-                markingSet.EnsureSexes(sex, markingManager);
+            markingSet.EnsureSpecies(species, skinColor, markingManager);
+            markingSet.EnsureSexes(sex, markingManager);
 #if LPP_Sponsors  // _LostParadise-Sponsors
                 markingSet.FilterSponsor(sponsorPrototypes, markingManager);
 #endif
-            }
+        }
 
         return new HumanoidCharacterAppearance(
             hairStyleId,

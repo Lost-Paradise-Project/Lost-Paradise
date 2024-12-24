@@ -2,7 +2,7 @@
 # TODO: Replace this with a much better language.
 - type: language
   id: Canilunzt
-  isvisiblelanguage: true
+  isVisibleLanguage: true
   speech:
     color: "#d69b3dcc"
   obfuscation:

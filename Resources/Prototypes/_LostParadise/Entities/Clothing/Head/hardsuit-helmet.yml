@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitNightGuard
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: night guard exosuit helmet
   description: He usually comes at night. Usually.
   components:
@@ -42,7 +42,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPHardsuitHelmetAssaultParamedic
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Assault paramedic helmet
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitIIC
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: IIC exosuit helmet
   description: A pressure resistant and fireproof hood worn by special cleanup units.
   components:
@@ -99,7 +99,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitSWAT
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: SWAT hardsuit helmet
   description: Armored hardsuit helmet for security needs.
   components:
@@ -124,7 +124,7 @@
   id: LPPClothingHeadHelmetMikhelm
   name: The discolored helmet of the spacesuit
   description: The helmet is from a spacesuit, the display is slightly broken, but you can work...
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: BreathMask
   - type: Sprite
@@ -148,7 +148,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitSecurityPilot
   name: pilot security hardsuit helmet
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: Pilot armored hardsuit helmet for security needs.
   components:
   - type: Sprite
@@ -171,7 +171,7 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: LPPHardsuitHelmetSuppressor
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Improved Power Armor helmet
   components:
   - type: Sprite
@@ -194,7 +194,7 @@
   parent: ClothingHeadHelmetHardsuitERTLeader
   id: LPPClothingOuterHardsuitBlueshieldHelm
   name: blueshield's hardsuit helmet
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _LostParadise/Clothing/Head/Hardsuits/blueshield_hardsuithead.rsi
@@ -206,7 +206,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPArmorMovementHead
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Pilot Suit Helm Security
   description: Looks like something that inspires order.
   components:
@@ -223,7 +223,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitChrono
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: chrono two
   components:
   - type: Sprite
@@ -248,7 +248,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitIICPyrotech
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Pyrotech IIC exosuit helmet
   description:
   components:
@@ -289,7 +289,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitIICMedic
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Medic IIC exosuit helmet
   description:
   components:
@@ -330,7 +330,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitIICCommand
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: IIC exosuit helmet
   description:
   components:
@@ -371,7 +371,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitIICEngineer
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Engineer IIC exosuit helmet
   description:
   components:
@@ -412,7 +412,7 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: LPPClothingHeadHelmetHardsuitInteq
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: INT-05Q helmet
   description: Stury helmet that offers flash protection for your eyes. It has two modes, just for style.
   components:
@@ -458,7 +458,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitUpgradedMining
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: HpI-20b helmet
   description: Good helmet for every needs.
   components:
@@ -485,7 +485,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitMiningPlus
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: HpI-20a+ helmet
   description: Good helmet for every needs.
   components:
@@ -512,7 +512,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitMiningJuggernaut
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: HpIP-22 helmet
   description: Good helmet for every needs.
   components:
@@ -539,7 +539,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitDonkTrooper
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: DNK-02a helmet
   description: Good helmet for every needs.
   components:
@@ -567,7 +567,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitDonkElite
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: DNK-06g helmet
   description: Good helmet for every needs.
   components:
@@ -595,7 +595,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitDonkMedic
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: DNK-06g helmet
   description: Good helmet for every needs.
   components:
@@ -622,7 +622,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitDonkCommander
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: DNK-11 helmet
   description: Good helmet for every needs.
   components:
@@ -650,7 +650,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitCybersunJugger
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: CBS-212 helmet
   description: Good helmet for every needs.
   components:
@@ -677,7 +677,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitCybersunBasic
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: CBS-195 helmet
   description: Good helmet for every needs.
   components:
@@ -704,7 +704,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitCybersunElite
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: CBS-218p helmet
   description: Good helmet for every needs.
   components:
@@ -731,7 +731,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitCybersunCommander
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: CBS-222 helmet
   description: Good helmet for every needs.
   components:
@@ -758,7 +758,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitGorlexCommander
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: GRX-114p helmet
   description: Good helmet for every needs.
   components:
@@ -785,7 +785,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitGorlexElite
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: GRX-111 helmet
   description: Good helmet for every needs.
   components:
@@ -812,7 +812,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitGorlexMedic
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: GRX-113 helmet
   description: Good helmet for every needs.
   components:
@@ -839,7 +839,7 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: LPPClothingHeadHelmetHardsuitGorlexSoldier
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: GRX-101 helmet
   description: Good helmet for every needs.
   components:

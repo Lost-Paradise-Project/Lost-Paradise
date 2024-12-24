@@ -19,7 +19,7 @@
   id: LPPBulletCharge
   name: syndie charge bolt
   parent: BaseBullet
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: Marks a target for additional damage.
   components:
   - type: Reflective
@@ -54,7 +54,7 @@
   id: LPPBulletPibodi
   name: Pibodi Bullet
   parent: BaseBullet
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: Not too bad, but you still don't want to get hit by it.
   components:
   - type: Reflective
@@ -81,7 +81,7 @@
   id: LPPBecbowarrow
   name: ecbowshot
   parent: BaseBullet
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: Not too bad, but you still don't want to get hit by it.
   components:
   - type: Reflective
@@ -106,7 +106,7 @@
   id: LPPBulletCutter
   name: Cutter bolt
   parent: BaseBullet
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: Not too bad, but you still don't want to get hit by it.
   components:
   - type: Reflective
@@ -147,7 +147,7 @@
 #   name : Cutter bolt
 #   id: LPPBulletCutter2
 #   parent: BaseBullet
-#   noSpawn: true
+#   categories: [ HideSpawnMenu ]
 #   components:
 #   - type: Reflective
 #     reflective:
@@ -195,7 +195,7 @@
 #   name : battlecutter1
 #   id: battlecuttershot
 #   parent: BaseBullet
-#   noSpawn: true
+#   categories: [ HideSpawnMenu ]
 #   components:
 #   - type: Reflective
 #     reflective:
@@ -238,7 +238,7 @@
   id: LPPNail
   name: Nail
   parent: BaseBullet
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: Not too bad, but you still don't want to get hit by it.
   components:
   - type: Reflective

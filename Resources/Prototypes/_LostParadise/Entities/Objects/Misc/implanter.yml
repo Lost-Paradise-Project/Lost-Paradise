@@ -3,7 +3,7 @@
   id: LPPLoaltyImplant
   name: loalty implant
   description: Do your enemies your friends!
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant
 

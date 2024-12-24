@@ -2,7 +2,7 @@
   parent: ShowSecurityIcons
   id: LPPShowSecurityIcons
   abstract: true
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: [ClothingEyesBase, LPPShowSecurityIcons]
