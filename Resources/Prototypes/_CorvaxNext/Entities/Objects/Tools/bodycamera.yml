@@ -18,8 +18,5 @@
       - SurveillanceCameraSecurity
     networkSet: true
     id: "Нагрудная камера"
-  - type: SurveillanceCameraMicrophone
-  - type: ActiveListener
-    range: 6
   - type: BodyCamera
   
