@@ -1,2 +1,2 @@
-ent-LPPClothingNeckSecBadgeBase = боди-камера
+ent-LPPClothingNeckSecBodycamera = Боди-камера
     .desc = Боди-камера службы безопастности, полезна для слежки за офицерами или кадетами в патрулях

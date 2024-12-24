@@ -1,6 +1,6 @@
 - type: entity
   parent: [ClothingNeckBase, BaseBodyCamera]
-  id: LPPClothingNeckSecBadgeBase
+  id: LPPClothingNeckSecBodycamera
   name: security bodycamera
   description: Security body camera, useful for monitoring officers and cadets on patrols 
   components:
