@@ -1,0 +1,71 @@
+- type: entity
+  name: syndicate naval second officer spawner
+  suffix: AI, Hostile, Voidsman
+  id: SpawnMobSyndicateNavalSecondOfficerVoid
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - state: ai
+      - sprite: _LostParadise/Mobs/Species/Templates/human.rsi
+        state: human
+      - sprite: _LostParadise/Clothing/Head/Hoods/Bio/syndicate.rsi
+        state: equipped-HELMET
+      - sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+        state: equipped-OUTERCLOTHING
+      - sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
+        state: inhand-left
+      - sprite: Objects/Weapons/Melee/cutlass.rsi
+        state: inhand-right
+  - type: ConditionalSpawner
+    prototypes:
+      - MobSyndicateNavalSecondOfficerVoid
+
+- type: entity
+  name: syndicate naval captain spawner
+  id: SpawnMobSyndicateNavalCaptainVoid
+  parent: MarkerBase
+  suffix: AI, Hostile, Voidsman
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - state: ai
+      - sprite: _LostParadise/Mobs/Species/Templates/human.rsi
+        state: human
+      - sprite: Clothing/Head/Hardsuits/syndieelite.rsi
+        state: off-equipped-HELMET
+      - sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+        state: equipped-OUTERCLOTHING
+      - sprite: Objects/Weapons/Guns/Revolvers/python.rsi
+        state: inhand-left
+      - sprite: _LostParadise/Objects/Weapons/Melee/armingsword.rsi
+        state: inhand-right
+  - type: ConditionalSpawner
+    prototypes:
+      - MobSyndicateNavalCaptainVoid
+
+- type: entity
+  name: syndicate naval operator spawner
+  id: SpawnMobSyndicateNavalOperatorVoid
+  parent: MarkerBase
+  suffix: AI, Hostile, Voidsman
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - state: ai
+      - sprite: _LostParadise/Mobs/Species/Templates/human.rsi
+        state: human
+      - sprite: Clothing/Head/Hardsuits/syndiecommander.rsi
+        state: off-equipped-HELMET
+      - sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+        state: equipped-OUTERCLOTHING
+      - sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
+        state: inhand-left
+      - sprite: Objects/Weapons/Melee/kukri_knife.rsi
+        state: inhand-right
+  - type: ConditionalSpawner
+    prototypes:
+      - MobSyndicateNavalOperatorVoid

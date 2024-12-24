@@ -111,6 +111,7 @@
       - type: NpcFactionMember
         factions:
         - Syndicate
+
       mindComponents:
       - type: NukeopsRole
         prototype: NukeopsMedic

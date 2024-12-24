@@ -1,0 +1,9 @@
+ent-SuitStorageMercenary = { ent-SuitStorageBase }
+    .suffix = Mercenary
+    .desc = { ent-SuitStorageBase.desc }
+ent-SuitStorageMining = { ent-SuitStorageBase }
+    .suffix = Mining
+    .desc = { ent-SuitStorageBase.desc }
+ent-SuitStorageQuartermaster = { ent-SuitStorageBase }
+    .suffix = Quartermaster
+    .desc = { ent-SuitStorageBase.desc }

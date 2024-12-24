@@ -55,3 +55,12 @@
     reflectProb: 0.9
     reflects:
       - Energy
+
+- type: entity
+  parent: ClothingOuterVestWebMercenary
+  id: ClothingOuterVestWebMercenaryBlack
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Vests/mercenary_webvest_black.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Vests/mercenary_webvest_black.rsi

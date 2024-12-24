@@ -46,11 +46,15 @@
       "name": "on-equipped-HELMET-tajaran",
       "directions": 4
     },
-      {
-          "name": "on-equipped-HELMET-shark",
-          "directions": 4
+    {
+      "name": "on-equipped-HELMET-shark",
+      "directions": 4
     },
-      {
+    {
+      "name": "equipped-head-unshaded",
+      "directions": 4
+    },
+    {
       "name": "equipped-head-unshaded-vox",
       "directions": 4
     },

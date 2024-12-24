@@ -1,0 +1,17 @@
+- type: entity
+  id: MagazineLightRifleLowCapacity
+  name: "low cap magazine (.30 rifle)"
+  parent: BaseMagazineLightRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifle
+    capacity: 15
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_cap_mag.rsi
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

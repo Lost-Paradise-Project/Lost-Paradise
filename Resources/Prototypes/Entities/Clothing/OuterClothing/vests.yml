@@ -21,9 +21,9 @@
 
 #Mercenary web vest
 - type: entity
-  parent: ClothingOuterVestWeb #web vest so it should have some pockets for ammo
-  id: ClothingOuterVestWebMerc
-  name: merc web vest
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing] #web vest so it should have some pockets for ammo # Frontier: ClothingOuterVestWeb<ClothingOuterStorageBase, BaseMinorContraband<BaseC1Contraband
+  id: ClothingOuterVestWebMercenary # Frontier - Merc to Mercenary
+  name: mercenary web vest # Frontier - merc to mercenary
   description: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
   components:
   - type: Sprite
@@ -33,12 +33,13 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.7 #slightly better overall protection but slightly worse than bulletproof armor against bullets seems sensible
-        Slash: 0.7
-        Piercing: 0.5
-        Heat: 0.9
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.75 #Can save you, but bullets will still hurt. Will take about 10 shots from a Viper before critting, as opposed to 7 while unarmored and 16~ with a bulletproof vest.
+        Heat: 0.80
+        Caustic: 0.9
   - type: ExplosionResistance
-    damageCoefficient: 0.9
+    damageCoefficient: 0.90
 
 #Detective's vest
 - type: entity

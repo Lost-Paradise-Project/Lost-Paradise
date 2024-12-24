@@ -137,3 +137,34 @@
     sprite: _LostParadise/Clothing/Head/Helmets/NPZ/NPZassault.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Head/Helmets/NPZ/NPZassault.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetMercenary # Frontier - Name fix
+  name: mercenary helmet
+  description: The combat helmet is commonly used by mercenaries, is strong, light and smells like gunpowder and the jungle.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/merc_helmet.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/merc_helmet.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetBase
+  abstract: true
+  components:
+  - type: Armor #Values seem to let the user survive one extra hit if attacked consistently.
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - HeadTop
+    - HeadSide

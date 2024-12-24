@@ -1,0 +1,72 @@
+- type: entity
+  parent: CrateBaseWeldable
+  id: CratePlasticBiodegradable
+  name: biodegradable plastic crate
+  description: Feels incredibly flimsy.
+  components:
+  - type: Icon
+    sprite: Structures/Storage/Crates/plastic.rsi
+  - type: Sprite
+    sprite: Structures/Storage/Crates/plastic.rsi
+  - type: StaticPrice
+    price: 15
+
+- type: entity
+  id: CrateServiceJanitorialSupplies2
+  parent: CratePlasticBiodegradable
+  name: janitorial supplies crate B
+  description: Fight back against dirt and grime with Nanotrasen's Janitorial Essentials™! Contains two trash bag boxes, one box of wet floor signs and two bottles of spray cleaner.
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxTrashbag
+        amount: 2
+      - id: SprayBottleSpaceCleaner
+        amount: 2
+      - id: BoxWetFloorSign
+
+- type: entity
+  id: CrateSpaceCleaner
+  parent: CrateGenericSteel
+  name: bulk space cleaner crate
+  description: For a large mess.
+  components:
+    - type: StorageFill
+      contents:
+        - id: JugSpaceCleaner
+          amount: 5
+
+- type: entity
+  parent: CratePlasticBiodegradable
+  id: CrateServiceKitCleanades
+  name: cleanade crate
+  description: Contains a full kit to clean up a warzone.
+  components:
+  - type: StorageFill
+    contents:
+    - id: CleanerGrenade
+      amount: 2
+      orGroup: cleanades
+    - id: CleanerGrenade
+      amount: 4
+      orGroup: cleanades
+    - id: CleanerGrenade
+      amount: 6
+      orGroup: cleanades
+
+- type: entity
+  parent: CratePlasticBiodegradable
+  id: CrateServiceKitKitchen
+  name: kitchen toolkit
+  description: Contains a full kit to build a kitchen.
+  components:
+  - type: StorageFill
+    contents:
+    - id: KitchenMicrowaveFlatpack
+    - id: KitchenElectricGrillFlatpack
+    - id: KitchenReagentGrinderFlatpack
+    - id: VendingMachineBoozeFlatpack
+    - id: VendingMachineDinnerwareFlatpack
+    - id: ServiceTechFabFlatpack
+    - id: VendingMachineRestockChefvend
+    - id: VendingMachineRestockDinnerware

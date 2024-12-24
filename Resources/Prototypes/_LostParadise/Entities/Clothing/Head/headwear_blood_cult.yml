@@ -1,0 +1,21 @@
+- type: entity
+  parent:
+  - ClothingHeadHelmetBasic
+  id: ClothingHeadHelmetCultJanitor
+  name: cult janitor helmet
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/cult_janitor.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/cult_janitor.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+
+- type: entity # for looks only
+  parent: [ ClothingHeadHatHoodBloodCulthood, ClothingHeadHelmetBasic ]
+  id: ClothingHeadHatHoodBloodCulthoodUnremoveable
+  categories: [ HideSpawnMenu ]
+  name: cult hood
+  components:
+  - type: Unremoveable

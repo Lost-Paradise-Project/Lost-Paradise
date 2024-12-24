@@ -1,0 +1,9 @@
+ent-SpawnMobDinosaurSmall = Спавнер динозавра
+    .suffix = ИИ, Враждебный, Маленький
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobDinosaurMedium = Спавнер динозавра
+    .suffix = ИИ, Враждебный, Средний
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobDinosaurBig = Спавнер динозавра
+    .suffix = ИИ, Враждебный, Большой
+    .desc = { ent-MarkerBase.desc }
