@@ -1,1 +1,1 @@
-loadout-name-LoadoutEngineeringHeadHardhatWhite = hardhat (colorable)
+loadout-name-LoadoutEngineeringHeadHardhatWhite = Защитная каска (окрашиваемый)

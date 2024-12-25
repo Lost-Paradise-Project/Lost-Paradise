@@ -79,7 +79,7 @@ language-Kobold-name = Кобольды
 language-Kobold-description = Хиссс!
 language-Hissing-name = Шипящий
 language-Hissing-description = Хисс!
-language-Eldritch-name = Eldritch
+language-Eldritch-name = Жуткий
 language-Eldritch-description =
-    A language that is considered to be long forgotten - now the only speakers of this profaned tongue of screeches and
-    mumbles are the followers of an ancient God of Blood.
+    Язык, который считается давно забытым - теперь единственными, кто говорит на этом оскверненном языке визгов и
+    бормотания, являются последователи древнего Бога Крови.

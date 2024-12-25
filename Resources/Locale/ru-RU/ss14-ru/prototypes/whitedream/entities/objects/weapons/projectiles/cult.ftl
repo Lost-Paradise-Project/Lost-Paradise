@@ -1,2 +1,2 @@
-ent-ProjectileGauntlet = gauntlet
-    .desc = Oh no.
+ent-ProjectileGauntlet = Рукавица
+    .desc = О нет...

@@ -1,5 +1,5 @@
-loadout-description-LoadoutEyesEyepatch = Eyewear, for the fashionista without an eye.
-loadout-description-LoadoutEyesBlindfold = Why would you want this?
-loadout-name-LoadoutItemBlindfoldFake = "blind"fold
-loadout-description-LoadoutItemBlindfoldFake = This product may not work as advertised.
-loadout-name-LoadoutEyesGlasses = glasses (colorable)
+loadout-description-LoadoutEyesEyepatch = Очки для модницы без глаза.
+loadout-description-LoadoutEyesBlindfold = Зачем тебе это нужно?
+loadout-name-LoadoutItemBlindfoldFake = Очки для "слепых"
+loadout-description-LoadoutItemBlindfoldFake = Этот продукт может работать не так, как рекламируется.
+loadout-name-LoadoutEyesGlasses = Очки (окрашиваемый)

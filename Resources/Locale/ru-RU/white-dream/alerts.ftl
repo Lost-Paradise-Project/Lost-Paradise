@@ -1,2 +1,2 @@
-alerts-blood-cult-empowered-name = Empowered
-alerts-blood-cult-empowered-desc = Blood magic and rune scribing requires much less time to cast and you lose less blood from it.
+alerts-blood-cult-empowered-name = Уполномоченный
+alerts-blood-cult-empowered-desc = Магия крови и начертание рун требуют гораздо меньше времени на произнесение заклинания, и вы теряете при этом меньше крови.

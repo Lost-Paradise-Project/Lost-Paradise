@@ -1,7 +1,7 @@
 
-ent-EldritchLongsword = eldritch longsword
-    .desc = A sword humming with unholy energy. It glows with a dim red light.
-ent-BloodSpear = blood halberd
-    .desc = A sickening spear composed entirely of crystallized blood.
-ent-BloodRitesAura = blood rite aura
-    .desc = Absorbs blood from anything you touch. Touching cultists and constructs can heal them. Use in-hand to cast an advanced rite.
+ent-EldritchLongsword = Жуткий длинный меч
+    .desc = Меч, излучающий нечестивую энергию. Он светится тусклым красным светом.
+ent-BloodSpear = Кровавая алебарда
+    .desc = Отвратительное копье, полностью состоящее из кристаллизованной крови.
+ent-BloodRitesAura = Аура кровавого обряда
+    .desc = Впитывает кровь из всего, к чему вы прикасаетесь. Прикосновение к культистам и конструкциям может исцелить их. Используйте в руке, чтобы провести продвинутый ритуал.

@@ -1,2 +1,2 @@
-ent-CultBola = nar'sien bola
-    .desc = A strong bola, bound with dark magic that allows it to pass harmlessly through Nar'Sien cultists. Throw it to trip and slow your victim.
+ent-CultBola = Бола Нар'Си
+    .desc = Сильный бола, наполненная темной магией, которая позволяет ему без вреда проходить сквозь сектантов Нар'Сена. Бросьте его, чтобы уронить и замедлить свою жертву.

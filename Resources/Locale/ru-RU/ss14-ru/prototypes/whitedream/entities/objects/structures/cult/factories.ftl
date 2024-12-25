@@ -1,8 +1,8 @@
-ent-CultFactoryBase = base cult factory
-    .desc = You can make things here.
-ent-CultFactoryAltar = altar
-    .desc = A bloodstained altar dedicated to Nar'Sie.
-ent-CultFactoryForge = daemon forge
-    .desc = A forge used in crafting the unholy weapons used by the armies of Nar'Sie.
-ent-CultFactoryArchives = archives
-    .desc = A desk covered in arcane manuscripts and tomes in unknown languages. Looking at the text makes your skin crawl.
+ent-CultFactoryBase = Базовая фабрика Культа
+    .desc = Ты можешь творить здесь что угодно.
+ent-CultFactoryAltar = Алтарь
+    .desc = Окровавленный алтарь, посвященный Нар'Си.
+ent-CultFactoryForge = Демоническая кузня
+    .desc = Кузница, в которой изготавливают нечестивое оружие, используемое армиями Нар'Си.
+ent-CultFactoryArchives = Архивы
+    .desc = Письменный стол, заваленный загадочными манускриптами и фолиантами на неизвестных языках. При взгляде на текст мурашки бегут по коже.

@@ -1,6 +1,6 @@
-ent-CultTileSpawnEffect = cult tile effect
+ent-CultTileSpawnEffect = Эффект Культа
     .desc = { "" }
-ent-CultTeleportInEffect = Teleport in
+ent-CultTeleportInEffect = Телепортироваться в
     .desc = { "" }
-ent-CultTeleportOutEffect = Teleport out
+ent-CultTeleportOutEffect = Телепортироваться из
     .desc = { "" }

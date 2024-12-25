@@ -1,4 +1,4 @@
-loadout-name-LoadoutNeckOldMantle = old mantle (colorable)
-loadout-name-LoadoutNeckUnathiMantle = unathi mantle (colorable)
-loadout-name-LoadoutNeckTieWhite = suit tie (colorable)
-loadout-name-LoadoutNeckBedsheetWhite = bedsheet (colorable)
+loadout-name-LoadoutNeckOldMantle = старая мантия (окрашиваемый)
+loadout-name-LoadoutNeckUnathiMantle = мантия унатхов (окрашиваемый)
+loadout-name-LoadoutNeckTieWhite = костюма (окрашиваемый)
+loadout-name-LoadoutNeckBedsheetWhite = простыня (окрашиваемый)

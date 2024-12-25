@@ -1,2 +1,2 @@
 ent-KillTargetCultObjective = { ent-BaseObjective }
-    .desc = This fool person should be sacrificed in the glory of our Goddess.
+    .desc = Этот глупец должен быть принесен в жертву во славу нашей Богини.

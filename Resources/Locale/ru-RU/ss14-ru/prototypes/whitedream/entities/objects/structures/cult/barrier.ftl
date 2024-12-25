@@ -1,4 +1,4 @@
-ent-BloodCultBarrier = cult barrier
-    .desc = Can be destroyed with ritual dagger.
-ent-WallForceCult = glowing wall
-    .desc = An unholy shield that blocks all attacks.
+ent-BloodCultBarrier = Барьер культа
+    .desc = Может быть уничтожен ритуальным кинжалом.
+ent-WallForceCult = Светящаяся стена
+    .desc = Нечестивый щит, который блокирует все атаки.

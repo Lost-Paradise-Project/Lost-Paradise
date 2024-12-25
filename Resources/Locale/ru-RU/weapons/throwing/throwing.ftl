@@ -1,5 +1,5 @@
-throwing-falloff = The { $item } falls out of you!
-throwing-embed-falloff = The { $item } falls out of you!
-throwing-embed-remove-alert-owner = { $other } is removing the { $item } stuck on you!
-throwing-examine-embedded = { CAPITALIZE(OBJECT($embedded)) } { CONJUGATE-BE($embedded) } [color=teal]embedded[/color] in [bold]{ THE($target) }[/bold].
-throwing-examine-embedded-part = { CAPITALIZE(OBJECT($embedded)) } { CONJUGATE-BE($embedded) } [color=teal]embedded[/color] in [bold]{ THE($target) }[/bold]'s [color=red]{ $targetPart }[/color].
+throwing-falloff = { $item } выпадает из тебя!
+throwing-embed-falloff = { $item } выпадает из тебя!
+throwing-embed-remove-alert-owner = { $other } - убирает { $item }, застрявший в вас!
+throwing-examine-embedded = { CAPITALIZE(OBJECT($embedded)) } { CONJUGATE-BE($embedded) } [color=teal]встроенный[/color] в [bold]{ THE($target) }[/bold].
+throwing-examine-embedded-part = { CAPITALIZE(OBJECT($embedded)) } { CONJUGATE-BE($embedded) } [color=teal]встроенный[/color] в [bold]{ THE($target) }[/bold] [color=red]{ $targetPart }[/color].

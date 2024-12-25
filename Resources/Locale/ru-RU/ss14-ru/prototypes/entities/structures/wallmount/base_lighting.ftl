@@ -1,8 +1,8 @@
-ent-LightSmallAlwayson = small light
-    .desc = An always powered light.
-    .suffix = Always on
-ent-LightSmallEmpty = small light
-    .desc = A light fixture. Draws power and produces light when equipped with a light bulb.
-    .suffix = Empty
+ent-LightSmallAlwayson = Маленький светильник
+    .desc = Всегда включенная лампочка.
+    .suffix = Всегда включен
+ent-LightSmallEmpty = Маленький светильник
+    .desc = Светильник. Если в нем установлена электрическая лампочка, он потребляет электроэнергию и излучает свет.
+    .suffix = Пустая
 ent-LightSmall = { ent-PoweredSmallLight }
     .desc = { ent-PoweredSmallLight.desc }

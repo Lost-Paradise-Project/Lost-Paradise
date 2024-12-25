@@ -1,7 +1,7 @@
-ent-SoulShard = soul shard
-    .desc = Mysterious glowing shard.
+ent-SoulShard = Осколок души
+    .desc = Таинственный светящийся осколок.
 ent-SoulShardGhost = { ent-SoulShard }
-    .suffix = Ghost Role
+    .suffix = Роль призрака
     .desc = { ent-SoulShard.desc }
 ent-SoulShardHoly = { ent-SoulShard }
     .desc = { ent-SoulShard.desc }

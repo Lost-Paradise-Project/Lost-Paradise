@@ -337,4 +337,4 @@ reagent-effect-guidebook-innoculate-zombie-infection =
         [1] Лечит
        *[other] лечат
     } зомби-вирус и обеспечивает иммунитет к нему в будущем
-reagent-effect-guidebook-purify-evil = Purifies evil powers
+reagent-effect-guidebook-purify-evil = Очищает злые силы

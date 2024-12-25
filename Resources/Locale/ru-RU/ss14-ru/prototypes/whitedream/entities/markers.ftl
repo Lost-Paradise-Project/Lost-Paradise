@@ -1,2 +1,2 @@
-ent-RendingRunePlacementMarker = rending rune placement marker
-    .desc = Marker for rending rune placement. 5 should be enough for each map.
+ent-RendingRunePlacementMarker = Считывающий маркер размещения рун
+    .desc = Маркер для разметки рун. Для каждой карты должно хватить 5 штук.

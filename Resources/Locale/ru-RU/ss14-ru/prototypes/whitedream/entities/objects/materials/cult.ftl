@@ -1,8 +1,8 @@
-ent-RunedMetal = runic metal
-    .desc = An unusual sheet of metal with a pulsating rune.
-    .suffix = Full
+ent-RunedMetal = Рунический металл
+    .desc = Необычный лист металла с пульсирующей руной.
+    .suffix = Полный
 ent-RunedMetal1 = { ent-RunedMetal }
-    .suffix = Single
+    .suffix = Один
     .desc = { ent-RunedMetal.desc }
 ent-RunedMetal4 = { ent-RunedMetal }
     .suffix = 4

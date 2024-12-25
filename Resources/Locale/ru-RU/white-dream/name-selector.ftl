@@ -1,2 +1,2 @@
-name-selector-title = Select a name
-name-selector-accept-button = Accept
+name-selector-title = Выберите имя
+name-selector-accept-button = Принять

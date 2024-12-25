@@ -1,2 +1,2 @@
-ent-BloodBoilProjectile = Concentrated Blood
-    .desc = Oh no.
+ent-BloodBoilProjectile = Концентрированная кровь
+    .desc = О нет...

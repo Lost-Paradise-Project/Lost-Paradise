@@ -1,2 +1,2 @@
-loadout-name-LoadoutHandsColorWhite = gloves (colorable)
-loadout-name-LoadoutHandsGlovesFingerlessWhite = fingerless gloves (colorable)
+loadout-name-LoadoutHandsColorWhite = Перчатки (окрашиваемый)
+loadout-name-LoadoutHandsGlovesFingerlessWhite = Перчатки без пальцев (окрашиваемый)

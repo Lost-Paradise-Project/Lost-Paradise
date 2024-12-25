@@ -1,16 +1,16 @@
-blood-cult-title = The Blood Cult
-blood-cult-description = The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown.
-roles-antag-blood-cultist-name = Blood cultist
-roles-antag-blood-cultist-objective = Summon the Old God Nar'Sie.
+blood-cult-title = Культ Крови
+blood-cult-description = Самая древняя и сильная эмоция человечества - это страх, а самый древний и сильный вид страха - это страх перед неизвестным.
+roles-antag-blood-cultist-name = Культист Крови
+roles-antag-blood-cultist-objective = Призови Старого Бога Нар'Си.
 blood-cult-role-greeting =
-    The Geometer of Blood, Nar-Sie, has sent a number of her followers to Space Station.
-    As a cultist, you have an abundance of cult magics at your disposal, something for all situations.
-    You must work with your brethren to summon an avatar of your eldritch goddess!
-blood-cult-role-briefing-short = Use '^' to contact other members of your brethren.
-blood-cult-role-briefing-rending-locations = The veil can be thorn { $location }, { $coordinates }
-blood-cult-role-briefing-emergency-rending = We can draw { $amount } more rending or apocalypse runes!
-blood-cult-condition-win = The Geometer of Blood has successfully summoned their Eldritch Goddess!
-blood-cult-condition-draw = Both parties were destroyed.
-blood-cult-condition-failure = The crew have managed to stop the rending of reality!
-blood-cultists-list-start = Members of Geometer of Blood were:
+    Культ Крови Нар'Си отправил нескольких своих последователей на Космическую Станцию.
+    Как Культист, в вашем распоряжении множество культовых магических средств, которые помогут в любой ситуаций.
+    Вы должны сотрудничать со своими собратьями, чтобы вызвать аватар вашей Сверхъестественной Богини!
+blood-cult-role-briefing-short = Используй '^' чтобы связаться с другими членами вашего братства.
+blood-cult-role-briefing-rending-locations = Завеса может быть разорвана { $location }, { $coordinates }
+blood-cult-role-briefing-emergency-rending = Мы можем нарисовать ещё { $amount } раздирающих рун или рун апокалипсиса!
+blood-cult-condition-win = Культ Крови успешно призвал свою Сверхъестественную Богиню!
+blood-cult-condition-draw = Обе стороны были уничтожены.
+blood-cult-condition-failure = Экипажу удалось остановить разрушение Реальности!
+blood-cultists-list-start = Членами Культа Крови были:
 blood-cultists-list-name = [color=White]{ $name }[/color] ([color=gray]{ $user }[/color])

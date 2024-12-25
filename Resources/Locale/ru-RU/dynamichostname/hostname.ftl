@@ -1,3 +1,3 @@
-dynamic-hostname-in-lobby-hostname = { $originalHostName } | Sitting in lobby
-dynamic-hostname-in-round-hostname = { $originalHostName } | Playing { $preset } on { $mapName }
-dynamic-hostname-post-round-hostname = { $originalHostName } | Round over
+dynamic-hostname-in-lobby-hostname = { $originalHostName } | Сидит в лобби
+dynamic-hostname-in-round-hostname = { $originalHostName } | Играет { $preset } на { $mapName }
+dynamic-hostname-post-round-hostname = { $originalHostName } | Раунд закончился

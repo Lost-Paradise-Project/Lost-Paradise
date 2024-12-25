@@ -1,10 +1,10 @@
-ent-FurnitureWashingmachine = washing machine
-    .desc = wishy washy.
+ent-FurnitureWashingmachine = Стиральная машина
+    .desc = Стиралки стирают.
 ent-FurnitureWashingmachineIndustrial = { ent-FurnitureWashingmachine }
-    .suffix = Industrial
+    .suffix = Промышленный
     .desc = { ent-FurnitureWashingmachine.desc }
-ent-ClosetSafe = safe
-    .desc = Might be filled with valuables.
+ent-ClosetSafe = Безопасный
+    .desc = Возможно, он наполнен ценными вещами.
 ent-ClosetSafeSpinner = { ent-ClosetSafe }
-    .suffix = spinner
+    .suffix = Спиннер
     .desc = { ent-ClosetSafe.desc }
