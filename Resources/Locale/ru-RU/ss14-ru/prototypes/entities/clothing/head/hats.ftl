@@ -1,9 +1,9 @@
 ent-ClothingHeadHatBeaverHat = Бобровая шапка
     .desc = Джентльмены?
 ent-ClothingHeadHatBeret = Берет
-    .desc = Берет, любимый головной убор творцов.
-ent-ClothingHeadHatBeretWhite = beret
-    .desc = A beret, an artists favorite headwear.
+    .desc = Берет - любимый головной убор художников.
+ent-ClothingHeadHatBeretWhite = Белый берет
+    .desc = Берет - любимый головной убор художников.
 ent-ClothingHeadHatBeretFrench = Французский берет
     .desc = Французский берет, "Vive la France".
 ent-ClothingHeadHatBeretSecurity = Берет охраны

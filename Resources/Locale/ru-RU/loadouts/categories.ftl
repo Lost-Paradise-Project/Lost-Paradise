@@ -21,8 +21,8 @@ loadout-category-JobsEngineeringSeniorEngineer = Ведущий Инженер
 loadout-category-JobsEngineeringStationEngineer = Инженер
 loadout-category-JobsEngineeringTechnicalAssistant = Технический Ассистент
 # Epistemics
-loadout-category-JobsEpistemics = Эпистемология
-loadout-category-JobsEpistemicsAAUncategorized = Всё Эпистемологическое
+loadout-category-JobsEpistemics = НИО
+loadout-category-JobsEpistemicsAAUncategorized = Всё Научное
 loadout-category-JobsEpistemicsAcolyte = Псаломщик
 loadout-category-JobsEpistemicsCataloger = Каталогизатор
 loadout-category-JobsEpistemicsChaplain = Священник

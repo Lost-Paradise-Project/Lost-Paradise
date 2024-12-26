@@ -17,8 +17,8 @@ uplink-fire-axe-flaming-name = Пылающий топор
 uplink-fire-axe-flaming-desc = Классическое оружие, оснащённое передовой атмос-технологией, позволяющей ему поджигать цели. Теперь с прочной прорезиненной рукояткой!
 uplink-gloves-north-star-name = Перчатки Полярной звезды
 uplink-gloves-north-star-desc = Пара перчаток, которые значительно сокращают время между ударами, позволяя избивать людей до смерти шквалом ударов.
-uplink-emp-flashlight-name = Emp Flashlight
-uplink-emp-flashlight-desc = A rechargeable device disguised as a flashlight designed to disrupt electronic systems. Useful for disrupting communications, security's energy weapons, and APCs when you're in a tight spot.
+uplink-emp-flashlight-name = Электромагнитный фонарик
+uplink-emp-flashlight-desc = Перезаряжаемое устройство, замаскированное под фонарик, предназначенное для выведения из строя электронных систем. Полезно для подрыва коммуникаций, энергетического оружия службы безопасности и ЛКП, когда вы находитесь в трудной ситуации.
 # Explosives
 uplink-explosive-grenade-name = Разрывная граната
 uplink-explosive-grenade-desc = Простая граната с 3,5-секундным запалом, ориентированная на поражение личного состава. Наносит минимальные повреждения стенам и полу.

@@ -1,4 +1,4 @@
-loadout-name-LoadoutNeckOldMantle = старая мантия (окрашиваемый)
-loadout-name-LoadoutNeckUnathiMantle = мантия унатхов (окрашиваемый)
-loadout-name-LoadoutNeckTieWhite = костюма (окрашиваемый)
-loadout-name-LoadoutNeckBedsheetWhite = простыня (окрашиваемый)
+loadout-name-LoadoutNeckOldMantle = Старая мантия (окрашиваемый)
+loadout-name-LoadoutNeckUnathiMantle = Мантия унатхов (окрашиваемый)
+loadout-name-LoadoutNeckTieWhite = Галстук (окрашиваемый)
+loadout-name-LoadoutNeckBedsheetWhite = Простыня (окрашиваемый)

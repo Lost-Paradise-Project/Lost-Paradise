@@ -27,5 +27,5 @@ ent-CrateEngineeringTeslaCoil = Ящик с катушкой Теслы
     .desc = Катушка Теслы. Притягивает молнии и вырабатывает из них энергию.
 ent-CrateEngineeringTeslaGroundingRod = Ящик с заземляющим стержнем Теслы
     .desc = Заземляющий стержень, идеально для защиты от молний.
-ent-CrateEngineeringTEGKit = TEG construction kit crate
-    .desc = A 'build your own TEG' kit. Some assembly required.
+ent-CrateEngineeringTEGKit = Ящик с ТЭГом
+    .desc = Набор "собери свой собственный ТЭГ". Требуется небольшая сборка.

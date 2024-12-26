@@ -11,6 +11,6 @@ main-menu-address-label = Адрес сервера:
 main-menu-join-public-server-button = Публичный сервер
 main-menu-join-public-server-button-tooltip = Нельзя подключаться к публичным серверам с отладочной сборкой.
 main-menu-direct-connect-button = Прямое подключение
-main-menu-go-lobby-button = Connect & Go to Lobby
+main-menu-go-lobby-button = Подключиться и перейти в лобби
 main-menu-options-button = Настройки
 main-menu-quit-button = Выйти

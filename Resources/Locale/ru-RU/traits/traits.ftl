@@ -291,10 +291,10 @@ trait-description-CyberEyes =
     Один или несколько ваших глаз были заменены на высокомодульный механический глазной имплантат.
     Их основная функция заключается в устранении естественных недостатков глаз пользователя,
     но, кроме того, эти имплантаты обеспечивают защиту от ярких вспышек света.
-trait-name-FlareShielding = Cyber-Eyes Flare Shielding
+trait-name-FlareShielding = Кибер-глаза с защитой от вспышек
 trait-description-FlareShielding =
-    Your cybereyes have been fitted with a photochromic lense that automatically darkens in response to intense stimuli.
-    This provides substantial protection from bright flashes of light, such as those from welding arcs.
+    Ваши киберлазы оснащены фотохромными линзами, которые автоматически затемняются в ответ на интенсивные раздражители.
+    Это обеспечивает надежную защиту от ярких вспышек света, например, от сварочных дуг.
 trait-name-CyberEyesSecurity = Кибер-глаза Безопасности
 trait-description-CyberEyesSecurity =
     Ваши кибер-глаза были обновлены, теперь в них встроен центр безопасности. Обратите внимание, что это дополнение считается контрабандой
@@ -310,36 +310,36 @@ trait-description-CyberEyesOmni =
     и может быть отключено вашим работодателем перед отправкой на станцию.
 trait-name-ShadowkinBlackeye = Чёрноглазый
 trait-description-ShadowkinBlackeye = Вы теряете свои особые способности Теневика в обмен на некоторые очки.
-trait-name-DispelPower = Normality Projection
+trait-name-DispelPower = Проекция нормальности
 trait-description-DispelPower =
-    Your Mentalic abilities include the power to enforce normality upon Noospheric phenomena.
-    This power, commonly known as "Dispel", allows the user to destroy otherworldly entities with their mind,
-    or to immediately end psychic effects.
-trait-name-MetapsionicPower = Metapsion
+    Ваши ментальные способности включают в себя способность придавать ноосферным явлениям нормальный характер.
+    Эта способность, широко известная как "Рассеивание", позволяет пользователю уничтожать потусторонние сущности силой своего разума
+    или немедленно прекращать психические эффекты.
+trait-name-MetapsionicPower = Метапсия
 trait-description-MetapsionicPower =
-    You are able to intuitively sense the activation of psionic abilities, as well as send out a 'scanning' pulse
-    to detect whether or not psions are nearby. This ability has a wide area of effect, and cannot precisely
-    scan individual entities. Still, it is better than being blind.
-trait-name-XenoglossyPower = Xenoglossy
+    Вы можете интуитивно ощущать активацию псионических способностей, а также посылать "сканирующий" импульс
+    чтобы определить, находятся ли псионики поблизости. Эта способность обладает широкой областью действия и не может точно
+    сканировать отдельные объекты. И все же это лучше, чем быть слепым.
+trait-name-XenoglossyPower = Ксеноглоссия
 trait-description-XenoglossyPower =
-    An advanced form of Telepathy, Xenoglossy is the ability to speak using emotional and metaphysical concepts,
-    rather than words, to impart meaning directly into the minds of a listener. When speaking using Xenoglossy, a psion can be
-    universally understood by any entity, who will hear the words as if spoken in one's own native tongue. Additionally,
-    Xenoglossy grants the ability to divine the underlying emotional meaning from the minds of other speakers,
-    allowing its user to understand any spoken language as if it was the user's own native tongue.
-trait-name-PsychognomyPower = Psychognomist
+    Ксеноглоссия, продвинутая форма телепатии, - это способность говорить, используя эмоциональные и метафизические концепции,
+    а не слова, чтобы донести смысл непосредственно до сознания слушателя. Говоря на ксеноглоссии, псион может быть
+    понятен любому существу, которое будет слышать слова так, как если бы они были произнесены на его родном языке. Дополнительно,
+    Ксеноглоссия дает возможность угадывать эмоциональный подтекст в сознании других носителей языка,
+    позволяя пользователю понимать любой разговорный язык так, как если бы это был его родной язык.
+trait-name-PsychognomyPower = Психогномист
 trait-description-PsychognomyPower =
-    A special talent derived from Telepathy, Psychognomy is the ability to read the underlying imprint of telepathic messages.
-    A Psychognomist can glean additional information from their telepathy, seeing vague outlines of what the source of a message
-    might be. This information is not precise, and is largely only useful for narrowing down who the source of a message might be.
-trait-name-Redshirt = Redshirt
+    Особый талант, связанный с телепатией, психогномика - это способность считывать скрытый отпечаток телепатических сообщений.
+    Психогномист может извлекать дополнительную информацию из своей телепатии, видя смутные очертания того, что является источником сообщения
+    может оказаться. Эта информация не является точной и в основном полезна только для определения того, кто может быть источником сообщения.
+trait-name-Redshirt = Краснорубашечник
 trait-description-Redshirt =
-    They said this air would be breathable.
-    Get in, get out again, and no one gets hurt.
-    Something is pulling me up the hill.
-    I look down in my red shirt.
-    I look down in my red shirt.
-trait-name-BrittleBoneDisease = Osteogenesis Imperfecta
+    Они сказали, что этот воздух пригоден для дыхания.
+    Войду, выйду снова, и никто не пострадает.
+    Что-то тянет меня вверх по склону.
+    Я смотрю вниз на свою красную рубашку.
+    Я смотрю вниз на свою красную рубашку.
+trait-name-BrittleBoneDisease = Несовершенный остеогенез
 trait-description-BrittleBoneDisease =
-    Also known as "brittle bone disease", people with this genetic disorder have bones that are easily broken,
-    often simply by moving. This trait reduces your threshold for critical injury by 50 points.
+    У людей с этим генетическим заболеванием, также известным как "болезнь хрупких костей", кости легко ломаются,
+    часто при простом движении. Эта особенность снижает ваш порог критической травмы на 50 пунктов.
