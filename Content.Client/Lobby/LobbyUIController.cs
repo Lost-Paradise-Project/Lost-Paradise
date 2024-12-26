@@ -312,11 +312,11 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
             if (jobClothes)
                 GiveDummyJobClothes(dummyEnt, job, humanoid);
             if (loadouts)
-                _loadouts.ApplyCharacterLoadout(dummyEnt, job, humanoid, _jobRequirements.GetRawPlayTimeTrackers(), _jobRequirements.IsWhitelisted()
+                _loadouts.ApplyCharacterLoadout(dummyEnt, job, humanoid, _jobRequirements.GetRawPlayTimeTrackers(), _jobRequirements.IsWhitelisted(), out _
 #if LPP_Sponsors
             , sponsorTier, uuid
 #endif
-            , out _);
+            );
         }
 
         return dummyEnt;

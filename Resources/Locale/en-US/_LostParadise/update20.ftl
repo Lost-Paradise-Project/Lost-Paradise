@@ -1,8 +1,11 @@
 lathe-category-hardsuit = Скафандры
-trait-name-ElfLanguage = Эльфийский
-trait-desc-ElfLanguage = Вы знаете Эльфийский (Нет, не OOC словечки)
-trait-name-DwarfLanguage = Дворфийский
-trait-desc-DwarfLanguage = Если не вслушиваться похоже на бубнёж русских пьяниц
+trait-name-ElfLanguage = Эльфийский язык
+trait-desc-ElfLanguage = 
+    Эльфийский — это язык эльфов на котором говорят практически все кабали Эльфийской Паутины Систем. 
+    Эльфийская речь со стороны может показаться текучей, плавной и красивой.
+trait-name-DwarfLanguage = Дворфийский язык
+trait-desc-DwarfLanguage = 
+    Дварфийский это язык, на котором говорят дворфы. Со стороны, если не вслушиваться, похоже на бормотание пьяных русских.
 changelog-tab-title-ChangelogLPP = Обновления Lost Paradise
 announcer-NTH-name = N.T.H
 chatsan-awoo = воет

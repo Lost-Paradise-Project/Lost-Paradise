@@ -397,6 +397,12 @@
   - type: Pda
     id: QuartermasterIDCard
     state: pda-qmnano
+    penSlot:
+      startingItem: LPPQMPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#e39751"
     accentVColor: "#a23e3e"
@@ -630,7 +636,7 @@
     state: pda-ce
 
 - type: entity
-  parent: BasePDA
+  parent: BaseEngineerPDA
   id: CENTPDA
   name: CE special PDA unit
   description: Looks like it's barely been used.it says in gold "special unit unique to the best chief engineer in the sector".
@@ -638,6 +644,12 @@
   - type: Pda
     id: CEIDCard
     state: pda-cenano
+    penSlot:
+      startingItem: LPPCEPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#949137"
     accentHColor: "#447987"
@@ -806,6 +818,12 @@
   - type: Pda
     id: RDIDCard
     state: pda-rdnano
+    penSlot:
+      startingItem: LPPRDPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#d7d7d0"
     accentHColor: "#447987"
@@ -892,6 +910,12 @@
   - type: Pda
     id: HoSIDCard
     state: pda-hosnano
+    penSlot:
+      startingItem: LPPHosPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#A32D26"
     accentHColor: "#447987"

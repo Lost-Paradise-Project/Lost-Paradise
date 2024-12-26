@@ -200,6 +200,7 @@
     - JobsSecurityAUncategorized
     - JobsSecurityCadet
     - JobsSecurityCorpsman
+    - JobsSecuritySecurityEngineer # LPP
     - JobsSecurityDetective
     - JobsSecurityHeadOfSecurity
     - JobsSecuritySecurityOfficer
@@ -214,6 +215,9 @@
 
 - type: loadoutCategory
   id: JobsSecurityCorpsman
+
+- type: loadoutCategory # LPP
+  id: JobsSecuritySecurityEngineer # LPP
 
 - type: loadoutCategory
   id: JobsSecurityDetective

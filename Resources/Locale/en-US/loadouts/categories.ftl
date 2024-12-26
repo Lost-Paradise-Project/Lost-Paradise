@@ -63,6 +63,7 @@ loadout-category-JobsSecurity = Security
 loadout-category-JobsSecurityAUncategorized = All Security
 loadout-category-JobsSecurityCadet = Cadet
 loadout-category-JobsSecurityCorpsman = Corpsman
+loadout-category-JobsSecuritySecurityEngineer = Security Engineer
 loadout-category-JobsSecurityDetective = Detective
 loadout-category-JobsSecurityHeadOfSecurity = Head of Security
 loadout-category-JobsSecuritySecurityOfficer = Security Officer

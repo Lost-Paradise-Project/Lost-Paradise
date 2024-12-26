@@ -2102,7 +2102,7 @@ namespace Content.Client.Lobby.UI
 #if LPP_Sponsors
                     , 0, sponsorTier, uuid
 #endif
-                );
+                    );
                 _loadouts.Add(loadout, usable);
 
                 var list = _loadoutPreferences.ToList();

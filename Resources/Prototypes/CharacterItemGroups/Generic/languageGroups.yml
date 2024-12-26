@@ -16,6 +16,11 @@
       id: ValyrianStandard
     - type: trait
       id: Azaziba
+      #LPP-Start
+    - type: trait
+      id: ElfLanguage
+    - type: trait
+      id: DwarfLanguage
 
 - type: characterItemGroup
   id: TraitsAccents

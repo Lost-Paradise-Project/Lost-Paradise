@@ -1,11 +1,11 @@
 chat-language-ElfLang-name = Эльфийский
 chat-language-DwarfLang-name = Дварфский
-chat-language-LPPSikTaj-name = Сик' таяран
+chat-language-LPPSikTaj-name = Сик'Таяран
 chat-language-Universal-name = Универсальный
 chat-language-Bubblish-name = Пузырчатый
 chat-language-RootSpeak-name = Песнь корней
 chat-language-Nekomimetic-name = Неко
-chat-language-Draconic-name = Синта'унати
+chat-language-Draconic-name = Синта'Унати
 chat-language-Azaziba-name = Синта'Азазиба
 chat-language-SolCommon-name = Солнечный
 chat-language-TauCetiBasic-name = Общегалактический

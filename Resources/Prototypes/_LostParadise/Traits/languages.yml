@@ -6,7 +6,6 @@
     - !type:CharacterItemGroupRequirement
       group: TraitsLanguagesBasic
     - !type:CharacterSpeciesRequirement
-      inverted: true
       species:
         - Human
   functions:
@@ -24,7 +23,6 @@
     - !type:CharacterItemGroupRequirement
       group: TraitsLanguagesBasic
     - !type:CharacterSpeciesRequirement
-      inverted: true
       species:
         - Human
   functions:

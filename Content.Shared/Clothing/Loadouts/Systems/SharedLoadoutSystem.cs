@@ -59,19 +59,13 @@ public sealed class SharedLoadoutSystem : EntitySystem
 #if LPP_Sponsors
         , int sponsorTier = 0, string uuid = ""
 #endif
-    )
+        )
     {
         var jobPrototype = _prototype.Index(job);
-        return ApplyCharacterLoadout(
-            uid,
-            jobPrototype,
-            profile,
-            playTimes,
-            whitelisted,
-            out heirlooms
+        return ApplyCharacterLoadout(uid, jobPrototype, profile, playTimes, whitelisted, out heirlooms
 #if LPP_Sponsors
-            , sponsorTier, uuid
-#endif
+        , int sponsorTier = 0, string uuid = ""
+#endif  
         );
     }
 

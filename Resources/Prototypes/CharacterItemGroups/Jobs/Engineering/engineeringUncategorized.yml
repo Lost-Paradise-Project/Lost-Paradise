@@ -37,10 +37,11 @@
   items:
     - type: loadout
       id: LoadoutEngineeringGlovesInsulated
-    - type: loadout
-      id: LoadoutEngineeringGlovesCombat
-    - type: loadout
-      id: LoadoutEngineeringGlovesMerc
+    # Ебало треснет
+    # - type: loadout
+    #   id: LoadoutEngineeringGlovesCombat
+    # - type: loadout
+    #   id: LoadoutEngineeringGlovesMerc
 
 - type: characterItemGroup
   id: LoadoutEngineeringHead
