@@ -24,7 +24,7 @@
   parent: BaseSign
   id: LPPPCheckboxes
   name: checkboxes
-  description: Black and orange flags, it's got a halloween feel to it. 
+  description: Black and orange flags, it's got a halloween feel to it.
   components:
   - type: Sprite
     sprite: _LostParadise/Structures/Wallmounts/halloween.rsi
