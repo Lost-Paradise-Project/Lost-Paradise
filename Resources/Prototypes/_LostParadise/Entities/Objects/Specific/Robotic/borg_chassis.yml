@@ -1,0 +1,82 @@
+# Sabotage
+#- type: entity
+#  id: BorgChassisSyndicateSaboteurBatteryTools
+#  parent: BorgChassisSyndicateSaboteur
+#  suffix: Battery, Tools
+#  name: syndicate saboteur cyborg
+#  description: A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a Nanotrasen cyborg.
+#  components:
+#  - type: ContainerFill
+#    containers:
+#      borg_brain:
+#      - PositronicBrain
+#      borg_module:
+#      - BorgModuleChameleon
+#      - BorgModuleInfiltrator
+#      - BorgModuleOperative
+#  - type: ItemSlots
+#    slots:
+#      cell_slot:
+#        name: power-cell-slot-component-slot-name-default
+#        startingItem: PowerCellMedium
+
+- type: entity
+  id: LPPBorgChassisSyndicateSaboteurBattery
+  parent: BorgChassisSyndicateSaboteur
+  suffix: Battery
+  name: syndicate saboteur cyborg
+  description: A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a Nanotrasen cyborg.
+  components:
+  - type: ContainerFill
+    containers:
+      borg_brain:
+      - PositronicBrain
+      borg_module:
+      - LPPBorgModuleChameleon
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMedium
+
+# Medic
+- type: entity
+  id: LPPBorgChassisSyndicateMedicalBattery
+  parent: BorgChassisSyndicateMedical
+  suffix: Battery
+  name: syndicate medical cyborg
+  components:
+  - type: ContainerFill
+    containers:
+      borg_brain:
+      - PositronicBrain
+      borg_module:
+      - LPPBorgModuleHealing
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMedium
+
+# Assault
+- type: entity
+  id: LPPBorgChassisSyndicateAssaultBattery
+  parent: BorgChassisSyndicateAssault
+  suffix: Battery
+  name: syndicate assault cyborg
+  components:
+  - type: ContainerFill
+    containers:
+      borg_brain:
+      - PositronicBrain
+      borg_module:
+      - LPPBorgModuleAssaultRam
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMedium
+
+
+
+

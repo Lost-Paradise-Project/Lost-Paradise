@@ -1,0 +1,78 @@
+# Medic
+#BaseBorgModuleSyndiMedical
+- type: entity
+  id: LPPBorgModuleHealing
+  parent: [ LPPBaseBorgModuleSyndicateMedical, BaseProviderBorgModule ]
+  name: syndicate medical cyborg module
+  description: A module with healing staff.
+  components:
+  - type: Sprite
+    layers:
+    - state: syndicate
+    - state: icon-diagnosis #Заменить
+  - type: ItemBorgModule
+    items:
+    - LPPBorgSyndiHypoBrute
+    - LPPBorgSyndiHypoBurn
+    - HandheldHealthAnalyzerUnpowered
+    - DefibrillatorOneHandedUnpowered
+
+- type: entity
+  id: LPPBorgModuleAdvancedChemicals
+  parent: [ LPPBaseBorgModuleSyndicateMedical, BaseProviderBorgModule ]
+  name: syndicate advanced chemicals cyborg module
+  description: A module with advanced chemicals.
+  components:
+  - type: Sprite
+    layers:
+    - state: syndicate
+    - state: icon-chemist #Заменить
+  - type: ItemBorgModule
+    items:
+    - LPPBorgSyndiHypo
+    - HandheldHealthAnalyzerUnpowered
+    - LPPBeakerOxygen
+    - LPPBeakerRad
+    - LPPBeakerCold
+
+- type: entity
+  id: LPPBorgModuleCombatChemicals
+  parent: [ LPPBaseBorgModuleSyndicateMedical, BaseProviderBorgModule ]
+  name: syndicate battle chemicals cyborg module
+  description: A module with advanced chemicals.
+  components:
+  - type: Sprite
+    layers:
+    - state: syndicate
+    - state: icon-defib #Заменить
+  - type: ItemBorgModule
+    items:
+    - LPPBorgSyndiHypo
+    - HandheldHealthAnalyzerUnpowered
+    - LPPBeakerStimulants
+    - LPPBeakerEpinephrine
+    - LPPBeakerTranexamicAcid
+
+- type: entity
+  id: LPPBorgModuleSurgery
+  parent: [ LPPBaseBorgModuleSyndicateMedical, BaseProviderBorgModule ]
+  name: syndicate surgery cyborg module
+  description: A module with all you need to make a succesfull surgery operation.
+  components:
+  - type: Sprite
+    layers:
+    - state: syndicate
+    - state: icon-syndicate #Заменить
+  - type: ItemBorgModule
+    items:
+    - Scalpel
+    - Drill
+    - Hemostat
+    - Retractor
+    - Saw
+    - Cautery
+
+
+
+
+

@@ -362,6 +362,7 @@
           - BorgModuleGeneric
           - BorgModuleMedical
           - BorgModuleSyndicate
+          - LPPBorgModuleSyndicateMedical # LPP
       hasMindState: synd_medical_e
       noMindState: synd_medical
     - type: Construction
@@ -391,7 +392,6 @@
           - BorgModuleGeneric
           - BorgModuleEngineering
           - BorgModuleSyndicate
-          - BorgModuleSyndicateSabotage #LPP
       hasMindState: synd_engi_e
       noMindState: synd_engi
     - type: Construction

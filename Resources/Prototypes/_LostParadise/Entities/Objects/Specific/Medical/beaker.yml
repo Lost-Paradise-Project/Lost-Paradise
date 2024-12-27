@@ -1,0 +1,71 @@
+- type: entity
+  parent: Beaker
+  id: LPPBeakerRad
+  name: Beaker arithrazine
+  components:
+  - type: SolutionRegeneration
+    solution: beaker
+    generated:
+      reagents:
+      - ReagentId: Arithrazine
+        Quantity: 2
+
+- type: entity
+  parent: Beaker
+  id: LPPBeakerCold
+  name: Beaker leporazine
+  components:
+  - type: SolutionRegeneration
+    solution: beaker
+    generated:
+      reagents:
+      - ReagentId: Leporazine
+        Quantity: 2
+
+- type: entity
+  parent: Beaker
+  id: LPPBeakerOxygen
+  name: Beaker dexalin plus
+  components:
+  - type: SolutionRegeneration
+    solution: beaker
+    generated:
+      reagents:
+      - ReagentId: DexalinPlus
+        Quantity: 2
+
+- type: entity
+  parent: Beaker
+  id: LPPBeakerStimulants
+  name: Beaker stimulants
+  components:
+  - type: SolutionRegeneration
+    solution: beaker
+    generated:
+      reagents:
+      - ReagentId: Stimulants
+        Quantity: 2
+
+- type: entity
+  parent: Beaker
+  id: LPPBeakerTranexamicAcid
+  name: Beaker tranexamic acid
+  components:
+  - type: SolutionRegeneration
+    solution: beaker
+    generated:
+      reagents:
+      - ReagentId: TranexamicAcid
+        Quantity: 2
+
+- type: entity
+  parent: Beaker
+  id: LPPBeakerEpinephrine
+  name: Beaker epinephrine
+  components:
+  - type: SolutionRegeneration
+    solution: beaker
+    generated:
+      reagents:
+      - ReagentId: Epinephrine
+        Quantity: 2

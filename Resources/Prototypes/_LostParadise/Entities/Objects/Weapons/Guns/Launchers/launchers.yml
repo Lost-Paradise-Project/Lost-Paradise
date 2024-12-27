@@ -1,0 +1,24 @@
+- type: entity
+  name: RB-4
+  parent: BaseWeaponLauncher
+  id: LPPWeaponCyborgLauncherRocket
+  description: Block of combat rockets for syndicate cyborg.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Launchers/rocket.rsi #ИЗМЕНИТЬ
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    fireRate: 0.2
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeRocket
+    proto: CartridgeRocket
+    capacity: 4
+  - type: Appearance

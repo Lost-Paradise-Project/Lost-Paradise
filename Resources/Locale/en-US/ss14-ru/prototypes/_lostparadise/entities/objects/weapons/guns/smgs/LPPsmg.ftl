@@ -6,3 +6,5 @@ ent-LPPWeaponSubMachineGunIL20 = IL-20
     .desc = famous submachine gun used by mercenries. Uses .35 auto ammo.
 ent-LPPWeaponSubMachineGunMAC21 = MAC-21
     .desc = famous submachine gun used by gangsters. Uses .35 auto ammo.
+ent-LPPWeaponSubMachineGunC20rc = C-20RC
+    .desc = A C-20r for use by cyborgs. Creates pistol ammo on the fly from an internal ammo fabricator, which slowly self-charges.

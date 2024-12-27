@@ -1,0 +1,17 @@
+- type: entity
+  id: LPPBaseBorgModuleSyndicateSabotage
+  parent: BaseBorgModule
+  abstract: true
+  components:
+    - type: Tag
+      tags:
+        - LPPBorgModuleSyndicateSabotage
+
+- type: entity
+  id: LPPBaseBorgModuleSyndicateMedical
+  parent: BaseBorgModule
+  abstract: true
+  components:
+    - type: Tag
+      tags:
+        - LPPBorgModuleSyndicateMedical
