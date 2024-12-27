@@ -10,3 +10,6 @@ ent-LPPCandyNewYear = candy
     .desc = A New Year's candy that feels like the end of the past.
 ent-LPPLightbulbsNewYear = light bulbs
     .desc = Hanging garland, not the best source of light
+ent-LPPPresentRandom = present
+    .desc = A New Year's gift, I wonder what's in it!
+    .suffix = Filled Safe
