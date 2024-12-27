@@ -31,6 +31,10 @@ public sealed partial class CVarRequirement : CharacterRequirement
         IConfigurationManager configManager,
         out string? reason,
         int depth = 0
+#if LPP_Sponsors
+        , int sponsorTier = 0,
+        string uuid = ""
+#endif
     )
     {
         if (!configManager.IsCVarRegistered(CVar))

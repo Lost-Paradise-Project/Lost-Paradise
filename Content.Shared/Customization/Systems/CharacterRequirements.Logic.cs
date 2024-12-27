@@ -95,7 +95,7 @@ public sealed partial class CharacterLogicOrRequirement : CharacterRequirement
             if (characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
                 entityManager, prototypeManager, configManager, out var raisin, depth + 1
 #if LPP_Sponsors
-                , int sponsorTier = 0, string uuid = ""
+                , sponsorTier = 0, uuid = ""
 #endif
                 ))
             {
@@ -158,7 +158,7 @@ public sealed partial class CharacterLogicXorRequirement : CharacterRequirement
             if (characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
                 entityManager, prototypeManager, configManager, out var raisin, depth + 1
 #if LPP_Sponsors
-                , int sponsorTier = 0, string uuid = ""
+                , sponsorTier = 0, uuid = ""
 #endif
                 ))
             {

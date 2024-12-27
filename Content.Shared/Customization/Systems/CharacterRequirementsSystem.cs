@@ -53,7 +53,7 @@ public sealed class CharacterRequirementsSystem : EntitySystem
                 entityManager, prototypeManager, configManager,
                 out var reason, depth
 #if LPP_Sponsors
-                , int sponsorTier = 0, string uuid = ""
+                , sponsorTier = 0, uuid = ""
 #endif  
                 ))
             {
