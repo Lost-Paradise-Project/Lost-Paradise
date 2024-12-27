@@ -2964,3 +2964,11 @@
   id: 157
   time: '2024-12-23T10:37:56.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/325
+- author: Evgencheg
+  changes:
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0430 \u043E\u0437\u0432\
+      \u0443\u0447\u043A\u0430 \u0430\u0444\u043E\u043D\u0438. CASSIE"
+    type: Add
+  id: 158
+  time: '2024-12-24T13:08:56.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Lost-Paradise/pull/362
