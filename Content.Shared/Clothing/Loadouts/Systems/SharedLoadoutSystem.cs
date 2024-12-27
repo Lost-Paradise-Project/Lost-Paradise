@@ -57,7 +57,8 @@ public sealed class SharedLoadoutSystem : EntitySystem
         bool whitelisted,
         out List<(EntityUid, LoadoutPreference)> heirlooms
 #if LPP_Sponsors
-        , int sponsorTier = 0, string uuid = ""
+        , int sponsorTier = 0,
+        string uuid = ""
 #endif
         )
     {

@@ -74,7 +74,12 @@ public sealed class LoadoutSystem : EntitySystem
         HumanoidCharacterProfile profile,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
-        bool deleteFailed = false)
+        bool deleteFailed = false
+#if LPP_Sponsors
+        , int sponsorTier = 0,
+        string uuid = ""
+#endif
+        )
     {
         // Spawn the loadout, get a list of items that failed to equip
         var (failedLoadouts, allLoadouts) =

@@ -308,6 +308,13 @@ public sealed partial class LobbyUIController : UIController, IOnStateEntered<Lo
 
         if (humanoid != null)
         {
+#if LPP_Sponsors
+            var sys = IoCManager.Resolve<SponsorsManager>();
+            var sponsorTier = 0;
+            if (sys.TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier;
+            var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
+#endif
             var job = GetPreferredJob(humanoid);
             if (jobClothes)
                 GiveDummyJobClothes(dummyEnt, job, humanoid);
