@@ -1,0 +1,87 @@
+- type: entity
+  parent: BaseSign
+  id: LPPNewYearSocksRed
+  name: socks
+  description: hanging socks on the wall, like you should put gifts there...
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Wallmounts/christmassock.rsi
+    state: red
+    noRot: false
+
+- type: entity
+  parent: BaseSign
+  id: LPPNewYearSocksGreen
+  name: socks
+  description: hanging socks on the wall, like you should put gifts there...
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Wallmounts/christmassock.rsi
+    state: green
+    noRot: false
+
+- type: entity
+  parent: BaseSign
+  id: LPPNewYearSocksOrange
+  name: socks
+  description: hanging socks on the wall, like you should put gifts there...
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Wallmounts/christmassock.rsi
+    state: orange
+    noRot: false
+
+- type: entity
+  parent: BaseSign
+  id: LPPNewYearBell
+  name: new year bell
+  description: New Year's bell with a wreath, festive mood..
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Wallmounts/christmasbell.rsi
+    state: icon
+    noRot: false
+
+- type: entity
+  name: candy
+  parent: FoodBase
+  id: LPPCandyNewYear
+  description: A New Year's candy that feels like the end of the past.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Consumable/candystick.rsi
+    state: icon
+  - type: Item
+    sprite: _LostParadise/Objects/Consumable/candystick.rsi
+    size: Tiny
+    shape:
+    - 0, 0, 0, 0
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: Sugar
+          Quantity: 3
+        - ReagentId: Nutriment
+          Quantity: 1
+        - ReagentId: Theobromine
+          Quantity: 1
+  - type: Tag
+    tags:
+      - LPPCandy
+
+- type: entity
+  parent: BaseSign
+  id: LPPLightbulbsNewYear
+  name: light bulbs
+  description: Hanging garland, not the best source of light
+  components:
+  - type: PointLight
+    radius: 2.0
+    energy: 2.5
+    color: "#D6001C"
+  - type: Sprite
+    sprite: _LostParadise/Structures/Wallmounts/christmaslights.rsi
+    state: icon
+    noRot: false

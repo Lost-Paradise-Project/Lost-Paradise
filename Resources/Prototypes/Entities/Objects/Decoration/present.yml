@@ -7,7 +7,15 @@
   - type: Sprite
     sprite: Objects/Decoration/present.rsi
     layers:
-      - state: present
+    - state: present
+      map: [ "enum.DamageStateVisualLayers.Base" ]
+  - type: RandomSprite
+    available:
+      - enum.DamageStateVisualLayers.Base:
+          red: ""
+          blue: ""
+          purple: ""
+          green: ""
 
 - type: entity
   id: Present

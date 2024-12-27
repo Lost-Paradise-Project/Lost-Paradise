@@ -12,10 +12,10 @@
   - type: RandomSprite
     available:
       - enum.DamageStateVisualLayers.Base:
-          candy_1: Material 
-          candy_2: Material 
-          candy_3: Material 
-          candy_4: Material 
+          candy_1: Material
+          candy_2: Material
+          candy_3: Material
+          candy_4: Material
   - type: Item
     size: Tiny
     shape:
