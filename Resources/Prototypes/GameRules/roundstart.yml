@@ -132,12 +132,6 @@
       mindComponents:
       - type: NukeopsRole
         prototype: Nukeops
-  special:
-    - !type:AddComponentSpecial # LPP
-      components:
-      - type: CPRTraining
-      - type: SurgerySpeedModifier
-        SpeedModifier: 2.0
 
 - type: entity
   id: Traitor
