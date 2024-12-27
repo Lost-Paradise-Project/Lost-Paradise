@@ -3,7 +3,9 @@ using Content.Shared.Clothing;
 using Content.Shared.Clothing.Components;
 using Robust.Shared.GameObjects;
 
-namespace Content.Server._CorvaxNext.BodyCam;
+/// Taken from _CorvaxNext
+
+namespace Content.Server._LostParadise.BodyCam;
 
 /// <summary>
 /// A system that automatically enables or disables a camera
