@@ -7,7 +7,8 @@ trait-name-DwarfLanguage = Дворфийский язык
 trait-desc-DwarfLanguage = 
     Дварфийский это язык, на котором говорят дворфы. Со стороны, если не вслушиваться, похоже на бормотание пьяных русских.
 changelog-tab-title-ChangelogLPP = Обновления Lost Paradise
-announcer-NTH-name = N.T.H
+announcer-NTH-name = N.T.H.
+announcer-AFONYA-name = C.A.S.S.I.E.
 chatsan-awoo = воет
 chatsan-hiss = шипит
 chatsan-nyaaa = някает
