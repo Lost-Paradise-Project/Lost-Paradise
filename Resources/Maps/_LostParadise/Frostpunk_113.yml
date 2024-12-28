@@ -74154,7 +74154,7 @@ entities:
     - type: Transform
       pos: -40.5,14.5
       parent: 2
-- proto: SpawnPointCourier
+- proto: SpawnPointMailCarrier
   entities:
   - uid: 14661
     components:
