@@ -590,7 +590,7 @@
     tool:
     - type: Organ
   - type: SurgeryAddMarkingStep
-    marking: FelinidEarsBasic
+    # marking: FelinidEarsBasic
     markingCategory: HeadTop
     matchString: FelinidEars
     organ:
@@ -611,7 +611,7 @@
     tool:
     - type: Organ
   - type: SurgeryAddMarkingStep
-    marking: FelinidTailBasic
+    # marking: FelinidTailBasic
     markingCategory: Tail
     matchString: FelinidTail
     organ:
