@@ -1,6 +1,7 @@
 ﻿# Used by followers of Nar'Sie
 - type: language
   id: Eldritch
+  isVisibleLanguage: true
   speech:
     color: "#dc143c"
   obfuscation:

@@ -511,6 +511,20 @@ character-item-group-LoadoutCorpsmanMask = Маски Полевого Врач�
 character-item-group-LoadoutCorpsmanOuter = Верхняя одежда Полевого Врача
 character-item-group-LoadoutCorpsmanShoes = Обувь Полевого Врача
 character-item-group-LoadoutCorpsmanUniforms = Униформа Полевого Врача
+# Security - Security Engineer
+character-item-group-LoadoutSecurityEngineerBackpacks = Рюкзаки Полевого Инженера
+character-item-group-LoadoutSecurityEngineerBelt = Пояса Полевого Инженера
+character-item-group-LoadoutSecurityEngineerEars = Гарнитура Полевого Инженера
+character-item-group-LoadoutSecurityEngineerEquipment = Снаряжение Полевого Инженера
+character-item-group-LoadoutSecurityEngineerEyes = Очки Полевого Инженера
+character-item-group-LoadoutSecurityEngineerGloves = Перчатки Полевого Инженера
+character-item-group-LoadoutSecurityEngineerHead = Головные уборы Полевого Инженера
+character-item-group-LoadoutSecurityEngineerId = ID Полевого Инженера
+character-item-group-LoadoutSecurityEngineerNeck = Одежда на шею Полевого Инженера
+character-item-group-LoadoutSecurityEngineerMask = Маски Полевого Инженера
+character-item-group-LoadoutSecurityEngineerOuter = Верхняя одежда Полевого Инженера
+character-item-group-LoadoutSecurityEngineerShoes = Обувь Полевого Инженера
+character-item-group-LoadoutSecurityEngineerUniforms = Униформа Полевого Инженера
 # Security - Detective
 character-item-group-LoadoutDetectiveBackpacks = Рюкзаки Детектива
 character-item-group-LoadoutDetectiveBelt = Пояса Детектива
@@ -702,19 +716,19 @@ character-item-group-LoadoutMusicianOuter = Верхняя одежда Музы
 character-item-group-LoadoutMusicianShoes = Обувь Музыканта
 character-item-group-LoadoutMusicianUniforms = Униформа Музыканта
 # Service - Reporter
-character-item-group-LoadoutReporterBackpacks = Reporter Рюкзаки Репортёра
-character-item-group-LoadoutReporterBelt = Reporter Пояса Репортёра
-character-item-group-LoadoutReporterEars = Reporter Гарнитура Репортёра
-character-item-group-LoadoutReporterEquipment = Reporter Снаряжение Репортёра
-character-item-group-LoadoutReporterEyes = Reporter Очки Репортёра
-character-item-group-LoadoutReporterGloves = Reporter Перчатки Репортёра
-character-item-group-LoadoutReporterHead = Reporter Головные уборы Репортёра
-character-item-group-LoadoutReporterId = Reporter ID Репортёра
-character-item-group-LoadoutReporterNeck = Reporter Одежда на шею Репортёра
-character-item-group-LoadoutReporterMask = Reporter Маски Репортёра
-character-item-group-LoadoutReporterOuter = Reporter Верхняя одежда Репортёра
-character-item-group-LoadoutReporterShoes = Reporter Обувь Репортёра
-character-item-group-LoadoutReporterUniforms = Reporter Униформа Репортёра
+character-item-group-LoadoutReporterBackpacks = Рюкзаки Репортёра
+character-item-group-LoadoutReporterBelt = Пояса Репортёра
+character-item-group-LoadoutReporterEars = Гарнитура Репортёра
+character-item-group-LoadoutReporterEquipment = Снаряжение Репортёра
+character-item-group-LoadoutReporterEyes = Очки Репортёра
+character-item-group-LoadoutReporterGloves = Перчатки Репортёра
+character-item-group-LoadoutReporterHead = Головные уборы Репортёра
+character-item-group-LoadoutReporterId = ID Репортёра
+character-item-group-LoadoutReporterNeck = Одежда на шею Репортёра
+character-item-group-LoadoutReporterMask = Маски Репортёра
+character-item-group-LoadoutReporterOuter = Верхняя одежда Репортёра
+character-item-group-LoadoutReporterShoes = Обувь Репортёра
+character-item-group-LoadoutReporterUniforms = Униформа Репортёра
 
 # Traits - Languages
 character-item-group-TraitsLanguagesBasic = Базовые языки

@@ -1,5 +1,5 @@
-ent-ConstructShell = Построить оболочку
-    .desc = Пустая оболочка конструкции
+ent-ConstructShell = Пустая оболочка конструкта
+    .desc = Эта пустая оболочка конструкта в будущем сможет помогать вам в достижении ваших целей.
 ent-ConstructBase = { "" }
     .desc = { "" }
 ent-ConstructJuggernaut = Джаггернаут

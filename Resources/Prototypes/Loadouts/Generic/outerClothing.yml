@@ -151,7 +151,7 @@
   id: LoadoutOuterCorporateJacket
   category: Outer
   cost: 0
-  guideEntry: NanoTrasen
+  # guideEntry: NanoTrasen # LPP
   items:
     - ClothingOuterCorporateJacket
   requirements:
@@ -172,7 +172,7 @@
   id: LoadoutOuterEeCorporateJacket
   category: Outer
   cost: 0
-  guideEntry: EinsteinEngines
+  # guideEntry: EinsteinEngines # LPP
   items:
     - ClothingOuterEeCorporateJacket
   requirements:
@@ -183,7 +183,7 @@
   id: LoadoutOuterHiCorporateJacket
   category: Outer
   cost: 0
-  guideEntry: HephaestusIndustries
+  # guideEntry: HephaestusIndustries LPP
   items:
     - ClothingOuterHiCorporateJacket
   requirements:
@@ -254,7 +254,7 @@
   id: LoadoutOuterZhCorporateJacket
   category: Outer
   cost: 0
-  guideEntry: ZengHuPharmaceuticals
+  # guideEntry: ZengHuPharmaceuticals # LPP
   items:
     - ClothingOuterZhCorporateJacket
   requirements:
