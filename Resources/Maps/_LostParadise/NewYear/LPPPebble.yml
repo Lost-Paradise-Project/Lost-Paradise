@@ -6942,7 +6942,7 @@ entities:
       pos: 21.5,-24.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -4227.2637
+      secondsUntilStateChange: -4277.902
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6990,7 +6990,7 @@ entities:
       pos: 10.5,-27.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -5351.834
+      secondsUntilStateChange: -5402.472
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -28518,13 +28518,6 @@ entities:
     components:
     - type: Transform
       pos: 6.5,11.5
-      parent: 2
-- proto: ClosetBombFilled
-  entities:
-  - uid: 4394
-    components:
-    - type: Transform
-      pos: 10.5,-10.5
       parent: 2
 - proto: ClosetChefFilled
   entities:
@@ -51318,6 +51311,18 @@ entities:
     - type: Transform
       pos: 14.5,-14.5
       parent: 2
+- proto: LPPAdjutantSpawn
+  entities:
+  - uid: 11674
+    components:
+    - type: Transform
+      pos: -1.5,-24.5
+      parent: 2
+  - uid: 11675
+    components:
+    - type: Transform
+      pos: 0.5,-24.5
+      parent: 2
 - proto: LPPCandyNewYear
   entities:
   - uid: 11152
@@ -53296,6 +53301,13 @@ entities:
     - type: Transform
       pos: 27.5,-20.5
       parent: 2
+- proto: LPPLockerSecEngFilled
+  entities:
+  - uid: 11679
+    components:
+    - type: Transform
+      pos: 10.5,-10.5
+      parent: 2
 - proto: LPPNewYearBell
   entities:
   - uid: 11120
@@ -54212,6 +54224,45 @@ entities:
     components:
     - type: Transform
       pos: -15.702129,-21.509026
+      parent: 2
+- proto: LPPSpawnBlueShieldOfficer
+  entities:
+  - uid: 11671
+    components:
+    - type: Transform
+      pos: -2.5,-19.5
+      parent: 2
+  - uid: 11672
+    components:
+    - type: Transform
+      pos: 1.5,-19.5
+      parent: 2
+  - uid: 11673
+    components:
+    - type: Transform
+      pos: -0.5,-24.5
+      parent: 2
+- proto: LPPSpawnPointSecurityEngineer
+  entities:
+  - uid: 4394
+    components:
+    - type: Transform
+      pos: 10.5,-18.5
+      parent: 2
+  - uid: 11676
+    components:
+    - type: Transform
+      pos: 9.5,-19.5
+      parent: 2
+  - uid: 11677
+    components:
+    - type: Transform
+      pos: 10.5,-20.5
+      parent: 2
+  - uid: 11678
+    components:
+    - type: Transform
+      pos: 11.5,-12.5
       parent: 2
 - proto: MachineAnomalyGenerator
   entities:
