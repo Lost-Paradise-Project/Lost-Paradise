@@ -114,12 +114,12 @@
   - type: FlashImmunity
   - type: EyeProtection
   - type: ClothingGrantComponent
-    component:
-    - type: NightVision
-      toggleAction: null
-      activateSound: null
-      deactivateSound: null
-      color: White
+    # component:
+    # - type: NightVision
+    #   toggleAction: null
+    #   activateSound: null
+    #   deactivateSound: null
+    #   color: White
   - type: ShowHealthBars
     damageContainers:
     - Biological
