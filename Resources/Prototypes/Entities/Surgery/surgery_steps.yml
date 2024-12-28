@@ -581,73 +581,73 @@
 # Maybe I should modify species prototypes to include tails and ears properly...
 
 - type: entity
- parent: SurgeryStepBase
- id: SurgeryStepAddFelinidEars
- name: Add cat ears
- categories: [ HideSpawnMenu ]
- components:
- - type: SurgeryStep
-   tool:
-   - type: Organ
- - type: SurgeryAddMarkingStep
-   marking: FelinidEarsBasic
-   markingCategory: HeadTop
-   matchString: FelinidEars
-   organ:
-   - type: Ears
-   accent:
-   - type: OwOAccent
- - type: Sprite
-   sprite: Objects/Specific/Medical/Surgery/manipulation.rsi
-   state: insertion
+  parent: SurgeryStepBase
+  id: SurgeryStepAddFelinidEars
+  name: Add cat ears
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SurgeryStep
+    tool:
+    - type: Organ
+  - type: SurgeryAddMarkingStep
+    marking: FelinidEarsBasic
+    markingCategory: HeadTop
+    matchString: FelinidEars
+    organ:
+    - type: Ears
+    accent:
+    - type: OwOAccent
+  - type: Sprite
+    sprite: Objects/Specific/Medical/Surgery/manipulation.rsi
+    state: insertion
 
 - type: entity
- parent: SurgeryStepBase
- id: SurgeryStepAddFelinidTail
- name: Add cat tail
- categories: [ HideSpawnMenu ]
- components:
- - type: SurgeryStep
-   tool:
-   - type: Organ
- - type: SurgeryAddMarkingStep
-   marking: FelinidTailBasic
-   markingCategory: Tail
-   matchString: FelinidTail
-   organ:
-   - type: Tail
- - type: Sprite
-   sprite: Objects/Specific/Medical/Surgery/manipulation.rsi
-   state: insertion
+  parent: SurgeryStepBase
+  id: SurgeryStepAddFelinidTail
+  name: Add cat tail
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SurgeryStep
+    tool:
+    - type: Organ
+  - type: SurgeryAddMarkingStep
+    marking: FelinidTailBasic
+    markingCategory: Tail
+    matchString: FelinidTail
+    organ:
+    - type: Tail
+  - type: Sprite
+    sprite: Objects/Specific/Medical/Surgery/manipulation.rsi
+    state: insertion
 
 - type: entity
- parent: SurgeryStepBase
- id: SurgeryStepRemoveFelinidEars
- name: Remove cat ears
- categories: [ HideSpawnMenu ]
- components:
- - type: SurgeryStep
-   tool:
-   - type: Organ
- - type: SurgeryRemoveMarkingStep
-   markingCategory: HeadTop
-   matchString: FelinidEars
- - type: Sprite
-   sprite: Objects/Specific/Medical/Surgery/manipulation.rsi
-   state: insertion
+  parent: SurgeryStepBase
+  id: SurgeryStepRemoveFelinidEars
+  name: Remove cat ears
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SurgeryStep
+    tool:
+    - type: Organ
+  - type: SurgeryRemoveMarkingStep
+    markingCategory: HeadTop
+    matchString: FelinidEars
+  - type: Sprite
+    sprite: Objects/Specific/Medical/Surgery/manipulation.rsi
+    state: insertion
 
 - type: entity
- parent: SurgeryStepBase
- id: SurgeryStepRemoveFelinidTail
- name: Remove cat tail
- categories: [ HideSpawnMenu ]
- components:
- - type: SurgeryStep
-   tool:
-   - type: Organ
- - type: SurgeryRemoveMarkingStep
-   markingCategory: Tail
-   matchString: FelinidTail
- - type: Sprite
-   sprite: Objects/Specific/Medical/Surgery/manipulation.rsi
-   state: insertion
+  parent: SurgeryStepBase
+  id: SurgeryStepRemoveFelinidTail
+  name: Remove cat tail
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SurgeryStep
+    tool:
+    - type: Organ
+  - type: SurgeryRemoveMarkingStep
+    markingCategory: Tail
+    matchString: FelinidTail
+  - type: Sprite
+    sprite: Objects/Specific/Medical/Surgery/manipulation.rsi
+    state: insertion
