@@ -1,184 +1,184 @@
 <Document>
-  Be ware - this document is just almost a full copy of /tg/ station blood cult guide.
+  Будьте осторожны - этот документ является почти полной копией руководства /tg/ Культа Крови.
 
-  # Blood Cult
+  # Культ Крови
 
-  Even in the far future, some things are never quite understood. There are things that lurk in the darkness of space,
-  unspeakable horrors of ancient power that wish to bring ruin to the universe and to shape it into their image. They
-  reach out from the void, and turn the minds of mortal men and women in their favor in hopes that one day they shall be
-  brought once more into this plane of existence.
+  Даже в далеком будущем некоторые вещи никогда не будут поняты до конца. Есть существа, которые скрываются во тьме космоса,
+  неописуемые ужасы древней силы, которые хотят разрушить вселенную и переделать ее по своему образу и подобию. Они
+  приходят из пустоты и обращают умы смертных мужчин и женщин в свою пользу в надежде, что однажды они
+  снова окажутся на этом плане существования.
 
-  The Geometer of Blood, Nar-Sie, has sent a number of her followers to Space Station 14. As a cultist, you have an
-  abundance of cult magics at your disposal, something for all situations. You must work with your brethren to summon an
-  avatar of your eldritch goddess!
+  Кровожадное Божество Нар'Си отправила нескольких своих последователей на космическую станцию. Как у культиста,
+  в вашем распоряжении множество культовых магических средств, которые помогут вам в любой ситуации. Вы должны сотрудничать со своими собратьями, чтобы вызвать
+  аватар вашей Сверхъестественной Богини!
 
-  ## Objectives
+  ## Цели
 
-  Your objective requires you to sacrifice a certain crewmember and summon Nar-Sie.
+  Ваша цель требует, чтобы вы принесли в жерту определенного члена экипажа и призвали Нар'Cи.
 
-  The general path of action of the cult and those in it:
+  Общий образ действий культа и тех, кто в нем состоит:
 
-  - 1. From a discrete location, contact your allies. You can do it by speaking Eldritch language - everyone in the cult
-  can hear you when you speak it.
-  - 2. Find an area to convert into a base, usually accessible by one or more members of the cult, but well-hidden
-  enough that security or crew won't find it easily.
-  - 3. Setup a teleport rune, so all cultists can access it.
-  - 4. Setup an empowering rune and then prepare up to 4 blood spells. Stun spells are your bread and butter - but
-  diversifying with spells like EMP, Teleport, Blood Rites, etc. will ensure you're ready for anything.
-  - 5. Convert new members, or sacrifice implanted crew, on the offering rune. Combine the filled soul shard from
-  sacrificed humans to create powerful cult constructs!
-  - 6. Use teamwork to find your sacrifice target.
-  - 7. Kill the sacrifice target and place them on an offer rune with 3 cultists nearby.
-  - 8. Prepare to summon Nar-Sie. She can only be summoned in a few locations and the crew will fight desperately to
-  stop you! Make sure you have enough cultists and equipment to withstand their assault.
-  - 9. Gather 10 cultists on the final rune to summon Nar-Sie!
+  - 1. Находясь в уединенном месте, свяжитесь со своими союзниками. Вы можете сделать это, разговаривая на "Жутком" языке - все члены культа
+  могут слышать вас, когда вы говорите на нем.
+  - 2. Найдите место, которое можно превратить в базу, обычно доступное одному или нескольким членам культа, но
+  достаточно хорошо спрятанное, чтобы Служба Безопасности или остальной экипаж не смогли легко его найти.
+  - 3. Установите руну телепортации, чтобы все культисты могли получить к ней доступ.
+  - 4. Создайте руну телепортации, чтобы все культисты могли получить к ней доступ. Создайте руну усиления, а затем подготовьте до 4 заклинаний крови. Оглушающие заклинания - это ваш хлеб насущный, но
+  их можно разнообразить такими заклинаниями, как ЭМИ, телепортация, кровавые обряды и т.д. это гарантирует, что вы будете готовы ко всему.
+  - 5. Обращайте в свою веру новых членов команды или приносите в жертву имплантированную команду, используя руну жертвоприношения. Объедините осколки души принесенных в
+  жертву людей, чтобы создать мощные конструкции Культа!
+  - 6. Используйте командную работу, чтобы найти свою цель для жертвоприношения.
+  - 7. Убейте цель жертвоприношения и поместите её на руну подношения, рядом с которой находятся 3 культиста.
+  - 8. Приготовьтесь вызвать Нар'Си. Её можно вызвать только в нескольких местах, и экипаж будет отчаянно сражаться, чтобы
+  остановить вас! Убедитесь, что у вас достаточно культистов и снаряжения, чтобы противостоять их нападению.
+  - 9. Соберите 10 культистов на последней руне, чтобы призвать Нар'Си!
 
-  ## Ritual Dagger
+  ## Ритуальный кинжал
 
   <Box>
-    <GuideEntityEmbed Entity="RitualDagger" Caption="Ritual Dagger"/>
+    <GuideEntityEmbed Entity="RitualDagger" Caption="Ритуальный кинжал"/>
   </Box>
 
-  Your dagger is your most important tool and has several functions:
+  Ваш кинжал - это ваш самый важный инструмент, который выполняет несколько функций:
 
-  - You can draw runes with it.
-  - Hitting a non-cultist with it will result in you stabbing them (huh), dealing 15 piercing damage.
-  - Using it on the rune with erase it.
-  - Using it on the cult barrier will remove it.
+  - Вы можете использовать его для рисования рун.
+  - Ударив им некультиста, вы нанесете ему удар ножом (да ну нах), нанося 15 колющих повреждений.
+  - Используя его на руне, сотрите её.
+  - Использование его на барьере культа приведет к его удалению.
 
-  ## Minor Runes
+  ## Второстепенные руны
 
-  These are minor runes cultists can draw anywhere on the station.
+  Это второстепенные руны, которые культисты могут рисовать в любом месте станции.
 
   <Box Orientation="Vertical" HorizontalAlignment="Center">
     <Box>
-      <GuideEntityEmbed Entity="CultRuneOffering" Caption="Rune of Offering"/>
+      <GuideEntityEmbed Entity="CultRuneOffering" Caption="Руна Подношения"/>
     </Box>
-    Can be used to convert or sacrifice targets on it. It takes two cultists to convert someone.
+    Может использоваться для обращения в свою веру или принесения в жертву целей. Чтобы обратить кого-то, нужны два культиста.
 
-    [bold]REMINDER: One cultist is required to sacrifice a dead body and three for a live one,
-    standing adjacent to the rune. Each sacrifice will add to the Cult's total number of sacrifices, which are used
-    to revive deceased bretheren instantly over a Revival Rune.[/bold]
+    [bold]НАПОМИНАЮ: Один культист может принести в жертву мертвое тело, а три - живое,
+    встав рядом с руной. Каждое жертвоприношение увеличивает общее количество жертвоприношений в Культе, которые используются
+    для мгновенного оживления умерших собратьев с помощью руны Возрождения.[/bold]
 
     <Box>
-      <GuideEntityEmbed Entity="CultRuneEmpower" Caption="Rune of Empower"/>
+      <GuideEntityEmbed Entity="CultRuneEmpower" Caption="Руна Силы"/>
     </Box>
-    Grants a buff allowing cultists to prepare greater amounts of blood magic at far less of a cost. While you have
-    it, the spell count is capped at 4 instead of 1. Additionally, drawing runes takes far less time and you don't
-    lose as much blood while doing it.
+    Дает усиление, позволяющее культистам использовать большее количество магии крови с гораздо меньшими затратами. Пока у вас есть
+    в нем количество заклинаний ограничено 4 вместо 1. Кроме того, рисование рун занимает гораздо меньше времени, и
+    при этом вы теряете не так много крови.
 
     <Box>
-      <GuideEntityEmbed Entity="CultRuneTeleport" Caption="Rune of Teleportation"/>
+      <GuideEntityEmbed Entity="CultRuneTeleport" Caption="Руна Телепортации"/>
     </Box>
-    This rune warps everything above it to another teleport rune when used. Creating a teleport rune will allow you to
-    set a tag for it.
+    При использовании этой руны все, что находится над ней, телепортируется на другую руну телепорта. Создание руны телепорта позволит вам
+    установить для неё метку.
 
     <Box>
-      <GuideEntityEmbed Entity="CultRuneRevive" Caption="Rune of Rejuvenation"/>
+      <GuideEntityEmbed Entity="CultRuneRevive" Caption="Руна Возрождения"/>
     </Box>
-    Placing a cultist corpse on the rune and activating it will bring them back to life. Consumes one charge on use
-    and starts with three freebie revivals, so use it sparingly. .
+    Наложение трупа культиста на руну и её активация вернут его к жизни. При использовании расходуется один заряд
+    и начинается с трёх бесплатных возрождений, поэтому используйте его экономно.
 
     <Box>
-      <GuideEntityEmbed Entity="CultRuneBarrier" Caption="Rune of Barrier"/>
+      <GuideEntityEmbed Entity="CultRuneBarrier" Caption="Руна Барьера"/>
     </Box>
-    When invoked, makes a temporary barrier to block passage.
+    При вызове создает временный барьер, блокирующий проход.
 
     <Box>
-      <GuideEntityEmbed Entity="CultRuneSummoning" Caption="Rune of Summoning"/>
+      <GuideEntityEmbed Entity="CultRuneSummoning" Caption="Руна Призыва"/>
     </Box>
-    This rune allows you to instantly summon any living cultist to the rune, consuming it afterward. Does not work on
-    restrained cultists who are buckled or being pulled.
+    Эта руна позволяет вам мгновенно призвать любого живого культиста в руну, а затем использовать её. Не действует на
+    связанных культистов, которые пристегнуты или их тянут.
 
     <Box>
-      <GuideEntityEmbed Entity="CultRuneBloodBoil" Caption="Rune of Boiling Blood"/>
+      <GuideEntityEmbed Entity="CultRuneBloodBoil" Caption="Руна Кипящей Крови"/>
     </Box>
-    When invoked, it saps some health from the invokers to send three damaging pulses to anyone who can see the
-    rune and ignites them.
+    При вызове она отнимает некоторое количество здоровья у призывающих, посылая три разрушительных импульса любому, кто может видеть
+    руну, и поджигает их.
   </Box>
 
-  ## Major runes
+  ## Основные руны
 
-  These are the major runes cultists can draw once they meet certain conditions. They need a free 3x3 space, and can only
-  be summoned in 3 areas around the station (or have 3 global charges). Depleting all of them makes you unable to draw
-  them anymore. So be careful not to consume all of them with apocalypse runes or you'll never be able to summon
-  Nar'Sie!
+  Это основные руны, которые культисты могут рисовать при выполнении определенных условий. Для них требуется свободное пространство размером 3х3, и их можно
+  вызывать только в 3 областях станции (или использовать 3 глобальных заряда). Если они все будут исчерпаны, вы
+  больше не сможете их рисовать. Так что будьте осторожны и не уничтожьте их всех рунами апокалипсиса, иначе вы никогда не сможете их призвать.
+  Нар'Си!
 
   <Box>
-    <GuideEntityEmbed Entity="CultRuneApocalypse" Caption="Rune of Apocalypse"/>
+    <GuideEntityEmbed Entity="CultRuneApocalypse" Caption="Руна Апокалипсиса"/>
   </Box>
 
-  A harbinger of the end times. It scales depending on the crew's strength relative to the cult. Effect includes a
-  massive EMP, total blackout, solar flare and if the cult is doing poorly, certain events. If the cult makes up to
-  less than 15% of current players, and an apocalypse rune is activated, a random event will
-  occur:
-  - Immovable Rod x3
-  - Mouse Migration x2
-  - Meteor Swarm x2
-  - Vent Crickets x3
-  - Four Random Anomalies
-  - Kudzu Growth x2
-  - Vendor Mimics x2
+  Предвестник конца времен. Масштабируется в зависимости от силы экипажа по сравнению с культом. Эффект включает в себя
+  ЭМИ, отключение света, вспышку на солнце, а если культ работает плохо, то и определенные события. Если культ составляет
+  менее 15% от числа текущих игроков и активирована руна апокалипсиса,
+  произойдет случайное событие:
+  - Неподвижный Стержень x3
+  - Миграция Мышей x2
+  - Метеоритный Рой x2
+  - Вентиляционные Твари x3
+  - Четыре случайные аномалии
+  - Рост Кудзу x2
+  - Мимики Вендоматы x2
 
   <Box>
-    <GuideEntityEmbed Entity="CultRuneDimensionalRending" Caption="Rune of Dimensional Rending"/>
+    <GuideEntityEmbed Entity="CultRuneDimensionalRending" Caption="Руна Пространственного Раздора"/>
   </Box>
-  This rune tears apart dimensional barriers, calling forth the Geometer. To start drawing it the requested target
-  must have already been sacrificed. Starting to draw this rune alarms the entire station of its location. The caster
-  must be defended for 45 seconds before it's complete.
-  After it's drawn, 10 cultists, constructs, or summoned ghosts must stand on the rune, which can then be invoked to
-  manifest Nar'Sie itself.
+  Эта руна разрушает пространственные барьеры, вызывая Богиню. Чтобы начать рисовать, требуемая цель
+  должна быть уже принесена в жертву. Начало рисования этой руны приводит в действие всю станцию, на которой она находится. Заклинатель
+  должен быть защищен в течение 45 секунд, прежде чем она будет завершена.
+  После того, как она будет нарисована, 10 культистов, созданий или призванных призраков должны встать на руну, которая затем может быть вызвана для
+  проявления самой Нар'Си.
 
-  ## Blood Spells
+  ## Заклинания Крови
 
-  Blood Spells are limited-use blood magic spells that dissipate after they're spent, and they're your bread and butter
-  when fighting the crew. Blood Spells can be created at any time via a menu when right clicking your character.
-  However, blood spells created without an Empowering Rune will take longer, cause significant blood loss, and
-  will cap your spell count at a measly one
+  Заклинания Крови - это заклинания магии крови с ограниченным использованием, которые рассеиваются после того, как они будут израсходованы, и это ваш хлеб насущный, 
+  когда вы сражаетесь с экипажем. Заклинания крови можно создать в любое время через меню, щелкнув правой кнопкой мыши на своем персонаже.
+  Однако Заклинания Крови, созданные без усиливающей руны, займут больше времени, вызовут значительную потерю крови и
+  сократят количество ваших заклинаний до ничтожного количества
 
-  A good tip is to make sure to try and have a stun spell and a teleport spell with you to escape risky situations. This
-  will leave only two other options for spells though, so carefully choose what you think might help best for a
-  particular situation.
+  Хороший совет - не забудьте взять с собой заклинание оглушения и телепортации, чтобы избежать опасных ситуаций. В этом
+  случае у вас останется только два других варианта заклинаний, поэтому тщательно выбирайте то, что, по вашему мнению, может лучше всего помочь в
+  конкретной ситуации.
 
 
-  ## Constructs
+  ## Конструкты
 
-  Shades and constructs are slaved to their masters will. They must follow the orders of their master at any cost. They
-  are capable of grasping intent, unlike synthetic beings. Constructs created by cultists automatically become cultists
-  themselves, allowing them to identify their team mates, and even count for the escape objective.
+  Тени и создания подчиняются воле своих хозяев. Они должны выполнять приказы своего хозяина любой ценой. 
+  В отличие от синтетиков и киборгов, они способны взаимодействовать с миром. Конструкты, созданные культистами, автоматически
+  сами становятся культистами, позволяя им идентифицировать своих товарищей и даже участвовать в выполнении нашей общей цели.
 
   <Box>
-    <GuideEntityEmbed Entity="ShadeCult" Caption="Shade"/>
+    <GuideEntityEmbed Entity="ShadeCult" Caption="Тень"/>
   </Box>
-  Shades are fragile, but being recaptured into their soul shard heals them. Useful if you quickly need someone to help
-  you activate a rune.
+  Тени хрупки, но если их вернуть в осколок души, это исцелит их. Полезно, если вам срочно понадобится помощь
+  в активации руны.
 
   <Box>
-    <GuideEntityEmbed Entity="ConstructArtificer" Caption="Artificer"/>
+    <GuideEntityEmbed Entity="ConstructArtificer" Caption="Ремесленник"/>
   </Box>
-  The artificer is the "drone" of the cult. It can construct cult-floors, walls and reinforced walls, as well as take
-  apart the station, but its main purpose is to provide the materials to construct additional constructs. It can create
-  new soul stones or shells after a certain time.
+  Ремесленник - это "трутень" культа. Он может сооружать полы, стены и перекрытия Культа, а также
+  разбирать станцию на части, но его основная цель - обеспечить материалы для создания дополнительных конструкций. Через определенное время он может создавать
+  новые камни души или пустые оболочки.
 
   <Box>
-    <GuideEntityEmbed Entity="ConstructWraith" Caption="Wraith"/>
+    <GuideEntityEmbed Entity="ConstructWraith" Caption="Дух"/>
   </Box>
-  The wraith is a tiny bit more fragile than a human but has a strong melee attack. It can become invisible and travel
-  through closed doors and even walls by using it's phase shift ability.
+  Дух чуть более хрупок, чем человек, но обладает сильной атакой в ближнем бою. Он может становиться невидимым и проходить
+  сквозь закрытые шлюзы и даже стены, используя свою способность к фазовому сдвигу.
 
   <Box>
-    <GuideEntityEmbed Entity="ConstructJuggernaut" Caption="Juggernaut"/>
+    <GuideEntityEmbed Entity="ConstructJuggernaut" Caption="Джаггернаут"/>
   </Box>
-  Juggernauts are strong, slow and have lots of health. They can destroy any wall by simply punching it and do more
-  damage than Wraiths. They cannot be pushed or grabbed and even have a force-wall ability similar to the wizard spell.
+  Джаггернауты сильны, медлительны и обладают большим запасом здоровья. Они могут разрушить любую стену, просто ударив по ней кулаком, и нанести больше
+  урона, чем призраки. Их нельзя толкнуть или схватить, и они даже обладают способностью "Силовая Стена", аналогичной заклинанию волшебника.
 
-  ## Tips
-  - Only cultists can know a rune's name and effects by examining it.
-  - Always be ready to summon a cultist in trouble. You can't summon them if they're already cuffed.
-  - Keeping a shade in a Soulstone Shard with you will allow you to use two-person runes by yourself, by releasing and
-  then recapturing the shade.
-  - Cultists often find a use for medibots. Having a single bot with a low threshold, backed up by brutepacks or pylons,
-  can keep your cult in fighting shape.
-  - The EMP spell and Apocalypse Rune are both incredibly useful. They can give you access almost anywhere, just don't
-  forget your crowbar!
+  ## Советики
+  - Только культисты могут узнать название руны и ее действие, изучив ее.
+  - Всегда будьте готовы вызвать культиста, попавшего в беду. Вы не сможете вызвать его, если на нем уже надеты наручники.
+  - Храня Тень в осколке Камня Души при себе, вы сможете самостоятельно использовать руны для двоих, высвобождая и
+  затем возвращая тень.
+  - Культисты часто находят применение медиботам. Наличие единственного медибота, а так же имея наборы для ушибов или пилоны,
+  поможет поддерживать вашу секту в боевой форме.
+  - Заклинание ЭМИ и руна Апокалипсиса невероятно полезны. Они могут открыть вам доступ практически в любое место, только не
+  забудьте свой лом!
 </Document>
