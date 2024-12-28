@@ -647,67 +647,67 @@
 # Fluff/Joke Surgeries
 
 - type: entity
- parent: SurgeryBase
- id: SurgeryAddFelinidEars
- name: Add cat ears
- categories: [ HideSpawnMenu ]
- components:
- - type: Surgery
-   requirement: SurgeryOpenIncision
-   steps:
-   - SurgeryStepAddFelinidEars
- - type: SurgeryPartCondition
-   part: Head
- - type: SurgeryMarkingCondition
-   markingCategory: HeadTop
-   matchString: FelinidEars
-   inverse: true
+  parent: SurgeryBase
+  id: SurgeryAddFelinidEars
+  name: Add cat ears
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Surgery
+    requirement: SurgeryOpenIncision
+    steps:
+    - SurgeryStepAddFelinidEars
+  - type: SurgeryPartCondition
+    part: Head
+  - type: SurgeryMarkingCondition
+    markingCategory: HeadTop
+    matchString: FelinidEars
+    inverse: true
 
 - type: entity
- parent: SurgeryBase
- id: SurgeryRemoveFelinidEars
- name: Remove cat ears
- categories: [ HideSpawnMenu ]
- components:
- - type: Surgery
-   requirement: SurgeryOpenIncision
-   steps:
-   - SurgeryStepRemoveFelinidEars
- - type: SurgeryPartCondition
-   part: Head
- - type: SurgeryMarkingCondition
-   markingCategory: HeadTop
-   matchString: FelinidEars
+  parent: SurgeryBase
+  id: SurgeryRemoveFelinidEars
+  name: Remove cat ears
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Surgery
+    requirement: SurgeryOpenIncision
+    steps:
+    - SurgeryStepRemoveFelinidEars
+  - type: SurgeryPartCondition
+    part: Head
+  - type: SurgeryMarkingCondition
+    markingCategory: HeadTop
+    matchString: FelinidEars
 
 - type: entity
- parent: SurgeryBase
- id: SurgeryAddFelinidTail
- name: Add cat tail
- categories: [ HideSpawnMenu ]
- components:
- - type: Surgery
-   requirement: SurgeryOpenIncision
-   steps:
-   - SurgeryStepAddFelinidTail
- - type: SurgeryPartCondition
-   part: Torso
- - type: SurgeryMarkingCondition
-   markingCategory: Tail
-   matchString: FelinidTail
-   inverse: true
+  parent: SurgeryBase
+  id: SurgeryAddFelinidTail
+  name: Add cat tail
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Surgery
+    requirement: SurgeryOpenIncision
+    steps:
+    - SurgeryStepAddFelinidTail
+  - type: SurgeryPartCondition
+    part: Torso
+  - type: SurgeryMarkingCondition
+    markingCategory: Tail
+    matchString: FelinidTail
+    inverse: true
 
 - type: entity
- parent: SurgeryBase
- id: SurgeryRemoveFelinidTail
- name: Remove cat tail
- categories: [ HideSpawnMenu ]
- components:
- - type: Surgery
-   requirement: SurgeryOpenIncision
-   steps:
-   - SurgeryStepRemoveFelinidTail
- - type: SurgeryPartCondition
-   part: Torso
- - type: SurgeryMarkingCondition
-   markingCategory: Tail
-   matchString: FelinidTail
+  parent: SurgeryBase
+  id: SurgeryRemoveFelinidTail
+  name: Remove cat tail
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Surgery
+    requirement: SurgeryOpenIncision
+    steps:
+    - SurgeryStepRemoveFelinidTail
+  - type: SurgeryPartCondition
+    part: Torso
+  - type: SurgeryMarkingCondition
+    markingCategory: Tail
+    matchString: FelinidTail
