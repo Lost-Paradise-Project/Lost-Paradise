@@ -6942,7 +6942,7 @@ entities:
       pos: 21.5,-24.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -2235.2207
+      secondsUntilStateChange: -2408.5369
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6990,7 +6990,7 @@ entities:
       pos: 10.5,-27.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -3359.7908
+      secondsUntilStateChange: -3533.107
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -28519,13 +28519,6 @@ entities:
     - type: Transform
       pos: 6.5,11.5
       parent: 2
-- proto: ClosetBombFilled
-  entities:
-  - uid: 4394
-    components:
-    - type: Transform
-      pos: 10.5,-10.5
-      parent: 2
 - proto: ClosetChefFilled
   entities:
   - uid: 4395
@@ -33730,8 +33723,8 @@ entities:
       pos: -0.5,-26.5
       parent: 2
     - type: FaxMachine
-      destinationAddress: Bridge
       name: Bridge
+      destinationAddress: Bridge
   - uid: 5176
     components:
     - type: Transform
@@ -51311,12 +51304,55 @@ entities:
     - type: Transform
       pos: 14.5,-14.5
       parent: 2
+- proto: LPPAdjutantSpawn
+  entities:
+  - uid: 11120
+    components:
+    - type: Transform
+      pos: 0.5,-24.5
+      parent: 2
+  - uid: 11121
+    components:
+    - type: Transform
+      pos: -1.5,-24.5
+      parent: 2
 - proto: LPPHammer
   entities:
   - uid: 8620
     components:
     - type: Transform
       pos: 22.879267,-14.333235
+      parent: 2
+- proto: LPPLockerSecEngFilled
+  entities:
+  - uid: 4394
+    components:
+    - type: Transform
+      pos: 10.5,-10.5
+      parent: 2
+- proto: LPPSpawnBlueShieldOfficer
+  entities:
+  - uid: 11119
+    components:
+    - type: Transform
+      pos: -0.5,-24.5
+      parent: 2
+  - uid: 11122
+    components:
+    - type: Transform
+      pos: 1.5,-19.5
+      parent: 2
+  - uid: 11123
+    components:
+    - type: Transform
+      pos: -2.5,-19.5
+      parent: 2
+- proto: LPPSpawnPointSecurityEngineer
+  entities:
+  - uid: 11124
+    components:
+    - type: Transform
+      pos: 11.5,-12.5
       parent: 2
 - proto: MachineAnomalyGenerator
   entities:
