@@ -7144,7 +7144,7 @@ entities:
       pos: -41.5,9.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -4580.8574
+      secondsUntilStateChange: -4616.674
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7296,7 +7296,7 @@ entities:
       pos: -41.5,16.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -27343.154
+      secondsUntilStateChange: -27378.97
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7349,7 +7349,7 @@ entities:
       pos: -24.5,-0.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -104601.61
+      secondsUntilStateChange: -104637.42
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7372,7 +7372,7 @@ entities:
       pos: -35.5,3.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -84725.36
+      secondsUntilStateChange: -84761.17
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7383,7 +7383,7 @@ entities:
       pos: -35.5,-5.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -62423.96
+      secondsUntilStateChange: -62459.777
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7435,7 +7435,7 @@ entities:
       pos: -17.5,21.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -47725.895
+      secondsUntilStateChange: -47761.71
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7463,7 +7463,7 @@ entities:
       pos: -16.5,12.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -81068.81
+      secondsUntilStateChange: -81104.625
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7475,7 +7475,7 @@ entities:
       pos: -15.5,12.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -81069.11
+      secondsUntilStateChange: -81104.92
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7487,7 +7487,7 @@ entities:
       pos: -14.5,12.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -81068.48
+      secondsUntilStateChange: -81104.29
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7612,7 +7612,7 @@ entities:
       pos: 8.5,-16.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -10571.295
+      secondsUntilStateChange: -10607.111
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -31421,7 +31421,7 @@ entities:
       pos: -52.5,-6.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -11344.193
+      secondsUntilStateChange: -11380.01
       state: Closing
     - type: DeviceNetwork
       deviceLists:
@@ -44820,7 +44820,7 @@ entities:
       pos: 26.5,-31.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -46486.93
+      secondsUntilStateChange: -46522.746
       state: Opening
   - uid: 11176
     components:
@@ -77776,18 +77776,6 @@ entities:
     - type: Transform
       pos: -40.5,14.5
       parent: 2
-- proto: SpawnPointMailCarrier
-  entities:
-  - uid: 14661
-    components:
-    - type: Transform
-      pos: -44.5,-2.5
-      parent: 2
-  - uid: 14721
-    components:
-    - type: Transform
-      pos: -42.5,-3.5
-      parent: 2
 - proto: SpawnPointDetective
   entities:
   - uid: 14636
@@ -77870,6 +77858,18 @@ entities:
     - type: Transform
       pos: 7.5,-14.5
       parent: 2
+- proto: SpawnPointMailCarrier
+  entities:
+  - uid: 14661
+    components:
+    - type: Transform
+      pos: -44.5,-2.5
+      parent: 2
+  - uid: 14721
+    components:
+    - type: Transform
+      pos: -42.5,-3.5
+      parent: 2
 - proto: SpawnPointMedicalBorg
   entities:
   - uid: 14662
@@ -77903,6 +77903,38 @@ entities:
     components:
     - type: Transform
       pos: -33.5,2.5
+      parent: 2
+- proto: SpawnPointMedicalIntern
+  entities:
+  - uid: 15465
+    components:
+    - type: Transform
+      pos: -29.5,-3.5
+      parent: 2
+  - uid: 15466
+    components:
+    - type: Transform
+      pos: -26.5,-0.5
+      parent: 2
+  - uid: 15467
+    components:
+    - type: Transform
+      pos: -29.5,-1.5
+      parent: 2
+  - uid: 15468
+    components:
+    - type: Transform
+      pos: -35.5,2.5
+      parent: 2
+  - uid: 15469
+    components:
+    - type: Transform
+      pos: -36.5,0.5
+      parent: 2
+  - uid: 15470
+    components:
+    - type: Transform
+      pos: -34.5,0.5
       parent: 2
 - proto: SpawnPointMime
   entities:
@@ -94091,7 +94123,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -82320.98
+      secondsUntilStateChange: -82356.79
       state: Opening
   - uid: 6338
     components:
