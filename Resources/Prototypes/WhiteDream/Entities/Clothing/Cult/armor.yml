@@ -113,7 +113,6 @@
     sprite: Clothing/Eyes/Misc/blindfold.rsi
   - type: FlashImmunity
   - type: EyeProtection
-  - type: ClothingGrantComponent
     # component:
     # - type: NightVision
     #   toggleAction: null
