@@ -19,6 +19,7 @@ entities:
     components:
     - type: MetaData
       name: NT ЭУ "Айси"
+    - type: SalvageShuttle
     - type: Transform
       pos: -0.578125,-0.546875
       parent: invalid
