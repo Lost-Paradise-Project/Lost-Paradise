@@ -5,7 +5,7 @@
   minPlayers: 0
   maxPlayers: 30
   stations:
-    LPPPebbleStation:
+    LPPPebble:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
