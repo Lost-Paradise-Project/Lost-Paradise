@@ -367,6 +367,9 @@
       noMindState: synd_medical
     - type: Construction
       node: syndicatemedical
+    - type: ShowHealthBars
+      damageContainers:
+      - Biological
 
 - type: entity
   id: BorgChassisSyndicateSaboteur

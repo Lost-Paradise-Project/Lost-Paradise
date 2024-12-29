@@ -5,12 +5,10 @@
   description: Block of combat rockets for syndicate cyborg.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Launchers/rocket.rsi #ИЗМЕНИТЬ
+    sprite: _LostParadise/Objects/Weapons/Guns/Launchers/borg_launcher.rsi #_LostParadise\Objects\Weapons\Guns\Launchers
     layers:
-      - state: base
+      - state: icon
         map: ["enum.GunVisualLayers.Base"]
-      - state: mag-0
-        map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
     fireRate: 0.2
     soundGunshot:
@@ -22,3 +20,5 @@
     proto: CartridgeRocket
     capacity: 4
   - type: Appearance
+
+
