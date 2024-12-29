@@ -1,0 +1,15 @@
+ent-LPPNewYearSocksRed = socks
+    .desc = hanging socks on the wall, like you should put gifts there...
+ent-LPPNewYearSocksGreen = socks
+    .desc = hanging socks on the wall, like you should put gifts there...
+ent-LPPNewYearSocksOrange = socks
+    .desc = hanging socks on the wall, like you should put gifts there...
+ent-LPPNewYearBell = new year bell
+    .desc = New Year's bell with a wreath, festive mood..
+ent-LPPCandyNewYear = candy
+    .desc = A New Year's candy that feels like the end of the past.
+ent-LPPLightbulbsNewYear = light bulbs
+    .desc = Hanging garland, not the best source of light
+ent-LPPPresentRandom = present
+    .desc = A New Year's gift, I wonder what's in it!
+    .suffix = Filled Safe
