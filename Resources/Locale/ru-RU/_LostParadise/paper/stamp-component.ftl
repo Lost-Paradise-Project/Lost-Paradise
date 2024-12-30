@@ -14,9 +14,4 @@ stamp-component-stamped-name-dso-cburn = Войска РХБЗЗ
 stamp-component-stamped-name-dso-blue-shield-officer = Офицер "Синий Щит"
 stamp-component-stamped-name-dso-special-operations-officer = Офицер Специальных Операций
 stamp-component-stamped-name-cia-resident = Агент КРУ
-<<<<<<< HEAD:Resources/Locale/ru-RU/_LostParadise/paper/stamp-component.ftl
-
 stamp-component-stamped-name-adjutant = Адъютант
-=======
-stamp-component-stamped-name-adjutant = Адъютант
->>>>>>> 25531a777f84f694a46350cf73543d0c0fc11909:Resources/Locale/ru-RU/_LostParadise/misc/stamp-component.ftl
