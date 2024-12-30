@@ -56,11 +56,13 @@
   parent: RadioJammer
   id: LPPRadioJammerCyborg
   description: Cyborg version of device, which will disrupt any nearby outgoing radio communication as well as suit sensors when activated.
-  slots:
-    cell_slot:
-      name: power-cell-slot-component-slot-name-default
-      startingItem: PowerCellMicroreactor
-      disableEject: true
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMicroreactor
+        disableEject: true
 
 
 
