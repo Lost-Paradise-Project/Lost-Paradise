@@ -78,6 +78,8 @@ namespace Content.IntegrationTests.Tests
             "NY_LPPKerberos", //LPP
             "NY_LPPNormandy", //LPP
             "NY_PebbleStation", //LPP
+            "NY_Plot_113", //LPP
+            "Plot_113", //LPP
             "Gax",
             "Rad"
         };
