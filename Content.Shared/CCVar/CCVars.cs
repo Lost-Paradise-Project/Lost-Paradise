@@ -2762,10 +2762,10 @@ namespace Content.Shared.CCVar
         #region GhostRespawn
 
         public static readonly CVarDef<double> GhostRespawnTime =
-            CVarDef.Create("ghost.respawn_time", 15d, CVar.SERVERONLY);
+            CVarDef.Create("ghost.respawn_time", 10d, CVar.SERVERONLY);
 
         public static readonly CVarDef<int> GhostRespawnMaxPlayers =
-            CVarDef.Create("ghost.respawn_max_players", 40, CVar.SERVERONLY);
+            CVarDef.Create("ghost.respawn_max_players", 20, CVar.SERVERONLY);
 
         public static readonly CVarDef<bool> GhostAllowSameCharacter =
             CVarDef.Create("ghost.allow_same_character", false, CVar.SERVERONLY);
@@ -2790,7 +2790,7 @@ namespace Content.Shared.CCVar
 
         /// Enables the automatic voting system.
         public static readonly CVarDef<bool> AutoVoteEnabled =
-            CVarDef.Create("vote.autovote_enabled", false, CVar.SERVERONLY);
+            CVarDef.Create("vote.autovote_enabled", true, CVar.SERVERONLY);
 
         /// Automatically starts a map vote when returning to the lobby.
         /// Requires auto voting to be enabled.
@@ -2829,7 +2829,7 @@ namespace Content.Shared.CCVar
         ///     you still can't stand up while crit, and you're still more or less helpless.
         /// </summary>
         public static readonly CVarDef<bool> AllowMovementWhileCrit =
-            CVarDef.Create("mobstate.allow_movement_while_crit", false, CVar.REPLICATED);
+            CVarDef.Create("mobstate.allow_movement_while_crit", true, CVar.REPLICATED);
 
         public static readonly CVarDef<bool> AllowTalkingWhileCrit =
             CVarDef.Create("mobstate.allow_talking_while_crit", false, CVar.REPLICATED);
@@ -2840,7 +2840,7 @@ namespace Content.Shared.CCVar
         ///     actions that can be performed in soft crit, such as applying pressure to your own injuries to slow down the bleedout, or other varieties of "Will To Live".
         /// </summary>
         public static readonly CVarDef<bool> DamageWhileCritMove =
-            CVarDef.Create("mobstate.damage_while_crit_move", false, CVar.REPLICATED);
+            CVarDef.Create("mobstate.damage_while_crit_move", true, CVar.REPLICATED);
 
         #endregion
     }
