@@ -13,7 +13,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: bat
       sprite: Mobs/Animals/bat.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Speech
     speechSounds: Squeak
     speechVerb: SmallMob
@@ -189,8 +189,8 @@
     noMovementLayers:
       movement:
         state: chicken-0
-  #- type: Carriable
-  #  freeHandsRequired: 1
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Fixtures
     fixtures:
       fix1:
@@ -631,8 +631,8 @@
         - MobMask
         layer:
         - MobLayer
-  #- type: Carriable
-  #  freeHandsRequired: 1
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -892,8 +892,8 @@
     noMovementLayers:
       movement:
         state: crab
-  #- type: Carriable
-  #  freeHandsRequired: 1
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -963,7 +963,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: goat
       sprite: Mobs/Animals/goat.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Fixtures
     fixtures:
       fix1:
@@ -1060,7 +1060,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: goose
       sprite: Mobs/Animals/goose.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Fixtures
     fixtures:
       fix1:
@@ -1261,8 +1261,12 @@
   abstract: true
   components:
   - type: CombatMode
+  # Shitmed Change Start
   - type: SurgeryTarget
   - type: Targeting
+  - type: HumanoidAppearance
+    species: Monkey
+  # Shitmed Change End
   - type: Inventory
     templateId: monkey
     speciesId: monkey
@@ -1295,25 +1299,45 @@
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - map: ["enum.DamageStateVisualLayers.Base"]
-      state: monkey
-      sprite: Mobs/Animals/monkey.rsi
-    - map: [ "jumpsuit" ]
-    - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
+    # Shitmed Change Start
+    - map: [ "enum.HumanoidVisualLayers.Chest" ]
+    - map: [ "enum.HumanoidVisualLayers.Head" ]
+    - map: [ "enum.HumanoidVisualLayers.Snout" ]
+    - map: [ "enum.HumanoidVisualLayers.Eyes" ]
+    - map: [ "enum.HumanoidVisualLayers.RArm" ]
+    - map: [ "enum.HumanoidVisualLayers.LArm" ]
+    - map: [ "enum.HumanoidVisualLayers.RLeg" ]
+    - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+    - map: ["jumpsuit"]
+    - map: ["enum.HumanoidVisualLayers.LFoot"]
+    - map: ["enum.HumanoidVisualLayers.RFoot"]
+    - map: ["enum.HumanoidVisualLayers.LHand"]
+    - map: ["enum.HumanoidVisualLayers.RHand"]
+    - map: ["enum.HumanoidVisualLayers.Handcuffs"]
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
       state: body-overlay-2
       visible: false
+    - map: [ "gloves" ]
+    - map: [ "shoes" ]
     - map: [ "ears" ]
     - map: [ "outerClothing" ]
+    - map: [ "eyes" ]
+    - map: [ "belt" ]
     - map: [ "id" ]
+    - map: [ "neck" ]
+    - map: [ "back" ]
+    - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
+    - map: [ "enum.HumanoidVisualLayers.Hair" ]
+    - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
+    - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
+    - map: [ "enum.HumanoidVisualLayers.Tail" ]
     - map: [ "mask" ]
     - map: [ "head" ]
-    - map: [ "clownedon" ]
-      sprite: "Effects/creampie.rsi"
-      state: "creampie_human"
-      visible: false
-  #- type: Carriable
+    - map: [ "pocket1" ]
+    - map: [ "pocket2" ]
+    # Shitmed Change End
+  - type: Carriable
   - type: Hands
   - type: ComplexInteraction
   - type: GenericVisualizer
@@ -1322,9 +1346,9 @@
         clownedon:
           True: {visible: true}
           False: {visible: false}
-  - type: Body
-    prototype: Primate
-    requiredLegs: 1 # TODO: More than 1 leg
+  - type: Body # Shitmed Change
+    prototype: Monkey
+    requiredLegs: 2
   - type: CreamPied
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
@@ -1515,47 +1539,6 @@
     coldDamageThreshold: 285
     currentTemperature: 310.15
     specificHeat: 42
-  - type: Sprite
-    drawdepth: Mobs
-    layers:
-    - map: ["enum.DamageStateVisualLayers.Base"]
-      sprite: Mobs/Animals/kobold.rsi
-      state: kobold
-    - map: [ "outline" ]
-      sprite: Mobs/Animals/kobold.rsi
-      state: outline
-    - map: [ "horns" ]
-      sprite: Mobs/Customization/reptilian_parts.rsi
-      state: horns_short
-    - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
-      color: "#ffffff"
-      sprite: Objects/Misc/handcuffs.rsi
-      state: body-overlay-2
-      visible: false
-    - map: [ "ears" ]
-    - map: [ "id" ]
-    - map: [ "mask" ]
-    - map: [ "head" ]
-    - map: [ "clownedon" ]
-      sprite: "Effects/creampie.rsi"
-      state: "creampie_human"
-      visible: false
-  - type: RandomSprite
-    getAllGroups: true
-    available:
-      - enum.DamageStateVisualLayers.Base:
-          kobold: KoboldColors
-      - horns:
-          horns_curled: KoboldHornColors
-          horns_ram: KoboldHornColors
-          horns_short: KoboldHornColors
-          horns_myrsore: KoboldHornColors
-          horns_bighorn: KoboldHornColors
-          horns_argali: KoboldHornColors
-          horns_ayrshire: KoboldHornColors
-          horns_floppy_kobold_ears: Inherit
-          horns_double: Inherit
-          horns_kobold_ears: Inherit
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -1573,6 +1556,13 @@
   - type: RandomBark
     barkMultiplier: 0.65
     barkType: kobold
+  # Shitmed Change Start
+  - type: HumanoidAppearance
+    species: Kobold
+  - type: Body
+    prototype: Kobold
+    requiredLegs: 2
+  # Shitmed Change End
 
 - type: entity
   name: kobold
@@ -1908,7 +1898,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: lizard
       sprite: Mobs/Animals/lizard.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -1963,8 +1953,8 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: slug
       sprite: Mobs/Animals/slug.rsi
-  #- type: Carriable
-  #  freeHandsRequired: 1
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2017,7 +2007,7 @@
     noMovementLayers:
       movement:
         state: frog
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2071,8 +2061,8 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: parrot
       sprite: Mobs/Animals/parrot.rsi
-  #- type: Carriable
-  #  freeHandsRequired: 1
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Fixtures
     fixtures:
       fix1:
@@ -2128,7 +2118,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: penguin
       sprite: Mobs/Animals/penguin.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2265,7 +2255,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: snake
       sprite: Mobs/Animals/snake.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2327,7 +2317,7 @@
     noMovementLayers:
       movement:
         state: tarantula
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2541,7 +2531,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: possum
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2624,7 +2614,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: raccoon
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2696,7 +2686,7 @@
     noMovementLayers:
       movement:
         state: fox
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2780,7 +2770,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: corgi
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Speech
     speechVerb: Canine
@@ -2938,7 +2928,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: cat
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -3156,8 +3146,8 @@
         Base: kitten_dead
       Dead:
         Base: kitten_dead
-  #- type: Carriable
-  #  freeHandsRequired: 1
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Butcherable
     spawned:
     - id: FoodMeat
@@ -3199,7 +3189,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: sloth
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -3262,7 +3252,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: ferret
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -3491,7 +3481,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: pig
       sprite: Mobs/Animals/pig.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Fixtures
     fixtures:
       fix1:
@@ -3567,7 +3557,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: nymph
       sprite: Mobs/Animals/nymph.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
