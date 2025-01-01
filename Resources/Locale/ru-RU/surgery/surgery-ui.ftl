@@ -1,3 +1,5 @@
+surgery-verb-text = Начать операцию
+surgery-verb-message = Начните операцию на этом объекте.
 surgery-ui-window-title = Хирургия
 surgery-ui-window-require = Требует
 surgery-ui-window-parts = < Части

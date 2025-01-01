@@ -2790,7 +2790,7 @@ namespace Content.Shared.CCVar
 
         /// Enables the automatic voting system.
         public static readonly CVarDef<bool> AutoVoteEnabled =
-            CVarDef.Create("vote.autovote_enabled", true, CVar.SERVERONLY);
+            CVarDef.Create("vote.autovote_enabled", false, CVar.SERVERONLY);
 
         /// Automatically starts a map vote when returning to the lobby.
         /// Requires auto voting to be enabled.

@@ -16,6 +16,7 @@ chat-language-Canilunzt-name = Канилунц
 chat-language-Moffic-name = Ткачий
 chat-language-RobotTalk-name = Робо
 chat-language-ValyrianStandard-name = Валирийский
+chat-language-Eldritch-name = Жуткий
 chat-language-Cat-name = Кошачий
 chat-language-Dog-name = Собачий
 chat-language-Fox-name = Лисичий
