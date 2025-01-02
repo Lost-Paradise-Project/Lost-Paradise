@@ -72,6 +72,14 @@ namespace Content.IntegrationTests.Tests
             "H_LPPAsterisk", //LPP
             "H_LPPNormandy", //LPP
             "H_LPPPebble", //LPP
+            "LPPCyberiad", //LPP
+            "NY_LPPAsterisk", //LPP
+            "NY_LPPCyberiad", //LPP
+            "NY_LPPKerberos", //LPP
+            "NY_LPPNormandy", //LPP
+            "NY_PebbleStation", //LPP
+            "NY_Plot_113", //LPP
+            "Plot_113", //LPP
             "Gax",
             "Rad"
         };
