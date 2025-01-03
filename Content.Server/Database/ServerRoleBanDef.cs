@@ -36,7 +36,7 @@ public sealed class ServerRoleBanDef
         ServerRoleUnbanDef? unban,
         string role)
     {
-        if (userId == null && address == null && hwId ==  null)
+        if (userId == null && address == null && hwId == null)
         {
             throw new ArgumentException("Must have at least one of banned user, banned address or hardware ID");
         }

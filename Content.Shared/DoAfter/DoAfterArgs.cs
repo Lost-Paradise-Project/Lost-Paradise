@@ -122,12 +122,6 @@ public sealed partial class DoAfterArgs
     [DataField("breakOnDamage")]
     public bool BreakOnDamage;
 
-// LOST PARADISE (PE4HENIKA)-Start
-    [DataField("BreakOnMove")]
-
-    public bool BreakOnMove;
-// LOST PARADISE (PE4HENIKA)-END
-
     /// <summary>
     ///     Threshold for user damage. This damage has to be dealt in a single event, not over time.
     /// </summary>
@@ -258,7 +252,6 @@ public sealed partial class DoAfterArgs
         BreakOnWeightlessMove = other.BreakOnWeightlessMove;
         MovementThreshold = other.MovementThreshold;
         DistanceThreshold = other.DistanceThreshold;
-        BreakOnMove = other.BreakOnMove; // PE4HENIKA LOST PARADISE
         BreakOnDamage = other.BreakOnDamage;
         DamageThreshold = other.DamageThreshold;
         RequireCanInteract = other.RequireCanInteract;

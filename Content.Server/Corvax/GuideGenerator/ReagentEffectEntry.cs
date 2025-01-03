@@ -1,5 +1,6 @@
 using Content.Shared.Chemistry.Reagent;
 using Robust.Shared.Prototypes;
+using Content.Shared.EntityEffects;
 using System.Text.Json.Serialization;
 using Content.Server.Chemistry.ReactionEffects;
 
@@ -12,7 +13,7 @@ public sealed class ReagentEffectEntry
     [JsonPropertyName("description")]
     public string Description { get; }
 
-    public ReagentEffectEntry(ReagentEffect proto)
+    public ReagentEffectEntry(EntityEffect proto)
     {
         var prototype = IoCManager.Resolve<IPrototypeManager>();
         var entSys = IoCManager.Resolve<IEntitySystemManager>();

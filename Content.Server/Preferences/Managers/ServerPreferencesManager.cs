@@ -34,7 +34,6 @@ namespace Content.Server.Preferences.Managers
         [Dependency] private readonly ILogManager _log = default!;
         [Dependency] private readonly UserDbDataManager _userDb = default!;
         [Dependency] private readonly IPrototypeManager _protos = default!;
-        [Dependency] private readonly IPrototypeManager _protos = default!;
 #if LPP_Sponsors  // _LostParadise-Sponsors
         [Dependency] private readonly SponsorsManager _sponsors = default!;
 #endif
