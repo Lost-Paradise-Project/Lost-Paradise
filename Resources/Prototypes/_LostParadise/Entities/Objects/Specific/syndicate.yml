@@ -14,9 +14,11 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetContract
     balance:
       Telecrystal: 1337
+  - type: Tag
+    tags:
+    - LPPStoreContract
 
 - type: entity
   parent: BaseItem
@@ -38,9 +40,11 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetCybersunUplinks
     balance:
       Telecrystal: 160
+  - type: Tag
+    tags:
+    - LPPStoreCybersunUplinks
 
 - type: entity
   parent: BaseItem
@@ -62,9 +66,11 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetDonkUplinks
     balance:
       Telecrystal: 160
+  - type: Tag
+    tags:
+    - LPPStoreDonkUplinks
 
 - type: entity
   parent: BaseItem
@@ -86,9 +92,11 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetGorlexUplinks
     balance:
       Telecrystal: 160
+  - type: Tag
+    tags:
+    - LPPStoreGorlexUplinks
 
 - type: entity
   parent: BaseItem
@@ -111,6 +119,8 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: StorePresetUplink
     balance:
       Telecrystal: 300
+  - type: Tag
+    tags:
+    - StoreUplink

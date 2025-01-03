@@ -557,7 +557,7 @@
   id: UplinkHypopen
   name: uplink-hypopen-name
   description: uplink-hypopen-desc
-  icon: { sprite: /Textures/Objects/Misc/bureaucracy.rsi, state: pen }
+  icon: { sprite: /Textures/Objects/Misc/pens.rsi, state: pen }
   productEntity: HypopenBox
   discountCategory: rareDiscounts
   discountDownTo:
@@ -824,7 +824,7 @@
 #   cost:
 #     Telecrystal: 5
 #   categories:
-#   - UplinkUtility
+#   - UplinkAllies
 
 - type: listing
   id: UplinkDecoyKit
@@ -1152,7 +1152,7 @@
   cost:
     Telecrystal: 1
   categories:
-  - UplinkUtility
+  - UplinkAllies
 
 - type: listing
   id: UplinkMobCatMicrobomb
@@ -1176,7 +1176,7 @@
   cost:
     Telecrystal: 2
   categories:
-    - UplinkUtility
+    - UplinkAllies
 
 # Implants
 
@@ -1864,7 +1864,7 @@
   cost:
     Telecrystal: 1
   categories:
-  - UplinkMisc
+  - UplinkPointless
 
 
 # - type: listing

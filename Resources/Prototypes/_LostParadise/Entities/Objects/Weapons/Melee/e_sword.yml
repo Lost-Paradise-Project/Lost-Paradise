@@ -87,6 +87,7 @@
     - type: Sharp
     - type: DisarmMalus
       malus: 0.7
+    - type: ItemToggle
     soundActivate:
       path: /Audio/Weapons/ebladeon.ogg
       params:
@@ -212,7 +213,6 @@
   - type: UseDelay
     delay: 1.5
   - type: PointLight
-    enabled: false
     radius: 3
     energy: 3
     color: white
@@ -230,7 +230,6 @@
   - type: DisarmMalus
     malus: 0
   - type: Reflect
-    enabled: false
     reflectProb: 0.7
     minReflectProb: 0.3
   - type: IgnitionSource

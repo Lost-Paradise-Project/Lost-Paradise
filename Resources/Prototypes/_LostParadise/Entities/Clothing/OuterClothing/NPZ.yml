@@ -25,7 +25,7 @@
         Heat: 0.5
         Radiation: 0.2
   - type: Reflect
-    enabled: true
+    innate: true
     reflectProb: 0.15
     spread: 100
   - type: ClothingSpeedModifier
@@ -177,7 +177,7 @@
         Heat: 0.4
         Radiation: 0.2
   - type: Reflect
-    enabled: true
+    innate: true
     reflectProb: 0.1
     spread: 100
   - type: ClothingSpeedModifier

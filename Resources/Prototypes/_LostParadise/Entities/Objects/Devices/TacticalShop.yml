@@ -17,9 +17,11 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetERT
     balance:
       Telecrystal: 100
+  - type: Tag
+    tags:
+    - LPPERTUplink
 
 - type: entity
   parent: BaseItem
@@ -40,9 +42,11 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetCBURN
     balance:
       Telecrystal: 100
+  - type: Tag
+    tags:
+    - LPPCBURNUplink
 
 - type: entity
   parent: BaseItem
@@ -63,9 +67,11 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetDelta
     balance:
       Telecrystal: 100
+  - type: Tag
+    tags:
+    - LPPDeltaUplink
 
 - type: entity
   parent: BaseItem
@@ -84,9 +90,11 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetHOS
     balance:
       LPPCentcoin: 12
+  - type: Tag
+    tags:
+    - LPPHOSUplink
 
 - type: currency
   id: LPPCentcoin
