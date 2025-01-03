@@ -2,6 +2,7 @@ using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
 using Content.Client.Clickable;
+using Content.Client.DeltaV.NanoChat;
 using Content.Client.JoinQueue;
 using Content.Client.Eui;
 using Content.Client.GhostKick;
@@ -22,6 +23,8 @@ using Content.Shared.Administration.Managers;
 using Content.Shared.Chat;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
+using Robust.Client.GameObjects;
+
 #if LPP_Sponsors  // _LostParadise-Sponsors
 using Content.Client._LostParadise.Sponsors;
 #endif
@@ -62,6 +65,7 @@ namespace Content.Client.IoC
             IoCManager.Register<JoinQueueManager>();
             collection.Register<PlayerRateLimitManager>();
             collection.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
+            collection.Register<NanoChatSystem>();
 #if LPP_Sponsors  // _LostParadise-Sponsors
             collection.Register<SponsorsManager>();
 #endif

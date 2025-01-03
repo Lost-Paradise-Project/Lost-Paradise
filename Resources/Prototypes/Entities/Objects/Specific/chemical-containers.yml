@@ -78,6 +78,7 @@
           transferForensics: true
         - !type:DoActsBehavior
           acts: [ "Destruction" ]
+    - type: Label
     - type: Tag
       tags:
       - ChemDispensable

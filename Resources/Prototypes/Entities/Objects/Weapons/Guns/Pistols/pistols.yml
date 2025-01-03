@@ -68,6 +68,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 500
+  - type: Execution
   - type: AmmoCounter
   - type: MeleeWeapon
     attackRate: 1.2
