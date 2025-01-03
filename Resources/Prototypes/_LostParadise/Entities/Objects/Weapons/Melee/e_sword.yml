@@ -87,7 +87,7 @@
     - type: Sharp
     - type: DisarmMalus
       malus: 0.7
-    - type: ItemToggle
+  - type: ItemToggle
     soundActivate:
       path: /Audio/Weapons/ebladeon.ogg
       params:
