@@ -359,6 +359,7 @@
   - type: PhysicalComposition
     materialComposition:
       LPPDiamond: 500
+      Diamond: 100
   - type: Stack
     stackType: Diamond
     baseLayer: base
@@ -371,7 +372,6 @@
     layers:
     - state: diamond
       map: ["base"]
-  - type: Appearance
   - type: Item
     heldPrefix: diamond
   - type: Appearance
@@ -383,10 +383,6 @@
         reagents:
         - ReagentId: Carbon
           Quantity: 20
-  - type: Material
-  - type: PhysicalComposition
-    materialComposition:
-      Diamond: 100
 
 - type: entity
   parent: MaterialDiamond

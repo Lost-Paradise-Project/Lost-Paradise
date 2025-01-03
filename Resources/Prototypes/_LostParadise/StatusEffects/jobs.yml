@@ -1,46 +1,46 @@
-- type: statusIcon
+- type: jobIcon
   parent: JobIcon
   id: JobIconAdjutant
   icon:
     sprite: /Textures/_LostParadise/Interface/Misc/lpp_job_icons.rsi
     state: Adjutant
 
-- type: statusIcon
+- type: jobIcon
   parent: JobIcon
   id: JobIconBlueshield
   icon:
     sprite: /Textures/_LostParadise/Interface/Misc/lpp_job_icons.rsi
     state: Blueshield
 
-- type: statusIcon
+- type: jobIcon
   parent: JobIcon
   id: JobIconSecPilot
   icon:
     sprite: /Textures/_LostParadise/Interface/Misc/lpp_job_icons.rsi
     state: SecPilot
 
-- type: statusIcon
+- type: jobIcon
   parent: JobIcon
   id: JobIconBorgSec
   icon:
     sprite: /Textures/_LostParadise/Interface/Misc/lpp_job_icons.rsi
     state: BorgSec
 
-- type: statusIcon
+- type: jobIcon
   parent: JobIcon
   id: JobIconDroneSec
   icon:
     sprite: /Textures/_LostParadise/Interface/Misc/lpp_job_icons.rsi
     state: DroneSec
 
-- type: statusIcon
+- type: jobIcon
   parent: JobIcon
   id: JobIconExpeditor
   icon:
     sprite: /Textures/_LostParadise/Interface/Misc/lpp_job_icons.rsi
     state: Expeditor
 
-- type: statusIcon
+- type: jobIcon
   parent: JobIcon
   id: LPPJobIconSecurityEnginer
   icon:

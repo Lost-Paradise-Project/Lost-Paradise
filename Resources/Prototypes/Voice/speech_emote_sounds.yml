@@ -107,41 +107,41 @@
     Sigh:
       collection: MaleSigh
 
-- type: emoteSounds
-  id: FemaleReptilian
-  params:
-    variation: 0.125
-  sounds:
-    Scream:
-      path: /Audio/Voice/Reptilian/reptilian_scream.ogg
-    Laugh:
-      path: /Audio/Animals/lizard_happy.ogg
-    Honk:
-      collection: BikeHorn
-    Whistle:
-      collection: Whistles
-    Crying:
-      collection: FemaleCry
-    Weh:
-      collection: Weh
-    Sneeze:
-      collection: FemaleSneezes
-    Cough:
-      collection: FemaleCoughs
-    CatMeow:
-      collection: CatMeows
-    CatHisses:
-      collection: CatHisses
-    MonkeyScreeches:
-      collection: MonkeyScreeches
-    RobotBeep:
-      collection: RobotBeeps
-    Yawn:
-      collection: FemaleYawn
-    Snore:
-      collection: Snores
-    Sigh:
-      collection: FemaleSigh
+# - type: emoteSounds
+#   id: FemaleReptilian
+#   params:
+#     variation: 0.125
+#   sounds:
+#     Scream:
+#       path: /Audio/Voice/Reptilian/reptilian_scream.ogg
+#     Laugh:
+#       path: /Audio/Animals/lizard_happy.ogg
+#     Honk:
+#       collection: BikeHorn
+#     Whistle:
+#       collection: Whistles
+#     Crying:
+#       collection: FemaleCry
+#     Weh:
+#       collection: Weh
+#     Sneeze:
+#       collection: FemaleSneezes
+#     Cough:
+#       collection: FemaleCoughs
+#     CatMeow:
+#       collection: CatMeows
+#     CatHisses:
+#       collection: CatHisses
+#     MonkeyScreeches:
+#       collection: MonkeyScreeches
+#     RobotBeep:
+#       collection: RobotBeeps
+#     Yawn:
+#       collection: FemaleYawn
+#     Snore:
+#       collection: Snores
+#     Sigh:
+#       collection: FemaleSigh
 
 - type: emoteSounds
   id: MaleSlime

@@ -30,8 +30,11 @@
       path: /Audio/Weapons/ebladehum.ogg
       params:
         volume: 3
-  - type: ItemToggleDisarmMalus
-    activatedDisarmMalus: 0.7
+  - type: ComponentToggler
+    components:
+    - type: Sharp
+    - type: DisarmMalus
+      malus: 0.7
   - type: Wieldable
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -79,7 +82,11 @@
   description: Syndicate farmer's intern thought that having only energy swords was not cool enough.
   components:
   - type: EnergySword
-  - type: ItemToggle
+  - type: ComponentToggler
+    components:
+    - type: Sharp
+    - type: DisarmMalus
+      malus: 0.7
     soundActivate:
       path: /Audio/Weapons/ebladeon.ogg
       params:
@@ -104,8 +111,6 @@
       path: /Audio/Weapons/ebladehum.ogg
       params:
         volume: 3
-  - type: ItemToggleDisarmMalus
-    activatedDisarmMalus: 0.7
   - type: Wieldable
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -159,10 +164,12 @@
   - type: ItemToggleActiveSound
     activeSound:
       path: /Audio/Weapons/ebladehum.ogg
-  - type: ItemToggleSharp
+  - type: ComponentToggler
+    components:
+    - type: Sharp
+    - type: DisarmMalus
+      malus: 0.6
   - type: ItemToggleHot
-  - type: ItemToggleDisarmMalus
-    activatedDisarmMalus: 0.6
   - type: ItemToggleSize
     activatedSize: Huge
   - type: ItemToggleMeleeWeapon

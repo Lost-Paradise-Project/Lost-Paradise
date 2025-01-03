@@ -71,6 +71,7 @@
     - CanPilot
     - FootstepSound
     - DoorBumpOpener
+    - FelinidEmotes
   - type: LanguageKnowledge
     speaks:
     - TauCetiBasic
@@ -90,12 +91,6 @@
         - Landmine
         - Mousetrap
         - SlipEntity
-  - type: Tag
-    tags:
-    - CanPilot
-    - FootstepSound
-    - DoorBumpOpener
-    - FelinidEmotes
 
 - type: entity
   save: false
