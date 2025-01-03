@@ -17,7 +17,7 @@
   icon: { sprite: /Textures/_LostParadise/Objects/Weapons/Guns/Battery/ecbow.rsi, state: icon }
   productEntity: LPPWeaponEnergyCrossbow
   cost:
-    Telecrystal: 10
+    Telecrystal: 12
   categories:
   - LPPspecweapon
   saleLimit: 2
@@ -75,7 +75,7 @@
   description: uplink-disposable-turret-desc
   productEntity: ToolboxElectricalTurretFilled
   cost:
-    Telecrystal: 6
+    Telecrystal: 10
   categories:
   - LPPspecweapon
   saleLimit: 2
@@ -86,7 +86,7 @@
   description: uplink-em1-desc
   productEntity: LPPClothingBackpackDuffelCybersunEM1Gauss
   cost:
-    Telecrystal: 24
+    Telecrystal: 30
   categories:
   - LPPspecweapon
   saleLimit: 1
@@ -97,7 +97,7 @@
   description: uplink-br12-desc
   productEntity: LPPClothingBackpackDuffelCybersunBR12Ravager
   cost:
-    Telecrystal: 18
+    Telecrystal: 20
   categories:
   - LPPspecweapon
   saleLimit: 2
@@ -119,7 +119,7 @@
   description: uplink-saiber-desc
   productEntity: LPPClothingBackpackDuffelCybersunSaiber
   cost:
-    Telecrystal: 16
+    Telecrystal: 20
   categories:
   - LPPspecweapon
   saleLimit: 2
@@ -131,7 +131,7 @@
   icon: { sprite: /Textures/_LostParadise/Objects/Weapons/Melee/e_scythe.rsi, state: icon }
   productEntity: LPPEnergyscythe
   cost:
-    Telecrystal: 28
+    Telecrystal: 35
   categories:
   - LPPspecweapon
   saleLimit: 1
@@ -142,7 +142,7 @@
   description: uplink-energysworddouble-desc
   productEntity: EnergySwordDouble
   cost:
-    Telecrystal: 20
+    Telecrystal: 22
   categories:
   - LPPspecweapon
   saleLimit: 1
@@ -347,7 +347,7 @@
   description: uplink-stimpack-desc
   productEntity: Stimpack
   cost:
-    Telecrystal: 4
+    Telecrystal: 6
   categories:
   - LPPspecutilities
   saleLimit: 1
@@ -378,7 +378,7 @@
   description: uplink-chameleon-projector-desc
   productEntity: ChameleonProjector
   cost:
-    Telecrystal: 7
+    Telecrystal: 10
   categories:
   - LPPspecutilities
 
@@ -409,7 +409,7 @@
   productEntity: ReinforcementRadioSyndicateCyborgAssault
   icon: { sprite: Mobs/Silicon/chassis.rsi, state: synd_sec }
   cost:
-    Telecrystal: 45
+    Telecrystal: 50
   categories:
     - LPPspecutilities
   saleLimit: 1
@@ -580,7 +580,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
   productEntity: EnergyShield
   cost:
-    Telecrystal: 10
+    Telecrystal: 25
   categories:
   - LPPspecutilities
 
@@ -613,7 +613,7 @@
   icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/cybersunjugger.rsi, state: icon }
   productEntity: LPPClothingBackpackDuffelCybersunJuggernaut
   cost:
-    Telecrystal: 13
+    Telecrystal: 15
   categories:
   - LPPspecarmor
 
@@ -623,7 +623,7 @@
   description: uplink-keycard-polygon-desc
   productEntity: LPPKeycardPolygon
   cost:
-    Telecrystal: 15
+    Telecrystal: 30
   categories:
   - LPPKeycards
 
@@ -633,7 +633,7 @@
   description: uplink-keycard-medblock-desc
   productEntity: LPPKeycardMedblock
   cost:
-    Telecrystal: 15
+    Telecrystal: 25
   categories:
   - LPPKeycards
 
@@ -643,7 +643,7 @@
   description: uplink-keycard-chemistry-desc
   productEntity: LPPKeycardChemistry
   cost:
-    Telecrystal: 20
+    Telecrystal: 35
   categories:
   - LPPKeycards
 
@@ -653,7 +653,7 @@
   description: uplink-keycard-armory-desc
   productEntity: LPPKeycardArmory
   cost:
-    Telecrystal: 25
+    Telecrystal: 60
   categories:
   - LPPKeycards
 
@@ -663,7 +663,7 @@
   description: uplink-keycard-mechroom-desc
   productEntity: LPPKeycardMechroom
   cost:
-    Telecrystal: 15
+    Telecrystal: 25
   categories:
   - LPPKeycards
 

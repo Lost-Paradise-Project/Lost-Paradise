@@ -40,7 +40,7 @@
   - type: Store
     preset: LPPStorePresetCybersunUplinks
     balance:
-      Telecrystal: 160
+      Telecrystal: 100
 
 - type: entity
   parent: BaseItem
@@ -88,11 +88,11 @@
   - type: Store
     preset: LPPStorePresetGorlexUplinks
     balance:
-      Telecrystal: 160
+      Telecrystal: 120
 
 - type: entity
   parent: BaseItem
-  id: LPPBaseUplinkRadio450TC
+  id: LPPBaseUplinkRadio300TC
   name: Syndicate uplink
   description: Suspiciously looking old radio...
   suffix: 300
@@ -111,6 +111,31 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: StorePresetUplink
+    preset: LPPStorePresetUplink
     balance:
       Telecrystal: 300
+
+- type: entity
+  parent: BaseItem
+  id: LPPBaseUplinkRadio40TC
+  name: Syndicate uplink
+  description: Suspiciously looking old radio...
+  suffix: 40 & Kcards
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: radio
+  - type: Item
+    sprite: Objects/Devices/communication.rsi
+    heldPrefix: radio
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    preset: LPPStorePresetUplink
+    balance:
+      Telecrystal: 40

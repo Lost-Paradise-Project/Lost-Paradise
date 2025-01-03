@@ -52,9 +52,19 @@
   - type: AccessReader
     containerAccessProvider: board
   - type: Door
+    bumpOpen: false
+    clickOpen: true
+    canCrush: false
+    closeTimeOne: 0.2
+    closeTimeTwo: 0.6
+    openTimeOne: 0.6
+    openTimeTwo: 0.2
+    openingAnimationTime: 1.2
+    closingAnimationTime: 1.2
     crushDamage:
       types:
         Blunt: 15
+    canPry: false
     openSound:
       path: /Audio/Machines/airlock_open.ogg
     closeSound:
@@ -67,8 +77,6 @@
   - type: Weldable
     fuel: 5
     time: 3
-  - type: Airlock
-    openUnlitVisible: true # Corvax-Resprite-Airlocks
   - type: NavMapDoor
   - type: DoorBolt
   - type: Appearance
@@ -111,6 +119,8 @@
   - type: Occluder
   - type: PlacementReplacement
     key: walls
+  - type: Airlock
+    openUnlitVisible: true
   - type: PaintableAirlock
     group: Standard
     department: Civilian

@@ -53,8 +53,8 @@
     size: Huge
     sprite: _LostParadise/Objects/Weapons/Melee/e_axe-inhands.rsi
   - type: Reflect
-    reflectProb: .5
-    minReflectProb: .2
+    reflectProb: 0.5
+    minReflectProb: 0.2
     spread: 120
     reflects:
       - Energy
@@ -70,7 +70,7 @@
       - state: inhand-right-blade
         shader: unshaded
   - type: IgniteOnMeleeHit
-    fireStacks: 2
+    fireStacks: 0.5
 
 - type: entity
   name: energy scythe
@@ -97,8 +97,8 @@
     activatedDamage:
         types:
             Slash: 8
-            Heat: 12
-            Structural: 50
+            Heat: 10
+            Structural: 25
   - type: ItemToggleActiveSound
     activeSound:
       path: /Audio/Weapons/ebladehum.ogg
@@ -127,8 +127,8 @@
     size: Huge
     sprite: _LostParadise/Objects/Weapons/Melee/e_scythe-inhands.rsi
   - type: Reflect
-    reflectProb: .8
-    minReflectProb: .25
+    reflectProb: 0.8
+    minReflectProb: 0.25
     spread: 40
     reflects:
       - Energy
@@ -224,7 +224,7 @@
     malus: 0
   - type: Reflect
     enabled: false
-    reflectProb: 0.7
-    minReflectProb: 0.3
+    reflectProb: 0.5
+    minReflectProb: 0.2
   - type: IgnitionSource
     temperature: 700

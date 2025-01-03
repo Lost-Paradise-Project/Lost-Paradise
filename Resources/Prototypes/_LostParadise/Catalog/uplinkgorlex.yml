@@ -17,7 +17,7 @@
   icon: { sprite: /Textures/Objects/Weapons/Melee/e_sword.rsi, state: icon }
   productEntity: EnergySword
   cost:
-    Telecrystal: 10
+    Telecrystal: 12
   categories:
   - LPPspecweaponG
   saleLimit: 2
@@ -29,7 +29,7 @@
   icon: { sprite: /Textures/_LostParadise/Objects/Weapons/Melee/e_swordbig.rsi, state: icon }
   productEntity: LPPEnergyBroadsword
   cost:
-    Telecrystal: 16
+    Telecrystal: 28
   categories:
   - LPPspecweaponG
   saleLimit: 2
@@ -40,7 +40,7 @@
   description: uplink-sniper-desc
   productEntity: LPPClothingBackpackDuffelGorlexSniper
   cost:
-    Telecrystal: 12
+    Telecrystal: 14
   categories:
   - LPPspecweaponG
 
@@ -70,7 +70,7 @@
   description: uplink-mac21-desc
   productEntity: LPPClothingBackpackDuffelGorlexMAC21
   cost:
-    Telecrystal: 16
+    Telecrystal: 19
   categories:
   - LPPspecweaponG
 
@@ -80,7 +80,7 @@
   description: uplink-stg144-desc
   productEntity: LPPClothingBackpackDuffelGorlexSTG144
   cost:
-    Telecrystal: 19
+    Telecrystal: 20
   categories:
   - LPPspecweaponG
 
@@ -100,7 +100,7 @@
   description: uplink-bulldog-desc
   productEntity: LPPClothingBackpackDuffelGorlexBulldog
   cost:
-    Telecrystal: 18
+    Telecrystal: 20
   categories:
   - LPPspecweaponG
 
@@ -110,7 +110,7 @@
   description: uplink-bcr25r-desc
   productEntity: LPPClothingBackpackDuffelGorlexBCR25r
   cost:
-    Telecrystal: 18
+    Telecrystal: 20
   categories:
   - LPPspecweaponG
 
@@ -120,7 +120,7 @@
   description: uplink-atreides-desc
   productEntity: LPPClothingBackpackDuffelGorlexAtreides
   cost:
-    Telecrystal: 17
+    Telecrystal: 22
   categories:
   - LPPspecweaponG
 
@@ -130,7 +130,7 @@
   description: uplink-chinalake-desc
   productEntity: LPPClothingBackpackDuffelGorlexChinalake
   cost:
-    Telecrystal: 30
+    Telecrystal: 38
   categories:
   - LPPspecweaponG
 
@@ -140,7 +140,7 @@
   description: uplink-stoner25-desc
   productEntity: LPPClothingBackpackDuffelGorlexStoner25
   cost:
-    Telecrystal: 30
+    Telecrystal: 40
   categories:
   - LPPspecweaponG
 
@@ -622,29 +622,28 @@
   icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/gorlexsoldier.rsi, state: icon }
   productEntity: LPPClothingBackpackDuffelGorlexTrooper
   cost:
-    Telecrystal: 9
+    Telecrystal: 10
   categories:
   - LPPspecarmorG
 
 - type: listing
   id: LPPUplinkClothingHardsuitEliteG
   name: uplink-clothing-gorlex-elite-name
-  description: uplink-clothing-gorlex-eilte-desc
+  description: uplink-clothing-gorlex-elite-desc
   icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/gorlexelite.rsi, state: icon }
   productEntity: LPPClothingBackpackDuffelGorlexElite
   cost:
-    Telecrystal: 11
+    Telecrystal: 12
   categories:
   - LPPspecarmorG
 
 - type: listing
-  id: LPPUplinkEshieldG
-  name: uplink-eshield-name
-  description: uplink-eshield-desc
-  icon: { sprite: /Textures/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
-  productEntity: EnergyShield
+  id: LPPUplinkTelescopicShieldG
+  name: uplink-telescopicshield-name
+  description: uplink-telescopicshield-desc
+  productEntity: TelescopicShield
   cost:
-    Telecrystal: 10
+    Telecrystal: 6
   categories:
   - LPPspecutilitiesG
 
