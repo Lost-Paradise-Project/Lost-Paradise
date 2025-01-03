@@ -71,7 +71,7 @@
 #   name: Borg-Disbaler
 #   parent: BaseWeaponBatterySmall
 #   id: LPPDisbalerBorg
-#   noSpawn: true
+#   categories: [ HideSpawnMenu ]
 #   description:
 #   components:
 #     - type: Tag
@@ -105,7 +105,7 @@
 #   name: Robotics-laser
 #   parent: BaseWeaponBattery
 #   id: LPPBorgLaser
-#   noSpawn: true
+#   categories: [ HideSpawnMenu ]
 #   description:
 #   components:
 #     - type: Sprite
@@ -136,7 +136,7 @@
 #   name: Robotics-laser-advanced
 #   parent: WeaponLaserCannon
 #   id: LPPBorgLaserAdvanced
-#   noSpawn: true
+#   categories: [ HideSpawnMenu ]
 #   description:
 #   components:
 #     - type: Sprite

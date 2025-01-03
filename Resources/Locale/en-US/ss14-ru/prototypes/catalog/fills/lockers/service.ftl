@@ -1,6 +1,9 @@
 ent-LockerBoozeFilled = { ent-LockerBooze }
     .suffix = Filled
     .desc = { ent-LockerBooze.desc }
+ent-LockerBartenderFilled = { ent-LockerBartender }
+    .suffix = Filled
+    .desc = { ent-LockerBartender.desc }
 ent-ClosetChefFilled = { ent-ClosetChef }
     .suffix = Filled
     .desc = { ent-ClosetChef.desc }

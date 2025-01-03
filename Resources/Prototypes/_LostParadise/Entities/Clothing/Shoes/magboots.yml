@@ -9,12 +9,9 @@
     state: icon
   - type: Clothing
     sprite: _LostParadise/Clothing/Shoes/Boots/power_boots.rsi
-  - type: Magboots
-    toggleAction: ActionToggleMagbootsAdvanced
   - type: ClothingSpeedModifier
     walkModifier: 0.94
     sprintModifier: 0.94
-    enabled: false
   - type: NoSlip
   - type: Tag
     tags:
@@ -34,12 +31,9 @@
     state: icon
   - type: Clothing
     sprite: _LostParadise/Clothing/Shoes/Boots/para_magboots.rsi
-  - type: Magboots
-    toggleAction: ActionToggleMagbootsAdvanced
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
-    enabled: false
   - type: NoSlip
   - type: Tag
     tags:
@@ -59,12 +53,9 @@
     state: icon
   - type: Clothing
     sprite: _LostParadise/Clothing/Shoes/Boots/atmos_magboots.rsi
-  - type: Magboots
-    toggleAction: ActionToggleMagbootsAdvanced
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
-    enabled: false
   - type: NoSlip
   - type: Tag
     tags:
@@ -84,12 +75,9 @@
     state: icon
   - type: Clothing
     sprite: _LostParadise/Clothing/Shoes/Boots/NPZmagboots.rsi
-  - type: Magboots
-    toggleAction: ActionToggleMagbootsAdvanced
   - type: ClothingSpeedModifier
     walkModifier: 0.95
     sprintModifier: 0.95
-    enabled: false
   - type: NoSlip
   - type: Tag
     tags:
@@ -108,12 +96,9 @@
     state: icon
   - type: Clothing
     sprite: _LostParadise/Clothing/Shoes/Boots/huntermagboots.rsi
-  - type: Magboots
-    toggleAction: ActionToggleMagbootsAdvanced
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
-    enabled: false
   - type: NoSlip
   - type: Tag
     tags:

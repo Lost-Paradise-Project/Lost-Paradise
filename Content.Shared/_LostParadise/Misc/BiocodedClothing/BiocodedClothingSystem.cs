@@ -76,14 +76,20 @@ public sealed class BiocodedClothingSystem : EntitySystem
         component.CurrentWearer = args.Equipee;
         // save owner if it was equipped first time
         component.BiocodedOwner ??= args.Equipee;
-        Dirty(component);
+        if (EntityManager.TryGetComponent(uid, out MetaDataComponent? metaData))
+        {
+            Dirty(uid, component, metaData);
+        }
     }
 
     private void OnGotUnequipped(EntityUid uid, BiocodedClothingComponent component, GotUnequippedEvent args)
     {
         // reset current wearer
         component.CurrentWearer = null;
-        Dirty(component);
+        if (EntityManager.TryGetComponent(uid, out MetaDataComponent? metaData))
+        {
+            Dirty(uid, component, metaData);
+        }
     }
 
     private void OnEquipAttempt(EntityUid uid, BiocodedClothingComponent component, BeingEquippedAttemptEvent args)
@@ -116,12 +122,16 @@ public sealed class BiocodedClothingSystem : EntitySystem
         }
         else
         {
-            // set current wearer as a new owner
+            // set current wearer as the new owner
             component.BiocodedOwner = component.CurrentWearer;
         }
 
         component.Enabled = isEnabled;
-        Dirty(component);
+
+        if (EntityManager.TryGetComponent(uid, out MetaDataComponent? metaData))
+        {
+            Dirty(uid, component, metaData);
+        }
     }
 
     public bool IsValidOwner(EntityUid ownerUid, EntityUid itemUid, BiocodedClothingComponent? component = null)

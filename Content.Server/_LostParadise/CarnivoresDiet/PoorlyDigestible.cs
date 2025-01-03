@@ -5,6 +5,7 @@ using Content.Shared.FixedPoint;
 using Content.Shared.Tag;
 using Content.Shared.Whitelist;
 using Robust.Shared.GameObjects;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.List;
 using System;
 using System.Collections.Generic;
@@ -49,15 +50,26 @@ namespace Content.Server.Body.Components
 
         public bool AffectsFood(EntityUid foodEnt, IEntityManager entityManager)
         {
-            if (WhitelistTags is null)
+            if (WhitelistTags is null || WhitelistTags.Count == 0)
                 return false;
 
             var tagSys = entityManager.System<TagSystem>();
 
-            if (BlacklistTags is not null && tagSys.HasAnyTag(foodEnt, BlacklistTags))
-                return false;
+            var whitelistProtoIds = WhitelistTags
+                .Select(tag => new ProtoId<TagPrototype>(tag))
+                .ToList();
 
-            return tagSys.HasAnyTag(foodEnt, WhitelistTags);
+            if (BlacklistTags is not null && BlacklistTags.Count > 0)
+            {
+                var blacklistProtoIds = BlacklistTags
+                    .Select(tag => new ProtoId<TagPrototype>(tag))
+                    .ToList();
+
+                if (tagSys.HasAnyTag(foodEnt, blacklistProtoIds))
+                    return false;
+            }
+
+            return tagSys.HasAnyTag(foodEnt, whitelistProtoIds);
         }
 
         public Solution ModifySolution(Solution solution)

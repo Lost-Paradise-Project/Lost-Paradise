@@ -8,6 +8,8 @@ using Content.Shared.Body.Components;
 using Content.Shared.Damage;
 using Content.Shared.Verbs;
 using Content.Shared._LostParadise.DiamondCrusher;
+using Content.Shared.Power;
+using Content.Shared.Whitelist;
 using Robust.Shared.Collections;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
@@ -23,6 +25,7 @@ public sealed class DiamondCrusherSystem : SharedDiamondCrusherSystem
     [Dependency] private readonly DamageableSystem _damageable = default!;
     [Dependency] private readonly StackSystem _stack = default!;
     [Dependency] private readonly PopupSystem _popup = default!;
+    [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
 
     /// <унаследование/>
     public override void Initialize()
@@ -90,7 +93,7 @@ public sealed class DiamondCrusherSystem : SharedDiamondCrusherSystem
         var coords = Transform(ent).Coordinates;
         foreach (var contained in contents)
         {
-            if (crusher.CrushingWhitelist.IsValid(contained, EntityManager))
+            if (_whitelistSystem.IsWhitelistPass(crusher.CrushingWhitelist, contained))
             {
                 var amount = _random.Next(crusher.MinFragments, crusher.MaxFragments);
                 var stacks = _stack.SpawnMultiple(crusher.FragmentStackProtoId, amount, coords);

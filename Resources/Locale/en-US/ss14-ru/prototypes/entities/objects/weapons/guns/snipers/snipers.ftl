@@ -1,7 +1,7 @@
 ent-BaseWeaponSniper = BaseWeaponSniper
     .desc = A rooty tooty point and shooty.
 ent-WeaponSniperMosin = Kardashev-Mosin
-    .desc = A weapon for hunting, or endless trench warfare. Uses .30 rifle ammo.
+    .desc = A weapon for hunting, or endless trench warfare, with a bayonet attached at the barrel. Uses .30 rifle ammo.
 ent-WeaponSniperMosinRubber = Kardashev-Mosin
     .desc = A weapon for hunting, or endless trench warfare. Uses .30 rifle rubber ammo.
     .suffix = Non-Lethal

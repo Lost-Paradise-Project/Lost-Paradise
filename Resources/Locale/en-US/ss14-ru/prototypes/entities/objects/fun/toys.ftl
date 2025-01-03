@@ -195,3 +195,7 @@ ent-ThronglerToy = The Throngler
     .suffix = Toy
 ent-PlushieShadowkin = shadowkin plushie
     .desc = A plushie of a Shadowkin. It's very soft.
+ent-PlushieMort = morty plushie
+    .desc = A plushie of the lovely Morty. It's a resilient, yet sensitive type of plush.
+ent-PlushieHarpy = harpy plushie
+    .desc = A soft plushie of a harpy! A small tag on it guarantees that all feathers are ethically sourced.

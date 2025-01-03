@@ -1,5 +1,5 @@
+using Content.Server.Abilities.Psionics;
 using Content.Server.Carrying;
-using Content.Server.NPC.Systems;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Damage;
 using Content.Shared.DoAfter;
@@ -13,6 +13,8 @@ using Content.Shared.Whitelist;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Player;
 using Robust.Shared.Utility;
+using Content.Shared.NPC.Systems;
+
 
 namespace Content.Server.LifeDrainer;
 
@@ -27,6 +29,7 @@ public sealed class LifeDrainerSystem : EntitySystem
     [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
     [Dependency] private readonly SharedInteractionSystem _interaction = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
+    [Dependency] private readonly PsionicAbilitiesSystem _psionicAbilitiesSystem = default!;
 
     public override void Initialize()
     {
@@ -88,6 +91,7 @@ public sealed class LifeDrainerSystem : EntitySystem
         _audio.PlayPvs(comp.FinishSound, uid);
 
         _damageable.TryChangeDamage(target, comp.Damage, true, origin: uid);
+        _psionicAbilitiesSystem.MindBreak(target);
     }
 
     public bool CanDrain(Entity<LifeDrainerComponent> ent, EntityUid target)
@@ -119,8 +123,7 @@ public sealed class LifeDrainerSystem : EntitySystem
         var ev = new LifeDrainDoAfterEvent();
         var args = new DoAfterArgs(EntityManager, uid, comp.Delay, ev, target: target, eventTarget: uid)
         {
-            BreakOnTargetMove = true,
-            BreakOnUserMove = true,
+            BreakOnMove = true,
             MovementThreshold = 2f,
             NeedHand = false
         };

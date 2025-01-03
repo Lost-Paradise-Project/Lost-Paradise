@@ -15,7 +15,7 @@
     - Vocal
   blacklist:
     components:
-    - BorgChassischatMessages
+    - BorgChassis
   chatTriggers:
     - coughs
     # Corvax-Localization-Start
@@ -62,7 +62,7 @@
     - Vocal
   blacklist:
     components:
-    - BorgChassischatMessages
+    - BorgChassis
   chatTriggers:
     - yawns
   # Corvax-Localization-Start

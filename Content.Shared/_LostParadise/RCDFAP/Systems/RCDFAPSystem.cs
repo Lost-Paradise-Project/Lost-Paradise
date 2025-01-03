@@ -181,7 +181,7 @@ public class RCDFAPSystem : EntitySystem
         {
             BreakOnDamage = true,
             BreakOnHandChange = true,
-            BreakOnUserMove = true,
+            BreakOnMove = true,
             AttemptFrequency = AttemptFrequency.EveryTick,
             CancelDuplicate = false,
             BlockDuplicate = false

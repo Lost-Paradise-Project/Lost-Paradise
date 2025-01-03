@@ -985,7 +985,7 @@
   - type: StaminaDamageResistance
     coefficient: 0.5
   - type: Reflect
-    enabled: true
+    innate: true
     reflectProb: 0.45
 
 - type: entity
@@ -1026,7 +1026,7 @@
   - type: StaminaDamageResistance
     coefficient: 0.2
   - type: Reflect
-    enabled: true
+    innate: true
     reflectProb: 0.05
 
 - type: entity
@@ -1068,7 +1068,7 @@
   - type: StaminaDamageResistance
     coefficient: 0.35
   - type: Reflect
-    enabled: true
+    innate: true
     reflectProb: 0.1
 
 - type: entity

@@ -142,3 +142,8 @@ character-item-group-requirement =
         [true] иметь { $max } или больше
        *[other] иметь { $max } или меньше
     } предметов из группы [color=white]{ $group }[/color]
+character-cvar-requirement =
+    Сервер должен{ $inverted ->
+        [true] { " " }не
+       *[other] { "" }
+    } иметь [color={ $color }]{ $cvar }[/color] установлен в [color={ $color }]{ $value }[/color].

@@ -50,7 +50,7 @@
   id: LPPBulletM4A1
   parent: LPPBaseBullet
   name: Bullet (5,56x45)
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: America! FUCK YEA!
   components:
   - type: Projectile
@@ -63,7 +63,7 @@
   id: LPPBulletRubberM4A1
   parent: LPPBaseBullet
   name: Bullet (5,56x45 rubber)
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: America! FUCK YEA!
   components:
   - type: Projectile
@@ -79,7 +79,7 @@
   id: LPPBulletPracticeM4A1
   name: bullet (5,56x45 practice)
   parent: BaseBulletPractice
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
@@ -90,7 +90,7 @@
   id: LPPBulletUraniumM4A1
   parent: BaseBulletUranium
   name: bullet (5,56x45 uranium)
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
@@ -102,7 +102,7 @@
   id: LPPBulletIncendiaryM4A1
   parent: BaseBulletIncendiary
   name: bullet (5,56x45 incendiary)
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
@@ -114,7 +114,7 @@
   id: LPPBulletLightRifleHunting
   name: Huntingbullet (.30 rifle)
   parent: BaseBullet
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
@@ -126,7 +126,7 @@
   id: LPPBulletMinigunRubber
   name: minigun bullet (.10 rifle rubber)
   parent: BaseBulletRubber
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
@@ -137,7 +137,7 @@
   id: LPPBulletMinigunPractice
   name: minigun bullet (.10 rifle practice)
   parent: BaseBulletPractice
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
@@ -148,7 +148,7 @@
   id: LPPBulletMinigunAP
   name: minigun bullet (.10 rifle AP)
   parent: BulletHeavyRifle
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
@@ -160,7 +160,7 @@
   id: LPPBulletMinigunUranium
   name: minigun bullet (.10 rifle uranium)
   parent: BaseBulletPractice
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
@@ -169,7 +169,7 @@
         Radiation: 8
 
 - type: entity
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   parent: BaseBullet
   id: LPPBulletAntiMaterielNonlethal
   name: bullet (.60 anti-materiel Non-lethal)
@@ -182,7 +182,7 @@
     damage: 60
 
 - type: entity
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   parent: BaseBullet
   id: LPPBulletAntiMaterielCP
   name: bullet (.60 Concrete projectile)

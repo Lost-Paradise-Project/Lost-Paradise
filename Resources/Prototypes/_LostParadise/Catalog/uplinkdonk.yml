@@ -8,7 +8,7 @@
     Telecrystal: 2
   categories:
   - LPPspecarmorD
-  saleLimit: 2
+  # saleLimit: 2
 
 - type: listing
   id: LPPUplinkM1D
@@ -260,7 +260,7 @@
     Telecrystal: 8
   categories:
     - LPPspecexplosivesD
-  saleLimit: 1
+  # saleLimit: 1
 
 - type: listing
   id: LPPUplinkPistolSubMachineGunD
@@ -311,7 +311,7 @@
     Telecrystal: 5
   categories:
   - LPPspecutilitiesD
-  saleLimit: 1
+  # saleLimit: 1
 
 - type: listing
   id: LPPUplinkCombatMedipenD
@@ -322,7 +322,7 @@
     Telecrystal: 2
   categories:
   - LPPspecutilitiesD
-  saleLimit: 1
+  # saleLimit: 1
 
 - type: listing
   id: LPPUplinkSupermedicBundleD
@@ -333,7 +333,7 @@
     Telecrystal: 16
   categories:
   - LPPspecutilitiesD
-  saleLimit: 1
+  # saleLimit: 1
 
 - type: listing
   id: LPPUplinkStimpackD
@@ -344,7 +344,7 @@
     Telecrystal: 2
   categories:
   - LPPspecutilitiesD
-  saleLimit: 1
+  # saleLimit: 1
 
 - type: listing
   id: LPPUplinkAgentIDCardD
@@ -500,7 +500,7 @@
     Telecrystal: 8
   categories:
   - LPPspecarmorD
-  saleLimit: 2
+  # saleLimit: 2
 
 - type: listing
   id: LPPUplinkDonkEliteD
@@ -512,4 +512,4 @@
     Telecrystal: 13
   categories:
   - LPPspecarmorD
-  saleLimit: 1
+  # saleLimit: 1

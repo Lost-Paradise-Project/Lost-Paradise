@@ -1,0 +1,647 @@
+# Security Engineer - LPP
+# Backpacks
+
+- type: loadout
+  id: LoadoutSecurityEngineerBackpack
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  exclusive: true
+  items:
+    - LPPClothingBackpackSecurityEngineer
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+
+- type: loadout
+  id: LoadoutSecurityEngineerBackpackSatchel
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  exclusive: true
+  items:
+    - LPPClothingSatchelSecurityEngineer
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+
+- type: loadout
+  id: LoadoutSecurityEngineerBackpackDuffel
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  exclusive: true
+  items:
+    - LPPClothingBackpackDuffelSecurityEngineer
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+
+# Belt
+
+# Ears
+
+# Equipment
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentBoxInflatable
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - BoxInflatable
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentMedkitOxygen
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - MedkitOxygenFilled
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentRCD
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - RCD
+    - RCDAmmo
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentRCDAmmo1
+  category: JobsSecuritySecurityEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - RCDAmmo
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentRCDAmmo2
+  category: JobsSecuritySecurityEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - RCDAmmo
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentPowerDrill
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - PowerDrill
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetSteel
+  category: JobsSecuritySecurityEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetSteel
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetSteel10
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetSteel10
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetPlasteel
+  category: JobsSecuritySecurityEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetPlasteel
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetPlasteel10
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetPlasteel10
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetGlass
+  category: JobsSecuritySecurityEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetGlass
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetGlass10
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetGlass10
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentMaterialWoodPlank
+  category: JobsSecuritySecurityEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - MaterialWoodPlank
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentMaterialWoodPlank10
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - MaterialWoodPlank10
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetRGlass
+  category: JobsSecuritySecurityEngineer
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetRGlass
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetRGlass10
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetRGlass10
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetUGlass
+  category: JobsSecuritySecurityEngineer
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetUGlass
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetUGlass10
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetUGlass10
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetRUGlass
+  category: JobsSecuritySecurityEngineer
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetRUGlass
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetRUGlass10
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetRUGlass10
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetPGlass
+  category: JobsSecuritySecurityEngineer
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetPGlass
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetPGlass10
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetPGlass10
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetRPGlass
+  category: JobsSecuritySecurityEngineer
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetRPGlass
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetRPGlass10
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetRPGlass10
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetClockworkGlass
+  category: JobsSecuritySecurityEngineer
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetClockworkGlass
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetClockworkGlass10
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetClockworkGlass10
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetPlastic
+  category: JobsSecuritySecurityEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetPlastic
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentSheetPlastic10
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - SheetPlastic10
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentHandHeldMassScanner
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - HandHeldMassScanner
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentLPPC4Low1
+  category: JobsSecuritySecurityEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - LPPC4Low
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentLPPC4Low2
+  category: JobsSecuritySecurityEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - LPPC4Low
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentLPPC4Low3
+  category: JobsSecuritySecurityEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - LPPC4Low
+
+- type: loadout
+  id: LoadoutSecurityEngineerEquipmentHandRemoteSignaller
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - RemoteSignaller
+
+# Eyes
+
+# Gloves
+- type: loadout
+  id: LoadoutSecurityEngineerGlovesInsulated
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerGloves
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - ClothingHandsGlovesColorYellow
+
+- type: loadout 
+  id: LoadoutSecurityEngineerGlovesCombat
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerGloves
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - ClothingHandsGlovesCombat
+
+- type: loadout
+  id: LoadoutSecurityEngineerGlovesMerc
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerGloves
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - ClothingHandsMercGlovesCombat
+
+# Head
+- type: loadout
+  id: LoadoutSecurityEngineerHeadHatHardhatArmored
+  category: JobsSecuritySecurityEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerHead
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - ClothingHeadHatHardhatArmored
+
+- type: loadout
+  id: LoadoutSecurityEngineerHeadHardhatOrange
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerHead
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - ClothingHeadHatHardhatOrange
+
+- type: loadout
+  id: LoadoutSecurityEngineerHeadHardhatYellow
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerHead
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - ClothingHeadHatHardhatYellow
+
+- type: loadout
+  id: LoadoutSecurityEngineerHeadHardhatRed
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerHead
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - ClothingHeadHatHardhatRed
+
+# Id
+
+# Mask
+
+# Neck
+
+# Outer
+- type: loadout
+  id: LoadoutSecurityEngineerOuterClothingOuterVestWeb
+  category: JobsSecuritySecurityEngineer
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerOuter
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - ClothingOuterVestWeb
+
+- type: loadout
+  id: LoadoutSecurityEngineeringOuterHazard
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerOuter
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - ClothingOuterVestHazard
+
+# Shoes
+
+# Uniforms
+- type: loadout
+  id: LoadoutSecEngineerUniformJumpskirtSecEngineer
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - LPPClothingUniformJumpSkirtSecEngineer
+
+- type: loadout
+  id: LoadoutSecEngineerUniformJumpsuitSecEngineer
+  category: JobsSecuritySecurityEngineer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityEngineerUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - LPPSecurityEngineer
+  items:
+    - LPPClothingUniformJumpsuitSecEngineer

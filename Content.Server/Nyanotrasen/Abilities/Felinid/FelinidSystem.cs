@@ -130,7 +130,11 @@ public sealed partial class FelinidSystem : EntitySystem
 
         if (hunger.CurrentThreshold == Shared.Nutrition.Components.HungerThreshold.Overfed)
         {
-            _popupSystem.PopupEntity(Loc.GetString("food-system-you-cannot-eat-any-more"), uid, uid, Shared.Popups.PopupType.SmallCaution);
+            _popupSystem.PopupEntity(
+                Loc.GetString("food-system-you-cannot-eat-any-more"),
+                uid,
+                uid,
+                Shared.Popups.PopupType.SmallCaution);
             return;
         }
 
@@ -155,8 +159,12 @@ public sealed partial class FelinidSystem : EntitySystem
 
         _hungerSystem.ModifyHunger(uid, 50f, hunger);
 
-        if (component.EatAction != null)
+        if (component.EatAction is not null && _actionsSystem.TryGetActionData(uid, out var result))
+        {
+            if (result.AttachedEntity == null)
+                return;
             _actionsSystem.RemoveAction(uid, component.EatAction.Value);
+        }
     }
 
     // private void SpawnHairball(EntityUid uid, FelinidComponent component)

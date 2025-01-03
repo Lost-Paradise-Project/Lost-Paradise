@@ -21,6 +21,8 @@
   - !type:AddComponentSpecial
     components:
     - type: CPRTraining
+    - type: SurgerySpeedModifier
+      speedModifier: 1.5
 
 - type: startingGear
   id: MedicalInternGear
@@ -30,7 +32,6 @@
     shoes: ClothingShoesColorWhite
     id: MedicalInternPDA
     ears: ClothingHeadsetMedical
-    belt: ClothingBeltMedicalFilled
     pocket2: BookMedicalReferenceBook
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer

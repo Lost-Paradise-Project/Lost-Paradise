@@ -171,3 +171,9 @@
 
 - type: playTimeTracker
   id: JobExpeditor
+
+- type: playTimeTracker
+  id: JobDeathSquad
+
+- type: playTimeTracker
+  id: JobCBURN

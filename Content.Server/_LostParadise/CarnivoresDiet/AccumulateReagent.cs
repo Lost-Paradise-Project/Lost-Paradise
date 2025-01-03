@@ -1,6 +1,8 @@
 using Content.Server.Body.Components;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Reagent;
+using Content.Shared.EntityEffects;
+using Content.Server.EntityEffects.Effects;
 using Content.Shared.FixedPoint;
 using JetBrains.Annotations;
 using Robust.Shared.Prototypes;
@@ -16,7 +18,7 @@ namespace Content.Server.Chemistry.ReagentEffects
     // Решение сомнительное, но оно гораздо чище, чем лезть в код метаболирования и добавлять туда группу-исключение с проверкой на наличие реагента в кровеносной системе.
 
     [UsedImplicitly]
-    public sealed partial class AccumulateReagent : ReagentEffect
+    public sealed partial class AccumulateReagent : EntityEffect
     {
         /// <summary>
         ///     The reagent ID to accumulate. Only one of this and <see cref="Group"/> should be active.
@@ -60,10 +62,15 @@ namespace Content.Server.Chemistry.ReagentEffects
             return false;
         }
 
-        public override void Effect(ReagentEffectArgs args)
+        public override void Effect(EntityEffectBaseArgs args)
         {
-            // Source is where Theobromine is currently coming from
-            if (args.Source == null)
+            if (args is not EntityEffectReagentArgs reagentArgs)
+            {
+                // Log or handle unexpected argument type
+                return;
+            }
+
+            if (reagentArgs.Source == null)
                 return;
 
             if (Reagent == null)
@@ -72,12 +79,12 @@ namespace Content.Server.Chemistry.ReagentEffects
             var prototypeMan = IoCManager.Resolve<IPrototypeManager>();
             prototypeMan.TryIndex(Reagent, out ReagentPrototype? reagentProto);
 
-            args.EntityManager.TryGetComponent(args.OrganEntity, out MetabolizerComponent? metabolizer);
+            args.EntityManager.TryGetComponent(reagentArgs.OrganEntity, out MetabolizerComponent? metabolizer);
 
             if (metabolizer?.MetabolismGroups is not List<MetabolismGroupEntry> groups)
                 return;
 
-            if (!ContainsPositiveAdjustEffect(prototypeMan, args.Source, groups))
+            if (!ContainsPositiveAdjustEffect(prototypeMan, reagentArgs.Source, groups))
                 return;
 
             if (reagentProto?.Metabolisms == null)
@@ -86,7 +93,6 @@ namespace Content.Server.Chemistry.ReagentEffects
             FixedPoint2 totalCompensationRate = 0;
             foreach (var group in groups)
             {
-                // Normally, the rate should only be processed once since a reagent usually only has one group.
                 if (!reagentProto.Metabolisms.TryGetValue(group.Id, out var reagentEffectsEntry))
                     continue;
 
@@ -94,9 +100,9 @@ namespace Content.Server.Chemistry.ReagentEffects
                 totalCompensationRate += groupRate;
             }
 
-            // amount *= args.Scale;
-            args.Source.AddReagent(Reagent, totalCompensationRate);
+            reagentArgs.Source.AddReagent(Reagent, totalCompensationRate);
         }
+
 
         protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         {

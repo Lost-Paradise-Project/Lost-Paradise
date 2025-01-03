@@ -10,7 +10,7 @@ ghost-target-window-title = Телепорт призрака
 ghost-target-window-current-button = Телепорт в: { $name }
 ghost-target-window-warp-to-most-followed = Телепорт к самому популярному
 ghost-roles-window-title = Роли призраков
-ghost-roles-window-join-raffle-button = Присоединиться случайно
+ghost-roles-window-join-raffle-button = Запросить
 ghost-roles-window-raffle-in-progress-button =
     Присоедининение случайно ({ $time } осталось, { $players ->
         [one] { $players } игрок

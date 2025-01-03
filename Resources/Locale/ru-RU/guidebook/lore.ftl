@@ -1,0 +1,12 @@
+guide-entry-setting-lore = Настройки лора
+guide-entry-corporations = Корпорации
+guide-entry-einstein-engines = Einstein Engines
+guide-entry-hephaestus-industries = Гефестус Индастриз
+guide-entry-idris-incorporated = Идрис Инкорпорейтед
+guide-entry-nanotrasen = НаноТразен
+guide-entry-orion-express = Орион Экспресс
+guide-entry-private-military-contracting-group = Частная Военная Контрактная Группа
+guide-entry-stellar-corporate-conglomerate = Звездный Корпоративный Конгломерат
+guide-entry-zavodskoi-interstellar = Zavodskoi Interstellar
+guide-entry-zeng-hu-pharmaceuticals = Цзэн-Ху Фармацевтикс
+guide-entry-loadout-info-security-weapons = Security Weapons

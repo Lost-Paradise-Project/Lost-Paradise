@@ -8,7 +8,7 @@
     Telecrystal: 2
   categories:
   - LPPspecarmorG
-  saleLimit: 2
+  # saleLimit: 2
 
 - type: listing
   id: LPPUplinkEswordG
@@ -20,7 +20,7 @@
     Telecrystal: 10
   categories:
   - LPPspecweaponG
-  saleLimit: 2
+  # saleLimit: 2
 
 - type: listing
   id: LPPUplinkEBroadswordG
@@ -32,7 +32,7 @@
     Telecrystal: 16
   categories:
   - LPPspecweaponG
-  saleLimit: 2
+  # saleLimit: 2
 
 - type: listing
   id: LPPUplinkSniperG
@@ -353,7 +353,7 @@
     Telecrystal: 11
   categories:
     - LPPspecexplosivesG
-  saleLimit: 1
+  # saleLimit: 1
 
 - type: listing
   id: LPPUplinkPistolSubMachineGunG
@@ -404,7 +404,7 @@
     Telecrystal: 5
   categories:
   - LPPspecutilitiesG
-  saleLimit: 1
+  # saleLimit: 1
 
 - type: listing
   id: LPPUplinkCombatMedipenG
@@ -415,7 +415,7 @@
     Telecrystal: 3
   categories:
   - LPPspecutilitiesG
-  saleLimit: 1
+  # saleLimit: 1
 
 - type: listing
   id: LPPUplinkStimpackG
@@ -426,7 +426,7 @@
     Telecrystal: 3
   categories:
   - LPPspecutilitiesG
-  saleLimit: 1
+  # saleLimit: 1
 
 - type: listing
   id: LPPUplinkAgentIDCardG

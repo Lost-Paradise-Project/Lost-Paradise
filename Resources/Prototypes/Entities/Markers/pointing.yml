@@ -2,7 +2,7 @@
   name: pointing arrow
   id: PointingArrow
   save: false
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Tag
     tags:

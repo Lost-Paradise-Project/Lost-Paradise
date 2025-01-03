@@ -22,7 +22,7 @@
 - type: entity
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagGreen
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Green shemag
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 - type: entity
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagRed
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Red shemag
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
 - type: entity
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagBlue
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Blue shemag
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagBrown
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Brown shemag
   components:
   - type: Sprite
@@ -154,7 +154,7 @@
 - type: entity
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagPurple
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: Purple shemag
   components:
   - type: Sprite
@@ -187,7 +187,7 @@
 - type: entity
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagNPZ
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: NPZ shemag
   components:
   - type: Sprite
@@ -220,7 +220,7 @@
 - type: entity
   parent: ClothingMaskBase
   id: LPPClothingMaskShemagWhite
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: White shemag
   components:
   - type: Sprite

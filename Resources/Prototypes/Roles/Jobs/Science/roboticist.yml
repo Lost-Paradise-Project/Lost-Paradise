@@ -13,6 +13,11 @@
   access:
   - Research
   - Maintenance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: SurgerySpeedModifier # LPP
+      SpeedModifier: 1.5
 
 - type: startingGear
   id: RoboticistGear

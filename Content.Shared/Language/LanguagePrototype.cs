@@ -8,7 +8,11 @@ public sealed partial class LanguagePrototype : IPrototype
 {
     [IdDataField]
     public string ID { get; private set; } = default!;
-    [DataField("isvisiblelanguage")]
+
+    /// <summary>
+    ///     Whether this language will display its name in chat behind a player's name.
+    /// </summary>
+    [DataField]
     public bool IsVisibleLanguage { get; set; }
 
     /// <summary>
@@ -28,6 +32,10 @@ public sealed partial class LanguagePrototype : IPrototype
     ///     The in-world name of this language, localized.
     /// </summary>
     public string Name => Loc.GetString($"language-{ID}-name");
+
+    /// <summary>
+    ///     The in-world chat abbreviation of this language, localized.
+    /// </summary>
     public string ChatName => Loc.GetString($"chat-language-{ID}-name");
 
     /// <summary>

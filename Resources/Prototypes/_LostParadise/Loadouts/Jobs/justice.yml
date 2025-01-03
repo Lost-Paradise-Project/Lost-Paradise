@@ -1,6 +1,6 @@
 - type: loadout
   id: LoadoutClothingOuterRobesJudge
-  category: JobsCommand
+  category: JobsCommandAUncategorized
   cost: 0
   exclusive: true
   requirements: 
@@ -10,38 +10,3 @@
         - Clerk
   items:
     - ClothingOuterRobesJudge
-
-- type: loadout
-  id: LPPLoadoutJudgeEquipmentEnergyGunMini
-  category: JobsCommand
-  cost: 0
-  requirements:
-    - !type:CharacterJobRequirement
-      jobs:
-        - ChiefJustice
-  items:
-    - WeaponEnergyGunMini
-
-#- type: loadout
-#  id: LoadoutLPPWeaponRevolverJudge
-#  category: JobsCommand
-#  cost: 7
-#  exclusive: true
-#  requirements: 
-#    - !type:CharacterJobRequirement
-#      jobs:
-#        - ChiefJustice
-#  items:
-#    - LPPWeaponRevolverJudge
-
-#- type: loadout
-#  id: LoadoutMagazineBoxAntiMateriel
-#  category: JobsCommand
-#  cost: 1
-#  exclusive: true
-#  requirements:
-#    - !type:CharacterJobRequirement
-#      jobs:
-#        - ChiefJustice
-#  items:
-#    - MagazineBoxAntiMateriel

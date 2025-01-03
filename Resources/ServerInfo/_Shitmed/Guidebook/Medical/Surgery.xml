@@ -1,0 +1,52 @@
+<Document>
+# Хирургия
+Ваше обычное ежедневное занятие. Выполняя хирургические операции на своих пациентах, вы можете залечивать раны, удалять или добавлять части тела, органы и многое другое.
+
+## Основы
+Перед началом операции ваш пациент должен находиться в лежачем положении и, в идеале, получить анестетик.
+
+Если пациенту не дать анестетик, они будут испытывать сильную боль, что ухудшит их настроение и усугубит состояние хирургических ран.
+
+<Box>
+<GuideEntityEmbed Entity="NitrousOxideTank" Caption="Оксид азота"/>
+<GuideEntityEmbed Entity="ClothingMaskBreathMedical" Caption="любая маска для дыхания"/>
+</Box>
+
+Вам также необходимо носить защитные средства, такие как маска и перчатки, чтобы предотвратить занесения загрязнений в организм пациента (отравления).
+
+<Box>
+<GuideEntityEmbed Entity="ClothingMaskSterile" Caption="Стерильная маска"/>
+<GuideEntityEmbed Entity="ClothingHandsGlovesNitrile" Caption="Нитриловые перчатки"/>
+</Box>
+
+## Приступая к работе...
+
+Чтобы приступить к операции, вам понадобится набор хирургических инструментов.
+
+<Box>
+<GuideEntityEmbed Entity="Scalpel" Caption="Скальпель"/>
+<GuideEntityEmbed Entity="Retractor" Caption="Ретрактор"/>
+<GuideEntityEmbed Entity="Hemostat" Caption="Гемостат"/>
+<GuideEntityEmbed Entity="Drill" Caption="Дрель"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="Saw" Caption="Пила"/>
+<GuideEntityEmbed Entity="Cautery" Caption="Прибор для прижигания"/>
+<GuideEntityEmbed Entity="BoneGel" Caption="Флакон костного геля"/>
+</Box>
+
+Как только у вас будут в руках инструменты, взаимодействуйте с пациентом, чтобы начать операцию. Вы сможете выбрать, на какой части тела вы хотите прооперировать.
+
+## Ghetto Surgery
+
+Certain non-surgical tools can be used in a pinch, use the scalpel examine icon to see how good or bad something is.
+<Box>
+<GuideEntityEmbed Entity="Welder" Caption="welder"/>
+<GuideEntityEmbed Entity="Wirecutter" Caption="wirecutter"/>
+<GuideEntityEmbed Entity="KitchenKnife" Caption="knife"/>
+<GuideEntityEmbed Entity="Crowbar" Caption="crowbar"/>
+</Box>
+
+They aren't ideal compared to real surgical equipment, but they'll do in a pinch!
+
+</Document>

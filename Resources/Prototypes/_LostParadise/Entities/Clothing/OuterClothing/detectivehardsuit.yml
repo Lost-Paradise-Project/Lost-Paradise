@@ -39,7 +39,7 @@
   id: LPPClothingHeadHelmetDetectiveHardsuit
   name: Helmet FDA-87d
   description: It is a pity that there is no hole for a smoking pipe...
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: BreathMask
   - type: Sprite

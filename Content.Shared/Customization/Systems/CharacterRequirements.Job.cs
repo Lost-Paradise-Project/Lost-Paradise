@@ -23,16 +23,24 @@ public sealed partial class CharacterJobRequirement : CharacterRequirement
     [DataField(required: true)]
     public List<ProtoId<JobPrototype>> Jobs;
 
-    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
-        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0
+    public override bool IsValid(JobPrototype job,
+        HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes,
+        bool whitelisted,
+        IPrototype prototype,
+        IEntityManager entityManager,
+        IPrototypeManager prototypeManager,
+        IConfigurationManager configManager,
+        out string? reason,
+        int depth = 0
 #if LPP_Sponsors
-        , int sponsorTier = 0, string uuid = ""
+        , int sponsorTier = 0,
+        string uuid = ""
 #endif
         )
     {
-        var jobs = new List<FormattedMessage>();
+        var jobs = new List<string>();
+        var depts = prototypeManager.EnumeratePrototypes<DepartmentPrototype>();
 
         // Get the job names and department colors
         foreach (var j in Jobs)
@@ -40,8 +48,7 @@ public sealed partial class CharacterJobRequirement : CharacterRequirement
             var jobProto = prototypeManager.Index(j);
             var color = Color.LightBlue;
 
-            foreach (var dept in prototypeManager.EnumeratePrototypes<DepartmentPrototype>()
-                .OrderBy(d => Loc.GetString($"department-{d.ID}")))
+            foreach (var dept in depts.ToList().OrderBy(d => Loc.GetString($"department-{d.ID}")))
             {
                 if (!dept.Roles.Contains(j))
                     continue;
@@ -50,15 +57,14 @@ public sealed partial class CharacterJobRequirement : CharacterRequirement
                 break;
             }
 
-            jobs.Add(FormattedMessage.FromMarkup($"[color={color.ToHex()}]{Loc.GetString(jobProto.Name)}[/color]"));
+            jobs.Add($"[color={color.ToHex()}]{Loc.GetString(jobProto.Name)}[/color]");
         }
 
         // Join the job names
-        var jobsList = string.Join(", ", jobs.Select(j => j.ToMarkup()));
         var jobsString = Loc.GetString("character-job-requirement",
-            ("inverted", Inverted), ("jobs", jobsList));
+            ("inverted", Inverted), ("jobs", string.Join(", ", jobs)));
 
-        reason = FormattedMessage.FromMarkup(jobsString);
+        reason = jobsString;
         return Jobs.Contains(job.ID);
     }
 }
@@ -73,16 +79,22 @@ public sealed partial class CharacterDepartmentRequirement : CharacterRequiremen
     [DataField(required: true)]
     public List<ProtoId<DepartmentPrototype>> Departments;
 
-    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
-        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0
+    public override bool IsValid(JobPrototype job,
+        HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes,
+        bool whitelisted,
+        IPrototype prototype,
+        IEntityManager entityManager,
+        IPrototypeManager prototypeManager,
+        IConfigurationManager configManager,
+        out string? reason,
+        int depth = 0
 #if LPP_Sponsors
         , int sponsorTier = 0, string uuid = ""
 #endif
         )
     {
-        var departments = new List<FormattedMessage>();
+        var departments = new List<string>();
 
         // Get the department names and colors
         foreach (var d in Departments)
@@ -90,15 +102,14 @@ public sealed partial class CharacterDepartmentRequirement : CharacterRequiremen
             var deptProto = prototypeManager.Index(d);
             var color = deptProto.Color;
 
-            departments.Add(FormattedMessage.FromMarkup($"[color={color.ToHex()}]{Loc.GetString($"department-{deptProto.ID}")}[/color]"));
+            departments.Add($"[color={color.ToHex()}]{Loc.GetString($"department-{deptProto.ID}")}[/color]");
         }
 
         // Join the department names
-        var departmentsList = string.Join(", ", departments.Select(d => d.ToMarkup()));
         var departmentsString = Loc.GetString("character-department-requirement",
-            ("inverted", Inverted), ("departments", departmentsList));
+            ("inverted", Inverted), ("departments", string.Join(", ", departments)));
 
-        reason = FormattedMessage.FromMarkup(departmentsString);
+        reason = departmentsString;
         return Departments.Any(d => prototypeManager.Index(d).Roles.Contains(job.ID));
     }
 }
@@ -119,10 +130,16 @@ public sealed partial class CharacterDepartmentTimeRequirement : CharacterRequir
     [DataField(required: true)]
     public ProtoId<DepartmentPrototype> Department;
 
-    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
-        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0
+    public override bool IsValid(JobPrototype job,
+        HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes,
+        bool whitelisted,
+        IPrototype prototype,
+        IEntityManager entityManager,
+        IPrototypeManager prototypeManager,
+        IConfigurationManager configManager,
+        out string? reason,
+        int depth = 0
 #if LPP_Sponsors
         , int sponsorTier = 0, string uuid = ""
 #endif
@@ -167,10 +184,10 @@ public sealed partial class CharacterDepartmentTimeRequirement : CharacterRequir
             // Show the reason if invalid
             reason = Inverted
                 ? null
-                : FormattedMessage.FromMarkup(Loc.GetString("character-timer-department-too-high",
+                : Loc.GetString("character-timer-department-too-high",
                     ("time", playtime.TotalMinutes - Max.TotalMinutes),
                     ("department", Loc.GetString($"department-{department.ID}")),
-                    ("departmentColor", department.Color)));
+                    ("departmentColor", department.Color));
             return false;
         }
 
@@ -179,10 +196,10 @@ public sealed partial class CharacterDepartmentTimeRequirement : CharacterRequir
             // Show the reason if invalid
             reason = Inverted
                 ? null
-                : FormattedMessage.FromMarkup(Loc.GetString("character-timer-department-insufficient",
+                : Loc.GetString("character-timer-department-insufficient",
                     ("time", Min.TotalMinutes - playtime.TotalMinutes),
                     ("department", Loc.GetString($"department-{department.ID}")),
-                    ("departmentColor", department.Color)));
+                    ("departmentColor", department.Color));
             return false;
         }
 
@@ -204,10 +221,16 @@ public sealed partial class CharacterOverallTimeRequirement : CharacterRequireme
     [DataField]
     public TimeSpan Max = TimeSpan.MaxValue;
 
-    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
-        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0
+    public override bool IsValid(JobPrototype job,
+        HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes,
+        bool whitelisted,
+        IPrototype prototype,
+        IEntityManager entityManager,
+        IPrototypeManager prototypeManager,
+        IConfigurationManager configManager,
+        out string? reason,
+        int depth = 0
 #if LPP_Sponsors
         , int sponsorTier = 0, string uuid = ""
 #endif
@@ -243,8 +266,8 @@ public sealed partial class CharacterOverallTimeRequirement : CharacterRequireme
             // Show the reason if invalid
             reason = Inverted
                 ? null
-                : FormattedMessage.FromMarkup(Loc.GetString("character-timer-overall-too-high",
-                    ("time", overallTime.TotalMinutes - Max.TotalMinutes)));
+                : Loc.GetString("character-timer-overall-too-high",
+                    ("time", overallTime.TotalMinutes - Max.TotalMinutes));
             return false;
         }
 
@@ -253,8 +276,8 @@ public sealed partial class CharacterOverallTimeRequirement : CharacterRequireme
             // Show the reason if invalid
             reason = Inverted
                 ? null
-                : FormattedMessage.FromMarkup(Loc.GetString("character-timer-overall-insufficient",
-                    ("time", Min.TotalMinutes - overallTime.TotalMinutes)));
+                : Loc.GetString("character-timer-overall-insufficient",
+                    ("time", Min.TotalMinutes - overallTime.TotalMinutes));
             return false;
         }
 
@@ -279,10 +302,16 @@ public sealed partial class CharacterPlaytimeRequirement : CharacterRequirement
     [DataField(required: true)]
     public ProtoId<PlayTimeTrackerPrototype> Tracker;
 
-    public override bool IsValid(JobPrototype job, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, IPrototype prototype,
-        IEntityManager entityManager, IPrototypeManager prototypeManager, IConfigurationManager configManager,
-        out FormattedMessage? reason, int depth = 0
+    public override bool IsValid(JobPrototype job,
+        HumanoidCharacterProfile profile,
+        Dictionary<string, TimeSpan> playTimes,
+        bool whitelisted,
+        IPrototype prototype,
+        IEntityManager entityManager,
+        IPrototypeManager prototypeManager,
+        IConfigurationManager configManager,
+        out string? reason,
+        int depth = 0
 #if LPP_Sponsors
         , int sponsorTier = 0, string uuid = ""
 #endif
@@ -340,10 +369,10 @@ public sealed partial class CharacterPlaytimeRequirement : CharacterRequirement
             // Show the reason if invalid
             reason = Inverted
                 ? null
-                : FormattedMessage.FromMarkup(Loc.GetString("character-timer-role-too-high",
+                : Loc.GetString("character-timer-role-too-high",
                     ("time", time.TotalMinutes - Max.TotalMinutes),
                     ("job", jobStr),
-                    ("departmentColor", department.Color)));
+                    ("departmentColor", department.Color));
             return false;
         }
 
@@ -352,10 +381,10 @@ public sealed partial class CharacterPlaytimeRequirement : CharacterRequirement
             // Show the reason if invalid
             reason = Inverted
                 ? null
-                : FormattedMessage.FromMarkup(Loc.GetString("character-timer-role-insufficient",
+                : Loc.GetString("character-timer-role-insufficient",
                     ("time", Min.TotalMinutes - time.TotalMinutes),
                     ("job", jobStr),
-                    ("departmentColor", department.Color)));
+                    ("departmentColor", department.Color));
             return false;
         }
 

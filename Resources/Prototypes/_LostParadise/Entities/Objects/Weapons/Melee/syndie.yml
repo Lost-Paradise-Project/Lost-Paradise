@@ -57,7 +57,7 @@
   - type: Tool
     qualities:
       - Prying
-    speed: 3
+    # speed: 3
   - type: Clothing
     quickEquip: false
     slots:

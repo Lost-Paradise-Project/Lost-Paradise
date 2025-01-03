@@ -1,5 +1,7 @@
 ent-ClothingMaskBandanaBase = { ent-ClothingMaskBaseButcherable }
     .desc = { ent-ClothingMaskBaseButcherable.desc }
+ent-ClothingMaskBandWhite = Белая бандана
+    .desc = Белая бандана, чтобы выглядеть круто.
 ent-ClothingMaskBandBlack = Чёрная бандана
     .desc = Чёрная бандана, чтобы выглядеть круто.
 ent-ClothingMaskBandBlue = Синяя бандана

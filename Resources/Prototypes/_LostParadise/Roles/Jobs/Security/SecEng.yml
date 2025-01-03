@@ -22,6 +22,7 @@
   - Maintenance
   - External
   - Engineering
+  - Atmospherics
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -33,19 +34,14 @@
     back: LPPClothingBackpackSecurityEngineer
     shoes: LPPClothingShoesBootsJackSecEnginer
     eyes: LPPClothingEyesHudSecEng
-    gloves: ClothingHandsGlovesColorYellow
-    head: ClothingHeadHatHardhatYellow
+    # gloves: ClothingHandsGlovesCombat
     id: LPPSecurityEngineerPDA
-    outerClothing: ClothingOuterVestHazard
     ears: LPPClothingHeadsetSecurityEngineer
     belt: LPPClothingMilitaryWebbingSecEng
     socks: LPPClothingUnderSocksNorm
     underwear: LPPBoxer
   underwear: LPPBriefs
-  innerClothingSkirt: LPPClothingUniformJumpSkirtSecEngineer
   breast: LPPBraAltWhite
-  storage:
-    back:
-    - SheetSteel10
-    - SheetGlass10
-    - LPPC4Low
+  innerClothingSkirt: LPPClothingUniformJumpSkirtSecEngineer
+  satchel: LPPClothingSatchelSecurityEngineer
+  duffelbag: LPPClothingBackpackDuffelSecurityEngineer

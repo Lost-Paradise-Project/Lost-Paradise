@@ -1,0 +1,154 @@
+# LPP SecEng
+- type: characterItemGroup
+  id: LoadoutSecurityEngineerBackpacks
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutSecurityEngineerBackpack
+    - type: loadout
+      id: LoadoutSecurityEngineerBackpackSatchel
+    - type: loadout
+      id: LoadoutSecurityEngineerBackpackDuffel
+
+# - type: characterItemGroup
+#   id: LoadoutSecurityEngineerBelt
+#   maxItems: 1
+#   items:
+
+#- type: characterItemGroup
+#  id: LoadoutSecurityEngineerEars
+#  maxItems: 1
+#  items:
+
+- type: characterItemGroup
+  id: LoadoutSecurityEngineerEquipment
+  maxItems: 6
+  items:
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentBoxInflatable
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentMedkitOxygen
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentRCD
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentRCDAmmo1
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentRCDAmmo2
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentPowerDrill
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetSteel
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetSteel10
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetPlasteel
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetPlasteel10
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetGlass
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetGlass10
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentMaterialWoodPlank
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentMaterialWoodPlank10
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetRGlass
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetRGlass10
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetUGlass
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetUGlass10
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetRUGlass
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetRUGlass10
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetPGlass
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetPGlass10
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetRPGlass
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetRPGlass10
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetClockworkGlass
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetClockworkGlass10
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetPlastic
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentSheetPlastic10
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentHandHeldMassScanner
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentLPPC4Low1
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentLPPC4Low1
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentLPPC4Low2
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentLPPC4Low3
+    - type: loadout
+      id: LoadoutSecurityEngineerEquipmentHandRemoteSignaller
+#- type: characterItemGroup
+#  id: LoadoutSecurityEngineerEyes
+#  maxItems: 1
+#  items:
+
+- type: characterItemGroup
+  id: LoadoutSecurityEngineerGloves
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutSecurityEngineerGlovesInsulated
+    - type: loadout
+      id: LoadoutSecurityEngineerGlovesCombat
+    - type: loadout
+      id: LoadoutSecurityEngineerGlovesMerc
+
+- type: characterItemGroup
+  id: LoadoutSecurityEngineerHead
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutSecurityEngineerHeadHatHardhatArmored
+
+#- type: characterItemGroup
+#  id: LoadoutSecurityEngineerId
+#  maxItems: 1
+#  items:
+
+#- type: characterItemGroup
+#  id: LoadoutSecurityEngineerNeck
+#  maxItems: 1
+#  items:
+
+#- type: characterItemGroup
+#  id: LoadoutSecurityEngineerMask
+#  maxItems: 1
+#  items:
+
+- type: characterItemGroup
+  id: LoadoutSecurityEngineerOuter
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutSecurityEngineerOuterClothingHeadHatHardhatArmored
+    - type: loadout
+      id: LoadoutSecurityEngineeringOuterHazard
+
+#- type: characterItemGroup
+#  id: LoadoutSecurityEngineerShoes
+#  maxItems: 1
+#  items:
+
+- type: characterItemGroup
+  id: LoadoutSecurityEngineerUniforms
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutSecEngineerUniformJumpskirtSecEngineer
+    - type: loadout
+      id: LoadoutSecEngineerUniformJumpsuitSecEngineer

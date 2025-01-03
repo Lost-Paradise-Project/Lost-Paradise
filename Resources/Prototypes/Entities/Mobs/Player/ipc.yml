@@ -124,13 +124,19 @@
         - MobMask
         layer:
         - MobLayer
+  - type: Tag
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+    - SiliconEmotes
 
 - type: entity
   save: false
   name: Urist McPositronic
   parent: MobHumanDummy
   id: MobIPCDummy
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: A dummy IPC meant to be used in character setup.
   components:
   - type: HumanoidAppearance

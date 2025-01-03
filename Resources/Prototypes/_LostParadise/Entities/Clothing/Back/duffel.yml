@@ -19,7 +19,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: LPPClothingBackpackDuffelSecurityEngineer
-  name: hop duffel bag
+  name: sec eng duffel bag
   description: Twice as many handcuffs!
   components:
   - type: Sprite

@@ -29,13 +29,6 @@
     state: icon
 
 - type: stealTargetGroup
-  id: BookSecretDocuments
-  name: "emergency security orders"
-  sprite:
-    sprite: Objects/Misc/bureaucracy.rsi
-    state: folder-sec-doc
-
-- type: stealTargetGroup
   id: ClothingShoesBootsMagAdv
   name: advanced magboots
   sprite:
@@ -71,8 +64,8 @@
     state: icon
 
 - type: stealTargetGroup
-  id: WeaponAntiqueLaser
-  name: antique laser pistol
+  id: WeaponCaptain
+  name: captain's weapon
   sprite:
     sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
     state: base
@@ -401,3 +394,5 @@
   sprite:
     sprite: Mobs/Animals/crab.rsi
     state: crab
+
+
