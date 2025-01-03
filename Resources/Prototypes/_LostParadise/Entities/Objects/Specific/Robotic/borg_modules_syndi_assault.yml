@@ -1,0 +1,47 @@
+- type: entity
+  id: LPPBorgModuleAssaultRam
+  parent: [ BaseBorgModuleSyndicateAssault, BaseProviderBorgModule ]
+  name: assault cyborg module
+  description: There is no wall that can stop you.
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Objects/Specific/Robotics/borgmodule.rsi
+      layers:
+      - state: syndicate
+      - state: icon-assault-ram
+    - type: ItemBorgModule
+      items:
+      - LPPAssaultRam
+      - PinpointerSyndicateNuclear
+
+- type: entity
+  id: LPPBorgModuleShotgun
+  parent: [ BaseBorgModuleSyndicateAssault, BaseProviderBorgModule ]
+  name: shotgun cyborg module
+  description: A module for warcrimes.
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Objects/Specific/Robotics/borgmodule.rsi
+      layers:
+      - state: syndicate
+      - state: icon-shotgun
+    - type: ItemBorgModule
+      items:
+      - LPPWeaponShotGunBulldogC
+      - PinpointerSyndicateNuclear
+
+- type: entity
+  id: LPPBorgModuleRocketLauncher
+  parent: [ BaseBorgModuleSyndicateAssault, BaseProviderBorgModule ]
+  name: rocket launcher cyborg module
+  description: A module that for really bad guys.
+  components:
+    - type: Sprite
+      sprite: _LostParadise/Objects/Specific/Robotics/borgmodule.rsi
+      layers:
+      - state: syndicate
+      - state: icon-rocket
+    - type: ItemBorgModule
+      items:
+      - LPPWeaponCyborgLauncherRocket
+      - PinpointerSyndicateNuclear

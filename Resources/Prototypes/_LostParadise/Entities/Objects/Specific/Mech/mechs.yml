@@ -67,3 +67,4 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.6
     baseSprintSpeed: 3.6
+

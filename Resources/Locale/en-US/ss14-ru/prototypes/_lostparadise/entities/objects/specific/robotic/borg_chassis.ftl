@@ -1,0 +1,9 @@
+ent-LPPBorgChassisSyndicateSaboteurBattery = syndicate saboteur cyborg
+    .desc = A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a Nanotrasen cyborg.
+    .suffix = Battery
+ent-LPPBorgChassisSyndicateMedicalBattery = syndicate medical cyborg
+    .suffix = Battery
+    .desc = { ent-BorgChassisSyndicateMedical.desc }
+ent-LPPBorgChassisSyndicateAssaultBattery = syndicate assault cyborg
+    .suffix = Battery
+    .desc = { ent-BorgChassisSyndicateAssault.desc }

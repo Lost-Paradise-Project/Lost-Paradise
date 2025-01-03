@@ -35,6 +35,8 @@
       - id: LPPBoxFolderSecDoc
         prob: 0.5
       - id: LPPHOSUplinkShop #На будущее, будет хайриском
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
 
 - type: entity
   id: LockerWardenFilled
@@ -74,6 +76,8 @@
       - id: LPPBoxFolderSecDoc
         prob: 0.5
       # - >
+      - id: LPPRubberStampConfidentional #LPP
+      - id: LPPRubberStampRestricted #LPP
 
 - type: entity
   id: LockerSecurityFilled
@@ -241,6 +245,7 @@
         amount: 2
         prob: 0.5
       # - >
+      - id: LPPRubberStampConfidentional #LPP
 
 - type: entity
   id: ClosetBombFilled

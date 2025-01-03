@@ -1,0 +1,10 @@
+cybersun-set-category-name = Контракт Cybersan
+cybersun-set-category-description = Мастера энергетического оружия, тяжёлых скафандров и имплантов.
+donk-set-category-name = Контракт Donk
+donk-set-category-description = Дешёвые подкрепления, оружие и различного рода препараты.
+grolex-set-category-name = Контракт Gorlex
+grolex-set-category-description = Выбор любителей огнестрела и гранатомётов.
+Classic-set-category-name = Контракт "Классический"
+Classic-set-category-description = Стандартная экипировка Мародёров Синдиката.
+Uplink-set-category-name = Контракт "Куплю всё сам"
+Uplink-set-category-description = Аплинк на 300 ТК, думаю, тут всё понятно.

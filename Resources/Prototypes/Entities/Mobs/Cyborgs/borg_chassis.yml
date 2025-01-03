@@ -362,10 +362,14 @@
           - BorgModuleGeneric
           - BorgModuleMedical
           - BorgModuleSyndicate
+          - LPPBorgModuleSyndicateMedical # LPP
       hasMindState: synd_medical_e
       noMindState: synd_medical
     - type: Construction
       node: syndicatemedical
+    - type: ShowHealthBars
+      damageContainers:
+      - Biological
 
 - type: entity
   id: BorgChassisSyndicateSaboteur

@@ -171,3 +171,11 @@
 
 - type: Tag
   id: LPPArmband  # Нарукавная повязка
+
+# [Тэги киборгов синдиката]
+
+- type: Tag
+  id: LPPBorgModuleSyndicateSabotage
+
+- type: Tag
+  id: LPPBorgModuleSyndicateMedical
