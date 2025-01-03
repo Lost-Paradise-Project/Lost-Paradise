@@ -3,6 +3,7 @@
   parent: BaseItem
   abstract: true
   components:
+  - type: WeaponCaseInsertable
   - type: Item
     size: Small
   - type: Sticky

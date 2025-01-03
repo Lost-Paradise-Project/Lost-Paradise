@@ -20,3 +20,7 @@ ent-LPPClothingHeadHatMaid = Чепчик горничной
     .desc = Элемент одежды, который является неотъемлимой частью любой элитной горничной.
 ent-LPPClothingAnonMask = Маска Анонимуса
     .desc = Анон!
+ent-ClothingHeadHatBH = шляпа охотника за головами
+    .desc = В секторе появился новый охотник за головами.
+ent-ClothingHeadHatBeretMercenary = берет наемника
+    .desc = Оливковый берет, на значке изображен шакал на камне.

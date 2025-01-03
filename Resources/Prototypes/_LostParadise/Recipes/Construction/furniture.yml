@@ -1,0 +1,16 @@
+- type: construction
+  id: LockerWoodenGeneric
+  name: wooden cabinet
+  description: Dusty old wooden cabinet.
+  graph: StorageFurnitureGraph
+  startNode: start
+  targetNode: LockerWoodenGenericNode
+  category: construction-category-furniture
+  icon:
+    sprite: _LostParadise/Structures/Storage/closet.rsi
+    state: wooden_cabinet_icon
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

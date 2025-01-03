@@ -8,3 +8,5 @@ ent-LPPClothingHandsGlovesNightGuard = Перчатки НайтГарда
     .desc = { ent-ClothingHandsGlovesBoxingBlue.desc }
 ent-LPPClothingHandsClownPomni = Перчатки шута
     .desc = Мягкие перчатки, создающие впечатление, будто полностью обволакивают ваши руки...
+ent-ClothingHandsMercenaryGlovesCombat = боевые перчатки наёмника
+    .desc = Высококачественные боевые перчатки для защиты рук от механических повреждений во время боя.

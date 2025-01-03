@@ -1,0 +1,10 @@
+ent-DartAberrantFleshHorrorSpike = bone spike
+    .desc = { ent-ConjuredObject10.desc }
+ent-DartAberrantFleshHorrorSpikeSpread = { ent-DartAberrantFleshHorrorSpike }
+    .desc = { ent-DartAberrantFleshHorrorSpike.desc }
+ent-MobHostileThrowableWeapon = dart
+    .desc = Try not to prick yourself.
+ent-DartSyndicateImpedrezene = syndicate impedrezene dart
+    .desc = Try not to prick yourself.
+ent-DartSyndicateTranquilizer = syndicate tranquilizer dart
+    .desc = { ent-DartSyndicateImpedrezene.desc }

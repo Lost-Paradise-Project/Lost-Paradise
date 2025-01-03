@@ -20,3 +20,5 @@ ent-LPPClothingBackpackDuffelCybersun = Cybersun duffel bag
     .desc = { ent-ClothingBackpackDuffel.desc }
 ent-LPPClothingBackpackDuffelGorlex = Gorlex duffel bag
     .desc = { ent-ClothingBackpackDuffel.desc }
+ent-ClothingBackpackDuffelMercenary = mercenary duffel
+    .desc = A duffel that has been in many dangerous places, a reliable combat duffel.

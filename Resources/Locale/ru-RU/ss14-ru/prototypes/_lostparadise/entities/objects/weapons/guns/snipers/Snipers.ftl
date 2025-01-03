@@ -6,3 +6,5 @@ ent-LPPBaseWeaponSniper = Снайперка
     .desc = Просто прицелься и стреляй.
 ent-LPPWeaponGoliath = Голиаф
     .desc = Специализированный "инструмент" для ликвидации преград. Использует .60 антиматериальные.
+ent-WeaponSniperRepeater = N2524 Pattern Repeater
+    .desc = A civilian grade lever action firearm, favored by space cowboys across the Frontier for its reliability and stopping power. Uses .45 magnum ammo.

@@ -1,0 +1,10 @@
+ent-CratePlasticBiodegradable = biodegradable plastic crate
+    .desc = Feels incredibly flimsy.
+ent-CrateServiceJanitorialSupplies2 = janitorial supplies crate B
+    .desc = Fight back against dirt and grime with Nanotrasen's Janitorial Essentials™! Contains two trash bag boxes, one box of wet floor signs and two bottles of spray cleaner.
+ent-CrateSpaceCleaner = bulk space cleaner crate
+    .desc = For a large mess.
+ent-CrateServiceKitCleanades = cleanade crate
+    .desc = Contains a full kit to clean up a warzone.
+ent-CrateServiceKitKitchen = kitchen toolkit
+    .desc = Contains a full kit to build a kitchen.

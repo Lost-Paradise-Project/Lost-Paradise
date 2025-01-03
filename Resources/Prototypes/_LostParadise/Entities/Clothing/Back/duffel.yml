@@ -117,3 +117,12 @@
   - type: Storage
     grid:
     - 0,0,9,5
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelMercenary # Frontier - Merc to Mercenary
+  name: mercenary duffel
+  description: A duffel that has been in many dangerous places, a reliable combat duffel.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Back/Duffels/mercenary.rsi

@@ -16,3 +16,5 @@ ent-LPPUnathiWraps = unathi wraps
     .desc = Unathi Wraps.
 ent-LPPClothingShoesBootsNPZ = NPZ Boots
     .desc = Strong boots for any difficult terrain.
+ent-ClothingShoesBootsMercenary = mercenary boots
+    .desc = Boots that have gone through many conflicts and that have proven their combat reliability.

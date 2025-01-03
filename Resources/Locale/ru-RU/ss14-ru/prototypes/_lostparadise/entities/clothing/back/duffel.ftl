@@ -20,3 +20,5 @@ ent-LPPClothingBackpackDuffelCybersun = Вещмешок Cybersun
     .desc = { ent-ClothingBackpackDuffel.desc }
 ent-LPPClothingBackpackDuffelGorlex = Вещмешок Gorlex
     .desc = { ent-ClothingBackpackDuffel.desc }
+ent-ClothingBackpackDuffelMercenary = Вещмешок наёмника
+    .desc = Вещмешок, который побывал во многих опасных местах, надежный боевой вещмешок.

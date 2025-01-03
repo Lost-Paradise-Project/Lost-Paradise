@@ -160,3 +160,23 @@
     - WhitelistChameleon
   - type: StaticPrice
     price: 50
+
+- type: entity
+  id: ClothingOuterCoatBHTrench
+  name: "bounty hunter's flak trenchcoat"
+  parent: ClothingOuterCoatHoSTrench
+  description: A greatcoat enhanced with a bulletproof alloy for some extra protection and style for those with a charismatic presence.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/bounty_hunter_coat.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Coats/bounty_hunter_coat.rsi
+  - type: Armor # ClothingOuterArmorBulletproof stats
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.4
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.80

@@ -323,3 +323,32 @@
   - type: Rotatable
     rotateWhileAnchored: false
     rotateWhilePulling: true
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineBountyVend
+  name: BountyVend
+  description: Essential gear for the bounty hunter on the go.
+  components:
+  - type: VendingMachine
+    pack: BountyVendInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    # ejectState: eject-unshaded  No sprite, see chefvend/dinnerware/BODA/etc for expamples
+#  - type: Advertise
+#    pack: BountyVendAds
+  - type: Sprite
+    sprite: _LostParadise/Structures/Machines/VendingMachines/bountyvend.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#4b93ad"

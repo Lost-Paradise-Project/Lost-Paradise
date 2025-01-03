@@ -1,0 +1,42 @@
+- type: entity
+  name: spawn punk
+  id: SpawnMobPunkMelee
+  parent: MarkerBasePlaceFree
+  suffix: AI, Hostile, Melee
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+    - sprite: Objects/Weapons/Melee/baseball_bat.rsi
+      state: icon
+    - state: ai
+  - type: RandomSpawner
+    prototypes:
+    - MobPunkGangerMeleeT1
+    - MobPunkGangerMeleeT2
+    chance: 0.6
+    offset: 0.0
+    rarePrototypes:
+    - MobPunkGangerMeleeT3
+    rareChance: 0.2
+
+- type: entity
+  name: spawn punk
+  id: SpawnMobPunkRanged
+  parent: MarkerBasePlaceFree
+  suffix: AI, Hostile, Ranged
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+    - sprite: Objects/Weapons/Melee/baseball_bat.rsi
+      state: icon
+    - state: ai
+  - type: RandomSpawner
+    prototypes:
+    - MobPunkGangerPistol
+    chance: 1
+    offset: 0.0
+    rarePrototypes:
+    - MobPunkGangerShotgun
+    rareChance: 0.1

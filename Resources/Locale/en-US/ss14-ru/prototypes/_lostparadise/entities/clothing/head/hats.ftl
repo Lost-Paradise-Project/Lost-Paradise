@@ -20,3 +20,7 @@ ent-LPPClothingHeadHatMaid = Maid's cap
     .desc = An item of clothing that is an integral part of any elite maid.
 ent-LPPClothingAnonMask = Anonymous mask
     .desc = Anon!
+ent-ClothingHeadHatBH = bounty hunter's hat
+    .desc = There's a new bounty hunter in the sector.
+ent-ClothingHeadHatBeretMercenary = mercenary beret
+    .desc = Olive beret, the badge depicts a jackal on a rock.

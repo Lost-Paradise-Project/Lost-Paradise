@@ -16,3 +16,7 @@ ent-LPPClothingHeadHelmetNPZ = NPZ Helmet
     .desc = A sturdy helmet made of kevlar and plasteel, will protect against small-caliber bullets, as well as shrapnel.
 ent-LPPClothingHeadHelmetNPZAssault = NPZ assault helmet
     .desc = Robust helmet with additional armor on neck, pretty good for asaults.
+ent-ClothingHeadHelmetMercenary = mercenary helmet
+    .desc = The combat helmet is commonly used by mercenaries, is strong, light and smells like gunpowder and the jungle.
+ent-ClothingHeadHelmetBase = { ent-ClothingHeadBase }
+    .desc = { ent-ClothingHeadBase.desc }

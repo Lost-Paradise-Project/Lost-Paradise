@@ -16,3 +16,7 @@ ent-LPPClothingHeadHelmetNPZ = Шлем НПЗ
     .desc = Крепкий шлем из кевлара и пластали, защитит от мелкокалиберной пули, а так же шрапнели.
 ent-LPPClothingHeadHelmetNPZAssault = Штурмовой шлем НПЗ
     .desc = Прочный шлем с дополнительной броней на шее, неплохо защищает от ударов по вашему куполу.
+ent-ClothingHeadHelmetMercenary = шлем наёмника
+    .desc = Боевой шлем, который обычно используют наемники, прочен, легок и пахнет порохом и джунглями.
+ent-ClothingHeadHelmetBase = { ent-ClothingHeadBase }
+    .desc = { ent-ClothingHeadBase.desc }

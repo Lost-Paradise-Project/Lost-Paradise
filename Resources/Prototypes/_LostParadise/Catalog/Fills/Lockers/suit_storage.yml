@@ -1,0 +1,87 @@
+#Mercenary hardsuit
+- type: entity
+  id: SuitStorageMercenary
+  parent: SuitStorageBase
+  suffix: Mercenary
+  components:
+  - type: StorageFill
+    contents:
+        - id: AirTankFilled
+        - id: ClothingOuterHardsuitMercenary
+        - id: ClothingMaskGasMercenary
+        - id: JetpackMiniFilled
+        - id: ClothingShoesBootsMagMercenaryFilled
+  - type: AccessReader
+    access: [["Captain"], ["Mercenary"]]
+
+- type: entity
+  id: SuitStorageMining
+  parent: SuitStorageBase
+  suffix: Mining
+  components:
+  - type: StorageFill
+    contents:
+        - id: AirTankFilled
+        - id: ClothingShoesBootsMag
+        - id: ClothingOuterHardsuitSalvage
+        - id: ClothingMaskGasExplorer
+        - id: JetpackMiniFilled
+  - type: AccessReader
+
+- type: entity
+  id: SuitStorageQuartermaster
+  parent: SuitStorageBase
+  suffix: Quartermaster
+  components:
+  - type: StorageFill
+    contents:
+        - id: AirTankFilled
+        - id: ClothingShoesBootsMag
+        - id: ClothingOuterHardsuitLuxury
+        - id: ClothingMaskGasExplorer
+        - id: JetpackMiniFilled
+  - type: AccessReader
+
+#Pilot hardsuit
+- type: entity
+  id: SuitStoragePilot
+  parent: SuitStorageBase
+  suffix: Pilot
+  components:
+  - type: StorageFill
+    contents:
+        - id: AirTankFilled
+        - id: ClothingOuterHardsuitPilot
+        - id: ClothingMaskBreath
+        - id: JetpackMiniFilled
+  - type: AccessReader
+
+- type: entity
+  id: SuitStoragePrivateSecurity
+  parent: SuitStorageBase
+  suffix: Private Security
+  components:
+  - type: StorageFill
+    contents:
+        - id: AirTankFilled
+        - id: ClothingOuterHardsuitPrivateSecurity
+        - id: ClothingMaskGasSecurity
+        - id: JetpackMiniFilled
+        - id: ClothingShoesBootsMagCombat
+  - type: AccessReader
+    access: [["Captain"], ["Mercenary"]]
+
+- type: entity
+  id: SuitStorageScaf
+  parent: SuitStorageBase
+  suffix: SCAF
+  components:
+  - type: StorageFill
+    contents:
+        - id: AirTankFilled
+        - id: ClothingOuterHardsuitScaf
+        - id: ClothingMaskGasMercenary
+        - id: JetpackMiniFilled
+        - id: ClothingShoesBootsMagMercenaryFilled
+  - type: AccessReader
+    access: [["Captain"], ["Mercenary"]]

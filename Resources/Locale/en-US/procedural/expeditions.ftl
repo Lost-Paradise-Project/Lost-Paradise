@@ -17,6 +17,7 @@ offering-window-claimed = Claimed
 offering-window-claim = Claim
 
 salvage-expedition-window-next = Next offer
+salvage-expedition-window-finish = Finish expedition
 
 salvage-expedition-difficulty-Moderate = Moderate
 salvage-expedition-difficulty-Hazardous = Hazardous

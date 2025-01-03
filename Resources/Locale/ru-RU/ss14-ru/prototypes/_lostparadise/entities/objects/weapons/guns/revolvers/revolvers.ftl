@@ -26,3 +26,5 @@ ent-LPPWeaponRevolverPanther = Пантера
     .desc = Быстрый револьвер для быстрых решений. Использует патроны .45 калибра.
 ent-LPPWeaponRevolverOC-38 = Револьвер OC-38
     .desc = Использует патроны "Магнум" 45-го калибра
+ent-WeaponRevolverArgenti = Argenti
+    .desc = The civilian grade Argenti Type 20 revolver. Manufactured by Silver Industries. While the design with expanded cylinder is quite ancient, the right gunslinger will know how to utilise it well. Uses .20 rifle ammo.

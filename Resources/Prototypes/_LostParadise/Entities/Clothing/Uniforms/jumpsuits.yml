@@ -826,3 +826,30 @@
     sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/inteqjumpsuit.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/inteqjumpsuit.rsi
+
+- type: entity
+  parent:
+  - ClothingUniformJumpsuitChiefEngineerSyndie
+  id: ClothingUniformJumpsuitChiefEngineerSyndieNF
+  components:
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorOff
+
+- type: entity
+  parent:
+  - ClothingUniformJumpsuitParamedicSyndie
+  id: ClothingUniformJumpsuitParamedicSyndieNF
+  components:
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorOff
+
+- type: entity
+  parent:
+  - ClothingUniformJumpsuitRecruitSyndie
+  id: ClothingUniformJumpsuitRecruitSyndieNF
+  components:
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorOff

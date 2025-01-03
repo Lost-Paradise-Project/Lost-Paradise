@@ -1,0 +1,115 @@
+- type: entity
+  parent: MarkerBase
+  id: SalvageSpawnerEquipment
+  name: Salvage Equipment Spawner
+  suffix: Common, 75%
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Devices/communication.rsi
+      state: walkietalkie
+  - type: RandomSpawner
+    prototypes:
+      - SalvageEquipmentSpawnerCommon
+    chance: 0.75
+
+- type: entity
+  parent: MarkerBase
+  id: SalvageSpawnerEquipmentValuable
+  name: Salvage Equipment Spawner
+  suffix: Valuable, 75%
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Devices/communication.rsi
+      state: walkietalkie
+  - type: RandomSpawner
+    prototypes:
+      - SalvageEquipmentSpawnerValuable
+    chance: 0.75
+
+- type: entity
+  parent: MarkerBase
+  id: SalvageSpawnerScrapCommon
+  name: Salvage Scrap Spawner
+  suffix: Common, 50%
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: _LostParadise/Objects/Materials/Scrap/generic.rsi
+      state: metal-1
+  - type: RandomSpawner
+    prototypes:
+      - SalvageScrapSpawnerCommon
+    chance: 0.50
+
+- type: entity
+  parent: SalvageSpawnerScrapCommon
+  id: SalvageSpawnerScrapCommon75
+  suffix: Common, 75%
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - SalvageScrapSpawnerCommon
+    chance: 0.75
+
+- type: entity
+  parent: MarkerBase
+  id: SalvageSpawnerScrapValuable
+  name: Salvage Scrap Spawner
+  suffix: Valuable, 50%
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: _LostParadise/Objects/Materials/Scrap/generic.rsi
+      state: junk-airlock-1
+  - type: RandomSpawner
+    prototypes:
+      - SalvageScrapSpawnerValuable
+    chance: 0.5
+
+- type: entity
+  parent: SalvageSpawnerScrapValuable
+  id: SalvageSpawnerScrapValuable75
+  suffix: Valuable, 75%
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - SalvageScrapSpawnerValuable
+    chance: 0.75
+
+- type: entity
+  parent: MarkerBase
+  id: SalvageSpawnerTreasure
+  name: Salvage Treasure Spawner
+  suffix: Common, 75%
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Materials/materials.rsi
+      state: diamond
+  - type: RandomSpawner
+    prototypes:
+      - SalvageTreasureSpawnerCommon
+    chance: 0.75
+
+- type: entity
+  parent: MarkerBase
+  id: SalvageSpawnerTreasureValuable
+  name: Salvage Treasure Spawner
+  suffix: Valuable, 75%
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+    - sprite: Objects/Materials/materials.rsi
+      state: diamond
+  - type: RandomSpawner
+    prototypes:
+      - SalvageTreasureSpawnerValuable
+    chance: 0.75
