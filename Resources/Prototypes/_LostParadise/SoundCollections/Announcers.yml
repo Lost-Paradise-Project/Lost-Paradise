@@ -3,3 +3,9 @@
   files:
     - /Audio/Announcers/_NTH/comms/welcome1.ogg
     - /Audio/Announcers/_NTH/comms/welcome2.ogg
+
+- type: soundCollection
+  id: ACESWelcome
+  files:
+    - /Audio/Announcers/_ACES/comms/malf.ogg
+    - /Audio/Announcers/_ACES/comms/announce.ogg

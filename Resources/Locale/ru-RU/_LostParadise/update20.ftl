@@ -6,6 +6,7 @@ trait-desc-DwarfLanguage = Если не вслушиваться похоже �
 changelog-tab-title-ChangelogLPP = Обновления Lost Paradise
 announcer-NTH-name = N.T.H.
 announcer-AFONYA-name = C.A.S.S.I.E.
+announcer-ACES-name = A.C.E.S
 chatsan-awoo = воет
 chatsan-hiss = шипит
 chatsan-nyaaa = някает
