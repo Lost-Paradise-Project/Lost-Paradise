@@ -1,6 +1,5 @@
 store-category-debug = категория отладки
 store-category-debug2 = категория отладки 2
-
 store-category-weapons = Вооружение
 store-category-ammo = Боеприпасы
 store-category-explosives = Взрывчатка
@@ -18,9 +17,7 @@ store-category-armor = Броня
 store-category-implants = Импланты
 store-category-job = Работа
 store-category-pointless = Безделушки
-
 store-category-abilities = Способности
-
 store-caregory-spellbook-offensive = Атакующие заклинания
 store-caregory-spellbook-defensive = Защитные заклинания
 store-caregory-spellbook-utility = Полезные заклинания

@@ -131,7 +131,6 @@ mail-metrics-money-header = Кредиты
 mail-metrics-total = Всего
 mail-metrics-progress = { $opened } из { $total } открытых посылок!!
 mail-metrics-progress-percent = Процент успешности: { $successRate }%
-
 # General
 stock-trading-program-name = Торговля акциями
 stock-trading-title = Интергалактическая фондовая биржа
@@ -142,7 +141,6 @@ stock-trading-buy-button = Купить
 stock-trading-sell-button = Продать
 stock-trading-amount-placeholder = Количество
 stock-trading-price-history = История цен
-
 # General
 nano-chat-program-name = NanoChat
 nano-chat-title = NanoChat
@@ -161,7 +159,6 @@ nano-chat-new-message-title = Сообщение от { $sender }
 nano-chat-new-message-body = { $message }
 nano-chat-toggle-mute = Отключить уведомления
 nano-chat-delivery-failed = Не удалось доставить
-
 # Create chat popup
 nano-chat-new-title = Добавить новый чат
 nano-chat-edit-title = Редактировать контакт
@@ -173,7 +170,6 @@ nano-chat-name-placeholder = Введите имя
 nano-chat-job-placeholder = Введите должность (необязательно)
 nano-chat-cancel = Отмена
 nano-chat-create = Создать
-
 # LogProbe additions
 log-probe-scan-nanochat = Просканированы логи NanoChat { $card }
 log-probe-header-access = Сканер журнала доступа

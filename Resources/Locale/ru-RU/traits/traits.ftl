@@ -1,6 +1,6 @@
 trait-name-Blindness = Слепота
 trait-description-Blindness = Вы совершенно слепы и не можете видеть дальше нескольких метров перед собой.
-trait-examined-Blindness =  [color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } глаза остекленелые и расфокусированные. Не похоже, что { SUBJECT($target) } может хорошо вас видеть, если может вообще.[/color]
+trait-examined-Blindness = [color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } глаза остекленелые и расфокусированные. Не похоже, что { SUBJECT($target) } может хорошо вас видеть, если может вообще.[/color]
 trait-name-Narcolepsy = Нарколепсия
 trait-description-Narcolepsy = Вас одолевают приступы сонливости
 trait-name-Pacifist = Пацифист

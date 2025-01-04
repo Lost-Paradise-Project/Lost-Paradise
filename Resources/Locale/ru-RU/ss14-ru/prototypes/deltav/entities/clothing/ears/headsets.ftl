@@ -16,4 +16,3 @@ ent-ClothingHeadsetAdminAssist = Гарнитура Адъютанта
     .desc = Наушники, используемая Адъютантом.
 ent-ClothingHeadsetAltAdminAssist = Полноразмерная гарнитура Адъютанта
     .desc = { ent-ClothingHeadsetAdminAssist.desc }
-

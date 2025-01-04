@@ -4,7 +4,6 @@ cmd-changestocksprice-help = changestockprice <Индекс компании> <�
 cmd-changestocksprice-invalid-company = Не удалось выполнить команду! Неверный индекс компании или новая цена превышает допустимый предел.
 cmd-changestocksprice-invalid-station = На указанной станции не найден рынок акций
 cmd-changestocksprice-no-stations = Не найдено станций с рынками акций
-
 # addstockscompany command
 cmd-addstockscompany-desc = Добавляет новую компанию на рынок акций.
 cmd-addstockscompany-help = addstockscompany <Отображаемое имя> <Основная цена> [UID станции]

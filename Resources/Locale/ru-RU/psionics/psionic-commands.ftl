@@ -21,4 +21,3 @@ command-removeallpsionicpowers-description = Удалить все псиони�
 command-removeallpsionicpowers-help = Аргумент 1 должен быть EntityUid.
 removeallpsionicpowers-args-one-error = Аргумент 1 должен быть EntityUid.
 removeallpsionicpowers-not-psionic-error = Целевая сущность не является Псиоником.
-

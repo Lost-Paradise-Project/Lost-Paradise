@@ -5,3 +5,4 @@ ent-AutodocSyndieCircuitboard = Плата автомедика Синдикат
     .desc = { ent-AutodocCircuitboard.desc }
 ent-OperatingTableCircuitboard = Плата операционного стола
     .desc = Машинная печатная плата для операционного стола.
+

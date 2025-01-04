@@ -20,4 +20,3 @@ ent-LeftFootMonkey = Левая стопа Обезьяны
     .desc = { ent-PartMonkey.desc }
 ent-RightFootMonkey = Правая стопа Обезьяны
     .desc = { ent-PartMonkey.desc }
-

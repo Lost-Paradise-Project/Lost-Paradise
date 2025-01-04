@@ -83,3 +83,5 @@ language-Eldritch-name = Жуткий
 language-Eldritch-description =
     Язык, который считается давно забытым - теперь единственными, кто говорит на этом оскверненном языке визгов и
     бормотания, являются последователи древнего Бога Крови.
+language-Penguin-name = Пингвиний
+language-Penguin-description = Гваа!

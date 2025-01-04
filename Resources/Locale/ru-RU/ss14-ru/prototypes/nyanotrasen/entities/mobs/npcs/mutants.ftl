@@ -5,4 +5,3 @@ ent-MobGiantSpiderVampire = Онейрофаг
 ent-MobGiantSpiderVampireAngry = Онейрофаг
     .suffix = Злой
     .desc = { ent-MobGiantSpiderVampire.desc }
-
