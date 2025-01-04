@@ -113,12 +113,6 @@
     sprite: Clothing/Eyes/Misc/blindfold.rsi
   - type: FlashImmunity
   - type: EyeProtection
-    # component:
-    # - type: NightVision
-    #   toggleAction: null
-    #   activateSound: null
-    #   deactivateSound: null
-    #   color: White
   - type: ShowHealthBars
     damageContainers:
     - Biological

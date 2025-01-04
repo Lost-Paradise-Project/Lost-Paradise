@@ -19,7 +19,7 @@
   - type: Unremoveable
     deleteOnDrop: true
   - type: CultItem
-  - type: DeleteOnDropAttempt
+  - type: DeleteOnDrop
 
 - type: entity
   parent: BaseBloodCultAura
