@@ -3,7 +3,7 @@
   abstract: true
   components:
   - type: Store
-    name: ERT Tactical Shop
+    name: store-preset-name-ert-uplink
     categories:
     - LPPERTWeapon
     - LPPERTAmmo
@@ -20,7 +20,7 @@
   abstract: true
   components:
   - type: Store
-    name: CBURN Tactical Shop
+    name: store-preset-name-cburn-uplink
     categories:
     - LPPCBURNWeapon
     - LPPCBURNAmmo
@@ -36,7 +36,7 @@
   abstract: true
   components:
   - type: Store
-    name: Delta Tactical Shop
+    name: store-preset-name-delta-uplink
     categories:
     - LPPDeltaWeapon
     - LPPDeltaAmmo
@@ -53,7 +53,7 @@
   abstract: true
   components:
   - type: Store
-    name: Head of Security additional supplies
+    name: store-preset-name-security-uplink
     categories:
     - LPPhosweapon
     - LPPhosarmor
@@ -69,7 +69,7 @@
   abstract: true
   components:
   - type: Store
-    name: Syndicate contracts
+    name: store-preset-name-contract-uplink
     categories:
     - LPPcontract
     currencyWhitelist:
@@ -80,7 +80,7 @@
   abstract: true
   components:
   - type: Store
-    name: Cybersun in. goods
+    name: store-preset-name-cybersun-uplink
     categories:
     - LPPspecarmor
     - LPPspecweapon
@@ -99,7 +99,7 @@
   abstract: true
   components:
   - type: Store
-    name: Gorlex co. goods
+    name: store-preset-name-gorlex-uplink
     categories:
     - LPPspecarmorG
     - LPPspecweaponG
@@ -118,7 +118,7 @@
   abstract: true
   components:
   - type: Store
-    name: Donk co. goods
+    name: store-preset-name-donk-uplink
     categories:
     - LPPspecarmorD
     - LPPspecweaponD
