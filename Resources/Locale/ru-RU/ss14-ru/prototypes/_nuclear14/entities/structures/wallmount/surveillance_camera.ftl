@@ -1,3 +1,3 @@
-ent-N14SurveillanceCameraBrotherhoodWashington = camera
-    .suffix = BrotherhoodWashington
+ent-N14SurveillanceCameraBrotherhoodWashington = Камера
+    .suffix = Братство в Вашингтоне
     .desc = { ent-SurveillanceCameraBase.desc }

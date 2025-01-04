@@ -1,2 +1,2 @@
-ent-N14FenceChainGate = fence gate
-    .desc = A gate in the fence to allow access.
+ent-N14FenceChainGate = Ворота
+    .desc = Ворота в заборе для обеспечения доступа за забор.

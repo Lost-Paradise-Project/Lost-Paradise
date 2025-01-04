@@ -1,6 +1,6 @@
-ent-N14FitnessWeightsBench1 = weights bench
-    .desc = A bench for pumping iron.
-ent-N14FitnessWeightLifter = weight lifter
+ent-N14FitnessWeightsBench1 = Скамья для штанги
+    .desc = Скамья для занятий с тяжестями.
+ent-N14FitnessWeightLifter = Штангист
     .desc = { ent-N14FitnessWeightsBench1.desc }
-ent-N14FitnessPunchingBag = punching bag
-    .desc = A punching bag. Let's get big!
+ent-N14FitnessPunchingBag = Боксерская груша
+    .desc = Боксерская груша. Давай накачаемся!
