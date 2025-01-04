@@ -2,7 +2,7 @@
   id: AdministrativeAssistant
   name: job-name-admin-assistant
   description: job-description-admin-assistant
-  playTimeTracker: JobAdminAssistant
+  playTimeTracker: JobLPPАdjutant # JobAdminAssistant # LPP Адъю трекер
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
