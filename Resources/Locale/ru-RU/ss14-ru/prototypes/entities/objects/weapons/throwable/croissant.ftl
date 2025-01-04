@@ -1,3 +1,3 @@
-ent-WeaponCroissant = croissant
-    .desc = Buttery, flaky goodness.
-    .suffix = Weapon
+ent-WeaponCroissant = Круассан
+    .desc = Маслянистый, слоеный вкус.
+    .suffix = Оружие
