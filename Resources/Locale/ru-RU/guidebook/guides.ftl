@@ -38,7 +38,6 @@ guide-entry-chef = Шеф-повар
 guide-entry-foodrecipes = Рецепты еды
 guide-entry-medical = Медицинский отдел
 guide-entry-medicaldoctor = Врач
-guide-entry-surgery = Хирургия
 guide-entry-chemist = Химик
 guide-entry-medicine = Медицина
 guide-entry-brute =
