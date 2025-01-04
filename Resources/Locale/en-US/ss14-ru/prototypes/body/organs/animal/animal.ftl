@@ -14,7 +14,3 @@ ent-OrganAnimalHeart = heart
     .desc = { ent-BaseAnimalOrgan.desc }
 ent-OrganAnimalKidneys = kidneys
     .desc = { ent-BaseAnimalOrgan.desc }
-ent-OrganSpaceAnimalLungs = space animal lungs
-    .desc = { ent-OrganAnimalLungs.desc }
-ent-OrganSpaceAnimalHeart = space animal heart
-    .desc = { ent-OrganAnimalHeart.desc }

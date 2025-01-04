@@ -1,3 +1,5 @@
+ent-BaseAntagSpawner = ghost role spawn point
+    .desc = { ent-MarkerBase.desc }
 ent-SpawnPointGhostRatKing = Спавнер роли призрак
     .suffix = Крысиный король
     .desc = { ent-MarkerBase.desc }

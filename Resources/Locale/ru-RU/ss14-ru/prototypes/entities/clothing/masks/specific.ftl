@@ -6,3 +6,5 @@ ent-ClothingMaskGasVoiceChameleon = { ent-ClothingMaskGasChameleon }
     .desc = { ent-ClothingMaskGasChameleon.desc }
 ent-ClothingMaskWeldingGas = сварочный противогаз
     .desc = Противогаз со встроенными сварочными очками и защитной маской для лица. Выглядит как череп, явно созданный задротом.
+ent-ClothingMaskGoldenCursed = golden mask
+    .desc = Previously used in strange pantomimes, after one of the actors went mad on stage these masks have avoided use. You swear its face contorts when you're not looking.

@@ -14,5 +14,7 @@ borg-ui-modules-label = Модули:
 borg-ui-module-counter = { $actual }/{ $max }
 # Transponder
 borg-transponder-disabled-popup = Мозг вылетает из верхней части { $name }!
+borg-transponder-disabling-popup = Your transponder begins to lock you out of the chassis!
+borg-transponder-destroying-popup = The self destruct of { $name } starts beeping!
 borg-transponder-emagged-disabled-popup = Индикатор вашего транспондера гаснет!
 borg-transponder-emagged-destroyed-popup = Предохранитель вашего транспондера перегорел!

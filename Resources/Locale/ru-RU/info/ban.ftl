@@ -7,8 +7,8 @@ cmd-ban-invalid-severity = { $severity } не является допустим�
 cmd-ban-invalid-arguments = Недопустимое число аргументов
 cmd-ban-hint = <name/user ID>
 cmd-ban-hint-reason = <reason>
-cmd-ban-hint-severity = [severity]
-cmd-ban-hint-duration = [продолжительность]
+cmd-ban-hint-severity =  [severity]
+cmd-ban-hint-duration =  [продолжительность]
 cmd-ban-hint-duration-1 = Навсегда
 cmd-ban-hint-duration-2 = 1 день
 cmd-ban-hint-duration-3 = 3 дня
@@ -74,3 +74,5 @@ ban-panel-erase = Стереть сообщения в чате и игрока 
 server-ban-string-never = никогда
 server-ban-string-no-pii = { $admin } установил серверный бан { $severity } тяжести, который истечёт { $expires } у { $name } с причиной: { $reason }
 cmd-ban_exemption_get-arg-player = <player>
+# Kick on ban
+ban-kick-reason = You have been banned

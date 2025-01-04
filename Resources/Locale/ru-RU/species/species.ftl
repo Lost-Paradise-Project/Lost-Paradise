@@ -12,3 +12,4 @@ species-name-skeleton = Скелет
 species-name-vox = Вокс
 species-name-ipc = КПБ
 species-name-shadowkin = Теневик
+snail-hurt-by-salt-popup = The salty solution burns like acid!

@@ -5,3 +5,6 @@ ent-CrateBaseWeldable = { ent-CrateGeneric }
 ent-CrateBaseSecure = { ent-CrateGeneric }
     .desc = { ent-CrateGeneric.desc }
     .suffix = Защищённый
+ent-CrateBaseSecureReinforced = { ent-CrateBaseSecure }
+    .suffix = Secure, Reinforced
+    .desc = { ent-CrateBaseSecure.desc }

@@ -1,6 +1,6 @@
 trait-name-Blindness = Слепота
 trait-description-Blindness = Вы совершенно слепы и не можете видеть дальше нескольких метров перед собой.
-trait-examined-Blindness = [color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } глаза остекленелые и расфокусированные. Не похоже, что { SUBJECT($target) } может хорошо вас видеть, если может вообще.[/color]
+trait-examined-Blindness =  [color=lightblue]{ CAPITALIZE(POSS-ADJ($target)) } глаза остекленелые и расфокусированные. Не похоже, что { SUBJECT($target) } может хорошо вас видеть, если может вообще.[/color]
 trait-name-Narcolepsy = Нарколепсия
 trait-description-Narcolepsy = Вас одолевают приступы сонливости
 trait-name-Pacifist = Пацифист
@@ -260,6 +260,7 @@ trait-description-LowPotential = Вы обладаете необычайно с
 trait-name-HighPotential = Высокий Пси-потенциал
 trait-description-HighPotential = Ваша связь с ноосферой выше средней, что облегчает получение новых псионических способностей.
 trait-name-LowAmplification = Дефицит kα
+trait-description-LowAmplification = Your psionic abilities are noticeably weaker than ones used by other psions.
 trait-description-LowAmplifiction = Ваши псионические способности заметно слабее, чем у других псиоников.
 trait-name-HighAmplification = Избыток kα
 trait-description-HighAmplification = Ваши псионические способности сильнее, чем у других псиоников.

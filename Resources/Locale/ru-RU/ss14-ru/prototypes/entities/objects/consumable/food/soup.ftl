@@ -86,3 +86,5 @@ ent-FoodSoupElectron = Суп электрон
     .desc = Гастрономическая диковинка неземного происхождения.
 ent-FoodSoupBungo = Карри бунго
     .desc = Острый овощной карри, приготовленный с использованием скромного фрукта бунго. Экзотика!
+ent-FoodSoupEscargot = escargot
+    .desc = A creamy and rich bowl of snails, bon appetit!

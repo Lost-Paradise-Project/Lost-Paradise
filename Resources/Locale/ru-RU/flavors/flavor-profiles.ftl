@@ -126,6 +126,7 @@ flavor-complex-vegetables = как овощи
 
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
 
+flavor-complex-cherry = like cherries
 flavor-complex-pink = как розовый
 flavor-complex-curry = как карри
 flavor-complex-borsch-1 = как борщ
@@ -176,6 +177,11 @@ flavor-complex-violets = как фиалки
 flavor-complex-pyrotton = как горящий рот.
 flavor-complex-mothballs = как шарики нафталина
 flavor-complex-paint-thinner = как растворитель для краски
+flavor-complex-numbing-tranquility = like numbing tranquility
+flavor-complex-true-nature = like the true nature of reality
+flavor-complex-false-meat = not entirely unlike meat
+flavor-complex-paper = like mushy pulp
+flavor-complex-compressed-meat = like compressed meat
 flavor-complex-alcohol = как алкоголь
 flavor-complex-soda = как газировка
 flavor-complex-juice = как сок

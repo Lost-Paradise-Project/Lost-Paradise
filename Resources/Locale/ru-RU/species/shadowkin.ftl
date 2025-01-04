@@ -9,3 +9,4 @@ shadowkin-power-0 = опустошённым
 examine-mindbroken-shadowkin-message = { CAPITALIZE($entity) } кажется с чёрными глазами.
 identity-eye-shadowkin = { $color }-глазый
 shadowkin-blackeye = Я чувствую, как иссякают мои силы...
+shadowkin-tired = I don't have the energy for that.

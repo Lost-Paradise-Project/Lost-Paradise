@@ -54,3 +54,5 @@ ent-ClothingUniformJumpsuitChemShirt = Официальный костюм хи�
     .desc = На этом костюме все еще старые пятная. Хм.
 ent-ClothingUniformJumpsuitProsecutor = Костюм инспектора
     .desc = Красный костюм с нарядным галстуком. Идеально подходит для инспектора.
+ent-ClothingUniformJumpsuitAdminAssistant = administrative assistant's jumpsuit
+    .desc = A suit worn by the Administrative Assistant. Smells of burnt coffee.

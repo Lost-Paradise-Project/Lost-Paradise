@@ -58,6 +58,10 @@ ent-ClothingUniformJumpsuitShkila123PERSONAL = Униформа алой кро�
 ent-LPPWeaponDisablerVayredPERSONAL = Станнер Вайреда
     .desc = Красивый кроваво-красный станнер, на нём видны потёртости. Кажется.. им очень много пользовались.
     .suffix = Личные вещи, Vayred
+ent-LPPWeaponDisablerСyberkotletaPERSONAL = S.O.L.E.I.L
+
+  .desc = Кажется, что оно сейчас взорвётся
+  .suffix = Личные вещи, cyberkotleta
 ent-LPPWeaponDisablerCyberkotletaPERSONAL = S.O.L.E.I.L
     .desc = Кажется, что оно сейчас взорвётся
     .suffix = Личные вещи, cyberkotleta

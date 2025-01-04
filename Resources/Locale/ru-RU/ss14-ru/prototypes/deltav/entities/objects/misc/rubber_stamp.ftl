@@ -8,3 +8,6 @@ ent-RubberStampNotary = Нотариальная печать
     .desc = Старомодная печать для заверения документов. Сделана из бронзового сплава.
 ent-RubberStampChiefJustice = Печать верховного судьи
     .desc = { ent-RubberStampBase.desc }
+ent-RubberStampAdminAssistant = administrative assistant rubber stamp
+    .suffix = DO NOT MAP
+    .desc = { ent-RubberStampBase.desc }

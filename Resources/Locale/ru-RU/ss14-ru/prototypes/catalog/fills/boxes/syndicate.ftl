@@ -8,3 +8,5 @@ ent-ThrowingKnivesKit = Набор метательных ножей
 ent-Observationskit = Набор слежения
     .desc = { ent-BoxCardboard.desc }
     .suffix = Заполненный
+ent-CombatBakeryKit = combat bakery kit
+    .desc = A kit of clandestine baked weapons.

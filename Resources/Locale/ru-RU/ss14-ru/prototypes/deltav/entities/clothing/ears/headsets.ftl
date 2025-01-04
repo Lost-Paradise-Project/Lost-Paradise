@@ -12,3 +12,7 @@ ent-ClothingHeadsetPrison = Тюремная гарнитура
     .desc = Гарнитура, используямая теми, кто хочет иметь прямой контакт с заключёнными.
 ent-ClothingHeadsetPrisonGuard = Гарнитура охранника
     .desc = Гарнитура используемая тюремным охранником.
+ent-ClothingHeadsetAdminAssist = adminstrative assistant headset
+    .desc = A headset used by the administrative assistant.
+ent-ClothingHeadsetAltAdminAssist = adminstrative assistant over-ear headset
+    .desc = { ent-ClothingHeadsetAdminAssist.desc }

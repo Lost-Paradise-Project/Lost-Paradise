@@ -20,6 +20,7 @@ research-technology-super-powercells = Супербатареи
 research-technology-bluespace-storage = Блюспейс-хранилище
 research-technology-portable-fission = Портативный распад
 research-technology-space-scanning = Сканирование космоса
+research-technology-excavation = Mass Excavation
 research-technology-biochemical-stasis = Биохимический стазис
 research-technology-mechanized-treatment = Механизированная подготовка
 research-technology-bluespace-chemistry = Блюспейс-химия

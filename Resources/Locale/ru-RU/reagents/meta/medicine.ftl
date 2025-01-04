@@ -94,3 +94,7 @@ reagent-name-mannitol = маннитол
 reagent-desc-mannitol = Эффективно восстанавливает повреждения головного мозга.
 reagent-name-psicodine = псикоцин
 reagent-desc-psicodine = Подавляет тревогу и другие различные формы психического расстройства. Передозировка вызывает галлюцинации и незначительные повреждения от токсинов.
+reagent-name-potassium-iodide = potassium iodide
+reagent-desc-potassium-iodide = Will reduce the damaging effects of radiation by 90%. Prophylactic use only.
+reagent-name-haloperidol = haloperidol
+reagent-desc-haloperidol = Removes most stimulating and hallucinogenic drugs. Reduces druggy effects and jitteriness. Causes drowsiness.

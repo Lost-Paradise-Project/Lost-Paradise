@@ -8,3 +8,7 @@ ent-NetProbeCartridge = Картридж Зонд сетей
     .desc = Программа для получения адресов и частот сетевых устройств
 ent-LogProbeCartridge = Картридж Зонд логов
     .desc = Программа для получения логов доступа с устройств
+ent-MedTekCartridge = MedTek cartridge
+    .desc = A program that provides medical diagnostic tools.
+ent-AstroNavCartridge = AstroNav cartridge
+    .desc = A program for navigation that provides GPS coordinates.

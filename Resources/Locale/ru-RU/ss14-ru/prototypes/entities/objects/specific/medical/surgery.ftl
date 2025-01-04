@@ -36,3 +36,5 @@ ent-SawAdvanced = Улучшенная циркулярная пила
     .desc = Вы уверены, что с её помощью сможете разрезать всё, что угодно.
 ent-OmnimedTool = Медицинский мультитул
     .desc = { ent-BaseToolSurgery.desc }
+ent-OmnimedToolSyndie = { ent-OmnimedTool }
+    .desc = { ent-OmnimedTool.desc }
