@@ -46,18 +46,18 @@
 #   - !type:AddImplantSpecial
 #     implants: [ MindShieldImplant ]
 
-- type: startingGear
-  id: LPPAdjutantGear
-  equipment:
-    jumpsuit: LPPClothingUniformJumpsuitAdjutant
-    back: ClothingBackpackHOPFilled
-    shoes: ClothingShoesColorBlack
-    id: LPPAdjutantPDA
-    ears: ClothingHeadsetCommand
-    socks: LPPClothingUnderSocksNormBlue
-    underwear: LPPBoxerBlue
-  underwear: LPPBriefsBlue
-  breast: LPPBraAltBlue
-  innerClothingSkirt: LPPClothingUniformJumpskirtAdjutant
-  satchel: ClothingBackpackSatchelHOPFilled
-  duffelbag: ClothingBackpackDuffelHOPFilled
+# - type: startingGear
+#   id: LPPAdjutantGear
+#   equipment:
+#     jumpsuit: LPPClothingUniformJumpsuitAdjutant
+#     back: ClothingBackpackHOPFilled
+#     shoes: ClothingShoesColorBlack
+#     id: LPPAdjutantPDA
+#     ears: ClothingHeadsetCommand
+#     socks: LPPClothingUnderSocksNormBlue
+#     underwear: LPPBoxerBlue
+#   underwear: LPPBriefsBlue
+#   breast: LPPBraAltBlue
+#   innerClothingSkirt: LPPClothingUniformJumpskirtAdjutant
+#   satchel: ClothingBackpackSatchelHOPFilled
+#   duffelbag: ClothingBackpackDuffelHOPFilled
