@@ -6,4 +6,4 @@ altar-failure-reason-user-humanoid = Ты не гуманоид!
 altar-failure-reason-target = { CAPITALIZE(THE($target)) } { CONJUGATE-BE($target) } не псионик!
 altar-failure-reason-target-humanoid = { CAPITALIZE(THE($target)) } { CONJUGATE-BE($target) } не гуманоид!
 altar-failure-reason-target-catatonic = { CAPITALIZE(THE($target)) } { CONJUGATE-BE($target) } с мёртвым мозгом!
-altar-sacrifice-popup = { $user } начинает жертвовать собой { $target }!
+altar-sacrifice-popup = { $user } начинает жертвовать { $target }!

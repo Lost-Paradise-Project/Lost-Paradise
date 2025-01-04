@@ -5,7 +5,7 @@
   description: ert-catalog-weapon-mk58-desc
   productEntity: WeaponPistolMk58
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPERTWeapon
 
@@ -15,7 +15,7 @@
   description: ert-catalog-weapon-wt550-desc
   productEntity: WeaponSubMachineGunWt550
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTWeapon
 
@@ -25,7 +25,7 @@
   description: ert-catalog-weapon-drozd-desc
   productEntity: WeaponSubMachineGunDrozd
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTWeapon
 
@@ -35,7 +35,7 @@
   description: ert-catalog-weapon-lecter-desc
   productEntity: WeaponRifleLecter
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPERTWeapon
 
@@ -45,7 +45,7 @@
   description: ert-catalog-weapon-kammerer-desc
   productEntity: WeaponShotgunKammerer
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTWeapon
 
@@ -55,7 +55,7 @@
   description: ert-catalog-weapon-enforcer-desc
   productEntity: WeaponShotgunEnforcer
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPERTWeapon
 
@@ -65,7 +65,7 @@
   description: ert-catalog-weapon-lasergun-desc
   productEntity: WeaponLaserGun
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTWeapon
 
@@ -75,7 +75,7 @@
   description: ert-catalog-weapon-advancedlaser-desc
   productEntity: WeaponAdvancedLaser
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPERTWeapon
 
@@ -85,7 +85,7 @@
   description: ert-catalog-weapon-pulsepistol-desc
   productEntity: WeaponPulsePistol
   cost:
-    Telecrystal: 6
+    LPPCentcoin: 6
   categories:
   - LPPERTWeapon
 
@@ -95,7 +95,7 @@
   description: ert-catalog-weapon-pulsecarbine-desc
   productEntity: WeaponPulseCarbine
   cost:
-    Telecrystal: 8
+    LPPCentcoin: 8
   categories:
   - LPPERTWeapon
 
@@ -106,7 +106,7 @@
   description: ert-catalog-armor-reflective-desc
   productEntity: ClothingOuterArmorReflective
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPERTArmor
 
@@ -116,7 +116,7 @@
   description: ert-catalog-armor-bulletproof-desc
   productEntity: ClothingOuterArmorBulletproof
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPERTArmor
 
@@ -126,7 +126,7 @@
   description: ert-catalog-armor-heavy-desc
   productEntity: ClothingOuterArmorHeavy
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTArmor
 
@@ -136,7 +136,7 @@
 #  description: ert-catalog-armor-swat-desc
 #  productEntity: LPPClothingOuterHardsuitSWAT
 #  cost:
-#    Telecrystal: 3
+#    LPPCentcoin: 3
 #  categories:
 #  - LPPERTArmor
 
@@ -146,7 +146,7 @@
   description: ert-catalog-armor-officer-hardsuit-desc
   productEntity: ClothingOuterHardsuitERTSecurity
   cost:
-    Telecrystal: 6
+    LPPCentcoin: 6
   categories:
   - LPPERTArmor
 
@@ -156,7 +156,7 @@
   description: ert-catalog-armor-medical-hardsuit-desc
   productEntity: ClothingOuterHardsuitERTMedical
   cost:
-    Telecrystal: 6
+    LPPCentcoin: 6
   categories:
   - LPPERTArmor
 
@@ -166,7 +166,7 @@
   description: ert-catalog-armor-engineer-hardsuit-desc
   productEntity: ClothingOuterHardsuitERTEngineer
   cost:
-    Telecrystal: 6
+    LPPCentcoin: 6
   categories:
   - LPPERTArmor
 
@@ -176,7 +176,7 @@
   description: ert-catalog-armor-janitor-hardsuit-desc
   productEntity: ClothingOuterHardsuitERTJanitor
   cost:
-    Telecrystal: 6
+    LPPCentcoin: 6
   categories:
   - LPPERTArmor
 
@@ -186,7 +186,7 @@
   description: ert-catalog-armor-leader-hardsuit-desc
   productEntity: ClothingOuterHardsuitERTLeader
   cost:
-    Telecrystal: 8
+    LPPCentcoin: 8
   categories:
   - LPPERTArmor
 
@@ -196,7 +196,7 @@
   description: ert-catalog-armor-officer-helmet-desc
   productEntity: ClothingHeadHelmetERTSecurity
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPERTArmor
 
@@ -206,7 +206,7 @@
   description: ert-catalog-armor-medical-helmet-desc
   productEntity: ClothingHeadHelmetERTMedic
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPERTArmor
 
@@ -216,7 +216,7 @@
   description: ert-catalog-armor-engineer-helmet-desc
   productEntity: ClothingHeadHelmetERTEngineer
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPERTArmor
 
@@ -226,7 +226,7 @@
   description: ert-catalog-armor-janitor-helmet-desc
   productEntity: ClothingHeadHelmetERTJanitor
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPERTArmor
 
@@ -236,7 +236,7 @@
   description: ert-catalog-armor-leader-helmet-desc
   productEntity: ClothingHeadHelmetERTLeader
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPERTArmor
 
@@ -246,7 +246,7 @@
   description: ert-catalog-armor-gas-mask-desc
   productEntity: ClothingMaskGasERT
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTArmor
 
@@ -256,7 +256,7 @@
   description: ert-catalog-armor-airtank-desc
   productEntity: AirTankFilled
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPERTArmor
 
@@ -266,7 +266,7 @@
   description: ert-catalog-armor-oxytank-double-desc
   productEntity: DoubleEmergencyOxygenTankFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTArmor
 
@@ -276,7 +276,7 @@
   description: ert-catalog-armor-nitrotank-double-desc
   productEntity: DoubleEmergencyNitrogenTankFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTArmor
 
@@ -286,7 +286,7 @@
   description: ert-catalog-armor-jetpack-desc
   productEntity: JetpackVoidFilled
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTArmor
 
@@ -296,7 +296,7 @@
   description: ert-catalog-armor-magboots-desc
   productEntity: ClothingShoesBootsMagSci
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTArmor
 
@@ -306,7 +306,7 @@
   description: ert-catalog-armor-magboots-adv-desc
   productEntity: ClothingShoesBootsMagAdv
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPERTArmor
 
@@ -316,7 +316,7 @@
 #  description: ert-catalog-armor-hud-sec-desc
 #  productEntity: LPPRedHudGlasses
 #  cost:
-#    Telecrystal: 3
+#    LPPCentcoin: 3
 #  categories:
 #  - LPPERTArmor
 
@@ -326,7 +326,7 @@
 #  description: ert-catalog-armor-hud-seceng-desc
 #  productEntity: LPPClothingEyesHudSecEng
 #  cost:
-#    Telecrystal: 3
+#    LPPCentcoin: 3
 #  categories:
 #  - LPPERTArmor
 
@@ -336,7 +336,7 @@
   description: ert-catalog-armor-hud-secmed-desc
   productEntity: ClothingEyesHudMedSec
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTArmor
 
@@ -347,7 +347,7 @@
   description: ert-catalog-ammo-box-magazine-shotgun-beanbag-desc
   productEntity: BoxMagazineShotgunBeanbag
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPERTAmmo
 
@@ -357,7 +357,7 @@
   description: ert-catalog-ammo-box-magazine-shotgun-slug-desc
   productEntity: BoxMagazineShotgunSlug
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTAmmo
 
@@ -367,7 +367,7 @@
   description: ert-catalog-ammo-box-magazine-shotgun-desc
   productEntity: BoxMagazineShotgun
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTAmmo
 
@@ -377,7 +377,7 @@
 #  description: ert-catalog-ammo-box-magazine-submachine-rubber-desc
 #  productEntity: BoxMagazinePistolSubMachineGunRubber
 #  cost:
-#    Telecrystal: 2
+#    LPPCentcoin: 2
 #  categories:
 #  - LPPERTAmmo
 
@@ -387,7 +387,7 @@
   description: ert-catalog-ammo-box-magazine-submachine-desc
   productEntity: BoxMagazinePistolSubMachineGun
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTAmmo
 
@@ -397,7 +397,7 @@
   description: ert-catalog-ammo-box-magazine-submachine-top-mounted-desc
   productEntity: BoxMagazinePistolSubMachineGunTopMounted
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTAmmo
 
@@ -407,7 +407,7 @@
 #  description: ert-catalog-ammo-box-magazine-rifle-rubber-desc
 #  productEntity: BoxMagazineRifleRubber
 #  cost:
-#    Telecrystal: 2
+#    LPPCentcoin: 2
 #  categories:
 #  - LPPERTAmmo
 
@@ -417,7 +417,7 @@
   description: ert-catalog-ammo-box-magazine-rifle-desc
   productEntity: BoxMagazineRifle
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTAmmo
 
@@ -427,7 +427,7 @@
 #  description: ert-catalog-ammo-box-magazine-pistol-rubber-desc
 #  productEntity: BoxMagazinePistolRubber
 #  cost:
-#    Telecrystal: 1
+#    LPPCentcoin: 1
 #  categories:
 #  - LPPERTAmmo
 
@@ -437,7 +437,7 @@
   description: ert-catalog-ammo-box-magazine-pistol-desc
   productEntity: BoxMagazinePistol
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPERTAmmo
 
@@ -447,7 +447,7 @@
   description: ert-catalog-ammo-belt-desc
   productEntity: ClothingBeltAssault
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTAmmo
 
@@ -457,7 +457,7 @@
   description: ert-catalog-ammo-bandolier-desc
   productEntity: ClothingBeltBandolier
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTAmmo
 
@@ -468,7 +468,7 @@
   description: ert-catalog-medicine-medkit-desc
   productEntity: MedkitFilled
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPERTMedicine
 
@@ -478,7 +478,7 @@
   description: ert-catalog-medicine-medkit-brute-desc
   productEntity: MedkitBruteFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTMedicine
 
@@ -488,7 +488,7 @@
   description: ert-catalog-medicine-medkit-burn-desc
   productEntity: MedkitBurnFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTMedicine
 
@@ -498,7 +498,7 @@
   description: ert-catalog-medicine-medkit-oxygen-desc
   productEntity: MedkitOxygenFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTMedicine
 
@@ -508,7 +508,7 @@
   description: ert-catalog-medicine-medkit-toxin-desc
   productEntity: MedkitToxinFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTMedicine
 
@@ -518,7 +518,7 @@
   description: ert-catalog-medicine-medkit-radiation-desc
   productEntity: MedkitRadiationFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTMedicine
 
@@ -528,7 +528,7 @@
   description: ert-catalog-medicine-medkit-advanced-desc
   productEntity: MedkitAdvancedFilled
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTMedicine
 
@@ -538,7 +538,7 @@
   description: ert-catalog-medicine-medkit-combat-desc
   productEntity: MedkitCombatFilled
   cost:
-    Telecrystal: 6
+    LPPCentcoin: 6
   categories:
   - LPPERTMedicine
 
@@ -548,7 +548,7 @@
   description: ert-catalog-medicine-belt-desc
   productEntity: ClothingBeltMedicalEMTFilled
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTMedicine
 
@@ -558,7 +558,7 @@
   description: ert-catalog-medicine-hypospray-desc
   productEntity: Hypospray
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTMedicine
 
@@ -568,7 +568,7 @@
   description: ert-catalog-medicine-bottle-stimulants-desc
   productEntity: LPPChemistryBottleStimulant
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTMedicine
 
@@ -578,7 +578,7 @@
   description: ert-catalog-medicine-bottle-epinephrine-desc
   productEntity: EpinephrineChemistryBottle
   cost:
-    Telecrystal: 1
+    LPPCentcoin: 1
   categories:
   - LPPERTMedicine
 
@@ -588,7 +588,7 @@
   description: ert-catalog-medicine-bottle-omnizine-desc
   productEntity: OmnizineChemistryBottle
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTMedicine
 
@@ -598,7 +598,7 @@
   description: ert-catalog-medicine-bottle-ephedrine-desc
   productEntity: EphedrineChemistryBottle
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPERTMedicine
 
@@ -609,7 +609,7 @@
   description: ert-catalog-engineering-crate-steel-desc
   productEntity: CrateMaterialSteel
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPERTEngineering
 
@@ -619,7 +619,7 @@
   description: ert-catalog-engineering-crate-glass-desc
   productEntity: CrateMaterialGlass
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPERTEngineering
 
@@ -629,7 +629,7 @@
   description: ert-catalog-engineering-belt-desc
   productEntity: ClothingBeltChiefEngineerFilled
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTEngineering
 
@@ -639,7 +639,7 @@
   description: ert-catalog-engineering-rcd-desc
   productEntity: RCD
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTEngineering
 
@@ -649,7 +649,7 @@
   description: ert-catalog-engineering-rcdammo-desc
   productEntity: RCDAmmo
   cost:
-    Telecrystal: 1
+    LPPCentcoin: 1
   categories:
   - LPPERTEngineering
 
@@ -659,7 +659,7 @@
 #  description: ert-catalog-engineering-hammer-desc
 #  productEntity: LPPHammer
 #  cost:
-#    Telecrystal: 5
+#    LPPCentcoin: 5
 #  categories:
 #  - LPPERTEngineering
 
@@ -669,7 +669,7 @@
   description: ert-catalog-engineering-crowbar-desc
   productEntity: CrowbarRed
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPERTEngineering
 
@@ -680,7 +680,7 @@
   description: ert-catalog-unlethal-boxziptie-desc
   productEntity: BoxZiptie
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPERTUnlethal
 
@@ -690,7 +690,7 @@
   description: ert-catalog-unlethal-grenade-flash-desc
   productEntity: GrenadeFlashBang
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTUnlethal
 
@@ -700,7 +700,7 @@
   description: ert-catalog-unlethal-grenade-stinger-desc
   productEntity: GrenadeStinger
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTUnlethal
 
@@ -710,7 +710,7 @@
   description: ert-catalog-unlethal-grenade-teargas-desc
   productEntity: TearGasGrenade
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTUnlethal
 
@@ -720,7 +720,7 @@
   description: ert-catalog-unlethal-disabler-desc
   productEntity: WeaponDisabler
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPERTUnlethal
 
@@ -730,7 +730,7 @@
   description: ert-catalog-unlethal-disablersmg-desc
   productEntity: WeaponDisablerSMG
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTUnlethal
 
@@ -740,7 +740,7 @@
   description: ert-catalog-unlethal-mindshields-desc
   productEntity: CrateMindShieldImplants
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPERTUnlethal
 
@@ -751,7 +751,7 @@
   description: ert-catalog-implants-tracker-desc
   productEntity: CrateTrackingImplants
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPERTImplants
 
@@ -761,7 +761,7 @@
   description: ert-catalog-implants-freedom-desc
   productEntity: LPPCrateFreedomImplants
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPERTImplants
 
@@ -771,7 +771,7 @@
 #  description: ert-catalog-implants-language-desc
 #  productEntity: LPPCrateLanguageImplants
 #  cost:
-#    Telecrystal: 4
+#    LPPCentcoin: 4
 #  categories:
 #  - LPPERTImplants
 
@@ -784,7 +784,7 @@
 #  description: ert-catalog-allies-borg-eng-desc
 #  productEntity: LPPBorgChassisEngineeringERT
 #  cost:
-#    Telecrystal: 2
+#    LPPCentcoin: 2
 #  categories:
 #  - ERTAllies
 
@@ -794,7 +794,7 @@
 #  description: ert-catalog-allies-borg-med-desc
 #  productEntity: LPPBorgChassisMedicalERT
 #  cost:
-#    Telecrystal: 2
+#    LPPCentcoin: 2
 #  categories:
 #  - ERTAllies
 
@@ -804,6 +804,6 @@
 #  description: ert-catalog-allies-borg-sec-desc
 #  productEntity: LPPDSOBorgSecurity
 #  cost:
-#    Telecrystal: 2
+#    LPPCentcoin: 2
 #  categories:
 #  - ERTAllies

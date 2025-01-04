@@ -1,4 +1,3 @@
-# Corvax-HiddenDesc-Start
 ent-Telecrystal = Красный кристалл
     .desc = Необычные, мерцающие красным кристаллы.
     .suffix = 20 ТК, телекристалл Синдиката
@@ -15,17 +14,21 @@ ent-BaseUplinkRadio = Старое радио
     .desc = Винтажное радио, которое по никому не ясной причине застыло на крайне необычной частоте, со словом «АпЛинк» на лицевой стороне.
     .suffix = Пустой, аплинк синдиката
 ent-BaseUplinkRadio20TC = { ent-BaseUplinkRadio }
-    .suffix = 20 ТК, аплинк синдиката
+    .suffix = 20 ТК, аплинк Синдиката
     .desc = { ent-BaseUplinkRadio.desc }
 ent-BaseUplinkRadio25TC = { ent-BaseUplinkRadio }
-    .suffix = 25 ТК, аплинк синдиката
+    .suffix = 25 ТК, аплинк Синдиката
     .desc = { ent-BaseUplinkRadio.desc }
 ent-BaseUplinkRadio40TC = { ent-BaseUplinkRadio }
-    .suffix = 40 ТК, аплинк синдиката, Ядерный Оперативник
+    .suffix = 40 ТК, аплинк Синдиката, Ядерный Оперативник
+    .desc = { ent-BaseUplinkRadio.desc }
+ent-BaseUplinkRadio60TC = { ent-BaseUplinkRadio }
+    .suffix = 60 ТК, аплинк Синдиката, Лонопс
     .desc = { ent-BaseUplinkRadio.desc }
 ent-BaseUplinkRadioDebug = Радио аплинк Синдиката
     .suffix = ДЕБАГ
     .desc = { ent-BaseUplinkRadio.desc }
-
-# Corvax-HiddenDesc-End
-
+store-preset-name-contract-uplink = Контракты Синдиката
+store-preset-name-cybersun-uplink = Товары Киберсана
+store-preset-name-donk-uplink = Товары Донк
+store-preset-name-gorlex-uplink = Товары Горлекса

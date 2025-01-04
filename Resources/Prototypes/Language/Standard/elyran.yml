@@ -1,6 +1,6 @@
 - type: language
   id: Elyran
-  isvisiblelanguage: true
+  isVisibleLanguage: true
   speech:
     color: "#8282fbaa"
   obfuscation:

@@ -8,3 +8,5 @@ ent-ProsecutorPDA = prosecutor PDA
     .desc = Sharp. Looks like it could prosecute you all on its own.
 ent-SyndiListeningPostPDA = { ent-SyndiPDA }
     .desc = { ent-SyndiPDA.desc }
+ent-AdminAssistantPDA = administrative assistant PDA
+    .desc = Theres pen scribbles all over the edges, and a few sticky notes stuck on it.

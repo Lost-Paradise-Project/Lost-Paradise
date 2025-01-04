@@ -13,7 +13,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: bat
       sprite: Mobs/Animals/bat.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Speech
     speechSounds: Squeak
     speechVerb: SmallMob
@@ -189,8 +189,8 @@
     noMovementLayers:
       movement:
         state: chicken-0
-  #- type: Carriable
-  #  freeHandsRequired: 1
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Fixtures
     fixtures:
       fix1:
@@ -397,8 +397,27 @@
         damageType: Blunt
         damage: 10
       behaviors:
-      - !type:GibBehavior { }
+      - !type:GibBehavior
+        gibContents: Skip
   - type: NonSpreaderZombie
+  - type: LanguageKnowledge
+    speaks: [Hissing]
+    understands: [Hissing]
+
+- type: entity
+  parent: MobCockroach
+  id: MobCockroachPet
+  components:
+  - type: HTN
+    rootTask:
+      task: FollowCompound
+    blackboard:
+      IdleRange: !type:Single
+        1.5
+      FollowCloseRange: !type:Single
+        1.0
+      FollowRange: !type:Single
+        2.0
 
 - type: entity
   name: glockroach
@@ -565,7 +584,26 @@
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
+  - type: SurgeryTarget
+  - type: UserInterface
+    interfaces:
+      enum.SurgeryUIKey.Key:
+        type: SurgeryBui
 
+- type: entity
+  parent: MobMothroach
+  id: MobMothroachPet
+  components:
+  - type: HTN
+    rootTask:
+      task: FollowCompound
+    blackboard:
+      IdleRange: !type:Single
+        1.5
+      FollowCloseRange: !type:Single
+        1.0
+      FollowRange: !type:Single
+        2.0
 
 # Note that the mallard duck is actually a male drake mallard, with the brown duck being the female variant of the same species, however ss14 lacks sex specific textures
 # The white duck is more akin to a pekin or call duck.
@@ -593,8 +631,8 @@
         - MobMask
         layer:
         - MobLayer
-  #- type: Carriable
-  #  freeHandsRequired: 1
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -647,6 +685,11 @@
   - type: RandomBark
     barkType: chicken # Duh
     barkMultiplier: 0.7
+  - type: SurgeryTarget
+  - type: UserInterface
+    interfaces:
+      enum.SurgeryUIKey.Key:
+        type: SurgeryBui
 
 - type: entity
   name: white duck #Quack
@@ -849,8 +892,8 @@
     noMovementLayers:
       movement:
         state: crab
-  #- type: Carriable
-  #  freeHandsRequired: 1
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -902,6 +945,11 @@
     prototype: AnimalHemocyanin
   - type: RandomBark
     barkType: crab
+  - type: SurgeryTarget
+  - type: UserInterface
+    interfaces:
+      enum.SurgeryUIKey.Key:
+        type: SurgeryBui
 
 - type: entity
   name: goat
@@ -915,7 +963,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: goat
       sprite: Mobs/Animals/goat.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Fixtures
     fixtures:
       fix1:
@@ -993,6 +1041,11 @@
   - type: HTN
     rootTask:
       task: RuminantHostileCompound
+  - type: SurgeryTarget
+  - type: UserInterface
+    interfaces:
+      enum.SurgeryUIKey.Key:
+        type: SurgeryBui
 
 # Note that we gotta make this bitch vomit someday when you feed it anthrax or sumthin. Needs to be a small item thief too and aggressive if attacked.
 - type: entity
@@ -1007,7 +1060,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: goose
       sprite: Mobs/Animals/goose.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Fixtures
     fixtures:
       fix1:
@@ -1208,6 +1261,12 @@
   abstract: true
   components:
   - type: CombatMode
+  # Shitmed Change Start
+  - type: SurgeryTarget
+  - type: Targeting
+  - type: HumanoidAppearance
+    species: Monkey
+  # Shitmed Change End
   - type: Inventory
     templateId: monkey
     speciesId: monkey
@@ -1235,38 +1294,61 @@
     interfaces:
       enum.StrippingUiKey.Key:
         type: StrippableBoundUserInterface
+      enum.SurgeryUIKey.Key:
+        type: SurgeryBui
   - type: Sprite
     drawdepth: Mobs
     layers:
-    - map: ["enum.DamageStateVisualLayers.Base"]
-      state: monkey
-      sprite: Mobs/Animals/monkey.rsi
-    - map: [ "jumpsuit" ]
-    - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
+    # Shitmed Change Start
+    - map: [ "enum.HumanoidVisualLayers.Chest" ]
+    - map: [ "enum.HumanoidVisualLayers.Head" ]
+    - map: [ "enum.HumanoidVisualLayers.Snout" ]
+    - map: [ "enum.HumanoidVisualLayers.Eyes" ]
+    - map: [ "enum.HumanoidVisualLayers.RArm" ]
+    - map: [ "enum.HumanoidVisualLayers.LArm" ]
+    - map: [ "enum.HumanoidVisualLayers.RLeg" ]
+    - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+    - map: ["jumpsuit"]
+    - map: ["enum.HumanoidVisualLayers.LFoot"]
+    - map: ["enum.HumanoidVisualLayers.RFoot"]
+    - map: ["enum.HumanoidVisualLayers.LHand"]
+    - map: ["enum.HumanoidVisualLayers.RHand"]
+    - map: ["enum.HumanoidVisualLayers.Handcuffs"]
       color: "#ffffff"
       sprite: Objects/Misc/handcuffs.rsi
       state: body-overlay-2
       visible: false
+    - map: [ "gloves" ]
+    - map: [ "shoes" ]
     - map: [ "ears" ]
     - map: [ "outerClothing" ]
+    - map: [ "eyes" ]
+    - map: [ "belt" ]
     - map: [ "id" ]
+    - map: [ "neck" ]
+    - map: [ "back" ]
+    - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
+    - map: [ "enum.HumanoidVisualLayers.Hair" ]
+    - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
+    - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
+    - map: [ "enum.HumanoidVisualLayers.Tail" ]
     - map: [ "mask" ]
     - map: [ "head" ]
-    - map: [ "clownedon" ]
-      sprite: "Effects/creampie.rsi"
-      state: "creampie_human"
-      visible: false
-  #- type: Carriable
+    - map: [ "pocket1" ]
+    - map: [ "pocket2" ]
+    # Shitmed Change End
+  - type: Carriable
   - type: Hands
+  - type: ComplexInteraction
   - type: GenericVisualizer
     visuals:
       enum.CreamPiedVisuals.Creamed:
         clownedon:
           True: {visible: true}
           False: {visible: false}
-  - type: Body
-    prototype: Primate
-    requiredLegs: 1 # TODO: More than 1 leg
+  - type: Body # Shitmed Change
+    prototype: Monkey
+    requiredLegs: 2
   - type: CreamPied
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
@@ -1339,7 +1421,7 @@
     description: ghost-role-information-monkey-description
   - type: GhostTakeoverAvailable
   - type: Clumsy
-    clumsyDamage:
+    gunShootFailDamage:
       types:
         Blunt: 5
         Piercing: 4
@@ -1390,8 +1472,7 @@
   components:
     # make the player a traitor once its taken
   - type: AutoTraitor
-    giveUplink: false
-    giveObjectives: false
+    profile: TraitorReinforcement
 
 - type: entity
   id: MobMonkeySyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink
@@ -1457,47 +1538,6 @@
     coldDamageThreshold: 285
     currentTemperature: 310.15
     specificHeat: 42
-  - type: Sprite
-    drawdepth: Mobs
-    layers:
-    - map: ["enum.DamageStateVisualLayers.Base"]
-      sprite: Mobs/Animals/kobold.rsi
-      state: kobold
-    - map: [ "outline" ]
-      sprite: Mobs/Animals/kobold.rsi
-      state: outline
-    - map: [ "horns" ]
-      sprite: Mobs/Customization/reptilian_parts.rsi
-      state: horns_short
-    - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
-      color: "#ffffff"
-      sprite: Objects/Misc/handcuffs.rsi
-      state: body-overlay-2
-      visible: false
-    - map: [ "ears" ]
-    - map: [ "id" ]
-    - map: [ "mask" ]
-    - map: [ "head" ]
-    - map: [ "clownedon" ]
-      sprite: "Effects/creampie.rsi"
-      state: "creampie_human"
-      visible: false
-  - type: RandomSprite
-    getAllGroups: true
-    available:
-      - enum.DamageStateVisualLayers.Base:
-          kobold: KoboldColors
-      - horns:
-          horns_curled: KoboldHornColors
-          horns_ram: KoboldHornColors
-          horns_short: KoboldHornColors
-          horns_myrsore: KoboldHornColors
-          horns_bighorn: KoboldHornColors
-          horns_argali: KoboldHornColors
-          horns_ayrshire: KoboldHornColors
-          horns_floppy_kobold_ears: Inherit
-          horns_double: Inherit
-          horns_kobold_ears: Inherit
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -1515,6 +1555,13 @@
   - type: RandomBark
     barkMultiplier: 0.65
     barkType: kobold
+  # Shitmed Change Start
+  - type: HumanoidAppearance
+    species: Kobold
+  - type: Body
+    prototype: Kobold
+    requiredLegs: 2
+  # Shitmed Change End
 
 - type: entity
   name: kobold
@@ -1523,7 +1570,7 @@
   description: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
   components:
   - type: Clumsy
-    clumsyDamage:
+    gunShootFailDamage:
       types:
         Blunt: 2
         Piercing: 7
@@ -1555,8 +1602,7 @@
   components:
     # make the player a traitor once its taken
   - type: AutoTraitor
-    giveUplink: false
-    giveObjectives: false
+    profile: TraitorReinforcement
 
 - type: entity
   id: MobKoboldSyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink
@@ -1568,7 +1614,7 @@
 - type: entity
   name: guidebook monkey
   parent: MobMonkey
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   id: MobGuidebookMonkey
   description: A hopefully helpful monkey whose only purpose in life is for you to click on. Does this count as having a monkey give you a tutorial?
   components:
@@ -1698,6 +1744,7 @@
     tags:
     - Trash
     - VimPilot
+    - ChefPilot
     - Mouse
     - Meat
   - type: Respirator
@@ -1728,10 +1775,6 @@
   - type: FelinidFood # Nyanotrasen - Felinid, ability to eat mice, see Content.Server/Nyanotrasen/Abilities/Felinid/FelinidSystem.cs
   - type: BadFood
   - type: NonSpreaderZombie
-  - type: PreventSpiller
-  - type: RandomBark
-    barkMultiplier: 0.3
-    barkType: mouse
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
@@ -1739,6 +1782,31 @@
     whitelist:
       types:
       - Landmine
+  - type: SurgeryTarget
+  - type: UserInterface
+    interfaces:
+      enum.SurgeryUIKey.Key:
+        type: SurgeryBui
+  - type: FoodSequenceElement
+    entries:
+      Taco: RatTaco
+      Burger: RatBurger
+      Skewer: RatSkewer
+
+- type: entity
+  parent: MobMouse
+  id: MobMousePet
+  components:
+  - type: HTN
+    rootTask:
+      task: FollowCompound
+    blackboard:
+      IdleRange: !type:Single
+        1.5
+      FollowCloseRange: !type:Single
+        1.0
+      FollowRange: !type:Single
+        2.0
 
 - type: entity
   parent: MobMouse
@@ -1792,6 +1860,9 @@
         Base: dead-1
       Dead:
         Base: splat-1
+  - type: Item
+    size: Tiny
+    heldPrefix: 1
 
 - type: entity
   parent: MobMouse
@@ -1818,6 +1889,44 @@
         Base: dead-2
       Dead:
         Base: splat-2
+  - type: Item
+    size: Tiny
+    heldPrefix: 2
+
+- type: entity
+  name: cancer mouse
+  description: Toxic. Squeak!
+  parent: MobMouse
+  id: MobMouseCancer
+  components:
+  - type: Sprite
+    color: LightGreen
+  - type: PointLight
+    color: LightGreen
+    radius: 5
+    energy: 5
+    netsync: false
+  - type: RadiationSource
+    intensity: 0.3
+  - type: Bloodstream
+    bloodReagent: UnstableMutagen
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: UncookedAnimalProteins
+          Quantity: 3
+        - ReagentId: Uranium
+          Quantity: 10
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatRat
+      amount: 1
+    - id: SheetUranium1
+      amount: 1
+  - type: Damageable
+    damageContainer: Biological
+    damageModifierSet: Zombie
 
 - type: entity
   name: lizard #Weh
@@ -1834,7 +1943,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: lizard
       sprite: Mobs/Animals/lizard.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -1889,8 +1998,8 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: slug
       sprite: Mobs/Animals/slug.rsi
-  #- type: Carriable
-  #  freeHandsRequired: 1
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -1943,7 +2052,7 @@
     noMovementLayers:
       movement:
         state: frog
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -1997,8 +2106,8 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: parrot
       sprite: Mobs/Animals/parrot.rsi
-  #- type: Carriable
-  #  freeHandsRequired: 1
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Fixtures
     fixtures:
       fix1:
@@ -2054,7 +2163,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: penguin
       sprite: Mobs/Animals/penguin.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2091,6 +2200,7 @@
     factions:
     - Passive
   - type: Temperature
+    atmosTemperatureTransferEfficiency: 0.04
     heatDamageThreshold: 335
     coldDamageThreshold: 230
     currentTemperature: 310.15
@@ -2104,6 +2214,9 @@
   - type: RandomBark
     barkType: penguin
     barkMultiplier: 0.6
+  - type: LanguageKnowledge
+    speaks: [Penguin]
+    understands: [Penguin]
 
 - type: entity
   name: grenade penguin
@@ -2187,7 +2300,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: snake
       sprite: Mobs/Animals/snake.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2224,6 +2337,9 @@
     minTime: 10
     maxTime: 50 # It's a sssnake...
     barkType: hissing
+  - type: LanguageKnowledge
+    speaks: [Hissing]
+    understands: [Hissing]
 
 # Code unique spider prototypes or combine them all into one spider and get a
 # random sprite state when you spawn it.
@@ -2246,7 +2362,7 @@
     noMovementLayers:
       movement:
         state: tarantula
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2333,7 +2449,7 @@
     - DoorBumpOpener
     - FootstepSound
   - type: Tool # Open door from xeno.yml.
-    speed: 1.5
+    speedModifier: 1.5
     qualities:
       - Prying
     useSound:
@@ -2361,6 +2477,11 @@
   - type: BloodSucker
     webRequired: true
   - type: Cocooner
+  - type: SurgeryTarget
+  - type: UserInterface
+    interfaces:
+      enum.SurgeryUIKey.Key:
+        type: SurgeryBui
 
 - type: entity
   name: tarantula
@@ -2455,7 +2576,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: possum
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2538,7 +2659,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: raccoon
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2610,7 +2731,7 @@
     noMovementLayers:
       movement:
         state: fox
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2694,7 +2815,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: corgi
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Speech
     speechVerb: Canine
@@ -2852,7 +2973,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: cat
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -3070,8 +3191,8 @@
         Base: kitten_dead
       Dead:
         Base: kitten_dead
-  #- type: Carriable
-  #  freeHandsRequired: 1
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Butcherable
     spawned:
     - id: FoodMeat
@@ -3113,7 +3234,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: sloth
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -3176,7 +3297,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: ferret
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -3334,6 +3455,7 @@
   - type: Tag
     tags:
     - VimPilot
+    - ChefPilot
     - Trash
     - Hamster
     - Meat
@@ -3379,6 +3501,21 @@
     normalState: Mouse_burning
 
 - type: entity
+  parent: MobHamster
+  id: MobHamsterPet
+  components:
+  - type: HTN
+    rootTask:
+      task: FollowCompound
+    blackboard:
+      IdleRange: !type:Single
+        1.5
+      FollowCloseRange: !type:Single
+        1.0
+      FollowRange: !type:Single
+        2.0
+
+- type: entity
   name: pig
   parent: SimpleMobBase
   id: MobPig
@@ -3390,7 +3527,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: pig
       sprite: Mobs/Animals/pig.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Fixtures
     fixtures:
       fix1:
@@ -3466,7 +3603,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: nymph
       sprite: Mobs/Animals/nymph.rsi
-  #- type: Carriable
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:

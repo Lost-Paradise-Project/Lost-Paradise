@@ -19,6 +19,9 @@ chat-emote-name-chirp = Чирикать
 chat-emote-name-beep = Бипикать
 chat-emote-name-chime = Звенеть
 chat-emote-name-buzztwo = Дважды жужжать
+# Silicon
+chat-emote-name-boop = Boop
+chat-emote-name-whirr = Whirr
 chat-emote-name-ping = Пинговать
 chat-emote-name-sneeze = Чихать
 chat-emote-name-cough = Кашлять
@@ -28,6 +31,24 @@ chat-emote-name-monkeyscreeches = Визжать по обезьяньи
 chat-emote-name-robotbeep = Робо бип
 chat-emote-name-yawn = Зевать
 chat-emote-name-snore = Храпеть
+# Harpy
+chat-emote-name-harpyring = Ring
+chat-emote-name-harpypew = Pew
+chat-emote-name-harpybang = Bang
+chat-emote-name-harpyrev = Rev
+chat-emote-name-harpycaw = Caw
+# Vulp
+chat-emote-name-tailwag = Wag Tail
+chat-emote-name-vulpbark = Bark
+chat-emote-name-vulpsnarl = Snarl
+chat-emote-name-vulpwhine = Whine
+chat-emote-name-vulphowl = Howl
+# Felinid
+chat-emote-name-meow = Meow
+chat-emote-name-mew = Mew
+chat-emote-name-purr = Purr
+chat-emote-name-hisses = Hiss
+chat-emote-name-growl = Growl
 chat-emote-name-mars = Марс
 chat-emote-name-wurble = Журчать
 # Message

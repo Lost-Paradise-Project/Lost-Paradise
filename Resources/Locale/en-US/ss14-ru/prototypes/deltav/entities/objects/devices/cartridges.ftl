@@ -4,3 +4,7 @@ ent-SecWatchCartridge = sec watch cartridge
     .desc = A cartridge that tracks the status of currently wanted individuals.
 ent-MailMetricsCartridge = mail metrics cartridge
     .desc = A cartridge that tracks statistics related to mail deliveries.
+ent-StockTradingCartridge = StockTrading cartridge
+    .desc = A cartridge that tracks the intergalactic stock market.
+ent-NanoChatCartridge = NanoChat cartridge
+    .desc = Lets you message other people!
