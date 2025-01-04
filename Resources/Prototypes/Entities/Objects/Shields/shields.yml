@@ -475,6 +475,8 @@
         - SecurityCadet
         - SecurityOfficer
         - Warden
+        - LPPSecurityEngineer
+        - Brigmedic
         - Captain
       - label: corvax-hidden-desc-EnergyShield-cargo
         jobRequired:

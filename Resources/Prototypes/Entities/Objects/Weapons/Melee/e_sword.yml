@@ -118,6 +118,8 @@
       - SecurityCadet
       - SecurityOfficer
       - Warden
+      - LPPSecurityEngineer
+      - Brigmedic
       - Captain
     - label: corvax-hidden-desc-EnergySword-cargo
       jobRequired:

@@ -27,6 +27,7 @@
       jobRequired:
       - Paramedic
       - MedicalDoctor
+      - Brigmedic
       - ChiefMedicalOfficer
 # Corvax-HiddenDesc-End
 
@@ -56,6 +57,7 @@
       jobRequired:
       - Paramedic
       - MedicalDoctor
+      - Brigmedic
       - ChiefMedicalOfficer
 # Corvax-HiddenDesc-End
 

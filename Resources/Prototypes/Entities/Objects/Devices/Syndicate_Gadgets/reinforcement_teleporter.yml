@@ -36,6 +36,7 @@
       - AtmosphericTechnician
       - StationEngineer
       - TechnicalAssistant
+      - LPPSecurityEngineer
     - label: corvax-hidden-desc-ReinforcementRadio-research
       jobRequired:
       - ResearchAssistant
@@ -123,6 +124,7 @@
         - AtmosphericTechnician
         - StationEngineer
         - TechnicalAssistant
+        - LPPSecurityEngineer
       - label: corvax-hidden-desc-ReinforcementRadio-research
         jobRequired:
         - ResearchAssistant
