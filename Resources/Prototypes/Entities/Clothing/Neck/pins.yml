@@ -1,17 +1,17 @@
-# - type: entity
-#   parent: ClothingNeckBase
-#   id: ClothingNeckPinBase
-#   abstract: true
-#   name: pin
-#   description: be nothing do crime
-#   components:
-#   - type: Item
-#     size: Tiny
-#   - type: DamageOtherOnHit
-#     damage:
-#       types:
-#         Blunt: 1
-#     staminaCost: 1
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckPinBase
+  abstract: true
+  name: pin
+  description: be nothing do crime
+  components:
+  - type: Item
+    size: Tiny
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 1
+    staminaCost: 1
 
 # - type: entity
 #   parent: ClothingNeckPinBase
