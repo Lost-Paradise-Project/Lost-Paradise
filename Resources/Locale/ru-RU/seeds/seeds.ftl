@@ -1,11 +1,11 @@
-# Nouns
+# Существительные
 seeds-noun-seeds = семян
 seeds-noun-spores = спор
-# Seeds
+# Семена
 seeds-wheat-name = пшеница
 seeds-wheat-display-name = стебли пшеницы
-seeds-meatwheat-name = meatwheat
-seeds-meatwheat-display-name = meatwheat stalks
+seeds-meatwheat-name = мясница
+seeds-meatwheat-display-name = стебли мясницы
 seeds-oat-name = овёс
 seeds-oat-display-name = стебли овса
 seeds-banana-name = банан
@@ -130,5 +130,5 @@ seeds-pyrotton-name = пиротон
 seeds-pyrotton-display-name = куст пиротона
 seeds-capfruit-name = capfruit
 seeds-capfruit-display-name = capfruit tree
-seeds-cherry-name = cherry
-seeds-cherry-display-name = cherry tree
+seeds-cherry-name = вишня
+seeds-cherry-display-name = вишнёвое дерево

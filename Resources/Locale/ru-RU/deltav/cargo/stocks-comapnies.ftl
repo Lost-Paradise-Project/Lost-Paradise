@@ -1,7 +1,7 @@
 # Company names used for stocks trading
-stock-trading-company-nanotrasen = Nanotrasen [NT]
-stock-trading-company-gorlex = Gorlex [GRX]
-stock-trading-company-interdyne = Interdyne Pharmaceuticals [INTP]
-stock-trading-company-fishinc = Fish Inc. [FIN]
-stock-trading-company-donk = Donk Co. [DONK]
-stock-trading-company-hydroco = HydroCo [HYD]
+stock-trading-company-nanotrasen = НаноТрейзен [NT]
+stock-trading-company-gorlex = Горлекс [GRX]
+stock-trading-company-interdyne = Интердайне Фармацевтика [INTP]
+stock-trading-company-fishinc = Фиш Инк. [FIN]
+stock-trading-company-donk = Донк Ко. [DONK]
+stock-trading-company-hydroco = ГидроКо [HYD]

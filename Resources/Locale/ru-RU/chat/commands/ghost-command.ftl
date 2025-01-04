@@ -1,6 +1,6 @@
-ghost-command-description = Give up on life and become a ghost.
+ghost-command-description = Откажитесь от жизни и станьте призраком.
 ghost-command-help-text =
-    The ghost command turns you into a ghost and makes the character you played permanently catatonic.
-    Please note that you cannot return to your character's body after ghosting.
-ghost-command-no-session = You have no session, you can't ghost.
-ghost-command-denied = You cannot ghost right now.
+    Команда "призрак" превращает вас в призрака и делает персонажа, которым вы играли, постоянно кататоничным.
+    Обратите внимание, что вы не можете вернуться в тело вашего персонажа после того, как станете призраком.
+ghost-command-no-session = У вас нет сессии, вы не можете стать призраком.
+ghost-command-denied = Вы не можете стать призраком прямо сейчас.

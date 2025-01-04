@@ -8,5 +8,5 @@ ent-ProsecutorPDA = КПК Инспектора
     .desc = Дерзкий дизайн. Выглядит так, словно он готов вести чьё-то судебное дело.
 ent-SyndiListeningPostPDA = { ent-SyndiPDA }
     .desc = { ent-SyndiPDA.desc }
-ent-AdminAssistantPDA = administrative assistant PDA
-    .desc = Theres pen scribbles all over the edges, and a few sticky notes stuck on it.
+ent-AdminAssistantPDA = КПК Адъютанта
+    .desc = По краям что-то нацарапано ручкой, и к нему приклеено несколько стикеров.

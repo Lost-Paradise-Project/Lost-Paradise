@@ -1,7 +1,5 @@
-
-
-ent-MeleeDebugBurner = bang burner
-    .desc = burn yer parts
-    .suffix = DEBUG
-ent-MeleeDebugBurner200 = bang burner 200dmg
+ent-MeleeDebugBurner = Бэнг поджигатель
+    .desc = Сожги свои части
+    .suffix = ДЕБАГ
+ent-MeleeDebugBurner200 = Бэнг поджигатель 200дмг
     .desc = { ent-MeleeDebugBurner.desc }

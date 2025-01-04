@@ -345,8 +345,8 @@
     - type: Tending
     duration: 1
   - type: Sprite
-    sprite: _Shitmed/Objects/Specific/Medical/Surgery/hemostat.rsi
-    state: hemostat
+    sprite: _Shitmed/Objects/Specific/Medical/Surgery/retractor.rsi
+    state: retractor
   - type: SurgeryTendWoundsEffect
     mainGroup: Burn
     damage:

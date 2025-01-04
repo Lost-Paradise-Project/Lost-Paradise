@@ -1,8 +1,8 @@
-ent-N14WallRockIndestructible = rock
-    .suffix = Indestructible
+ent-N14WallRockIndestructible = Камень
+    .suffix = Неразрушимый
     .desc = { ent-BaseStructure.desc }
-ent-N14BaseFenceIndestructible = fence
-    .desc = Helps keep trespassers out.
-ent-N14WallFenceChainMapBoundary = chainlink fence
-    .suffix = Indestructible
+ent-N14BaseFenceIndestructible = Забор
+    .desc = Помогает держать нарушителей подальше.
+ent-N14WallFenceChainMapBoundary = Зацепной забор
+    .suffix = Неразрушимый
     .desc = { ent-N14BaseFenceIndestructible.desc }

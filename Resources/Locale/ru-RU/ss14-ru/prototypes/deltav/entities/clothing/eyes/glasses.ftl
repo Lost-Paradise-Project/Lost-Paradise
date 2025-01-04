@@ -1,4 +1,4 @@
-ent-ClothingEyesGlassesChemist = Очки безопасности
+ent-ClothingEyesGlassesChemist = Защитные очки
     .desc = Очки предназначены для химиков и других работников, имеющих дело с едкими реагентами.
-ent-ClothingEyesGlassesGarMeson = gar mesons
-    .desc = Do the impossible, see the invisible!
+ent-ClothingEyesGlassesGarMeson = Оптический мезон-сканер
+    .desc = Делайте невозможное, видьте невидимое!

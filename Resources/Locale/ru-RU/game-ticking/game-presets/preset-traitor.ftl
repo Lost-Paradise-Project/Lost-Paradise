@@ -39,7 +39,8 @@ traitor-role-codewords-short =
     Кодовые слова:
     { $codewords }.
 traitor-role-uplink-implant =
-    Your uplink implant has been activated, access it from your hotbar.
-    The uplink is secure unless someone removes it from your body.
+    Ваш имплант аплинка был активирован, доступ к нему можно получить через вашу панель быстрого доступа.
+    Аплинк защищен, пока кто-то не удалит его из вашего тела.
 traitor-role-uplink-code-short = Ваш код аплинка: { $code }. Установите его в качестве рингтона КПК для доступа к аплинку.
-traitor-role-uplink-implant-short = Your uplink was implanted. Access it from your hotbar.
+traitor-role-uplink-implant-short = Ваш аплинк был имплантирован. Доступ к нему можно получить через вашу панель быстрого доступа.
+

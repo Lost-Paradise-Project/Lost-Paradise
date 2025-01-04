@@ -1,2 +1,2 @@
-lathe-menu-mining-points = Mining Points: { $points }
-lathe-menu-mining-points-claim-button = Claim Points
+lathe-menu-mining-points = Шахтёрские очки: { $points }
+lathe-menu-mining-points-claim-button = Забрать очки

@@ -1,8 +1,8 @@
-ent-N14WallmountVent = vent
-    .desc = An airvent. Could be a good stash.
+ent-N14WallmountVent = Вентиляция
+    .desc = Вентиляционная решетка. Может быть хорошим тайником.
 ent-N14WallmountVentDamaged = { ent-N14WallmountVent }
-    .suffix = damaged
+    .suffix = Повреждено
     .desc = { ent-N14WallmountVent.desc }
 ent-N14WallmountVentOpen = { ent-N14WallmountVent }
-    .suffix = open
+    .suffix = Открыто
     .desc = { ent-N14WallmountVent.desc }

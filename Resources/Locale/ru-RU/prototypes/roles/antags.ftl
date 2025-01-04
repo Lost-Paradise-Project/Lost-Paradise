@@ -1,7 +1,7 @@
 roles-antag-syndicate-agent-name = Агент Синдиката
 roles-antag-syndicate-agent-objective = Выполните свои задачи и не попадитесь.
-roles-antag-syndicate-agent-sleeper-name = Syndicate sleeper agent
-roles-antag-syndicate-agent-sleeper-objective = A form of syndicate agent that can activate at any point in the middle of the shift.
+roles-antag-syndicate-agent-sleeper-name = Спящий Агент Синдиката
+roles-antag-syndicate-agent-sleeper-objective = Вариация Агента Синдиката, который может активироваться в любой момент в течение смены.
 roles-antag-initial-infected-name = Нулевой заражённый
 roles-antag-initial-infected-objective = После превращения заразите как можно больше других членов экипажа.
 roles-antag-zombie-name = Зомби

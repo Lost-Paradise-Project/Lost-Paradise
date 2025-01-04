@@ -28,20 +28,20 @@ book-text-ame-scribbles =
     Поставите больше - и это приведёт к перегреву ДАМ, что в конечном итоге вызовет взрыв. Давайте без этого.
     Не забывайте заправлять ДАМ, так как топливо имеет тенденцию заканчиваться в самый неподходящий момент.
 book-text-combat-bakery-kit =
-    Thank you for choosing our combat bakery kit!
-    Enclosed are two (2) CyberSun patented Throwing Croissants, and one (1) patent-pending Baguette Sword.
-    The included Donk Co. microwave board can construct a microwave capable of baking more weapons.
-    Just like the baked weapons, be sure to eat this note after use. Good luck, agent.
-    
-    Baguette Sword Recipe:
-    Dough x 1
-    Salt 5u
-    Pepper 5u
-    Metal Rod x 1
-    Cook Time: 15 seconds
-    
-    Throwing Croissant Recipe:
-    Raw Croissant x 1
-    Butter Slice x 1
-    Glass Shard x 1
-    Cook Time: 5 seconds
+    Спасибо, что выбрали наш комплект боевого пекаря!
+    В комплект входят два (2) запатентованных киберсановских Бросковых Круассана и один (1) патентующийся Меч-Багет.
+    Включенная микроволновая плата Donk Co. может собрать микроволновку, способную выпекать больше оружия.
+    Как и с выпеченным оружием, не забудьте съесть эту записку после использования. Удачи, агент.
+
+    Рецепт Меча-Багета:
+    Тесто x 1
+    Соль 5u
+    Перец 5u
+    Металлический прут x 1
+    Время готовки: 15 секунд
+
+    Рецепт Броскового Круассана:
+    Сырой круассан x 1
+    Ломтик масла x 1
+    Осколок стекла x 1
+    Время готовки: 5 секунд

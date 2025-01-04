@@ -1,10 +1,8 @@
-
-
-ent-OrganGoliathHeart = goliath heart
+ent-OrganGoliathHeart = Сердце Голиафа
     .desc = { ent-OrganAnimalHeart.desc }
-ent-OrganDragonLungs = dragon lungs
+ent-OrganDragonLungs = Легкие Дракона
     .desc = { ent-OrganAnimalLungs.desc }
-ent-OrganLaserEyes = laser raptor eyes
+ent-OrganLaserEyes = Лазерные глаза Раптора
     .desc = { ent-OrganHumanEyes.desc }
-ent-OrganCobraHeart = cobra gland
+ent-OrganCobraHeart = Железа Кобры
     .desc = { ent-OrganAnimalHeart.desc }

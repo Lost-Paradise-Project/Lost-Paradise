@@ -1,8 +1,7 @@
-ent-AutodocCircuitboard = autodoc machine board
-    .desc = A machine printed circuit board for an autodoc.
-ent-AutodocSyndieCircuitboard = { ent-AutodocCircuitboard }
-    .suffix = Syndie
+ent-AutodocCircuitboard = Плата автомедика
+    .desc = Машинная печатная плата для автомедика.
+ent-AutodocSyndieCircuitboard = Плата автомедика Синдиката
+    .suffix = Синди
     .desc = { ent-AutodocCircuitboard.desc }
-ent-OperatingTableCircuitboard = operating table machine board
-    .desc = A machine printed circuit board for an operating table.
-
+ent-OperatingTableCircuitboard = Плата операционного стола
+    .desc = Машинная печатная плата для операционного стола.

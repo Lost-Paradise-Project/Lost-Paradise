@@ -1,2 +1,2 @@
 job-supervisors-cj = Верховный Судья
-job-supervisors-command = all command staff
+job-supervisors-command = Всё снаряжение Командования

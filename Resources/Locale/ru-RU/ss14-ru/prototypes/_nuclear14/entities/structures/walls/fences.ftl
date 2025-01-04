@@ -1,4 +1,4 @@
-ent-N14BaseFence = fence
-    .desc = Helps keep trespassers out.
-ent-N14WallFenceChain = chainlink fence
+ent-N14BaseFence = Забор
+    .desc = Помогает держать нарушителей подальше.
+ent-N14WallFenceChain = Зацепной забор
     .desc = { ent-N14BaseFence.desc }

@@ -52,17 +52,17 @@ job-name-visitor = Посетитель
 # unused jobs
 # these are required for the agent ID job icon tooltips
 # I am keeping them for roleplaying opportunities
-job-name-geneticist = Geneticist
-job-name-no-id = No ID
-job-name-prisoner = Prisoner
-job-name-syndicate = Syndicate
-job-name-unknown = Unknown
-job-name-virologist = Virologist
-job-name-zombie = Zombie
+job-name-geneticist = Генетик
+job-name-no-id = Без ID
+job-name-prisoner = Заключённый
+job-name-syndicate = Синдикат
+job-name-unknown = Неизвестно
+job-name-virologist = Вирусолог
+job-name-zombie = Зомби
 # Job titles
-job-title-visitor = Visitor
-job-title-cluwne = Cluwne
-job-title-universal = Universal
+job-title-visitor = Посетитель
+job-title-cluwne = Клувень
+job-title-universal = Универсальный
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Атмосферный Техник
 JobBartender = Бармен

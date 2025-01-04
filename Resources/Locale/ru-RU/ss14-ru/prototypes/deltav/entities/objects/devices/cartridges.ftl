@@ -4,7 +4,8 @@ ent-SecWatchCartridge = Картридж СБ
     .desc = Картридж, который отслеживает статус лиц, находящихся в настоящее время в розыске.
 ent-MailMetricsCartridge = Картридж почты
     .desc = Картридж, отслеживающий статистику доставки почты.
-ent-StockTradingCartridge = StockTrading cartridge
-    .desc = A cartridge that tracks the intergalactic stock market.
-ent-NanoChatCartridge = NanoChat cartridge
-    .desc = Lets you message other people!
+ent-StockTradingCartridge = Картридж Торговли акциями
+    .desc = Картридж, который отслеживает межгалактический фондовый рынок.
+ent-NanoChatCartridge = картридж NanoChat
+    .desc = Позволяет отправлять сообщения другим людям!
+

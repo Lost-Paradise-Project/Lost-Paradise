@@ -1,24 +1,24 @@
-## UI field names
+## Названия полей UI
 
-power-charge-window-status = Status:
-power-charge-window-power = Power:
-power-charge-window-eta = ETA:
-power-charge-window-charge = Charge:
+power-charge-window-status = Статус:
+power-charge-window-power = Мощность:
+power-charge-window-eta = Время до завершения:
+power-charge-window-charge = Заряд:
 
-## UI statuses
+## Статусы UI
 
-power-charge-window-status-fully-charged = Fully Charged
-power-charge-window-status-off = Off
-power-charge-window-status-charging = Charging
-power-charge-window-status-discharging = Discharging
+power-charge-window-status-fully-charged = Полностью заряжено
+power-charge-window-status-off = Выключено
+power-charge-window-status-charging = Заряжается
+power-charge-window-status-discharging = Разряжается
 
-## UI Power Buttons
+## Кнопки питания UI
 
-power-charge-window-power-on = On
-power-charge-window-power-off = Off
-power-charge-window-power-label = { $draw } / { $max } W
+power-charge-window-power-on = Включено
+power-charge-window-power-off = Выключено
+power-charge-window-power-label = { $draw } / { $max } Вт
 
-## UI ETA label
+## Метка ETA
 
-power-charge-window-eta-none = N/A
-power-charge-window-eta-value = { TOSTRING($left, "m\\:ss") }
+power-charge-window-eta-none = Не применимо
+power-charge-window-eta-value = { TOSTRING($left, "м\\:сс") }

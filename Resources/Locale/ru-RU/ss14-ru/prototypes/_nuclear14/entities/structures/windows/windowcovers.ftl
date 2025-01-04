@@ -1,8 +1,8 @@
-ent-N14BarricadeWindow = barricade
-    .desc = A makeshift barricade.
-ent-N14BarricadeDoor = locked door
-    .desc = A locked door. Might have to break it down.
-ent-N14WindowBars = window bars
-    .desc = Sturdy looking bars blocking access.
+ent-N14BarricadeWindow = Баррикада
+    .desc = Временная баррикада.
+ent-N14BarricadeDoor = Запертая дверь
+    .desc = Запертая дверь. Возможно, придется ее сломать.
+ent-N14WindowBars = Решетки на окне
+    .desc = Прочные решетки, блокирующие доступ.
 ent-N14WindowBars2 = { ent-N14WindowBars }
     .desc = { ent-N14WindowBars.desc }
