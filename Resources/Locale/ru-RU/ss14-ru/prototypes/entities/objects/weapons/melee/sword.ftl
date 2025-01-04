@@ -1,5 +1,5 @@
-ent-BaseSword = Sword
-    .desc = A sharp sword.
+ent-BaseSword = Меч
+    .desc = Острый меч.
 ent-CaptainSabre = Капитанская сабля
     .desc = Церемониальное оружие, принадлежащее капитану станции.
 ent-Katana = Катана

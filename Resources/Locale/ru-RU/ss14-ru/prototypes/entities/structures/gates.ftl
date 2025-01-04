@@ -1,7 +1,7 @@
 ent-BaseLogicItem = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
-ent-LogicGateOr = logic gate
-    .desc = A logic gate with two inputs and one output. Technicians can change its mode of operation using a screwdriver.
+ent-LogicGateOr = Логический вентиль
+    .desc = Логический элемент с двумя входами и одним выходом. Технический персонал может изменить режим его работы с помощью отвертки.
     .suffix = Or
 ent-LogicGateAnd = { ent-LogicGateOr }
     .suffix = And

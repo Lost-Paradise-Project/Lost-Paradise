@@ -1,9 +1,9 @@
-ent-Pickaxe = pickaxe
-    .desc = Notched to perfection, for jamming it into rocks.
-ent-MiningDrill = mining drill
-    .desc = Powerful tool used to quickly drill through rocks.
-ent-MiningDrillDiamond = diamond tipped mining drill
-    .desc = A significantly more efficient mining drill tipped with diamond.
+ent-Pickaxe = Кирка
+    .desc = Заточена до совершенства для втыкания в камни.
+ent-MiningDrill = Шахтёрский бур
+    .desc = Мощный инструмент, используемый для быстрого бурения через камни.
+ent-MiningDrillDiamond = Алмазный шахтёрский бур
+    .desc = Существенно более эффективный шахтёрский бур с алмазным наконечником.
 ent-BaseWeaponCrusher = Крушитель
     .desc = Ранняя версия протокинетического ускорителя.
 ent-WeaponCrusher = { ent-BaseWeaponCrusher }

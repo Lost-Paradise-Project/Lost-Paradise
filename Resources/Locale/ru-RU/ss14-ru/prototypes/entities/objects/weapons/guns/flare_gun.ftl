@@ -1,4 +1,4 @@
 ent-WeaponFlareGun = Сигнальный пистолет
     .desc = Компактный, однозарядный пистолет стреляющий ружейными патронами.
-ent-WeaponFlareGunSecurity = security shell gun
-    .desc = A modified flare gun originally designed to be used by security to launch non-lethal shotgun shells, however it can also fire lethal shells without risk.
+ent-WeaponFlareGunSecurity = Сигнальный пистолет СБ
+    .desc = Модифицированный фальшфейр, изначально предназначенный для использования охраной для запуска неопасных картечей, однако он также может стрелять смертельными патронами без риска.
