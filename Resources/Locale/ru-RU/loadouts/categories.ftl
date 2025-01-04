@@ -83,3 +83,4 @@ loadout-category-Species = Расовые
 loadout-category-Hands = Руки
 loadout-category-Uniform = Униформа
 loadout-category-Neck = Шея
+loadout-category-JobsCommandAdminAssistant = Адъютант
