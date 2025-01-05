@@ -36,3 +36,5 @@ ent-Sheetifier = sheet-meister 2000
     .desc = A very sheety machine.
 ent-PrizeCounter = prize counter
     .desc = Claim your prize and win some toys and cute plushies!
+ent-MedicalBiofabricator = medical biofabricator
+    .desc = Produces organs and other organic matter that can be surgically grafted onto patients with biomass.

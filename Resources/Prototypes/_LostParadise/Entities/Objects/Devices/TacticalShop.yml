@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseItem
+  parent: [ BaseItem, LPPStorePresetERT ]
   id: LPPERTUplinkShop
   name: Operation Planning Tablet
   description: A tablet of DSO officers with access to the bluespace of the sector's storage
@@ -17,12 +17,14 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetERT
     balance:
-      Telecrystal: 100
+      LPPCentcoin: 100
+  - type: Tag
+    tags:
+    - LPPERTUplink
 
 - type: entity
-  parent: BaseItem
+  parent: [ BaseItem, LPPStorePresetCBURN ]
   id: LPPCBURNUplinkShop
   name: Operation Planning Tablet
   description: A tablet of DSO officers with access to the bluespace of the sector's storage
@@ -40,12 +42,14 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetCBURN
     balance:
-      Telecrystal: 100
+      LPPCentcoin: 100
+  - type: Tag
+    tags:
+    - LPPCBURNUplink
 
 - type: entity
-  parent: BaseItem
+  parent: [ BaseItem, LPPStorePresetDelta ]
   id: LPPDeltaUplinkShop
   name: Operation Planning Tablet
   description: A tablet of DSO officers with access to the bluespace of the sector's storage
@@ -63,12 +67,14 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetDelta
     balance:
-      Telecrystal: 100
+      LPPCentcoin: 100
+  - type: Tag
+    tags:
+    - LPPDeltaUplink
 
 - type: entity
-  parent: BaseItem
+  parent: [ BaseItem, LPPStorePresetHOS ]
   id: LPPHOSUplinkShop
   name: Security Purchase Tablet
   description: A tablet for the Head of Security, which allows you to purchase equipment for yourself.
@@ -84,9 +90,11 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetHOS
     balance:
-      LPPCentcoin: 12
+      LPPCentcoin: 15
+  - type: Tag
+    tags:
+    - LPPHOSUplink
 
 - type: currency
   id: LPPCentcoin

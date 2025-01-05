@@ -2,7 +2,7 @@
 # TODO: Replace this with a much better language.
 - type: language
   id: Bubblish
-  isvisiblelanguage: true
+  isVisibleLanguage: true
   speech:
     color: "#00a3e2dd"
     fontId: RubikBubbles

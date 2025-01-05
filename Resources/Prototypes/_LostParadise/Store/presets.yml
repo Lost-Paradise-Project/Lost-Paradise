@@ -1,109 +1,133 @@
-- type: storePreset
+- type: entity
   id: LPPStorePresetERT
-  storeName: ERT Tactical Shop
-  categories:
-  - LPPERTWeapon
-  - LPPERTAmmo
-  - LPPERTArmor
-  - LPPERTMedicine
-  - LPPERTEngineering
-  - LPPERTUnlethal
-  - LPPERTImplants
-  currencyWhitelist:
-  - Telecrystal
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-ert-uplink
+    categories:
+    - LPPERTWeapon
+    - LPPERTAmmo
+    - LPPERTArmor
+    - LPPERTMedicine
+    - LPPERTEngineering
+    - LPPERTUnlethal
+    - LPPERTImplants
+    currencyWhitelist:
+    - LPPCentcoin
 
-- type: storePreset
+- type: entity
   id: LPPStorePresetCBURN
-  storeName: CBURN Tactical Shop
-  categories:
-  - LPPCBURNWeapon
-  - LPPCBURNAmmo
-  - LPPCBURNArmor
-  - LPPCBURNMedicine
-  - LPPCBURNEngineering
-  - LPPCBURNImplants
-  currencyWhitelist:
-  - Telecrystal
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-cburn-uplink
+    categories:
+    - LPPCBURNWeapon
+    - LPPCBURNAmmo
+    - LPPCBURNArmor
+    - LPPCBURNMedicine
+    - LPPCBURNEngineering
+    - LPPCBURNImplants
+    currencyWhitelist:
+    - LPPCentcoin
 
-- type: storePreset
+- type: entity
   id: LPPStorePresetDelta
-  storeName: Delta Tactical Shop
-  categories:
-  - LPPDeltaWeapon
-  - LPPDeltaAmmo
-  - LPPDeltaArmor
-  - LPPDeltaMedicine
-  - LPPDeltaEngineering
-  - LPPDeltaUnlethal
-  - LPPDeltaImplants
-  currencyWhitelist:
-  - Telecrystal
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-delta-uplink
+    categories:
+    - LPPDeltaWeapon
+    - LPPDeltaAmmo
+    - LPPDeltaArmor
+    - LPPDeltaMedicine
+    - LPPDeltaEngineering
+    - LPPDeltaUnlethal
+    - LPPDeltaImplants
+    currencyWhitelist:
+    - LPPCentcoin
 
-- type: storePreset
+- type: entity
   id: LPPStorePresetHOS
-  storeName: Head of Security additional supplies
-  categories:
-  - LPPhosweapon
-  - LPPhosarmor
-  - LPPhosammo
-  - LPPhosbrigmed
-  - LPPhosbrigtech
-  - LPPmisc
-  currencyWhitelist:
-  - LPPCentcoin
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-security-uplink
+    categories:
+    - LPPhosweapon
+    - LPPhosarmor
+    - LPPhosammo
+    - LPPhosbrigmed
+    - LPPhosbrigtech
+    - LPPmisc
+    currencyWhitelist:
+    - LPPCentcoin
 
-- type: storePreset
+- type: entity
   id: LPPStorePresetContract
-  storeName: Syndicate contracts
-  categories:
-  - LPPcontract
-  currencyWhitelist:
-  - Telecrystal
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-contract-uplink
+    categories:
+    - LPPcontract
+    currencyWhitelist:
+    - Telecrystal
 
-- type: storePreset
+- type: entity
   id: LPPStorePresetCybersunUplinks
-  storeName: Cybersun in. goods
-  categories:
-  - LPPspecarmor
-  - LPPspecweapon
-  - LPPspecammo
-  - LPPspecexplosives
-  - LPPspectools
-  - LPPspecimplants
-  - LPPspecutilities
-  - LPPspecmisc
-  - LPPKeycards
-  currencyWhitelist:
-  - Telecrystal
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-cybersun-uplink
+    categories:
+    - LPPspecarmor
+    - LPPspecweapon
+    - LPPspecammo
+    - LPPspecexplosives
+    - LPPspectools
+    - LPPspecimplants
+    - LPPspecutilities
+    - LPPspecmisc
+    - LPPKeycards
+    currencyWhitelist:
+    - Telecrystal
 
-- type: storePreset
+- type: entity
   id: LPPStorePresetGorlexUplinks
-  storeName: Gorlex co. goods
-  categories:
-  - LPPspecarmorG
-  - LPPspecweaponG
-  - LPPspecammoG
-  - LPPspecexplosivesG
-  - LPPspectoolsG
-  - LPPspecimplantsG
-  - LPPspecutilitiesG
-  - LPPspecmiscG
-  - LPPKeycards
-  currencyWhitelist:
-  - Telecrystal
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-gorlex-uplink
+    categories:
+    - LPPspecarmorG
+    - LPPspecweaponG
+    - LPPspecammoG
+    - LPPspecexplosivesG
+    - LPPspectoolsG
+    - LPPspecimplantsG
+    - LPPspecutilitiesG
+    - LPPspecmiscG
+    - LPPKeycards
+    currencyWhitelist:
+    - Telecrystal
 
-- type: storePreset
+- type: entity
   id: LPPStorePresetDonkUplinks
-  storeName: Donk co. goods
-  categories:
-  - LPPspecarmorD
-  - LPPspecweaponD
-  - LPPspecammoD
-  - LPPspecexplosivesD
-  - LPPspectoolsD
-  - LPPspecimplantsD
-  - LPPspecutilitiesD
-  - LPPspecmiscD
-  - LPPKeycards
-  currencyWhitelist:
-  - Telecrystal
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-donk-uplink
+    categories:
+    - LPPspecarmorD
+    - LPPspecweaponD
+    - LPPspecammoD
+    - LPPspecexplosivesD
+    - LPPspectoolsD
+    - LPPspecimplantsD
+    - LPPspecutilitiesD
+    - LPPspecmiscD
+    - LPPKeycards
+    currencyWhitelist:
+    - Telecrystal

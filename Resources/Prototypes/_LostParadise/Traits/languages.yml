@@ -2,50 +2,32 @@
   id: ElfLanguage
   category: TraitsSpeechLanguages
   points: 0
-  languagesSpoken:
-  - ElfLang
-  languagesUnderstood:
-  - ElfLang
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: false
-    species:
-    - Human
-  - !type:CharacterTraitRequirement
-    inverted: true
-    traits:
-    - DwarfLanguage
-    - ForeignerLight
-    - Foreigner
-    - SignLanguage
-    - SolCommon
-    - Tradeband
-    - Freespeak
-    - Elyran
-    - ValyrianStandard
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesBasic
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - ElfLang
+      languagesUnderstood:
+        - ElfLang
 
 - type: trait
   id: DwarfLanguage
   category: TraitsSpeechLanguages
   points: 0
-  languagesSpoken:
-  - DwarfLang
-  languagesUnderstood:
-  - DwarfLang
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: false
-    species:
-    - Human
-  - !type:CharacterTraitRequirement
-    inverted: true
-    traits:
-    - DwarfLanguage
-    - ForeignerLight
-    - Foreigner
-    - SignLanguage
-    - SolCommon
-    - Tradeband
-    - Freespeak
-    - Elyran
-    - ValyrianStandard
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesBasic
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Human
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - DwarfLang
+      languagesUnderstood:
+        - DwarfLang

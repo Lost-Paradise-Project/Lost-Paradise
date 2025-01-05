@@ -61,6 +61,7 @@
         - AtmosphericTechnician
         - StationEngineer
         - TechnicalAssistant
+        - LPPSecurityEngineer
       - label: corvax-hidden-desc-PowerSink-research
         jobRequired:
         - ResearchAssistant

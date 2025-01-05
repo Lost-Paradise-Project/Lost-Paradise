@@ -17,6 +17,9 @@
 - type: markingPoints
   id: MobFelinidMarkingLimits
   points:
+    Face:
+      points: 1
+      required: false
     Hair:
       points: 1
       required: false
@@ -50,11 +53,11 @@
       points: 2
       required: false
     RightHand:
-      points: 2
+      points: 3
       required: false
     LeftArm:
       points: 2
       required: false
     LeftHand:
-      points: 2
+      points: 3
       required: false

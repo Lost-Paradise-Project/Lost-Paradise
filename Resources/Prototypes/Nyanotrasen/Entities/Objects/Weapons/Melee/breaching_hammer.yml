@@ -11,7 +11,7 @@
   - type: Item
     size: Huge
   - type: MeleeWeapon
-    attackRate: 0.75
+    attackRate: 1.3333
     range: 1.70
     damage:
       types:
@@ -24,6 +24,8 @@
 #  - type: MeleeStaminaCost
 #    swing: 10
 #    wieldCoefficient: 0.5 #if wielded you will only consume 5
+  - type: DamageOtherOnHit
+    staminaCost: 12
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
@@ -34,7 +36,7 @@
   - type: Tool
     qualities:
       - Prying
-    speed: 0.8
+    speedModifier: 0.8
   - type: Prying
     pryPowered: !type:Bool
       true
@@ -47,5 +49,3 @@
     quickEquip: false
     slots:
     - back
-
-

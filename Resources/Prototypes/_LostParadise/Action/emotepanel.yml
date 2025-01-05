@@ -1,7 +1,8 @@
 # - type: entity
 #   id: LPPActionEmotePanelToggle
 #   name: Toggle Emote Panel
-#   noSpawn: true
+#   categories: [ HideSpawnMenu ]
+
 #   components:
 #   - type: InstantAction
 #     useDelay: 0.1

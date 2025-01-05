@@ -1,0 +1,11 @@
+ent-N14WellBoarded = Заколоченный Колодец
+    .desc = Это Колодец, Который Заколотили. Может быть, Лом Раскроет Его Тайны.
+ent-N14WellWaterClean = Колодец С Водой
+    .desc = Колодец. Надеюсь, На Дне Есть Вода. И Будем Надеяться, Что Она Чистая.
+    .suffix = Чистая
+ent-N14WellWaterDirty = { ent-N14WellWaterClean }
+    .suffix = Грязная
+    .desc = { ent-N14WellWaterClean.desc }
+ent-N14WellWaterIrradiated = { ent-N14WellWaterClean }
+    .suffix = Радиоактивная
+    .desc = { ent-N14WellWaterClean.desc }

@@ -43,6 +43,11 @@
             False: { visible: false }
     - type: Speech
       speechVerb: Robotic
+    - type: ItemToggle
+      soundActivate:
+        path: /Audio/Items/Defib/defib_safety_on.ogg
+      soundDeactivate:
+        path: /Audio/Items/Defib/defib_safety_off.ogg
     - type: StaticPrice
       price: 50
 
