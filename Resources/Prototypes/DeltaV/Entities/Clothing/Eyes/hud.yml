@@ -18,7 +18,6 @@
   - type: ShowHealthIcons
     damageContainers:
     - Biological
-  - type: VisionCorrection # LPP
   - type: Tag
     tags:
     - HudMedical
@@ -37,7 +36,6 @@
   - type: Construction
     graph: PrescriptionSecHud
     node: prescsechud
-  - type: VisionCorrection #LPP
   - type: Tag
     tags:
     - HudSecurity
