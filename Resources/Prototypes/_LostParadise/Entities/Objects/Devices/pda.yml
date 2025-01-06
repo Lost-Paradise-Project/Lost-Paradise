@@ -44,7 +44,7 @@
   description: Adjutant PDA.
   components:
   - type: Pda
-    id: AdminAssistantIDCard # LPPAdjutantIDCard
+    id: LPPAdjutantIDCard
     state: pda-clear
   - type: Icon
     state: pda-clear

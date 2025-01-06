@@ -40,8 +40,8 @@
     - state: subdepartment
       color: "#1B67A5"
     - state: idheadofpersonnel
-  - type: PresetIdCard
-    job: LPPAdjutant
+    - type: PresetIdCard
+      job: AdministrativeAssistant
 
 - type: entity
   parent: IDCardStandard
