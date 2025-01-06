@@ -18,7 +18,7 @@
           state: rock_asteroid_north
         - map: [ "enum.EdgeLayer.West" ]
           state: rock_asteroid_west
-        - state: ore_diamond
+        - state: rock_diamond
 
 - type: entity
   id: LPPWallRockOreDiamond
