@@ -1,0 +1,16 @@
+ent-LPPStorePresetERT = { "" }
+    .desc = { "" }
+ent-LPPStorePresetCBURN = { "" }
+    .desc = { "" }
+ent-LPPStorePresetDelta = { "" }
+    .desc = { "" }
+ent-LPPStorePresetHOS = { "" }
+    .desc = { "" }
+ent-LPPStorePresetContract = { "" }
+    .desc = { "" }
+ent-LPPStorePresetCybersunUplinks = { "" }
+    .desc = { "" }
+ent-LPPStorePresetGorlexUplinks = { "" }
+    .desc = { "" }
+ent-LPPStorePresetDonkUplinks = { "" }
+    .desc = { "" }

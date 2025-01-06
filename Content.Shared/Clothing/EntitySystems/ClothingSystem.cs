@@ -137,6 +137,11 @@ public abstract class ClothingSystem : EntitySystem
         component.InSlot = args.Slot;
         CheckEquipmentForLayerHide(args.Equipment, args.Equipee);
 
+        if (_tagSystem.HasTag(args.Equipment, TailTag))
+        {
+            _humanoidSystem.SetLayerVisibility(args.Equipee, HumanoidVisualLayers.Tail, false);
+        }
+
         if ((component.Slots & args.SlotFlags) != SlotFlags.NONE)
         {
             var gotEquippedEvent = new ClothingGotEquippedEvent(args.Equipee, component);
@@ -160,10 +165,10 @@ public abstract class ClothingSystem : EntitySystem
 
         component.InSlot = null;
         CheckEquipmentForLayerHide(args.Equipment, args.Equipee);
-        if ((new string[] { "outerClothing" }).Contains(args.Slot) && _tagSystem.HasTag(args.Equipee, TailTag) && _tagSystem.HasTag(args.Equipment, TailTag))
+
+        if (_tagSystem.HasTag(args.Equipment, TailTag))
         {
             _humanoidSystem.SetLayerVisibility(args.Equipee, HumanoidVisualLayers.Tail, true);
-            TryComp(args.Equipee, out AppearanceComponent? appearance);
         }
     }
 
@@ -177,7 +182,7 @@ public abstract class ClothingSystem : EntitySystem
         if (args.Current is ClothingComponentState state)
         {
             SetEquippedPrefix(uid, state.EquippedPrefix, component);
-            if (component.InSlot != null && _containerSys.TryGetContainingContainer(uid, out var container))
+            if (component.InSlot != null && _containerSys.TryGetContainingContainer((uid, null, null), out var container))
             {
                 CheckEquipmentForLayerHide(uid, container.Owner);
             }
@@ -259,7 +264,7 @@ public abstract class ClothingSystem : EntitySystem
 
         clothing.ClothingVisuals = otherClothing.ClothingVisuals;
         clothing.EquippedPrefix = otherClothing.EquippedPrefix;
-        clothing.RsiPath = otherClothing.RsiPath;
+        clothing.Sprite = otherClothing.Sprite;
         clothing.FemaleMask = otherClothing.FemaleMask;
 
         _itemSys.VisualsChanged(uid);

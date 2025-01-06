@@ -1,0 +1,660 @@
+- type: listing
+  id: LPPUplinkupgrwebbingG
+  name: uplink-catalog-armor-homyak-name
+  description: uplink-catalog-armor-homyak-desc
+  icon: { sprite: /Textures/_LostParadise/Clothing/Belt/upgrwebbing.rsi, state: icon }
+  productEntity: LPPClothingBeltMaximumWebbing
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPspecarmorG
+  # saleLimit: 2
+
+- type: listing
+  id: LPPUplinkEswordG
+  name: uplink-esword-name
+  description: uplink-esword-desc
+  icon: { sprite: /Textures/Objects/Weapons/Melee/e_sword.rsi, state: icon }
+  productEntity: EnergySword
+  cost:
+    Telecrystal: 10
+  categories:
+  - LPPspecweaponG
+  # saleLimit: 2
+
+- type: listing
+  id: LPPUplinkEBroadswordG
+  name: uplink-ebroadsword-name
+  description: uplink-ebroadsword-desc
+  icon: { sprite: /Textures/_LostParadise/Objects/Weapons/Melee/e_swordbig.rsi, state: icon }
+  productEntity: LPPEnergyBroadsword
+  cost:
+    Telecrystal: 16
+  categories:
+  - LPPspecweaponG
+  # saleLimit: 2
+
+- type: listing
+  id: LPPUplinkSniperG
+  name: uplink-sniper-name
+  description: uplink-sniper-desc
+  productEntity: LPPClothingBackpackDuffelGorlexSniper
+  cost:
+    Telecrystal: 12
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkM90rifleG
+  name: uplink-m90-rifle-name
+  description: uplink-m90-rifle-desc
+  productEntity: LPPClothingBackpackDuffelGorlexRifleM90
+  cost:
+    Telecrystal: 18
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkM90MPG
+  name: uplink-m90-mp-name
+  description: uplink-m90-mp-desc
+  productEntity: LPPClothingBackpackDuffelGorlexM90
+  cost:
+    Telecrystal: 17
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkMAC21G
+  name: uplink-mac21-name
+  description: uplink-mac21-desc
+  productEntity: LPPClothingBackpackDuffelGorlexMAC21
+  cost:
+    Telecrystal: 16
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkSTG144G
+  name: uplink-stg144-name
+  description: uplink-stg144-desc
+  productEntity: LPPClothingBackpackDuffelGorlexSTG144
+  cost:
+    Telecrystal: 19
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkC20rG
+  name: uplink-c20r-name
+  description: uplink-c20r-desc
+  productEntity: LPPClothingBackpackDuffelGorlexC20r
+  cost:
+    Telecrystal: 16
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkBulldogG
+  name: uplink-bulldog-name
+  description: uplink-bulldog-desc
+  productEntity: LPPClothingBackpackDuffelGorlexBulldog
+  cost:
+    Telecrystal: 18
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkBCR25rG
+  name: uplink-bcr25r-name
+  description: uplink-bcr25r-desc
+  productEntity: LPPClothingBackpackDuffelGorlexBCR25r
+  cost:
+    Telecrystal: 18
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkAtreidesrG
+  name: uplink-atreides-name
+  description: uplink-atreides-desc
+  productEntity: LPPClothingBackpackDuffelGorlexAtreides
+  cost:
+    Telecrystal: 17
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkChinalakeG
+  name: uplink-chinalake-name
+  description: uplink-chinalake-desc
+  productEntity: LPPClothingBackpackDuffelGorlexChinalake
+  cost:
+    Telecrystal: 30
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkStoner25G
+  name: uplink-stoner25-name
+  description: uplink-stoner25-desc
+  productEntity: LPPClothingBackpackDuffelGorlexStoner25
+  cost:
+    Telecrystal: 30
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkCobraG
+  name: uplink-cobra-name
+  description: uplink-cobra-desc
+  productEntity: WeaponPistolCobra
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkPythonG
+  name: uplink-python-name
+  description: uplink-python-desc
+  productEntity: ClothingBackpackDuffelSyndicateFilledRevolver
+  cost:
+    Telecrystal: 14
+  categories:
+  - LPPspecweaponG
+
+- type: listing
+  id: LPPUplinkHighcapacitepistolG
+  name: uplink-ammunition-highcapacitepistol-name
+  description: uplink-ammunition-highcapacitepistol-desc
+  productEntity: MagazinePistolHighCapacity
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkCaselessrifleG
+  name: uplink-ammunition-caselessrifle-name
+  description: uplink-ammunition-caselessrifle-desc
+  productEntity: MagazineCaselessRifleShort
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkAntimaterielG
+  name: uplink-sniper-ammo-name
+  description: uplink-sniper-ammo-desc
+  productEntity: MagazineBoxAntiMateriel
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkLightrifleG
+  name: uplink-ammunition-lightrifle-name
+  description: uplink-ammunition-lightrifle-desc
+  productEntity: MagazineLightRifle
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkRifleG
+  name: uplink-ammunition-rifle-name
+  description: uplink-ammunition-rifle-desc
+  productEntity: MagazineRifle
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkCaselespistolG
+  name: uplink-ammunition-caselespistol-name
+  description: uplink-ammunition-caselespistol-desc
+  productEntity: MagazinePistolCaselessRifle
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkSmgBaseG
+  name: uplink-pistolsmg-magazine-name
+  description: uplink-pistolsmg-magazine-desc
+  productEntity: MagazinePistolSubMachineGun
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkShotgunG
+  name: uplink-shotgun-ammo-name
+  description: uplink-shotgun-ammo-desc
+  productEntity: MagazineShotgun
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkAmmunitionG
+  name: uplink-ammunition-gorlex-name
+  description: uplink-ammunition-gorlex-desc
+  productEntity: LPPClothingBackpackDuffelGorlexAmmobundle
+  cost:
+    Telecrystal: 12
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkExplosiveGrenadeG
+  name: uplink-explosive-grenade-name
+  description: uplink-explosive-grenade-desc
+  productEntity: ExGrenade
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPspecexplosivesG
+
+- type: listing
+  id: LPPUplinkExplosiveGrenadeFlashG
+  name: uplink-flash-grenade-name
+  description: uplink-flash-grenade-desc
+  productEntity: GrenadeFlashBang
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecexplosivesG
+
+- type: listing
+  id: LPPUplinkSmokeGrenadeG
+  name: uplink-smoke-grenade-name
+  description: uplink-smoke-grenade-desc
+  productEntity: SmokeGrenade
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecexplosivesG
+
+- type: listing
+  id: LPPUplinkSyndieMiniBombG
+  name: uplink-mini-bomb-name
+  description: uplink-mini-bomb-desc
+  productEntity: SyndieMiniBomb
+  cost:
+    Telecrystal: 6
+  categories:
+    - LPPspecexplosivesG
+
+- type: listing
+  id: LPPUplinkSupermatterGrenadeG
+  name: uplink-supermatter-grenade-name
+  description: uplink-supermatter-grenade-desc
+  productEntity: SupermatterGrenade
+  cost:
+    Telecrystal: 6
+  categories:
+    - LPPspecexplosivesG
+
+- type: listing
+  id: LPPUplinkWhiteholeGrenadeG
+  name: uplink-whitehole-grenade-name
+  description: uplink-whitehole-grenade-desc
+  productEntity: WhiteholeGrenade
+  cost:
+    Telecrystal: 3
+  categories:
+    - LPPspecexplosivesG
+
+- type: listing
+  id: LPPUplinkGrenadePenguinG
+  name: uplink-penguin-grenade-name
+  description: uplink-penguin-grenade-desc
+  productEntity: MobGrenadePenguin
+  cost:
+    Telecrystal: 5
+  categories:
+    - LPPspecexplosivesG
+
+- type: listing
+  id: LPPUplinkC4G
+  name: uplink-c4-name
+  description: uplink-c4-desc
+  productEntity: C4
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPspecexplosivesG
+
+- type: listing
+  id: LPPUplinkEmpGrenadeG
+  name: uplink-emp-grenade-name
+  description: uplink-emp-grenade-desc
+  productEntity: EmpGrenade
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPspecexplosivesG
+
+- type: listing
+  id: LPPUplinkSyndicateBombNukieG
+  name: uplink-exploding-syndicate-bomb-name
+  description: uplink-exploding-syndicate-bomb-desc
+  productEntity: SyndicateBomb
+  cost:
+    Telecrystal: 11
+  categories:
+    - LPPspecexplosivesG
+  # saleLimit: 1
+
+- type: listing
+  id: LPPUplinkPistolSubMachineGunG
+  name: uplink-pistolsmg-magazine-name
+  description: uplink-pistolsmg-magazine-desc
+  productEntity: MagazinePistolSubMachineGun
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkHristovAmmoG
+  name: uplink-sniper-ammo-name
+  description: uplink-sniper-ammo-desc
+  productEntity: MagazineBoxAntiMateriel
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkShotgunAmmoG
+  name: uplink-shotgun-ammo-name
+  description: uplink-shotgun-ammo-desc
+  productEntity: MagazineShotgun
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkM4AmmoG
+  name: uplink-m4-ammo-name
+  description: uplink-m4-ammo-desc
+  productEntity: LPPMagazineRifleM4A1Lethal
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecammoG
+
+- type: listing
+  id: LPPUplinkCombatMedkitG
+  name: uplink-combat-medkit-name
+  description: uplink-combat-medkit-desc
+  productEntity: MedkitCombatFilled
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPspecutilitiesG
+  # saleLimit: 1
+
+- type: listing
+  id: LPPUplinkCombatMedipenG
+  name: uplink-combat-medipen-name
+  description: uplink-combat-medipen-desc
+  productEntity: CombatMedipen
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPspecutilitiesG
+  # saleLimit: 1
+
+- type: listing
+  id: LPPUplinkStimpackG
+  name: uplink-stimpack-name
+  description: uplink-stimpack-desc
+  productEntity: Stimpack
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPspecutilitiesG
+  # saleLimit: 1
+
+- type: listing
+  id: LPPUplinkAgentIDCardG
+  name: uplink-agent-id-card-name
+  description: uplink-agent-id-card-desc
+  productEntity: AgentIDCard
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPspectoolsG
+
+- type: listing
+  id: LPPUplinkStealthBoxG
+  name: uplink-stealth-box-name
+  description: uplink-stealth-box-desc
+  productEntity: StealthBox
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPspecutilitiesG
+
+- type: listing
+  id: LPPUplinkEyeshoodG
+  name: uplink-eyeshood-name
+  description: uplink-eyeshood-desc
+  productEntity: ClothingEyesHudSyndicate
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecutilitiesG
+
+- type: listing
+  id: LPPUplinkHolsterG
+  name: uplink-holster-name
+  description: uplink-holster-desc
+  productEntity: ClothingBeltSyndieHolster
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspecutilitiesG
+
+- type: listing
+  id: LPPUplinkEmagG
+  name: uplink-emag-name
+  description: uplink-emag-desc
+  productEntity: Emag
+  cost:
+    Telecrystal: 8
+  categories:
+  - LPPspectoolsG
+
+- type: listing
+  id: LPPUplinkStorageImplanterG
+  name: uplink-storage-implanter-name
+  description: uplink-storage-implanter-desc
+  icon: { sprite: /Textures/Clothing/Back/Backpacks/backpack.rsi, state: icon }
+  productEntity: StorageImplanter
+  cost:
+    Telecrystal: 6
+  categories:
+    - LPPspecimplantsG
+
+- type: listing
+  id: LPPUplinkFreedomImplanterG
+  name: uplink-freedom-implanter-name
+  description: uplink-freedom-implanter-desc
+  icon: { sprite: /Textures/Actions/Implants/implants.rsi, state: freedom }
+  productEntity: FreedomImplanter
+  cost:
+    Telecrystal: 7
+  categories:
+    - LPPspecimplantsG
+
+- type: listing
+  id: LPPUplinkScramImplanterG
+  name: uplink-scram-implanter-name
+  description: uplink-scram-implanter-desc
+  icon: { sprite: /Textures/Structures/Specific/anomaly.rsi, state: anom4 }
+  productEntity: ScramImplanter
+  cost:
+    Telecrystal: 6
+  categories:
+    - LPPspecimplantsG
+
+- type: listing
+  id: LPPUplinkEmpImplanterG
+  name: uplink-emp-implanter-name
+  description: uplink-emp-implanter-desc
+  icon: { sprite: /Textures/Objects/Magic/magicactions.rsi, state: shield }
+  productEntity: EmpImplanter
+  cost:
+    Telecrystal: 4
+  categories:
+    - LPPspecimplantsG
+
+- type: listing
+  id: LPPUplinkMicroBombImplanterG
+  name: uplink-micro-bomb-implanter-name
+  description: uplink-micro-bomb-implanter-desc
+  icon: { sprite: /Textures/Actions/Implants/implants.rsi, state: explosive }
+  productEntity: MicroBombImplanter
+  cost:
+    Telecrystal: 5
+  categories:
+  - LPPspecimplantsG
+
+- type: listing
+  id: LPPUplinkMacroBombImplanterG
+  name: uplink-macro-bomb-implanter-name
+  description: uplink-macro-bomb-implanter-desc
+  icon: { sprite: /Textures/Actions/Implants/implants.rsi, state: explosive }
+  productEntity: MacroBombImplanter
+  cost:
+    Telecrystal: 12
+  categories:
+    - LPPspecimplantsG
+
+- type: listing
+  id: LPPUplinkDeathAcidifierImplanterG
+  name: uplink-death-acidifier-implant-name
+  description: uplink-death-acidifier-implant-desc
+  icon: { sprite: /Textures/Objects/Magic/magicactions.rsi, state: gib }
+  productEntity: DeathAcidifierImplanter
+  cost:
+    Telecrystal: 2
+  categories:
+    - LPPspecimplantsG
+
+- type: listing
+  id: LPPUplinkDeathRattleG
+  name: uplink-deathrattle-implant-name
+  description: uplink-deathrattle-implant-desc
+  productEntity: BoxDeathRattleImplants
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPspecimplantsG
+
+- type: listing
+  id: LPPUplinkToolboxG
+  name: uplink-toolbox-name
+  description: uplink-toolbox-desc
+  productEntity: ToolboxSyndicateFilled
+  cost:
+    Telecrystal: 1
+  categories:
+  - LPPspectoolsG
+
+- type: listing
+  id: LPPUplinkChestRigG
+  name: uplink-chest-rig-name
+  description: uplink-chest-rig-desc
+  productEntity: ClothingBeltMilitaryWebbing
+  cost:
+    Telecrystal: 1
+  categories:
+    - LPPspecarmorG
+
+- type: listing
+  id: LPPUplinkClothingNoSlipsShoesG
+  name: uplink-clothing-no-slips-shoes-name
+  description: uplink-clothing-no-slips-shoes-desc
+  productEntity: ClothingShoesChameleonNoSlips
+  cost:
+    Telecrystal: 2
+  categories:
+  - LPPspecarmorG
+
+- type: listing
+  id: LPPUplinkClothingOuterVestWebG
+  name: uplink-clothing-outer-vest-web-name
+  description: uplink-clothing-outer-vest-web-desc
+  productEntity: ClothingOuterVestWeb
+  cost:
+    Telecrystal: 3
+  categories:
+  - LPPspecarmorG
+
+- type: listing
+  id: LPPUplinkClothingShoesBootsMagSyndieG
+  name: uplink-clothing-shoes-boots-mag-syndie-name
+  description: uplink-clothing-shoes-boots-mag-syndie-desc
+  productEntity: ClothingShoesBootsMagSyndie
+  cost:
+    Telecrystal: 4
+  categories:
+  - LPPspecarmorG
+
+- type: listing
+  id: LPPUplinkClothingHardsuitTrooperG
+  name: uplink-clothing-gorlex-trooper-name
+  description: uplink-clothing-gorlex-trooper-desc
+  icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/gorlexsoldier.rsi, state: icon }
+  productEntity: LPPClothingBackpackDuffelGorlexTrooper
+  cost:
+    Telecrystal: 9
+  categories:
+  - LPPspecarmorG
+
+- type: listing
+  id: LPPUplinkClothingHardsuitEliteG
+  name: uplink-clothing-gorlex-elite-name
+  description: uplink-clothing-gorlex-eilte-desc
+  icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/gorlexelite.rsi, state: icon }
+  productEntity: LPPClothingBackpackDuffelGorlexElite
+  cost:
+    Telecrystal: 11
+  categories:
+  - LPPspecarmorG
+
+- type: listing
+  id: LPPUplinkEshieldG
+  name: uplink-eshield-name
+  description: uplink-eshield-desc
+  icon: { sprite: /Textures/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
+  productEntity: EnergyShield
+  cost:
+    Telecrystal: 10
+  categories:
+  - LPPspecutilitiesG
+
+- type: listing
+  id: LPPUplinkReinforcementRadioSyndicateNukeopsG
+  name: uplink-reinforcement-radio-name
+  description: uplink-reinforcement-radio-desc
+  productEntity: ReinforcementRadioSyndicateNukeops
+  icon: { sprite: Objects/Devices/communication.rsi, state: radio }
+  cost:
+    Telecrystal: 14
+  categories:
+  - LPPspecutilitiesG

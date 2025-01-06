@@ -30,13 +30,13 @@
     unlockTime: 5
   - type: NpcFactionMember
     factions:
-    - NanoTrasen
+      - NanoTrasen
   - type: StandingState
   - type: MobState
     allowedStates:
-    - Alive
-    - Critical
-    - Dead
+      - Alive
+      - Critical
+      - Dead
   - type: MobThresholds
     thresholds:
       0: Alive
@@ -50,12 +50,12 @@
     proto: robot
   - type: Destructible
     thresholds:
-    - trigger:
-        !type:DamageTypeTrigger
-        damageType: Blunt
-        damage: 400
-      behaviors:
-      - !type:GibBehavior { }
+      - trigger:
+          !type:DamageTypeTrigger
+          damageType: Blunt
+          damage: 400
+        behaviors:
+          - !type:GibBehavior { }
   - type: SlowOnDamage
     speedModifierThresholds:
       60: 0.7
@@ -66,7 +66,7 @@
     templateId: ipc
   - type: GuideHelp
     guides:
-    - IPCs
+      - IPCs
   - type: Silicon
     entityType: enum.SiliconType.Player
     batteryPowered: true
@@ -105,7 +105,9 @@
   - type: PsionicInsulation
   - type: OfferItem
   - type: LayingDown
-#  - type: Carriable
+  - type: Carriable
+  - type: StatusIcon
+    bounds: -0.5,-0.5,0.5,0.5
   - type: StepTriggerImmune
     whitelist:
       types:
@@ -122,13 +124,19 @@
         - MobMask
         layer:
         - MobLayer
+  - type: Tag
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+    - SiliconEmotes
 
 - type: entity
   save: false
   name: Urist McPositronic
   parent: MobHumanDummy
   id: MobIPCDummy
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: A dummy IPC meant to be used in character setup.
   components:
   - type: HumanoidAppearance

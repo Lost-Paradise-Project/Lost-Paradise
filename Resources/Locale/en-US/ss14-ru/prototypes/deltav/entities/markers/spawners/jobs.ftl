@@ -8,3 +8,5 @@ ent-SpawnPointProsecutor = prosecutor
     .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnPointCourier = courier
     .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointAdminAssistant = administrative assistant
+    .desc = { ent-SpawnPointJobBase.desc }

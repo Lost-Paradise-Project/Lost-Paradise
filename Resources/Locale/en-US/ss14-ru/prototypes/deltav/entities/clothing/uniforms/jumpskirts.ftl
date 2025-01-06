@@ -20,3 +20,5 @@ ent-ClothingUniformJumpskirtClerk = clerk's dress skirt
     .desc = A modest dress skirt for the person with the power to notarize anything.
 ent-ClothingUniformJumpskirtProsecutor = prosecutor's dress skirt
     .desc = A red suit and skirt with a fancy cravat. Perfect for a prosecutor.
+ent-ClothingUniformJumpskirtAdminAssistant = administrative assistant's jumpskirt
+    .desc = A suit worn by the Administrative Assistant. Smells of burnt coffee.

@@ -8,3 +8,7 @@ ent-NetProbeCartridge = NetProbe cartridge
     .desc = A program for getting the address and frequency of network devices
 ent-LogProbeCartridge = LogProbe cartridge
     .desc = A program for getting access logs from devices
+ent-MedTekCartridge = MedTek cartridge
+    .desc = A program that provides medical diagnostic tools.
+ent-AstroNavCartridge = AstroNav cartridge
+    .desc = A program for navigation that provides GPS coordinates.

@@ -6,7 +6,7 @@ language-RootSpeak-name = Песнь корней
 language-RootSpeak-description = Странный шелестящий язык, на котором говорят дионы.
 language-Nekomimetic-name = Некоязык
 language-Nekomimetic-description = Для стороннего наблюдателя этот язык представляет собой непонятную смесь ломаного японского. Для фелинидов он каким-то образом понятен.
-language-Draconic-name = Синта'унати
+language-Draconic-name = Синта'Унати
 language-Draconic-description = Общий язык унатхов с преобладающими шипящими звуками.
 language-Azaziba-name = Синта'Азазиба
 language-Azaziba-description =
@@ -79,3 +79,9 @@ language-Kobold-name = Кобольды
 language-Kobold-description = Хиссс!
 language-Hissing-name = Шипящий
 language-Hissing-description = Хисс!
+language-Eldritch-name = Жуткий
+language-Eldritch-description =
+    Язык, который считается давно забытым - теперь единственными, кто говорит на этом оскверненном языке визгов и
+    бормотания, являются последователи древнего Бога Крови.
+language-Penguin-name = Пингвиний
+language-Penguin-description = Гваа!

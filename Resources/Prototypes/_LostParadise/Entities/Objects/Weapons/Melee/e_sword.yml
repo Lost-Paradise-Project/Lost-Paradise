@@ -1,0 +1,236 @@
+- type: entity
+  name: energy axe
+  parent: EnergySword
+  id: LPPEnergyAxe
+  description: Syndicate engineer's intern thought that having only energy swords was not cool enough.
+  components:
+  - type: EnergySword
+  - type: ItemToggle
+    soundActivate:
+      path: /Audio/Weapons/ebladeon.ogg
+      params:
+        volume: 5
+    soundDeactivate:
+      path: /Audio/Weapons/ebladeoff.ogg
+      params:
+        volume: 5
+  - type: ItemToggleMeleeWeapon
+    activatedSoundOnSwing:
+      path: /Audio/Weapons/eblademiss.ogg
+      params:
+        volume: 5
+        variation: 0.250
+    activatedDamage:
+        types:
+            Slash: 12
+            Heat: 28
+            Structural: 225
+  - type: ItemToggleActiveSound
+    activeSound:
+      path: /Audio/Weapons/ebladehum.ogg
+      params:
+        volume: 3
+  - type: ComponentToggler
+    components:
+    - type: Sharp
+    - type: DisarmMalus
+      malus: 0.7
+  - type: Wieldable
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 0.5
+    angle: 100
+    damage:
+      types:
+        Blunt: 12
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Melee/e_axe.rsi
+    layers:
+      - state: e_axe
+      - state: e_axe_blade
+        color: "#FFFFFF"
+        visible: false
+        shader: unshaded
+        map: [ "blade" ]
+  - type: Item
+    size: Huge
+    sprite: _LostParadise/Objects/Weapons/Melee/e_axe-inhands.rsi
+  - type: Reflect
+    reflectProb: .5
+    minReflectProb: .2
+    spread: 120
+    reflects:
+      - Energy
+  - type: UseDelay
+    delay: 1
+  - type: ToggleableLightVisuals
+    spriteLayer: blade
+    inhandVisuals:
+      left:
+      - state: inhand-left-blade
+        shader: unshaded
+      right:
+      - state: inhand-right-blade
+        shader: unshaded
+  - type: IgniteOnMeleeHit
+    fireStacks: 2
+
+- type: entity
+  name: energy scythe
+  parent: EnergySword
+  id: LPPEnergyscythe
+  description: Syndicate farmer's intern thought that having only energy swords was not cool enough.
+  components:
+  - type: EnergySword
+  - type: ComponentToggler
+    components:
+    - type: Sharp
+    - type: DisarmMalus
+      malus: 0.7
+  - type: ItemToggle
+    soundActivate:
+      path: /Audio/Weapons/ebladeon.ogg
+      params:
+        volume: 5
+    soundDeactivate:
+      path: /Audio/Weapons/ebladeoff.ogg
+      params:
+        volume: 5
+  - type: ItemToggleMeleeWeapon
+    activatedSoundOnSwing:
+      path: /Audio/Weapons/eblademiss.ogg
+      params:
+        volume: 5
+        variation: 0.250
+    activatedDamage:
+        types:
+            Slash: 8
+            Heat: 12
+            Structural: 50
+  - type: ItemToggleActiveSound
+    activeSound:
+      path: /Audio/Weapons/ebladehum.ogg
+      params:
+        volume: 3
+  - type: Wieldable
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 3
+    angle: 100
+    damage:
+      types:
+        Blunt: 10
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Melee/e_scythe.rsi
+    layers:
+      - state: e_scythe
+      - state: e_scythe_blade
+        color: "#FFFFFF"
+        visible: false
+        shader: unshaded
+        map: [ "blade" ]
+  - type: Item
+    size: Huge
+    sprite: _LostParadise/Objects/Weapons/Melee/e_scythe-inhands.rsi
+  - type: Reflect
+    reflectProb: .8
+    minReflectProb: .25
+    spread: 40
+    reflects:
+      - Energy
+  - type: UseDelay
+    delay: 1
+  - type: ToggleableLightVisuals
+    spriteLayer: blade
+    inhandVisuals:
+      left:
+      - state: inhand-left-blade
+        shader: unshaded
+      right:
+      - state: inhand-right-blade
+        shader: unshaded
+
+- type: entity
+  name: energy broadsword
+  parent: BaseItem
+  id: LPPEnergyBroadsword
+  description: A very loud & even more dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
+  components:
+  - type: EnergySword
+  - type: ItemToggle
+    soundActivate:
+      path: /Audio/Weapons/ebladeon.ogg
+    soundDeactivate:
+      path: /Audio/Weapons/ebladeoff.ogg
+  - type: ItemToggleActiveSound
+    activeSound:
+      path: /Audio/Weapons/ebladehum.ogg
+  - type: ComponentToggler
+    components:
+    - type: Sharp
+    - type: DisarmMalus
+      malus: 0.6
+  - type: ItemToggleHot
+  - type: ItemToggleSize
+    activatedSize: Huge
+  - type: ItemToggleMeleeWeapon
+    activatedSoundOnHit:
+      path: /Audio/Weapons/eblade1.ogg
+      params:
+        variation: 0.250
+    activatedSoundOnHitNoDamage:
+      path: /Audio/Weapons/eblade1.ogg
+      params:
+        variation: 0.250
+        volume: -10
+    activatedSoundOnSwing:
+      path: /Audio/Weapons/eblademiss.ogg
+      params:
+        variation: 0.125
+    activatedDamage:
+        types:
+            Slash: 12.5
+            Heat: 22.5
+            Structural: 50
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Melee/e_swordbig.rsi
+    layers:
+      - state: e_sword
+      - state: e_sword_blade
+        color: "#FFFFFF"
+        visible: false
+        shader: unshaded
+        map: [ "blade" ]
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 7.5
+  - type: Item
+    size: Normal
+    sprite: _LostParadise/Objects/Weapons/Melee/e_swordbig-inhands.rsi
+  - type: UseDelay
+    delay: 1.5
+  - type: PointLight
+    radius: 3
+    energy: 3
+    color: white
+    netsync: false
+  - type: Appearance
+  - type: ToggleableLightVisuals
+    spriteLayer: blade
+    inhandVisuals:
+      left:
+      - state: inhand-left-blade
+        shader: unshaded
+      right:
+      - state: inhand-right-blade
+        shader: unshaded
+  - type: DisarmMalus
+    malus: 0
+  - type: Reflect
+    reflectProb: 0.7
+    minReflectProb: 0.3
+  - type: IgnitionSource
+    temperature: 700

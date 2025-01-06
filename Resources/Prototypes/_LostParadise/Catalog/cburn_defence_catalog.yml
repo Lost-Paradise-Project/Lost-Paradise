@@ -5,7 +5,7 @@
   description: cburn-catalog-weapon-mk58-desc
   productEntity: WeaponPistolMk58
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPCBURNWeapon
 
@@ -15,7 +15,7 @@
   description: cburn-catalog-weapon-lecter-desc
   productEntity: WeaponRifleLecter
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPCBURNWeapon
 
@@ -25,7 +25,7 @@
   description: cburn-catalog-weapon-kammerer-desc
   productEntity: WeaponShotgunKammerer
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPCBURNWeapon
 
@@ -35,7 +35,7 @@
   description: cburn-catalog-weapon-enforcer-desc
   productEntity: WeaponShotgunEnforcer
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPCBURNWeapon
 
@@ -45,7 +45,7 @@
   description: cburn-catalog-weapon-bulldog-desc
   productEntity: WeaponShotgunBulldog
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPCBURNWeapon
 
@@ -55,7 +55,7 @@
   description: cburn-catalog-weapon-pulsecarbine-desc
   productEntity: WeaponPulseCarbine
   cost:
-    Telecrystal: 10
+    LPPCentcoin: 10
   categories:
   - LPPCBURNWeapon
 
@@ -66,7 +66,7 @@
   description: cburn-catalog-armor-biohazard-suit-desc
   productEntity: CrateGenericBiosuit
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPCBURNArmor
 
@@ -76,7 +76,7 @@
   description: cburn-catalog-armor-radiation-suit-desc
   productEntity: CrateEmergencyRadiation
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPCBURNArmor
 
@@ -86,7 +86,7 @@
   description: cburn-catalog-armor-firesuit-desc
   productEntity: LPPCrateFireSuit
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPCBURNArmor
 
@@ -96,7 +96,7 @@
   description: cburn-catalog-armor-exosuit-desc
   productEntity: ClothingOuterHardsuitCBURN
   cost:
-    Telecrystal: 6
+    LPPCentcoin: 6
   categories:
   - LPPCBURNArmor
 
@@ -106,7 +106,7 @@
 #  description: cburn-catalog-armor-exosuit-com-desc
 #  productEntity: ClothingOuterHardsuitCBURNLeader
 #  cost:
-#    Telecrystal: 10
+#    LPPCentcoin: 10
 #  categories:
 #  - LPPCBURNArmor
 
@@ -116,7 +116,7 @@
   description: cburn-catalog-armor-gas-mask-desc
   productEntity: ClothingMaskGasERT
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPCBURNArmor
 
@@ -126,7 +126,7 @@
   description: cburn-catalog-armor-airtank-desc
   productEntity: AirTankFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPCBURNArmor
 
@@ -136,7 +136,7 @@
   description: cburn-catalog-armor-oxytank-double-desc
   productEntity: DoubleEmergencyOxygenTankFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPCBURNArmor
 
@@ -146,7 +146,7 @@
   description: cburn-catalog-armor-nitrotank-double-desc
   productEntity: DoubleEmergencyNitrogenTankFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPCBURNArmor
 
@@ -156,7 +156,7 @@
   description: cburn-catalog-armor-jetpack-desc
   productEntity: JetpackVoidFilled
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPCBURNArmor
 
@@ -166,7 +166,7 @@
   description: cburn-catalog-armor-magboots-desc
   productEntity: ClothingShoesBootsMagSci
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPCBURNArmor
 
@@ -176,7 +176,7 @@
   description: cburn-catalog-armor-magboots-adv-desc
   productEntity: ClothingShoesBootsMagAdv
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPCBURNArmor
 
@@ -186,7 +186,7 @@
 #  description: cburn-catalog-armor-hud-sec-desc
 #  productEntity: LPPRedHudGlasses
 #  cost:
-#    Telecrystal: 4
+#    LPPCentcoin: 4
 #  categories:
 #  - LPPCBURNArmor
 
@@ -196,7 +196,7 @@
   description: cburn-catalog-armor-hud-secmed-desc
   productEntity: ClothingEyesHudMedSec
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPCBURNArmor
 
@@ -207,7 +207,7 @@
   description: cburn-catalog-ammo-box-shotgun-tranquilizer-desc
   productEntity: BoxShellTranquilizer
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPCBURNAmmo
 
@@ -217,7 +217,7 @@
   description: cburn-catalog-ammo-box-shotgun-incendiary-desc
   productEntity: BoxShotgunIncendiary
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPCBURNAmmo
 
@@ -227,7 +227,7 @@
   description: cburn-catalog-ammo-box-magazine-rifle-incendiary-desc
   productEntity: MagazineBoxRifleIncendiary
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPCBURNAmmo
 
@@ -237,7 +237,7 @@
 #  description: cburn-catalog-ammo-box-magazine-rifle-rubber-desc
 #  productEntity: BoxMagazineRifleRubber
 #  cost:
-#    Telecrystal: 3
+#    LPPCentcoin: 3
 #  categories:
 #  - LPPCBURNAmmo
 
@@ -247,7 +247,7 @@
   description: cburn-catalog-ammo-box-magazine-rifle-desc
   productEntity: BoxMagazineRifle
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPCBURNAmmo
 
@@ -257,7 +257,7 @@
 #  description: cburn-catalog-ammo-magazine-pistol-rubber-desc
 #  productEntity: MagazinePistolRubber
 #  cost:
-#    Telecrystal: 1
+#    LPPCentcoin: 1
 #  categories:
 #  - LPPCBURNAmmo
 
@@ -267,7 +267,7 @@
   description: cburn-catalog-ammo-magazine-box-pistol-desc
   productEntity: MagazineBoxPistol
   cost:
-    Telecrystal: 1
+    LPPCentcoin: 1
   categories:
   - LPPCBURNAmmo
 
@@ -277,7 +277,7 @@
   description: cburn-catalog-ammo-magazine-box-pistol-incendiary-desc
   productEntity: MagazineBoxPistolIncendiary
   cost:
-    Telecrystal: 1
+    LPPCentcoin: 1
   categories:
   - LPPCBURNAmmo
 
@@ -287,7 +287,7 @@
   description: cburn-catalog-ammo-belt-desc
   productEntity: ClothingBeltAssault
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPCBURNAmmo
 
@@ -297,7 +297,7 @@
   description: cburn-catalog-ammo-bandolier-desc
   productEntity: ClothingBeltBandolier
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPCBURNAmmo
 
@@ -308,7 +308,7 @@
 #  description: cburn-catalog-engineering-hammer-desc
 #  productEntity: LPPHammer
 #  cost:
-#    Telecrystal: 5
+#    LPPCentcoin: 5
 #  categories:
 #  - LPPCBURNEngineering
 
@@ -318,7 +318,7 @@
   description: cburn-catalog-engineering-crowbar-desc
   productEntity: CrowbarRed
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPCBURNEngineering
 
@@ -329,7 +329,7 @@
   description: cburn-catalog-medicine-medkit-brute-desc
   productEntity: MedkitBruteFilled
   cost:
-    Telecrystal: 6
+    LPPCentcoin: 6
   categories:
   - LPPCBURNMedicine
 
@@ -339,7 +339,7 @@
   description: cburn-catalog-medicine-medkit-burn-desc
   productEntity: MedkitBurnFilled
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPCBURNMedicine
 
@@ -349,7 +349,7 @@
   description: cburn-catalog-medicine-medkit-oxygen-desc
   productEntity: MedkitOxygenFilled
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPCBURNMedicine
 
@@ -359,7 +359,7 @@
   description: cburn-catalog-medicine-medkit-toxin-desc
   productEntity: MedkitToxinFilled
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPCBURNMedicine
 
@@ -369,7 +369,7 @@
   description: cburn-catalog-medicine-medkit-radiation-desc
   productEntity: MedkitRadiationFilled
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPCBURNMedicine
 
@@ -379,7 +379,7 @@
   description: cburn-catalog-medicine-backpack-surgery-desc
   productEntity: ClothingBackpackDuffelSurgeryFilled
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPCBURNMedicine
 
@@ -389,7 +389,7 @@
   description: cburn-catalog-medicine-ambuzol-syringe-desc
   productEntity: LPPClothingBackpackDuffelVirologyCBURNAmbuzolSyringe
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPCBURNMedicine
 
@@ -399,7 +399,7 @@
   description: cburn-catalog-medicine-ambuzol-pill-desc
   productEntity: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPill
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPCBURNMedicine
 
@@ -409,7 +409,7 @@
   description: cburn-catalog-medicine-ambuzolplus-syringe-desc
   productEntity: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPlusSyringe
   cost:
-    Telecrystal: 7
+    LPPCentcoin: 7
   categories:
   - LPPCBURNMedicine
 
@@ -419,7 +419,7 @@
   description: cburn-catalog-medicine-ambuzolplus-pill-desc
   productEntity: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPlusPill
   cost:
-    Telecrystal: 8
+    LPPCentcoin: 8
   categories:
   - LPPCBURNMedicine
 
@@ -429,7 +429,7 @@
   description: cburn-catalog-medicine-biomass-desc
   productEntity: MaterialBiomass
   cost:
-    Telecrystal: 10
+    LPPCentcoin: 10
   categories:
   - LPPCBURNMedicine
 
@@ -439,7 +439,7 @@
   description: cburn-catalog-medicine-belt-desc
   productEntity: ClothingBeltMedicalEMTFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPCBURNMedicine
 
@@ -449,7 +449,7 @@
   description: cburn-catalog-medicine-hypospray-desc
   productEntity: Hypospray
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPCBURNMedicine
 
@@ -459,7 +459,7 @@
   description: cburn-catalog-medicine-bottle-stimulants-desc
   productEntity: LPPChemistryBottleStimulant
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPCBURNMedicine
 
@@ -469,7 +469,7 @@
   description: cburn-catalog-medicine-bottle-epinephrine-desc
   productEntity: EpinephrineChemistryBottle
   cost:
-    Telecrystal: 1
+    LPPCentcoin: 1
   categories:
   - LPPCBURNMedicine
 
@@ -479,7 +479,7 @@
   description: cburn-catalog-medicine-bottle-omnizine-desc
   productEntity: OmnizineChemistryBottle
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPCBURNMedicine
 
@@ -489,7 +489,7 @@
   description: cburn-catalog-medicine-bottle-ephedrine-desc
   productEntity: EphedrineChemistryBottle
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPCBURNMedicine
 
@@ -500,7 +500,7 @@
   description: cburn-catalog-implants-tracker-desc
   productEntity: CrateTrackingImplants
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPCBURNImplants
 
@@ -510,7 +510,7 @@
   description: cburn-catalog-implants-freedom-desc
   productEntity: LPPCrateFreedomImplants
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPCBURNImplants
 
@@ -520,7 +520,7 @@
   description: cburn-catalog-implants-acidifier-desc
   productEntity: LPPCrateAcidifierImplants
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPCBURNImplants
 
@@ -530,7 +530,7 @@
 #  description: cburn-catalog-implants-language-desc
 #  productEntity: LPPCrateLanguageImplants
 #  cost:
-#    Telecrystal: 4
+#    LPPCentcoin: 4
 #  categories:
 #  - LPPCBURNImplants
 
@@ -543,7 +543,7 @@
 #  description: CBURN-catalog-allies-borg-eng-desc
 #  productEntity: LPPBorgChassisEngineeringCBURN
 #  cost:
-#    Telecrystal: 2
+#    LPPCentcoin: 2
 #  categories:
 #  - CBURNAllies
 
@@ -553,7 +553,7 @@
 #  description: CBURN-catalog-allies-borg-med-desc
 #  productEntity: LPPBorgChassisMedicalCBURN
 #  cost:
-#    Telecrystal: 2
+#    LPPCentcoin: 2
 #  categories:
 #  - CBURNAllies
 
@@ -563,6 +563,6 @@
 #  description: CBURN-catalog-allies-borg-sec-desc
 #  productEntity: LPPDSOBorgSecurity
 #  cost:
-#    Telecrystal: 2
+#    LPPCentcoin: 2
 #  categories:
 #  - CBURNAllies

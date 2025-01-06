@@ -19,3 +19,5 @@ glimmer-monitor-program-name = Монитор глиммера
 glimmer-monitor-current-glimmer = Текущий глиммер: { $glimmer }Ψ
 glimmer-monitor-interval = Интервал
 glimmer-monitor-sync = Синхронизовать
+astro-nav-program-name = АстроНав
+med-tek-program-name = МедТек

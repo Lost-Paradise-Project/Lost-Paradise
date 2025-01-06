@@ -20,3 +20,5 @@ ent-ClothingUniformJumpskirtClerk = Юбка-комбинезон судьи
     .desc = Скромная юбка для тех, кто может записать любую информацию.
 ent-ClothingUniformJumpskirtProsecutor = Юбка-комбинезон инспектора
     .desc = Красная юбка в сочетании с костюмом и деловым галстуком. Идеальный вариант для инспектора.
+ent-ClothingUniformJumpskirtAdminAssistant = Юбка-комбинезон адъютанта
+    .desc = Костюм, который носит адъютант. Пахнет сгоревшим кофе.

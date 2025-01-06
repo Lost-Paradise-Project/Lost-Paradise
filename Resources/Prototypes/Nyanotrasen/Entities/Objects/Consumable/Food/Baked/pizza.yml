@@ -24,7 +24,6 @@
   - type: Tag
     tags:
     - Pizza
-    - Vegetable # Yes, I am aware that corn is technically a fruit, but the tagging system is enough of a mess as it is
 
 - type: entity
   name: slice of corncob crust pizza
@@ -50,7 +49,6 @@
   - type: Tag
     tags:
     - Pizza
-    - Vegetable
 
 - type: entity
   name: firecracker pizza
@@ -225,6 +223,7 @@
     tags:
     - Pizza
     - Fruit
+    - Slice
 # Tastes like crust, pesto, cheese
 
 - type: entity
@@ -288,4 +287,5 @@
     tags:
     - Pizza
     - ClothMade
+    - Slice
 # Tastes like crust, cotton, cheese

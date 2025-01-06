@@ -1,3 +1,7 @@
+ent-CrateFunPlushie = plushie crate
+    .desc = A buncha soft plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
+ent-CrateFunLizardPlushieBulk = bulk lizard plushie crate
+    .desc = A buncha soft lizard plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
 ent-CrateFunInstrumentsVariety = variety instrument collection
     .desc = Get your sad station movin' and groovin' with this catch-all variety pack! Contains seven different instruments.
 ent-CrateFunInstrumentsBrass = brass instrument ensemble crate
@@ -34,5 +38,8 @@ ent-CrateFunBikeHornImplants = bike horn implants
     .desc = A thousand honks a day keeps security officers away!
 ent-CrateFunMysteryFigurines = mystery figure crate
     .desc = A collection of 10 Mystery Figurine boxes. Duplicates non refundable.
+ent-CrateFunSprayPaints = spray paint crate
+    .desc = a crate filled with spray paint.
+    .suffix = Spray Paint
 ent-CrateFunDartsSet = dartboard box set
     .desc = A box with everything you need for a fun game of darts.

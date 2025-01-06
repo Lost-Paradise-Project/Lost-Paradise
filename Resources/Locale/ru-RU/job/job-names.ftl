@@ -6,6 +6,8 @@ job-name-detective = Детектив
 job-name-brigmedic = Полевой Врач
 job-name-borg = Киборг
 job-name-senior-researcher = Ведущий Учёный
+job-name-senior-engineer = Ведущий Инженер
+job-name-senior-physician = Ведущий Врач
 job-name-scientist = Учёный
 job-name-research-assistant = Научный Ассистент
 job-name-rd = Научный Директор
@@ -47,6 +49,20 @@ job-name-ertjanitor = Уборщик ОБР
 job-name-boxer = Боксёр
 job-name-zookeeper = Зоотехник
 job-name-visitor = Посетитель
+# unused jobs
+# these are required for the agent ID job icon tooltips
+# I am keeping them for roleplaying opportunities
+job-name-geneticist = Генетик
+job-name-no-id = Без ID
+job-name-prisoner = Заключённый
+job-name-syndicate = Синдикат
+job-name-unknown = Неизвестно
+job-name-virologist = Вирусолог
+job-name-zombie = Зомби
+# Job titles
+job-title-visitor = Посетитель
+job-title-cluwne = Клувень
+job-title-universal = Универсальный
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Атмосферный Техник
 JobBartender = Бармен

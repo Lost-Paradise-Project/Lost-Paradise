@@ -1,0 +1,47 @@
+- type: entity
+  parent: CrateBaseWeldable
+  id: LPPCrateDonk
+  name: Donk crate
+  description: Smells like donks...
+  components:
+  - type: Icon
+    sprite: _LostParadise/Structures/Storage/donk.rsi
+  - type: Sprite
+    sprite: _LostParadise/Structures/Storage/donk.rsi
+  - type: Reflect
+    reflects:
+    - Energy
+    reflectProb: 0.2
+    spread: 90
+
+- type: entity
+  parent: CrateBaseWeldable
+  id: LPPCrateCybersun
+  name: Cybersun crate
+  description: The future is now, and it's gonna KILL YOU.
+  components:
+  - type: Icon
+    sprite: _LostParadise/Structures/Storage/cybersun.rsi
+  - type: Sprite
+    sprite: _LostParadise/Structures/Storage/cybersun.rsi
+  - type: Reflect
+    reflects:
+    - Energy
+    reflectProb: 0.2
+    spread: 90
+
+- type: entity
+  parent: CrateBaseWeldable
+  id: LPPCrateGorlex
+  name: Gorlex crate
+  description: Do you like guns? We have a lot of them!
+  components:
+  - type: Icon
+    sprite: _LostParadise/Structures/Storage/gorlex.rsi
+  - type: Sprite
+    sprite: _LostParadise/Structures/Storage/gorlex.rsi
+  - type: Reflect
+    reflects:
+    - Energy
+    reflectProb: 0.2
+    spread: 90
