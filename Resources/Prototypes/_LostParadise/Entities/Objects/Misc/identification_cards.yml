@@ -39,7 +39,8 @@
       color: "#1B67A5"
     - state: subdepartment
       color: "#1B67A5"
-    - state: idheadofpersonnel
+    - sprite: DeltaV/Objects/Misc/id_cards.rsi
+      state: idadminassistant
     - type: PresetIdCard
       job: AdministrativeAssistant
 
