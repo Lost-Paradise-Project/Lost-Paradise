@@ -50,5 +50,5 @@
   id: HeirloomSecure
   category: Heirloom
   moodChange: 5
-  timeout: 60 # A bit of time before they realize it's gone
+  timeout: 1200 # A bit of time before they realize it's gone | LPP 60 -> 1200 No spamming
   moodletOnEnd: HeirloomLost
