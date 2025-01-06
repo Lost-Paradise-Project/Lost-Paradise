@@ -1,4 +1,19 @@
 # Commander
+- type: job
+  id: LPPDeltaCommander
+  name: job-name-delta-commander
+  description: job-description-delta-commander
+  playTimeTracker: LPPJobDeltaCommander
+  setPreference: false
+  startingGear: LPPDeltaCommanderGearEVA
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+
 - type: startingGear
   id: LPPDeltaCommanderGearEVA
   equipment:
@@ -19,6 +34,21 @@
     pocket2: FlashlightSeclite
 
 # Engineer
+- type: job
+  id: LPPDeltaEngineer
+  name: job-name-delta-engineer
+  description: job-description-delta-engineer
+  playTimeTracker: LPPJobDeltaEngineer
+  setPreference: false
+  startingGear: LPPDeltaEngineerGearEVA
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+
 - type: startingGear
   id: LPPDeltaEngineerGearEVA
   equipment:
@@ -39,8 +69,29 @@
     pocket2: RemoteSignallerAdvanced
 
 # Medic
+- type: job
+  id: LPPDeltaMedic
+  name: job-name-delta-medic
+  description: job-description-delta-medic
+  playTimeTracker: LPPJobDeltaMedic
+  setPreference: false
+  startingGear: LPPDeltaMedicGearEVA
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: CPRTraining
+    - type: SurgerySpeedModifier
+      SpeedModifier: 2.0
+
 - type: startingGear
-  id: LPPDeltaMedicalGearEVA
+  id: LPPDeltaMedicGearEVA
   equipment:
     jumpsuit: ClothingUniformJumpsuitERTMedic
     back: LPPClothingBackpackDeltaMedicFilled
@@ -59,6 +110,21 @@
     pocket2: HandheldCrewMonitor
 
 # Operator
+- type: job
+  id: LPPDeltaOperator
+  name: job-name-delta-operator
+  description: job-description-delta-operator
+  playTimeTracker: LPPJobDeltaOperator
+  setPreference: false
+  startingGear: LPPDeltaOperatorGearEVA
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+
 - type: startingGear
   id: LPPDeltaOperatorGearEVA
   equipment:
@@ -79,6 +145,21 @@
     pocket2: FlashlightSeclite
 
 # Pyrotech
+- type: job
+  id: LPPDeltaPyrotech
+  name: job-name-delta-pyrotech
+  description: job-description-delta-pyrotech
+  playTimeTracker: LPPJobDeltaPyrotech
+  setPreference: false
+  startingGear: LPPDeltaPyrotechGearEVA
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+
 - type: startingGear
   id: LPPDeltaPyrotechGearEVA
   equipment:

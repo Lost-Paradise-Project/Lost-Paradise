@@ -90,8 +90,8 @@
     - state: subdepartment
       color: "#1B67A5"
     - state: captain
-  - type: IdCard
-    jobTitle: Командир ОСН "Дельта"
+  - type: PresetIdCard
+    job: LPPDeltaCommander
   - type: Item
     heldPrefix: gold
 
@@ -108,8 +108,8 @@
     - state: subdepartment
       color: "#F39F27"
     - state: stationengineer
-  - type: IdCard
-    jobTitle: Инженер ОСН "Дельта"
+  - type: PresetIdCard
+    job: LPPDeltaEngineer
 
 - type: entity
   parent: LPPDeltaCommanderIDCard
@@ -124,8 +124,8 @@
     - state: subdepartment
       color: "#5B97BC"
     - state: medicaldoctor
-  - type: IdCard
-    jobTitle: Медик ОСН "Дельта"
+  - type: PresetIdCard
+    job: LPPDeltaMedic
 
 - type: entity
   parent: LPPDeltaCommanderIDCard
@@ -140,8 +140,8 @@
     - state: subdepartment
       color: "#CB0000"
     - state: securityofficer
-  - type: IdCard
-    jobTitle: Оперативник ОСН "Дельта"
+  - type: PresetIdCard
+    job: LPPDeltaOperator
 
 - type: entity
   parent: LPPDeltaCommanderIDCard
@@ -156,5 +156,5 @@
     - state: subdepartment
       color: "#CB0000"
     - state: senior
-  - type: IdCard
-    jobTitle: Штурмовик ОСН "Дельта"
+  - type: PresetIdCard
+    job: LPPDeltaPyrotech

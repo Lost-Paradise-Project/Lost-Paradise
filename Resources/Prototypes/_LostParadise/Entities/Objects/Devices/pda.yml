@@ -35,7 +35,9 @@
     - type: Icon
       state: pda-ert
     - type: HealthAnalyzer
-      scanDelay: 1.2
+      scanDelay: 1
+      scanningEndSound:
+        path: "/Audio/Items/Medical/healthscanner.ogg"
 
 # - type: entity
 #   parent: BasePDA
@@ -106,6 +108,15 @@
     accentVColor: "#447987"
   - type: Icon
     state: pda-ert
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - SecWatchCartridge # DeltaV: SecWatch replaces WantedList
+      - LogProbeCartridge
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: LPPDeltaCommanderPDA
@@ -131,6 +142,16 @@
     scanDelay: 1
     scanningEndSound:
       path: "/Audio/Items/Medical/healthscanner.ogg"
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - SecWatchCartridge # DeltaV: SecWatch replaces WantedList
+      - LogProbeCartridge
+      - MedTekCartridge
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: LPPDeltaCommanderPDA

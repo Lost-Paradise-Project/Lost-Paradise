@@ -264,7 +264,7 @@
     - type: StorageFill
       contents:
         - id: BoxSurvivalEngineering
-        - id: RCDRecharging
+        - id: RCD
         - id: RCDAmmo
           amount: 2
         - id: CableMVStack

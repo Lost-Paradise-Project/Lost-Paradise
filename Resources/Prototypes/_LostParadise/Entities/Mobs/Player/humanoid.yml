@@ -16,7 +16,6 @@
       - NamesLastMilitary
     - type: RandomHumanoidSpawner
       settings: LPPDeltaCommander
-    - type: InitialInfectedExempt
 
 - type: randomHumanoidSettings
   id: LPPDeltaCommander
@@ -33,7 +32,6 @@
       nameSegments:
       - NamesFirstMilitaryLeader
       - NamesLastMilitary
-    - type: InitialInfectedExempt
 
 # Delta Engineer
 
@@ -68,7 +66,6 @@
       nameSegments:
         - NamesFirstMilitaryLeader
         - NamesLastMilitary
-    - type: InitialInfectedExempt
 
 # Delta Medic
 
@@ -98,12 +95,11 @@
       description: ghost-role-information-delta-medic-description
     - type: GhostTakeoverAvailable
     - type: Loadout
-      prototypes: [ LPPDeltaMedicalGearEVA ]
+      prototypes: [ LPPDeltaMedicGearEVA ]
     - type: RandomMetadata
       nameSegments:
         - NamesFirstMilitaryLeader
         - NamesLastMilitary
-    - type: InitialInfectedExempt
 
 # Delta Operator
 
@@ -138,7 +134,6 @@
       nameSegments:
         - NamesFirstMilitaryLeader
         - NamesLastMilitary
-    - type: InitialInfectedExempt
 
 # Delta Pyrotech
 
@@ -173,4 +168,3 @@
       nameSegments:
         - NamesFirstMilitaryLeader
         - NamesLastMilitary
-    - type: InitialInfectedExempt
