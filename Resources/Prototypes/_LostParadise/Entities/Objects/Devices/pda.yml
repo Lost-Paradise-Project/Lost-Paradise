@@ -18,6 +18,7 @@
       - NewsReaderCartridge
       - CrimeAssistCartridge
       - SecWatchCartridge
+      - NanoChatCartridge
 
 - type: entity
   parent: BasePDA
@@ -36,17 +37,17 @@
     - type: HealthAnalyzer
       scanDelay: 1.2
 
-- type: entity
-  parent: BasePDA
-  id: LPPAdjutantPDA
-  name: adjutant PDA
-  description: Adjutant PDA.
-  components:
-  - type: Pda
-    id: LPPAdjutantIDCard
-    state: pda-clear
-  - type: Icon
-    state: pda-clear
+# - type: entity
+#   parent: BasePDA
+#   id: LPPAdjutantPDA
+#   name: adjutant PDA
+#   description: Adjutant PDA.
+#   components:
+#   - type: Pda
+#     id: LPPAdjutantIDCard
+#     state: pda-clear
+#   - type: Icon
+#     state: pda-clear
 
 - type: entity
   parent: BasePDA
@@ -84,6 +85,8 @@
       - NewsReaderCartridge
       - CrimeAssistCartridge
       - SecWatchCartridge
+      - NanoChatCartridge
+
 
 # Delta Squad
 
@@ -148,4 +151,3 @@
   components:
   - type: Pda
     id: LPPDeltaPyrotechIDCard
-

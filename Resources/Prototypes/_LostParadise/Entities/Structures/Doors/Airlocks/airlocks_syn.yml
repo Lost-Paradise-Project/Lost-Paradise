@@ -1,0 +1,267 @@
+- type: entity
+  parent: Airlock
+  id: LPPAirlockEngineeringSyn
+  suffix: EngineeringSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/engineering.rsi
+  - type: PaintableAirlock
+    department: Engineering
+  - type: Wires
+    layoutId: AirlockEngineering
+
+- type: entity
+  parent: AirlockEngineering
+  id: LPPAirlockAtmosphericsSyn
+  suffix: AtmosphericsSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/atmospherics.rsi
+
+- type: entity
+  parent: Airlock
+  id: LPPAirlockSyn
+  suffix: AirlockSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/basic.rsi
+  # - type: PaintableAirlock
+  #   department: AirlockSyn
+  - type: Wires
+    layoutId: AirlockService
+
+- type: entity
+  parent: Airlock
+  id: LPPAirlockCargoSyn
+  suffix: CargoSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/cargo.rsi
+  # - type: PaintableAirlock
+  #   department: CargoSyn
+  - type: Wires
+    layoutId: AirlockCargo
+
+- type: entity
+  parent: Airlock
+  id: LPPAirlockMedicalSyn
+  suffix: MedicalSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/medical.rsi
+  - type: PaintableAirlock
+    department: Medical
+  - type: Wires
+    layoutId: AirlockMedical
+
+- type: entity
+  parent: AirlockMedical
+  id: LPPAirlockVirologySyn
+  suffix: VirologySyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/virology.rsi
+
+- type: entity
+  parent: Airlock
+  id: LPPAirlockScienceSyn
+  suffix: ScienceSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/science.rsi
+  - type: Wires
+    layoutId: AirlockMedical
+
+- type: entity
+  parent: Airlock
+  id: LPPAirlockCommandSyn
+  suffix: CommandSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/command.rsi
+  - type: WiresPanelSecurity
+    securityLevel: medSecurity
+  - type: PaintableAirlock
+    department: Command
+  - type: Wires
+    layoutId: AirlockCommand
+
+- type: entity
+  parent: Airlock
+  id: LPPAirlockSecuritySyn
+  suffix: SecuritySyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/security.rsi
+  - type: PaintableAirlock
+    department: Security
+  - type: Wires
+    layoutId: AirlockSecurity
+
+- type: entity
+  parent: Airlock
+  id: LPPAirlockMaintSyn
+  suffix: Syn
+  name: maintenance access
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/maint.rsi
+
+- type: entity
+  parent: Airlock
+  id: LPPAirlockHatchMaintenanceSyn
+  suffix: Syn
+  name: maintenance hatch
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/hatch_maint.rsi
+
+#External
+- type: entity
+  parent: AirlockExternal
+  id: LPPAirlockExternalSyn
+  suffix: ExternalSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/external.rsi
+
+
+- type: entity
+  parent: AirlockExternalGlass
+  id: LPPAirlockExternalSynGlass
+  suffix: ExternalSyn, Glass
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Glass/external.rsi
+
+#Shuttle
+- type: entity
+  parent: AirlockShuttle
+  id: LPPAirlockShuttleSyn
+  suffix: Docking, Syn
+  name: external airlock
+  description: Necessary for connecting two space craft together.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Standard/shuttle.rsi
+
+- type: entity
+  parent: AirlockGlassShuttle
+  id: LPPAirlockShuttleSynGlass
+  name: external airlock
+  suffix: Glass, Docking, Syn
+  description: Necessary for connecting two space craft together.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Glass/shuttle.rsi
+
+# Glass
+- type: entity
+  parent: AirlockGlass
+  id: LPPAirlockEngineeringSynGlass
+  suffix: EngineeringSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Glass/engineering.rsi
+  - type: PaintableAirlock
+    department: Engineering
+  - type: Wires
+    layoutId: AirlockEngineering
+
+- type: entity
+  parent: AirlockGlass
+  id: LPPAirlockMaintSynGlass
+  suffix: MaintenanceSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Glass/maint.rsi
+
+- type: entity
+  parent: AirlockEngineeringGlass
+  id: LPPAirlockAtmosphericsSynGlass
+  suffix: AtmosphericsSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Glass/atmospherics.rsi
+
+- type: entity
+  parent: AirlockGlass
+  id: LPPAirlockSynGlass
+  suffix: AirlockSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Glass/basic.rsi
+  # - type: PaintableAirlock
+  #   department: AirlockSyn
+  - type: Wires
+    layoutId: AirlockService
+
+- type: entity
+  parent: AirlockGlass
+  id: LPPAirlockCargoSynGlass
+  suffix: CargoSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Glass/cargo.rsi
+  # - type: PaintableAirlock
+  #   department: CargoSyn
+  - type: Wires
+    layoutId: AirlockCargo
+
+- type: entity
+  parent: AirlockGlass
+  id: LPPAirlockMedicalSynGlass
+  suffix: MedicalSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Glass/medical.rsi
+  # - type: PaintableAirlock
+  #   department: MedicalSyn
+  - type: Wires
+    layoutId: AirlockMedical
+
+- type: entity
+  parent: AirlockMedicalGlass
+  id: LPPAirlockVirologySynGlass
+  suffix: VirologySyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Glass/virology.rsi
+
+- type: entity
+  parent: AirlockGlass
+  id: LPPAirlockScienceSynGlass
+  suffix: ScienceSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Glass/science.rsi
+  # - type: PaintableAirlock
+  #   department: ScienceSyn
+  - type: Wires
+    layoutId: AirlockMedical
+
+- type: entity
+  parent: AirlockGlass
+  id: LPPAirlockCommandSynGlass
+  suffix: CommandSyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Glass/command.rsi
+  # - type: PaintableAirlock
+  #   department: CommandSyn
+  - type: WiresPanelSecurity
+    securityLevel: medSecurity
+  - type: Wires
+    layoutId: AirlockCommand
+
+- type: entity
+  parent: AirlockGlass
+  id: LPPAirlockSecuritySynGlass
+  suffix: SecuritySyn
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Structures/Doors/Airlocks/Glass/security.rsi
+  # - type: PaintableAirlock
+  #   department: SecuritySyn
+  - type: Wires
+    layoutId: AirlockSecurity

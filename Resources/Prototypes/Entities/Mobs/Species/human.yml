@@ -10,7 +10,7 @@
     sprite: Mobs/Species/Human/parts.rsi
     state: full
   - type: Thirst
-  #- type: Carriable # Carrying system from nyanotrasen.
+  - type: Carriable # Carrying system from nyanotrasen.
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -21,6 +21,7 @@
     hideLayersOnEquip:
     - Hair
     - Snout
+    - HeadSide
   - type: LanguageKnowledge
     speaks:
     - TauCetiBasic
@@ -28,8 +29,9 @@
     understands:
     - TauCetiBasic
     - SolCommon
+  - type: FootPrints
 
 - type: entity
   parent: BaseSpeciesDummy
   id: MobHumanDummy
-  noSpawn: true
+  categories: [ HideSpawnMenu ]

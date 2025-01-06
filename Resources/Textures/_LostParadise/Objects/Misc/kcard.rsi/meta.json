@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Sprited by MegaDaimond",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "armory"
+    },
+    {
+      "name": "chemistry"
+    },
+    {
+      "name": "mechroom"
+    },
+    {
+      "name": "medical"
+    },
+    {
+      "name": "polygon"
+    }
+  ]
+}

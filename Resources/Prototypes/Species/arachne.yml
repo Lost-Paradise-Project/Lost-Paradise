@@ -7,8 +7,6 @@
   markingLimits: MobArachneMarkingLimits
   dollPrototype: MobArachneDummy
   skinColoration: HumanToned
-  sexes:
-    - Female
   minAge: 60
   youngAge: 150
   oldAge: 400
@@ -17,8 +15,17 @@
 - type: markingPoints
   id: MobArachneMarkingLimits
   points:
+    Face:
+      points: 1
+      required: false
     Hair:
       points: 1
+      required: false
+    FacialHair:
+      points: 1
+      required: false
+    HeadSide:
+      points: 3
       required: false
     Tail:
       points: 1
@@ -30,13 +37,13 @@
       points: 2
       required: false
     RightHand:
-      points: 2
+      points: 3
       required: false
     LeftArm:
       points: 2
       required: false
     LeftHand:
-      points: 2
+      points: 3
       required: false
 
 
@@ -44,7 +51,11 @@
   id: MobArachneSprites
   sprites:
     Head: MobHumanHead
+    Face: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
     Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
     Chest: MobHumanTorso
     Eyes: MobArachneEyes
     LArm: MobHumanLArm

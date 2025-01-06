@@ -14,7 +14,7 @@
     sprite: _LostParadise/Clothing/Head/Helmets/winterhardsuithelm.rsi
     state: icon
   product: LPPCratehunter
-  cost: 12500
+  cost: 22500
   category: cargoproduct-category-name-security
   group: market
 

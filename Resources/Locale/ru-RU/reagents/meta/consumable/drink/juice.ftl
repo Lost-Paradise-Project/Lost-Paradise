@@ -1,8 +1,8 @@
 reagent-name-juice-apple = яблочный сок
 reagent-desc-juice-apple = Это маленький кусочек Эдема.
-reagent-name-juice-banana = банановый сок
+reagent-name-juice-banana = Банановый сок
 reagent-desc-juice-banana = Жидкая суть банана. ХОНК.
-reagent-name-juice-berry = ягодный сок
+reagent-name-juice-berry = Ягодный сок
 reagent-desc-juice-berry = Вкусная смесь нескольких видов ягод.
 reagent-name-juice-berry-poison = ядовитый ягодный сок
 reagent-desc-juice-berry-poison = Удивительно вкусный сок, приготовленный из различных видов очень смертоносных и ядовитых ягод.
@@ -24,3 +24,5 @@ reagent-name-juice-tomato = томатный сок
 reagent-desc-juice-tomato = Томаты превращённые в сок. Какая трата хороших помидоров, а?
 reagent-name-juice-watermelon = арбузный сок
 reagent-desc-juice-watermelon = Вкусный сок арбуза.
+reagent-name-juice-cherry = вишнёвый сок
+reagent-desc-juice-cherry = Вкусный вишнёвый сок, сладкий и кислый.

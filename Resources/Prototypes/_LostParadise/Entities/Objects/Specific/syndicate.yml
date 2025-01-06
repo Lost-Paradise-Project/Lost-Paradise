@@ -1,0 +1,126 @@
+- type: entity
+  id: LPPRadioSyndicateContract
+  name: radio for communication with superiors
+  description: Choose wiesly.
+  parent: [ BaseItem, LPPStorePresetContract ]
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Devices/altradio.rsi
+    state: radio
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    balance:
+      Telecrystal: 1337
+  - type: Tag
+    tags:
+    - LPPStoreContract
+
+- type: entity
+  parent: [ BaseItem, LPPStorePresetCybersunUplinks ]
+  id: LPPUplinkRadioCybersun
+  name: Cybersun uplink
+  description: Suspiciously looking old radio...
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Devices/altradio.rsi
+    layers:
+    - state: cybersun
+  - type: Item
+    sprite: Objects/Devices/communication.rsi
+    heldPrefix: radio
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    balance:
+      Telecrystal: 160
+  - type: Tag
+    tags:
+    - LPPStoreCybersunUplinks
+
+- type: entity
+  parent: [ BaseItem, LPPStorePresetDonkUplinks ]
+  id: LPPUplinkRadioDonk
+  name: Donk uplink
+  description: Suspiciously looking old radio...
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Devices/altradio.rsi
+    layers:
+    - state: donk
+  - type: Item
+    sprite: Objects/Devices/communication.rsi
+    heldPrefix: radio
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    balance:
+      Telecrystal: 160
+  - type: Tag
+    tags:
+    - LPPStoreDonkUplinks
+
+- type: entity
+  parent: [ BaseItem, LPPStorePresetGorlexUplinks ]
+  id: LPPUplinkRadioGorlex
+  name: Gorlex uplink
+  description: Suspiciously looking old radio...
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Devices/altradio.rsi
+    layers:
+    - state: gorlex
+  - type: Item
+    sprite: Objects/Devices/communication.rsi
+    heldPrefix: gorlex
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    balance:
+      Telecrystal: 160
+  - type: Tag
+    tags:
+    - LPPStoreGorlexUplinks
+
+- type: entity
+  parent: [ BaseItem, StorePresetUplink ]
+  id: LPPBaseUplinkRadio450TC
+  name: Syndicate uplink
+  description: Suspiciously looking old radio...
+  suffix: 300
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: radio
+  - type: Item
+    sprite: Objects/Devices/communication.rsi
+    heldPrefix: radio
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key
+  - type: Store
+    balance:
+      Telecrystal: 300
+  - type: Tag
+    tags:
+    - NukeOpsUplink

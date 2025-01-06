@@ -54,3 +54,5 @@ ent-ClothingUniformJumpsuitChemShirt = formal chemistry suit
     .desc = There's still some odd stains on this suit. Hm.
 ent-ClothingUniformJumpsuitProsecutor = prosecutor's suit
     .desc = A red suit with a fancy cravat. Perfect for a prosecutor.
+ent-ClothingUniformJumpsuitAdminAssistant = administrative assistant's jumpsuit
+    .desc = A suit worn by the Administrative Assistant. Smells of burnt coffee.

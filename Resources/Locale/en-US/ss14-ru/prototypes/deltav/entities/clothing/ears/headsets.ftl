@@ -12,3 +12,7 @@ ent-ClothingHeadsetPrison = prison headset
     .desc = Headset used by anybody who needs direct contact with prisoners
 ent-ClothingHeadsetPrisonGuard = guard headset
     .desc = Headset used by prison guards.
+ent-ClothingHeadsetAdminAssist = adminstrative assistant headset
+    .desc = A headset used by the administrative assistant.
+ent-ClothingHeadsetAltAdminAssist = adminstrative assistant over-ear headset
+    .desc = { ent-ClothingHeadsetAdminAssist.desc }

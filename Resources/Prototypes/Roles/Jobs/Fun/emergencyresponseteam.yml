@@ -273,6 +273,12 @@
   - AllAccess
   access:
   - CentralCommand
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: CPRTraining
+    - type: SurgerySpeedModifier # LPP
+      SpeedModifier: 2.0
 
 - type: startingGear
   id: ERTMedicalGear

@@ -1,0 +1,16 @@
+cmd-babyjail-desc = Включает или отключает детскую тюрьму, которая накладывает более строгие ограничения на тех, кто может присоединиться к серверу.
+cmd-babyjail-help = Использование: babyjail
+babyjail-command-enabled = babyjail включена.
+babyjail-command-disabled = babyjail отключена.
+cmd-babyjail_show_reason-desc = Включает или отключает отображение пользователям причины, по которой babyjail заблокировала их подключение.
+cmd-babyjail_show_reason-help = Использование: babyjail_show_reason
+babyjail-command-show-reason-enabled = babyjail теперь будет показывать причину, по которой она блокирует пользователей.
+babyjail-command-show-reason-disabled = babyjail больше не будет показывать причину, по которой она блокирует пользователей.
+cmd-babyjail_max_account_age-desc = Получить или установить максимальный возраст аккаунта в минутах, который может быть у аккаунта, чтобы ему разрешили подключиться с включенной детской тюрьмой.
+cmd-babyjail_max_account_age-help = Использование: babyjail_max_account_age <hours>
+babyjail-command-max-account-age-is = Максимальный возраст аккаунта для babyjail составляет { $hours } часов.
+babyjail-command-max-account-age-set = Установлен максимальный возраст аккаунта для babyjail в { $hours } часов.
+cmd-babyjail_max_overall_hours-desc = Получить или установить максимальное общее время игры в минутах, которое может быть у аккаунта, чтобы ему разрешили подключиться с включенной детской тюрьмой.
+cmd-babyjail_max_overall_hours-help = Использование: babyjail_max_overall_hours <hours>
+babyjail-command-max-overall-hours-is = Максимальное общее время игры для babyjail составляет { $hours } часов.
+babyjail-command-max-overall-hours-set = Установлено максимальное общее время игры для babyjail в { $hours } часов.

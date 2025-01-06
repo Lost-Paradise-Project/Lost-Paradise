@@ -5,7 +5,7 @@
   description: delta-catalog-weapon-mk58-desc
   productEntity: WeaponPistolMk58
   cost:
-    Telecrystal: 1
+    LPPCentcoin: 1
   categories:
   - LPPDeltaWeapon
 
@@ -15,7 +15,7 @@
   description: delta-catalog-weapon-drozd-desc
   productEntity: WeaponSubMachineGunDrozd
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaWeapon
 
@@ -25,7 +25,7 @@
   description: delta-catalog-weapon-lecter-desc
   productEntity: WeaponRifleLecter
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPDeltaWeapon
 
@@ -35,7 +35,7 @@
   description: delta-catalog-weapon-enforcer-desc
   productEntity: WeaponShotgunEnforcer
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaWeapon
 
@@ -45,7 +45,7 @@
   description: delta-catalog-weapon-pulsepistol-desc
   productEntity: WeaponPulsePistol
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaWeapon
 
@@ -55,7 +55,7 @@
   description: delta-catalog-weapon-pulsecarbine-desc
   productEntity: WeaponPulseCarbine
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPDeltaWeapon
 
@@ -65,7 +65,7 @@
   description: delta-catalog-weapon-pulserifle-desc
   productEntity: WeaponPulseRifle
   cost:
-    Telecrystal: 8
+    LPPCentcoin: 8
   categories:
   - LPPDeltaWeapon
 
@@ -75,7 +75,7 @@
   description: delta-catalog-weapon-energy-sword-desc
   productEntity: EnergySword
   cost:
-    Telecrystal: 6
+    LPPCentcoin: 6
   categories:
   - LPPDeltaWeapon
 
@@ -85,7 +85,7 @@
   description: delta-catalog-weapon-energy-shield-desc
   productEntity: EnergyShield
   cost:
-    Telecrystal: 6
+    LPPCentcoin: 6
   categories:
   - LPPDeltaWeapon
 
@@ -95,7 +95,7 @@
   description: delta-catalog-weapon-energy-sword-double-desc
   productEntity: EnergySwordDouble
   cost:
-    Telecrystal: 10
+    LPPCentcoin: 10
   categories:
   - LPPDeltaWeapon
 
@@ -105,7 +105,7 @@
   description: delta-catalog-weapon-launcher-rocket-desc
   productEntity: WeaponLauncherRocket
   cost:
-    Telecrystal: 14
+    LPPCentcoin: 14
   categories:
   - LPPDeltaWeapon
 
@@ -115,7 +115,7 @@
   description: delta-catalog-weapon-minigun-desc
   productEntity: WeaponMinigun
   cost:
-    Telecrystal: 15
+    LPPCentcoin: 15
   categories:
   - LPPDeltaWeapon
 
@@ -126,7 +126,7 @@
 #  description: delta-catalog-armor-hardsuit-desc
 #  productEntity: LPPClothingOuterHardsuitIIC
 #  cost:
-#    Telecrystal: 3
+#    LPPCentcoin: 3
 #  categories:
 #  - LPPDeltaArmor
 
@@ -136,7 +136,7 @@
 #  description: delta-catalog-armor-hardsuit-pyrotech-desc
 #  productEntity: LPPClothingOuterHardsuitIICPyrotech
 #  cost:
-#    Telecrystal: 3
+#    LPPCentcoin: 3
 #  categories:
 #  - LPPDeltaArmor
 
@@ -146,7 +146,7 @@
 #  description: delta-catalog-armor-hardsuit-engineer-desc
 #  productEntity: LPPClothingOuterHardsuitIICEngineer
 #  cost:
-#    Telecrystal: 3
+#    LPPCentcoin: 3
 #  categories:
 #  - LPPDeltaArmor
 
@@ -156,7 +156,7 @@
 #  description: delta-catalog-armor-hardsuit-medic-desc
 #  productEntity: LPPClothingOuterHardsuitIICMedic
 #  cost:
-#    Telecrystal: 3
+#    LPPCentcoin: 3
 #  categories:
 #  - LPPDeltaArmor
 
@@ -166,7 +166,7 @@
 #  description: delta-catalog-armor-hardsuit-commander-desc
 #  productEntity: LPPClothingOuterHardsuitIICCommander
 #  cost:
-#    Telecrystal: 6
+#    LPPCentcoin: 6
 #  categories:
 #  - LPPDeltaArmor
 
@@ -176,7 +176,7 @@
 #  description: delta-catalog-armor-gas-mask-desc
 #  productEntity: LPPClothingMaskGasIIC
 #  cost:
-#    Telecrystal: 3
+#    LPPCentcoin: 3
 #  categories:
 #  - LPPDeltaArmor
 
@@ -186,7 +186,7 @@
   description: delta-catalog-armor-airtank-desc
   productEntity: AirTankFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaArmor
 
@@ -196,7 +196,7 @@
   description: delta-catalog-armor-oxytank-double-desc
   productEntity: DoubleEmergencyOxygenTankFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaArmor
 
@@ -206,7 +206,7 @@
   description: delta-catalog-armor-nitrotank-double-desc
   productEntity: DoubleEmergencyNitrogenTankFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaArmor
 
@@ -216,7 +216,7 @@
   description: delta-catalog-armor-jetpack-desc
   productEntity: JetpackVoidFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaArmor
 
@@ -226,7 +226,7 @@
   description: delta-catalog-armor-magboots-desc
   productEntity: ClothingShoesBootsMagSci
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPDeltaArmor
 
@@ -236,7 +236,7 @@
   description: delta-catalog-armor-magboots-adv-desc
   productEntity: ClothingShoesBootsMagAdv
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaArmor
 
@@ -246,7 +246,7 @@
 #  description: delta-catalog-armor-hud-sec-desc
 #  productEntity: LPPRedHudGlasses
 #  cost:
-#    Telecrystal: 3
+#    LPPCentcoin: 3
 #  categories:
 #  - LPPDeltaArmor
 
@@ -256,7 +256,7 @@
 #  description: delta-catalog-armor-hud-seceng-desc
 #  productEntity: LPPClothingEyesHudSecEng
 #  cost:
-#    Telecrystal: 3
+#    LPPCentcoin: 3
 #  categories:
 #  - LPPDeltaArmor
 
@@ -266,7 +266,7 @@
   description: delta-catalog-armor-hud-secmed-desc
   productEntity: ClothingEyesHudMedSec
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaArmor
 
@@ -278,7 +278,7 @@
   description: delta-catalog-ammo-box-magazine-shotgun-slug-desc
   productEntity: BoxMagazineShotgunSlug
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaAmmo
 
@@ -288,7 +288,7 @@
   description: delta-catalog-ammo-box-magazine-shotgun-desc
   productEntity: BoxMagazineShotgun
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaAmmo
 
@@ -298,7 +298,7 @@
   description: delta-catalog-ammo-box-shotgun-incendiary-desc
   productEntity: BoxShotgunIncendiary
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaAmmo
 
@@ -308,7 +308,7 @@
   description: delta-catalog-ammo-box-magazine-submachine-desc
   productEntity: BoxMagazinePistolSubMachineGun
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaAmmo
 
@@ -318,7 +318,7 @@
   description: delta-catalog-ammo-box-magazine-rifle-desc
   productEntity: BoxMagazineRifle
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaAmmo
 
@@ -328,7 +328,7 @@
   description: delta-catalog-ammo-box-magazine-rifle-incendiary-desc
   productEntity: MagazineBoxRifleIncendiary
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaAmmo
 
@@ -338,7 +338,7 @@
   description: delta-catalog-ammo-box-magazine-rifle-uranium-desc
   productEntity: MagazineBoxRifleUranium
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaAmmo
 
@@ -348,7 +348,7 @@
   description: delta-catalog-ammo-box-magazine-pistol-desc
   productEntity: BoxMagazinePistol
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaAmmo
 
@@ -358,7 +358,7 @@
   description: delta-catalog-ammo-magazine-box-pistol-incendiary-desc
   productEntity: MagazineBoxPistolIncendiary
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaAmmo
 
@@ -368,7 +368,7 @@
   description: delta-catalog-ammo-magazine-box-pistol-uranium-desc
   productEntity: MagazineBoxPistolUranium
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaAmmo
 
@@ -378,7 +378,7 @@
   description: delta-catalog-ammo-belt-desc
   productEntity: ClothingBeltAssault
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaAmmo
 
@@ -388,7 +388,7 @@
   description: delta-catalog-ammo-bandolier-desc
   productEntity: ClothingBeltBandolier
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaAmmo
 
@@ -400,7 +400,7 @@
   description: delta-catalog-medicine-medkit-desc
   productEntity: MedkitFilled
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPDeltaMedicine
 
@@ -410,7 +410,7 @@
   description: delta-catalog-medicine-medkit-brute-desc
   productEntity: MedkitBruteFilled
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPDeltaMedicine
 
@@ -420,7 +420,7 @@
   description: delta-catalog-medicine-medkit-burn-desc
   productEntity: MedkitBurnFilled
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPDeltaMedicine
 
@@ -430,7 +430,7 @@
   description: delta-catalog-medicine-medkit-oxygen-desc
   productEntity: MedkitOxygenFilled
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPDeltaMedicine
 
@@ -440,7 +440,7 @@
   description: delta-catalog-medicine-medkit-toxin-desc
   productEntity: MedkitToxinFilled
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaMedicine
 
@@ -450,7 +450,7 @@
   description: delta-catalog-medicine-medkit-radiation-desc
   productEntity: MedkitRadiationFilled
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaMedicine
 
@@ -460,7 +460,7 @@
   description: delta-catalog-medicine-medkit-advanced-desc
   productEntity: MedkitAdvancedFilled
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaMedicine
 
@@ -470,7 +470,7 @@
   description: delta-catalog-medicine-medkit-combat-desc
   productEntity: MedkitCombatFilled
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPDeltaMedicine
 
@@ -480,7 +480,7 @@
   description: delta-catalog-medicine-biomass-desc
   productEntity: MaterialBiomass
   cost:
-    Telecrystal: 8
+    LPPCentcoin: 8
   categories:
   - LPPDeltaMedicine
 
@@ -490,7 +490,7 @@
   description: delta-catalog-medicine-belt-desc
   productEntity: ClothingBeltMedicalEMTFilled
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaMedicine
 
@@ -500,7 +500,7 @@
   description: delta-catalog-medicine-hypospray-desc
   productEntity: Hypospray
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPDeltaMedicine
 
@@ -510,7 +510,7 @@
   description: delta-catalog-medicine-bottle-stimulants-desc
   productEntity: LPPChemistryBottleStimulant
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPDeltaMedicine
 
@@ -520,7 +520,7 @@
   description: delta-catalog-medicine-bottle-epinephrine-desc
   productEntity: EpinephrineChemistryBottle
   cost:
-    Telecrystal: 1
+    LPPCentcoin: 1
   categories:
   - LPPDeltaMedicine
 
@@ -530,7 +530,7 @@
   description: delta-catalog-medicine-bottle-omnizine-desc
   productEntity: OmnizineChemistryBottle
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPDeltaMedicine
 
@@ -540,7 +540,7 @@
   description: delta-catalog-medicine-bottle-ephedrine-desc
   productEntity: EphedrineChemistryBottle
   cost:
-    Telecrystal: 1
+    LPPCentcoin: 1
   categories:
   - LPPDeltaMedicine
 
@@ -550,7 +550,7 @@
   description: delta-catalog-medicine-ambuzolplus-pill-desc
   productEntity: LPPClothingBackpackDuffelVirologyCBURNAmbuzolPlusPill
   cost:
-    Telecrystal: 14
+    LPPCentcoin: 14
   categories:
   - LPPDeltaMedicine
 
@@ -561,7 +561,7 @@
   description: delta-catalog-engineering-crate-steel-desc
   productEntity: CrateMaterialSteel
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaEngineering
 
@@ -571,7 +571,7 @@
   description: delta-catalog-engineering-crate-glass-desc
   productEntity: CrateMaterialGlass
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaEngineering
 
@@ -581,7 +581,7 @@
   description: delta-catalog-engineering-belt-desc
   productEntity: ClothingBeltChiefEngineerFilled
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaEngineering
 
@@ -591,7 +591,7 @@
   description: delta-catalog-engineering-rcd-desc
   productEntity: RCD
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaEngineering
 
@@ -601,7 +601,7 @@
   description: delta-catalog-engineering-rcdammo-desc
   productEntity: RCDAmmo
   cost:
-    Telecrystal: 1
+    LPPCentcoin: 1
   categories:
   - LPPDeltaEngineering
 
@@ -611,7 +611,7 @@
   description: delta-catalog-engineering-c4-desc
   productEntity: LPPBackpackDuffelC4Delta
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPDeltaEngineering
 
@@ -621,7 +621,7 @@
   description: delta-catalog-engineering-exgrenade-desc
   productEntity: LPPBackpackDuffelExGrenadeDelta
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPDeltaEngineering
 
@@ -631,7 +631,7 @@
   description: delta-catalog-engineering-empgrenade-desc
   productEntity: LPPBackpackDuffelEmpGrenadeDelta
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPDeltaEngineering
 
@@ -641,7 +641,7 @@
   description: delta-catalog-engineering-grenade-incendiary-desc
   productEntity: LPPBackpackDuffelIncendiaryGrenadeDelta
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPDeltaEngineering
 
@@ -651,7 +651,7 @@
   description: delta-catalog-engineering-turret-desc
   productEntity: LPPToolboxElectricalTurretNT
   cost:
-    Telecrystal: 6
+    LPPCentcoin: 6
   categories:
   - LPPDeltaEngineering
 
@@ -661,7 +661,7 @@
 #  description: delta-catalog-engineering-hammer-desc
 #  productEntity: LPPHammer
 #  cost:
-#    Telecrystal: 3
+#    LPPCentcoin: 3
 #  categories:
 #  - LPPDeltaEngineering
 
@@ -671,7 +671,7 @@
   description: delta-catalog-engineering-crowbar-desc
   productEntity: CrowbarRed
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPDeltaEngineering
 
@@ -683,7 +683,7 @@
   description: delta-catalog-unlethal-boxziptie-desc
   productEntity: BoxZiptie
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaUnlethal
 
@@ -693,7 +693,7 @@
   description: delta-catalog-unlethal-disabler-desc
   productEntity: WeaponDisabler
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaUnlethal
 
@@ -703,7 +703,7 @@
   description: delta-catalog-unlethal-disablersmg-desc
   productEntity: WeaponDisablerSMG
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPDeltaUnlethal
 
@@ -714,7 +714,7 @@
   description: delta-catalog-implants-tracker-desc
   productEntity: CrateTrackingImplants
   cost:
-    Telecrystal: 2
+    LPPCentcoin: 2
   categories:
   - LPPDeltaImplants
 
@@ -724,7 +724,7 @@
   description: delta-catalog-implants-freedom-desc
   productEntity: LPPCrateFreedomImplants
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaImplants
 
@@ -734,7 +734,7 @@
 #  description: delta-catalog-implants-language-desc
 #  productEntity: LPPCrateLanguageImplants
 #  cost:
-#    Telecrystal: 2
+#    LPPCentcoin: 2
 #  categories:
 #  - LPPDeltaImplants
 
@@ -744,7 +744,7 @@
   description: delta-catalog-implants-acidifier-desc
   productEntity: LPPCrateAcidifierImplants
   cost:
-    Telecrystal: 3
+    LPPCentcoin: 3
   categories:
   - LPPDeltaImplants
 
@@ -754,7 +754,7 @@
   description: delta-catalog-implants-emp-desc
   productEntity: LPPCrateEMPImplants
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaImplants
 
@@ -764,7 +764,7 @@
   description: delta-catalog-implants-scram-desc
   productEntity: LPPCrateScramImplants
   cost:
-    Telecrystal: 4
+    LPPCentcoin: 4
   categories:
   - LPPDeltaImplants
 
@@ -774,7 +774,7 @@
   description: delta-catalog-implants-microbomb-desc
   productEntity: LPPCrateMicroBombImplants
   cost:
-    Telecrystal: 6
+    LPPCentcoin: 6
   categories:
   - LPPDeltaImplants
 
@@ -784,7 +784,7 @@
   description: delta-catalog-implants-storage-desc
   productEntity: LPPCrateStorageImplants
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPDeltaImplants
 
@@ -794,7 +794,7 @@
   description: delta-catalog-implants-dnascrambler-desc
   productEntity: LPPCrateDnaScramblerImplants
   cost:
-    Telecrystal: 5
+    LPPCentcoin: 5
   categories:
   - LPPDeltaImplants
 
@@ -804,7 +804,7 @@
   description: delta-catalog-implants-macrobomb-desc
   productEntity: LPPCrateMacroBombImplants
   cost:
-    Telecrystal: 9
+    LPPCentcoin: 9
   categories:
   - LPPDeltaImplants
 
@@ -817,7 +817,7 @@
 #  description: Delta-catalog-allies-borg-eng-desc
 #  productEntity: LPPBorgChassisEngineeringDelta
 #  cost:
-#    Telecrystal: 2
+#    LPPCentcoin: 2
 #  categories:
 #  - DeltaAllies
 
@@ -827,7 +827,7 @@
 #  description: Delta-catalog-allies-borg-med-desc
 #  productEntity: LPPBorgChassisMedicalDelta
 #  cost:
-#    Telecrystal: 2
+#    LPPCentcoin: 2
 #  categories:
 #  - DeltaAllies
 
@@ -837,6 +837,6 @@
 #  description: Delta-catalog-allies-borg-sec-desc
 #  productEntity: LPPDSOBorgSecurity
 #  cost:
-#    Telecrystal: 2
+#    LPPCentcoin: 2
 #  categories:
 #  - DeltaAllies

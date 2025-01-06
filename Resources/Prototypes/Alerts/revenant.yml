@@ -16,7 +16,6 @@
 
 - type: entity
   id: AlertEssenceSpriteView
-  noSpawn: true
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

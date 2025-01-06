@@ -18,7 +18,31 @@
       "directions": 4
     },
     {
+      "name": "equipped-HELMET-tajaran",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-shark",
+      "directions": 4
+    },
+    {
+      "name": "equipped-HELMET-vulpkanin",
+      "directions": 4
+    },
+    {
       "name": "open-equipped-HELMET",
+      "directions": 4
+    },
+    {
+      "name": "open-equipped-HELMET-tajaran",
+      "directions": 4
+    },
+    {
+      "name": "open-equipped-HELMET-shark",
+      "directions": 4
+    },
+    {
+      "name": "open-equipped-HELMET-vulpkanin",
       "directions": 4
     },
     {
