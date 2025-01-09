@@ -2025,14 +2025,6 @@ entities:
     - type: Transform
       pos: -13.51749,24.335218
       parent: 2
-- proto: ActionToggleMagbootsAdvanced
-  entities:
-  - uid: 5
-    components:
-    - type: Transform
-      parent: 4
-    - type: InstantAction
-      container: 4
 - proto: Airlock
   entities:
   - uid: 6
