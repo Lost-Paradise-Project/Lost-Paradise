@@ -5,5 +5,3 @@ ent-MobGiantSpiderVampire = oneirophage
 ent-MobGiantSpiderVampireAngry = oneirophage
     .suffix = Angry
     .desc = { ent-MobGiantSpiderVampire.desc }
-ent-MobMouseCancer = Cancer Mouse
-    .desc = Oh hey Civvie...

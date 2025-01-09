@@ -1,12 +1,12 @@
-using Content.Shared.DeltaV.Harpy;
 using Content.Shared.Preferences;
 using Robust.Shared.Prototypes;
 using Content.Shared.Humanoid;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.Array;
 
 namespace Content.Shared.Roles;
 
 [Prototype("startingGear")]
-public sealed partial class StartingGearPrototype : IPrototype
+public sealed partial class StartingGearPrototype : IPrototype, IInheritingPrototype
 {
     [DataField]
     public Dictionary<string, EntProtoId> Equipment = new();
@@ -42,6 +42,14 @@ public sealed partial class StartingGearPrototype : IPrototype
     [IdDataField]
     public string ID { get; private set; } = string.Empty;
 
+    /// <inheritdoc/>
+    [ParentDataField(typeof(AbstractPrototypeIdArraySerializer<StartingGearPrototype>))]
+    public string[]? Parents { get; private set; }
+
+    /// <inheritdoc/>
+    [AbstractDataField]
+    public bool Abstract { get; }
+
     public string GetGear(string slot, HumanoidCharacterProfile? profile)
     {
         if (profile != null)
@@ -50,6 +58,7 @@ public sealed partial class StartingGearPrototype : IPrototype
             {
                 case "jumpsuit" when profile.Clothing == ClothingPreference.Jumpskirt && !string.IsNullOrEmpty(InnerClothingSkirt):
                 case "jumpsuit" when profile.Species == "Harpy" && !string.IsNullOrEmpty(InnerClothingSkirt):
+                case "jumpsuit" when profile.Species == "Lamia" && !string.IsNullOrEmpty(InnerClothingSkirt):
                     return InnerClothingSkirt;
                 case "back" when profile.Backpack == BackpackPreference.Satchel && !string.IsNullOrEmpty(Satchel):
                     return Satchel;

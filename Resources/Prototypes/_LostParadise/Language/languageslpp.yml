@@ -1,6 +1,6 @@
 ﻿- type: language
   id: ElfLang
-  isvisiblelanguage: true
+  isVisibleLanguage: true
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 2
@@ -107,7 +107,7 @@
 # Spoken by the Dwarf race.
 - type: language
   id: DwarfLang
-  isvisiblelanguage: true
+  isVisibleLanguage: true
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 2
@@ -134,7 +134,7 @@
 # Spoken by the Tajaran race.
 - type: language
   id: LPPSikTaj
-  isvisiblelanguage: true
+  isVisibleLanguage: true
   obfuscation:
     !type:SyllableObfuscation
     minSyllables: 2

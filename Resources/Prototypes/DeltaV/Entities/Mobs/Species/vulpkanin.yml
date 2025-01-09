@@ -68,6 +68,7 @@
       - map: [ "belt" ]
       - map: [ "neck" ]
       - map: [ "back" ]
+      - map: [ "enum.HumanoidVisualLayers.Face" ]
       - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
       - map: [ "enum.HumanoidVisualLayers.Hair" ]
       - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
@@ -131,7 +132,7 @@
   name: Vulpkanin Dummy
   parent: MobHumanDummy
   id: MobVulpkaninDummy
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   description: A dummy vulpkanin meant to be used in character setup.
   components:
   - type: HumanoidAppearance

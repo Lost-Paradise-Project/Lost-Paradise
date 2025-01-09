@@ -1,3 +1,6 @@
+ent-AirlockExternalGlassShuttleShipyard = { ent-AirlockGlassShuttle }
+    .suffix = Внешний, Шаттл, Стекло, Стыковка
+    .desc = { ent-AirlockGlassShuttle.desc }
 ent-AirlockMantisLocked = { ent-AirlockScience }
     .suffix = Мантис, Закрыто
     .desc = { ent-AirlockScience.desc }

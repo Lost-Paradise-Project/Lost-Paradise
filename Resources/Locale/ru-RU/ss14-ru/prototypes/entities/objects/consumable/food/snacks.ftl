@@ -28,6 +28,7 @@ ent-FoodSnackSus = Джерки Сас
     .desc = Что-то в этом упаковке заставляет вас чувствовать себя невероятно тревожно. Хотя джерки вкусное.
 ent-FoodSnackSyndi = Синди-кексы
     .desc = Очень вкусные кексы, которые сохраняют свой вкус даже после ядерного взрыва.
+
 ent-FoodSnackChowMein = Чоу мейн
     .desc = Солоноватая жареная лапша. Похоже, что они забыли про овощи.
 ent-FoodSnackDanDanNoodles = Лапша дань-дань
@@ -68,6 +69,8 @@ ent-FoodPacketRaisinsTrash = Пакетик от изюма "4no raisins"
 ent-FoodPacketSemkiTrash = Пакетик от семечек
     .desc = { ent-FoodPacketTrash.desc }
 ent-FoodPacketSusTrash = Пакетик от джерки Сас
+    .desc = { ent-FoodPacketTrash.desc }
+ent-FoodPacketCupRamenTrash = Пустой рамен
     .desc = { ent-FoodPacketTrash.desc }
 ent-FoodPacketSyndiTrash = Коробка от синди-кексов
     .desc = { ent-FoodPacketTrash.desc }

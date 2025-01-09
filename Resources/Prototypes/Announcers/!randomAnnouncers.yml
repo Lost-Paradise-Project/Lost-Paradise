@@ -1,4 +1,5 @@
 - type: weightedRandom
   id: RandomAnnouncers
   weights:
-    NTH: 1
+    NTH: 0.5
+    AFONYA: 0.5

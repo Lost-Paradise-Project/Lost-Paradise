@@ -1,0 +1,74 @@
+- type: job
+  id: AdministrativeAssistant
+  name: job-name-admin-assistant
+  description: job-description-admin-assistant
+  playTimeTracker: JobLPPАdjutant # JobAdminAssistant # LPP Адъю трекер
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      min: 10800 # 3 hours
+    - !type:DepartmentTimeRequirement
+      department: Logistics
+      min: 10800 # 3 hours
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      min: 10800 # 3 hours
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      min: 10800 # 3 hours
+    - !type:DepartmentTimeRequirement
+      department: Security
+      min: 10800 # 3 hours
+    - !type:DepartmentTimeRequirement
+      department: Justice
+      min: 10800 # 3 hours
+    - !type:DepartmentTimeRequirement
+      department: Epistemics
+      min: 10800 # 3 hours
+  startingGear: AdminAssistantGear
+  icon: "JobIconAdminAssitant"
+  supervisors: job-supervisors-command
+  canBeAntag: false
+  access:
+  - Command
+  - Bar
+  - Service
+  - Maintenance
+  - Janitor
+  - Theatre
+  - Kitchen
+  - Chapel
+  - Hydroponics
+  - External
+  - Engineering
+  - Research
+  - Salvage
+  - Security
+#  - Brig
+  - Cargo
+  - Medical
+  - Gateway
+  extendedAccess:
+  - HeadOfPersonnel
+  special:
+    - !type:AddImplantSpecial
+      implants: [MindShieldImplant]
+    - !type:AddComponentSpecial
+      components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: AdminAssistantGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitAdminAssistant
+    id: AdminAssistantPDA
+    ears: ClothingHeadsetAdminAssist
+    shoes: ClothingShoesLeather
+    socks: LPPClothingUnderSocksNormBlue
+    underwear: LPPBoxerBlue
+  underwear: LPPBriefsBlue
+  innerClothingSkirt: ClothingUniformJumpskirtAdminAssistant
+  satchel: ClothingBackpackSatchelHOPFilled
+  duffelbag: ClothingBackpackDuffelHOPFilled
+
+

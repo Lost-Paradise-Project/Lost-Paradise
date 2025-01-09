@@ -63,5 +63,3 @@ ent-ClothingOuterRedRacoon = red racoon suit
     .desc = Fluffy suit of red racoon!
 ent-ClothingOuterUnathiRobe = roughspun robes
     .desc = A traditional Unathi garment.
-ent-ClothingOuterShadowkinRestraints = shadowkin restraints
-    .desc = One of the first creations after finding Shadowkin, these were used to contain the Shadowkin during research so they didn't teleport away.

@@ -2,7 +2,7 @@
   id: LPPRadioSyndicateContract
   name: radio for communication with superiors
   description: Choose wiesly.
-  parent: BaseItem
+  parent: [ BaseItem, LPPStorePresetContract ]
   components:
   - type: Sprite
     sprite: _LostParadise/Objects/Devices/altradio.rsi
@@ -14,12 +14,14 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetContract
     balance:
       Telecrystal: 1337
+  - type: Tag
+    tags:
+    - LPPStoreContract
 
 - type: entity
-  parent: BaseItem
+  parent: [ BaseItem, LPPStorePresetCybersunUplinks ]
   id: LPPUplinkRadioCybersun
   name: Cybersun uplink
   description: Suspiciously looking old radio...
@@ -38,12 +40,14 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetCybersunUplinks
     balance:
       Telecrystal: 160
+  - type: Tag
+    tags:
+    - LPPStoreCybersunUplinks
 
 - type: entity
-  parent: BaseItem
+  parent: [ BaseItem, LPPStorePresetDonkUplinks ]
   id: LPPUplinkRadioDonk
   name: Donk uplink
   description: Suspiciously looking old radio...
@@ -62,12 +66,14 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetDonkUplinks
     balance:
       Telecrystal: 160
+  - type: Tag
+    tags:
+    - LPPStoreDonkUplinks
 
 - type: entity
-  parent: BaseItem
+  parent: [ BaseItem, LPPStorePresetGorlexUplinks ]
   id: LPPUplinkRadioGorlex
   name: Gorlex uplink
   description: Suspiciously looking old radio...
@@ -86,12 +92,14 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: LPPStorePresetGorlexUplinks
     balance:
       Telecrystal: 160
+  - type: Tag
+    tags:
+    - LPPStoreGorlexUplinks
 
 - type: entity
-  parent: BaseItem
+  parent: [ BaseItem, StorePresetUplink ]
   id: LPPBaseUplinkRadio450TC
   name: Syndicate uplink
   description: Suspiciously looking old radio...
@@ -111,6 +119,8 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: StorePresetUplink
     balance:
       Telecrystal: 300
+  - type: Tag
+    tags:
+    - NukeOpsUplink

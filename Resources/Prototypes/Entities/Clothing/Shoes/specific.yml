@@ -141,7 +141,7 @@
 # Corvax-HiddenDesc-End
 
 - type: entity
-  parent: ClothingShoesBaseButcherable
+  parent: ClothingShoesMilitaryBase
   id: ClothingShoesSwat
   name: swat shoes
   description: When you want to turn up the heat.
@@ -150,6 +150,8 @@
     sprite: Clothing/Shoes/Specific/swat.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Specific/swat.rsi
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.5
 
 - type: entity
   parent: ClothingShoesBaseButcherable

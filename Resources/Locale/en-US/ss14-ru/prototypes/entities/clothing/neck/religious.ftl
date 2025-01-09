@@ -1,0 +1,16 @@
+ent-ClothingNeckCrucifixColor = crucifix
+    .desc = A small cross on a piece of string. Commonly associated with the Christian faith, it is a main symbol of this religion.
+ent-ClothingNeckCrucifixColorSaintPeter = Saint Peter crucifix
+    .desc = A small cross on a piece of string. Being inverted and thus upside down marks it as the cross of Saint Peter.
+ent-ClothingNeckCrucifixGold = gold crucifix
+    .desc = A small, gold cross on a piece of string. Commonly associated with the Christian faith, it is a main symbol of this religion.
+ent-ClothingNeckCrucifixGoldSaintPeter = gold Saint Peter crucifix
+    .desc = A small, gold cross on a piece of string. Being inverted and thus upside down marks it as the cross of Saint Peter.
+ent-ClothingNeckCrucifixSilver = silver crucifix
+    .desc = A small, silver cross on a piece of string. Commonly associated with the Christian faith, it is a main symbol of this religion.
+ent-ClothingNeckCrucifixSilverSaintPeter = silver Saint Peter crucifix
+    .desc = A small, silver cross on a piece of string. Being inverted and thus upside down marks it as the cross of Saint Peter.
+ent-ClothingNeckScapular = scapular
+    .desc = As Christian garment that serves to remind the wearer of their commitment to live a Christian life.
+ent-ClothingNeckTallit = tallit
+    .desc = A fringed garment worn as a prayer shawl by Jewish people.

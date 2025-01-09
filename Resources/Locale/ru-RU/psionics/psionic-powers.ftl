@@ -131,6 +131,7 @@ telepathy-power-initialization-feedback =
     Голоса, которые я слышал всю свою жизнь, начинают звучать отчетливее, но они не покидают меня. Раньше они были похожи на бессвязный шепот,
     теперь мои чувства обострились, и я прихожу к осознанию того, что они являются частью общей галлюцинации. За каждым голосом скрывается мерцающее сознание.
 mindbreaking-feedback = Свет жизни исчезает из глаз { CAPITALIZE($entity) }, оставляя после себя шелуху, претендующую на разумность
+hard-mindbreaking-feedback = Your character's personhood has been obliterated. If you wish to continue playing, consider respawning as a new character.
 examine-mindbroken-message =
     Немигающие глаза, устремленные куда-то вдаль. { CAPITALIZE($entity) } это мешок мяса, притворяющийся, что у него есть душа.
     За его взглядом нет ничего, там нельзя найти никаких свидетельств божественного света.
@@ -141,6 +142,7 @@ action-description-shadowkin-shadeskip = Арарамрра!
 # DarkSwap
 action-name-darkswap = Размах Тьмы
 action-description-darkswap = Ммра Мамм!
+darkswap-power-initialization-feedback = For a short moment, I find myself able to break the realms. Phasing in the shadows and the dark, ready to travel to the darkest of places...
 ethereal-pickup-fail = Мою рука обжигает, когда она проходит сквозь объект....
 # Psionic Familiar System
 psionic-familiar-cant-attack-master = Я связан своим Хозяином, я не могу причинить ему вреда.

@@ -1,3 +1,5 @@
+
+
 - type: entity
   parent: BaseItem
   id: ReinforcementRadioSyndicate
@@ -34,6 +36,7 @@
       - AtmosphericTechnician
       - StationEngineer
       - TechnicalAssistant
+      - LPPSecurityEngineer
     - label: corvax-hidden-desc-ReinforcementRadio-research
       jobRequired:
       - ResearchAssistant
@@ -77,6 +80,23 @@
 
 - type: entity
   parent: ReinforcementRadioSyndicate
+  id: ReinforcementRadioSyndicateSyndiCat
+  name: syndicat reinforcement radio
+  description: Calls in a faithfully trained cat with a microbomb to assist you.
+  components:
+  - type: GhostRole
+    name: ghost-role-information-SyndiCat-name
+    description: ghost-role-information-SyndiCat-description
+    rules: ghost-role-information-syndicate-reinforcement-rules
+    raffle:
+      settings: default
+  - type: GhostRoleMobSpawner
+    prototype: MobCatSyndy
+  - type: EmitSoundOnUse
+    sound: /Audio/Animals/cat_meow.ogg
+
+- type: entity
+  parent: ReinforcementRadioSyndicate
   id: ReinforcementRadioSyndicateCyborgAssault # Reinforcement radio exclusive to nukeops uplink
   name: syndicate assault cyborg reinforcement radio
   description: Call in a well armed assault cyborg, instantly!
@@ -104,6 +124,7 @@
         - AtmosphericTechnician
         - StationEngineer
         - TechnicalAssistant
+        - LPPSecurityEngineer
       - label: corvax-hidden-desc-ReinforcementRadio-research
         jobRequired:
         - ResearchAssistant
