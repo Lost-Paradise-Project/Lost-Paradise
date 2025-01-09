@@ -8,16 +8,16 @@
   description: A standard Type I armored vest that provides decent protection against most types of damage.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/security.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/security.rsi #LPP
   - type: Armor #Based on /tg/ but slightly compensated to fit the fact that armor stacks in SS14.
     modifiers:
       coefficients:
-        Blunt: 0.70
-        Slash: 0.70
-        Piercing: 0.70 #Can save you, but bullets will still hurt. Will take about 10 shots from a Viper before critting, as opposed to 7 while unarmored and 16~ with a bulletproof vest.
-        Heat: 0.80
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65 #Can save you, but bullets will still hurt. Will take about 10 shots from a Viper before critting, as opposed to 7 while unarmored and 16~ with a bulletproof vest.
+        Heat: 0.7
   - type: ExplosionResistance
     damageCoefficient: 0.90
   - type: Fixtures
@@ -52,9 +52,9 @@
   description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/riot.rsi
+    sprite:  _LostParadise/Clothing/OuterClothing/Armor/riot.rsi #LPP
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/riot.rsi
+    sprite:  _LostParadise/Clothing/OuterClothing/Armor/riot.rsi #LPP
   - type: Armor
     modifiers:
       coefficients:
@@ -74,18 +74,15 @@
   description: Composed of semi-flexible polycarbonate, reinforced materials, and integrated ballistic plating, it offers exceptional protection against melee, bullet, and environmental threats, ensuring officers remain combat-ready in the harshest conditions.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/swat.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/swat.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/swat.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.45
-    lowPressureMultiplier: 1000
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/swat.rsi
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.6
-        Slash: 0.6
-        Piercing: 0.6
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
         Heat: 0.85
         Radiation: 0.75
         Caustic: 0.85
@@ -93,8 +90,10 @@
     damageCoefficient: 0.50
   - type: ClothingSpeedModifier # Burdensome for running, but perfect for speedy gliding, even though running is still probably better
     walkModifier: 0.9
-    sprintModifier: 0.7
+    sprintModifier: 0.8
   - type: GroupExamine
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetSwat
 
 - type: entity
   parent: ClothingOuterArmorBasic
@@ -103,18 +102,18 @@
   description: A Type III heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
+    sprite:  _LostParadise/Clothing/OuterClothing/Armor/bulletproof.rsi #LPP
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
+    sprite:  _LostParadise/Clothing/OuterClothing/Armor/bulletproof.rsi #LPP
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.9
-        Slash: 0.9
+        Blunt: 0.85
+        Slash: 0.85
         Piercing: 0.4
-        Heat: 0.9
+        Heat: 0.85
   - type: ExplosionResistance
-    damageCoefficient: 0.80
+    damageCoefficient: 0.75
 
 - type: entity
   parent: ClothingOuterArmorBasic
@@ -165,27 +164,35 @@
   description: A heavily armored suit that protects against excessive damage.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/heavy.rsi
+    sprite:  _LostParadise/Clothing/OuterClothing/Armor/heavy.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/heavy.rsi
+    sprite:  _LostParadise/Clothing/OuterClothing/Armor/heavy.rsi
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.2
-        Slash: 0.2
-        Piercing: 0.2
-        Heat: 0.5
-        Radiation: 0
-        Caustic: 0.75
+        Blunt: 0.45
+        Slash: 0.45
+        Piercing: 0.45
+        Heat: 0.65
+        Radiation: 0.8
+        Caustic: 0.65
   - type: GroupExamine
   - type: ClothingRequiredStepTriggerImmune
     slots: WITHOUT_POCKET
   - type: Tag
     tags:
       - FullBodyOuter
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.7
+  - type: HeldSpeedModifier
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHeavy
 
 - type: entity
-  parent: ClothingOuterArmorHeavy
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorHeavyGreen
   name: green heavy armor suit
   description: A heavily armored suit with green accents that protects against excessive damage.
@@ -194,9 +201,30 @@
     sprite: Clothing/OuterClothing/Armor/heavygreen.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Armor/heavygreen.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.25
+        Slash: 0.25
+        Piercing: 0.25
+        Heat: 0.8
+        Radiation: 0.8
+        Caustic: 0.65
+  - type: GroupExamine
+  - type: ClothingRequiredStepTriggerImmune
+    slots: WITHOUT_POCKET
+  - type: Tag
+    tags:
+      - FullBodyOuter
+  - type: ClothingSpeedModifier
+    walkModifier: 0.65
+    sprintModifier: 0.65
+  - type: HeldSpeedModifier
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
 
 - type: entity
-  parent: ClothingOuterArmorHeavy
+  parent: ClothingOuterArmorHeavyGreen
   id: ClothingOuterArmorHeavyRed
   name: red heavy armor suit
   description: A heavily armored suit with red accents that protects against excessive damage.

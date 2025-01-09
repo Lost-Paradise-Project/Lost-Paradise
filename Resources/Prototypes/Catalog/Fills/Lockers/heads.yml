@@ -318,6 +318,7 @@
 #LPP
       - id: LPPBoxArmband
       - id: LPPHOSPanties
+      - id: WeaponEnergyShotgun
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -349,6 +350,7 @@
 #LPP
       - id: LPPBoxArmband
       - id: LPPHOSPanties
+      - id: WeaponEnergyShotgun
 
 - type: entity
   id: LockerFreezerVaultFilled

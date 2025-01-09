@@ -27,7 +27,7 @@
   - type: ToggleableClothing
     clothingPrototype: LPPArmorMovementHead
   - type: StaminaDamageResistance
-    coefficient: 0.7
+    coefficient: 0.6
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -185,7 +185,7 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitSecurityPilot
   - type: StaminaDamageResistance
-    coefficient: 0.7
+    coefficient: 0.6
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -194,9 +194,9 @@
   description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/SecEng.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/seceng.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/SecEng.rsi
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/seceng.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -205,19 +205,20 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.65
-        Slash: 0.65
-        Piercing: 0.70
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.65
         Caustic: 0.8
         Heat: 0.35
+        Radiation: 0.45
   - type: ClothingSpeedModifier
-    walkModifier: 0.65
-    sprintModifier: 0.65
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSecurity
+    clothingPrototype: LPPClothingHeadHelmetSecurityEngineer
   - type: StaminaDamageResistance
-    coefficient: 0.7
+    coefficient: 0.75
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -620,11 +621,11 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.4
-        Slash: 0.4
-        Piercing: 0.5
+        Blunt: 0.35
+        Slash: 0.35
+        Piercing: 0.65
         Caustic: 0.45
-        Heat: 0.75
+        Heat: 1.2
         Radiation: 0.3
         Cold: 0.8
   - type: TemperatureProtection
@@ -632,8 +633,8 @@
   - type: ExplosionResistance
     damageCoefficient: 0.7
   - type: ClothingSpeedModifier
-    walkModifier: 0.8
-    sprintModifier: 0.8
+    walkModifier: 0.75
+    sprintModifier: 0.75
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitUpgradedMining
@@ -654,20 +655,20 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.55
-        Slash: 0.55
+        Blunt: 0.6
+        Slash: 0.6
         Piercing: 0.85
         Caustic: 0.1
-        Heat: 0.7
+        Heat: 1.2
         Radiation: 0.4
         Cold: 0.8
   - type: TemperatureProtection
     coefficient: 0.5
   - type: ExplosionResistance
-    damageCoefficient: 0.7
+    damageCoefficient: 0.
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+    walkModifier: 1.0
+    sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitMiningPlus
@@ -692,7 +693,6 @@
         Slash: 0.25
         Piercing: 0.35
         Caustic: 0.05
-        Heat: 0.7
         Radiation: 0.05
         Cold: 0.1
   - type: TemperatureProtection
@@ -1187,3 +1187,110 @@
   - type: BiocodedClothing
   - type: StaminaDamageResistance
     coefficient: 0.5
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitAcientHos
+  name: Hardsuit NT-014 - "Granite"
+  description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/hosacient.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/hosacient.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Caustic: 0.5
+        Heat: 0.65
+        Radiation: 0.5
+        Shock: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.65
+    sprintModifier: 0.65
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitAcientHos
+  - type: StaminaDamageResistance
+    coefficient: 0.65
+  - type: EmitsSoundOnMove
+    soundCollection:
+      collection: LPPHeavyHardsuitMovement
+      params:
+        playOffsetSeconds: 0.5
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitSpatioUpgraded
+  name: Hardsuit GRT|HpI-004 - "Proskynitís"
+  description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/spatioupgr.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/spatioupgr.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.3
+        Piercing: 0.65
+        Caustic: 0.5
+        Heat: 1.15
+        Radiation: 0.5
+        Shock: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.6
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitSpatioUpgraded
+  - type: StaminaDamageResistance
+    coefficient: 0.65
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitCombatAlternative
+  name: Tactical hardsuit GRT|FPA-88 - "keshik MK.I"
+  description: A purpose-built combat suit designed to protect its user against all manner of enemy combatants in low pressure environments.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/huntersec.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Hardsuits/huntersec.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.50
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.5
+        Radiation: 0.7
+        Caustic: 0.7
+        Heat: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitCombatAlternative
