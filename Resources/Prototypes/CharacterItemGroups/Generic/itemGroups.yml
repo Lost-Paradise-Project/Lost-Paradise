@@ -135,6 +135,7 @@
       id: LoadoutClothingJumpsuitSuitWhiteAlt
     - type: loadout
       id: LoadoutClothingJumpsuitSuitWhiteMob
+    #LPP
     - type: loadout
       id: LPPLoadoutCargoBlackSkirt
     - type: loadout
@@ -155,4 +156,3 @@
       id: LPPLoadoutUtilCargo
     - type: loadout
       id: LPPLoadoutQmcCargo
-    - type: loadout
