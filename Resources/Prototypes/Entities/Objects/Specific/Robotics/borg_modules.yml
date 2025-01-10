@@ -561,9 +561,10 @@
   description: A module that comes with a double energy sword.
   components:
     - type: Sprite
+      sprite: _LostParadise/Objects/Specific/Robotics/borgmodule.rsi #LPP
       layers:
       - state: syndicate
-      - state: icon-syndicate
+      - state: icon-esword
     - type: ItemBorgModule
       items:
       - EnergySwordDouble
@@ -576,9 +577,10 @@
   description: A module that comes with a L6C.
   components:
     - type: Sprite
+      sprite: _LostParadise/Objects/Specific/Robotics/borgmodule.rsi #LPP
       layers:
       - state: syndicate
-      - state: icon-syndicate
+      - state: icon-machinegun
     - type: ItemBorgModule
       items:
         - WeaponLightMachineGunL6C
