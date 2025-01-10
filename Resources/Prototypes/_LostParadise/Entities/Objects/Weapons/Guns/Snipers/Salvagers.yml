@@ -39,7 +39,6 @@
         Piercing: 5.5
         Structural: 30
     angle: 2
-    useKey: false
   - type: Appearance
   - type: Wieldable
   - type: IncreaseDamageOnWield
