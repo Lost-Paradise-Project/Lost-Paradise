@@ -19,6 +19,11 @@ ui-options-general-cursor = Курсор
 ui-options-general-speech = Речь
 ui-options-general-storage = Хранение
 ui-options-general-accessibility = Доступность
+ui-options-chatstack = Automatically merge identical chat messages
+ui-options-chatstack-off = Off
+ui-options-chatstack-single = Only last message
+ui-options-chatstack-double = Last two messages
+ui-options-chatstack-triple = Last three messages
 
 ## Меню Аудио
 
@@ -87,14 +92,12 @@ ui-options-vp-integer-scaling-tooltip =
     Если эта опция включена, окно просмотра будет масштабироваться с использованием целочисленного значения
     при конкретных разрешениях. Это дает четкие текстуры, но часто приводит к появлению черных полос вверху/внизу экрана или к тому, что часть окна не будет видна.
 ui-options-vp-vertical-fit = Вертикальное подгонка окна просмотра
-ui-options-vp-vertical-fit-tooltip =
-    Когда включено, окно просмотра будет игнорировать горизонтальную ось полностью при подгонке под экран. Если экран меньше окна, это приведет к обрезанию окна по горизонтали.
+ui-options-vp-vertical-fit-tooltip = Когда включено, окно просмотра будет игнорировать горизонтальную ось полностью при подгонке под экран. Если экран меньше окна, это приведет к обрезанию окна по горизонтали.
 ui-options-vp-low-res = Низкое разрешение окна просмотра
 ui-options-parallax-low-quality = Низкое качество параллакса (фон)
 ui-options-fps-counter = Показать счетчик FPS
 ui-options-vp-width = Ширина окна просмотра: { $width }
 ui-options-hud-layout = Макет HUD:
-
 
 ## Меню Управления
 
