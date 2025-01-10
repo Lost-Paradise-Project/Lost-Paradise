@@ -136,6 +136,8 @@
     - type: loadout
       id: LoadoutClothingJumpsuitSuitWhiteMob
     - type: loadout
+      id: LPPLoadoutCargoBlackSkirt
+    - type: loadout
       id: LPPLoadoutSupplyChiefCargo
     - type: loadout
       id: LPPLoadoutSupplyChiefSkirtCargo
