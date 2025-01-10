@@ -1,0 +1,12 @@
+ent-BeakerRad = Beaker arithrazine
+    .desc = { ent-Beaker.desc }
+ent-BeakerCold = Beaker leporazine
+    .desc = { ent-Beaker.desc }
+ent-BeakerOxygen = Beaker dexalin plus
+    .desc = { ent-Beaker.desc }
+ent-BeakerStimulants = Beaker stimulants
+    .desc = { ent-Beaker.desc }
+ent-BeakerTranexamicAcid = Beaker tranexamic acid
+    .desc = { ent-Beaker.desc }
+ent-BeakerEpinephrine = Beaker epinephrine
+    .desc = { ent-Beaker.desc }

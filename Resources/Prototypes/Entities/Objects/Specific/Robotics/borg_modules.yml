@@ -534,8 +534,9 @@
     - state: icon-syndicate
   - type: ItemBorgModule
     items:
-    - WeaponAdvancedLaser
+    - WeaponSubMachineGunC20rc #LPP
     - Machete
+#   - WeaponAdvancedLaser
 
 - type: entity
   id: BorgModuleOperative
