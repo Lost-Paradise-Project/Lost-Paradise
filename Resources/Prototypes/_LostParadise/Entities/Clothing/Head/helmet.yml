@@ -303,3 +303,20 @@
     heldPrefix: open
   - type: TinfoilHat
     destroyOnFry: false
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: LPPClothingHeadHelmetSalvager
+  name: Salvager helmet
+  description: Sturdy metal helmet, what else do you need?
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/salvhelmet.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/salvhelmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.95

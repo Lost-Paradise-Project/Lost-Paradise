@@ -24,3 +24,5 @@ ent-LPPClothingHeadHelmetSwatAlternative = Lightened SWAT armor helmet
     .desc = A sturdy helmet made of kevlar and plasteel, will protect against small-caliber bullets, as well as shrapnel.
 ent-LPPClothingHeadHelmetSwatEpistemic = Epistemic SWAT armor helmet
     .desc = A sturdy helmet made of kevlar and plasteel, will protect against small-caliber bullets, as well as shrapnel.
+ent-LPPClothingHeadHelmetSalvager = Salvager helmet
+    .desc = Sturdy metal helmet, what else do you need?

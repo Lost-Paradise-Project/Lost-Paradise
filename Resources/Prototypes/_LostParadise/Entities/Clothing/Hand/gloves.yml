@@ -81,3 +81,20 @@
     sprite: _LostParadise/Clothing/Hands/Gloves/clownPomni.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Hands/Gloves/clownPomni.rsi
+
+- type: entity
+  parent: ClothingHandsGlovesSyntheticBase
+  id: LPPClothingHandsGlovesSalvage
+  name: salvager gloves
+  description: Nylon gloves with polyurethane coating for hand protection. Protects against minor cuts. It felt like they were digging into the ground.
+  components:
+  - type: Sprite
+    sprite:  _LostParadise/Clothing/Hands/Gloves/salvager.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Hands/Gloves/salvager.rsi
+  - type: Fiber
+    fiberColor: fibers-brown
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95
