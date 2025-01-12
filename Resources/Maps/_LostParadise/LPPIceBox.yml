@@ -128530,7 +128530,7 @@ entities:
         - 0
         - 0
         - 0
-- proto: LPPAdjutantSpawn
+- proto: SpawnPointAdminAssistant
   entities:
   - uid: 28657
     components:
