@@ -73959,7 +73959,7 @@ entities:
     - type: Transform
       pos: 73.5,-29.5
       parent: 2
-- proto: LPPAdjutantSpawn
+- proto: SpawnPointAdminAssistant
   entities:
   - uid: 12993
     components:
