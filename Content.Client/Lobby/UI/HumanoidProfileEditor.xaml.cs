@@ -2175,7 +2175,11 @@ namespace Content.Client.Lobby.UI
             var categories = new Dictionary<string, object>();
             foreach (var (key, value) in cats)
             {
-                if (sponsorTier == 0 && key == "Sponsors")  // не добавлять категорию неспонсорам
+                if (key == "Sponsors"
+#if LPP_Sponsors
+                    && sponsorTier == 0
+#endif
+                    )  // не добавлять категорию неспонсорам
                     continue;
                 categories.Add(key, value);
             }
@@ -2207,7 +2211,11 @@ namespace Content.Client.Lobby.UI
                 AddSelector(selector);
 
                 // Look for an existing category tab
-                if (!(sponsorTier == 0 && loadout.Category == "Sponsors"))  //не добавлять спонсорские предметы никуда если нет уровня
+                if (!(loadout.Category == "Sponsors"
+#if LPP_Sponsors
+                    && sponsorTier == 0
+#endif
+                    ))  //не добавлять спонсорские предметы никуда если нет уровня
                 {
                     var match = FindCategory(loadout.Category, LoadoutsTabs);
 
