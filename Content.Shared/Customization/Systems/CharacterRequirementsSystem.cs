@@ -28,7 +28,11 @@ public sealed class CharacterRequirementsSystem : EntitySystem
         return
             !requirement.IsValid(job, profile, playTimes, whitelisted, prototype,
                 entityManager, prototypeManager, configManager,
-                out reason, depth)
+                out reason, depth
+#if LPP_Sponsors
+                , sponsorTier, uuid
+#endif  
+                )
                 ? requirement.Inverted
                 : !requirement.Inverted;
     }
@@ -53,7 +57,7 @@ public sealed class CharacterRequirementsSystem : EntitySystem
                 entityManager, prototypeManager, configManager,
                 out var reason, depth
 #if LPP_Sponsors
-                , sponsorTier = 0, uuid = ""
+                , sponsorTier, uuid
 #endif  
                 ))
             {
