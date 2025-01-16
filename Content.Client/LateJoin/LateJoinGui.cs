@@ -92,6 +92,7 @@ namespace Content.Client.LateJoin
             _jobCategories.Clear();
 
 #if LPP_Sponsors
+            Logger.Error("LateJoiGUI before sponsor info");
             var sys = IoCManager.Resolve<SponsorsManager>();
             var sponsorTier = 0;
             if (sys.TryGetInfo(out var sponsorInfo))

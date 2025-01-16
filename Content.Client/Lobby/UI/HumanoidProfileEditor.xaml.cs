@@ -28,6 +28,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Client.Utility;
 using Robust.Client.Player;
+using Robust.Shared.Player;
 using Robust.Shared.Configuration;
 using Robust.Shared.Enums;
 using Robust.Shared.Map;
@@ -720,6 +721,14 @@ namespace Content.Client.Lobby.UI
             _jobPriorities.Clear();
             var firstCategory = true;
 
+#if LPP_Sponsors
+            var sys = IoCManager.Resolve<SponsorsManager>();
+            var sponsorTier = 0;
+            if (sys.TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier;
+            var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
+#endif
+
             var departments = _prototypeManager.EnumeratePrototypes<DepartmentPrototype>().ToArray();
             Array.Sort(departments, DepartmentUIComparer.Instance);
 
@@ -800,7 +809,11 @@ namespace Content.Client.Lobby.UI
                          _entManager,
                          _prototypeManager,
                          _cfgManager,
-                         out var reasons))
+                         out var reasons
+#if LPP_Sponsors
+                        , 0, sponsorTier, uuid
+#endif
+                         ))
                         selector.LockRequirements(_characterRequirementsSystem.GetRequirementsText(reasons));
                     else
                         selector.UnlockRequirements();
@@ -2161,7 +2174,11 @@ namespace Content.Client.Lobby.UI
                 .ToList());
             var categories = new Dictionary<string, object>();
             foreach (var (key, value) in cats)
+            {
+                if (sponsorTier == 0 && key == "Sponsors")  // не добавлять категорию неспонсорам
+                    continue;
                 categories.Add(key, value);
+            }
 
             // Create the UI elements for the category tree
             CreateCategoryUI(categories, LoadoutsTabs);
@@ -2190,10 +2207,13 @@ namespace Content.Client.Lobby.UI
                 AddSelector(selector);
 
                 // Look for an existing category tab
-                var match = FindCategory(loadout.Category, LoadoutsTabs);
+                if (!(sponsorTier == 0 && loadout.Category == "Sponsors"))  //не добавлять спонсорские предметы никуда если нет уровня
+                {
+                    var match = FindCategory(loadout.Category, LoadoutsTabs);
 
-                // If there is no category put it in Uncategorized (this shouldn't happen)
-                (match ?? uncategorized).Children.First().Children.First().AddChild(selector);
+                    // If there is no category put it in Uncategorized (this shouldn't happen)
+                    (match ?? uncategorized).Children.First().Children.First().AddChild(selector);
+                }
             }
 
             // Hide any empty tabs

@@ -22,4 +22,4 @@ character-sponsor-requirement =
         [true] не быть
        *[other] быть
     } между [color=yellow]{ $min }[/color] и [color=yellow]{ $max }[/color] спонсорским уровнем
-character-uuid-requirement = Вы должны быть [color=yellow]{ $uuid }[/color]
+character-uuid-requirement = Это пренадлежит кому-то другому.
