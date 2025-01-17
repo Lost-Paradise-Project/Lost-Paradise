@@ -152,18 +152,11 @@ public sealed partial class CharacterDepartmentTimeRequirement : CharacterRequir
             return !Inverted;
         }
 
-#if LPP_Sponsors
-        if (job.Requirements != null && job.Requirements.OfType<CharacterWhitelistRequirement>().Any())
-            if (!whitelisted)
-            {
-                reason = null;
-                return false;
-            }
-
+#if LPP_Sponsors    //поскольку проверка на ВЛ происходит до вызова этого блока, то доп проверка не нужна
         if (sponsorTier >= 5)
         {
             reason = null;
-            return true;
+            return !Inverted;
         }
 #endif
 
@@ -244,17 +237,10 @@ public sealed partial class CharacterOverallTimeRequirement : CharacterRequireme
         }
 
 #if LPP_Sponsors
-        if (job.Requirements != null && job.Requirements.OfType<CharacterWhitelistRequirement>().Any())
-            if (!whitelisted)
-            {
-                reason = null;
-                return false;
-            }
-
         if (sponsorTier >= 5)
         {
             reason = null;
-            return true;
+            return !Inverted;
         }
 #endif
 
@@ -324,6 +310,14 @@ public sealed partial class CharacterPlaytimeRequirement : CharacterRequirement
             return !Inverted;
         }
 
+#if LPP_Sponsors //игнорируем любые требования по времени (только времени)
+        if (sponsorTier >= 5)
+        {
+            reason = null;
+            return !Inverted;
+        }
+#endif
+
         // Get SharedJobSystem
         if (!entityManager.EntitySysManager.TryGetEntitySystem(out SharedJobSystem? jobSystem))
         {
@@ -348,21 +342,6 @@ public sealed partial class CharacterPlaytimeRequirement : CharacterRequirement
         // Get the time for the tracker
         var time = playTimes.GetValueOrDefault(Tracker);
         reason = null;
-
-#if LPP_Sponsors
-        if (job.Requirements != null && job.Requirements.OfType<CharacterWhitelistRequirement>().Any())
-            if (!whitelisted)
-            {
-                reason = null;
-                return false;
-            }
-
-        if (sponsorTier >= 5)
-        {
-            reason = null;
-            return true;
-        }
-#endif
 
         if (time > Max)
         {
