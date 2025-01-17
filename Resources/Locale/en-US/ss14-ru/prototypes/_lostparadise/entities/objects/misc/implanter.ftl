@@ -1,7 +1,7 @@
 ent-LPPLoaltyImplant = loalty implant
     .desc = Do your enemies your friends!
 ent-LPPWehImplant = Weh implant
-    .desc = Lets it's user weh on-demand
+    .desc = Lets its user weh on-demand
 ent-LPPWehImplanter = Weh implanter
     .desc = Weh!
 ent-LPPLoaltyImplanter = loalty implanter
