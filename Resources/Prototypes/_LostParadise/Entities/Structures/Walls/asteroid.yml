@@ -18,7 +18,7 @@
           state: rock_asteroid_north
         - map: [ "enum.EdgeLayer.West" ]
           state: rock_asteroid_west
-        - state: rock_ore_diamond
+        - state: rock_diamond
 
 - type: entity
   id: LPPWallRockOreDiamond
@@ -40,7 +40,7 @@
           state: rock_north
         - map: [ "enum.EdgeLayer.West" ]
           state: rock_west
-        - state: rock_ore_diamond
+        - state: rock_diamond
 
 - type: entity
   id: LPPWallRockBasaltOreDiamond
@@ -62,7 +62,7 @@
           state: rock_wall_north
         - map: [ "enum.EdgeLayer.West" ]
           state: rock_wall_west
-        - state: rock_ore_diamond
+        - state: rock_diamond
 
 - type: entity
   id: LPPWallRockSnowOreDiamond
@@ -84,7 +84,7 @@
           state: rock_snow_north
         - map: [ "enum.EdgeLayer.West" ]
           state: rock_snow_west
-        - state: rock_ore_diamond
+        - state: rock_diamond
 
 - type: entity
   id: LPPWallRockSandOreDiamond
@@ -106,7 +106,7 @@
           state: rock_sand_north
         - map: [ "enum.EdgeLayer.West" ]
           state: rock_sand_west
-        - state: rock_ore_diamond
+        - state: rock_diamond
 
 - type: entity
   id: LPPWallRockChromiteOreDiamond
@@ -128,7 +128,7 @@
           state: rock_chromite_north
         - map: [ "enum.EdgeLayer.West" ]
           state: rock_chromite_west
-        - state: rock_ore_diamond
+        - state: rock_diamond
 
 - type: entity
   id: LPPWallRockAndesiteOreDiamond
@@ -150,4 +150,4 @@
           state: rock_andesite_north
         - map: [ "enum.EdgeLayer.West" ]
           state: rock_andesite_west
-        - state: rock_ore_diamond
+        - state: rock_diamond

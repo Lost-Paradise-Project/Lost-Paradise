@@ -1,0 +1,180 @@
+# Commander
+- type: job
+  id: LPPDeltaCommander
+  name: job-name-delta-commander
+  description: job-description-delta-commander
+  playTimeTracker: LPPJobDeltaCommander
+  setPreference: false
+  startingGear: LPPDeltaCommanderGearEVA
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+
+- type: startingGear
+  id: LPPDeltaCommanderGearEVA
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTLeader
+    back: LPPClothingBackpackDeltaLeaderFilled
+    shoes: ClothingShoesBootsMagAdv
+    mask: LPPClothingMaskGasOfficerIIC
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: LPPClothingOuterHardsuitIICCommand
+    suitstorage: AirTankFilled
+    id: LPPDeltaCommanderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: WeaponPistolN1984
+    pocket2: FlashlightSeclite
+
+# Engineer
+- type: job
+  id: LPPDeltaEngineer
+  name: job-name-delta-engineer
+  description: job-description-delta-engineer
+  playTimeTracker: LPPJobDeltaEngineer
+  setPreference: false
+  startingGear: LPPDeltaEngineerGearEVA
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+
+- type: startingGear
+  id: LPPDeltaEngineerGearEVA
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTEngineer
+    back: LPPClothingBackpackDeltaEngineerFilled
+    shoes: ClothingShoesBootsMagAdv
+    mask: LPPClothingMaskGasOfficerIIC
+    eyes: LPPClothingEyesHudSecEng
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: LPPClothingOuterHardsuitIICEngineer
+    suitstorage: AirTankFilled
+    id: LPPDeltaEngineerPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltChiefEngineerFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: Flare
+    pocket2: RemoteSignallerAdvanced
+
+# Medic
+- type: job
+  id: LPPDeltaMedic
+  name: job-name-delta-medic
+  description: job-description-delta-medic
+  playTimeTracker: LPPJobDeltaMedic
+  setPreference: false
+  startingGear: LPPDeltaMedicGearEVA
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: CPRTraining
+    - type: SurgerySpeedModifier
+      SpeedModifier: 2.0
+
+- type: startingGear
+  id: LPPDeltaMedicGearEVA
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTMedic
+    back: LPPClothingBackpackDeltaMedicFilled
+    shoes: LPPClothingShoesBootsMagParamed
+    mask: LPPClothingMaskGasOfficerIIC
+    eyes: ClothingEyesHudMedSec
+    gloves: LPPClothingHandsGlovesCombatNitrile
+    outerClothing: LPPClothingOuterHardsuitIICMedic
+    suitstorage: AirTankFilled
+    id: LPPDeltaMedicPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltCorpsmanWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: Flare
+    pocket2: HandheldCrewMonitor
+
+# Operator
+- type: job
+  id: LPPDeltaOperator
+  name: job-name-delta-operator
+  description: job-description-delta-operator
+  playTimeTracker: LPPJobDeltaOperator
+  setPreference: false
+  startingGear: LPPDeltaOperatorGearEVA
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+
+- type: startingGear
+  id: LPPDeltaOperatorGearEVA
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTSecurity
+    back: LPPClothingBackpackDeltaOperatorFilled
+    shoes: ClothingShoesBootsMag
+    mask: LPPClothingMaskGasOfficerIIC
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: LPPClothingOuterHardsuitIIC
+    suitstorage: AirTankFilled
+    id: LPPDeltaOperatorPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: WeaponPistolUniversal
+    pocket2: FlashlightSeclite
+
+# Pyrotech
+- type: job
+  id: LPPDeltaPyrotech
+  name: job-name-delta-pyrotech
+  description: job-description-delta-pyrotech
+  playTimeTracker: LPPJobDeltaPyrotech
+  setPreference: false
+  startingGear: LPPDeltaPyrotechGearEVA
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+
+- type: startingGear
+  id: LPPDeltaPyrotechGearEVA
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTSecurity
+    back: LPPClothingBackpackDeltaPyrotechFilled
+    shoes: ClothingShoesBootsMag
+    mask: LPPClothingMaskGasOfficerIIC
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: LPPClothingOuterHardsuitIICPyrotech
+    suitstorage: WeaponShotgunBulldog
+    id: LPPDeltaPyrotechPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: ClothingBeltSecurityWebbingFilled
+    socks: LPPClothingUnderSocksNorm
+    underwear: LPPBoxer
+    pocket1: RemoteSignallerAdvanced
+    pocket2: DoubleEmergencyOxygenTankFilled

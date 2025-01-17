@@ -15,3 +15,18 @@
 
 - type: playTimeTracker
   id: LPPJobSecurityEnginer
+
+- type: playTimeTracker
+  id: LPPJobDeltaCommander
+
+- type: playTimeTracker
+  id: LPPJobDeltaEngineer
+
+- type: playTimeTracker
+  id: LPPJobDeltaMedic
+
+- type: playTimeTracker
+  id: LPPJobDeltaOperator
+
+- type: playTimeTracker
+  id: LPPJobDeltaPyrotech

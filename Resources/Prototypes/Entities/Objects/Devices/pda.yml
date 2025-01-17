@@ -1217,15 +1217,20 @@
   components:
   - type: Pda
     id: ERTMedicIDCard
+  - type: HealthAnalyzer
+    scanDelay: 1
+    scanningEndSound:
+      path: "/Audio/Items/Medical/healthscanner.ogg"
   - type: CartridgeLoader
     uiKey: enum.PdaUiKey.Key
     preinstalled:
       - CrewManifestCartridge
       - NotekeeperCartridge
       - NewsReaderCartridge
+      - SecWatchCartridge # DeltaV: SecWatch replaces WantedList
+      - LogProbeCartridge
       - MedTekCartridge
-      - CrimeAssistCartridge
-      - SecWatchCartridge
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: ERTLeaderPDA

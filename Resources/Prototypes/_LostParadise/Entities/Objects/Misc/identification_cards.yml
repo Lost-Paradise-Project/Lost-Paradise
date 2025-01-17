@@ -74,3 +74,87 @@
         - state: idseniorofficer
     - type: PresetIdCard
       job: SecPilot
+
+# Delta Squad
+
+- type: entity
+  parent: CentcomIDCard
+  id: LPPDeltaCommanderIDCard
+  name: Delta Commander ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+    - state: departmenthead
+      color: "#1B67A5"
+    - state: subdepartment
+      color: "#1B67A5"
+    - state: captain
+  - type: PresetIdCard
+    job: LPPDeltaCommander
+  - type: Item
+    heldPrefix: gold
+
+- type: entity
+  parent: LPPDeltaCommanderIDCard
+  id: LPPDeltaEngineerIDCard
+  name: Delta Engineer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+    - state: departmenthead
+      color: "#1B67A5"
+    - state: subdepartment
+      color: "#F39F27"
+    - state: stationengineer
+  - type: PresetIdCard
+    job: LPPDeltaEngineer
+
+- type: entity
+  parent: LPPDeltaCommanderIDCard
+  id: LPPDeltaMedicIDCard
+  name: Delta Medic ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+    - state: departmenthead
+      color: "#1B67A5"
+    - state: subdepartment
+      color: "#5B97BC"
+    - state: medicaldoctor
+  - type: PresetIdCard
+    job: LPPDeltaMedic
+
+- type: entity
+  parent: LPPDeltaCommanderIDCard
+  id: LPPDeltaOperatorIDCard
+  name: Delta Operator ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+    - state: departmenthead
+      color: "#1B67A5"
+    - state: subdepartment
+      color: "#CB0000"
+    - state: securityofficer
+  - type: PresetIdCard
+    job: LPPDeltaOperator
+
+- type: entity
+  parent: LPPDeltaCommanderIDCard
+  id: LPPDeltaPyrotechIDCard
+  name: Delta Pyrotech ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: centcom
+    - state: departmenthead
+      color: "#1B67A5"
+    - state: subdepartment
+      color: "#CB0000"
+    - state: senior
+  - type: PresetIdCard
+    job: LPPDeltaPyrotech
