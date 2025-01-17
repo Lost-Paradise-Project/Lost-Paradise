@@ -12,7 +12,7 @@
     size: Huge
   - type: AmmoCounter
   - type: Gun
-    fireRate: 3.5
+    fireRate: 4.5
     selectedMode: SemiAuto
     angleDecay: 45
     minAngle: 44
@@ -25,7 +25,7 @@
     minAngle: -43
     maxAngle: -43
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 2.5
+    rechargeCooldown: 4.5
     rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
   - type: BasicEntityAmmoProvider
     proto: LPPBulletPibodi
@@ -37,19 +37,20 @@
     damage:
       types:
         Piercing: 5.5
-        Structural: 30
     angle: 2
   - type: Appearance
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Piercing: 6.5
+        Piercing: 4.5
+        Structural: 17.5
   - type: Clothing
     quickEquip: false
     slots:
     - back
     - suitStorage
+  - type: Execution
 
 - type: entity
   parent: BaseItem
@@ -92,6 +93,25 @@
     - back
     - suitStorage
   - type: Telescope
+  - type: Execution
+  - type: MeleeWeapon
+    attackRate: 1.3333
+    damage:
+      types:
+        Blunt: 8.5
+    bluntStaminaDamageFactor: 1.25
+    swapKeys: true
+    disableHeavy: true
+    animation: WeaponArcThrust
+    wideAnimationRotation: 180
+    soundHit:
+      collection: MetalThud
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 2.5
+  - type: DamageOtherOnHit
+    staminaCost: 7.5
 
 - type: entity
   parent: BaseItem
@@ -133,6 +153,24 @@
     slots:
     - back
     - suitStorage
+  - type: MeleeWeapon
+    attackRate: 1.3333
+    damage:
+      types:
+        Blunt: 8.5
+    bluntStaminaDamageFactor: 1.25
+    swapKeys: true
+    disableHeavy: true
+    animation: WeaponArcThrust
+    wideAnimationRotation: 180
+    soundHit:
+      collection: MetalThud
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 2.5
+  - type: DamageOtherOnHit
+    staminaCost: 7.5
 
 - type: entity
   parent: BaseItem
@@ -172,6 +210,24 @@
     slots:
     - back
     - suitStorage
+  - type: MeleeWeapon
+    attackRate: 1.3333
+    damage:
+      types:
+        Blunt: 8.5
+    bluntStaminaDamageFactor: 1.25
+    swapKeys: true
+    disableHeavy: true
+    animation: WeaponArcThrust
+    wideAnimationRotation: 180
+    soundHit:
+      collection: MetalThud
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 2.5
+  - type: DamageOtherOnHit
+    staminaCost: 7.5
 
 - type: entity
   parent: BaseItem
@@ -209,3 +265,17 @@
     slots:
     - belt
     - suitStorage
+  - type: MeleeWeapon
+    attackRate: 1.3333
+    damage:
+      types:
+        Blunt: 7.5
+    bluntStaminaDamageFactor: 1.25
+    swapKeys: true
+    disableHeavy: true
+    animation: WeaponArcThrust
+    wideAnimationRotation: 60
+    soundHit:
+      collection: MetalThud
+  - type: DamageOtherOnHit
+    staminaCost: 7.5
