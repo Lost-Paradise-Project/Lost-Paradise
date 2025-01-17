@@ -85,3 +85,14 @@
     contents:
       - id: MacroBombImplanter
         amount: 5
+        
+- type: entity
+  id: LPPCrateWehImplants
+  name: Weh implant crate
+  description: Crate filled with 5 weh implants which let the user weh
+  parent: CrateMedical
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWehImplanter
+        amount: 5

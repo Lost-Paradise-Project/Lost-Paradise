@@ -7,6 +7,28 @@
   components:
     - type: SubdermalImplant
 
+- type: entity
+  parent: BaseSubdermalImplant
+  id: LPPWehImplant
+  name: Weh implant
+  description: Lets it's user weh on-demand
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+      implantAction: LPPActionActivateWehImplant
+    - type: TriggerImplantAction
+    - type: EmitSoundOnTrigger
+      sound:
+        collection: Weh
+
+- type: entity
+  id: LPPWehImplanter
+  name: Weh implanter
+  description: Weh!
+  parent: BaseImplantOnlyImplanter
+  components:
+    - type: Implanter
+      implant: LPPWehImplant
 
 - type: entity
   id: LPPLoaltyImplanter
@@ -16,7 +38,7 @@
   components:
     - type: Implanter
       implant: LPPLoaltyImplant
-
+      
 - type: entity
   id: LPPCrateLoaltyImplants
   parent: CrateGenericSteel
@@ -25,3 +47,4 @@
     contents:
       - id: LPPLoaltyImplanter
         amount: 3
+

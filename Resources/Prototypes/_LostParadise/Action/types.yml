@@ -9,3 +9,14 @@
 #       sprite: _LostParadise/Interface/emotion_heart.rsi
 #       state: heart
 #     event: !type:ToggleEmotePanelActionEvent
+
+- type: entity
+  id: LPPActionActivateWehImplant
+  name: Weh!
+  description: Weh!
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    icon: { sprite: Objects/Fun/toys.rsi, state: plushie_lizard }
+    event: !type:ActivateImplantEvent
+    useDelay: 1
