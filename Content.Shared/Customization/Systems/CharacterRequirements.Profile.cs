@@ -483,7 +483,7 @@ public sealed partial class CharacterUUIDRequirement : CharacterRequirement
         int sponsorTier = 0,
         string uuid = "")
     {
-        reason = Loc.GetString("character-uuid-requirement", ("uuid", Uuid));
+        reason = Loc.GetString("character-uuid-requirement"); //не нужно сообщать uuid
         return uuid == Uuid;
     }
 }
