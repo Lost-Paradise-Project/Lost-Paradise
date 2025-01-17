@@ -6,3 +6,5 @@ ent-LPPBaseWeaponSniper = LPPBaseWeaponSniper
     .desc = A rooty tooty point and shooty.
 ent-LPPWeaponGoliath = Goliath
     .desc = Specialised "tool" for breaching . Uses .60 anti-materiel ammo.
+ent-WeaponSniperRepeater = N2524 Pattern Repeater
+    .desc = A civilian grade lever action firearm, favored by space cowboys across the Frontier for its reliability and stopping power. Uses .45 magnum ammo.

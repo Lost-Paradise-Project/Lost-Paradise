@@ -1,0 +1,11 @@
+## Mercenary
+# Sidearm racks
+- type: entity
+  id: StructurePistolRackWallmountedMercenaryFilled
+  parent: StructurePistolRackWallmountedMercenary
+  suffix: Dunegeon, Mercenary, Filled, Wallmount
+  components:
+  - type: ContainerFill
+    containers:
+      weapon1:
+      - WeaponRevolverArgenti

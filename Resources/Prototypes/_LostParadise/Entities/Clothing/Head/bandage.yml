@@ -21,3 +21,8 @@
     sprite: _LostParadise/Clothing/Eyes/bandage-eyepatch.rsi
   - type: EyeProtection
     protectionTime: 5
+
+- type: entity
+  parent: [ClothingHeadBandBase, ClothingMaskBandMerc]
+  id: ClothingHeadBandMercenary # Frontier - Name fix
+  name: mercenary bandana

@@ -16,6 +16,7 @@ salvage-expedition-window-modifiers = Модификаторы:
 offering-window-claimed = Принято
 offering-window-claim = Принять
 salvage-expedition-window-next = Следующее предложение
+salvage-expedition-window-finish = Завершить экспедицию
 # Expedition descriptions
 salvage-expedition-difficulty-players = Рекомендовано утилизаторов:
 #  С вас удержат налог в размере { $tax }% от добытых ресурсов.
@@ -40,3 +41,8 @@ salvage-expedition-announcement-countdown-seconds =
 salvage-expedition-reward-description = Награда за завершение миссии
 salvage-expedition-announcement-dungeon = Подземелье расположено от вас на { $direction }.
 salvage-expedition-completed = Экспедиция окончена.
+# Salvage mods
+salvage-time-mod-standard-time = Нормальная продолжительность
+salvage-time-mod-rush = Спешка
+salvage-weather-mod-heavy-snowfall = Сильный снегопад
+salvage-weather-mod-rain = Дождь

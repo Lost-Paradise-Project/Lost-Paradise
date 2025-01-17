@@ -1,0 +1,10 @@
+ent-ClothingHeadEVAHelmetWithLightBase = Базовый шлем ЕВА с фонариком
+    .desc = { ent-ClothingHeadEVAHelmetBase.desc }
+ent-ClothingHeadEVAHelmetEngineer = Инженерный шлем ЕВА
+    .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
+ent-ClothingHeadEVAHelmetAtmosTech = Атмосферный шлем ЕВА
+    .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
+ent-ClothingHeadEVAHelmetCargo = Шлем ЕВА Грзучика
+    .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
+ent-ClothingHeadEVAHelmetSalvage = Утилизаторский шлем ЕВА
+    .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }

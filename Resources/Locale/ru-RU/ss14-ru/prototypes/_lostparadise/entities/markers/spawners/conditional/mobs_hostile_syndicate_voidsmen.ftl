@@ -1,0 +1,9 @@
+ent-SpawnMobSyndicateNavalSecondOfficerVoid = syndicate naval second officer spawner
+    .suffix = AI, Hostile, Voidsman
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobSyndicateNavalCaptainVoid = syndicate naval captain spawner
+    .suffix = AI, Hostile, Voidsman
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobSyndicateNavalOperatorVoid = syndicate naval operator spawner
+    .suffix = AI, Hostile, Voidsman
+    .desc = { ent-MarkerBase.desc }

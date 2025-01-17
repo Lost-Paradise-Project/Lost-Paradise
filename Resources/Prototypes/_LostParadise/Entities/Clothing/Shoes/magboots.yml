@@ -105,3 +105,52 @@
     - WhitelistChameleon
   - type: StaticPrice
     price: 450
+
+- type: entity
+  parent: ClothingShoesBootsMagCombat
+  id: ClothingShoesBootsMagMercenary
+  name: mercenary magboots
+  description: Mercenary magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/magboots-mercenary.rsi
+    state: icon
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/magboots-mercenary.rsi
+  - type: Magboots
+    toggleAction: ActionToggleMagbootsMercenary
+
+- type: entity
+  parent: [ClothingShoesBootsMag, ClothingShoesBootsCombat]
+  id: ClothingShoesBootsMagCombat
+  name: combat magboots
+  description: Combat magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Shoes/Boots/magboots-combat.rsi
+    state: icon
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Shoes/Boots/magboots-combat.rsi
+  - type: Magboots
+    toggleAction: ActionToggleMagbootsCombat
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.9
+
+- type: entity
+  id: ActionToggleMagbootsMercenary
+  parent: ActionToggleMagboots
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon: { sprite: _LostParadise/Clothing/Shoes/Boots/magboots-mercenary.rsi, state: icon }
+    iconOn: { sprite : _LostParadise/Clothing/Shoes/Boots/magboots-mercenary.rsi, state: icon-on }
+
+- type: entity
+  id: ActionToggleMagbootsCombat
+  parent: ActionToggleMagboots
+  noSpawn: true
+  components:
+  - type: InstantAction
+    icon: { sprite: _LostParadise/Clothing/Shoes/Boots/magboots-combat.rsi, state: icon }
+    iconOn: { sprite : _LostParadise/Clothing/Shoes/Boots/magboots-combat.rsi, state: icon-on }

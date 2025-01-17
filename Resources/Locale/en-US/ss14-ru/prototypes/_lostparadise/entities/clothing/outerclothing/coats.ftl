@@ -18,3 +18,5 @@ ent-LPPExpeditorCoat = expeditor coat
     .desc = nice coat.
 ent-LPPOuterClothingGarfield = Garfield's costume
     .desc = It's soft and smells of hate for Mondays.
+ent-ClothingOuterCoatBHTrench = bounty hunter's flak trenchcoat
+    .desc = A greatcoat enhanced with a bulletproof alloy for some extra protection and style for those with a charismatic presence.

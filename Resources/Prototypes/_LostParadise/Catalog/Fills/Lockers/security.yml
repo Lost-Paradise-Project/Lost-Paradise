@@ -15,3 +15,24 @@
       - id: LPPHammer
       - id: RCD
       - id: RCDAmmo
+
+- type: entity
+  id: NFClosetBombFilled
+  parent: ClosetBombFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHeadHelmetBombSuit
+      - id: ClothingOuterSuitBomb
+      - id: Wirecutter
+      - id: Screwdriver
+      - id: Multitool
+
+- type: entity
+  id: NFLockerSecurityFilled
+  parent: LockerSecurityFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHeadHelmetBasic
+      - id: ClothingOuterArmorBasic

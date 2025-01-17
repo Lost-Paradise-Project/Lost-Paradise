@@ -1,0 +1,11 @@
+ent-ClothingBeltQuiverCrossbow = колчан (болты)
+    .desc = Вмещает до 25 болтов и плотно облегает талию.
+ent-ClothingBeltQuiverCrossbowFilledBolt = { ent-ClothingBeltQuiverCrossbow }
+    .suffix = Filled, Bolts
+    .desc = { ent-ClothingBeltQuiverCrossbow.desc }
+ent-ClothingBeltQuiverCrossbowFilledUranium = { ent-ClothingBeltQuiverCrossbow }
+    .suffix = Filled, Uranium Tip
+    .desc = { ent-ClothingBeltQuiverCrossbow.desc }
+ent-ClothingBeltQuiverCrossbowFilledPlasma = { ent-ClothingBeltQuiverCrossbow }
+    .suffix = Filled, Plasma Tip
+    .desc = { ent-ClothingBeltQuiverCrossbow.desc }

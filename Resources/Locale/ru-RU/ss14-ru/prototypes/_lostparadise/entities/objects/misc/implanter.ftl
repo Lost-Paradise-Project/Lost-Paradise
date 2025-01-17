@@ -4,3 +4,6 @@ ent-LPPLoaltyImplanter = Имплантер лояльности
     .desc = Сделает врага - другом.
 ent-LPPCrateLoaltyImplants = { ent-CrateGenericSteel }
     .desc = { ent-CrateGenericSteel.desc }
+ent-MedicalTrackingImplanter = { ent-BaseImplantOnlyImplanter }
+    .suffix = medical tracking
+    .desc = { ent-BaseImplantOnlyImplanter.desc }

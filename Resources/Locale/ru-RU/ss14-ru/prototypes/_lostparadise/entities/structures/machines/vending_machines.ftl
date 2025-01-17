@@ -27,3 +27,5 @@ ent-LPPWithSoftAnimals = Автоплюшек
     .suffix = Разблокирован
 ent-LPPTeaVend = ЧаяМат
     .desc = Идеален для тех, кто хочет освежиться.
+ent-VendingMachineBountyVend = BountyVend
+    .desc = Essential gear for the bounty hunter on the go.

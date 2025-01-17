@@ -18,3 +18,5 @@ ent-LPPExpeditorCoat = Пальто исследователя
     .desc = Удобно, крепко, подвижно и, самое главное, стильно. Выглядит слегка защищённым.
 ent-LPPOuterClothingGarfield = Костюм Гарфилда
     .desc = Мягкий и пахнет ненавистью к понедельникам.
+ent-ClothingOuterCoatBHTrench = bounty hunter's flak trenchcoat
+    .desc = A greatcoat enhanced with a bulletproof alloy for some extra protection and style for those with a charismatic presence.

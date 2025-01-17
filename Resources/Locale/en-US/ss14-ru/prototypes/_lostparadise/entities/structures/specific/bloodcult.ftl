@@ -1,0 +1,12 @@
+ent-BloodCultHoleFloor = blood cult floor hole
+    .desc = { ent-FlashRuneTimer.desc }
+ent-BloodCultProp01 = curious object
+    .desc = Huh, I wonder what this thing is and what does it do.
+ent-BloodCultProp03 = blood cult shrine
+    .desc = An occult shrine for imbuing objects with vile energies.
+ent-BloodCultProp04 = blood cult workbench
+    .desc = An occult workbench with handy drawers. There is a severed hand in one.
+ent-BloodCultProp05 = curious object
+    .desc = Huh, I wonder what this thing is and what does it do.
+ent-BloodCultProp07 = curious object
+    .desc = Huh, I wonder what this thing is and what does it do.

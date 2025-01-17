@@ -1,5 +1,7 @@
 ent-ClothingOuterVestWeb = Тактический жилет
     .desc = Синтетический бронежилет. У этого есть дополнительные ремни и баллистические пластины.
+ent-ClothingOuterVestWebMercenary = mercenary web vest
+    .desc = A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
 ent-ClothingOuterVestWebMerc = Тактический жилет наёмника
     .desc = Высококачественный бронежилет из прочного синтетического материала. Он удивительно гибкий и лёгкий, несмотря на внушительную броню.
 ent-ClothingOuterVestDetective = Жилет детектива

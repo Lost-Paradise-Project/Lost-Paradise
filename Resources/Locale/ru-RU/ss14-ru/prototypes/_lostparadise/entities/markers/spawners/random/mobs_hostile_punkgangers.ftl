@@ -1,0 +1,9 @@
+ent-SpawnMobPunkMelee = Спавнер Панка
+    .suffix = ИИ, Враждебный, Ближний
+    .desc = { ent-MarkerBasePlaceFree.desc }
+ent-SpawnMobPunkRanged = Спавнер Панка
+    .suffix = ИИ, Враждебный, Дальнобойный
+    .desc = { ent-MarkerBasePlaceFree.desc }
+ent-SpawnMobPunkLeader = Спавнер Лидера Панков
+    .suffix = ИИ, Враждебный
+    .desc = { ent-MarkerBasePlaceFree.desc }

@@ -1,0 +1,12 @@
+ent-BaseCrossbow = crossbow
+    .desc = The original rooty tooty point and shooty.
+ent-BaseCrossbowWieldable = { ent-BaseCrossbow }
+    .desc = { ent-BaseCrossbow.desc }
+ent-CrossbowImprovised = impovised crossbow
+    .desc = { ent-BaseCrossbowWieldable.desc }
+ent-CrossbowImprovisedHand = impovised hand crossbow
+    .desc = { ent-BaseCrossbow.desc }
+ent-CrossbowBloodCultHand = blood cult hand crossbow
+    .desc = { ent-BaseCrossbow.desc }
+ent-CrossbowModernHand = hand crossbow
+    .desc = { ent-BaseCrossbow.desc }

@@ -1,0 +1,903 @@
+# Gun cases with contraband (unregistered) guns for expeditions
+# Pistols
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortMk58Expedition
+  suffix: Dungeon, Mk58
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponPistolMk58
+      amount: 1
+    - id: MagazinePistol
+      amount: 2
+
+- type: entity
+  name: weapon case
+  parent: WeaponCaseLong
+  id: WeaponCaseHeavy
+  description: A reinforced casing for storing heavy armaments.
+  suffix: Heavy
+  components:
+  - type: MultiHandedItem
+  - type: Sprite
+    sprite: _LostParadise/Objects/Storage/Cases/guncaseheavy.rsi
+  - type: Item
+    sprite: _LostParadise/Objects/Storage/Cases/guncaseheavy.rsi
+    size: Ginormous
+    shape:
+    - 0,0,8,3
+  - type: Storage
+    maxItemSize: Ginormous
+    grid:
+    - 0,0,7,3
+    whitelist:
+      components:
+      - Gun
+      - BallisticAmmoProvider
+      - Projectile
+      - CartridgeAmmo
+      - PowerCell
+      - MeleeWeapon
+      - Blocking
+      - WeaponCaseInsertable
+      - Armor
+      tags:
+      - Cartridge
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortN1984Expedition
+  suffix: Dungeon, N1984
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponPistolN1984
+      amount: 1
+    - id: MagazineMagnum
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortViper
+  suffix: Dungeon, Viper
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponPistolViper
+      amount: 1
+    - id: MagazinePistol
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortCobra
+  suffix: Dungeon, Cobra
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponPistolCobra
+      amount: 1
+    - id: MagazinePistolCaselessRifle
+      amount: 1
+    - id: MagazineBoxCaselessRifle10x24
+      amount: 1
+
+# Revolvers
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortArgentiExpedition
+  suffix: Dungeon, Argenti
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRevolverArgenti
+      amount: 1
+    - id: SpeedLoaderRifleHeavy
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortDeckardExpedition
+  suffix: Dungeon, Deckard
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRevolverDeckard
+      amount: 1
+    - id: SpeedLoaderMagnum
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortPython
+  suffix: Dungeon, Python
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRevolverPython
+      amount: 1
+    - id: SpeedLoaderMagnum
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortMateba
+  suffix: Dungeon, Mateba
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRevolverMateba
+      amount: 1
+    - id: SpeedLoaderMagnum
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortRevolverPirate
+  suffix: Dungeon, Pirate Revolver
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRevolverPirate
+      amount: 1
+    - id: SpeedLoaderMagnum
+      amount: 2
+
+# Shotguns
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortHandmadeExpedition
+  suffix: Dungeon, Handmade Pistol
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunHandmade
+      amount: 1
+    - id: BoxLethalshot
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongShotgunDoubleBarreledExpedition
+  suffix: Dungeon, Double Barreled
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunDoubleBarreled
+      amount: 1
+    - id: BoxLethalshot
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortSawnExpedition
+  suffix: Dungeon, Sawn-off
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunSawn
+      amount: 1
+    - id: BoxLethalshot
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongKammerer
+  suffix: Dungeon, Kammerer
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunKammerer
+      amount: 1
+    - id: BoxLethalshot
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongEnforcerExpedition
+  suffix: Dungeon, Enforcer
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunEnforcer
+      amount: 1
+    - id: BoxLethalshot
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongBulldog
+  suffix: Dungeon, Bulldog
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponShotgunBulldog
+      amount: 1
+    - id: MagazineShotgun
+      amount: 2
+    - id: BoxLethalshot
+      amount: 2
+
+# SMGs
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongWT550Expedition
+  suffix: Dungeon, WT550
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSubMachineGunWt550
+      amount: 1
+    - id: MagazinePistolSubMachineGunTopMounted
+      amount: 2
+    - id: MagazineBoxPistol
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongAtreidesExpedition
+  suffix: Dungeon, Atreides
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSubMachineGunAtreides
+      amount: 1
+    - id: MagazinePistolSubMachineGun
+      amount: 2
+    - id: MagazineBoxPistol
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongDrozd
+  suffix: Dungeon, Drozd
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSubMachineGunDrozd
+      amount: 1
+    - id: MagazinePistolSubMachineGun
+      amount: 2
+    - id: MagazineBoxPistol
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongC20r
+  suffix: Dungeon, C20r
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSubMachineGunC20r
+      amount: 1
+    - id: MagazinePistolSubMachineGun
+      amount: 2
+    - id: MagazineBoxPistol
+      amount: 2
+
+# Rifles
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongGestioExpedition
+  suffix: Dungeon, Gestio
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleGestio
+      amount: 1
+    - id: MagazineLightRifleLowCapacity
+      amount: 3
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongWeaponRifleNovaliteC1Expedition
+  suffix: Dungeon, NovaliteC1
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleNovaliteC1
+      amount: 1
+    - id: MagazineNovaliteC1
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongLecterExpedition
+  suffix: Dungeon, Lecter
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleLecter
+      amount: 1
+    - id: MagazineRifle
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongAkExpedition
+  suffix: Dungeon, AKMS
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleAk
+      amount: 1
+    - id: MagazineLightRifle
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongM90Expedition
+  suffix: Dungeon, M-90gl
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleM90GrenadeLauncher
+      amount: 1
+    - id: MagazineRifle
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongSVTExpedition
+  suffix: Dungeon, SVT
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleSVT
+      amount: 1
+    - id: MagazineLightRifleLowCapacity
+      amount: 2
+
+# Energy
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortLaserGunExpedition
+  suffix: Dungeon, Retro Laser
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponLaserGun
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortSvalinnExpedition
+  suffix: Dungeon, Svalinn
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponLaserSvalinn
+      amount: 1
+    - id: PowerCellHigh
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongLaserCarbine
+  suffix: Dungeon, Laser Carbine
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponLaserCarbine
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongEnergyGunExpedition
+  suffix: Dungeon, Energy Gun
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponEnergyGun
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortAdvancedLaserExpedition
+  suffix: Dungeon, Advanced Laser
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponAdvancedLaser
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongLaserCannonExpedition
+  suffix: Dungeon, Laser Cannon
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponLaserCannon
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongXrayCannonExpedition
+  suffix: Dungeon, Xray Cannon
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponXrayCannon
+      amount: 1
+
+# Sniper
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongMosinExpedition
+  suffix: Dungeon, Mosin
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSniperMosin
+      amount: 1
+    - id: MagazineBoxLightRifle
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongHristovExpedition
+  suffix: Dungeon, Hristov
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSniperHristov
+      amount: 1
+    - id: MagazineBoxAntiMateriel
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongRepeaterExpedition
+  suffix: Dungeon, Repeater
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponSniperRepeater
+      amount: 1
+    - id: MagazineBoxMagnum
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongMusketExpedition
+  suffix: Dungeon, Musket
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: Musket
+      amount: 1
+    - id: MagazineBoxAntiMateriel
+      amount: 2
+
+# Launchers
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongLauncherRocketExpedition
+  suffix: Dungeon, RPG
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponLauncherRocket
+      amount: 1
+    - id: CartridgeRocket
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongLauncherChinaLake
+  suffix: Dungeon, China Lake
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponLauncherChinaLake
+      amount: 1
+    - id: GrenadeFrag
+      amount: 2
+
+# LMG
+- type: entity
+  parent: WeaponCaseLong
+  id: WeaponCaseLongLightMachineGunL6
+  suffix: Dungeon, L6
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: WeaponLightMachineGunL6
+      amount: 1
+    - id: MagazineLightRifleBox
+      amount: 2
+
+# Melee
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortEnergyShieldExpedition
+  suffix: Dungeon, Energy Shield
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: EnergyShield
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortEnergySwordExpedition
+  suffix: Dungeon, Energy Sword
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: EnergySword
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortEnergyDaggerExpedition
+  suffix: Dungeon, Energy Dagger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: EnergyDagger
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortEnergyCutlassExpedition
+  suffix: Dungeon, Energy Cutlass
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: EnergyCutlass
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseShort
+  id: WeaponCaseShortEnergySwordDoubleExpedition
+  suffix: Dungeon, Energy Sword Double
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: EnergySwordDouble
+      amount: 1
+
+# Explosives
+
+- type: entity
+  parent: WeaponCaseShortExplosives
+  id: WeaponCaseShortPipeBomb
+  suffix: Dungeon, Pipe Bomb
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: PipeBomb
+      amount: 4
+
+- type: entity
+  parent: WeaponCaseShortExplosives
+  id: WeaponCaseShortSeismicCharge
+  suffix: Dungeon, Seismic Charge
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: SeismicCharge
+      amount: 4
+
+- type: entity
+  parent: WeaponCaseShortExplosives
+  id: WeaponCaseShortExGrenade
+  suffix: Dungeon, Explosive Grenade
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: ExGrenade
+      amount: 4
+
+- type: entity
+  parent: WeaponCaseShortExplosives
+  id: WeaponCaseShortC4
+  suffix: Dungeon, C4
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: C4
+      amount: 2
+
+# Ammo
+## .20 rifle
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxLethal20
+  id: WeaponCaseShortAmmoBoxLethal20
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxBigLethal20
+  id: WeaponCaseShortAmmoBoxBigLethal20
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxRubber20
+  id: WeaponCaseShortAmmoBoxRubber20
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxBigRubber20
+  id: WeaponCaseShortAmmoBoxBigRubber20
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxPractice20
+  id: WeaponCaseShortAmmoBoxPractice20
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxIncendiary20
+  id: WeaponCaseShortAmmoBoxIncendiary20
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxUranium20
+  id: WeaponCaseShortAmmoBoxUranium20
+  categories: [ HideSpawnMenu ]
+
+## .30 rifle
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxLethal30
+  id: WeaponCaseShortAmmoBoxLethal30
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxBigLethal30
+  id: WeaponCaseShortAmmoBoxBigLethal30
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxRubber30
+  id: WeaponCaseShortAmmoBoxRubber30
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxPractice30
+  id: WeaponCaseShortAmmoBoxPractice30
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxIncendiary30
+  id: WeaponCaseShortAmmoBoxIncendiary30
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxUranium30
+  id: WeaponCaseShortAmmoBoxUranium30
+  categories: [ HideSpawnMenu ]
+
+## .35 pistol
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxLethal35
+  id: WeaponCaseShortAmmoBoxLethal35
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxRubber35
+  id: WeaponCaseShortAmmoBoxRubber35
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxPractice35
+  id: WeaponCaseShortAmmoBoxPractice35
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxIncendiary35
+  id: WeaponCaseShortAmmoBoxIncendiary35
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxUranium35
+  id: WeaponCaseShortAmmoBoxUranium35
+  categories: [ HideSpawnMenu ]
+
+## .25 caseless
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxLethal25
+  id: WeaponCaseShortAmmoBoxLethal25
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxBigLethal25
+  id: WeaponCaseShortAmmoBoxBigLethal25
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxRubber25
+  id: WeaponCaseShortAmmoBoxRubber25
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxBigRubber25
+  id: WeaponCaseShortAmmoBoxBigRubber25
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxPractice25
+  id: WeaponCaseShortAmmoBoxPractice25
+  categories: [ HideSpawnMenu ]
+
+## Shotgun
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxLethalShotgun
+  id: WeaponCaseShortAmmoBoxLethalShotgun
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxRubberShotgun
+  id: WeaponCaseShortAmmoBoxRubberShotgun
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxPracticeShotgun
+  id: WeaponCaseShortAmmoBoxPracticeShotgun
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxIncendiaryShotgun
+  id: WeaponCaseShortAmmoBoxIncendiaryShotgun
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxUraniumShotgun
+  id: WeaponCaseShortAmmoBoxUraniumShotgun
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxSlugShotgun
+  id: WeaponCaseShortAmmoBoxSlugShotgun
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxFlareShotgun
+  id: WeaponCaseShortAmmoBoxFlareShotgun
+  categories: [ HideSpawnMenu ]
+
+## .45 ammo
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxLethal45
+  id: WeaponCaseShortAmmoBoxLethal45
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxRubber45
+  id: WeaponCaseShortAmmoBoxRubber45
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxPractice45
+  id: WeaponCaseShortAmmoBoxPractice45
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxIncendiary45
+  id: WeaponCaseShortAmmoBoxIncendiary45
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent:
+  - WeaponCaseShortAmmo
+  - StorageFillAmmoBoxUranium45
+  id: WeaponCaseShortAmmoBoxUranium45
+  categories: [ HideSpawnMenu ]

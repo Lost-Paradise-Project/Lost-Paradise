@@ -8,3 +8,5 @@ ent-LPPClothingHandsGlovesNightGuard = night guard battle gloves
     .desc = { ent-ClothingHandsGlovesBoxingBlue.desc }
 ent-LPPClothingHandsClownPomni = Pomni's?
     .desc = Good ring.
+ent-ClothingHandsMercenaryGlovesCombat = mercenary combat gloves
+    .desc = High-quality combat gloves to protect hands from mechanical damage during combat.

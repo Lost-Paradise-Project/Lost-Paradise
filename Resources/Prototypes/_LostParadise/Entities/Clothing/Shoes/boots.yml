@@ -94,3 +94,14 @@
     sprite: _LostParadise/Clothing/Shoes/Boots/upgjackboots.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Shoes/Boots/upgjackboots.rsi
+
+- type: entity
+  parent: ClothingShoesMilitaryBase # Frontier: removed BaseRestrictedContraband
+  id: ClothingShoesBootsMercenary # Frontier: Merc to Mercenary
+  name: mercenary boots
+  description: Boots that have gone through many conflicts and that have proven their combat reliability.
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Boots/mercboots.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Boots/mercboots.rsi

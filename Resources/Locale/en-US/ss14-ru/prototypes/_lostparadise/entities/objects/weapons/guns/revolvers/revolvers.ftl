@@ -26,3 +26,5 @@ ent-LPPWeaponRevolverPanther = panther
     .desc = A fast revolver for quick decision making. Uses .45 magnum cartridges.
 ent-LPPWeaponRevolverOC-38 = Revolver OC-38
     .desc = Uses .45 magnum bullets
+ent-WeaponRevolverArgenti = Argenti
+    .desc = The civilian grade Argenti Type 20 revolver. Manufactured by Silver Industries. While the design with expanded cylinder is quite ancient, the right gunslinger will know how to utilise it well. Uses .20 rifle ammo.

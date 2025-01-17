@@ -5,6 +5,7 @@
   parent: BaseItem
   description: High velocity entanglement tool.
   components:
+  - type: WeaponCaseInsertable
   - type: Item
     size: Normal
   - type: Sprite

@@ -1,0 +1,12 @@
+ent-WeaponCaseShort = футляр для оружия
+    .desc = Усиленный футляр для хранения бокового оружия и оружейных принадлежностей.
+    .suffix = Short
+ent-WeaponCaseLong = футляр для оружия
+    .desc = Усиленный чехол для хранения длинноствольного оружия и аксессуаров.
+    .suffix = Long
+ent-WeaponCaseShortAmmo = футляр для патронов
+    .desc = Усиленный кожух для хранения боеприпасов.
+    .suffix = Short
+ent-WeaponCaseShortExplosives = explosives case
+    .desc = Усиленный корпус для хранения взрывчатых веществ.
+    .suffix = Short

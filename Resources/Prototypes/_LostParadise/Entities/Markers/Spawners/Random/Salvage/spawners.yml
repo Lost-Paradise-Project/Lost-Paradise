@@ -1,0 +1,276 @@
+- type: entity
+  id: SalvageScrapSpawnerCommon
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - SalvageScrapLowValue
+    chance: 0.7
+    rarePrototypes:
+      - SalvageEquipmentCommon
+      - SalvageTreasureCommon
+    rareChance: 0.2
+
+- type: entity
+  id: SalvageScrapLowValue
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - ShardGlass
+      - SheetSteel1
+      - SheetPlastic1
+      - PartRodMetal1
+    chance: 0.7
+    rarePrototypes:
+      - SalvageScrapHighValue
+    rareChance: 0.3
+
+- type: entity
+  id: SalvageScrapHighValue
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - SheetSteel10
+      - SheetGlass10
+      - SheetPlastic10
+      - PartRodMetal10
+      - MaterialWoodPlank10
+      - SheetPlasma10
+      - ArtifactFragment1
+      - SheetPlasteel10
+    chance: 0.7
+
+- type: entity
+  id: SalvageEquipmentCommon
+  name: Salvage Equipment Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - Flare
+    - Crowbar
+    - Pickaxe
+    - ClothingMaskGas
+    - Wirecutter
+    - Screwdriver
+    - Wrench
+    - Welder
+    - Shovel
+    - FlashlightLantern
+    - FireExtinguisher
+    - SurvivalKnife
+
+- type: entity
+  id: SalvageTreasureCommon
+  name: Salvage Equipment Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - ResearchDisk
+
+- type: entity
+  id: SalvageScrapSpawnerValuable
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - SalvageScrapLowValue
+    chance: 0.7
+    rarePrototypes:
+      - SalvageEquipmentCommon
+      - SalvageTreasureCommon
+      - SalvageTreasureUncommon
+    rareChance: 0.2
+
+- type: entity
+  id: SalvageTreasureSpawnerCommon
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - SalvageTreasureCommon
+    chance: 0.8
+    rarePrototypes:
+      - SalvageEquipmentCommon
+      - SalvageScrapLowValue
+    rareChance: 0.2
+
+
+- type: entity
+  id: SalvageTreasureSpawnerValuable
+  name: Salvage Equipment Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - SalvageTreasureCommon75
+    chance: 0.8
+    rarePrototypes:
+      - SalvageEquipmentCommon90
+      - SalvageScrapLowValue
+    rareChance: 0.2
+
+- type: entity
+  id: SalvageEquipmentSpawnerCommon
+  name: Salvage Equipment Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - SalvageEquipmentCommon90
+    chance: 0.9
+    rarePrototypes:
+      - SalvageTreasureCommon75
+    rareChance: 0.1
+
+- type: entity
+  id: SalvageEquipmentCommon90
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - Flare
+    - Crowbar
+    - Pickaxe
+    - ClothingMaskGas
+    - Wirecutter
+    - Screwdriver
+    - Wrench
+    - Welder
+    - Shovel
+    - FlashlightLantern
+    - FireExtinguisher
+    - SurvivalKnife
+    chance: 0.65
+    rarePrototypes:
+      - SalvageEquipmentUncommon
+    rareChance: 0.35
+
+- type: entity
+  id: SalvageEquipmentUncommon
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - OreBag
+    - PowerCellHighPrinted
+    - RadioHandheld
+    - ClothingBeltUtility
+    - Floodlight
+    - WeaponProtoKineticAccelerator
+    - OxygenTankFilled
+    - WelderIndustrial
+    - WeaponGrapplingGun
+    - ClothingHeadHatWelding
+    - ClothingHeadHatWeldingMaskFlame
+    - ClothingHeadHatWeldingMaskFlameBlue
+    - ClothingHeadHatWeldingMaskPainted
+    - ClothingBeltQuiverCrossbowFilledBolt
+    chance: 0.86
+    rarePrototypes:
+      - SalvageEquipmentRare
+    rareChance: 0.14
+
+- type: entity
+  id: SalvageEquipmentRare
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - FultonBeacon
+      - Fulton
+      - HandHeldMassScanner
+      - WeaponCrusherDagger
+      - MiningDrill
+      - ClothingEyesGlassesMeson
+      - ClothingBeltSalvageWebbing
+      - SeismicCharge
+      - WeaponCrusher
+      - CrossbowModernHand
+    chance: 0.9
+    rarePrototypes:
+      - SalvageEquipmentLegendary
+    rareChance: 0.1
+
+- type: entity
+  id: SalvageEquipmentLegendary
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - WeaponCrusherGlaive
+      - ClothingOuterHardsuitSalvage
+      - OmnizineChemistryBottle
+
+- type: entity
+  id: SalvageTreasureCommon75
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - ResearchDisk
+    chance: 0.8
+    rarePrototypes:
+      - SalvageTreasureUncommon
+    rareChance: 0.2
+
+- type: entity
+  id: SalvageTreasureUncommon
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - IngotSilver1
+      - IngotGold1
+      - TreasureDatadiskEncrypted
+      - TreasureCDDrive
+      - TreasureHardDiskDrive
+      - TreasureFlopDiskDrive
+      - SpaceCash1000
+    chance: 0.95
+    rarePrototypes:
+      - SalvageTreasureRare
+    rareChance: 0.05
+
+- type: entity
+  id: SalvageTreasureRare
+  name: Salvage Scrap Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - LPPProcessedDiamond1
+      - TreasureCPUSupercharged
+      - ResearchDisk10000
+      - BriefcaseBrown
+      - SpaceCash1000
+      - SpaceCash2500
+      - SpaceCash5000
+      - SpaceCash10000
+
+- type: entity
+  id: SalvageEquipmentSpawnerValuable
+  name: Salvage Equipment Spawner
+  parent: MarkerBase
+  components:
+  - type: RandomSpawner
+    prototypes:
+      - SalvageEquipmentCommon90
+    chance: 0.9
+    rarePrototypes:
+      - SalvageTreasureCommon75
+    rareChance: 0.1

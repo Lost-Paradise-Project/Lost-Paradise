@@ -5,11 +5,11 @@
   description: A bag for botanists to easily move their huge harvests.
   components:
   - type: Sprite
-    sprite: _LostParadise/Objects/Specific/Hydronics/Equipment/plant_bag_bluespace.rsi
+    sprite: _LostParadise/Objects/Specific/Hydroponics/Equipment/plant_bag_bluespace.rsi
     state: icon
   - type: Item
     size: Normal
-    sprite: _LostParadise/Objects/Specific/Hydronics/Equipment/plant_bag_bluespace.rsi
+    sprite: _LostParadise/Objects/Specific/Hydroponics/Equipment/plant_bag_bluespace.rsi
   - type: Clothing
     quickEquip: false
     slots:

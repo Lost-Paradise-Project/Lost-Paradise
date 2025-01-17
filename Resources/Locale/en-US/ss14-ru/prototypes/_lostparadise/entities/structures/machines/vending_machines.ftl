@@ -27,3 +27,5 @@ ent-LPPWithSoftAnimals = With soft animals machine
     .suffix = Unlocked
 ent-LPPTeaVend = TeaVend
     .desc = Perfect for those who want to cool down a bit.
+ent-VendingMachineBountyVend = BountyVend
+    .desc = Essential gear for the bounty hunter on the go.

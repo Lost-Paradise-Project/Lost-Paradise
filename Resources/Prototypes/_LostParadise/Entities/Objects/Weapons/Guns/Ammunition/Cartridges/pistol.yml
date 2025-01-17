@@ -1,0 +1,11 @@
+- type: entity
+  id: CartridgePistolEmp
+  name: cartridge (.35 auto emp)
+  parent: BaseCartridgePistol
+  components:
+  - type: CartridgeAmmo
+    proto: BulletPistolEmp
+  - type: EmpOnTrigger
+    range: 0.3
+    energyConsumption: 2700000
+    disableDuration: 10

@@ -6,7 +6,7 @@
 #   components:
 #   - type: Clickable
 #   - type: Sprite
-#     sprite: _LostParadise/Objects/Specific/Hydronics/watering_can.rsi
+#     sprite: _LostParadise/Objects/Specific/Hydroponics/watering_can.rsi
 #     layers:
 #     - state: icon
 #   - type: SolutionContainerManager
@@ -15,7 +15,7 @@
 #         maxVol: 250
 #   - type: Item
 #     size: Normal
-#     sprite: _LostParadise/Objects/Specific/Hydronics/watering_can.rsi
+#     sprite: _LostParadise/Objects/Specific/Hydroponics/watering_can.rsi
 #   - type: SolutionTransfer
 #     transferAmount: 100
 #     maxTransferAmount: 100
@@ -57,7 +57,7 @@
 #   components:
 #   - type: Clickable
 #   - type: Sprite
-#     sprite: _LostParadise/Objects/Specific/Hydronics/watering_can_wood.rsi
+#     sprite: _LostParadise/Objects/Specific/Hydroponics/watering_can_wood.rsi
 #     layers:
 #     - state: icon
 #   - type: SolutionContainerManager
@@ -66,7 +66,7 @@
 #         maxVol: 250
 #   - type: Item
 #     size: Normal
-#     sprite: _LostParadise/Objects/Specific/Hydronics/watering_can_wood.rsi
+#     sprite: _LostParadise/Objects/Specific/Hydroponics/watering_can_wood.rsi
 #   - type: SolutionTransfer
 #     transferAmount: 100
 #     maxTransferAmount: 100
@@ -108,7 +108,7 @@
 #   components:
 #   - type: Clickable
 #   - type: Sprite
-#     sprite: _LostParadise/Objects/Specific/Hydronics/adv_watering_can.rsi
+#     sprite: _LostParadise/Objects/Specific/Hydroponics/adv_watering_can.rsi
 #     layers:
 #     - state: icon
 #   - type: SolutionContainerManager
@@ -117,7 +117,7 @@
 #         maxVol: 750
 #   - type: Item
 #     size: Normal
-#     sprite: _LostParadise/Objects/Specific/Hydronics/adv_watering_can.rsi
+#     sprite: _LostParadise/Objects/Specific/Hydroponics/adv_watering_can.rsi
 #   - type: SolutionTransfer
 #     transferAmount: 100
 #     maxTransferAmount: 100

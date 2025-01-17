@@ -1,0 +1,64 @@
+# Syndicate Bomb Suit Helmet
+- type: entity
+  parent:
+  - ClothingHeadHelmetBombSuit
+  id: ClothingHeadHelmetBombSuitSyndie
+  name: syndicate bombsuit helmet
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/syndicate_bombsuit.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/syndicate_bombsuit.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+
+- type: entity
+  parent:
+  - ClothingHeadHelmetHardsuitSyndieElite
+  id: ClothingHeadHelmetHardsuitSyndieEliteUnremoveable
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Unremoveable
+
+- type: entity
+  parent:
+  - ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitSyndieUnremoveable
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Unremoveable
+
+- type: entity
+  parent:
+  - ClothingHeadHatHoodWinterSyndie
+  id: ClothingHeadHatHoodWinterSyndieUnremoveable
+  categories: [ HideSpawnMenu ]
+  name: syndicate coat hood
+  components:
+  - type: Unremoveable
+
+- type: entity
+  parent:
+  - ClothingHeadHatHoodBioGeneral
+  id: ClothingHeadHatHoodBioArmoredSyndicate
+  name: bio hood
+  suffix: Syndicate
+  description: A hood that protects the head and face from biological contaminants. As well as user's identity.
+  components:
+  - type: IdentityBlocker
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hoods/Bio/syndicate.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hoods/Bio/syndicate.rsi
+  - type: HideLayerClothing
+    slots:
+    - Hair
+
+- type: entity
+  parent:
+  - ClothingHeadHelmetHardsuitSyndieMedic
+  id: ClothingHeadHelmetHardsuitSyndieMedicUnremoveable
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Unremoveable
