@@ -282,6 +282,7 @@
 - type: entity
   id: SnailMigrationLowPop
   parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
     startAnnouncement: true
@@ -300,6 +301,7 @@
 - type: entity
   id: SnailMigration
   parent: BaseStationEventShortDelay
+  categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
     startAnnouncement: true

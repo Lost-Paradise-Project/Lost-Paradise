@@ -11,13 +11,13 @@
   - type: Construction
     graph: PrescriptionMedHud
     node: prescmedhud
+  - type: VisionCorrection
   - type: ShowHealthBars
     damageContainers:
     - Biological
   - type: ShowHealthIcons
     damageContainers:
     - Biological
-  - type: VisionCorrection # LPP
   - type: Tag
     tags:
     - HudMedical
@@ -32,10 +32,10 @@
     sprite: DeltaV/Clothing/Eyes/Hud/prescsechud.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/Eyes/Hud/prescsechud.rsi
+  - type: VisionCorrection
   - type: Construction
     graph: PrescriptionSecHud
     node: prescsechud
-  - type: VisionCorrection #LPP
   - type: Tag
     tags:
     - HudSecurity

@@ -82,7 +82,7 @@ public sealed class TTSSystem : EntitySystem
     {
         var canPlay = false;
 #if LPP_TTS_play   //это предназначено для того, чтобы в случае отсутствия ссылки на ТТС, игра не пыталась выполнить обработку звука
-         canPlay = true;
+        //  canPlay = true;
 #endif
          if (!canPlay)
              return;

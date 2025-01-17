@@ -45,9 +45,6 @@
 - type: markingPoints
   id: MobHumanMarkingLimits
   points:
-    Face:
-      points: 1
-      required: false
     Hair:
       points: 1
       required: false
@@ -57,14 +54,14 @@
     Snout:
       points: 1
       required: false
-    Tail: # the cat tail joke
+    Tail:
       points: 1
       required: false
-    HeadTop: # the cat ear joke
+    HeadTop:
       points: 3
       required: false
     HeadSide:
-      points: 1
+      points: 3
       required: false
     Chest:
       points: 1

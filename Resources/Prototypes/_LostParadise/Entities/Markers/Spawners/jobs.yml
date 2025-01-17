@@ -1,14 +1,14 @@
-# - type: entity
-#   id: LPPAdjutantSpawn
-#   parent: SpawnPointJobBase
-#   name: adjutant spawn
-#   components:
-#   - type: SpawnPoint
-#     job_id: LPPAdjutant
-#   - type: Sprite
-#     layers:
-#     - state: green
-#     - state: hop
+- type: entity
+  id: LPPAdjutantSpawn
+  parent: SpawnPointJobBase
+  name: adjutant spawn
+  components:
+  - type: SpawnPoint
+    job_id: AdministrativeAssistant # LPPAdjutant # Появился AdministrativeAssistant
+  - type: Sprite
+    layers:
+    - state: green
+    - state: hop
 
 - type: entity
   id: LPPSpawnSecPilot
