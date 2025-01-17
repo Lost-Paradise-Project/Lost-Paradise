@@ -235,15 +235,15 @@
         map: ["Base"]
       - state: spray_cap_colors
         map: ["enum.OpenableVisuals.Layer"]
-        color: "#f6a44b"
+        color: "#99826a"
   - type: Paint
-    color: "#f6a44b"
+    color: "#99826a"
   - type: GenericVisualizer
     visuals:
       enum.OpenableVisuals.Opened:
         enum.OpenableVisuals.Layer:
-          True: {state: "spray_colors" , color: "#f6a44b"}
-          False: {state: "spray_cap_colors" , color: "#f6a44b"}
+          True: {state: "spray_colors" , color: "#99826a"}
+          False: {state: "spray_cap_colors" , color: "#99826a"}
 
 #Purple
 - type: entity

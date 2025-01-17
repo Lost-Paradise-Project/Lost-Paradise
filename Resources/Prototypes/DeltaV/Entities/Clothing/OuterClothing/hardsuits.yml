@@ -65,11 +65,11 @@
         Slash: 0.65
         Piercing: 0.65
         Radiation: 0.80
-        Caustic: 0.80
+        Caustic: 0.50
         Heat: 0.80
   - type: ClothingSpeedModifier
-    walkModifier: 0.85
-    sprintModifier: 0.85
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCombatMedical
 

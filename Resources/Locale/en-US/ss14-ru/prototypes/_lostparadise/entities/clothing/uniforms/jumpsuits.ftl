@@ -142,3 +142,5 @@ ent-LPPClothingUniformGreenTracksuit = green tracksuit
     .desc = greeb tracksuit for sports in any situation.
 ent-LPPClothingUniformJumpsuitInteq = contractor jumpsuit
     .desc = Elite clothing for elite mercs.
+ent-LPPClothingUniformExplorerAlternative = Explorer denim overalls
+    .desc = Made out of denim overalls are a good clothing if you are working with pickaxes a lot.

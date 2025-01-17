@@ -7,6 +7,9 @@
   cost: 1
   items:
     - LPPWalletBase
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LPPLoadoutWallets
 
 - type: loadout
   id: LPPLoadoutWalletDark
@@ -14,6 +17,9 @@
   cost: 1
   items:
     - LPPWalletDark
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LPPLoadoutWallets
 
 - type: loadout
   id: LPPLoadoutWalletDarkLeather
@@ -21,6 +27,9 @@
   cost: 1
   items:
     - LPPWalletDarkLeather
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LPPLoadoutWallets
 
 - type: loadout
   id: LPPLoadoutWalletGrey
@@ -28,20 +37,30 @@
   cost: 1
   items:
     - LPPWalletGrey
-  
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LPPLoadoutWallets
+
 - type: loadout
   id: LPPLoadoutWalletYellow
   category: Uncategorized
   cost: 1
   items:
     - LPPWalletYellow
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LPPLoadoutWallets
 
 - type: loadout
   id: LPPLoadoutWalletWhite
   category: Uncategorized
+  customColorTint: true
   cost: 1
   items:
     - LPPWalletWhite
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LPPLoadoutWallets
 
 - type: loadout
   id: LPPLoadoutWalletGreen
@@ -49,10 +68,16 @@
   cost: 1
   items:
     - LPPWalletGreen
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LPPLoadoutWallets
 
 - type: loadout
   id: LPPLoadoutWalletSyndicate
   category: Uncategorized
-  cost: 4
+  cost: 1
   items:
     - LPPWalletSyndicate
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LPPLoadoutWallets

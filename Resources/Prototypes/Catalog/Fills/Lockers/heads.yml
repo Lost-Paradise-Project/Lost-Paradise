@@ -27,6 +27,7 @@
         prob: 0.3
       - id: WeaponEnergyGunMini #LPP
       - id: LPPQMPanties #LPP
+      - id: ShipyardComputerCircuitboard #LPP
 
 - type: entity
   id: LockerCaptainFilledHardsuit
@@ -318,6 +319,7 @@
 #LPP
       - id: LPPBoxArmband
       - id: LPPHOSPanties
+      - id: WeaponEnergyShotgun
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -349,6 +351,7 @@
 #LPP
       - id: LPPBoxArmband
       - id: LPPHOSPanties
+      - id: WeaponEnergyShotgun
 
 - type: entity
   id: LockerFreezerVaultFilled

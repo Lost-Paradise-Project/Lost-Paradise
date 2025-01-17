@@ -313,3 +313,49 @@
     autoRechargeRate: 36
   - type: Telescope
   - type: MultiHandedItem
+
+- type: entity
+  name: NPZ energy shotgun
+  parent: [BaseWeaponBattery, BaseGunWieldable]
+  id: LPPWeaponEnergyShotgunNPZ
+  description: A one-of-a-kind prototype energy weapon that uses various shotgun configurations. It offers the possibility of both lethal and non-lethal shots, making it a versatile weapon.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/npz_energy_shotgun.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-unshaded-4
+        map: ["enum.GunVisualLayers.MagUnshaded"]
+        shader: unshaded
+  - type: Clothing
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/npz_energy_shotgun.rsi
+  - type: Gun
+    fireRate: 2
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletLaserSpread
+    fireCost: 150
+  - type: BatteryWeaponFireModes
+    fireModes:
+    - proto: BulletLaserSpread
+      fireCost: 240
+    - proto: BulletLaserSpreadNarrow
+      fireCost: 200
+    - proto: BulletDisablerSmgSpread
+      fireCost: 120
+  - type: Item
+    size: Large
+    shape:
+    - 0,0,3,1
+    sprite: _LostParadise/Objects/Weapons/Guns/Battery/npz_energy_shotgun.rsi
+  - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
+  - type: Battery
+    maxCharge: 2400
+    startingCharge: 2400
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 38
+    autoRechargePause: true
+    autoRechargePauseTime: 10

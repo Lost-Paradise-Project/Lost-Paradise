@@ -108,7 +108,6 @@
   - type: Clothing
     sprite: _LostParadise/Clothing/Head/Hats/maidencap.rsi
 
-
 - type: entity
   parent: ClothingMaskBase
   id: LPPClothingAnonMask
@@ -119,3 +118,14 @@
     sprite: _LostParadise/Clothing/Head/Hats/anon.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Head/Hats/anon.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatBeretSalvager
+  name: salvager beret
+  description: You are wearing it because of two things- you only flying on expeditions or your co-workers forget you on the station.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hats/salvagerberet.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hats/salvagerberet.rsi

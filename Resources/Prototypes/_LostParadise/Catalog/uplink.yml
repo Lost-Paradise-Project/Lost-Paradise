@@ -49,7 +49,7 @@
   icon: { sprite: /Textures/_LostParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi, state: icon }
   productEntity: LPPClothingBackpackDuffelAcientSyndicateHardsuitBundle
   cost:
-    Telecrystal: 12
+    Telecrystal: 15
   categories:
   - UplinkWearables
 

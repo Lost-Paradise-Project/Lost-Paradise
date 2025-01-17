@@ -94,7 +94,7 @@
         Heat: 0.9
 
 - type: entity
-  parent: ClothingOuterStorageBase
+  parent: [ ClothingOuterStorageBase, AllowSuitStorageClothing ]
   id: LPPExpeditorCoat
   name: expeditor coat
   description: nice coat.

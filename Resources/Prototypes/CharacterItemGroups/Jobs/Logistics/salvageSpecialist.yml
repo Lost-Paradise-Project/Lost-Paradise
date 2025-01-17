@@ -19,7 +19,7 @@
     - type: loadout
       id: LoadoutSalvageBeltSalvageWebbing
     - type: loadout
-      id: LoadoutSalvageBeltMilitaryWebbing
+      id: LPPLoadoutSalvageBeltSalvageWebbingAlt
 
 #- type: characterItemGroup
 #  id: LoadoutSalvageSpecialistEars
@@ -110,3 +110,11 @@
   items:
     - type: loadout
       id: LoadoutSalvageSpecialistUniformSuit
+    - type: loadout
+      id: LPPLoadoutClothingUniformExplorerAlternative
+    - type: loadout
+      id: LPPLoadoutClothingUniformJumpsuitExpeditor
+    - type: loadout
+      id: LPPLoadoutClothingUniformJumpsuitExplorer
+    - type: loadout
+      id: LPPLoadoutClothingUniformJumpsuitMercenary

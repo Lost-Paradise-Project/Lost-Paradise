@@ -99,7 +99,7 @@
     - LPPStoreGorlexUplinks
 
 - type: entity
-  parent: [ BaseItem, StorePresetUplink ]
+  parent: [ BaseItem, LPPStorePresetUplinkNukie ]
   id: LPPBaseUplinkRadio450TC
   name: Syndicate uplink
   description: Suspiciously looking old radio...

@@ -12,3 +12,5 @@ ent-LPPWeaponEnergyGunSoleil = Hybryd module S.O.L.E.I.L.
     .desc = The prototype of a hybrid laser "pistol", which is a device that clings to the elbow, has lethal and non-lethal firing modes.
 ent-LPPWeaponEM1Gauss = EM-1 Gauss
     .desc = Gauss gun that fires very small projectile in a very high speed.
+ent-LPPWeaponEnergyShotgunNPZ = NPZ energy shotgun
+    .desc = A one-of-a-kind prototype energy weapon that uses various shotgun configurations. It offers the possibility of both lethal and non-lethal shots, making it a versatile weapon.

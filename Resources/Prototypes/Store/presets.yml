@@ -16,7 +16,6 @@
     - UplinkJob
     - UplinkAllies
     - UplinkPointless
-    - LPPKeycards
     - UplinkSales
     currencyWhitelist:
     - Telecrystal

@@ -30,16 +30,6 @@
   category: cargoproduct-category-name-hardsuits
   group: market
 
-- type: cargoProduct
-  id: LogisticsLavrionHardsuit
-  icon:
-    sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
-    state: icon
-  product: CrateLogisticsLavrionHardsuit
-  cost: 9000
-  category: cargoproduct-category-name-hardsuits
-  group: market
-
 # Security
 # Can't abuse em if you only got 1, good luck spamming frezon
 - type: cargoProduct

@@ -56,7 +56,7 @@
   id: SheetPGlass1
   result: SheetPGlass1
   completetime: 0
-  miningPoints: 16
+  miningPoints: 9
   materials:
     RawQuartz: 100
     RawPlasma: 100
@@ -73,7 +73,7 @@
   id: SheetRPGlass1
   result: SheetRPGlass1
   completetime: 0
-  miningPoints: 16
+  miningPoints: 9
   materials:
     RawQuartz: 100
     RawPlasma: 100
@@ -94,7 +94,7 @@
   id: SheetPlasma1
   result: SheetPlasma1
   completetime: 0
-  miningPoints: 15
+  miningPoints: 8
   materials:
     RawPlasma: 100
 
@@ -109,7 +109,7 @@
   id: SheetPlasteel1
   result: SheetPlasteel1
   completetime: 0
-  miningPoints: 17
+  miningPoints: 10
   materials:
     RawPlasma: 100
     RawIron: 200 #Twice as durable as steel, Twice the material cost
@@ -135,7 +135,7 @@
   id: SheetUGlass1
   result: SheetUGlass1
   completetime: 0
-  miningPoints: 31
+  miningPoints: 13
   materials:
     RawUranium: 100
     RawQuartz: 100
@@ -152,7 +152,7 @@
   id: SheetRUGlass1
   result: SheetRUGlass1
   completetime: 0
-  miningPoints: 31
+  miningPoints: 13
   materials:
     RawUranium: 100
     RawQuartz: 100
@@ -194,7 +194,7 @@
   id: MaterialDiamond
   result: MaterialDiamond1
   completetime: 0
-  miningPoints: 50
+  miningPoints: 35
   materials:
     RawDiamond: 100
 
@@ -202,7 +202,7 @@
   id: SheetUranium1
   result: SheetUranium1
   completetime: 0
-  miningPoints: 30
+  miningPoints: 12
   materials:
     RawUranium: 100
 
@@ -210,7 +210,7 @@
   id: IngotGold1
   result: IngotGold1
   completetime: 0
-  miningPoints: 18
+  miningPoints: 9
   materials:
     RawGold: 100
 
@@ -218,7 +218,7 @@
   id: IngotSilver1
   result: IngotSilver1
   completetime: 0
-  miningPoints: 16
+  miningPoints: 8
   materials:
     RawSilver: 100
 
@@ -234,7 +234,7 @@
   id: MaterialBananium1
   result: MaterialBananium1
   completetime: 0
-  miningPoints: 60
+  miningPoints: 10
   materials:
     RawBananium: 100
 

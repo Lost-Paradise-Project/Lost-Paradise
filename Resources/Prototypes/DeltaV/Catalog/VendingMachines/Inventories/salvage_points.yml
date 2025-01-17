@@ -49,3 +49,74 @@
   # TODO: luxury elite bar capsule for 10k
   # TODO: pka mods
   # TODO: mining drone stuff
+  # LPP
+  - id: LPPCandy
+    cost: 50
+  - id: LPPClothingBeltSalvagerWebbing
+    cost: 500
+  - id: LPPClothingOuterVestSalvager
+    cost: 1250
+  - id: LPPClothingHeadHelmetSalvager
+    cost: 750
+  - id: LPPExpeditorCoat
+    cost: 350
+  - id: ClothingBeltHolster
+    cost: 500
+  - id: LPPClothingBackpackHunter
+    cost: 1000
+  - id: HandHeldMassScannerEmpty
+    cost: 750
+  - id: SprayPaintOrange
+    cost: 200
+  - id: LPPClothingShoesBootsMagHunter
+    cost: 1500
+  - id: ClothingOuterHardsuitLuxury
+    cost: 3000
+  - id: LPPClothingOuterHardsuitMiksuit
+    cost: 4000
+  - id: LPPClothingOuterHardsuitSpatioUpgraded
+    cost: 6000
+  - id: LPPClothingOuterHardsuitMiningPlus
+    cost: 6000
+  - id: LPPClothingOuterHardsuitHunter
+    cost: 6000
+  - id: LPPClothingOuterHardsuitUpgradedMining
+    cost: 8000
+  - id: LPPClothingOuterHardsuitMiningJuggernaut
+    cost: 12500
+  - id: ClothingOuterHardsuitMaxim
+    cost: 17500
+  - id: WeaponCrusherDagger
+    cost: 200
+  - id: KukriKnife
+    cost: 250
+  - id: Machete
+    cost: 750
+  - id: Cutlass
+    cost: 500
+  - id: WeaponCrusherGlaive
+    cost: 2000
+  - id: LPPweaponSchwarzlose
+    cost: 2000
+  - id: WeaponLaserSvalinn
+    cost: 3750
+  - id: LPPweaponPibodi
+    cost: 3750
+  - id: LPPweaponManlicher
+    cost: 4500
+  - id: LPPweaponShasspo
+    cost: 5000
+  - id: LPPweaponLebel
+    cost: 5000
+  - id: DoubleEmergencyOxygenTankFilled
+    cost: 300
+  - id: DoubleEmergencyNitrogenTankFilled
+    cost: 300
+  - id: BurnAutoInjector
+    cost: 300
+  - id: BruteAutoInjector
+    cost: 300
+  - id: AntiPoisonMedipen
+    cost: 300
+  - id: EmergencyMedipen
+    cost: 300

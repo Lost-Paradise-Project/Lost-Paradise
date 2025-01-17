@@ -69,15 +69,17 @@
   - type: StorageFill
     contents:
       - id: ClothingOuterArmorSwat
-        amount: 2
-      - id: ClothingHeadHelmetSwat
-        amount: 2
+      - id: LPPlothingOuterArmorSwatAlternative
+      - id: LPPlothingOuterArmorSwatEpistemic
+      - id: LPPClothingOuterHardsuitSWAT
       - id: ClothingMaskGasSwat
-        amount: 2
+        amount: 4
       - id: ClothingHandsGlovesCombat
-        amount: 2
+        amount: 4
       - id: ClothingShoesSwat
-        amount: 2
+        amount: 4
+      - id: ClothingBeltAssault
+        amount: 4
 
 - type: entity
   id: CrateSecuritySupplies

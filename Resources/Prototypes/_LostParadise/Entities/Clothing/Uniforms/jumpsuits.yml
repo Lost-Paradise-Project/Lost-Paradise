@@ -756,10 +756,6 @@
     sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/expeditor.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/expeditor.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
 
 - type: entity
   parent: ClothingUniformBase
@@ -826,3 +822,14 @@
     sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/inteqjumpsuit.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Uniforms/Jumpsuit/inteqjumpsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformExplorerAlternative
+  name: Explorer denim overalls
+  description: Made out of denim overalls are a good clothing if you are working with pickaxes a lot.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/exploreralt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Uniforms/Cargo/exploreralt.rsi

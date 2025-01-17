@@ -20,3 +20,5 @@ ent-LPPClothingHeadHatMaid = Maid's cap
     .desc = An item of clothing that is an integral part of any elite maid.
 ent-LPPClothingAnonMask = Anonymous mask
     .desc = Anon!
+ent-LPPClothingHeadHatBeretSalvager = salvager beret
+    .desc = You are wearing it because of two things- you only flying on expeditions or your co-workers forget you on the station.

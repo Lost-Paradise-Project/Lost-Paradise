@@ -1,0 +1,20 @@
+- type: characterItemGroup
+  id: LPPLoadoutWallets
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LPPLoadoutWalletBase
+    - type: loadout
+      id: LPPLoadoutWalletDark
+    - type: loadout
+      id: LPPLoadoutWalletDarkLeather
+    - type: loadout
+      id: LPPLoadoutWalletGrey
+    - type: loadout
+      id: LPPLoadoutWalletYellow
+    - type: loadout
+      id: LPPLoadoutWalletWhite
+    - type: loadout
+      id: LPPLoadoutWalletGreen
+    - type: loadout
+      id: LPPLoadoutWalletSyndicate
