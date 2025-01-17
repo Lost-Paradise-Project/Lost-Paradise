@@ -74,6 +74,12 @@
 - type: Tag
   id: LPPBorgModuleSci
 
+- type: Tag
+  id: LPPBorgModuleSyndicateSabotage
+
+- type: Tag
+  id: LPPBorgModuleSyndicateMedical
+
 # ============================================================
 #
 #                    [Части тела киборгов]

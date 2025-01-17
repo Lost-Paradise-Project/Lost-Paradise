@@ -1,0 +1,10 @@
+ent-LPPBaseBorgModuleSyndicateMedical = { ent-BaseBorgModule }
+    .desc = { ent-BaseBorgModule.desc }
+ent-LPPBorgModuleHealing = медицинский модуль Синдиката
+    .desc = Модуль для лечения базовых травм.
+ent-LPPBorgModuleAdvancedChemicals = продвинутый медицинский модуль Синдиката
+    .desc = Модуль с препаратами для лечения специфичных травм.
+ent-LPPBorgModuleCombatChemicals = штурмовой медицинский модуль Синдиката
+    .desc = Модуль с препаратами для усиления бойцов.
+ent-LPPBorgModuleSurgery = хирургический модуль Синдиката
+    .desc = С помощью данного модуля киборг сможет успешно провести операцию.

@@ -339,6 +339,36 @@
       noMindState: synd_sec
     - type: Construction
       node: syndicateassault
+    - type: MobThresholds
+      thresholds:
+        0: Alive
+        300: Critical
+        450: Dead
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 200
+        behaviors:
+        - !type:PlaySoundBehavior
+          sound:
+            path: /Audio/Machines/warning_buzzer.ogg
+            params:
+              volume: 5
+      - trigger:
+          !type:DamageTrigger
+          damage: 450
+        behaviors:
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+        - !type:EmptyContainersBehaviour
+          containers:
+          - borg_brain
+          - borg_module
+          - cell_slot
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
 
 - type: entity
   id: BorgChassisSyndicateMedical
@@ -364,10 +394,14 @@
           - BorgModuleGeneric
           - BorgModuleMedical
           - BorgModuleSyndicate
+          - LPPBorgModuleSyndicateMedical #LPP
       hasMindState: synd_medical_e
       noMindState: synd_medical
     - type: Construction
       node: syndicatemedical
+    - type: ShowHealthBars
+      damageContainers:
+      - Biological
 
 - type: entity
   id: BorgChassisSyndicateSaboteur
@@ -393,6 +427,7 @@
           - BorgModuleGeneric
           - BorgModuleEngineering
           - BorgModuleSyndicate
+          - LPPBorgModuleSyndicateSabotage #LPP
       hasMindState: synd_engi_e
       noMindState: synd_engi
     - type: Construction

@@ -6,3 +6,5 @@ ent-LPPWeaponSubMachineGunIL20 = IL-20
     .desc = Популярный пистолет-пулемёт, применяемый наёмниками. Использует патроны калибра .35
 ent-LPPWeaponSubMachineGunMAC21 = MAC-21
     .desc = Пра-пра-правнук самого популярного гангстерского пистолета-пулемёта, подходит для нео-гангстеров. Использует патроны .10 калибра.
+ent-LPPWeaponSubMachineGunC20rc = C-20RC
+    .desc = A C-20r for use by cyborgs. Creates pistol ammo on the fly from an internal ammo fabricator, which slowly self-charges.

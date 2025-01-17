@@ -1,0 +1,12 @@
+ent-BeakerRad = мензурка аритразина
+    .desc = { ent-Beaker.desc }
+ent-BeakerCold = мензурка лепоразина
+    .desc = { ent-Beaker.desc }
+ent-BeakerOxygen = мензурка дексалина плюс
+    .desc = { ent-Beaker.desc }
+ent-BeakerStimulants = мензурка стимулятора
+    .desc = { ent-Beaker.desc }
+ent-BeakerTranexamicAcid = мензурка транексамовой кислоты
+    .desc = { ent-Beaker.desc }
+ent-BeakerEpinephrine = мензурка эпинефрина
+    .desc = { ent-Beaker.desc }

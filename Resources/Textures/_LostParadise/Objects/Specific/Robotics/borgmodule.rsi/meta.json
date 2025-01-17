@@ -17,6 +17,9 @@
       "name": "service"
     },
     {
+      "name": "syndicate"
+    },
+    {
       "name": "icon-battle"
     },
     {
@@ -33,6 +36,27 @@
     },
     {
       "name": "icon-erp"
+    },
+    {
+      "name": "icon-assault-ram"
+    },
+    {
+      "name": "icon-rocket"
+    },
+    {
+      "name": "icon-shotgun"
+    },
+    {
+      "name": "icon-chameleon"
+    },
+    {
+      "name": "icon-infiltrator"
+    },
+    {
+      "name": "icon-esword"
+    },
+    {
+      "name": "icon-machinegun"
     }
   ]
 }

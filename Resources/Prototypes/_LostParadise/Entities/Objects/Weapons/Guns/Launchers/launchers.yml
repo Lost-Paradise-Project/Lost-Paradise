@@ -1,0 +1,22 @@
+- type: entity
+  name: RB-4
+  parent: BaseWeaponLauncher
+  id: LPPWeaponCyborgLauncherRocket
+  description: Block of combat rockets for syndicate cyborg.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Launchers/borg_launcher.rsi #_LostParadise\Objects\Weapons\Guns\Launchers
+    layers:
+      - state: icon
+        map: ["enum.GunVisualLayers.Base"]
+  - type: Gun
+    fireRate: 0.2
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rpgfire.ogg
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeRocket
+    proto: CartridgeRocket
+    capacity: 4
+  - type: Appearance

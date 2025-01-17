@@ -1,0 +1,57 @@
+- type: entity
+  id: LPPBaseBorgModuleSyndicateSabotage
+  parent: BaseBorgModule
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - LPPBorgModuleSyndicateSabotage
+
+- type: entity
+  id: LPPBorgModuleChameleon
+  parent: [ LPPBaseBorgModuleSyndicateSabotage, BaseProviderBorgModule ] #BaseBorgModuleSyndiSabotage
+  name: chameleon cyborg module
+  description: A module allow to mimicry almost any item on station.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Robotics/borgmodule.rsi
+    layers:
+    - state: syndicate
+    - state: icon-chameleon
+  - type: ItemBorgModule
+    items:
+    - ChameleonProjector
+    - LPPRadioJammerCyborg
+    - EnergySword
+
+- type: entity
+  id: LPPBorgModuleInfiltrator
+  parent: [ LPPBaseBorgModuleSyndicateSabotage, BaseProviderBorgModule ] #BaseBorgModuleSyndiSabotage
+  name: infiltrator cyborg module
+  description: A module allow to mimicry almost any item on station.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Specific/Robotics/borgmodule.rsi
+    layers:
+    - state: syndicate
+    - state: icon-infiltrator
+  - type: ItemBorgModule
+    items:
+    - WelderExperimental
+    - SyndicateJawsOfLife
+    - PowerDrill
+
+
+- type: entity
+  name: cybor radio jammer
+  parent: RadioJammer
+  id: LPPRadioJammerCyborg
+  description: Cyborg version of device, which will disrupt any nearby outgoing radio communication as well as suit sensors when activated.
+  slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellMicroreactor
+        disableEject: true
+
+
+
