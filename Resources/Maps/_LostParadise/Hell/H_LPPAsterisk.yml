@@ -51121,7 +51121,7 @@ entities:
     - type: Transform
       pos: -30.5,-32.5
       parent: 2
-- proto: LPPAdjutantSpawn
+- proto: SpawnPointAdminAssistant
   entities:
   - uid: 11182
     components:
