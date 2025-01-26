@@ -2,7 +2,7 @@
   id: LPPKerberos
   mapName: 'NS Керберос'
   mapPath: /Maps/_LostParadise/LPPKerberos.yml
-  minPlayers: 30
+  minPlayers: 15
   stations:
     LPPKerberos:
       stationProto: StandardNanotrasenStation

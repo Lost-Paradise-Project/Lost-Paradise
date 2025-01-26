@@ -2,7 +2,7 @@
   id: LPPIceBox
   mapName: 'NTS АйсБокс'
   mapPath: /Maps/_LostParadise/LPPIceBox.yml
-  minPlayers: 15
+  minPlayers: 0
   stations:
     IceBoxstation:
       stationProto: StandardNanotrasenStation
