@@ -27,21 +27,22 @@
       groups:
       - AllAccess
 
-# - type: entity
-#   parent: IDCardStandard
-#   id: LPPAdjutantIDCard
-#   name: adjutant ID card
-#   components:
-#   - type: Sprite
-#     layers:
-#     - state: default
-#     - state: departmenthead
-#       color: "#1B67A5"
-#     - state: subdepartment
-#       color: "#1B67A5"
-#     - state: idheadofpersonnel
-#   - type: PresetIdCard
-#     job: LPPAdjutant
+- type: entity
+  parent: IDCardStandard
+  id: LPPAdjutantIDCard
+  name: adjutant ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: departmenthead
+      color: "#1B67A5"
+    - state: subdepartment
+      color: "#1B67A5"
+    - sprite: DeltaV/Objects/Misc/id_cards.rsi
+      state: idadminassistant
+    - type: PresetIdCard
+      job: AdministrativeAssistant
 
 - type: entity
   parent: IDCardStandard

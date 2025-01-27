@@ -182,6 +182,7 @@
 - type: entity
   id: TraitorReinforcement
   parent: Traitor
+  categories: [ HideSpawnMenu ]
   components:
   - type: TraitorRule
     giveUplink: false

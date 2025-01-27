@@ -4,27 +4,17 @@
   description: job-description-admin-assistant
   playTimeTracker: JobLPPАdjutant # JobAdminAssistant # LPP Адъю трекер
   requirements:
-    - !type:DepartmentTimeRequirement
+    - !type:CharacterAgeRequirement
+      min: 25
+      max: 80
+    - !type:CharacterDepartmentTimeRequirement
       department: Engineering
-      min: 10800 # 3 hours
-    - !type:DepartmentTimeRequirement
-      department: Logistics
-      min: 10800 # 3 hours
-    - !type:DepartmentTimeRequirement
+      min: 36000
+    - !type:CharacterDepartmentTimeRequirement
       department: Medical
-      min: 10800 # 3 hours
-    - !type:DepartmentTimeRequirement
-      department: Civilian
-      min: 10800 # 3 hours
-    - !type:DepartmentTimeRequirement
-      department: Security
-      min: 10800 # 3 hours
-    - !type:DepartmentTimeRequirement
-      department: Justice
-      min: 10800 # 3 hours
-    - !type:DepartmentTimeRequirement
-      department: Epistemics
-      min: 10800 # 3 hours
+      min: 36000
+    - !type:CharacterOverallTimeRequirement
+      min: 72000
   startingGear: AdminAssistantGear
   icon: "JobIconAdminAssitant"
   supervisors: job-supervisors-command
@@ -61,8 +51,10 @@
   id: AdminAssistantGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitAdminAssistant
-    id: AdminAssistantPDA
-    ears: ClothingHeadsetAdminAssist
+    back: ClothingBackpackHOPFilled
+    neck: LPPADJUCloak
+    id: LPPAdjutantPDA
+    ears: ClothingHeadsetCommand
     shoes: ClothingShoesLeather
     socks: LPPClothingUnderSocksNormBlue
     underwear: LPPBoxerBlue

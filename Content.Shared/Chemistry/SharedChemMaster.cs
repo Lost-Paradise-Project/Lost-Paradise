@@ -94,10 +94,10 @@ namespace Content.Shared.Chemistry
         U1 = 1,
         U5 = 5,
         U10 = 10,
-        U15 = 15,
+        // U15 = 15, // LPP Перегружено
         U25 = 25,
-        U30 = 30,
-        U45 = 45,
+        // U30 = 30, // LPP
+        // U45 = 45, // LPP
         U50 = 50,
         U100 = 100,
         All,
