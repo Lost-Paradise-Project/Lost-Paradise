@@ -1,0 +1,10 @@
+loadout-description-LoadoutOuterGhostSheet = Жуткий...
+loadout-description-LoadoutOuterCoatBomberjacket = Элегантная куртка-бомбер.
+loadout-description-LoadoutOuterCoatHoodieBlack = Теплая толстовка с капюшоном.
+loadout-description-LoadoutOuterCoatHoodieGrey = Теплая толстовка с капюшоном.
+loadout-description-LoadoutOuterCoatWinterCoat = Для поддержания красоты и уюта.
+loadout-name-LoadoutOuterCoatHoodieGrey = Серая толстовка с капюшоном (окрашиваемый)
+loadout-name-LoadoutOuterCoatWinterCoat = Зимнее пальто (окрашиваемый)
+loadout-name-LoadoutOuterCoatHyenhSweater = Свитер (окрашиваемый)
+loadout-name-LoadoutOuterWinterCoatLong = Длинное зимнее пальто (окрашиваемый)
+loadout-name-LoadoutOuterCoatMNKWhiteHoodie = Толстовка с капюшоном MNK (окрашиваемый)

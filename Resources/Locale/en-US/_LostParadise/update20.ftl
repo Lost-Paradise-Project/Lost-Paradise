@@ -1,29 +1,33 @@
-lathe-category-hardsuit = Скафандры
-trait-name-ElfLanguage = Эльфийский
-trait-desc-ElfLanguage = Вы знаете Эльфийский (Нет, не OOC словечки)
-trait-name-DwarfLanguage = Дворфийский
-trait-desc-DwarfLanguage = Если не вслушиваться похоже на бубнёж русских пьяниц
-changelog-tab-title-ChangelogLPP = Обновления Lost Paradise
+lathe-category-hardsuit = Hardsuits
+trait-name-ElfLanguage = Elvish language
+trait-desc-ElfLanguage =
+    Elvish is the language of elves spoken by almost all the cabals of the Elven Web of Systems.
+    Elven speech may seem fluid, smooth, and beautiful to outsiders.
+trait-name-DwarfLanguage = Dwarvish Language
+trait-desc-DwarfLanguage =
+    Dwarvish is the language spoken by dwarves. To an outsider, if you don't listen closely, it sounds like the mumbling of drunk Russians.
+changelog-tab-title-ChangelogLPP = Lost Paradise Updates
 announcer-NTH-name = N.T.H.
 announcer-AFONYA-name = C.A.S.S.I.E.
-chatsan-awoo = воет
-chatsan-hiss = шипит
-chatsan-nyaaa = някает
-store-currency-display-centcoin = ЦентКоин
-department-CentralCommand-description = Вы самый лучший отдел!
-department-CentralCommand = Центральное командование
-reagent-name-red-bool = Ред Булеан
-reagent-desc-red-bool = Окрыляет!
-id-card-access-level-expeditor = Исследователь
+chatsan-awoo = howls
+chatsan-hiss = hisses
+chatsan-nyaaa = meows
+store-currency-display-centcoin = CentCoin
+department-CentralCommand-description = You are the best department!
+department-CentralCommand = Central Command
+reagent-name-red-bool = Red Boolean
+reagent-desc-red-bool = Gives you wings!
+id-card-access-level-expeditor = Researcher
 chat-manager-send-ooc-admin-wrap-message = OOC: [bold][color={ $adminColor }]\[{ $adminTitle }\][/color]{ $playerName }:[/bold] { $message }
 chat-manager-send-ooc-admin-sponsor-wrap-message = OOC: [bold][color={ $adminColor }]\[{ $adminTitle }\][/color] [color={ $patronColor }]{ $playerName }:[/color][/bold] { $message }
-ui-options-function-lpp-smart-equip-neck = Умная экипировка на шею
-species-name-shark = Акулоид
-reagent-effect-status-effect-Forceddead = Смерть
-reagent-effect-status-effect-SlurredSpeech = Дизартрия
+ui-options-function-lpp-smart-equip-neck = Smart Neck Equipment
+species-name-shark = Sharkoid
+reagent-effect-status-effect-Forceddead = Death
+reagent-effect-status-effect-SlurredSpeech = Slurred Speech
 character-sponsor-requirement =
-    Вы должны { $inverted ->
-        [true] не быть
-       *[other] быть
-    } между [color=yellow]{ $min }[/color] и [color=yellow]{ $max }[/color] спонсорским уровнем
-character-uuid-requirement = Вы должны быть [color=yellow]{ $uuid }[/color]
+    You must { $inverted ->
+        [true] not be
+       *[other] be
+    } between [color=yellow]{ $min }[/color] and [color=yellow]{ $max }[/color] sponsor levels
+
+character-uuid-requirement = This belongs to someone else.

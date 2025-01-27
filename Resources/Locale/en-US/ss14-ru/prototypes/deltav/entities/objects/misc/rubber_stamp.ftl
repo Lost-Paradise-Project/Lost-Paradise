@@ -8,3 +8,6 @@ ent-RubberStampNotary = notary stamp
     .desc = An old-fashioned seal for marking important documents, made of polished bronze.
 ent-RubberStampChiefJustice = chief justice stamp
     .desc = { ent-RubberStampBase.desc }
+ent-RubberStampAdminAssistant = administrative assistant rubber stamp
+    .suffix = DO NOT MAP
+    .desc = { ent-RubberStampBase.desc }

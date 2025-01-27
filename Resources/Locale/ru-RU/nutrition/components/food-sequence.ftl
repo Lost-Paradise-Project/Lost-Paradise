@@ -1,0 +1,135 @@
+food-sequence-no-space = Больше не можешь добавить!
+food-sequence-standart-gen = { $prefix }{ $content }{ $suffix }
+food-sequence-burger-suffix = бургер
+
+# ОБЩЕЕ
+
+food-sequence-content-chicken = курица
+food-sequence-content-duck = утка
+food-sequence-content-crab = краб
+food-sequence-content-dragon = дракон
+food-sequence-content-snake = змея
+food-sequence-content-xeno = ксеноморф
+food-sequence-content-rouny = рауни
+food-sequence-content-tomato = помидор
+food-sequence-content-salami = салями
+food-sequence-content-slime = слизь
+food-sequence-content-clown = клоун
+food-sequence-content-pea = горох
+food-sequence-content-bungo = бунго
+food-sequence-content-banana = банан
+food-sequence-content-mimana = мимана
+food-sequence-content-lemon = лимон
+food-sequence-content-lemoon = лемуун
+food-sequence-content-lime = лайм
+food-sequence-content-orange = апельсин
+food-sequence-content-potato = картофель
+food-sequence-content-apple = яблоко
+food-sequence-content-cocoa = какао
+food-sequence-content-corn = кукуруза
+food-sequence-content-chili = чили
+food-sequence-content-chilly = чилли
+food-sequence-content-mushroom = грибы
+food-sequence-content-aloe = алоэ
+food-sequence-content-poppy = мак
+food-sequence-content-lily = лилия
+food-sequence-content-soy = соя
+food-sequence-content-cheese = сыр
+food-sequence-content-chevre = шевр
+food-sequence-content-tofu = тофу
+food-sequence-content-brain = мозг
+food-sequence-content-tongue = язык
+food-sequence-content-ears = ухо
+food-sequence-content-stomach = желудок
+food-sequence-content-liver = печень
+food-sequence-content-clump = комок
+food-sequence-content-raw-meat = сырое мясо
+food-sequence-content-meat = мясо
+food-sequence-content-carp = карп
+food-sequence-content-bear = медведь
+food-sequence-content-penguin = пингвин
+food-sequence-content-corgi = корги
+food-sequence-content-goliath = голиаф
+food-sequence-content-rat = крыса
+food-sequence-content-lizard = ящерица
+food-sequence-content-plant = растительное мясо
+food-sequence-content-rotten = гнилое мясо
+food-sequence-content-spider = паук
+food-sequence-content-carrot = морковь
+food-sequence-content-cabbage = капуста
+food-sequence-content-garlic = чеснок
+food-sequence-content-pineapple = ананас
+food-sequence-content-onion = лук
+food-sequence-content-ambrosia = амброзия
+food-sequence-content-galaxy = галаксия
+food-sequence-content-glasstle = стеклотель
+food-sequence-content-gatfruit = гатфрут
+food-sequence-content-koibean = койбен
+food-sequence-content-watermelon = арбуз
+food-sequence-content-holymelon = священный арбуз
+food-sequence-content-cannabis = каннабис
+food-sequence-content-rainbow-cannabis = радужный каннабис
+food-sequence-content-tobacco = табак
+food-sequence-content-hamster = хомяк
+food-sequence-content-suppermatter = супермазь
+food-sequence-content-capfruit = капфрут
+food-sequence-content-berries = ягоды
+food-sequence-content-spacemans-trumpet = труба космонавта
+food-sequence-content-cherry = вишня
+food-sequence-content-snail = улитка
+
+# БУРГЕРЫ
+
+food-sequence-burger-gen = { $content }бургер
+food-sequence-burger-content-raw-meat = сырое
+food-sequence-burger-content-meat = мясной
+food-sequence-burger-content-carp = карпо
+food-sequence-burger-content-bear = медвежий
+food-sequence-burger-content-crab = крабовый
+food-sequence-burger-content-penguin = пингвин
+food-sequence-burger-content-corgi = корги
+food-sequence-burger-content-goliath = голиаф
+food-sequence-burger-content-rat = крыса
+food-sequence-burger-content-lizard = ящерица
+food-sequence-burger-content-plant = растительный
+food-sequence-burger-content-rotten = мусор
+food-sequence-burger-content-spider = паутина
+food-sequence-burger-content-carrot = морковный
+food-sequence-burger-content-cabbage = капустный
+food-sequence-burger-content-garlic = чесночный
+food-sequence-burger-content-pineapple = ананасовый
+food-sequence-burger-content-onion = луковый
+food-sequence-burger-content-ambrosia = амброзий
+food-sequence-burger-content-galaxy = галактический
+food-sequence-burger-content-glasstle = стеклянный
+food-sequence-burger-content-gatfruit = гатовый
+food-sequence-burger-content-capfruit = каповый
+food-sequence-burger-content-rice = рисовый
+food-sequence-burger-content-soy = соевый
+food-sequence-burger-content-koibean = койбен
+food-sequence-burger-content-watermelon = арбузный
+food-sequence-burger-content-holymelon = священный арбуз
+food-sequence-burger-content-cannabis = забавный
+food-sequence-burger-content-rainbow-cannabis = СМЕШНО
+food-sequence-burger-content-tobacco = табачный
+food-sequence-burger-content-cheese = сырный
+food-sequence-burger-content-brain = мозговой
+food-sequence-burger-content-tongue = язычный
+food-sequence-burger-content-appendix = аппендицит
+food-sequence-burger-content-ears = ушной
+food-sequence-burger-content-stomach = желудочный
+food-sequence-burger-content-liver = печеночный
+food-sequence-burger-content-suppermatter = суповый
+food-sequence-burger-content-hamster = хомяковый
+food-sequence-burger-content-berries = ягодный
+food-sequence-burger-content-spacemans-trumpet = космическая труба
+food-sequence-burger-content-extradimensional-orange = 3d
+food-sequence-burger-content-world-pea = мирный
+
+# ТАКО
+
+food-sequence-taco-gen = тако с { $content }
+
+# ШАШЛЫК
+
+food-sequence-skewer-gen = { $content } шашлык

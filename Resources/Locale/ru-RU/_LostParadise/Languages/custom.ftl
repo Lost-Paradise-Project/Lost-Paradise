@@ -1,6 +1,8 @@
-language-DwarfLang-name = Дварфский язык
-language-DwarfLang-description = Пиво пиво)
 language-ElfLang-name = Эльфийский язык
-language-ElfLang-description = Длинный язык прям как рост.
+language-ElfLang-description =
+    Эльфийский — это язык эльфов на котором говорят практически все кабали Эльфийской Паутины Систем. 
+    Эльфийская речь со стороны может показаться текучей, плавной и красивой.
+language-DwarfLang-name = Дварфский язык
+language-DwarfLang-description = Дварфийский это язык, на котором говорят дворфы. Со стороны, если не вслушиваться, похоже на бормотание пьяных русских.
 language-LPPSikTaj-name = Язык сик' таяран
 language-LPPSikTaj-description = Язык для настоящего мурчащего человека.

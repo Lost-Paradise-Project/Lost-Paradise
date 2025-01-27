@@ -1,8 +1,4 @@
 lathe-category-hardsuit = Скафандры
-trait-name-ElfLanguage = Эльфийский
-trait-desc-ElfLanguage = Вы знаете Эльфийский (Нет, не OOC словечки)
-trait-name-DwarfLanguage = Дворфийский
-trait-desc-DwarfLanguage = Если не вслушиваться похоже на бубнёж русских пьяниц
 changelog-tab-title-ChangelogLPP = Обновления Lost Paradise
 announcer-NTH-name = N.T.H.
 announcer-AFONYA-name = C.A.S.S.I.E.
@@ -26,4 +22,4 @@ character-sponsor-requirement =
         [true] не быть
        *[other] быть
     } между [color=yellow]{ $min }[/color] и [color=yellow]{ $max }[/color] спонсорским уровнем
-character-uuid-requirement = Вы должны быть [color=yellow]{ $uuid }[/color]
+character-uuid-requirement = Это принадлежит кому-то другому.

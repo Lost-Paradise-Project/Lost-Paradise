@@ -1,0 +1,98 @@
+- type: entity
+  id: LPPCrateFreedomImplants
+  name: Freedom implant crate
+  description: Crate filled with 5 Freedom implants that allow you to throw off the handcuffs.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: FreedomImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateAcidifierImplants
+  name: Acidifier implant crate
+  description: Crate filled with 5 Acidifier implants that allow you to destroy the body along with the equipment and infection.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: DeathAcidifierImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateEMPImplants
+  name: EMP implant crate
+  description: Crate filled with 5 EMP implants which are able to temporarily de-energize the airlocks, neutralize energy weapons and mute headsets.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: EmpImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateScramImplants
+  name: Scram implant crate
+  description: Crate filled with 5 Scram implants that allow you teleport to a random location.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: ScramImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateMicroBombImplants
+  name: Micro-bomb implant crate
+  description: Crate filled with 5 Micro-bomb implants which create small explosion after your death
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: MicroBombImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateStorageImplants
+  name: Storage implant crate
+  description: Crate filled with 5 Storage implants. It can be used as a tactical vest or as a secret pocket when working in the rear.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: StorageImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateDnaScramblerImplants
+  name: DNA mixer implant crate
+  description: Crate filled with 5 DNA mixer implants, used for long-term work behind enemy lines or under cover.
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: DnaScramblerImplanter
+        amount: 5
+
+- type: entity
+  id: LPPCrateMacroBombImplants
+  name: Macro-bomb implant crate
+  description: Crate filled with 5 Macro-bomb implants which create big explosion with delay after your death
+  parent: CrateSecgear
+  components:
+  - type: StorageFill
+    contents:
+      - id: MacroBombImplanter
+        amount: 5
+        
+- type: entity
+  id: LPPCrateWehImplants
+  name: Weh implant crate
+  description: Crate filled with 5 weh implants which let the user weh
+  parent: CrateMedical
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPWehImplanter
+        amount: 5

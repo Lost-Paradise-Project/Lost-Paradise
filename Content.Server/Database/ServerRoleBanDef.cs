@@ -1,4 +1,3 @@
-using System.Collections.Immutable;
 using System.Net;
 using Content.Shared.Database;
 using Robust.Shared.Network;
@@ -10,7 +9,7 @@ public sealed class ServerRoleBanDef
     public int? Id { get; }
     public NetUserId? UserId { get; }
     public (IPAddress address, int cidrMask)? Address { get; }
-    public ImmutableArray<byte>? HWId { get; }
+    public ImmutableTypedHwid? HWId { get; }
 
     public DateTimeOffset BanTime { get; }
     public DateTimeOffset? ExpirationTime { get; }
@@ -26,7 +25,7 @@ public sealed class ServerRoleBanDef
         int? id,
         NetUserId? userId,
         (IPAddress, int)? address,
-        ImmutableArray<byte>? hwId,
+        ImmutableTypedHwid? hwId,
         DateTimeOffset banTime,
         DateTimeOffset? expirationTime,
         int? roundId,
@@ -37,7 +36,7 @@ public sealed class ServerRoleBanDef
         ServerRoleUnbanDef? unban,
         string role)
     {
-        if (userId == null && address == null && hwId ==  null)
+        if (userId == null && address == null && hwId == null)
         {
             throw new ArgumentException("Must have at least one of banned user, banned address or hardware ID");
         }

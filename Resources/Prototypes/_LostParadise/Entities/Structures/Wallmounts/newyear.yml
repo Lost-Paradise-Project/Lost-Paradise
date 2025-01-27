@@ -77,10 +77,10 @@
   name: light bulbs
   description: Hanging garland, not the best source of light
   components:
-  - type: PointLight
-    radius: 2.0
-    energy: 2.5
-    color: "#D6001C"
+  #- type: PointLight    #лагает страшно
+  #  radius: 2.0
+  #  energy: 2.5
+  #  color: "#D6001C"
   - type: Sprite
     sprite: _LostParadise/Structures/Wallmounts/christmaslights.rsi
     state: icon

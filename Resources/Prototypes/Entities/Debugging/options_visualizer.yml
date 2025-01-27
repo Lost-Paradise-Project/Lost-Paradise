@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: OptionsVisualizerTest
   suffix: DEBUG
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Tag
     tags:

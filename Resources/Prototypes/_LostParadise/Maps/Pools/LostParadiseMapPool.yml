@@ -1,20 +1,20 @@
 - type: gameMapPool
   id: LostParadiseMapPool
   maps:
-#  - LPPAsterisk
-#  - LPPSubmarine
-#  - LPPPebble
-#  - LPPNormandy
-#  - LPPKerberos
-#  - LPPIceBox
-#  - LPPCyberiad
-#  - Plot_113
-  - NY_LPPAsterisk
+  - LPPAsterisk
   - LPPSubmarine
-  - NY_PebbleStation
-  - NY_LPPNormandy
-  - NY_LPPKerberos
+  - LPPPebble
+#  - LPPNormandy
+  - LPPKerberos
   - LPPIceBox
-  - NY_Plot_113
-  - NY_LPPCyberiad
-  
+  - LPPCyberiad
+#  - Plot_113
+#  - NY_LPPAsterisk
+  - LPPSubmarine
+#  - NY_PebbleStation
+#  - NY_LPPNormandy
+#  - NY_LPPKerberos
+  - LPPIceBox
+#  - NY_Plot_113
+#  - NY_LPPCyberiad
+

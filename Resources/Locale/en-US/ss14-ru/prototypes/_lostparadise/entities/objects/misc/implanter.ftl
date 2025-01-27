@@ -1,5 +1,9 @@
 ent-LPPLoaltyImplant = loalty implant
     .desc = Do your enemies your friends!
+ent-LPPWehImplant = Weh implant
+    .desc = Lets its user weh on-demand
+ent-LPPWehImplanter = Weh implanter
+    .desc = Weh!
 ent-LPPLoaltyImplanter = loalty implanter
     .desc = Do your enemies your friends!
 ent-LPPCrateLoaltyImplants = { ent-CrateGenericSteel }

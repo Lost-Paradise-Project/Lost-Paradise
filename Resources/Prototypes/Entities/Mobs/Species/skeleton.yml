@@ -41,6 +41,7 @@
         damage: 150
       behaviors:
       - !type:GibBehavior
+        gibContents: Skip
   - type: SlowOnDamage #modified speeds because they're so weak
     speedModifierThresholds:
       60: 0.9
@@ -102,12 +103,13 @@
           probability: 0.5
   - type: FireVisuals
     alternateState: Standing
+  - type: FootPrints
   - type: LayingDown
 
 - type: entity
   parent: BaseSpeciesDummy
   id: MobSkeletonPersonDummy
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: HumanoidAppearance
       species: Skeleton

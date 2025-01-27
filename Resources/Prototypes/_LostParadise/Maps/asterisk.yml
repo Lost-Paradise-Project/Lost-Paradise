@@ -2,7 +2,7 @@
   id: LPPAsterisk
   mapName: 'Астериск'
   mapPath: /Maps/_LostParadise/LPPAsterisk.yml
-  minPlayers: 20
+  minPlayers: 0
   maxPlayers: 70
   stations:
     LPPAsterisk:
@@ -73,5 +73,5 @@
             ChiefJustice: [ 1, 1 ]
           #LOST PARADISE
             LPPBlueShieldOfficer: [ 1, 1 ]
-            LPPAdjutant: [ 1, 1 ]
+            AdministrativeAssistant: [ 1, 1 ]
             LPPSecurityEngineer: [ 1, 1 ]
