@@ -31,33 +31,33 @@
 
   Кроме сказанного выше, существует множество способов чтобы нагреть (или охладить) газы; здесь мы рассмотрим 2 основных метода, используемые при настройке горячего контура ТЭГа: [color=red]Газодобытчик[/color], и [color=red]Камера сгорания[/color].
 
-  ## The Pipe Burn
+  ## Метод "Горящая труба"
 
-  Also known as the naive method, this is generally discouraged when working for efficiency. However, if all you need is a smidge of power to run the station, and you don't feel like setting up the burn chamber, this method will do.
+  Также известен как наивный метод, который обычно не рекомендуется для работы с эффективностью. Однако если вам нужно лишь немного энергии для работы станции, и вы не хотите настраивать камеру сгорания, этот метод подойдет.
 
-  [color=#444444]TODO: Remove this section when atmos pipes are updated to have pressure/temperature limits in a future atmos refactor.[/color]
+  [color=#444444]TODO: Удалить этот раздел, когда трубы атмоса будут обновлены для ограничения давления/температуры в будущей переработке атмоса.[/color]
 
-  Most (if not all) pipe burns follow this general layout:
+  Большинство (если не все) методов "горящей трубы" следуют данной схеме:
   <Box>
-    Gas input -> High-pressure pump -> Pipe segment (with heater) -> Low-pressure pump -> Circulator
+      Вход газа -> Насос высокого давления -> Сегмент трубы (с нагревателем) -> Насос низкого давления -> Циркулятор
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="GasMixer" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
-    <GuideEntityEmbed Entity="TegCirculator" Rotation="90" Caption="" Margin="-3"/>
+      <GuideEntityEmbed Entity="GasMixer" Rotation="90" Caption="" Margin="-1"/>
+      <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
+      <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="0" Caption="" Margin="-1"/>
+      <GuideEntityEmbed Entity="GasPressurePump" Rotation="90" Caption="" Margin="-1"/>
+      <GuideEntityEmbed Entity="TegCirculator" Rotation="90" Margin="-3"/>
   </Box>
   <Box>
-    <GuideEntityEmbed Entity="GasThermoMachineHeaterEnabled" Caption="" Rotation="180" Margin="0"/>
+      <GuideEntityEmbed Entity="GasThermoMachineHeaterEnabled" Caption="" Rotation="180" Margin="0"/>
   </Box>
-  - The Gas input is pretty self-explanatory; this is where you will input the O2-Plasma mix to be burnt. A 2:1 (67/33) ratio of Oxygen to Plasma is recommended for the hottest burn.
-  - The High-pressure pump serves 2 purposes; first, it prevents the burn from backwashing into the supply pipe, which would be.. bad, for many reasons. Second, it maintains a positive pressure in the following pipe segment, which is important to allow the burn to continue, especially since hot gases expand.
-  - The Pipe segment is where the burn actually occurs; to start it off, one can use a heater to increase the temperature up to the ignition temperature of Plasma. Afterwards, the reaction should be self-sustaining, so long as the Pressure and Moles supplied remains high enough. [color=#a4885c]Be warned[/color]; if you wish to remove the heater, it will carry some of this superheated gas with it, transferring it to the next pipenet you connect it to. Best to space the gas through a space vent, if you must.
-  - The Low-pressure pump (whose pressure should be [italic]slightly lower[/italic] than the input pump) prevents [italic]all[/italic] the gas from passing through the circulator, which could result in the loss of the Moles required to sustain a burn.
-  - The Circulator is where this generated heat will flow to the cold loop; afterwards, feel free to space the waste gases.
+  - Вход газа достаточно очевиден; сюда вы подаете смесь кислорода и плазмы для сгорания. Рекомендуется соотношение 2:1 (67/33) кислорода к плазме для самого горячего горения.
+  - Насос высокого давления выполняет 2 функции: во-первых, он предотвращает обратный поток горения в трубу подачи, что было бы... плохо, по многим причинам. Во-вторых, он поддерживает положительное давление в следующем сегменте трубы, что важно для продолжения горения, особенно так как горячие газы расширяются.
+  - Сегмент трубы — это место, где происходит само горение; чтобы его начать, можно использовать нагреватель для повышения температуры до температуры воспламенения плазмы. В дальнейшем реакция должна быть самоподдерживающейся, пока давление и количество молекул газа остаются достаточными. [color=#a4885c]Предупреждение[/color]: если вы хотите удалить нагреватель, он перенесет часть этого перегретого газа, передавая его в следующую сеть труб. Лучше выбросить газ через вентиль в космос, если это необходимо.
+  - Насос низкого давления (чье давление должно быть [italic]слегка ниже[/italic], чем у входного насоса) предотвращает прохождение [italic]всего[/italic] газа через циркулятор, что могло бы привести к потере количества молекул, необходимых для поддержания горения.
+  - Циркулятор передает сгенерированное тепло в холодный контур; после этого можете выбросить отходящие газы.
 
-  Note: Pressure pumps are used here as, while they pump on pressure (not flow-rate, which is comparatively faster), they are a bit easier to control when it comes to the limited Plasma supply on-station. However, the steps shown can be followed with volumetric pumps too.
+  Примечание: Насосы давления используются здесь, так как, хотя они работают на основе давления (а не скорости потока, которая относительно выше), ими проще управлять при ограниченных запасах плазмы на станции. Однако эти шаги можно выполнить и с объемными насосами.
 
   ## Камера сгорания
 
@@ -154,4 +154,6 @@
   </Box>
 
   Опять же, вы можете использовать Плазму и Фрезон в контуре для большей эффективности (хотя подойдёт в целом любой доступный газ).
+
+  # СЛАВА НЕЗАВИСИМОЙ АТМОСИИ
 </Document>
