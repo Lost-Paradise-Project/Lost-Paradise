@@ -5,4 +5,3 @@ loadout-name-LoadoutNeckCrucifixColor = Крест (окрашиваемый)
 loadout-name-LoadoutNeckCrucifixColorSaintPeter = Крест Святого Петра (окрашиваемый)
 loadout-name-LoadoutNeckTallit = Таллит (окрашиваемый)
 loadout-name-LoadoutNeckBedsheetWhite = Простыня (окрашиваемый)
-
