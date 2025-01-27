@@ -2,7 +2,7 @@
   id: LPPAsterisk
   mapName: 'Астериск'
   mapPath: /Maps/_LostParadise/LPPAsterisk.yml
-  minPlayers: 20
+  minPlayers: 0
   maxPlayers: 70
   stations:
     LPPAsterisk:

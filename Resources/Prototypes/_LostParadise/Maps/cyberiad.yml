@@ -2,7 +2,7 @@
   id: LPPCyberiad
   mapName: 'NS Кибериада'
   mapPath: /Maps/_LostParadise/LPPCyberiad.yml
-  minPlayers: 20
+  minPlayers: 15
   stations:
     LPPCyberiad:
       stationProto: StandardNanotrasenStation
