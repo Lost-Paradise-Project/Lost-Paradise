@@ -13,3 +13,96 @@
       moles:
         - 1.025689525 # oxygen
         - 1.025689525 # nitrogen
+
+# Delta Squad
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: LPPClothingBackpackIIC
+  id: LPPClothingBackpackDeltaLeaderFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalEngineering
+        - id: WeaponEnergyGunPistol
+        - id: MedicatedSuture
+        - id: RegenerativeMesh
+        - id: BoxZiptie
+        - id: CrowbarRed
+        - id: MagazineMagnum
+        - id: LPPDeltaUplinkShop
+        - id: DoubleEmergencyOxygenTankFilled
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: LPPClothingBackpackIIC
+  id: LPPClothingBackpackDeltaEngineerFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalEngineering
+        - id: WeaponEnergyGunPistol
+        - id: RCDRecharging
+        - id: RCDAmmo
+          amount: 2
+        - id: CableMVStack
+        - id: CableHVStack
+        - id: CableApcStack
+        - id: SheetPlasteel
+        - id: SheetSteel
+        - id: SheetGlass
+        - id: DoubleEmergencyOxygenTankFilled
+        - id: LPPC4Low
+          amount: 2
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: LPPClothingBackpackIIC
+  id: LPPClothingBackpackDeltaMedicFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalMedical
+        - id: WeaponEnergyGunPistol
+        - id: LPPCombatHypospray
+        - id: LPPCombatDefibrillator
+        - id: MedkitCombatFilled
+        - id: CrowbarRed
+        - id: OmnizineChemistryBottle
+        - id: EpinephrineChemistryBottle
+          amount: 2
+        - id: DoubleEmergencyOxygenTankFilled
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: LPPClothingBackpackIIC
+  id: LPPClothingBackpackDeltaOperatorFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalEngineering
+        - id: WeaponEnergyGunPistol
+        - id: MedicatedSuture
+        - id: RegenerativeMesh
+        - id: BoxZiptie
+        - id: CrowbarRed
+        - id: MagazineUniversalMagnum
+        - id: DoubleEmergencyOxygenTankFilled
+
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: LPPClothingBackpackIIC
+  id: LPPClothingBackpackDeltaPyrotechFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: BoxSurvivalEngineering
+        - id: MedicatedSuture
+        - id: RegenerativeMesh
+        - id: CrowbarRed
+        - id: AirTankFilled
+        - id: Multitool
+        - id: C4
+          amount: 4
+        - id: MagazineShotgunIncendiary
+          amount: 2

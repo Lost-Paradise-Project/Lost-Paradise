@@ -67,6 +67,8 @@
     - id: Screwdriver
     - id: WelderIndustrial
     - id: Multitool
+    - id: SprayPainter
+    - id: trayScanner
   - type: ExplosionResistance
     damageCoefficient: 0.5
 
