@@ -137,3 +137,186 @@
     sprite: _LostParadise/Clothing/Head/Helmets/NPZ/NPZassault.rsi
   - type: Clothing
     sprite: _LostParadise/Clothing/Head/Helmets/NPZ/NPZassault.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHelmetHeavy
+  categories: [ HideSpawnMenu ]
+  name: Heavy armor helmet
+  description: A sturdy helmet made of kevlar and plasteel, will protect against small-caliber bullets, as well as shrapnel.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/heavy.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+      visible: false
+    - state: icon-open
+      visible: true
+      map: ["foldedLayer"]
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/heavy.rsi
+    equippedPrefix: open
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+  - type: Foldable
+    folded: true
+    canFoldInsideContainer: true
+    unfoldVerbText: fold-zip-verb
+    foldVerbText: fold-unzip-verb
+  - type: FoldableClothing
+    foldedEquippedPrefix: open
+    foldedHeldPrefix: open
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+  - type: PressureProtection
+    lowPressureMultiplier: 100
+  - type: BreathMask
+  - type: Item
+    heldPrefix: open
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHelmetSwat
+  categories: [ HideSpawnMenu ]
+  name: SWAT armor helmet
+  description: A sturdy helmet made of kevlar and plasteel, will protect against small-caliber bullets, as well as shrapnel.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/swat.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+      visible: false
+    - state: icon-open
+      visible: true
+      map: ["foldedLayer"]
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/swat.rsi
+    equippedPrefix: open
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+  - type: Foldable
+    folded: true
+    canFoldInsideContainer: true
+    unfoldVerbText: fold-zip-verb
+    foldVerbText: fold-unzip-verb
+  - type: FoldableClothing
+    foldedEquippedPrefix: open
+    foldedHeldPrefix: open
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+  - type: PressureProtection
+    lowPressureMultiplier: 100
+  - type: BreathMask
+  - type: Item
+    heldPrefix: open
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHelmetSwatAlternative
+  categories: [ HideSpawnMenu ]
+  name: Lightened SWAT armor helmet
+  description: A sturdy helmet made of kevlar and plasteel, will protect against small-caliber bullets, as well as shrapnel.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/swatalt.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+      visible: false
+    - state: icon-open
+      visible: true
+      map: ["foldedLayer"]
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/swatalt.rsi
+    equippedPrefix: open
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+  - type: Foldable
+    folded: true
+    canFoldInsideContainer: true
+    unfoldVerbText: fold-zip-verb
+    foldVerbText: fold-unzip-verb
+  - type: FoldableClothing
+    foldedEquippedPrefix: open
+    foldedHeldPrefix: open
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+  - type: PressureProtection
+    lowPressureMultiplier: 100
+  - type: BreathMask
+  - type: Item
+    heldPrefix: open
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHelmetSwatEpistemic
+  categories: [ HideSpawnMenu ]
+  name: Epistemic SWAT armor helmet
+  description: A sturdy helmet made of kevlar and plasteel, will protect against small-caliber bullets, as well as shrapnel.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/swatepistemic.rsi
+    layers:
+    - state: icon
+      map: [ "unfoldedLayer" ]
+      visible: false
+    - state: icon-open
+      visible: true
+      map: ["foldedLayer"]
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/swatepistemic.rsi
+    equippedPrefix: open
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+  - type: Foldable
+    folded: true
+    canFoldInsideContainer: true
+    unfoldVerbText: fold-zip-verb
+    foldVerbText: fold-unzip-verb
+  - type: FoldableClothing
+    foldedEquippedPrefix: open
+    foldedHeldPrefix: open
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+  - type: PressureProtection
+    lowPressureMultiplier: 100
+  - type: BreathMask
+  - type: Item
+    heldPrefix: open
+  - type: TinfoilHat
+    destroyOnFry: false
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: LPPClothingHeadHelmetSalvager
+  name: Salvager helmet
+  description: Sturdy metal helmet, what else do you need?
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Helmets/salvhelmet.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Helmets/salvhelmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.95

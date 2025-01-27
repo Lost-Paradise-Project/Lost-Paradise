@@ -38,7 +38,7 @@
 
 #SWAT Helmet
 - type: entity
-  parent: [ClothingHeadBase, ClothingHeadEVAHelmetBase]
+  parent: ClothingHeadBase
   id: ClothingHeadHelmetSwat
   name: SWAT helmet
   description: An extremely robust helmet, commonly used by paramilitary forces. This one has the Nanotrasen logo emblazoned on the top.
@@ -61,9 +61,9 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.85
-        Slash: 0.85
-        Piercing: 0.85
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
         Heat: 0.85
         Radiation: 0.8
         Caustic: 0.9

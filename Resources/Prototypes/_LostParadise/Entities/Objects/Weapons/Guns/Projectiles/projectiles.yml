@@ -67,7 +67,7 @@
     - state: grapeshot
       shader: unshaded
   - type: Projectile
-    impactEffect: BulletImpactEffect
+    impactEffect: BulletImpactEffectKinetic
     damage:
       types:
         Blunt: 15
@@ -271,3 +271,116 @@
   impactFlash:
     sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/gauss.rsi
     state: impact_gauss
+
+- type: entity
+  id: LPPNailRifle
+  name: Rifle nail
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  description: Not too bad, but you still don't want to get hit by it.
+  components:
+  - type: Reflective
+    reflective:
+      - NonEnergy
+  - type: Sprite
+    noRot: false
+    sprite: _LostParadise/Objects/Weapons/Guns/Projectiles/Nail.rsi
+    layers:
+    - state: nail
+  - type: Projectile
+    impactEffect: BulletImpactEffect
+    damage:
+      types:
+        Piercing: 32
+        Blunt: 12
+
+- type: entity
+  id: LPPBulletLebel
+  name: Lebel Bullet
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  description: Not too bad, but you still don't want to get hit by it.
+  components:
+  - type: Reflective
+    reflective:
+      - NonEnergy
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: grapeshot
+      shader: unshaded
+  - type: Projectile
+    impactEffect: BulletImpactEffectKinetic
+    damage:
+      types:
+        Blunt: 15
+        Structural: 25
+        Piercing: 10
+  # Short lifespan
+  - type: TimedDespawn
+    lifetime: 1
+
+- type: entity
+  id: LPPBulletCharge2
+  name: charge bolt
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  description: That's not a lot of damage I might say.
+  components:
+  - type: Reflective
+    reflective:
+    - NonEnergy
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    layers:
+      - state: chronobolt
+        shader: unshaded
+  - type: Projectile
+    impactEffect: BulletImpactEffectKinetic
+    damage:
+      types:
+        Blunt: 8
+        Piercing: 2
+        Structural: 45
+  # Short lifespan
+  - type: TimedDespawn
+    lifetime: 0.5
+
+- type: entity
+  name: protocinetic barrage
+  id: LPPBulletchargebarrage
+  parent: LPPBulletCharge2
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ProjectileSpread
+    proto: LPPBulletCharge2
+    count: 4
+    spread: 17
+
+- type: entity
+  id: LPPBulletChargeWeak
+  name: Weak charge bolt
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  description: Marks a target for additional damage.
+  components:
+  - type: Reflective
+    reflective:
+    - NonEnergy
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    layers:
+      - state: chronobolt
+        shader: unshaded
+  - type: Projectile
+    impactEffect: BulletImpactEffectKinetic
+    damage:
+      types:
+        Blunt: 10
+        Structural: 25
+  # Short lifespan
+  - type: TimedDespawn
+    lifetime: 0.35

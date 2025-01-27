@@ -55,6 +55,8 @@
   items:
     - type: loadout
       id: LoadoutCargoOuterWinterCargo
+    - type: loadout
+      id: LoadoutCargoOuterCoatCargo
 
 - type: characterItemGroup
   id: LoadoutCargoTechnicianShoes

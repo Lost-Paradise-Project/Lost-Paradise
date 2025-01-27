@@ -862,3 +862,84 @@
         Slash: 0.9
         Piercing: 0.9
         Radiation: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: LPPClothingHeadHelmetHardsuitAcientHos
+  categories: [ HideSpawnMenu ]
+  name: NT-014 helmet
+  description: Good helmet for every needs.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hardsuits/hosacienthelm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hardsuits/hosacienthelm.rsi
+  - type: PointLight
+    color: "white"
+    radius: 5
+    energy: 3
+  - type: PressureProtection
+    highPressureMultiplier: 0.01
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Radiation: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: LPPClothingHeadHelmetHardsuitSpatioUpgraded
+  categories: [ HideSpawnMenu ]
+  name: GRT|HpI-004 helmet
+  description: Good helmet for every needs.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hardsuits/spatioupgrhelm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hardsuits/spatioupgrhelm.rsi
+  - type: PointLight
+    color: "#dff250"
+    radius: 7
+    energy: 4
+  - type: PressureProtection
+    highPressureMultiplier: 0.01
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Radiation: 0.8
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: LPPClothingHeadHelmetHardsuitCombatAlternative
+  categories: [ HideSpawnMenu ]
+  name: GRT|FPA-88 helmet
+  description: Good helmet for every needs.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _LostParadise/Clothing/Head/Hardsuits/huntersechelm.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/Head/Hardsuits/huntersechelm.rsi
+  - type: PointLight
+    color: "#dff250"
+    radius: 5
+    energy: 4
+  - type: PressureProtection
+    highPressureMultiplier: 0.01
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.95
+        Radiation: 0.85

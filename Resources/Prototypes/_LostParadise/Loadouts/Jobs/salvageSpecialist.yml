@@ -1,0 +1,83 @@
+# Шляпы ТФ2 момент
+- type: loadout
+  id: LPPLoadoutSalvageHeadBeret
+  category: JobsLogisticsSalvageSpecialist
+  cost: 0
+  exclusive: true
+  items:
+    - LPPClothingHeadHatBeretSalvager
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHead
+    - !type:CharacterJobRequirement
+      jobs:
+        - SalvageSpecialist
+
+- type: loadout
+  id: LPPLoadoutSalvageBeltSalvageWebbingAlt
+  category: JobsLogisticsSalvageSpecialist
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistBelt
+    - !type:CharacterJobRequirement
+      jobs:
+        - SalvageSpecialist
+  items:
+    - LPPClothingBeltSalvagerWebbing
+
+- type: loadout
+  id: LPPLoadoutClothingUniformExplorerAlternative
+  category: JobsLogisticsSalvageSpecialist
+  exclusive: true
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - SalvageSpecialist
+  items:
+    - LPPClothingUniformExplorerAlternative
+
+- type: loadout
+  id: LPPLoadoutClothingUniformJumpsuitExpeditor
+  category: JobsLogisticsSalvageSpecialist
+  exclusive: true
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - SalvageSpecialist
+  items:
+    - LPPClothingUniformJumpsuitExpeditor
+
+- type: loadout
+  id: LPPLoadoutClothingUniformJumpsuitExplorer
+  category: JobsLogisticsSalvageSpecialist
+  exclusive: true
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - SalvageSpecialist
+  items:
+    - ClothingUniformJumpsuitExplorer
+
+- type: loadout
+  id: LPPLoadoutClothingUniformJumpsuitMercenary
+  category: JobsLogisticsSalvageSpecialist
+  exclusive: true
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - SalvageSpecialist
+  items:
+    - ClothingUniformJumpsuitMercenary

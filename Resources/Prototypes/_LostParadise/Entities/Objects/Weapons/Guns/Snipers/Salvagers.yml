@@ -1,0 +1,281 @@
+- type: entity
+  parent: BaseItem
+  id: LPPweaponPibodi
+  name: Pibodi self-loading rifle
+  description: A hellish mix of just kinetic accelerator and classic firearms. Converts and accumulates carbon from the atmosphere into projectiles, converting part of it into a kind of gunpowder for firing, which takes quite a long time, but in the meantime you can poke your opponent with an integrated bayonet.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/Pibodi.rsi
+    state: icon
+  - type: Item
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/Pibodi.rsi
+    size: Huge
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 4.5
+    selectedMode: SemiAuto
+    angleDecay: 45
+    minAngle: 44
+    maxAngle: 45
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/latogunshot.ogg
+  - type: GunWieldBonus
+    minAngle: -43
+    maxAngle: -43
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 4.5
+    rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
+  - type: BasicEntityAmmoProvider
+    proto: LPPBulletPibodi
+    capacity: 1
+    count: 1
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    attackRate: 1.5
+    damage:
+      types:
+        Piercing: 5.5
+    angle: 2
+  - type: Appearance
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Piercing: 4.5
+        Structural: 17.5
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
+  - type: Execution
+
+- type: entity
+  parent: BaseItem
+  id: LPPweaponShasspo
+  name: Shasspo self-loading needle rifle
+  description: A rifle that shoots needles of carbon, taking it from the atmosphere. The operating principle is similar to PSLR. Has built-in optics.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/Shasspo.rsi
+    state: icon
+  - type: Item
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/Shasspo.rsi
+    size: Huge
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 5
+    selectedMode: SemiAuto
+    angleDecay: 45
+    minAngle: 64
+    maxAngle: 65
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/shasspo.ogg
+  - type: GunWieldBonus
+    minAngle: -63
+    maxAngle: -63
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 5
+    rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
+  - type: BasicEntityAmmoProvider
+    proto: LPPNailRifle
+    capacity: 1
+    count: 1
+  - type: Appearance
+  - type: Wieldable
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
+  - type: Telescope
+  - type: Execution
+  - type: MeleeWeapon
+    attackRate: 1.3333
+    damage:
+      types:
+        Blunt: 8.5
+    bluntStaminaDamageFactor: 1.25
+    swapKeys: true
+    disableHeavy: true
+    animation: WeaponArcThrust
+    wideAnimationRotation: 180
+    soundHit:
+      collection: MetalThud
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 2.5
+  - type: DamageOtherOnHit
+    staminaCost: 7.5
+
+- type: entity
+  parent: BaseItem
+  id: LPPweaponLebel
+  name: Lebel self-loading tube rifle
+  description: Tube fed rifle that uses Pibodi technologies to produse ammunition and store it like old-fation 19 century rifle.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/Lebel.rsi
+    state: icon
+  - type: Item
+    sprite: _LostParadise/Objects/Weapons/Guns/Snipers/Lebel.rsi
+    size: Huge
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 0.5
+    selectedMode: SemiAuto
+    angleDecay: 45
+    minAngle: 64
+    maxAngle: 65
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/_LostParadise/Weapons/Guns/Gunshots/shasspo.ogg
+  - type: GunWieldBonus
+    minAngle: -63
+    maxAngle: -63
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 8
+    rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
+  - type: BasicEntityAmmoProvider
+    proto: LPPBulletLebel
+    capacity: 6
+    count: 6
+  - type: Appearance
+  - type: Wieldable
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
+  - type: MeleeWeapon
+    attackRate: 1.3333
+    damage:
+      types:
+        Blunt: 8.5
+    bluntStaminaDamageFactor: 1.25
+    swapKeys: true
+    disableHeavy: true
+    animation: WeaponArcThrust
+    wideAnimationRotation: 180
+    soundHit:
+      collection: MetalThud
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 2.5
+  - type: DamageOtherOnHit
+    staminaCost: 7.5
+
+- type: entity
+  parent: BaseItem
+  id: LPPweaponManlicher
+  name: Manlicher self-loading shotgun
+  description: Double barrel self loading shotgun, works like a PCA, but shots lots of projectiles into your enemy
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Shotguns/Manlicher.rsi
+    state: icon
+  - type: Item
+    sprite: _LostParadise/Objects/Weapons/Guns/Shotguns/Manlicher.rsi
+    size: Huge
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 0.8
+    selectedMode: SemiAuto
+    angleDecay: 45
+    minAngle: 2
+    maxAngle: 10
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/kinetic_accel.ogg
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 8
+    rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
+  - type: BasicEntityAmmoProvider
+    proto: LPPBulletchargebarrage
+    capacity: 2
+    count: 2
+  - type: Appearance
+  - type: Wieldable
+  - type: GunRequiresWield
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
+  - type: MeleeWeapon
+    attackRate: 1.3333
+    damage:
+      types:
+        Blunt: 8.5
+    bluntStaminaDamageFactor: 1.25
+    swapKeys: true
+    disableHeavy: true
+    animation: WeaponArcThrust
+    wideAnimationRotation: 180
+    soundHit:
+      collection: MetalThud
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 2.5
+  - type: DamageOtherOnHit
+    staminaCost: 7.5
+
+- type: entity
+  parent: BaseItem
+  id: LPPweaponSchwarzlose
+  name: Schwarzlose self-loading pistol
+  description: Protocinetic pistol, that often uses with dagger. It can marker targets for
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/Shvartloze.rsi
+    state: icon
+  - type: Item
+    sprite: _LostParadise/Objects/Weapons/Guns/Pistols/Shvartloze.rsi
+    size: Small
+  - type: AmmoCounter
+  - type: Gun
+    fireRate: 1.2
+    selectedMode: SemiAuto
+    angleDecay: 45
+    minAngle: 2
+    maxAngle: 5
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/plasma_cutter.ogg
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 4
+    rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
+  - type: BasicEntityAmmoProvider
+    proto: LPPBulletChargeWeak
+    capacity: 5
+    count: 5
+  - type: Appearance
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - belt
+    - suitStorage
+  - type: MeleeWeapon
+    attackRate: 1.3333
+    damage:
+      types:
+        Blunt: 7.5
+    bluntStaminaDamageFactor: 1.25
+    swapKeys: true
+    disableHeavy: true
+    animation: WeaponArcThrust
+    wideAnimationRotation: 60
+    soundHit:
+      collection: MetalThud
+  - type: DamageOtherOnHit
+    staminaCost: 7.5

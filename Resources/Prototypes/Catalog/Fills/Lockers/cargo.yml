@@ -28,6 +28,7 @@
         prob: 0.2
       - id: LunchboxLogisticsFilledRandom # DeltaV - Lunchboxes!
         prob: 0.3
+      - id: Pickaxe # LPP
 
 - type: entity
   id: LockerSalvageSpecialistFilled

@@ -57,3 +57,5 @@
       id: LoadoutHeadTurbanColorable
     - type: loadout
       id: LoadoutHeadKippahColorable
+    - type: loadout
+      id: LPPLoadoutSalvageHeadBeret

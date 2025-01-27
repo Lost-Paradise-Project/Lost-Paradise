@@ -1,0 +1,154 @@
+# Общая одежда карго
+- type: loadout
+  id: LPPLoadoutCargoBlackSkirt
+  category: JobsLogisticsAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Logistics
+  items:
+    - LPPCargoBlackSkirt
+
+- type: loadout
+  id: LPPLoadoutSupplyChiefCargo
+  category: JobsLogisticsAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Logistics
+  items:
+    - LPPSupplyChiefCargo
+
+- type: loadout
+  id: LPPLoadoutSupplyChiefSkirtCargo
+  category: JobsLogisticsAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Logistics
+  items:
+    - LPPSupplyChiefSkirtCargo
+
+- type: loadout
+  id: LPPLoadoutCargotechjean
+  category: JobsLogisticsAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Logistics
+  items:
+    - LPPCargotechjean
+
+- type: loadout
+  id: LPPLoadoutTurtleneckQmCargo
+  category: JobsLogisticsAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Logistics
+  items:
+    - LPPTurtleneckQmCargo
+
+- type: loadout
+  id: LPPLoadoutCargoSkirtleneckCargo
+  category: JobsLogisticsAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Logistics
+  items:
+    - LPPSkirtleneckCargo
+
+- type: loadout
+  id: LPPLoadoutGorkaCargoVarg
+  category: JobsLogisticsAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Logistics
+  items:
+    - LPPGorkaCargoVarg
+
+- type: loadout
+  id: LPPLoadoutGorkaCargo
+  category: JobsLogisticsAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Logistics
+  items:
+    - LPPGorkaCargo
+
+- type: loadout
+  id: LPPLoadoutUtilCargo
+  category: JobsLogisticsAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Logistics
+  items:
+    - LPPUtilCargo
+
+- type: loadout
+  id: LPPLoadoutQmcCargo
+  category: JobsLogisticsAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Logistics
+  items:
+    - LPPQmcCargo
+
+- type: loadout
+  id: LoadoutCargoOuterCoatCargo
+  category: JobsLogisticsAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCargoTechnicianOuter
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Logistics
+  items:
+    - LPPClothingOuterCoatCargo

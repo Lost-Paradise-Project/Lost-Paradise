@@ -42,6 +42,18 @@
     },
     {
       "name": "diamond"
+    },
+    {
+      "name": "ammonia"
+    },
+    {
+      "name": "adamantine"
+    },
+    {
+      "name": "copper"
+    },
+    {
+      "name": "titanium"
     }
   ]
 }

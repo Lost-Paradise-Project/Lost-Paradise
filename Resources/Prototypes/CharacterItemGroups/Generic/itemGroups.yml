@@ -135,3 +135,24 @@
       id: LoadoutClothingJumpsuitSuitWhiteAlt
     - type: loadout
       id: LoadoutClothingJumpsuitSuitWhiteMob
+    #LPP
+    - type: loadout
+      id: LPPLoadoutCargoBlackSkirt
+    - type: loadout
+      id: LPPLoadoutSupplyChiefCargo
+    - type: loadout
+      id: LPPLoadoutSupplyChiefSkirtCargo
+    - type: loadout
+      id: LPPLoadoutCargotechjean
+    - type: loadout
+      id: LPPLoadoutTurtleneckQmCargo
+    - type: loadout
+      id: LPPLoadoutCargoSkirtleneckCargo
+    - type: loadout
+      id: LPPLoadoutGorkaCargoVarg
+    - type: loadout
+      id: LPPLoadoutGorkaCargo
+    - type: loadout
+      id: LPPLoadoutUtilCargo
+    - type: loadout
+      id: LPPLoadoutQmcCargo

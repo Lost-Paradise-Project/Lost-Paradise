@@ -72,20 +72,6 @@
   items:
     - ClothingBeltSalvageWebbing
 
-- type: loadout
-  id: LoadoutSalvageBeltMilitaryWebbing
-  category: JobsLogisticsSalvageSpecialist
-  cost: 0
-  customColorTint: true
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutSalvageSpecialistBelt
-    - !type:CharacterJobRequirement
-      jobs:
-        - SalvageSpecialist
-  items:
-    - ClothingBeltMilitaryWebbing
-
 # Ears
 
 # Equipment

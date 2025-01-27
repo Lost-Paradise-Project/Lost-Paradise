@@ -23,6 +23,8 @@
   id: SalvageSpecialistGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
+    outerClothing: LPPExpeditorCoat
+    gloves: LPPClothingHandsGlovesSalvage
     back: ClothingBackpackSalvageFilled
     shoes: ClothingShoesBootsSalvage
     id: SalvagePDA

@@ -55,3 +55,55 @@
     reflectProb: 0.9
     reflects:
       - Energy
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, ClothingOuterEVASuitBase]
+  id: LPPlothingOuterArmorSwatAlternative
+  name: Lightened swat suit
+  description: Composed of semi-flexible polycarbonate, reinforced materials, and integrated ballistic plating, it offers exceptional protection against melee, bullet, and environmental threats, ensuring officers remain combat-ready in the harshest conditions.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/swatalt.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/swatalt.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.6
+  - type: ExplosionResistance
+    damageCoefficient: 0.50
+  - type: GroupExamine
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetSwatAlternative
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, ClothingOuterEVASuitBase]
+  id: LPPlothingOuterArmorSwatEpistemic
+  name: Epistemic swat suit
+  description: Composed of semi-flexible polycarbonate, reinforced materials, and integrated ballistic plating, it offers exceptional protection against melee, bullet, and environmental threats, ensuring officers remain combat-ready in the harshest conditions.
+  components:
+  - type: Sprite
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/swatepistemic.rsi
+  - type: Clothing
+    sprite: _LostParadise/Clothing/OuterClothing/Armor/swatepistemic.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.7
+  - type: ExplosionResistance
+    damageCoefficient: 0.50
+  - type: GroupExamine
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetSwatEpistemic
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1

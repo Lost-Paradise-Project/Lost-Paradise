@@ -6,3 +6,5 @@ ent-LPPClothingHeadHelmetRND = RHS-14s Helmet
     .desc = The helmet from the NIS spacesuit is quite useful and has built-in functionality, such as chemical detection and welding protection, which is why it is quite bulky.
 ent-LPPClothingHeadHelmetScienceNPZ = NPZ-34r
     .desc = The helmet from the spacesuit is quite useful and has built-in eye protection from welding.
+ent-LPPClothingHeadHelmetSecurityEngineer = FPI-72 Helmet
+    .desc = Standart helmet of security engineers, it has wielding protection integrated into eyes.
